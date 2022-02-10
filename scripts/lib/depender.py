@@ -308,6 +308,7 @@ class UniversalDependencyGraph(DependencyGraph):
         text = re.sub(r"\$ ", " ", text)
         text = re.sub(r" $", "", text)
         text = re.sub(r"(?<!:) ,", ",", text)
+        text = re.sub(r" \.", ".", text)
         return "# text = " + text
 
     def original_ID_plain_text(self, **kwargs):
@@ -423,31 +424,43 @@ class Converter:
         # print('Verb num:\n',tree.num_verbs())
 
         for rule in rules:
-            for child in main_clause:
-                try:
-                    if child.height() == 2 and child[0][0] == "*":
-                        continue
-
-                    # # DEBUG:
-                    # print(rule, child.label())
-                    # print(child,'\n')
-
-                    elif re.match(rule, child.label()):
+            print("MAIN CLAUSE: ", main_clause)
+            if not str(main_clause).startswith("(lemma"):
+                for child in main_clause:
+                    print("child:", child)
+                    print(type(child))
+                    if not isinstance(child, Tree):
+                        id = "_"
+                        label = "_"
+                    else:
+                        id = child.id()
+                        label = child.label()
+                    try:
+                        # if child.height() == 2 and child[0][0] == "*":
+                        #    continue
 
                         # # DEBUG:
-                        # print('Head rules:', rules)
-                        # input()
+                        # print(rule, child.label())
+                        # print(child,'\n')
 
-                        tree.set_id(child.id())
+                        if re.match(rule, label):
 
-                        # # DEBUG
-                        # print('Head:\n',child)
-                        # input()
+                            # # DEBUG:
+                            # print('Head rules:', rules)
+                            # input()
 
-                        return
-                except AttributeError:
-                    print(child)
-                    raise
+                            if type(id) == int:
+                                tree.set_id(id)
+
+                            # # DEBUG
+                            # print('Head:\n',child)
+                            # input()
+
+                            return
+                    except AttributeError:
+                        print("child:", child)
+                        print(type(child))
+                        raise
 
         # no head-rules applicable: select either the first or last child as head
         if len(tree) == 0:
@@ -458,8 +471,10 @@ class Converter:
         elif dir == "l":
             tree.set_id(tree[-1].id())
 
-        else:
+        elif not str(tree).startswith("(lemma"):
             # print('\tNo head rule found\n')
+            print("TREE:", tree)
+            print("TREE ID: ", tree[0].id())
             tree.set_id(
                 # tree[0].id()
                 tree[0].id()
@@ -558,6 +573,7 @@ class Converter:
                 # print('No root relation found in sentence.')
                 for address, node in self.dg.nodes.items():
                     # print(address, node['head'])
+                    print("ADDRESS: ", type(address), address)
                     if address == node["head"]:
 
                         # # DEBUG:
@@ -568,7 +584,6 @@ class Converter:
                         self.dg.get_by_address(address).update(
                             {"head": 0, "rel": "root"}
                         )
-
                     elif (
                         node["head"] == address - 1
                         and self.dg.get_by_address(address - 1)["head"] == address
@@ -1777,124 +1792,233 @@ class Converter:
         const = []
         tag_list = {}
         nr = 1
-        # Tree item read in as string and transferred to UD graph instance
+
         if isinstance(tree, (IndexedCorpusTree)):
-            t = tree.remove_nodes(tags=["CODE"], trace=True)
+            t = tree.get_lemmas()
         else:
-            t = IndexedCorpusTree.fromstring(
-                tree, trim_id_tag=True, preprocess=True
-            ).remove_nodes(tags=["CODE"], trace=True)
-        if self.auto_tags:
-            TAG_DICT = self._get_tag_dict(t)
+            t = IndexedCorpusTree.fromstring(tree).get_lemmas()
+
+        # Tree item read in as string and transferred to UD graph instance
+        if isinstance(t, (IndexedCorpusTree)):
+            t = t.remove_nodes(
+                tags=[
+                    "META",
+                    "IP-CORPUS",
+                    "ID-LOCAL",
+                    "URL",
+                    "COMMENT",
+                    "lemma",
+                    "exp_seg",
+                ],
+                trace=True,
+            )
+        #    t = t.multiword_expression()
+        else:
+            t = IndexedCorpusTree.fromstring(t).remove_nodes(
+                tags=[
+                    "META",
+                    "IP-CORPUS",
+                    "ID-LOCAL",
+                    "URL",
+                    "COMMENT",
+                    "lemma",
+                    "exp_seg",
+                ],
+                trace=True,
+            )
+        # if self.auto_tags:
+        # TAG_DICT = self._get_tag_dict(t)
+
+        print("TREE:", t)
 
         self.dg = UniversalDependencyGraph()
 
-        if t.corpus_id == None:
-            self.dg.original_ID = "ID_MISSING"
-        else:
-            self.dg.original_ID = t.corpus_id
+        #    if t.corpus_id == None:
+        #        self.dg.original_ID = "ID_MISSING"
+        #    else:
+        #        self.dg.original_ID = t.corpus_id
+        print("TREE POSITIONS: ", t.treepositions())
+
+        # for i in t.treepositions():
+        #    if isinstance(t[i], Tree) and len(t[i]) == 2:
+        #        print("LEN 2, HEIGHT 2: ", t[i], t[i][0], t[i][1])
+        #        if t[i][0] == "Þvert" and t[i][1] == "á":
+        #            print("JÁÁ")
+        #            t[i][0] = "Þvert á"
+        #            del t[i][1]
 
         for i in t.treepositions():
+            print("i:", t[i])
             if isinstance(t[i], Tree):
 
                 if len(t[i]) == 1:
                     # If terminal node with label or tree with single child
                     # e.g. (VBDI tók-taka) or (NP-SBJ (PRO-N hann-hann))
+                    # print(t[i])
                     tag_list[nr] = t[i].label()
                     t[i].set_id(nr)
-                    # print(t[i],'\n', t[i].height(), len(t[i]))
+                # print(t[i],'\n', t[i].height(), len(t[i]))
+                # elif len(t[i]) == 2:
+                #    print("T[I] LEN 2:", t[i], type(t[i]))
+                #    t[i].multi_word_expression()
+                #    t[i].set_id(0)
+                #    const.append(i)
                 else:
-                    # print(t[i])
+                    #    print("T[I]: ", t[i])
                     # If constituent / complex phrase
                     # e.g. (ADVP (ADV smám-smám) (ADV saman-saman))
                     t[i].set_id(0)
                     const.append(i)
 
+                # if len(t[i]) == 2 and str(t[i][1]).startswith("(lemma"):
+                #    print("len == 2", t[i], "0 og 1:", t[i][0], t[i][1])
+                #    print("nr:", nr)
+                #    print("TYPE: ", type(t[i]), t[i].id())
+                # If terminal node with label and lemma
+                #    tag_list[nr] = t[i].label()
+                #    t[i].set_id(nr)
+                #    leaves = str(t[i]).split(" ")
+                #    print("leaves: ", leaves)
+                #    tag = leaves[0].strip("(")
+                #    FORM = str(t[i].id()) + "-" + leaves[0].strip("(") + "-" + leaves[1]
+                #    print("t[i]", t[i])
+                #    print("leaves1: ", leaves[1])
+                # FORM = decode_escaped(t[i].split("-", 1)[0])
+                #    print("FORM: ", FORM)
+                #    LEMMA = t[i][0]
+                #    print("LEMMA: ", LEMMA)
+
+                # tag = t[i][0]
+                #    print("form:", FORM)
+                #    print("lemma:", LEMMA)
+                #        t.remove_nodes(
+                #            tags=["lemma"],
+                #            trace=True,
+                #        )
+
+                #    if len(t[i]) == 1:
+                #        print("len == 1", t[i], t[i][0], t[i][-1])
+                # If terminal node with label or tree with single child
+                # e.g. (VBDI tók-taka) or (NP-SBJ (PRO-N hann-hann))
+                #        tag_list[nr] = t[i].label()
+                #        t[i].set_id(nr)
+                # print(t[i],'\n', t[i].height(), len(t[i]))
+                #    elif len(t[i]) == 3:
+                #        print("t[i]0:", t[i][0], "t[i]1:", t[i][1], "t[i]2:", t[i][2])
+
+                # else:
+                #    print("else", len(t[i]), t[i], t[i][0])
+                #    if len(t[i]) == 3:
+                #        print(3, t[i], t[i][0], t[i][1], t[i][2])
+                #    if len(t[i]) == 2:
+                #        print(2, t[i], t[i][0], t[i][1])
+
+                # print(t[i])
+                # If constituent / complex phrase
+                # e.g. (ADVP (ADV smám-smám) (ADV saman-saman))
+                #    t[i].set_id(0)
+                #    const.append(i)
+                #        LEMMA = t[i][-1]
+
             else:
+                print("t[i:", t[i])
 
                 # If trace node, skip (preliminary, may result in errors)
                 # e.g. *T*-3 etc.
-                if t[i][0] in {
-                    "0",
-                    "*",
-                    "{",
-                    "<",
-                }:  # if t[1].pos()[0][0] in {'0', '*'}:
-                    continue
+                # if t[i][0] in {
+                #    "0",
+                #    "*",
+                #    "{",
+                #    "<",
+                # }:  # if t[1].pos()[0][0] in {'0', '*'}:
+                #    continue
 
-                if "---" in t[i]:
-                    FORM = LEMMA = "-"
-                    # tag = tag_list[nr]
+                # if "---" in t[i]:
+                #    FORM = LEMMA = "-"
+                print("tag list:", tag_list)
+                if len(tag_list) > 0:
+                    try:
+                        tag = tag_list[nr]
+                    except KeyError:
+                        nr -= 1
+                        tag = tag_list[nr]
+                else:
+                    tag = None
 
-                elif "-" in t[i]:
-                    # if leaf is for whatever reason a single symbol with no
-                    # hyphen treat seperately
-                    if len(t[i]) == 1:
-                        FORM = LEMMA = tag = tag_list[nr]
-                    # If terminal node with no label (token-lemma)
-                    # e.g. tók-taka
-                    else:
-                        FORM = decode_escaped(t[i].split("-", 1)[0])
-                        LEMMA = decode_escaped(t[i].split("-", 1)[1])
-                        # tag = tag_list[nr]
-                elif t[i][0] in {
-                    "<dash/>",
-                    "<dash>",
-                    "</dash>",
-                }:
-                    FORM = LEMMA = "-"
-                    # tag = tag_list[nr]
-                else:  # If no lemma present
-                    FORM = decode_escaped(t[i])
+                # elif "-" in t[i]:
+                # if leaf is for whatever reason a single symbol with no
+                # hyphen treat seperately
+                # if len(t[i]) == 1:
+                #    FORM = LEMMA = tag = tag_list[nr]
+                # If terminal node with no label (token-lemma)
+                # e.g. tók-taka
+                if "+lemma+" in t[i]:
+                    FORM = t[i].split("+lemma+")[0]
+                    LEMMA = t[i].split("+lemma+")[1]
+                else:
+                    FORM = t[i]
                     LEMMA = None
-                tag = tag_list[nr]
-                if "+" in tag:
-                    tag = re.sub("\w+\+", "", tag)
-                if "21" in tag:
-                    tag = re.sub("21", "", tag)
-                elif "22" in tag:
-                    tag = re.sub("22", "", tag)
-                elif "31" in tag:
-                    tag = re.sub("31", "", tag)
-                elif "32" in tag:
-                    tag = re.sub("32", "", tag)
-                elif "33" in tag:
-                    tag = re.sub("33", "", tag)
-                elif tag.endswith("TTT"):
-                    tag = re.sub("-TTT", "", tag)
+                # tag = tag_list[nr]
+                # elif t[i][0] in {
+                #    "<dash/>",
+                #    "<dash>",
+                #    "</dash>",
+                # }:
+                #    FORM = LEMMA = "-"
+                # tag = tag_list[nr]
+                # else:  # If no lemma present
+                #    FORM = decode_escaped(t[i])
+                #    LEMMA = None
+                print("tag_list:", tag_list)
+                print("nr:", nr)
+                # tag = tag_list[nr]
+                # if "+" in tag:
+                #    tag = re.sub("\w+\+", "", tag)
+                #    if "21" in tag:
+                #        tag = re.sub("21", "", tag)
+                #    elif "22" in tag:
+                #        tag = re.sub("22", "", tag)
+                #    elif "31" in tag:
+                #        tag = re.sub("31", "", tag)
+                #    elif "32" in tag:
+                #        tag = re.sub("32", "", tag)
+                #    elif "33" in tag:
+                #        tag = re.sub("33", "", tag)
+                #    elif tag.endswith("TTT"):
+                #        tag = re.sub("-TTT", "", tag)
                 # token_lemma = str(FORM+'-'+LEMMA)
+                print("TAG:", tag)
                 XPOS = tag
                 MISC = defaultdict(lambda: None)
                 # Feature Classes called here
-                if self.faroese:
-                    UPOS = Features.get_UD_tag(tag, True)
-                else:
-                    UPOS = Features.get_UD_tag(tag, False)
-                if self.auto_tags:
-                    # ifd tag found from POS tagger output
-                    ifd_tag = TAG_DICT.get(FORM, "x")[0]
-                    if ifd_tag == None:
-                        if UPOS == "PRON":
-                            ifd_tag = "fp2en"
-                        else:
-                            for w, tl in TAG_DICT.items():
-                                if tl[1] == LEMMA:
-                                    ifd_tag = tl[0]
-                                else:
-                                    ifd_tag = "x"
-                    if LEMMA == None:
-                        try:
-                            LEMMA = TAG_DICT.get(re.sub(r"\$", "", FORM), "_")[1]
-                        except IndexError:
-                            LEMMA = "_"
-                    FEATS = Features(ifd_tag).features
-                    MISC = defaultdict(lambda: None, {"IFD_tag": ifd_tag})
-                elif self.faroese:
-                    FEATS = FO_Features(tag).get_features()
-                    MISC = defaultdict(lambda: None)
-                else:
-                    FEATS = ICE_Features(tag).get_features()
-                    MISC = defaultdict(lambda: None)
+                UPOS = G_Features(tag).get_UD_tag()
+                # if self.auto_tags:
+                # ifd tag found from POS tagger output
+                # ifd_tag = TAG_DICT.get(FORM, "x")[0]
+                # if ifd_tag == None:
+                #    if UPOS == "PRON":
+                #        ifd_tag = "fp2en"
+                #    else:
+                #        for w, tl in TAG_DICT.items():
+                #            if tl[1] == LEMMA:
+                #                ifd_tag = tl[0]
+                #            else:
+                #                ifd_tag = "x"
+                # if LEMMA == None:
+                #    try:
+                #        LEMMA = TAG_DICT.get(re.sub(r"\$", "", FORM), "_")[1]
+                #    except IndexError:
+                #        LEMMA = "_"
+                # FEATS = Features(ifd_tag).features
+                # MISC = defaultdict(lambda: None, {"IFD_tag": ifd_tag})
+                # elif self.faroese:
+                #    FEATS = FO_Features(tag).get_features()
+                #    MISC = defaultdict(lambda: None)
+                # else:
+                print("LEMMA: ", LEMMA)
+                FEATS = G_Features(tag).get_features()
+                # MISC = defaultdict(lambda: None)
+                MISC = defaultdict(lambda: None, {"tag": tag})
                 if FORM not in {"None", None}:
                     self.dg.add_node(
                         {
@@ -1978,11 +2102,11 @@ class Converter:
         # last block back through head selection
         for i in const:
             if re.match(
-                "(IP-MAT|IP-SUB-SPE|FRAG|QTP|IP-IMP|CONJP|META|LATIN)", t[i].label()
+                # "(IP-MAT|IP-SUB-SPE|FRAG|QTP|IP-IMP|CONJP|META|LATIN)", t[i].label()
+                "S0",
+                t[i].label(),
             ):
                 self._select_head(t[i])
-                # if re.match('IP-MAT', t[i].label()):
-                #    self.dg.original_phrase_tag = 'IP-MAT'
 
         for i in list(set(t.treepositions()).difference(const)):
             if isinstance(t[i][0], Tree) and t[i].label() == "CONJP":
@@ -1994,9 +2118,6 @@ class Converter:
             head_tag = t[i].label()
             head_nr = t[i].id()
 
-            # if re.search(r'\w{1,5}(21|22|31|32|33)', head_tag):
-            head_tag = re.sub("(21|22|31|32|33)", "", head_tag)
-
             for child in t[i]:
 
                 # block to catch explatives inside e.g. NP-SBJ nodes
@@ -2007,18 +2128,26 @@ class Converter:
                 ):
                     mod_tag = child[0].label()
                 else:
-                    mod_tag = child.label()
+                    try:
+                        mod_tag = child.label()
+                    except:
+                        # print(child)
+                        # raise
+                        mod_tag = "_"
 
-                # if re.search(r'\w{1,5}(21|22|31|32|33)', mod_tag):
-                mod_tag = re.sub("(21|22|31|32|33)", "", mod_tag)
-                mod_nr = child.id()
+                try:
+                    mod_nr = child.id()
+                except:
+                    print("CHILD TYPE: ", type(child), child)
+                    mod_nr = "_"
 
                 if child:
                     # NOTE: This is where the root is selected
 
                     if head_nr == mod_nr:
                         if re.match(
-                            "IP-MAT|IP-MAT-[^=].*|INTJP|FRAG|CP-QUE-SPE|IP-IMP-SPE[^=1]|QTP|CODE|LATIN|TRANSLATION|META|IP-IMP|CP-QUE|CP-EXL|CP-THT",
+                            # "IP-MAT|IP-MAT-[^=].*|INTJP|FRAG|CP-QUE-SPE|IP-IMP-SPE[^=1]|QTP|CODE|LATIN|TRANSLATION|META|IP-IMP|CP-QUE|CP-EXL|CP-THT",
+                            "S0",
                             head_tag,
                         ):  # todo root phrase types from config
                             self.dg.get_by_address(mod_nr).update(

@@ -148,14 +148,14 @@ def main():
 
             input_path = path
             output_file = (
-                re.sub(r"\.psd", ".conllu", os.path.basename(input_path))
+                re.sub(r"\.gld", ".conllu", os.path.basename(input_path))
                 if args.output
                 else None
             )
             output_path = (
                 os.path.join("../CoNLLU", output_file) if output_file else None
             )
-            file_id = re.sub(r"\.psd", "", os.path.basename(input_path))
+            file_id = re.sub(r"\.gld", "", os.path.basename(input_path))
 
             with open(input_path) if input_path else stdin as infile, open(
                 output_path, "w"
@@ -163,10 +163,10 @@ def main():
                 for line in infile.readlines():
                     psd += line
                     if len(line.strip()) == 0 and len(psd.strip()) > 0:
-
+                        print("psd:", psd)
                         dep = c.create_dependency_graph(psd)
                         sent_id = (
-                            re.sub(r"\.psd", "", file_id).upper()
+                            re.sub(r"\.gld", "", file_id).upper()
                             + ",."
                             + str(file_sents + 1)
                         )
@@ -174,7 +174,7 @@ def main():
                         sent_id_line = "# sent_id = " + sent_id + "\n"
 
                         outfile.write(sent_id_line)
-                        outfile.write(str(dep.original_ID_plain_text()) + "\n")
+                        # outfile.write(str(dep.original_ID_plain_text()) + "\n")
                         outfile.write(str(dep.plain_text()) + "\n")
                         outfile.write(c.add_space_after(dep).to_conllU())
 

@@ -108,6 +108,76 @@ UD_map = {
     "X": "X",
 }
 
+GC_UD_map = {
+    "no": "NOUN",  # generalized nouns tagged as NOUN
+    "so": "VERB",
+    "lo": "ADJ",
+    "fs": "ADP",
+    "nhm": "PART",
+    "gr": "DET",
+    "uh": "?",
+    "ao": "ADV",
+    "eo": "ADV",
+    "st": "CONJ",  # TODO: ath. mun á conj og sconj miðað við st og stt
+    "stt": "CONJ",
+    "fn": "PRON",
+    "pfn": "PRON",
+    "abfn": "PRON",
+    "person": "PROPN",
+    "sérnafn": "PROPN",
+    "entity": "PROPN",
+    "fyrirtæki": "PROPN",
+    "gata": "PROPN",
+    "to": "NUM",
+    "töl": "NUM",
+    "tala": "NUM",
+    # "D": "DET",  # generalized determiners tagged as DET (determiner)
+    # "ONE": "DET",  # ath. áður taggað sem NUM
+    # "ONES": "DET",
+    "P": "ADP",  # generalized prepositions tagged as ADP
+    "RP": "ADP",  # specifiers of P/complements of P - Ath. flokka sem eitthvað annað?
+    "RPX": "ADP",
+    "FOR": "ADP",
+    "Q": "DET",  # quantifiers tagged as DET - áður: quantifiers tagged as ADJ - ATH ÞETTA ÞARF AÐ ENDURSKOÐA
+    "C": "SCONJ",  # complimentizer tagged as SCONJ (subordinate conjunction)
+    "V": "VERB",
+    "DO": "VERB",  #'gera', do, tagged as verb
+    "HV": "AUX",  #'have' tagged as auxiliary verb
+    "MD": "AUX",  # modal verbs tagged as auxiliary
+    "RD": "VERB",  #'verða', become, tagged as verb
+    "W": "DET",  # WH-determiner tagged as DET (determiner)
+    "so": "VERB",  # All forms of "verða" tagged as VERB
+    "TO": "PART",  # Infinitive marker tagged as PART (particle)
+    "FP": "PART",  # focus particles marked as PART
+    "NPR": "PROPN",  # proper nouns tagged as PROPN
+    "NPRS": "PROPN",
+    "PRO": "PRON",
+    # 'WQ' : 'PRON',  #interrogative pronoun
+    "WQ": "SCONJ",
+    "WPRO": "PRON",  # wh-pronouns
+    "SUCH": "PRON",
+    "ES": "PRON",  # expletive tagged as PRON
+    "MAN": "PRON",
+    "MANS": "PRON",
+    "NUM": "NUM",
+    "ADJ": "ADJ",  # Adjectives tagged as ADV
+    "ADJR": "ADJ",  # Comparative adjectives tagged as ADV
+    "ADJS": "ADJ",  # Superlative adjectives tagged as ADV
+    "WADJ": "ADJ",
+    "ADV": "ADV",  # Adverbs tagged as ADV
+    "WADV": "ADV",  # TODO: ath. betur - bara spor?
+    "NEG": "ADV",
+    "ADVR": "ADV",  # Comparative adverbs tagged as ADV
+    "ADVS": "ADV",  # Superlative adverbs tagged as ADV
+    "ALSO": "ADV",
+    "OTHER": "PRON",
+    "OTHERS": "PRON",
+    "INTJ": "INTJ",  # interjection
+    "FW": "X",
+    "LS": "NUM",  # list marker tagged as numeral
+    "X": "X",
+}
+
 OTB_map = {
     "Gender": {"k": "Masc", "v": "Fem", "h": "Neut", "x": None},
     "Number": {"f": "Plur", "e": "Sing"},  # noun, plural number  # noun singular number
@@ -164,6 +234,67 @@ OTB_map = {
         "a": "Card",
         "o": "Ord",  # FIX Ordinal number (not in OTB tag)
         "p": "Frac",  # Fraction
+    },
+}
+
+Greynir_map = {
+    "Gender": {"kk": "Masc", "kvk": "Fem", "hk": "Neut", "x": None},
+    "Number": {
+        "ft": "Plur",
+        "et": "Sing",
+    },  # noun, plural number  # noun singular number
+    "PronType": {
+        "pfn": "Prs",  # personal
+        # "e": "Prs",  # posessive (tagged as personal)
+        # 'a' : 'Rcp',   #reciprocal
+        # "s": "Int",  # interrogative
+        # "t": "Rel",  # relative
+        # "a": "Dem",  # demonstrative
+        # "b": "Dem",
+        # "o": "Ind",  # indefinite
+        "abfn": "Prs",  # reflexive, categorized as personal/possessive in UD
+    },
+    "Tense": {"nt": "Pres", "þt": "Past"},  # present tense  # past tense
+    "Person": {"p1": "1", "p2": "2", "p3": "3"},
+    "Case": {
+        "nf": "Nom",  # nominative case
+        "þf": "Acc",  # accusative case
+        "þgf": "Dat",  # dative case
+        "ef": "Gen",  # dative case
+        None: "Nom",
+    },
+    "Mood": {
+        "bh": "Imp",  # imperative
+        "fh": "Ind",  # indicative
+        "vh": "Sub",  # subjunctive
+    },
+    "VerbForm": {
+        "lh": "Part",  # present participle
+        "lhþt": "Part",  # past participle
+        "sagnb": "Sup",
+        "nh": "Inf",  # infinitive
+    },
+    "Voice": {
+        "gm": "Act",  # active voice
+        "mm": "Mid",  # middle voice
+        # "pass": "Pass",  # passive voice
+    },
+    "Definite": {
+        "ind": "Ind",  # adjectives
+        "gr": "Def",  # definite
+        #    "g": "Def",  # nouns
+        #    "o": None,  # 'ÓBEYGT', TODO: check if output 100% correct
+        None: "Ind",
+    },
+    "Degree": {  # adjectives  # adjectives  # nouns
+        "fst": "Pos",  # positive, default case
+        "mst": "Cmp",  # comparative
+        "esb": "Sup",  # superlative, indefinite
+        "evb": "Sup",  # superlative, definite
+    },
+    "NumType": {
+        "tala": "Card",  # cardinal number
+        "raðnr": "Ord",  # ordinal number
     },
 }
 

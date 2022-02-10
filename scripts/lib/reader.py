@@ -1,4 +1,3 @@
-
 import re
 import sys
 
@@ -7,13 +6,14 @@ from nltk.tree import Tree
 
 from lib.joiners import NodeJoiner
 
+
 class IndexedCorpusTree(Tree):
     """
     Tree object extension with indexed constituents and corpus ID and ID number attributes
     See NLTK Tree class documentation for more: https://www.nltk.org/_modules/nltk/tree.html
-    
+
     2.7.20 - Added text preprocessing to fromstring method
-    
+
     Args:
         node (tree): leaf.
         children (tree?): constituents.
@@ -36,43 +36,44 @@ class IndexedCorpusTree(Tree):
         #         self[0] = str(self[0])+'-'+(self[0])
 
     @classmethod
-    def fromstring(cls, s, trim_id_tag=False, preprocess=False, remove_empty_top_bracketing=False):
+    def fromstring(
+        cls, s, trim_id_tag=False, preprocess=False, remove_empty_top_bracketing=False
+    ):
         """
         Extension of parent class method to check for ID tag and
         """
         # block for joining seperated nodes in the IcePaHC tree structure
-        if preprocess == True:
-            # print('\n'.join(s.split('\n')))
-            j = NodeJoiner(s.split('\n'))
-            # print('\n'.join(j.lines))
-            for n in j.indexes:
-                # Adverbs and various small nodes processed
-                j.join_adverbs(n)
-                # ADD METHOD HERE for fixing various nodes
-                # NPs processed
-                j.join_NPs(n)
-                # j.join_split_nodes(n) # NOTE: tentatively removed because error
+        #     if preprocess == True:
+        # print('\n'.join(s.split('\n')))
+        #         j = NodeJoiner(s.split('\n'))
+        # print('\n'.join(j.lines))
+        #         for n in j.indexes:
+        # Adverbs and various small nodes processed
+        #             j.join_adverbs(n)
+        # ADD METHOD HERE for fixing various nodes
+        # NPs processed
+        #             j.join_NPs(n)
+        # j.join_split_nodes(n) # NOTE: tentatively removed because error
 
-                # verbs processed
-                j.join_verbs_same_line(n)
-                j.join_verbs_two_lines(n)
-                j.join_verbs_three_lines(n)
-                # adjectives processed
-                j.join_adjectives(n)
-            # print('\n'.join(j.lines))
-        else:
-            j = NodeJoiner(s.split('\n'))
-        s = '\n'.join(j.lines)
+        # verbs processed
+        #             j.join_verbs_same_line(n)
+        #             j.join_verbs_two_lines(n)
+        #             j.join_verbs_three_lines(n)
+        # adjectives processed
+        #             j.join_adjectives(n)
+        # print('\n'.join(j.lines))
+        #     else:
+        j = NodeJoiner(s.split("\n"))
+        s = "\n".join(j.lines)
         tree = super().fromstring(s)
-        if trim_id_tag and tree._label == '' and len(tree) == 2:
-            tree[0].corpus_id = str(tree[1]).strip('()ID ')
-            try:
-                tree[0].corpus_id_num = str(tree[1]).strip('()ID ').split(',')[1]
-            except IndexError:
-                tree[0].corpus_id_num = None
-            tree = tree[0]
+        # if trim_id_tag and tree._label == "" and len(tree) == 2:
+        #    tree[0].corpus_id = str(tree[1]).strip("()ID ")
+        #    try:
+        #        tree[0].corpus_id_num = str(tree[1]).strip("()ID ").split(",")[1]
+        #    except IndexError:
+        #        tree[0].corpus_id_num = None
+        tree = tree[1]
         return tree
-
 
     def id(self):
         """
@@ -129,9 +130,8 @@ class IndexedCorpusTree(Tree):
     #             pos_tags.append(child.label())
     #     return pos_tags
 
-
     def num_verbs(self):
-        '''18.03.20
+        """18.03.20
 
         # Based on similar method in class UniversalDependencyGraph()
 
@@ -144,13 +144,13 @@ class IndexedCorpusTree(Tree):
         Returns:
             int: Number of verb tags found in sentence.
 
-        '''
+        """
 
         verb_count = 0
         for tag in self.tags(lambda t: t.height() == 2):
-        # for tag in self.immmediate_tags():
+            # for tag in self.immmediate_tags():
             # print(tag)
-            if tag[0:2] in  {'VB', 'BE', 'DO', 'HV', 'MD', 'RD',}:
+            if tag == "so":
                 verb_count += 1
 
         return verb_count
@@ -198,12 +198,28 @@ class IndexedCorpusTree(Tree):
                         self.remove(child)
             for i in reversed(self.treepositions()):
                 # print(i)
-                if isinstance(self[i], Tree) and self[i].height() == 2 and len(self[i]) == 1:
+                if (
+                    isinstance(self[i], Tree)
+                    and self[i].height() == 2
+                    and len(self[i]) in {1, 2}
+                ):
+                    #    print("REMOVE NODES TRUE: ", self[i])
+                    # if self[i].label() == "lemma":
+                    #    print("LEMMA HÉR", self[i].label())
                     if self[i].label() in tags:
                         parent_index = i[:-1]
                         # print(self[i])
                         # print(self[parent_index])
                         pairs_to_delete.append((parent_index, i))
+                # elif isinstance(self[i], Tree):
+                #    print(
+                #        "REMOVE NODES FALSE:",
+                #        self[i],
+                #        "HEIGHT: ",
+                #        self[i].height(),
+                #        "LEN: ",
+                #        len(self[i]),
+                #    )
             for parent, child in pairs_to_delete:
                 try:
                     self[parent].remove(self[child])
@@ -216,9 +232,11 @@ class IndexedCorpusTree(Tree):
             for i in reversed(self.treepositions()):
                 if isinstance(self[i], Tree):
                     try:
-                        if self[i].label() == 'PP' \
-                        and len(self[i]) == 2 \
-                        and self[i][1][0][0] == '*':
+                        if (
+                            self[i].label() == "PP"
+                            and len(self[i]) == 2
+                            and self[i][1][0][0] == "*"
+                        ):
                             child_index = i + (1,)
                             pairs_to_delete.append((i, child_index))
                             # if len(self[i][0]) == 0:
@@ -228,14 +246,16 @@ class IndexedCorpusTree(Tree):
                             # elif self[i][0][0] in {'0', '*'}:
                             #     parent_index = i[:-1]
                             #     pairs_to_delete.append((parent_index, i))
-                        elif self[i].label() == 'VB' \
-                        and self[i].height() == 2 \
-                        and self[i][0] == '*':
+                        elif (
+                            self[i].label() == "VB"
+                            and self[i].height() == 2
+                            and self[i][0] == "*"
+                        ):
                             parent_index = i[:-1]
                             pairs_to_delete.append((parent_index, i))
-                        #elif self[i].label() == 'CODE' \
-                        #and len(self[i]) == 2 \
-                        #and self[i][1][0][0] == '{':
+                        # elif self[i].label() == 'CODE' \
+                        # and len(self[i]) == 2 \
+                        # and self[i][1][0][0] == '{':
                         #    child_index = i + (1,)
                         #    pairs_to_delete.append((i, child_index))
                     except IndexError:
@@ -274,7 +294,7 @@ class IndexedCorpusTree(Tree):
             except:
                 continue
 
-        # print('clean out:\n',self)
+        # print("clean out:\n", self)
         return self
 
     def remove_trace_nodes(self):
@@ -291,6 +311,66 @@ class IndexedCorpusTree(Tree):
         #         # print(subtree)
         # return self
 
+    def get_lemmas(self):
+        """
+        Attach lemma to token
+        """
+
+        count = 0
+        for i in reversed(self.treepositions()):
+            print("I:", i)
+            print(list(reversed(self.treepositions()))[count])
+            if isinstance(self[i], Tree) and self[i].label() == "lemma":
+
+                self[list(reversed(self.treepositions()))[count + 1]] = (
+                    self[list(reversed(self.treepositions()))[count + 1]]
+                    + "+lemma+"
+                    + self[list(reversed(self.treepositions()))[count - 1]]
+                )
+
+            count += 1
+
+        return self
+
+    def multiword_expression(self):
+        """
+        Define MWEs as one token
+        """
+        # print(self, self.height())
+
+        # for i in reversed(self.treepositions()):
+        #    if (
+        #        isinstance(self[i], Tree)
+        #        and self[i].height() == 2
+        #        and len(self[i]) == 2
+        #    ):
+        #        print("HEIGHT 2, LEN 2: ", self)
+        #        if str(self) == "(fs_þf Þvert á)":
+        #            print("JÁ")
+
+    #    pairs_to_merge = []
+    #    for i in reversed(self.treepositions()):
+    # print(i)
+    #        if (
+    #            isinstance(self[i], Tree)
+    #            and self[i].height() == 2
+    #            and len(self[i]) == 2
+    #        ):
+    #    print("REMOVE NODES TRUE: ", self[i])
+    #            if str(self) == "(fs_þf Þvert á)":
+    #                parent_index = i[:-1]
+    # print(self[i])
+    # print(self[parent_index])
+    #                pairs_to_merge.append((parent_index, i))
+    #    for parent, child in pairs_to_merge:
+    #        try:
+    #            self[parent].remove(self[child])
+    #        except:
+    #            continue
+
+    #    return self
+
+
 class IndexedCorpusTreeError(Exception):
     """docstring for ."""
 
@@ -301,12 +381,11 @@ class IndexedCorpusTreeError(Exception):
             self.message = None
 
     def __str__(self):
-        print('calling str')
+        print("calling str")
         if self.message:
-            return 'IndexedCorpusTreeError: {0}'.format(self.message)
+            return "IndexedCorpusTreeError: {0}".format(self.message)
         else:
-            return 'IndexedCorpusTreeError has been raised'
-
+            return "IndexedCorpusTreeError has been raised"
 
 
 class IcePaHCFormatReader(CategorizedBracketParseCorpusReader):
@@ -318,13 +397,14 @@ class IcePaHCFormatReader(CategorizedBracketParseCorpusReader):
 
     """
 
-
     def __init__(self, *args, **kwargs):
         CategorizedBracketParseCorpusReader.__init__(self, *args, **kwargs)
 
     def _parse(self, t):
         try:
-            tree = IndexedCorpusTree.fromstring(t, remove_empty_top_bracketing=False, trim_id_tag=True, preprocess=True).remove_nodes(tags=['CODE'], trace=True)
+            tree = IndexedCorpusTree.fromstring(
+                t, remove_empty_top_bracketing=False, trim_id_tag=True, preprocess=True
+            ).remove_nodes(tags=["CODE"], trace=True)
             # # If there's an empty node at the top, strip it off
             # if tree.label() == '' and len(tree) == 2:
             #     tree[0].corpus_id = str(tree[1]).strip('()ID ')
