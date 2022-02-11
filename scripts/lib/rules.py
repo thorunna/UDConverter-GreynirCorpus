@@ -131,6 +131,7 @@ GC_UD_map = {
     "to": "NUM",
     "töl": "NUM",
     "tala": "NUM",
+    "grm": "PUNCT",
     # "D": "DET",  # generalized determiners tagged as DET (determiner)
     # "ONE": "DET",  # ath. áður taggað sem NUM
     # "ONES": "DET",
@@ -253,6 +254,7 @@ Greynir_map = {
         # "b": "Dem",
         # "o": "Ind",  # indefinite
         "abfn": "Prs",  # reflexive, categorized as personal/possessive in UD
+        "gr": "Art"
     },
     "Tense": {"nt": "Pres", "þt": "Past"},  # present tense  # past tense
     "Person": {"p1": "1", "p2": "2", "p3": "3"},
@@ -289,6 +291,7 @@ Greynir_map = {
     "Degree": {  # adjectives  # adjectives  # nouns
         "fst": "Pos",  # positive, default case
         "mst": "Cmp",  # comparative
+        "est": "Sup",  # superlative
         "esb": "Sup",  # superlative, indefinite
         "evb": "Sup",  # superlative, definite
     },
