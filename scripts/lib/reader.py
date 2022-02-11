@@ -201,7 +201,7 @@ class IndexedCorpusTree(Tree):
                 if (
                     isinstance(self[i], Tree)
                     and self[i].height() == 2
-                    and len(self[i]) in {1, 2}
+                    and len(self[i]) in {1, 2, 3, 4}
                 ):
                     #    print("REMOVE NODES TRUE: ", self[i])
                     # if self[i].label() == "lemma":
@@ -318,15 +318,51 @@ class IndexedCorpusTree(Tree):
 
         count = 0
         for i in reversed(self.treepositions()):
-            print("I:", i)
-            print(list(reversed(self.treepositions()))[count])
             if isinstance(self[i], Tree) and self[i].label() == "lemma":
 
-                self[list(reversed(self.treepositions()))[count + 1]] = (
-                    self[list(reversed(self.treepositions()))[count + 1]]
-                    + "+lemma+"
-                    + self[list(reversed(self.treepositions()))[count - 1]]
-                )
+                if len(self[i]) == 2:
+                    # The lemma is a two-word phrase
+                    self[list(reversed(self.treepositions()))[count + 1]] = (
+                        self[list(reversed(self.treepositions()))[count + 1]]
+                        + "+lemma+"
+                        + self[list(reversed(self.treepositions()))[count - 1]]
+                        + "+"
+                        + self[list(reversed(self.treepositions()))[count - 2]]
+                    )
+
+                elif len(self[i]) == 3:
+                    # The lemma is a three-word phrase
+                    self[list(reversed(self.treepositions()))[count + 1]] = (
+                        self[list(reversed(self.treepositions()))[count + 1]]
+                        + "+lemma+"
+                        + self[list(reversed(self.treepositions()))[count - 1]]
+                        + "+"
+                        + self[list(reversed(self.treepositions()))[count - 2]]
+                        + "++"
+                        + self[list(reversed(self.treepositions()))[count - 3]]
+                    )
+
+                elif len(self[i]) == 4:
+                    # The lemma is a four-word phrase
+                    self[list(reversed(self.treepositions()))[count + 1]] = (
+                        self[list(reversed(self.treepositions()))[count + 1]]
+                        + "+lemma+"
+                        + self[list(reversed(self.treepositions()))[count - 1]]
+                        + "+"
+                        + self[list(reversed(self.treepositions()))[count - 2]]
+                        + "++"
+                        + self[list(reversed(self.treepositions()))[count - 3]]
+                        + "+++"
+                        + self[list(reversed(self.treepositions()))[count - 4]]
+                    )
+
+                else:
+                    # The lemma is attached to the phrase above
+                    self[list(reversed(self.treepositions()))[count + 1]] = (
+                        self[list(reversed(self.treepositions()))[count + 1]]
+                        + "+lemma+"
+                        + self[list(reversed(self.treepositions()))[count - 1]]
+                    )
 
             count += 1
 
@@ -334,41 +370,58 @@ class IndexedCorpusTree(Tree):
 
     def multiword_expression(self):
         """
-        Define MWEs as one token
+        Define single-phrase MWEs as one token
         """
-        # print(self, self.height())
 
-        # for i in reversed(self.treepositions()):
-        #    if (
-        #        isinstance(self[i], Tree)
-        #        and self[i].height() == 2
-        #        and len(self[i]) == 2
-        #    ):
-        #        print("HEIGHT 2, LEN 2: ", self)
-        #        if str(self) == "(fs_þf Þvert á)":
-        #            print("JÁ")
+        count = 0
+        for i in reversed(self.treepositions()):
 
-    #    pairs_to_merge = []
-    #    for i in reversed(self.treepositions()):
-    # print(i)
-    #        if (
-    #            isinstance(self[i], Tree)
-    #            and self[i].height() == 2
-    #            and len(self[i]) == 2
-    #        ):
-    #    print("REMOVE NODES TRUE: ", self[i])
-    #            if str(self) == "(fs_þf Þvert á)":
-    #                parent_index = i[:-1]
-    # print(self[i])
-    # print(self[parent_index])
-    #                pairs_to_merge.append((parent_index, i))
-    #    for parent, child in pairs_to_merge:
-    #        try:
-    #            self[parent].remove(self[child])
-    #        except:
-    #            continue
+            if (
+                isinstance(self[i], Tree)
+                and len(self[i]) == 2
+                and self[i].height() == 2
+            ):
+                # Two-word phrase
+                self[list(reversed(self.treepositions()))[count - 1]] = (
+                    self[list(reversed(self.treepositions()))[count - 1]]
+                    + "+"
+                    + self[list(reversed(self.treepositions()))[count - 2]]
+                )
+            elif (
+                isinstance(self[i], Tree)
+                and len(self[i]) == 3
+                and self[i].height() == 2
+            ):
+                # Three-word phrase
+                print(self[i])
+                self[list(reversed(self.treepositions()))[count - 1]] = (
+                    self[list(reversed(self.treepositions()))[count - 1]]
+                    + "+"
+                    + self[list(reversed(self.treepositions()))[count - 2]]
+                    + "++"
+                    + self[list(reversed(self.treepositions()))[count - 3]]
+                )
+            elif (
+                isinstance(self[i], Tree)
+                and len(self[i]) == 4
+                and self[i].height() == 2
+                and "+"
+                not in self[
+                    list(reversed(self.treepositions()))[count - 1]
+                ]  # The phrase hasn't gone through if loop before
+            ):
+                # Four-word phrase
+                self[list(reversed(self.treepositions()))[count - 1]] = (
+                    self[list(reversed(self.treepositions()))[count - 1]]
+                    + "+"
+                    + self[list(reversed(self.treepositions()))[count - 2]]
+                    + "++"
+                    + self[list(reversed(self.treepositions()))[count - 3]]
+                    + "+++"
+                    + self[list(reversed(self.treepositions()))[count - 4]]
+                )
 
-    #    return self
+            count += 1
 
 
 class IndexedCorpusTreeError(Exception):
