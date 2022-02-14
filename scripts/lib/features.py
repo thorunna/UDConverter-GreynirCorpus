@@ -14,7 +14,7 @@ import requests
 
 from collections import defaultdict
 
-from lib.rules import UD_map, GC_UD_map, Greynir_map, OTB_map, Icepahc_feats
+from lib.rules import GC_UD_map, Greynir_map
 from lib import fo_rules
 from lib.tools import decode_escaped
 
@@ -217,7 +217,7 @@ class G_Features:
                 tag = "PUNCT"
                 return tag
             elif self.tag is not None:
-                tag = UD_map.get(tag[0], "X")
+                tag = GC_UD_map.get(tag[0], "X")
                 return tag
             else:
                 return None

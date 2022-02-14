@@ -20,7 +20,8 @@ from nltk.data import path as nltk_path
 
 from lib import depender
 from lib.reader import IcePaHCFormatReader, IndexedCorpusTree
-from lib.tools import fix_IcePaHC_tree_errors, tagged_corpus
+
+# from lib.tools import fix_IcePaHC_tree_errors, tagged_corpus
 
 
 def run_pre(corpus_path):
