@@ -11,7 +11,7 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
 
     if mod_tag in ["NP", "NX", "WNX"]:
         # -ADV, -CMP, -PRN, -SBJ, -OB1, -OB2, -OB3, -PRD, -POS, -COM, -ADT, -TMP, -MSR
-        return relation_NP.get(mod_func, "dep")
+        return relation_NP.get(mod_func, "VANTAR_LIÐ")
     elif mod_tag == "WNP":
         return "obj"
     elif mod_tag in ["NS", "N", "NPRS"] and head_tag in [
@@ -76,7 +76,7 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
     ):
         return "acl:relcl"
     elif mod_tag in ["IP", "VP"]:
-        return relation_IP.get(mod_func, "dep")
+        return relation_IP.get(mod_func, "VANTAR_LIÐ")
     elif mod_tag[:2] == "VB" and head_tag == "CP":
         return "ccomp"
     elif head_tag == "IP" and head_func == "INF-PRP":
@@ -91,7 +91,7 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
         if head_func and "=" in head_func:
             return "conj"
         else:
-            return "dep"
+            return "VANTAR_LIÐ"
     # elif mod_tag[:2] in ['VB', 'DO', 'HV', 'RD', 'MD']: #todo
     elif mod_tag[:2] in ["DO", "HV", "RD", "MD"]:  # todo
         return "aux"
@@ -111,13 +111,13 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
     ]:  # N: tvö N í einum NP tengd með CONJ
         return "conj"
     elif mod_tag == "CONJP" and head_tag == "IP":
-        return relation_IP.get(head_func, "dep")
+        return relation_IP.get(head_func, "VANTAR_LIÐ")
     elif mod_tag == "CONJP":
         return "conj"
     elif mod_tag == "CP" and mod_func == "REL" and head_tag == "ADVP":
         return "advcl"
     elif mod_tag == "CP":
-        return relation_CP.get(mod_func, "dep")
+        return relation_CP.get(mod_func, "VANTAR_LIÐ")
     elif mod_tag in ["C", "CP", "TO", "WQ"]:  # infinitival marker with marker relation
         return "mark"
     elif mod_tag in ["NUM", "NUMP"]:
@@ -146,16 +146,16 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
         "META",
         "REF",
     ]:  # XXX = annotator unsure of parse, LS = list marker
-        return "dep"  # unspecified dependency
+        return "VANTAR_LIÐ"  # unspecified dependency
     elif head_tag in ["META", "CODE", "REF", "FRAG"]:
-        return "dep"
+        return "VANTAR_LIÐ"
     elif mod_tag in ["N", "NS", "NPR", "NPRS"]:
         # return 'rel'
-        return "dep"
+        return "VANTAR_LIÐ"
     elif head_tag == "IP" and head_func == "SMC":
-        return "dep"
+        return "VANTAR_LIÐ"
 
-    return "dep"
+    return "VANTAR_LIÐ"
 
 
 def decode_escaped(string, lemma=False):
@@ -178,85 +178,3 @@ def decode_escaped(string, lemma=False):
         return string
     else:
         return string
-
-
-def fix_IcePaHC_tree_errors(tree):
-    """
-    Fixes specific punctuation errors in IcePaHC trees
-    """
-    if not tree.corpus_id:
-        return tree
-    fileid = tree.corpus_id.split(",")[0]
-    if fileid == "1150.HOMILIUBOK.REL-SER":
-        if tree.corpus_id_num in {".691", ".697", ".1040", ".1044", ".1572"}:
-            tree.append(IndexedCorpusTree.fromstring("(. ?-?)"))
-        elif tree.corpus_id_num == ".1486":
-            tree.append(IndexedCorpusTree.fromstring("(. .-.)"))
-    elif fileid == "1275.MORKIN.NAR-HIS":
-        if tree.corpus_id_num == ".451":
-            tree.append(IndexedCorpusTree.fromstring("(. .-.)"))
-            tree.append(IndexedCorpusTree.fromstring('(" "-")'))
-        elif tree.corpus_id_num == ".1680":
-            tree.append(IndexedCorpusTree.fromstring("(. .-.)"))
-    return tree
-
-
-def tagged_corpus(corpus):
-    """
-    Gets tagged data for corpus
-    """
-    text = ""
-    IDs = []
-    counter = 0
-    for tree in corpus:
-        counter += 1
-        text += re.sub(
-            r" \.",
-            ".",
-            re.sub(
-                r"(\$ \$|\*ICH\*|\*T\*)",
-                "",
-                " ".join(
-                    [
-                        tree[i].split("-")[0]
-                        for i in tree.treepositions()
-                        if isinstance(tree[i], str) and "-" in tree[i]
-                    ]
-                ),
-            )
-            + "\n",
-        )
-
-        if tree.corpus_id != None:
-            IDs.append(tree.corpus_id)
-        else:
-            # IDs.append(IDs[0][:-1]+str(counter))
-            IDs.append("ID_missing_" + str(counter))
-
-    url = "http://malvinnsla.arnastofnun.is"
-    payload = {"text": text, "lemma": "on"}
-    headers = {}
-    # res = requests.post(url, data=payload, headers=headers)
-    # tagged = json.loads(res.text)
-    tagged = None
-    tagged_sents = []
-    while tagged is None:
-        try:
-            res = requests.post(url, data=payload, headers=headers)
-            tagged = json.loads(res.text)
-        except:
-            pass
-    for par in tagged["paragraphs"]:
-        tagged_sent = {}
-        for sent in par["sentences"]:
-            for pair in sent:
-                tagged_sent[pair["word"]] = (pair["tag"], pair["lemma"])
-        tagged_sents.append(tagged_sent)
-    ID_sents = dict(zip(IDs, tagged_sents))
-
-    # for i, j in ID_sents.items():
-    #     print(i,j)
-    #     input()
-    # exit()
-
-    return ID_sents

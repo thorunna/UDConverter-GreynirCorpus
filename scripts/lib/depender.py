@@ -2008,7 +2008,7 @@ class Converter:
 
                     if head_nr == mod_nr:
                         if re.match(
-                            "S0",
+                            "S0.*",
                             head_tag,
                         ):  # todo root phrase types from config
                             self.dg.get_by_address(mod_nr).update(
