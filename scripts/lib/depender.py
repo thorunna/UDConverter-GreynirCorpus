@@ -428,8 +428,6 @@ class Converter:
         for rule in rules:
             if not str(main_clause).startswith("(lemma"):
                 for child in main_clause:
-                    print("child:", child)
-                    print(type(child))
                     if not isinstance(child, Tree):
                         id = "_"
                         label = "_"
@@ -459,8 +457,8 @@ class Converter:
 
                             return
                     except AttributeError:
-                        print("child:", child)
-                        print(type(child))
+                        # print("child:", child)
+                        # print(type(child))
                         raise
 
         # no head-rules applicable: select either the first or last child as head
@@ -474,8 +472,6 @@ class Converter:
 
         elif not str(tree).startswith("(lemma"):
             # print('\tNo head rule found\n')
-            print("TREE:", tree)
-            print("TREE ID: ", tree[0].id())
             tree.set_id(
                 # tree[0].id()
                 tree[0].id()
@@ -502,30 +498,17 @@ class Converter:
         :return: str
         """
 
-        mod_tag = re.sub("-TTT", "", mod_tag)
-        mod_tag = re.sub(r"[=-]\d+", "", mod_tag)
-        #'=\d+|
-        mod_tag = re.sub("=XXX|=X", "", mod_tag)
-
-        head_tag = re.sub("-TTT", "", head_tag)
-        head_tag = re.sub(r"[=-]\d+", "", head_tag)
-        #'=\d+|
-        head_tag = re.sub("=XXX|=X", "", head_tag)
-
-        if "+" in mod_tag:
-            mod_tag = re.sub("\w+\+", "", mod_tag)
-        if "+" in head_tag:
-            head_tag = re.sub("\w+\+", "", head_tag)
-
         if "-" in mod_tag:
-            mod_tag, mod_func = mod_tag.split(
-                "-", 1
-            )  # todo, handle more than one function label
+            mod_tag, mod_func = mod_tag.split("-", 1)
+        elif "_" in mod_tag:
+            mod_tag, mod_func = mod_tag.split("_", 1)
         else:
             mod_func = None
 
         if "-" in head_tag:
             head_tag, head_func = head_tag.split("-", 1)
+        elif "_" in head_tag:
+            head_tag, head_func = head_tag.split("_", 1)
         else:
             head_func = None
 
@@ -574,7 +557,7 @@ class Converter:
                 # print('No root relation found in sentence.')
                 for address, node in self.dg.nodes.items():
                     # print(address, node['head'])
-                    print("ADDRESS: ", type(address), address)
+                    # print("ADDRESS: ", type(address), address)
                     if address == node["head"]:
 
                         # # DEBUG:
@@ -960,7 +943,7 @@ class Converter:
                         self.dg.get_by_address(address).update({"ctag": "punct"})
 
         except RuntimeError:
-            print(node)
+            # print(node)
             raise
 
     def _fix_empty_node(self):
@@ -1307,7 +1290,7 @@ class Converter:
 
         except RuntimeError:
             print(node)
-            pass
+            raise
             # raise
 
     def _fix_aclrelcl_rel(self):
@@ -1620,9 +1603,9 @@ class Converter:
                                 {"head": address + 4}
                             )
         except RuntimeError:
-            pass
+            # pass
             # print(self.dg.nodes.items())
-            # raise
+            raise
 
     def _fix_flat_foreign(self):
         """
@@ -1650,9 +1633,9 @@ class Converter:
                         self.dg.get_by_address(address - 1).update({"rel": "dep"})
 
         except RuntimeError:
-            pass
+            # pass
             # print(self.dg.nodes.items())
-            # raise
+            raise
 
     def _fix_left_right_alignments(self):
         """
@@ -1839,7 +1822,6 @@ class Converter:
                     # e.g. (VBDI tók-taka) or (NP-SBJ (PRO-N hann-hann))
                     tag_list[nr] = t[i].label()
                     t[i].set_id(nr)
-                    print("t[i:", t[i])
                 elif len(t[i]) in {2, 3, 4} and t[i].height() == 2:
                     # If terminal node with multiword expression
                     tag_list[nr] = t[i].label()
@@ -2000,7 +1982,7 @@ class Converter:
                 try:
                     mod_nr = child.id()
                 except:
-                    print("CHILD TYPE: ", type(child), child)
+                    # print("CHILD TYPE: ", type(child), child)
                     mod_nr = "_"
 
                 if child:
@@ -2296,11 +2278,11 @@ class Converter:
                     try:
                         node.update({"head": old_new_addresses[node["head"]]})
                     except KeyError:
-                        print(node)
-                        for x in to_join:
-                            print(x.plain_text())
+                        # print(node)
+                        # for x in to_join:
+                        #    print(x.plain_text())
                         # print(list(to_join))
-                        print(node["head"])
+                        # print(node["head"])
                         raise
 
                 new_dg.add_node(node)

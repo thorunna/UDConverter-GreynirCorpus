@@ -164,7 +164,7 @@ def main():
                 for line in infile.readlines():
                     psd += line
                     if len(line.strip()) == 0 and len(psd.strip()) > 0:
-                        print("psd:", psd)
+                        # print("psd:", psd)
                         dep = c.create_dependency_graph(psd)
                         sent_id = (
                             re.sub(r"\.gld", "", file_id).upper()

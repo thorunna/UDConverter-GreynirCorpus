@@ -203,7 +203,6 @@ class G_Features:
 
     def get_UD_tag(self):
         """ """
-        print(self.tag)
         if self.tag is not None and "_" in self.tag:
             tag = self.tag.split("_")[0]
         else:

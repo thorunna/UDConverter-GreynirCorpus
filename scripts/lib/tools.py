@@ -9,153 +9,103 @@ from lib.reader import IndexedCorpusTree
 
 def determine_relations(mod_tag, mod_func, head_tag, head_func):
 
-    if mod_tag in ["NP", "NX", "WNX"]:
-        # -ADV, -CMP, -PRN, -SBJ, -OB1, -OB2, -OB3, -PRD, -POS, -COM, -ADT, -TMP, -MSR
+    if mod_tag == "NP":
+        # return mod_tag, mod_func, head_tag, head_func
         return relation_NP.get(mod_func, "VANTAR_LIÐ")
-    elif mod_tag == "WNP":
-        return "obj"
-    elif mod_tag in ["NS", "N", "NPRS"] and head_tag in [
+    elif mod_tag in {
+        "no",
+        "person",
+        "sérnafn",
+        "entity",
+        "fyrirtæki",
+        "gata",
+    } and head_tag in {
         "NP",
-        "NX",
-        "QTP",
         "ADJP",
-        "CONJP",
-        "NPR",
-    ]:  # seinna no. í nafnlið fær 'conj' og er háð fyrra no.
+        "PP",
+    }:  # seinna no. í nafnlið fær 'conj' og er háð fyrra no.
         return "conj"
     elif head_tag == "ADJP":
         return "amod"
-    elif mod_tag == "NPR" and head_tag == "CONJP":
-        return "conj"
-    elif mod_tag == "ES":
-        return "expl"  # expletive
-    elif mod_tag in ["PRO", "WPRO"]:
+    # elif mod_tag == "ES":      # ATH. hvernig eru leppir merktir í GC?
+    #    return "expl"  # expletive
+    elif mod_tag in {"fn", "abfn", "pfn"}:
         return "nmod"
-    elif mod_tag in ["D", "WD", "ONE", "ONES", "OTHER", "OTHERS", "SUCH"]:
+    elif mod_tag == "gr":  # áður: "D", "WD", "ONE", "ONES", "OTHER", "OTHERS", "SUCH"
         return "det"
-    elif (
-        mod_tag[:3] == "ADJ"
-        or mod_tag[:4] == "WADJ"
-        or mod_tag in ["Q", "QR", "QS", "WQP"]
-    ):
-        # -SPR (secondary predicate)
+    elif mod_tag == "lo":
         return "amod"
-    elif mod_tag in ["PP", "WPP", "PX"]:
+    elif mod_tag == "PP":
         # -BY, -PRN
         return "obl"  # NP sem er haus PP fær obl nominal  #TODO: haus CP-ADV (sem er PP) á að vera merktur advcl
-    elif mod_tag == "P":
+    elif mod_tag in {"P", "fs"}:
         return "case"
-    elif mod_tag[:3] == "ADV" or mod_tag in [
-        "NEG",
-        "FP",
-        "QP",
-        "ALSO",
-        "WADV",
-        "WADVP",
-    ]:  # FP = focus particles  #QP = quantifier phrase - ATH.
-        """
-        if head_func == 'QUE' or head_tag == 'WNP':
-            # Ætti að grípa spurnarorð í spurnarsetningum, sem eru mark skv. greiningu HJ - TODO er þetta rétt?
-            return 'mark'
-        else:
-            # -DIR, -LOC, -TP
-            return 'advmod'
-        """
-        return "advmod"
-    elif (
-        mod_tag == "NS" and head_tag == "ADVP" and head_func == "TMP"
-    ):  # ath. virkar fyrir eitt dæmi, of greedy?
-        return "conj"
-    elif mod_tag in ["RP", "RPX"]:
+    elif mod_tag == "ADVP" and mod_func == "PCL":
         return "compound:prt"
-    elif (
-        mod_tag == "IP"
-        and mod_func == "SUB"
-        and head_tag == "CP"
-        and head_func == "FRL"
-    ):
+    elif mod_tag in {
+        "ao",
+        "eo",
+        "ADVP",
+    }:
+        return "advmod"
+    elif mod_tag == "IP" and head_tag == "CP" and head_func == "REL":
         return "acl:relcl"
     elif mod_tag in ["IP", "VP"]:
         return relation_IP.get(mod_func, "VANTAR_LIÐ")
-    elif mod_tag[:2] == "VB" and head_tag == "CP":
+    elif mod_tag == "so" and head_tag == "CP":
         return "ccomp"
-    elif head_tag == "IP" and head_func == "INF-PRP":
-        return "advcl"
-    elif head_tag == "NP" and mod_tag == "VAN":
+    # elif head_tag == "IP" and head_func == "INF-PRP":  # ??
+    #    return "advcl"
+    elif head_tag == "NP" and mod_tag == "VAN":  # passive participle
         return "amod"
-    elif mod_tag in ["VAN", "DAN"] or mod_tag[:2] == "DO":
+    elif mod_tag in {"VAN", "DAN"} or mod_tag[:2] == "DO":
         return "ccomp/xcomp"
-    elif mod_tag in ["VAN", "DAN", "HAN", "BAN", "RAN"]:  # RAN vantaði?
+    elif mod_tag in ["VAN", "DAN", "HAN", "BAN", "RAN"]:  # passive participle
         return "aux"
-    elif mod_tag in ["VBN", "DON", "HVN", "RDN"]:  # ath. VBN getur verið rót
+    elif mod_func is not None and "lhþt" in mod_func:
         if head_func and "=" in head_func:
             return "conj"
         else:
             return "VANTAR_LIÐ"
     # elif mod_tag[:2] in ['VB', 'DO', 'HV', 'RD', 'MD']: #todo
-    elif mod_tag[:2] in ["DO", "HV", "RD", "MD"]:  # todo
+    elif head_tag == "VP" and head_func == "AUX":
         return "aux"
-        # return 'verb' # testing dropping aux in output
-    elif mod_tag[:2] == "BE" or mod_tag == "BAN":
+    elif (
+        mod_tag[:2] == "BE" or mod_tag == "BAN"
+    ):  # ATH. cop ekki merkt sérstaklega í GC - hvernig á að höndla cop?
         return "cop"
-    elif mod_tag == "VAG":
+    elif (
+        mod_func is not None and "_lh_" in mod_func
+    ):  # á bara að vera lh.nt., er þetta rétt?
         return "amod"
-    elif mod_tag == "RRC":
-        return "acl:relcl"
-    elif mod_tag == "CONJ":
+    elif mod_tag == "st":
         return "cc"
-    elif mod_tag in ["CONJP", "N"] and head_tag in [
-        "NP",
-        "N",
-        "PP",
-    ]:  # N: tvö N í einum NP tengd með CONJ
-        return "conj"
-    elif mod_tag == "CONJP" and head_tag == "IP":
-        return relation_IP.get(head_func, "VANTAR_LIÐ")
-    elif mod_tag == "CONJP":
-        return "conj"
+    # elif mod_tag == "CONJP" and head_tag == "IP":
+    #    return relation_IP.get(head_func, "VANTAR_LIÐ")
+    # elif mod_tag == "CONJP":
+    #    return "conj"
     elif mod_tag == "CP" and mod_func == "REL" and head_tag == "ADVP":
         return "advcl"
     elif mod_tag == "CP":
         return relation_CP.get(mod_func, "VANTAR_LIÐ")
-    elif mod_tag in ["C", "CP", "TO", "WQ"]:  # infinitival marker with marker relation
+    elif mod_tag in {
+        "C",
+        "CP",
+        "TO",
+    }:  # infinitival marker with marker relation   # ATH. tekur líka samtengingar með
         return "mark"
-    elif mod_tag in ["NUM", "NUMP"]:
+    elif mod_tag in {"to", "töl", "tala"}:
         return "nummod"
-    elif mod_tag == "FRAG":
-        return "xcomp"
-    elif mod_tag in string.punctuation or mod_tag == "LB":
+    # elif mod_tag == "FRAG":
+    #    return "xcomp"
+    elif mod_tag in string.punctuation or mod_tag == "grm":
         return "punct"
-    elif mod_tag in ["INTJ", "INTJP"] or head_tag == "INTJP":
-        return "discourse"
-    elif mod_tag in ["FOREIGN", "FW", "ENGLISH", "LATIN"] or head_tag in [
-        "FOREIGN",
-        "FW",
-        "ENGLISH",
-        "LATIN",
-    ]:
+    # elif mod_tag in ["INTJ", "INTJP"] or head_tag == "INTJP":
+    #    return "discourse"
+    elif mod_tag == "foreign" or head_tag == "foreign":
         return "flat:foreign"
-    elif mod_tag in [
-        "XXX",
-        "XP",
-        "X",
-        "QTP",
-        "REP",
-        "FS",
-        "LS",
-        "META",
-        "REF",
-    ]:  # XXX = annotator unsure of parse, LS = list marker
-        return "VANTAR_LIÐ"  # unspecified dependency
-    elif head_tag in ["META", "CODE", "REF", "FRAG"]:
-        return "VANTAR_LIÐ"
-    elif mod_tag in ["N", "NS", "NPR", "NPRS"]:
-        # return 'rel'
-        return "VANTAR_LIÐ"
-    elif head_tag == "IP" and head_func == "SMC":
-        return "VANTAR_LIÐ"
 
-    return "VANTAR_LIÐ"
+    return "HALLÓ_" + mod_tag, mod_func  # "VANTAR_LIÐ"
 
 
 def decode_escaped(string, lemma=False):

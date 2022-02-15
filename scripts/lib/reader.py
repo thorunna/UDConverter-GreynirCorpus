@@ -393,7 +393,6 @@ class IndexedCorpusTree(Tree):
                 and self[i].height() == 2
             ):
                 # Three-word phrase
-                print(self[i])
                 self[list(reversed(self.treepositions()))[count - 1]] = (
                     self[list(reversed(self.treepositions()))[count - 1]]
                     + "+"
