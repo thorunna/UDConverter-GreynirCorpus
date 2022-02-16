@@ -7,7 +7,7 @@ from lib.rules import relation_NP, relation_IP, relation_CP, abbr_map
 from lib.reader import IndexedCorpusTree
 
 
-def determine_relations(mod_tag, mod_func, head_tag, head_func):
+def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
 
     if mod_tag == "NP":
         # return mod_tag, mod_func, head_tag, head_func
@@ -67,8 +67,9 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
             return "conj"
         else:
             return "VANTAR_LIÐ"
-    # elif mod_tag[:2] in ['VB', 'DO', 'HV', 'RD', 'MD']: #todo
     elif head_tag == "VP" and head_func == "AUX":
+        return "aux"
+    elif mod_tag == "VP" and mod_func == "AUX":
         return "aux"
     elif (
         mod_tag[:2] == "BE" or mod_tag == "BAN"
@@ -78,30 +79,26 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func):
         mod_func is not None and "_lh_" in mod_func
     ):  # á bara að vera lh.nt., er þetta rétt?
         return "amod"
-    elif mod_tag == "st":
-        return "cc"
-    # elif mod_tag == "CONJP" and head_tag == "IP":
-    #    return relation_IP.get(head_func, "VANTAR_LIÐ")
-    # elif mod_tag == "CONJP":
-    #    return "conj"
     elif mod_tag == "CP" and mod_func == "REL" and head_tag == "ADVP":
         return "advcl"
     elif mod_tag == "CP":
         return relation_CP.get(mod_func, "VANTAR_LIÐ")
+    elif mod_tag == "st":
+        return "cc"
     elif mod_tag in {
         "C",
         "CP",
         "TO",
-    }:  # infinitival marker with marker relation   # ATH. tekur líka samtengingar með
+    }:  # infinitival marker with marker relation
+        if "st og+lemma+og" in str(node) or "st en+lemma+en" in str(
+            node
+        ):  # coordinating conjunction – ATH. fleiri samtengingar?
+            return "cc"
         return "mark"
     elif mod_tag in {"to", "töl", "tala"}:
         return "nummod"
-    # elif mod_tag == "FRAG":
-    #    return "xcomp"
     elif mod_tag in string.punctuation or mod_tag == "grm":
         return "punct"
-    # elif mod_tag in ["INTJ", "INTJP"] or head_tag == "INTJP":
-    #    return "discourse"
     elif mod_tag == "foreign" or head_tag == "foreign":
         return "flat:foreign"
 

@@ -340,7 +340,7 @@ relation_NP = {
     "TITLE": "VANTAR_LIÐ-obl?",
 }
 
-relation_IP = {None: "VANTAR_LIÐ", "INF": "xcomp", "AUX": "VANTAR_LIÐ"}
+relation_IP = {None: "VANTAR_LIÐ_None", "INF": "xcomp", "AUX": "VANTAR_LIÐ_AUX"}
 
 relation_CP = {
     None: "VANTAR_LIÐ",

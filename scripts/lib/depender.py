@@ -476,7 +476,6 @@ class Converter:
                 # tree[0].id()
                 tree[0].id()
             )  # first from left indicated or no head rule index found
-            # TODO: frekar síðasta orð?
 
             # # DEBUG:
             # print('Head rules:', rules)
@@ -485,7 +484,7 @@ class Converter:
             # print('Head:\n',child)
             # input()
 
-    def _relation(self, mod_tag, head_tag):
+    def _relation(self, mod_tag, head_tag, node):
         """
             Return a Universal Relation name given an IcePaHC/Penn phrase-type tag
 
@@ -512,7 +511,7 @@ class Converter:
         else:
             head_func = None
 
-        return determine_relations(mod_tag, mod_func, head_tag, head_func)
+        return determine_relations(mod_tag, mod_func, head_tag, head_func, node)
 
     def _get_tag_dict(self, tree):
         if self.auto_tags == "single_sentence":
@@ -2002,7 +2001,7 @@ class Converter:
                             self.dg.get_by_address(mod_nr).update(
                                 {
                                     "head": head_nr,
-                                    "rel": self._relation(mod_tag, head_tag),
+                                    "rel": self._relation(mod_tag, head_tag, child),
                                 }
                             )
                             self.dg.root = self.dg.get_by_address(mod_nr)
@@ -2016,7 +2015,10 @@ class Converter:
                         # # input()
 
                         self.dg.get_by_address(mod_nr).update(
-                            {"head": head_nr, "rel": self._relation(mod_tag, head_tag)}
+                            {
+                                "head": head_nr,
+                                "rel": self._relation(mod_tag, head_tag, child),
+                            }
                         )
 
                         # # DEBUG:
