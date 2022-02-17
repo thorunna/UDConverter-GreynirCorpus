@@ -14,12 +14,13 @@ cconj = {
 
 GC_UD_map = {
     "no": "NOUN",  # generalized nouns tagged as NOUN
+    "abbrev": "NOUN",
     "so": "VERB",
     "lo": "ADJ",
     "fs": "ADP",
     "nhm": "PART",
     "gr": "DET",
-    "uh": "?",
+    "uh": "INTJ",
     "ao": "ADV",
     "eo": "ADV",
     "st": "CONJ",  # TODO: ath. mun á conj og sconj miðað við st og stt
@@ -35,6 +36,9 @@ GC_UD_map = {
     "to": "NUM",
     "töl": "NUM",
     "tala": "NUM",
+    "tími": "NUM",
+    "ártal": "NUM",
+    "raðnr": "ADJ",
     "grm": "PUNCT",
     "foreign": "X",
     # "D": "DET",  # generalized determiners tagged as DET (determiner)
@@ -148,8 +152,8 @@ Greynir_map = {
 }
 
 head_rules = {
-    "S0": {"dir": "r", "rules": ["S-MAIN"]},
-    "S0-X": {"dir": "r", "rules": ["S-MAIN"]},
+    "S0": {"dir": "r", "rules": [("S-MAIN|S-QUOTE|S-QUE")]},
+    "S0-X": {"dir": "r", "rules": [("S-MAIN|S-QUOTE|S-QUE")]},
     "S-MAIN": {"dir": "r", "rules": ["IP"]},
     "S-HEADING": {"dir": "r", "rules": ["IP", "VP", "NP", "NP-OBJ", "NP-SUBJ", "NP.*"]},
     "S-PREFIX": {"dir": "r", "rules": ["IP", "NP.*"]},
@@ -162,6 +166,7 @@ head_rules = {
     "CP-ADV-PURP": {"dir": "r", "rules": ["IP"]},
     "CP-ADV-TEMP": {"dir": "r", "rules": ["IP"]},
     "CP-ADV-CMP": {"dir": "r", "rules": ["NP"]},
+    "CP-EXPLAIN": {"dir": "r", "rules": ["abbrev"]},
     "CP-QUE": {"dir": "r", "rules": ["IP", "CP-QUE.*"]},  # question
     "CP-REL": {"dir": "r", "rules": ["IP"]},  # relative
     "CP-THT": {"dir": "r", "rules": ["IP", ".*"]},  # að
@@ -178,6 +183,7 @@ head_rules = {
         ],
     },
     "IP-INF-PRD": {"dir": "r", "rules": ["VP"]},
+    "IP-INF-OBJ": {"dir": "r", "rules": ["VP"]},
     "NP": {
         "dir": "r",
         "rules": [
@@ -185,7 +191,7 @@ head_rules = {
             (
                 "no(_\w\w)?_nf.*|person(_\w\w)?_nf.*|entity(_\w\w)?_nf.*|fyrirtæki(_\w\w)?_nf.*|gata(_\w\w)?_nf.*"
             ),
-            ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*"),
+            ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*|prósenta.*"),
             ("fn(_\w\w)?_nf.*|pfn(_\w\w)?_nf.*|abfn(_\w\w)?_nf.*"),
             ("fn.*|pfn.*|abfn.*"),
             "RRC",
@@ -200,7 +206,7 @@ head_rules = {
         "dir": "r",
         "rules": [
             (
-                "no(_\w\w)?_nf.*|person(_\w\w)?_nf.*|entity(_\w\w)?_nf.*|fyrirtæki(_\w\w)?_nf.*|gata(_\w\w)?_nf.*"
+                "no(_\w\w)?_nf.*|person(_\w\w)?_nf.*|entity(_\w\w)?_nf.*|fyrirtæki(_\w\w)?_nf.*|gata(_\w\w)?_nf.*|prósenta(_\w\w)?_nf.*"
             ),
             ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*"),
             ("fn(_\w\w)?_nf.*|pfn(_\w\w)?_nf.*|abfn(_\w\w)?_nf.*"),
@@ -246,6 +252,7 @@ head_rules = {
         "dir": "r",
         "rules": [
             ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*"),
+            "prósenta.*",
             "NP",
             ("fn.*|pfn.*"),
         ],
@@ -263,7 +270,7 @@ head_rules = {
     },
     "NP-TITLE": {"dir": "r", "rules": ["no.*", "fn.*"]},
     "ADJP": {"dir": "r", "rules": ["lo.*"]},
-    "VP": {"dir": "r", "rules": ["so.*", "VP"]},
+    "VP": {"dir": "r", "rules": ["so.*", "VP", "IP-INF"]},
     "VP-AUX": {"dir": "r", "rules": ["so.*"]},
     "PP": {
         "dir": "r",
@@ -327,23 +334,29 @@ head_rules = {
 relation_NP = {
     None: "obl",
     "SUBJ": "nsubj",
+    "SOURCE": "nsubj",
     "IOBJ": "iobj",
     "OBJ": "obj",
     "PRD": "xcomp",
     "ADP": "obl",
     "POSS": "nmod:poss",
     "DAT": "obl",
-    "ADDR": "VANTAR_LIÐ-obl?",
-    "AGE": "VANTAR_LIÐ-obl?",
+    "ADDR": "VANTAR_LIÐ-obl?",  # TODO
+    "AGE": "VANTAR_LIÐ-obl?",  # TODO
     "MEASURE": "obl",
-    "COMPANY": "VANTAR_LIÐ-obl?",
-    "TITLE": "VANTAR_LIÐ-obl?",
+    "COMPANY": "VANTAR_LIÐ-obl?",  # TODO
+    "TITLE": "obl",  # TODO: Ætti title að vera merkt öðruvísi?
 }
 
-relation_IP = {None: "VANTAR_LIÐ_None", "INF": "xcomp", "AUX": "VANTAR_LIÐ_AUX"}
+relation_IP = {
+    None: "VANTAR_LIÐ_IP_None",  # TODO: dep í IcePaHC
+    "INF": "xcomp",
+    "INF-OBJ": "xcomp",
+    "INF-PRD": "csubj",
+}
 
 relation_CP = {
-    None: "VANTAR_LIÐ",
+    None: "VANTAR_LIÐ",  # TODO: dep í IcePaHC
     "ADV": "advcl",
     "ADV-ACK": "advcl",
     "ADV-CAUSE": "advcl",
@@ -352,10 +365,11 @@ relation_CP = {
     "ADV-PURP": "advcl",
     "ADV-TEMP": "advcl",
     "ADV-CMP": "advcl",
+    "EXPLAIN": "VANTAR_LIÐ",  # TODO: ccomp/xcomp?
     "QUE": "ccomp/xcomp",
     "REL": "acl:relcl",
     "THT": "ccomp/xcomp",
-    "QUOTE": "VANTAR_LIÐ",
+    "QUOTE": "ccomp/xcomp",  # "VANTAR_LIÐ",  # TODO: Er þetta rétt?
 }
 
 

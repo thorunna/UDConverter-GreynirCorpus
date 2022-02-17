@@ -9,8 +9,14 @@ from lib.reader import IndexedCorpusTree
 
 def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
 
-    if mod_tag == "NP":
-        # return mod_tag, mod_func, head_tag, head_func
+    if mod_tag == "S":
+        if mod_func in {"MAIN", "QUE"} and head_tag == "S0":
+            return "conj"
+        elif mod_func == "PREFIX":
+            return "VANTAR_LIÐ_S_PREFIX"
+        elif mod_func == "HEADING":
+            return "VANTAR_LIÐ_S_HEADING"
+    elif mod_tag == "NP":
         return relation_NP.get(mod_func, "VANTAR_LIÐ")
     elif mod_tag in {
         "no",
@@ -33,9 +39,9 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         return "nmod"
     elif mod_tag == "gr":  # áður: "D", "WD", "ONE", "ONES", "OTHER", "OTHERS", "SUCH"
         return "det"
-    elif mod_tag == "lo":
+    elif mod_tag in {"lo", "raðnr"}:
         return "amod"
-    elif mod_tag == "PP":
+    elif mod_tag in {"PP", "no"}:
         # -BY, -PRN
         return "obl"  # NP sem er haus PP fær obl nominal  #TODO: haus CP-ADV (sem er PP) á að vera merktur advcl
     elif mod_tag in {"P", "fs"}:
@@ -48,9 +54,20 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         "ADVP",
     }:
         return "advmod"
-    elif mod_tag == "IP" and head_tag == "CP" and head_func == "REL":
-        return "acl:relcl"
-    elif mod_tag in ["IP", "VP"]:
+    if mod_tag == "IP":
+        if head_tag == "CP" and head_func == "REL":
+            return "acl:relcl"
+        elif mod_func == None and head_tag == "S0" and head_func == "X":
+            return "conj"
+    if mod_tag == "VP":
+        if head_tag == "VP" and head_func == "AUX":
+            return "aux"
+        elif mod_func == "AUX":
+            return "aux"
+        elif mod_func is None and head_tag == "IP" and head_func is None:
+            return "conj"
+        return "VANTAR_LIÐ_VP_None"
+    elif mod_tag == "IP":
         return relation_IP.get(mod_func, "VANTAR_LIÐ")
     elif mod_tag == "so" and head_tag == "CP":
         return "ccomp"
@@ -68,8 +85,6 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         else:
             return "VANTAR_LIÐ"
     elif head_tag == "VP" and head_func == "AUX":
-        return "aux"
-    elif mod_tag == "VP" and mod_func == "AUX":
         return "aux"
     elif (
         mod_tag[:2] == "BE" or mod_tag == "BAN"
@@ -95,14 +110,27 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         ):  # coordinating conjunction – ATH. fleiri samtengingar?
             return "cc"
         return "mark"
-    elif mod_tag in {"to", "töl", "tala"}:
+    elif mod_tag == "stt":
+        return "mark"
+    elif mod_tag in {"to", "töl", "tala", "tími", "ártal", "prósenta"}:
         return "nummod"
     elif mod_tag in string.punctuation or mod_tag == "grm":
         return "punct"
-    elif mod_tag == "foreign" or head_tag == "foreign":
+    elif (
+        mod_tag == "abbrev"
+        and head_tag == "NP"
+        or head_tag == "CP"
+        and head_func == "EXPLAIN"
+    ):
+        return "flat:name"
+    elif mod_tag in {"foreign", "FOREIGN"} or head_tag == "foreign":
         return "flat:foreign"
+    elif mod_tag == "uh":
+        return "discourse"
+    elif mod_tag == "x":
+        return "dep"  # the token could not be analyzed, leads to unknown dependency
 
-    return "HALLÓ_" + mod_tag, mod_func  # "VANTAR_LIÐ"
+    return "HALLÓ_" + mod_tag, mod_func, head_tag, head_func  # "VANTAR_LIÐ"
 
 
 def decode_escaped(string, lemma=False):

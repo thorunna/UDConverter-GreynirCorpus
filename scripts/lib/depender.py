@@ -401,15 +401,15 @@ class Converter:
         if tree.num_verbs() == 1 or main_clause.num_verbs() == 1:
             new_rules[0:0] = rules
             # new_rules[4:4] = ['BE.*', 'HV.*', 'MD.*', 'RD.*']
-            new_rules[4:4] = ["HV.*", "MD.*", "RD.*"]
+            # new_rules[4:4] = ["HV.*", "MD.*", "RD.*"]
             rules = new_rules
 
         # TEMP: testing for 3 verb sentences where the 'first' verb is 'vera', e.g. 'En það var eftir að hann var farinn sem mér varð ljóst að ég yrði'
         elif tree.num_verbs() > 2 or main_clause.num_verbs() > 2:
             # print('\n3 verb sentence\n')
             new_rules[0:0] = rules
-            new_rules[4:4] = ["IP-INF", "HV.*", "MD.*", "RD.*"]
-            new_rules.append("BE.*")
+            # new_rules[4:4] = ["IP-INF", "HV.*", "MD.*", "RD.*"]
+            # new_rules.append("BE.*")
             rules = new_rules
 
         # # DEBUG:
@@ -442,7 +442,7 @@ class Converter:
                         # print(rule, child.label())
                         # print(child,'\n')
 
-                        if re.match(rule, label):
+                        if re.fullmatch(rule, label):
 
                             # # DEBUG:
                             # print('Head rules:', rules)
