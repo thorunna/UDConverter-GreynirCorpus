@@ -14,7 +14,7 @@ import requests
 
 from collections import defaultdict
 
-from lib.rules import GC_UD_map, Greynir_map
+from lib.rules import cconj, GC_UD_map, Greynir_map
 from lib import fo_rules
 from lib.tools import decode_escaped
 
@@ -24,8 +24,9 @@ class G_Features:
     Class for extracting UD features from the original tags
     """
 
-    def __init__(self, tag):
+    def __init__(self, tag, token=None):
         self.tag = tag
+        self.token = token
         self.features = defaultdict(list)
 
     def _nominal_features(self, tag):
@@ -203,10 +204,13 @@ class G_Features:
 
     def get_UD_tag(self):
         """ """
+
         if self.tag is not None and "_" in self.tag:
             tag = self.tag.split("_")[0]
         else:
             tag = self.tag
+        if tag == "st" and self.token in cconj:
+            return "CCONJ"
         try:
             tag = GC_UD_map[tag]
             return tag

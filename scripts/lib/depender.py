@@ -336,7 +336,7 @@ class UniversalDependencyGraph(DependencyGraph):
 
 class Converter:
     """
-    Converts constituency tree to
+    Converts constituency tree to dependency tree
 
     # TODO: finish documentation
 
@@ -346,13 +346,12 @@ class Converter:
 
     """
 
-    def __init__(self, auto_tags=False, faroese=False):
+    def __init__(self, auto_tags=False):
         # todo read rules from config file
         self.t = None
         self.dg = None
         self.auto_tags = auto_tags
         self.tagged_sentences = None
-        self.faroese = faroese
 
     def set_tag_dict(self, tag_dict):
         self.tagged_sentences = tag_dict
@@ -1872,7 +1871,7 @@ class Converter:
                 XPOS = tag
                 MISC = defaultdict(lambda: None)
                 # Feature Classes called here
-                UPOS = G_Features(tag).get_UD_tag()
+                UPOS = G_Features(tag, FORM).get_UD_tag()
                 FEATS = G_Features(tag).get_features()
                 MISC = defaultdict(lambda: None, {"tag": tag})
                 if FORM not in {"None", None}:

@@ -3,7 +3,7 @@ import re
 import requests
 import json
 
-from lib.rules import relation_NP, relation_IP, relation_CP, abbr_map
+from lib.rules import cconj, relation_NP, relation_IP, relation_CP, abbr_map
 from lib.reader import IndexedCorpusTree
 
 
@@ -57,37 +57,46 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
     if mod_tag == "IP":
         if head_tag == "CP" and head_func == "REL":
             return "acl:relcl"
-        elif mod_func == None and head_tag == "S0" and head_func == "X":
+        elif (
+            mod_func == None and head_tag in {"S0", "CP"} and head_func in {"X", "QUE"}
+        ):
             return "conj"
+        return relation_IP.get(mod_func, "VANTAR_LIÐ")
     if mod_tag == "VP":
         if head_tag == "VP" and head_func == "AUX":
             return "aux"
         elif mod_func == "AUX":
             return "aux"
-        elif mod_func is None and head_tag == "IP" and head_func is None:
+        elif mod_func is None and head_tag == "IP" and head_func in {None, "INF"}:
             return "conj"
         return "VANTAR_LIÐ_VP_None"
-    elif mod_tag == "IP":
-        return relation_IP.get(mod_func, "VANTAR_LIÐ")
     elif mod_tag == "so" and head_tag == "CP":
         return "ccomp"
     # elif head_tag == "IP" and head_func == "INF-PRP":  # ??
     #    return "advcl"
-    elif head_tag == "NP" and mod_tag == "VAN":  # passive participle
-        return "amod"
-    elif mod_tag in {"VAN", "DAN"} or mod_tag[:2] == "DO":
-        return "ccomp/xcomp"
-    elif mod_tag in ["VAN", "DAN", "HAN", "BAN", "RAN"]:  # passive participle
+    elif (
+        head_tag == "NP" and mod_tag is not None and "lhþt" in mod_tag
+    ):  # passive participle
+        return "HALLÓ_LHÞT"  # Á ekki við um neitt í testset
+    elif mod_tag is not None and "lhþt" in mod_tag:
+        return "ccomp/xcomp"  # Á ekki við um neitt í testset
+    elif mod_tag in [
+        "VAN",
+        "DAN",
+        "HAN",
+        "BAN",
+        "RAN",
+    ]:  # TODO: ??  # passive participle
         return "aux"
     elif mod_func is not None and "lhþt" in mod_func:
-        if head_func and "=" in head_func:
+        if head_func and "=" in head_func:  # TODO: ??
             return "conj"
         else:
             return "VANTAR_LIÐ"
-    elif head_tag == "VP" and head_func == "AUX":
+    elif head_tag == "VP" and head_func == "AUX":  # TODO: ??
         return "aux"
     elif (
-        mod_tag[:2] == "BE" or mod_tag == "BAN"
+        mod_tag[:2] == "BE" or mod_tag == "BAN"  # TODO: ??
     ):  # ATH. cop ekki merkt sérstaklega í GC - hvernig á að höndla cop?
         return "cop"
     elif (
@@ -105,9 +114,19 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         "CP",
         "TO",
     }:  # infinitival marker with marker relation
-        if "st og+lemma+og" in str(node) or "st en+lemma+en" in str(
-            node
-        ):  # coordinating conjunction – ATH. fleiri samtengingar?
+        if (
+            "st og+lemma+og" in str(node)
+            or "st eða+lemma+eða" in str(node)
+            or "st en+lemma+en" in str(node)
+            or "st heldur+lemma+heldur" in str(node)
+            or "st enda+lemma+enda" in str(node)
+            or "st ellegar+lemma+ellegar" in str(node)
+            or "st bæði+lemma+bæði" in str(node)
+            or "st hvorki+lemma+hvorki" in str(node)
+            or "st annaðhvort+lemma+annaðhvort" in str(node)
+            or "st hvort+lemma+hvort" in str(node)
+            or "st ýmist+lemma+ýmist" in str(node)
+        ):  # coordinating conjunction
             return "cc"
         return "mark"
     elif mod_tag == "stt":

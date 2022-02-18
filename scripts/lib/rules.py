@@ -23,8 +23,8 @@ GC_UD_map = {
     "uh": "INTJ",
     "ao": "ADV",
     "eo": "ADV",
-    "st": "CONJ",  # TODO: ath. mun á conj og sconj miðað við st og stt
-    "stt": "CONJ",
+    "st": "SCONJ",  # coordinating conjunctions are tagged as CCONJ and have been tagged before this stage
+    "stt": "SCONJ",
     "fn": "PRON",
     "pfn": "PRON",
     "abfn": "PRON",
@@ -170,6 +170,7 @@ head_rules = {
     "CP-QUE": {"dir": "r", "rules": ["IP", "CP-QUE.*"]},  # question
     "CP-REL": {"dir": "r", "rules": ["IP"]},  # relative
     "CP-THT": {"dir": "r", "rules": ["IP", ".*"]},  # að
+    "CP-THT-PRD": {"dir": "r", "rules": ["IP"]},
     "CP-QUOTE": {"dir": "r", "rules": ["IP"]},
     "IP": {"dir": "r", "rules": ["VP"]},
     "IP-INF": {
@@ -183,6 +184,7 @@ head_rules = {
         ],
     },
     "IP-INF-PRD": {"dir": "r", "rules": ["VP"]},
+    "IP-INF-SUBJ": {"dir": "r", "rules": ["VP"]},
     "IP-INF-OBJ": {"dir": "r", "rules": ["VP"]},
     "NP": {
         "dir": "r",
@@ -346,11 +348,13 @@ relation_NP = {
     "MEASURE": "obl",
     "COMPANY": "VANTAR_LIÐ-obl?",  # TODO
     "TITLE": "obl",  # TODO: Ætti title að vera merkt öðruvísi?
+    "ES": "expl",
 }
 
 relation_IP = {
     None: "VANTAR_LIÐ_IP_None",  # TODO: dep í IcePaHC
     "INF": "xcomp",
+    "INF-SUBJ": "xcomp",
     "INF-OBJ": "xcomp",
     "INF-PRD": "csubj",
 }
@@ -369,6 +373,7 @@ relation_CP = {
     "QUE": "ccomp/xcomp",
     "REL": "acl:relcl",
     "THT": "ccomp/xcomp",
+    "THT-PRD": "ccomp/xcomp",
     "QUOTE": "ccomp/xcomp",  # "VANTAR_LIÐ",  # TODO: Er þetta rétt?
 }
 
