@@ -165,14 +165,19 @@ head_rules = {
     "CP-ADV-CONS": {"dir": "r", "rules": ["IP"]},
     "CP-ADV-PURP": {"dir": "r", "rules": ["IP"]},
     "CP-ADV-TEMP": {"dir": "r", "rules": ["IP"]},
-    "CP-ADV-CMP": {"dir": "r", "rules": ["NP"]},
+    "CP-ADV-CMP": {"dir": "r", "rules": ["IP", "NP"]},
     "CP-EXPLAIN": {"dir": "r", "rules": ["abbrev"]},
     "CP-QUE": {"dir": "r", "rules": ["IP", "CP-QUE.*"]},  # question
+    "CP-QUE-OBJ": {"dir": "r", "rules": ["IP", "CP-QUE.*"]},
+    "CP-QUE-SUBJ": {"dir": "r", "rules": ["IP", "CP-QUE.*"]},
     "CP-REL": {"dir": "r", "rules": ["IP"]},  # relative
+    "CP-SOURCE": {"dir": "r", "rules": ["IP", "VP"]},
     "CP-THT": {"dir": "r", "rules": ["IP", ".*"]},  # að
+    "CP-THT-SUBJ": {"dir": "r", "rules": ["IP", ".*"]},  # að
+    "CP-THT-OBJ": {"dir": "r", "rules": ["IP"]},
     "CP-THT-PRD": {"dir": "r", "rules": ["IP"]},
     "CP-QUOTE": {"dir": "r", "rules": ["IP"]},
-    "IP": {"dir": "r", "rules": ["VP"]},
+    "IP": {"dir": "r", "rules": ["VP", "no_(et|ft)_nf.*", "PP"]},
     "IP-INF": {
         "dir": "r",
         "rules": [
@@ -189,7 +194,7 @@ head_rules = {
     "NP": {
         "dir": "r",
         "rules": [
-            "CP-FRL",
+            # "CP-FRL",
             (
                 "no(_\w\w)?_nf.*|person(_\w\w)?_nf.*|entity(_\w\w)?_nf.*|fyrirtæki(_\w\w)?_nf.*|gata(_\w\w)?_nf.*"
             ),
@@ -237,11 +242,12 @@ head_rules = {
     "NP-PRD": {
         "dir": "r",
         "rules": [
-            ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*"),
+            ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*|abbrev"),
             ("fn.*|pfn.*|abfn.*"),
             "lo_\w\w_nf.*",
             "NP.*",
             "lo.*",
+            "tala",
             "gr.",
             ("tala.*|to.*|töl.*"),
         ],
@@ -272,7 +278,7 @@ head_rules = {
     },
     "NP-TITLE": {"dir": "r", "rules": ["no.*", "fn.*"]},
     "ADJP": {"dir": "r", "rules": ["lo.*"]},
-    "VP": {"dir": "r", "rules": ["so.*", "VP", "IP-INF"]},
+    "VP": {"dir": "r", "rules": ["so.*", "NP-PRD", "VP", "IP-INF"]},
     "VP-AUX": {"dir": "r", "rules": ["so.*"]},
     "PP": {
         "dir": "r",
@@ -289,6 +295,7 @@ head_rules = {
             "PP",
         ],
     },
+    "PP-LOC": {"dir": "r", "rules": ["NP.*"]},
     "PP-LOC": {"dir": "r", "rules": ["NP.*", "PP-LOC"]},
     "ADVP": {
         "dir": "r",
@@ -341,10 +348,11 @@ relation_NP = {
     "OBJ": "obj",
     "PRD": "xcomp",
     "ADP": "obl",
+    "PERSON": "obl",
     "POSS": "nmod:poss",
     "DAT": "obl",
-    "ADDR": "VANTAR_LIÐ-obl?",  # TODO
-    "AGE": "VANTAR_LIÐ-obl?",  # TODO
+    "ADDR": "obl",
+    "AGE": "obl",
     "MEASURE": "obl",
     "COMPANY": "VANTAR_LIÐ-obl?",  # TODO
     "TITLE": "obl",  # TODO: Ætti title að vera merkt öðruvísi?
@@ -371,9 +379,14 @@ relation_CP = {
     "ADV-CMP": "advcl",
     "EXPLAIN": "VANTAR_LIÐ",  # TODO: ccomp/xcomp?
     "QUE": "ccomp/xcomp",
+    "QUE-OBJ": "ccomp/xcomp",
+    "QUE-SUBJ": "ccomp/xcomp",
     "REL": "acl:relcl",
+    "SOURCE": "ccomp/xcomp",
     "THT": "ccomp/xcomp",
+    "THT-OBJ": "ccomp/xcomp",
     "THT-PRD": "ccomp/xcomp",
+    "THT-SUBJ": "ccomp/xcomp",
     "QUOTE": "ccomp/xcomp",  # "VANTAR_LIÐ",  # TODO: Er þetta rétt?
 }
 

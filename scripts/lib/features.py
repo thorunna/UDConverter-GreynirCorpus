@@ -66,7 +66,10 @@ class G_Features:
                     elif tag[2] in {"kk", "kvk", "hk"}:
                         self.features["Gender"] = Greynir_map["Gender"][tag[2]]
             elif len(tag) > 4:
-                self.features["Definite"] = Greynir_map["Definite"][tag[4]]
+                if tag[4].startswith("gr"):
+                    self.features["Definite"] = Greynir_map["Definite"][tag[4]]
+                elif tag[2].startswith("gr"):
+                    self.features["Definite"] = Greynir_map["Definite"][tag[2]]
             else:
                 self.features["Definite"] = Greynir_map["Definite"]["ind"]
 
@@ -110,7 +113,11 @@ class G_Features:
                         else:
                             self.features["Gender"] = Greynir_map["Gender"][tag[3]]
                     elif len(tag) == 5:
-                        self.features["Person"] = Greynir_map["Person"][tag[4]]
+                        if tag[4].startswith("p"):
+                            self.features["Person"] = Greynir_map["Person"][tag[4]]
+                        else:
+                            self.features["Person"] = Greynir_map["Person"][tag[3]]
+                            self.features["Gender"] = Greynir_map["Gender"][tag[4]]
         elif tag[0] == "abfn":
             if len(tag) > 1:
                 self.features["Case"] = Greynir_map["Case"][tag[1]]

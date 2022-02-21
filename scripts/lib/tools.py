@@ -10,12 +10,14 @@ from lib.reader import IndexedCorpusTree
 def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
 
     if mod_tag == "S":
-        if mod_func in {"MAIN", "QUE"} and head_tag == "S0":
+        if mod_func in {"MAIN", "QUE", "HEADING"} and head_tag == "S0":
             return "conj"
         elif mod_func == "PREFIX":
-            return "VANTAR_LIÐ_S_PREFIX"
+            if "(st " in str(node):
+                return "cc"
+            return "VANTAR_LIÐ_S_PREFIX"  # TODO
         elif mod_func == "HEADING":
-            return "VANTAR_LIÐ_S_HEADING"
+            return "VANTAR_LIÐ_S_HEADING"  # TODO
     elif mod_tag == "NP":
         return relation_NP.get(mod_func, "VANTAR_LIÐ")
     elif mod_tag in {
@@ -57,18 +59,53 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
     if mod_tag == "IP":
         if head_tag == "CP" and head_func == "REL":
             return "acl:relcl"
-        elif (
-            mod_func == None and head_tag in {"S0", "CP"} and head_func in {"X", "QUE"}
-        ):
-            return "conj"
+        if mod_func is None:
+            if head_tag in {"S", "S0", "CP"} and head_func in {
+                "MAIN",
+                "X",
+                "QUOTE",
+                "SOURCE",
+            }:
+                return "conj"
+            elif head_tag == "CP":
+                if head_func in {"THT-OBJ", "QUE", "QUE-SUBJ"}:
+                    return "ccomp/xcomp"
+                elif head_func == "ADV-TEMP":
+                    return "advcl"
+            elif "_nh_" in str(node) and head_tag == "VP" and head_func is None:
+                return "ccomp/xcomp"
         return relation_IP.get(mod_func, "VANTAR_LIÐ")
     if mod_tag == "VP":
         if head_tag == "VP" and head_func == "AUX":
             return "aux"
         elif mod_func == "AUX":
             return "aux"
-        elif mod_func is None and head_tag == "IP" and head_func in {None, "INF"}:
-            return "conj"
+        elif mod_func is None:
+            if (
+                mod_func is None
+                and head_tag in {"IP"}
+                and head_func in {None, "INF", "INF-OBJ"}
+            ):
+                return "conj"
+            elif head_tag == "VP" and head_func is None:
+                # and "so_0 " in str(node)
+                # or "_sagnb_" in str(node):
+                return "conj"
+            elif "_nh_" in str(node) and head_tag == "VP" and head_func is None:
+                return "ccomp/xcomp"
+            elif "lhþt" in str(node) and head_tag == "VP" and head_func is None:
+                return "ccomp/xcomp"
+            elif (
+                "+lemma+vera" in str(node)
+                or "+lemma+er" in str(node)
+                or "+lemma+verða" in str(node)
+                or "+lemma+mæla" in str(node)
+                and head_tag == "VP"
+                and head_func is None
+            ):
+                return "cop"  # copula, the phrase's head is a predicate
+            elif head_tag == "PP":
+                return "case??"  # TODO
         return "VANTAR_LIÐ_VP_None"
     elif mod_tag == "so" and head_tag == "CP":
         return "ccomp"

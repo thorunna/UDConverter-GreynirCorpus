@@ -1288,7 +1288,7 @@ class Converter:
 
         except RuntimeError:
             print(node)
-            raise
+            pass
             # raise
 
     def _fix_aclrelcl_rel(self):
