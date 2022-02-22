@@ -89,66 +89,42 @@ GC_UD_map = {
 }
 
 Greynir_map = {
-    "Gender": {"kk": "Masc", "kvk": "Fem", "hk": "Neut", "x": None},
-    "Number": {
-        "ft": "Plur",
-        "et": "Sing",
-    },  # noun, plural number  # noun singular number
-    "PronType": {
-        "pfn": "Prs",  # personal
-        # "e": "Prs",  # posessive (tagged as personal)
-        # 'a' : 'Rcp',   #reciprocal
-        # "s": "Int",  # interrogative
-        # "t": "Rel",  # relative
-        # "a": "Dem",  # demonstrative
-        # "b": "Dem",
-        # "o": "Ind",  # indefinite
-        "abfn": "Prs",  # reflexive, categorized as personal/possessive in UD
-        "gr": "Art",
-    },
-    "Tense": {"nt": "Pres", "þt": "Past"},  # present tense  # past tense
-    "Person": {"p1": "1", "p2": "2", "p3": "3"},
-    "Case": {
-        "nf": "Nom",  # nominative case
-        "þf": "Acc",  # accusative case
-        "þgf": "Dat",  # dative case
-        "ef": "Gen",  # dative case
-        None: "Nom",
-    },
-    "Mood": {
-        "bh": "Imp",  # imperative
-        "fh": "Ind",  # indicative
-        "vh": "Sub",  # subjunctive
-    },
-    "VerbForm": {
-        "lh": "Part",  # present participle
-        "lhþt": "Part",  # past participle
-        "sagnb": "Sup",
-        "nh": "Inf",  # infinitive
-    },
-    "Voice": {
-        "gm": "Act",  # active voice
-        "mm": "Mid",  # middle voice
-        # "pass": "Pass",  # passive voice
-    },
-    "Definite": {
-        "ind": "Ind",  # adjectives
-        "gr": "Def",  # definite
-        #    "g": "Def",  # nouns
-        #    "o": None,  # 'ÓBEYGT', TODO: check if output 100% correct
-        None: "Ind",
-    },
-    "Degree": {  # adjectives  # adjectives  # nouns
-        "fst": "Pos",  # positive, default case
-        "mst": "Cmp",  # comparative
-        "est": "Sup",  # superlative
-        "esb": "Sup",  # superlative, indefinite
-        "evb": "Sup",  # superlative, definite
-    },
-    "NumType": {
-        "tala": "Card",  # cardinal number
-        "raðnr": "Ord",  # ordinal number
-    },
+    "kk": ["Gender", "Masc"],
+    "kvk": ["Gender", "Fem"],
+    "hk": ["Gender", "Neut"],
+    "x": ["Gender", None],
+    "ft": ["Number", "Plur"],
+    "et": ["Number", "Sing"],
+    "pfn": ["PronType", "Prs"],
+    "abfn": ["PronType", "Prs"],
+    "gr": ["PronType", "Art"],
+    "nt": ["Tense", "Pres"],
+    "þt": ["Tense", "Past"],
+    "p1": ["Person", "1"],
+    "p2": ["Person", "2"],
+    "p3": ["Person", "3"],
+    "nf": ["Case", "Nom"],
+    "þf": ["Case", "Acc"],
+    "þgf": ["Case", "Dat"],
+    "ef": ["Case", "Gen"],
+    "bh": ["Mood", "Imp"],
+    "fh": ["Mood", "Ind"],
+    "vh": ["Mood", "Sub"],
+    "lh": ["VerbForm", "Part"],
+    "lhþt": ["VerbForm", "Part"],
+    "sagnb": ["VerbForm", "Sup"],
+    "nh": ["VerbForm", "Inf"],
+    "gm": ["Voice", "Act"],
+    "mm": ["Voice", "Mid"],
+    "ind": ["Definite", "Ind"],
+    "gr": ["Definite", "Def"],
+    "fst": ["Degree", "Pos"],
+    "mst": ["Degree", "Cmp"],
+    "est": ["Degree", "Sup"],
+    "esb": ["Degree", "Sup"],
+    "evb": ["Degree", "Sup"],
+    "tala": ["NumType", "Card"],
+    "raðnr": ["NumType", "Ord"],
 }
 
 head_rules = {
