@@ -264,21 +264,25 @@ class UniversalDependencyGraph(DependencyGraph):
 
         template = "{i}\t{word}\t{lemma_str}\t{ctag}\t{tag}\t{feats_str}\t{head}\t{rel}\t{deps_str}\t{misc_str}\n"
 
-        return self.join_output_nodes(
-            "".join(
-                template.format(
-                    i=i,
-                    **node,
-                    lemma_str=node["lemma"] if node["lemma"] else "_",
-                    deps_str=self._deps_str(node["deps"]),
-                    feats_str=self._dict_to_string(node["feats"]),
-                    misc_str=self._dict_to_string(node["misc"]),
+        try:
+            return self.join_output_nodes(
+                "".join(
+                    template.format(
+                        i=i,
+                        **node,
+                        lemma_str=node["lemma"] if node["lemma"] else "_",
+                        deps_str=self._deps_str(node["deps"]),
+                        feats_str=self._dict_to_string(node["feats"]),
+                        misc_str=self._dict_to_string(node["misc"]),
+                    )
+                    for i, node in sorted(self.nodes.items())
+                    if node["tag"] != "TOP"
                 )
-                for i, node in sorted(self.nodes.items())
-                if node["tag"] != "TOP"
+                + "\n"
             )
-            + "\n"
-        )
+        except TypeError:
+            print(self.nodes.items())
+            raise
 
     def plain_text(self):
         """09.03.20
@@ -430,6 +434,7 @@ class Converter:
                     if not isinstance(child, Tree):
                         id = "_"
                         label = "_"
+                        print("Child not tree: ", child)
                     else:
                         id = child.id()
                         label = child.label()
@@ -1820,11 +1825,13 @@ class Converter:
                     # e.g. (VBDI tók-taka) or (NP-SBJ (PRO-N hann-hann))
                     tag_list[nr] = t[i].label()
                     t[i].set_id(nr)
-                elif len(t[i]) in {2, 3, 4} and t[i].height() == 2:
-                    # If terminal node with multiword expression
+                elif len(t[i]) in {2, 3, 4, 5} and t[i].height() == 2:
+                    print("long t[i]: ", t[i])
+                    # If terminal node with multiword expression/phrase
                     tag_list[nr] = t[i].label()
                     t[i].set_id(nr)
-                    t.multiword_expression()
+                    t[i].multiword_expression()
+                    print("long t[i] after: ", t[i])
 
                 else:
                     # If constituent / complex phrase
@@ -1833,7 +1840,11 @@ class Converter:
                     const.append(i)
 
             else:
-
+                print(t[i])
+                if t[i] == "\\":
+                    print(
+                        "The token is a backslash, which most likely precedes a bracket. Please exchange the '\(' for *opening_bracket* and the '\)' for *closing_bracket*"
+                    )
                 if len(tag_list) > 0:
                     try:
                         tag = tag_list[nr]
@@ -1851,13 +1862,15 @@ class Converter:
                     LEMMA = None
 
                 if "+" in FORM:
-                    # The token is a multiword expression
+                    # The token is a multiword expression/phrase
+                    FORM = FORM.replace("++++", " ")
                     FORM = FORM.replace("+++", " ")
                     FORM = FORM.replace("++", " ")
                     FORM = FORM.replace("+", " ")
 
                 if LEMMA is not None and "+" in LEMMA:
                     # The lemma is a multiword expression
+                    LEMMA = LEMMA.replace("++++", " ")
                     LEMMA = LEMMA.replace("+++", " ")
                     LEMMA = LEMMA.replace("++", " ")
                     LEMMA = LEMMA.replace("+", " ")
@@ -1957,7 +1970,7 @@ class Converter:
         # last block back through head selection
         for i in const:
             if re.match(
-                "S0",
+                "S0.*",
                 t[i].label(),
             ):
                 self._select_head(t[i])

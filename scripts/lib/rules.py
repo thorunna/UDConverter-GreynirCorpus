@@ -128,8 +128,8 @@ Greynir_map = {
 }
 
 head_rules = {
-    "S0": {"dir": "r", "rules": [("S-MAIN|S-QUOTE|S-QUE")]},
-    "S0-X": {"dir": "r", "rules": [("S-MAIN|S-QUOTE|S-QUE")]},
+    "S0": {"dir": "r", "rules": [("S-MAIN|S-QUOTE|S-QUE|S-PREFIX")]},
+    "S0-X": {"dir": "r", "rules": [("S-MAIN|S-QUOTE|S-QUE|S-PREFIX")]},
     "S-MAIN": {"dir": "r", "rules": ["IP"]},
     "S-HEADING": {"dir": "r", "rules": ["IP", "VP", "NP", "NP-OBJ", "NP-SUBJ", "NP.*"]},
     "S-PREFIX": {"dir": "r", "rules": ["IP", "NP.*"]},
@@ -137,7 +137,7 @@ head_rules = {
     "CP-ADV": {"dir": "r", "rules": ["IP-SUB.*"]},  # TODO: aldrei bara CP-ADV?
     "CP-ADV-ACK": {"dir": "r", "rules": ["IP"]},
     "CP-ADV-CAUSE": {"dir": "r", "rules": ["IP"]},
-    "CP-ADV-COND": {"dir": "r", "rules": ["IP"]},
+    "CP-ADV-COND": {"dir": "r", "rules": ["IP", "IP-INF"]},
     "CP-ADV-CONS": {"dir": "r", "rules": ["IP"]},
     "CP-ADV-PURP": {"dir": "r", "rules": ["IP"]},
     "CP-ADV-TEMP": {"dir": "r", "rules": ["IP"]},
@@ -172,10 +172,10 @@ head_rules = {
         "rules": [
             # "CP-FRL",
             (
-                "no(_\w\w)?_nf.*|person(_\w\w)?_nf.*|entity(_\w\w)?_nf.*|fyrirtæki(_\w\w)?_nf.*|gata(_\w\w)?_nf.*"
+                "no(_(et|ft))?_nf.*|person(_(et|ft))?_nf.*|entity(_(et|ft))?_nf.*|fyrirtæki(_(et|ft))?_nf.*|gata(_(et|ft))?_nf.*"
             ),
             ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*|prósenta.*"),
-            ("fn(_\w\w)?_nf.*|pfn(_\w\w)?_nf.*|abfn(_\w\w)?_nf.*"),
+            ("fn(_(et|ft))?_nf.*|pfn(_(et|ft))?_nf.*|abfn(_(et|ft))?_nf.*"),
             ("fn.*|pfn.*|abfn.*"),
             "RRC",
             "IP-INF-PRP",
@@ -271,7 +271,7 @@ head_rules = {
             "PP",
         ],
     },
-    "PP-LOC": {"dir": "r", "rules": ["NP.*"]},
+    "PP-DIR": {"dir": "r", "rules": ["NP.*"]},
     "PP-LOC": {"dir": "r", "rules": ["NP.*", "PP-LOC"]},
     "ADVP": {
         "dir": "r",
@@ -353,7 +353,7 @@ relation_CP = {
     "ADV-PURP": "advcl",
     "ADV-TEMP": "advcl",
     "ADV-CMP": "advcl",
-    "EXPLAIN": "VANTAR_LIÐ",  # TODO: ccomp/xcomp?
+    "EXPLAIN": "dep",  # TODO: ccomp/xcomp?
     "QUE": "ccomp/xcomp",
     "QUE-OBJ": "ccomp/xcomp",
     "QUE-SUBJ": "ccomp/xcomp",
