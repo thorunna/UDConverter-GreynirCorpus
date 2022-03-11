@@ -18,6 +18,8 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
             return "VANTAR_LIÐ_S_PREFIX"  # TODO
         elif mod_func == "HEADING":
             return "VANTAR_LIÐ_S_HEADING"  # TODO
+        elif mod_func == "EXPLAIN" and head_tag == "NP" and head_func == "OBJ":
+            return "acl"
     elif mod_tag == "NP":
         return relation_NP.get(mod_func, "VANTAR_LIÐ")
     elif mod_tag in {
@@ -44,7 +46,7 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
     elif mod_tag in {"lo", "raðnr"}:
         return "amod"
     elif mod_tag in {"PP", "no"}:
-        # -BY, -PRN
+        # -DIR, -LOC
         return "obl"  # NP sem er haus PP fær obl nominal  #TODO: haus CP-ADV (sem er PP) á að vera merktur advcl
     elif mod_tag in {"P", "fs"}:
         return "case"
@@ -116,29 +118,31 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
     ):  # passive participle
         return "HALLÓ_LHÞT"  # Á ekki við um neitt í testset
     elif mod_tag is not None and "lhþt" in mod_tag:
-        return "ccomp/xcomp"  # Á ekki við um neitt í testset
-    elif mod_tag in [
-        "VAN",
-        "DAN",
-        "HAN",
-        "BAN",
-        "RAN",
-    ]:  # TODO: ??  # passive participle
-        return "aux"
+        return "ccomp/xcomp"  # Á ekki við um neitt í testset eða devset    # TODO, taka út ef kemur ekki fyrir
+    # elif mod_tag in [
+    #    "VAN",
+    #    "DAN",
+    #    "HAN",
+    #    "BAN",
+    #    "RAN",
+    # ]:  # passive participle
+    #    return "VAN_DAN_HAN"
+    #    return "aux"       # á líklega bara við um IcePaHC
     elif mod_func is not None and "lhþt" in mod_func:
         if head_func and "=" in head_func:  # TODO: ??
             return "conj"
         else:
-            return "VANTAR_LIÐ"
+            return "VANTAR_LIÐ_" + mod_tag + mod_func
     elif head_tag == "VP" and head_func == "AUX":  # TODO: ??
         return "aux"
-    elif (
-        mod_tag[:2] == "BE" or mod_tag == "BAN"  # TODO: ??
-    ):  # ATH. cop ekki merkt sérstaklega í GC - hvernig á að höndla cop?
-        return "cop"
+    # elif (
+    #    mod_tag[:2] == "BE" or mod_tag == "BAN"
+    # ):  # ATH. cop ekki merkt sérstaklega í GC - hvernig á að höndla cop?
+    #    return "BAN_BAN"
+    #    return "cop"  # á líklega bara við um IcePaHC
     elif (
         mod_func is not None and "_lh_" in mod_func
-    ):  # á bara að vera lh.nt., er þetta rétt?
+    ):  # á bara að vera lh.nt., er þetta rétt?     # TODO
         return "amod"
     elif mod_tag == "CP" and mod_func == "REL" and head_tag == "ADVP":
         return "advcl"

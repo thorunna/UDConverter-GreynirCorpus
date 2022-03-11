@@ -38,54 +38,13 @@ GC_UD_map = {
     "tala": "NUM",
     "tími": "NUM",
     "ártal": "NUM",
+    "dagsafs": "NUM?",  # TODO
+    "dagsföst": "?",  # TODO
+    "tími": "?",  # TODO
+    "tímapunktur": "?",  # TODO
     "raðnr": "ADJ",
     "grm": "PUNCT",
     "foreign": "X",
-    # "D": "DET",  # generalized determiners tagged as DET (determiner)
-    # "ONE": "DET",  # ath. áður taggað sem NUM
-    # "ONES": "DET",
-    "P": "ADP",  # generalized prepositions tagged as ADP
-    "RP": "ADP",  # specifiers of P/complements of P - Ath. flokka sem eitthvað annað?
-    "RPX": "ADP",
-    "FOR": "ADP",
-    "Q": "DET",  # quantifiers tagged as DET - áður: quantifiers tagged as ADJ - ATH ÞETTA ÞARF AÐ ENDURSKOÐA
-    "C": "SCONJ",  # complimentizer tagged as SCONJ (subordinate conjunction)
-    "V": "VERB",
-    "DO": "VERB",  #'gera', do, tagged as verb
-    "HV": "AUX",  #'have' tagged as auxiliary verb
-    "MD": "AUX",  # modal verbs tagged as auxiliary
-    "RD": "VERB",  #'verða', become, tagged as verb
-    "W": "DET",  # WH-determiner tagged as DET (determiner)
-    "so": "VERB",  # All forms of "verða" tagged as VERB
-    "TO": "PART",  # Infinitive marker tagged as PART (particle)
-    "FP": "PART",  # focus particles marked as PART
-    "NPR": "PROPN",  # proper nouns tagged as PROPN
-    "NPRS": "PROPN",
-    "PRO": "PRON",
-    # 'WQ' : 'PRON',  #interrogative pronoun
-    "WQ": "SCONJ",
-    "WPRO": "PRON",  # wh-pronouns
-    "SUCH": "PRON",
-    "ES": "PRON",  # expletive tagged as PRON
-    "MAN": "PRON",
-    "MANS": "PRON",
-    "NUM": "NUM",
-    "ADJ": "ADJ",  # Adjectives tagged as ADV
-    "ADJR": "ADJ",  # Comparative adjectives tagged as ADV
-    "ADJS": "ADJ",  # Superlative adjectives tagged as ADV
-    "WADJ": "ADJ",
-    "ADV": "ADV",  # Adverbs tagged as ADV
-    "WADV": "ADV",  # TODO: ath. betur - bara spor?
-    "NEG": "ADV",
-    "ADVR": "ADV",  # Comparative adverbs tagged as ADV
-    "ADVS": "ADV",  # Superlative adverbs tagged as ADV
-    "ALSO": "ADV",
-    "OTHER": "PRON",
-    "OTHERS": "PRON",
-    "INTJ": "INTJ",  # interjection
-    "FW": "X",
-    "LS": "NUM",  # list marker tagged as numeral
-    "X": "X",
 }
 
 Greynir_map = {
@@ -125,6 +84,10 @@ Greynir_map = {
     "evb": ["Degree", "Sup"],
     "tala": ["NumType", "Card"],
     "raðnr": ["NumType", "Ord"],
+    # "dagsafs": [],  # TODO
+    # "dagsföst": [],  # TODO
+    # "tími": [],  # TODO
+    # "tímapunktur": [],  # TODO
 }
 
 head_rules = {
@@ -134,7 +97,10 @@ head_rules = {
     "S-HEADING": {"dir": "r", "rules": ["IP", "VP", "NP", "NP-OBJ", "NP-SUBJ", "NP.*"]},
     "S-PREFIX": {"dir": "r", "rules": ["IP", "NP.*"]},
     "S-QUE": {"dir": "r", "rules": ["IP"]},
-    "CP-ADV": {"dir": "r", "rules": ["IP-SUB.*"]},  # TODO: aldrei bara CP-ADV?
+    "CP-ADV": {
+        "dir": "r",
+        "rules": ["IP-SUB.*"],
+    },  # TODO: aldrei bara CP-ADV? kemur ekki fyrir í testset/devset
     "CP-ADV-ACK": {"dir": "r", "rules": ["IP"]},
     "CP-ADV-CAUSE": {"dir": "r", "rules": ["IP"]},
     "CP-ADV-COND": {"dir": "r", "rules": ["IP", "IP-INF"]},
@@ -263,7 +229,7 @@ head_rules = {
             "NP",
             "NP-.+",
             "CP-ADV.*",
-            "IP",  # TODO: er þetta rétt? IP-SMC upprunalega
+            "IP",  # TODO: er þetta rétt? IP-SMC upprunalega – IP-SMC kemur ekki fyrir í testset/devset
             ("PP|ao.*|eo.*|ADVP"),
             ("CP-.*|PP"),
             "IP-INF.*",
@@ -279,6 +245,7 @@ head_rules = {
             "no.*",
             ("sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*"),
             ("ao.*|eo.*"),
+            "so.*",
         ],
     },
     "ADVP-DATE-ABS": {
@@ -344,7 +311,7 @@ relation_IP = {
 }
 
 relation_CP = {
-    None: "VANTAR_LIÐ",  # TODO: dep í IcePaHC
+    None: "VANTAR_LIÐ_CP_None",  # TODO: dep í IcePaHC
     "ADV": "advcl",
     "ADV-ACK": "advcl",
     "ADV-CAUSE": "advcl",

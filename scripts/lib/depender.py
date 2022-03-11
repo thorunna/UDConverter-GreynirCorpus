@@ -431,7 +431,9 @@ class Converter:
         for rule in rules:
             if not str(main_clause).startswith("(lemma"):
                 for child in main_clause:
+                    # print("Main clause: ", main_clause)
                     if not isinstance(child, Tree):
+                        # print("Main clause: ", main_clause)
                         id = "_"
                         label = "_"
                         print("Child not tree: ", child)
@@ -1825,13 +1827,15 @@ class Converter:
                     # e.g. (VBDI tók-taka) or (NP-SBJ (PRO-N hann-hann))
                     tag_list[nr] = t[i].label()
                     t[i].set_id(nr)
-                elif len(t[i]) in {2, 3, 4, 5} and t[i].height() == 2:
-                    print("long t[i]: ", t[i])
+                elif len(t[i]) in {2, 3, 4, 5, 6} and t[i].height() == 2:
+                    # print("long t[i]: ", t[i])
+                    # print("halló")
                     # If terminal node with multiword expression/phrase
                     tag_list[nr] = t[i].label()
                     t[i].set_id(nr)
                     t[i].multiword_expression()
-                    print("long t[i] after: ", t[i])
+                    # print("long t[i] after: ", t[i])
+                    # print("halló")
 
                 else:
                     # If constituent / complex phrase
@@ -1840,7 +1844,7 @@ class Converter:
                     const.append(i)
 
             else:
-                print(t[i])
+                # print(t[i])
                 if t[i] == "\\":
                     print(
                         "The token is a backslash, which most likely precedes a bracket. Please exchange the '\(' for *opening_bracket* and the '\)' for *closing_bracket*"
@@ -1863,6 +1867,7 @@ class Converter:
 
                 if "+" in FORM:
                     # The token is a multiword expression/phrase
+                    FORM = FORM.replace("+++++", " ")
                     FORM = FORM.replace("++++", " ")
                     FORM = FORM.replace("+++", " ")
                     FORM = FORM.replace("++", " ")
@@ -1870,6 +1875,7 @@ class Converter:
 
                 if LEMMA is not None and "+" in LEMMA:
                     # The lemma is a multiword expression
+                    LEMMA = LEMMA.replace("+++++", " ")
                     LEMMA = LEMMA.replace("++++", " ")
                     LEMMA = LEMMA.replace("+++", " ")
                     LEMMA = LEMMA.replace("++", " ")
@@ -1880,6 +1886,10 @@ class Converter:
                     FORM = "("
                 elif FORM == "*closing_bracket*":
                     FORM = ")"
+                if LEMMA == "*opening_bracket*":
+                    LEMMA = "("
+                elif LEMMA == "*closing_bracket*":
+                    LEMMA = ")"
 
                 XPOS = tag
                 MISC = defaultdict(lambda: None)

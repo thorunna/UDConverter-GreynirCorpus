@@ -181,7 +181,7 @@ class IndexedCorpusTree(Tree):
                 if (
                     isinstance(self[i], Tree)
                     and self[i].height() == 2
-                    and len(self[i]) in {1, 2, 3, 4, 5}
+                    and len(self[i]) in {1, 2, 3, 4, 5, 6}
                 ):
                     if self[i].label() in tags:
                         parent_index = i[:-1]
@@ -269,7 +269,8 @@ class IndexedCorpusTree(Tree):
         for i in reversed(self.treepositions()):
             if isinstance(self[i], Tree) and self[i].label() == "lemma":
 
-                if len(self[i]) == 2:
+                if len(self[i]) == 2 and self[i].height() == 2:
+                    # try:
                     # The lemma is a two-word phrase
                     self[list(reversed(self.treepositions()))[count + 1]] = (
                         self[list(reversed(self.treepositions()))[count + 1]]
@@ -278,12 +279,27 @@ class IndexedCorpusTree(Tree):
                         + "+"
                         + self[list(reversed(self.treepositions()))[count - 2]]
                     )
-                    print(
-                        "lemma of 2-word phrase: ",
-                        self[list(reversed(self.treepositions()))[count + 1]],
-                    )
+                    #    print(
+                    #        "lemma of 2-word phrase: ",
+                    #        self[list(reversed(self.treepositions()))[count + 1]],
+                    #        "height: ",
+                    #        self[i].height(),
+                    #        "height +1: ",
+                    #        self[list(reversed(self.treepositions()))[count + 1]],
+                    #        "len +1: ",
+                    #        len(self[list(reversed(self.treepositions()))[count + 1]]),
+                    #    )
+                    # except TypeError:
+                    #    print(
+                    #        self[list(reversed(self.treepositions()))[count + 1]],
+                    #        "height +1: ",
+                    #        self[list(reversed(self.treepositions()))[count + 1]],
+                    #        "len +1: ",
+                    #        len(self[list(reversed(self.treepositions()))[count + 1]]),
+                    #    )
+                    #    raise
 
-                elif len(self[i]) == 3:
+                elif len(self[i]) == 3 and self[i].height() == 2:
                     # The lemma is a three-word phrase
                     self[list(reversed(self.treepositions()))[count + 1]] = (
                         self[list(reversed(self.treepositions()))[count + 1]]
@@ -294,12 +310,14 @@ class IndexedCorpusTree(Tree):
                         + "++"
                         + self[list(reversed(self.treepositions()))[count - 3]]
                     )
-                    print(
-                        "lemma of 3-word phrase: ",
-                        self[list(reversed(self.treepositions()))[count + 1]],
-                    )
+                    # print(
+                    #    "lemma of 3-word phrase: ",
+                    #    self[list(reversed(self.treepositions()))[count + 1]],
+                    #    "height: ",
+                    #    self[i].height(),
+                    # )
 
-                elif len(self[i]) == 4:
+                elif len(self[i]) == 4 and self[i].height() == 2:
                     # The lemma is a four-word phrase
                     self[list(reversed(self.treepositions()))[count + 1]] = (
                         self[list(reversed(self.treepositions()))[count + 1]]
@@ -312,9 +330,12 @@ class IndexedCorpusTree(Tree):
                         + "+++"
                         + self[list(reversed(self.treepositions()))[count - 4]]
                     )
+                    # print("allt saman lemma: "), self[
+                    #    list(reversed(self.treepositions()))[count + 1]
+                    # ]
 
-                elif len(self[i]) == 5:
-                    print("five words: ", self[i])
+                elif len(self[i]) == 5 and self[i].height() == 2:
+                    # print("five words: ", self[i])
                     # The lemma is a five-word phrase
                     self[list(reversed(self.treepositions()))[count + 1]] = (
                         self[list(reversed(self.treepositions()))[count + 1]]
@@ -330,6 +351,29 @@ class IndexedCorpusTree(Tree):
                         + self[list(reversed(self.treepositions()))[count - 5]]
                     )
 
+                elif len(self[i]) == 6 and self[i].height() == 2:
+                    # print("six words: ", self[i])
+                    # The lemma is a six-word phrase
+                    self[list(reversed(self.treepositions()))[count + 1]] = (
+                        self[list(reversed(self.treepositions()))[count + 1]]
+                        + "+lemma+"
+                        + self[list(reversed(self.treepositions()))[count - 1]]
+                        + "+"
+                        + self[list(reversed(self.treepositions()))[count - 2]]
+                        + "++"
+                        + self[list(reversed(self.treepositions()))[count - 3]]
+                        + "+++"
+                        + self[list(reversed(self.treepositions()))[count - 4]]
+                        + "++++"
+                        + self[list(reversed(self.treepositions()))[count - 5]]
+                        + "+++++"
+                        + self[list(reversed(self.treepositions()))[count - 6]]
+                    )
+                    # print(self[i])
+                    # print("allt saman lemma: "), self[
+                    #    list(reversed(self.treepositions()))[count + 1]
+                    # ]
+
                 else:
                     # The lemma is attached to the phrase above
                     self[list(reversed(self.treepositions()))[count + 1]] = (
@@ -339,14 +383,14 @@ class IndexedCorpusTree(Tree):
                     )
 
             count += 1
-
+        # print(self)
         return self
 
     def multiword_expression(self):
         """
         Define single-phrase MWEs as one token
         """
-        print(self)
+        # print(self)
         count = 0
         for i in reversed(self.treepositions()):
 
@@ -360,10 +404,10 @@ class IndexedCorpusTree(Tree):
                 ]  # The phrase hasn't gone through if loop before      # TODO: doesn't have an impact, all tokens have +lemma+
             ):
                 # Two-word phrase
-                print(
-                    "2-word phrase before: ",
-                    self[list(reversed(self.treepositions()))[count - 1]],
-                )
+                #    print(
+                #        "2-word phrase before: ",
+                #        self[list(reversed(self.treepositions()))[count - 1]],
+                #    )
 
                 self[list(reversed(self.treepositions()))[count - 1]] = (
                     self[list(reversed(self.treepositions()))[count - 1]]
@@ -371,10 +415,10 @@ class IndexedCorpusTree(Tree):
                     + self[list(reversed(self.treepositions()))[count - 2]]
                 )
 
-                print(
-                    "2-word phrase after: ",
-                    self[list(reversed(self.treepositions()))[count - 1]],
-                )
+            #    print(
+            #        "2-word phrase after: ",
+            #        self[list(reversed(self.treepositions()))[count - 1]],
+            #    )
             elif (
                 isinstance(self[i], Tree)
                 and len(self[i]) == 3
@@ -385,13 +429,13 @@ class IndexedCorpusTree(Tree):
                 ]  # The phrase hasn't gone through if loop before
             ):
                 # Three-word phrase
-                print(
-                    "3-word phrase before: ",
-                    self[i],
-                    self[list(reversed(self.treepositions()))[count - 1]],
-                )
-                print(self[list(reversed(self.treepositions()))[count - 2]])
-                print(self[list(reversed(self.treepositions()))[count - 3]])
+                #    print(
+                #        "3-word phrase before: ",
+                #        self[i],
+                #        self[list(reversed(self.treepositions()))[count - 1]],
+                #    )
+                #    print(self[list(reversed(self.treepositions()))[count - 2]])
+                #    print(self[list(reversed(self.treepositions()))[count - 3]])
 
                 self[list(reversed(self.treepositions()))[count - 1]] = (
                     self[list(reversed(self.treepositions()))[count - 1]]
@@ -401,11 +445,11 @@ class IndexedCorpusTree(Tree):
                     + self[list(reversed(self.treepositions()))[count - 3]]
                 )
 
-                print(
-                    "3-word phrase after: ",
-                    self[i],
-                    self[list(reversed(self.treepositions()))[count - 1]],
-                )
+            #    print(
+            #        "3-word phrase after: ",
+            #        self[i],
+            #        self[list(reversed(self.treepositions()))[count - 1]],
+            #    )
             elif (
                 isinstance(self[i], Tree)
                 and len(self[i]) == 4
@@ -425,6 +469,15 @@ class IndexedCorpusTree(Tree):
                     + "+++"
                     + self[list(reversed(self.treepositions()))[count - 4]]
                 )
+                # print(
+                #    "allt saman: ",
+                # self
+                #    self[list(reversed(self.treepositions()))[count - 1]],
+                #    "-4: ",
+                #    self[list(reversed(self.treepositions()))[count - 4]],
+                #    "-5: ",
+                #    self[list(reversed(self.treepositions()))[count - 5]],
+                # )
             elif (
                 isinstance(self[i], Tree)
                 and len(self[i]) == 5
@@ -446,8 +499,59 @@ class IndexedCorpusTree(Tree):
                     + "++++"
                     + self[list(reversed(self.treepositions()))[count - 5]]
                 )
+                # print(
+                #    "allt saman: ",
+                # self
+                #    self[list(reversed(self.treepositions()))[count - 1]],
+                #    "-5: ",
+                #    self[list(reversed(self.treepositions()))[count - 5]],
+                #    "-6: ",
+                #    self[list(reversed(self.treepositions()))[count - 6]],
+                # )
+            elif (
+                isinstance(self[i], Tree)
+                and len(self[i]) == 6
+                and self[i].height() == 2
+                and "+"
+                not in self[
+                    list(reversed(self.treepositions()))[count - 1]
+                ]  # The phrase hasn't gone through if loop before
+            ):
+                # print("-1: ", self[list(reversed(self.treepositions()))[count - 1]])
+                # print("-2: ", self[list(reversed(self.treepositions()))[count - 2]])
+                # print("-3: ", self[list(reversed(self.treepositions()))[count - 3]])
+                # print("-4: ", self[list(reversed(self.treepositions()))[count - 4]])
+                # print("-5: ", self[list(reversed(self.treepositions()))[count - 5]])
+                # print("-6: ", self[list(reversed(self.treepositions()))[count - 6]])
+                # print("-7: ", self[list(reversed(self.treepositions()))[count - 7]])
+
+                # Six-word phrase
+                self[list(reversed(self.treepositions()))[count - 1]] = (
+                    self[list(reversed(self.treepositions()))[count - 1]]
+                    + "+"
+                    + self[list(reversed(self.treepositions()))[count - 2]]
+                    + "++"
+                    + self[list(reversed(self.treepositions()))[count - 3]]
+                    + "+++"
+                    + self[list(reversed(self.treepositions()))[count - 4]]
+                    + "++++"
+                    + self[list(reversed(self.treepositions()))[count - 5]]
+                    + "+++++"
+                    + self[list(reversed(self.treepositions()))[count - 6]]
+                )
+                # print(
+                #    "allt saman: ",
+                # self
+                #    self[list(reversed(self.treepositions()))[count - 1]],
+                #    "-6: ",
+                #    self[list(reversed(self.treepositions()))[count - 6]],
+                #    "-7: ",
+                #    self[list(reversed(self.treepositions()))[count - 7]],
+                # )
 
             count += 1
+        # print(self)
+        return self
 
 
 class IndexedCorpusTreeError(Exception):
