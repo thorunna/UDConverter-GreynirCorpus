@@ -86,18 +86,6 @@ def main():
         help="flag for automatically tagging input text",
         action="store_true",
     )
-    parser.add_argument(
-        "--faroese",
-        "-far",
-        help="flag for converting a Faroese treebank",
-        action="store_true",
-    )
-    parser.add_argument(
-        "--additions",
-        "-add",
-        help="flag for converting additions to IcePaHC",
-        action="store_true",
-    )
 
     input_type = parser.add_mutually_exclusive_group(required=True)
     input_type.add_argument(
@@ -153,9 +141,23 @@ def main():
                 if args.output
                 else None
             )
-            output_path = (
-                os.path.join("../CoNLLU", output_file) if output_file else None
-            )
+            if "testset" in input_path:
+                output_path = (
+                    os.path.join("../CoNLLU/testset", output_file)
+                    if output_file
+                    else None
+                )
+            elif "devset" in input_path:
+                output_path = (
+                    os.path.join("../CoNLLU/devset", output_file)
+                    if output_file
+                    else None
+                )
+            else:
+                output_path = (
+                    os.path.join("../CoNLLU", output_file) if output_file else None
+                )
+
             file_id = re.sub(r"\.gld", "", os.path.basename(input_path))
 
             with open(input_path) if input_path else stdin as infile, open(
