@@ -76,9 +76,9 @@ class IndexedCorpusTree(Tree):
         # print(type(s))
         if not s == "":
             #    print("halló")
-            print("s:", s)
+            # print("s:", s)
             tree = super().fromstring(s)
-            print(tree)
+            # print(tree)
             # if trim_id_tag and tree._label == "" and len(tree) == 2:
             #    tree[0].corpus_id = str(tree[1]).strip("()ID ")
             #    try:

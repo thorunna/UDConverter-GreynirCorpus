@@ -10,7 +10,11 @@ from lib.reader import IndexedCorpusTree
 def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
 
     if mod_tag == "S":
-        if mod_func in {"MAIN", "QUE", "HEADING"} and head_tag == "S0":
+        if (
+            mod_func in {"MAIN", "QUE", "HEADING", "QUOTE"}
+            and head_tag == "S0"
+            or (head_tag == "CP" and head_func == "QUOTE")
+        ):
             return "conj"
         elif mod_func == "PREFIX":
             if "(st " in str(node):
@@ -113,9 +117,8 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
             return "ccomp"
         elif (
             mod_func is not None
-            and "_lhnt" in mod_func
+            and ("_lhnt" in mod_func or "_lhþt_" in mod_func)
             and head_tag == "NP"
-            and head_func is None
         ):
             return "amod"
     # elif head_tag == "IP" and head_func == "INF-PRP":  # ??

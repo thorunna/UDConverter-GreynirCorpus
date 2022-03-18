@@ -66,26 +66,26 @@
 
 # sent_id = GREYNIR_CORPUS_00484,.3
 # text = Allt er klappað og klárt á milli félaganna, samkvæmt heimildum Vísis, en tilkynnt verður síðar um félagaskiptin og flytur Hörður til höfuðborgar Rússlands þegar heimsmeistaramótinu þar í landi er lokið.
-1	Allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-3	klappað	klappa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	('HALLÓ_so', '0_lhþt_et', 'NP', 'PRD')	_	tag=so_0_lhþt_et
+1	Allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fn_et_nf_hk
+2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	klappað	klappa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
-5	klárt	klár	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
+5	klárt	klár	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=lo_et_nf_hk_sb
 6	á milli	á milli	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-7	félaganna	félag	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_ef_kk_gr
+7	félaganna	félag	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_ef_kk_gr
 8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 9	samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	heimildum	heimild	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_þgf_kvk
+10	heimildum	heimild	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þgf_kvk
 11	Vísis	vísir	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
-13	en	en	CCONJ	st	_	5	cc	_	tag=st
-14	tilkynnt	tilkynna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	conj	_	tag=so_0_lhþt_et
+13	en	en	CCONJ	st	_	3	cc	_	tag=st
+14	tilkynnt	tilkynna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
 15	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
 16	síðar	síðar	ADV	ao_mst	Degree=Cmp	14	advmod	_	tag=ao_mst
 17	um	um	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 18	félagaskiptin	félaga-skipt	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_þf_hk_gr
-19	og	og	CCONJ	st	_	5	cc	_	tag=st
-20	flytur	flytja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+19	og	og	CCONJ	st	_	3	cc	_	tag=st
+20	flytur	flytja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 21	Hörður	Hörður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	nsubj	_	tag=person_nf_kk
 22	til	til	ADP	fs_ef	Case=Gen	23	case	_	tag=fs_ef
 23	höfuðborgar	höfuðborg	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_ef_kvk
@@ -97,7 +97,7 @@
 29	landi	land	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	tag=no_et_þgf_hk
 30	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	31	aux	_	tag=so_0_fh_p3_et_nt_gm
 31	lokið	ljúka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	20	advcl	_	SpaceAfter=No|tag=so_0_lhþt_et
-32	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+32	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00484,.4
 # text = Þegar ég kveikti á smásjánni þá fór ég fyrst inn á klósett, þreif vel á mér hendurnar og setti þær svo undir smásjána og það var sko líf og fjör.

@@ -38,6 +38,9 @@ GC_UD_map = {
     "tala": "NUM",
     "tími": "NUM",
     "ártal": "NUM",
+    "símanúmer": "SYM",
+    "tölvupóstfang": "SYM",
+    "lén": "SYM",
     "dagsafs": "NUM?",  # TODO
     "dagsföst": "?",  # TODO
     "tími": "?",  # TODO
@@ -186,9 +189,9 @@ head_rules = {
         "rules": [
             ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*|abbrev"),
             ("fn.*|pfn.*|abfn.*"),
-            "lo_\w\w_nf.*",
+            ("lo_\w\w_nf.*|so.*"),
             "NP.*",
-            "lo.*",
+            ("lo.*|so.*"),
             "tala",
             "gr.",
             ("tala.*|to.*|töl.*"),

@@ -212,11 +212,11 @@
 16	beina	beina	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	VANTAR_LIÐ_IP_None	_	tag=so_0_nh_gm
 17	stuðningi	stuðningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obj	_	tag=no_et_þgf_kk
 18	þangað	þangað	ADV	ao	_	17	obl	_	tag=ao
-19	sem	sem	SCONJ	stt	_	23	mark	_	tag=stt
-20	þörfin	þörf	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	tag=no_et_nf_kvk_gr
-21	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	cop	_	tag=so_0_fh_p3_et_nt_gm
-22	talin	telja	VERB	so_2_þgf_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	23	('HALLÓ_so', '2_þgf_þf_lhþt_et', 'NP', 'PRD')	_	tag=so_2_þgf_þf_lhþt_et
-23	mest	mikill	ADJ	lo_et_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	18	advcl	_	tag=lo_et_nf_hk_esb
+19	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
+20	þörfin	þörf	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	nsubj	_	tag=no_et_nf_kvk_gr
+21	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_0_fh_p3_et_nt_gm
+22	talin	telja	VERB	so_2_þgf_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	18	advcl	_	tag=so_2_þgf_þf_lhþt_et
+23	mest	mikill	ADJ	lo_et_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	22	amod	_	tag=lo_et_nf_hk_esb
 24	og	og	CCONJ	st	_	11	cc	_	tag=st
 25	framlögin	framlag	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	26	nsubj	_	tag=no_ft_nf_hk_gr
 26	koma	koma	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	VANTAR_LIÐ_IP_None	_	tag=so_0_fh_p3_ft_nt_gm
@@ -293,13 +293,13 @@
 
 # sent_id = GREYNIR_CORPUS_00324,.10
 # text = En, ekki er boðið uppá ræðuhöld um málið á þessu stigi, þannig að hver og einn þingmaður hefur takmarkaðan tíma til að gera ítarlega grein fyrir afstöðu sinni.
-1	En	en	SCONJ	st	_	13	cc	_	SpaceAfter=No|tag=st
+1	En	en	SCONJ	st	_	5	cc	_	SpaceAfter=No|tag=st
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	ekki	ekki	ADV	ao	_	13	advmod	_	tag=ao
-4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
-5	boðið	bjóða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	('HALLÓ_so', '0_lhþt_et', 'NP', 'PRD')	_	tag=so_0_lhþt_et
+3	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
+4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
+5	boðið	bjóða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	uppá	uppá	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	ræðuhöld	ræðuhald	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_þf_hk
+7	ræðuhöld	ræðuhald	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_þf_hk
 8	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk_gr
 10	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
@@ -312,7 +312,7 @@
 17	og	og	CCONJ	st	_	19	cc	_	tag=st
 18	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	tag=fn_et_nf_kk
 19	þingmaður	þingmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	tag=no_et_nf_kk
-20	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
+20	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 21	takmarkaðan	takmarkaður	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	22	amod	_	tag=lo_et_þf_kk_sb
 22	tíma	tími	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	tag=no_et_þf_kk
 23	til	til	ADP	fs_nh	VerbForm=Inf	25	case	_	tag=fs_nh
@@ -323,5 +323,5 @@
 28	fyrir	fyrir	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
 29	afstöðu	afstaða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	tag=no_et_þgf_kvk
 30	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kvk
-31	.	_	PUNCT	grm	_	29	punct	_	tag=grm
+31	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
