@@ -163,7 +163,19 @@ def main():
             with open(input_path) if input_path else stdin as infile, open(
                 output_path, "w"
             ) if output_path else stdout as outfile:
-                for line in infile.readlines():
+                lines = infile.readlines()
+                if not lines[-1].endswith("\n"):
+                    # lines[-1] = lines[-1] + "\n"
+                    lines.append("\n")
+                #    print(lines)
+                # print(infile.readlines().split("', '"))
+                # lines = infile.readlines()
+                # print(len(infile.readlines()))
+                #    if not infile.readlines()[-1].endswith("\n"):
+                #        infile.readlines()[-1] = infile.readlines()[-1] + "\n"
+                #    else:
+                #        print("hallóhalló")
+                for line in lines:
                     psd += line
                     if len(line.strip()) == 0 and len(psd.strip()) > 0:
                         # print("psd:", psd)
@@ -186,8 +198,9 @@ def main():
                         file_sents += 1
                         psd = ""
 
-                dep = c.create_dependency_graph(psd)
-                outfile.write(dep.to_conllU())
+                if psd != "":
+                    dep = c.create_dependency_graph(psd)
+                    outfile.write(dep.to_conllU())
 
             if output_path and args.post_process:
                 run_post_file(output_path)

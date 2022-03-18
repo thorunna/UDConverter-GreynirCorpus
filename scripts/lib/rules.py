@@ -42,6 +42,7 @@ GC_UD_map = {
     "dagsföst": "?",  # TODO
     "tími": "?",  # TODO
     "tímapunktur": "?",  # TODO
+    "mælieining": "?",  # TODO
     "raðnr": "ADJ",
     "grm": "PUNCT",
     "foreign": "X",
@@ -91,8 +92,8 @@ Greynir_map = {
 }
 
 head_rules = {
-    "S0": {"dir": "r", "rules": [("S-MAIN|S-QUOTE|S-QUE|S-PREFIX")]},
-    "S0-X": {"dir": "r", "rules": [("S-MAIN|S-QUOTE|S-QUE|S-PREFIX")]},
+    "S0": {"dir": "r", "rules": [("S0|S-MAIN|S-QUOTE|S-QUE")]},
+    "S0-X": {"dir": "r", "rules": [("S-MAIN|S-QUOTE|S-QUE")]},
     "S-MAIN": {"dir": "r", "rules": ["IP"]},
     "S-HEADING": {"dir": "r", "rules": ["IP", "VP", "NP", "NP-OBJ", "NP-SUBJ", "NP.*"]},
     "S-PREFIX": {"dir": "r", "rules": ["IP", "NP.*"]},

@@ -265,22 +265,30 @@ class UniversalDependencyGraph(DependencyGraph):
         template = "{i}\t{word}\t{lemma_str}\t{ctag}\t{tag}\t{feats_str}\t{head}\t{rel}\t{deps_str}\t{misc_str}\n"
 
         try:
-            return self.join_output_nodes(
-                "".join(
-                    template.format(
-                        i=i,
-                        **node,
-                        lemma_str=node["lemma"] if node["lemma"] else "_",
-                        deps_str=self._deps_str(node["deps"]),
-                        feats_str=self._dict_to_string(node["feats"]),
-                        misc_str=self._dict_to_string(node["misc"]),
+            # if [type(key) != str for key in self.nodes.keys()]:
+            for i, node in self.nodes.items():
+                print(i)
+                print(node)
+                if type(i) == str:
+                    print("halló strengur", i)
+                print("EKKI MWE", self.nodes.items())
+                return self.join_output_nodes(
+                    "".join(
+                        template.format(
+                            i=i,
+                            **node,
+                            lemma_str=node["lemma"] if node["lemma"] else "_",
+                            deps_str=self._deps_str(node["deps"]),
+                            feats_str=self._dict_to_string(node["feats"]),
+                            misc_str=self._dict_to_string(node["misc"]),
+                        )
+                        for i, node in sorted(self.nodes.items())
+                        if node["tag"] != "TOP" and node["word"] is not None
                     )
-                    for i, node in sorted(self.nodes.items())
-                    if node["tag"] != "TOP"
+                    + "\n"
                 )
-                + "\n"
-            )
         except TypeError:
+            print(self.nodes.keys())
             print(self.nodes.items())
             raise
 
@@ -298,12 +306,13 @@ class UniversalDependencyGraph(DependencyGraph):
 
         text = []
         for address, node in self.nodes.items():
-            if node["word"] == None:
-                continue
-            elif "SpaceAfter" in node["misc"] or address == len(self.nodes):
-                text.append(decode_escaped(node["word"]))
-            else:
-                text.append(decode_escaped(node["word"] + " "))
+            if type(address) != str:
+                if node["word"] == None:
+                    continue
+                elif "SpaceAfter" in node["misc"] or address == len(self.nodes):
+                    text.append(decode_escaped(node["word"]))
+                else:
+                    text.append(decode_escaped(node["word"] + " "))
         text = "".join(text)
         text = re.sub(r"(?<=\S)\$(?=\S)", "", text)
         text = re.sub(r"\$ \$", "", text)
@@ -315,6 +324,7 @@ class UniversalDependencyGraph(DependencyGraph):
         text = re.sub(r" \.", ".", text)
         text = re.sub(r"\( ", "(", text)
         text = re.sub(r" \)", ")", text)
+        print("plain text: ", text)
         return "# text = " + text
 
     def original_ID_plain_text(self, **kwargs):
@@ -561,33 +571,35 @@ class Converter:
 
                 # print('No root relation found in sentence.')
                 for address, node in self.dg.nodes.items():
-                    # print(address, node['head'])
-                    # print("ADDRESS: ", type(address), address)
-                    if address == node["head"]:
+                    print("ADDRESS: ", address)
+                    if type(address) != str:
+                        # print(address, node['head'])
+                        # print("ADDRESS: ", type(address), address)
+                        if address == node["head"]:
 
-                        # # DEBUG:
-                        # print('Node to fix:')
-                        # print(self.dg.get_by_address(address))
-                        # print()
+                            # # DEBUG:
+                            # print('Node to fix:')
+                            # print(self.dg.get_by_address(address))
+                            # print()
 
-                        self.dg.get_by_address(address).update(
-                            {"head": 0, "rel": "root"}
-                        )
-                    elif (
-                        node["head"] == address - 1
-                        and self.dg.get_by_address(address - 1)["head"] == address
-                    ):
-                        self.dg.get_by_address(address).update(
-                            {"head": 0, "rel": "root"}
-                        )
+                            self.dg.get_by_address(address).update(
+                                {"head": 0, "rel": "root"}
+                            )
+                        elif (
+                            node["head"] == address - 1
+                            and self.dg.get_by_address(address - 1)["head"] == address
+                        ):
+                            self.dg.get_by_address(address).update(
+                                {"head": 0, "rel": "root"}
+                            )
 
-                    elif (
-                        node["head"] == address - 3
-                        and self.dg.get_by_address(address - 3)["head"] == address
-                    ):
-                        self.dg.get_by_address(address).update(
-                            {"head": 0, "rel": "root"}
-                        )
+                        elif (
+                            node["head"] == address - 3
+                            and self.dg.get_by_address(address - 3)["head"] == address
+                        ):
+                            self.dg.get_by_address(address).update(
+                                {"head": 0, "rel": "root"}
+                            )
 
             # NOTE: when one verb in sent but no root
             elif self.dg.num_verbs() == 1:
@@ -1781,358 +1793,424 @@ class Converter:
         const = []
         tag_list = {}
         nr = 1
+        print("tree: ", tree)
+        if tree != "":
+            if isinstance(tree, (IndexedCorpusTree)):
+                t = tree.get_lemmas()
+            else:
+                t = IndexedCorpusTree.fromstring(tree).get_lemmas()
 
-        if isinstance(tree, (IndexedCorpusTree)):
-            t = tree.get_lemmas()
-        else:
-            t = IndexedCorpusTree.fromstring(tree).get_lemmas()
+            # Tree item read in as string and transferred to UD graph instance
+            if isinstance(t, (IndexedCorpusTree)):
+                t = t.remove_nodes(
+                    tags=[
+                        "META",
+                        "IP-CORPUS",
+                        "ID-LOCAL",
+                        "URL",
+                        "COMMENT",
+                        "lemma",
+                        "exp_seg",
+                        "exp_abbrev",
+                    ],
+                    trace=True,
+                )
+            else:
+                t = IndexedCorpusTree.fromstring(t).remove_nodes(
+                    tags=[
+                        "META",
+                        "IP-CORPUS",
+                        "ID-LOCAL",
+                        "URL",
+                        "COMMENT",
+                        "lemma",
+                        "exp_seg",
+                        "exp_abbrev",
+                    ],
+                    trace=True,
+                )
 
-        # Tree item read in as string and transferred to UD graph instance
-        if isinstance(t, (IndexedCorpusTree)):
-            t = t.remove_nodes(
-                tags=[
-                    "META",
-                    "IP-CORPUS",
-                    "ID-LOCAL",
-                    "URL",
-                    "COMMENT",
-                    "lemma",
-                    "exp_seg",
-                    "exp_abbrev",
-                ],
-                trace=True,
-            )
-        else:
-            t = IndexedCorpusTree.fromstring(t).remove_nodes(
-                tags=[
-                    "META",
-                    "IP-CORPUS",
-                    "ID-LOCAL",
-                    "URL",
-                    "COMMENT",
-                    "lemma",
-                    "exp_seg",
-                    "exp_abbrev",
-                ],
-                trace=True,
-            )
+            self.dg = UniversalDependencyGraph()
 
-        self.dg = UniversalDependencyGraph()
+            for i in t.treepositions():
+                if isinstance(t[i], Tree):
 
-        for i in t.treepositions():
-            if isinstance(t[i], Tree):
-
-                if len(t[i]) == 1:
-                    # If terminal node with label or tree with single child
-                    # e.g. (VBDI tók-taka) or (NP-SBJ (PRO-N hann-hann))
-                    tag_list[nr] = t[i].label()
-                    t[i].set_id(nr)
-                elif len(t[i]) in {2, 3, 4, 5, 6} and t[i].height() == 2:
-                    # print("long t[i]: ", t[i])
-                    # print("halló")
-                    # If terminal node with multiword expression/phrase
-                    tag_list[nr] = t[i].label()
-                    t[i].set_id(nr)
-                    t[i].multiword_expression()
+                    if len(t[i]) == 1:
+                        # If terminal node with label or tree with single child
+                        # e.g. (VBDI tók-taka) or (NP-SBJ (PRO-N hann-hann))
+                        tag_list[nr] = t[i].label()
+                        t[i].set_id(nr)
+                    elif len(t[i]) in {2, 3, 4, 5, 6} and t[i].height() == 2:
+                        # print("long t[i]: ", t[i])
+                        # print("halló")
+                        # If terminal node with multiword expression/phrase
+                        tag_list[nr] = t[i].label()
+                        t[i].set_id(nr)
+                        t[i].multiword_expression()
                     # print("long t[i] after: ", t[i])
                     # print("halló")
 
+                    else:
+                        # If constituent / complex phrase
+                        # e.g. (ADVP (ADV smám-smám) (ADV saman-saman))
+                        t[i].set_id(0)
+                        const.append(i)
+
                 else:
-                    # If constituent / complex phrase
-                    # e.g. (ADVP (ADV smám-smám) (ADV saman-saman))
-                    t[i].set_id(0)
-                    const.append(i)
+                    # print(t[i])
+                    if t[i] == "\\":
+                        print(
+                            "The token is a backslash, which most likely precedes a bracket. Please exchange the '\(' for *opening_bracket* and the '\)' for *closing_bracket*"
+                        )
+                    if len(tag_list) > 0:
+                        try:
+                            tag = tag_list[nr]
+                        except KeyError:
+                            print(self.dg.nodes)
+                            if any(type())
+                            print(len(FORM.split(" ")))
+                            nr -= len(FORM.split(" "))
+                            print("númer eftir minnkun: ", nr)
+                            tag = tag_list[nr]
+                    else:
+                        tag = None
 
-            else:
-                # print(t[i])
-                if t[i] == "\\":
-                    print(
-                        "The token is a backslash, which most likely precedes a bracket. Please exchange the '\(' for *opening_bracket* and the '\)' for *closing_bracket*"
-                    )
-                if len(tag_list) > 0:
-                    try:
-                        tag = tag_list[nr]
-                    except KeyError:
-                        nr -= 1
-                        tag = tag_list[nr]
-                else:
-                    tag = None
+                    if "+lemma+" in t[i]:
+                        FORM = t[i].split("+lemma+")[0]
+                        LEMMA = t[i].split("+lemma+")[1]
+                    else:
+                        FORM = t[i]
+                        LEMMA = None
 
-                if "+lemma+" in t[i]:
-                    FORM = t[i].split("+lemma+")[0]
-                    LEMMA = t[i].split("+lemma+")[1]
-                else:
-                    FORM = t[i]
-                    LEMMA = None
+                    if "+" in FORM:
+                        # The token is a multiword expression/phrase
+                        FORM = FORM.replace("+++++", " ")
+                        FORM = FORM.replace("++++", " ")
+                        FORM = FORM.replace("+++", " ")
+                        FORM = FORM.replace("++", " ")
+                        FORM = FORM.replace("+", " ")
 
-                if "+" in FORM:
-                    # The token is a multiword expression/phrase
-                    FORM = FORM.replace("+++++", " ")
-                    FORM = FORM.replace("++++", " ")
-                    FORM = FORM.replace("+++", " ")
-                    FORM = FORM.replace("++", " ")
-                    FORM = FORM.replace("+", " ")
+                    if LEMMA is not None and "+" in LEMMA:
+                        # The lemma is a multiword expression
+                        LEMMA = LEMMA.replace("+++++", " ")
+                        LEMMA = LEMMA.replace("++++", " ")
+                        LEMMA = LEMMA.replace("+++", " ")
+                        LEMMA = LEMMA.replace("++", " ")
+                        LEMMA = LEMMA.replace("+", " ")
 
-                if LEMMA is not None and "+" in LEMMA:
-                    # The lemma is a multiword expression
-                    LEMMA = LEMMA.replace("+++++", " ")
-                    LEMMA = LEMMA.replace("++++", " ")
-                    LEMMA = LEMMA.replace("+++", " ")
-                    LEMMA = LEMMA.replace("++", " ")
-                    LEMMA = LEMMA.replace("+", " ")
+                    # Original brackets were \( or \), which cannot be used due to bracket parsing
+                    if FORM == "*opening_bracket*":
+                        FORM = "("
+                    elif FORM == "*closing_bracket*":
+                        FORM = ")"
+                    if LEMMA == "*opening_bracket*":
+                        LEMMA = "("
+                    elif LEMMA == "*closing_bracket*":
+                        LEMMA = ")"
 
-                # Original brackets were \( or \), which cannot be used due to bracket parsing
-                if FORM == "*opening_bracket*":
-                    FORM = "("
-                elif FORM == "*closing_bracket*":
-                    FORM = ")"
-                if LEMMA == "*opening_bracket*":
-                    LEMMA = "("
-                elif LEMMA == "*closing_bracket*":
-                    LEMMA = ")"
+                    #        XPOS = tag
+                    #        MISC = defaultdict(lambda: None)
+                    # Feature Classes called here
+                    #        UPOS = G_Features(tag, FORM).get_UD_tag()
+                    #        FEATS = G_Features(tag).get_features()
+                    #        MISC = defaultdict(lambda: None, {"tag": tag})
 
-                XPOS = tag
-                MISC = defaultdict(lambda: None)
-                # Feature Classes called here
-                UPOS = G_Features(tag, FORM).get_UD_tag()
-                FEATS = G_Features(tag).get_features()
-                MISC = defaultdict(lambda: None, {"tag": tag})
-                if FORM not in {"None", None}:
-                    self.dg.add_node(
-                        {
-                            "address": nr,
-                            "word": FORM,
-                            "lemma": LEMMA,
-                            "ctag": UPOS,  # upostag
-                            "tag": XPOS,  # xpostag
-                            "feats": FEATS,
-                            "deps": defaultdict(list),
-                            "rel": "_",
-                            "misc": MISC,
-                        }
-                    )
-                    nr += 1
+                    if " " in FORM:
+                        print("MWE: ", FORM)
+                        print("LEMMA: ", LEMMA)
+                        FORMS = FORM.split(" ")
+                        LEMMAS = LEMMA.split(" ")
+                        XPOS = tag
+                        UPOS = G_Features(tag, FORM).get_UD_tag()
+                        FEATS = G_Features(tag).get_features()
+                        MISC = defaultdict(lambda: None, {"tag": tag})
+                        print("nr í byrjun: ", nr)
+                        mwe_nr = str(nr) + "-" + str(len(FORMS))
+                        print("NR: ", mwe_nr)
+                        self.dg.add_node(
+                            {
+                                "address": mwe_nr,
+                                "word": FORM,
+                                "lemma": "_",
+                                "ctag": "_",  # upostag
+                                "tag": "_",  # xpostag
+                                "feats": "_",
+                                "deps": "_",
+                                "rel": "_",
+                                "misc": "_",
+                            }
+                        )
+                        count = 0
+                        for FORM in FORMS:
+                            print("nr í byrjun: ", nr)
+                            print("FORM: ", FORM)
+                            if len(LEMMAS) > 1:
+                                print("LEMMA: ", LEMMAS[count])
+                                LEMMA = LEMMAS[count]
+                            self.dg.add_node(
+                                {
+                                    "address": nr,
+                                    "word": FORM,
+                                    "lemma": LEMMA,
+                                    "ctag": UPOS,  # upostag
+                                    "tag": XPOS,  # xpostag
+                                    "feats": FEATS,
+                                    "deps": defaultdict(list),
+                                    "rel": "_",
+                                    "misc": MISC,
+                                }
+                            )
+                            nr += 1
+                            count += 1
+                        # nr -= len(FORMS)
 
-        # # DEBUG:
-        # print(tag_list)
+                    else:
 
-        # trees with single child
-        singles = [
-            i
-            for i in set(t.treepositions()).difference(const)
-            if isinstance(t[i], Tree)
-        ]
-
-        # go through the constituencies (bottom up) and find their heads
-        const.sort(key=lambda x: len(x), reverse=True)
-
-        # # DEBUG:
-        # print(t.tags())
-        # print(t.num_verbs())
-        # input()
-
-        # head selection
-        for i in const:
+                        XPOS = tag
+                        MISC = defaultdict(lambda: None)
+                        # Feature Classes called here
+                        UPOS = G_Features(tag, FORM).get_UD_tag()
+                        FEATS = G_Features(tag).get_features()
+                        MISC = defaultdict(lambda: None, {"tag": tag})
+                        print("nr í byrjun: ", nr)
+                        print("FORM: ", FORM)
+                        print("LEMMA: ", LEMMA)
+                        if FORM not in {"None", None}:
+                            self.dg.add_node(
+                                {
+                                    "address": nr,
+                                    "word": FORM,
+                                    "lemma": LEMMA,
+                                    "ctag": UPOS,  # upostag
+                                    "tag": XPOS,  # xpostag
+                                    "feats": FEATS,
+                                    "deps": defaultdict(list),
+                                    "rel": "_",
+                                    "misc": MISC,
+                                }
+                            )
+                            nr += 1
 
             # # DEBUG:
-            # print(i, t[i], t[i].label(), len(t[i]))
+            # print(tag_list)
+
+            # trees with single child
+            singles = [
+                i
+                for i in set(t.treepositions()).difference(const)
+                if isinstance(t[i], Tree)
+            ]
+
+            # go through the constituencies (bottom up) and find their heads
+            const.sort(key=lambda x: len(x), reverse=True)
+
+            # # DEBUG:
+            # print(t.tags())
+            # print(t.num_verbs())
             # input()
 
-            # Catch index referenced sentences in treebank
-            if re.match("=\d", t[i].label()[-2:]):  # or t[i].label() == 'CONJP
-                clause_index = t[i].label()[-1]
-                # re.match('\d', t[i].label()[-2:])
-                for j in const + singles:
-                    if re.match(f"-{clause_index}", t[j].label()[-2:]):
-                        if isinstance(t[j][0], str):
-                            t[i].set_id(t[j].id())
-                        else:
-                            self._select_head(t[i], main_clause=t[j])
-
-            else:
-                self._select_head(t[i])
-
-        # fixes subtrees with 1 child but wrong id
-        for i in singles:
-            if isinstance(t[i][0], Tree) and t[i].id() != t[i][0].id():
+            # head selection
+            for i in const:
 
                 # # DEBUG:
-                # print()
-                # print('Tree ID:', t[i].id(), 'Child ID:', t[i][0].id())
-                # print('Tree:', t[i])
-                # # print()
-                # print('Child:', t[i][0])
+                # print(i, t[i], t[i].label(), len(t[i]))
+                # input()
 
-                if re.match("=\d", t[i].label()[-2:]):
-                    # print('\nMain Clause indicated\n')
+                # Catch index referenced sentences in treebank
+                if re.match("=\d", t[i].label()[-2:]):  # or t[i].label() == 'CONJP
                     clause_index = t[i].label()[-1]
                     # re.match('\d', t[i].label()[-2:])
-                    for j in const:
+                    for j in const + singles:
                         if re.match(f"-{clause_index}", t[j].label()[-2:]):
-                            self._select_head(t[i][0], main_clause=t[j])
-                # else
+                            if isinstance(t[j][0], str):
+                                t[i].set_id(t[j].id())
+                            else:
+                                self._select_head(t[i], main_clause=t[j])
+
                 else:
-                    t[i].set_id(t[i][0].id())
+                    self._select_head(t[i])
+
+            # fixes subtrees with 1 child but wrong id
+            for i in singles:
+                if isinstance(t[i][0], Tree) and t[i].id() != t[i][0].id():
+
+                    # # DEBUG:
+                    # print()
+                    # print('Tree ID:', t[i].id(), 'Child ID:', t[i][0].id())
+                    # print('Tree:', t[i])
+                    # # print()
+                    # print('Child:', t[i][0])
+
+                    if re.match("=\d", t[i].label()[-2:]):
+                        # print('\nMain Clause indicated\n')
+                        clause_index = t[i].label()[-1]
+                        # re.match('\d', t[i].label()[-2:])
+                        for j in const:
+                            if re.match(f"-{clause_index}", t[j].label()[-2:]):
+                                self._select_head(t[i][0], main_clause=t[j])
+                    # else
+                    else:
+                        t[i].set_id(t[i][0].id())
 
                 # print('Tree ID:', t[i].id(), 'Child ID:', t[i][0].id())
 
-        # runs various subtrees that are likely to have root errors after
-        # last block back through head selection
-        for i in const:
-            if re.match(
-                "S0.*",
-                t[i].label(),
-            ):
-                self._select_head(t[i])
+            # runs various subtrees that are likely to have root errors after
+            # last block back through head selection
+            for i in const:
+                if re.match(
+                    "S0.*",
+                    t[i].label(),
+                ):
+                    self._select_head(t[i])
 
-        # relations set
-        for i in const:
+            # relations set
+            for i in const:
 
-            head_tag = t[i].label()
-            head_nr = t[i].id()
+                head_tag = t[i].label()
+                head_nr = t[i].id()
 
-            for child in t[i]:
+                for child in t[i]:
 
-                try:
-                    mod_tag = child.label()
-                except:
-                    # print(child)
-                    # raise
-                    mod_tag = "_"
+                    try:
+                        mod_tag = child.label()
+                    except:
+                        # print(child)
+                        # raise
+                        mod_tag = "_"
 
-                try:
-                    mod_nr = child.id()
-                except:
-                    # print("CHILD TYPE: ", type(child), child)
-                    mod_nr = "_"
+                    try:
+                        mod_nr = child.id()
+                    except:
+                        # print("CHILD TYPE: ", type(child), child)
+                        mod_nr = "_"
 
-                if child:
-                    # NOTE: This is where the root is selected
+                    if child:
+                        # NOTE: This is where the root is selected
 
-                    if head_nr == mod_nr:
-                        if re.match(
-                            "S0.*",
-                            head_tag,
-                        ):  # todo root phrase types from config
-                            self.dg.get_by_address(mod_nr).update(
-                                {"head": 0, "rel": "root"}
-                            )  # todo copula not a head
-                            self.dg.root = self.dg.get_by_address(mod_nr)
+                        if head_nr == mod_nr:
+                            if re.match(
+                                "S0.*",
+                                head_tag,
+                            ):  # todo root phrase types from config
+                                self.dg.get_by_address(mod_nr).update(
+                                    {"head": 0, "rel": "root"}
+                                )  # todo copula not a head
+                                self.dg.root = self.dg.get_by_address(mod_nr)
+                            else:
+                                # Unknown dependency relation (things to fix)
+                                self.dg.get_by_address(mod_nr).update(
+                                    {
+                                        "head": head_nr,
+                                        "rel": self._relation(mod_tag, head_tag, child),
+                                    }
+                                )
+                                self.dg.root = self.dg.get_by_address(mod_nr)
+
                         else:
-                            # Unknown dependency relation (things to fix)
+
+                            # # DEBUG:
+                            # print('head_nr:', head_nr, 'mod_nr:', mod_nr)
+                            # print('head_tag', head_tag, 'mod_tag', mod_tag)
+                            # print(self.dg.get_by_address(mod_nr))
+                            # # input()
+
                             self.dg.get_by_address(mod_nr).update(
                                 {
                                     "head": head_nr,
                                     "rel": self._relation(mod_tag, head_tag, child),
                                 }
                             )
-                            self.dg.root = self.dg.get_by_address(mod_nr)
-
-                    else:
-
-                        # # DEBUG:
-                        # print('head_nr:', head_nr, 'mod_nr:', mod_nr)
-                        # print('head_tag', head_tag, 'mod_tag', mod_tag)
-                        # print(self.dg.get_by_address(mod_nr))
-                        # # input()
-
-                        self.dg.get_by_address(mod_nr).update(
-                            {
-                                "head": head_nr,
-                                "rel": self._relation(mod_tag, head_tag, child),
-                            }
-                        )
 
                         # # DEBUG:
                         # print(self.dg.get_by_address(mod_nr))
                         # input()
 
-                    if head_nr != mod_nr:
-                        self.dg.add_arc(head_nr, mod_nr)
+                        if head_nr != mod_nr:
+                            self.dg.add_arc(head_nr, mod_nr)
 
-        # # self.add_space_after()
-        # self._features()
+            # # self.add_space_after()
+            # self._features()
 
-        # NOTE: Here call method to fix dependency graph if needed?
-        if self.dg.num_roots() != 1:
+            # NOTE: Here call method to fix dependency graph if needed?
+            if self.dg.num_roots() != 1:
 
-            # # DEBUG:
-            # print(self.dg.to_conllU())
-            # input()
+                # # DEBUG:
+                # print(self.dg.to_conllU())
+                # input()
 
-            self._fix_root_relation()
+                self._fix_root_relation()
 
-        rel_counts = self.dg.rels()
-        ctag_counts = self.dg.ctags()
+            rel_counts = self.dg.rels()
+            ctag_counts = self.dg.ctags()
 
-        if rel_counts["ccomp/xcomp"] > 0:
-            self._fix_ccomp()
-        if rel_counts["nsubj"] > 1:
-            self._fix_many_subj()
+            if rel_counts["ccomp/xcomp"] > 0:
+                self._fix_ccomp()
+            if rel_counts["nsubj"] > 1:
+                self._fix_many_subj()
 
-        ##self._fix_left_right_alignments()
+            ##self._fix_left_right_alignments()
 
-        ## if rel_counts['aux'] > 0:
-        ##     self._fix_aux_tag()
-        if rel_counts["acl/advcl"] > 0:
-            self._fix_acl_advcl()
-        if rel_counts["aux"] > 0:
-            self._fix_aux_tag_rel()
-        if rel_counts["advmod"] > 0:
-            self._fix_advmod_tag()
-        if rel_counts["nummod"] > 0:
-            self._fix_nummod_tag()
-        if ctag_counts["PROPN"] > 0:
-            self._fix_flatname_dep()
-        if rel_counts["mark"] > 0:
-            self._fix_mark_dep()
-        if rel_counts["rel"] > 0:
-            self._fix_dep()
-        if ctag_counts["AUX"] > 0:
-            self._fix_root_tag()
-        self._fix_head_id_same()
-        if ctag_counts["X"] > 0:
-            self._fix_flat_foreign()
-        if ctag_counts["CCONJ"] > 0:
-            self._fix_cconj_rel()
-        if rel_counts["cop"] > 0:
-            self._fix_cop_head()
-        if rel_counts["appos"] > 0:
-            self._fix_appos_lr()
-        if rel_counts["cc"] > 0:
-            self._fix_cc_tag()
+            ## if rel_counts['aux'] > 0:
+            ##     self._fix_aux_tag()
+            if rel_counts["acl/advcl"] > 0:
+                self._fix_acl_advcl()
+            if rel_counts["aux"] > 0:
+                self._fix_aux_tag_rel()
+            if rel_counts["advmod"] > 0:
+                self._fix_advmod_tag()
+            if rel_counts["nummod"] > 0:
+                self._fix_nummod_tag()
+            if ctag_counts["PROPN"] > 0:
+                self._fix_flatname_dep()
+            if rel_counts["mark"] > 0:
+                self._fix_mark_dep()
+            if rel_counts["rel"] > 0:
+                self._fix_dep()
+            if ctag_counts["AUX"] > 0:
+                self._fix_root_tag()
+            self._fix_head_id_same()
+            if ctag_counts["X"] > 0:
+                self._fix_flat_foreign()
+            if ctag_counts["CCONJ"] > 0:
+                self._fix_cconj_rel()
+            if rel_counts["cop"] > 0:
+                self._fix_cop_head()
+            if rel_counts["appos"] > 0:
+                self._fix_appos_lr()
+            if rel_counts["cc"] > 0:
+                self._fix_cc_tag()
+                self._fix_cc_rel()
+                self._fix_zero_dep()
+            if rel_counts["conj"] > 0:
+                self._fix_conj_rel()
+            if ctag_counts["PUNCT"] > 0:
+                self._fix_punct_rel()
+            if rel_counts["acl:relcl"] > 0:
+                self._fix_aclrelcl_rel()
+            if rel_counts["punct"] > 0:
+                self._fix_punct_heads()
+            if rel_counts["dep"] > 0:
+                self._fix_dep_rel()
+            # if rel_counts["case"] > 0:
+            #    self._fix_case_rel()
             self._fix_cc_rel()
-            self._fix_zero_dep()
-        if rel_counts["conj"] > 0:
-            self._fix_conj_rel()
-        if ctag_counts["PUNCT"] > 0:
-            self._fix_punct_rel()
-        if rel_counts["acl:relcl"] > 0:
-            self._fix_aclrelcl_rel()
-        if rel_counts["punct"] > 0:
-            self._fix_punct_heads()
-        if rel_counts["dep"] > 0:
-            self._fix_dep_rel()
-        # if rel_counts["case"] > 0:
-        #    self._fix_case_rel()
-        self._fix_cc_rel()
-        self._fix_head_id_same()
-        if self.dg.num_roots() != 1:
+            self._fix_head_id_same()
+            if self.dg.num_roots() != 1:
 
-            # # DEBUG:
-            # print(self.dg.to_conllU())
-            # input()
+                # # DEBUG:
+                # print(self.dg.to_conllU())
+                # input()
 
-            self._fix_root_relation()
+                self._fix_root_relation()
 
-        # DEBUG:
-        # if self.dg.get_by_address(len(self.dg.nodes)-1)['word'] == None:
-        #     self._fix_empty_node()
+            # DEBUG:
+            # if self.dg.get_by_address(len(self.dg.nodes)-1)['word'] == None:
+            #     self._fix_empty_node()
 
-        # if rel_counts['cop'] > 0:
-        #     self._fix_cop()
+            # if rel_counts['cop'] > 0:
+            #     self._fix_cop()
 
-        return self.dg
+            return self.dg
 
     @staticmethod
     def check_left_to_right(dgraph):
@@ -2195,19 +2273,20 @@ class Converter:
         """
 
         for address in dgraph.addresses():
-            id_to_fix = int(address) - 1
-            if dgraph.get_by_address(address)["ctag"] == "PUNCT":
-                if id_to_fix < 0:
-                    continue
-                elif dgraph.get_by_address(address)["ctag"] == "„":
-                    dgraph.get_by_address(address)["misc"]["SpaceAfter"] = "No"
-                elif (
-                    dgraph.get_by_address(id_to_fix)["lemma"] in {"„", ":", "|"}
-                    or address == "1"
-                ):
-                    continue
-                else:
-                    dgraph.get_by_address(id_to_fix)["misc"]["SpaceAfter"] = "No"
+            if type(address) != str:
+                id_to_fix = int(address) - 1
+                if dgraph.get_by_address(address)["ctag"] == "PUNCT":
+                    if id_to_fix < 0:
+                        continue
+                    elif dgraph.get_by_address(address)["ctag"] == "„":
+                        dgraph.get_by_address(address)["misc"]["SpaceAfter"] = "No"
+                    elif (
+                        dgraph.get_by_address(id_to_fix)["lemma"] in {"„", ":", "|"}
+                        or address == "1"
+                    ):
+                        continue
+                    else:
+                        dgraph.get_by_address(id_to_fix)["misc"]["SpaceAfter"] = "No"
             # adding space after word ending in $. Needs better fix
             elif dgraph.get_by_address(address)["word"].endswith(
                 "$"
@@ -2217,7 +2296,7 @@ class Converter:
                 "SCONJ",
             }:
                 dgraph.get_by_address(address)["misc"]["SpaceAfter"] = "No"
-
+        print("DGRAPH: ", dgraph)
         return dgraph
 
     @staticmethod

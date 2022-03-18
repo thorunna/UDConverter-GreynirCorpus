@@ -63,17 +63,30 @@ class IndexedCorpusTree(Tree):
         #             j.join_adjectives(n)
         # print('\n'.join(j.lines))
         #     else:
-        j = NodeJoiner(s.split("\n"))
+        # print(s)
+        # print(type(s))
+        s = s.split("\n")
+        print(s)
+        j = NodeJoiner(s)
+        # j = NodeJoiner(s.split("\n"))
+        # print(j.lines)
+        # j.lines = j.lines[:-1]
         s = "\n".join(j.lines)
-        tree = super().fromstring(s)
-        # if trim_id_tag and tree._label == "" and len(tree) == 2:
-        #    tree[0].corpus_id = str(tree[1]).strip("()ID ")
-        #    try:
-        #        tree[0].corpus_id_num = str(tree[1]).strip("()ID ").split(",")[1]
-        #    except IndexError:
-        #        tree[0].corpus_id_num = None
-        tree = tree[1]
-        return tree
+        # print(s)
+        # print(type(s))
+        if not s == "":
+            #    print("halló")
+            print("s:", s)
+            tree = super().fromstring(s)
+            print(tree)
+            # if trim_id_tag and tree._label == "" and len(tree) == 2:
+            #    tree[0].corpus_id = str(tree[1]).strip("()ID ")
+            #    try:
+            #        tree[0].corpus_id_num = str(tree[1]).strip("()ID ").split(",")[1]
+            #    except IndexError:
+            #        tree[0].corpus_id_num = None
+            tree = tree[1]
+            return tree
 
     def id(self):
         """
