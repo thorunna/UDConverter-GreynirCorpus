@@ -83,9 +83,9 @@
 # text = Viðskiptastríð virðist vera við það að bresta á milli Bandaríkjanna og Kína og hefur Trump líka í hótunum við Evrópusambandið um að hækka tolla.
 1	Viðskiptastríð	viðskiptastríð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=no_et_nf_hk
 2	virðist	virða	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
-3	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	conj	_	tag=so_0_nh_gm
+3	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	cop	_	tag=so_0_nh_gm
 4	við	við	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þf_hk
+5	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þf_hk
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	bresta	bresta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_0_nh_gm
 8	á milli	á milli	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
@@ -166,7 +166,7 @@
 2	Einherji	einherji	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=fyrirtæki_et_nf_kk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
-5	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+5	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 6	ósigraðir	ó-sigra	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	acl:relcl	_	tag=lo_ft_nf_kk_sb
 7	á	eiga	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	mótinu	mót	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk_gr
@@ -240,6 +240,8 @@
 23	samfélaginu	samfélag	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 24	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00454,.10
+# text = Næstum því fjórum mánuðum síðar var skot frá Sergio Aguero sem var réttum megin við línuna og tryggði liðinu 1 – 0 útisigur á Burnley.
 1	Næstum	næstum	ADV	ao	_	4	advmod	_	tag=ao
 2	því	sá	ADV	ao	_	4	advmod	_	tag=ao
 3	fjórum	fjórir	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	nummod	_	tag=to_ft_þgf_kk
@@ -258,11 +260,11 @@
 16	og	og	CCONJ	st	_	6	cc	_	tag=st
 17	tryggði	tryggja	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
 18	liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	17	iobj	_	tag=no_et_þgf_hk_gr
-19	1	1	NUM	tala	NumType=Card	22	nummod	_	tag=tala
+19	1	1	NUM	tala	NumType=Card	22	nummod	_	SpaceAfter=No|tag=tala
 20	–	–	PUNCT	grm	_	19	punct	_	tag=grm
 21	0	0	NUM	tala	NumType=Card	22	nummod	_	tag=tala
 22	útisigur	úti-sigur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	tag=no_et_þf_kk
 23	á	eiga	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	Burnley	Burnley	PROPN	fyrirtæki	_	22	obl	_	tag=fyrirtæki
+24	Burnley	Burnley	PROPN	fyrirtæki	_	22	obl	_	SpaceAfter=No|tag=fyrirtæki
 25	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 

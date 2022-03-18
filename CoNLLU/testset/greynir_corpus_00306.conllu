@@ -40,7 +40,7 @@
 9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	tag=so_0_fh_p3_et_nt_gm
 10	og	og	CCONJ	st	_	2	cc	_	tag=st
 11	þær	hún	PRON	pfn_ft_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	tag=pfn_ft_nf_kvk_p3
-12	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_0_fh_p3_ft_nt_gm
+12	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_ft_nt_gm
 13	jákvæðar	jákvæður	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	tag=lo_ft_nf_kvk_sb
 14	fyrir utan	fyrir utan	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	tag=fn_et_þf_hk
@@ -115,7 +115,7 @@
 1	Krack	Krack	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
 2	eða	eða	CCONJ	st	_	3	cc	_	tag=st
 3	Key Reinstallation Attacks	Key Reinstallation Attacks	PROPN	sérnafn	_	1	conj	_	tag=sérnafn
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	ný	nýr	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_sb
 6	tegund	tegund	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 7	galla	galli	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	tag=no_et_ef_kk
@@ -135,14 +135,13 @@
 
 # sent_id = GREYNIR_CORPUS_00306,.6
 # text = Stærstu útgjaldaliðirnir eru heilbrigðis- og velferðarmál og er gert ráð fyrir að uppsafnaður raunvöxtur útgjalda til heilbrigðismála á tímabilinu verði 22% og 13% til velferðarmála.
--3	None	_	None	None	_	_	None	_	_
 1	Stærstu	stór	ADJ	lo_ft_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur	2	amod	_	tag=lo_ft_nf_kk_evb
 2	útgjaldaliðirnir	útgjaldaliður	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_nf_kk_gr
-3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4	heilbrigðis- og velferðarmál	heilbrigðis- og velferðarmál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 5	og	og	CCONJ	st	_	6	cc	_	tag=st
 6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
-7	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
+7	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	conj	_	tag=so_0_lhþt_et
 8	ráð	ráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	obj	_	tag=no_et_nf_hk
 9	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	19	case	_	tag=fs_nh
 10	að	að	SCONJ	st	_	19	mark	_	tag=st
@@ -153,7 +152,7 @@
 15	heilbrigðismála	heilbrigðismál	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_ef_hk
 16	á	á	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	tímabilinu	tímabil	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þgf_hk_gr
-18	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+18	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 19	22%	22%	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_nf_hk
 20	og	og	CCONJ	st	_	21	cc	_	tag=st
 21	13%	13%	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	conj	_	tag=no_et_nf_hk
@@ -247,6 +246,8 @@
 25	tengt	tengdur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	18	amod	_	SpaceAfter=No|tag=lo_et_þf_hk_sb
 26	.	_	PUNCT	grm	_	16	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00306,.10
+# text = T-Roc er smíðaður í Portúgal ásamt Sharan og Alhambra og gerðu upphaflegar áætlar fyrir að 70.000 eintaka smíði á ári myndi veld duga.
 1	T-Roc	T-Roc	PROPN	entity_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=entity_et_nf_kk
 2	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	smíðaður	smíðaður	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
@@ -269,6 +270,6 @@
 20	ári	ári	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	tag=no_et_þgf_hk
 21	myndi	munu	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	tag=so_0_vh_p3_et_nt_gm
 22	veld	veld	ADV	ao	_	23	advmod	_	tag=ao
-23	duga	duga	VERB	so_0_nh	VerbForm=Inf	11	obl	_	tag=so_0_nh
+23	duga	duga	VERB	so_0_nh	VerbForm=Inf	11	obl	_	SpaceAfter=No|tag=so_0_nh
 24	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

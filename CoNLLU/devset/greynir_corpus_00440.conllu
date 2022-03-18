@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00440,.1
 # text = Allianz er eitt stærsta tryggingafélag í heimi og það er mikill fengur að fá að miðla þeirra vörum á Íslandi.
 1	Allianz	Allianz	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	5	nsubj	_	tag=fyrirtæki_nf_hk
-2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	eitt	eitt	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	tag=fn_et_nf_hk
 4	stærsta	stærsta	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_nf_hk_evb
 5	tryggingafélag	tryggingafélag	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
@@ -9,7 +9,7 @@
 7	heimi	heimi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
 9	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_hk_p3
-10	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 11	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_nf_kk_sb
 12	fengur	fengur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	tag=no_et_nf_kk
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
@@ -136,7 +136,7 @@
 9	að	að	SCONJ	st	_	13	mark	_	tag=st
 10	hundrað	hundrað	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	nummod	_	tag=töl_ft_ef_hk
 11	ár	á	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	tag=no_ft_nf_hk
-12	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	13	conj	_	tag=so_1_nf_fh_p3_ft_þt_gm
+12	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	13	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 13	liðin	lið	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	3	ccomp	_	tag=so_0_lhþt_ft
 14	síðan	síða	SCONJ	st	_	19	mark	_	tag=st
 15	verslunin	verslun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	nsubj	_	tag=no_et_nf_kvk_gr
@@ -168,7 +168,7 @@
 17	fólk	fólk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=no_et_þf_hk
 18	með	með	ADP	fs	_	16	case	_	SpaceAfter=No|tag=fs
 19	&#40;	&#40;	PUNCT	grm	_	16	punct	_	tag=grm
-20	GISP	GISP	NOUN	abbrev	_	19	flat:name	_	SpaceAfter=No|tag=abbrev
+20	GISP	GISP	ADV	abbrev	_	19	advmod	_	SpaceAfter=No|tag=abbrev
 21	!	!	PUNCT	grm	_	20	punct	_	SpaceAfter=No|tag=grm
 22	&#41;	&#41;	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -213,7 +213,7 @@
 12	að	að	SCONJ	st	_	17	mark	_	tag=st
 13	árið 2014	árið 2014	ADV	ártal	_	17	advmod	_	tag=ártal
 14	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_vh_p3_et_nt_gm
-15	orðið	verða	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	17	conj	_	tag=so_1_nf_sagnb_gm
+15	orðið	verða	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	17	cop	_	tag=so_1_nf_sagnb_gm
 16	ðákveðinn	ðákveðinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	17	amod	_	tag=lo_et_nf_kk_sb
 17	vendipunktur	vendipunktur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	obj	_	tag=no_et_nf_kk
 18	hvað	hvað	PRON	fn	_	21	obl	_	tag=fn
@@ -222,6 +222,8 @@
 21	varðar	varinn	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	ccomp	_	SpaceAfter=No|tag=so_1_þf_fh_p3_et_nt_gm
 22	.	.	PUNCT	grm	_	10	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00440,.10
+# text = Út frá því fór ég líka að skoða hluti sem ég bjó sjálf til sem barn til þess að öðlast skilning.
 1	Út	út	ADV	ao	_	3	advmod	_	tag=ao
 2	frá	frá	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	tag=pfn_et_þgf_hk_p3
@@ -242,6 +244,6 @@
 18	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	obl	_	tag=fn_et_ef_hk
 19	að	að	PART	nhm	_	20	mark	_	tag=nhm
 20	öðlast	öðlast	VERB	so_1_þf_nh_mm	Case=Acc|VerbForm=Inf|Voice=Mid	18	xcomp	_	tag=so_1_þf_nh_mm
-21	skilning	skilningur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	tag=no_et_þf_kk
+21	skilning	skilningur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No|tag=no_et_þf_kk
 22	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 

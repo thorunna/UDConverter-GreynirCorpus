@@ -174,16 +174,15 @@
 17	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 18	þremur	þrír	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	19	nummod	_	tag=to_ft_þgf_kk
 19	tölfræðiþáttum	tölfræðiþáttur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
-20	,	_	PUNCT	grm	_	21	punct	_	tag=grm
-21	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+20	,	_	PUNCT	grm	_	22	punct	_	tag=grm
+21	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 22	Michael Jordan	Michael Jordan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No|tag=person_nf_kk
 23	.	_	PUNCT	grm	_	22	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00297,.8
 # text = Það var Jóhanna sem skipaði Oddnýju Harðardóttur fjármálaráðherra áramótin 2011 2012 og fól þar með fyrstu konunni að gegna því veigamikla embætti.
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	Jóhanna	Jóhanna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	0	root	_	tag=person_nf_kvk
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	skipaði	skipa	VERB	so_2_þf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	tag=so_2_þf_þf_fh_p3_et_þt_gm
@@ -231,6 +230,8 @@
 22	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	advcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
 23	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00297,.10
+# text = Opnað var fyrir umsóknir í síðasta mánuði á vef Stjórnarráðsins og óskað er eftir umsóknum frá ungmennum á aldrinum 13 til 18 ára.
 1	Opnað	opna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_þt_gm
 3	fyrir	fyrir	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
@@ -253,6 +254,6 @@
 20	13	13	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	23	nummod	_	tag=tala_ft_ef_hk
 21	til	til	ADV	eo	_	23	advmod	_	tag=eo
 22	18	18	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	23	nummod	_	tag=tala_ft_ef_hk
-23	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	19	obl	_	tag=no_ft_ef_hk
+23	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	19	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
 24	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 

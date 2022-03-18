@@ -61,7 +61,7 @@
 14	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 15	fleiri	margur	ADJ	lo_ft_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	16	amod	_	tag=lo_ft_þf_hk_mst
 16	nöfn	nafn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_þf_hk
-17	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	19	conj	_	tag=so_0_vh_p3_ft_þt_gm
+17	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	19	cop	_	tag=so_0_vh_p3_ft_þt_gm
 18	vel	vel	ADV	eo	_	19	advmod	_	tag=eo
 19	þegnar	þeginn	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No|tag=lo_ft_nf_kvk_sb
 20	.	.	PUNCT	grm	_	1	punct	_	tag=grm
@@ -74,10 +74,10 @@
 4	vinnslusvæði	vinnslu-svæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 5	Reykjanesvirkjunar	Reykjanes-virkjun	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=sérnafn_et_ef_kvk
 6	og	og	CCONJ	st	_	2	cc	_	tag=st
-7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-8	tilgangurinn	tilgangur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk_gr
+7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	tilgangurinn	tilgangur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	cop	_	tag=no_et_nf_kk_gr
 9	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=fn_et_þgf_hk
+10	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
 12	bora	bora	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	10	xcomp	_	tag=so_1_þf_nh_gm
 13	svo	svo	ADV	eo	_	12	advmod	_	tag=eo
@@ -146,7 +146,7 @@
 11	segja	segja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þf_nh_gm
 12	að	að	SCONJ	st	_	11	obj	_	tag=st
 13	stelpurnar	stelpa	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	16	nsubj	_	tag=no_ft_nf_kvk_gr
-14	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	conj	_	tag=so_0_vh_p3_ft_nt_gm
+14	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_0_vh_p3_ft_nt_gm
 15	vel	vel	ADV	eo	_	16	advmod	_	tag=eo
 16	tilbúnar	tilbúa	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	12	VANTAR_LIÐ_IP_None	_	tag=lo_ft_nf_kvk_sb
 17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
@@ -200,9 +200,10 @@
 19	höggum	högg	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00426,.10
+# text = Haukar eru búnir að tapa þremur leikjum í röð og eru í fallsæti fyrir umferðina með aðeins átta stig.
 1	Haukar	haukur	PROPN	fyrirtæki_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	tag=fyrirtæki_ft_nf_kk
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	búnir	búa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	tapa	tapa	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þgf_nh_gm
@@ -211,14 +212,14 @@
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	röð	röð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk
 10	og	og	CCONJ	st	_	3	cc	_	tag=st
-11	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_nt_gm
+11	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	fallsæti	fall-sæti	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
+13	fallsæti	fall-sæti	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
 14	fyrir	fyrir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	umferðina	umferð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þf_kvk_gr
 16	með	með	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 17	aðeins	aðeins	ADV	ao	_	19	advmod	_	tag=ao
 18	átta	átta	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	19	nummod	_	tag=töl_ft_þf_hk
-19	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þf_hk
+19	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
 20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

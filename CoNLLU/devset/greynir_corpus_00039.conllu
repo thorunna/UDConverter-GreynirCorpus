@@ -64,12 +64,11 @@
 
 # sent_id = GREYNIR_CORPUS_00039,.6
 # text = Mætingin hérna í Mýrinni er ömurleg, sérstaklega hjá Stjörnufólki.
--1	None	_	None	None	_	_	None	_	_
 1	Mætingin	mæting	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk_gr
 2	hérna	hérna	ADV	ao_fst	Degree=Pos	4	advmod	_	tag=ao_fst
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	Mýrinni	Mýrin	PROPN	sérnafn_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	1	obl	_	tag=sérnafn_et_þgf_kvk_gr
-5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 6	ömurleg	ömurlegur	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kvk_fst_sb
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	sérstaklega	sérstaklega	ADV	ao_fst	Degree=Pos	6	advmod	_	tag=ao_fst
@@ -94,7 +93,7 @@
 # sent_id = GREYNIR_CORPUS_00039,.8
 # text = Þá mældist hann 1040,6 hPa og 80 ára met slegið.
 1	Þá	þá	ADV	ao_fst	Degree=Pos	4	advmod	_	tag=ao_fst
-2	mældist	mæla	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	4	conj	_	tag=so_1_nf_fh_p3_et_þt_mm
+2	mældist	mæla	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	4	cop	_	tag=so_1_nf_fh_p3_et_þt_mm
 3	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kk_p3
 4	1040,6 hPa	1040,6 hPa	X	mælieining	_	0	root	_	tag=mælieining
 5	og	og	CCONJ	st	_	4	cc	_	tag=st
@@ -117,6 +116,8 @@
 9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	Tvis Holstebro	Tvis Holstebro	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=sérnafn_et_þgf_kk
 
+# sent_id = GREYNIR_CORPUS_00039,.10
+# text = Frá þessu var greint á fréttamannafundi sænsku akademíunnar í dag.
 1	Frá	frá	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
 3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_þt_gm
@@ -126,6 +127,6 @@
 7	sænsku	sænskur	ADJ	lo_et_ef_kvk_fst_vb	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	tag=lo_et_ef_kvk_fst_vb
 8	akademíunnar	akademía	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=no_et_ef_kvk_gr
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	advmod	_	tag=no_et_þf_kk
+10	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 11	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

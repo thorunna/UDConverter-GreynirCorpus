@@ -20,6 +20,8 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
             return "VANTAR_LIÐ_S_HEADING"  # TODO
         elif mod_func == "EXPLAIN" and head_tag == "NP" and head_func == "OBJ":
             return "acl"
+        elif mod_func == "EXPLAIN" and head_tag == "S0":  # interjected clauses
+            return "parataxis"
     elif mod_tag == "NP":
         return relation_NP.get(mod_func, "VANTAR_LIÐ")
     elif mod_tag in {
@@ -35,15 +37,15 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         "PP",
     }:  # seinna no. í nafnlið fær 'conj' og er háð fyrra no.
         return "conj"
-    elif head_tag == "ADJP":
-        return "amod"
+    # elif head_tag == "ADJP":
+    #    return "amod"
     # elif mod_tag == "ES":      # ATH. hvernig eru leppir merktir í GC?
     #    return "expl"  # expletive
     elif mod_tag in {"fn", "abfn", "pfn"}:
         return "nmod"
     elif mod_tag == "gr":  # áður: "D", "WD", "ONE", "ONES", "OTHER", "OTHERS", "SUCH"
         return "det"
-    elif mod_tag in {"lo", "raðnr"}:
+    elif mod_tag in {"ADJP", "lo", "raðnr"}:
         return "amod"
     elif mod_tag in {"PP", "no"}:
         # -DIR, -LOC
@@ -52,11 +54,7 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         return "case"
     elif mod_tag == "ADVP" and mod_func == "PCL":
         return "compound:prt"
-    elif mod_tag in {
-        "ao",
-        "eo",
-        "ADVP",
-    }:
+    elif mod_tag in {"ao", "eo", "ADVP", "abbrev"}:
         return "advmod"
     if mod_tag == "IP":
         if head_tag == "CP" and head_func == "REL":
@@ -84,6 +82,16 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
             return "aux"
         elif mod_func is None:
             if (
+                "+lemma+vera" in str(node)
+                or "+lemma+er" in str(node)
+                or "+lemma+verða" in str(node)
+                or "+lemma+mæla" in str(node)
+                or "+lemma+þykja" in str(node)
+                and head_tag == "VP"
+                and head_func is None
+            ):
+                return "cop"  # copula, the phrase's head is a predicate
+            elif (
                 mod_func is None
                 and head_tag in {"IP"}
                 and head_func in {None, "INF", "INF-OBJ"}
@@ -97,20 +105,19 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
                 return "ccomp/xcomp"
             elif "lhþt" in str(node) and head_tag == "VP" and head_func is None:
                 return "ccomp/xcomp"
-            elif (
-                "+lemma+vera" in str(node)
-                or "+lemma+er" in str(node)
-                or "+lemma+verða" in str(node)
-                or "+lemma+mæla" in str(node)
-                and head_tag == "VP"
-                and head_func is None
-            ):
-                return "cop"  # copula, the phrase's head is a predicate
             elif head_tag == "PP":
                 return "case??"  # TODO
         return "VANTAR_LIÐ_VP_None"
-    elif mod_tag == "so" and head_tag == "CP":
-        return "ccomp"
+    elif mod_tag == "so":
+        if head_tag == "CP":
+            return "ccomp"
+        elif (
+            mod_func is not None
+            and "_lhnt" in mod_func
+            and head_tag == "NP"
+            and head_func is None
+        ):
+            return "amod"
     # elif head_tag == "IP" and head_func == "INF-PRP":  # ??
     #    return "advcl"
     elif (
@@ -170,7 +177,7 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         ):  # coordinating conjunction
             return "cc"
         return "mark"
-    elif mod_tag == "stt":
+    elif mod_tag in {"stt", "nhm"}:
         return "mark"
     elif mod_tag in {"to", "töl", "tala", "tími", "ártal", "prósenta"}:
         return "nummod"

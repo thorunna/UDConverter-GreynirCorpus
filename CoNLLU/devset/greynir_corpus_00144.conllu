@@ -94,18 +94,17 @@
 16	sagðist	segja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	conj	_	tag=so_0_fh_p3_et_þt_mm
 17	ekki	ekki	ADV	ao	_	16	advmod	_	tag=ao
 18	hafa	hafa	AUX	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	16	aux	_	tag=so_1_þf_nh_gm
-19	vitað	vita	VERB	so_0_sagnb	VerbForm=Sup	16	conj	_	tag=so_0_sagnb
+19	vitað	vita	VERB	so_0_sagnb	VerbForm=Sup	16	cop	_	tag=so_0_sagnb
 20	hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	tag=fn_et_þf_hk
-21	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	obj	_	tag=so_0_vh_p3_et_þt_gm
+21	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	16	obj	_	tag=so_0_vh_p3_et_þt_gm
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	þeim	hann	PRON	pfn_ft_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No|tag=pfn_ft_þgf_kk_p3
 24	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00144,.5
 # text = Það eru myndirnar Mortdecai og Transcendence sem draga Depp niður, en Mortdecai skilaði fjárfestum tapi og Transcendence kom rétt út á sléttu.
--4	None	_	None	None	_	_	None	_	_
 1	Það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fn_et_nf_hk
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	myndirnar	mynd	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk_gr
 4	Mortdecai	Mortdecai	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_ef_hk
 5	og	og	CCONJ	st	_	3	cc	_	tag=st
@@ -132,7 +131,7 @@
 # sent_id = GREYNIR_CORPUS_00144,.6
 # text = Ástæðan er fyrst og fremst afar stórir árgangar fólks á aldrinum 65 til 79 ára þar sem hlutfallslega fleri lifa lengur en áður.
 1	Ástæðan	ástæða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	fyrst og fremst	fyrst og fremst	ADV	eo	_	6	advmod	_	tag=eo
 4	afar	afar	ADV	eo	_	6	advmod	_	tag=eo
 5	stórir	stór	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_nf_kk_sb
@@ -233,9 +232,10 @@
 21	flokknum	flokknum	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00144,.10
+# text = Fallbaráttan er galopin núna og við ætlum að gera allt sem í okkar valdi stendur til þess að halda sæti okkar í deildinni.
 1	Fallbaráttan	fallbarátta	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	galopin	galopinn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 4	núna	núna	ADV	ao	_	3	advmod	_	tag=ao
 5	og	og	CCONJ	st	_	3	cc	_	tag=st
@@ -256,6 +256,6 @@
 20	sæti	sæti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	tag=no_et_þf_hk
 21	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	20	nmod:poss	_	tag=pfn_ft_ef_p1
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	deildinni	deild	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þgf_kvk_gr
+23	deildinni	deild	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
 24	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

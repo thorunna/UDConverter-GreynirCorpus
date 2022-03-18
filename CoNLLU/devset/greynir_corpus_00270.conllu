@@ -72,7 +72,7 @@
 8	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	þessari	þessi	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	tag=fn_et_þgf_kvk
 10	uppsetningu	uppsetning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þgf_kvk
-11	verði	verða	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_0_vh_p3_ft_nt_gm
+11	verði	verða	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_vh_p3_ft_nt_gm
 12	komnar	koma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	1	obl	_	tag=so_0_lhþt_ft
 13	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	rekstur	rekstur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þf_kk
@@ -92,7 +92,7 @@
 6	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 7	íslenskri	íslenskur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	8	amod	_	tag=lo_et_þgf_kvk_sb
 8	þróunarsamvinnu	þróunarsamvinna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
-9	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+9	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 10	góður	góður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_nf_kk_sb
 11	vitnisburður	vitnisburður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 12	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
@@ -104,15 +104,15 @@
 
 # sent_id = GREYNIR_CORPUS_00270,.6
 # text = Þannig að já, að einhverju leyti er hægt að loka sárunum og ná einhvers konar bata.
-1	Þannig	þannig	ADV	ao	_	0	root	_	tag=ao
+1	Þannig	þannig	ADV	ao	_	9	cc	_	tag=ao
 2	að	að	SCONJ	st	_	3	cc	_	tag=st
 3	já	já	INTJ	uh	_	1	conj	_	SpaceAfter=No|tag=uh
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	að	að	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 6	einhverju	einhver	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	tag=fn_et_þgf_hk
 7	leyti	leyti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
-9	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=lo_et_nf_hk_sb
+8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
+9	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
 11	loka	loka	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þgf_nh_gm
 12	sárunum	sár	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	11	obj	_	tag=no_ft_þgf_hk_gr
@@ -121,7 +121,7 @@
 15	einhvers	einhver	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	tag=fn_et_ef_kk
 16	konar	konar	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	obj	_	tag=no_et_ef_kk
 17	bata	bati	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No|tag=no_et_ef_kk
-18	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+18	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00270,.7
 # text = Það gerir líka Egill Sigurgeirsson sem sat í sveitarstjórn tvö kjörtímabil fyrir það sem nú er að ljúka.
@@ -185,6 +185,8 @@
 17	óveðri	óveður	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 18	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00270,.10
+# text = Við meðferð málsins fyrir dómi hafi farið fram geðrannsókn á kærða þar sem hann hafi verið metinn sakhæfur.
 1	Við	við	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	meðferð	meðferð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk
 3	málsins	mál	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod:poss	_	tag=no_et_ef_hk_gr
@@ -200,8 +202,8 @@
 13	sem	sem	SCONJ	st	_	12	cc	_	tag=st
 14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_et_nf_kk_p3
 15	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	tag=so_0_vh_p3_et_nt_gm
-16	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	18	conj	_	tag=so_0_sagnb_gm
-17	metinn	meta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	18	VANTAR_LIÐ_so0_lhþt_et	_	tag=so_0_lhþt_et
-18	sakhæfur	sakhæfur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	advcl	_	tag=lo_et_nf_kk_sb
+16	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	18	cop	_	tag=so_0_sagnb_gm
+17	metinn	meta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	18	('HALLÓ_so', '0_lhþt_et', 'NP', 'PRD')	_	tag=so_0_lhþt_et
+18	sakhæfur	sakhæfur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	advcl	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 19	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 

@@ -131,7 +131,7 @@
 5	upp úr	upp úr	ADV	ao	_	4	advmod	_	tag=ao
 6	en	en	CCONJ	st	_	4	cc	_	tag=st
 7	lögreglan	lögregla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk_gr
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
+8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 9	þungvopnuð	þungvopnaður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	tag=lo_et_nf_kvk_sb
 10	og	og	CCONJ	st	_	9	cc	_	tag=st
 11	með	með	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
@@ -143,7 +143,7 @@
 # text = Hraði þess er 25,5 kílómetrar á sekúndu, eða 918 þúsund kílómetrar á klukkustund.
 1	Hraði	hraði	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
 2	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_et_ef_hk_p3
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	25,5	25,5	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_nf_kk
 5	kílómetrar	kílómetri	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -156,6 +156,8 @@
 13	klukkustund	klukkustund	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk
 14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00075,.10
+# text = Ef við hendum svona miklum mat þá erum við bara að henda peninugm.
 1	Ef	ef	SCONJ	st	_	3	mark	_	tag=st
 2	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
 3	hendum	henda	VERB	so_1_þgf_fh_p1_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	12	advcl	_	tag=so_1_þgf_fh_p1_ft_nt_gm
@@ -168,6 +170,6 @@
 10	bara	bara	ADV	ao	_	12	advmod	_	tag=ao
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
 12	henda	henda	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þgf_nh_gm
-13	peninugm	peningur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	12	obj	_	tag=no_ft_þgf_kk
+13	peninugm	peningur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No|tag=no_ft_þgf_kk
 14	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 

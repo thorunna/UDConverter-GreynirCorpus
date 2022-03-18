@@ -17,7 +17,7 @@
 # sent_id = GREYNIR_CORPUS_00242,.2
 # text = Hann er 186 sentimetrar á hæð með græn augu og stutt dökkt hár.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	186	186	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	4	nummod	_	tag=tala_ft_nf_kk
 4	sentimetrar	sentimetri	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -58,7 +58,7 @@
 7	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_hk_p3
 8	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_nt_gm
 9	ekki	ekki	ADV	ao	_	12	advmod	_	tag=ao
-10	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	12	conj	_	tag=so_1_nf_sagnb_gm
+10	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	12	cop	_	tag=so_1_nf_sagnb_gm
 11	sniðug	sniðugur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	tag=lo_et_nf_kvk_sb
 12	hugmynd	hugmynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No|tag=no_et_nf_kvk
 13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
@@ -67,12 +67,12 @@
 # text = Ef munnmök eru nýi góða nótt kossinn er þá sleikur nýja handabandið ?
 1	Ef	ef	SCONJ	st	_	6	mark	_	tag=st
 2	munnmök	munnmök	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	tag=no_ft_nf_hk
-3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_nt_gm
+3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_ft_nt_gm
 4	nýi	nýr	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_vb
 5	góða	góður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_þf_kvk_sb
 6	nótt	nótt	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	advcl	_	tag=no_et_þf_kvk
 7	kossinn	koss	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	conj	_	tag=no_et_nf_kk_gr
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_0_fh_p3_et_nt_gm
+8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_nt_gm
 9	þá	þá	ADV	ao	_	12	advmod	_	tag=ao
 10	sleikur	sleikur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=no_et_nf_kk
 11	nýja	nýr	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_nf_hk_vb
@@ -115,10 +115,9 @@
 
 # sent_id = GREYNIR_CORPUS_00242,.8
 # text = Ástæða starfslokanna er skoðanaágreiningur sem reyndist óyfirstíganlegur, sagði í fréttatilkynningunni.
--3	None	_	None	None	_	_	None	_	_
 1	Ástæða	ástæða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 2	starfslokanna	starfslok	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_hk_gr
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	skoðanaágreiningur	skoðanaágreiningur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	tag=no_et_nf_kk
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 6	reyndist	reyna	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	4	acl:relcl	_	tag=so_0_fh_p3_et_þt_mm
@@ -144,6 +143,8 @@
 11	bílnum	bíll	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 12	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00242,.10
+# text = Fyrirhuguð er mikil uppbygging íbúðarhúsnæðis á Ártúnshöfða og við Elliðavog á næstu árum.
 1	Fyrirhuguð	fyrirhuga	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	xcomp	_	tag=so_0_lhþt_et
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_nf_kvk_sb
@@ -156,6 +157,6 @@
 10	Elliðavog	Elliðavogur	PROPN	sérnafn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	tag=sérnafn_et_þf_kk
 11	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	næstu	næstur	ADJ	lo_ft_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Plur	13	amod	_	tag=lo_ft_þgf_hk_evb
-13	árum	ár	ADV	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	advmod	_	tag=no_ft_þgf_hk
+13	árum	ár	ADV	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	advmod	_	SpaceAfter=No|tag=no_ft_þgf_hk
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

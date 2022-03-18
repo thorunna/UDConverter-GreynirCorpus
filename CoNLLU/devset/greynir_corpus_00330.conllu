@@ -75,7 +75,7 @@
 # sent_id = GREYNIR_CORPUS_00330,.3
 # text = Það er að okkar mati mjög sérkennilegt að hægt sé að fá framkvæmdir stöðvaðar sem hlotið hafa öll tilskilin leyfi og haft getur í för með sér það uppnám sem nú er orðið.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 4	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	nmod	_	tag=pfn_ft_ef_p1
 5	mati	mat	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
@@ -83,11 +83,11 @@
 7	sérkennilegt	sérkennilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 8	að	að	SCONJ	st	_	9	mark	_	tag=st
 9	hægt	hægja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	ccomp	_	tag=so_0_sagnb_gm
-10	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_vh_p3_et_nt_gm
+10	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_vh_p3_et_nt_gm
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
 12	fá	fá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þf_nh_gm
 13	framkvæmdir	framkvæmd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	tag=no_ft_þf_kvk
-14	stöðvaðar	stöðva	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	13	VANTAR_LIÐ_so0_lhþt_ft	_	tag=so_0_lhþt_ft
+14	stöðvaðar	stöðva	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	13	('HALLÓ_so', '0_lhþt_ft', 'NP', 'OBJ')	_	tag=so_0_lhþt_ft
 15	sem	sem	SCONJ	stt	_	16	mark	_	tag=stt
 16	hlotið	hljóta	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	13	acl:relcl	_	tag=so_1_þf_sagnb_gm
 17	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_fh_p3_ft_nt_gm
@@ -102,7 +102,7 @@
 26	uppnám	uppnám	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	22	obj	_	tag=no_et_nf_hk
 27	sem	sem	SCONJ	stt	_	30	mark	_	tag=stt
 28	nú	nú	ADV	ao	_	30	advmod	_	tag=ao
-29	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	conj	_	tag=so_0_fh_p3_et_nt_gm
+29	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	cop	_	tag=so_0_fh_p3_et_nt_gm
 30	orðið	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	26	acl:relcl	_	SpaceAfter=No|tag=so_0_lhþt_et
 31	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
@@ -123,7 +123,7 @@
 13	laugardaginn	laugardagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	tag=no_et_þf_kk_gr
 14	þegar	þegar	SCONJ	st	_	15	mark	_	tag=st
 15	efnt	efna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	advcl	_	tag=so_0_lhþt_et
-16	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	conj	_	tag=so_0_fh_p3_et_þt_gm
+16	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_þt_gm
 17	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
 18	stórsýningar	stórsýning	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_ef_kvk
 19	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
@@ -269,16 +269,16 @@
 17	umrætt	umræddur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_nf_hk_sb
 18	kvöld	kvöld	ADV	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	16	advmod	_	tag=no_et_nf_hk
 19	og	og	CCONJ	st	_	13	cc	_	tag=st
-20	senda	senda	VERB	so_2_þgf_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_2_þgf_þf_fh_p3_ft_nt_gm
-21	Persónuvernd	Persónuvernd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	iobj	_	tag=no_et_þgf_kvk
-22	staðfestingu	staðfesting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	tag=no_et_þf_kvk
+20	senda	senda	VERB	so_2_þgf_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_2_þgf_þf_fh_p3_ft_nt_gm
+21	Persónuvernd	Persónuvernd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	iobj	_	tag=no_et_þgf_kvk
+22	staðfestingu	staðfesting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	tag=no_et_þf_kvk
 23	á	á	ADP	fs_nh	VerbForm=Inf	26	case	_	tag=fs_nh
 24	að	að	SCONJ	st	_	26	mark	_	tag=st
 25	svo	svo	ADV	ao	_	26	advmod	_	tag=ao
 26	hafi	hafa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	obl	_	tag=so_0_vh_p3_et_nt_gm
-27	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	28	conj	_	tag=so_0_sagnb_gm
-28	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	26	conj	_	tag=so_0_lhþt_et
-29	eigi	eiga	ADV	ao	_	20	advmod	_	tag=ao
+27	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	26	cop	_	tag=so_0_sagnb_gm
+28	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	26	cop	_	tag=so_0_lhþt_et
+29	eigi	eiga	ADV	ao	_	13	advmod	_	tag=ao
 30	síðar	síðar	ADV	ao_mst	Degree=Cmp	29	advmod	_	tag=ao_mst
 31	en	en	CCONJ	st	_	30	advcl	_	tag=st
 32	5. júní	5. júní	ADV	dagsafs	_	31	advmod	_	tag=dagsafs
@@ -290,7 +290,7 @@
 1	Landnám	landnám	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
 2	á	á	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	Íslandi	Ísland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk
-4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	um	um	ADV	ao	_	6	advmod	_	tag=ao
 6	870	870	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	0	root	_	tag=tala_ft_nf_kvk
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
@@ -322,6 +322,8 @@
 33	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	obl	_	SpaceAfter=No|tag=pfn_et_þgf_hk_p3
 34	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00330,.10
+# text = Því hefur ítrekað verið haldið fram í fjölmiðlum síðustu mánuði að Fjárfestingafélagið Dalurinn (Dalurinn) hafi fyrst eignast stóran hlut í Pressunni í lok ágúst 2017 með umbreytingu lána í hlutafé.
 1	Því	því	ADV	ao	_	5	advmod	_	tag=ao
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	ítrekað	ítrekað	ADV	ao	_	2	advmod	_	tag=ao
@@ -334,9 +336,9 @@
 10	mánuði	mánuður	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	advmod	_	tag=no_ft_þf_kk
 11	að	að	SCONJ	st	_	19	mark	_	tag=st
 12	Fjárfestingafélagið	fjárfestingafélag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	19	nsubj	_	tag=no_et_nf_hk_gr
-13	Dalurinn	dalur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	tag=no_et_nf_kk_gr
+13	Dalurinn	dalur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|tag=no_et_nf_kk_gr
 14	(	_	PUNCT	grm	_	15	punct	_	tag=grm
-15	Dalurinn	dalur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	tag=no_et_nf_kk_gr
+15	Dalurinn	dalur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|tag=no_et_nf_kk_gr
 16	)	_	PUNCT	grm	_	15	punct	_	tag=grm
 17	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_vh_p3_et_nt_gm
 18	fyrst	snemma	ADV	ao_est	Degree=Sup	19	advmod	_	tag=ao_est
@@ -352,6 +354,6 @@
 28	umbreytingu	umbreyting	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þgf_kvk
 29	lána	lán	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	28	nmod:poss	_	tag=no_ft_ef_hk
 30	í	í	ADP	fs_þf	Case=Acc	31	case	_	tag=fs_þf
-31	hlutafé	hlutafé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	28	obl	_	tag=no_et_þf_hk
+31	hlutafé	hlutafé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	28	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 32	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

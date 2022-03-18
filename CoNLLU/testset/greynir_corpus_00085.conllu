@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00085,.1
 # text = Hann er jafnframt stærsti einstaki hluthafi þess með ríflega 80 prósenta hlut í árslok 2016.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_kk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	jafnframt	jafnframt	ADV	eo	_	6	advmod	_	tag=eo
 4	stærsti	stór	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_evb
 5	einstaki	einstakur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_vb
@@ -30,7 +30,7 @@
 10	eftirlitið	eftirlit	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	tag=no_et_nf_hk_gr
 11	með	með	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	ölvunarakstri	ölvunarakstur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þgf_kk
-13	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_0_fh_p3_et_nt_gm
+13	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
 14	mjög	mjög	ADV	eo	_	15	advmod	_	tag=eo
 15	strangt	strangur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -103,7 +103,7 @@
 7	bauðst	bjóða	VERB	so_0	_	0	root	_	tag=so_0
 8	honum	hann	PRON	pfn	PronType=Prs	7	nsubj	_	tag=pfn
 9	að	að	PART	nhm	_	11	mark	_	tag=nhm
-10	verða	verða	VERB	so_0	_	11	conj	_	tag=so_0
+10	verða	verða	VERB	so_0	_	11	cop	_	tag=so_0
 11	félagi	félagi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	xcomp	_	tag=no_et_nf_kk
 12	í	í	ADP	fs	_	14	case	_	tag=fs
 13	glæpagenginu	glæpagengi	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þgf_hk_gr
@@ -117,7 +117,7 @@
 3	hef	hafa	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p1_et_nt_gm
 4	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_p1
 5	alltaf	alltaf	ADV	ao	_	7	advmod	_	tag=ao
-6	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	conj	_	tag=so_1_nf_sagnb_gm
+6	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	cop	_	tag=so_1_nf_sagnb_gm
 7	bílstjóri	bílstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 8	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	þessum	þessi	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	tag=fn_ft_þgf_kvk
@@ -165,6 +165,8 @@
 14	lögin	lag	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
 15	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00085,.10
+# text = Það virðist sem þau hafi sameinast á ný og farið aftur út í skóginn.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_hk_p3
 2	virðist	virða	VERB	so_0_op_fh_et_nt_mm	Mood=Ind|Number=Sing|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_op_fh_et_nt_mm
 3	sem	sem	SCONJ	st	_	6	mark	_	tag=st
@@ -177,6 +179,6 @@
 10	aftur	aftur	ADV	ao	_	6	advmod	_	tag=ao
 11	út	út	ADV	ao	_	13	advmod	_	tag=ao
 12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	skóginn	skógur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þf_kk_gr
+13	skóginn	skógur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

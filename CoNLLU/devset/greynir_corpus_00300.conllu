@@ -3,7 +3,7 @@
 1	Sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_nf_kk
 2	misskilningur	misskilningur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 3	virðist	virða	VERB	so_0_vh_p3_et_nt_mm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_vh_p3_et_nt_mm
-4	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	conj	_	tag=so_0_nh_gm
+4	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	cop	_	tag=so_0_nh_gm
 5	hjá	hjá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 6	viðkomandi	viðkomandi	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_þgf_kk_sb
 7	fulltrúa	fulltrúi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
@@ -54,7 +54,7 @@
 # sent_id = GREYNIR_CORPUS_00300,.3
 # text = Thanasis er tveimur árum eldri og spilar með Panathinaikos á næstu leiktíð en hann var valinn af New York Knicks í nýliðavalinu 2014.
 1	Thanasis	Thanasis	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
-2	er	vera	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_þgf_fh_p3_et_nt_gm
 3	tveimur	tveir	NUM	to_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	nummod	_	tag=to_ft_þgf_hk
 4	árum	ár	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_þgf_hk
 5	eldri	gamall	ADJ	lo_ft_þgf_hk_mst	Case=Dat|Degree=Cmp|Gender=Neut|Number=Plur	4	amod	_	tag=lo_ft_þgf_hk_mst
@@ -67,7 +67,7 @@
 12	leiktíð	leiktíð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk
 13	en	en	CCONJ	st	_	4	cc	_	tag=st
 14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
-15	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	conj	_	tag=so_0_fh_p3_et_þt_gm
+15	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_0_fh_p3_et_þt_gm
 16	valinn	velja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	conj	_	tag=so_0_lhþt_et
 17	af	af	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 18	New York Knicks	New York Knicks	PROPN	entity	_	16	obl	_	tag=entity
@@ -78,9 +78,8 @@
 
 # sent_id = GREYNIR_CORPUS_00300,.4
 # text = EUROSTUDENT er samanburðarkönnun á högum um 320.000 háskólanema í 28 löndum á evrópska háskólasvæðinu.
--4	None	_	None	None	_	_	None	_	_
 1	EUROSTUDENT	EUROSTUDENT	PROPN	entity_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=entity_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	samanburðarkönnun	samanburðarkönnun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	högum	hagi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_þgf_kk
@@ -119,12 +118,11 @@
 
 # sent_id = GREYNIR_CORPUS_00300,.6
 # text = Hún segir tillöguna hafa verið lagða fram til að auka aðgengi bæði fjölmiðla og borgarbúa að því sem er að gerast hjá borginni.
--1	None	_	None	None	_	_	None	_	_
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p3
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	tillöguna	tillaga	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_þf_kvk_gr
 4	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	aux	_	tag=so_0_nh_gm
-5	verið	vera	VERB	so_1_ef_sagnb_gm	Case=Gen|VerbForm=Sup|Voice=Act	6	conj	_	tag=so_1_ef_sagnb_gm
+5	verið	vera	VERB	so_1_ef_sagnb_gm	Case=Gen|VerbForm=Sup|Voice=Act	6	cop	_	tag=so_1_ef_sagnb_gm
 6	lagða	lagður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	2	obj	_	tag=no_ft_ef_kk
 7	fram	fram	ADV	eo	_	6	advmod	_	tag=eo
 8	til	til	SCONJ	st	_	6	advcl	_	tag=st
@@ -148,7 +146,7 @@
 # sent_id = GREYNIR_CORPUS_00300,.7
 # text = Það verður því hægt að skrá sig í alla þrjá en hver spinningtími verður 45 mínútur og rennur allur ágóði til Bleiku slaufunnar.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	því	það	ADV	eo	_	4	advmod	_	tag=eo
 4	hægt	hægur	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb_sþgf
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
@@ -196,7 +194,7 @@
 20	eins	eins	SCONJ	st	_	22	cc	_	tag=st
 21	og	og	CCONJ	st	_	20	cc	_	tag=st
 22	kostur	kostur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	advcl	_	tag=no_et_nf_kk
-23	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	conj	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
+23	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	cop	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
 24	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00300,.9
@@ -204,7 +202,7 @@
 1	Bandaríska	Bandarískur	PROPN	entity_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	obl	_	tag=entity_et_nf_kvk
 2	alríkislögreglan	alríkislögregla	PROPN	entity_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	flat:name	_	SpaceAfter=No|tag=entity_et_nf_kvk
 3	(	_	PUNCT	grm	_	2	punct	_	tag=grm
-4	FBI	FBI	NOUN	abbrev	_	1	flat:name	_	SpaceAfter=No|tag=abbrev
+4	FBI	FBI	ADV	abbrev	_	1	advmod	_	SpaceAfter=No|tag=abbrev
 5	)	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	sem	sem	SCONJ	stt	_	1	acl:relcl	_	tag=stt
 7	aðstoðar	aðstoða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	obl	_	tag=so_0_fh_p3_et_nt_gm
@@ -213,9 +211,9 @@
 10	málsins	mál	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=no_et_ef_hk_gr
 11	segir	segir	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 12	ekkert	ekkert	ADV	ao	_	11	advmod	_	tag=ao
-13	benda	benda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	conj	_	tag=so_0_nh_gm
+13	benda	benda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	cop	_	tag=so_0_nh_gm
 14	til	til	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
-15	þess	það	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_ef_hk
+15	þess	það	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_ef_hk
 16	að	að	SCONJ	st	_	19	mark	_	tag=st
 17	frekari	frekari	ADJ	lo_ft_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	18	amod	_	tag=lo_ft_nf_kvk_mst
 18	árásir	árás	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	tag=no_ft_nf_kvk
@@ -226,6 +224,8 @@
 23	Washingtonríki	Washingtonríki	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 24	.	.	PUNCT	grm	_	11	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00300,.10
+# text = Yfirleitt er þessi staður troðinn af ferðamönnum en um leið og ég tók myndavélina upp þá röðuðu allir sér fyrir aftan mig.
 1	Yfirleitt	yfirleitt	ADV	ao	_	2	advmod	_	tag=ao
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	tag=fn_et_nf_kk
@@ -246,6 +246,6 @@
 18	allir	allur	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	tag=fn_ft_nf_kk
 19	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	17	obj	_	tag=abfn_þgf
 20	fyrir aftan	fyrir aftan	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	mig	ég	PRON	pfn_et_þf_p1	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obl	_	tag=pfn_et_þf_p1
+21	mig	ég	PRON	pfn_et_þf_p1	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obl	_	SpaceAfter=No|tag=pfn_et_þf_p1
 22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

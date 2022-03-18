@@ -25,9 +25,8 @@
 
 # sent_id = GREYNIR_CORPUS_00442,.2
 # text = Skjálftahrinur eru algengar á þessum slóðum en að þessu sinni fannst hann í Keflavík, að sögn Bryndísar Ýrar Gísladóttur, náttúruvársérfræðings hjá Veðurstofu Íslands.
--4	None	_	None	None	_	_	None	_	_
 1	Skjálftahrinur	skjálfta-hrina	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	algengar	algengur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=lo_ft_nf_kvk_sb
 4	á	eiga	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	þessum	þessi	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	tag=fn_ft_þgf_kvk
@@ -127,9 +126,8 @@
 
 # sent_id = GREYNIR_CORPUS_00442,.6
 # text = Það er von bæjarstjórnar Akraness að starfsmenn og stjórnendur OR leggi rannsókninni lið með það að markmiði að bæta vinnustaðamenningu fyrirtækisins.
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	von	von	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	bæjarstjórnar	bæjarstjórn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk
 5	Akraness	Akranes	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=sérnafn_et_ef_hk
@@ -209,7 +207,9 @@
 6	Miði.is	Miði.is	X	lén_þgf	Case=Dat	3	obl	_	SpaceAfter=No|tag=lén_þgf
 7	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
-1	Santiago	Santiago	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=person_et_nf_kk
+# sent_id = GREYNIR_CORPUS_00442,.10
+# text = Santiago, sem einnig hefur starfað fyrir þjóðvarðlið Puerto Rico og Alaska, gegndi herþjónustu í Írak frá apríl 2010 fram í febrúar 2011.
+1	Santiago	Santiago	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
 2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 3	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 4	einnig	einnig	ADV	ao	_	6	advmod	_	tag=ao
@@ -219,7 +219,7 @@
 8	þjóðvarðlið	þjóðvarðlið	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk_gr
 9	Puerto Rico	Puerto Rico	PROPN	sérnafn	_	8	nmod:poss	_	tag=sérnafn
 10	og	og	CCONJ	st	_	11	cc	_	tag=st
-11	Alaska	Alaska	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	conj	_	tag=sérnafn_et_þf_hk
+11	Alaska	Alaska	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
 13	gegndi	gegna	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 14	herþjónustu	herþjónusta	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obj	_	tag=no_et_þgf_kvk
@@ -229,6 +229,6 @@
 18	apríl 2010	apríl 2010	NUM?	dagsafs	_	17	obl	_	tag=dagsafs
 19	fram	fram	ADV	ao	_	21	case	_	tag=ao
 20	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-21	febrúar 2011	febrúar 2011	NUM?	dagsafs	_	17	obl	_	tag=dagsafs
+21	febrúar 2011	febrúar 2011	NUM?	dagsafs	_	17	obl	_	SpaceAfter=No|tag=dagsafs
 22	.	.	PUNCT	grm	_	13	punct	_	tag=grm
 

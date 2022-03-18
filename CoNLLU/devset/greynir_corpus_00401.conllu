@@ -1,9 +1,8 @@
 # sent_id = GREYNIR_CORPUS_00401,.1
 # text = Þá hefur verið bætt við greinargerð frumvarpsins stuttri málsgrein sem kemur inn á stöðu RÚV.
--3	None	_	None	None	_	_	None	_	_
 1	Þá	þá	ADV	ao	_	4	advmod	_	tag=ao
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	conj	_	tag=so_0_sagnb_gm
+3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	bætt	bæta	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	0	root	_	tag=so_1_þgf_lhþt_et
 5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	greinargerð	greinargerð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
@@ -42,7 +41,7 @@
 1	Á sama tíma	á sama tíma	ADV	ao	_	6	advmod	_	tag=ao
 2	í	í	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
 3	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	6	advmod	_	tag=lo_et_þf_hk_mst
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_þt_gm
+4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	atvinnuleysi	atvinnuleysi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
 6	um	um	ADV	eo	_	0	root	_	tag=eo
 7	4,6 prósent	4,6 prósent	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nummod	_	tag=prósenta_ft_nf_hk
@@ -96,9 +95,8 @@
 
 # sent_id = GREYNIR_CORPUS_00401,.6
 # text = Hún var sunddrottning á Akranesi á unglingsárunum en nýtur sín nú betur í heita pottinum.
--4	None	_	None	None	_	_	None	_	_
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kvk_p3
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	sunddrottning	sunddrottning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Akranesi	Akranes	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_hk
@@ -169,10 +167,12 @@
 15	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No|tag=pfn_et_þf_hk_p3
 16	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00401,.10
+# text = Við innheimtum rétt laun, þau greiða þau jafnvel og halda áfram á sömu braut.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_p1
 2	innheimtum	innheimta	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_ft_nt_gm
 3	rétt	réttur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_þf_hk_sb
-4	laun	laun	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
+4	laun	laun	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|tag=no_et_þf_hk
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 6	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_ft_nf_hk_p3
 7	greiða	greiða	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
@@ -183,6 +183,6 @@
 12	áfram	áfram	ADV	ao	_	15	advmod	_	tag=ao
 13	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 14	sömu	sami	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	tag=fn_et_þgf_kvk
-15	braut	braut	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
+15	braut	braut	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -2,7 +2,7 @@
 # text = Spurs hefur verið í fantaformi að undanförnu og fengið 19 af 21 stigi mögulegu í síðustu sjö leikjum sínum.
 1	Spurs	Spurs	PROPN	fyrirtæki_et_nf	Case=Nom|Number=Sing	5	nsubj	_	tag=fyrirtæki_et_nf
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	conj	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	fantaformi	fanta-form	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	0	root	_	tag=no_et_þgf_hk
 6	að undanförnu	að undanförnu	ADV	ao	_	5	advmod	_	tag=ao
@@ -115,7 +115,7 @@
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	úrslitum	úrslit	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk
 6	móta	mót	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	nmod:poss	_	tag=no_ft_ef_hk
-7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	notað	nota	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 9	til	til	ADP	fs_nh	VerbForm=Inf	10	case	_	tag=fs_nh
 10	að	að	PART	nhm	_	8	obl	_	tag=nhm
@@ -193,6 +193,8 @@
 18	minna	lítið	ADV	ao_mst	Degree=Cmp	16	advmod	_	SpaceAfter=No|tag=ao_mst
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00420,.10
+# text = Sagði Sigríður að hún hefði ákveðið að stíga til hliðar svo það myndi skapast vinnufriður um málefni Landsréttar.
 1	Sagði	sagður	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 2	Sigríður	Sigríður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	nsubj	_	tag=person_nf_kvk
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
@@ -210,6 +212,6 @@
 15	vinnufriður	vinnufriður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk
 16	um	um	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
 17	málefni	málefni	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	tag=no_ft_þf_hk
-18	Landsréttar	Landsréttur	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	17	nmod:poss	_	tag=sérnafn_et_ef_kk
+18	Landsréttar	Landsréttur	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	17	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk
 19	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

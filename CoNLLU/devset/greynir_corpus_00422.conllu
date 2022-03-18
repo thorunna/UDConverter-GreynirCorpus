@@ -147,7 +147,7 @@
 14	yfirmaður	yfirmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_nf_kk
 15	viðskipta	viðskipti	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
 16	&#40;	_	PUNCT	grm	_	15	punct	_	tag=grm
-17	CCO	CCO	NOUN	abbrev	_	15	flat:name	_	SpaceAfter=No|tag=abbrev
+17	CCO	CCO	ADV	abbrev	_	15	advmod	_	SpaceAfter=No|tag=abbrev
 18	&#41;	_	PUNCT	grm	_	17	punct	_	SpaceAfter=No|tag=grm
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -163,7 +163,7 @@
 8	meira	meira	ADV	ao_mst	Degree=Cmp	7	advmod	_	tag=ao_mst
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
 10	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	tag=pfn_et_nf_p1
-11	er	er	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	13	conj	_	tag=so_0_fh_p1_et_nt_gm
+11	er	er	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p1_et_nt_gm
 12	mjög	mjög	ADV	eo	_	13	advmod	_	tag=eo
 13	ánægður	ánægður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=lo_et_nf_kk_sb
 14	með	með	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
@@ -194,6 +194,8 @@
 18	janúar 2016	janúar 2016	ADV	dagsafs	_	16	advmod	_	SpaceAfter=No|tag=dagsafs
 19	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00422,.10
+# text = Aukin hætta er á heilablóðfalli og elliglöpum ef einstaklingur neytir einnar dósar sykurskertum eða sykurlausum gosdrykk á dag.
 1	Aukin	auka	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_sb
 2	hætta	hætta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
 3	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -211,6 +213,6 @@
 15	sykurlausum	sykurlaus	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_þgf_kk_sb
 16	gosdrykk	gosdrykkur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þgf_kk
 17	á	eiga	ADV	fs_þf	Case=Acc	10	advmod	_	tag=fs_þf
-18	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þf_kk
+18	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

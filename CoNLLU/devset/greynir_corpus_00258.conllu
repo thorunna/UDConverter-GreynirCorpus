@@ -20,7 +20,6 @@
 
 # sent_id = GREYNIR_CORPUS_00258,.2
 # text = Grundvöllur þess að málið var endurupptekið til að byrja með er hins vegar breyttar aðstæður fjölskyldunnar.
--1	None	_	None	None	_	_	None	_	_
 1	Grundvöllur	grundvöllur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk
 2	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=fn_et_ef_hk
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
@@ -31,7 +30,7 @@
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	byrja	byrja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	obl	_	tag=so_0_nh_gm
 10	með	með	ADV	ao	_	9	compound:prt	_	tag=ao
-11	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+11	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 12	hins vegar	hins vegar	ADV	eo	_	14	advmod	_	tag=eo
 13	breyttar	breyttur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	14	amod	_	tag=lo_ft_nf_kvk_sb
 14	aðstæður	aðstæður	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk
@@ -40,9 +39,8 @@
 
 # sent_id = GREYNIR_CORPUS_00258,.3
 # text = Mótið er haldið í minningu heimsmeistarans Roberts James Fischer sem hefði orðið 75 ára 9. mars.
--4	None	_	None	None	_	_	None	_	_
 1	Mótið	mót	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	haldið	halda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	minningu	minning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk
@@ -51,7 +49,7 @@
 8	Fischer	Fischer	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	tag=person_et_nf_kk
 9	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 10	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_þt_gm
-11	orðið	verða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	12	conj	_	tag=so_0_sagnb_gm
+11	orðið	verða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	12	cop	_	tag=so_0_sagnb_gm
 12	75	75	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	6	acl:relcl	_	tag=tala_ft_ef_hk
 13	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	xcomp	_	tag=no_ft_ef_hk
 14	9. mars	9. mars	ADV	dagsafs	_	12	advmod	_	SpaceAfter=No|tag=dagsafs
@@ -59,9 +57,9 @@
 
 # sent_id = GREYNIR_CORPUS_00258,.4
 # text = En flest njótum við í þessum heimshluta þeirra fáheyrðu forréttinda að áhyggjuefnin eru af léttvægari gerðinni.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	3	cc	_	tag=st
 2	flest	margur	ADJ	lo_ft_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Plur	3	obl	_	tag=lo_ft_nf_hk_esb
-3	njótum	njóta	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p1_ft_nt_gm
+3	njótum	njóta	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_nt_gm
 4	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
 5	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 6	þessum	þessi	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	tag=fn_et_þgf_kk
@@ -75,13 +73,12 @@
 14	af	af	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 15	léttvægari	léttvægur	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	16	amod	_	tag=lo_et_þgf_kvk_mst
 16	gerðinni	gerð	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
-17	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+17	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00258,.5
 # text = Íslandsstofa er gagnrýnd fyrir að mæla með gerð samningsins áður en arðsemismat á verksmiðjunni lá fyrir.
--4	None	_	None	None	_	_	None	_	_
 1	Íslandsstofa	Íslandsstofa	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	gagnrýnd	gagnrýna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	6	case	_	tag=fs_nh
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
@@ -103,7 +100,7 @@
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	aðdraganda	aðdragandi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
 3	mótsins	mót	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod:poss	_	tag=no_et_ef_hk_gr
-4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	lítil	lítill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_sb
 6	upphitun	upphitun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 7	og	og	CCONJ	st	_	6	cc	_	tag=st
@@ -168,18 +165,20 @@
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 11	að	að	SCONJ	st	_	15	mark	_	tag=st
 12	félagsskiptin	félagsskipti	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	15	nsubj	_	tag=no_ft_nf_hk_gr
-13	væru	vera	VERB	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	15	conj	_	tag=so_1_nf_vh_p3_ft_þt_gm
+13	væru	vera	VERB	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_1_nf_vh_p3_ft_þt_gm
 14	aðeins	aðeins	ADV	eo	_	15	advmod	_	tag=eo
 15	tímaspursmál	tímaspursmál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|tag=no_et_nf_hk
 16	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00258,.10
+# text = Pósturinn hefur tekið í notkun 15 rafmagnsþríhjól, sem nota á við póstdreifingu víðsvegar um landið.
 1	Pósturinn	póstur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	notkun	notkun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
 6	15	15	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	7	nummod	_	tag=tala_ft_þf_hk
-7	rafmagnsþríhjól	rafmagnsþríhjól	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	tag=no_ft_þf_hk
+7	rafmagnsþríhjól	rafmagnsþríhjól	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No|tag=no_ft_þf_hk
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 10	nota	nota	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	acl:relcl	_	tag=so_1_þf_nh_gm
@@ -188,6 +187,6 @@
 13	póstdreifingu	póstdreifing	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk
 14	víðsvegar	víðsvegar	ADV	eo	_	16	advmod	_	tag=eo
 15	um	um	ADV	eo	_	16	advmod	_	tag=eo
-16	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obj	_	tag=no_et_þf_hk_gr
+16	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 17	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

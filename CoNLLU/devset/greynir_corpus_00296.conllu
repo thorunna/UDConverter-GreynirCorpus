@@ -90,7 +90,7 @@
 13	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	aux	_	tag=so_0_sagnb_gm
 14	fjallað	fjalla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	22	advcl	_	tag=so_0_lhþt_et
 15	um	um	ADV	ao	_	14	advmod	_	tag=ao
-16	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+16	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 17	þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	19	nmod	_	tag=fn_ft_nf_hk
 18	ótrúlegu	ótrúlegur	ADJ	lo_ft_nf_hk_vb	Case=Nom|Gender=Neut|Number=Plur	19	amod	_	tag=lo_ft_nf_hk_vb
 19	skots	skot	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	tag=no_ft_nf_hk
@@ -119,7 +119,7 @@
 16	sig	sig	PRON	abfn_et_þf	Case=Acc|Number=Sing|PronType=Prs	10	obl	_	tag=abfn_et_þf
 17	ef	ef	SCONJ	st	_	20	mark	_	tag=st
 18	einhver	einhver	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	tag=fn_et_nf_kk
-19	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	conj	_	tag=so_0_fh_p3_et_nt_gm
+19	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_nt_gm
 20	leiðinlegur	leiðinlegur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	10	advcl	_	tag=lo_et_nf_kk_sb
 21	við	við	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
 22	mann	maður	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|tag=fn_et_nf_kk
@@ -214,7 +214,7 @@
 6	aukaspyrnan	aukaspyrna	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nsubj	_	tag=no_et_nf_kvk_gr
 7	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 8	Englandi	England	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	nsubj	_	tag=no_et_þgf_hk
-9	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	tag=so_0_fh_p3_et_þt_gm
+9	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_þt_gm
 10	dæmd	dæma	VERB	so_2_þgf_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	6	acl:relcl	_	tag=so_2_þgf_þf_lhþt_et
 11	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 12	14.	14.	ADJ	raðnr_þgf_kvk	Case=Dat|Gender=Fem|NumType=Ord	13	amod	_	tag=raðnr_þgf_kvk
@@ -226,11 +226,13 @@
 18	marksins	mark	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 19	,	_	PUNCT	grm	_	18	punct	_	tag=grm
 20	hafi	hafa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	obj	_	tag=so_0_vh_p3_et_nt_gm
-21	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	23	conj	_	tag=so_0_sagnb_gm
-22	röng	rangur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	23	amod	_	tag=lo_et_nf_kvk_sb
-23	ákvörðun	ákvörðun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No|tag=no_et_nf_kvk
+21	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	20	cop	_	tag=so_0_sagnb_gm
+22	röng	rangur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	tag=lo_et_nf_kvk_sb
+23	ákvörðun	ákvörðun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	20	cop	_	SpaceAfter=No|tag=no_et_nf_kvk
 24	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00296,.10
+# text = Það skilar sér inn á völlinn enda er hún leikmaður sem fórnar sér fyrir liðið og er algjör leiðtogi inn á vellinum.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_hk_p3
 2	skilar	skila	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 3	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	2	obj	_	tag=abfn_þgf
@@ -239,19 +241,19 @@
 6	völlinn	völlur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk_gr
 7	enda	enda	CCONJ	st	_	2	cc	_	tag=st
 8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-9	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_kvk_p3
-10	leikmaður	leikmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	tag=no_et_nf_kk
+9	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kvk_p3
+10	leikmaður	leikmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	cop	_	tag=no_et_nf_kk
 11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
-12	fórnar	fórna	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	tag=so_1_þgf_fh_p3_et_nt_gm
+12	fórnar	fórna	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	tag=so_1_þgf_fh_p3_et_nt_gm
 13	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	12	obj	_	tag=abfn_þgf
 14	fyrir	fyrir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	liðið	lið	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þf_hk_gr
-16	og	og	CCONJ	st	_	10	cc	_	tag=st
-17	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-18	algjör	algjör	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	tag=lo_et_nf_kk_sb
-19	leiðtogi	leiðtogi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	tag=no_et_nf_kk
+16	og	og	CCONJ	st	_	8	cc	_	tag=st
+17	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+18	algjör	algjör	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_nf_kk_sb
+19	leiðtogi	leiðtogi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	cop	_	tag=no_et_nf_kk
 20	inn	inni	ADV	ao	_	22	advmod	_	tag=ao
 21	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-22	vellinum	völlur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_þgf_kk_gr
+22	vellinum	völlur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

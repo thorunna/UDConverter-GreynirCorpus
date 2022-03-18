@@ -8,7 +8,7 @@
 6	fyrsti	fyrstur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_vb
 7	hamborgarinn	hamborgari	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	tag=no_et_nf_kk_gr
 8	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_vh_p3_et_nt_gm
-9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	conj	_	tag=so_0_sagnb_gm
+9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	cop	_	tag=so_0_sagnb_gm
 10	snæddur	snæða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	obj	_	tag=so_0_lhþt_et
 11	þar	þar	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
 12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
@@ -53,7 +53,7 @@
 6	kvikmyndagerð	kvikmyndagerð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
 7	að	að	SCONJ	st	_	11	mark	_	tag=st
 8	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kvk_p3
-9	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+9	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 10	ennþá	ennþá	ADV	ao	_	11	advmod	_	tag=ao
 11	karlaheimur	karla-heimur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No|tag=no_et_nf_kk
 12	?	?	PUNCT	grm	_	1	punct	_	tag=grm
@@ -105,10 +105,9 @@
 
 # sent_id = GREYNIR_CORPUS_00365,.8
 # text = Nýtt viðvörunarkerfi verður tekið í notkun í dag á Veðurstofu Íslands.
--3	None	_	None	None	_	_	None	_	_
 1	Nýtt	nýr	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	tag=lo_et_nf_hk_sb
 2	viðvörunarkerfi	viðvörunarkerfi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
-3	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	tekið	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	notkun	notkun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
@@ -134,6 +133,8 @@
 11	lengja	lengja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
 12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00365,.10
+# text = Foreldrar greiða töluverða upphæð á hverju hausti vegna kaupa á námsgögnum.
 1	Foreldrar	foreldrar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_nf_kk
 2	greiða	greiða	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
 3	töluverða	töluverður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_þf_kvk_sb
@@ -144,6 +145,6 @@
 8	vegna	vegna	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
 9	kaupa	kaup	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_ef_hk
 10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	námsgögnum	námsgögn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_þgf_hk
+11	námsgögnum	námsgögn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00435,.1
 # text = Þetta er held ég nú bara voða svipað og verið hefur, bara aðeins að minna á sig.
--4	None	_	None	None	_	_	None	_	_
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	held	halda	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	8	VANTAR_LIÐ_IP_None	_	tag=so_0_fh_p1_et_nt_gm
 4	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
 5	nú	nú	ADV	ao	_	8	advmod	_	tag=ao
@@ -71,10 +70,10 @@
 
 # sent_id = GREYNIR_CORPUS_00435,.4
 # text = Eins og við sáum í heimsmeistaraeinvígi Magnusar Carlsen við Fabiano Caruana þar sem Carlsen sýndi svo vel hvað reynsla skiptir miklu máli.
-1	Eins	eins	ADV	ao	_	0	root	_	tag=ao
+1	Eins	eins	ADV	ao	_	4	cc	_	tag=ao
 2	og	og	CCONJ	st	_	1	cc	_	tag=st
 3	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_ft_nf_p1
-4	sáum	sjá	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p1_ft_nt_gm
+4	sáum	sjá	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_nt_gm
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	heimsmeistaraeinvígi	heimsmeistaraeinvígi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 7	Magnusar Carlsen	Magnusar Carlsen	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	nmod:poss	_	tag=person_ef_kk
@@ -91,12 +90,12 @@
 18	skiptir	skipta	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	obj	_	tag=so_1_þgf_fh_p3_et_nt_gm
 19	miklu	mikill	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	20	amod	_	tag=lo_et_þgf_hk_sb
 20	máli	mál	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No|tag=no_et_þgf_hk
-21	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+21	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00435,.5
 # text = Umhverfið verður æ flóknara en tæknin mun gera það að verkum að það verður auðveldara að ná til markhópanna.
 1	Umhverfið	umhverfi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
-2	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	æ	æ	ADV	eo	_	4	advmod	_	tag=eo
 4	flóknara	flókinn	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_mst
 5	en	en	CCONJ	st	_	4	cc	_	tag=st
@@ -108,7 +107,7 @@
 11	verkum	verk	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_þgf_hk
 12	að	að	SCONJ	st	_	15	mark	_	tag=st
 13	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_hk_p3
-14	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_0_fh_p3_et_nt_gm
+14	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
 15	auðveldara	auðveldur	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	9	ccomp	_	tag=lo_et_nf_hk_mst
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
 17	ná	ná	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_0_nh_gm
@@ -211,6 +210,8 @@
 20	Sýrlandi	Sýrland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 21	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00435,.10
+# text = Hann segist hafa skipt svefninum niður í korters svefnlotur, en eftir á að hyggja hefði hann viljað taka þetta í einni lotu.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	segist	segja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 3	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	aux	_	tag=so_0_nh_gm
@@ -219,7 +220,7 @@
 6	niður	niður	ADV	ao	_	9	advmod	_	tag=ao
 7	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 8	korters	korter	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_ef_kk
-9	svefnlotur	svefn-lota	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þf_hk
+9	svefnlotur	svefn-lota	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 11	en	en	CCONJ	st	_	2	cc	_	tag=st
 12	eftir á að hyggja	eftir á að hyggja	ADV	ao	_	15	advmod	_	tag=ao
@@ -230,6 +231,6 @@
 17	þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=fn_et_þf_hk
 18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	einni	einn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	tag=fn_et_þgf_kvk
-20	lotu	lota	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þgf_kvk
+20	lotu	lota	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

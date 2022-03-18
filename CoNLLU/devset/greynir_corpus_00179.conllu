@@ -3,7 +3,7 @@
 1	Svar	svar	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
 2	þessa	þessi	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_ef_kk
 3	meirihluta	meirihluti	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kk
-4	er	vera	VERB	so_1_ef_fh_p3_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_ef_fh_p3_et_nt_gm
+4	er	vera	VERB	so_1_ef_fh_p3_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_ef_fh_p3_et_nt_gm
 5	alltaf	alltaf	ADV	ao	_	8	advmod	_	tag=ao
 6	á	á	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 7	þá	sá	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	tag=fn_et_þf_kvk
@@ -69,7 +69,7 @@
 # text = Að því loknu fer Ólafía Þórunn til Bandaríkjanna þar sem hún tekur þátt á lokastigi úrtökumótsins fyrir LPGA atvinnumótaröðina í Bandaríkjunum sem fram fer í lok nóvember og byrjun desember.
 1	Að	að	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	tag=pfn_et_þgf_hk_p3
-3	loknu	ljúka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	VANTAR_LIÐ_so0_lhþt_et	_	tag=so_0_lhþt_et
+3	loknu	ljúka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	('HALLÓ_so', '0_lhþt_et', 'NP', None)	_	tag=so_0_lhþt_et
 4	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	Ólafía Þórunn	Ólafía Þórunn	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
 6	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
@@ -83,7 +83,7 @@
 14	lokastigi	lokastig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
 15	úrtökumótsins	úrtökumót	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=no_et_ef_hk_gr
 16	fyrir	fyrir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-17	LPGA	LPGA	NOUN	abbrev	_	18	flat:name	_	tag=abbrev
+17	LPGA	LPGA	ADV	abbrev	_	18	advmod	_	tag=abbrev
 18	atvinnumótaröðina	atvinnumótaröð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_þf_kvk_gr
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	Bandaríkjunum	Bandaríkin	PROPN	sérnafn_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	18	obl	_	tag=sérnafn_ft_þgf_hk_gr
@@ -146,17 +146,17 @@
 13	Lífeyrissjóðs	lífeyrissjóður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	nmod:poss	_	tag=no_et_ef_kk
 14	verzlunarmanna	verslunarmaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	nmod:poss	_	tag=no_et_ef_kk
 15	og	og	CCONJ	st	_	4	cc	_	tag=st
-16	óskað	óska	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	conj	_	tag=so_0_sagnb_gm
+16	óskað	óska	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 17	eftir	eftir	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	tag=pfn_et_þgf_hk_p3
+18	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	tag=pfn_et_þgf_hk_p3
 19	við	við	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	þá	sá	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	tag=fn_ft_þf_kk
+20	þá	sá	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	tag=fn_ft_þf_kk
 21	að	að	SCONJ	st	_	26	mark	_	tag=st
 22	launakjör	launakjör	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	26	nsubj	_	tag=no_ft_nf_hk
 23	framkvæmdastjóra	framkvæmdastjóri	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	22	nmod:poss	_	tag=no_et_ef_kk
 24	lífeyrissjóðsins	lífeyrissjóður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod:poss	_	tag=no_et_ef_kk_gr
 25	verði	verða	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	aux	_	tag=so_0_vh_p3_ft_nt_gm
-26	tekin	taka	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	16	ccomp	_	tag=so_0_lhþt_ft
+26	tekin	taka	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	4	ccomp	_	tag=so_0_lhþt_ft
 27	til	til	ADP	fs_ef	Case=Gen	28	case	_	tag=fs_ef
 28	umræðu	umræða	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	26	obl	_	tag=no_et_ef_kvk
 29	innan	innan	ADP	fs_ef	Case=Gen	30	case	_	tag=fs_ef
@@ -170,7 +170,7 @@
 3	einkennir	einkenna	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 4	tillögurnar	tillaga	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	tag=no_ft_þf_kvk_gr
 5	fyrst og fremst	fyrst og fremst	ADV	ao	_	3	advmod	_	tag=ao
-6	er	vera	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
+6	er	vera	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_þgf_fh_p3_et_nt_gm
 7	eins	eins	ADV	ao	_	16	advcl	_	tag=ao
 8	og	og	CCONJ	st	_	9	cc	_	tag=st
 9	alltaf	alltaf	ADV	ao	_	7	conj	_	tag=ao
@@ -294,35 +294,36 @@
 30	afgöngum	afgangur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 31	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00179,.10
+# text = Eitthvað var einsog hún væri efins um það að við tvö værum sem einn maður og spurði : Manstu, Gurra mín, hvað þessi gamli kollegi þinn heitir ?
 1	Eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fn_et_nf_hk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	einsog	einsog	SCONJ	st	_	0	root	_	tag=st
 4	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_kvk_p3
-5	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_1_nf_vh_p3_et_þt_gm
+5	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 6	efins	efins	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	xcomp	_	tag=lo_et_nf_kvk_fst_sb
 7	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	tag=pfn_et_þf_hk_p3
 9	að	að	SCONJ	st	_	15	mark	_	tag=st
 10	við	ég	PRON	pfn_ft_nf_hk_p1	Case=Nom|Gender=Neut|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	tag=pfn_ft_nf_hk_p1
 11	tvö	tveir	NUM	to_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	10	nummod	_	tag=to_ft_nf_hk
-12	værum	vera	VERB	so_1_nf_vh_p1_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=1|Tense=Past|Voice=Act	15	conj	_	tag=so_1_nf_vh_p1_ft_þt_gm
+12	værum	vera	VERB	so_1_nf_vh_p1_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=1|Tense=Past|Voice=Act	15	cop	_	tag=so_1_nf_vh_p1_ft_þt_gm
 13	sem	sem	ADP	fs_nf	Case=Nom	15	case	_	tag=fs_nf
 14	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	tag=fn_et_nf_kk
 15	maður	maður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	ccomp	_	tag=no_et_nf_kk
 16	og	og	CCONJ	st	_	6	cc	_	tag=st
-17	spurði	spyrja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_þt_gm
+17	spurði	spyrja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
 18	:	:	PUNCT	grm	_	17	punct	_	tag=grm
-19	Manstu	muna	VERB	so_1_þf_fh_p2_et_nt_gm_sn	Case=Acc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	3	('HALLÓ_S', 'QUOTE', 'S0', None)	_	tag=so_1_þf_fh_p2_et_nt_gm_sn
+19	Manstu	muna	VERB	so_1_þf_fh_p2_et_nt_gm_sn	Case=Acc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	3	('HALLÓ_S', 'QUOTE', 'S0', None)	_	SpaceAfter=No|tag=so_1_þf_fh_p2_et_nt_gm_sn
 20	,	,	PUNCT	grm	_	19	punct	_	tag=grm
 21	Gurra	Gurra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	19	nsubj	_	tag=person_nf_kvk
-22	mín	minn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	21	nmod	_	tag=fn_et_nf_kvk
+22	mín	minn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No|tag=fn_et_nf_kvk
 23	,	,	PUNCT	grm	_	22	punct	_	tag=grm
 24	hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	29	obj	_	tag=fn_et_þf_hk
 25	þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	27	nmod	_	tag=fn_et_nf_kk
 26	gamli	gamall	ADJ	lo_et_nf_kk_fst_vb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	tag=lo_et_nf_kk_fst_vb
 27	kollegi	kollegi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	tag=no_et_nf_kk
 28	þinn	þinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	27	nmod	_	tag=fn_et_nf_kk
-29	heitir	heita	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	obj	_	tag=so_1_þf_fh_p3_et_nt_gm
+29	heitir	heita	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	obj	_	SpaceAfter=No|tag=so_1_þf_fh_p3_et_nt_gm
 30	?	?	PUNCT	grm	_	3	punct	_	tag=grm
 

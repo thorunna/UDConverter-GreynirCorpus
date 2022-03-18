@@ -68,7 +68,7 @@
 14	en	en	CCONJ	st	_	7	cc	_	tag=st
 15	landið	land	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	19	nsubj	_	tag=no_et_nf_hk_gr
 16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_fh_p3_et_nt_gm
-17	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	19	conj	_	tag=so_0_sagnb_gm
+17	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	19	cop	_	tag=so_0_sagnb_gm
 18	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19	barmi	barmur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_þgf_kk
 20	hruns	hrun	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	nmod:poss	_	tag=no_et_ef_hk
@@ -114,8 +114,8 @@
 8	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 9	gefinn	gefa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	xcomp	_	tag=so_0_lhþt_et
 10	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	tag=so_0_fh_p3_et_þt_gm
-11	verið	vera	VERB	so_0_gm	Voice=Act	10	conj	_	tag=so_0_gm
-12	upp	upp	ADV	ao	_	11	advmod	_	tag=ao
+11	verið	vera	VERB	so_0_gm	Voice=Act	10	cop	_	tag=so_0_gm
+12	upp	upp	ADV	ao	_	10	advmod	_	tag=ao
 13	og	og	CCONJ	st	_	2	cc	_	tag=st
 14	Elís	Elís	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	tag=person_nf_kk
 15	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
@@ -231,10 +231,11 @@
 22	Klausturmálsins	Klaustur-mál	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 23	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
--3	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00448,.10
+# text = En jafnframt er ljóst að minnka þarf losun frá vistkerfum og að taka að binda kolefni úr andrúmsloftinu í vistkerfum jarðar á ný.
 1	En	en	SCONJ	st	_	0	root	_	tag=st
 2	jafnframt	jafnframt	ADV	ao	_	4	advmod	_	tag=ao
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	ljóst	ljós	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=lo_et_nf_hk_sb
 5	að	að	SCONJ	st	_	4	nsubj	_	tag=st
 6	minnka	minnka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	VANTAR_LIÐ_VP_None	_	tag=so_1_þf_nh_gm
@@ -253,6 +254,6 @@
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	vistkerfum	vistkerfi	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	16	obl	_	tag=no_ft_þgf_hk
 21	jarðar	jarða	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	20	nmod:poss	_	tag=no_et_ef_kvk
-22	á ný	á ný	ADV	ao	_	15	advmod	_	tag=ao
+22	á ný	á ný	ADV	ao	_	15	advmod	_	SpaceAfter=No|tag=ao
 23	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

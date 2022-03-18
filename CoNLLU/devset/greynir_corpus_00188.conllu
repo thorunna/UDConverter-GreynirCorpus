@@ -98,7 +98,7 @@
 24	en	en	CCONJ	st	_	5	cc	_	tag=st
 25	sú	sá	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	tag=fn_et_nf_kvk
 26	síðarnefnda	síðarnefndur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	25	amod	_	tag=lo_et_nf_kvk_vb
-27	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	28	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+27	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	28	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 28	Ólympíumeistari	ólympíumeistari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	tag=no_et_nf_kk
 29	í	í	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
 30	Sochi	Sochi	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	tag=sérnafn_et_þgf_hk
@@ -311,8 +311,10 @@
 27	Sandra Kim	Sandra Kim	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	25	conj	_	SpaceAfter=No|tag=person_nf_kvk
 28	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00188,.10
+# text = Í mars 2012, mánuði eftir að Skeljungur var endurfjármagnaður af Arion banka, var Skeljungur látinn kaupa 34 prósent hlut í P F Magn af Heddu, félagi þeirra Svanhildar Nönnu og Guðmundar.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	mars 2012	mars 2012	NUM?	dagsafs	_	4	obl	_	tag=dagsafs
+2	mars 2012	mars 2012	NUM?	dagsafs	_	4	obl	_	SpaceAfter=No|tag=dagsafs
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	mánuði	mánuður	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	advmod	_	tag=no_et_þgf_kk
 5	eftir	eftir	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
@@ -322,7 +324,7 @@
 9	endurfjármagnaður	endurfjármagna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	xcomp	_	tag=so_0_lhþt_et
 10	af	af	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	Arion	Arion	PROPN	fyrirtæki	_	9	obl	_	tag=fyrirtæki
-12	banka	banki	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	conj	_	tag=no_et_þgf_kk
+12	banka	banki	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No|tag=no_et_þgf_kk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	aux	_	tag=so_0_fh_p3_et_þt_gm
 15	Skeljungur	skeljungur	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	tag=fyrirtæki_et_nf_kk
@@ -331,16 +333,16 @@
 18	34 prósent	34 prósent	NUM	prósenta	_	19	nummod	_	tag=prósenta
 19	hlut	hlutur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	tag=no_et_þf_kk
 20	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-21	P	P	NOUN	abbrev	_	23	flat:name	_	tag=abbrev
-22	F	F	NOUN	abbrev	_	23	flat:name	_	tag=abbrev
+21	P	P	ADV	abbrev	_	23	advmod	_	tag=abbrev
+22	F	F	ADV	abbrev	_	23	advmod	_	tag=abbrev
 23	Magn	magn	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	tag=fyrirtæki_et_þgf_hk
 24	af	af	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
-25	Heddu	Hedda	PROPN	fyrirtæki_þgf_kvk	Case=Dat|Gender=Fem	16	obl	_	tag=fyrirtæki_þgf_kvk
+25	Heddu	Hedda	PROPN	fyrirtæki_þgf_kvk	Case=Dat|Gender=Fem	16	obl	_	SpaceAfter=No|tag=fyrirtæki_þgf_kvk
 26	,	_	PUNCT	grm	_	25	punct	_	tag=grm
 27	félagi	félag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	25	obl	_	tag=no_et_þgf_hk
 28	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	29	nmod	_	tag=pfn_ft_ef_hk_p3
 29	Svanhildar Nönnu	Svanhildur Nanna	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	27	nmod:poss	_	tag=person_ef_kvk
 30	og	og	CCONJ	st	_	31	cc	_	tag=st
-31	Guðmundar	Guðmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	29	conj	_	tag=person_ef_kk
+31	Guðmundar	Guðmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	29	conj	_	SpaceAfter=No|tag=person_ef_kk
 32	.	_	PUNCT	grm	_	16	punct	_	tag=grm
 

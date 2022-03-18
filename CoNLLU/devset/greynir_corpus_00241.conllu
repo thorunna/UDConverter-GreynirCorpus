@@ -22,7 +22,7 @@
 5	Neytendastofu	neytendastofa	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_kvk
 6	:	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=fn_et_nf_hk
-8	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+8	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 9	reglurnar	regla	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	conj	_	tag=no_ft_nf_kvk_gr
 10	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 11	áhrifavaldar	áhrifavaldur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	tag=no_ft_nf_kk
@@ -75,7 +75,7 @@
 8	sölu	sala	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_ef_kvk
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	sæstreng	sæstrengur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þf_kk
-11	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+11	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 12	eitthvað	eitthvað	ADV	eo	_	13	advmod	_	tag=eo
 13	öðruvísi	öðruvísi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 14	.	_	PUNCT	grm	_	1	punct	_	tag=grm
@@ -86,7 +86,7 @@
 2	flugstjórans	flugstjóri	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kk_gr
 3	fyrir	fyrir	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	dómi	dómur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_þgf_kk
-5	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_þt_gm
+5	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_þt_gm
 6	eilítið	eilítið	ADV	eo	_	8	advmod	_	tag=eo
 7	á	á	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	skjön	skjön	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	0	root	_	tag=no_et_þf_hk
@@ -148,6 +148,8 @@
 13	2014	2014	NUM	ártal	_	11	obl	_	SpaceAfter=No|tag=ártal
 14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00241,.10
+# text = Ég geng daglega með hund og ég finn ekki fyrir þessu sjálfur.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	geng	ganga	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_et_nt_gm
 3	daglega	daglega	ADV	ao	_	2	advmod	_	tag=ao
@@ -159,6 +161,6 @@
 9	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
 10	fyrir	fyrir	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=fn_et_þgf_hk
-12	sjálfur	sjálfur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	tag=fn_et_nf_kk
+12	sjálfur	sjálfur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=fn_et_nf_kk
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -17,8 +17,8 @@
 # sent_id = GREYNIR_CORPUS_00246,.2
 # text = EM er geymt en ekki gleymt en við lifum ekkert lengur á því.
 1	EM	EM	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_nt_gm
-3	geymt	geyma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	VANTAR_LIÐ_so0_lhþt_et	_	tag=so_0_lhþt_et
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
+3	geymt	geyma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	('HALLÓ_so', '0_lhþt_et', 'NP', 'PRD')	_	tag=so_0_lhþt_et
 4	en	en	CCONJ	st	_	6	cc	_	tag=st
 5	ekki	ekki	ADV	eo	_	6	advmod	_	tag=eo
 6	gleymt	gleymdur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
@@ -53,9 +53,9 @@
 1	Af	af	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 2	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nmod	_	tag=pfn_et_þgf_hk_p3
 3	tilefni	tilefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_nf_hk
-4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	eftirfarandi	eftirfarandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_sb
-6	skopmynd	skopmynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
+6	skopmynd	skopmynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk
 7	birt	birta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	Fréttablaðinu	Fréttablaðið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk_gr
@@ -78,7 +78,7 @@
 8	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	tag=no_et_þf_kk
 9	og	og	CCONJ	st	_	3	cc	_	tag=st
 10	rómantíkin	rómantík	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	tag=no_et_nf_kvk_gr
-11	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_0_fh_p3_et_nt_gm
+11	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
 12	aldrei	aldrei	ADV	ao	_	13	advmod	_	tag=ao
 13	langt	langt	ADV	ao	_	3	conj	_	tag=ao
 14	undan	undan	ADV	ao	_	13	advmod	_	SpaceAfter=No|tag=ao
@@ -144,12 +144,14 @@
 6	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
 7	lært	læra	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	acl:relcl	_	tag=so_0_sagnb_gm
 8	sjálfur	sjálfur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	tag=fn_et_nf_kk
-9	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+9	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 10	stundum	stundum	ADV	eo	_	12	advmod	_	tag=eo
 11	kallaðar	kallaður	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	12	amod	_	tag=lo_ft_nf_kvk_sb
 12	erfðasyndir	erfðasynd	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|tag=no_ft_nf_kvk
 13	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00246,.10
+# text = Þessum ímyndaða Íslendingi finnst arkitektúr módernistanna kaldur og ekki í manneskjulegum skala.
 1	Þessum	þessi	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_þgf_kk
 2	ímyndaða	ímyndaður	ADJ	lo_et_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	tag=lo_et_þgf_kk_vb
 3	Íslendingi	Íslendingur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_þgf_kk
@@ -161,6 +163,6 @@
 9	ekki	ekki	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_nf_kk
 10	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 11	manneskjulegum	manneskjulegur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_þgf_kk_sb
-12	skala	skali	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
+12	skala	skali	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 13	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

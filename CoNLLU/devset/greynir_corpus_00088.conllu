@@ -1,8 +1,8 @@
 # sent_id = GREYNIR_CORPUS_00088,.1
 # text = En hann treysti sér ekki til að sækja böll og aðra viðburði á vegum skólans.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	3	cc	_	tag=st
 2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
-3	treysti	treysta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_1_þgf_fh_p3_et_þt_gm
+3	treysti	treysta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 4	sér	sig	PRON	abfn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	3	obj	_	tag=abfn_et_þf_kk
 5	ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
 6	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
@@ -15,7 +15,7 @@
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	vegum	vegur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	tag=no_ft_þgf_kk
 15	skólans	skóli	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
-16	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00088,.2
 # text = Þar finnst einnig forn skógur og fjölskrúðugt dýralíf, m.a. tegundir sem eru í útrýmingarhættu.
@@ -162,6 +162,8 @@
 15	hráefniskostnað	hráefniskostnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|tag=no_et_þf_kk
 16	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00088,.10
+# text = Í skýrslutökum síðar kom fram að annar árásarmannanna hefði talið brotaþolann skulda sér pening fyrir bjór.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	skýrslutökum	skýrslutaka	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_þgf_kvk
 3	síðar	síðar	ADV	ao_mst	Degree=Cmp	4	advmod	_	tag=ao_mst
@@ -177,6 +179,6 @@
 13	sér	sig	PRON	abfn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	12	iobj	_	tag=abfn_et_þgf_kk
 14	pening	peningur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	tag=no_et_þf_kk
 15	fyrir	fyrir	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	bjór	bjór	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þgf_kk
+16	bjór	bjór	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 17	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

@@ -10,10 +10,10 @@
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	vetur	vetur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
 10	og	og	CCONJ	st	_	2	cc	_	tag=st
-11	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_1_nf_fh_p3_et_nt_gm
-12	búinn	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
+11	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	aux	_	tag=so_1_nf_fh_p3_et_nt_gm
+12	búinn	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	cop	_	tag=so_0_lhþt_et
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
-14	skora	skora	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_1_þf_nh_gm
+14	skora	skora	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
 15	fjögur	fjórir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	16	nummod	_	tag=to_ft_þf_hk
 16	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	tag=no_ft_þf_hk
 17	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
@@ -123,7 +123,7 @@
 # text = Fyrri hálfleikur var svona allt í lagi þangað til svona seinni partinn þegar við fórum að kasta þversum á völlinn.
 1	Fyrri	fyrri	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_mst
 2	hálfleikur	hálfleikur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
-3	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+3	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 4	svona	svona	ADV	eo	_	5	advmod	_	tag=eo
 5	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -215,11 +215,13 @@
 19	mínum	minn	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No|tag=fn_ft_þgf_kk
 20	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00130,.10
+# text = Kanté er talinn geta verið sá varnarsinnaði miðjumaður sem Arsenal þarf til að geta blandað sér í baráttu um enska meistaratitilinn.
 1	Kanté	Kanté	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
 2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	talinn	telja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	geta	geta	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	aux	_	tag=so_0_nh_gm
-5	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	conj	_	tag=so_1_nf_sagnb_gm
+5	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	cop	_	tag=so_1_nf_sagnb_gm
 6	sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	tag=fn_et_nf_kk
 7	varnarsinnaði	varnarsinnaður	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_nf_kk_vb
 8	miðjumaður	miðjumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	tag=no_et_nf_kk
@@ -235,6 +237,6 @@
 18	baráttu	barátta	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_þf_kvk
 19	um	um	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 20	enska	enskur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	21	amod	_	tag=lo_et_þf_kk_sb
-21	meistaratitilinn	meistaratitill	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	tag=no_et_þf_kk_gr
+21	meistaratitilinn	meistaratitill	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 22	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

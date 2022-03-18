@@ -63,17 +63,17 @@
 # sent_id = GREYNIR_CORPUS_00063,.5
 # text = Ég meina, hvaða skynsemi er í að halda öðru fram ?
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
-2	meina	meina	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	SpaceAfter=No|tag=so_0_fh_p1_et_nt_gm
+2	meina	meina	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=so_0_fh_p1_et_nt_gm
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	hvaða	hvaða	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	tag=fn_et_nf_kvk
 5	skynsemi	skynsemi	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
-6	er	vera	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
+6	er	vera	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 7	í	í	ADP	fs	_	9	case	_	tag=fs
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	halda	halda	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	6	obl	_	tag=so_1_þgf_nh_gm
 10	öðru	annar	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obj	_	tag=fn_et_þgf_hk
 11	fram	fram	ADV	ao	_	9	advmod	_	SpaceAfter=No|tag=ao
-12	?	_	PUNCT	grm	_	2	punct	_	tag=grm
+12	?	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00063,.6
 # text = Úrslitaleikur Meistaradeildarinnar verður svo leikinn í Kiev í Úkraínu fimmtudagskvöldið 24. maí.
@@ -137,6 +137,8 @@
 12	fimm	fimm	NUM	töl_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	nummod	_	SpaceAfter=No|tag=töl_ft_þgf_hk
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00063,.10
+# text = Sýnið mannúð og samkennd í verki og leyfið Amir að koma heim.
 1	Sýnið	sýna	VERB	so_1_þf_bh_ft_gm	Case=Acc|Mood=Imp|Number=Plur|Voice=Act	0	root	_	tag=so_1_þf_bh_ft_gm
 2	mannúð	mannúð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	tag=no_et_þf_kvk
 3	og	og	CCONJ	st	_	4	cc	_	tag=st
@@ -148,6 +150,6 @@
 9	Amir	Amir	PROPN	person_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	tag=person_et_þgf_kk
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
 11	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
-12	heim	heim	ADV	ao	_	11	advmod	_	tag=ao
+12	heim	heim	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
 13	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

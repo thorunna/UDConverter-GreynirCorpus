@@ -25,10 +25,9 @@
 
 # sent_id = GREYNIR_CORPUS_00445,.2
 # text = Fyrirsætan Joyce Prado var svipt tiltinum ungfrú Bólivía nokkrum dögum áður en hún greindi frá því að hún væri ólétt á samfélagsmiðlum.
--3	None	_	None	None	_	_	None	_	_
 1	Fyrirsætan	fyrirsæta	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_nf_kvk_gr
 2	Joyce Prado	Joyce Prado	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
-3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 4	svipt	svipta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	tiltinum	tiltinum	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	4	iobj	_	tag=no_et_þgf_kk_gr
 6	ungfrú	ungfrú	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_nf_kvk
@@ -43,7 +42,7 @@
 15	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	tag=fn_et_þgf_hk
 16	að	að	SCONJ	st	_	19	mark	_	tag=st
 17	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kvk_p3
-18	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	conj	_	tag=so_1_nf_vh_p3_et_þt_gm
+18	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 19	ólétt	óléttur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	15	ccomp	_	tag=lo_et_nf_kvk_sb
 20	á	á	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	samfélagsmiðlum	samfélagsmiðill	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
@@ -112,7 +111,7 @@
 9	MH	MH	PROPN	entity	_	6	nmod:poss	_	tag=entity
 10	370	370	PROPN	entity	_	9	flat:name	_	tag=entity
 11	hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_þt_gm
-12	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	13	conj	_	tag=so_0_sagnb_gm
+12	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	13	cop	_	tag=so_0_sagnb_gm
 13	notaður	nota	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 14	til	til	ADP	fs_nh	VerbForm=Inf	16	case	_	tag=fs_nh
 15	að	að	PART	nhm	_	16	mark	_	tag=nhm
@@ -210,7 +209,7 @@
 9	öllu	allur	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	tag=fn_et_þgf_hk
 10	fastráðnu	fastráðinn	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	11	amod	_	tag=lo_et_þgf_hk_sb
 11	starfsfólki	starfsfólk	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	nsubj	_	tag=no_et_þgf_hk
-12	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	conj	_	tag=so_0_fh_p3_et_þt_gm
+12	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_þt_gm
 13	boðið	bjóða	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	4	conj	_	SpaceAfter=No|tag=so_1_þgf_sagnb_gm
 14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
 15	ásamt	ásamt	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
@@ -223,6 +222,8 @@
 22	mánaðar	mánuður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	21	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
 23	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00445,.10
+# text = Hann bætir við að innifalið í leiguverðinu sé hiti, rafmagn og hússjóður og sé kostnaður vegna þessa um 22.000 kr. á mánuði.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	bætir	bæta	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 3	við	við	ADV	ao	_	2	compound:prt	_	tag=ao
@@ -231,19 +232,19 @@
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	leiguverðinu	leigu-verð	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk_gr
 8	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	obj	_	tag=so_0_vh_p3_et_nt_gm
-9	hiti	hiti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
+9	hiti	hiti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|tag=no_et_nf_kk
 10	,	,	PUNCT	grm	_	11	punct	_	tag=grm
 11	rafmagn	rafmagn	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	conj	_	tag=no_et_nf_hk
 12	og	og	CCONJ	st	_	9	cc	_	tag=st
 13	hússjóður	hússjóður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	tag=no_et_nf_kk
 14	og	og	CCONJ	st	_	8	cc	_	tag=st
-15	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+15	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 16	kostnaður	kostnaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	tag=no_et_nf_kk
 17	vegna	vegna	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
 18	þessa	þessi	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	obl	_	tag=fn_et_ef_hk
 19	um	um	ADV	eo	_	20	advmod	_	tag=eo
 20	22.000 kr.	22.000 kr.	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	8	VANTAR_LIÐ_IP_None	_	tag=no_ft_nf_kvk
 21	á	á	ADV	fs_þgf	Case=Dat	20	advmod	_	tag=fs_þgf
-22	mánuði	mánuður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	tag=no_et_þgf_kk
+22	mánuði	mánuður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 23	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

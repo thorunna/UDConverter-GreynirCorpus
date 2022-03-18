@@ -8,7 +8,7 @@
 6	stöðuna	staða	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk_gr
 7	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
 8	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	conj	_	tag=so_0_sagnb_gm
+9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	cop	_	tag=so_0_sagnb_gm
 10	síbreytileg	síbreytilegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	8	acl:relcl	_	tag=lo_et_nf_kvk_sb
 11	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	liðnum	liðinn	ADJ	lo_ft_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Plur	13	amod	_	tag=lo_ft_þgf_kvk_sb
@@ -74,7 +74,7 @@
 # text = Í mars 2018 varð Landsvirkjun fyrsta íslenska fyrirtækið til að standa að útgáfu grænna skuldabréfa.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	mars 2018	mars 2018	ADV	dagsafs	_	7	advmod	_	tag=dagsafs
-3	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+3	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 4	Landsvirkjun	Landsvirkjun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk
 5	fyrsta	fyrstur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_nf_hk_vb
 6	íslenska	íslenskur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_nf_hk_vb
@@ -91,7 +91,7 @@
 # sent_id = GREYNIR_CORPUS_00252,.6
 # text = Ég er samt búin að vera að reyna að minnka nammiátið í dálítinn tíma.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
-2	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p1_et_nt_gm
+2	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p1_et_nt_gm
 3	samt	samt	ADV	eo	_	4	advmod	_	tag=eo
 4	búin	búinn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
@@ -127,9 +127,8 @@
 
 # sent_id = GREYNIR_CORPUS_00252,.8
 # text = Það er skylda ykkar að svara þessari spurningu áður en þið snúið ykkur að öðru.
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	skylda	skylda	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	ykkar	þú	PRON	pfn_ft_ef_p2	Case=Gen|Number=Plur|Person=2|PronType=Prs	3	nmod:poss	_	tag=pfn_ft_ef_p2
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
@@ -164,11 +163,13 @@
 15	augu	auga	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00252,.10
+# text = Hlutdeild bankanna er enn mikil, en samanlagt eru þeir með 50 prósent af íbúðalánamarkaðnum.
 1	Hlutdeild	hlutdeild	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 2	bankanna	banki	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk_gr
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	enn	enn	ADV	eo	_	5	advmod	_	tag=eo
-5	mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
+5	mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	en	en	CCONJ	st	_	5	cc	_	tag=st
 8	samanlagt	samanlagt	ADV	ao	_	9	advmod	_	tag=ao
@@ -177,6 +178,6 @@
 11	með	með	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	50 prósent	50 prósent	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þf_hk
 13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	íbúðalánamarkaðnum	íbúðalánamarkaður	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þgf_kk_gr
+14	íbúðalánamarkaðnum	íbúðalánamarkaður	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 15	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

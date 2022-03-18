@@ -145,15 +145,14 @@
 18	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
 19	Miðflokksmenn	miðflokksmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	tag=no_ft_nf_kk
 20	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_fh_p3_ft_nt_gm
-21	verið	vera	VERB	so_1_nf_lhþt_ft	Case=Nom|Number=Plur|VerbForm=Part	22	conj	_	tag=so_1_nf_lhþt_ft
+21	verið	vera	VERB	so_1_nf_lhþt_ft	Case=Nom|Number=Plur|VerbForm=Part	22	cop	_	tag=so_1_nf_lhþt_ft
 22	fyrirferðarmestir	fyrirferðarmikill	ADJ	lo_ft_nf_kk_esb	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur	17	advcl	_	SpaceAfter=No|tag=lo_ft_nf_kk_esb
 23	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00133,.7
 # text = Þetta er fyrirtæki sem þau vinna hjá og þau eru mjög stolt að vinna hjá WOW og við vonum það besta.
--4	None	_	None	None	_	_	None	_	_
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	fyrirtæki	fyrirtæki	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 4	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 5	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_ft_nf_hk_p3
@@ -161,7 +160,7 @@
 7	hjá	hjá	ADV	ao	_	6	advmod	_	tag=ao
 8	og	og	CCONJ	st	_	3	cc	_	tag=st
 9	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_ft_nf_hk_p3
-10	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+10	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 11	mjög	mjög	ADV	eo_fst	Degree=Pos	12	advmod	_	tag=eo_fst
 12	stolt	stoltur	ADJ	lo_ft_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	3	conj	_	tag=lo_ft_nf_hk_fst_sb
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
@@ -226,8 +225,10 @@
 22	breytast	breyta	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	20	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
 23	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00133,.10
+# text = Þetta er fyrsti laxinn sem að fyrirtækið slátrar en áður en framleiðsla á laxi hófst, ól fyrirtækið regnbogasilung í kvíum sínum.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	fyrsti	fyrstur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_vb
 4	laxinn	lax	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk_gr
 5	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
@@ -240,13 +241,13 @@
 12	framleiðsla	framleiðsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	tag=no_et_nf_kvk
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	laxi	lax	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þgf_kk
-15	hófst	hefja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	10	advcl	_	tag=so_0_fh_p3_et_þt_mm
+15	hófst	hefja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	10	advcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_mm
 16	,	_	PUNCT	grm	_	17	punct	_	tag=grm
 17	ól	ala	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 18	fyrirtækið	fyrirtæki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	tag=no_et_nf_hk_gr
 19	regnbogasilung	regnbogasilungur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	tag=no_et_þf_kk
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	kvíum	kví	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	tag=no_ft_þgf_kvk
-22	sínum	sinn	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	21	nmod	_	tag=fn_ft_þgf_kvk
+22	sínum	sinn	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No|tag=fn_ft_þgf_kvk
 23	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

@@ -54,7 +54,7 @@
 12	árangri	árangur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk
 13	sem	sem	SCONJ	stt	_	16	mark	_	tag=stt
 14	til	til	ADV	ao	_	16	advmod	_	tag=ao
-15	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	conj	_	tag=so_0_fh_p3_et_nt_gm
+15	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_0_fh_p3_et_nt_gm
 16	ætlast	ætla	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	12	acl:relcl	_	SpaceAfter=No|tag=so_0_sagnb_mm
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -127,7 +127,7 @@
 6	uppi	uppi	ADV	eo	_	7	advmod	_	tag=eo
 7	spillikóðann	spillikóði	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-9	t.d.	t.d.	NOUN	abbrev	_	5	('HALLÓ_abbrev', None, 'VP', None)	_	tag=abbrev
+9	t.d.	t.d.	ADV	abbrev	_	5	advmod	_	tag=abbrev
 10	með	með	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	vírusvarnabúnaði	vírusvarnabúnaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
@@ -160,8 +160,8 @@
 
 # sent_id = GREYNIR_CORPUS_00101,.9
 # text = Hvort er eðlilegra að við aðlögum fjölskyldulífið að atvinnulífinu, eða að atvinnulífið aðlagi sig að fjölskyldunum ?
-1	Hvort	hvort	SCONJ	st	_	2	mark	_	tag=st
-2	er	vera	VERB	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
+1	Hvort	hvort	SCONJ	st	_	10	mark	_	tag=st
+2	er	vera	VERB	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
 3	eðlilegra	eðlilegur	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	10	nsubj	_	tag=lo_et_nf_hk_mst
 4	að	að	SCONJ	st	_	6	mark	_	tag=st
 5	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_ft_nf_p1
@@ -169,7 +169,7 @@
 7	fjölskyldulífið	fjölskyldulíf	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	obj	_	tag=no_et_þf_hk_gr
 8	að	að	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	atvinnulífinu	atvinnulíf	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
+10	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 11	eða	eða	CCONJ	st	_	10	cc	_	tag=st
 12	að	að	SCONJ	st	_	14	mark	_	tag=st
 13	atvinnulífið	atvinnulíf	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	obj	_	tag=no_et_nf_hk_gr
@@ -179,6 +179,8 @@
 17	fjölskyldunum	fjölskylda	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk_gr
 18	?	_	PUNCT	grm	_	14	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00101,.10
+# text = Við spiluðum eins og við viljum gera og spilamennskan var frábær þó að við höfum tapað.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_p1
 2	spiluðum	spila	VERB	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_þt_gm
 3	eins	eins	ADV	ao	_	6	cc	_	tag=ao
@@ -188,12 +190,12 @@
 7	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
 9	spilamennskan	spilamennska	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_nf_kvk_gr
-10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_þt_gm
+10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_þt_gm
 11	frábær	frábær	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=lo_et_nf_kvk_sb
 12	þó	þó	SCONJ	st	_	16	mark	_	tag=st
 13	að	að	SCONJ	st	_	12	fixed	_	tag=st
 14	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	tag=pfn_ft_nf_p1
 15	höfum	hafa	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_fh_p1_ft_nt_gm
-16	tapað	tapa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	11	advcl	_	tag=so_0_sagnb_gm
+16	tapað	tapa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	11	advcl	_	SpaceAfter=No|tag=so_0_sagnb_gm
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

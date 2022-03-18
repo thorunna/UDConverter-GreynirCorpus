@@ -91,7 +91,7 @@
 1	Þó	þó	SCONJ	st	_	5	mark	_	tag=st
 2	að	að	SCONJ	st	_	1	cc	_	tag=st
 3	hráefnin	hráefni	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk_gr
-4	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_vh_p3_ft_nt_gm
+4	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_vh_p3_ft_nt_gm
 5	fá	fár	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	11	advcl	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	þá	þá	ADV	ao	_	11	advmod	_	tag=ao
@@ -118,8 +118,8 @@
 # sent_id = GREYNIR_CORPUS_00052,.9
 # text = Einnig er er vegurinn lokaður um Möðrudalsöræfi, Vopnafjarðarheiði og Mývatnsöræfi.
 1	Einnig	vera	ADV	ao	_	5	advmod	_	tag=ao
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-3	er	vera	X	x		2	dep	_	tag=x
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	X	x		5	dep	_	tag=x
 4	vegurinn	vegur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk_gr
 5	lokaður	lokaður	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_fst_sb
 6	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
@@ -130,6 +130,8 @@
 11	Mývatnsöræfi	Mývatnsöræfi	PROPN	sérnafn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	conj	_	SpaceAfter=No|tag=sérnafn_ft_þf_hk
 12	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00052,.10
+# text = Og svo þegar leið á myndina þá svona smá lagaðist það.
 1	Og	og	SCONJ	st	_	10	mark	_	tag=st
 2	svo	svo	ADV	ao	_	10	advmod	_	tag=ao
 3	þegar	þegar	SCONJ	st	_	4	mark	_	tag=st
@@ -140,6 +142,6 @@
 8	svona	svona	ADV	ao	_	10	advmod	_	tag=ao
 9	smá	smá	ADV	ao	_	10	advmod	_	tag=ao
 10	lagaðist	laga	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
-11	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_hk_p3
+11	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No|tag=pfn_et_nf_hk_p3
 12	.	_	PUNCT	grm	_	10	punct	_	tag=grm
 

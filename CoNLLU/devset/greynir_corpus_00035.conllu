@@ -61,7 +61,7 @@
 # sent_id = GREYNIR_CORPUS_00035,.6
 # text = Þetta er ekki algengt en kemur upp annað slagið.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	ekki	ekki	ADV	eo_fst	Degree=Pos	4	advmod	_	tag=eo_fst
 4	algengt	algengur	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_fst_sb
 5	en	en	CCONJ	st	_	6	cc	_	tag=st
@@ -72,9 +72,8 @@
 
 # sent_id = GREYNIR_CORPUS_00035,.7
 # text = Það er tekjuaukning upp á 16,6 prósent milli ára.
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	tekjuaukning	tekjuaukning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	upp	upp	ADV	ao_fst	Degree=Pos	6	advmod	_	tag=ao_fst
 5	á	á	ADP	fs_þf	Case=Acc	6	dep	_	tag=fs_þf
@@ -85,9 +84,8 @@
 
 # sent_id = GREYNIR_CORPUS_00035,.8
 # text = Það er það sem er jákvætt úr þessum leik.
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	tag=pfn_et_nf_hk_p3
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_gm
@@ -109,13 +107,15 @@
 8	gert	gera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	ccomp	_	SpaceAfter=No|tag=so_0_sagnb_gm
 9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-1	Örn Pálsson	Örn Pálsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=person_et_nf_kk
+# sent_id = GREYNIR_CORPUS_00035,.10
+# text = Örn Pálsson, framkvæmdastjóri Landssambands smábátasjómanna er ekki sáttur.
+1	Örn Pálsson	Örn Pálsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 4	Landssambands	Landssamband	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=sérnafn_et_ef_hk
 5	smábátasjómanna	smábátasjómaður	PROPN	sérnafn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	4	flat:name	_	tag=sérnafn_ft_ef_kk
-6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 7	ekki	ekki	ADV	eo_fst	Degree=Pos	8	advmod	_	tag=eo_fst
-8	sáttur	sáttur	ADJ	lo_et_nf_kk_fst	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_fst
+8	sáttur	sáttur	ADJ	lo_et_nf_kk_fst	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kk_fst
 9	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 

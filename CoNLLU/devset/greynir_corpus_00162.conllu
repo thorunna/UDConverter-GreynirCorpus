@@ -34,7 +34,7 @@
 4	af	af	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	þessum	þessi	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	tag=fn_et_þgf_kk
 6	lista	listi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
-7	erum	vera	VERB	so_1_nf_fh_p1_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	conj	_	tag=so_1_nf_fh_p1_ft_nt_gm
+7	erum	vera	VERB	so_1_nf_fh_p1_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p1_ft_nt_gm
 8	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	tag=pfn_ft_nf_p1
 9	fyrir ofan	fyrir ofan	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 10	ýmsar	ýmis	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	tag=fn_ft_þf_kvk
@@ -231,9 +231,8 @@
 
 # sent_id = GREYNIR_CORPUS_00162,.9
 # text = Bjarni var gestur Morgunvaktarinnar á Rás 1 í dag, þar sem hann fór yfir úrslitaleik Portúgala og Frakka í gær, og mótið í heild.
--4	None	_	None	None	_	_	None	_	_
 1	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	gestur	gestur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	Morgunvaktarinnar	morgunvakt	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk_gr
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -258,7 +257,9 @@
 24	heild	heild	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 25	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
-1	Yvonne Filler	Yvonne Filler	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	nsubj	_	tag=person_nf_kvk
+# sent_id = GREYNIR_CORPUS_00162,.10
+# text = Yvonne Filler, sem vinnur hjá stofu sem vinnur með framhjáhöld í London, fór yfir með Independent hvaða fimm atriðum ætti að hafa augu með.
+1	Yvonne Filler	Yvonne Filler	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
 4	vinnur	vinna	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -269,7 +270,7 @@
 9	með	með	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	framhjáhöld	framhjáhald	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	London	London	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	8	obl	_	tag=sérnafn_þgf_hk
+12	London	London	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	8	obl	_	SpaceAfter=No|tag=sérnafn_þgf_hk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	fór	fara	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 15	yfir	yfir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
@@ -282,6 +283,6 @@
 22	að	að	PART	nhm	_	23	mark	_	tag=nhm
 23	hafa	hafa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	21	xcomp	_	tag=so_1_þf_nh_gm
 24	augu	auga	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	23	obj	_	tag=no_ft_þf_hk
-25	með	með	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
+25	með	með	ADP	fs_þgf	Case=Dat	23	case	_	SpaceAfter=No|tag=fs_þgf
 26	.	_	PUNCT	grm	_	14	punct	_	tag=grm
 

@@ -14,7 +14,7 @@
 12	of	of	ADV	eo	_	14	advmod	_	tag=eo
 13	langur	langur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_nf_kk_sb
 14	tími	tími	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	tag=no_et_nf_kk
-15	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	conj	_	tag=so_0_fh_p3_et_nt_gm
+15	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_0_fh_p3_et_nt_gm
 16	liðinn	liðinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	tag=lo_et_nf_kk_sb
 17	síðan	síðan	ADV	ao	_	16	advmod	_	tag=ao
 18	síðast	síðar	ADV	ao_est	Degree=Sup	16	advmod	_	SpaceAfter=No|tag=ao_est
@@ -167,7 +167,7 @@
 14	sem	sem	SCONJ	st	_	15	cc	_	tag=st
 15	að	að	SCONJ	st	_	13	conj	_	tag=st
 16	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_ft_nf_hk_p3
-17	væru	vera	VERB	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	18	conj	_	tag=so_1_nf_vh_p3_ft_þt_gm
+17	væru	vera	VERB	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_1_nf_vh_p3_ft_þt_gm
 18	efnaðri	efnaður	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	6	advcl	_	SpaceAfter=No|tag=lo_ft_nf_hk_mst
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -192,13 +192,15 @@
 17	málstað	málstaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00423,.10
+# text = Eygló Ósk Gústafsdóttir vann til silfurverðlauna í öllum baksundsgreinunum, en hin ungverska Katinka Hoszu vann gull í öllum greinunum þremur.
 1	Eygló Ósk Gústafsdóttir	Eygló Ósk Gústafsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
 2	vann	vinna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	til	til	ADP	fs_ef	Case=Gen	4	case	_	tag=fs_ef
 4	silfurverðlauna	silfur-verðlaun	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_ef_hk
 5	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 6	öllum	allur	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	tag=fn_ft_þgf_kvk
-7	baksundsgreinunum	baksunds-grein	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_þgf_kvk_gr
+7	baksundsgreinunum	baksunds-grein	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk_gr
 8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 9	en	en	CCONJ	st	_	2	cc	_	tag=st
 10	hin	hinn	DET	gr_et_nf_kvk	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	det	_	tag=gr_et_nf_kvk
@@ -209,6 +211,6 @@
 15	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 16	öllum	allur	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	nmod	_	tag=fn_ft_þgf_kvk
 17	greinunum	grein	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	14	obl	_	tag=no_ft_þgf_kvk_gr
-18	þremur	þrír	NUM	to_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	nummod	_	tag=to_ft_þgf_kvk
+18	þremur	þrír	NUM	to_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	nummod	_	SpaceAfter=No|tag=to_ft_þgf_kvk
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

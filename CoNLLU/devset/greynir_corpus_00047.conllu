@@ -2,7 +2,7 @@
 # text = Það náttúrlega yrði okkur mjög mikilvægt ef vextir lækkuðu.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_hk_p3
 2	náttúrlega	náttúrlega	ADV	ao	_	6	advmod	_	tag=ao
-3	yrði	verða	VERB	so_1_þf_vh_p3_et_þt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_1_þf_vh_p3_et_þt_gm
+3	yrði	verða	VERB	so_1_þf_vh_p3_et_þt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_þf_vh_p3_et_þt_gm
 4	okkur	ég	PRON	pfn_ft_þgf_p1	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	obl	_	tag=pfn_ft_þgf_p1
 5	mjög	mjög	ADV	eo	_	6	advmod	_	tag=eo
 6	mikilvægt	mikilvægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
@@ -56,7 +56,7 @@
 2	alþjóðsamfélagsins	alþjóðsamfélag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk_gr
 3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	málinu	mál	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk_gr
-5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_vh_p3_et_nt_gm
+5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_vh_p3_et_nt_gm
 6	líklega	líklega	ADV	eo	_	7	advmod	_	tag=eo
 7	tímabundinn	tímabundinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 8	eins	eins	ADV	ao	_	7	advcl	_	tag=ao
@@ -119,15 +119,17 @@
 10	fyrri	fyrri	ADJ	lo_et_þf_kk_mst	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No|tag=lo_et_þf_kk_mst
 11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00047,.10
+# text = Petty höfðaði mál en sættir náðust fljótt, utan dómstóla.
 1	Petty	Petty	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=no_et_nf_hk
 2	höfðaði	höfða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	mál	mál	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
 4	en	en	CCONJ	st	_	2	cc	_	tag=st
 5	sættir	sátt	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	tag=no_ft_nf_kvk
 6	náðust	ná	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	2	conj	_	tag=so_0_fh_p3_ft_þt_mm
-7	fljótt	fljótt	ADV	ao	_	6	advmod	_	tag=ao
+7	fljótt	fljótt	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	utan	utan	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
-10	dómstóla	dómstóll	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	6	obl	_	tag=no_ft_ef_kk
+10	dómstóla	dómstóll	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_ef_kk
 11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

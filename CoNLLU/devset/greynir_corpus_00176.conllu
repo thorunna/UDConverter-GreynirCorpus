@@ -7,7 +7,7 @@
 5	húsnæðisvandi	húsnæðisvandi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	tag=no_et_nf_kk
 6	fólks	fólk	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=no_et_ef_hk
 7	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_vh_p3_et_nt_gm
-8	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	9	conj	_	tag=so_1_nf_sagnb_gm
+8	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	9	cop	_	tag=so_1_nf_sagnb_gm
 9	ljós	ljós	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	tag=lo_et_nf_kk_sb
 10	frá	frá	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	því	það	ADV	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	advmod	_	tag=pfn_et_þgf_hk_p3
@@ -101,7 +101,7 @@
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
 4	mat	mat	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=no_et_nf_hk
 5	umsókna	umsókn	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk
-6	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_ft_þt_gm
+6	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	samræmi	samræmi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	0	root	_	tag=no_et_þgf_hk
 9	við	við	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
@@ -288,6 +288,8 @@
 30	átakasvæðum	átakasvæði	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	28	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 31	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00176,.10
+# text = Hún segir niðurstöðuna í sjálfu sér ekki koma á óvart því það sé fólki eðlislægt að bera sig saman við aðra og þegar samanburðurinn er því óhagstæður veldur það vanlíðan.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p3
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	niðurstöðuna	niðurstaða	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_þf_kvk_gr
@@ -298,7 +300,7 @@
 8	óvart	óvart	ADV	ao	_	7	advmod	_	tag=ao
 9	því	því	SCONJ	st	_	13	mark	_	tag=st
 10	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	tag=pfn_et_nf_hk_p3
-11	sé	vera	VERB	so_1_þgf_vh_p3_et_nt_gm	Case=Dat|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_1_þgf_vh_p3_et_nt_gm
+11	sé	vera	VERB	so_1_þgf_vh_p3_et_nt_gm	Case=Dat|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_1_þgf_vh_p3_et_nt_gm
 12	fólki	fólk	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þgf_hk
 13	eðlislægt	eðlislægur	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	6	advcl	_	tag=lo_et_nf_hk_sb_sþgf
 14	að	að	PART	nhm	_	15	mark	_	tag=nhm
@@ -310,11 +312,11 @@
 20	og	og	CCONJ	st	_	2	cc	_	tag=st
 21	þegar	þegar	SCONJ	st	_	25	mark	_	tag=st
 22	samanburðurinn	samanburður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	tag=no_et_nf_kk_gr
-23	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	conj	_	tag=so_0_fh_p3_et_nt_gm
+23	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_0_fh_p3_et_nt_gm
 24	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obl	_	tag=pfn_et_þgf_hk_p3
 25	óhagstæður	óhagstæður	ADJ	lo_et_nf_kk_sb_sþgf	Case=Nom|Gender=Masc|Number=Sing	26	advcl	_	tag=lo_et_nf_kk_sb_sþgf
 26	veldur	valda	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
 27	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	tag=pfn_et_nf_hk_p3
-28	vanlíðan	vanlíðan	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	tag=no_et_þf_kvk
+28	vanlíðan	vanlíðan	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 29	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

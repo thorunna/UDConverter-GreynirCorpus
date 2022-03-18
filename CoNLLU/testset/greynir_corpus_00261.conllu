@@ -42,19 +42,19 @@
 2	að	að	ADV	ao	_	5	advmod	_	tag=ao
 3	mynda	mynda	ADV	ao	_	5	advmod	_	tag=ao
 4	þessir	þessi	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nmod	_	tag=fn_ft_nf_kk
-5	Sýrlendingar	Sýrlendingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
-6	en	en	CCONJ	st	_	5	cc	_	tag=st
+5	Sýrlendingar	Sýrlendingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	11	VANTAR_LIÐ_S_PREFIX	_	tag=no_ft_nf_kk
+6	en	en	CCONJ	st	_	11	cc	_	tag=st
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	heimalandi	heimaland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
 9	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	8	nmod:poss	_	tag=pfn_ft_ef_hk_p3
 10	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
-11	geisað	geisa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	conj	_	tag=so_0_sagnb_gm
+11	geisað	geisa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 12	stríð	stríð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=no_et_nf_hk
 13	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 14	rúmlega	rúmlega	ADV	ao	_	16	advmod	_	tag=ao
 15	fimm	fimm	NUM	töl_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	nummod	_	tag=töl_et_þf_hk
 16	ár	ár	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
-17	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+17	.	_	PUNCT	grm	_	11	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00261,.4
 # text = Leikstjóri myndarinnar er Christopher Nolan en þetta er þriðja Nolan-myndin sem Eggert starfar við.
@@ -64,7 +64,7 @@
 4	Christopher Nolan	Christopher Nolan	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
 5	en	en	CCONJ	st	_	3	cc	_	tag=st
 6	þetta	þetta	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=fn_et_nf_hk
-7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 8	þriðja	þriðji	ADJ	lo_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_nf_kvk
 9	Nolan-myndin	Nolan-mynd	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	conj	_	tag=no_et_nf_kvk_gr
 10	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
@@ -162,9 +162,10 @@
 15	tilvikum	tilvik	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00261,.10
+# text = Þá sé óvíst hvenær lánið verði greitt niður að fullu og félagið fari að greiða tekjuskatt.
 1	Þá	þá	ADV	ao	_	3	advmod	_	tag=ao
-2	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_vh_p3_et_nt_gm
+2	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_vh_p3_et_nt_gm
 3	óvíst	óvís	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	hvenær	hvenær	ADV	ao	_	7	advmod	_	tag=ao
 5	lánið	lán	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk_gr
@@ -178,6 +179,6 @@
 13	fari	fara	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_vh_p3_et_nt_gm
 14	að	að	PART	nhm	_	15	mark	_	tag=nhm
 15	greiða	greiða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_1_þf_nh_gm
-16	tekjuskatt	tekjuskattur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	tag=no_et_þf_kk
+16	tekjuskatt	tekjuskattur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|tag=no_et_þf_kk
 17	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

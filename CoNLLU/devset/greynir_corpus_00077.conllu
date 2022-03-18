@@ -56,7 +56,7 @@
 # text = Á árinu 2008 var fjöldi skilgreindra dagskammta á hver 1000 börn á dag 2,3.
 1	Á	á	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	árinu 2008	árinu 2008	NUM	ártal	_	13	obl	_	tag=ártal
-3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	conj	_	tag=so_0_fh_p3_et_þt_gm
+3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_þt_gm
 4	fjöldi	fjöldi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=no_et_nf_kk
 5	skilgreindra	skilgreindur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_ef_kk_sb
 6	dagskammta	dagskammtur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	4	nmod:poss	_	tag=no_ft_ef_kk
@@ -140,7 +140,7 @@
 # sent_id = GREYNIR_CORPUS_00077,.9
 # text = Fátækt er ekki eingöngu skortur á efnahagslegum gæðum, eignum, sparifé og atvinnuleysi.
 1	Fátækt	fátækt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
 4	eingöngu	eingöngu	ADV	ao	_	5	advmod	_	tag=ao
 5	skortur	skortur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -155,6 +155,8 @@
 14	atvinnuleysi	atvinnuleysi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|tag=no_et_nf_hk
 15	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00077,.10
+# text = Í skýrslunni er farið yfir kosti og galla þess að aðskilja fjárfestingabankastarfsemi frá viðskiptabankastarfsemi.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	skýrslunni	skýrsla	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk_gr
 3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -168,6 +170,6 @@
 11	aðskilja	aðskilja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þf_nh_gm
 12	fjárfestingabankastarfsemi	fjárfestingabankastarfsemi	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	tag=no_et_þf_kvk
 13	frá	frá	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	viðskiptabankastarfsemi	viðskiptabankastarfsemi	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
+14	viðskiptabankastarfsemi	viðskiptabankastarfsemi	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

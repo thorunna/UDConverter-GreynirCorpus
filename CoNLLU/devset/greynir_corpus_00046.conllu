@@ -16,9 +16,9 @@
 # text = Samkvæmt því verður Mette Frederiksen næsti og yngsti forsætisráðherra Danmerkur.
 1	Samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	tag=pfn_et_þgf_hk_p3
-3	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	Mette Frederiksen	Mette Frederiksen	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	tag=person_et_nf_kvk
-5	næsti	næstur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	8	('HALLÓ_ADJP', None, 'NP', 'PRD')	_	tag=lo_et_nf_kk_evb
+5	næsti	næstur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_nf_kk_evb
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
 7	yngsti	ungur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	5	conj	_	tag=lo_et_nf_kk_evb
 8	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -73,13 +73,13 @@
 2	eins	eins	ADV	ao	_	1	advmod	_	tag=ao
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	KEF	Keflavíkurflugvöllur	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk_gr
+5	KEF	Keflavíkurflugvöllur	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	8	cc	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk_gr
 6	;	;	PUNCT	grm	_	5	punct	_	tag=grm
 7	ríkið	ríki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk_gr
-8	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+8	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 9	skipulagsvald	skipulagsvald	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þf_hk
 10	þar	þar	ADV	ao	_	8	advmod	_	SpaceAfter=No|tag=ao
-11	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+11	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00046,.7
 # text = Seinni bylgjan : Viktor Gísli eða Daníel Freyr í landsliðið ?
@@ -120,6 +120,8 @@
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	loftslagsmálum	loftslagsmál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_þgf_hk
 
+# sent_id = GREYNIR_CORPUS_00046,.10
+# text = Þessi bíll á að fara á markað fyrir lok áratugarins.
 1	Þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_nf_kk
 2	bíll	bíll	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 3	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -129,6 +131,6 @@
 7	markað	markaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þf_kk
 8	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	lok	lok	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk
-10	áratugarins	áratugur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kk_gr
+10	áratugarins	áratugur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

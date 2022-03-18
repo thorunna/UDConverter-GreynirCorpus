@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00203,.1
 # text = Leikurinn er hafinn.
--4	None	_	None	None	_	_	None	_	_
 1	Leikurinn	leikur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	hafinn	hefja	VERB	so_0_lhþt_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_0_lhþt_et_nf_kk
 4	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
@@ -46,7 +45,7 @@
 # sent_id = GREYNIR_CORPUS_00203,.7
 # text = Það er nokkuð ljóst.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	nokkuð	nokkuð	ADV	eo	_	4	advmod	_	tag=eo
 4	ljóst	ljós	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
@@ -67,9 +66,11 @@
 4	þinn	þinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|tag=fn_et_nf_kk
 5	?	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00203,.10
+# text = Árásarmaðurinn hét Anis Amri.
 -4	None	_	None	None	_	_	None	_	_
 1	Árásarmaðurinn	árásarmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
 2	hét	heita	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
-3	Anis Amri	Anis Amri	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=person_et_nf_kk
+3	Anis Amri	Anis Amri	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
 4	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

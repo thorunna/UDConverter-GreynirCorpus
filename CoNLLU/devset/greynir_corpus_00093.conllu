@@ -1,11 +1,10 @@
 # sent_id = GREYNIR_CORPUS_00093,.1
 # text = Það eigi ekki að vera verk listamannsins að tryggja eða að þurfa að sannreyna verk sín.
--1	None	_	None	None	_	_	None	_	_
 1	Það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	tag=fn_et_nf_hk
 2	eigi	eiga	VERB	so_0_op_es_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_op_es_vh_p3_ft_nt_gm
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
 4	að	að	PART	nhm	_	6	mark	_	tag=nhm
-5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	conj	_	tag=so_1_nf_nh_gm
+5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	cop	_	tag=so_1_nf_nh_gm
 6	verk	verk	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	xcomp	_	tag=no_et_nf_hk
 7	listamannsins	listamaður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod:poss	_	tag=no_et_ef_kk_gr
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
@@ -123,7 +122,7 @@
 6	landsliðinu	landslið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_hk_p3
-9	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+9	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 10	eitt	einn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nmod	_	tag=fn_et_nf_hk
 11	besta	góður	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_nf_hk_evb
 12	landsliðið	landslið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	conj	_	tag=no_et_nf_hk_gr
@@ -152,9 +151,8 @@
 
 # sent_id = GREYNIR_CORPUS_00093,.9
 # text = Slökkviliðið var kallað að fjölbýlishúsi í Kópavogi á níunda tímanum í kvöld vegna elds í íbúð.
--4	None	_	None	None	_	_	None	_	_
 1	Slökkviliðið	slökkvilið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	kallað	kalla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	fjölbýlishúsi	fjölbýlishús	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
@@ -170,19 +168,21 @@
 15	íbúð	íbúð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00093,.10
+# text = Á þessum tíma ól hann enn með sér alheimsfrægðardrauminn, eins og hann orðaði það síðar.
 1	Á þessum tíma	á þessum tíma	ADV	ao	_	2	advmod	_	tag=ao
 2	ól	ala	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 4	enn	enn	ADV	ao	_	2	advmod	_	tag=ao
 5	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	2	obl	_	tag=abfn_þgf
-7	alheimsfrægðardrauminn	alheimsfrægðardraumur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk_gr
+7	alheimsfrægðardrauminn	alheimsfrægðardraumur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	eins	eins	ADV	ao	_	12	cc	_	tag=ao
 10	og	og	CCONJ	st	_	9	cc	_	tag=st
 11	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_kk_p3
 12	orðaði	orða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 13	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	tag=pfn_et_þf_hk_p3
-14	síðar	síðar	ADV	ao_mst	Degree=Cmp	12	advmod	_	tag=ao_mst
+14	síðar	síðar	ADV	ao_mst	Degree=Cmp	12	advmod	_	SpaceAfter=No|tag=ao_mst
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -15,11 +15,10 @@
 
 # sent_id = GREYNIR_CORPUS_00393,.2
 # text = Nyrsti þriðjungur eyjarinnar er byggður fólki af tyrkneskum uppruna en syðri hlutinn grískumælandi fólki.
--2	None	_	None	None	_	_	None	_	_
 1	Nyrsti	nyrðri	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_evb
 2	þriðjungur	þriðjungur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
 3	eyjarinnar	ey	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	tag=no_et_ef_kvk_gr
-4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	byggður	byggður	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	fólki	fólk	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
 7	af	af	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
@@ -52,7 +51,7 @@
 # sent_id = GREYNIR_CORPUS_00393,.4
 # text = Þá er fólk beðið um að vera ekki með getgátur um hvað hafi gerst.
 1	Þá	þá	ADV	ao	_	4	advmod	_	tag=ao
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	fólk	fólk	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 4	beðið	biðja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	um	um	ADP	fs_nh	VerbForm=Inf	7	case	_	tag=fs_nh
@@ -121,12 +120,11 @@
 
 # sent_id = GREYNIR_CORPUS_00393,.8
 # text = Ég hélt að ég væri hætt að gráta, segir hún einlæg.
--1	None	_	None	None	_	_	None	_	_
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	tag=pfn_et_nf_p1
 2	hélt	halda	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	1	xcomp	_	tag=so_1_þf_fh_p1_et_þt_gm
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
 4	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_p1
-5	væri	vera	VERB	so_0_vh_p1_et_þt_gm	Mood=Sub|Number=Sing|Person=1|Tense=Past|Voice=Act	6	conj	_	tag=so_0_vh_p1_et_þt_gm
+5	væri	vera	VERB	so_0_vh_p1_et_þt_gm	Mood=Sub|Number=Sing|Person=1|Tense=Past|Voice=Act	6	cop	_	tag=so_0_vh_p1_et_þt_gm
 6	hætt	hættur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	tag=lo_et_nf_kvk_sb
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
 8	gráta	gráta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
@@ -154,6 +152,8 @@
 14	víst	vís	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=lo_et_þf_hk_sb
 15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00393,.10
+# text = Það er verið að athuga hvað er hægt að gera með það traust.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
 2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
@@ -166,6 +166,6 @@
 10	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
 11	með	með	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 12	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	tag=fn_et_þf_hk
-13	traust	traust	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þf_hk
+13	traust	traust	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 14	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

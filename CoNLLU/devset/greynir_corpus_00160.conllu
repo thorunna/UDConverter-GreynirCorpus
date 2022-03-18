@@ -116,7 +116,7 @@
 # text = Pistill Kvennablaðsins er lærdómsrík lexía í þeim efnum, og ég verð að halda áfram að læra að skilgreina betur þegar ég tjái mig hverju sinni.
 1	Pistill	pistill	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
 2	Kvennablaðsins	Kvennablaðið	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_hk_gr
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	lærdómsrík	lærdómsríkur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_sb
 5	lexía	lexía	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 6	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -258,23 +258,24 @@
 25	mánuði	mánuður	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	23	advmod	_	SpaceAfter=No|tag=no_et_þgf_kk
 26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
--1	None	_	None	None	_	_	None	_	_
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+# sent_id = GREYNIR_CORPUS_00160,.10
+# text = En það getur vel verið ábatasamt fyrir einhvern að gera það og þá getur verksmiðjan farið að skapa þau verðmæti sem til stóð í upphafi.
+1	En	en	SCONJ	st	_	6	cc	_	tag=st
 2	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	tag=pfn_et_nf_hk_p3
 3	getur	geta	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	vel	vel	ADV	ao	_	6	advmod	_	tag=ao
-5	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	6	conj	_	tag=so_1_nf_sagnb_gm
-6	ábatasamt	ábatasamur	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	conj	_	tag=lo_et_nf_hk_fst_sb
+5	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	6	cop	_	tag=so_1_nf_sagnb_gm
+6	ábatasamt	ábatasamur	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_fst_sb
 7	fyrir	fyrir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	einhvern	einhver	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	tag=fn_et_þf_kk
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
 10	gera	gera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	nsubj	_	tag=so_1_þf_nh_gm
 11	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	tag=pfn_et_þf_hk_p3
-12	og	og	CCONJ	st	_	1	cc	_	tag=st
+12	og	og	CCONJ	st	_	6	cc	_	tag=st
 13	þá	þá	ADV	ao	_	16	advmod	_	tag=ao
 14	getur	geta	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_fh_p3_et_nt_gm
 15	verksmiðjan	verksmiðja	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	tag=no_et_nf_kvk_gr
-16	farið	fara	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	conj	_	tag=so_0_sagnb_gm
+16	farið	fara	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	conj	_	tag=so_0_sagnb_gm
 17	að	að	PART	nhm	_	18	mark	_	tag=nhm
 18	skapa	skapa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_1_þf_nh_gm
 19	þau	sá	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	20	nmod	_	tag=fn_ft_þf_hk
@@ -283,6 +284,6 @@
 22	til	til	ADV	ao	_	23	compound:prt	_	tag=ao
 23	stóð	standa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 24	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
-25	upphafi	upphaf	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	advmod	_	tag=no_et_þgf_hk
-26	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+25	upphafi	upphaf	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk
+26	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

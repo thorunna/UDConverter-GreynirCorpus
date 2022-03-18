@@ -12,7 +12,7 @@
 10	landsteinanna	landsteinar	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	obl	_	tag=no_ft_ef_kk_gr
 11	því	því	SCONJ	st	_	15	mark	_	tag=st
 12	Hollywood-búar	Hollywood-búi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	tag=no_ft_nf_kk
-13	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_0_fh_p3_ft_nt_gm
+13	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_ft_nt_gm
 14	margir	margur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	15	obl	_	tag=lo_ft_nf_kk_sb
 15	hrifnir	hrifinn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	6	advcl	_	tag=lo_ft_nf_kk_sb
 16	og	og	CCONJ	st	_	17	cc	_	tag=st
@@ -120,7 +120,7 @@
 19	hversu	hversu	ADV	ao	_	23	advmod	_	tag=ao
 20	raunveruleiki	raunveruleiki	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	tag=no_et_nf_kk
 21	fólks	fólk	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	20	nmod:poss	_	tag=no_et_ef_hk
-22	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+22	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 23	víðsfjarri	víðsfjarri	ADJ	lo_et_nf_kk_sb_sþgf	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	tag=lo_et_nf_kk_sb_sþgf
 24	þeim	hann	PRON	pfn_ft_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	obl	_	tag=pfn_ft_þgf_kk_p3
 25	sem	sem	SCONJ	stt	_	28	mark	_	tag=stt
@@ -168,9 +168,8 @@
 
 # sent_id = GREYNIR_CORPUS_00483,.6
 # text = Við erum smáþjóð 340.000 manns, er okkur algjörlega fyrirmunað að sýna sanngirni, að samfélagi okkar sé ekki stýrt þannig að þeir ríku verða ríkari og þeir fátækari verði fátækari.
--4	None	_	None	None	_	_	None	_	_
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
-2	erum	vera	VERB	so_1_nf_fh_p1_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p1_ft_nt_gm
+2	erum	vera	VERB	so_1_nf_fh_p1_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p1_ft_nt_gm
 3	smáþjóð	smáþjóð	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	340.000	340.000	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_nf_hk
 5	manns	maður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_ef_kk
@@ -188,25 +187,24 @@
 17	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	16	nmod:poss	_	tag=pfn_ft_ef_p1
 18	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	ccomp	_	tag=so_0_vh_p3_et_nt_gm
 19	ekki	ekki	ADV	ao	_	18	advmod	_	tag=ao
-20	stýrt	stýra	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	18	conj	_	tag=so_0_lhþt_et
-21	þannig	þannig	ADV	ao	_	20	advmod	_	tag=ao
+20	stýrt	stýra	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	18	cop	_	tag=so_0_lhþt_et
+21	þannig	þannig	ADV	ao	_	18	advmod	_	tag=ao
 22	að	að	SCONJ	st	_	26	mark	_	tag=st
 23	þeir	sá	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	tag=fn_ft_nf_kk
 24	ríku	ríkur	ADJ	lo_ft_nf_kk_vb	Case=Nom|Gender=Masc|Number=Plur	23	amod	_	tag=lo_ft_nf_kk_vb
-25	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	conj	_	tag=so_0_fh_p3_ft_nt_gm
+25	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	cop	_	tag=so_0_fh_p3_ft_nt_gm
 26	ríkari	ríkur	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	21	ccomp	_	tag=lo_ft_nf_kk_mst
 27	og	og	CCONJ	st	_	26	cc	_	tag=st
 28	þeir	sá	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	tag=fn_ft_nf_kk
 29	fátækari	fátækur	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	28	amod	_	tag=lo_ft_nf_kk_mst
-30	verði	verða	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	31	conj	_	tag=so_0_vh_p3_ft_nt_gm
+30	verði	verða	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	31	cop	_	tag=so_0_vh_p3_ft_nt_gm
 31	fátækari	fátækur	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	26	VANTAR_LIÐ_IP_None	_	SpaceAfter=No|tag=lo_ft_nf_kk_mst
 32	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00483,.7
 # text = Þetta er það sem ég hef lagt mesta áherslu á og að mati fólksins míns of mikla sem hefur stundum fundist ég vera eins og eitthvert verkfræðitröll - allur í húsunum.
--4	None	_	None	None	_	_	None	_	_
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
 4	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
 5	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_p1
@@ -306,24 +304,26 @@
 29	Ebro-fljót	Ebro-fljót	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 30	.	.	PUNCT	grm	_	11	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00483,.10
+# text = Það hefur alltaf komið eitthvað upp á, ég fékk sýkingu, hitaslag [ á heimsleikunum 2015 ], og ég hef orðið fyrir svo miklum vonbrigðum, segir hún.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
 2	hefur	hafa	AUX	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_op_es_fh_p3_et_nt_gm
 3	alltaf	alltaf	ADV	ao	_	4	advmod	_	tag=ao
 4	komið	koma	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 5	eitthvað	einhver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_þf_hk
 6	upp	upp	ADV	eo	_	4	advmod	_	tag=eo
-7	á	á	ADV	ao	_	6	advmod	_	tag=ao
+7	á	á	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
 8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 9	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_p1
 10	fékk	fá	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p1_et_þt_gm
-11	sýkingu	sýking	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	tag=no_et_þf_kvk
+11	sýkingu	sýking	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 12	,	,	PUNCT	grm	_	13	punct	_	tag=grm
-13	hitaslag	hitaslag	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	conj	_	tag=no_et_þf_hk
+13	hitaslag	hitaslag	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No|tag=no_et_þf_hk
 14	[	[	PUNCT	grm	_	13	punct	_	tag=grm
 15	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	heimsleikunum	heimsleikur	NOUN	no_ft_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	10	obl	_	tag=no_ft_þgf_kk_gr
-17	2015	2015	NUM	ártal	_	16	nummod	_	tag=ártal
-18	]	]	PUNCT	grm	_	17	punct	_	tag=grm
+17	2015	2015	NUM	ártal	_	16	nummod	_	SpaceAfter=No|tag=ártal
+18	]	]	PUNCT	grm	_	17	punct	_	SpaceAfter=No|tag=grm
 19	,	,	PUNCT	grm	_	18	punct	_	tag=grm
 20	og	og	CCONJ	st	_	4	cc	_	tag=st
 21	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	tag=pfn_et_nf_p1
@@ -332,9 +332,9 @@
 24	fyrir	fyrir	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 25	svo	svo	ADV	eo	_	27	advmod	_	tag=eo
 26	miklum	mikill	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	27	amod	_	tag=lo_ft_þgf_hk_sb
-27	vonbrigðum	vonbrigði	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	23	obl	_	tag=no_ft_þgf_hk
+27	vonbrigðum	vonbrigði	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	23	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 28	,	,	PUNCT	grm	_	27	punct	_	tag=grm
 29	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-30	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	tag=pfn_et_nf_kvk_p3
+30	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	SpaceAfter=No|tag=pfn_et_nf_kvk_p3
 31	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 

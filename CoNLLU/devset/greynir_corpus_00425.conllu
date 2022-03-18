@@ -23,7 +23,7 @@
 # sent_id = GREYNIR_CORPUS_00425,.2
 # text = Ekki sé hins vegar alltaf ljóst að sá sem setti myndbönd þar inn hafi ætlað sér að brjóta reglurnar.
 1	Ekki	Ekki	ADV	ao	_	5	advmod	_	tag=ao
-2	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_vh_p3_et_nt_gm
+2	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_vh_p3_et_nt_gm
 3	hins vegar	hins vegar	ADV	ao	_	5	advmod	_	tag=ao
 4	alltaf	alltaf	ADV	ao	_	5	advmod	_	tag=ao
 5	ljóst	ljós	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_fst_sb
@@ -44,9 +44,8 @@
 
 # sent_id = GREYNIR_CORPUS_00425,.3
 # text = Ordskælv er ritsmiðja og forlag í Kaupmannahöfn sem ekki er rekið í hagnaðarskyni og þar fengu ungmennin stuðning.
--4	None	_	None	None	_	_	None	_	_
 1	Ordskælv	Ordskælv	PROPN	fyrirtæki_nf	Case=Nom	3	nsubj	_	tag=fyrirtæki_nf
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	ritsmiðja	rit-smiðja	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	forlag	forlag	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_nf_hk
@@ -54,7 +53,7 @@
 7	Kaupmannahöfn	Kaupmannahöfn	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_kvk
 8	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 9	ekki	ekki	ADV	ao	_	11	advmod	_	tag=ao
-10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_nt_gm
+10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 11	rekið	reka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	acl:relcl	_	tag=so_0_lhþt_et
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	hagnaðarskyni	hagnaðarskyn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
@@ -89,13 +88,12 @@
 
 # sent_id = GREYNIR_CORPUS_00425,.5
 # text = Frásögnin af skólasystkinunum er einkar skemmtileg og fyndin og ekki skemma myndir höfundarins fyrir sem glæða söguna lífi.
--2	None	_	None	None	_	_	None	_	_
 1	Frásögnin	frásögn	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
 2	af	af	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	skólasystkinunum	skólasystkin	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	1	obl	_	tag=no_ft_þgf_hk_gr
-4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	einkar	einkar	ADV	eo	_	0	root	_	tag=eo
-6	skemmtileg	skemmtilegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	('HALLÓ_ADJP', None, 'NP', 'PRD')	_	tag=lo_et_nf_kvk_sb
+6	skemmtileg	skemmtilegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_sb
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
 8	fyndin	fyndinn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	tag=lo_et_nf_kvk_sb
 9	og	og	CCONJ	st	_	5	cc	_	tag=st
@@ -115,7 +113,7 @@
 1	Þýski	þýskur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_vb
 2	körfuboltamaðurinn	körfuboltamaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk_gr
 3	Dirk Nowitzki	Dirk Nowitzki	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
-4	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+4	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	nótt	nótt	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	advmod	_	tag=no_et_þf_kvk
 7	sjötti	sjötti	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_nf_kk
@@ -169,7 +167,7 @@
 12	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	tag=pfn_et_ef_kk_p3
 13	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_fh_p3_ft_nt_gm
 14	þó	þó	ADV	eo	_	16	advmod	_	tag=eo
-15	orðin	verða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	16	conj	_	tag=so_0_lhþt_ft
+15	orðin	verða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	16	cop	_	tag=so_0_lhþt_ft
 16	hærri	hár	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	3	conj	_	tag=lo_ft_nf_hk_mst
 17	eða	eð	CCONJ	st	_	16	mark	_	tag=st
 18	ríflega	ríflega	ADV	eo	_	16	advmod	_	tag=eo
@@ -183,7 +181,7 @@
 3	uppáhalds	uppáhalds	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_nf_kvk_vb
 4	sjónvarpsserían	sjónvarps-sería	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk_gr
 5	mín	minn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	tag=fn_et_nf_kvk
-6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 7	bara	bara	ADV	ao	_	9	advmod	_	tag=ao
 8	uppáhalds	uppáhalds	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_nf_kvk_vb
 9	sjónvarpsserían	sjónvarps-sería	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk_gr
@@ -199,6 +197,8 @@
 19	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	15	obj	_	SpaceAfter=No|tag=so_0_vh_p3_et_þt_gm
 20	?	?	PUNCT	grm	_	9	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00425,.10
+# text = Norska félagið Sarpsborg 08 er með í riðlakeppninni í fyrsta sinn og þangað komst líka lið F91 Dudelange frá Lúxemborg.
 1	Norska	norska	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	tag=lo_et_nf_hk_vb
 2	félagið	félag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_nf_hk_gr
 3	Sarpsborg	Sarps-borg	PROPN	fyrirtæki	_	5	nsubj	_	tag=fyrirtæki
@@ -215,6 +215,6 @@
 14	lið	lið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=no_et_nf_hk
 15	F91 Dudelange	F91 Dudelange	PROPN	fyrirtæki	_	14	nmod:poss	_	tag=fyrirtæki
 16	frá	frá	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	Lúxemborg	Lúxemborg	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	tag=sérnafn_et_þgf_kvk
+17	Lúxemborg	Lúxemborg	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
 18	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

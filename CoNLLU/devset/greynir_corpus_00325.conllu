@@ -31,12 +31,11 @@
 
 # sent_id = GREYNIR_CORPUS_00325,.2
 # text = Þannig virðist vera að í sterku fjölskyldunum, þar sem er gott utanumhald og báðir foreldrar til staðar, takist betur að stýra þessari notkun og hafa áhrif á hana.
--3	None	_	None	None	_	_	None	_	_
 1	Þannig	þannig	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	tag=lo_ft_nf_kk_sb
 2	virðist	virða	VERB	so_0_vh_p3_ft_nt_mm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_vh_p3_ft_nt_mm
-3	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	conj	_	tag=so_0_nh_gm
-4	að	að	SCONJ	st	_	2	conj	_	tag=st
-5	í	í	ADP	fs_þgf	Case=Dat	4	xcomp	_	tag=fs_þgf
+3	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	cop	_	tag=so_0_nh_gm
+4	að	að	SCONJ	st	_	2	cop	_	tag=st
+5	í	í	ADP	fs_þgf	Case=Dat	2	xcomp	_	tag=fs_þgf
 6	sterku	sterkur	ADJ	lo_ft_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Plur	7	amod	_	tag=lo_ft_þgf_kvk_vb
 7	fjölskyldunum	fjölskylda	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk_gr
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
@@ -106,8 +105,8 @@
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	fundi	fundur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
 7	reglulega	reglulega	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
-8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-9	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	conj	_	tag=so_0_nh_gm
+8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
+9	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	cop	_	tag=so_0_nh_gm
 10	með	með	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	sponsor	sponsor	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 12	(	_	PUNCT	grm	_	11	punct	_	tag=grm
@@ -180,14 +179,14 @@
 10	skrifa	skrifa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_1_þf_nh_gm
 11	undir	undir	ADV	ao	_	10	advmod	_	tag=ao
 12	og	og	CCONJ	st	_	5	cc	_	tag=st
-13	bætir	bæta	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+13	bætir	bæta	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 14	við	við	ADP	fs_nh	VerbForm=Inf	20	case	_	tag=fs_nh
 15	að	að	SCONJ	st	_	20	mark	_	tag=st
 16	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	tag=pfn_et_nf_kvk_p3
 17	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	20	aux	_	tag=so_0_vh_p3_et_þt_gm
 18	ekki	ekki	ADV	ao	_	20	advmod	_	tag=ao
-19	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	20	conj	_	tag=so_1_nf_sagnb_gm
-20	mikið	mikill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	13	obl	_	tag=lo_et_nf_hk_sb
+19	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	20	cop	_	tag=so_1_nf_sagnb_gm
+20	mikið	mikill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	obl	_	tag=lo_et_nf_hk_sb
 21	á	á	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
 22	Facebook	Facebook	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	20	obl	_	tag=no_et_þf_hk
 23	að undanförnu	að undanförnu	ADV	ao	_	20	advmod	_	tag=ao
@@ -235,9 +234,8 @@
 
 # sent_id = GREYNIR_CORPUS_00325,.8
 # text = Smith var dæmdur í lífstíðarfangelsi árið 1996 fyrir að hafa beitt dreng kynferðislegu ofbeldi í þrjú ár og þegar fjölskylda drengsins flúði með hann til annarrar borgar elti hann þau uppi.
--4	None	_	None	None	_	_	None	_	_
 1	Smith	Smith	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	dæmdur	dæma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	lífstíðarfangelsi	lífstíðarfangelsi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
@@ -271,7 +269,7 @@
 # sent_id = GREYNIR_CORPUS_00325,.9
 # text = Hægt er að borða makrílinn beint úr dós en hann er líka bragðgott álegg ofan á brauð eða í tortillu og svo í ýmiss konar salöt svo dæmi séu tekin.
 1	Hægt	hægja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
 4	borða	borða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	xcomp	_	tag=so_1_þf_nh_gm
 5	makrílinn	makríll	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obj	_	tag=no_et_þf_kk_gr
@@ -280,7 +278,7 @@
 8	dós	dós	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
 9	en	en	CCONJ	st	_	1	cc	_	tag=st
 10	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_kk_p3
-11	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+11	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 12	líka	líka	ADV	eo	_	14	advmod	_	tag=eo
 13	bragðgott	bragðgóður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_nf_hk_sb
 14	álegg	álegg	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=no_et_nf_hk
@@ -298,17 +296,19 @@
 26	salöt	salat	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_þf_hk
 27	svo	svo	SCONJ	st	_	30	mark	_	tag=st
 28	dæmi	dæmi	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	30	nsubj	_	tag=no_ft_nf_hk
-29	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	30	conj	_	tag=so_0_vh_p3_ft_nt_gm
+29	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	30	cop	_	tag=so_0_vh_p3_ft_nt_gm
 30	tekin	taka	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	14	advcl	_	SpaceAfter=No|tag=so_0_lhþt_ft
 31	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00325,.10
+# text = Ég býst við því að það verði farið á fullt hvað undirbúning þessarar ráðningar varðar um miðjan febrúar og þjálfari svo ráðinn um mánaðamótin febrúar og mars, segir Hannes.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	býst	búa	VERB	so_0_fh_p1_et_nt_mm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p1_et_nt_mm
 3	við	við	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
 5	að	að	SCONJ	st	_	8	mark	_	tag=st
 6	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_hk_p3
-7	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_vh_p3_et_nt_gm
+7	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
 8	farið	fara	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	ccomp	_	tag=so_0_lhþt_et
 9	á	á	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	fullt	fullur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	8	obl	_	tag=lo_et_nf_hk_sb
@@ -328,9 +328,9 @@
 24	mánaðamótin	mánaðamót	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	22	advmod	_	tag=no_ft_þf_hk_gr
 25	febrúar	febrúar	ADV	dagsafs	_	24	advmod	_	tag=dagsafs
 26	og	og	CCONJ	st	_	27	cc	_	tag=st
-27	mars	mars	NUM?	dagsafs	_	25	conj	_	tag=dagsafs
+27	mars	mars	NUM?	dagsafs	_	25	conj	_	SpaceAfter=No|tag=dagsafs
 28	,	_	PUNCT	grm	_	27	punct	_	tag=grm
 29	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-30	Hannes	Hannes	PROPN	person_nf_kk	Case=Nom|Gender=Masc	29	nsubj	_	tag=person_nf_kk
+30	Hannes	Hannes	PROPN	person_nf_kk	Case=Nom|Gender=Masc	29	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 31	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -10,7 +10,7 @@
 # sent_id = GREYNIR_CORPUS_00014,.2
 # text = Starfið er því fjölbreytt og krefjandi.
 1	Starfið	starf	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	því	því	ADV	eo	_	4	advmod	_	tag=eo
 4	fjölbreytt	fjölbreyttur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	og	og	CCONJ	st	_	6	cc	_	tag=st
@@ -60,7 +60,7 @@
 # sent_id = GREYNIR_CORPUS_00014,.7
 # text = Hannes er þó þakklátur þeim sænska.
 1	Hannes	Hannes	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=person_et_nf_kk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	þó	þó	ADV	eo	_	4	advmod	_	tag=eo
 4	þakklátur	þakklátur	ADJ	lo_et_nf_kk_sb_sþgf	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb_sþgf
 5	þeim	sá	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	tag=fn_et_þgf_kk
@@ -70,7 +70,7 @@
 # sent_id = GREYNIR_CORPUS_00014,.8
 # text = Þetta er fastur liður í samfélaginu.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	fastur	fastur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_sb
 4	liður	liður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -87,6 +87,8 @@
 6	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|tag=fn_et_þgf_hk
 7	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00014,.10
+# text = Óska eftir 51,5 milljón króna árlegri aukafjárveitingu
 1	Óska	óska	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 2	eftir	eftir	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 3	51,5 milljón króna	51,5 milljón króna	NUM	tala_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing|NumType=Card	5	obl	_	tag=tala_et_ef_kvk

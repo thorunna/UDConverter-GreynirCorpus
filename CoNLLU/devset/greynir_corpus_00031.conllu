@@ -5,7 +5,7 @@
 3	blés	blása	VERB	so_0_et_fh_gm_p3_þt	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	advcl	_	tag=so_0_et_fh_gm_p3_þt
 4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5	hálfleiks	hálfleikur	NOUN	no_ef_et_kk	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	tag=no_ef_et_kk
-6	var	vera	VERB	so_1_nf_et_fh_gm_p3_þt	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_1_nf_et_fh_gm_p3_þt
+6	var	vera	VERB	so_1_nf_et_fh_gm_p3_þt	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_et_fh_gm_p3_þt
 7	staðan	staða	NOUN	no_et_gr_kvk_nf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_gr_kvk_nf
 8	markalaus	markalaus	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 9	.	_	PUNCT	grm	_	8	punct	_	tag=grm
@@ -18,7 +18,7 @@
 4	ef	ef	SCONJ	st	_	8	mark	_	tag=st
 5	hann	hann	PRON	pfn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kk
 6	hefði	hafa	AUX	so_0_et_p3_þt_vh_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	8	aux	_	tag=so_0_et_p3_þt_vh_gm
-7	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	conj	_	tag=so_1_nf_sagnb_gm
+7	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	cop	_	tag=so_1_nf_sagnb_gm
 8	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	advcl	_	tag=fn_et_nf_kk
 9	heima	heima	ADV	ao	_	8	advmod	_	tag=ao
 
@@ -26,7 +26,7 @@
 # text = Þessi deild er fáránlega sterk og jöfn.
 1	Þessi	þessi	PRON	fn_et_kvk_nf	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	tag=fn_et_kvk_nf
 2	deild	deild	NOUN	no_et_kvk_nf	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_kvk_nf
-3	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_et_fh_gm_nt_p3
+3	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
 4	fáránlega	fáránlega	ADV	eo	_	5	advmod	_	tag=eo
 5	sterk	sterkur	ADJ	lo_et_kvk_nf_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_kvk_nf_sb
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
@@ -70,7 +70,7 @@
 # sent_id = GREYNIR_CORPUS_00031,.7
 # text = Magaóþægindi eru algeng, jafnvel hægðatregða eða niðurgangur.
 1	Magaóþægindi	magaóþægindi	NOUN	no_ft_hk_nf	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	tag=no_ft_hk_nf
-2	eru	vera	VERB	so_1_nf_fh_ft_gm_nt_p3	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_ft_gm_nt_p3
+2	eru	vera	VERB	so_1_nf_fh_ft_gm_nt_p3	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_ft_gm_nt_p3
 3	algeng	algengur	ADJ	lo_ft_hk_nf_sb	Case=Nom|Gender=Neut|Number=Plur	6	amod	_	SpaceAfter=No|tag=lo_ft_hk_nf_sb
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	jafnvel	jafnvel	ADV	eo	_	6	advmod	_	tag=eo
@@ -93,9 +93,8 @@
 
 # sent_id = GREYNIR_CORPUS_00031,.9
 # text = Bókin er frumraun Láru Garðarsdóttur í hlutverki rithöfundar.
--4	None	_	None	None	_	_	None	_	_
 1	Bókin	bók	NOUN	no_et_gr_kvk_nf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_gr_kvk_nf
-2	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_et_fh_gm_nt_p3
+2	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
 3	frumraun	frumraun	NOUN	no_et_kvk_nf	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_kvk_nf
 4	Láru Garðarsdóttur	Lára Garðarsdóttir	PROPN	person_ef_kvk_et	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=person_ef_kvk_et
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -103,12 +102,14 @@
 7	rithöfundar	rithöfundur	NOUN	no_ef_et_kk	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	SpaceAfter=No|tag=no_ef_et_kk
 8	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00031,.10
+# text = Það gerir um 480 þúsund í hvert sinn.
 1	Það	það	PRON	pfn_et_hk_nf_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_hk_nf_p3
 2	gerir	gera	VERB	so_1_þf_et_fh_gm_nt_p3	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_et_fh_gm_nt_p3
 3	um	um	ADV	eo	_	2	obj	_	tag=eo
 4	480 þúsund	480 þúsund	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	nummod	_	tag=töl_ft_þf_hk
 5	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 6	hvert	hver	PRON	fn_et_hk_þf	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	tag=fn_et_hk_þf
-7	sinn	sinn	NOUN	no_et_hk_þf	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_hk_þf
+7	sinn	sinn	NOUN	no_et_hk_þf	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_hk_þf
 8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -30,11 +30,11 @@
 8	en	en	CCONJ	st	_	9	cc	_	tag=st
 9	Karen	Karen	PROPN	person_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	advcl	_	tag=person_et_þf_kvk
 10	og	og	CCONJ	st	_	4	cc	_	tag=st
-11	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_þt_gm
-12	því	því	ADV	ao	_	11	advmod	_	tag=ao
-13	báðar	báðir	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	11	obl	_	tag=fn_ft_nf_kvk
+11	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_þt_gm
+12	því	því	ADV	ao	_	4	advmod	_	tag=ao
+13	báðar	báðir	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	obl	_	tag=fn_ft_nf_kvk
 14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	úrvalsliðinu	úrvalslið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+15	úrvalsliðinu	úrvalslið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00089,.3
@@ -63,7 +63,7 @@
 3	fé	fé	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
 4	þessara	þessi	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	tag=fn_ft_ef_kk
 5	banka	banki	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nmod:poss	_	tag=no_ft_ef_kk
-6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 7	m.v.	m.v.	ADP	fs	_	9	case	_	tag=fs
 8	síðustu	síðari	ADJ	lo_ft_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	9	amod	_	tag=lo_ft_þf_kvk_evb
 9	tölur	tala	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	tag=no_ft_þf_kvk
@@ -135,7 +135,7 @@
 # text = Fyrirhugað bann er m.a. liður í að framfylgja aðgerðaáætlun ríkisstjórnarinnar í loftslagsmálum, sem og stjórnarsáttmála.
 1	Fyrirhugað	fyrirhugaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	tag=lo_et_nf_hk_sb
 2	bann	bann	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	m.a.	m.a.	ADV	eo	_	5	advmod	_	tag=eo
 5	liður	liður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 6	í	í	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
@@ -171,6 +171,8 @@
 16	apríl	apríl	ADV	dagsafs	_	9	advmod	_	SpaceAfter=No|tag=dagsafs
 17	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00089,.10
+# text = Ferillinn hófst með stofnun bókaútgáfunnar Bjarts og fór á flug með útgáfu Harry Potter á Íslandi.
 1	Ferillinn	ferill	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk_gr
 2	hófst	hefja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 3	með	með	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
@@ -185,6 +187,6 @@
 12	útgáfu	útgáfa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
 13	Harry Potter	Harry Potter	PROPN	sérnafn_ef_kk	Case=Gen|Gender=Masc	12	nmod:poss	_	tag=sérnafn_ef_kk
 14	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	Íslandi	Ísland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=sérnafn_et_þgf_hk
+15	Íslandi	Ísland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

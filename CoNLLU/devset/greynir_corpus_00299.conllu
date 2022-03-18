@@ -59,7 +59,7 @@
 4	innan	innan	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5	EFTA	EFTA	PROPN	fyrirtæki	_	3	obl	_	tag=fyrirtæki
 6	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_vh_p3_et_nt_gm
-7	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	conj	_	tag=so_0_sagnb_gm
+7	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	cop	_	tag=so_0_sagnb_gm
 8	lögð	lagður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 9	áhersla	áhersla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk
 10	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
@@ -86,13 +86,13 @@
 4	stemning	stemning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk
 5	þegar	þegar	SCONJ	st	_	8	mark	_	tag=st
 6	mótið	mót	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk_gr
-7	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+7	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 8	haldið	halda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	advcl	_	tag=so_0_lhþt_et
 9	hér	hér	ADV	ao	_	8	advmod	_	tag=ao
 10	árið 2014	árið 2014	ADV	ártal	_	8	advmod	_	tag=ártal
 11	og	og	CCONJ	st	_	2	cc	_	tag=st
 12	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_hk_p3
-13	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+13	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 14	stund	stund	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=no_et_nf_kvk
 15	sem	sem	SCONJ	stt	_	21	mark	_	tag=stt
 16	enginn	enginn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	tag=fn_et_nf_kk
@@ -198,7 +198,7 @@
 14	eins	eins	ADV	ao	_	18	cc	_	tag=ao
 15	og	og	CCONJ	st	_	14	cc	_	tag=st
 16	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_et_nf_hk_p3
-17	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	conj	_	tag=so_0_fh_p3_et_nt_gm
+17	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_0_fh_p3_et_nt_gm
 18	skilgreint	skilgreina	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	advcl	_	tag=so_0_lhþt_et
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	lóðauppdrætti	lóðauppdráttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
@@ -230,6 +230,8 @@
 22	með	með	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	símtali	símtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	tag=no_et_þgf_hk
 
+# sent_id = GREYNIR_CORPUS_00299,.10
+# text = Hann segir að þungur róður sé framundan og að ekki sé búið að fylla skarðið í sókninni sem Ólafur Stefánsson skildi eftir sig.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
@@ -251,6 +253,6 @@
 19	Ólafur Stefánsson	Ólafur Stefánsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	nsubj	_	tag=person_nf_kk
 20	skildi	skilja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 21	eftir	eftir	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
-22	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	20	obl	_	tag=abfn_þf
+22	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	20	obl	_	SpaceAfter=No|tag=abfn_þf
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

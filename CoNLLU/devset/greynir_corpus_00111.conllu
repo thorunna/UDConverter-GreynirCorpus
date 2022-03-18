@@ -73,15 +73,15 @@
 5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	haltu	halda	VERB	so_1_þgf_bh_et_gm	Case=Dat|Mood=Imp|Number=Sing|Voice=Act	0	root	_	tag=so_1_þgf_bh_et_gm
 7	inni	inni	ADV	ao	_	6	compound:prt	_	tag=ao
-8	CTRL	CTRL	NOUN	abbrev	_	6	obj	_	tag=abbrev
+8	CTRL	CTRL	ADV	abbrev	_	6	obj	_	tag=abbrev
 9	og	og	CCONJ	st	_	6	cc	_	tag=st
 10	ýttu	ýta	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_þt_gm
 11	á	á	ADP	fs_þf	Case=Acc	10	case	_	SpaceAfter=No|tag=fs_þf
 12	(	_	PUNCT	grm	_	10	punct	_	tag=grm
-13	CMD	CMD	NOUN	abbrev	_	12	obl	_	tag=abbrev
+13	CMD	CMD	ADV	abbrev	_	12	obl	_	tag=abbrev
 14	og	og	CCONJ	st	_	12	cc	_	tag=st
 15	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	Mac	Mac	NOUN	abbrev	_	12	obl	_	SpaceAfter=No|tag=abbrev
+16	Mac	Mac	ADV	abbrev	_	12	obl	_	SpaceAfter=No|tag=abbrev
 17	)	_	PUNCT	grm	_	16	punct	_	SpaceAfter=No|tag=grm
 18	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
@@ -92,7 +92,7 @@
 3	virðist	virða	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	7	conj	_	tag=so_1_nf_fh_p3_et_nt_mm
 4	liðið	liðinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	tag=lo_et_nf_hk_sb
 5	nú	nú	ADV	ao	_	7	advmod	_	tag=ao
-6	orðið	verða	VERB	so_1_nf_lhþt_et	Case=Nom|Number=Sing|VerbForm=Part	7	conj	_	tag=so_1_nf_lhþt_et
+6	orðið	verða	VERB	so_1_nf_lhþt_et	Case=Nom|Number=Sing|VerbForm=Part	7	cop	_	tag=so_1_nf_lhþt_et
 7	eftirbátur	eftirbátur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 8	Red Bull	Red Bull	PROPN	fyrirtæki	_	7	nmod:poss	_	tag=fyrirtæki
 9	liðsins	liður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	conj	_	tag=no_et_ef_kk_gr
@@ -178,20 +178,22 @@
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 6	haltu	halda	VERB	so_1_þgf_bh_et_gm	Case=Dat|Mood=Imp|Number=Sing|Voice=Act	0	root	_	tag=so_1_þgf_bh_et_gm
 7	inni	inni	ADV	ao	_	6	compound:prt	_	tag=ao
-8	CTRL	CTRL	NOUN	abbrev	_	6	obj	_	tag=abbrev
+8	CTRL	CTRL	ADV	abbrev	_	6	obj	_	tag=abbrev
 9	og	og	CCONJ	st	_	6	cc	_	tag=st
 10	ýttu	ýta	VERB	so_0_bh_et_gm	Mood=Imp|Number=Sing|Voice=Act	6	conj	_	tag=so_0_bh_et_gm
 11	á	á	ADP	fs_þf	Case=Acc	10	case	_	SpaceAfter=No|tag=fs_þf
 12	-	-	PUNCT	grm	_	10	punct	_	SpaceAfter=No|tag=grm
 13	(	(	PUNCT	grm	_	12	punct	_	tag=grm
-14	CMD	CMD	NOUN	abbrev	_	13	obl	_	tag=abbrev
+14	CMD	CMD	ADV	abbrev	_	13	obl	_	tag=abbrev
 15	og	og	CCONJ	st	_	13	cc	_	SpaceAfter=No|tag=st
 16	-	-	PUNCT	grm	_	15	punct	_	tag=grm
 17	fyrir	fyrir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	Mac	Mac	NOUN	abbrev	_	13	obl	_	SpaceAfter=No|tag=abbrev
+18	Mac	Mac	ADV	abbrev	_	13	obl	_	SpaceAfter=No|tag=abbrev
 19	)	)	PUNCT	grm	_	18	punct	_	SpaceAfter=No|tag=grm
 20	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00111,.10
+# text = Það hefðu allt eins getað verið Íslendingar sem urðu fyrir árásinni í Nice í gær, segir forseti Íslands.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	tag=pfn_et_nf_hk_p3
 2	hefðu	hafa	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_0_vh_p3_ft_þt_gm
 3	allt	allt	ADV	ao	_	6	advmod	_	tag=ao
@@ -205,10 +207,10 @@
 11	árásinni	árás	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk_gr
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Nice	Nice	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	11	obl	_	tag=sérnafn_þgf_hk
-14	í gær	í gær	ADV	ao	_	11	advmod	_	tag=ao
+14	í gær	í gær	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
 15	,	_	PUNCT	grm	_	14	punct	_	tag=grm
 16	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 17	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	tag=no_et_nf_kk
-18	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	17	nmod:poss	_	tag=no_et_ef_hk
+18	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	17	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
 19	.	_	PUNCT	grm	_	16	punct	_	tag=grm
 

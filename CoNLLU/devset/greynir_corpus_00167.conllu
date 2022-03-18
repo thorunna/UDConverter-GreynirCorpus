@@ -87,7 +87,7 @@
 # sent_id = GREYNIR_CORPUS_00167,.4
 # text = Afríka er ört stækkandi markaður og því verður starfsemi sendiráðsins í Kampala efld og fyrirsvar gagnvart lykilríkjum fært þangað úr utanríkisráðuneytinu og frá sendiráði Íslands í París.
 1	Afríka	Afríka	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=sérnafn_et_nf_kvk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	ört	ört	ADV	eo	_	5	advmod	_	tag=eo
 4	stækkandi	stækkandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_sb
 5	markaður	markaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -118,7 +118,7 @@
 # sent_id = GREYNIR_CORPUS_00167,.5
 # text = Það var til að mynda þar sem Manigault Newman segist hafa heyrt Trump nota rasískt orðalag um blökkumenn, og hafa fleiri þátttakendur stutt þá frásögn hennar.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_hk_p3
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	til	til	ADP	fs_nh	VerbForm=Inf	5	case	_	tag=fs_nh
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	mynda	mynda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	obl	_	tag=so_0_nh_gm
@@ -154,7 +154,7 @@
 5	þarft	þurfa	VERB	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p2_et_nt_gm
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	gera	gera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
-8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 9	að	að	PART	nhm	_	0	root	_	tag=nhm
 10	setja	setja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	xcomp	_	tag=so_1_þf_fh_p3_ft_nt_gm
 11	upp	upp	ADV	ao	_	10	compound:prt	_	tag=ao
@@ -176,9 +176,9 @@
 
 # sent_id = GREYNIR_CORPUS_00167,.7
 # text = Og það byrjaði ekki vel fyrir heimamenn í dag því á 17. mínútu kom Aron Ramsey Arsenal í 1 – 0 og þannig stóðu leikar í hálfleik.
-1	Og	og	SCONJ	st	_	0	root	_	tag=st
+1	Og	og	SCONJ	st	_	3	cc	_	tag=st
 2	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-3	byrjaði	byrja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+3	byrjaði	byrja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	ekki	ekki	ADV	eo	_	3	advmod	_	tag=eo
 5	vel	vel	ADV	ao	_	4	advmod	_	tag=ao
 6	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
@@ -196,13 +196,13 @@
 18	1	1	NUM	tala	NumType=Card	14	obl	_	SpaceAfter=No|tag=tala
 19	–	_	PUNCT	grm	_	18	punct	_	tag=grm
 20	0	0	NUM	tala	NumType=Card	18	nummod	_	tag=tala
-21	og	og	CCONJ	st	_	1	cc	_	tag=st
+21	og	og	CCONJ	st	_	3	cc	_	tag=st
 22	þannig	þannig	ADV	ao	_	23	advmod	_	tag=ao
-23	stóðu	standa	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_0_fh_p3_ft_þt_gm
+23	stóðu	standa	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_þt_gm
 24	leikar	leikur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	tag=no_ft_nf_kk
 25	í	í	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
 26	hálfleik	hálfleikur	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	23	advmod	_	SpaceAfter=No|tag=no_et_þgf_kk
-27	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+27	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00167,.8
 # text = Sérstaklega á þetta við ef kostur er á því að nýta þekkingu og reynslu þeirra sem þegar hafa unnið að athugunum á þessum þætti í einkavæðingu bankanna.
@@ -264,13 +264,15 @@
 25	gera	gera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	12	conj	_	SpaceAfter=No|tag=so_1_þf_nh_gm
 26	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00167,.10
+# text = Núna fara menn meira að meta áherslur, hvaða framtíðarsýn við höfum upp á að bjóða og hvaða tengslanet innanlands og erlendis menn færa með sér.
 1	Núna	núna	ADV	ao	_	2	advmod	_	tag=ao
 2	fara	fara	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 3	menn	maður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_nf_kk
 4	meira	mikið	ADV	ao_mst	Degree=Cmp	2	advmod	_	tag=ao_mst
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	meta	meta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
-7	áherslur	áhersla	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	tag=no_ft_þf_kvk
+7	áherslur	áhersla	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	hvaða	hver	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	tag=fn_et_þf_kvk
 10	framtíðarsýn	framtíðarsýn	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	tag=no_et_þf_kvk
@@ -289,6 +291,6 @@
 23	menn	maður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	tag=no_ft_nf_kk
 24	færa	færa	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_ft_nt_gm
 25	með	með	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
-26	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	24	obl	_	tag=abfn_þgf
+26	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	24	obl	_	SpaceAfter=No|tag=abfn_þgf
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

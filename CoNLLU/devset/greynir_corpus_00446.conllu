@@ -18,7 +18,7 @@
 16	orka	orka	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_nf_kvk
 17	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
 18	mögulega	mögulega	ADV	ao	_	20	advmod	_	tag=ao
-19	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	conj	_	tag=so_0_fh_p3_et_nt_gm
+19	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_nt_gm
 20	nýtt	nýr	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	16	acl:relcl	_	tag=lo_et_nf_kvk_sb
 21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	framtíðinni	framtíð	ADV	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	20	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
@@ -53,7 +53,7 @@
 # sent_id = GREYNIR_CORPUS_00446,.3
 # text = Haukar eru nú komnir upp í sjöunda sæti deildarinnar með átta stig, en Grótta er í níunda sætinu með sjö stig.
 1	Haukar	haukur	PROPN	sérnafn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	tag=sérnafn_ft_nf_kk
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	nú	nú	ADV	ao	_	4	advmod	_	tag=ao
 4	komnir	kominn	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 5	upp	upp	ADV	ao	_	8	advmod	_	tag=ao
@@ -94,7 +94,7 @@
 14	&#40;	&#40;	PUNCT	grm	_	13	punct	_	tag=grm
 15	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
 16	ekki	ekki	ADV	ao	_	18	advmod	_	tag=ao
-17	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+17	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 18	staðan	staða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	acl:relcl	_	tag=no_et_nf_kvk_gr
 19	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 20	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	tag=fn_et_þgf_hk
@@ -155,15 +155,14 @@
 
 # sent_id = GREYNIR_CORPUS_00446,.7
 # text = Það er ekkert grátt svæði, það er bara svart og hvítt, hvað má og hvað ekki, segir Alda Hrönn.
--1	None	_	None	None	_	_	None	_	_
 1	Það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	tag=pfn_et_nf_hk_p3
-2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	ekkert	ekkert	ADV	eo	_	5	advmod	_	tag=eo
 4	grátt	grár	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_nf_hk_sb
 5	svæði	svæði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	xcomp	_	SpaceAfter=No|tag=no_et_nf_hk
 6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
 7	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_hk_p3
-8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 9	bara	bara	ADV	eo	_	10	advmod	_	tag=eo
 10	svart	svartur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	ccomp	_	tag=lo_et_nf_hk_sb
 11	og	og	CCONJ	st	_	12	cc	_	tag=st
@@ -231,6 +230,8 @@
 22	stofnunarinnar	stofnun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 23	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00446,.10
+# text = Greiddu launagreiðendur samtals 193.600 einstaklingum laun í október og hafði fjölgað í þeim hópi um 6.200 á sama tímabili, eða 3,3%.
 1	Greiddu	greiða	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 2	launagreiðendur	launagreiðandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	tag=no_ft_nf_kk
 3	samtals	samtals	ADV	ao	_	5	advmod	_	tag=ao
@@ -249,9 +250,9 @@
 16	6.200	6.200	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	11	obl	_	tag=tala_ft_þf_hk
 17	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 18	sama	sami	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	tag=fn_et_þgf_hk
-19	tímabili	tímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	11	advmod	_	tag=no_et_þgf_hk_gr
+19	tímabili	tímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	11	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 20	,	,	PUNCT	grm	_	19	punct	_	tag=grm
 21	eða	eð	CCONJ	st	_	11	mark	_	tag=st
-22	3,3%	3,3%	NUM	prósenta_þf	Case=Acc	11	nummod	_	tag=prósenta_þf
+22	3,3%	3,3%	NUM	prósenta_þf	Case=Acc	11	nummod	_	SpaceAfter=No|tag=prósenta_þf
 23	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

@@ -7,9 +7,9 @@
 5	foreldrum	foreldri	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	obj	_	tag=no_ft_þgf_kk
 6	frábærlega	frábærlega	ADV	ao	_	4	advmod	_	tag=ao
 7	og	og	CCONJ	st	_	4	cc	_	tag=st
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
-10	biðja	biðja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_1_þf_nh_gm
+10	biðja	biðja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_1_þf_nh_gm
 11	foreldra	foreldrar	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	tag=no_ft_þf_kk
 12	um	um	ADP	fs_nh	VerbForm=Inf	14	case	_	tag=fs_nh
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
@@ -75,10 +75,10 @@
 7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	fyrstu	fyrsta	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	advmod	_	tag=no_et_þf_kvk
 9	en	en	CCONJ	st	_	2	cc	_	tag=st
-10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_0_fh_p3_et_þt_gm
-11	síðan	síðan	ADV	eo	_	12	advmod	_	tag=eo
-12	látinn	látinn	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
-13	halda	halda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_0_nh_gm
+10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_0_fh_p3_et_þt_gm
+11	síðan	síðan	ADV	eo	_	2	advmod	_	tag=eo
+12	látinn	látinn	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	cop	_	tag=so_0_lhþt_et
+13	halda	halda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
 14	áfram	áfram	ADV	ao	_	13	advmod	_	tag=ao
 15	að	að	PART	nhm	_	16	mark	_	tag=nhm
 16	afplána	afplána	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_1_þf_nh_gm
@@ -195,11 +195,13 @@
 18	forystuna	forysta	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 19	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
-1	Guðný Lára Gunnarsdóttir	Guðný Lára Gunnarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	nsubj	_	tag=person_nf_kvk
+# sent_id = GREYNIR_CORPUS_00421,.10
+# text = Guðný Lára Gunnarsdóttir, Erla Björk Hjartardóttir, Helga Reynisdóttir, Sandra Vilborg Jónsdóttir og Bára Hafsteinsdóttir tóku þátt í Lífsstílsbreytingu Smartlands og Sporthússins í fyrra.
+1	Guðný Lára Gunnarsdóttir	Guðný Lára Gunnarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
 2	,	,	PUNCT	grm	_	3	punct	_	tag=grm
-3	Erla Björk Hjartardóttir	Erla Björk Hjartardóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
+3	Erla Björk Hjartardóttir	Erla Björk Hjartardóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	SpaceAfter=No|tag=person_nf_kvk
 4	,	,	PUNCT	grm	_	5	punct	_	tag=grm
-5	Helga Reynisdóttir	Helga Reynisdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
+5	Helga Reynisdóttir	Helga Reynisdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	SpaceAfter=No|tag=person_nf_kvk
 6	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 7	Sandra Vilborg Jónsdóttir	Sandra Vilborg Jónsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
 8	og	og	CCONJ	st	_	1	cc	_	tag=st
@@ -212,6 +214,6 @@
 15	og	og	CCONJ	st	_	16	cc	_	tag=st
 16	Sporthússins	Sporthúsið	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	conj	_	tag=fyrirtæki_et_ef_hk_gr
 17	í	í	ADV	ao	_	10	advmod	_	tag=ao
-18	fyrra	fyrra	ADV	ao	_	17	advmod	_	tag=ao
+18	fyrra	fyrra	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
 19	.	.	PUNCT	grm	_	10	punct	_	tag=grm
 

@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00008,.1
 # text = Minnið er mjög slæmt.
 1	Minnið	minni	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	mjög	mjög	ADV	eo	_	4	advmod	_	tag=eo
 4	slæmt	slæmur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
@@ -16,9 +16,8 @@
 
 # sent_id = GREYNIR_CORPUS_00008,.3
 # text = Hann er tilbúinn.
--4	None	_	None	None	_	_	None	_	_
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	tilbúinn	tilbúa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_0_lhþt_et
 4	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
@@ -69,6 +68,8 @@
 4	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No|tag=pfn_et_þf_hk_p3
 5	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00008,.10
+# text = Guðmundur Atli Steinþórsson í Breiðablik
 1	Guðmundur Atli Steinþórsson	Guðmundur Atli Steinþórsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
 2	í	í	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
 3	Breiðablik	Breiðablik	PROPN	entity_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	0	root	_	tag=entity_et_þf_hk

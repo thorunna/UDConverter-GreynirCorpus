@@ -24,9 +24,8 @@
 
 # sent_id = GREYNIR_CORPUS_00128,.2
 # text = Kerfið er gagnvirkt og hugsað á þann hátt að fólk læri að skilja og sigrast á þeim aðferðum sem tölvuglæpamenn beita.
--4	None	_	None	None	_	_	None	_	_
 1	Kerfið	kerfi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	gagnvirkt	gagnvirkur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	hugsað	hugsa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
@@ -80,7 +79,7 @@
 3	líka	líka	ADV	ao	_	4	advmod	_	tag=ao
 4	gott	góður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=lo_et_nf_hk_sb
 5	að	að	PART	nhm	_	7	mark	_	tag=nhm
-6	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	7	conj	_	tag=so_1_nf_nh_gm
+6	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	7	cop	_	tag=so_1_nf_nh_gm
 7	meðvitaður	meðvitaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	csubj	_	tag=lo_et_nf_kk_sb
 8	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 9	hvenær	hvenær	ADV	ao	_	13	advmod	_	tag=ao
@@ -142,7 +141,7 @@
 15	ætti	eiga	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	tag=so_0_vh_p3_et_þt_gm
 16	ekki	ekki	ADV	ao	_	15	advmod	_	tag=ao
 17	að	að	PART	nhm	_	19	mark	_	tag=nhm
-18	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	19	conj	_	tag=so_1_nf_nh_gm
+18	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	19	cop	_	tag=so_1_nf_nh_gm
 19	öðruvísi	öðruvísi	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	15	xcomp	_	tag=lo_et_nf_hk_sb
 20	með	með	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 21	lýtaaðgerðir	lýtaaðgerð	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
@@ -203,7 +202,7 @@
 4	slíkur	slíkur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	tag=fn_et_nf_kk
 5	dýralæknir	dýralæknir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 6	að	að	PART	nhm	_	8	mark	_	tag=nhm
-7	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	conj	_	tag=so_0_nh_gm
+7	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	cop	_	tag=so_0_nh_gm
 8	viðstaddur	viðstaddur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	tag=lo_et_nf_kk_sb
 9	fyrir	fyrir	SCONJ	st	_	15	mark	_	SpaceAfter=No|tag=st
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
@@ -219,24 +218,26 @@
 20	kjötsins	kjöt	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	19	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 21	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
-1	Já	já	INTJ	uh	_	0	root	_	tag=uh
+# sent_id = GREYNIR_CORPUS_00128,.10
+# text = Já, já, þetta er flest meira og minna samtvinnað úr trúarpælingum og Biblíunni, sem er afar merkileg þjóðfræðiheimild.
+1	Já	já	INTJ	uh	_	9	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=uh
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	já	já	INTJ	uh	_	1	discourse	_	tag=uh
-4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
+3	já	já	INTJ	uh	_	1	discourse	_	SpaceAfter=No|tag=uh
+4	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 5	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=fn_et_nf_hk
 6	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
 7	flest	margur	ADJ	lo_et_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	9	obl	_	tag=lo_et_nf_hk_esb
 8	meira og minna	meira og minna	ADV	ao_mst	Degree=Cmp	9	advmod	_	tag=ao_mst
-9	samtvinnað	samtvinna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	conj	_	tag=so_0_lhþt_et
+9	samtvinnað	samtvinna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 10	úr	úr	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	trúarpælingum	trúarpæling	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	tag=no_ft_þgf_kvk
 12	og	og	CCONJ	st	_	13	cc	_	tag=st
-13	Biblíunni	Biblía	PROPN	sérnafn_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	11	conj	_	tag=sérnafn_et_þgf_kvk_gr
+13	Biblíunni	Biblía	PROPN	sérnafn_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk_gr
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	sem	sem	SCONJ	stt	_	16	mark	_	tag=stt
 16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_gm
 17	afar	afar	ADV	eo	_	19	advmod	_	tag=eo
 18	merkileg	merkilegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	19	amod	_	tag=lo_et_nf_kvk_sb
-19	þjóðfræðiheimild	þjóðfræðiheimild	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	16	acl:relcl	_	tag=no_et_nf_kvk
-20	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+19	þjóðfræðiheimild	þjóðfræðiheimild	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	16	acl:relcl	_	SpaceAfter=No|tag=no_et_nf_kvk
+20	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 

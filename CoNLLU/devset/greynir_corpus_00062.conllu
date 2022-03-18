@@ -2,7 +2,7 @@
 # text = Þessi karamella er klikkað góð þið eigið ekki eftir að trúa því.
 1	Þessi	Þessi	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	tag=fn_et_nf_kvk
 2	karamella	karamella	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	klikkað	klikkað	ADV	eo	_	5	advmod	_	tag=eo
 5	góð	góður	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_fst_sb
 6	þið	þú	PRON	pfn_ft_nf_p2	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	tag=pfn_ft_nf_p2
@@ -63,7 +63,7 @@
 # text = Lífið getur verið ótrúlega erfitt en ekki missa af góðu mínútunum.
 1	Lífið	líf	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk_gr
 2	getur	geta	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	conj	_	tag=so_0_sagnb_gm
+3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
 4	ótrúlega	ótrúlega	ADV	eo	_	5	advmod	_	tag=eo
 5	erfitt	erfiður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6	en	en	CCONJ	st	_	5	cc	_	tag=st
@@ -107,23 +107,23 @@
 
 # sent_id = GREYNIR_CORPUS_00062,.8
 # text = En Hany Mukhtar jafnaði metin á ögurstundu og því þurfti að framlengja.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	3	cc	_	tag=st
 2	Hany Mukhtar	Hany Mukhtar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-3	jafnaði	jafna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+3	jafnaði	jafna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	metin	met	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	3	obj	_	tag=no_ft_þf_hk_gr
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	ögurstundu	ögurstund	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
-7	og	og	CCONJ	st	_	1	cc	_	tag=st
+7	og	og	CCONJ	st	_	3	cc	_	tag=st
 8	því	því	ADV	ao	_	9	advmod	_	tag=ao
-9	þurfti	þurfa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_þt_gm
+9	þurfti	þurfa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
 11	framlengja	framlengja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
-12	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00062,.9
 # text = Þetta er allt saman hægt og það er eftir miklu að sækjast.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	obl	_	tag=fn_et_nf_hk
 4	saman	saman	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nmod	_	tag=fn_et_nf_hk
 5	hægt	hægur	ADJ	lo_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk
@@ -136,6 +136,8 @@
 12	sækjast	sækja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	8	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
 13	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00062,.10
+# text = Auk þess sáu hálfberrassaðir karlar og konur um að halda uppi fjörinu.
 1	Auk þess	auk þess	ADV	ao	_	2	advmod	_	tag=ao
 2	sáu	sjá	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
 3	hálfberrassaðir	hálfberrassaður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	tag=lo_ft_nf_kk_sb
@@ -146,6 +148,6 @@
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	halda	halda	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	2	obl	_	tag=so_1_þgf_nh_gm
 10	uppi	uppi	ADV	ao	_	9	compound:prt	_	tag=ao
-11	fjörinu	fjör	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	9	obj	_	tag=no_et_þgf_hk_gr
+11	fjörinu	fjör	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

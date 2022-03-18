@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00140,.1
 # text = Þetta er ekki Jóni líkt, hann hverfur ekki og fer eitthvert án þess að láta mig vita, sagði Jana.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
 4	Jóni	Jón	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	5	obl	_	tag=person_þgf_kk
 5	líkt	líkur	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_hk_sb_sþgf
@@ -25,9 +25,8 @@
 
 # sent_id = GREYNIR_CORPUS_00140,.2
 # text = Það er mikill heiður að vera í hópi hönnuða sem unnið hafa með H&M ;, segir Erdem Moralioglu.
--7	None	_	None	None	_	_	None	_	_
 1	Það	Það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
-2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	mikill	mikill	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_fst_sb
 4	heiður	heiður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	ccomp	_	tag=no_et_nf_kk
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
@@ -39,7 +38,7 @@
 11	unnið	unnið	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	acl:relcl	_	tag=so_0_sagnb_gm
 12	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_ft_nt_gm
 13	með	með	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	H&M	H&M	NOUN	abbrev	_	11	obl	_	SpaceAfter=No|tag=abbrev
+14	H&M	H&M	ADV	abbrev	_	11	obl	_	SpaceAfter=No|tag=abbrev
 15	;	;	PUNCT	grm	_	17	punct	_	SpaceAfter=No|tag=grm
 16	,	,	PUNCT	grm	_	15	punct	_	tag=grm
 17	segir	segir	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -156,7 +155,7 @@
 3	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_vh_p3_et_nt_gm
 4	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kk_p3
 5	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	aux	_	tag=so_0_sagnb_gm
-6	orðinn	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	conj	_	tag=so_0_lhþt_et
+6	orðinn	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	cop	_	tag=so_0_lhþt_et
 7	svo	svo	ADV	eo	_	8	advmod	_	tag=eo
 8	þreyttur	þreyttur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
@@ -170,7 +169,7 @@
 17	nokkuð	nokkur	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=fn_et_þf_hk
 18	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
 19	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	tag=pfn_et_nf_kk_p3
-20	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	22	conj	_	tag=so_1_nf_vh_p3_et_þt_gm
+20	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	22	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 21	ekki	ekki	ADV	ao	_	22	advmod	_	tag=ao
 22	stoltur	stoltur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	17	acl:relcl	_	tag=lo_et_nf_kk_sb
 23	af	af	ADV	ao	_	22	advmod	_	SpaceAfter=No|tag=ao
@@ -179,7 +178,7 @@
 # sent_id = GREYNIR_CORPUS_00140,.8
 # text = Risaeðlurnar eru þriðja sviðsverkið í þríleik um afkima íslensks samfélags og fólk á jaðrinum sem hófst með Gullregni árið 2012 og Óskasteinum 2014.
 1	Risaeðlurnar	risaeðla	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	tag=no_ft_nf_kvk_gr
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	þriðja	þriðji	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_nf_hk_vb
 4	sviðsverkið	sviðsverk	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk_gr
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -228,6 +227,8 @@
 22	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00140,.10
+# text = Hann segir að það sjáist hvernig slys eru að verða og hvar á hafnarsvæðunum og er það eitthvað sem verður nú farið yfir.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	5	mark	_	tag=st
@@ -250,6 +251,6 @@
 20	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 21	nú	nú	ADV	ao	_	22	advmod	_	tag=ao
 22	farið	fara	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	20	acl:relcl	_	tag=so_0_lhþt_et
-23	yfir	yfir	ADV	ao	_	22	compound:prt	_	tag=ao
+23	yfir	yfir	ADV	ao	_	22	compound:prt	_	SpaceAfter=No|tag=ao
 24	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -43,11 +43,10 @@
 
 # sent_id = GREYNIR_CORPUS_00279,.3
 # text = Gengi liðsins hefur verið brösugt undanfarið en þeir hafa unnið 5 og tapað 5 af síðustu 10 leikjum sínum.
--2	None	_	None	None	_	_	None	_	_
 1	Gengi	gengi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk
 2	liðsins	lið	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk_gr
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-4	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	conj	_	tag=so_0_sagnb_gm
+4	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
 5	brösugt	brösugur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6	undanfarið	undanfarið	ADV	ao	_	5	advmod	_	tag=ao
 7	en	en	CCONJ	st	_	5	cc	_	tag=st
@@ -116,18 +115,18 @@
 3	auðvitað	auðvitað	ADV	ao	_	2	advmod	_	tag=ao
 4	um	um	ADP	fs_nh	VerbForm=Inf	7	case	_	tag=fs_nh
 5	að	að	PART	nhm	_	7	mark	_	tag=nhm
-6	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	conj	_	tag=so_0_nh_gm
+6	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	cop	_	tag=so_0_nh_gm
 7	klókur	klókur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	tag=lo_et_nf_kk_sb
 8	og	og	CCONJ	st	_	9	cc	_	tag=st
 9	átta	átta	VERB	so_0_nh	VerbForm=Inf	7	conj	_	tag=so_0_nh
-10	sig	sig	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_nf_hk
+10	sig	sig	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_nf_hk
 11	á	eiga	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	því	það	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=fn_et_þgf_hk
+12	því	það	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=fn_et_þgf_hk
 13	fyrirfram	fyrirfram	ADV	eo	_	15	advmod	_	tag=eo
 14	hvaða	hvaða	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	15	nmod	_	tag=fn_ft_nf_hk
 15	mál	mál	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	tag=no_ft_nf_hk
 16	geta	geta	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	ccomp	_	tag=so_0_fh_p3_ft_nt_gm
-17	orðið	verða	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	18	conj	_	tag=so_1_nf_sagnb_gm
+17	orðið	verða	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	18	cop	_	tag=so_1_nf_sagnb_gm
 18	prófmál	prófmál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	16	ccomp	_	SpaceAfter=No|tag=no_et_nf_hk
 19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -141,11 +140,11 @@
 6	aðili	aðili	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	tag=no_et_nf_kk
 7	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
 8	ráðinn	ráða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	acl:relcl	_	tag=so_0_lhþt_et
-9	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_0_vh_p3_et_þt_gm
+9	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_þt_gm
 10	af	af	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	meirihluta	meirihluti	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk
 12	Fjárlaganefndar	fjárlaganefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	11	nmod:poss	_	tag=no_et_ef_kvk
-13	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	15	conj	_	tag=so_0_vh_p3_et_þt_gm
+13	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_vh_p3_et_þt_gm
 14	ekki	ekki	ADV	eo	_	15	advmod	_	tag=eo
 15	óháður	óháður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	tag=lo_et_nf_kk_sb
 16	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
@@ -198,10 +197,12 @@
 19	áratugi	áratugi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 20	?	?	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00279,.10
+# text = Eftir að ég varð formaður fjárlaganefndar og fór að skoða kerfið sá ég hvernig þessar stofnanir eru byggðar upp.
 1	Eftir	eftir	ADV	ao	_	5	mark	_	tag=ao
 2	að	að	SCONJ	st	_	1	cc	_	tag=st
 3	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_p1
-4	varð	verða	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	5	conj	_	tag=so_1_nf_fh_p1_et_þt_gm
+4	varð	verða	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p1_et_þt_gm
 5	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	advcl	_	tag=no_et_nf_kk
 6	fjárlaganefndar	fjárlaganefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kvk
 7	og	og	CCONJ	st	_	5	cc	_	tag=st
@@ -216,6 +217,6 @@
 16	stofnanir	stofnun	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	tag=no_ft_nf_kvk
 17	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_0_fh_p3_ft_nt_gm
 18	byggðar	byggja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	12	ccomp	_	tag=so_0_lhþt_ft
-19	upp	upp	ADV	ao	_	18	advmod	_	tag=ao
+19	upp	upp	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
 20	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 

@@ -92,10 +92,9 @@
 
 # sent_id = GREYNIR_CORPUS_00283,.5
 # text = FBI hefur verið sakað um að vinna gegn Hillary Clinton, frambjóðanda Demókrataflokksins, sem beið lægri hlut í kosningunum.
--3	None	_	None	None	_	_	None	_	_
 1	FBI	FBI	PROPN	fyrirtæki	_	4	nsubj	_	tag=fyrirtæki
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	conj	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
 4	sakað	sakaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	um	um	ADP	fs_nh	VerbForm=Inf	7	case	_	tag=fs_nh
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
@@ -127,8 +126,8 @@
 9	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	grunnskólum	grunnskóli	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	tag=no_ft_þgf_kk
 11	Kópavogs	Kópavogur	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk
-12	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-13	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	tag=so_0_fh_p3_et_þt_gm
+12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
+13	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_þt_gm
 14	veittur	veita	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 15	nýlega	nýlega	ADV	ao	_	14	advmod	_	tag=ao
 16	við	við	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
@@ -207,6 +206,8 @@
 19	vísindamanna	vísindamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	18	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
 20	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00283,.10
+# text = Var stöðin fyrst opnuð árið 1987 en Stefán og Rannveig létu af störfum í fyrra þegar nýir eigendur tóku við.
 1	Var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 2	stöðin	stöð	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
 3	fyrst	snemma	ADV	ao_est	Degree=Sup	4	advmod	_	tag=ao_est
@@ -225,6 +226,6 @@
 16	nýir	nýr	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	17	amod	_	tag=lo_ft_nf_kk_sb
 17	eigendur	eigandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	tag=no_ft_nf_kk
 18	tóku	taka	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	advcl	_	tag=so_0_fh_p3_ft_þt_gm
-19	við	við	ADV	ao	_	18	advmod	_	tag=ao
+19	við	við	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
 20	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 

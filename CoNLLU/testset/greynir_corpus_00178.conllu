@@ -27,13 +27,13 @@
 
 # sent_id = GREYNIR_CORPUS_00178,.2
 # text = En það sem að hræðir mig eru svör fjármálaráðherrans þegar hann segir : Ja, ef að Wow fer á hausinn þá þurfum við að taka á því á útgjaldahliðinni.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	7	cc	_	tag=st
 2	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	xcomp	_	tag=fn_et_nf_hk
 3	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 4	að	að	SCONJ	st	_	3	cc	_	tag=st
 5	hræðir	hræða	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 6	mig	ég	PRON	pfn_et_þf_p1	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	tag=pfn_et_þf_p1
-7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_ft_nt_gm
 8	svör	svar	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	tag=no_ft_nf_hk
 9	fjármálaráðherrans	fjármálaráðherra	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod:poss	_	tag=no_et_ef_kk_gr
 10	þegar	þegar	SCONJ	st	_	12	mark	_	tag=st
@@ -57,7 +57,7 @@
 28	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obl	_	tag=pfn_et_þgf_hk_p3
 29	á	á	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
 30	útgjaldahliðinni	útgjaldahlið	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
-31	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+31	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00178,.3
 # text = Fljótlega var þó ljóst að færa þurfti sýninguna á Stóra sviðið til að geta annað eftirspurn og var það gert haustið 2017 og fyrsta sýning þar var 31. ágúst 2017.
@@ -249,7 +249,7 @@
 24	um	um	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
 25	sæti	sæti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	23	obl	_	tag=no_et_þf_hk
 26	á	á	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
-27	HM	HM	NOUN	abbrev	_	25	obl	_	tag=abbrev
+27	HM	HM	ADV	abbrev	_	25	obl	_	tag=abbrev
 28	2009	2009	ADV	ártal	_	27	advmod	_	tag=ártal
 29	í	í	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
 30	Króatíu	Króatía	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
@@ -288,9 +288,11 @@
 29	fleira	margur	ADJ	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	24	amod	_	SpaceAfter=No|tag=lo_et_þf_hk_mst
 30	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
-1	Ásmundur Einar Daðason	Ásmundur Einar Daðason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
+# sent_id = GREYNIR_CORPUS_00178,.10
+# text = Ásmundur Einar Daðason, félags- og jafnréttismálaráðherra, vill gera almenningssamgöngur aðgengilegri fólki með fötlun til þess að fylgja eftir nýjum lögum um þjónustu við fatlað fólk með langvarandi stuðningsþarfir.
+1	Ásmundur Einar Daðason	Ásmundur Einar Daðason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 2	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-3	félags- og jafnréttismálaráðherra	jafnréttismála-ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
+3	félags- og jafnréttismálaráðherra	jafnréttismála-ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|tag=no_et_nf_kk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	vill	vilja	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
 6	gera	gera	VERB	so_2_þf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_2_þf_þf_nh_gm
@@ -313,6 +315,6 @@
 23	fólk	fólk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	20	obl	_	tag=no_et_þf_hk
 24	með	með	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
 25	langvarandi	langvarandi	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	26	amod	_	tag=lo_ft_þf_kvk_sb
-26	stuðningsþarfir	stuðningsþörf	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	23	obl	_	tag=no_ft_þf_kvk
+26	stuðningsþarfir	stuðningsþörf	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 27	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

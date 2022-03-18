@@ -58,10 +58,9 @@
 
 # sent_id = GREYNIR_CORPUS_00216,.6
 # text = Verðmæti þýfisins er talið nema um 200 milljónum.
--3	None	_	None	None	_	_	None	_	_
 1	Verðmæti	verðmæti	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 2	þýfisins	þýfi	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk_gr
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	talið	telja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	nema	nema	VERB	so_0_nh	VerbForm=Inf	4	VANTAR_LIÐ_VP_None	_	tag=so_0_nh
 6	um	um	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -102,14 +101,15 @@
 6	í ár	í ár	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
 7	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00216,.10
+# text = Talið er að málið sé stærsta þjófnaðarmál Íslandssögunnar.
 1	Talið	telja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	7	mark	_	tag=st
 4	málið	mál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk_gr
-5	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+5	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 6	stærsta	stór	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_nf_hk_evb
 7	þjófnaðarmál	þjófnaðarmál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	ccomp	_	tag=no_et_nf_hk
-8	Íslandssögunnar	Íslandssaga	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod:poss	_	tag=no_et_ef_kvk_gr
+8	Íslandssögunnar	Íslandssaga	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 9	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 

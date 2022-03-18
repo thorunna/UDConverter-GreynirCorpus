@@ -40,11 +40,11 @@
 
 # sent_id = GREYNIR_CORPUS_00048,.4
 # text = Ísland í dag — Tjaldaði 9 m 2 gestaherbergi í stofunni
-1	Ísland	ísland	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
+1	Ísland	ísland	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	VANTAR_LIÐ_S_PREFIX	_	tag=no_et_nf_hk
 2	í	í	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
 3	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_þf_kk
-4	—	_	PUNCT	grm	_	5	punct	_	tag=grm
-5	Tjaldaði	tjalda	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_1_þgf_fh_p3_et_þt_gm
+4	—	_	PUNCT	grm	_	3	punct	_	tag=grm
+5	Tjaldaði	tjalda	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 6	9 m	9 m	X	mælieining	_	8	dep	_	tag=mælieining
 7	2	2	NUM	tala	NumType=Card	6	nummod	_	tag=tala
 8	gestaherbergi	gestaherbergi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obj	_	tag=no_et_þgf_hk
@@ -80,9 +80,8 @@
 
 # sent_id = GREYNIR_CORPUS_00048,.7
 # text = Sigurður Már Jónsson er f jölmiðlafulltrúi ríkisstjórnarinnar og starfar í forsætisráðuneytinu.
--4	None	_	None	None	_	_	None	_	_
 1	Sigurður Már Jónsson	Sigurður Már Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	f	f	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	jölmiðlafulltrúi	jölmiðlafulltrúi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_nf_kk
 5	ríkisstjórnarinnar	ríkisstjórn	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk_gr
@@ -121,6 +120,8 @@
 10	á	á	ADV	ao	_	9	advmod	_	SpaceAfter=No|tag=ao
 11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00048,.10
+# text = Gunnar Þorsteinsson heldur uppá heimkomuna með skallamarki eftir fyrirgjöf Magnúsar Björgvinssonar.
 1	Gunnar Þorsteinsson	Gunnar Þorsteinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 2	heldur	halda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	uppá	uppá	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
@@ -129,6 +130,6 @@
 6	skallamarki	skallamark	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 7	eftir	eftir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	fyrirgjöf	fyrirgjöf	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk
-9	Magnúsar Björgvinssonar	Magnús Björgvinsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	nmod:poss	_	tag=person_ef_kk
+9	Magnúsar Björgvinssonar	Magnús Björgvinsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
 10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -69,7 +69,7 @@
 11	um	um	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 12	hvar	hvar	ADV	ao	_	15	advmod	_	tag=ao
 13	steinninn	steinn	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	tag=no_et_nf_kk_gr
-14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_0_fh_p3_et_nt_gm
+14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
 15	niðurkominn	niðurkominn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 16	?	_	PUNCT	grm	_	1	punct	_	tag=grm
 
@@ -111,9 +111,8 @@
 
 # sent_id = GREYNIR_CORPUS_00082,.7
 # text = Flökkusjálf er hugtak sem lýsir ákveðnum veruhætti eða lífstíl sem einkennist og mótast af millibilsástandi.
--4	None	_	None	None	_	_	None	_	_
 1	Flökkusjálf	flökkusjálf	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	hugtak	hugtak	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	lýsir	lýsa	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	tag=so_1_þgf_fh_p3_et_nt_gm
@@ -166,6 +165,8 @@
 15	flokkar	flokkur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	advcl	_	SpaceAfter=No|tag=no_ft_nf_kk
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00082,.10
+# text = Rauða kross teymið hafði tíu legurými fyrir sjúklinga sem ekki var hægt að útskrifa strax.
 1	Rauða	rauður	ADJ	lo_et_ef_kk_fst_vb	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_ef_kk_fst_vb
 2	kross	kross	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kk
 3	teymið	teymi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
@@ -180,6 +181,6 @@
 12	hægt	hægt	ADV	ao_fst	Degree=Pos	11	nsubj	_	tag=ao_fst
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
 14	útskrifa	útskrifa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	csubj	_	tag=so_0_nh_gm
-15	strax	strax	ADV	ao	_	14	advmod	_	tag=ao
+15	strax	strax	ADV	ao	_	14	advmod	_	SpaceAfter=No|tag=ao
 16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

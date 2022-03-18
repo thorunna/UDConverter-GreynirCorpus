@@ -69,7 +69,7 @@
 11	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	tag=no_ft_þf_hk
 12	en	en	CCONJ	st	_	3	cc	_	tag=st
 13	Ragnheiður Júlíusdóttir	Ragnheiður Júlíusdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	16	nsubj	_	tag=person_nf_kvk
-14	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	conj	_	tag=so_0_fh_p3_et_þt_gm
+14	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_0_fh_p3_et_þt_gm
 15	einnig	einnig	ADV	ao	_	16	advmod	_	tag=ao
 16	frábær	frábær	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	tag=lo_et_nf_kvk_fst_sb
 17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
@@ -83,10 +83,9 @@
 
 # sent_id = GREYNIR_CORPUS_00154,.4
 # text = Það hefði verið óskandi að geta með bréfi þessu látið nægja að óska þér til hamingju með kjörið og bera fram óskir um gott samstarf.
--3	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
 2	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	4	aux	_	tag=so_0_vh_p3_et_þt_gm
-3	verið	vera	VERB	so_1_nf_gm	Case=Nom|Voice=Act	4	conj	_	tag=so_1_nf_gm
+3	verið	vera	VERB	so_1_nf_gm	Case=Nom|Voice=Act	4	cop	_	tag=so_1_nf_gm
 4	óskandi	óskandi	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	að	að	PART	nhm	_	11	mark	_	tag=nhm
 6	geta	geta	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	aux	_	tag=so_0_nh_gm
@@ -220,7 +219,7 @@
 1	Að	að	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 2	mínu	minn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	tag=fn_et_þgf_hk
 3	mati	mat	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	tag=fn_et_nf_hk
 6	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	tag=fn_et_nf_hk
 7	útrætt	útræddur	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_hk_fst_sb
@@ -242,6 +241,8 @@
 23	nefndina	nefnd	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 24	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00154,.10
+# text = Andrea Agnelli forseti Ítalíumeistara Juventus hefur verið dæmdur í eins árs bann frá störfum af ítalska knattspyrnusambandinu fyrir þátt hans í ólöglegri sölu á aðgöngumiðum.
 1	Andrea Agnelli	Andrea Agnelli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
 2	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 3	Ítalíumeistara	Ítalíumeistari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	nmod:poss	_	tag=no_et_ef_kk
@@ -265,6 +266,6 @@
 21	ólöglegri	ólöglegur	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	22	amod	_	tag=lo_et_þgf_kvk_mst
 22	sölu	sala	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_þgf_kvk
 23	á	á	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	aðgöngumiðum	aðgöngumiði	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	22	obl	_	tag=no_ft_þgf_kk
+24	aðgöngumiðum	aðgöngumiði	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 25	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 

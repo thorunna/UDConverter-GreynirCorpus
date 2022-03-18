@@ -69,7 +69,7 @@
 # sent_id = GREYNIR_CORPUS_00209,.8
 # text = Það er annar gæðastimpill þar.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	annar	annar	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	tag=fn_et_nf_kk
 4	gæðastimpill	gæðastimpill	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	þar	þar	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
@@ -78,13 +78,15 @@
 # sent_id = GREYNIR_CORPUS_00209,.9
 # text = Hann var ekki fluttur á sjúkrahús.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kk_p3
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	ekki	ekki	ADV	eo	_	4	advmod	_	tag=eo
 4	fluttur	fluttur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 5	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	sjúkrahús	sjúkrahús	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 7	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00209,.10
+# text = Almannatengill segir Benedikt hafa brugðist rétt við
 1	Almannatengill	almannatengill	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	Benedikt	Benedikt	PROPN	person_þf_kk	Case=Acc|Gender=Masc	2	obj	_	tag=person_þf_kk

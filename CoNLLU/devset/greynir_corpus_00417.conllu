@@ -6,9 +6,9 @@
 4	C-riðil	C-riðill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
 5	mótsins	mót	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk_gr
 6	og	og	CCONJ	st	_	2	cc	_	tag=st
-7	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
+7	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_0_fh_p3_et_þt_gm
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	riðli	riðill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
+9	riðli	riðill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
 10	með	með	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	Rúmeníu	Rúmenía	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
 12	,	,	PUNCT	grm	_	13	punct	_	tag=grm
@@ -81,12 +81,12 @@
 
 # sent_id = GREYNIR_CORPUS_00417,.5
 # text = En, Júlíus var einmitt skipaður sendiherra í skammvinnri tíð Davíðs í utanríkisráðuneytinu, ásamt tíu öðrum.
-1	En	en	SCONJ	st	_	0	root	_	SpaceAfter=No|tag=st
-2	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+1	En	en	SCONJ	st	_	6	cc	_	SpaceAfter=No|tag=st
+2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 3	Júlíus	Júlíus	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_þt_gm
+4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	einmitt	einmitt	ADV	eo	_	6	advmod	_	tag=eo
-6	skipaður	skipa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	conj	_	tag=so_0_lhþt_et
+6	skipaður	skipa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 7	sendiherra	sendiherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_nf_kk
 8	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	skammvinnri	skammvinnur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_þgf_kvk_sb
@@ -98,7 +98,7 @@
 15	ásamt	ásamt	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 16	tíu	tíu	NUM	töl_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	nummod	_	tag=töl_ft_þgf_kk
 17	öðrum	annar	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|tag=fn_ft_þgf_hk
-18	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+18	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00417,.6
 # text = Rætt er um að lágmarksfjárhæð sem verði hægt að leggja til verkefnisins verði um 200 — 250 þúsund íslenskra króna.
@@ -166,7 +166,7 @@
 # sent_id = GREYNIR_CORPUS_00417,.9
 # text = Við erum að mörgu leyti ósáttir við hana, hún náði ekki andanum sem var í bandinu.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_ft_nf_p1
-2	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p1_ft_nt_gm
+2	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p1_ft_nt_gm
 3	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 4	mörgu	margur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þgf_hk_sb
 5	leyti	leyti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
@@ -184,6 +184,8 @@
 17	bandinu	band	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 18	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00417,.10
+# text = Þá funduðu ráðherrarnir með varnarmálaráðherrum Finnlands og Svíþjóðar og utanríkismálastjóra ESB um vaxandi samvinnu NATO og ESB.
 1	Þá	þá	ADV	ao	_	2	advmod	_	tag=ao
 2	funduðu	funda	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
 3	ráðherrarnir	ráðherra	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_nf_kk_gr
@@ -200,6 +202,6 @@
 14	samvinnu	samvinna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk
 15	NATO	NATO	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=fyrirtæki_et_ef_hk
 16	og	og	CCONJ	st	_	17	cc	_	tag=st
-17	ESB	ESB	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	15	conj	_	tag=fyrirtæki_et_ef_hk
+17	ESB	ESB	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	15	conj	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
 18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

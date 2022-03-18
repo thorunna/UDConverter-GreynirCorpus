@@ -5,7 +5,7 @@
 3	um	um	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
 4	að	að	SCONJ	st	_	8	mark	_	tag=st
 5	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
-6	væru	vera	VERB	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_1_nf_vh_p3_ft_þt_gm
+6	væru	vera	VERB	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_vh_p3_ft_þt_gm
 7	allir	allur	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	tag=fn_ft_nf_kk
 8	kristnir	kristinn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
 9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -103,14 +103,15 @@
 8	saman	saman	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
 9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00214,.10
+# text = Markmiðið er að fá krakka til að lesa.
 1	Markmiðið	markmið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	að	að	PART	nhm	_	0	root	_	tag=nhm
 4	fá	fá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
 5	krakka	krakki	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	tag=no_et_þf_kk
 6	til	til	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	lesa	lesa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	obl	_	tag=so_0_nh_gm
+8	lesa	lesa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	obl	_	SpaceAfter=No|tag=so_0_nh_gm
 9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

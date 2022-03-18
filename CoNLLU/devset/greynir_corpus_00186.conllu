@@ -27,8 +27,8 @@
 25	sýna	sýna	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
 26	litla	lítill	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	27	amod	_	tag=lo_et_þf_kvk_sb
 27	svörun	svörun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
-28	,	_	PUNCT	grm	_	29	punct	_	tag=grm
-29	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	32	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+28	,	_	PUNCT	grm	_	27	punct	_	tag=grm
+29	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	32	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 30	ekki	ekki	ADV	eo	_	32	advmod	_	tag=eo
 31	eftirsóknarverð	eftirsóknarverður	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	32	amod	_	tag=lo_ft_nf_hk_sb
 32	samskipti	samskipti	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|tag=no_ft_nf_hk
@@ -73,9 +73,8 @@
 
 # sent_id = GREYNIR_CORPUS_00186,.3
 # text = Það er búið að skapa gott umhverfi sem tekur á móti nýútskrifuðum leikstjórum, svo að það þurfa ekki að líða 3 – 5 ár þangað til maður kemst aftur í upptökur.
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	búið	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	skapa	skapa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
@@ -134,7 +133,7 @@
 22	3 km	3 km	X	mælieining	_	16	obl	_	SpaceAfter=No|tag=mælieining
 23	,	_	PUNCT	grm	_	24	punct	_	tag=grm
 24	leið	leið	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	22	conj	_	tag=no_et_nf_kvk
-25	Þ-H	Þ-H	NOUN	abbrev	_	16	flat:name	_	tag=abbrev
+25	Þ-H	Þ-H	ADV	abbrev	_	16	advmod	_	tag=abbrev
 26	21,6 km	21,6 km	X	mælieining	_	16	obl	_	SpaceAfter=No|tag=mælieining
 27	)	_	PUNCT	grm	_	26	punct	_	SpaceAfter=No|tag=grm
 28	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -299,7 +298,7 @@
 15	launatengdur	launatengdur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_nf_kk_sb
 16	kostnaður	kostnaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	tag=no_et_nf_kk
 17	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	tag=so_0_fh_p3_et_nt_gm
-18	verið	vera	VERB	so_1_nf_gm	Case=Nom|Voice=Act	21	conj	_	tag=so_1_nf_gm
+18	verið	vera	VERB	so_1_nf_gm	Case=Nom|Voice=Act	21	cop	_	tag=so_1_nf_gm
 19	eitt	einn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	21	nmod	_	tag=fn_et_nf_hk
 20	helsta	heldri	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	21	amod	_	tag=lo_et_nf_hk_evb
 21	umkvörtunarefni	umkvörtunarefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	advcl	_	tag=no_et_nf_hk
@@ -309,11 +308,13 @@
 25	misseri	misseri	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	21	advmod	_	tag=no_ft_þf_hk
 26	en	en	CCONJ	st	_	4	cc	_	tag=st
 27	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	tag=pfn_et_nf_kvk_p3
-28	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	conj	_	tag=so_0_fh_p3_et_nt_gm
+28	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	cop	_	tag=so_0_fh_p3_et_nt_gm
 29	vissulega	vissulega	ADV	eo	_	30	advmod	_	tag=eo
 30	sláandi	sláandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 31	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00186,.10
+# text = Eftir því sem á líður fer starf Barrys að taka meira og meira á hann og hann neyðist til þess að taka afdrifaríkar persónulegar ákvarðanir til þess að halda í sitt tvöfalda líf.
 1	Eftir	eftir	ADP	fs	_	2	case	_	tag=fs
 2	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	tag=pfn_et_þgf_hk_p3
 3	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
@@ -346,6 +347,6 @@
 30	í	í	ADP	fs	_	33	case	_	tag=fs
 31	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	33	nmod	_	tag=fn_et_þf_hk
 32	tvöfalda	tvöfaldur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	33	amod	_	tag=lo_et_þf_hk_vb
-33	líf	líf	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	29	obl	_	tag=no_et_þf_hk
+33	líf	líf	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	29	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 34	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

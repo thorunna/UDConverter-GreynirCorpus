@@ -22,7 +22,7 @@
 3	tölum	tala	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	tag=no_ft_þgf_kvk
 4	fyrir	fyrir	ADV	fs_þf	Case=Acc	3	advmod	_	tag=fs_þf
 5	árið 2014	árið 2014	NUM	ártal	_	4	nummod	_	tag=ártal
-6	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	tag=so_0_fh_p3_et_þt_gm
+6	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_þt_gm
 7	magn	magn	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
 8	vergrar	vergur	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_ef_kvk_sb
 9	landsframleiðslu	landsframleiðsla	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	nmod:poss	_	tag=no_et_ef_kvk
@@ -92,9 +92,9 @@
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	Noregi	Noregur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=sérnafn_et_þgf_kk
 9	og	og	CCONJ	st	_	3	cc	_	tag=st
-10	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+10	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 11	til	til	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
-12	þess	það	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	tag=pfn_et_ef_kk_p3
+12	þess	það	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_ef_kk_p3
 13	að	að	SCONJ	st	_	15	mark	_	tag=st
 14	Facebook	Facebook	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	tag=fyrirtæki_et_nf_hk
 15	dró	draga	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	ccomp	_	tag=so_1_þf_fh_p3_et_þt_gm
@@ -112,12 +112,12 @@
 5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	haltu	halda	VERB	so_1_þf_bh_et_gm_sn	Case=Acc|Mood=Imp|Number=Sing|Voice=Act	0	root	_	tag=so_1_þf_bh_et_gm_sn
 7	inni	inni	ADV	ao	_	6	compound:prt	_	tag=ao
-8	CTRL	CTRL	NOUN	abbrev	_	6	obj	_	tag=abbrev
+8	CTRL	CTRL	ADV	abbrev	_	6	obj	_	tag=abbrev
 9	og	og	CCONJ	st	_	6	cc	_	tag=st
 10	ýttu	ýta	VERB	so_0_bh_et_gm_sn	Mood=Imp|Number=Sing|Voice=Act	6	conj	_	tag=so_0_bh_et_gm_sn
 11	á	á	ADV	ao	_	10	compound:prt	_	SpaceAfter=No|tag=ao
 12	(	_	PUNCT	grm	_	11	punct	_	tag=grm
-13	CMD	CMD	NOUN	abbrev	_	6	('HALLÓ_S', 'EXPLAIN', 'S0', 'X')	_	tag=abbrev
+13	CMD	CMD	ADV	abbrev	_	6	parataxis	_	tag=abbrev
 14	og	og	CCONJ	st	_	13	cc	_	tag=st
 15	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	dep	_	tag=fs_þf
 16	Mac	Mac	X	foreign	_	13	obl	_	SpaceAfter=No|tag=foreign
@@ -184,7 +184,9 @@
 15	30. júní 1983	30. júní 1983	ADV	dagsföst	_	14	advmod	_	SpaceAfter=No|tag=dagsföst
 16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
-1	Nuri Sahin	Nuri Sahin	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
+# sent_id = GREYNIR_CORPUS_00112,.10
+# text = Nuri Sahin, Marco Reus og Erik Durm koma inn fyrir Ousmané Dembélé, Marcel Schmelzer og Sven Bender.
+1	Nuri Sahin	Nuri Sahin	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 2	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 3	Marco Reus	Marco Reus	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
 4	og	og	CCONJ	st	_	1	cc	_	tag=st
@@ -192,10 +194,10 @@
 6	koma	koma	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 7	inn	inn	ADV	ao	_	6	compound:prt	_	tag=ao
 8	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	Ousmané Dembélé	Ousmané Dembélé	NOUN	no_þf_kk	Case=Acc|Gender=Masc	6	obl	_	tag=no_þf_kk
+9	Ousmané Dembélé	Ousmané Dembélé	NOUN	no_þf_kk	Case=Acc|Gender=Masc	6	obl	_	SpaceAfter=No|tag=no_þf_kk
 10	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 11	Marcel Schmelzer	Marcel Schmelzer	NOUN	no_þf_kk	Case=Acc|Gender=Masc	9	conj	_	tag=no_þf_kk
 12	og	og	CCONJ	st	_	9	cc	_	tag=st
-13	Sven Bender	Sven Bender	PROPN	person_þf_kk	Case=Acc|Gender=Masc	9	conj	_	tag=person_þf_kk
+13	Sven Bender	Sven Bender	PROPN	person_þf_kk	Case=Acc|Gender=Masc	9	conj	_	SpaceAfter=No|tag=person_þf_kk
 14	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

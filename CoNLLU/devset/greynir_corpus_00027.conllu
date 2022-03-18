@@ -12,8 +12,8 @@
 
 # sent_id = GREYNIR_CORPUS_00027,.2
 # text = Hvað er besta jólagjöf sem þú hefur fengið ?
-1	Hvað	hver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+1	Hvað	hver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	besta	góður	ADJ	lo_et_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_nf_kvk_evb
 4	jólagjöf	jólagjöf	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	VANTAR_LIÐ_IP_None	_	tag=no_et_nf_kvk
 5	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
@@ -50,7 +50,7 @@
 2	í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	praxis	praxis	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
 4	þá	þá	ADV	ao	_	7	advmod	_	tag=ao
-5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 6	staðan	staða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk_gr
 7	þessi	þessi	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=fn_et_nf_kvk
 8	.	_	PUNCT	grm	_	7	punct	_	tag=grm
@@ -93,23 +93,23 @@
 
 # sent_id = GREYNIR_CORPUS_00027,.9
 # text = Uppljóstranir Snowdens eru stórflóð frekar en leki.
--3	None	_	None	None	_	_	None	_	_
 1	Uppljóstranir	uppljóstrun	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	tag=no_ft_nf_kvk
 2	Snowdens	Snowden	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=person_et_ef_kk
-3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4	stórflóð	stórflóð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 5	frekar	frekar	ADV	ao_mst	Degree=Cmp	4	advmod	_	tag=ao_mst
 6	en	en	CCONJ	st	_	7	cc	_	tag=st
 7	leki	leki	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No|tag=no_et_nf_kk
 8	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00027,.10
+# text = Það er það sem við gagnrýnum mjög.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	tag=pfn_et_nf_hk_p3
 4	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 5	við	ég	PRON	pfn_ft_nf_hk_p1	Case=Nom|Gender=Neut|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_ft_nf_hk_p1
 6	gagnrýnum	gagnrýna	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	acl:relcl	_	tag=so_0_fh_p1_ft_nt_gm
-7	mjög	mjög	ADV	ao	_	6	advmod	_	tag=ao
+7	mjög	mjög	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
 8	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

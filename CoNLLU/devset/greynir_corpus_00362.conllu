@@ -33,7 +33,7 @@
 4	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
 5	að	að	SCONJ	st	_	8	mark	_	tag=st
 6	hlutafé	hlutafé	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
-7	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_0_vh_p3_et_þt_gm
+7	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_þt_gm
 8	aukið	auka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	obl	_	tag=so_0_lhþt_et
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	300 milljónir	300 milljónir	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|tag=töl_ft_þf_kvk
@@ -41,14 +41,13 @@
 
 # sent_id = GREYNIR_CORPUS_00362,.4
 # text = Ég skil ekki af hverju þetta er svona flókið.
--2	None	_	None	None	_	_	None	_	_
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	skil	skil	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
 4	af	af	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	hverju	hvað	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=fn_et_þgf_hk
 6	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=fn_et_nf_hk
-7	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	svona	svona	ADV	eo	_	9	advmod	_	tag=eo
 9	flókið	flókinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	ccomp	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 10	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -109,12 +108,11 @@
 
 # sent_id = GREYNIR_CORPUS_00362,.9
 # text = Þú segir að það sé hægt að leiðrétta þessi mistök.
--1	None	_	None	None	_	_	None	_	_
 1	Þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p2
 2	segir	segja	VERB	so_1_þf_fh_p2_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p2_et_nt_gm
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
 4	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_hk_p3
-5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_vh_p3_et_nt_gm
+5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
 6	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	obj	_	tag=lo_et_nf_hk_sb
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
 8	leiðrétta	leiðrétta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_1_þf_nh_gm
@@ -122,6 +120,8 @@
 10	mistök	mistak	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	SpaceAfter=No|tag=no_ft_þf_hk
 11	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00362,.10
+# text = Öldungadeildaþingmaðurinn Patrick Leahy segir málið ekkert minna en Nixon-málið.
 1	Öldungadeildaþingmaðurinn	öldungadeilda-þingmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
 2	Patrick Leahy	Patrick Leahy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
 3	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -129,6 +129,6 @@
 5	ekkert	ekkert	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	xcomp	_	tag=fn_et_þf_hk
 6	minna	lítill	ADV	ao_mst	Degree=Cmp	5	advmod	_	tag=ao_mst
 7	en	en	CCONJ	st	_	8	cc	_	tag=st
-8	Nixon-málið	Nixon-mál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	advcl	_	tag=no_et_nf_hk_gr
+8	Nixon-málið	Nixon-mál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	advcl	_	SpaceAfter=No|tag=no_et_nf_hk_gr
 9	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

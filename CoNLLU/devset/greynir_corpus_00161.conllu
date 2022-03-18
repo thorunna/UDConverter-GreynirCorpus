@@ -138,9 +138,8 @@
 
 # sent_id = GREYNIR_CORPUS_00161,.6
 # text = Þá er ágætt að hafa í huga að samkvæmt könnun sem gerð var fyrir hvítbókarvinnuna er almenningur almennt jákvæður í garð þess að ríkið eigi banka.
--4	None	_	None	None	_	_	None	_	_
 1	Þá	þá	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	ágætt	ágætur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	hafa	hafa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	nsubj	_	tag=so_1_þf_nh_gm
@@ -154,7 +153,7 @@
 13	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	aux	_	tag=so_0_fh_p3_et_þt_gm
 14	fyrir	fyrir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	hvítbókarvinnuna	hvítbókarvinna	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þf_kvk_gr
-16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 17	almenningur	almenningur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	tag=no_et_nf_kk
 18	almennt	almennt	ADV	eo	_	19	advmod	_	tag=eo
 19	jákvæður	jákvæður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	tag=lo_et_nf_kk_sb
@@ -199,7 +198,7 @@
 # sent_id = GREYNIR_CORPUS_00161,.8
 # text = Davidson var fjórum stigum undir þegar tæpar fjórar mínútur voru eftir af leiknum 52 – 56 en vann svo leikinn með einu stigi 58 – 57.
 1	Davidson	Davidson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	fjórum	fjórir	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	nummod	_	tag=to_ft_þgf_kk
 4	stigum	stigi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_þgf_kk
 5	undir	undir	ADV	ao	_	4	advmod	_	tag=ao
@@ -256,6 +255,8 @@
 26	mannkyninu	mannkyn	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00161,.10
+# text = Rannsókn lögreglunnar þar leiddi til þess að lögreglumaðurinn var ákærður fyrir að fletta upp nöfnum kvenna í málaskrárkerfi lögreglunnar án þess að það tengdist starfi hans.
 1	Rannsókn	rannsókn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 2	lögreglunnar	lögregla	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk_gr
 3	þar	þar	ADV	ao	_	2	advmod	_	tag=ao
@@ -281,6 +282,6 @@
 23	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	tag=pfn_et_nf_hk_p3
 24	tengdist	tengja	VERB	so_1_þgf_vh_p3_et_þt_mm	Case=Dat|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Mid	21	ccomp	_	tag=so_1_þgf_vh_p3_et_þt_mm
 25	starfi	starf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	obj	_	tag=no_et_þgf_hk
-26	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nmod:poss	_	tag=pfn_et_ef_kk_p3
+26	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nmod:poss	_	SpaceAfter=No|tag=pfn_et_ef_kk_p3
 27	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

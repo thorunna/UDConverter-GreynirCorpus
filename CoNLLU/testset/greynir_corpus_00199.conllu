@@ -1,6 +1,5 @@
 # sent_id = GREYNIR_CORPUS_00199,.1
 # text = Ég var ánægð með það að Hæstiréttur tók af skarið með það nú um áramótin og birti hagsmunaskráningu, skráning sem er langt umfram það sem lög kveða á um, og það er ítarlegri hagsmunaskráning en til dæmis Alþingismenn búa við, segir Sigríður.
--4	None	_	None	None	_	_	None	_	_
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
 2	var	vera	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p1_et_þt_gm
 3	ánægð	ánægður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	43	ccomp	_	tag=lo_et_nf_kvk_sb
@@ -17,8 +16,8 @@
 14	um	um	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	áramótin	áramót	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_þf_hk_gr
 16	og	og	CCONJ	st	_	8	cc	_	tag=st
-17	birti	birta	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-18	hagsmunaskráningu	hagsmunaskráning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
+17	birti	birta	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_þf_fh_p3_et_nt_gm
+18	hagsmunaskráningu	hagsmunaskráning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 19	,	_	PUNCT	grm	_	18	punct	_	tag=grm
 20	skráning	skráning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_nf_kvk
 21	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
@@ -34,7 +33,7 @@
 31	,	_	PUNCT	grm	_	30	punct	_	tag=grm
 32	og	og	CCONJ	st	_	3	cc	_	tag=st
 33	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	tag=pfn_et_nf_hk_p3
-34	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	36	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+34	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	36	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 35	ítarlegri	ítarlegur	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	36	amod	_	tag=lo_et_nf_kvk_mst
 36	hagsmunaskráning	hagsmunaskráning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	tag=no_et_nf_kvk
 37	en	en	CCONJ	st	_	40	cc	_	tag=st
@@ -149,9 +148,8 @@
 
 # sent_id = GREYNIR_CORPUS_00199,.4
 # text = Orðspor er bók sem fjallar um fortíðina og nútímann á sama tíma, hún fjallar um minnið og karlmennsku en umfram allt fjallar hún um endurskoðun á svari manns við grundvallar spurningum lífsins ; hver er ég og hvað hef ég lagt af mörkum ?
--4	None	_	None	None	_	_	None	_	_
 1	Orðspor	Orðspor	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=sérnafn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	bók	bók	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	fjallar	fjalla	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -196,9 +194,8 @@
 
 # sent_id = GREYNIR_CORPUS_00199,.5
 # text = Hann er fótboltadómari í ensku úrvalsdeildinni, ungur dómari í fremstu röð, brúnaþungur náungi, næstum alveg hárlaus á höfði, stórgerður og yfirleitt á svipinn eins og veruleikinn sé alvöruþrungið viðfangsefni, svona eins og maður sem stendur undir regnhlíf í kirkjugarði í úrhelli.
--4	None	_	None	None	_	_	None	_	_
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	fótboltadómari	fótboltadómari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	ensku	enskur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_þgf_kvk_vb
@@ -227,7 +224,7 @@
 28	eins	eins	ADV	ao	_	33	cc	_	tag=ao
 29	og	og	CCONJ	st	_	28	cc	_	tag=st
 30	veruleikinn	veruleiki	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	33	nsubj	_	tag=no_et_nf_kk_gr
-31	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+31	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	33	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 32	alvöruþrungið	alvöruþrunginn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	33	amod	_	tag=lo_et_nf_hk_sb
 33	viðfangsefni	viðfangsefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	advcl	_	SpaceAfter=No|tag=no_et_nf_hk
 34	,	_	PUNCT	grm	_	33	punct	_	tag=grm
@@ -337,7 +334,7 @@
 39	með	með	ADP	fs_þgf	Case=Dat	40	case	_	tag=fs_þgf
 40	liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	38	obl	_	tag=no_et_þgf_hk_gr
 41	á	á	ADP	fs_þf	Case=Acc	42	case	_	tag=fs_þf
-42	HM	HM	NOUN	abbrev	_	38	obl	_	SpaceAfter=No|tag=abbrev
+42	HM	HM	ADV	abbrev	_	38	obl	_	SpaceAfter=No|tag=abbrev
 43	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00199,.8
@@ -388,9 +385,8 @@
 
 # sent_id = GREYNIR_CORPUS_00199,.9
 # text = Það eru hins vegar góðar fréttir að langtíma verðbólguvæntingar hafa lækkað nokkuð frá því sem þær risu hæst fyrir jól og af þeim sökum hafa raunvextir Seðlabankans hækkað, segir Már og beinir þá máli sínu með óbeinum hætti til þeirra sem nú standa í samningaviðræðum á vinnumarkaði :
--3	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	tag=pfn_et_nf_hk_p3
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	hins vegar	hins vegar	ADV	eo	_	5	advmod	_	tag=eo
 4	góðar	góður	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	5	amod	_	tag=lo_ft_nf_kvk_sb
 5	fréttir	frétt	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	29	ccomp	_	tag=no_ft_nf_kvk
@@ -438,6 +434,8 @@
 47	vinnumarkaði	vinnumarkaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	45	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 48	:	_	PUNCT	grm	_	29	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00199,.10
+# text = Það verður að teljast nokkuð vel af sér vikið hjá ræðumönnum, að þeim hafi tekist að ræða um þessa hluti, án þess að minnast á sjálfstæða peningastefnu og hvernig það fer saman við skynsamlega uppbyggingu alþjóðlegs þekkingariðnaðar að halda úti eigin mynt á um 200 þúsund manna vinnumarkaði.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	tag=pfn_et_nf_hk_p3
 2	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
@@ -448,7 +446,7 @@
 8	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	4	obl	_	tag=abfn_þgf
 9	vikið	víkja	ADJ	lo_et	Number=Sing	4	obl	_	tag=lo_et
 10	hjá	hjá	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	ræðumönnum	ræðumaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_þgf_kk
+11	ræðumönnum	ræðumaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 13	að	að	SCONJ	st	_	16	mark	_	tag=st
 14	þeim	hann	PRON	pfn_ft_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_ft_þgf_kk_p3
@@ -458,7 +456,7 @@
 18	ræða	ræða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_1_þf_nh_gm
 19	um	um	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 20	þessa	þessi	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	21	nmod	_	tag=fn_ft_þf_kk
-21	hluti	hlutur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	18	obl	_	tag=no_ft_þf_kk
+21	hluti	hlutur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
 22	,	_	PUNCT	grm	_	21	punct	_	tag=grm
 23	án	án	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
 24	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	18	obl	_	tag=fn_et_ef_hk
@@ -486,6 +484,6 @@
 46	um	um	ADV	eo	_	48	advmod	_	tag=eo
 47	200 þúsund	200 þúsund	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	48	nummod	_	tag=töl_ft_ef_kk
 48	manna	maður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	49	nmod:poss	_	tag=no_ft_ef_kk
-49	vinnumarkaði	vinnumarkaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	41	obl	_	tag=no_ft_þgf_kk
+49	vinnumarkaði	vinnumarkaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	41	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 50	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

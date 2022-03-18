@@ -93,7 +93,7 @@
 2	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 3	almennum	almennur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_þgf_kk_sb
 4	vinnumarkaði	vinnumarkaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_þgf_kk
-5	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_ft_þt_gm
+5	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 6	að	að	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	meðaltali	meðaltal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
 8	730 þúsund krónur	730 þúsund krónur	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk
@@ -147,15 +147,17 @@
 5	spennandi	spenna	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 6	og	og	CCONJ	st	_	5	cc	_	tag=st
 7	jafntefli	jafntefli	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=no_et_nf_hk
-8	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+8	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 9	á endanum	á endanum	ADV	ao	_	10	advmod	_	tag=ao
 10	niðurstaðan	niðurstaða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	tag=no_et_nf_kvk_gr
 11	eins og áður sagði	eins og áður sagði	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
 12	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00392,.10
+# text = Þegar hún er spurð að því hvert hún stefni þá stendur ekki á svarinu.
 1	Þegar	þegar	SCONJ	st	_	4	mark	_	tag=st
 2	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kvk_p3
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	spurð	spyrja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	advcl	_	tag=so_0_lhþt_et
 5	að	að	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
@@ -166,6 +168,6 @@
 11	stendur	standa	VERB	so_1_þgf_op_subj_þgf_fh_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_op_subj_þgf_fh_et_nt_gm
 12	ekki	ekki	ADV	ao	_	11	advmod	_	tag=ao
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	svarinu	svar	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk_gr
+14	svarinu	svar	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 15	.	.	PUNCT	grm	_	11	punct	_	tag=grm
 

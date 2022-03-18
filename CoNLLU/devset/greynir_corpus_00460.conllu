@@ -86,7 +86,7 @@
 2	má	mega	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	9	mark	_	tag=st
 4	nú	nú	ADV	ao	_	9	advmod	_	tag=ao
-5	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+5	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 6	sú	sá	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	tag=fn_et_nf_kvk
 7	óvanalega	óvanalegur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	tag=lo_et_nf_kvk_vb
 8	staða	staða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk
@@ -97,7 +97,7 @@
 13	virkustu	virkur	ADJ	lo_ft_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Plur	14	amod	_	tag=lo_ft_nf_hk_evb
 14	eldfjöll	eldfjall	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	tag=no_ft_nf_hk
 15	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=no_et_ef_hk_gr
-16	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	conj	_	tag=so_0_fh_p3_ft_nt_gm
+16	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_0_fh_p3_ft_nt_gm
 17	tilbúin	tilbúa	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	9	xcomp	_	tag=lo_ft_nf_hk_sb
 18	eða	eða	CCONJ	st	_	17	cc	_	tag=st
 19	að	að	PART	nhm	_	20	mark	_	tag=nhm
@@ -110,9 +110,8 @@
 
 # sent_id = GREYNIR_CORPUS_00460,.5
 # text = Það er mikilvægt að meta áhrif laga og reglna á atvinnulífið og efnahagskerfið í heild og haga reglusetningu þannig að stutt sé við samkeppni.
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	mikilvægt	mikilvægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	meta	meta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
@@ -127,12 +126,12 @@
 14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	heild	heild	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þf_kvk
 16	og	og	CCONJ	st	_	5	cc	_	tag=st
-17	haga	hagur	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	5	conj	_	tag=so_1_þgf_nh_gm
-18	reglusetningu	reglu-setning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obj	_	tag=no_et_þgf_kvk
-19	þannig	þannig	ADV	ao	_	17	advmod	_	tag=ao
+17	haga	hagur	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	5	cop	_	tag=so_1_þgf_nh_gm
+18	reglusetningu	reglu-setning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obj	_	tag=no_et_þgf_kvk
+19	þannig	þannig	ADV	ao	_	5	advmod	_	tag=ao
 20	að	að	SCONJ	st	_	21	mark	_	tag=st
 21	stutt	styðja	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	19	xcomp	_	tag=lo_et_nf_hk_sb
-22	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	conj	_	tag=so_0_vh_p3_et_nt_gm
+22	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	cop	_	tag=so_0_vh_p3_et_nt_gm
 23	við	við	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
 24	samkeppni	samkeppni	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 25	.	.	PUNCT	grm	_	3	punct	_	tag=grm
@@ -232,11 +231,11 @@
 7	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	tag=fn_et_þgf_hk
 8	sviði	svið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
 9	og	og	CCONJ	st	_	3	cc	_	tag=st
-10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_þt_gm
-11	þekkt	þekkja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
+10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
+11	þekkt	þekkja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	cop	_	tag=so_0_lhþt_et
 12	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	14	case	_	tag=fs_nh
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
-14	hvetja	hvetja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	obl	_	tag=so_1_þf_nh_gm
+14	hvetja	hvetja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	obl	_	tag=so_1_þf_nh_gm
 15	konur	kona	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	tag=no_ft_þf_kvk
 16	og	og	CCONJ	st	_	17	cc	_	tag=st
 17	svarta	svarta	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	15	conj	_	tag=lo_ft_þf_kk_sb
@@ -249,6 +248,8 @@
 24	mótorhjólaakstri	mótorhjóla-akstur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 25	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00460,.10
+# text = Samtökin Grái herinn hefur sent kveðju á sinni síðu og þar undir tjá sig fjölmargir : Blessuð sé minning þessa mikla baráttumanns okkar.
 1	Samtökin	samtak	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk_gr
 2	Grái	grár	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	tag=lo_et_nf_kk_vb
 3	herinn	her	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk_gr
@@ -263,7 +264,7 @@
 12	undir	undir	ADV	ao	_	5	advmod	_	tag=ao
 13	tjá	tjá	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	VANTAR_LIÐ_VP_None	_	tag=so_1_þf_fh_p3_ft_nt_gm
 14	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	13	obj	_	tag=abfn_þf
-15	fjölmargir	fjölmargur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	tag=lo_ft_nf_kk_sb
+15	fjölmargir	fjölmargur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
 16	:	:	PUNCT	grm	_	15	punct	_	tag=grm
 17	Blessuð	blessa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_et
 18	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	tag=so_0_vh_p3_et_nt_gm
@@ -271,6 +272,6 @@
 20	þessa	þessi	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	tag=fn_et_ef_kk
 21	mikla	mikill	ADJ	lo_et_ef_kk_vb	Case=Gen|Gender=Masc|Number=Sing	22	amod	_	tag=lo_et_ef_kk_vb
 22	baráttumanns	baráttumaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	19	nmod:poss	_	tag=no_et_ef_kk
-23	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	22	nmod:poss	_	tag=pfn_ft_ef_p1
+23	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	22	nmod:poss	_	SpaceAfter=No|tag=pfn_ft_ef_p1
 24	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

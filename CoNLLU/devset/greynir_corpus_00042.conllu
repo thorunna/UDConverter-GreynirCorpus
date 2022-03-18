@@ -6,7 +6,7 @@
 4	garð	garður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_þf_kk
 5	erlendra	erlendur	ADJ	lo_ft_ef_kk_fst_sb	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_ef_kk_fst_sb
 6	verkamanna	verkamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	4	nmod:poss	_	tag=no_ft_ef_kk
-7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 8	Kínverjar	Kínverji	PROPN	sérnafn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=sérnafn_ft_nf_kk
 9	og	og	CCONJ	st	_	10	cc	_	tag=st
 10	Pakistanar	Pakistani	PROPN	sérnafn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|tag=sérnafn_ft_nf_kk
@@ -14,9 +14,8 @@
 
 # sent_id = GREYNIR_CORPUS_00042,.2
 # text = Kohl var örkumla og bundinn hjólastól það sem eftir var.
--4	None	_	None	None	_	_	None	_	_
 1	Kohl	Kohl	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	örkumla	örkumla	ADJ	lo_et_nf_kk_fst_vb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_fst_vb
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	bundinn	bundinn	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	tag=lo_et_nf_kk_fst_sb
@@ -32,7 +31,7 @@
 1	Niðurstaða	niðurstaða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
 2	þessarar	þessi	PRON	fn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	tag=fn_et_ef_kvk
 3	framvindu	framvinda	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	þverpólitískt	þverpólitískur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_nf_hk_sb
 6	ákall	ákall	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 7	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
@@ -56,12 +55,12 @@
 
 # sent_id = GREYNIR_CORPUS_00042,.5
 # text = Button : Hamilton er að njóta lukkunnar sem skorti í fyrra
-1	Button	Button	PROPN	person	_	0	root	_	SpaceAfter=No|tag=person
+1	Button	Button	PROPN	person	_	6	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=person
 2	:	:	PUNCT	grm	_	1	punct	_	tag=grm
 3	Hamilton	Hamilton	PROPN	person	_	6	nsubj	_	tag=person
 4	er	er	AUX	so_0	_	6	aux	_	tag=so_0
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
-6	njóta	njóta	VERB	so_0	_	1	conj	_	tag=so_0
+6	njóta	njóta	VERB	so_0	_	0	root	_	tag=so_0
 7	lukkunnar	lukkunnar	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_ef_kvk_gr
 8	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 9	skorti	skorti	VERB	so_0	_	7	acl:relcl	_	tag=so_0
@@ -122,6 +121,8 @@
 9	gildra	gildra	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	ccomp	_	SpaceAfter=No|tag=no_et_nf_kvk
 10	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00042,.10
+# text = Alexis Sanchez fer af velli og Francis Coquelin kemur inná.
 1	Alexis Sanchez	Alexis Sanchez	PROPN	sérnafn	_	2	nsubj	_	tag=sérnafn
 2	fer	fer	VERB	so_0	_	0	root	_	tag=so_0
 3	af	af	ADP	fs	_	4	case	_	tag=fs
@@ -129,6 +130,6 @@
 5	og	og	CCONJ	st	_	2	cc	_	tag=st
 6	Francis Coquelin	Francis Coquelin	PROPN	sérnafn	_	7	nsubj	_	tag=sérnafn
 7	kemur	kemur	VERB	so_0	_	2	conj	_	tag=so_0
-8	inná	inná	ADV	ao	_	7	advmod	_	tag=ao
+8	inná	inná	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
 9	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -59,7 +59,7 @@
 7	deildinni	deild	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk_gr
 8	en	en	CCONJ	st	_	2	cc	_	tag=st
 9	lokatölur	lokatala	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	tag=no_ft_nf_kvk
-10	urðu	verða	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	conj	_	tag=so_0_fh_p3_ft_þt_gm
+10	urðu	verða	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_ft_þt_gm
 11	0	0	NUM	tala	NumType=Card	2	conj	_	SpaceAfter=No|tag=tala
 12	:	:	PUNCT	grm	_	11	punct	_	tag=grm
 13	3	3	NUM	tala	NumType=Card	11	nummod	_	tag=tala
@@ -68,7 +68,7 @@
 16	staðan	staða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nsubj	_	tag=no_et_nf_kvk_gr
 17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 18	hálfleik	hálfleikur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þgf_kk
-19	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	conj	_	tag=so_0_fh_p3_et_þt_gm
+19	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_þt_gm
 20	0	0	NUM	tala	NumType=Card	11	advcl	_	SpaceAfter=No|tag=tala
 21	:	:	PUNCT	grm	_	20	punct	_	tag=grm
 22	0	0	NUM	tala	NumType=Card	20	nummod	_	tag=tala
@@ -181,16 +181,16 @@
 4	hratt	hratt	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 6	atvinnuleysi	atvinnuleysi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
-7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	lítið	lítill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	tag=lo_et_nf_hk_sb
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
 10	atvinnuþátttaka	atvinnuþátttaka	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	tag=no_et_nf_kvk
 11	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_nt_gm
-12	orðin	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	conj	_	tag=so_0_lhþt_et
+12	orðin	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	cop	_	tag=so_0_lhþt_et
 13	meiri	mikill	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	2	conj	_	tag=lo_et_nf_kvk_mst
 14	en	en	CCONJ	st	_	17	cc	_	tag=st
 15	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kvk_p3
-16	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	conj	_	tag=so_0_fh_p3_et_þt_gm
+16	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_0_fh_p3_et_þt_gm
 17	mest	mikill	ADJ	lo_et_nf_kvk_esb_sb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	13	advcl	_	tag=lo_et_nf_kvk_esb_sb
 18	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19	þenslutímanum	þenslutími	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þgf_kk_gr
@@ -223,15 +223,17 @@
 21	láninu	lán	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 22	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00441,.10
+# text = Langafi minn, Þórður Sveinsson, var geðlæknir á Kleppi, þar sem afi minn og systkini hans fæddust og ólust upp.
 1	Langafi	langafi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk
-2	minn	minn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	tag=fn_et_nf_kk
+2	minn	minn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No|tag=fn_et_nf_kk
 3	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-4	Þórður Sveinsson	Þórður Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-5	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-6	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+4	Þórður Sveinsson	Þórður Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	SpaceAfter=No|tag=person_nf_kk
+5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
+6	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 7	geðlæknir	geðlæknir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	Kleppi	Kleppur	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=fyrirtæki_et_þgf_hk
+9	Kleppi	Kleppur	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_hk
 10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 11	þar	þar	ADV	ao	_	7	advmod	_	tag=ao
 12	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
@@ -243,6 +245,6 @@
 18	fæddust	fæða	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	11	advcl	_	tag=so_0_fh_p3_ft_þt_mm
 19	og	og	CCONJ	st	_	20	cc	_	tag=st
 20	ólust	ala	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	18	conj	_	tag=so_0_fh_p3_ft_þt_mm
-21	upp	upp	ADV	ao	_	20	compound:prt	_	tag=ao
+21	upp	upp	ADV	ao	_	20	compound:prt	_	SpaceAfter=No|tag=ao
 22	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 

@@ -4,9 +4,9 @@
 2	upplýsingum	upplýsing	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	tag=no_ft_þgf_kvk
 3	frá	frá	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	Versus	Versus	PROPN	fyrirtæki_þgf	Case=Dat	2	obl	_	tag=fyrirtæki_þgf
-5	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_nt_gm
+5	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 6	lögmannsstofan	lögmanns-stofa	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk_gr
-7	hætt	hættur	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	VANTAR_LIÐ_so0_lhþt_et	_	tag=so_0_lhþt_et
+7	hætt	hættur	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	('HALLÓ_so', '0_lhþt_et', 'NP', 'PRD')	_	tag=so_0_lhþt_et
 8	rekstri	rekstur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_þgf_kk
 9	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
@@ -95,10 +95,9 @@
 
 # sent_id = GREYNIR_CORPUS_00352,.9
 # text = Það jákvæða er að fólk fær síður þvagfærasýkingar.
--3	None	_	None	None	_	_	None	_	_
 1	Það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
 2	jákvæða	jákvæður	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	1	amod	_	tag=lo_et_nf_hk_vb
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	að	að	SCONJ	st	_	0	root	_	tag=st
 5	fólk	fólk	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
 6	fær	fá	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	xcomp	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -106,13 +105,15 @@
 8	þvagfærasýkingar	þvagfæra-sýking	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
 9	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00352,.10
+# text = Gert er ráð fyrir að verkefnið kosti 600 milljónir króna.
 1	Gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	ráð	ráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	tag=no_et_nf_hk
 4	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	7	case	_	tag=fs_nh
 5	að	að	SCONJ	st	_	7	mark	_	tag=st
 6	verkefnið	verkefni	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk_gr
 7	kosti	kosta	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	obl	_	tag=so_1_þf_vh_p3_et_nt_gm
-8	600 milljónir króna	600 milljónir króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	tag=no_ft_þf_kvk
+8	600 milljónir króna	600 milljónir króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
 9	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

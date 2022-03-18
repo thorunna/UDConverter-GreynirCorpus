@@ -74,7 +74,7 @@
 14	atriða	atriði	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_ef_hk
 15	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
 16	þeim	hann	PRON	pfn_ft_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	tag=pfn_ft_þgf_hk_p3
-17	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	conj	_	tag=so_0_fh_p3_et_þt_gm
+17	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_þt_gm
 18	ekki	ekki	ADV	ao	_	20	advmod	_	tag=ao
 19	um	um	ADV	ao	_	20	advmod	_	tag=ao
 20	kennt	kenna	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No|tag=so_1_þgf_lhþt_et
@@ -105,7 +105,7 @@
 18	fyrr	snemma	ADV	ao_mst	Degree=Cmp	22	cc	_	tag=ao_mst
 19	en	en	CCONJ	st	_	18	cc	_	tag=st
 20	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	tag=pfn_ft_nf_hk_p3
-21	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	22	conj	_	tag=so_0_fh_p3_ft_þt_gm
+21	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	22	cop	_	tag=so_0_fh_p3_ft_þt_gm
 22	upplýst	upplýsa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	advcl	_	tag=so_0_lhþt_ft
 23	opinberlega	opinberlega	ADV	ao	_	22	advmod	_	tag=ao
 24	nú	nú	ADV	ao	_	22	advmod	_	tag=ao
@@ -254,17 +254,19 @@
 23	kynningu	kynning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 24	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00463,.10
+# text = Næstkomandi sunnudag, 26. ágúst, ætla Mitsubishi og Vargurinn, Snorri Rafnsson, að taka höndum saman og halda heljarinnar pallbíla- og veiðiveislu í Mitsubishisalnum að Laugavegi 170.
 1	Næstkomandi	næstkomandi	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_þf_kk_sb
-2	sunnudag	sunnudagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
+2	sunnudag	sunnudagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
-4	26. ágúst	26. ágúst	ADV	dagsafs	_	6	advmod	_	tag=dagsafs
+4	26. ágúst	26. ágúst	ADV	dagsafs	_	6	advmod	_	SpaceAfter=No|tag=dagsafs
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 6	ætla	ætla	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 7	Mitsubishi	Mitsubishi	PROPN	fyrirtæki	_	9	conj	_	tag=fyrirtæki
 8	og	og	CCONJ	st	_	9	cc	_	tag=st
-9	Vargurinn	vargur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk_gr
+9	Vargurinn	vargur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No|tag=no_et_nf_kk_gr
 10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	Snorri Rafnsson	Snorri Rafnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	tag=person_nf_kk
+11	Snorri Rafnsson	Snorri Rafnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	SpaceAfter=No|tag=person_nf_kk
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
 14	taka	taka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
@@ -278,6 +280,6 @@
 22	Mitsubishisalnum	Mitsubishi-salur	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	20	obl	_	tag=sérnafn_et_þgf_kk_gr
 23	að	að	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24	Laugavegi	Laugavegur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	tag=sérnafn_et_þgf_kk
-25	170	170	NUM	tala_kk	Gender=Masc|NumType=Card	24	nummod	_	tag=tala_kk
+25	170	170	NUM	tala_kk	Gender=Masc|NumType=Card	24	nummod	_	SpaceAfter=No|tag=tala_kk
 26	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 

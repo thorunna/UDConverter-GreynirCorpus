@@ -61,7 +61,7 @@
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
 8	útsýni	útsýni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=no_et_nf_hk
 9	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	tag=pfn_et_ef_kk_p3
-10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_nt_gm
+10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 11	fínt	fínn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	tag=lo_et_nf_hk_sb
 12	til	til	ADP	fs_ef	Case=Gen	14	case	_	tag=fs_ef
 13	allra	allur	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	tag=fn_ft_ef_kvk
@@ -80,7 +80,7 @@
 8	óáreitt	óáreittur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	7	obj	_	tag=lo_et_nf_hk_sb
 9	því	því	SCONJ	st	_	12	mark	_	tag=st
 10	verri	illur	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	12	nsubj	_	tag=lo_ft_nf_hk_mst
-11	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_0_fh_p3_ft_nt_gm
+11	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_ft_nt_gm
 12	sár	sár	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	1	advcl	_	tag=no_ft_nf_hk
 13	og	og	CCONJ	st	_	14	cc	_	tag=st
 14	sýkingar	sýking	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No|tag=no_ft_nf_kvk
@@ -123,7 +123,7 @@
 # sent_id = GREYNIR_CORPUS_00249,.8
 # text = Þetta var þriðji sigur Holstebro í röð en liðið er í 3. sæti deildarinnar.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	þriðji	þriðji	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk
 4	sigur	sigur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	Holstebro	Holstebro	PROPN	entity	_	4	nmod:poss	_	tag=entity
@@ -140,9 +140,8 @@
 
 # sent_id = GREYNIR_CORPUS_00249,.9
 # text = Kröfurnar eru tilkomnar vegna þess að félagið keypti skuldabréf á bankanna þrjá fyrir hrun.
--4	None	_	None	None	_	_	None	_	_
 1	Kröfurnar	Kröfurnar	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk_gr
-2	eru	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	eru	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	tilkomnar	tilkominn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 4	vegna	vegna	ADP	fs_ef	Case=Gen	8	mark	_	tag=fs_ef
 5	þess	þess	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	tag=fn_et_ef_hk
@@ -157,6 +156,8 @@
 14	hrun	hrun	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00249,.10
+# text = Hann vill koma því á framfæri að skýrslan sé stórvirki út af fyrir sig.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
 2	vill	vilja	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
@@ -170,6 +171,6 @@
 11	út	út	ADV	ao	_	10	advmod	_	tag=ao
 12	af	af	ADV	ao	_	10	advmod	_	tag=ao
 13	fyrir	fyrir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	10	obl	_	tag=abfn_þf
+14	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	10	obl	_	SpaceAfter=No|tag=abfn_þf
 15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

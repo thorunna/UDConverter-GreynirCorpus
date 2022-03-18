@@ -23,7 +23,7 @@
 4	húsið	hús	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk_gr
 5	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
 6	nú	nú	ADV	ao	_	8	advmod	_	tag=ao
-7	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	byggt	byggja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	acl:relcl	_	tag=so_0_lhþt_et
 9	kosti	kosta	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	nsubj	_	tag=so_1_þf_vh_p3_et_nt_gm
 10	um	um	ADV	eo	_	11	advmod	_	tag=eo
@@ -32,11 +32,10 @@
 
 # sent_id = GREYNIR_CORPUS_00239,.3
 # text = Frítekjumark atvinnutekna aldraðra verður hækkað í hundrað þúsund krónur strax um næstu áramót.
--2	None	_	None	None	_	_	None	_	_
 1	Frítekjumark	frítekjumark	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk
 2	atvinnutekna	atvinnutekjur	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk
 3	aldraðra	aldraður	ADJ	lo_ft_ef_hk_sb	Case=Gen|Gender=Neut|Number=Plur	2	nmod:poss	_	tag=lo_ft_ef_hk_sb
-4	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+4	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	hækkað	hækkaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	hundrað þúsund krónur	hundrað þúsund krónur	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_þf_hk
@@ -49,7 +48,7 @@
 # sent_id = GREYNIR_CORPUS_00239,.4
 # text = Slíkt er tölfræðilega þunnt í besta falli og nánast útilokað í versta falli.
 1	Slíkt	slíkur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	tölfræðilega	tölfræðilega	ADV	eo	_	4	advmod	_	tag=eo
 4	þunnt	þunnur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -146,6 +145,8 @@
 13	hendur	hönd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00239,.10
+# text = Við höfum verið að lækka skuldir og búa í haginn fyrir framtíðina.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
 2	höfum	hafa	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p1_ft_nt_gm
 3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
@@ -157,6 +158,6 @@
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	haginn	hagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þf_kk_gr
 11	fyrir	fyrir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-12	framtíðina	framtíð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk_gr
+12	framtíðina	framtíð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

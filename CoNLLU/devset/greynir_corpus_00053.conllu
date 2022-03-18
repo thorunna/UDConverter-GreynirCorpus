@@ -1,9 +1,8 @@
 # sent_id = GREYNIR_CORPUS_00053,.1
 # text = Þessi mál verða rædd og hugsanlega fleiri í sex manna hópnum.
--3	None	_	None	None	_	_	None	_	_
 1	Þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	nmod	_	tag=fn_ft_nf_hk
 2	mál	mál	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
-3	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_nt_gm
+3	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
 4	rædd	ræða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 5	og	og	CCONJ	st	_	4	cc	_	tag=st
 6	hugsanlega	hugsanlega	ADV	eo	_	7	advmod	_	tag=eo
@@ -16,7 +15,6 @@
 
 # sent_id = GREYNIR_CORPUS_00053,.2
 # text = Ég held að þetta sé ósanngjarnt ef þeir vita það ekki.
--1	None	_	None	None	_	_	None	_	_
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	held	halda	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
@@ -33,8 +31,8 @@
 # sent_id = GREYNIR_CORPUS_00053,.3
 # text = Þar var meðal rætt um afstöðu Sigmundar Davíðs og ráðherra Sjálfstæðisflokksins.
 1	Þar	þar	ADV	ao	_	4	advmod	_	tag=ao
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
-3	meðal	meðal	ADV	eo	_	2	advmod	_	tag=eo
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
+3	meðal	meðal	ADV	eo	_	4	advmod	_	tag=eo
 4	rætt	ræða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	afstöðu	afstaða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
@@ -46,7 +44,6 @@
 
 # sent_id = GREYNIR_CORPUS_00053,.4
 # text = Hann telur að ef eitthvað hafi aukist sé það neysla fíkniefna.
--1	None	_	None	None	_	_	None	_	_
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	telur	telja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	10	mark	_	tag=st
@@ -54,7 +51,7 @@
 5	eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	tag=fn_et_nf_hk
 6	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_nt_gm
 7	aukist	auka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	10	advcl	_	tag=so_0_sagnb_mm
-8	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+8	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 9	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_hk_p3
 10	neysla	neysla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	tag=no_et_nf_kvk
 11	fíkniefna	fíkniefni	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	10	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
@@ -109,7 +106,7 @@
 4	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	tag=pfn_et_þgf_p1
 5	að	að	SCONJ	st	_	8	mark	_	tag=st
 6	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=fn_et_nf_hk
-7	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_vh_p3_et_nt_gm
+7	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
 8	bara	bara	ADV	eo	_	2	ccomp	_	tag=eo
 9	tekið	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_et
 10	af	af	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
@@ -120,17 +117,19 @@
 # text = Ef a er ambátt og b er drottning þurrkast titlarnir út.
 1	Ef	ef	SCONJ	st	_	4	mark	_	tag=st
 2	a	a	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_ef_hk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	ambátt	ambátt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	advcl	_	tag=no_et_nf_kvk
 5	og	og	CCONJ	st	_	4	cc	_	tag=st
 6	b	b	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
-7	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+7	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 8	drottning	drottning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	VANTAR_LIÐ_IP_None	_	tag=no_et_nf_kvk
 9	þurrkast	þurrka	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	10	conj	_	tag=so_1_nf_fh_p3_et_nt_mm
 10	titlarnir	titill	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk_gr
 11	út	út	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
 12	.	_	PUNCT	grm	_	10	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00053,.10
+# text = Hann segir að lögregla hafi fengið upplýsingar um sprengjuhótunina klukkan 21:33.
 1	Hann	Hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	segir	segir	VERB	so_0_fh_p3_nt_gm	Mood=Ind|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_nt_gm
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
@@ -140,6 +139,6 @@
 7	upplýsingar	upplýsingar	NOUN	no_þf_kvk	Case=Acc|Gender=Fem	6	obj	_	tag=no_þf_kvk
 8	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	sprengjuhótunina	sprengjuhótunina	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk_gr
-10	klukkan 21:33	klukkan 21:33	ADV	tímapunkturafs	_	9	advmod	_	tag=tímapunkturafs
+10	klukkan 21:33	klukkan 21:33	ADV	tímapunkturafs	_	9	advmod	_	SpaceAfter=No|tag=tímapunkturafs
 11	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

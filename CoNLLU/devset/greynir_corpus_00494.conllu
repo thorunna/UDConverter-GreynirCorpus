@@ -1,10 +1,9 @@
 # sent_id = GREYNIR_CORPUS_00494,.1
 # text = Samkvæmt því hefði verið lagt til grundvallar í dómaframkvæmd að ef dómsmálaráðherra gerði tillögu til Alþingis um að vikið yrði frá áliti dómnefndar, væri óhjákvæmilegt að sú ákvörðun væri reist á frekari rannsókn ráðherrans eftir 10. gr. stjórnsýslulaga.
--2	None	_	None	None	_	_	None	_	_
 1	Samkvæmt	samkvæmur	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	því	því	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	tag=pfn_et_þgf_hk_p3
 3	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_vh_p3_et_þt_gm
-4	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	conj	_	tag=so_0_sagnb_gm
+4	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
 5	lagt	leggja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
 7	grundvallar	grundvöllur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_ef_kk
@@ -20,12 +19,12 @@
 17	um	um	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 18	að	að	SCONJ	st	_	19	mark	_	tag=st
 19	vikið	víkja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	obl	_	tag=so_0_sagnb_gm
-20	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	conj	_	tag=so_0_vh_p3_et_þt_gm
+20	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	cop	_	tag=so_0_vh_p3_et_þt_gm
 21	frá	frá	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	áliti	álit	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_þgf_hk
 23	dómnefndar	dómnefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	22	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
-24	,	,	PUNCT	grm	_	25	punct	_	tag=grm
-25	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	26	conj	_	tag=so_1_nf_vh_p3_et_þt_gm
+24	,	,	PUNCT	grm	_	26	punct	_	tag=grm
+25	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	26	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 26	óhjákvæmilegt	óhjákvæmilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=lo_et_nf_hk_sb
 27	að	að	SCONJ	st	_	31	mark	_	tag=st
 28	sú	sá	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	29	nmod	_	tag=fn_et_nf_kvk
@@ -75,11 +74,11 @@
 29	Jóns Gnarr	Jóns Gnarr	PROPN	person_ef_kk	Case=Gen|Gender=Masc	26	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
 30	]	]	PUNCT	grm	_	29	punct	_	tag=grm
 31	þá	hann	ADV	ao	_	24	advmod	_	tag=ao
-32	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	conj	_	tag=so_0_fh_p3_et_nt_gm
-33	eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	tag=fn_et_nf_hk
+32	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	cop	_	tag=so_0_fh_p3_et_nt_gm
+33	eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	tag=fn_et_nf_hk
 34	nýtt	nýr	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	33	amod	_	tag=lo_et_nf_hk_sb
 35	að	að	PART	nhm	_	36	mark	_	tag=nhm
-36	gerast	ger	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	32	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
+36	gerast	ger	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	24	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
 37	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00494,.3
@@ -109,7 +108,7 @@
 23	Landspítalanum	Landspítali	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	21	obl	_	tag=sérnafn_et_þgf_kk_gr
 24	en	en	CCONJ	st	_	10	cc	_	tag=st
 25	reiknað	reikna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	conj	_	tag=so_0_lhþt_et
-26	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	conj	_	tag=so_0_fh_p3_et_nt_gm
+26	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_0_fh_p3_et_nt_gm
 27	með	með	ADP	fs_nh	VerbForm=Inf	32	case	_	tag=fs_nh
 28	að	að	SCONJ	st	_	32	mark	_	tag=st
 29	stærstur	stór	ADJ	lo_et_nf_kk_esb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	30	amod	_	tag=lo_et_nf_kk_esb
@@ -158,7 +157,7 @@
 29	þeirrar	sá	PRON	fn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	tag=fn_et_ef_kvk
 30	réttarstöðu	réttarstaða	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	28	obj	_	tag=no_et_ef_kvk
 31	að	að	PART	nhm	_	33	mark	_	tag=nhm
-32	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	33	conj	_	tag=so_1_nf_nh_gm
+32	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	33	cop	_	tag=so_1_nf_nh_gm
 33	hjón	hjón	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	30	xcomp	_	tag=no_ft_nf_hk
 34	og	og	CCONJ	st	_	28	cc	_	tag=st
 35	gengur	ganga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	conj	_	tag=so_0_fh_p3_et_nt_gm
@@ -379,11 +378,13 @@
 38	krónu	króna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 39	.	.	PUNCT	grm	_	28	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00494,.10
+# text = Umboðsmaður sagðist jafnframt telja eðlilegast, ef Alþingi telur rétt að freista þess að fá fram og birta nýjar upplýsingar um þátttöku bankans, að unnið verði að því verkefni á grundvelli laga nr. 68/2011 um rannsóknarnefndir.
 1	Umboðsmaður	Umboðsmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
 2	sagðist	sagðist	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 3	jafnframt	jafnframt	ADV	ao	_	2	advmod	_	tag=ao
 4	telja	telja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
-5	eðlilegast	eðlilegast	ADJ	lo_et_þf_hk_esb	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	4	obj	_	tag=lo_et_þf_hk_esb
+5	eðlilegast	eðlilegast	ADJ	lo_et_þf_hk_esb	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No|tag=lo_et_þf_hk_esb
 6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
 7	ef	ef	SCONJ	st	_	9	mark	_	tag=st
 8	Alþingi	Alþingi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk
@@ -401,7 +402,7 @@
 20	upplýsingar	upplýsingar	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	tag=no_ft_þf_kvk
 21	um	um	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
 22	þátttöku	þátttöku	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þf_kvk
-23	bankans	bankans	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod:poss	_	tag=no_et_ef_kk_gr
+23	bankans	bankans	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 24	,	,	PUNCT	grm	_	23	punct	_	tag=grm
 25	að	að	SCONJ	st	_	26	mark	_	tag=st
 26	unnið	unnið	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	ccomp	_	tag=so_0_sagnb_gm
@@ -415,6 +416,6 @@
 34	nr.	nr.	ADV	no_hk	Gender=Neut	33	advmod	_	tag=no_hk
 35	68/2011	68/2011	NUM	ártal	_	34	nummod	_	tag=ártal
 36	um	um	ADP	fs_þf	Case=Acc	37	case	_	tag=fs_þf
-37	rannsóknarnefndir	rannsóknarnefndir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	32	obl	_	tag=no_ft_þf_kvk
+37	rannsóknarnefndir	rannsóknarnefndir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 38	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

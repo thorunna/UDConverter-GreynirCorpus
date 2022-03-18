@@ -10,20 +10,19 @@
 # sent_id = GREYNIR_CORPUS_00011,.2
 # text = Svarhlutfallið var því 63,7 prósent.
 1	Svarhlutfallið	svarhlutfall	NOUN	no_et_gr_hk_nf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_gr_hk_nf
-2	var	vera	VERB	so_1_nf_et_þt_fh_gm_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_et_þt_fh_gm_p3
+2	var	vera	VERB	so_1_nf_et_þt_fh_gm_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_et_þt_fh_gm_p3
 3	því	því	ADV	eo	_	4	advmod	_	tag=eo
 4	63,7 prósent	63,7 prósent	NOUN	no_et_hk_nf	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_hk_nf
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00011,.3
 # text = Og þetta er ekkert nýtt.
--3	None	_	None	None	_	_	None	_	_
-1	Og	og	SCONJ	st	_	0	root	_	tag=st
+1	Og	og	SCONJ	st	_	4	cc	_	tag=st
 2	þetta	þessi	PRON	fn_et_hk_nf	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_hk_nf
-3	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_et_fh_gm_nt_p3
-4	ekkert	enginn	PRON	fn_et_hk_nf	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=fn_et_hk_nf
+3	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
+4	ekkert	enginn	PRON	fn_et_hk_nf	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_hk_nf
 5	nýtt	nýr	ADJ	lo_et_hk_nf_sb	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No|tag=lo_et_hk_nf_sb
-6	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+6	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00011,.4
 # text = Vilja hefja samtal á nýjum grunni
@@ -72,11 +71,13 @@
 # sent_id = GREYNIR_CORPUS_00011,.9
 # text = Þetta er bara æðislegt.
 1	Þetta	þessi	PRON	fn_et_hk_nf	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_hk_nf
-2	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_et_fh_gm_nt_p3
+2	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
 3	bara	bara	ADV	eo	_	4	advmod	_	tag=eo
 4	æðislegt	æðislegur	ADJ	lo_et_hk_nf_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_hk_nf_sb
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00011,.10
+# text = Persónuupplýsingum 143 milljóna stolið af hökkurum
 1	Persónuupplýsingum	persónuupplýsingar	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þgf_kvk
 2	143 milljóna	143 milljónir	NUM	tala	NumType=Card	1	nmod:poss	_	tag=tala
 3	stolið	stela	VERB	so_0_gm_sagnb	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_gm_sagnb

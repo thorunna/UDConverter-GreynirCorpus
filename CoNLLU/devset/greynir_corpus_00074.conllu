@@ -100,7 +100,7 @@
 # sent_id = GREYNIR_CORPUS_00074,.7
 # text = Þetta eru svo fjölbreytt verkefni sem ég hef verið í og svo skemmtileg.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	svo	svo	ADV	eo	_	5	advmod	_	tag=eo
 4	fjölbreytt	fjölbreyttur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	5	amod	_	tag=lo_ft_nf_hk_sb
 5	verkefni	verkefni	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_nf_hk
@@ -116,18 +116,18 @@
 
 # sent_id = GREYNIR_CORPUS_00074,.8
 # text = Fyrir og eftir : Jóhannes tók hæð í Hlíðunum í gegn frá a-ö
-1	Fyrir	Fyrir	ADV	ao	_	0	root	_	tag=ao
+1	Fyrir	Fyrir	ADV	ao	_	6	cc	_	tag=ao
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	eftir	eftir	ADV	ao	_	1	conj	_	SpaceAfter=No|tag=ao
 4	:	:	PUNCT	grm	_	3	punct	_	tag=grm
 5	Jóhannes	Jóhannes	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=person_et_nf_kk
-6	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+6	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 7	hæð	hæð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þf_kvk
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	Hlíðunum	Hlíðar	PROPN	sérnafn_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	tag=sérnafn_ft_þgf_kvk_gr
 10	í gegn	í gegn	ADV	ao	_	6	advmod	_	tag=ao
 11	frá	frá	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	a-ö	a-ö	NOUN	abbrev	_	6	obl	_	tag=abbrev
+12	a-ö	a-ö	ADV	abbrev	_	6	obl	_	tag=abbrev
 
 # sent_id = GREYNIR_CORPUS_00074,.9
 # text = Gagnaleki hjá McDonalds olli því að eitt best geymda ofurleyndarmál matarsögunnar hefur verið afhjúpað.
@@ -147,14 +147,16 @@
 14	afhjúpað	afhjúpa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	ccomp	_	SpaceAfter=No|tag=so_0_lhþt_et
 15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
-1	Bogi Nils Bogason	Bogi Nils Bogason	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=person_et_nf_kk
+# sent_id = GREYNIR_CORPUS_00074,.10
+# text = Bogi Nils Bogason, forstjóri Icelandair Group, er gestur Jóns G. í kvöld.
+1	Bogi Nils Bogason	Bogi Nils Bogason	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
 2	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 3	forstjóri	forstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
-4	Icelandair Group	Icelandair Group	PROPN	fyrirtæki	_	1	nmod:poss	_	tag=fyrirtæki
-5	,	_	PUNCT	grm	_	6	punct	_	tag=grm
-6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_nt_gm
+4	Icelandair Group	Icelandair Group	PROPN	fyrirtæki	_	1	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
+5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
+6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	gestur	gestur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 8	Jóns G.	Jón G.	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=person_et_ef_kk
-9	í kvöld	í kvöld	ADV	ao	_	7	advmod	_	tag=ao
+9	í kvöld	í kvöld	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
 10	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 

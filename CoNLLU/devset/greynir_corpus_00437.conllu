@@ -28,7 +28,7 @@
 2	menn	maður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	tag=no_ft_nf_kk
 3	hjá	hjá	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	VW Red Bull	VW Red Bull	PROPN	fyrirtæki	_	2	obl	_	tag=fyrirtæki
-5	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_0_fh_p3_ft_þt_gm
+5	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p3_ft_þt_gm
 6	svo	svo	ADV	eo	_	8	advmod	_	tag=eo
 7	sannarlega	sannarlega	ADV	ao	_	6	advmod	_	tag=ao
 8	klárir	klár	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
@@ -47,18 +47,18 @@
 
 # sent_id = GREYNIR_CORPUS_00437,.3
 # text = Bæði þroskandi að flytja að heiman en vera samt í vernduðu umhverfi og að þurfa að sjá um sig sjálfur.
-1	Bæði	bæði	SCONJ	st	_	0	root	_	tag=st
-2	þroskandi	þroska	VERB	so_0_lhnt	_	1	conj	_	tag=so_0_lhnt
+1	Bæði	bæði	SCONJ	st	_	2	cc	_	tag=st
+2	þroskandi	þroska	VERB	so_0_lhnt	_	0	root	_	tag=so_0_lhnt
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
 4	flytja	flytja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
 5	að	að	ADV	ao	_	4	advmod	_	tag=ao
 6	heiman	heiman	ADV	ao	_	5	advmod	_	tag=ao
 7	en	en	CCONJ	st	_	4	cc	_	tag=st
-8	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	conj	_	tag=so_0_nh_gm
-9	samt	samt	ADV	ao	_	8	advmod	_	tag=ao
+8	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	cop	_	tag=so_0_nh_gm
+9	samt	samt	ADV	ao	_	4	advmod	_	tag=ao
 10	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 11	vernduðu	verndaður	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_þgf_hk_sb
-12	umhverfi	umhverfi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
+12	umhverfi	umhverfi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 13	og	og	CCONJ	st	_	2	cc	_	tag=st
 14	að	að	PART	nhm	_	15	mark	_	tag=nhm
 15	þurfa	þurfa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
@@ -67,12 +67,12 @@
 18	um	um	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 19	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	17	obl	_	tag=abfn_þf
 20	sjálfur	sjálfa	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=fn_et_nf_kk
-21	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00437,.4
 # text = Haustið er oft tími stórlaxanna enda hafa margar fréttir borist síðustu daga af hverjum stórlaxinum á fætur öðrum víða um land.
 1	Haustið	haust	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	oft	oft	ADV	ao	_	4	advmod	_	tag=ao
 4	tími	tími	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	stórlaxanna	stórlax	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	4	nmod:poss	_	tag=no_ft_ef_kk_gr
@@ -95,9 +95,8 @@
 
 # sent_id = GREYNIR_CORPUS_00437,.5
 # text = Aðgerðin sé liður í endurskipulagningu og endurfjármögnun og vonast sé til að starfsfólkið verði endurráðið áður en uppsagnarfrestur rennur út.
--4	None	_	None	None	_	_	None	_	_
 1	Aðgerðin	aðgerð	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-2	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+2	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 3	liður	liður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	endurskipulagningu	endurskipulagning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
@@ -109,7 +108,7 @@
 11	til	til	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
 12	að	að	SCONJ	st	_	9	obl	_	tag=st
 13	starfsfólkið	starfsfólk	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	tag=no_et_nf_hk_gr
-14	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_0_vh_p3_et_nt_gm
+14	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_vh_p3_et_nt_gm
 15	endurráðið	endurráða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	obl	_	tag=so_0_lhþt_et
 16	áður	áður	ADV	ao	_	19	cc	_	tag=ao
 17	en	en	CCONJ	st	_	16	cc	_	tag=st
@@ -145,7 +144,7 @@
 # sent_id = GREYNIR_CORPUS_00437,.7
 # text = Landið sé að öðru leyti lýðræðislegt og án kerfisbundinna ofsókna gagnvart borgurunum, að því er fram kemur í Morgunblaðinu í dag.
 1	Landið	land	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
-2	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+2	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 3	að öðru leyti	að öðru leyti	ADV	eo	_	4	advmod	_	tag=eo
 4	lýðræðislegt	lýðræðislegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	og	og	CCONJ	st	_	4	cc	_	tag=st
@@ -203,7 +202,7 @@
 9	nú	nú	ADV	ao	_	13	advmod	_	tag=ao
 10	þegar	þegar	ADV	ao	_	9	advmod	_	tag=ao
 11	virðist	virða	AUX	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	13	aux	_	tag=so_0_fh_p3_et_nt_mm
-12	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	conj	_	tag=so_0_nh_gm
+12	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	cop	_	tag=so_0_nh_gm
 13	farið	farinn	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	advcl	_	tag=so_0_lhþt_et
 14	að	að	PART	nhm	_	15	mark	_	tag=nhm
 15	hægja	hægja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_0_nh_gm
@@ -214,6 +213,8 @@
 20	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 21	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00437,.10
+# text = Þeir eiga við að það séu svo miklir hagsmunir í húfi að það eigi að hætta hvalveiðum með núverandi hætti.
 1	Þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_kk_p3
 2	eiga	eiga	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 3	við	við	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
@@ -233,6 +234,6 @@
 17	hvalveiðum	hvalveiði	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	obj	_	tag=no_ft_þgf_kvk
 18	með	með	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	núverandi	núverandi	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	20	amod	_	tag=lo_et_þgf_kk_sb
-20	hætti	háttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þgf_kk
+20	hætti	háttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -1,9 +1,8 @@
 # sent_id = GREYNIR_CORPUS_00044,.1
 # text = Sá frestur var þó reyndar síðar framlengdur til 15. mars.
--3	None	_	None	None	_	_	None	_	_
 1	Sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_nf_kk
 2	frestur	frestur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
-3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 4	þó	þó	ADV	eo	_	0	root	_	tag=eo
 5	reyndar	reyndar	ADV	eo	_	4	advmod	_	tag=eo
 6	síðar	síðar	ADV	ao	_	4	advmod	_	tag=ao
@@ -53,9 +52,8 @@
 
 # sent_id = GREYNIR_CORPUS_00044,.5
 # text = Nú er langt liðið á ágúst og ekkert hefur gerst.
--4	None	_	None	None	_	_	None	_	_
 1	Nú	nú	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	langt	langt	ADV	eo	_	0	root	_	tag=eo
 4	liðið	líða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_et
 5	á	á	ADP	fs	_	6	case	_	tag=fs
@@ -81,16 +79,16 @@
 
 # sent_id = GREYNIR_CORPUS_00044,.7
 # text = En mjög margt áhugavert sem hefur komið í ljós.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	4	cc	_	tag=st
 2	mjög	mjög	ADV	eo	_	4	advmod	_	tag=eo
 3	margt	margt	ADV	eo	_	4	advmod	_	tag=eo
-4	áhugavert	áhugaverður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=lo_et_nf_hk_sb
+4	áhugavert	áhugaverður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 6	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 7	komið	koma	VERB	so_0_sagnb	VerbForm=Sup	6	acl:relcl	_	tag=so_0_sagnb
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	ljós	ljós	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-10	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+10	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00044,.8
 # text = Kolbrún tekur á fjölbreyttum og misalvarlegum vandamálum með skjólstæðingum sínum.
@@ -120,15 +118,17 @@
 10	helgina	helgi	ADV	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00044,.10
+# text = Hlutfall kvenna hefur aukist lítillega, úr 30% í 33%.
 1	Hlutfall	hlutfall	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 2	kvenna	kona	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	aukist	auka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	0	root	_	tag=so_0_sagnb_mm
-5	lítillega	lítillega	ADV	ao	_	4	advmod	_	tag=ao
+5	lítillega	lítillega	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	úr	úr	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	30%	30%	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 9	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	33%	33%	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
+10	33%	33%	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 11	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

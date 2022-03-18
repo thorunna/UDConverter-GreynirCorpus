@@ -61,7 +61,7 @@
 3	viðurkenningarinnar	viðurkenning	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nummod	_	tag=no_et_ef_kvk_gr
 4	borgarbíll	borgarbíll	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	ársins 2019	ársins 2019	NUM	ártal	_	4	nmod:poss	_	tag=ártal
-6	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+6	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 7	þessar	þessi	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|tag=fn_ft_nf_kvk
 8	:	_	PUNCT	grm	_	7	punct	_	tag=grm
 
@@ -109,7 +109,7 @@
 # sent_id = GREYNIR_CORPUS_00041,.9
 # text = Það er rétta aðferðin ef það skapast eitthvað hættuástand.
 1	Það	Það	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_nt_gm	Case=Nom|Mood=Ind|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_nt_gm	Case=Nom|Mood=Ind|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_nt_gm
 3	rétta	réttur	ADJ	lo_et_nf_kvk_fst_vb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_nf_kvk_fst_vb
 4	aðferðin	aðferð	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk_gr
 5	ef	ef	SCONJ	st	_	7	mark	_	tag=st
@@ -119,6 +119,8 @@
 9	hættuástand	hættuástand	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	SpaceAfter=No|tag=no_et_nf_hk
 10	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00041,.10
+# text = Sérsveitin fékk vopnið til afnota í september á síðasta ári.
 1	Sérsveitin	sérsveit	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
 2	fékk	fá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	vopnið	vopn	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk_gr
@@ -128,6 +130,6 @@
 7	september	september	ADV	dagsafs	_	2	advmod	_	tag=dagsafs
 8	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_þgf_hk_evb
-10	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	advmod	_	tag=no_et_þgf_hk
+10	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk
 11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

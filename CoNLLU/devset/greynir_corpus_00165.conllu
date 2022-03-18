@@ -5,7 +5,7 @@
 3	sem	sem	SCONJ	st	_	7	mark	_	tag=st
 4	bifreiðinni	bifreið	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_þgf_kvk_gr
 5	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_nt_gm
-6	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	conj	_	tag=so_0_sagnb_gm
+6	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	cop	_	tag=so_0_sagnb_gm
 7	ekið	aka	VERB	so_1_þgf_lhþt_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing|VerbForm=Part	2	advcl	_	tag=so_1_þgf_lhþt_et_þf_hk
 8	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	jöfnum	jafn	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_þgf_kk_sb
@@ -15,7 +15,7 @@
 13	og	og	CCONJ	st	_	2	cc	_	tag=st
 14	hafi	hafa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_vh_p3_et_nt_gm
 15	ekki	ekki	ADV	ao	_	17	advmod	_	tag=ao
-16	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	17	conj	_	tag=so_0_sagnb_gm
+16	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	17	cop	_	tag=so_0_sagnb_gm
 17	hemlað	hemla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	14	xcomp	_	tag=so_0_lhþt_et
 18	áður	áður	ADV	ao	_	21	cc	_	tag=ao
 19	en	en	CCONJ	st	_	18	cc	_	tag=st
@@ -68,7 +68,7 @@
 4	ákveða	ákveða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
 5	hvort	hvort	CCONJ	st	_	8	cc	_	tag=st
 6	málinu	mál	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_þgf_hk_gr
-7	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_vh_p3_et_nt_gm
+7	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
 8	skotið	skjóta	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	4	obj	_	tag=so_1_þgf_lhþt_et
 9	til	til	ADP	fs_ef	Case=Gen	11	case	_	tag=fs_ef
 10	efri	efri	ADJ	lo_et_ef_kvk_mst	Case=Gen|Degree=Cmp|Gender=Fem|Number=Sing	11	amod	_	tag=lo_et_ef_kvk_mst
@@ -110,7 +110,7 @@
 16	leik	leikur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 17	,	_	PUNCT	grm	_	16	punct	_	tag=grm
 18	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	20	expl	_	tag=fn_et_nf_hk
-19	voru	vera	VERB	so_1_nf_op_es_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	20	conj	_	tag=so_1_nf_op_es_fh_p3_ft_þt_gm
+19	voru	vera	VERB	so_1_nf_op_es_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_1_nf_op_es_fh_p3_ft_þt_gm
 20	settir	settur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	tag=lo_ft_nf_kk_sb
 21	þrír	þrír	NUM	to_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	22	nummod	_	tag=to_ft_nf_kk
 22	leikmenn	leikmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	tag=no_ft_nf_kk
@@ -123,7 +123,7 @@
 
 # sent_id = GREYNIR_CORPUS_00165,.5
 # text = Dr. Tabasum Mir, húðsjúkdómalæknir stjarnanna, heldur því fram að raunveruleikastjarnan Kim Kardashian hafa gengist undir fjölda rándýrra aðgerða til að komast í form eftir barnsburð.
-1	Dr.	Dr.	NOUN	abbrev	_	7	nsubj	_	tag=abbrev
+1	Dr.	Dr.	ADV	abbrev	_	7	nsubj	_	tag=abbrev
 2	Tabasum Mir	Tabasum Mir	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kvk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	húðsjúkdómalæknir	húðsjúkdómalæknir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
@@ -174,7 +174,7 @@
 20	ótti	ótti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	tag=no_et_nf_kk
 21	við	við	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
 22	múslima	múslimi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	20	obl	_	tag=no_ft_þf_kk
-23	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	amod	_	tag=so_0_vh_p3_et_nt_gm
+23	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	cop	_	tag=so_0_vh_p3_et_nt_gm
 24	á	á	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
 25	rökum	rök	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	26	obl	_	tag=no_ft_þgf_kvk
 26	reistur	reisa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	obl	_	SpaceAfter=No|tag=so_0_lhþt_et
@@ -245,7 +245,7 @@
 2	Facebook	Facebook	PROPN	fyrirtæki	_	7	obl	_	tag=fyrirtæki
 3	síðu	síða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	conj	_	tag=no_et_þgf_kvk
 4	Nútímans	Nútíminn	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod:poss	_	tag=fyrirtæki_et_ef_kk_gr
-5	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_fh_p3_ft_þt_gm
+5	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_ft_þt_gm
 6	myndböndin	myndband	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	tag=no_ft_nf_hk_gr
 7	merkt	merkja	VERB	so_0_lhþt_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft_nf_hk
 8	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
@@ -270,6 +270,8 @@
 27	ræða	ræða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	25	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
 28	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00165,.10
+# text = Á næstu fimm árum mun aukinn lánakostnaður ríkisins nema 122 milljörðum punda meira en gert var ráð fyrir í spánni áður en Bretland ákvað að yfirgefa Evrópusambandið.
 1	Á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 2	næstu	næstur	ADJ	lo_ft_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Plur	4	amod	_	tag=lo_ft_þgf_hk_evb
 3	fimm	fimm	NUM	töl_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	nummod	_	tag=töl_ft_þgf_hk
@@ -294,6 +296,6 @@
 22	ákvað	ákveða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	advcl	_	tag=so_0_fh_p3_et_þt_gm
 23	að	að	PART	nhm	_	24	mark	_	tag=nhm
 24	yfirgefa	yfirgefa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	22	xcomp	_	tag=so_1_þf_nh_gm
-25	Evrópusambandið	Evrópusamband	PROPN	fyrirtæki_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	24	obj	_	tag=fyrirtæki_et_þf_hk_gr
+25	Evrópusambandið	Evrópusamband	PROPN	fyrirtæki_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No|tag=fyrirtæki_et_þf_hk_gr
 26	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 

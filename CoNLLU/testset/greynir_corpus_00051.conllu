@@ -101,10 +101,9 @@
 
 # sent_id = GREYNIR_CORPUS_00051,.8
 # text = Minni borðin eru lítil og nett eins og lenskan er víða.
--3	None	_	None	None	_	_	None	_	_
 1	Minni	lítill	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	2	amod	_	tag=lo_ft_nf_hk_mst
 2	borðin	borð	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk_gr
-3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_nt_gm
+3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
 4	lítil	lítill	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb
 5	og	og	CCONJ	st	_	6	cc	_	tag=st
 6	nett	nettur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	4	conj	_	tag=lo_ft_nf_hk_sb
@@ -117,7 +116,6 @@
 
 # sent_id = GREYNIR_CORPUS_00051,.9
 # text = Og það er það sem hræðir mig, segir hún.
--3	None	_	None	None	_	_	None	_	_
 1	Og	og	SCONJ	st	_	4	cc	_	tag=st
 2	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
 3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
@@ -130,16 +128,18 @@
 10	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No|tag=pfn_et_nf_kvk_p3
 11	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00051,.10
+# text = Stærsta nýjungin varðar persónuafsláttinn, sem yrði tekjutengdur eftir flókinni formúlu.
 1	Stærsta	stór	ADJ	lo_et_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_evb
 2	nýjungin	nýjung	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
 3	varðar	varða	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-4	persónuafsláttinn	persónuafsláttur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk_gr
+4	persónuafsláttinn	persónuafsláttur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
 7	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	tag=so_0_vh_p3_et_þt_gm
 8	tekjutengdur	tekjutengdur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	acl:relcl	_	tag=lo_et_nf_kk_sb
 9	eftir	eftir	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 10	flókinni	flókinn	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	11	amod	_	tag=lo_et_þgf_kvk_sb
-11	formúlu	formúla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
+11	formúlu	formúla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

@@ -19,9 +19,8 @@
 
 # sent_id = GREYNIR_CORPUS_00092,.2
 # text = Heimsmarkmiðin eru víðfeðm og ná yfir flest svið stjórnsýslunnar, bæði á ríkis- og sveitarstjórnarstigi.
--4	None	_	None	None	_	_	None	_	_
 1	Heimsmarkmiðin	heimsmarkmið	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk_gr
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	víðfeðm	víðfeðmur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	ná	ná	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_nt_gm
@@ -69,7 +68,7 @@
 10	léttir	létta	VERB	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_op_es_fh_p3_et_nt_gm
 11	til	til	ADV	ao	_	10	advmod	_	tag=ao
 12	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-13	sunnan	sunnan	ADJ	lo_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	('HALLÓ_ADJP', None, 'NP', None)	_	tag=lo_et_þf_hk
+13	sunnan	sunnan	ADJ	lo_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þf_hk
 14	og	og	CCONJ	st	_	15	cc	_	tag=st
 15	vestanvert	vestanverður	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	13	conj	_	tag=lo_et_þf_hk_sb
 16	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
@@ -86,9 +85,9 @@
 7	Manafort	Manafort	PROPN	person_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=person_et_þgf_kk
 8	réttmætt	réttmætur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	3	iobj	_	tag=lo_et_þf_hk_sb
 9	og	og	CCONJ	st	_	3	cc	_	tag=st
-10	er	vera	VERB	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
-11	andsnúið	andsnúinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=lo_et_nf_hk_sb
-12	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=fn_et_þgf_hk
+10	er	vera	VERB	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
+11	andsnúið	andsnúinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	cop	_	tag=lo_et_nf_hk_sb
+12	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
 13	að	að	SCONJ	st	_	15	mark	_	tag=st
 14	Trump	Trump	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	tag=person_et_nf_kk
 15	náði	náða	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	ccomp	_	tag=so_1_þf_vh_p3_et_nt_gm
@@ -98,7 +97,7 @@
 # sent_id = GREYNIR_CORPUS_00092,.6
 # text = Auk þess var ég einn af 28 meðhöfundum greinar um ígræðsluna sem birtist í læknatímaritinu Lancet.
 1	Auk þess	auk þess	ADV	ao	_	4	advmod	_	tag=ao
-2	var	vera	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_fh_p1_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p1_et_þt_gm
 3	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
 4	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=fn_et_nf_kk
 5	af	af	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -116,9 +115,8 @@
 
 # sent_id = GREYNIR_CORPUS_00092,.7
 # text = Maður er glaður að eðlisfari, þannig að smá spor í andlitið það drepur engan.
--4	None	_	None	None	_	_	None	_	_
 1	Maður	maður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	glaður	glaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 4	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	eðlisfari	eðlisfar	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
@@ -167,10 +165,12 @@
 11	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
 12	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	15	obl	_	tag=pfn_et_þgf_p1
 13	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_fh_p3_ft_nt_gm
-14	verið	vera	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	15	conj	_	tag=so_1_þgf_sagnb_gm
+14	verið	vera	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	15	cop	_	tag=so_1_þgf_sagnb_gm
 15	þungbærar	þungbær	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	10	acl:relcl	_	SpaceAfter=No|tag=lo_ft_nf_kvk_sb
 16	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00092,.10
+# text = Enn þann dag í dag finnst mér sömu húsögn falleg og ég heillaðist af sem barn.
 1	Enn	enn	ADV	ao	_	3	advmod	_	tag=ao
 2	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_þf_kk
 3	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	advmod	_	tag=no_et_þf_kk
@@ -186,6 +186,6 @@
 13	heillaðist	heilla	VERB	so_0_fh_p1_et_þt_mm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Mid	10	advcl	_	tag=so_0_fh_p1_et_þt_mm
 14	af	af	ADV	ao	_	13	advmod	_	tag=ao
 15	sem	sem	ADP	fs_nf	Case=Nom	16	case	_	tag=fs_nf
-16	barn	barn	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_nf_hk
+16	barn	barn	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_nf_hk
 17	.	_	PUNCT	grm	_	10	punct	_	tag=grm
 

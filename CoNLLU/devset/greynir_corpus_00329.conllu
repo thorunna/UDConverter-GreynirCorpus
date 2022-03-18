@@ -52,10 +52,10 @@
 15	og	og	CCONJ	st	_	16	cc	_	tag=st
 16	umbóta	umbót	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	14	conj	_	tag=no_ft_ef_kvk
 17	og	og	CCONJ	st	_	8	cc	_	tag=st
-18	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_fh_p3_et_nt_gm
-19	vinna	vinna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	conj	_	tag=so_0_nh_gm
+18	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
+19	vinna	vinna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	cop	_	tag=so_0_nh_gm
 20	að	að	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-21	verkefnum	verkefni	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	19	obl	_	tag=no_ft_þgf_hk
+21	verkefnum	verkefni	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_þgf_hk
 22	er	er	SCONJ	stt	_	23	mark	_	tag=stt
 23	fela	fela	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	acl:relcl	_	tag=so_1_þf_fh_p3_ft_nt_gm
 24	m.a.	m.a.	ADV	abbrev	_	23	advmod	_	tag=abbrev
@@ -90,9 +90,9 @@
 17	síðustu	síðari	ADJ	lo_et_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	18	amod	_	tag=lo_et_þf_kvk_evb
 18	viku	vika	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	advmod	_	tag=no_et_þf_kvk
 19	og	og	CCONJ	st	_	14	cc	_	tag=st
-20	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_0_fh_p3_et_nt_gm
+20	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
 21	að	að	PART	nhm	_	22	mark	_	tag=nhm
-22	skora	skora	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_1_þf_nh_gm
+22	skora	skora	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	xcomp	_	tag=so_1_þf_nh_gm
 23	frekar	frekar	ADV	ao_mst	Degree=Cmp	22	advmod	_	tag=ao_mst
 24	hátt	hátt	ADV	ao	_	23	advmod	_	tag=ao
 25	á	á	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
@@ -110,7 +110,7 @@
 4	sjálfur	sjálfur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_nf_kk
 5	þegar	þegar	SCONJ	st	_	8	mark	_	tag=st
 6	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kk_p3
-7	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_þt_gm
+7	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_þt_gm
 8	kominn	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	advcl	_	tag=so_0_lhþt_et
 9	til	til	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
 10	vits	vit	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_ef_hk
@@ -141,7 +141,7 @@
 # text = Ungliðahreyfingin hefur verið mjög hliðholl Mugabe en frá því að herinn tók völd yfir landinu í síðustu viku hefur hreyfingin sagt að hann eigi að segja af sér svo hann geti hvílt sig.
 1	Ungliðahreyfingin	ungliðahreyfing	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	conj	_	tag=so_0_sagnb_gm
+3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
 4	mjög	mjög	ADV	eo	_	5	advmod	_	tag=eo
 5	hliðholl	hliðhollur	ADJ	lo_et_nf_kvk_sb_sþgf	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb_sþgf
 6	Mugabe	Mugabe	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	5	obl	_	tag=person_þgf_kk
@@ -216,7 +216,7 @@
 9	breytingar	breyting	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	tag=no_ft_nf_kvk
 10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	Facebook	Facebook	PROPN	fyrirtæki	_	9	obl	_	tag=fyrirtæki
-12	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_0_vh_p3_ft_nt_gm
+12	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_ft_nt_gm
 13	stórvægilegar	stórvægilegur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	6	obj	_	tag=lo_ft_nf_kvk_sb
 14	enda	enda	CCONJ	st	_	6	cc	_	tag=st
 15	muni	munu	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_vh_p3_ft_nt_gm
@@ -254,19 +254,19 @@
 12	lausn	lausn	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	tag=no_et_þf_kvk
 13	til	til	ADP	fs_nh	VerbForm=Inf	17	case	_	tag=fs_nh
 14	að	að	PART	nhm	_	17	mark	_	tag=nhm
-15	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	conj	_	tag=so_0_nh_gm
+15	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	cop	_	tag=so_0_nh_gm
 16	heildstæð	heildstæður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	17	amod	_	tag=lo_et_nf_kvk_sb
 17	saga	saga	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_nf_kvk
 18	,	,	PUNCT	grm	_	17	punct	_	tag=grm
 19	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 20	Hildur	Hildur	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	19	nsubj	_	tag=person_nf_kvk
 21	og	og	CCONJ	st	_	19	cc	_	tag=st
-22	bendir	benda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	tag=so_0_fh_p3_et_nt_gm
+22	bendir	benda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_0_fh_p3_et_nt_gm
 23	á	á	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
-24	að	að	SCONJ	st	_	22	obl	_	tag=st
+24	að	að	SCONJ	st	_	19	obl	_	tag=st
 25	smásagan	smásaga	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	31	nsubj	_	tag=no_et_nf_kvk_gr
 26	mátti	mega	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	31	aux	_	tag=so_0_fh_p3_et_þt_gm
-27	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	31	conj	_	tag=so_0_nh_gm
+27	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	31	cop	_	tag=so_0_nh_gm
 28	15	15	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	31	nummod	_	SpaceAfter=No|tag=tala_ft_nf_kvk
 29	-	-	PUNCT	grm	_	28	punct	_	tag=grm
 30	20	20	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	31	nummod	_	tag=tala_ft_nf_kvk
@@ -277,11 +277,10 @@
 
 # sent_id = GREYNIR_CORPUS_00329,.9
 # text = Skeljungur og Nýorka eru samstarfsaðilar verkefnisins á Íslandi og hafa hlotið styrk að upphæð 3,4 milljónir Evra eða um 400 milljónir íslenskra króna til uppbyggingar vetnisinnviða og koma vetnisbílum í umferð hér á landi.
--2	None	_	None	None	_	_	None	_	_
 1	Skeljungur	Skeljungur	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=fyrirtæki_et_nf_kk
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	Nýorka	Nýorka	PROPN	fyrirtæki_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	tag=fyrirtæki_et_nf_kvk
-4	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+4	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 5	samstarfsaðilar	samstarfsaðili	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
 6	verkefnisins	verkefni	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=no_et_ef_hk_gr
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -307,6 +306,8 @@
 27	hér á landi	hér á landi	ADV	ao	_	23	advmod	_	SpaceAfter=No|tag=ao
 28	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00329,.10
+# text = Hún segir að dísilvélasvindl Volkswagen hafi opnað augu fólks fyrir þeirri hættulegu NOx mengun dísilvélarinnar og að þrýstingur frá ráðandi opinberum öflum muni valda því að allir bílaframleiðendur hætti framleiðslu á bílum með dísilvélar.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p3
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	7	mark	_	tag=st
@@ -340,6 +341,6 @@
 31	á	á	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
 32	bílum	bíll	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	30	obl	_	tag=no_ft_þgf_kk
 33	með	með	ADP	fs_þf	Case=Acc	34	case	_	tag=fs_þf
-34	dísilvélar	dísilvél	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	32	obl	_	tag=no_ft_þf_kvk
+34	dísilvélar	dísilvél	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 35	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

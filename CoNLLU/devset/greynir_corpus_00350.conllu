@@ -25,7 +25,7 @@
 # sent_id = GREYNIR_CORPUS_00350,.3
 # text = Það er þjóðhagslega hagkvæm fjárfesting í geðheilbrigði samfélags.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	þjóðhagslega	þjóðhagslega	ADV	eo	_	5	advmod	_	tag=eo
 4	hagkvæm	hagkvæmur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_sb
 5	fjárfesting	fjárfesting	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
@@ -37,7 +37,7 @@
 # sent_id = GREYNIR_CORPUS_00350,.4
 # text = Einnig eru bílar fastir á Hófaskarði á Melrakkasléttu.
 1	Einnig	einnig	ADV	ao	_	4	advmod	_	tag=ao
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	bílar	bíll	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_nf_kk
 4	fastir	fastur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -48,11 +48,10 @@
 
 # sent_id = GREYNIR_CORPUS_00350,.5
 # text = Hún hefur enda verið starfrækt af miklum myndarbrag.
--2	None	_	None	None	_	_	None	_	_
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_kvk_p3
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	enda	enda	ADV	ao	_	5	advmod	_	tag=ao
-4	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	conj	_	tag=so_0_sagnb_gm
+4	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
 5	starfrækt	starfrækja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	af	af	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 7	miklum	mikill	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_þgf_kk_sb
@@ -107,12 +106,14 @@
 8	Norðurlöndunum	Norðurlönd	PROPN	sérnafn_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_hk_gr
 9	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00350,.10
+# text = Djöfull sem mér fannst það sjúklega vandræðalegt.
 1	Djöfull	djöfull	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 2	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
 3	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	tag=pfn_et_þgf_p1
 4	fannst	finna	VERB	so_0_fh_p1_et_þt_mm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Mid	7	conj	_	tag=so_0_fh_p1_et_þt_mm
 5	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	tag=pfn_et_nf_hk_p3
 6	sjúklega	sjúklega	ADV	eo	_	7	advmod	_	tag=eo
-7	vandræðalegt	vandræðalegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	acl:relcl	_	tag=lo_et_nf_hk_sb
+7	vandræðalegt	vandræðalegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	acl:relcl	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 8	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

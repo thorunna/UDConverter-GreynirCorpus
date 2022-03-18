@@ -30,7 +30,7 @@
 4	hugsaði	hugsa	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p1_et_þt_gm
 5	þegar	þegar	SCONJ	st	_	8	mark	_	tag=st
 6	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_p1
-7	var	vera	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	8	conj	_	tag=so_0_fh_p1_et_þt_gm
+7	var	vera	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p1_et_þt_gm
 8	yngri	ungur	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	4	advcl	_	tag=lo_ft_nf_kk_mst
 9	var	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 10	að	að	SCONJ	st	_	12	mark	_	tag=st
@@ -124,7 +124,7 @@
 
 # sent_id = GREYNIR_CORPUS_00129,.6
 # text = En það sem Frankl lagði áherslu á í þessari aðferð var að ekki er æskilegt að bera saman tilgang ólíkra aðila.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	11	cc	_	tag=st
 2	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_hk_p3
 3	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 4	Frankl	Frankl	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_et_nf_kk
@@ -134,7 +134,7 @@
 8	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	þessari	þessi	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	tag=fn_et_þgf_kvk
 10	aðferð	aðferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk
-11	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+11	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_þt_gm
 12	að	að	SCONJ	st	_	14	mark	_	tag=st
 13	ekki	ekki	ADV	ao	_	14	advmod	_	tag=ao
 14	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	ccomp	_	tag=so_1_nf_fh_p3_et_nt_gm
@@ -145,7 +145,7 @@
 19	tilgang	tilgangur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	tag=no_et_þf_kk
 20	ólíkra	ólíkur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	21	amod	_	tag=lo_ft_ef_kk_sb
 21	aðila	aðili	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	19	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
-22	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+22	.	_	PUNCT	grm	_	11	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00129,.7
 # text = Carl Vinson-flotadeildin muni hins vegar snúa norður til Kóreuskagans innan sólarhrings og heimsókn hennar til Ástralíu hefði verið aflýst.
@@ -215,6 +215,8 @@
 18	vegamálastjóri	vegamálastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00129,.10
+# text = Meðal dótturfyrirtækja 21st Century Fox eru 20th Century Fox kvikmyndaverið og sjónvarpsstöðin Sky og Star í Evrópu og Asíu.
 1	Meðal	meðal	ADP	fs_ef	Case=Gen	2	case	_	tag=fs_ef
 2	dótturfyrirtækja	dótturfyrirtæki	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_ef_hk
 3	21st Century Fox	21st Century Fox	PROPN	fyrirtæki	_	2	nmod:poss	_	tag=fyrirtæki
@@ -229,6 +231,6 @@
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Evrópu	Evrópa	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_kvk
 14	og	og	CCONJ	st	_	15	cc	_	tag=st
-15	Asíu	Asía	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	conj	_	tag=sérnafn_et_þgf_kvk
+15	Asíu	Asía	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
 16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

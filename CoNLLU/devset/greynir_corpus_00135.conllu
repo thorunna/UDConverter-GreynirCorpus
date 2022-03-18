@@ -1,12 +1,12 @@
 # sent_id = GREYNIR_CORPUS_00135,.1
 # text = Á fimmtudag og föstudag : Suðlæg átt og bjartviðri N- og A-lands, en skýjað og stöku skúrir annars staðar.
 1	Á	á	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
-2	fimmtudag	fimmtudagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	0	root	_	tag=no_et_þf_kk
+2	fimmtudag	fimmtudagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	cc	_	tag=no_et_þf_kk
 3	og	og	CCONJ	st	_	4	cc	_	tag=st
 4	föstudag	föstudagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|tag=no_et_þf_kk
 5	:	:	PUNCT	grm	_	4	punct	_	tag=grm
 6	Suðlæg	suðlægur	ADJ	lo	_	7	amod	_	tag=lo
-7	átt	átt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=no_et_nf_kvk
+7	átt	átt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 8	og	og	CCONJ	st	_	9	cc	_	tag=st
 9	bjartviðri	bjartviðri	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	tag=no_et_nf_hk
 10	N- og A-lands	N- og A-land	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
@@ -17,7 +17,7 @@
 15	stöku	stakur	ADV	eo	_	16	advmod	_	tag=eo
 16	skúrir	skúr	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_nf_kvk
 17	annars staðar	annars staðar	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+18	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00135,.2
 # text = Þannig það er engin leið að rata neitt nema maður sé með manneskju með sér, ef maður er blindur eða sjónskertur.
@@ -39,7 +39,7 @@
 16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 17	ef	ef	SCONJ	st	_	20	mark	_	tag=st
 18	maður	maður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	tag=no_et_nf_kk
-19	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+19	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 20	blindur	blindur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	3	advcl	_	tag=lo_et_nf_kk_sb
 21	eða	eða	CCONJ	st	_	22	cc	_	tag=st
 22	sjónskertur	sjónskertur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
@@ -82,7 +82,7 @@
 7	undanfarin	undanfarinn	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	9	amod	_	tag=lo_ft_þf_hk_sb
 8	fimm	fimm	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	nummod	_	tag=töl_ft_þf_hk
 9	ár	ár	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	advmod	_	tag=no_ft_þf_hk
-10	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+10	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 11	Ísland	Ísland	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=no_et_nf_hk
 12	áfangastaður	áfangastaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	tag=no_et_nf_kk
 13	og	og	CCONJ	st	_	14	cc	_	tag=st
@@ -183,7 +183,7 @@
 7	um	um	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 8	að	að	SCONJ	st	_	12	mark	_	tag=st
 9	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=fn_et_nf_hk
-10	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_1_nf_vh_p3_et_þt_gm
+10	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 11	ekki	ekki	ADV	ao	_	12	advmod	_	tag=ao
 12	aprílgabb	aprílgabb	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_nf_hk
 13	kvaðst	kveða	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
@@ -222,6 +222,8 @@
 20	Senegala	Senegali	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00135,.10
+# text = Sömu sögu er einnig að segja af Hong Kong og Macau en spilavítum á síðarnefnda svæðinu var skipað að skella í lás.
 1	Sömu	sami	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	tag=fn_et_þf_kvk
 2	sögu	saga	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þf_kvk
 3	er	vera	VERB	so_0_op_subj_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_op_subj_þf_fh_p3_et_nt_gm
@@ -242,6 +244,6 @@
 18	að	að	PART	nhm	_	19	mark	_	tag=nhm
 19	skella	skella	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_0_nh_gm
 20	í	í	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	lás	lás	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_þf_kk
+21	lás	lás	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 22	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

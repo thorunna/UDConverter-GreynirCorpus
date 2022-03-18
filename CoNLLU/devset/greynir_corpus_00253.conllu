@@ -11,7 +11,7 @@
 9	gera	gera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
 10	og	og	CCONJ	st	_	5	cc	_	tag=st
 11	flugmannastéttin	flugmannastétt	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	tag=no_et_nf_kvk_gr
-12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 13	rosalega	rosalega	ADV	eo	_	15	advmod	_	tag=eo
 14	þéttur	þéttur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	tag=lo_et_nf_kk_sb
 15	félagsskapur	félagsskapur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|tag=no_et_nf_kk
@@ -44,7 +44,7 @@
 5	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 6	útlenskum	útlenskur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	7	amod	_	tag=lo_ft_þgf_hk_sb
 7	símanúmerum	símanúmer	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk
-8	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	conj	_	tag=so_1_nf_fh_p3_ft_þt_gm
+8	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 9	3,37 prósent	3,37 prósent	NUM	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nummod	_	tag=prósenta_et_nf_hk
 10	allra	allur	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	tag=fn_ft_ef_hk
 11	útkalla	útkall	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_ef_hk
@@ -72,9 +72,8 @@
 
 # sent_id = GREYNIR_CORPUS_00253,.5
 # text = Fréttin er stutt en fyrirsögn hennar er : Slógust með hnífum á gistiheimili.
--4	None	_	None	None	_	_	None	_	_
 1	Fréttin	frétt	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	stutt	stuttur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 4	en	en	CCONJ	st	_	3	cc	_	tag=st
 5	fyrirsögn	fyrirsögn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk
@@ -164,6 +163,8 @@
 15	lögin	lag	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00253,.10
+# text = Hann tók ekki fram hvernig McGregor yrði refsað og sagðist ekki hafa rætt við hann.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
@@ -178,6 +179,6 @@
 12	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	aux	_	tag=so_0_nh_gm
 13	rætt	ræða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	conj	_	tag=so_0_sagnb_gm
 14	við	við	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	tag=pfn_et_þf_kk_p3
+15	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No|tag=pfn_et_þf_kk_p3
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

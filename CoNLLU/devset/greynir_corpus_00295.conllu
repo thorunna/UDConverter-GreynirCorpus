@@ -27,7 +27,7 @@
 # sent_id = GREYNIR_CORPUS_00295,.2
 # text = Annars er farþegarýmið hljóðlátt og hljóðkerfið prýðilegt þó að það virðist hafa verið stillt meira með eyru farþega en ökumanns í huga.
 1	Annars	annars	ADV	ao	_	4	advmod	_	tag=ao
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	farþegarýmið	farþegarými	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
 4	hljóðlátt	hljóðlátur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	og	og	CCONJ	st	_	6	cc	_	tag=st
@@ -38,11 +38,11 @@
 10	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_hk_p3
 11	virðist	virða	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	6	advcl	_	tag=so_0_fh_p3_et_nt_mm
 12	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	aux	_	tag=so_0_nh_gm
-13	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	conj	_	tag=so_0_sagnb_gm
-14	stillt	stilla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	conj	_	tag=so_0_lhþt_et
-15	meira	mikið	ADV	ao_mst	Degree=Cmp	14	advmod	_	tag=ao_mst
+13	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	11	cop	_	tag=so_0_sagnb_gm
+14	stillt	stilla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	cop	_	tag=so_0_lhþt_et
+15	meira	mikið	ADV	ao_mst	Degree=Cmp	11	advmod	_	tag=ao_mst
 16	með	með	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	eyru	eyra	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_þf_hk
+17	eyru	eyra	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þf_hk
 18	farþega	farþegi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	17	nmod:poss	_	tag=no_et_ef_kk
 19	en	en	CCONJ	st	_	20	cc	_	tag=st
 20	ökumanns	ökumaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	18	advcl	_	tag=no_et_ef_kk
@@ -200,10 +200,9 @@
 
 # sent_id = GREYNIR_CORPUS_00295,.9
 # text = Það getur verið erfitt að finna tíma fyrir líkamsrækt vegna skutls, heimanáms, veikinda barna, eldamennsku og margra annarra þátta.
--3	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
 2	getur	geta	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	conj	_	tag=so_0_sagnb_gm
+3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	erfitt	erfiður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	finna	finna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_1_þf_nh_gm
@@ -225,6 +224,8 @@
 22	þátta	þáttur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No|tag=no_ft_ef_kk
 23	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00295,.10
+# text = Það tók sigurvegarann aðeins 22 mínútur og 40 sekúndur að næla í gullið, þ.e. þangað til þjófur stal hjólinu.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	tag=pfn_et_nf_hk_p3
 2	tók	taka	VERB	so_2_þf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þf_þf_fh_p3_et_þt_gm
 3	sigurvegarann	sigurvegari	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	iobj	_	tag=no_et_þf_kk_gr
@@ -237,13 +238,13 @@
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
 11	næla	næla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
 12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	gullið	gull	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þf_hk_gr
+13	gullið	gull	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	þ.e.	þ.e.	ADV	abbrev	_	2	advmod	_	tag=abbrev
 16	þangað	þangað	ADV	ao	_	19	mark	_	tag=ao
 17	til	til	SCONJ	st	_	16	cc	_	tag=st
 18	þjófur	þjófur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	tag=no_et_nf_kk
 19	stal	stela	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	tag=so_1_þgf_fh_p3_et_þt_gm
-20	hjólinu	hjól	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	19	obj	_	tag=no_et_þgf_hk_gr
+20	hjólinu	hjól	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

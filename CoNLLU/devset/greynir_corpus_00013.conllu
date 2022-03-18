@@ -45,17 +45,17 @@
 
 # sent_id = GREYNIR_CORPUS_00013,.6
 # text = En það er önnur saga.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	5	cc	_	tag=st
 2	það	það	PRON	pfn_et_hk_nf_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_hk_nf_p3
-3	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_et_fh_gm_nt_p3
+3	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
 4	önnur	annar	PRON	fn_et_kvk_nf	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	tag=fn_et_kvk_nf
-5	saga	saga	NOUN	no_et_kvk_nf	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|tag=no_et_kvk_nf
-6	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+5	saga	saga	NOUN	no_et_kvk_nf	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_kvk_nf
+6	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00013,.7
 # text = Því miður er hættan umtalsverð.
 1	Því miður	því miður	ADV	ao	_	4	advmod	_	tag=ao
-2	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_et_fh_gm_nt_p3
+2	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
 3	hættan	hætta	NOUN	no_et_gr_kvk_nf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_gr_kvk_nf
 4	umtalsverð	umtalsverður	ADJ	lo_et_kvk_nf_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_kvk_nf_sb
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
@@ -76,6 +76,8 @@
 3	enskt	enskur	ADJ	lo_et_hk_sb_þf	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_hk_sb_þf
 4	félag	félag	NOUN	no_et_hk_þf	Case=Acc|Gender=Neut|Number=Sing	0	root	_	tag=no_et_hk_þf
 
+# sent_id = GREYNIR_CORPUS_00013,.10
+# text = Conor McGregor á blaðamannafundi og æfingu
 1	Conor McGregor	Conor McGregor	PROPN	person_nf_kk_et	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_nf_kk_et
 2	á	á	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	blaðamannafundi	blaðamannafundur	NOUN	no_ft_kk_þgf	Case=Dat|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_kk_þgf

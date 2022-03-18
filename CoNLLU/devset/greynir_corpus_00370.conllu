@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00370,.1
 # text = Leikurinn var tilkynntur á stórum blaðamannafundi í höfuðstöðvum KSÍ í Laugardalnum.
--4	None	_	None	None	_	_	None	_	_
 1	Leikurinn	leikur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	tilkynntur	tilkynna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	stórum	stór	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_þgf_kk_sb
@@ -40,7 +39,7 @@
 7	hugsanlegt	hugsanlegur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	6	iobj	_	tag=lo_et_þf_hk_sb
 8	að	að	SCONJ	st	_	6	obj	_	tag=st
 9	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=fn_et_nf_hk
-10	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_vh_p3_et_nt_gm
+10	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_vh_p3_et_nt_gm
 11	endurskoðað	endurskoða	VERB	so_0_lhþt	VerbForm=Part	8	VANTAR_LIÐ_IP_None	_	SpaceAfter=No|tag=so_0_lhþt
 12	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
@@ -134,6 +133,8 @@
 12	situr	sitja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
 13	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00370,.10
+# text = Ekki er vitað að svo stöddu hvað varð til þess að rútan valt.
 1	Ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
 2	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	vitað	vita	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
@@ -144,6 +145,6 @@
 8	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_ef_hk
 9	að	að	SCONJ	st	_	11	mark	_	tag=st
 10	rútan	rúta	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_nf_kvk_gr
-11	valt	valdur	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	ccomp	_	tag=so_0_fh_p3_et_þt_gm
+11	valt	valdur	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	ccomp	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
 12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

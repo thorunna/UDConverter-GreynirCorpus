@@ -81,7 +81,7 @@
 4	betur	beta	ADV	ao_mst	Degree=Cmp	3	advmod	_	tag=ao_mst
 5	gegn	gegn	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Southampton	Southampton	PROPN	fyrirtæki_þgf_hk	Case=Dat|Gender=Neut	3	obl	_	tag=fyrirtæki_þgf_hk
-7	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+7	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 8	nú	nú	ADV	ao	_	11	advmod	_	tag=ao
 9	eina	eina	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	11	amod	_	tag=lo_et_nf_hk_vb
 10	taplausa	taplaus	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	11	amod	_	tag=lo_et_nf_hk_vb
@@ -174,10 +174,9 @@
 
 # sent_id = GREYNIR_CORPUS_00444,.8
 # text = Aldrei hafi verið ætlun meirihluta fjárlaganefndar að vega að starfsheiðri einstaklinga sem eiga ekki annað skilið en þakkir fyrir sín störf.
--3	None	_	None	None	_	_	None	_	_
 1	Aldrei	aldrei	ADV	ao	_	4	advmod	_	tag=ao
 2	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_vh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	conj	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
 4	ætlun	ætlun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 5	meirihluta	meirihluti	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kk
 6	fjárlaganefndar	fjárlaganefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kvk
@@ -205,7 +204,7 @@
 3	fram	fram	ADV	ao	_	2	advmod	_	tag=ao
 4	að	að	SCONJ	st	_	7	mark	_	tag=st
 5	ekki	ekki	ADV	ao	_	7	advmod	_	tag=ao
-6	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_vh_p3_et_nt_gm
+6	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_vh_p3_et_nt_gm
 7	hægt	hægja	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=lo_et_nf_hk_sb
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	gefa	gefa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	VANTAR_LIÐ_IP_None	_	tag=so_1_þf_nh_gm
@@ -223,6 +222,8 @@
 21	vegabréfsáritunarkerfi	vegabréfs-á-ritunarkerfi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 22	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00444,.10
+# text = Það geri ég fullur tilhlökkunar um leið og ég þakka öllum þeim sem hafa stutt mig til verka á þingferli mínum.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	tag=pfn_et_nf_hk_p3
 2	geri	gera	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
@@ -243,6 +244,6 @@
 18	verka	verk	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	15	obl	_	tag=no_ft_ef_hk
 19	á	á	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	þingferli	þingferill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	tag=no_et_þgf_kk
-21	mínum	minn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	tag=fn_et_þgf_kk
+21	mínum	minn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kk
 22	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00084,.1
 # text = Lögreglan er enn engu nær um þær ástæður sem kunna að liggja að baki árásinni.
 1	Lögreglan	lögregla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_þgf_fh_p3_et_nt_gm
 3	enn	enn	ADV	ao	_	4	advmod	_	tag=ao
 4	engu	enginn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_þgf_hk
 5	nær	nær	ADV	ao_mst	Degree=Cmp	4	advmod	_	tag=ao_mst
@@ -156,7 +156,7 @@
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	svo	svo	SCONJ	st	_	9	mark	_	tag=st
 6	ekki	ekki	ADV	ao	_	9	advmod	_	tag=ao
-7	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	um	um	ADV	ao	_	9	advmod	_	tag=ao
 9	villst	villa	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	3	advcl	_	tag=so_0_sagnb_mm
 10	að	að	SCONJ	st	_	14	mark	_	tag=st
@@ -166,6 +166,8 @@
 14	ótvírætt	ótvíræður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	ccomp	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00084,.10
+# text = Í kjölfarið af því ferðaðist Skripal víða um og ræddi við leyniþjónustur ríkja innan Atlantshafsbandalagsins.
 1	Í kjölfarið	í kjölfarið	ADV	ao	_	4	advmod	_	tag=ao
 2	af	af	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	tag=pfn_et_þgf_hk_p3
@@ -179,6 +181,6 @@
 11	leyniþjónustur	leyniþjónusta	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	tag=no_ft_þf_kvk
 12	ríkja	ríki	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	nmod:poss	_	tag=no_ft_ef_hk
 13	innan	innan	ADP	fs_ef	Case=Gen	14	case	_	tag=fs_ef
-14	Atlantshafsbandalagsins	Atlantshafsbandalag	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	tag=fyrirtæki_et_ef_hk_gr
+14	Atlantshafsbandalagsins	Atlantshafsbandalag	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk_gr
 15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

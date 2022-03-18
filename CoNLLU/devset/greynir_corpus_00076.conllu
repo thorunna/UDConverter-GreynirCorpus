@@ -69,20 +69,20 @@
 
 # sent_id = GREYNIR_CORPUS_00076,.5
 # text = Og hvað á þá að gera, er það Húsavík í rúmlega klukkustundarfjarlægð ?
-1	Og	og	SCONJ	st	_	0	root	_	tag=st
+1	Og	og	SCONJ	st	_	3	cc	_	tag=st
 2	hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	tag=fn_et_þf_hk
-3	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	þá	sá	ADV	ao	_	3	advmod	_	tag=ao
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	gera	gera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No|tag=so_1_þf_nh_gm
-7	,	_	PUNCT	grm	_	8	punct	_	tag=grm
-8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
+8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 9	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_hk_p3
-10	Húsavík	Húsavík	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	tag=sérnafn_et_nf_kvk
+10	Húsavík	Húsavík	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	tag=sérnafn_et_nf_kvk
 11	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	rúmlega	rúmlega	ADV	eo	_	13	advmod	_	tag=eo
 13	klukkustundarfjarlægð	klukkustundarfjarlægð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-14	?	_	PUNCT	grm	_	1	punct	_	tag=grm
+14	?	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00076,.6
 # text = Lögregla mælti opinberlega með því í upphafi desembermánaðar að Netanjahú yrði ákærður fyrir mútuþægni.
@@ -104,11 +104,10 @@
 
 # sent_id = GREYNIR_CORPUS_00076,.7
 # text = Aðeins einn aðili er bær til að meta þessar fullyrðingar og það eru skattyfirvöld.
--2	None	_	None	None	_	_	None	_	_
 1	Aðeins	aðeins	ADV	eo	_	3	advmod	_	tag=eo
 2	einn	einn	NUM	to_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nummod	_	tag=to_et_nf_kk
 3	aðili	aðili	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
-4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	bær	bær	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 6	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
@@ -156,12 +155,13 @@
 14	eins	einn	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|tag=fn_et_ef_kk
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
--1	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00076,.10
+# text = Í Reykjanesbæ eru uppsagnirnar orðnar 40 talsins en 17 uppsagnir bættust við í dag.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	Reykjanesbæ	Reykjanesbær	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
 3	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_ft_nt_gm
 4	uppsagnirnar	uppsögn	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	nsubj	_	tag=no_ft_nf_kvk_gr
-5	orðnar	verða	VERB	so_0_op_subj_nf_lhþt_ft	Case=Nom|Number=Plur|VerbForm=Part	6	conj	_	tag=so_0_op_subj_nf_lhþt_ft
+5	orðnar	verða	VERB	so_0_op_subj_nf_lhþt_ft	Case=Nom|Number=Plur|VerbForm=Part	6	cop	_	tag=so_0_op_subj_nf_lhþt_ft
 6	40	40	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	0	root	_	tag=tala_ft_nf_kvk
 7	talsins	talsins	ADV	eo	_	6	advmod	_	tag=eo
 8	en	en	CCONJ	st	_	6	cc	_	tag=st
@@ -170,6 +170,6 @@
 11	bættust	bæta	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	6	conj	_	tag=so_0_fh_p3_ft_þt_mm
 12	við	við	ADV	ao	_	11	compound:prt	_	tag=ao
 13	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	advmod	_	tag=no_et_þf_kk
+14	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 15	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

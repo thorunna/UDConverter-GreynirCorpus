@@ -2,7 +2,7 @@
 # text = Það hafi verið hinsta óska Max Brod, vinar Kafka.
 1	Það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_hk_p3
 2	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_vh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	conj	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 4	hinsta	hinstur	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_nf_hk_evb
 5	óska	ósk	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 6	Max Brod	Max Brod	PROPN	person_ef_kk	Case=Gen|Gender=Masc	5	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
@@ -28,7 +28,7 @@
 # text = Í Írak eru átta látnir og nokkur hundruð slösuðust.
 1	Í	í	ADP	fs_þgf	Case=Dat	0	root	_	tag=fs_þgf
 2	Írak	Írak	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_hk
-3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_ft_nt_gm
+3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_nt_gm
 4	átta	átta	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=töl_ft_nf_kk
 5	látnir	láta	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	3	xcomp	_	tag=so_0_lhþt_ft
 6	og	og	CCONJ	st	_	1	cc	_	tag=st
@@ -104,10 +104,9 @@
 
 # sent_id = GREYNIR_CORPUS_00354,.9
 # text = Helstu niðurstöður eru að mikill skortur er á iðnfólki.
--3	None	_	None	None	_	_	None	_	_
 1	Helstu	heldri	ADJ	lo_ft_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_nf_kvk_evb
 2	niðurstöður	niðurstaða	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	tag=no_ft_nf_kvk
-3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4	að	að	SCONJ	st	_	0	root	_	tag=st
 5	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_sb
 6	skortur	skortur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk
@@ -116,6 +115,8 @@
 9	iðnfólki	iðn-fólk	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 10	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00354,.10
+# text = Myndskeið af fyrirhuguðum mannvirkjum var sýnt í fréttum Stöðvar 2.
 -1	None	_	None	None	_	_	None	_	_
 1	Myndskeið	myndskeið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
 2	af	af	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
@@ -125,6 +126,6 @@
 6	sýnt	sýna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	fréttum	frétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_þgf_kvk
-9	Stöðvar 2	Stöðvar 2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
+9	Stöðvar 2	Stöðvar 2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
 10	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 

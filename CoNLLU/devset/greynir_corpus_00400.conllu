@@ -10,7 +10,7 @@
 8	áður	áður	ADV	ao	_	12	cc	_	tag=ao
 9	en	en	CCONJ	st	_	8	cc	_	tag=st
 10	bifreiðaeign	bifreiðaeign	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_nf_kvk
-11	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_0_fh_p3_et_þt_gm
+11	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_þt_gm
 12	útbreidd	útbreiddur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	3	advcl	_	tag=lo_et_nf_kvk_sb
 13	eða	eð	CCONJ	st	_	12	mark	_	tag=st
 14	almenn	almennur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
@@ -75,9 +75,8 @@
 
 # sent_id = GREYNIR_CORPUS_00400,.5
 # text = Við vorum komnir á völlinn í hálfleik, þannig að við náðum seinni hálfleik.
--4	None	_	None	None	_	_	None	_	_
 1	Við	við	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
-2	vorum	vera	VERB	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p1_ft_þt_gm
+2	vorum	vera	VERB	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p1_ft_þt_gm
 3	komnir	koma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	á	eiga	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	völlinn	völlur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk_gr
@@ -113,9 +112,8 @@
 
 # sent_id = GREYNIR_CORPUS_00400,.7
 # text = Það er eitt af því sem hefur verið skorið niður og er alveg óskiljanlegt.
--4	None	_	None	None	_	_	None	_	_
 1	Það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	eitt	einn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	af	af	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	því	sá	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þgf_hk_p3
@@ -125,9 +123,9 @@
 9	skorið	skera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	conj	_	tag=so_0_lhþt_et
 10	niður	niður	ADV	ao	_	9	advmod	_	tag=ao
 11	og	og	CCONJ	st	_	3	cc	_	tag=st
-12	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-13	alveg	alveg	ADV	eo	_	14	advmod	_	tag=eo
-14	óskiljanlegt	óskiljanlegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
+12	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+13	alveg	alveg	ADV	eo	_	3	advmod	_	tag=eo
+14	óskiljanlegt	óskiljanlegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	cop	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00400,.8
@@ -168,6 +166,8 @@
 15	Vísis	blaðamaður	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk
 16	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00400,.10
+# text = Minnst 70 mótmælendur voru handteknir í þinghúsinu í gær þar sem tilnefning Kavanaugh var til umræðu.
 1	Minnst	lítill	ADV	eo_est	Degree=Sup	3	advmod	_	tag=eo_est
 2	70	70	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	3	nummod	_	tag=tala_ft_nf_kk
 3	mótmælendur	mótmælandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_nf_kk
@@ -182,6 +182,6 @@
 12	Kavanaugh	Kavanaugh	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	nmod:poss	_	tag=person_ef_kk
 13	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	advcl	_	tag=so_0_fh_p3_et_þt_gm
 14	til	til	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
-15	umræðu	umræða	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_ef_kvk
+15	umræðu	umræða	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_ef_kvk
 16	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

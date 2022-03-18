@@ -52,8 +52,8 @@
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 6	varaformann	varaformaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
 7	Framsóknarflokksins	Framsóknarflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk_gr
-8	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-9	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	conj	_	tag=so_0_nh_gm
+8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
+9	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	cop	_	tag=so_0_nh_gm
 10	bandamann	bandamaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	xcomp	_	tag=no_et_þf_kk
 11	Miðflokksins	Miðflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk_gr
 12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -68,7 +68,7 @@
 6	dómstóla	dómstóll	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_ef_kk
 7	því	því	SCONJ	st	_	11	mark	_	tag=st
 8	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_hk_p3
-9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	svo	svo	ADV	eo	_	11	advmod	_	tag=eo
 11	dýrt	dýr	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	advcl	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
@@ -132,16 +132,18 @@
 11	hjálpar- og leitarstörfum	hjálpar- og leitarstarf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 12	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
-1	Því	því	SCONJ	st	_	0	root	_	tag=st
+# sent_id = GREYNIR_CORPUS_00369,.10
+# text = Því ég má ekki segja hvað sá sem nauðgaði mér heitir.
+1	Því	því	SCONJ	st	_	5	cc	_	tag=st
 2	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_p1
 3	má	mega	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p1_et_nt_gm
 4	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
-5	segja	segja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	conj	_	tag=so_1_þf_nh_gm
+5	segja	segja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 6	hvað	hver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	obl	_	tag=fn_et_nf_hk
 7	sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	tag=fn_et_nf_kk
 8	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 9	nauðgaði	nauðga	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	tag=so_1_þgf_fh_p3_et_þt_gm
 10	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	obj	_	tag=pfn_et_þgf_p1
-11	heitir	heita	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	obj	_	tag=so_1_þf_fh_p3_et_nt_gm
-12	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+11	heitir	heita	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	obj	_	SpaceAfter=No|tag=so_1_þf_fh_p3_et_nt_gm
+12	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

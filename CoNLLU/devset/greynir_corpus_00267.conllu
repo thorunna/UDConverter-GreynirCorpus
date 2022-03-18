@@ -84,7 +84,7 @@
 1	Hafa	hafa	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 2	gæði	gæði	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	tag=no_ft_nf_hk
 3	útsendinga	útsending	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	2	nmod:poss	_	tag=no_ft_ef_kvk
-4	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	conj	_	tag=so_0_sagnb_gm
+4	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	cop	_	tag=so_0_sagnb_gm
 5	margfalt	margfalt	ADV	eo	_	6	advmod	_	tag=eo
 6	meiri	mikill	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	4	xcomp	_	tag=lo_ft_nf_hk_mst
 7	en	en	CCONJ	st	_	9	cc	_	tag=st
@@ -176,12 +176,14 @@
 9	skilið	skilinn	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þf_hk_sb
 10	að	að	SCONJ	st	_	11	mark	_	tag=st
 11	horft	horfa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	ccomp	_	tag=so_0_sagnb_gm
-12	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_vh_p3_et_nt_gm
+12	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_vh_p3_et_nt_gm
 13	á	á	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	þá	hann	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	tag=fn_ft_þf_kk
 15	til frambúðar	til frambúðar	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
 16	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00267,.10
+# text = Hann veit nokkur dæmi frá síðustu öld um jafnslæma maímánuði, til dæmis árin 1963 og 1956.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	veit	vita	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	nokkur	nokkur	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	tag=fn_ft_þf_hk
@@ -191,12 +193,12 @@
 7	öld	öld	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
 8	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 9	jafnslæma	jafnslæmur	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	10	amod	_	tag=lo_ft_þf_kk_sb
-10	maímánuði	maímánuður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_þf_kk
+10	maímánuði	maímánuður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12	til dæmis	til dæmis	ADV	ao	_	10	advmod	_	tag=ao
 13	árin	ár	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_þf_hk_gr
 14	1963	1963	ADV	ártal	_	10	advmod	_	tag=ártal
 15	og	og	CCONJ	st	_	16	cc	_	tag=st
-16	1956	1956	NUM	tala	NumType=Card	14	conj	_	tag=tala
+16	1956	1956	NUM	tala	NumType=Card	14	conj	_	SpaceAfter=No|tag=tala
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

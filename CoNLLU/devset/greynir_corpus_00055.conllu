@@ -72,12 +72,11 @@
 
 # sent_id = GREYNIR_CORPUS_00055,.6
 # text = Hvar ætlar þú að vera stödd í lífinu eftir 10 ár ?
--1	None	_	None	None	_	_	None	_	_
 1	Hvar	hvar	ADV	ao	_	2	advmod	_	tag=ao
 2	ætlar	ætla	VERB	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p2_et_nt_gm
 3	þú	þú	PRON	pfn_et_nf_kvk_p2	Case=Nom|Gender=Fem|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p2
 4	að	að	PART	nhm	_	6	mark	_	tag=nhm
-5	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	conj	_	tag=so_0_nh_gm
+5	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	cop	_	tag=so_0_nh_gm
 6	stödd	staddur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	xcomp	_	tag=lo_et_nf_kvk_sb
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	lífinu	líf	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk_gr
@@ -93,7 +92,7 @@
 3	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
 4	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	aux	_	tag=so_0_sagnb_gm
 5	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	conj	_	tag=so_0_lhþt_et
-6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
+6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=fn_et_nf_hk
 8	klárt	klár	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	9	amod	_	tag=lo_et_nf_hk_sb
 9	brot	brot	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
@@ -131,16 +130,17 @@
 11	tilkynnt	tilkynna	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	advcl	_	SpaceAfter=No|tag=so_0_lhþt_ft
 12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
--5	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00055,.10
+# text = Verið góð eða haldið kjafti, segir Corden á Twitter.
 1	Verið	vera	VERB	so_1_nf_bh_ft_gm	Case=Nom|Mood=Imp|Number=Plur|Voice=Act	2	cop	_	tag=so_1_nf_bh_ft_gm
 2	góð	góður	ADJ	lo_ft_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	7	ccomp	_	tag=lo_ft_nf_hk_fst_sb
 3	eða	eða	CCONJ	st	_	4	cc	_	tag=st
 4	haldið	halda	VERB	so_1_þgf_bh_ft_gm	Case=Dat|Mood=Imp|Number=Plur|Voice=Act	2	conj	_	tag=so_1_þgf_bh_ft_gm
-5	kjafti	kjaftur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obj	_	tag=no_et_þgf_kk
+5	kjafti	kjaftur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|tag=no_et_þgf_kk
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 8	Corden	Corden	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=person_et_nf_kk
 9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	Twitter	Twitter	PROPN	fyrirtæki	_	7	obl	_	tag=fyrirtæki
+10	Twitter	Twitter	PROPN	fyrirtæki	_	7	obl	_	SpaceAfter=No|tag=fyrirtæki
 11	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 

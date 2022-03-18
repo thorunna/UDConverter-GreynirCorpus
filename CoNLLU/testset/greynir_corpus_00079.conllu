@@ -18,11 +18,10 @@
 
 # sent_id = GREYNIR_CORPUS_00079,.2
 # text = Neðarlega í ánni var töluvert af fiski í Fálkastrengjum og veiddust þar nokkrir laxar.
--2	None	_	None	None	_	_	None	_	_
 1	Neðarlega	neðarlega	ADV	ao	_	5	advmod	_	tag=ao
 2	í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	ánni	á	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk_gr
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_þt_gm
+4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	töluvert	töluverður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6	af	af	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	fiski	fiskur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
@@ -55,9 +54,8 @@
 
 # sent_id = GREYNIR_CORPUS_00079,.4
 # text = Hann er hagfræðingur að mennt og með MBA-gráðu frá London Business School.
--4	None	_	None	None	_	_	None	_	_
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	hagfræðingur	hagfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	mennt	mennt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
@@ -146,7 +144,7 @@
 4	snatri	snatur	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 5	að	að	SCONJ	st	_	10	mark	_	tag=st
 6	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_kvk_p3
-7	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	tag=so_0_vh_p3_et_þt_gm
+7	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_vh_p3_et_þt_gm
 8	alls ekki	alls ekki	ADV	eo	_	10	advmod	_	tag=eo
 9	mjög	mjög	ADV	eo	_	10	advmod	_	tag=eo
 10	svöng	svangur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	tag=lo_et_nf_kvk_sb
@@ -155,18 +153,20 @@
 13	saman	saman	ADV	eo	_	12	advmod	_	SpaceAfter=No|tag=eo
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00079,.10
+# text = Þá hefur Halldór Gústafsson, hinn skipverjinn, einnig fengið fjöldann allan af níðpóstum.
 1	Þá	þá	ADV	ao	_	9	advmod	_	tag=ao
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	Halldór Gústafsson	Halldór Gústafsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
+3	Halldór Gústafsson	Halldór Gústafsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	hinn	hinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_nf_kk
-6	skipverjinn	skipverji	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_nf_kk_gr
+6	skipverjinn	skipverji	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|tag=no_et_nf_kk_gr
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	einnig	einnig	ADV	ao	_	9	advmod	_	tag=ao
 9	fengið	fá	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 10	fjöldann	fjöldi	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obj	_	tag=no_et_þf_kk_gr
 11	allan	allur	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	tag=fn_et_þf_kk
 12	af	af	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	níðpóstum	níðpóstur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	tag=no_ft_þgf_kk
+13	níðpóstum	níðpóstur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 14	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 

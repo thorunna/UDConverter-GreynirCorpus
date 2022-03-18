@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00065,.1
 # text = Þar er hægt að kynna sér dagskrá ráðstefnunnar í dag og á morgun.
--4	None	_	None	None	_	_	None	_	_
 1	Þar	þar	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	kynna	kynna	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_2_þgf_þf_nh_gm
@@ -17,9 +16,8 @@
 
 # sent_id = GREYNIR_CORPUS_00065,.2
 # text = Framundan er leikur gegn Slóveníu í undankeppni HM 2019 á Laugardalsvelli 11. júní.
--4	None	_	None	None	_	_	None	_	_
 1	Framundan	framundan	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	leikur	leikur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	gegn	gegn	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Slóveníu	Slóvenía	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_kvk
@@ -35,15 +33,15 @@
 # sent_id = GREYNIR_CORPUS_00065,.3
 # text = Björn Róbert er svo nýkominn til þeirra og er að styrkja liðið heilmikið.
 1	Björn Róbert	Björn Róbert	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	svo	svo	ADV	eo	_	4	advmod	_	tag=eo
 4	nýkominn	nýkominn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 5	til	til	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
 6	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl	_	tag=pfn_ft_ef_kk_p3
 7	og	og	CCONJ	st	_	4	cc	_	tag=st
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
-10	styrkja	styrkja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_1_þf_nh_gm
+10	styrkja	styrkja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_1_þf_nh_gm
 11	liðið	lið	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obj	_	tag=no_et_þf_hk_gr
 12	heilmikið	heilmikið	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
 13	.	_	PUNCT	grm	_	4	punct	_	tag=grm
@@ -68,7 +66,7 @@
 # sent_id = GREYNIR_CORPUS_00065,.5
 # text = Guðmundur var árið 2011 kosinn formaður Landverndar og stýrði samtökunum í fjögur ár.
 1	Guðmundur	Guðmundur	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=person_et_nf_kk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	árið 2011	árið 2011	ADV	ártal	_	4	advmod	_	tag=ártal
 4	kosinn	kosinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 5	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
@@ -113,7 +111,7 @@
 # sent_id = GREYNIR_CORPUS_00065,.8
 # text = Hann verður líklega hér eftir - sem hingað til - kenndur við skyr.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kk_p3
-2	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	líklega	líklega	ADV	ao	_	11	advmod	_	tag=ao
 4	hér	hér	ADV	ao	_	11	advmod	_	tag=ao
 5	eftir	eftir	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
@@ -143,6 +141,8 @@
 12	Lystigarðinum	Lystigarðurinn	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk_gr
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00065,.10
+# text = Elliði Vignisson bæjarstjóri segir forsvarsmenn fyrirtækjanna hafa lýst yfir þungum áhyggjum af stöðunni.
 1	Elliði Vignisson	Elliði Vignisson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
 2	bæjarstjóri	bæjarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 3	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -154,6 +154,6 @@
 9	þungum	þungur	ADJ	lo_ft_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Plur	10	amod	_	tag=lo_ft_þgf_kvk_sb
 10	áhyggjum	áhyggja	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þgf_kvk
 11	af	af	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	stöðunni	staða	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk_gr
+12	stöðunni	staða	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
 13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

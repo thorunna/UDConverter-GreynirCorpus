@@ -190,10 +190,9 @@
 
 # sent_id = GREYNIR_CORPUS_00119,.9
 # text = Það hefur verið merkilegt að fylgjast með Pírötum grafa markvisst undan eigin trúverðugleika með óheppilegum uppákomum og stöðugum innbyrðis deilum.
--3	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	conj	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
 4	merkilegt	merkilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	fylgjast	fylgja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	4	xcomp	_	tag=so_0_nh_mm
@@ -213,22 +212,24 @@
 20	deilum	deila	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 21	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00119,.10
+# text = Glatt var á hjalla þegar FÍT-verðlaunin, viðurkenningar Félags íslenskra teiknara, voru afhent í Tjarnarbíói á dögunum.
 1	Glatt	glaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=lo_et_nf_hk_sb
 2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	hjalla	hjalli	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
 5	þegar	þegar	SCONJ	st	_	14	mark	_	tag=st
-6	FÍT-verðlaunin	FÍT-verðlaun	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	14	nsubj	_	tag=no_ft_nf_hk_gr
+6	FÍT-verðlaunin	FÍT-verðlaun	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	14	nsubj	_	SpaceAfter=No|tag=no_ft_nf_hk_gr
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	viðurkenningar	viðurkenning	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_nf_kvk
 9	Félags	félag	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod:poss	_	tag=no_et_ef_hk
 10	íslenskra	íslenskur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	11	amod	_	tag=lo_ft_ef_kk_sb
-11	teiknara	teiknari	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	9	nmod:poss	_	tag=no_ft_ef_kk
+11	teiknara	teiknari	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	9	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
 12	,	_	PUNCT	grm	_	14	punct	_	tag=grm
 13	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	14	aux	_	tag=so_0_fh_p3_ft_þt_gm
 14	afhent	afhenda	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	advcl	_	tag=so_0_lhþt_ft
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	Tjarnarbíói	Tjarnarbíó	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=sérnafn_et_þgf_hk
-17	á dögunum	á dögunum	ADV	ao	_	14	advmod	_	tag=ao
+17	á dögunum	á dögunum	ADV	ao	_	14	advmod	_	SpaceAfter=No|tag=ao
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

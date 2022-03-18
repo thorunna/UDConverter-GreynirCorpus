@@ -48,11 +48,11 @@
 7	200 milljarða króna	200 milljarður króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
-10	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
-11	þannig	þannig	ADV	eo	_	14	advmod	_	tag=eo
-12	séð	sjá	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	VANTAR_LIÐ_so0_lhþt_et	_	tag=so_0_lhþt_et
-13	jafnmikils	jafnmikill	ADJ	lo_et_ef_hk_sb	Case=Gen|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_ef_hk_sb
-14	virði	virði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|tag=no_et_nf_hk
+10	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+11	þannig	þannig	ADV	eo	_	2	advmod	_	tag=eo
+12	séð	sjá	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	('HALLÓ_so', '0_lhþt_et', 'ADVP', None)	_	tag=so_0_lhþt_et
+13	jafnmikils	jafnmikill	ADJ	lo_et_ef_hk_sb	Case=Gen|Gender=Neut|Number=Sing	2	amod	_	tag=lo_et_ef_hk_sb
+14	virði	virði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	cop	_	SpaceAfter=No|tag=no_et_nf_hk
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00091,.4
@@ -135,10 +135,9 @@
 
 # sent_id = GREYNIR_CORPUS_00091,.8
 # text = Leikstjórn Oriol Tomas var lifandi ; hvergi var dauður punktur (nema í tilviki Hrólfs).
--3	None	_	None	None	_	_	None	_	_
 1	Leikstjórn	leikstjórn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 2	Oriol Tomas	Oriol Tomas	PROPN	person_ef_kk	Case=Gen|Gender=Masc	1	nmod:poss	_	tag=person_ef_kk
-3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 4	lifandi	lifandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 5	;	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	hvergi	hvergi	ADV	ao	_	7	advmod	_	tag=ao
@@ -172,6 +171,8 @@
 15	í gær	í gær	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
 16	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00091,.10
+# text = Jonathan Franks og Jonathan Glenn tryggðu ÍBV farseðilinn í næstu umferð en þeir gerðu mörk liðsins.
 1	Jonathan Franks	Jonathan Franks	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	Jonathan Glenn	Jonathan Glenn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
@@ -185,6 +186,6 @@
 11	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_ft_nf_kk_p3
 12	gerðu	gera	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_ft_þt_gm
 13	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	tag=no_ft_þf_hk
-14	liðsins	lið	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	13	nmod:poss	_	tag=no_et_ef_hk_gr
+14	liðsins	lið	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	13	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

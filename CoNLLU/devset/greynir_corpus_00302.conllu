@@ -50,10 +50,9 @@
 
 # sent_id = GREYNIR_CORPUS_00302,.3
 # text = Skilaboðunum hefur verið komið á framfæri til bandarískra og kanadískra yfirvalda, segir í yfirlýsingunni, og þau hvött til þess að leiðrétta aðgerðina.
--3	None	_	None	None	_	_	None	_	_
 1	Skilaboðunum	skilaboð	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_þgf_hk_gr
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	conj	_	tag=so_0_sagnb_gm
+3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	komið	koma	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	1	xcomp	_	tag=so_1_þgf_sagnb_gm
 5	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	framfæri	framfæri	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þf_hk
@@ -82,7 +81,7 @@
 1	Samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	heimildum	heimild	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þgf_kvk
 3	mbl.is	mbl.is	X	lén	_	2	nmod:poss	_	tag=lén
-4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	Karl Gauti	Karl Gauti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
 6	eini	einn	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_vb
 7	nefndarmaður	nefndarmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -96,7 +95,7 @@
 15	því	því	ADV	ao	_	19	advmod	_	tag=ao
 16	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_vh_p3_et_nt_gm
 17	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kk_p3
-18	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	19	conj	_	tag=so_0_sagnb_gm
+18	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	19	cop	_	tag=so_0_sagnb_gm
 19	látinn	láta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	conj	_	tag=so_0_lhþt_et
 20	vita	vita	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	19	xcomp	_	tag=so_0_nh_gm
 21	af	af	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
@@ -115,7 +114,7 @@
 7	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=fn_et_þgf_hk
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=fn_et_nf_hk
-10	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 11	bara	bara	ADV	eo	_	12	advmod	_	tag=eo
 12	vitleysa	vitleysa	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No|tag=no_et_nf_kvk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
@@ -131,9 +130,8 @@
 
 # sent_id = GREYNIR_CORPUS_00302,.6
 # text = Lawrie var stöðvaður af lögreglu í franska landamærabænum Calais í október með stúlkuna, hina fjögurra ára gömlu Bahar Ahmadi, í bíl sínum.
--4	None	_	None	None	_	_	None	_	_
 1	Lawrie	Lawrie	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	stöðvaður	stöðva	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	af	af	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	lögreglu	lögregla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
@@ -237,14 +235,16 @@
 24	Íslandi	Ísland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 25	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
-1	Jón Jacobsen	Jón Jacobsen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	tag=person_nf_kk
+# sent_id = GREYNIR_CORPUS_00302,.10
+# text = Jón Jacobsen, sem afplánaði fangelsisdóm í þrjú ár, sagði í fréttum RÚV á sunnudag að ekki vægi nóg meðferðarstarf inni í fangelsunum.
+1	Jón Jacobsen	Jón Jacobsen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
 4	afplánaði	afplána	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 5	fangelsisdóm	fangelsisdómur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	tag=no_et_þf_kk
 6	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 7	þrjú	þrír	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	nummod	_	tag=to_ft_þf_hk
-8	ár	ár	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	advmod	_	tag=no_ft_þf_hk
+8	ár	ár	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	advmod	_	SpaceAfter=No|tag=no_ft_þf_hk
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 10	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
@@ -259,6 +259,6 @@
 20	meðferðarstarf	meðferðarstarf	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	tag=no_et_nf_hk
 21	inni	inni	ADV	ao	_	23	advmod	_	tag=ao
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	fangelsunum	fangelsi	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	20	obl	_	tag=no_ft_þgf_hk_gr
+23	fangelsunum	fangelsi	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk_gr
 24	.	_	PUNCT	grm	_	10	punct	_	tag=grm
 

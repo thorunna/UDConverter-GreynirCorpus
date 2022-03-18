@@ -42,7 +42,7 @@
 7	setti	setja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 8	met	met	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	tag=no_et_þf_hk
 9	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-10	Mt.	Mt.	NOUN	abbrev	_	11	flat:name	_	tag=abbrev
+10	Mt.	Mt.	ADV	abbrev	_	11	advmod	_	tag=abbrev
 11	Esja Ultra-hlaupinu	Esja Ultra-hlaup	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk_gr
 12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 13	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	11	advmod	_	tag=lo_et_þf_hk_mst
@@ -141,7 +141,7 @@
 7	lengi	lengi	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	þá	þá	ADV	ao	_	12	advmod	_	tag=ao
-10	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 11	miklu	miklu	ADV	eo	_	12	advmod	_	tag=eo
 12	erfiðara	erfiður	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	4	('HALLÓ_S', 'QUOTE', 'S0', None)	_	tag=lo_et_nf_hk_mst
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
@@ -197,7 +197,7 @@
 28	,	_	PUNCT	grm	_	27	punct	_	tag=grm
 29	svo	svo	ADV	eo	_	33	advmod	_	tag=eo
 30	nefndum	nefndur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	33	amod	_	tag=lo_et_þgf_kk_sb
-31	PTC	PTC	NOUN	abbrev	_	33	flat:name	_	SpaceAfter=No|tag=abbrev
+31	PTC	PTC	ADV	abbrev	_	33	advmod	_	SpaceAfter=No|tag=abbrev
 32	-	_	PUNCT	grm	_	31	punct	_	tag=grm
 33	búnaði	búnaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 34	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -246,22 +246,22 @@
 7	nokkurs	nokkur	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	tag=fn_et_ef_hk
 8	samkomulags	samkomulag	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_ef_hk
 9	og	og	CCONJ	st	_	4	cc	_	tag=st
-10	sjá	sjá	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
+10	sjá	sjá	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_þf_fh_p3_ft_nt_gm
 11	fyrir	fyrir	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	10	obl	_	tag=abfn_þgf
+12	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	4	obl	_	tag=abfn_þgf
 13	að	að	SCONJ	st	_	17	mark	_	tag=st
 14	Bretland	Bretland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	tag=sérnafn_et_nf_hk
 15	gæti	geta	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	17	aux	_	tag=so_0_vh_p3_et_þt_gm
-16	orðið	verða	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	17	conj	_	tag=so_1_nf_sagnb_gm
-17	skattaskjól	skattaskjól	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	obj	_	tag=no_et_nf_hk
-18	og	og	CCONJ	st	_	17	cc	_	tag=st
-19	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	21	conj	_	tag=so_1_nf_sagnb_gm
-20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-21	samfloti	samflot	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	conj	_	tag=no_et_þgf_hk
+16	orðið	verða	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	17	cop	_	tag=so_1_nf_sagnb_gm
+17	skattaskjól	skattaskjól	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_nf_hk
+18	og	og	CCONJ	st	_	19	cc	_	tag=st
+19	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	17	conj	_	tag=so_1_nf_sagnb_gm
+20	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+21	samfloti	samflot	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	cop	_	tag=no_et_þgf_hk
 22	með	með	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
 23	öðrum	annar	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	25	nmod	_	tag=fn_ft_þgf_hk
 24	engilsaxneskum	engilsaxneskur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	25	amod	_	tag=lo_ft_þgf_hk_sb
-25	ríkjum	ríki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	21	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
+25	ríkjum	ríki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	17	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 26	,	_	PUNCT	grm	_	25	punct	_	tag=grm
 27	Bandaríkjunum	Bandaríkin	PROPN	sérnafn_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	25	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_hk_gr
 28	,	_	PUNCT	grm	_	29	punct	_	tag=grm
@@ -274,9 +274,8 @@
 
 # sent_id = GREYNIR_CORPUS_00185,.9
 # text = Þetta er samfélagsvandi sem þarf að leysa, sagði Ásmundur og bætti við að með auknu framboði ætti að vera hægt að koma í veg fyrir að fasteignaverð hækkaði umfram verðlag.
--4	None	_	None	None	_	_	None	_	_
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	samfélagsvandi	samfélagsvandi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	þarf	þurfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -286,15 +285,15 @@
 9	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
 10	Ásmundur	Ásmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
 11	og	og	CCONJ	st	_	9	cc	_	tag=st
-12	bætti	bæta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	tag=so_1_þgf_fh_p3_et_þt_gm
-13	við	við	ADV	ao	_	12	compound:prt	_	tag=ao
+12	bætti	bæta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_1_þgf_fh_p3_et_þt_gm
+13	við	við	ADV	ao	_	9	compound:prt	_	tag=ao
 14	að	að	SCONJ	st	_	18	mark	_	tag=st
 15	með	með	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 16	auknu	aukinn	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	17	amod	_	tag=lo_et_þgf_hk_sb
 17	framboði	framboð	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	tag=no_et_þgf_hk
-18	ætti	eiga	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	obj	_	tag=so_0_vh_p3_et_þt_gm
+18	ætti	eiga	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	9	obj	_	tag=so_0_vh_p3_et_þt_gm
 19	að	að	PART	nhm	_	21	mark	_	tag=nhm
-20	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	21	conj	_	tag=so_1_nf_nh_gm
+20	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	21	cop	_	tag=so_1_nf_nh_gm
 21	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	18	xcomp	_	tag=lo_et_nf_hk_sb
 22	að	að	PART	nhm	_	23	mark	_	tag=nhm
 23	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	21	nsubj	_	tag=so_0_nh_gm
@@ -308,11 +307,13 @@
 31	verðlag	verðlag	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	29	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 32	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00185,.10
+# text = Þá hafa dönsk, norsk, austurísk og þýsk stjórnvöld einnig haft hert eftirlit frá 2015, en þessi ríki hafa ekki stækkað umfang aðgerða sinna eins og Svíar, að sögn Sigríðar.
 1	Þá	þá	ADV	ao	_	12	advmod	_	tag=ao
 2	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_ft_nt_gm
-3	dönsk	danskur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	10	amod	_	tag=lo_ft_nf_hk_sb
+3	dönsk	danskur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	10	amod	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-5	norsk	norskur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	10	amod	_	tag=lo_ft_nf_hk_sb
+5	norsk	norskur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	10	amod	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	austurísk	austurrískur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	10	amod	_	tag=lo_ft_nf_hk_sb
 8	og	og	CCONJ	st	_	10	cc	_	tag=st
@@ -323,7 +324,7 @@
 13	hert	hertur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_þf_hk_sb
 14	eftirlit	eftirlit	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	tag=no_et_þf_hk
 15	frá	frá	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	2015	2015	ADV	ártal	_	12	advmod	_	tag=ártal
+16	2015	2015	ADV	ártal	_	12	advmod	_	SpaceAfter=No|tag=ártal
 17	,	_	PUNCT	grm	_	16	punct	_	tag=grm
 18	en	en	CCONJ	st	_	12	cc	_	tag=st
 19	þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	20	nmod	_	tag=fn_ft_nf_hk
@@ -336,10 +337,10 @@
 26	sinna	sinn	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	tag=fn_ft_ef_kvk
 27	eins	eins	ADV	ao	_	29	cc	_	tag=ao
 28	og	og	CCONJ	st	_	27	cc	_	tag=st
-29	Svíar	Svíi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	23	advcl	_	tag=no_ft_nf_kk
+29	Svíar	Svíi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	23	advcl	_	SpaceAfter=No|tag=no_ft_nf_kk
 30	,	_	PUNCT	grm	_	29	punct	_	tag=grm
 31	að	að	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
 32	sögn	sögn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	tag=no_et_þgf_kvk
-33	Sigríðar	Sigríður	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	32	nmod:poss	_	tag=person_ef_kvk
+33	Sigríðar	Sigríður	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	32	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
 34	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 

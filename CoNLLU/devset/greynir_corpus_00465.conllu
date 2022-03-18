@@ -29,9 +29,8 @@
 
 # sent_id = GREYNIR_CORPUS_00465,.2
 # text = Ég er vanari að sjá hann í sóknarsinnaðra hlutverki í ensku úrvalsdeildinni en hér er hann um allan völl, í vörn, í sókn.
--4	None	_	None	None	_	_	None	_	_
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
-2	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p1_et_nt_gm
+2	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p1_et_nt_gm
 3	vanari	vanur	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_mst
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
@@ -194,7 +193,7 @@
 20	til	til	ADV	eo	_	22	advmod	_	tag=eo
 21	tveir	tveir	NUM	to_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	22	nummod	_	tag=to_ft_nf_kk
 22	nefndarmenn	nefndarmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	tag=no_ft_nf_kk
-23	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	25	conj	_	tag=so_0_vh_p3_ft_þt_gm
+23	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	25	cop	_	tag=so_0_vh_p3_ft_þt_gm
 24	ekki	ekki	ADV	ao	_	25	advmod	_	tag=ao
 25	löglærðir	löglærður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	14	advcl	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
 26	.	.	PUNCT	grm	_	3	punct	_	tag=grm
@@ -228,9 +227,8 @@
 
 # sent_id = GREYNIR_CORPUS_00465,.9
 # text = Kristinn var arfadapur eftir að hann kom heim í fyrra og El Salvadorinn þarf að sanna að hann geti verið stór fiskur í stórri tjörn.
--4	None	_	None	None	_	_	None	_	_
 1	Kristinn	Kristinn	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	arfadapur	arfa-dapur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 4	eftir	eftir	ADV	ao	_	7	mark	_	tag=ao
 5	að	að	SCONJ	st	_	4	cc	_	tag=st
@@ -248,7 +246,7 @@
 17	að	að	SCONJ	st	_	22	mark	_	tag=st
 18	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	tag=pfn_et_nf_kk_p3
 19	geti	geta	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_vh_p3_et_nt_gm
-20	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	22	conj	_	tag=so_1_nf_sagnb_gm
+20	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	22	cop	_	tag=so_1_nf_sagnb_gm
 21	stór	stór	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	22	amod	_	tag=lo_et_nf_kk_sb
 22	fiskur	fiskur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	tag=no_et_nf_kk
 23	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
@@ -256,6 +254,8 @@
 25	tjörn	tjörn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 26	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00465,.10
+# text = Þórbergur er með B.Sc. í Tölvunarfræði og er ný fluttur heim frá Kína þar sem hann vann fyrir SAP og þjónustaði viðskiptavini þess víðsvegar í Asíu.
 1	Þórbergur	Þórbergur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	með	með	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
@@ -263,13 +263,13 @@
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Tölvunarfræði	Tölvunarfræði	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
-8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-9	ný	ný	ADV	eo_fst	Degree=Pos	10	advmod	_	tag=eo_fst
-10	fluttur	fluttur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=lo_et_nf_kk_sb
-11	heim	heim	ADV	ao	_	10	advmod	_	tag=ao
+8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+9	ný	ný	ADV	eo_fst	Degree=Pos	2	advmod	_	tag=eo_fst
+10	fluttur	fluttur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	cop	_	tag=lo_et_nf_kk_sb
+11	heim	heim	ADV	ao	_	2	advmod	_	tag=ao
 12	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	Kína	Kína	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=sérnafn_et_þgf_hk
-14	þar	þar	ADV	ao	_	10	advmod	_	tag=ao
+13	Kína	Kína	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=sérnafn_et_þgf_hk
+14	þar	þar	ADV	ao	_	2	advmod	_	tag=ao
 15	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
 16	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kk_p3
 17	vann	vinna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	advcl	_	tag=so_0_fh_p3_et_þt_gm
@@ -281,6 +281,6 @@
 23	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	tag=pfn_et_ef_hk_p3
 24	víðsvegar	víðsvegar	ADV	ao	_	26	advmod	_	tag=ao
 25	í	í	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
-26	Asíu	Asía	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	tag=sérnafn_et_þgf_kvk
+26	Asíu	Asía	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
 27	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

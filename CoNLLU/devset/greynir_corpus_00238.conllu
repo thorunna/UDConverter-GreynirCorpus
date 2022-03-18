@@ -34,7 +34,7 @@
 # sent_id = GREYNIR_CORPUS_00238,.3
 # text = Þetta er auðvitað mikill galli á lögunum, segir Halldór Þormar.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	auðvitað	auðvitað	ADV	ao	_	5	advmod	_	tag=ao
 4	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_sb
 5	galli	galli	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -62,11 +62,10 @@
 
 # sent_id = GREYNIR_CORPUS_00238,.5
 # text = Mín fyrstu viðbrögð eru þau að mér finnst dómurinn of þungur.
--2	None	_	None	None	_	_	None	_	_
 1	Mín	minn	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nmod	_	tag=fn_ft_nf_hk
 2	fyrstu	fyrstur	ADJ	lo_ft_nf_hk_vb	Case=Nom|Gender=Neut|Number=Plur	3	amod	_	tag=lo_ft_nf_hk_vb
 3	viðbrögð	viðbragð	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk
-4	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+4	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 5	þau	sá	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=fn_ft_nf_hk
 6	að	að	SCONJ	st	_	8	mark	_	tag=st
 7	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	tag=pfn_et_þgf_p1
@@ -99,7 +98,7 @@
 3	fólk	fólk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
 4	við	við	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
 5	að	að	PART	nhm	_	8	mark	_	tag=nhm
-6	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	8	conj	_	tag=so_1_nf_nh_gm
+6	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	8	cop	_	tag=so_1_nf_nh_gm
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	ferli	ferill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
@@ -137,12 +136,14 @@
 10	aftur og aftur	aftur og aftur	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
 11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00238,.10
+# text = Chairman Fred Ridley announces the establishment of the Augusta National Women's Amateur Championship.
 1	Chairman Fred Ridley	Chairman Fred Ridley	PROPN	sérnafn	_	2	VANTAR_LIÐ	_	tag=sérnafn
 2	announces	announces	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 3	the	the	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	nmod:poss	_	tag=no_et_ef_hk
 4	establishment	establishment	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk
 5	of	of	ADV	eo	_	6	advmod	_	tag=eo
 6	the	the	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk
-7	Augusta National Women's Amateur Championship	Augusta National Women's Amateur Championship	PROPN	sérnafn	_	6	nmod:poss	_	tag=sérnafn
+7	Augusta National Women's Amateur Championship	Augusta National Women's Amateur Championship	PROPN	sérnafn	_	6	nmod:poss	_	SpaceAfter=No|tag=sérnafn
 8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

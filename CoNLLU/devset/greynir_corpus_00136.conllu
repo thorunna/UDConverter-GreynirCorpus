@@ -1,11 +1,10 @@
 # sent_id = GREYNIR_CORPUS_00136,.1
 # text = Hann hefði strax getað verið heiðarlegur og gert veröldina fallegri með því einu að láta afgreiðslumanninn vita af mistökunum og skilað peningnum.
--1	None	_	None	None	_	_	None	_	_
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_kk_p3
 2	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_0_vh_p3_et_þt_gm
 3	strax	strax	ADV	ao	_	6	advmod	_	tag=ao
 4	getað	geta	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	aux	_	tag=so_0_sagnb_gm
-5	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	6	conj	_	tag=so_1_nf_sagnb_gm
+5	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	6	cop	_	tag=so_1_nf_sagnb_gm
 6	heiðarlegur	heiðarlegur	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_fst_sb
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
 8	gert	gera	VERB	so_2_þf_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	6	conj	_	tag=so_2_þf_þf_sagnb_gm
@@ -32,7 +31,7 @@
 3	að	að	SCONJ	st	_	18	mark	_	tag=st
 4	þó	þó	SCONJ	st	_	3	fixed	_	tag=st
 5	vissulega	vissulega	ADV	ao	_	8	advmod	_	tag=ao
-6	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+6	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 7	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=fn_et_nf_hk
 8	áfall	áfall	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	advcl	_	SpaceAfter=No|tag=no_et_nf_hk
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
@@ -54,8 +53,8 @@
 # text = Og að endingu elskurnar höfum að leiðarljósi í samskiptum okkar virðinguna fyrir persónu einstaklingsins, menningu, gildum, trú og sögu.
 1	Og	og	SCONJ	st	_	3	mark	_	tag=st
 2	að endingu	að endingu	ADV	ao	_	3	advmod	_	tag=ao
-3	elskurnar	elska	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk_gr
-4	höfum	hafa	VERB	so_1_þf_vh_p1_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þf_vh_p1_ft_nt_gm
+3	elskurnar	elska	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	cc	_	tag=no_ft_nf_kvk_gr
+4	höfum	hafa	VERB	so_1_þf_vh_p1_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_vh_p1_ft_nt_gm
 5	að	að	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	leiðarljósi	leiðarljós	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -73,11 +72,10 @@
 19	trú	trú	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	conj	_	tag=no_et_þgf_kvk
 20	og	og	CCONJ	st	_	12	cc	_	tag=st
 21	sögu	saga	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No|tag=no_et_þgf_kvk
-22	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+22	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00136,.4
 # text = Þetta er allt mjög óljóst, segir Ragnar aðspurður um hvað muni gerast þegar Bára mætir í dómssal á mánudaginn.
--4	None	_	None	None	_	_	None	_	_
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fn_et_nf_hk
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	ccomp	_	tag=fn_et_nf_hk
@@ -103,7 +101,7 @@
 # sent_id = GREYNIR_CORPUS_00136,.5
 # text = Ég er jarðbundin og raunsæ manneskja og með frammistöðu minni í sumar þá finnst mér ég hafa átt skilið að vera valin.
 1	Ég	Ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_p1
-2	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p1_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p1_et_nt_gm
 3	jarðbundin	jarðbundinn	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_fst_sb
 4	og	og	CCONJ	st	_	6	cc	_	tag=st
 5	raunsæ	raunsær	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_fst_sb
@@ -142,13 +140,13 @@
 12	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	tag=pfn_et_þgf_kk_p3
 13	þar	þar	ADV	ao	_	9	advmod	_	tag=ao
 14	og	og	CCONJ	st	_	9	cc	_	tag=st
-15	spyr	spyrja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-16	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	tag=pfn_et_þf_kk_p3
+15	spyr	spyrja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_þf_fh_p3_et_nt_gm
+16	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	tag=pfn_et_þf_kk_p3
 17	hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	tag=fn_et_þf_hk
 18	viðkomandi	viðkomandi	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	tag=lo_et_nf_kk
 19	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	tag=so_0_vh_p3_et_nt_gm
 20	að	að	PART	nhm	_	21	mark	_	tag=nhm
-21	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	ccomp	_	tag=so_0_nh_gm
+21	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	ccomp	_	tag=so_0_nh_gm
 22	þar	þar	ADV	ao	_	21	advmod	_	SpaceAfter=No|tag=ao
 23	.	.	PUNCT	grm	_	21	punct	_	tag=grm
 
@@ -165,7 +163,7 @@
 9	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kvk_p3
 10	að	að	SCONJ	st	_	15	mark	_	tag=st
 11	ekki	ekki	ADV	ao	_	15	advmod	_	tag=ao
-12	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_1_nf_vh_p3_ft_nt_gm
+12	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 13	nægjanlegar	nægjanlegur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	14	amod	_	tag=lo_ft_nf_kvk_sb
 14	sannanir	sönnun	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	tag=no_ft_nf_kvk
 15	fyrirliggjandi	fyrirliggjandi	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	8	ccomp	_	tag=lo_ft_nf_kvk_sb
@@ -226,6 +224,8 @@
 20	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nmod:poss	_	SpaceAfter=No|tag=pfn_et_ef_kk_p3
 21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00136,.10
+# text = Hann ákvað síðasta haust að ráðast í endurútgáfu á þessum upptökum og leyfði þá Kristjáni Jóhannssyni tenór og vini sínum að heyra.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	ákvað	ákveða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	síðasta	síðari	ADJ	lo_et_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_þf_hk_evb
@@ -246,6 +246,6 @@
 18	vini	vinur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	conj	_	tag=no_et_þgf_kk
 19	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	tag=fn_et_þgf_kk
 20	að	að	PART	nhm	_	21	mark	_	tag=nhm
-21	heyra	heyra	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_0_nh_gm
+21	heyra	heyra	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
 22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

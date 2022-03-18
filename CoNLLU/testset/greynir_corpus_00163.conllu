@@ -7,7 +7,7 @@
 5	Alþjóðasamtaka	alþjóðasamtök	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	nmod:poss	_	tag=no_ft_ef_hk
 6	rannsóknarblaðamanna	rannsóknarblaðamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
-8	ICIJ	ICIJ	NOUN	abbrev	_	5	obl	_	SpaceAfter=No|tag=abbrev
+8	ICIJ	ICIJ	ADV	abbrev	_	5	obl	_	SpaceAfter=No|tag=abbrev
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 10	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 11	halda	halda	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
@@ -231,11 +231,10 @@
 
 # sent_id = GREYNIR_CORPUS_00163,.9
 # text = Ég held það sé nokkuð augljóst í ljósi niðurstöðu kosninganna þar sem mörgum leiðum hefur verið hafnað ; byltingu Pírata, vinstri stjórn og núverandi ríkisstjórn.
--5	None	_	None	None	_	_	None	_	_
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	held	halda	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_hk_p3
-4	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_vh_p3_et_nt_gm
+4	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
 5	nokkuð	nokkuð	ADV	eo	_	6	advmod	_	tag=eo
 6	augljóst	augljós	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	ccomp	_	tag=lo_et_nf_hk_fst_sb
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -260,16 +259,18 @@
 26	ríkisstjórn	ríkisstjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No|tag=no_et_þgf_kvk
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00163,.10
+# text = Þar segir Kári enn fremur að Bjarni Benediktsson, formaður Sjálfstæðisflokksins, hafi hafnað því að mæta honum í þætti á Stöð 2 til að ræða heilbrigðismál.
 1	Þar	þar	ADV	ao	_	2	advmod	_	tag=ao
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	Kári	Kári	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 4	enn	enn	ADV	ao	_	2	advmod	_	tag=ao
 5	fremur	harla	ADV	ao_mst	Degree=Cmp	4	advmod	_	tag=ao_mst
 6	að	að	SCONJ	st	_	13	mark	_	tag=st
-7	Bjarni Benediktsson	Bjarni Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	tag=person_nf_kk
+7	Bjarni Benediktsson	Bjarni Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 9	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_nf_kk
-10	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=sérnafn_et_ef_kk_gr
+10	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk_gr
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_vh_p3_et_nt_gm
 13	hafnað	hafna	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	2	ccomp	_	tag=so_1_þgf_sagnb_gm
@@ -284,6 +285,6 @@
 22	til	til	ADP	fs_nh	VerbForm=Inf	24	case	_	tag=fs_nh
 23	að	að	PART	nhm	_	24	mark	_	tag=nhm
 24	ræða	ræða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	16	obl	_	tag=so_1_þf_nh_gm
-25	heilbrigðismál	heilbrigðismál	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	tag=no_et_þf_hk
+25	heilbrigðismál	heilbrigðismál	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No|tag=no_et_þf_hk
 26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -101,12 +101,12 @@
 4	allt	allur	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	tag=fn_et_þf_hk
 5	land	land	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk
 6	og	og	CCONJ	st	_	2	cc	_	tag=st
-7	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
-8	nú	nú	ADV	ao	_	9	advmod	_	tag=ao
-9	mætt	mæta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
-10	að nokkru leyti	að nokkru leyti	ADV	ao	_	9	advmod	_	tag=ao
+7	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	aux	_	tag=so_0_fh_p3_et_nt_gm
+8	nú	nú	ADV	ao	_	2	advmod	_	tag=ao
+9	mætt	mæta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	cop	_	tag=so_0_lhþt_et
+10	að nokkru leyti	að nokkru leyti	ADV	ao	_	2	advmod	_	tag=ao
 11	með	með	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	viðbótarframlagi	viðbótarframlag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
+12	viðbótarframlagi	viðbótarframlag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 13	úr	úr	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	ríkissjóði	ríkissjóður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -141,7 +141,7 @@
 6	efnum	efni	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
 7	en	en	CCONJ	st	_	2	cc	_	tag=st
 8	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_hk_p3
-9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	langt	langur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	tag=lo_et_nf_hk_sb
 11	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	land	land	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þf_hk
@@ -170,6 +170,8 @@
 16	Reykjavík	Reykjavík	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|tag=sérnafn_et_nf_kvk
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00094,.10
+# text = Skötuhjúin kynntust þó ekki í Bandaríkjunum eins og þátttakendur komust að en London var rétta svarið.
 1	Skötuhjúin	skötuhjú	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	tag=no_ft_nf_hk_gr
 2	kynntust	kynna	VERB	so_1_þgf_fh_p3_ft_þt_mm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_1_þgf_fh_p3_ft_þt_mm
 3	þó	þó	ADV	ao	_	2	advmod	_	tag=ao
@@ -183,8 +185,8 @@
 11	að	að	ADV	ao	_	10	advmod	_	tag=ao
 12	en	en	CCONJ	st	_	2	cc	_	tag=st
 13	London	London	PROPN	sérnafn	_	16	nsubj	_	tag=sérnafn
-14	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+14	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 15	rétta	réttur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_nf_hk_vb
-16	svarið	svar	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	conj	_	tag=no_et_nf_hk_gr
+16	svarið	svar	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|tag=no_et_nf_hk_gr
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

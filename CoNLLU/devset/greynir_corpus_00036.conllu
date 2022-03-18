@@ -13,10 +13,9 @@
 
 # sent_id = GREYNIR_CORPUS_00036,.2
 # text = Ferill hennar er slæmur og það mótar afstöðu íbúa.
--3	None	_	None	None	_	_	None	_	_
 1	Ferill	ferill	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
 2	hennar	hún	PRON	pfn_et_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_et_ef_kvk_p3
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	slæmur	slæmur	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_fst_sb
 5	og	og	CCONJ	st	_	4	cc	_	tag=st
 6	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_hk_p3
@@ -51,11 +50,11 @@
 
 # sent_id = GREYNIR_CORPUS_00036,.5
 # text = Ísland í dag — Leggur gildru fyrir menn á Einkamál.is
-1	Ísland	Ísland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=sérnafn_et_nf_hk
+1	Ísland	Ísland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	VANTAR_LIÐ_S_PREFIX	_	tag=sérnafn_et_nf_hk
 2	í	í	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
 3	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_þf_kk
-4	—	_	PUNCT	grm	_	5	punct	_	tag=grm
-5	Leggur	leggja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+4	—	_	PUNCT	grm	_	3	punct	_	tag=grm
+5	Leggur	leggja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 6	gildru	gildra	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	tag=no_et_þf_kvk
 7	fyrir	fyrir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	menn	maður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	tag=no_ft_þf_kk
@@ -66,7 +65,7 @@
 # text = Sá vöxtur er ekkert minni hjá okkur en öðrum.
 1	Sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_nf_kk
 2	vöxtur	vöxtur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	ekkert	enginn	ADV	eo_fst	Degree=Pos	5	advmod	_	tag=eo_fst
 5	minni	lítill	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_mst
 6	hjá	hjá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -82,7 +81,7 @@
 3	vill	vilja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 4	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	tag=pfn_et_þf_hk_p3
 5	þá	þá	ADV	ao_fst	Degree=Pos	8	advmod	_	tag=ao_fst
-6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 7	ég	ég	PRON	pfn_et_nf_kk_p1	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kk_p1
 8	klár	klár	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kk_fst_sb
 9	.	_	PUNCT	grm	_	8	punct	_	tag=grm
@@ -113,12 +112,14 @@
 9	Veigars	Veigar	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=person_et_ef_kk
 10	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00036,.10
+# text = Hér að neðan má sjá beina útsendingu frá farinu.
 1	Hér að neðan	hér að neðan	ADV	ao_fst	Degree=Pos	3	advmod	_	tag=ao_fst
 2	má	mega	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 4	beina	beinn	ADJ	lo_et_þf_kvk_fst_sb	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_þf_kvk_fst_sb
 5	útsendingu	útsending	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þf_kvk
 6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	farinu	far	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk_gr
+7	farinu	far	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 8	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

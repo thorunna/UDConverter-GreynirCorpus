@@ -21,16 +21,16 @@
 
 # sent_id = GREYNIR_CORPUS_00414,.2
 # text = Svar : MDMA (3,4 - methylenedioxymethamphetamine) er efni sem var þróað af þýsku lyfjafyrirtæki árið 1912.
-1	Svar	svar	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_hk
+1	Svar	svar	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=no_et_nf_hk
 2	:	:	PUNCT	grm	_	1	punct	_	tag=grm
 3	MDMA	3,4-metýlendíoxýmetamfetamín	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	SpaceAfter=No|tag=no_et_nf_hk
 4	(	(	PUNCT	grm	_	3	punct	_	tag=grm
 5	3,4	3,4	NUM	tala	NumType=Card	3	nummod	_	SpaceAfter=No|tag=tala
 6	-	-	PUNCT	grm	_	7	punct	_	tag=grm
 7	methylenedioxymethamphetamine	methylenedioxymethamphetamine	PROPN	entity_nf	Case=Nom	3	conj	_	SpaceAfter=No|tag=entity_nf
-8	)	)	PUNCT	grm	_	9	punct	_	tag=grm
-9	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-10	efni	efni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=no_et_nf_hk
+8	)	)	PUNCT	grm	_	7	punct	_	tag=grm
+9	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	efni	efni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 12	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 13	þróað	þróa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	acl:relcl	_	tag=so_0_lhþt_et
@@ -38,12 +38,12 @@
 15	þýsku	þýska	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þgf_hk_sb
 16	lyfjafyrirtæki	lyfjafyrirtæki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_þgf_hk
 17	árið 1912	árið 1912	ADV	ártal	_	13	advmod	_	SpaceAfter=No|tag=ártal
-18	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+18	.	.	PUNCT	grm	_	10	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00414,.3
 # text = Lauren Auder er nítján ára gamall söngvari og tónlistarmaður, sem búsettur er í Lundúnaborg nú um stundir.
 1	Lauren Auder	Lauren Auder	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	nítján	nítján	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	nummod	_	tag=töl_ft_ef_hk
 4	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_ef_hk
 5	gamall	gamall	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_sb
@@ -53,9 +53,9 @@
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 10	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 11	búsettur	búsetja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	acl:relcl	_	tag=so_0_lhþt_et
-12	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_nt_gm
+12	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	Lundúnaborg	Lundúna-borg	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=sérnafn_et_þgf_kvk
+14	Lundúnaborg	Lundúna-borg	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=sérnafn_et_þgf_kvk
 15	nú	nú	ADV	ao	_	17	advmod	_	tag=ao
 16	um	um	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
 17	stundir	stund	ADV	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	advmod	_	SpaceAfter=No|tag=no_ft_þf_kvk
@@ -84,10 +84,9 @@
 
 # sent_id = GREYNIR_CORPUS_00414,.5
 # text = Umhverfis- og samgönguráð Reykjavíkurborgar er ósátt við að rútubílstjórar skuli hunsa tilmæli borgarinnar um einstefnuumferð slíkra bíla á Njarðargötu.
--3	None	_	None	None	_	_	None	_	_
 1	Umhverfis- og samgönguráð	Umhverfis- og samgöngu-ráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 2	Reykjavíkurborgar	Reykjavíkurborg	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=sérnafn_et_ef_kvk
-3	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	ósátt	ósátt	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	að	að	SCONJ	st	_	4	obl	_	tag=st
@@ -186,6 +185,8 @@
 15	veðurs	veður	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_ef_hk
 16	.	.	PUNCT	grm	_	10	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00414,.10
+# text = Fjölskyldumarengsinn fær auðvitað að fljóta með en hann er í aðalhlutverki í öllum fjölskylduboðum hjá þeim mæðgum.
 1	Fjölskyldumarengsinn	fjölskyldu-marengs	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk_gr
 2	fær	fá	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	auðvitað	auðvitað	ADV	ao	_	2	advmod	_	tag=ao
@@ -194,7 +195,7 @@
 6	með	með	ADV	ao	_	5	advmod	_	tag=ao
 7	en	en	CCONJ	st	_	2	cc	_	tag=st
 8	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_kk_p3
-9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	í	í	ADP	fs_þgf	Case=Dat	2	conj	_	tag=fs_þgf
 11	aðalhlutverki	aðalhlutverk	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	xcomp	_	tag=no_et_þgf_hk
 12	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
@@ -202,6 +203,6 @@
 14	fjölskylduboðum	fjölskylduboð	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þgf_hk
 15	hjá	hjá	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 16	þeim	sá	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	nmod	_	tag=fn_ft_þgf_kvk
-17	mæðgum	mæðgur	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	tag=no_ft_þgf_kvk
+17	mæðgum	mæðgur	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

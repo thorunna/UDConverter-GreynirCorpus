@@ -1,8 +1,8 @@
 # sent_id = GREYNIR_CORPUS_00324,.1
 # text = En framleiðslan skráð hjá skúffufyrirtækjum í öðrum Evrópulöndum — fyrirtækjum sem ekki eru með neinn raunverulegan rekstur og vonlaust er að elta uppi til að innheimta vangoldna skatta og gjöld.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	3	cc	_	tag=st
 2	framleiðslan	framleiðsla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-3	skráð	skrá	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	conj	_	tag=so_0_lhþt_et
+3	skráð	skrá	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	skúffufyrirtækjum	skúffufyrirtæki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk
 6	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -18,10 +18,10 @@
 16	raunverulegan	raunverulegur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	17	amod	_	tag=lo_et_þf_kk_sb
 17	rekstur	rekstur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þf_kk
 18	og	og	CCONJ	st	_	13	cc	_	tag=st
-19	vonlaust	vonlaus	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	13	conj	_	tag=lo_et_þf_hk_sb
-20	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	tag=so_0_fh_p3_et_nt_gm
+19	vonlaust	vonlaus	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	13	cop	_	tag=lo_et_þf_hk_sb
+20	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
 21	að	að	PART	nhm	_	22	mark	_	tag=nhm
-22	elta	elta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_0_nh_gm
+22	elta	elta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_0_nh_gm
 23	uppi	uppi	ADV	ao	_	22	advmod	_	tag=ao
 24	til	til	ADP	fs_nh	VerbForm=Inf	26	case	_	tag=fs_nh
 25	að	að	PART	nhm	_	26	mark	_	tag=nhm
@@ -30,7 +30,7 @@
 28	skatta	skattur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	26	obj	_	tag=no_ft_þf_kk
 29	og	og	CCONJ	st	_	30	cc	_	tag=st
 30	gjöld	gjald	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	28	conj	_	SpaceAfter=No|tag=no_ft_þf_hk
-31	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+31	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00324,.2
 # text = Er þar meðal annars átt við við lýsingu á mönnum og bifreiðum en gott er að skrifa slíkt hjá sér ef fólk tekur eftir einhverju óvenjulegu í sínu nánasta umhverfi.
@@ -47,7 +47,7 @@
 11	bifreiðum	bifreið	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	9	conj	_	tag=no_ft_þgf_kvk
 12	en	en	CCONJ	st	_	1	cc	_	tag=st
 13	gott	góður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=lo_et_nf_hk_sb
-14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
 15	að	að	PART	nhm	_	16	mark	_	tag=nhm
 16	skrifa	skrifa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	csubj	_	tag=so_1_þf_nh_gm
 17	slíkt	slíkur	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=fn_et_þf_hk
@@ -130,9 +130,8 @@
 
 # sent_id = GREYNIR_CORPUS_00324,.5
 # text = Nígería er stórkostlegt land með alveg ótrúlega mörg tækifæri, segir Guðni Albert Einarsson, forstjóri Klofnings, sem undanfarin ár hefur átt í miklum viðskiptum í Nígeríu.
--7	None	_	None	None	_	_	None	_	_
 1	Nígería	Nígería	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	stórkostlegt	stórkostlegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_nf_hk_sb
 4	land	land	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	ccomp	_	tag=no_et_nf_hk
 5	með	með	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
@@ -176,7 +175,7 @@
 13	Írakshers	Íraksher	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	nmod:poss	_	tag=no_et_ef_kk
 14	reynist	reynast	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	19	advcl	_	tag=so_0_fh_p3_et_nt_mm
 15	réttur	réttur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	tag=lo_et_nf_kk_sb
-16	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	conj	_	tag=so_0_vh_p3_et_þt_gm
+16	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	cop	_	tag=so_0_vh_p3_et_þt_gm
 17	það	það	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	tag=fn_et_nf_hk
 18	mikið	mikill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	19	amod	_	tag=lo_et_nf_hk_sb
 19	áfall	áfall	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	tag=no_et_nf_hk
@@ -215,8 +214,8 @@
 18	þangað	þangað	ADV	ao	_	17	obl	_	tag=ao
 19	sem	sem	SCONJ	stt	_	23	mark	_	tag=stt
 20	þörfin	þörf	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	tag=no_et_nf_kvk_gr
-21	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	conj	_	tag=so_0_fh_p3_et_nt_gm
-22	talin	telja	VERB	so_2_þgf_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	23	VANTAR_LIÐ_so2_þgf_þf_lhþt_et	_	tag=so_2_þgf_þf_lhþt_et
+21	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	cop	_	tag=so_0_fh_p3_et_nt_gm
+22	talin	telja	VERB	so_2_þgf_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	23	('HALLÓ_so', '2_þgf_þf_lhþt_et', 'NP', 'PRD')	_	tag=so_2_þgf_þf_lhþt_et
 23	mest	mikill	ADJ	lo_et_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	18	advcl	_	tag=lo_et_nf_hk_esb
 24	og	og	CCONJ	st	_	11	cc	_	tag=st
 25	framlögin	framlag	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	26	nsubj	_	tag=no_ft_nf_hk_gr
@@ -292,18 +291,20 @@
 29	bæ	bær	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 30	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
-1	En	en	SCONJ	st	_	0	root	_	tag=st
-2	,	_	PUNCT	grm	_	13	punct	_	tag=grm
+# sent_id = GREYNIR_CORPUS_00324,.10
+# text = En, ekki er boðið uppá ræðuhöld um málið á þessu stigi, þannig að hver og einn þingmaður hefur takmarkaðan tíma til að gera ítarlega grein fyrir afstöðu sinni.
+1	En	en	SCONJ	st	_	13	cc	_	SpaceAfter=No|tag=st
+2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	ekki	ekki	ADV	ao	_	13	advmod	_	tag=ao
-4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_0_fh_p3_et_nt_gm
-5	boðið	bjóða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	VANTAR_LIÐ_so0_lhþt_et	_	tag=so_0_lhþt_et
+4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
+5	boðið	bjóða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	('HALLÓ_so', '0_lhþt_et', 'NP', 'PRD')	_	tag=so_0_lhþt_et
 6	uppá	uppá	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	ræðuhöld	ræðuhald	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_þf_hk
 8	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk_gr
 10	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 11	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	tag=fn_et_þgf_hk
-12	stigi	stig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
+12	stigi	stig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	þannig	þannig	ADV	ao	_	20	mark	_	tag=ao
 15	að	að	SCONJ	st	_	14	cc	_	tag=st
@@ -321,6 +322,6 @@
 27	grein	grein	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	tag=no_et_þf_kvk
 28	fyrir	fyrir	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
 29	afstöðu	afstaða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	tag=no_et_þgf_kvk
-30	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	29	nmod	_	tag=fn_et_þgf_kvk
-31	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+30	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kvk
+31	.	_	PUNCT	grm	_	29	punct	_	tag=grm
 

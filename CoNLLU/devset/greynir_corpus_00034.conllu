@@ -48,15 +48,15 @@
 
 # sent_id = GREYNIR_CORPUS_00034,.5
 # text = En við þurfum klárlega að grípa til aðgerða.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	3	cc	_	tag=st
 2	við	ég	PRON	pfn_ft_nf_kk_p1	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_kk_p1
-3	þurfum	þurfa	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p1_ft_nt_gm
+3	þurfum	þurfa	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_nt_gm
 4	klárlega	klárlega	ADV	ao_fst	Degree=Pos	3	advmod	_	tag=ao_fst
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	grípa	grípa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
 7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
 8	aðgerða	aðgerð	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_ef_kvk
-9	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00034,.6
 # text = Þessir sem sátu þarna höfðu sig ekkert í frammi.
@@ -109,12 +109,14 @@
 9	landsmanna	landsmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	8	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
 10	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00034,.10
+# text = Aftur á móti eru 15,7% bíla af Volkswagen gerð.
 1	Aftur á móti	aftur á móti	ADV	ao_fst	Degree=Pos	2	advmod	_	tag=ao_fst
 2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 3	15,7%	15,7%	NUM	prósenta	_	4	nummod	_	tag=prósenta
 4	bíla	bíll	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_ef_kk
 5	af	af	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Volkswagen	Volkswagen	PROPN	entity_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=entity_et_þgf_kvk
-7	gerð	gerð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	tag=no_et_þgf_kvk
+7	gerð	gerð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|tag=no_et_þgf_kvk
 8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

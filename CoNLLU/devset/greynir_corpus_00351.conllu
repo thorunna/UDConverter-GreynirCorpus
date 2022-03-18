@@ -30,7 +30,7 @@
 3	fram	fram	ADV	ao	_	2	advmod	_	tag=ao
 4	að	að	SCONJ	st	_	8	mark	_	tag=st
 5	rannsókninni	rannsókn	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_þgf_kvk_gr
-6	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_vh_p3_et_nt_gm
+6	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
 7	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
 8	lokið	ljúka	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	2	obj	_	SpaceAfter=No|tag=so_1_þgf_sagnb_gm
 9	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -54,7 +54,7 @@
 3	til	til	ADV	ao	_	2	advmod	_	tag=ao
 4	að	að	SCONJ	st	_	7	mark	_	tag=st
 5	hofið	hof	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk_gr
-6	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_vh_p3_et_þt_gm
+6	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_vh_p3_et_þt_gm
 7	tilbúið	tilbúa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	nsubj	_	tag=so_0_lhþt_et
 8	2016	2016	ADV	ártal	_	7	advmod	_	SpaceAfter=No|tag=ártal
 9	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -87,7 +87,7 @@
 # sent_id = GREYNIR_CORPUS_00351,.8
 # text = Það var jafnframt hans fyrsta fyrir nýja félagið.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_hk_p3
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	jafnframt	jafnframt	ADV	ao	_	5	advmod	_	tag=ao
 4	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	tag=pfn_et_ef_kk_p3
 5	fyrsta	fyrstur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_vb
@@ -98,16 +98,18 @@
 
 # sent_id = GREYNIR_CORPUS_00351,.9
 # text = En hvernig lítur framhaldið út hjá skyttunni öflugu ?
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	3	cc	_	tag=st
 2	hvernig	hvernig	ADV	ao	_	3	advmod	_	tag=ao
-3	lítur	líta	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	lítur	líta	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	framhaldið	framhald	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
 5	út	út	ADV	ao	_	3	advmod	_	tag=ao
 6	hjá	hjá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	skyttunni	skytta	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk_gr
 8	öflugu	öflugur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No|tag=lo_et_þgf_kvk_vb
-9	?	?	PUNCT	grm	_	1	punct	_	tag=grm
+9	?	?	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00351,.10
+# text = Framarar hefðu átt að fá vítakast eftir sigurmark ÍBV
 1	Framarar	Framari	PROPN	sérnafn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	tag=sérnafn_ft_nf_kk
 2	hefðu	hafa	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_vh_p3_ft_þt_gm
 3	átt	eiga	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm

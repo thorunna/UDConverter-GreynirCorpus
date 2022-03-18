@@ -90,7 +90,7 @@
 # text = Störf listamanna eru ekki alltaf metin að verðleikum og óhefðbundinn vinnutími passar ekki við hugmyndir fólks um fullt starf.
 1	Störf	starf	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	tag=no_ft_nf_hk
 2	listamanna	listamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk
-3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_nt_gm
+3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_ft_nt_gm
 4	ekki	ekki	ADV	ao	_	6	advmod	_	tag=ao
 5	alltaf	alltaf	ADV	ao	_	4	advmod	_	tag=ao
 6	metin	metinn	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
@@ -111,14 +111,13 @@
 
 # sent_id = GREYNIR_CORPUS_00430,.6
 # text = Ég veit ekki alveg hvort það var einhver kaldhæðni í þessu hjá hæstv. ráðherra, að þetta væri stórmál.
--2	None	_	None	None	_	_	None	_	_
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	veit	vita	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	ekki	ekki	ADV	eo	_	2	advmod	_	tag=eo
 4	alveg	alveg	ADV	eo	_	3	advmod	_	tag=eo
 5	hvort	hvort	CCONJ	st	_	9	cc	_	tag=st
 6	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_hk_p3
-7	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+7	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 8	einhver	einhver	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	tag=fn_et_nf_kvk
 9	kaldhæðni	kaldhæðni	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	tag=no_et_nf_kvk
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
@@ -129,7 +128,7 @@
 15	,	,	PUNCT	grm	_	14	punct	_	tag=grm
 16	að	að	SCONJ	st	_	19	mark	_	tag=st
 17	þetta	þetta	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	tag=fn_et_nf_hk
-18	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	conj	_	tag=so_1_nf_vh_p3_et_þt_gm
+18	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 19	stórmál	stórmál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	ccomp	_	SpaceAfter=No|tag=no_et_nf_hk
 20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -148,7 +147,7 @@
 11	ætla	ætla	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	obl	_	tag=so_1_þf_nh_gm
 12	að	að	SCONJ	st	_	15	mark	_	tag=st
 13	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_p1
-14	væri	vera	VERB	so_1_nf_vh_p1_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=1|Tense=Past|Voice=Act	15	conj	_	tag=so_1_nf_vh_p1_et_þt_gm
+14	væri	vera	VERB	so_1_nf_vh_p1_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=1|Tense=Past|Voice=Act	15	cop	_	tag=so_1_nf_vh_p1_et_þt_gm
 15	ríkisborgari	ríkisborgari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	tag=no_et_nf_kk
 16	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 17	öðru	annar	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	tag=fn_et_þgf_hk
@@ -172,7 +171,7 @@
 13	brautargengi	brautargengi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No|tag=no_et_þf_hk
 14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
 15	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_et_nf_hk_p3
-16	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+16	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 17	þröngt	þröngt	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_nf_hk_sb
 18	nálaraugað	nálarauga	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|tag=no_et_nf_hk_gr
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -200,9 +199,10 @@
 19	fari	fara	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	obl	_	SpaceAfter=No|tag=so_0_vh_p3_et_nt_gm
 20	.	.	PUNCT	grm	_	13	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00430,.10
+# text = Hér er reynt að varpa ljósi á það hvernig málin blöstu við íslensku þjóðinni á árunum 1974 til 1980.
 1	Hér	hér	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	reynt	reyna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	varpa	varpa	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þgf_nh_gm
@@ -219,6 +219,6 @@
 16	árunum	ár	ADV	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	11	advmod	_	tag=no_ft_þgf_hk_gr
 17	1974	1974	NUM	ártal	_	16	nummod	_	tag=ártal
 18	til	til	ADP	fs_ef	Case=Gen	19	case	_	tag=fs_ef
-19	1980	1980	NUM	ártal	_	16	obl	_	tag=ártal
+19	1980	1980	NUM	ártal	_	16	obl	_	SpaceAfter=No|tag=ártal
 20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

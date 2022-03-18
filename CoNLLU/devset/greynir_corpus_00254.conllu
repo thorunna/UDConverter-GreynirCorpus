@@ -6,7 +6,7 @@
 4	fram	fram	ADV	ao	_	3	advmod	_	tag=ao
 5	að	að	SCONJ	st	_	8	mark	_	tag=st
 6	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
-7	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_vh_p3_et_nt_gm
+7	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
 8	talið	telja	VERB	so_0_lhþt_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	3	nsubj	_	tag=so_0_lhþt_et_nf_hk
 9	að	að	SCONJ	st	_	13	mark	_	tag=st
 10	þau	sá	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	11	nmod	_	tag=fn_ft_nf_hk
@@ -132,7 +132,7 @@
 # sent_id = GREYNIR_CORPUS_00254,.8
 # text = Þetta var fyrsta mark leiksins sem lauk með 2 – 1 sigri Iniesta og félaga.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	fyrsta	fyrstur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_nf_hk_vb
 4	mark	mark	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 5	leiksins	leikur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kk_gr
@@ -151,7 +151,7 @@
 # sent_id = GREYNIR_CORPUS_00254,.9
 # text = Alls voru 130 handteknir vegna mótmælanna sem fóru fram í París og víðar um Frakkland.
 1	Alls	alls	ADV	ao	_	4	advmod	_	tag=ao
-2	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_þt_gm
+2	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_þt_gm
 3	130	130	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	4	nsubj	_	tag=tala_ft_nf_kk
 4	handteknir	handtaka	VERB	so_0_lhþt_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft_nf_kk
 5	vegna	vegna	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
@@ -167,6 +167,8 @@
 15	Frakkland	Frakkland	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
 16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00254,.10
+# text = Margar milljónir dósa seljast hér á landi árlega og hugsanlegt að höfðatölumet hafi verið slegin.
 1	Margar	margur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_nf_kvk_sb
 2	milljónir	milljón	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	tag=no_ft_nf_kvk
 3	dósa	dós	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	2	nmod:poss	_	tag=no_ft_ef_kvk
@@ -179,6 +181,6 @@
 10	höfðatölumet	höfðatölumet	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	tag=no_ft_nf_hk
 11	hafi	hefur	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_nt_gm
 12	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	ccomp	_	tag=so_0_sagnb_gm
-13	slegin	slá	VERB	so_0_lhþt_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part	12	obl	_	tag=so_0_lhþt_ft_nf_kvk
+13	slegin	slá	VERB	so_0_lhþt_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part	12	obl	_	SpaceAfter=No|tag=so_0_lhþt_ft_nf_kvk
 14	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 

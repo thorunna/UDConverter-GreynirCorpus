@@ -10,11 +10,10 @@
 
 # sent_id = GREYNIR_CORPUS_00020,.2
 # text = Þannig getur tungumálanámið verið lifandi og skemmtilegt.
--2	None	_	None	None	_	_	None	_	_
 1	Þannig	þannig	ADV	ao	_	5	advmod	_	tag=ao
 2	getur	geta	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	tungumálanámið	tungumálanám	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk_gr
-4	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	conj	_	tag=so_1_nf_sagnb_gm
+4	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 5	lifandi	lifandi	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
 7	skemmtilegt	skemmtilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
@@ -23,7 +22,7 @@
 # sent_id = GREYNIR_CORPUS_00020,.3
 # text = Svo er æfingatíminn mjög hentugur fyrir barnafjölskyldur.
 1	Svo	svo	ADV	ao	_	5	advmod	_	tag=ao
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	æfingatíminn	æfingatími	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk_gr
 4	mjög	mjög	ADV	eo	_	5	advmod	_	tag=eo
 5	hentugur	hentugur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
@@ -55,7 +54,7 @@
 # sent_id = GREYNIR_CORPUS_00020,.6
 # text = Þetta var mest spennandi hringur ársins.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	mest	mikið	ADV	eo_est	Degree=Sup	5	advmod	_	tag=eo_est
 4	spennandi	spennandi	ADJ	lo_et_nf_kk_est	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_est
 5	hringur	hringur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -86,22 +85,23 @@
 
 # sent_id = GREYNIR_CORPUS_00020,.9
 # text = Um norðanvert landið er hálka eða hálkublettir.
--2	None	_	None	None	_	_	None	_	_
 1	Um	um	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
 2	norðanvert	norðanverður	ADJ	lo_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	amod	_	tag=lo_et_þf_hk
 3	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk_gr
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	hálka	hálka	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 6	eða	eða	CCONJ	st	_	7	cc	_	tag=st
 7	hálkublettir	hálkublettur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No|tag=no_ft_nf_kk
 8	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00020,.10
+# text = Palestínska lögreglan hefur hert öryggisráðstafanir vegna ferðamannafjöldans.
 1	Palestínska	palestínskur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_vb
 2	lögreglan	lögregla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	hert	herða	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 5	öryggisráðstafanir	öryggisráðstöfun	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	tag=no_ft_þf_kvk
 6	vegna	vegna	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-7	ferðamannafjöldans	ferðamannafjöldi	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_ef_kk_gr
+7	ferðamannafjöldans	ferðamannafjöldi	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 8	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

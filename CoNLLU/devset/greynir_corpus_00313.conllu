@@ -29,22 +29,22 @@
 # sent_id = GREYNIR_CORPUS_00313,.2
 # text = Ég var ekki nógu góð fyrir neinn og þá sérstaklega var ég ekki nógu góð fyrir Drottin Jesú sem ég hafði trúað á allt mitt líf.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_p1
-2	var	vera	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p1_et_þt_gm
+2	var	vera	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p1_et_þt_gm
 3	ekki	ekki	ADV	eo	_	5	advmod	_	tag=eo
 4	nógu	nógu	ADV	eo	_	5	advmod	_	tag=eo
 5	góð	góður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 6	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	neinn	neinn	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	tag=fn_et_þf_kk
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
-9	þá	þá	ADV	ao	_	15	advmod	_	tag=ao
-10	sérstaklega	sérstaklega	ADV	ao	_	15	advmod	_	tag=ao
-11	var	vera	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	5	conj	_	tag=so_1_nf_fh_p1_et_þt_gm
-12	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_p1
-13	ekki	ekki	ADV	eo	_	15	advmod	_	tag=eo
+9	þá	þá	ADV	ao	_	5	advmod	_	tag=ao
+10	sérstaklega	sérstaklega	ADV	ao	_	5	advmod	_	tag=ao
+11	var	vera	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p1_et_þt_gm
+12	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_p1
+13	ekki	ekki	ADV	eo	_	5	advmod	_	tag=eo
 14	nógu	nógu	ADV	eo	_	13	advmod	_	tag=eo
-15	góð	góður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	tag=lo_et_nf_kvk_sb
+15	góð	góður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	cop	_	tag=lo_et_nf_kvk_sb
 16	fyrir	fyrir	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	Drottin	drottinn	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_þf_kk
+17	Drottin	drottinn	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þf_kk
 18	Jesú	Jesús	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	conj	_	tag=person_ef_kk
 19	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
 20	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	tag=pfn_et_nf_p1
@@ -71,7 +71,7 @@
 13	þetta	þetta	ADV	ao	_	14	advmod	_	tag=ao
 14	teljum	telja	VERB	so_2_þf_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	conj	_	tag=so_2_þf_þf_fh_p1_ft_nt_gm
 15	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	tag=pfn_ft_nf_p1
-16	vera	vera	VERB	so_0	_	18	conj	_	tag=so_0
+16	vera	vera	VERB	so_0	_	18	cop	_	tag=so_0
 17	mjög	mjög	ADV	eo	_	18	advmod	_	tag=eo
 18	mikilvægt	mikilvægur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	14	xcomp	_	tag=lo_et_þf_hk_sb
 19	fyrir	fyrir	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
@@ -122,7 +122,7 @@
 6	að	að	SCONJ	st	_	10	mark	_	tag=st
 7	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=fn_et_nf_hk
 8	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_vh_p3_ft_nt_gm
-9	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	10	conj	_	tag=so_1_nf_sagnb_gm
+9	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	10	cop	_	tag=so_1_nf_sagnb_gm
 10	umfjöllun	umfjöllun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 11	tveggja	tveir	NUM	to_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	nummod	_	tag=to_ft_ef_hk
 12	dagblaða	dagblað	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	10	nmod:poss	_	tag=no_ft_ef_hk
@@ -136,7 +136,7 @@
 20	á þeim tíma	á þeim tíma	ADV	ao	_	16	advmod	_	tag=ao
 21	sem	sem	SCONJ	stt	_	24	mark	_	tag=stt
 22	umfjöllunin	umfjöllun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	nsubj	_	tag=no_et_nf_kvk_gr
-23	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+23	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 24	birt	birta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	20	advcl	_	SpaceAfter=No|tag=so_0_lhþt_et
 25	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
@@ -177,7 +177,7 @@
 3	Fanndís Friðriksdóttir	Fanndís Friðriksdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
 4	og	og	CCONJ	st	_	2	cc	_	tag=st
 5	nú	nú	ADV	ao	_	8	advmod	_	tag=ao
-6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_nt_gm
+6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	Berglind Björg Þorvaldsdóttir	Berglind Björg Þorvaldsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	nsubj	_	tag=person_nf_kvk
 8	farin	farinn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=lo_et_nf_kvk_sb
 9	en	en	CCONJ	st	_	2	cc	_	tag=st
@@ -257,6 +257,8 @@
 26	RIG	rig	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 27	.	_	PUNCT	grm	_	10	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00313,.10
+# text = Guðjón Valur Sigurðsson og Alexander Petersson skoruðu sex mörk hvor fyrir Rhein-Neckar Löwen í öruggum átta marka sigri á Melsungen í þýsku Bundesligunni í handbolta.
 1	Guðjón Valur Sigurðsson	Guðjón Valur Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	Alexander Petersson	Alexander Petersson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
@@ -277,6 +279,6 @@
 18	þýsku	þýskur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	19	amod	_	tag=lo_et_þgf_kvk_vb
 19	Bundesligunni	bundesliga	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þgf_kvk_gr
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-21	handbolta	handbolti	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_þgf_kk
+21	handbolta	handbolti	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 22	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

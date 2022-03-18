@@ -66,9 +66,8 @@
 
 # sent_id = GREYNIR_CORPUS_00419,.4
 # text = Hann var handtekinn árið 2012 í kjölfar þess að farið var aftur og ítarlegar yfir sönnunargögn í umfangsmikilli morðrannsókn.
--4	None	_	None	None	_	_	None	_	_
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	handtekinn	handtaka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	árið 2012	árið 2012	ADV	ártal	_	3	advmod	_	tag=ártal
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -152,12 +151,11 @@
 
 # sent_id = GREYNIR_CORPUS_00419,.8
 # text = Annar þeirra er sagður vera Corey Lewandowski, fyrrum kosningastjóri Trumps sem var rekinn eftir ósætti við börn Trumps.
--3	None	_	None	None	_	_	None	_	_
 1	Annar	annar	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=fn_et_nf_kk
 2	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_ft_ef_kk_p3
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	sagður	sagður	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	conj	_	tag=so_1_nf_nh_gm
+5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	cop	_	tag=so_1_nf_nh_gm
 6	Corey Lewandowski	Corey Lewandowski	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	xcomp	_	SpaceAfter=No|tag=person_nf_kk
 7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
 8	fyrrum	fyrrum	ADV	eo	_	9	advmod	_	tag=eo
@@ -176,7 +174,7 @@
 # sent_id = GREYNIR_CORPUS_00419,.9
 # text = Þá var maður í annarlegu ástandi vistaður í fangageymslu eftir að hafa haft í hótunum við starfsfólk Gistiskýlisins.
 1	Þá	þá	ADV	ao	_	7	advmod	_	tag=ao
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	maður	maður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk
 4	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	annarlegu	annarlegur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þgf_hk_sb
@@ -195,9 +193,10 @@
 18	Gistiskýlisins	gistiskýli	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	17	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk_gr
 19	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00419,.10
+# text = Það er verkefni sálfræðinga að rannsaka hvers vegna stjórnmálamenn og ráðamenn hér hafa neikvæða afstöðu til eldri borgara.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
 3	verkefni	verkefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 4	sálfræðinga	sálfræðingur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nmod:poss	_	tag=no_ft_ef_kk
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
@@ -213,6 +212,6 @@
 15	afstöðu	afstaða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	tag=no_et_þf_kvk
 16	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
 17	eldri	gamall	ADJ	lo_et_ef_kk_mst	Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	18	amod	_	tag=lo_et_ef_kk_mst
-18	borgara	borgari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_ef_kk
+18	borgara	borgari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_ef_kk
 19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

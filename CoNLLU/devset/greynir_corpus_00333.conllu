@@ -23,13 +23,13 @@
 21	þar	þar	ADV	ao	_	25	advmod	_	tag=ao
 22	á	á	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
 23	meðal	meðal	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	tag=no_et_þf_hk
-24	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	25	conj	_	tag=so_0_fh_p3_et_þt_gm
+24	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	25	cop	_	tag=so_0_fh_p3_et_þt_gm
 25	farið	fara	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
 26	fram	fram	ADV	eo	_	25	advmod	_	tag=eo
 27	á	á	ADV	eo	_	26	advmod	_	tag=eo
 28	að	að	SCONJ	st	_	29	mark	_	tag=st
 29	kveikt	kveiktur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	25	obl	_	tag=lo_et_nf_kvk_sb
-30	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	29	conj	_	tag=so_0_vh_p3_et_þt_gm
+30	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	29	cop	_	tag=so_0_vh_p3_et_þt_gm
 31	ljós	ljós	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	tag=lo_et_nf_kvk_sb
 32	í	í	ADP	fs_þf	Case=Acc	33	case	_	tag=fs_þf
 33	skrifstofu	skrifstofa	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	tag=no_et_þf_kvk
@@ -67,12 +67,12 @@
 25	heimili	heimili	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	22	obj	_	tag=no_et_þf_hk
 26	og fleira	og fleira	ADV	eo	_	25	advmod	_	tag=eo
 27	þá	þá	ADV	ao	_	30	advmod	_	tag=ao
-28	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	conj	_	tag=so_0_fh_p3_et_nt_gm
+28	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	cop	_	tag=so_0_fh_p3_et_nt_gm
 29	ótrúlega	ótrúlega	ADV	eo	_	30	advmod	_	tag=eo
 30	algengt	algengur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 31	að	að	SCONJ	st	_	35	mark	_	tag=st
 32	þær	hún	PRON	pfn_ft_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	tag=pfn_ft_nf_kvk_p3
-33	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	35	conj	_	tag=so_0_vh_p3_ft_nt_gm
+33	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	35	cop	_	tag=so_0_vh_p3_ft_nt_gm
 34	ekki	ekki	ADV	eo	_	35	advmod	_	tag=eo
 35	lausar	laus	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	30	ccomp	_	SpaceAfter=No|tag=lo_ft_nf_kvk_sb
 36	.	_	PUNCT	grm	_	30	punct	_	tag=grm
@@ -119,10 +119,9 @@
 
 # sent_id = GREYNIR_CORPUS_00333,.4
 # text = Rafbílar eru orðnir ráðandi í Noregi því í þriðja sæti varð BMW i3 sem seldist í 5.687 eintökum, sem er 12,9% aukning, og Tesla Model X í 4.981 eintökum, sem er 4,9% aukning.
--3	None	_	None	None	_	_	None	_	_
 1	Rafbílar	rafbíll	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_nf_kk
 2	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_ft_nt_gm
-3	orðnir	verða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	4	conj	_	tag=so_0_lhþt_ft
+3	orðnir	verða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	4	cop	_	tag=so_0_lhþt_ft
 4	ráðandi	ráða	VERB	so_0_lhnt	_	0	root	_	tag=so_0_lhnt
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Noregi	Noregur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
@@ -207,7 +206,7 @@
 6	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	veiðar	veiðar	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_þf_kvk
 8	á	á	ADP	fs	_	10	case	_	tag=fs
-9	lifandi	lifa	VERB	so_1_þgf_lhnt	Case=Dat	10	('HALLÓ_so', '1_þgf_lhnt', 'NP', None)	_	tag=so_1_þgf_lhnt
+9	lifandi	lifa	VERB	so_1_þgf_lhnt	Case=Dat	10	amod	_	tag=so_1_þgf_lhnt
 10	auðlindum	auðlind	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	tag=pfn_ft_nf_p1
@@ -240,9 +239,8 @@
 
 # sent_id = GREYNIR_CORPUS_00333,.7
 # text = Þetta er ansi merkilegt viðhorf að vilja kasta frá sér verkefni sem er að skila gríðarlegum gjaldeyristekjum til þjóðarinnar frekar en að taka þátt í þeirri alþjóðlegu samkeppni sem þeir búa við, segir Sigurjón.
--3	None	_	None	None	_	_	None	_	_
 1	Þetta	þetta	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
 3	ansi	ansi	ADV	eo	_	5	advmod	_	tag=eo
 4	merkilegt	merkilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_nf_hk_sb
 5	viðhorf	viðhorf	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	34	ccomp	_	tag=no_et_nf_hk
@@ -351,7 +349,7 @@
 28	fyrir	fyrir	ADV	ao	_	27	advmod	_	tag=ao
 29	og	og	CCONJ	st	_	27	cc	_	tag=st
 30	tryggt	tryggja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	27	VANTAR_LIÐ_IP_None	_	tag=so_0_sagnb_gm
-31	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	conj	_	tag=so_0_fh_p3_et_nt_gm
+31	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	cop	_	tag=so_0_fh_p3_et_nt_gm
 32	að	að	SCONJ	st	_	34	mark	_	tag=st
 33	einstaklingar	einstaklingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	tag=no_ft_nf_kk
 34	fái	fá	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	30	ccomp	_	tag=so_1_þf_vh_p3_ft_nt_gm
@@ -359,6 +357,8 @@
 36	erfðaráðgjöf	erfðaráðgjöf	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 37	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00333,.10
+# text = Ashley skilaði ágætis tölum en miðað við hæfileikana sem í henni búa er deginum ljósara að hún feel-aði sig ekki vel á Íslandi því hún sýndi bara brotabrot og gaf lítið af sér.
 1	Ashley	Ashley	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=person_et_nf_kvk
 2	skilaði	skila	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	ágætis	ágætis	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk
@@ -371,7 +371,7 @@
 10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	henni	henni	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=fn_et_þgf_kvk
 12	búa	búa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-13	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_0_fh_p3_et_nt_gm
+13	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
 14	deginum	deginum	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_þgf_kk_gr
 15	ljósara	ljósara	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_nf_kk_mst
 16	að	að	SCONJ	st	_	18	mark	_	tag=st
@@ -391,6 +391,6 @@
 30	gaf	gefa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	26	conj	_	tag=so_0_fh_p3_et_þt_gm
 31	lítið	lítill	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	30	obj	_	tag=lo_et_þf_hk_sb
 32	af	af	ADP	fs_þgf	Case=Dat	33	case	_	tag=fs_þgf
-33	sér	sér	PRON	fn_et_þgf	Case=Dat|Number=Sing	30	obl	_	tag=fn_et_þgf
+33	sér	sér	PRON	fn_et_þgf	Case=Dat|Number=Sing	30	obl	_	SpaceAfter=No|tag=fn_et_þgf
 34	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

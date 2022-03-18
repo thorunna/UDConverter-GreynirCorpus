@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00307,.1
 # text = Stríðsherbergið er vettvangur þar sem aðstoðarmenn Trumps og ráðgjafar koma saman til að leggja á ráðin um aðgerðir í einstöku, brýnum málum.
--4	None	_	None	None	_	_	None	_	_
 1	Stríðsherbergið	stríðsherbergi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	vettvangur	vettvangur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	þar	þar	ADV	ao	_	3	advmod	_	tag=ao
 5	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
@@ -58,7 +57,7 @@
 # text = Þar af verða 3,5 milljarðar íslenskra króna greiddar út og 5,9 milljarða fær Norvik í formi hlutafjár í Bergs Timber sé miðað við gengið 2,71.
 1	Þar	þar	ADV	ao	_	5	advmod	_	tag=ao
 2	af	af	ADV	ao	_	1	advmod	_	tag=ao
-3	verða	verða	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+3	verða	verða	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4	3,5 milljarðar íslenskra króna	3,5 milljarðar íslenskra króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_nf_kk
 5	greiddar	greiddur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=lo_ft_nf_kvk_sb
 6	út	út	ADV	eo	_	5	advmod	_	tag=eo
@@ -202,7 +201,7 @@
 9	sjálfstæðum	sjálfstæður	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_þgf_kk_sb
 10	hætti	háttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
 11	og	og	CCONJ	st	_	4	cc	_	tag=st
-12	m.a.	m.a.	NOUN	abbrev	_	4	('HALLÓ_abbrev', None, 'IP', 'INF')	_	tag=abbrev
+12	m.a.	m.a.	ADV	abbrev	_	4	advmod	_	tag=abbrev
 13	skuli	skulu	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_vh_p3_et_nt_gm
 14	hlustað	hlustaður	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	conj	_	tag=so_0_lhþt_et
 15	á	á	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
@@ -246,6 +245,8 @@
 24	stjórnmálamönnum	stjórnmálamaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 25	.	_	PUNCT	grm	_	10	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00307,.10
+# text = Sagði hann meðal annars að hún hefði grátbeðið sig um fjárframlög og að hún myndi gera hvað sem er fyrir þau.
 1	Sagði	segja	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
 2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	tag=pfn_et_nf_kk_p3
 3	meðal annars	meðal annars	ADV	eo	_	1	obj	_	tag=eo
@@ -265,6 +266,6 @@
 17	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
 18	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 19	fyrir	fyrir	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	þau	það	PRON	pfn_ft_þf_hk_p3	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	18	obl	_	tag=pfn_ft_þf_hk_p3
+20	þau	það	PRON	pfn_ft_þf_hk_p3	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No|tag=pfn_ft_þf_hk_p3
 21	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 

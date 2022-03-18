@@ -43,7 +43,7 @@
 # sent_id = GREYNIR_CORPUS_00099,.3
 # text = Viðar Guðjohnsen er án nokkurs vafa sá maður sem hefur valdið mestum usla í tengslum við leiðtogaslaginn.
 1	Viðar Guðjohnsen	Viðar Guðjohnsen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	án	án	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 4	nokkurs	nokkur	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	tag=fn_et_ef_kk
 5	vafa	vafi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_ef_kk
@@ -70,7 +70,7 @@
 6	ESB-aðild	ESB-aðild	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	tag=no_et_nf_kvk
 7	Ítala	Ítali	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	tag=sérnafn_et_ef_kk
 8	óbeint	óbeint	ADV	ao	_	10	advmod	_	tag=ao
-9	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	10	conj	_	tag=so_1_nf_sagnb_gm
+9	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	10	cop	_	tag=so_1_nf_sagnb_gm
 10	liður	liður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	kosningabaráttunni	kosningabarátta	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
@@ -86,12 +86,12 @@
 6	spá	spá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
 7	í	í	ADV	ao	_	6	advmod	_	tag=ao
 8	og	og	CCONJ	st	_	6	cc	_	tag=st
-9	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	conj	_	tag=so_1_þf_nh_gm
+9	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	cop	_	tag=so_1_þf_nh_gm
 10	hvað	hver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	obl	_	tag=fn_et_nf_hk
 11	aðrir	annar	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	tag=fn_ft_nf_kk
 12	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_ft_nt_gm
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
-14	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	ccomp	_	SpaceAfter=No|tag=so_0_nh_gm
+14	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	ccomp	_	SpaceAfter=No|tag=so_0_nh_gm
 15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00099,.6
@@ -149,7 +149,7 @@
 9	fyrr	fyrir	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 10	að	að	SCONJ	st	_	14	mark	_	tag=st
 11	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_hk_p3
-12	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_0_vh_p3_et_nt_gm
+12	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_vh_p3_et_nt_gm
 13	álíka	álíka	ADV	eo	_	14	advmod	_	tag=eo
 14	dýrt	dýr	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	8	obl	_	tag=lo_et_nf_hk_sb
 15	og	og	CCONJ	st	_	17	cc	_	tag=st
@@ -166,8 +166,8 @@
 5	strokka	strokkur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	6	obl	_	tag=no_ft_ef_kk
 6	vél	vél	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
-9	fjórhjóladrifinn	fjórhjóladrifinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
+8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_fh_p3_et_nt_gm
+9	fjórhjóladrifinn	fjórhjóladrifinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	cop	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 11	en	en	CCONJ	st	_	2	cc	_	tag=st
 12	ekki	ekki	ADV	ao	_	14	advmod	_	tag=ao
@@ -178,6 +178,8 @@
 17	vélarinnar	vél	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00099,.10
+# text = Við það bætist aðhald sem kemur í gegnum hin ýmsu þjóðhagsvarúðartæki bankans sem eru virk í dag.
 1	Við	við	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þf_hk_p3
 3	bætist	bæta	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
@@ -193,6 +195,6 @@
 13	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
 14	virk	virkur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	13	acl:relcl	_	tag=lo_ft_nf_hk_sb
 15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	advmod	_	tag=no_et_þf_kk
+16	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 17	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

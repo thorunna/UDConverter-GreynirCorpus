@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00315,.1
 # text = Þrennt er venjulega talið dragbítur á hverju hagkerfi : háar ríkisskuldir, dræmur hagvöxtur og illa statt bankakerfi- og allt er þetta fyrir hendi á Ítalíu.
 1	Þrennt	þrennur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=lo_et_nf_hk_sb
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	venjulega	venjulegur	ADV	ao	_	5	advmod	_	tag=ao
 4	talið	telja	VERB	so_0_sagnb	VerbForm=Sup	5	('HALLÓ_so', '0_sagnb', 'NP', 'PRD')	_	tag=so_0_sagnb
 5	dragbítur	dragbítur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -32,11 +32,11 @@
 2	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
 3	tel	telja	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 4	svo	svo	ADV	ao	_	3	advmod	_	tag=ao
-5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	3	conj	_	SpaceAfter=No|tag=so_1_nf_nh_gm
+5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	3	cop	_	SpaceAfter=No|tag=so_1_nf_nh_gm
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	að	að	SCONJ	st	_	11	mark	_	tag=st
 8	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_hk_p3
-9	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+9	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 10	töluverður	töluverður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_nf_kk_sb
 11	munur	munur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_nf_kk
 12	þar	þar	ADV	ao	_	11	advmod	_	tag=ao
@@ -73,7 +73,7 @@
 14	um	um	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	að	að	SCONJ	st	_	13	obl	_	tag=st
 16	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	tag=pfn_et_nf_hk_p3
-17	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	conj	_	tag=so_0_vh_p3_et_nt_gm
+17	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_0_vh_p3_et_nt_gm
 18	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	15	obl	_	tag=lo_et_nf_hk_sb
 19	að	að	PART	nhm	_	20	mark	_	tag=nhm
 20	opna	opna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	18	nsubj	_	tag=so_0_nh_gm
@@ -87,17 +87,16 @@
 
 # sent_id = GREYNIR_CORPUS_00315,.4
 # text = Hins vegar hefur verið varað við því að slíkt markmið sé nánast ómögulegt þar sem vígamennirnir fela sig víða um eyðimörkina sem þeir þekkja betur en aðrir.
--3	None	_	None	None	_	_	None	_	_
 1	Hins vegar	hins vegar	ADV	ao	_	4	advmod	_	tag=ao
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	conj	_	tag=so_0_sagnb_gm
+3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	varað	vara	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	við	við	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
 7	að	að	SCONJ	st	_	12	mark	_	tag=st
 8	slíkt	slíkur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nmod	_	tag=fn_et_nf_hk
 9	markmið	markmið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=no_et_nf_hk
-10	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_0_vh_p3_et_nt_gm
+10	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_nt_gm
 11	nánast	náið	ADV	eo_est	Degree=Sup	12	advmod	_	tag=eo_est
 12	ómögulegt	ómögulegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	6	ccomp	_	tag=lo_et_nf_hk_sb
 13	þar	þar	ADV	ao	_	16	mark	_	tag=ao
@@ -179,7 +178,7 @@
 2	ályktun	ályktun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk
 3	þingsins	þing	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod:poss	_	tag=no_et_ef_hk_gr
 4	hefðu	hafa	AUX	so_1_þf_vh_p3_ft_þt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_1_þf_vh_p3_ft_þt_gm
-5	m.a.	m.a.	NOUN	abbrev	_	6	('HALLÓ_abbrev', None, 'VP', None)	_	tag=abbrev
+5	m.a.	m.a.	ADV	abbrev	_	6	advmod	_	tag=abbrev
 6	komið	koma	VERB	so_0_op_subj__bh_ft_gm	Mood=Imp|Number=Plur|Voice=Act	6	conj	_	tag=so_0_op_subj__bh_ft_gm
 7	fram	fram	ADV	ao	_	6	advmod	_	tag=ao
 8	tillögur	tillaga	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	nsubj	_	tag=no_ft_þf_kvk
@@ -265,6 +264,8 @@
 26	slíkt	slíkur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No|tag=fn_et_nf_hk
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00315,.10
+# text = Þá hefðu þau leitað álits vísindasiðanefndar HÍ sem hefði gefið rannsókninni jákvæða umsögn og að hún væri í samræmi við skilyrði vísindasiðareglur [ sic ].
 1	Þá	þá	ADV	ao	_	4	advmod	_	tag=ao
 2	hefðu	hafa	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	4	aux	_	tag=so_0_vh_p3_ft_þt_gm
 3	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_ft_nf_hk_p3
@@ -286,9 +287,9 @@
 19	samræmi	samræmi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	tag=no_et_þgf_hk
 20	við	við	ADP	fs	_	21	case	_	tag=fs
 21	skilyrði	skilyrða	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	17	obl	_	tag=no_ft_þf_hk
-22	vísindasiðareglur	vísindasiðaregla	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	21	nmod:poss	_	tag=no_ft_þf_kvk
+22	vísindasiðareglur	vísindasiðaregla	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	21	nmod:poss	_	SpaceAfter=No|tag=no_ft_þf_kvk
 23	[	_	PUNCT	grm	_	24	punct	_	tag=grm
-24	sic	sic	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	22	conj	_	tag=no_et_þf_hk
-25	]	_	PUNCT	grm	_	24	punct	_	tag=grm
+24	sic	sic	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	22	conj	_	SpaceAfter=No|tag=no_et_þf_hk
+25	]	_	PUNCT	grm	_	24	punct	_	SpaceAfter=No|tag=grm
 26	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

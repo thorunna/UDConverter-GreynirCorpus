@@ -113,7 +113,7 @@
 10	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_ft_nf_kk_p3
 11	væru	vera	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	14	aux	_	tag=so_0_vh_p3_ft_þt_gm
 12	aftur	aftur	ADV	eo	_	14	advmod	_	tag=eo
-13	orðnir	verða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	14	conj	_	tag=so_0_lhþt_ft
+13	orðnir	verða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	14	cop	_	tag=so_0_lhþt_ft
 14	eigendur	eigandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	ccomp	_	tag=no_ft_nf_kk
 15	að	að	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 16	nánast	náið	ADV	eo_est	Degree=Sup	18	advmod	_	tag=eo_est
@@ -127,12 +127,12 @@
 
 # sent_id = GREYNIR_CORPUS_00142,.6
 # text = Og ef vandamálin koma upp þarf að leysa úr þeim með mestu vinsemd, enda verður mikið tjón ef kemur til skilnaðar.
-1	Og	og	SCONJ	st	_	0	root	_	tag=st
+1	Og	og	SCONJ	st	_	6	cc	_	tag=st
 2	ef	ef	SCONJ	st	_	4	mark	_	tag=st
 3	vandamálin	vandamál	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk_gr
 4	koma	koma	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	advcl	_	tag=so_0_fh_p3_ft_nt_gm
 5	upp	upp	ADV	ao	_	4	compound:prt	_	tag=ao
-6	þarf	þurfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+6	þarf	þurfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
 8	leysa	leysa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
 9	úr	úr	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
@@ -149,7 +149,7 @@
 20	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	advcl	_	tag=so_0_fh_p3_et_nt_gm
 21	til	til	ADP	fs_ef	Case=Gen	22	case	_	tag=fs_ef
 22	skilnaðar	skilnaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_ef_kk
-23	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+23	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00142,.7
 # text = Þar eiga stjórnmálamenn að halda sig fjarri og á ábyrgð þeirra að takamarkast af því að hafa lagarammann skýran, réttlátan og skynsamlegan.
@@ -229,6 +229,8 @@
 22	í gær	í gær	ADV	ao	_	19	advmod	_	SpaceAfter=No|tag=ao
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00142,.10
+# text = Kristinn tekur fram að þó asbest sé í húsum eða tækjum fólks, sé þó óþarfi að fara sérstaklega á taugum yfir því.
 1	Kristinn	Kristinn	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
 2	tekur	taka	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	fram	fram	ADV	ao	_	2	compound:prt	_	tag=ao
@@ -240,7 +242,7 @@
 9	húsum	hús	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þgf_hk
 10	eða	eða	CCONJ	st	_	11	cc	_	tag=st
 11	tækjum	tæki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	conj	_	tag=no_ft_þgf_hk
-12	fólks	fólk	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=no_et_ef_hk
+12	fólks	fólk	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_1_nf_vh_p3_et_nt_gm
 15	þó	þó	ADV	ao	_	16	advmod	_	tag=ao
@@ -251,6 +253,6 @@
 20	á	á	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	taugum	taug	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	tag=no_ft_þgf_kvk
 22	yfir	yfir	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obl	_	tag=pfn_et_þgf_hk_p3
+23	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No|tag=pfn_et_þgf_hk_p3
 24	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

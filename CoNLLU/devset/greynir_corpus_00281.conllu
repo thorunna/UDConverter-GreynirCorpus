@@ -8,7 +8,7 @@
 6	tækni	tækni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|tag=no_et_þgf_kvk
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=fn_et_nf_hk
-9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	eitt	einn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
 11	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nmod	_	tag=fn_et_nf_hk
 12	fallegasta	fallegur	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_nf_hk_evb
@@ -103,7 +103,7 @@
 13	áður	áður	ADV	ao	_	17	cc	_	tag=ao
 14	en	en	CCONJ	st	_	13	cc	_	tag=st
 15	áttin	átt	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	tag=no_et_nf_kvk_gr
-16	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	tag=so_0_fh_p3_et_nt_gm
+16	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_0_fh_p3_et_nt_gm
 17	norðlægari	norðlægur	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	2	advcl	_	SpaceAfter=No|tag=lo_et_nf_kvk_mst
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -155,7 +155,7 @@
 1	800	800	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	2	nummod	_	tag=tala_ft_ef_kk
 2	metra	metri	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_ef_kk
 3	hlaup	hlaup	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	sterkasta	sterkur	ADJ	lo_et_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_evb
 6	grein	grein	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 7	Anítu	Aníta	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	6	nmod:poss	_	tag=person_ef_kvk
@@ -177,7 +177,7 @@
 # sent_id = GREYNIR_CORPUS_00281,.9
 # text = Það er auðvitað ljóst að ríkisvaldið getur með einhverjum hætti orðið til þess að greiða fyrir samkomulag á vinnumarkaði.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_op_es_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_op_es_fh_p3_et_nt_gm
 3	auðvitað	auðvitað	ADV	eo	_	4	advmod	_	tag=eo
 4	ljóst	ljós	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	að	að	SCONJ	st	_	11	mark	_	tag=st
@@ -197,6 +197,8 @@
 19	vinnumarkaði	vinnumarkaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 20	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00281,.10
+# text = Þá horfir hann á mig með fyrirlitningu og segir : ekki datt mér í hug að þú værir SVONA kvenmaður !
 1	Þá	þá	ADV	ao	_	2	advmod	_	tag=ao
 2	horfir	horfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
@@ -205,17 +207,17 @@
 6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	fyrirlitningu	fyrirlitning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
-9	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+9	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	SpaceAfter=No|tag=so_1_þf_fh_p3_et_nt_gm
 10	:	_	PUNCT	grm	_	9	punct	_	tag=grm
 11	ekki	ekki	ADV	ao	_	12	advmod	_	tag=ao
-12	datt	detta	VERB	so_1_nf_op_subj_þgf_fh_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Tense=Past|Voice=Act	9	obj	_	tag=so_1_nf_op_subj_þgf_fh_et_þt_gm
+12	datt	detta	VERB	so_1_nf_op_subj_þgf_fh_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Tense=Past|Voice=Act	2	obj	_	tag=so_1_nf_op_subj_þgf_fh_et_þt_gm
 13	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	tag=pfn_et_þgf_p1
 14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	hug	hugur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þf_kk
 16	að	að	SCONJ	st	_	20	mark	_	tag=st
 17	þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	tag=pfn_et_nf_p2
-18	værir	vera	VERB	so_1_nf_vh_p2_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=2|Tense=Past|Voice=Act	20	conj	_	tag=so_1_nf_vh_p2_et_þt_gm
+18	værir	vera	VERB	so_1_nf_vh_p2_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=2|Tense=Past|Voice=Act	20	cop	_	tag=so_1_nf_vh_p2_et_þt_gm
 19	SVONA	svona	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	20	amod	_	tag=lo_et_nf_kk_sb
-20	kvenmaður	kvenmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	tag=no_et_nf_kk
+20	kvenmaður	kvenmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|tag=no_et_nf_kk
 21	!	_	PUNCT	grm	_	2	punct	_	tag=grm
 

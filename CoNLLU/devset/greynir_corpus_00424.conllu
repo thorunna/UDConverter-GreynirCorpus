@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00424,.1
 # text = Öldungaráð verður skipað þremur bæjarfulltrúum, tveimur frá meirihluta og einum frá minnihluta, og einum til vara.
--4	None	_	None	None	_	_	None	_	_
 1	Öldungaráð	öldungaráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
-2	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	skipað	skipa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	þremur	þrír	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	nummod	_	tag=to_ft_þgf_kk
 5	bæjarfulltrúum	bæjarfulltrúi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
@@ -133,7 +132,7 @@
 2	þeir	sá	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	tag=pfn_ft_nf_kk_p3
 3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
 4	kvartað	kvarta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	acl:relcl	_	tag=so_0_sagnb_gm
-5	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+5	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 6	yfir	yfir	ADV	ao	_	4	advmod	_	tag=ao
 7	eiga	eiga	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 8	rétt	rétt	ADV	ao	_	7	obj	_	tag=ao
@@ -164,7 +163,7 @@
 11	hundanna	hundur	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	nmod:poss	_	tag=no_ft_ef_kk_gr
 12	á	eiga	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	svæðinu	svæði	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk_gr
-14	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	conj	_	tag=so_1_nf_vh_p3_ft_nt_gm
+14	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 15	aðeins	aðeins	ADV	ao	_	18	advmod	_	tag=ao
 16	um	um	ADV	eo	_	18	advmod	_	tag=eo
 17	fimm	fimm	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	18	nummod	_	tag=töl_ft_nf_hk
@@ -193,6 +192,8 @@
 18	Kúrda	Kúrdi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00424,.10
+# text = Þegar Mótettukórinn var stofnaður var mun minni samkeppni um athygli kórfélaganna, og ekki einu sinni sjónvarp á fimmtudögum.
 1	Þegar	þegar	SCONJ	st	_	4	mark	_	tag=st
 2	Mótettukórinn	mótettu-kór	PROPN	sérnafn_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=sérnafn_et_nf_kk_gr
 3	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
@@ -203,13 +204,13 @@
 8	samkeppni	samkeppni	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	athygli	athygli	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þf_kvk
-11	kórfélaganna	kór-félag	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	nmod:poss	_	tag=no_ft_ef_kk_gr
+11	kórfélaganna	kór-félag	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk_gr
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
 13	og	og	CCONJ	st	_	5	cc	_	tag=st
 14	ekki	ekki	ADV	eo	_	5	conj	_	tag=eo
 15	einu sinni	einu sinni	ADV	eo	_	14	advmod	_	tag=eo
 16	sjónvarp	sjónvarp	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
 17	á	eiga	ADV	fs_þgf	Case=Dat	14	advmod	_	tag=fs_þgf
-18	fimmtudögum	fimmtidagur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	obl	_	tag=no_ft_þgf_kk
+18	fimmtudögum	fimmtidagur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 19	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

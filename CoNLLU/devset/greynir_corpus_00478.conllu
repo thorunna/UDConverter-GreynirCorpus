@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00478,.1
 # text = Það er nokkuð ljóst að Sigmundur Davíð átti alls ekki von á því að missa tökin með þeim hætti sem hann gerði, þótt að honum hafi átt að vera það.
 1	Það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	er	VERB	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_op_es_fh_p3_et_nt_gm
+2	er	er	VERB	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_op_es_fh_p3_et_nt_gm
 3	nokkuð	nokkur	ADV	eo	_	4	advmod	_	tag=eo
 4	ljóst	ljós	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	að	að	SCONJ	st	_	7	mark	_	tag=st
@@ -225,7 +225,7 @@
 23	óttast	óttast	VERB	so_1_þf_sagnb_mm	Case=Acc|VerbForm=Sup|Voice=Mid	17	obj	_	tag=so_1_þf_sagnb_mm
 24	að	að	SCONJ	st	_	29	mark	_	tag=st
 25	bókin	bók	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	29	nsubj	_	tag=no_et_nf_kvk_gr
-26	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	29	conj	_	tag=so_0_vh_p3_et_þt_gm
+26	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	29	cop	_	tag=so_0_vh_p3_et_þt_gm
 27	þunglamaleg	þunglamalegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	29	amod	_	tag=lo_et_nf_kvk_sb
 28	og	og	CCONJ	st	_	29	cc	_	tag=st
 29	predikunarkennd	predikunar-kenna	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No|tag=no_et_nf_kvk
@@ -298,6 +298,8 @@
 29	ÍSÍ	ÍSÍ	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	28	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
 30	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00478,.10
+# text = Schwab segist hafa gert athugasemd við yfirboðara sína en þeir hafi aðeins sagt honum að víkja sér undan því að svara spurningum fréttamanna og vísa í fyrri yfirlýsingar stofnunarinnar.
 1	Schwab	Schwab	PROPN	person_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=person_et_nf_hk
 2	segist	segja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 3	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	aux	_	tag=so_0_nh_gm
@@ -326,6 +328,6 @@
 26	í	í	ADP	fs_þf	Case=Acc	28	case	_	tag=fs_þf
 27	fyrri	fyrri	ADJ	lo_ft_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	28	amod	_	tag=lo_ft_þf_kvk_mst
 28	yfirlýsingar	yfirlýsing	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	25	obl	_	tag=no_ft_þf_kvk
-29	stofnunarinnar	stofnun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod:poss	_	tag=no_et_ef_kvk_gr
+29	stofnunarinnar	stofnun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 30	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

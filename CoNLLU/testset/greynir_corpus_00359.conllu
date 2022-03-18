@@ -50,14 +50,14 @@
 6	áratugina	áratugur	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_þf_kk_gr
 7	svo	svo	ADV	eo	_	8	advmod	_	tag=eo
 8	mikið	mikill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=lo_et_nf_hk_sb
-9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	víst	vís	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_fst_sb
 11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00359,.5
 # text = Þetta voru yfir 60 símtöl í gærkvöldi, “ segir Júlíus.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
-2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_ft_þt_gm
+2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 3	yfir	yfir	ADV	eo	_	5	advmod	_	tag=eo
 4	60	60	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_nf_hk
 5	símtöl	símtal	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	1	xcomp	_	tag=no_ft_nf_hk
@@ -76,7 +76,7 @@
 4	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk
 5	virðast	virða	AUX	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	8	aux	_	tag=so_0_fh_p3_ft_nt_mm
 6	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	aux	_	tag=so_0_nh_gm
-7	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	conj	_	tag=so_1_nf_sagnb_gm
+7	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	cop	_	tag=so_1_nf_sagnb_gm
 8	viðstödd	viðstaddur	ADJ	lo_ft_nf_hk_sb_sþf	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb_sþf
 9	setningu	setning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þf_kvk
 10	hennar	hún	PRON	pfn_et_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	SpaceAfter=No|tag=pfn_et_ef_kvk_p3
@@ -124,6 +124,8 @@
 10	14	14	NUM	tala	NumType=Card	8	nummod	_	SpaceAfter=No|tag=tala
 11	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00359,.10
+# text = Möguleiki Fram felst í því að skora yfir 30 mörk.
 1	Möguleiki	möguleiki	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 2	Fram	Fram	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_hk
 3	felst	fela	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
@@ -133,6 +135,6 @@
 7	skora	skora	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
 8	yfir	yfir	ADV	eo	_	10	advmod	_	tag=eo
 9	30	30	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	10	nummod	_	tag=tala_ft_þf_hk
-10	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	tag=no_ft_þf_hk
+10	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No|tag=no_ft_þf_hk
 11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

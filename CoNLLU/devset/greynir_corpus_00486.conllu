@@ -55,7 +55,7 @@
 17	því	sá	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	tag=pfn_et_þgf_hk_p3
 18	að	að	SCONJ	st	_	22	mark	_	tag=st
 19	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	tag=pfn_et_nf_hk_p3
-20	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+20	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 21	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nmod	_	tag=pfn_et_ef_kk_p3
 22	atkvæði	atkvæði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	17	ccomp	_	tag=no_et_nf_hk
 23	sem	sem	SCONJ	stt	_	24	mark	_	tag=stt
@@ -217,7 +217,7 @@
 # sent_id = GREYNIR_CORPUS_00486,.7
 # text = Sendingar voru oft á tíðum misheppnaðar, það má kannski rekja eitthvað til þess að leikmenn höfðu í raun ekki um neitt að keppa undir lokin og vönduðu sig kannski ekki nógu vel.
 1	Sendingar	sending	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	tag=no_ft_nf_kvk
-2	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_þt_gm
+2	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_ft_þt_gm
 3	oft	oft	ADV	ao	_	6	advmod	_	tag=ao
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	tíðum	tíðum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_þgf_kvk
@@ -253,14 +253,13 @@
 
 # sent_id = GREYNIR_CORPUS_00486,.8
 # text = Og það er áhugi fyrir því en til þess að við gerum það þá þurfum við að verða svokallaðir aðjúnktar 2 sem mega mest vinna 49% en fá miklu hærri laun.
--3	None	_	None	None	_	_	None	_	_
 1	Og	Og	SCONJ	st	_	4	mark	_	tag=st
 2	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-3	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-4	áhugi	áhugi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	('HALLÓ_S0', None, 'S0', None)	_	tag=no_et_nf_kk
+3	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	áhugi	áhugi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	fyrir	fyrir	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	því	því	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	tag=pfn_et_þgf_hk_p3
-7	en	en	CCONJ	st	_	15	cc	_	tag=st
+7	en	en	CCONJ	st	_	4	cc	_	tag=st
 8	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
 9	þess	þess	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	15	obl	_	tag=fn_et_ef_hk
 10	að	að	SCONJ	st	_	12	mark	_	tag=st
@@ -268,10 +267,10 @@
 12	gerum	gerum	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	9	ccomp	_	tag=so_1_þf_fh_p1_ft_nt_gm
 13	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	tag=pfn_et_þf_hk_p3
 14	þá	þá	ADV	ao	_	15	advmod	_	tag=ao
-15	þurfum	þurfum	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_nt_gm
+15	þurfum	þurfum	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p1_ft_nt_gm
 16	við	við	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	tag=pfn_ft_nf_p1
 17	að	að	PART	nhm	_	20	mark	_	tag=nhm
-18	verða	verða	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	20	conj	_	tag=so_1_nf_nh_gm
+18	verða	verða	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	20	cop	_	tag=so_1_nf_nh_gm
 19	svokallaðir	svokallaðir	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	20	amod	_	tag=lo_ft_nf_kk_sb
 20	aðjúnktar	aðjúnktar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	xcomp	_	tag=no_ft_nf_kk
 21	2	2	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	20	nummod	_	tag=tala_ft_nf_kk
@@ -285,7 +284,7 @@
 29	miklu	miklu	ADV	eo	_	31	advmod	_	tag=eo
 30	hærri	hærri	ADJ	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	31	amod	_	tag=lo_et_þf_hk_mst
 31	laun	laun	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	28	obj	_	SpaceAfter=No|tag=no_ft_þf_hk
-32	.	.	PUNCT	grm	_	15	punct	_	tag=grm
+32	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00486,.9
 # text = Þar sem þeir settu á oddinn voru starfsskilyrðin sem okkur eru búin á Íslandi sagði Birgir og bætti við að verið væri að kynna stórt skref fram á við að hans mati.
@@ -306,10 +305,10 @@
 15	sagði	sagður	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 16	Birgir	Birgir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	tag=person_nf_kk
 17	og	og	CCONJ	st	_	15	cc	_	tag=st
-18	bætti	bæta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	conj	_	tag=so_1_þgf_fh_p3_et_þt_gm
-19	við	við	ADV	ao	_	18	compound:prt	_	tag=ao
+18	bætti	bæta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_1_þgf_fh_p3_et_þt_gm
+19	við	við	ADV	ao	_	15	compound:prt	_	tag=ao
 20	að	að	SCONJ	st	_	21	mark	_	tag=st
-21	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	18	ccomp	_	tag=so_0_sagnb_gm
+21	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	15	ccomp	_	tag=so_0_sagnb_gm
 22	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	24	aux	_	tag=so_0_vh_p3_et_þt_gm
 23	að	að	PART	nhm	_	24	mark	_	tag=nhm
 24	kynna	kynna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	21	xcomp	_	tag=so_1_þf_nh_gm
@@ -323,6 +322,8 @@
 32	mati	mat	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 33	.	.	PUNCT	grm	_	15	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00486,.10
+# text = Dunham og tónlistarmaðurinn Antonoff voru því saman allt frá því að Dunham sló í gegn árið 2012 þegar þáttaröðin Girls hóf göngu sína en Dunham bæði skrifar þættina, hefur leikstýrt þeim og leikur aðalhlutverkið.
 1	Dunham	Dunham	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	tónlistarmaðurinn	tónlistarmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk_gr
@@ -348,13 +349,13 @@
 23	Dunham	Dunham	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	tag=person_et_nf_kk
 24	bæði	bæði	CCONJ	st	_	25	cc	_	tag=st
 25	skrifar	skrifa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-26	þættina	þáttur	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	25	obj	_	tag=no_ft_þf_kk_gr
+26	þættina	þáttur	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
 27	,	,	PUNCT	grm	_	26	punct	_	tag=grm
 28	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	aux	_	tag=so_0_fh_p3_et_nt_gm
 29	leikstýrt	leikstýra	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	25	conj	_	tag=so_1_þgf_sagnb_gm
 30	þeim	hann	PRON	pfn_ft_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	obj	_	tag=pfn_ft_þgf_kk_p3
 31	og	og	CCONJ	st	_	25	cc	_	tag=st
 32	leikur	leika	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-33	aðalhlutverkið	aðalhlutverk	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	32	obj	_	tag=no_et_þf_hk_gr
+33	aðalhlutverkið	aðalhlutverk	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	32	obj	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 34	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

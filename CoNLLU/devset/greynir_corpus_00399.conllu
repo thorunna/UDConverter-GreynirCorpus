@@ -1,13 +1,13 @@
 # sent_id = GREYNIR_CORPUS_00399,.1
 # text = Hún er einstaklega falleg þrátt fyrir að hafa verið fryst fyrir öllum þessum árum.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kvk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	einstaklega	einstaklega	ADV	eo	_	4	advmod	_	tag=eo
 4	falleg	fallegur	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_fst_sb
 5	þrátt fyrir	þrátt fyrir	ADP	fs_nh	VerbForm=Inf	9	case	_	tag=fs_nh
 6	að	að	PART	nhm	_	9	mark	_	tag=nhm
 7	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	aux	_	tag=so_0_nh_gm
-8	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	conj	_	tag=so_0_sagnb_gm
+8	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	cop	_	tag=so_0_sagnb_gm
 9	fryst	frysta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	obl	_	tag=so_0_lhþt_et
 10	fyrir	fyrir	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 11	öllum	allur	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	nmod	_	tag=fn_ft_þgf_hk
@@ -18,7 +18,7 @@
 # sent_id = GREYNIR_CORPUS_00399,.2
 # text = Rakel var svo ástæðan fyrir því að við hreinlega komumst lífs af frá þessari ferð.
 1	Rakel	Rakel	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	svo	svo	ADV	eo	_	4	advmod	_	tag=eo
 4	ástæðan	ástæða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk_gr
 5	fyrir	fyrir	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -36,12 +36,11 @@
 
 # sent_id = GREYNIR_CORPUS_00399,.3
 # text = Engin stefna í peninga- og gjaldmiðlamálum er fullkomin heldur snýst valið öðrum þræði um mismunandi slæma valkosti.
--1	None	_	None	None	_	_	None	_	_
 1	Engin	enginn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	tag=fn_et_nf_kvk
 2	stefna	stefna	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	peninga- og gjaldmiðlamálum	peninga- og gjaldmiðla-mál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
-5	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_nt_gm
+5	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
 6	fullkomin	fullkominn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 7	heldur	heldur	CCONJ	st	_	8	cc	_	tag=st
 8	snýst	snúa	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	6	conj	_	tag=so_0_fh_p3_et_nt_mm
@@ -103,7 +102,7 @@
 7	fram	fram	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
 8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 9	að minnsta kosti	að minnsta kosti	ADV	ao	_	12	advmod	_	tag=ao
-10	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 11	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_hk_p3
 12	ætlun	ætlun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=no_et_nf_kvk
 13	mín	minn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	tag=fn_et_nf_kvk
@@ -168,6 +167,8 @@
 15	í ár	í ár	ADV	ao	_	14	advmod	_	SpaceAfter=No|tag=ao
 16	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00399,.10
+# text = Það sem við erum að gera er að leggja áherslu á samstöðu gegn ofbeldi.
 1	Það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	tag=fn_et_nf_hk
 2	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
 3	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_ft_nf_p1
@@ -181,6 +182,6 @@
 11	á	á	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	samstöðu	samstaða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk
 13	gegn	gegn	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	ofbeldi	ofbeldi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk
+14	ofbeldi	ofbeldi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 15	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 

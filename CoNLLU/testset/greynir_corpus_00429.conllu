@@ -46,14 +46,14 @@
 
 # sent_id = GREYNIR_CORPUS_00429,.3
 # text = „ En eins og forsetinn segir þá eigum við að ýta því frá okkur og máta okkur við málefnin.
-1	„	„	PUNCT	grm	_	2	punct	_	tag=grm
-2	En	en	SCONJ	st	_	0	root	_	tag=st
+1	„	„	PUNCT	grm	_	8	punct	_	tag=grm
+2	En	en	SCONJ	st	_	1	cc	_	tag=st
 3	eins	eins	ADV	ao	_	6	cc	_	tag=ao
 4	og	og	CCONJ	st	_	3	cc	_	tag=st
 5	forsetinn	forseti	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk_gr
 6	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	tag=so_0_fh_p3_et_nt_gm
 7	þá	þá	ADV	ao	_	8	advmod	_	tag=ao
-8	eigum	eiga	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p1_ft_nt_gm
+8	eigum	eiga	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_nt_gm
 9	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	tag=pfn_ft_nf_p1
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
 11	ýta	ýta	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_1_þgf_nh_gm
@@ -65,7 +65,7 @@
 17	okkur	ég	PRON	pfn_ft_þf_p1	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obj	_	tag=pfn_ft_þf_p1
 18	við	við	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 19	málefnin	málefni	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
-20	.	.	PUNCT	grm	_	16	punct	_	tag=grm
+20	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00429,.4
 # text = Ragnheiður Haralds- og Eiríksdóttir hjúkrunarfræðingur og blaðamaður hefur tekið saman 6 leiðir til að eiga betri vetur í vetur en í fyrra.
@@ -206,6 +206,8 @@
 19	flugfarþega	flugfarþegi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
 20	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00429,.10
+# text = Þar að auki er útlit fyrir að hluta ríkisstofnana verði lokað eftir tvær vikur nái þingið og Trump ekki höndum saman.
 1	Þar að auki	þar að auki	ADV	ao	_	2	advmod	_	tag=ao
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	útlit	útlit	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=no_et_nf_hk
@@ -224,6 +226,6 @@
 16	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	conj	_	tag=person_nf_kk
 17	ekki	ekki	ADV	eo	_	18	advmod	_	tag=eo
 18	höndum	hönd	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	13	obj	_	tag=no_ft_þgf_kvk
-19	saman	saman	ADV	ao	_	13	compound:prt	_	tag=ao
+19	saman	saman	ADV	ao	_	13	compound:prt	_	SpaceAfter=No|tag=ao
 20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

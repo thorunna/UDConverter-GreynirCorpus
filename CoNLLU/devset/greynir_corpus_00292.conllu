@@ -128,7 +128,7 @@
 # sent_id = GREYNIR_CORPUS_00292,.6
 # text = Guðlaugur Þór er þó ekki sannfærður um að rétt sé að mannréttindaráðið sé einungis skipað ríkjum sem hafi hreinan skjöld í mannréttindamálum.
 1	Guðlaugur Þór	Guðlaugur Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	þó	þó	ADV	ao	_	5	advmod	_	tag=ao
 4	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
 5	sannfærður	sannfærður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
@@ -138,7 +138,7 @@
 9	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	obl	_	tag=so_0_vh_p3_et_nt_gm
 10	að	að	SCONJ	st	_	14	mark	_	tag=st
 11	mannréttindaráðið	mannréttindaráð	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk_gr
-12	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_0_vh_p3_et_nt_gm
+12	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_vh_p3_et_nt_gm
 13	einungis	einungis	ADV	ao	_	14	advmod	_	tag=ao
 14	skipað	skipaður	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=lo_et_nf_hk_sb_sþgf
 15	ríkjum	ríki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_þgf_hk
@@ -158,7 +158,7 @@
 4	að	að	SCONJ	st	_	8	mark	_	tag=st
 5	mamma	mamma	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk
 6	þín	þinn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	tag=fn_et_nf_kvk
-7	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_vh_p3_et_nt_gm
+7	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
 8	sérstök	sérstakur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	tag=lo_et_nf_kvk_sb
 9	skaltu	skulu	AUX	so_0_fh_p2_et_nt_gm_sn	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p2_et_nt_gm_sn
 10	hugsa	hugsa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
@@ -184,8 +184,8 @@
 4	tilkynnt	tilkynna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	brottrekstur	brottrekstur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
-7	23	23	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	8	amod	_	tag=tala_ft_ef_kk
-8	breskra	breskur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	12	('HALLÓ_ADJP', None, 'NP', 'POSS')	_	tag=lo_ft_ef_kk_sb
+7	23	23	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	8	nummod	_	tag=tala_ft_ef_kk
+8	breskra	breskur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	12	amod	_	tag=lo_ft_ef_kk_sb
 9	og	og	CCONJ	st	_	10	cc	_	tag=st
 10	60	60	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	8	conj	_	tag=tala_ft_ef_kk
 11	bandarískra	bandarískur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	8	amod	_	tag=lo_ft_ef_kk_sb
@@ -222,12 +222,14 @@
 16	þingnefndum	þingnefnd	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	conj	_	tag=no_ft_þgf_kvk
 17	og	og	CCONJ	st	_	14	cc	_	tag=st
 18	þingflokkum	þingflokkur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	14	conj	_	tag=no_ft_þgf_kk
-19	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	conj	_	tag=so_0_fh_p3_et_nt_gm
+19	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_nt_gm
 20	látin	láta	VERB	so_1_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	12	acl:relcl	_	tag=so_1_þf_lhþt_et
 21	í	í	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
 22	té	té	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 23	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00292,.10
+# text = H vort sem að gagnrýnisraddirnar höfðu úrslitaáhrif á valið á buxnadragtinni frá Altuzarra sem Meghan klæddist í gær skal þó látið ósagt.
 1	H vort	hvort	SCONJ	st	_	5	mark	_	tag=st
 2	sem	sem	SCONJ	st	_	3	cc	_	tag=st
 3	að	að	SCONJ	st	_	1	conj	_	tag=st
@@ -247,6 +249,6 @@
 17	skal	skulu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_fh_p3_et_nt_gm
 18	þó	þó	ADV	ao	_	19	advmod	_	tag=ao
 19	látið	láta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-20	ósagt	ósagður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	19	obl	_	tag=lo_et_nf_hk_sb
+20	ósagt	ósagður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 21	.	_	PUNCT	grm	_	19	punct	_	tag=grm
 

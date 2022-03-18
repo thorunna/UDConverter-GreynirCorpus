@@ -40,7 +40,7 @@
 3	fiskisjúkdóma	fiskisjúkdómur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	2	nmod:poss	_	tag=no_ft_ef_kk
 4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Matvælastofnun	Matvælastofnun	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=sérnafn_et_þgf_kvk
-6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 7	Gísli Jónsson	Gísli Jónsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
 8	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
@@ -99,6 +99,8 @@
 7	óselt	óseldur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	6	acl:relcl	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00030,.10
+# text = Líf okkar líður hjá og aðrir taka við.
 1	Líf	líf	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
 2	okkar	ég	PRON	pfn_ft_ef_hk_p1	Case=Gen|Gender=Neut|Number=Plur|Person=1|PronType=Prs	1	nmod:poss	_	tag=pfn_ft_ef_hk_p1
 3	líður	líða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -106,6 +108,6 @@
 5	og	og	CCONJ	st	_	3	cc	_	tag=st
 6	aðrir	annar	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	tag=fn_ft_nf_kk
 7	taka	taka	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_nt_gm
-8	við	við	ADV	ao	_	7	advmod	_	tag=ao
+8	við	við	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
 9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

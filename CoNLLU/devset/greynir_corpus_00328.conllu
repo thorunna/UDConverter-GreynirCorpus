@@ -22,7 +22,7 @@
 20	hagkerfið	hagkerfi	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þf_hk_gr
 21	og	og	CCONJ	st	_	11	cc	_	tag=st
 22	vöxtur	vöxtur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	tag=no_et_nf_kk
-23	orðið	verða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	24	conj	_	tag=so_0_sagnb_gm
+23	orðið	verða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	24	cop	_	tag=so_0_sagnb_gm
 24	minni	lítill	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	11	VANTAR_LIÐ_IP_None	_	tag=lo_et_nf_kk_mst
 25	en ella	en ella	SCONJ	st	_	26	mark	_	tag=st
 26	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	24	advcl	_	tag=so_0_fh_p3_ft_þt_gm
@@ -32,10 +32,10 @@
 
 # sent_id = GREYNIR_CORPUS_00328,.2
 # text = En þegar hann varð hundrað ára og ríkisstjórnir þeirra landa sem mynduðu fylkingu Bandamanna í heimsstyrjöldinni tóku að keppast við að heiðra hann fyrir framlag sitt ákvað hann að leysa frá skjóðunni.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	27	cc	_	tag=st
 2	þegar	þegar	SCONJ	st	_	5	mark	_	tag=st
 3	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_kk_p3
-4	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_þt_gm
+4	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	hundrað	hundrað	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	27	advcl	_	tag=töl_ft_ef_hk
 6	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	xcomp	_	tag=no_ft_ef_hk
 7	og	og	CCONJ	st	_	5	cc	_	tag=st
@@ -58,13 +58,13 @@
 24	fyrir	fyrir	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
 25	framlag	framlag	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	22	obl	_	tag=no_et_þf_hk
 26	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	25	nmod	_	tag=fn_et_þf_hk
-27	ákvað	ákveða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_þt_gm
+27	ákvað	ákveða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 28	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	tag=pfn_et_nf_kk_p3
 29	að	að	PART	nhm	_	30	mark	_	tag=nhm
 30	leysa	leysa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	27	xcomp	_	tag=so_0_nh_gm
 31	frá	frá	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
 32	skjóðunni	skjóða	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
-33	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+33	.	_	PUNCT	grm	_	27	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00328,.3
 # text = Í frétt á vef ráðuneytisins bendir Ásmundur á að hinar Norðurlandaþjóðirnar og önnur Evrópuríki hafi þegar innleitt tilskipun Evrópusambandsins um jafna meðferð óháð kynþætti eða þjóðernisuppruna eða endurspeglað efni hennar í landsrétti sínum.
@@ -108,7 +108,7 @@
 1	Róbert Wessman	Róbert Wessman	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	Árni Harðarson	Árni Harðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-4	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_fh_p3_ft_þt_gm
+4	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_ft_þt_gm
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	advmod	_	tag=no_et_þf_kk
 7	sýknaðir	sýknaður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
@@ -242,16 +242,15 @@
 
 # sent_id = GREYNIR_CORPUS_00328,.8
 # text = Lögum var breytt í Þýskalandi árið 2007 og þar var fylgt ráðgjöf frá bönkunum, segir Frey og líkir því við að bóndi fái ráðgjöf frá refnum um hvernig eigi að verja hænsnahúsið.
--4	None	_	None	None	_	_	None	_	_
 1	Lögum	lög	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_þgf_hk
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	breytt	breyta	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	0	root	_	tag=so_1_þgf_lhþt_et
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Þýskalandi	Þýskaland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_hk
 6	árið 2007	árið 2007	ADV	ártal	_	3	advmod	_	tag=ártal
 7	og	og	CCONJ	st	_	3	cc	_	tag=st
 8	þar	þar	ADV	ao	_	10	advmod	_	tag=ao
-9	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+9	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 10	fylgt	fylgja	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	3	conj	_	tag=so_1_þgf_lhþt_et
 11	ráðgjöf	ráðgjöf	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	nsubj	_	tag=no_et_þgf_kvk
 12	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
@@ -313,6 +312,8 @@
 32	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No|tag=fn_et_þgf_hk
 33	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00328,.10
+# text = Fyrsta frumsýning á nýju ári verður 23. febrúar og er það um að ræða fjölskyldusýninguna Gallsteinar afa Gissa eftir Kristínu Helgu Gunnarsdóttur í leikstjórn Ágústu Skúladóttur með nýrri tónlist eftir Þorvald Bjarna Þorvaldsson.
 1	Fyrsta	fyrstur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_vb
 2	frumsýning	frumsýning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
 3	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
@@ -339,6 +340,6 @@
 24	nýrri	nýr	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	25	amod	_	tag=lo_et_þgf_kvk_sb
 25	tónlist	tónlist	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_þgf_kvk
 26	eftir	eftir	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
-27	Þorvald Bjarna Þorvaldsson	Þorvaldur Bjarni Þorvaldsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	25	obl	_	tag=person_þf_kk
+27	Þorvald Bjarna Þorvaldsson	Þorvaldur Bjarni Þorvaldsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	25	obl	_	SpaceAfter=No|tag=person_þf_kk
 28	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

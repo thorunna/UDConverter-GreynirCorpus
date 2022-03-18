@@ -45,7 +45,7 @@
 9	áður fyrr	áður fyrr	ADV	ao	_	8	advmod	_	tag=ao
 10	en	en	CCONJ	st	_	3	cc	_	tag=st
 11	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	tag=pfn_et_nf_hk_p3
-12	er	vera	VERB	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_0_op_es_fh_p3_et_nt_gm
+12	er	vera	VERB	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_op_es_fh_p3_et_nt_gm
 13	líka	líka	ADV	eo	_	14	advmod	_	tag=eo
 14	mikilvægt	mikilvægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=lo_et_nf_hk_sb
 15	að	að	SCONJ	st	_	17	mark	_	tag=st
@@ -112,10 +112,10 @@
 10	hvernig	hvernig	ADV	ao	_	12	advmod	_	tag=ao
 11	árið	ár	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	tag=no_et_nf_hk_gr
 12	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	ccomp	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
-13	,	_	PUNCT	grm	_	14	punct	_	tag=grm
-14	hugsa	hugsa	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p1_et_nt_gm
+13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
+14	hugsa	hugsa	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_fh_p1_et_nt_gm
 15	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
-16	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	14	obl	_	tag=pfn_ft_ef_hk_p3
+16	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	2	obl	_	tag=pfn_ft_ef_hk_p3
 17	sem	sem	SCONJ	stt	_	19	mark	_	tag=stt
 18	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	tag=pfn_et_þgf_p1
 19	þykir	þykja	VERB	so_1_nf_op_subj_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	acl:relcl	_	tag=so_1_nf_op_subj_þgf_fh_p3_et_nt_gm
@@ -152,7 +152,7 @@
 16	mikilvægt	mikilvægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	ccomp	_	tag=lo_et_nf_hk_sb
 17	að	að	SCONJ	st	_	20	mark	_	tag=st
 18	ungmenni	ungmenni	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	20	nsubj	_	tag=no_ft_nf_hk
-19	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	20	conj	_	tag=so_0_vh_p3_ft_þt_gm
+19	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_vh_p3_ft_þt_gm
 20	undirbúin	undirbúa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	16	nsubj	_	tag=so_0_lhþt_ft
 21	til	til	ADP	fs_nh	VerbForm=Inf	23	case	_	tag=fs_nh
 22	að	að	PART	nhm	_	23	mark	_	tag=nhm
@@ -166,9 +166,8 @@
 
 # sent_id = GREYNIR_CORPUS_00177,.6
 # text = Það eru um 20 prósent sem hefur upplifað annað líkamlegt ofbeldi, um helmingur hefur upplifað andlegt ofbeldi eða einelti og um 40% framhjáhald eða höfnun af hendi maka.
--4	None	_	None	None	_	_	None	_	_
 1	Það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fn_et_nf_hk
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	um	um	ADV	eo	_	0	root	_	tag=eo
 4	20 prósent	20 prósent	NUM	prósenta	_	3	nummod	_	tag=prósenta
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
@@ -223,7 +222,7 @@
 22	þar	þar	ADV	ao	_	19	advmod	_	tag=ao
 23	sem	sem	SCONJ	stt	_	26	mark	_	tag=stt
 24	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	tag=fn_et_nf_hk
-25	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	conj	_	tag=so_0_fh_p3_et_nt_gm
+25	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	cop	_	tag=so_0_fh_p3_et_nt_gm
 26	komið	kominn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	22	advcl	_	tag=lo_et_nf_hk_sb
 27	í	í	ADP	fs_þf	Case=Acc	28	case	_	tag=fs_þf
 28	þrot	þrot	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	26	obl	_	tag=no_et_þf_hk
@@ -245,7 +244,7 @@
 11	áhrif	áhrif	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|tag=no_et_þf_hk
 12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 13	enda	enda	CCONJ	st	_	10	cc	_	tag=st
-14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_0_fh_p3_et_nt_gm
+14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
 15	bersýnilegt	bersýnilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	10	conj	_	tag=lo_et_nf_hk_sb
 16	að	að	SCONJ	st	_	18	mark	_	tag=st
 17	LV	LV	PROPN	fyrirtæki	_	18	nsubj	_	tag=fyrirtæki
@@ -266,9 +265,8 @@
 
 # sent_id = GREYNIR_CORPUS_00177,.9
 # text = Það verður ákveðið árið 2020 hvar keppnin muni fara fram en með þessu framboði verður að teljast afar líklegt á HM 2016 fari fram í Bandaríkjunum, Kanada og Mexíkó.
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	verður	verða	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
+2	verður	verða	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_þgf_fh_p3_et_nt_gm
 3	ákveðið	ákveða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	árið 2020	árið 2020	ADV	ártal	_	3	advmod	_	tag=ártal
 5	hvar	hvar	ADV	ao	_	8	advmod	_	tag=ao
@@ -298,12 +296,14 @@
 29	Mexíkó	Mexíkó	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	25	conj	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 30	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00177,.10
+# text = Eyvi rifjaði meðal annars upp Danska lagið, þegar Björgvin Halldórsson valdi lagið hans í Eurovision 1986 og þegar hann keppti sjálfur í Róm 1991 með Nínu með mögnuðum hópi.
 1	Eyvi	Eyfi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
 2	rifjaði	rifja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	meðal annars	meðal annars	ADV	ao	_	2	advmod	_	tag=ao
 4	upp	upp	ADV	ao	_	2	compound:prt	_	tag=ao
 5	Danska	danskur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þf_hk_vb
-6	lagið	lag	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk_gr
+6	lagið	lag	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	þegar	þegar	SCONJ	st	_	10	mark	_	tag=st
 9	Björgvin Halldórsson	Björgvin Halldórsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	tag=person_nf_kk
@@ -325,6 +325,6 @@
 25	Nínu	Nína	PROPN	sérnafn_þgf_kvk	Case=Dat|Gender=Fem	19	obl	_	tag=sérnafn_þgf_kvk
 26	með	með	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
 27	mögnuðum	magnaður	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	28	amod	_	tag=lo_et_þgf_kk_sb
-28	hópi	hópur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_þgf_kk
+28	hópi	hópur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 29	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

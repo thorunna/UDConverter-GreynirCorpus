@@ -155,7 +155,7 @@
 13	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
 14	ekki	ekki	ADV	ao	_	16	advmod	_	tag=ao
 15	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obj	_	tag=fn_et_þgf_hk
-16	framgengt	framgengt	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	VANTAR_LIÐ_so0_lhþt_et	_	SpaceAfter=No|tag=so_0_lhþt_et
+16	framgengt	framgengt	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	('HALLÓ_so', '0_lhþt_et', 'VP', None)	_	SpaceAfter=No|tag=so_0_lhþt_et
 17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00408,.9
@@ -178,6 +178,8 @@
 16	bráðamóttöku	bráðamóttaka	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 17	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00408,.10
+# text = Fram kemur á vef Veðurstofunnar að stofnunin haldi úti sólarhringsvakt þar sem fylgst er með jarðskjálftamælum.
 1	Fram	Fram	ADV	ao	_	2	advmod	_	tag=ao
 2	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
@@ -191,8 +193,8 @@
 11	þar	þar	ADV	ao	_	8	advmod	_	tag=ao
 12	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
 13	fylgst	fylgja	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	11	advcl	_	tag=so_0_sagnb_mm
-14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_0_fh_p3_et_nt_gm
+14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
 15	með	með	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	jarðskjálftamælum	jarðskjálftamælir	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	tag=no_ft_þgf_kk
+16	jarðskjálftamælum	jarðskjálftamælir	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

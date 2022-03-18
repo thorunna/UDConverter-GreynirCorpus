@@ -1,12 +1,12 @@
 # sent_id = GREYNIR_CORPUS_00406,.1
 # text = Sósan er algjör dúndur en upprunalega er notaður mexíkóskur ostur í hana sem ekki fæst hérlendis.
 1	Sósan	sósa	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	algjör	algjör	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_sb
 4	dúndur	dúndur	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 5	en	en	CCONJ	st	_	4	cc	_	tag=st
 6	upprunalega	upprunalega	ADV	ao	_	8	advmod	_	tag=ao
-7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	notaður	notaður	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	conj	_	tag=so_0_lhþt_et
 9	mexíkóskur	mexíkóskur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_nf_kk_sb
 10	ostur	ostur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
@@ -41,11 +41,11 @@
 # sent_id = GREYNIR_CORPUS_00406,.3
 # text = Samkvæmt bandarísku og kanadísku barnalæknasamtökunum er ráðlagt að börn yngri en tveggja ára fái engan skjátíma.
 1	Samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-2	bandarísku	bandarískur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	5	('HALLÓ_ADJP', None, 'NP', None)	_	tag=lo_ft_þgf_hk_sb
+2	bandarísku	bandarískur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	5	amod	_	tag=lo_ft_þgf_hk_sb
 3	og	og	CCONJ	st	_	4	cc	_	tag=st
 4	kanadísku	kanadískur	ADJ	lo_ft_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Plur	2	conj	_	tag=lo_ft_þgf_hk_vb
 5	barnalæknasamtökunum	barna-læknasamtök	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þgf_hk_gr
-6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_nt_gm
+6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	ráðlagt	ráðleggja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 8	að	að	SCONJ	st	_	14	mark	_	tag=st
 9	börn	barn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	tag=no_ft_nf_hk
@@ -60,9 +60,8 @@
 
 # sent_id = GREYNIR_CORPUS_00406,.4
 # text = Leikurinn var hörkuspennandi allt frá upphafi til enda, Snæfell leiddi 41 – 42 í hálfleik.
--4	None	_	None	None	_	_	None	_	_
 1	Leikurinn	leikur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	hörkuspennandi	hörku-spenna	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 4	allt	allur	ADV	ao	_	3	advmod	_	tag=ao
 5	frá	frá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -119,9 +118,8 @@
 
 # sent_id = GREYNIR_CORPUS_00406,.7
 # text = Sóley Guðmundsdóttir er fyrirliði kvennaliðsins og hún segir að draumurinn sé að koma heim með báða bikarana.
--4	None	_	None	None	_	_	None	_	_
 1	Sóley Guðmundsdóttir	Sóley Guðmundsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
-2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	fyrirliði	fyrirliði	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	kvennaliðsins	kvennalið	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk_gr
 5	og	og	CCONJ	st	_	3	cc	_	tag=st
@@ -178,6 +176,8 @@
 16	handtöku	handtaka	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_ef_kvk
 17	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00406,.10
+# text = Fjölgað hefur um 8.708 á kjörskrá frá því að kosið var vorið 2013 eða um 3,6%.
 1	Fjölgað	fjölga	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	um	um	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
@@ -188,11 +188,11 @@
 8	því	það	ADV	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	advmod	_	tag=pfn_et_þgf_hk_p3
 9	að	að	SCONJ	st	_	10	mark	_	tag=st
 10	kosið	kjósa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	advcl	_	tag=so_0_lhþt_et
-11	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	tag=so_0_fh_p3_et_þt_gm
+11	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_þt_gm
 12	vorið	vor	ADV	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	advmod	_	tag=no_et_þf_hk_gr
 13	2013	2013	NUM	ártal	_	12	nummod	_	tag=ártal
 14	eða	eða	CCONJ	st	_	1	cc	_	tag=st
 15	um	um	ADP	fs_þf	Case=Acc	16	dep	_	tag=fs_þf
-16	3,6%	3,6%	X	prósenta_ft_þf	Case=Acc|Number=Plur	1	obl	_	tag=prósenta_ft_þf
+16	3,6%	3,6%	X	prósenta_ft_þf	Case=Acc|Number=Plur	1	obl	_	SpaceAfter=No|tag=prósenta_ft_þf
 17	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

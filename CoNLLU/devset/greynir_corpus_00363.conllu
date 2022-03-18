@@ -60,7 +60,7 @@
 2	ævintýrið	ævintýr	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_nf_hk_gr
 3	fyrir	fyrir	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	okkur	við	PRON	pfn_ft_þf_p1	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obl	_	tag=pfn_ft_þf_p1
-5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 6	klárlega	klárlega	ADV	ao	_	7	advmod	_	tag=ao
 7	dvölin	dvöl	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk_gr
 8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
@@ -90,17 +90,16 @@
 5	út	úti	ADV	ao	_	7	advmod	_	tag=ao
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	Granda	Grandi	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_kk
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_0_fh_p3_et_nt_gm
+8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
 9	algjörlega	algjörlega	ADV	eo	_	10	advmod	_	tag=eo
 10	geggjaður	geggjaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 11	!	!	PUNCT	grm	_	10	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00363,.8
 # text = Þessir bílar eru augljóslega gölluð vara, segir Páll.
--2	None	_	None	None	_	_	None	_	_
 1	Þessir	þessi	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=fn_ft_nf_kk
 2	bílar	bíla	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	tag=no_ft_nf_kk
-3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4	augljóslega	augljóslega	ADV	ao	_	6	advmod	_	tag=ao
 5	gölluð	gallaður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_sb
 6	vara	vara	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No|tag=no_et_nf_kvk
@@ -123,16 +122,17 @@
 10	ungmenni	ungmenni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No|tag=no_et_þf_hk
 11	?	?	PUNCT	grm	_	2	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00363,.10
+# text = Metcalfe var heimilislaus, en var á biðlista eftir húsnæði.
 1	Metcalfe	Metcalfe	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
-3	heimilislaus	heimilislaus	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+3	heimilislaus	heimilislaus	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 5	en	en	CCONJ	st	_	3	cc	_	tag=st
-6	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+6	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	biðlista	biðlisti	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
+8	biðlista	biðlisti	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
 9	eftir	eftir	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	húsnæði	húsnæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
+10	húsnæði	húsnæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

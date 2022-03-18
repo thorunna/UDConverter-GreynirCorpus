@@ -5,12 +5,12 @@
 3	Ingibjargar	Ingibjörg	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	nmod:poss	_	tag=person_ef_kvk
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	greininni	grein	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk_gr
-6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 7	27,42	27,42	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	8	nummod	_	tag=tala_ft_nf_kvk
 8	sekúndur	sekúnda	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk
 9	en	en	CCONJ	st	_	8	cc	_	tag=st
 10	Íslandsmetið	Íslandsmet	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	tag=no_et_nf_hk_gr
-11	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+11	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 12	27,40	27,40	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	8	conj	_	SpaceAfter=No|tag=tala_ft_nf_kvk
 13	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
@@ -56,7 +56,7 @@
 5	þakklát	þakklátur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	tag=lo_et_nf_kvk_sb
 6	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	10	case	_	tag=fs_nh
 7	að	að	PART	nhm	_	10	mark	_	tag=nhm
-8	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	10	conj	_	tag=so_1_nf_nh_gm
+8	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	10	cop	_	tag=so_1_nf_nh_gm
 9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	lífi	líf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
 
@@ -83,7 +83,7 @@
 4	Tékklandi	Tékkland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obj	_	tag=sérnafn_et_þgf_hk
 5	en	en	CCONJ	st	_	2	cc	_	tag=st
 6	ennþá	ennþá	ADV	ao	_	9	advmod	_	tag=ao
-7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=fn_et_nf_hk
 9	undir	undir	ADV	ao	_	2	conj	_	tag=ao
 10	hjá	hjá	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
@@ -93,11 +93,10 @@
 
 # sent_id = GREYNIR_CORPUS_00235,.7
 # text = Rúmlega 1100 háskólamenntaðir voru atvinnulausir í janúar ef marka má skrá Vinnumálastofnunar.
--2	None	_	None	None	_	_	None	_	_
 1	Rúmlega	rúmlega	ADV	eo	_	3	advmod	_	tag=eo
 2	1100	1100	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	3	nummod	_	tag=tala_ft_nf_kk
 3	háskólamenntaðir	háskólamenntaður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=lo_ft_nf_kk_sb
-4	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_ft_þt_gm
+4	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_þt_gm
 5	atvinnulausir	atvinnulaus	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	janúar	janúar	ADV	dagsafs	_	5	advmod	_	tag=dagsafs
@@ -110,8 +109,8 @@
 
 # sent_id = GREYNIR_CORPUS_00235,.8
 # text = En finnst Þór að það sé kannski franskur keimur á hans ljóðagerð ?
-1	En	en	SCONJ	st	_	0	root	_	tag=st
-2	finnst	finna	VERB	so_0_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	1	conj	_	tag=so_0_op_subj_þgf_fh_p3_et_nt_mm
+1	En	en	SCONJ	st	_	2	cc	_	tag=st
+2	finnst	finna	VERB	so_0_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_op_subj_þgf_fh_p3_et_nt_mm
 3	Þór	Þór	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	2	nsubj	_	tag=person_þgf_kk
 4	að	að	SCONJ	st	_	6	mark	_	tag=st
 5	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	tag=pfn_et_nf_hk_p3
@@ -122,13 +121,12 @@
 10	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 11	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	tag=pfn_et_ef_kk_p3
 12	ljóðagerð	ljóðagerð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-13	?	_	PUNCT	grm	_	1	punct	_	tag=grm
+13	?	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00235,.9
 # text = Robert Wilson er án efa einn áhrifamesti framúrstefnu leikshúsmaður og listamaður samtímans.
--4	None	_	None	None	_	_	None	_	_
 1	Robert Wilson	Robert Wilson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=person_et_nf_kk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	án	án	ADP	fs_ef	Case=Gen	4	case	_	tag=fs_ef
 4	efa	efi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_ef_kk
 5	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	tag=fn_et_nf_kk
@@ -140,6 +138,8 @@
 11	samtímans	samtími	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 12	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00235,.10
+# text = Það verður þó að benda á að eigendur aflandskrónanna eru engir amatörar.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_hk_p3
 2	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	þó	þó	ADV	ao	_	2	advmod	_	tag=ao
@@ -149,8 +149,8 @@
 7	að	að	SCONJ	st	_	12	mark	_	tag=st
 8	eigendur	eigandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	tag=no_ft_nf_kk
 9	aflandskrónanna	aflandskróna	NOUN	no_ft_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	8	nmod:poss	_	tag=no_ft_ef_kvk_gr
-10	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+10	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 11	engir	enginn	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	12	nmod	_	tag=fn_ft_nf_kk
-12	amatörar	amatör	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	obl	_	tag=no_ft_nf_kk
+12	amatörar	amatör	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_nf_kk
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

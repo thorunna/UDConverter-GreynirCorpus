@@ -115,12 +115,12 @@
 9	æfingunni	æfing	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk_gr
 10	í gær	í gær	ADV	ao	_	9	advmod	_	tag=ao
 11	og	og	CCONJ	st	_	2	cc	_	tag=st
-12	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
-13	klár	klár	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	tag=lo_et_nf_kk_fst_sb
+12	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+13	klár	klár	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	cop	_	tag=lo_et_nf_kk_fst_sb
 14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	slaginn	slagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þf_kk_gr
+15	slaginn	slagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk_gr
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	æfingagallanum	æfingagalli	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
+17	æfingagallanum	æfingagalli	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00109,.7
@@ -147,10 +147,10 @@
 
 # sent_id = GREYNIR_CORPUS_00109,.8
 # text = Suðvesturland : Það er hálka m.a. í Þrengslum og Suðurstrandarvegi en hálkublettir á Hellisheiði og flestum öðrum leiðum.
-1	Suðvesturland	Suðvesturland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=sérnafn_et_nf_hk
+1	Suðvesturland	Suðvesturland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=sérnafn_et_nf_hk
 2	:	:	PUNCT	grm	_	1	punct	_	tag=grm
 3	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	hálka	hálka	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 6	m.a.	m.a.	ADV	abbrev	_	4	advmod	_	tag=abbrev
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -165,7 +165,7 @@
 16	flestum	margur	ADJ	lo_ft_þgf_kvk_est_sb	Case=Dat|Degree=Sup|Gender=Fem|Number=Plur	18	amod	_	tag=lo_ft_þgf_kvk_est_sb
 17	öðrum	annar	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	18	nmod	_	tag=fn_ft_þgf_kvk
 18	leiðum	leiðum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-19	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+19	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00109,.9
 # text = Nýliðar Skagamanna hafa verið í miklu stuði á undirbúningstímabilinu og þeir verða mikið í beinni í fyrstu umferðunum.
@@ -189,6 +189,8 @@
 18	umferðunum	umferð	ADV	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	SpaceAfter=No|tag=no_ft_þgf_kvk_gr
 19	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00109,.10
+# text = Eftir 15 mínútna leik skölluðu Jóhann og Jonas Knudsen varnarmaður Ipswich, saman og þurftu báðir aðhlynningu.
 1	Eftir	eftir	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 2	15	15	NUM	tala_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur|NumType=Card	3	nummod	_	tag=tala_ft_ef_kvk
 3	mínútna	mínúta	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	4	nmod:poss	_	tag=no_ft_ef_kvk
@@ -198,12 +200,12 @@
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
 8	Jonas Knudsen	Jonas Knudsen	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	tag=person_et_nf_kk
 9	varnarmaður	varnarmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_nf_kk
-10	Ipswich	Ipswich	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=fyrirtæki_et_ef_hk
+10	Ipswich	Ipswich	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12	saman	saman	ADV	ao	_	5	advmod	_	tag=ao
 13	og	og	CCONJ	st	_	5	cc	_	tag=st
 14	þurftu	þurfa	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_ft_þt_gm
 15	báðir	báðir	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	tag=fn_ft_nf_kk
-16	aðhlynningu	aðhlynning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	tag=no_et_þf_kvk
+16	aðhlynningu	aðhlynning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 17	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

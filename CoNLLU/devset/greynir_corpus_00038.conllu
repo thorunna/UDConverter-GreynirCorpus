@@ -26,9 +26,8 @@
 
 # sent_id = GREYNIR_CORPUS_00038,.3
 # text = 88 voru hlynnt banninu en 68 lögðust gegn því.
--4	None	_	None	None	_	_	None	_	_
 1	88	88	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	3	nsubj	_	tag=tala_ft_nf_hk
-2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_ft_þt_gm
+2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 3	hlynnt	hlynntur	ADJ	lo_ft_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_fst_sb
 4	banninu	bann	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk_gr
 5	en	en	CCONJ	st	_	3	cc	_	tag=st
@@ -109,10 +108,12 @@
 5	því	því	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	advcl	_	tag=pfn_et_þgf_hk_p3
 6	meira	mikið	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_nf_hk_mst
 7	karma	karma	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_nf_hk
-8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 9	viðkvæðið	viðkvæði	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_hk_gr
 10	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00038,.10
+# text = Mjög mikið hefur verið að gera hjá björgunarsveitunum undanfarið.
 1	Mjög	mjög	ADV	eo_fst	Degree=Pos	2	advmod	_	tag=eo_fst
 2	mikið	mikill	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	nsubj	_	tag=lo_et_nf_hk_fst_sb
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -121,6 +122,6 @@
 6	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_0_nh_gm
 7	hjá	hjá	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	björgunarsveitunum	björgunarsveit	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_þgf_kvk_gr
-9	undanfarið	undanfarið	ADV	ao_fst	Degree=Pos	6	advmod	_	tag=ao_fst
+9	undanfarið	undanfarið	ADV	ao_fst	Degree=Pos	6	advmod	_	SpaceAfter=No|tag=ao_fst
 10	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

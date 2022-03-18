@@ -103,7 +103,7 @@
 1	Verkefni	verkefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=no_et_nf_hk
 2	nemenda	nemandi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk
 3	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-4	5.	5.	ADJ	raðnr_þgf_kk	Case=Dat|Gender=Masc|NumType=Ord	7	('HALLÓ_ADJP', None, 'NP', None)	_	SpaceAfter=No|tag=raðnr_þgf_kk
+4	5.	5.	ADJ	raðnr_þgf_kk	Case=Dat|Gender=Masc|NumType=Ord	7	amod	_	SpaceAfter=No|tag=raðnr_þgf_kk
 5	–	–	PUNCT	grm	_	4	punct	_	tag=grm
 6	7.	7.	ADJ	raðnr_þgf_kk	Case=Dat|Gender=Masc|NumType=Ord	4	amod	_	tag=raðnr_þgf_kk
 7	bekk	bekkur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
@@ -178,9 +178,11 @@
 15	malbiki	malbik	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00404,.10
+# text = Sveitin hefur verið á tónleikaferðalagi síðan í mars og Kingsbury viðurkenndi að vera orðinn eilítið lúinn.
 1	Sveitin	sveit	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	conj	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	tónleikaferðalagi	tónleika-ferðalag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	0	root	_	tag=no_et_þgf_hk
 6	síðan	síðan	ADV	ao	_	5	advmod	_	tag=ao
@@ -191,8 +193,8 @@
 11	viðurkenndi	viðurkenna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_þt_gm
 12	að	að	PART	nhm	_	16	mark	_	tag=nhm
 13	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	16	aux	_	tag=so_0_nh_gm
-14	orðinn	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	16	conj	_	tag=so_0_lhþt_et
+14	orðinn	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	16	cop	_	tag=so_0_lhþt_et
 15	eilítið	eilítið	ADV	eo	_	16	advmod	_	tag=eo
-16	lúinn	lúinn	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	ccomp	_	tag=lo_et_nf_kk_fst_sb
+16	lúinn	lúinn	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	ccomp	_	SpaceAfter=No|tag=lo_et_nf_kk_fst_sb
 17	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

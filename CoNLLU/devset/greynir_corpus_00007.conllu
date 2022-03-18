@@ -46,9 +46,8 @@
 
 # sent_id = GREYNIR_CORPUS_00007,.7
 # text = Aðalatriðið væri fjármögnun rekstursins.
--4	None	_	None	None	_	_	None	_	_
 1	Aðalatriðið	aðalatriði	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_vh_p3_et_þt_gm
+2	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 3	fjármögnun	fjármögnun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	rekstursins	rekstur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 5	.	_	PUNCT	grm	_	3	punct	_	tag=grm
@@ -69,9 +68,11 @@
 4	uppfærð	uppfæra	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_0_lhþt_et
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00007,.10
+# text = Ég var gjörsamlega úrvinda.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
-2	var	vera	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p1_et_þt_gm
+2	var	vera	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p1_et_þt_gm
 3	gjörsamlega	gjörsamlega	ADV	eo	_	4	advmod	_	tag=eo
-4	úrvinda	úrvinda	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
+4	úrvinda	úrvinda	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

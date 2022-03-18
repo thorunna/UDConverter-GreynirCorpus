@@ -16,13 +16,13 @@
 14	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	15	nmod	_	tag=pfn_ft_ef_p1
 15	loforð	loforð	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	tag=no_ft_þf_hk
 16	og	og	CCONJ	st	_	11	cc	_	tag=st
-17	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p1_ft_nt_gm
+17	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p1_ft_nt_gm
 18	með	með	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19	fjárhagsáætlanir	fjárhagsáætlun	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	17	obl	_	tag=no_ft_þf_kvk
+19	fjárhagsáætlanir	fjárhagsáætlun	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	tag=no_ft_þf_kvk
 20	þannig	þannig	ADV	ao	_	23	mark	_	tag=ao
 21	að	að	SCONJ	st	_	20	cc	_	tag=st
 22	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	expl	_	tag=pfn_et_nf_hk_p3
-23	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advcl	_	tag=so_0_fh_p3_et_nt_gm
+23	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	tag=so_0_fh_p3_et_nt_gm
 24	skírt	skýr	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	23	nsubj	_	tag=lo_et_nf_hk_fst_sb
 25	hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	tag=fn_et_þf_hk
 26	hvað	hvað	X	x		25	dep	_	tag=x
@@ -106,7 +106,7 @@
 12	2008	2008	ADV	ártal	_	11	advmod	_	tag=ártal
 13	en	en	CCONJ	st	_	2	cc	_	tag=st
 14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kk_p3
-15	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+15	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 16	hinsvegar	hinsvegar	ADV	ao	_	17	advmod	_	tag=ao
 17	fjórði	fjórði	ADJ	lo_et_nf_kk_fst	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	tag=lo_et_nf_kk_fst
 18	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
@@ -141,7 +141,7 @@
 16	fjallinu	fjall	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þgf_kk_gr
 17	og	og	CCONJ	st	_	4	cc	_	tag=st
 18	myndirnar	mynd	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	22	nsubj	_	tag=no_ft_nf_kvk_gr
-19	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+19	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 20	svo	svo	ADV	eo	_	22	advmod	_	tag=eo
 21	ótrulega	ótrúlega	ADV	ao_fst	Degree=Pos	22	advmod	_	tag=ao_fst
 22	flottar	flottur	ADJ	lo_ft_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	conj	_	tag=lo_ft_nf_kvk_fst_sb
@@ -219,7 +219,7 @@
 # sent_id = GREYNIR_CORPUS_00169,.8
 # text = Drengurinn er auðvitað landsþekktur fyrir að kynda upp í partíum og hér er auðvitað engin breyting á og hann skellir hér í tíu laga veislu fyrir lesendur Lífsins.
 1	Drengurinn	drengur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	auðvitað	auðvitað	ADV	eo	_	4	advmod	_	tag=eo
 4	landsþekktur	landsþekktur	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_fst_sb
 5	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	7	case	_	tag=fs_nh
@@ -278,6 +278,8 @@
 26	framboð	framboð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	SpaceAfter=No|tag=no_et_þf_hk
 27	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00169,.10
+# text = Páll er talinn hafa ekið bíl sínum út í ána um klukkan 22 í gærkvöldi en fjölmennt lið lögreglu og björgunarsveita, auk þyrlu Landhelgisgæslunnar var kallað út.
 1	Páll	Páll	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
 2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	talinn	telja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
@@ -296,13 +298,13 @@
 16	lið	lið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	tag=no_et_nf_hk
 17	lögreglu	lögregla	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	tag=no_et_ef_kvk
 18	og	og	CCONJ	st	_	19	cc	_	tag=st
-19	björgunarsveita	björgunarsveit	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	17	conj	_	tag=no_ft_ef_kvk
+19	björgunarsveita	björgunarsveit	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No|tag=no_ft_ef_kvk
 20	,	_	PUNCT	grm	_	19	punct	_	tag=grm
 21	auk	auk	ADP	fs_ef	Case=Gen	22	case	_	tag=fs_ef
 22	þyrlu	þyrla	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_ef_kvk
 23	Landhelgisgæslunnar	Landhelgisgæsla	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
 24	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	25	aux	_	tag=so_0_fh_p3_et_þt_gm
 25	kallað	kalla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
-26	út	út	ADV	ao	_	25	compound:prt	_	tag=ao
+26	út	út	ADV	ao	_	25	compound:prt	_	SpaceAfter=No|tag=ao
 27	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

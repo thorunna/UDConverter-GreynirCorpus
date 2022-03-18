@@ -163,10 +163,11 @@ def main():
             with open(input_path) if input_path else stdin as infile, open(
                 output_path, "w"
             ) if output_path else stdout as outfile:
-                for line in infile.readlines():
+                lines = infile.readlines()
+                lines.append("\n")
+                for line in lines:
                     psd += line
                     if len(line.strip()) == 0 and len(psd.strip()) > 0:
-                        # print("psd:", psd)
                         dep = c.create_dependency_graph(psd)
                         sent_id = (
                             re.sub(r"\.gld", "", file_id).upper()
@@ -186,8 +187,9 @@ def main():
                         file_sents += 1
                         psd = ""
 
-                dep = c.create_dependency_graph(psd)
-                outfile.write(dep.to_conllU())
+                if psd != "":
+                    dep = c.create_dependency_graph(psd)
+                    outfile.write(dep.to_conllU())
 
             if output_path and args.post_process:
                 run_post_file(output_path)

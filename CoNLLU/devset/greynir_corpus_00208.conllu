@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00208,.1
 # text = Það er allt í molum þarna.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	molum	moli	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_þgf_kk
@@ -30,12 +30,11 @@
 
 # sent_id = GREYNIR_CORPUS_00208,.4
 # text = Það virkar og er frábært.
--2	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_hk_p3
 2	virkar	virka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	og	og	CCONJ	st	_	2	cc	_	tag=st
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-5	frábært	frábær	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
+3	og	og	CCONJ	st	_	4	cc	_	tag=st
+4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+5	frábært	frábær	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	cop	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 6	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00208,.5
@@ -51,7 +50,7 @@
 # sent_id = GREYNIR_CORPUS_00208,.6
 # text = Auðvitað eru líka íslenskar bækur spennandi.
 1	Auðvitað	auðvitað	ADV	ao	_	6	advmod	_	tag=ao
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	líka	líka	ADV	eo	_	5	advmod	_	tag=eo
 4	íslenskar	íslenskur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	5	amod	_	tag=lo_ft_nf_kvk_sb
 5	bækur	bók	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	tag=no_ft_nf_kvk
@@ -71,7 +70,7 @@
 # sent_id = GREYNIR_CORPUS_00208,.8
 # text = Viðskiptastríð er í uppsiglingu í Norður-Ameríku.
 1	Viðskiptastríð	viðskiptastríð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	uppsiglingu	uppsigling	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	0	root	_	tag=no_et_þgf_kvk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -87,10 +86,12 @@
 5	krónunnar	króna	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 6	?	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00208,.10
+# text = Ég hafði misst mikið blóð.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_p1
 2	hafði	hafa	AUX	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	5	aux	_	tag=so_0_fh_p1_et_þt_gm
 3	misst	missa	VERB	so_1_þf_sagnb_mm	Case=Acc|VerbForm=Sup|Voice=Mid	5	conj	_	tag=so_1_þf_sagnb_mm
 4	mikið	mikill	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þf_hk_sb
-5	blóð	blóð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	0	root	_	tag=no_et_þf_hk
+5	blóð	blóð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_þf_hk
 6	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

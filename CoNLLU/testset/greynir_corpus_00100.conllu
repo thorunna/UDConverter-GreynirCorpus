@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00100,.1
 # text = Við vorum svo áköf að byrja og prófa þetta verkefni að við vildum ekki bíða lengur.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_ft_nf_p1
-2	vorum	vera	VERB	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p1_ft_þt_gm
+2	vorum	vera	VERB	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p1_ft_þt_gm
 3	svo	svo	ADV	eo	_	4	advmod	_	tag=eo
 4	áköf	ákafur	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_þf_hk_sb
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
@@ -164,7 +164,7 @@
 8	ef	ef	ADV	eo	_	7	advmod	_	tag=eo
 9	og	og	CCONJ	st	_	7	cc	_	tag=st
 10	hefði	hafa	ADV	eo	_	7	advmod	_	tag=eo
-11	er	er	VERB	so_0	_	13	conj	_	tag=so_0
+11	er	er	VERB	so_0	_	13	cop	_	tag=so_0
 12	rauði	rauður	ADJ	lo	_	13	amod	_	tag=lo
 13	þráðurinn	þráður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk_gr
 14	í	í	ADP	fs	_	16	case	_	tag=fs
@@ -173,6 +173,8 @@
 17	Þórarins	Þórarinn	PROPN	person	_	16	nmod:poss	_	SpaceAfter=No|tag=person
 18	.	_	PUNCT	grm	_	13	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00100,.10
+# text = Hún kemur fram með 27 strengjaleikurum og hentar sviðið í Eldborg alveg sérstaklega vel fyrir tónleika Bjarkar.
 1	Hún	hún	PRON	pfn	PronType=Prs	2	nsubj	_	tag=pfn
 2	kemur	koma	VERB	so_0	_	0	root	_	tag=so_0
 3	fram	fram	ADV	ao	_	2	compound:prt	_	tag=ao
@@ -189,6 +191,6 @@
 14	vel	vel	ADV	ao	_	12	advmod	_	tag=ao
 15	fyrir	fyrir	ADP	fs	_	16	case	_	tag=fs
 16	tónleika	tónleikar	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	tag=no_ft_þf_kk
-17	Bjarkar	Björk	PROPN	person	_	16	nmod:poss	_	tag=person
+17	Bjarkar	Björk	PROPN	person	_	16	nmod:poss	_	SpaceAfter=No|tag=person
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

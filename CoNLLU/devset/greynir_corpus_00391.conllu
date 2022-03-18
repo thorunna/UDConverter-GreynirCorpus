@@ -18,10 +18,9 @@
 
 # sent_id = GREYNIR_CORPUS_00391,.2
 # text = Lengst af verður þurrt Norðaustanlands, en þar má eining búast við éljagangi í kvöld.
--3	None	_	None	None	_	_	None	_	_
 1	Lengst	langt	ADV	ao_est	Degree=Sup	4	advmod	_	tag=ao_est
 2	af	af	ADV	ao	_	1	advmod	_	tag=ao
-3	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	þurrt	þurr	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	Norðaustanlands	norðaustan-lands	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
 6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
@@ -38,7 +37,7 @@
 # sent_id = GREYNIR_CORPUS_00391,.3
 # text = Þetta er það verkefni sem fær langmesta athygli og mesta umfjöllun í heimi.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	tag=fn_et_nf_hk
 4	verkefni	verkefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
@@ -75,7 +74,7 @@
 1	Þar	þar	ADV	ao	_	5	mark	_	tag=ao
 2	sem	sem	SCONJ	st	_	1	cc	_	tag=st
 3	Costa	Costa	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	samningsbundinn	samningsbundinn	ADJ	lo_et_nf_kk_sb_sþgf	Case=Nom|Gender=Masc|Number=Sing	10	advcl	_	tag=lo_et_nf_kk_sb_sþgf
 6	Bayern	Bayern	PROPN	fyrirtæki_þgf_hk	Case=Dat|Gender=Neut	5	obl	_	tag=fyrirtæki_þgf_hk
 7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
@@ -91,7 +90,7 @@
 # sent_id = GREYNIR_CORPUS_00391,.6
 # text = Kólera er skæð bakteríusýking sem smitast mjög auðveldlega, m.a. með mat og vatni.
 1	Kólera	kólera	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	skæð	skæður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_nf_kvk_sb
 4	bakteríusýking	bakteríusýking	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
@@ -160,6 +159,8 @@
 14	sunnudaginn	sunnudagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00391,.10
+# text = Er upphæðin um 7,6 prósent af tekjum Símans í fyrra, sem námu alls 7.945 milljónum króna.
 1	Er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 2	upphæðin	upphæð	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
 3	um	um	ADV	eo	_	1	xcomp	_	tag=eo
@@ -168,11 +169,11 @@
 6	tekjum	tekja	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þgf_kvk
 7	Símans	Síminn	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	tag=fyrirtæki_et_ef_kk
 8	í	í	ADV	ao	_	6	advmod	_	tag=ao
-9	fyrra	fyrra	ADV	ao	_	8	advmod	_	tag=ao
+9	fyrra	fyrra	ADV	ao	_	8	advmod	_	SpaceAfter=No|tag=ao
 10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 12	námu	nema	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	tag=so_1_þgf_fh_p3_ft_þt_gm
 13	alls	alls	ADV	eo	_	12	advmod	_	tag=eo
-14	7.945 milljónum króna	7.945 milljónum króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obj	_	tag=no_ft_þgf_kvk
+14	7.945 milljónum króna	7.945 milljónum króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 15	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

@@ -59,21 +59,21 @@
 4	112.	112.	ADJ	raðnr_þgf_kvk	Case=Dat|Gender=Fem|NumType=Ord	5	amod	_	tag=raðnr_þgf_kvk
 5	sæti	sæti	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 6	peningalista	peningalisti	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kk
-7	LPGA-mótaraðarinnar	LPGA-mótaröð	NOUN	abbrev	_	6	nmod:poss	_	tag=abbrev
+7	LPGA-mótaraðarinnar	LPGA-mótaröð	ADV	abbrev	_	6	nmod:poss	_	tag=abbrev
 8	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_þgf_hk_evb
 10	tímabili	tímabil	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 11	en	en	CCONJ	st	_	2	cc	_	tag=st
-12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-13	nú	nú	ADV	ao	_	12	advmod	_	tag=ao
+12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+13	nú	nú	ADV	ao	_	2	advmod	_	tag=ao
 14	með	með	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 15	öruggt	öruggur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þf_hk_sb
-16	sæti	sæti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þf_hk
+16	sæti	sæti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk
 17	fyrir	fyrir	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 18	næsta	næstur	ADJ	lo_et_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	19	amod	_	tag=lo_et_þf_hk_evb
-19	keppnistímabil	keppnistímabil	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þf_hk
+19	keppnistímabil	keppnistímabil	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk
 20	eftir	eftir	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	árangur	árangur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þf_kk
+21	árangur	árangur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
 22	helgarinnar	helgi	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -104,9 +104,8 @@
 
 # sent_id = GREYNIR_CORPUS_00149,.5
 # text = Hún var meðlimur í hljómsveitinni sem flutti tónlistina í Ronju ræningjadóttur í Þjóðleikhúsinu og hefur komið fram með hljómsveit sem flytur hennar eigið efni.
--4	None	_	None	None	_	_	None	_	_
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kvk_p3
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	meðlimur	meðlimur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	hljómsveitinni	hljómsveit	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk_gr
@@ -173,7 +172,7 @@
 14	nefna	nefna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	conj	_	tag=so_1_þf_nh_gm
 15	að	að	SCONJ	st	_	14	ccomp	_	tag=st
 16	hvergi	hvergi	ADV	ao	_	20	advmod	_	tag=ao
-17	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+17	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 18	neysla	neysla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	tag=no_et_nf_kvk
 19	þunglyndislyfja	þunglyndislyf	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	18	nmod:poss	_	tag=no_ft_ef_hk
 20	meiri	mikill	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	15	xcomp	_	tag=lo_et_nf_kvk_mst
@@ -225,26 +224,28 @@
 16	íslenskum krónum	íslenskur króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 17	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00149,.10
+# text = Quincy Jones er 84 ra ára og hefur á ferli sínum verið tilnefndur 79 sinnum til Grammy-verðlauna og unnið þau 28 sinnum.
 1	Quincy Jones	Quincy Jones	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	84	84	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	4	nummod	_	tag=tala_ft_ef_hk
 4	ra	ra	PROPN	entity	_	0	root	_	tag=entity
 5	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	conj	_	tag=no_ft_ef_hk
 6	og	og	CCONJ	st	_	4	cc	_	tag=st
-7	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_et_nt_gm
+7	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	ferli	ferill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þgf_kk
+9	ferli	ferill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
 10	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	tag=fn_et_þgf_kk
-11	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	12	aux	_	tag=so_1_nf_sagnb_gm
-12	tilnefndur	tilnefna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	conj	_	tag=so_0_lhþt_et
-13	79	79	ADV	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	12	advmod	_	tag=tala_ft_þgf_hk
+11	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	aux	_	tag=so_1_nf_sagnb_gm
+12	tilnefndur	tilnefna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	cop	_	tag=so_0_lhþt_et
+13	79	79	ADV	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	4	advmod	_	tag=tala_ft_þgf_hk
 14	sinnum	sinn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_þgf_hk
 15	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
-16	Grammy-verðlauna	Grammy-verðlaun	PROPN	entity	_	12	obl	_	tag=entity
-17	og	og	CCONJ	st	_	12	cc	_	tag=st
-18	unnið	vinna	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	12	conj	_	tag=so_1_þf_sagnb_gm
-19	þau	það	PRON	pfn_ft_þf_hk_p3	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	12	obj	_	tag=pfn_ft_þf_hk_p3
-20	28	28	ADV	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	12	advmod	_	tag=tala_ft_þgf_hk
-21	sinnum	sinn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	20	obl	_	tag=no_ft_þgf_hk
+16	Grammy-verðlauna	Grammy-verðlaun	PROPN	entity	_	4	obl	_	tag=entity
+17	og	og	CCONJ	st	_	4	cc	_	tag=st
+18	unnið	vinna	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	4	conj	_	tag=so_1_þf_sagnb_gm
+19	þau	það	PRON	pfn_ft_þf_hk_p3	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	4	obj	_	tag=pfn_ft_þf_hk_p3
+20	28	28	ADV	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	4	advmod	_	tag=tala_ft_þgf_hk
+21	sinnum	sinn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 22	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

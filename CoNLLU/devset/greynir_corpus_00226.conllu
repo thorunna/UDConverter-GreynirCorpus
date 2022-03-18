@@ -14,16 +14,16 @@
 
 # sent_id = GREYNIR_CORPUS_00226,.2
 # text = En oftast eru þetta eignaspjöll, segir í svarinu.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	5	cc	_	tag=st
 2	oftast	oft	ADV	ao_est	Degree=Sup	5	advmod	_	tag=ao_est
-3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-5	eignaspjöll	eignaspjöll	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	1	('HALLÓ_S', 'QUOTE', 'S0', None)	_	SpaceAfter=No|tag=no_ft_nf_hk
+5	eignaspjöll	eignaspjöll	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|tag=no_ft_nf_hk
 6	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-7	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	svarinu	svar	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-10	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+10	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00226,.3
 # text = Skrifað hafi verið undir samninginn eftir liðlega heils árs viðræður.
@@ -118,6 +118,8 @@
 9	eldisins	eldi	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00226,.10
+# text = Við hækkuðum hámarksgreiðslurnar um 20.000 í byrjun þessa árs.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_p1
 2	hækkuðum	hækka	VERB	so_1_þf_fh_p1_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_ft_þt_gm
 3	hámarksgreiðslurnar	hámarksgreiðsla	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	tag=no_ft_þf_kvk_gr
@@ -126,6 +128,6 @@
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	byrjun	byrjun	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	advmod	_	tag=no_et_þgf_kvk
 8	þessa	þessi	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	tag=fn_et_ef_hk
-9	árs	ár	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk
+9	árs	ár	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
 10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

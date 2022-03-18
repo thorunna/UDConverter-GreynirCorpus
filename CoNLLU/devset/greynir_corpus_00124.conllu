@@ -30,10 +30,10 @@
 5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_nf_nh_gm
 6	saman	saman	ADV	ao	_	5	advmod	_	tag=ao
 7	og	og	CCONJ	st	_	3	cc	_	tag=st
-8	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-9	sambandið	samband	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þf_hk_gr
-10	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	11	conj	_	tag=so_1_nf_nh_gm
-11	alvarlegra	alvarlegur	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	8	xcomp	_	tag=lo_et_nf_hk_mst
+8	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_þf_fh_p3_et_nt_gm
+9	sambandið	samband	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þf_hk_gr
+10	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	11	cop	_	tag=so_1_nf_nh_gm
+11	alvarlegra	alvarlegur	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	3	xcomp	_	tag=lo_et_nf_hk_mst
 12	en	en	CCONJ	st	_	11	advcl	_	tag=st
 13	áður	áður	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
@@ -204,6 +204,8 @@
 18	atburðina	atburður	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
 19	.	_	PUNCT	grm	_	11	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00124,.10
+# text = Ég tel að ég væri að misvirða hlutverk mitt og skyldur mínar gagnvart réttarríkinu ef ég gerði það ekki.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	tel	telja	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	að	að	SCONJ	st	_	7	mark	_	tag=st
@@ -222,6 +224,6 @@
 16	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_p1
 17	gerði	gera	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	7	advcl	_	tag=so_1_þf_fh_p1_et_þt_gm
 18	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	tag=pfn_et_þf_hk_p3
-19	ekki	ekki	ADV	ao	_	17	advmod	_	tag=ao
+19	ekki	ekki	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
 20	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

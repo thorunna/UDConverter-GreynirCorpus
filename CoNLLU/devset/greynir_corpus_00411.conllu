@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00411,.1
 # text = Þetta er þó ekki fyrsta hátíðarfæðing foreldranna því stóra systir nýjársdrenginsins fæddist á páskunum fyrir fjórum árum.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	þó	þó	ADV	ao	_	6	advmod	_	tag=ao
 4	ekki	ekki	ADV	ao	_	6	advmod	_	tag=ao
 5	fyrsta	fyrstur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_vb
@@ -49,7 +49,7 @@
 6	sem	sem	SCONJ	st	_	10	mark	_	tag=st
 7	færslan	færsla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	tag=no_et_nf_kvk_gr
 8	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_vh_p3_et_nt_gm
-9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	conj	_	tag=so_0_sagnb_gm
+9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	cop	_	tag=so_0_sagnb_gm
 10	undirbúin	undirbúa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	advcl	_	tag=so_0_lhþt_et
 11	af	af	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	hinum	hinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	tag=fn_et_þgf_kk
@@ -62,9 +62,8 @@
 
 # sent_id = GREYNIR_CORPUS_00411,.4
 # text = Bæturnar verða greiddar til Snorra Páls Jónssonar og Steinunnar Gunnlaugsdóttur vegna viðkvæmra persónuupplýsinga sem skráðar voru um þau í skýrsluna.
--4	None	_	None	None	_	_	None	_	_
 1	Bæturnar	bót	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk_gr
-2	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_nt_gm
+2	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	greiddar	greiða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5	Snorra Páls Jónssonar	Snorri Páll Jónsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	3	obl	_	tag=person_ef_kk
@@ -90,7 +89,7 @@
 4	að	að	SCONJ	st	_	8	mark	_	tag=st
 5	framkvæmdirnar	framkvæmd	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	nsubj	_	tag=no_ft_nf_kvk_gr
 6	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_vh_p3_ft_nt_gm
-7	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	conj	_	tag=so_0_sagnb_gm
+7	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	cop	_	tag=so_0_sagnb_gm
 8	skipulagðar	skipuleggja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	obj	_	tag=so_0_lhþt_ft
 9	mun	munur	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	advmod	_	tag=no_et_þgf_kk
 10	lengur	lengi	ADV	ao_mst	Degree=Cmp	9	advmod	_	tag=ao_mst
@@ -187,8 +186,10 @@
 17	meiðsli	meiðsla	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
 18	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00411,.10
+# text = Ed er sérstaklega spenntur að koma til Íslands enda mikill aðdáandi Íslands og íslenska karlalandsliðsins í fótbolta.
 1	Ed	Ed	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	sérstaklega	sérstaklega	ADV	eo	_	11	advmod	_	tag=eo
 4	spenntur	spenntur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_nf_kk_sb
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
@@ -203,6 +204,6 @@
 14	íslenska	íslenskur	ADJ	lo_et_ef_hk_vb	Case=Gen|Gender=Neut|Number=Sing	12	conj	_	tag=lo_et_ef_hk_vb
 15	karlalandsliðsins	karlalandslið	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	12	conj	_	tag=no_et_ef_hk_gr
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	fótbolta	fótbolti	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þgf_kk
+17	fótbolta	fótbolti	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 18	.	.	PUNCT	grm	_	11	punct	_	tag=grm
 

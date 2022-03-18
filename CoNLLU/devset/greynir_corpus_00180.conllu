@@ -44,10 +44,10 @@
 9	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 10	sýna	sýna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	conj	_	tag=so_1_þf_nh_gm
 11	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	10	obj	_	SpaceAfter=No|tag=abfn_þf
-12	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-13	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	conj	_	tag=so_0_nh_gm
+12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
+13	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	cop	_	tag=so_0_nh_gm
 14	til	til	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
-15	staðar	staður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_ef_kk
+15	staðar	staður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_ef_kk
 16	,	_	PUNCT	grm	_	17	punct	_	tag=grm
 17	láta	láta	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_nt_gm
 18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
@@ -63,27 +63,26 @@
 28	fæti	fótur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	26	obl	_	tag=no_et_þgf_kk
 29	þegar	þegar	SCONJ	st	_	30	mark	_	tag=st
 30	þurfa	þurfa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	26	advcl	_	tag=so_0_nh_gm
-31	þykir	þykja	VERB	so_0_op_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	conj	_	SpaceAfter=No|tag=so_0_op_fh_p3_et_nt_gm
+31	þykir	þykja	VERB	so_0_op_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	cop	_	SpaceAfter=No|tag=so_0_op_fh_p3_et_nt_gm
 32	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00180,.3
 # text = Jón er uppalinn hjá KR og spilaði með liðinu tímabilið 2008 – 9 sem er eina tímabilið hans hér á landi eftir að hann hélt fyrst út í atvinnumennsku árið 2002.
--4	None	_	None	None	_	_	None	_	_
 1	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	uppalinn	uppala	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	KR	KR	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
 6	og	og	CCONJ	st	_	3	cc	_	tag=st
-7	spilaði	spila	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+7	spilaði	spila	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_þf_fh_p3_et_þt_gm
 8	með	með	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk_gr
-10	tímabilið	tímabil	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_nf_hk_gr
+9	liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk_gr
+10	tímabilið	tímabil	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_nf_hk_gr
 11	2008	2008	ADV	ártal	_	10	advmod	_	SpaceAfter=No|tag=ártal
 12	–	_	PUNCT	grm	_	11	punct	_	tag=grm
 13	9	9	NUM	ártal	_	11	nummod	_	tag=ártal
 14	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
-15	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+15	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 16	eina	einn	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	17	amod	_	tag=lo_et_nf_hk_vb
 17	tímabilið	tímabil	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	advcl	_	tag=no_et_nf_hk_gr
 18	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nmod:poss	_	tag=pfn_et_ef_kk_p3
@@ -96,13 +95,13 @@
 25	út	út	ADV	ao	_	27	advmod	_	tag=ao
 26	í	í	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
 27	atvinnumennsku	atvinnumennska	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	tag=no_et_þf_kvk
-28	árið 2002	árið 2002	NUM	ártal	_	7	obj	_	SpaceAfter=No|tag=ártal
+28	árið 2002	árið 2002	NUM	ártal	_	3	obj	_	SpaceAfter=No|tag=ártal
 29	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00180,.4
 # text = Það er líka mikill áhugi erlendis frá á íslenskum djassi og við Leifur finnum líka fyrir miklum áhuga erlendra gesta á því að koma og spila á Jazzhátíð Reykjavíkur.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	líka	líka	ADV	eo	_	5	advmod	_	tag=eo
 4	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_sb
 5	áhugi	áhugi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -196,13 +195,12 @@
 
 # sent_id = GREYNIR_CORPUS_00180,.7
 # text = Tekið er fram að borðinn verði ekki sjáanlegur á meðan Hazard spilar fyrir annað félag en mun líklega fara upp á ný ef Hazard snýr aftur eða leggur skóna á hilluna.
--3	None	_	None	None	_	_	None	_	_
 1	Tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	fram	fram	ADV	eo	_	1	obj	_	tag=eo
 4	að	að	SCONJ	st	_	8	mark	_	tag=st
 5	borðinn	borði	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk_gr
-6	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_vh_p3_et_nt_gm
+6	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
 7	ekki	ekki	ADV	eo	_	8	advmod	_	tag=eo
 8	sjáanlegur	sjáanlegur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	tag=lo_et_nf_kk_sb
 9	á meðan	á meðan	ADV	ao	_	11	advmod	_	tag=ao
@@ -256,7 +254,7 @@
 23	Puffins etc.	Puffins etc.	PROPN	sérnafn	_	21	conj	_	tag=sérnafn
 24	en	en	CCONJ	st	_	19	cc	_	tag=st
 25	Lýdía	Lýdía	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	28	nsubj	_	tag=person_nf_kvk
-26	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+26	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 27	eini	einn	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	28	amod	_	tag=lo_et_nf_kk_vb
 28	starfsmaðurinn	starfsmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No|tag=no_et_nf_kk_gr
 29	.	_	PUNCT	grm	_	19	punct	_	tag=grm
@@ -265,7 +263,7 @@
 # text = Bíllinn hefur verið á toppnum í sínum flokki í Evrópu síðustu þrjú ár, þrátt fyrir síaukna sókn annarra tegunda inn á sama markað, segir í tilkynningu um frumsýninguna.
 1	Bíllinn	bíll	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk_gr
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	14	conj	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	14	cop	_	tag=so_1_nf_sagnb_gm
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	toppnum	toppur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þgf_kk_gr
 6	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -294,6 +292,8 @@
 29	frumsýninguna	frumsýning	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 30	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00180,.10
+# text = Við völdum nafnið af því foreldrar og afar og ömmur margra okkar voru í andspyrnuhreyfingunni og við vildum heiðra minningu þeirra, segir einn aðgerðasinnanna í samtali við Guardian.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root	_	tag=pfn_ft_nf_p1
 2	völdum	valda	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	1	('HALLÓ_S', 'MAIN', 'S', 'QUOTE')	_	tag=so_1_þf_fh_p1_ft_nt_gm
 3	nafnið	nafn	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk_gr
@@ -314,7 +314,7 @@
 18	vildum	vilja	AUX	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	19	aux	_	tag=so_0_fh_p1_ft_þt_gm
 19	heiðra	heiðra	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	('HALLÓ_S', 'MAIN', 'S', 'QUOTE')	_	tag=so_1_þf_nh_gm
 20	minningu	minning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	tag=no_et_þf_kvk
-21	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	20	nmod:poss	_	tag=pfn_ft_ef_hk_p3
+21	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	20	nmod:poss	_	SpaceAfter=No|tag=pfn_ft_ef_hk_p3
 22	,	_	PUNCT	grm	_	21	punct	_	tag=grm
 23	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 24	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	tag=fn_et_nf_kk
@@ -322,6 +322,6 @@
 26	í	í	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	tag=no_et_þgf_hk
 28	við	við	ADP	fs_þf	Case=Acc	29	case	_	tag=fs_þf
-29	Guardian	Guardian	PROPN	fyrirtæki	_	27	obl	_	tag=fyrirtæki
+29	Guardian	Guardian	PROPN	fyrirtæki	_	27	obl	_	SpaceAfter=No|tag=fyrirtæki
 30	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 

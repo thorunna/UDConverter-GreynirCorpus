@@ -72,7 +72,7 @@
 # sent_id = GREYNIR_CORPUS_00127,.4
 # text = Þetta er harður dómur yfir framferði íslensku fjármálastofnanna og fjármálamannanna sem voru mestir og bestir í heimi — fyrir hrun.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	harður	harður	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_fst_sb
 4	dómur	dómur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	yfir	yfir	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -95,9 +95,9 @@
 
 # sent_id = GREYNIR_CORPUS_00127,.5
 # text = Og það sést reyndar vel á Facebook-síðum Páls og Ásmundar Friðrikssonar, sem skipaði annað sætið á lista flokksins.
-1	Og	og	SCONJ	st	_	0	root	_	tag=st
+1	Og	og	SCONJ	st	_	3	cc	_	tag=st
 2	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-3	sést	sjá	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	1	conj	_	tag=so_0_fh_p3_et_nt_mm
+3	sést	sjá	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 4	reyndar	reyndar	ADV	ao	_	3	advmod	_	tag=ao
 5	vel	vel	ADV	ao_fst	Degree=Pos	3	advmod	_	tag=ao_fst
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -113,13 +113,12 @@
 16	á	á	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	lista	listi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_þgf_kk
 18	flokksins	flokkur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
-19	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00127,.6
 # text = Ástæðan var ósætti í samningi vegna ímyndarréttar þeirra og launa vegna vinnu á vegum sambandsins í auglýsingum og fleiru þess háttar.
--4	None	_	None	None	_	_	None	_	_
 1	Ástæðan	ástæða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	ósætti	ósætti	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	samningi	samningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
@@ -214,6 +213,8 @@
 21	náttúrunni	náttúra	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
 22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00127,.10
+# text = Minnst sex létu lífið í morgun og 30 særðust þegar loftárásir voru gerðar á skrifstofubyggingu forsetaembættisins í Sanaa, höfuðborg Jemen.
 1	Minnst	lítið	ADV	eo_est	Degree=Sup	3	nsubj	_	tag=eo_est
 2	sex	sex	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	tag=töl_ft_nf_hk
 3	létu	láta	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
@@ -230,9 +231,9 @@
 14	skrifstofubyggingu	skrifstofubygging	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þf_kvk
 15	forsetaembættisins	forsetaembætti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=no_et_ef_hk_gr
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	Sanaa	Sanaa	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=sérnafn_et_þgf_hk
+17	Sanaa	Sanaa	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 18	,	_	PUNCT	grm	_	17	punct	_	tag=grm
 19	höfuðborg	höfuðborg	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_þgf_kvk
-20	Jemen	Jemen	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	nmod:poss	_	tag=sérnafn_et_ef_hk
+20	Jemen	Jemen	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
 21	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

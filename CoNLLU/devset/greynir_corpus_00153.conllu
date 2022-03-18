@@ -20,7 +20,7 @@
 18	flóttamannabúðum	flóttamannabúð	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	tag=no_ft_þgf_kvk
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	Sýrlandi	Sýrland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	tag=sérnafn_et_þgf_hk
-21	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	22	conj	_	tag=so_0_fh_p3_ft_þt_gm
+21	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	22	cop	_	tag=so_0_fh_p3_ft_þt_gm
 22	sviptar	sviptur	ADJ	lo_ft_nf_kvk_sþgf	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	tag=lo_ft_nf_kvk_sþgf
 23	réttinum	réttur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	tag=no_et_þgf_kk_gr
 24	af	af	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
@@ -45,15 +45,15 @@
 14	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_þgf_hk_evb
 15	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	advmod	_	tag=no_et_þgf_hk
 16	og	og	CCONJ	st	_	6	cc	_	tag=st
-17	voru	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_nt_gm
+17	voru	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
 18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19	raun	raun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_þgf_kvk
+19	raun	raun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk
 20	langt	langt	ADV	ao	_	25	advmod	_	tag=ao
 21	á	á	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
 22	eftir	eftir	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 23	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	tag=fn_et_þgf_hk
 24	magnaða	magnaður	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	25	amod	_	tag=lo_et_þgf_hk_vb
-25	áhorfi	áhorf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+25	áhorfi	áhorf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 26	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00153,.3
@@ -152,7 +152,7 @@
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 11	en	en	CCONJ	st	_	2	cc	_	tag=st
 12	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_kk_p3
-13	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_0_fh_p3_et_nt_gm
+13	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
 14	grunaður	grunaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=lo_et_nf_kk_sb
 15	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	aðild	aðild	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þf_kvk
@@ -244,13 +244,15 @@
 17	Breiðholti	Breiðholt	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	tag=sérnafn_et_þgf_hk
 18	á	á	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 19	föstudagskvöld	föstudagskvöld	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	advmod	_	tag=no_et_þf_hk
-20	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	21	conj	_	tag=so_0_fh_p3_et_þt_gm
+20	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	21	cop	_	tag=so_0_fh_p3_et_þt_gm
 21	handtekinn	handtaka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	umdæminu	umdæmi	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	21	obl	_	tag=no_et_þgf_hk_gr
 24	í morgun	í morgun	ADV	ao	_	21	advmod	_	SpaceAfter=No|tag=ao
 25	.	_	PUNCT	grm	_	21	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00153,.10
+# text = Ég hugsa að flestir hafi gaman af því að sjá sinn áratug, flestir munu þekkja margt í sínum áratug, segir Björn.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	tag=pfn_et_nf_p1
 2	hugsa	hugsa	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	1	xcomp	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	að	að	SCONJ	st	_	5	mark	_	tag=st
@@ -262,7 +264,7 @@
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
 10	sjá	sjá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
 11	sinn	sinn	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	tag=fn_et_þf_kk
-12	áratug	áratugur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	tag=no_et_þf_kk
+12	áratug	áratugur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|tag=no_et_þf_kk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	flestir	margur	ADJ	lo_ft_nf_kk_esb	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur	16	nsubj	_	tag=lo_ft_nf_kk_esb
 15	munu	munu	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_fh_p3_ft_nt_gm
@@ -270,9 +272,9 @@
 17	margt	margur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=lo_et_þf_hk_sb
 18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	tag=fn_et_þgf_kk
-20	áratug	áratugur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þgf_kk
+20	áratug	áratugur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 21	,	_	PUNCT	grm	_	20	punct	_	tag=grm
 22	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-23	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	nsubj	_	tag=person_nf_kk
+23	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 24	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 

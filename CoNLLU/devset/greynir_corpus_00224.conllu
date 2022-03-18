@@ -27,7 +27,7 @@
 # sent_id = GREYNIR_CORPUS_00224,.3
 # text = Það er greinilega mikil eftirspurn eftir tónleikum akkúrat hérna.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	greinilega	greinilega	ADV	ao	_	5	advmod	_	tag=ao
 4	mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_sb
 5	eftirspurn	eftirspurn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
@@ -39,11 +39,10 @@
 
 # sent_id = GREYNIR_CORPUS_00224,.4
 # text = Myndskeið af atvikinu er hægt að sjá hér að neðan.
--2	None	_	None	None	_	_	None	_	_
 1	Myndskeið	myndskeið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk
 2	af	af	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	atvikinu	atvik	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk_gr
-4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	sjá	sjá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_0_nh_gm
@@ -120,15 +119,16 @@
 10	þjónustu	þjónusta	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 11	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00224,.10
+# text = Það verður rannsakað hvort þarna eru seiði næsta sumar.
 1	Það	Það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	tag=pfn_et_nf_hk_p3
-2	verður	verða	VERB	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_op_es_fh_p3_et_nt_gm
+2	verður	verða	VERB	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_op_es_fh_p3_et_nt_gm
 3	rannsakað	rannsaka	VERB	so_0_lhþt_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_hk
 4	hvort	hvort	CCONJ	st	_	6	cc	_	tag=st
 5	þarna	þarna	ADV	ao	_	6	advmod	_	tag=ao
 6	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	nsubj	_	tag=so_0_fh_p3_ft_nt_gm
 7	seiði	seiði	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	tag=no_ft_nf_hk
 8	næsta	næstur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	tag=lo_et_þf_hk_sb
-9	sumar	sumar	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	advmod	_	tag=no_et_þf_hk
+9	sumar	sumar	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
 10	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

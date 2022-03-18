@@ -8,13 +8,13 @@
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
-9	vottuðu	votta	VERB	so_2_þgf_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_2_þgf_þf_fh_p3_ft_þt_gm
-10	lögreglumanninum	lögreglumaður	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	9	iobj	_	tag=no_et_þgf_kk_gr
+9	vottuðu	votta	VERB	so_2_þgf_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_2_þgf_þf_fh_p3_ft_þt_gm
+10	lögreglumanninum	lögreglumaður	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	iobj	_	tag=no_et_þgf_kk_gr
 11	Arnaud Beltrame	Arnaud Beltrame	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	10	obl	_	tag=sérnafn_þgf_kk
-12	virðingu	virðing	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	tag=no_et_þf_kvk
+12	virðingu	virðing	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
 13	sína	sinn	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	tag=fn_et_þf_kvk
 14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	advmod	_	tag=no_et_þf_kk
+15	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
 16	þegar	þegar	SCONJ	st	_	19	mark	_	tag=st
 17	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kk_p3
 18	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	19	aux	_	tag=so_0_fh_p3_et_þt_gm
@@ -30,7 +30,7 @@
 1	Bandaríska	bandarískur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	tag=lo_et_nf_hk_vb
 2	heilbrigðiseftirlitið	heilbrigðiseftirlit	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No|tag=no_et_nf_hk_gr
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
-4	CDC	CDC	NOUN	abbrev	_	2	obl	_	SpaceAfter=No|tag=abbrev
+4	CDC	CDC	ADV	abbrev	_	2	obl	_	SpaceAfter=No|tag=abbrev
 5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	gaf	gefa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 7	út	út	ADV	ao	_	6	compound:prt	_	tag=ao
@@ -86,7 +86,7 @@
 5	en	en	CCONJ	st	_	4	cc	_	tag=st
 6	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_p1
 7	var	vera	AUX	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	9	aux	_	tag=so_0_fh_p1_et_þt_gm
-8	orðin	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	conj	_	tag=so_0_lhþt_et
+8	orðin	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	cop	_	tag=so_0_lhþt_et
 9	fullorðin	fullorðinn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	advcl	_	tag=lo_et_nf_kvk_sb
 10	og	og	CCONJ	st	_	11	cc	_	tag=st
 11	fór	fara	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	9	conj	_	tag=so_0_fh_p1_et_þt_gm
@@ -238,6 +238,8 @@
 24	fjárlaga	fjárlag	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	22	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
 25	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00146,.10
+# text = Að minnsta kosti þrjátíu börn fórust og þrjátíu til viðbótar var saknað eftir að skóli þeirra hrundi í jarðskjálftanum sem skók Mexíkó á þriðjudag.
 1	Að minnsta kosti	að minnsta kosti	ADV	eo	_	3	advmod	_	tag=eo
 2	þrjátíu	þrjátíu	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nummod	_	tag=töl_ft_nf_hk
 3	börn	barn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
@@ -259,6 +261,6 @@
 19	skók	skekja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 20	Mexíkó	Mexíkó	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	tag=sérnafn_et_þf_hk
 21	á	á	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
-22	þriðjudag	þriðjudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	19	advmod	_	tag=no_et_þf_kk
+22	þriðjudag	þriðjudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	19	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 23	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

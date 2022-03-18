@@ -36,9 +36,9 @@
 5	hér	hér	ADV	ao	_	2	advmod	_	tag=ao
 6	áður	áður	ADV	ao	_	2	advmod	_	tag=ao
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
-8	hafði	hafa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-9	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
-10	hugmynd	hugmynd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	tag=no_et_þf_kvk
+8	hafði	hafa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_þf_fh_p3_et_þt_gm
+9	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
+10	hugmynd	hugmynd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
 11	um	um	ADP	fs_þf	Case=Acc	12	dep	_	tag=fs_þf
 12	hvað	hver	X	x		10	obl	_	tag=x
 13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
@@ -107,10 +107,10 @@
 16	heiminn	heimur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 17	,	_	PUNCT	grm	_	16	punct	_	tag=grm
 18	en	en	CCONJ	st	_	7	cc	_	tag=st
-19	flýði	flýja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_þt_gm
+19	flýði	flýja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
 20	þegar	þegar	SCONJ	st	_	22	mark	_	tag=st
 21	búið	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	22	xcomp	_	tag=so_0_lhþt_et
-22	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	19	advcl	_	tag=so_0_fh_p3_et_þt_gm
+22	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	tag=so_0_fh_p3_et_þt_gm
 23	að	að	PART	nhm	_	24	mark	_	tag=nhm
 24	klæða	klæða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	22	xcomp	_	tag=so_1_þf_nh_gm
 25	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	tag=pfn_et_þf_kk_p3
@@ -135,7 +135,7 @@
 13	Japan	Japan	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	Aron Kristjánsson	Aron Kristjánsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	nsubj	_	tag=person_nf_kk
-16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 17	þjálfari	þjálfari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk
 18	Barein	Barein	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	17	nmod:poss	_	tag=sérnafn_et_ef_hk
 19	og	og	CCONJ	st	_	2	cc	_	tag=st
@@ -169,7 +169,7 @@
 21	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	Keflavíkurflugvelli	Keflavíkurflugvöllur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	tag=sérnafn_et_þgf_kk
 23	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	25	aux	_	tag=so_0_vh_p3_et_þt_gm
-24	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	25	conj	_	tag=so_0_sagnb_gm
+24	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	25	cop	_	tag=so_0_sagnb_gm
 25	óásættanleg	óásættanlegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -217,7 +217,7 @@
 9	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 10	austanverðu	austanverður	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	11	amod	_	tag=lo_et_þgf_hk_sb
 11	landinu	land	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk_gr
-12	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_0_fh_p3_et_nt_gm
+12	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
 13	mun	munur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þgf_kk
 14	þungbúnara	þungbúinn	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_mst
 15	um	um	ADP	fs_nh	VerbForm=Inf	17	case	_	tag=fs_nh
@@ -236,10 +236,9 @@
 
 # sent_id = GREYNIR_CORPUS_00314,.9
 # text = Gæti ekki verið ánægðari &#40; augljóslega &#41; með umfjöllunina á FIRE AND FURY, skrifaði hann meðal annars á Twitter-síðu sinni í dag.
--3	None	_	None	None	_	_	None	_	_
 1	Gæti	geta	VERB	so_0_vh_p1_et_þt_gm	Mood=Sub|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_0_vh_p1_et_þt_gm
 2	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	conj	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
 4	ánægðari	ánægður	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|tag=lo_ft_nf_kk_mst
 5	&#40;	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	augljóslega	augljóslega	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
@@ -259,13 +258,15 @@
 20	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 21	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00314,.10
+# text = Ég bý í sveit og það er svo þægilegt að nota það til að safna upplýsingum fyrir það sem þarf að gera í næstu Selfoss- eða Reykjavíkurferð.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	bý	búa	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_et_nt_gm
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	sveit	sveit	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 5	og	og	CCONJ	st	_	2	cc	_	tag=st
 6	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_hk_p3
-7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	svo	svo	ADV	eo	_	9	advmod	_	tag=eo
 9	þægilegt	þægilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	tag=lo_et_nf_hk_sb
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
@@ -283,6 +284,6 @@
 22	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_0_nh_gm
 23	í	í	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
 24	næstu	næstur	ADJ	lo_et_þgf_kvk_evb	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	25	amod	_	tag=lo_et_þgf_kvk_evb
-25	Selfoss- eða Reykjavíkurferð	Selfoss- eða Reykjavíkur-ferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	tag=no_et_þgf_kvk
+25	Selfoss- eða Reykjavíkurferð	Selfoss- eða Reykjavíkur-ferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

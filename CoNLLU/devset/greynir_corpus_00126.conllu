@@ -11,7 +11,7 @@
 9	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	tag=pfn_et_þgf_p1
 10	finnst	finna	VERB	so_1_nf_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	2	conj	_	tag=so_1_nf_op_subj_þgf_fh_p3_et_nt_mm
 11	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	tag=pfn_et_nf_hk_p3
-12	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	13	conj	_	tag=so_1_nf_nh_gm
+12	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	13	cop	_	tag=so_1_nf_nh_gm
 13	raddir	rödd	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	10	xcomp	_	tag=no_ft_nf_kvk
 14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
 15	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -32,7 +32,7 @@
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	borgum	borg	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
-10	þ.e.a.s.	þ.e.a.s.	NOUN	abbrev	_	6	flat:name	_	tag=abbrev
+10	þ.e.a.s.	þ.e.a.s.	ADV	abbrev	_	6	advmod	_	tag=abbrev
 11	notkun	notkun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	tag=no_et_þf_kvk
 12	náttúrulegra	náttúrulegur	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	13	amod	_	tag=lo_ft_ef_kvk_sb
 13	svæða	svæða	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	6	nmod:poss	_	tag=no_ft_ef_kvk
@@ -72,7 +72,7 @@
 3	banka	banki	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	tag=fyrirtæki_et_ef_kk
 4	fjallar	fjalla	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-6	beinan	beinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	9	('HALLÓ_ADJP', None, 'NP', None)	_	tag=lo_et_þf_kk_sb
+6	beinan	beinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_þf_kk_sb
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
 8	óbeinan	óbeinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	tag=lo_et_þf_kk_sb
 9	kostnað	kostnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
@@ -134,7 +134,7 @@
 17	og	og	CCONJ	st	_	12	cc	_	tag=st
 18	varði	vara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_0_fh_p3_et_þt_gm
 19	í	í	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-20	u.þ.b.	u.þ.b.	NOUN	abbrev	_	21	flat:name	_	tag=abbrev
+20	u.þ.b.	u.þ.b.	ADV	abbrev	_	21	advmod	_	tag=abbrev
 21	klukkustund	klukkustund	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	18	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk
 22	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
@@ -143,7 +143,7 @@
 1	Vægi	vægi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
 2	þessara	þessi	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	tag=fn_ft_ef_kvk
 3	minninga	minning	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk
-4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_fh_p3_ft_nt_gm
+4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_ft_nt_gm
 5	að	að	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 6	mestu	mikill	ADJ	lo_et_þgf_hk_esb_sb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þgf_hk_esb_sb
 7	leiti	leyti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
@@ -211,6 +211,8 @@
 19	fyrra	fyrra	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
 20	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00126,.10
+# text = Ganamaðurinn Kofi Annan tók við embættinu af Boutros-Ghali eftir að Bandaríkjastjórn lagðist gegn því að hann sæti annað kjörtímabil.
 1	Ganamaðurinn	Ganamaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
 2	Kofi Annan	Kofi Annan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
 3	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
@@ -228,6 +230,6 @@
 15	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
 16	sæti	sitja	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	13	ccomp	_	tag=so_0_vh_p3_et_þt_gm
 17	annað	annar	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	nmod	_	tag=fn_et_þf_hk
-18	kjörtímabil	kjörtímabil	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	advmod	_	tag=no_et_þf_hk
+18	kjörtímabil	kjörtímabil	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

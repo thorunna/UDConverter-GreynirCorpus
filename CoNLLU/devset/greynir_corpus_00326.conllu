@@ -5,7 +5,7 @@
 3	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	obl	_	tag=pfn_ft_ef_p1
-6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_nt_gm
+6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	ánægt	ánægður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 8	með	með	ADP	fs_nh	VerbForm=Inf	10	case	_	tag=fs_nh
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
@@ -34,9 +34,8 @@
 
 # sent_id = GREYNIR_CORPUS_00326,.2
 # text = Það er nauðsynlegt að hafa skýran ramma utan um starfsemina og huga að því hvernig hægt er að koma sem best til móts við ólíkar þarfir fólks, segir hún.
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	nauðsynlegt	nauðsynlegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	xcomp	_	tag=lo_et_nf_hk_sb
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	hafa	hafa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
@@ -46,9 +45,9 @@
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	starfsemina	starfsemi	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk_gr
 11	og	og	CCONJ	st	_	5	cc	_	tag=st
-12	huga	huga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	conj	_	tag=so_0_nh_gm
+12	huga	huga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	cop	_	tag=so_0_nh_gm
 13	að	að	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=fn_et_þgf_hk
+14	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=fn_et_þgf_hk
 15	hvernig	hvernig	ADV	ao	_	17	advmod	_	tag=ao
 16	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	tag=lo_et_nf_hk_sb
 17	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	ccomp	_	tag=so_0_fh_p3_et_nt_gm
@@ -83,11 +82,11 @@
 12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 13	Reykjavík	Reykjavík	PROPN	sérnafn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	tag=sérnafn_et_þf_kvk
 14	og	og	CCONJ	st	_	4	cc	_	tag=st
-15	vonast	vona	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	4	conj	_	tag=so_0_fh_p3_et_nt_mm
+15	vonast	vona	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	4	cop	_	tag=so_0_fh_p3_et_nt_mm
 16	til	til	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
-17	að	að	SCONJ	st	_	15	obl	_	tag=st
+17	að	að	SCONJ	st	_	4	obl	_	tag=st
 18	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	tag=fn_et_nf_hk
-19	verði	verða	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	amod	_	tag=so_1_nf_vh_p3_ft_nt_gm
+19	verði	verða	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 20	aðeins	aðeins	ADV	ao	_	22	advmod	_	tag=ao
 21	fyrstu	fyrstur	ADJ	lo_ft_nf_hk_vb	Case=Nom|Gender=Neut|Number=Plur	22	amod	_	tag=lo_ft_nf_hk_vb
 22	skrefin	skref	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	17	obl	_	tag=no_ft_nf_hk_gr
@@ -172,7 +171,7 @@
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	pólskrar	pólskur	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	tag=lo_et_ef_kvk_sb
 6	konu	kona	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	tag=no_et_ef_kvk
-7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 8	forsagan	forsaga	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk_gr
 9	að	að	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 10	miklum	mikill	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	11	amod	_	tag=lo_ft_þgf_kk_sb
@@ -224,7 +223,7 @@
 21	þegar	þegar	SCONJ	st	_	25	mark	_	tag=st
 22	um	um	ADV	eo	_	23	advmod	_	tag=eo
 23	klukkutími	klukkutími	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	tag=no_et_nf_kk
-24	var	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	conj	_	tag=so_0_fh_p3_et_nt_gm
+24	var	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_0_fh_p3_et_nt_gm
 25	liðinn	liðinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	19	advcl	_	tag=lo_et_nf_kk_sb
 26	af	af	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27	leiknum	leikur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
@@ -289,11 +288,13 @@
 23	að	að	SCONJ	st	_	22	cc	_	tag=st
 24	kvikmyndin	kvikmynd	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	tag=no_et_nf_kvk_gr
 25	Pulp Fiction	Pulp Fiction	PROPN	entity	_	27	nsubj	_	tag=entity
-26	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	27	conj	_	tag=so_0_fh_p3_et_þt_gm
+26	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	27	cop	_	tag=so_0_fh_p3_et_þt_gm
 27	frumsýnd	frumsýna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	advcl	_	tag=so_0_lhþt_et
 28	árið 1994	árið 1994	ADV	ártal	_	27	advmod	_	SpaceAfter=No|tag=ártal
 29	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00326,.10
+# text = Yfir áramótin undirbúa hestamenn sig og hafa kveikt í húsunum og setja á tónlist til að friða hestana frá þessum hljóðum en nú eru menn ekki jafn varir um sig.
 1	Yfir	yfir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	áramótin	áramót	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	3	advmod	_	tag=no_ft_þf_hk_gr
 3	undirbúa	undirbúa	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
@@ -317,12 +318,12 @@
 21	hljóðum	hljóð	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	17	obl	_	tag=no_ft_þgf_hk
 22	en	en	CCONJ	st	_	3	cc	_	tag=st
 23	nú	nú	ADV	ao	_	28	advmod	_	tag=ao
-24	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+24	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	28	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 25	menn	maður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	tag=no_ft_nf_kk
 26	ekki	ekki	ADV	ao	_	28	advmod	_	tag=ao
 27	jafn	jafn	ADV	eo	_	28	advmod	_	tag=eo
 28	varir	var	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	tag=lo_ft_nf_kk_sb
 29	um	um	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
-30	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	28	obl	_	tag=abfn_þf
+30	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	28	obl	_	SpaceAfter=No|tag=abfn_þf
 31	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

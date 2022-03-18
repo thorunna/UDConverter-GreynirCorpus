@@ -41,7 +41,7 @@
 8	tekjum	tekja	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	tag=no_ft_þgf_kvk
 9	hins	hinn	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	8	nmod:poss	_	tag=fn_et_ef_kk
 10	opinbera	opinber	ADJ	lo_et_ef_kk_vb	Case=Gen|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_ef_kk_vb
-11	yrðu	verða	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	15	conj	_	tag=so_0_vh_p3_ft_þt_gm
+11	yrðu	verða	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_vh_p3_ft_þt_gm
 12	þessir	þessi	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	13	nmod	_	tag=fn_ft_nf_kk
 13	flutningar	flutningur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	tag=no_ft_nf_kk
 14	ekki	ekki	ADV	eo	_	15	advmod	_	tag=eo
@@ -64,7 +64,7 @@
 # sent_id = GREYNIR_CORPUS_00319,.3
 # text = Valdimar varð einnig tíðrætt um íslenska vistri menn, en Robert Spencer leiðir líkum að því að einn slíkur hafi eitrað fyrir sér á Bar Ananas á fimmtudagskvöld.
 1	Valdimar	Valdimar	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
-2	varð	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	varð	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	einnig	einnig	ADV	ao	_	4	advmod	_	tag=ao
 4	tíðrætt	tíðræddur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
@@ -233,12 +233,12 @@
 16	ríkissins	ríkissins	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	15	nmod:poss	_	tag=no_et_ef_hk
 17	þurfi	þurfa	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	obl	_	tag=so_0_vh_p3_ft_nt_gm
 18	að	að	PART	nhm	_	17	mark	_	tag=nhm
-19	sinna	sinna	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	17	conj	_	tag=so_1_þgf_nh_gm
+19	sinna	sinna	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	17	cop	_	tag=so_1_þgf_nh_gm
 20	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	tag=fn_et_þgf_hk
-21	eftirliti	eftirlit	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obj	_	tag=no_et_þgf_hk
+21	eftirliti	eftirlit	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	obj	_	tag=no_et_þgf_hk
 22	sem	sem	SCONJ	stt	_	23	mark	_	tag=stt
 23	lagt	leggja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	21	acl:relcl	_	tag=so_0_lhþt_et
-24	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	conj	_	tag=so_0_vh_p3_et_nt_gm
+24	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	cop	_	tag=so_0_vh_p3_et_nt_gm
 25	fyrir	fyrir	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
 26	þær	sá	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	23	obl	_	tag=fn_ft_þf_kvk
 27	að	að	PART	nhm	_	28	mark	_	tag=nhm
@@ -277,6 +277,8 @@
 28	sjóhersins	sjóher	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	26	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 29	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00319,.10
+# text = Skilgreina þarf betur við hvaða stéttir á að miða þegar ráðið ákvarðar laun og tryggja að launaþróun þeirra hópa sem heyra undir ráðið verði ekki leiðandi á launamarkaði.
 1	Skilgreina	skilgreina	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 2	þarf	þurfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
 3	betur	vel	ADV	eo_mst	Degree=Cmp	1	obj	_	tag=eo_mst
@@ -291,7 +293,7 @@
 12	ákvarðar	ákvarða	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 13	laun	laun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	tag=no_et_þf_kvk
 14	og	og	CCONJ	st	_	9	cc	_	tag=st
-15	tryggja	tryggja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
+15	tryggja	tryggja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_þf_fh_p3_ft_nt_gm
 16	að	að	SCONJ	st	_	26	mark	_	tag=st
 17	launaþróun	launaþróun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	tag=no_et_nf_kvk
 18	þeirra	sá	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	tag=fn_ft_ef_kk
@@ -300,10 +302,10 @@
 21	heyra	heyra	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
 22	undir	undir	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
 23	ráðið	ráð	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	21	obl	_	tag=no_et_þf_hk_gr
-24	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	conj	_	tag=so_0_vh_p3_et_nt_gm
+24	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	cop	_	tag=so_0_vh_p3_et_nt_gm
 25	ekki	ekki	ADV	ao	_	26	advmod	_	tag=ao
-26	leiðandi	leiðandi	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	15	obj	_	tag=lo_ft_nf_kk_sb
+26	leiðandi	leiðandi	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	9	obj	_	tag=lo_ft_nf_kk_sb
 27	á	á	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
-28	launamarkaði	launamarkaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	26	obl	_	tag=no_et_þgf_kk
+28	launamarkaði	launamarkaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 29	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 

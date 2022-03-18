@@ -202,9 +202,9 @@
 20	miðasölugluggi	miða-sölugluggi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	tag=no_et_nf_kk
 21	13. mars	13. mars	ADV	dagsafs	_	18	advmod	_	tag=dagsafs
 22	og	og	CCONJ	st	_	18	cc	_	tag=st
-23	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-24	opin	op	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	18	conj	_	tag=lo_et_nf_kvk_sb
-25	til	til	ADV	fs_ef	Case=Gen	24	advmod	_	tag=fs_ef
+23	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+24	opin	op	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	18	cop	_	tag=lo_et_nf_kvk_sb
+25	til	til	ADV	fs_ef	Case=Gen	18	advmod	_	tag=fs_ef
 26	3. apríl	3. apríl	NUM?	dagsafs	_	25	('HALLÓ_dagsafs', None, 'ADVP', 'DUR-REL')	_	SpaceAfter=No|tag=dagsafs
 27	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
@@ -268,6 +268,8 @@
 26	liðum	lið	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	23	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 27	.	.	PUNCT	grm	_	13	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00468,.10
+# text = Síðar barst tilkynning um að drengurinn og yngri bróðir hans væru beittir kynferðisofbeldi af hálfu föður, en einungis mál eldri drengsins var tekið til skoðunar.
 1	Síðar	síðar	ADV	ao_mst	Degree=Cmp	2	advmod	_	tag=ao_mst
 2	barst	bera	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 3	tilkynning	tilkynning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk
@@ -283,7 +285,7 @@
 13	kynferðisofbeldi	kynferðis-ofbeldi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obj	_	tag=no_et_þgf_hk
 14	af	af	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	hálfu	hálfa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk
-16	föður	faðir	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	nmod:poss	_	tag=no_et_ef_kk
+16	föður	faðir	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
 17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 18	en	en	CCONJ	st	_	2	cc	_	tag=st
 19	einungis	einungis	ADV	eo	_	20	advmod	_	tag=eo
@@ -293,6 +295,6 @@
 23	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	aux	_	tag=so_0_fh_p3_et_þt_gm
 24	tekið	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
 25	til	til	ADP	fs_ef	Case=Gen	26	case	_	tag=fs_ef
-26	skoðunar	skoðun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	24	obl	_	tag=no_et_ef_kvk
+26	skoðunar	skoðun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No|tag=no_et_ef_kvk
 27	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
