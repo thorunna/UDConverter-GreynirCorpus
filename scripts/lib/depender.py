@@ -21,6 +21,7 @@ from nltk.parse import DependencyGraph
 from sys import argv, stdin, stdout
 import getopt
 from collections import defaultdict
+from collections import OrderedDict
 import re
 import string
 
@@ -103,13 +104,14 @@ class UniversalDependencyGraph(DependencyGraph):
                         If dict is None returns '_'
 
         """
+        print("dict: ", dict)
         return (
             "|".join(
                 f"{pair[0]}={pair[1]}"
                 for pair in sorted(dict.items(), key=lambda s: s[0].lower())
                 if pair[1] is not None
             )
-            if dict and len(dict) != 0
+            if dict and len(dict) != 0 and dict != "_"
             else "_"
         )
 
@@ -265,32 +267,79 @@ class UniversalDependencyGraph(DependencyGraph):
         template = "{i}\t{word}\t{lemma_str}\t{ctag}\t{tag}\t{feats_str}\t{head}\t{rel}\t{deps_str}\t{misc_str}\n"
 
         try:
-            # if [type(key) != str for key in self.nodes.keys()]:
-            for i, node in self.nodes.items():
-                print(i)
-                print(node)
-                if type(i) == str:
-                    print("halló strengur", i)
-                print("EKKI MWE", self.nodes.items())
-                return self.join_output_nodes(
-                    "".join(
-                        template.format(
-                            i=i,
-                            **node,
-                            lemma_str=node["lemma"] if node["lemma"] else "_",
-                            deps_str=self._deps_str(node["deps"]),
-                            feats_str=self._dict_to_string(node["feats"]),
-                            misc_str=self._dict_to_string(node["misc"]),
-                        )
-                        for i, node in sorted(self.nodes.items())
-                        if node["tag"] != "TOP" and node["word"] is not None
+            return self.join_output_nodes(
+                "".join(
+                    template.format(
+                        i=i,
+                        **node,
+                        lemma_str=node["lemma"] if node["lemma"] else "_",
+                        deps_str=self._deps_str(node["deps"]),
+                        feats_str=self._dict_to_string(node["feats"]),
+                        misc_str=self._dict_to_string(node["misc"]),
                     )
-                    + "\n"
+                    for i, node in self.nodes.items()  # sorted(self.nodes.items())
+                    if node["tag"] != "TOP" and node["word"] is not None
                 )
+                + "\n"
+            )
         except TypeError:
             print(self.nodes.keys())
             print(self.nodes.items())
             raise
+
+        ## Reyna að breyta hausum í MWEs:
+        # for i, node in self.nodes.items():
+        #    if node["tag"] != "TOP" and node["word"] is not None:
+
+        #        if node["head"] == "_":
+        #            node["head"] = node["i"] - 1
+        #            node["rel"] = "dep"
+
+        #        return self.join_output_nodes(
+        #            "".join(
+        #                template.format(
+        #                    i=i,
+        #                    **node,
+        #                    lemma_str=node["lemma"] if node["lemma"] else "_",
+        #                    deps_str=self._deps_str(node["deps"]),
+        #                    feats_str=self._dict_to_string(node["feats"]),
+        #                    misc_str=self._dict_to_string(node["misc"]),
+        #                )
+        #            )
+        #            + "\n"
+
+        # if [type(key) != str for key in self.nodes.keys()]:
+        # for i, node in self.nodes.items():
+        # print("i: ", i)
+        #    print(node)
+        #    if type(i) == str:
+        #        print("halló strengur", i)
+        #    print("EKKI MWE", self.nodes.items())
+        # int_nodes = [x, node for x, node in self.nodes.items() if type(x) is int]
+
+        #    if type(i) is str:
+        #        print("i: ", i)
+        #    else:
+
+        #        return self.join_output_nodes(
+        #            "".join(
+        #                template.format(
+        #                    i=i,
+        #                    **node,
+        #                    lemma_str=node["lemma"] if node["lemma"] else "_",
+        #                    deps_str=self._deps_str(node["deps"]),
+        #                    feats_str=self._dict_to_string(node["feats"]),
+        #                    misc_str=self._dict_to_string(node["misc"]),
+        #                )
+        #                for i, node in sorted(self.nodes.items())
+        #                if node["tag"] != "TOP" and node["word"] is not None
+        #            )
+        #            + "\n"
+        #        )
+        # except TypeError:
+        #    print(self.nodes.keys())
+        #    print(self.nodes.items())
+        #    raise
 
     def plain_text(self):
         """09.03.20
@@ -512,6 +561,8 @@ class Converter:
         :param head_tag: str
         :return: str
         """
+
+        # return mod_tag, head_tag
 
         if "-" in mod_tag:
             mod_tag, mod_func = mod_tag.split("-", 1)
@@ -1783,6 +1834,19 @@ class Converter:
                     self.dg.get_by_address(address + 1).update({"rel": "fixed"})
                     self.dg.get_by_address(address + 2).update({"rel": "fixed"})
 
+    def _fix_mwe(self):
+        """
+        Fixes nodes within MWEs which don't have a dependency
+        """
+
+        for address, node in self.dg.nodes.items():
+            if type(address) is int and node["rel"] == "_" and node["head"] == "_":
+                self.dg.get_by_address(address).update({"rel": "fixed"})
+                if self.dg.get_by_address(address - 1)["head"] != "_":
+                    self.dg.get_by_address(address).update({"head": address - 1})
+                elif self.dg.get_by_address(address - 2)["head"] != "_":
+                    self.dg.get_by_address(address).update({"head": address - 2})
+
     def create_dependency_graph(self, tree):
         """Create a dependency graph from a phrase structure tree.
 
@@ -1842,7 +1906,7 @@ class Converter:
                         t[i].set_id(nr)
                     elif len(t[i]) in {2, 3, 4, 5, 6} and t[i].height() == 2:
                         # print("long t[i]: ", t[i])
-                        # print("halló")
+                        # print("halló", t[i])
                         # If terminal node with multiword expression/phrase
                         tag_list[nr] = t[i].label()
                         t[i].set_id(nr)
@@ -1857,6 +1921,7 @@ class Converter:
                         const.append(i)
 
                 else:
+                    print("t[i]: ", t[i])
                     # print(t[i])
                     if t[i] == "\\":
                         print(
@@ -1866,11 +1931,20 @@ class Converter:
                         try:
                             tag = tag_list[nr]
                         except KeyError:
+                            # if len(tag_list) == 1:
+                            #    print(tag_list)
+                            #    tag = tag_list[1]
                             print(self.dg.nodes)
-                            if any(type())
-                            print(len(FORM.split(" ")))
+                            # if any(type())
+                            form = t[i].split("+lemma+")[0]
+                            print("form", form)
+                            print("nr: ", nr)
+                            # print(FORM)
+                            # print(len(FORM.split(" ")))
                             nr -= len(FORM.split(" "))
-                            print("númer eftir minnkun: ", nr)
+                            # nr -= count
+                            # print("númer eftir minnkun: ", nr)
+                            # print("tag_list: ", tag_list)
                             tag = tag_list[nr]
                     else:
                         tag = None
@@ -1915,6 +1989,8 @@ class Converter:
                     #        FEATS = G_Features(tag).get_features()
                     #        MISC = defaultdict(lambda: None, {"tag": tag})
 
+                    count = 0
+                    new_nr = 0
                     if " " in FORM:
                         print("MWE: ", FORM)
                         print("LEMMA: ", LEMMA)
@@ -1925,7 +2001,8 @@ class Converter:
                         FEATS = G_Features(tag).get_features()
                         MISC = defaultdict(lambda: None, {"tag": tag})
                         print("nr í byrjun: ", nr)
-                        mwe_nr = str(nr) + "-" + str(len(FORMS))
+                        mwe_end = nr + len(FORMS) - 1
+                        mwe_nr = str(nr) + "-" + str(mwe_end)
                         print("NR: ", mwe_nr)
                         self.dg.add_node(
                             {
@@ -1940,7 +2017,6 @@ class Converter:
                                 "misc": "_",
                             }
                         )
-                        count = 0
                         for FORM in FORMS:
                             print("nr í byrjun: ", nr)
                             print("FORM: ", FORM)
@@ -1962,34 +2038,69 @@ class Converter:
                             )
                             nr += 1
                             count += 1
+                        # nr -= count
+                        print("nr og count eftir for-loopu: ", nr, count)
                         # nr -= len(FORMS)
+                        new_nr = nr
 
                     else:
 
-                        XPOS = tag
-                        MISC = defaultdict(lambda: None)
-                        # Feature Classes called here
-                        UPOS = G_Features(tag, FORM).get_UD_tag()
-                        FEATS = G_Features(tag).get_features()
-                        MISC = defaultdict(lambda: None, {"tag": tag})
-                        print("nr í byrjun: ", nr)
-                        print("FORM: ", FORM)
-                        print("LEMMA: ", LEMMA)
-                        if FORM not in {"None", None}:
-                            self.dg.add_node(
-                                {
-                                    "address": nr,
-                                    "word": FORM,
-                                    "lemma": LEMMA,
-                                    "ctag": UPOS,  # upostag
-                                    "tag": XPOS,  # xpostag
-                                    "feats": FEATS,
-                                    "deps": defaultdict(list),
-                                    "rel": "_",
-                                    "misc": MISC,
-                                }
-                            )
-                            nr += 1
+                        if new_nr != 0:
+                            XPOS = tag
+                            MISC = defaultdict(lambda: None)
+                            # Feature Classes called here
+                            UPOS = G_Features(tag, FORM).get_UD_tag()
+                            FEATS = G_Features(tag).get_features()
+                            MISC = defaultdict(lambda: None, {"tag": tag})
+                            # new_nr = nr + count
+                            # nr += 1
+                            print("nýtt nr: ", new_nr)
+                            print("FORM: ", FORM)
+                            print("LEMMA: ", LEMMA)
+                            if FORM not in {"None", None}:
+                                self.dg.add_node(
+                                    {
+                                        "address": new_nr,  # new_nr,
+                                        "word": FORM,
+                                        "lemma": LEMMA,
+                                        "ctag": UPOS,  # upostag
+                                        "tag": XPOS,  # xpostag
+                                        "feats": FEATS,
+                                        "deps": defaultdict(list),
+                                        "rel": "_",
+                                        "misc": MISC,
+                                    }
+                                )
+                                nr += 1
+                            # new_nr += 1
+                        else:
+                            XPOS = tag
+                            MISC = defaultdict(lambda: None)
+                            # Feature Classes called here
+                            UPOS = G_Features(tag, FORM).get_UD_tag()
+                            FEATS = G_Features(tag).get_features()
+                            MISC = defaultdict(lambda: None, {"tag": tag})
+                            # new_nr = nr + count
+                            # nr += 1
+                            print("nr í byrjun: ", nr)
+                            print("FORM: ", FORM)
+                            print("LEMMA: ", LEMMA)
+                            if FORM not in {"None", None}:
+                                self.dg.add_node(
+                                    {
+                                        "address": nr,  # new_nr,
+                                        "word": FORM,
+                                        "lemma": LEMMA,
+                                        "ctag": UPOS,  # upostag
+                                        "tag": XPOS,  # xpostag
+                                        "feats": FEATS,
+                                        "deps": defaultdict(list),
+                                        "rel": "_",
+                                        "misc": MISC,
+                                    }
+                                )
+                                nr += 1
+                            # new_nr += 1
 
             # # DEBUG:
             # print(tag_list)
@@ -2068,6 +2179,7 @@ class Converter:
 
                 head_tag = t[i].label()
                 head_nr = t[i].id()
+                print("head_nr: ", head_nr)
 
                 for child in t[i]:
 
@@ -2191,6 +2303,8 @@ class Converter:
                 self._fix_punct_heads()
             if rel_counts["dep"] > 0:
                 self._fix_dep_rel()
+            if rel_counts["_"] > 0:
+                self._fix_mwe()
             # if rel_counts["case"] > 0:
             #    self._fix_case_rel()
             self._fix_cc_rel()
