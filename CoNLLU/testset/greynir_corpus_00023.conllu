@@ -4,8 +4,11 @@
 2	tryggir	tryggja	VERB	so_2_þgf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p3_et_nt_gm
 3	bankinn	banki	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk_gr
 4	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	2	iobj	_	tag=abfn_þgf
-5	þóknana- og vaxtatekjur	vaxtatekjur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
-6	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+5-7	þóknana- og vaxtatekjur	_	_	_	_	_	_	_	_
+5	þóknana-	vaxtatekjur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
+6	og	vaxtatekjur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	5	fixed	_	SpaceAfter=No|tag=no_ft_þf_kvk
+7	vaxtatekjur	vaxtatekjur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	fixed	_	SpaceAfter=No|tag=no_ft_þf_kvk
+8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00023,.2
 # text = Þá hefur olíuborpöllum í Norðursjó fækkað mikið.
@@ -33,19 +36,26 @@
 # text = Nú reynir Real Madrid að selja hann.
 1	Nú	nú	ADV	ao	_	2	advmod	_	tag=ao
 2	reynir	reyna	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	Real Madrid	Real Madrid	PROPN	entity_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=entity_et_nf_hk
-4	að	að	PART	nhm	_	5	mark	_	tag=nhm
-5	selja	selja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
-6	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No|tag=pfn_et_þf_kk_p3
-7	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	Real Madrid	_	_	_	_	_	_	_	_
+3	Real	Real	PROPN	entity_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=entity_et_nf_hk
+4	Madrid	Madrid	PROPN	entity_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	fixed	_	tag=entity_et_nf_hk
+5	að	að	PART	nhm	_	6	mark	_	tag=nhm
+6	selja	selja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
+7	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No|tag=pfn_et_þf_kk_p3
+8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00023,.5
 # text = Hljóð- og myndstreymi jókst um sex prósent.
-1	Hljóð- og myndstreymi	myndstreymi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=no_et_nf_hk
-2	jókst	auka	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
-3	um	um	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
-4	sex prósent	sex prósent	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
-5	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Hljóð- og myndstreymi	_	_	_	_	_	_	_	_
+1	Hljóð-	myndstreymi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
+2	og	myndstreymi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	fixed	_	tag=no_et_nf_hk
+3	myndstreymi	myndstreymi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	fixed	_	tag=no_et_nf_hk
+4	jókst	auka	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
+5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
+6-7	sex prósent	_	_	_	_	_	_	_	_
+6	sex	sex	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
+7	prósent	prósent	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	fixed	_	SpaceAfter=No|tag=no_ft_þf_hk
+8	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00023,.6
 # text = Kemst ekki á deild fyrir unga heilabilaða.
@@ -73,7 +83,7 @@
 # text = Í minningunni var annaðhvort snjór eða sól.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	minningunni	minning	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk_gr
-3	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+3	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 4	annaðhvort	annaðhvort	CCONJ	st	_	5	cc	_	tag=st
 5	snjór	snjór	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 6	eða	eða	CCONJ	st	_	7	cc	_	tag=st
@@ -81,7 +91,7 @@
 8	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00023,.9
-# text = Af hverju ertu ekki með beinar augabrúnir ?
+# text = Af hverju ertu ekki með beinar augabrúnir?
 1	Af	af	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	hverju	hver	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
 3	ertu	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
@@ -91,12 +101,14 @@
 7	augabrúnir	augabrún	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 8	?	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00023,.10
+# text = Um er að ræða laun og bifreiðahlunnindi.
 1	Um	um	ADV	ao	_	4	advmod	_	tag=ao
 2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
 4	ræða	ræða	VERB	so_1_þf_gm	Case=Acc|Voice=Act	0	root	_	tag=so_1_þf_gm
 5	laun	laun	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	tag=no_ft_þf_hk
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
-7	bifreiðahlunnindi	bifreiðahlunnindi	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	conj	_	tag=no_ft_þf_hk
+7	bifreiðahlunnindi	bifreiðahlunnindi	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	conj	_	SpaceAfter=No|tag=no_ft_þf_hk
 8	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

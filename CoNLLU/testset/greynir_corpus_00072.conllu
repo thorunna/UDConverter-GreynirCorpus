@@ -108,10 +108,10 @@
 3	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 4	aftur	aftur	ADV	ao	_	2	advmod	_	tag=ao
 5	og	og	CCONJ	st	_	2	cc	_	tag=st
-6	bauð	bjóða	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þgf_fh_p3_et_þt_gm
-7	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	tag=pfn_et_þgf_p1
+6	bauð	bjóða	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_þgf_fh_p3_et_þt_gm
+7	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	tag=pfn_et_þgf_p1
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
+9	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
 10	með	með	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	9	obl	_	tag=abfn_þgf
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
@@ -128,10 +128,15 @@
 6	tvo	tveir	NUM	to_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	nummod	_	tag=to_ft_þf_kk
 7	keppendur	keppandi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No|tag=no_ft_þf_kk
 8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-9	Oddnýju Þórarinsdóttur	Oddný Þórarinsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	conj	_	tag=person_þf_kvk
-10	og	og	CCONJ	st	_	7	cc	_	tag=st
-11	Eydísi Magneu Friðriksdóttur	Eydís Magnea Friðriksdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	conj	_	SpaceAfter=No|tag=person_þf_kvk
-12	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+9-10	Oddnýju Þórarinsdóttur	_	_	_	_	_	_	_	_
+9	Oddnýju	Oddný	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	conj	_	tag=person_þf_kvk
+10	Þórarinsdóttur	Þórarinsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	9	fixed	_	tag=person_þf_kvk
+11	og	og	CCONJ	st	_	7	cc	_	tag=st
+12-14	Eydísi Magneu Friðriksdóttur	_	_	_	_	_	_	_	_
+12	Eydísi	Eydís	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	conj	_	SpaceAfter=No|tag=person_þf_kvk
+13	Magneu	Magnea	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	12	fixed	_	SpaceAfter=No|tag=person_þf_kvk
+14	Friðriksdóttur	Friðriksdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	13	fixed	_	SpaceAfter=No|tag=person_þf_kvk
+15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00072,.9
 # text = Í samtali við mbl.is segir Dagur að úrskurður kjararáðs hafi hleypt atburðarásinni af stað.
@@ -151,6 +156,8 @@
 14	stað	stað	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 15	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00072,.10
+# text = Fyrst áttum við samt að rétta honum skilríkin okkar, segja kennitölu og sakaferil.
 1	Fyrst	snemma	ADV	ao	_	2	advmod	_	tag=ao
 2	áttum	eiga	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_nt_gm
 3	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_p1
@@ -159,11 +166,11 @@
 6	rétta	rétta	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_2_þgf_þf_nh_gm
 7	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	tag=pfn_et_þgf_kk_p3
 8	skilríkin	skilríki	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	6	obj	_	tag=no_ft_þf_hk_gr
-9	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	8	nmod:poss	_	tag=pfn_ft_ef_p1
+9	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	8	nmod:poss	_	SpaceAfter=No|tag=pfn_ft_ef_p1
 10	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 11	segja	segja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	conj	_	tag=so_1_þf_nh_gm
 12	kennitölu	kennitala	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	tag=no_et_þf_kvk
 13	og	og	CCONJ	st	_	14	cc	_	tag=st
-14	sakaferil	sakaferill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	conj	_	tag=no_et_þf_kk
+14	sakaferil	sakaferill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|tag=no_et_þf_kk
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

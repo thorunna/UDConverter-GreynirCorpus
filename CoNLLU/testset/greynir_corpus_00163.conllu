@@ -24,8 +24,10 @@
 22	félög	félag	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	tag=no_ft_þf_hk
 23	með	með	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24	milligöngu	milliganga	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þgf_kvk
-25	Mossack Fonseca	Mossack Fonseca	PROPN	fyrirtæki_ef	Case=Gen	24	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ef
-26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+25-26	Mossack Fonseca	_	_	_	_	_	_	_	_
+25	Mossack	Mossack	PROPN	fyrirtæki_ef	Case=Gen	24	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ef
+26	Fonseca	Fonseca	PROPN	fyrirtæki_ef	Case=Gen	25	fixed	_	SpaceAfter=No|tag=fyrirtæki_ef
+27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00163,.2
 # text = Þessi 22 ára ára Kanadamaður lenti á Reykjavíkurflugvelli um hádegisbilið í gær og mættu yfir hundrað Íslendingar á svæðið til að sjá goðið með eigin augum.
@@ -39,22 +41,24 @@
 8	Reykjavíkurflugvelli	Reykjavíkurflugvöllur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=sérnafn_et_þgf_kk
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	hádegisbilið	hádegisbil	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk_gr
-11	í gær	í gær	ADV	ao	_	10	advmod	_	tag=ao
-12	og	og	CCONJ	st	_	6	cc	_	tag=st
-13	mættu	mæta	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_þt_gm
-14	yfir	yfir	ADV	eo	_	16	advmod	_	tag=eo
-15	hundrað	hundrað	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	16	nummod	_	tag=töl_ft_nf_kk
-16	Íslendingar	Íslendingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	tag=no_ft_nf_kk
-17	á	á	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	svæðið	svæði	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þf_hk_gr
-19	til	til	ADP	fs_nh	VerbForm=Inf	21	case	_	tag=fs_nh
-20	að	að	PART	nhm	_	21	mark	_	tag=nhm
-21	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	13	obl	_	tag=so_1_þf_nh_gm
-22	goðið	goð	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	21	obj	_	tag=no_et_þf_hk_gr
-23	með	með	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
-24	eigin	eigin	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	25	amod	_	tag=lo_ft_þgf_hk_sb
-25	augum	auga	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	21	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
-26	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+11-12	í gær	_	_	_	_	_	_	_	_
+11	í	í	ADV	ao	_	10	advmod	_	tag=ao
+12	gær	gær	ADV	ao	_	11	fixed	_	tag=ao
+13	og	og	CCONJ	st	_	6	cc	_	tag=st
+14	mættu	mæta	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_þt_gm
+15	yfir	yfir	ADV	eo	_	17	advmod	_	tag=eo
+16	hundrað	hundrað	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	17	nummod	_	tag=töl_ft_nf_kk
+17	Íslendingar	Íslendingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	tag=no_ft_nf_kk
+18	á	á	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
+19	svæðið	svæði	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þf_hk_gr
+20	til	til	ADP	fs_nh	VerbForm=Inf	22	case	_	tag=fs_nh
+21	að	að	PART	nhm	_	22	mark	_	tag=nhm
+22	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	obl	_	tag=so_1_þf_nh_gm
+23	goðið	goð	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	22	obj	_	tag=no_et_þf_hk_gr
+24	með	með	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
+25	eigin	eigin	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	26	amod	_	tag=lo_ft_þgf_hk_sb
+26	augum	auga	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	22	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
+27	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00163,.3
 # text = Hann hefur safnað sér aðdáendum sem kalla hann tröllakónginn fyrir ögrandi hegðun á netinu og er YouTube síða hans með rúmlega 550 þúsund fylgjendur.
@@ -77,40 +81,44 @@
 17	YouTube	YouTube	PROPN	fyrirtæki	_	18	conj	_	tag=fyrirtæki
 18	síða	síða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	tag=no_et_nf_kvk
 19	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	tag=pfn_et_ef_kk_p3
-20	með	með	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
-21	rúmlega	rúmlega	ADV	eo	_	23	advmod	_	tag=eo
-22	550 þúsund	550 þúsund	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	23	nummod	_	tag=töl_ft_þf_kk
-23	fylgjendur	fylgjandi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
-24	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+20	með	með	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
+21	rúmlega	rúmlega	ADV	eo	_	24	advmod	_	tag=eo
+22-23	550 þúsund	_	_	_	_	_	_	_	_
+22	550	550	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	24	nummod	_	tag=töl_ft_þf_kk
+23	þúsund	þúsund	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	22	fixed	_	tag=töl_ft_þf_kk
+24	fylgjendur	fylgjandi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
+25	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00163,.4
 # text = Halldóra segir ljóst að miðað við umfjöllun Stundarinnar um málefni Braga hjá Barnaverndarstofu í morgun sé ljóst að Ásmundur hafi ekki sagt satt og rétt frá.
 1	Halldóra	Halldóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
 2	segir	segja	VERB	so_2_þf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þf_þf_fh_p3_et_nt_gm
 3	ljóst	ljós	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	obj	_	tag=lo_et_þf_hk_fst_sb
-4	að	að	SCONJ	st	_	15	mark	_	tag=st
+4	að	að	SCONJ	st	_	16	mark	_	tag=st
 5	miðað	miðað	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 6	við	við	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-7	umfjöllun	umfjöllun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_þf_kvk
+7	umfjöllun	umfjöllun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þf_kvk
 8	Stundarinnar	Stundin	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	málefni	málefni	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þf_hk
 11	Braga	Bragi	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	nmod:poss	_	tag=person_ef_kk
 12	hjá	hjá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Barnaverndarstofu	Barnaverndarstofa	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=fyrirtæki_et_þgf_kvk
-14	í morgun	í morgun	ADV	ao	_	7	advmod	_	tag=ao
-15	sé	vera	VERB	so_2_nf_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_2_nf_nf_vh_p3_et_nt_gm
-16	ljóst	ljós	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	nsubj	_	tag=lo_et_nf_hk_fst_sb
-17	að	að	SCONJ	st	_	21	mark	_	tag=st
-18	Ásmundur	Ásmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	nsubj	_	tag=person_nf_kk
-19	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	tag=so_0_vh_p3_et_nt_gm
-20	ekki	ekki	ADV	ao	_	21	advmod	_	tag=ao
-21	sagt	segja	VERB	so_0_gm	Voice=Act	15	ccomp	_	tag=so_0_gm
-22	satt	sannur	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	obj	_	tag=lo_et_þf_hk_fst_sb
-23	og	og	CCONJ	st	_	24	cc	_	tag=st
-24	rétt	réttur	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	conj	_	tag=lo_et_þf_hk_fst_sb
-25	frá	frá	ADV	ao	_	21	compound:prt	_	SpaceAfter=No|tag=ao
-26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+14-15	í morgun	_	_	_	_	_	_	_	_
+14	í	í	ADV	ao	_	7	advmod	_	tag=ao
+15	morgun	morgun	ADV	ao	_	14	fixed	_	tag=ao
+16	sé	vera	VERB	so_2_nf_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_2_nf_nf_vh_p3_et_nt_gm
+17	ljóst	ljós	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	nsubj	_	tag=lo_et_nf_hk_fst_sb
+18	að	að	SCONJ	st	_	22	mark	_	tag=st
+19	Ásmundur	Ásmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	nsubj	_	tag=person_nf_kk
+20	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_vh_p3_et_nt_gm
+21	ekki	ekki	ADV	ao	_	22	advmod	_	tag=ao
+22	sagt	segja	VERB	so_0_gm	Voice=Act	16	ccomp	_	tag=so_0_gm
+23	satt	sannur	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	obj	_	tag=lo_et_þf_hk_fst_sb
+24	og	og	CCONJ	st	_	25	cc	_	tag=st
+25	rétt	réttur	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	23	conj	_	tag=lo_et_þf_hk_fst_sb
+26	frá	frá	ADV	ao	_	22	compound:prt	_	SpaceAfter=No|tag=ao
+27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00163,.5
 # text = Ákvörðun þorpsráðsins lýsir vel hlutverki slíkra þorpsráða sem eru þekkt sem panchayats eða jirgas og áhrifa þeirra á líf margra íbúa á strábýlum stöðum í landinu.
@@ -161,15 +169,17 @@
 15	3	3	NUM	tala	NumType=Card	16	nummod	_	tag=tala
 16	útisigri	útisigur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
 17	á	á	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18	Arsenal Tula	Arsenal Tula	PROPN	fyrirtæki_þgf	Case=Dat	16	obl	_	tag=fyrirtæki_þgf
-19	í	í	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-20	næstsíðustu	næstsíðastur	ADJ	lo_et_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	21	amod	_	tag=lo_et_þf_kvk_evb
-21	umferð	umferð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þf_kvk
-22	rússnesku	rússneskur	ADJ	lo_et_ef_kvk_fst_vb	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	tag=lo_et_ef_kvk_fst_vb
-23	úrvalsdeildarinnar	úrvalsdeild	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod:poss	_	tag=no_et_ef_kvk_gr
-24	í	í	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
-25	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+18-19	Arsenal Tula	_	_	_	_	_	_	_	_
+18	Arsenal	Arsenal	PROPN	fyrirtæki_þgf	Case=Dat	16	obl	_	tag=fyrirtæki_þgf
+19	Tula	Tula	PROPN	fyrirtæki_þgf	Case=Dat	18	fixed	_	tag=fyrirtæki_þgf
+20	í	í	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+21	næstsíðustu	næstsíðastur	ADJ	lo_et_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	22	amod	_	tag=lo_et_þf_kvk_evb
+22	umferð	umferð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þf_kvk
+23	rússnesku	rússneskur	ADJ	lo_et_ef_kvk_fst_vb	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	tag=lo_et_ef_kvk_fst_vb
+24	úrvalsdeildarinnar	úrvalsdeild	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod:poss	_	tag=no_et_ef_kvk_gr
+25	í	í	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
+26	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00163,.7
 # text = Kindred fjallar um virkilega erfiðar aðstæður svartra þræla á bómullarplantekru á nítjándu öld frá sjónarhorni tuttugustu aldar konu sem lendir í furðlegu tímaflakki til forfeðra sinna.
@@ -226,16 +236,18 @@
 21	og	og	CCONJ	st	_	18	cc	_	tag=st
 22	tapa	tapa	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	18	conj	_	tag=so_1_þgf_nh_gm
 23	fjórum	fjórir	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	22	obj	_	tag=to_ft_þgf_kk
-24	á þessum tíma	á þessum tíma	ADV	ao	_	22	advmod	_	SpaceAfter=No|tag=ao
-25	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+24-26	á þessum tíma	_	_	_	_	_	_	_	_
+24	á	á	ADV	ao	_	22	advmod	_	SpaceAfter=No|tag=ao
+25	þessum	þessum	ADV	ao	_	24	fixed	_	SpaceAfter=No|tag=ao
+26	tíma	tíma	ADV	ao	_	25	fixed	_	SpaceAfter=No|tag=ao
+27	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00163,.9
 # text = Ég held það sé nokkuð augljóst í ljósi niðurstöðu kosninganna þar sem mörgum leiðum hefur verið hafnað ; byltingu Pírata, vinstri stjórn og núverandi ríkisstjórn.
--5	None	_	None	None	_	_	None	_	_
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	held	halda	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_hk_p3
-4	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_vh_p3_et_nt_gm
+4	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
 5	nokkuð	nokkuð	ADV	eo	_	6	advmod	_	tag=eo
 6	augljóst	augljós	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	ccomp	_	tag=lo_et_nf_hk_fst_sb
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -260,30 +272,36 @@
 26	ríkisstjórn	ríkisstjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No|tag=no_et_þgf_kvk
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00163,.10
+# text = Þar segir Kári enn fremur að Bjarni Benediktsson, formaður Sjálfstæðisflokksins, hafi hafnað því að mæta honum í þætti á Stöð 2 til að ræða heilbrigðismál.
 1	Þar	þar	ADV	ao	_	2	advmod	_	tag=ao
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	Kári	Kári	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 4	enn	enn	ADV	ao	_	2	advmod	_	tag=ao
 5	fremur	harla	ADV	ao_mst	Degree=Cmp	4	advmod	_	tag=ao_mst
-6	að	að	SCONJ	st	_	13	mark	_	tag=st
-7	Bjarni Benediktsson	Bjarni Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	tag=person_nf_kk
-8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-9	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_nf_kk
-10	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=sérnafn_et_ef_kk_gr
-11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
-12	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_vh_p3_et_nt_gm
-13	hafnað	hafna	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	2	ccomp	_	tag=so_1_þgf_sagnb_gm
-14	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obj	_	tag=fn_et_þgf_hk
-15	að	að	PART	nhm	_	16	mark	_	tag=nhm
-16	mæta	mæta	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	VANTAR_LIÐ_IP_None	_	tag=so_1_þgf_fh_p3_ft_nt_gm
-17	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	tag=pfn_et_þgf_kk_p3
-18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19	þætti	þáttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þgf_kk
-20	á	á	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-21	Stöð 2	Stöð 2	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	tag=fyrirtæki_et_þgf_kvk
-22	til	til	ADP	fs_nh	VerbForm=Inf	24	case	_	tag=fs_nh
-23	að	að	PART	nhm	_	24	mark	_	tag=nhm
-24	ræða	ræða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	16	obl	_	tag=so_1_þf_nh_gm
-25	heilbrigðismál	heilbrigðismál	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	tag=no_et_þf_hk
-26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+6	að	að	SCONJ	st	_	14	mark	_	tag=st
+7-8	Bjarni Benediktsson	_	_	_	_	_	_	_	_
+7	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+8	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	fixed	_	SpaceAfter=No|tag=person_nf_kk
+9	,	_	PUNCT	grm	_	10	punct	_	tag=grm
+10	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_nf_kk
+11	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk_gr
+12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
+13	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_vh_p3_et_nt_gm
+14	hafnað	hafna	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	2	ccomp	_	tag=so_1_þgf_sagnb_gm
+15	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obj	_	tag=fn_et_þgf_hk
+16	að	að	PART	nhm	_	17	mark	_	tag=nhm
+17	mæta	mæta	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	VANTAR_LIÐ_IP_None	_	tag=so_1_þgf_fh_p3_ft_nt_gm
+18	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	tag=pfn_et_þgf_kk_p3
+19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+20	þætti	þáttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þgf_kk
+21	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+22-23	Stöð 2	_	_	_	_	_	_	_	_
+22	Stöð	Stöð	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	tag=fyrirtæki_et_þgf_kvk
+23	2	2	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	fixed	_	tag=fyrirtæki_et_þgf_kvk
+24	til	til	ADP	fs_nh	VerbForm=Inf	26	case	_	tag=fs_nh
+25	að	að	PART	nhm	_	26	mark	_	tag=nhm
+26	ræða	ræða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	17	obl	_	tag=so_1_þf_nh_gm
+27	heilbrigðismál	heilbrigðismál	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	26	obj	_	SpaceAfter=No|tag=no_et_þf_hk
+28	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

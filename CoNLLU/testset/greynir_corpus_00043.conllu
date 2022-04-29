@@ -7,8 +7,11 @@
 5	útsendingu	útsending	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
 6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	blaðamannafundinum	blaðamannafundur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk_gr
-8	hér að neðan	hér að neðan	ADV	ao	_	1	advmod	_	SpaceAfter=No|tag=ao
-9	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+8-10	hér að neðan	_	_	_	_	_	_	_	_
+8	hér	hér	ADV	ao	_	1	advmod	_	SpaceAfter=No|tag=ao
+9	að	að	ADV	ao	_	8	fixed	_	SpaceAfter=No|tag=ao
+10	neðan	neðan	ADV	ao	_	9	fixed	_	SpaceAfter=No|tag=ao
+11	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00043,.2
 # text = Umfjöllun um málið var birt á vef BBC síðastliðinn mánudag.
@@ -29,12 +32,16 @@
 1	Verðbólgan	verðbólga	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
 2	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	síðast	síðar	ADV	ao	_	2	advmod	_	tag=ao
-4	yfir	yfir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-5	fjögurra prósenta	fjögur prósent	X	prósenta	_	6	dep	_	tag=prósenta
-6	markið	mark	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk_gr
-7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	desember 2013	desember 2013	ADV	dagsafs	_	2	advmod	_	SpaceAfter=No|tag=dagsafs
-9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+4	yfir	yfir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+5-6	fjögurra prósenta	_	_	_	_	_	_	_	_
+5	fjögurra	fjögur	?	prósenta	_	7	obl	_	tag=prósenta
+6	prósenta	prósent	?	prósenta	_	5	fixed	_	tag=prósenta
+7	markið	mark	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk_gr
+8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9-10	desember 2013	_	_	_	_	_	_	_	_
+9	desember	desember	ADV	dagsafs	_	2	advmod	_	SpaceAfter=No|tag=dagsafs
+10	2013	2013	NUM?	dagsafs	_	9	fixed	_	SpaceAfter=No|tag=dagsafs
+11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00043,.4
 # text = Ungverjar komast aftur yfir en Ronaldo jafnar með GLÆSILEGU marki.
@@ -98,12 +105,14 @@
 2	á	á	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	bæn	bæn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
 4	við	við	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	Finsbury Park	Finsbury Park	PROPN	sérnafn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	tag=sérnafn_et_þf_kk
-6	eftir	eftir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	árásina	árás	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þf_kvk_gr
-8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	nótt	nótt	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk
-10	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+5-6	Finsbury Park	_	_	_	_	_	_	_	_
+5	Finsbury	Finsbury	PROPN	sérnafn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	tag=sérnafn_et_þf_kk
+6	Park	Park	PROPN	sérnafn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	fixed	_	tag=sérnafn_et_þf_kk
+7	eftir	eftir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
+8	árásina	árás	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þf_kvk_gr
+9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+10	nótt	nótt	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk
+11	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00043,.9
 # text = Blandið þá mjólkurblöndunni saman við gerið og hrærið vel saman.
@@ -119,12 +128,18 @@
 10	saman	saman	ADV	ao	_	8	compound:prt	_	SpaceAfter=No|tag=ao
 11	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
-1	Admir Kubat	Admir Kubat	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
-2	leikur	leika	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
-4	með	með	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	Víkingi Ó.	Víkingur Ó.	PROPN	fyrirtæki_þgf_kk	Case=Dat|Gender=Masc	2	obl	_	tag=fyrirtæki_þgf_kk
-6	vegna	vegna	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-7	meiðsla	meiðsl	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_ef_hk
-8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+# sent_id = GREYNIR_CORPUS_00043,.10
+# text = Admir Kubat leikur ekki með Víkingi Ó. vegna meiðsla.
+1-2	Admir Kubat	_	_	_	_	_	_	_	_
+1	Admir	Admir	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
+2	Kubat	Kubat	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	fixed	_	tag=person_et_nf_kk
+3	leikur	leika	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+4	ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
+5	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
+6-7	Víkingi Ó.	_	_	_	_	_	_	_	_
+6	Víkingi	Víkingur	PROPN	fyrirtæki_þgf_kk	Case=Dat|Gender=Masc	3	obl	_	tag=fyrirtæki_þgf_kk
+7	Ó.	Ó.	PROPN	fyrirtæki_þgf_kk	Case=Dat|Gender=Masc	6	fixed	_	tag=fyrirtæki_þgf_kk
+8	vegna	vegna	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
+9	meiðsla	meiðsl	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
+10	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

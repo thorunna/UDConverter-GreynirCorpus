@@ -31,19 +31,21 @@
 4	hafa	hafa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
 5	ekki	ekki	ADV	eo_fst	Degree=Pos	6	advmod	_	tag=eo_fst
 6	þjálfara	þjálfari	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	tag=no_et_þf_kk
-7	í ár	í ár	ADV	ao_fst	Degree=Pos	4	advmod	_	SpaceAfter=No|tag=ao_fst
-8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+7-8	í ár	_	_	_	_	_	_	_	_
+7	í	í	ADV	ao_fst	Degree=Pos	4	advmod	_	SpaceAfter=No|tag=ao_fst
+8	ár	ár	ADV	ao_fst	Degree=Pos	7	fixed	_	SpaceAfter=No|tag=ao_fst
+9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00037,.4
 # text = Vélin er um 238 hestöfl og togið er mikið.
 1	Vélin	vél	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	um	um	ADV	eo_fst	Degree=Pos	5	advmod	_	tag=eo_fst
 4	238	238	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_nf_hk
 5	hestöfl	hestafl	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_nf_hk
 6	og	og	CCONJ	st	_	5	cc	_	tag=st
 7	togið	tog	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk_gr
-8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 9	mikið	mikill	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_fst_sb
 10	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
@@ -81,8 +83,11 @@
 4	könnunarinnar	könnun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk_gr
 5	má	mega	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
 6	finna	finna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
-7	hér að neðan	hér að neðan	ADV	ao_fst	Degree=Pos	6	advmod	_	SpaceAfter=No|tag=ao_fst
-8	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+7-9	hér að neðan	_	_	_	_	_	_	_	_
+7	hér	hér	ADV	ao_fst	Degree=Pos	6	advmod	_	SpaceAfter=No|tag=ao_fst
+8	að	að	ADV	ao_fst	Degree=Pos	7	fixed	_	SpaceAfter=No|tag=ao_fst
+9	neðan	neðan	ADV	ao_fst	Degree=Pos	8	fixed	_	SpaceAfter=No|tag=ao_fst
+10	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00037,.8
 # text = Erling segir þó enga ástæðu til að hafa áhyggjur.
@@ -110,6 +115,8 @@
 9	stöð	stöð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 10	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00037,.10
+# text = Ég verð að fá að hlæja að þessu.
 1	Ég	ég	PRON	pfn_et_nf_kk_p1	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p1
 2	verð	verða	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_et_nt_gm
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
@@ -117,6 +124,6 @@
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	hlæja	hlæja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_0_nh_gm
 7	að	að	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_þgf_hk
+8	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|tag=fn_et_þgf_hk
 9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

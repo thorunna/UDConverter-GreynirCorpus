@@ -31,30 +31,38 @@
 
 # sent_id = GREYNIR_CORPUS_00058,.3
 # text = Ágústa Eva Erlendsdóttir, leik- og söngkona, prýddi forsíðu tímarits Smartlands.
-1	Ágústa Eva Erlendsdóttir	Ágústa Eva Erlendsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-3	leik- og söngkona	leik- og söngkona	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|tag=no_et_nf_kvk
-4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-5	prýddi	prýða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-6	forsíðu	forsíða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	tag=no_et_þf_kvk
-7	tímarits	tímarit	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk
-8	Smartlands	smartland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
-9	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+1-3	Ágústa Eva Erlendsdóttir	_	_	_	_	_	_	_	_
+1	Ágústa	Ágústa	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+2	Eva	Eva	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+3	Erlendsdóttir	Erlendsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+4	,	_	PUNCT	grm	_	5	punct	_	tag=grm
+5-7	leik- og söngkona	_	_	_	_	_	_	_	_
+5	leik-	leik-	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|tag=no_et_nf_kvk
+6	og	og	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	fixed	_	SpaceAfter=No|tag=no_et_nf_kvk
+7	söngkona	söngkona	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	fixed	_	SpaceAfter=No|tag=no_et_nf_kvk
+8	,	_	PUNCT	grm	_	1	punct	_	tag=grm
+9	prýddi	prýða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+10	forsíðu	forsíða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	tag=no_et_þf_kvk
+11	tímarits	tímarit	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=no_et_ef_hk
+12	Smartlands	smartland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
+13	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00058,.4
 # text = Almenningssalerni voru opnuð á ný við skiptistöð Strætó í Mjódd á föstudag.
 1	Almenningssalerni	Almenningssalerni	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk
 2	voru	vera	AUX	so_0	_	3	aux	_	tag=so_0
 3	opnuð	opna	VERB	so_0_lhþt	VerbForm=Part	0	root	_	tag=so_0_lhþt
-4	á ný	á ný	ADV	ao	_	3	advmod	_	tag=ao
-5	við	við	ADP	fs	_	6	case	_	tag=fs
-6	skiptistöð	skiptistöð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk
-7	Strætó	Strætó	PROPN	fyrirtæki	_	6	nmod:poss	_	tag=fyrirtæki
-8	í	í	ADP	fs	_	9	case	_	tag=fs
-9	Mjódd	Mjódd	PROPN	sérnafn	_	6	obl	_	tag=sérnafn
-10	á	á	ADP	fs	_	11	case	_	tag=fs
-11	föstudag	föstudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+4-5	á ný	_	_	_	_	_	_	_	_
+4	á	á	ADV	ao	_	3	advmod	_	tag=ao
+5	ný	ný	ADV	ao	_	4	fixed	_	tag=ao
+6	við	við	ADP	fs	_	7	case	_	tag=fs
+7	skiptistöð	skiptistöð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk
+8	Strætó	Strætó	PROPN	fyrirtæki	_	7	nmod:poss	_	tag=fyrirtæki
+9	í	í	ADP	fs	_	10	case	_	tag=fs
+10	Mjódd	Mjódd	PROPN	sérnafn	_	7	obl	_	tag=sérnafn
+11	á	á	ADP	fs	_	12	case	_	tag=fs
+12	föstudag	föstudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00058,.5
 # text = Þá hafnaði hæstiréttur í Bandaríkjunum beiðni stjórnvalda um að grípa inn í.
@@ -90,18 +98,20 @@
 
 # sent_id = GREYNIR_CORPUS_00058,.7
 # text = Þar fyrir utan eru keyptir nokkur þúsund dagskammtar af svefnlyfjum fyrir vistmenn.
-1	Þar	þar	ADV	ao	_	4	advmod	_	tag=ao
-2	fyrir utan	þar fyrir utan	ADV	ao	_	1	advmod	_	tag=ao
-3	eru	vera	AUX	so_0	_	4	aux	_	tag=so_0
-4	keyptir	kaupa	VERB	so_0	_	0	root	_	tag=so_0
-5	nokkur	nokkur	PRON	fn	_	7	nmod	_	tag=fn
-6	þúsund	þúsund	NUM	tala	NumType=Card	7	nummod	_	tag=tala
-7	dagskammtar	dagskammtur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_nf_kk
-8	af	af	ADP	fs	_	9	case	_	tag=fs
-9	svefnlyfjum	svefnlyf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þgf_hk
-10	fyrir	fyrir	ADP	fs	_	11	case	_	tag=fs
-11	vistmenn	vistmaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
-12	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+1	Þar	þar	ADV	ao	_	5	advmod	_	tag=ao
+2-3	fyrir utan	_	_	_	_	_	_	_	_
+2	fyrir	þar	ADV	ao	_	1	advmod	_	tag=ao
+3	utan	fyrir	ADV	ao	_	2	fixed	_	tag=ao
+4	eru	vera	AUX	so_0	_	5	aux	_	tag=so_0
+5	keyptir	kaupa	VERB	so_0	_	0	root	_	tag=so_0
+6	nokkur	nokkur	PRON	fn	_	8	nmod	_	tag=fn
+7	þúsund	þúsund	NUM	tala	NumType=Card	8	nummod	_	tag=tala
+8	dagskammtar	dagskammtur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_nf_kk
+9	af	af	ADP	fs	_	10	case	_	tag=fs
+10	svefnlyfjum	svefnlyf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_þgf_hk
+11	fyrir	fyrir	ADP	fs	_	12	case	_	tag=fs
+12	vistmenn	vistmaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
+13	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00058,.8
 # text = Framendinn var að detta af honum og annað frambrettið að rifna upp.
@@ -135,6 +145,8 @@
 12	þjóðarinnar	þjóð	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00058,.10
+# text = Heldurðu að hann fari fljótlega til einhvers af stóru liðunum í Evrópu?
 1	Heldurðu	halda	VERB	so_0	_	0	root	_	tag=so_0
 2	að	að	SCONJ	st	_	4	mark	_	tag=st
 3	hann	hann	PRON	pfn	PronType=Prs	4	nsubj	_	tag=pfn
@@ -146,6 +158,6 @@
 9	stóru	stór	ADJ	lo	_	10	amod	_	tag=lo
 10	liðunum	lið	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þgf_hk_gr
 11	í	í	ADP	fs	_	12	case	_	tag=fs
-12	Evrópu	Evrópa	PROPN	sérnafn	_	10	obl	_	tag=sérnafn
+12	Evrópu	Evrópa	PROPN	sérnafn	_	10	obl	_	SpaceAfter=No|tag=sérnafn
 13	?	_	PUNCT	grm	_	1	punct	_	tag=grm
 

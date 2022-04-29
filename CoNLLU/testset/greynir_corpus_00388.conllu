@@ -3,18 +3,20 @@
 1	Kvika	kvika	PROPN	fyrirtæki_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=fyrirtæki_et_nf_kvk
 2	átti	eiga	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	áður	áður	ADV	ao	_	2	advmod	_	tag=ao
-4	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-5	tíu prósenta	tíu prósenta	X	prósenta	_	6	dep	_	tag=prósenta
-6	hlut	hlutur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
-7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	fyrirtækinu	fyrirtæki	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk_gr
-9	en	en	CCONJ	st	_	2	cc	_	tag=st
-10	seldi	seldur	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-11	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	tag=pfn_et_þf_kk_p3
-12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	ársbyrjun	ársbyrjun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk
-14	2016	2016	NUM	ártal	_	13	nsubj	_	SpaceAfter=No|tag=ártal
-15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+4	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+5-6	tíu prósenta	_	_	_	_	_	_	_	_
+5	tíu	tíu	?	prósenta	_	7	nmod:poss	_	tag=prósenta
+6	prósenta	prósenta	?	prósenta	_	5	fixed	_	tag=prósenta
+7	hlut	hlutur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
+8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	fyrirtækinu	fyrirtæki	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk_gr
+10	en	en	CCONJ	st	_	2	cc	_	tag=st
+11	seldi	seldur	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+12	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	tag=pfn_et_þf_kk_p3
+13	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+14	ársbyrjun	ársbyrjun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þf_kvk
+15	2016	2016	NUM	ártal	_	14	nsubj	_	SpaceAfter=No|tag=ártal
+16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00388,.2
 # text = Hér fyrir neðan má sjá allt það helsta úr leik Golden State og La Clippers.
@@ -28,11 +30,13 @@
 8	helsta	helstur	ADJ	lo_et_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þf_hk_evb
 9	úr	úr	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	leik	leikur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
-11	Golden State	Golden State	PROPN	entity_ef_hk	Case=Gen|Gender=Neut	10	nmod:poss	_	tag=entity_ef_hk
-12	og	og	CCONJ	st	_	13	cc	_	tag=st
-13	La	La	PROPN	entity	_	11	conj	_	tag=entity
-14	Clippers	Clippers	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	11	conj	_	SpaceAfter=No|tag=fyrirtæki_ef_hk
-15	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+11-12	Golden State	_	_	_	_	_	_	_	_
+11	Golden	Golden	PROPN	entity_ef_hk	Case=Gen|Gender=Neut	10	nmod:poss	_	tag=entity_ef_hk
+12	State	State	PROPN	entity_ef_hk	Case=Gen|Gender=Neut	11	fixed	_	tag=entity_ef_hk
+13	og	og	CCONJ	st	_	11	cc	_	tag=st
+14	La	La	PROPN	entity	_	11	conj	_	tag=entity
+15	Clippers	Clippers	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	11	conj	_	SpaceAfter=No|tag=fyrirtæki_ef_hk
+16	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00388,.3
 # text = Það var ekkert annað í stöðunni, “ segir Eyrún Ýr spurð út í spennustigið.
@@ -45,12 +49,14 @@
 7	,	,	PUNCT	grm	_	6	punct	_	SpaceAfter=No|tag=grm
 8	“	“	PUNCT	grm	_	7	punct	_	tag=grm
 9	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-10	Eyrún Ýr	Eyrún Ýr	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	nsubj	_	tag=person_nf_kvk
-11	spurð	spyrja	ADJ	lo_et	Number=Sing	9	obl	_	tag=lo_et
-12	út	út	ADV	ao	_	14	advmod	_	tag=ao
-13	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14	spennustigið	spennu-stig	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
-15	.	.	PUNCT	grm	_	9	punct	_	tag=grm
+10-11	Eyrún Ýr	_	_	_	_	_	_	_	_
+10	Eyrún	Eyrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	nsubj	_	tag=person_nf_kvk
+11	Ýr	Ýr	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	fixed	_	tag=person_nf_kvk
+12	spurð	spyrja	ADJ	lo_et	Number=Sing	9	obl	_	tag=lo_et
+13	út	út	ADV	ao	_	15	advmod	_	tag=ao
+14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+15	spennustigið	spennu-stig	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
+16	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00388,.4
 # text = „ Sátt virðist líka ríkja um nauðsyn þess að heilbrigðis- og menntakerfi landsins standi undir nafni.
@@ -62,13 +68,16 @@
 6	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	nauðsyn	nauðsyn	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þf_kvk
 8	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=fn_et_ef_hk
-9	að	að	SCONJ	st	_	12	mark	_	tag=st
-10	heilbrigðis- og menntakerfi	heilbrigðis- og menntakerfi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=no_et_nf_hk
-11	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=no_et_ef_hk_gr
-12	standi	standa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	ccomp	_	tag=so_0_vh_p3_et_nt_gm
-13	undir	undir	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	nafni	nafn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-15	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+9	að	að	SCONJ	st	_	14	mark	_	tag=st
+10-12	heilbrigðis- og menntakerfi	_	_	_	_	_	_	_	_
+10	heilbrigðis-	heilbrigðis-	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
+11	og	og	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	fixed	_	tag=no_et_nf_hk
+12	menntakerfi	menntakerfi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	fixed	_	tag=no_et_nf_hk
+13	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=no_et_ef_hk_gr
+14	standi	standa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	ccomp	_	tag=so_0_vh_p3_et_nt_gm
+15	undir	undir	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+16	nafni	nafn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+17	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00388,.5
 # text = Stríðni getur haft slæm áhrif á fólk, og óöryggið situr lengi í fólki.
@@ -103,26 +112,30 @@
 11	,	,	PUNCT	grm	_	10	punct	_	SpaceAfter=No|tag=grm
 12	“	“	PUNCT	grm	_	11	punct	_	tag=grm
 13	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-14	Magnús Geir	Magnús Geir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-15	.	.	PUNCT	grm	_	13	punct	_	tag=grm
+14-15	Magnús Geir	_	_	_	_	_	_	_	_
+14	Magnús	Magnús	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+15	Geir	Geir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	fixed	_	SpaceAfter=No|tag=person_nf_kk
+16	.	.	PUNCT	grm	_	13	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00388,.7
 # text = Í kjölfarið leitaði Hayler sér hjálpar vegna kynlífsfíknar og Price tók hann aftur í sátt.
-1	Í kjölfarið	í kjölfarið	ADV	ao	_	2	advmod	_	tag=ao
-2	leitaði	leita	VERB	so_2_þgf_ef_fh_p3_et_þt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_ef_fh_p3_et_þt_gm
-3	Hayler	Hayler	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
-4	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	2	iobj	_	tag=abfn_þgf
-5	hjálpar	hjálp	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_ef_kvk
-6	vegna	vega	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-7	kynlífsfíknar	kynlífs-fíkn	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_ef_kvk_gr
-8	og	og	CCONJ	st	_	2	cc	_	tag=st
-9	Price	Price	PROPN	person_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=person_et_nf_hk
-10	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-11	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	tag=pfn_et_þf_kk_p3
-12	aftur	aftur	ADV	ao	_	10	advmod	_	tag=ao
-13	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14	sátt	sátt	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
-15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Í kjölfarið	_	_	_	_	_	_	_	_
+1	Í	í	ADV	ao	_	3	advmod	_	tag=ao
+2	kjölfarið	kjölfarið	ADV	ao	_	1	fixed	_	tag=ao
+3	leitaði	leita	VERB	so_2_þgf_ef_fh_p3_et_þt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_ef_fh_p3_et_þt_gm
+4	Hayler	Hayler	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
+5	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	3	iobj	_	tag=abfn_þgf
+6	hjálpar	hjálp	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_ef_kvk
+7	vegna	vega	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
+8	kynlífsfíknar	kynlífs-fíkn	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_ef_kvk_gr
+9	og	og	CCONJ	st	_	3	cc	_	tag=st
+10	Price	Price	PROPN	person_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=person_et_nf_hk
+11	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+12	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	tag=pfn_et_þf_kk_p3
+13	aftur	aftur	ADV	ao	_	11	advmod	_	tag=ao
+14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+15	sátt	sátt	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
+16	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00388,.8
 # text = Þættirnir hafa notið sæmilegra vinsælda á Netflix og nýlega var fjórða þáttaröðin frumsýnd þar.
@@ -157,9 +170,13 @@
 11	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 12	allur	allur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	acl:relcl	_	tag=fn_et_nf_kk
 13	beyglaður	beygla	ADJ	lo_et	Number=Sing	12	amod	_	tag=lo_et
-14	í kjölfarið	í kjölfarið	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
-15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+14-15	í kjölfarið	_	_	_	_	_	_	_	_
+14	í	í	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
+15	kjölfarið	kjölfarið	ADV	ao	_	14	fixed	_	SpaceAfter=No|tag=ao
+16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00388,.10
+# text = Samkvæmt því sem kemur fram á vefsíðu Interpol er Hamd 33 ára gamall Íraki.
 1	Samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	því	sá	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	tag=pfn_et_þgf_hk_p3
 3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
@@ -168,11 +185,11 @@
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	vefsíðu	vefsíða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk
 8	Interpol	Interpol	PROPN	fyrirtæki	_	7	nmod:poss	_	tag=fyrirtæki
-9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	Hamd	Hamd	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=person_et_nf_kk
 11	33	33	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	12	nummod	_	tag=tala_ft_ef_hk
 12	ára	ára	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_ef_hk
 13	gamall	gamall	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_nf_kk_sb
-14	Íraki	Íraki	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
+14	Íraki	Íraki	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
 15	.	.	PUNCT	grm	_	14	punct	_	tag=grm
 

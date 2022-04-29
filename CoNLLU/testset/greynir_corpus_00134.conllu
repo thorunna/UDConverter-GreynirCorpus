@@ -1,6 +1,5 @@
 # sent_id = GREYNIR_CORPUS_00134,.1
 # text = Hann er góður fyrir deildina en hann mun snúa aftur í ensku úrvalsdeildina, bætti Raiola við.
--4	None	_	None	None	_	_	None	_	_
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
 2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	góður	góður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	15	ccomp	_	tag=lo_et_nf_kk_sb
@@ -28,7 +27,7 @@
 4	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 5	opinskáan	opinskár	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_þf_kk_sb
 6	hátt	háttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
-7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 8	eitt	einn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 9	af	af	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	tag=pfn_et_þgf_hk_p3
@@ -48,11 +47,10 @@
 
 # sent_id = GREYNIR_CORPUS_00134,.3
 # text = Og hann er hreinskilinn þegar hann er spurður hvort fjarvera íslenskra ráðamanna á HM í sumar muni setja mark sitt á leikmennina.
--3	None	_	None	None	_	_	None	_	_
-1	Og	og	SCONJ	st	_	0	root	_	tag=st
+1	Og	og	SCONJ	st	_	4	cc	_	tag=st
 2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kk_p3
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-4	hreinskilinn	hreinskilinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=lo_et_nf_kk_sb
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	hreinskilinn	hreinskilinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 5	þegar	þegar	SCONJ	st	_	8	mark	_	tag=st
 6	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kk_p3
 7	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -71,7 +69,7 @@
 20	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	tag=fn_et_þf_hk
 21	á	á	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
 22	leikmennina	leikmaður	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
-23	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+23	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00134,.4
 # text = Verðlaun voru veitt fyrir uppgjafartak mótsins og hlaut þau Jóhann Ingi Bjarnason eftir að hann náði fljúgandi armlás á Friðjón Inga Sigurjónsson.
@@ -84,41 +82,49 @@
 7	og	og	CCONJ	st	_	3	cc	_	tag=st
 8	hlaut	hljóta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 9	þau	það	PRON	pfn_ft_þf_hk_p3	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	8	obj	_	tag=pfn_ft_þf_hk_p3
-10	Jóhann Ingi Bjarnason	Jóhann Ingi Bjarnason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
-11	eftir	eftir	ADV	ao	_	14	mark	_	tag=ao
-12	að	að	SCONJ	st	_	11	cc	_	tag=st
-13	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_kk_p3
-14	náði	ná	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	advcl	_	tag=so_1_þgf_fh_p3_et_þt_gm
-15	fljúgandi	fljúgandi	ADJ	lo_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_þgf_kk
-16	armlás	armlás	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obj	_	tag=no_et_þgf_kk
-17	á	á	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	Friðjón Inga Sigurjónsson	Friðjón Ingi Sigurjónsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	obl	_	SpaceAfter=No|tag=person_þf_kk
-19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+10-12	Jóhann Ingi Bjarnason	_	_	_	_	_	_	_	_
+10	Jóhann	Jóhann	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
+11	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	fixed	_	tag=person_nf_kk
+12	Bjarnason	Bjarnason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	fixed	_	tag=person_nf_kk
+13	eftir	eftir	ADV	ao	_	16	mark	_	tag=ao
+14	að	að	SCONJ	st	_	13	cc	_	tag=st
+15	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
+16	náði	ná	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	advcl	_	tag=so_1_þgf_fh_p3_et_þt_gm
+17	fljúgandi	fljúgandi	ADJ	lo_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	amod	_	tag=lo_et_þgf_kk
+18	armlás	armlás	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obj	_	tag=no_et_þgf_kk
+19	á	á	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
+20-22	Friðjón Inga Sigurjónsson	_	_	_	_	_	_	_	_
+20	Friðjón	Friðjón	PROPN	person_þf_kk	Case=Acc|Gender=Masc	16	obl	_	SpaceAfter=No|tag=person_þf_kk
+21	Inga	Ingi	PROPN	person_þf_kk	Case=Acc|Gender=Masc	20	fixed	_	SpaceAfter=No|tag=person_þf_kk
+22	Sigurjónsson	Sigurjónsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	21	fixed	_	SpaceAfter=No|tag=person_þf_kk
+23	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00134,.5
 # text = Svanhildur Sigurjónsdóttir, aðstoðardeildarstjóri bráðalyflækningadeildar Landspítalans, segir deildina finna gríðarlega fyrir því að nýútskrifaðir hjúkrunarfræðingar hafi ekki skilað sér á spítalann.
-1	Svanhildur Sigurjónsdóttir	Svanhildur Sigurjónsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-3	aðstoðardeildarstjóri	aðstoðardeildarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
-4	bráðalyflækningadeildar	bráðalyflækningadeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk
-5	Landspítalans	Landspítali	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk_gr
-6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-7	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-8	deildina	deild	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þf_kvk_gr
-9	finna	finna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_0_nh_gm
-10	gríðarlega	gríðarlega	ADV	ao	_	9	advmod	_	tag=ao
-11	fyrir	fyrir	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=fn_et_þgf_hk
-13	að	að	SCONJ	st	_	18	mark	_	tag=st
-14	nýútskrifaðir	nýútskrifaður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	15	amod	_	tag=lo_ft_nf_kk_sb
-15	hjúkrunarfræðingar	hjúkrunarfræðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	tag=no_ft_nf_kk
-16	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	aux	_	tag=so_0_vh_p3_ft_nt_gm
-17	ekki	ekki	ADV	ao	_	18	advmod	_	tag=ao
-18	skilað	skila	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	12	ccomp	_	tag=so_1_þgf_sagnb_gm
-19	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	18	obj	_	tag=abfn_þgf
-20	á	á	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	spítalann	spítali	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-22	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+1-2	Svanhildur Sigurjónsdóttir	_	_	_	_	_	_	_	_
+1	Svanhildur	Svanhildur	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+2	Sigurjónsdóttir	Sigurjónsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+3	,	_	PUNCT	grm	_	4	punct	_	tag=grm
+4	aðstoðardeildarstjóri	aðstoðardeildarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
+5	bráðalyflækningadeildar	bráðalyflækningadeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk
+6	Landspítalans	Landspítali	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk_gr
+7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
+8	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+9	deildina	deild	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk_gr
+10	finna	finna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
+11	gríðarlega	gríðarlega	ADV	ao	_	10	advmod	_	tag=ao
+12	fyrir	fyrir	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=fn_et_þgf_hk
+14	að	að	SCONJ	st	_	19	mark	_	tag=st
+15	nýútskrifaðir	nýútskrifaður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	16	amod	_	tag=lo_ft_nf_kk_sb
+16	hjúkrunarfræðingar	hjúkrunarfræðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	tag=no_ft_nf_kk
+17	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_vh_p3_ft_nt_gm
+18	ekki	ekki	ADV	ao	_	19	advmod	_	tag=ao
+19	skilað	skila	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	13	ccomp	_	tag=so_1_þgf_sagnb_gm
+20	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	19	obj	_	tag=abfn_þgf
+21	á	á	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+22	spítalann	spítali	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
+23	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00134,.6
 # text = Kristinn sagði að þeir bræður hefðu ekki alltaf getað verið í húsunum við nægilegt eftirlit og að sumt hefði mátt betur fara.
@@ -149,25 +155,27 @@
 # sent_id = GREYNIR_CORPUS_00134,.7
 # text = Hann sagði sig úr Breska alpaklúbbnum árið 1877 og eftir það hafa þeir engar upplýsingar um hann, segir Gerður.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
-2	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	ccomp	_	tag=so_1_þf_fh_p3_et_þt_gm
+2	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	19	ccomp	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	2	obj	_	tag=abfn_þf
 4	úr	úr	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Breska	breskur	ADJ	lo_et_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=lo_et_þgf_kk_vb
 6	alpaklúbbnum	alpaklúbbur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	5	conj	_	tag=no_et_þgf_kk_gr
-7	árið 1877	árið 1877	ADV	ártal	_	2	advmod	_	tag=ártal
-8	og	og	CCONJ	st	_	2	cc	_	tag=st
-9	eftir	eftir	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	tag=pfn_et_þf_hk_p3
-11	hafa	hafa	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
-12	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_ft_nf_kk_p3
-13	engar	enginn	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	nmod	_	tag=fn_ft_þf_kvk
-14	upplýsingar	upplýsing	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	tag=no_ft_þf_kvk
-15	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No|tag=pfn_et_þf_kk_p3
-17	,	_	PUNCT	grm	_	16	punct	_	tag=grm
-18	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-19	Gerður	Gerður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	18	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-20	.	_	PUNCT	grm	_	18	punct	_	tag=grm
+7-8	árið 1877	_	_	_	_	_	_	_	_
+7	árið	árið	ADV	ártal	_	2	advmod	_	tag=ártal
+8	1877	1877	NUM	ártal	_	7	fixed	_	tag=ártal
+9	og	og	CCONJ	st	_	2	cc	_	tag=st
+10	eftir	eftir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obl	_	tag=pfn_et_þf_hk_p3
+12	hafa	hafa	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
+13	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_ft_nf_kk_p3
+14	engar	enginn	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	15	nmod	_	tag=fn_ft_þf_kvk
+15	upplýsingar	upplýsing	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	tag=no_ft_þf_kvk
+16	um	um	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
+17	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No|tag=pfn_et_þf_kk_p3
+18	,	_	PUNCT	grm	_	17	punct	_	tag=grm
+19	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+20	Gerður	Gerður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	19	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+21	.	_	PUNCT	grm	_	19	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00134,.8
 # text = Tveir eru í haldi norsku lögreglunnar vegna málsins, annar er grunaður um morð og hinn er grunaður um að vera meðsekur.
@@ -191,15 +199,14 @@
 18	grunaður	gruna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
 19	um	um	ADP	fs_nh	VerbForm=Inf	22	case	_	tag=fs_nh
 20	að	að	PART	nhm	_	22	mark	_	tag=nhm
-21	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	22	conj	_	tag=so_1_nf_nh_gm
+21	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	22	cop	_	tag=so_1_nf_nh_gm
 22	meðsekur	meðsekur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00134,.9
 # text = Þeir eru því báðir jafnir með sex vinninga hvor og þurfa að tefla atskákir þar til einn þeirra stendur uppi sem sigurvegari.
--5	None	_	None	None	_	_	None	_	_
 1	Þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_ft_nf_kk_p3
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	því	því	ADV	ao	_	9	advmod	_	tag=ao
 4	báðir	báðir	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	9	obl	_	tag=fn_ft_nf_kk
 5	jafnir	jafn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	9	amod	_	tag=lo_ft_nf_kk_sb
@@ -222,6 +229,8 @@
 22	sigurvegari	sigurvegari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	19	advcl	_	SpaceAfter=No|tag=no_et_nf_kk
 23	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00134,.10
+# text = Ég naut þess að starfa á Íslandi og það hafa verið forréttindi að taka þátt í þessu ferðalagi, sagði hann.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	naut	njóta	VERB	so_1_ef_fh_p1_et_þt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	20	ccomp	_	tag=so_1_ef_fh_p1_et_þt_gm
 3	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obj	_	tag=fn_et_ef_hk
@@ -232,16 +241,16 @@
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
 9	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	expl	_	tag=fn_et_nf_hk
 10	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_ft_nt_gm
-11	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	12	conj	_	tag=so_1_nf_sagnb_gm
+11	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	12	cop	_	tag=so_1_nf_sagnb_gm
 12	forréttindi	forréttindi	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	conj	_	tag=no_ft_nf_hk
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
 14	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_1_þf_nh_gm
 15	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	tag=no_et_þf_kk
 16	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 17	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	tag=fn_et_þgf_hk
-18	ferðalagi	ferðalag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þgf_hk
+18	ferðalagi	ferðalag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 19	,	_	PUNCT	grm	_	18	punct	_	tag=grm
 20	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-21	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	tag=pfn_et_nf_kk_p3
+21	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No|tag=pfn_et_nf_kk_p3
 22	.	_	PUNCT	grm	_	20	punct	_	tag=grm
 

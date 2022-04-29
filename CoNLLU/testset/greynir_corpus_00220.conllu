@@ -5,10 +5,12 @@
 3	þó	þó	ADV	ao	_	2	advmod	_	tag=ao
 4	maður	maður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
 5	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	Bleacher Report	Bleacher Report	PROPN	fyrirtæki	_	4	obl	_	tag=fyrirtæki
-7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	haust	haust	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
-9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+6-7	Bleacher Report	_	_	_	_	_	_	_	_
+6	Bleacher	Bleacher	PROPN	fyrirtæki	_	4	obl	_	tag=fyrirtæki
+7	Report	Report	PROPN	fyrirtæki	_	6	fixed	_	tag=fyrirtæki
+8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+9	haust	haust	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
+10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00220,.2
 # text = Hann sagðist ekki hafa séð fleiri bletti í bílnum.
@@ -69,7 +71,7 @@
 3	ekki	ekki	ADV	ao	_	9	advmod	_	tag=ao
 4	að	að	SCONJ	st	_	9	mark	_	tag=st
 5	smálán	smálán	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	tag=no_ft_nf_hk
-6	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_nf_vh_p3_ft_nt_gm
+6	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 7	ekki	ekki	ADV	eo	_	9	advmod	_	tag=eo
 8	ógeðslegt	ógeðslegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	9	amod	_	tag=lo_et_nf_hk_sb
 9	fyrirbæri	fyrirbæri	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	ccomp	_	SpaceAfter=No|tag=no_et_nf_hk
@@ -84,8 +86,10 @@
 5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	gerð	gerð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
 7	krabbameinsáætlana	krabbameinsáætlun	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	6	nmod:poss	_	tag=no_ft_ef_kvk
-8	árið 2002	árið 2002	ADV	ártal	_	2	advmod	_	SpaceAfter=No|tag=ártal
-9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+8-9	árið 2002	_	_	_	_	_	_	_	_
+8	árið	árið	ADV	ártal	_	2	advmod	_	SpaceAfter=No|tag=ártal
+9	2002	2002	NUM	ártal	_	8	fixed	_	SpaceAfter=No|tag=ártal
+10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00220,.8
 # text = Snjóþekja og hálka er með Suðausturströndinni og nokkuð hvasst.
@@ -113,6 +117,8 @@
 9	heim	heim	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
 10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00220,.10
+# text = Það er ekki hlaupið að því að vorkenna Roy.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
 2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	ekki	ekki	ADV	eo	_	4	advmod	_	tag=eo
@@ -121,6 +127,6 @@
 6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
 8	vorkenna	vorkenna	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_1_þgf_nh_gm
-9	Roy	Roy	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	8	obj	_	tag=person_þgf_kvk
+9	Roy	Roy	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	8	obj	_	SpaceAfter=No|tag=person_þgf_kvk
 10	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

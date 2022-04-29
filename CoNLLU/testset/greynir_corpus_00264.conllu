@@ -3,37 +3,44 @@
 1	Sjóðurinn	sjóður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk_gr
 2	bætti	bæta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	tjón	tjón	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
-4	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-5	rúmlega	rúmlega	ADV	eo	_	7	advmod	_	tag=eo
-6	fjögur þúsund	fjögur þúsund	NUM	tala_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	7	nummod	_	tag=tala_ft_þgf_kk
-7	húsum	húsi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_þgf_kk
-8	og	og	CCONJ	st	_	2	cc	_	tag=st
-9	nam	nema	VERB	so_2_þf_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_2_þf_þgf_fh_p3_et_þt_gm
-10	hvert	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	tag=fn_et_þf_hk
-11	tjón	tjón	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_þf_hk
-12	að	að	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	meðaltali	meðaltal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
-14	2,7 milljónum króna	2,7 milljónum króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+4	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+5	rúmlega	rúmlega	ADV	eo	_	8	advmod	_	tag=eo
+6-7	fjögur þúsund	_	_	_	_	_	_	_	_
+6	fjögur	fjögur	NUM	tala_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	8	nummod	_	tag=tala_ft_þgf_kk
+7	þúsund	þúsund	NUM	tala_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	6	fixed	_	tag=tala_ft_þgf_kk
+8	húsum	húsi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_þgf_kk
+9	og	og	CCONJ	st	_	2	cc	_	tag=st
+10	nam	nema	VERB	so_2_þf_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_2_þf_þgf_fh_p3_et_þt_gm
+11	hvert	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	tag=fn_et_þf_hk
+12	tjón	tjón	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	nsubj	_	tag=no_et_þf_hk
+13	að	að	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	meðaltali	meðaltal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
+15-17	2,7 milljónum króna	_	_	_	_	_	_	_	_
+15	2,7	2,7	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+16	milljónum	milljónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	fixed	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+17	króna	króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	fixed	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00264,.2
 # text = Stefán Rafn er að koma til en það var ákveðið að hann kæmi ekki með út.
-1	Stefán Rafn	Stefán Rafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	að	að	PART	nhm	_	4	mark	_	tag=nhm
-4	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
-5	til	til	ADV	ao	_	4	compound:prt	_	tag=ao
-6	en	en	CCONJ	st	_	4	cc	_	tag=st
-7	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	tag=pfn_et_nf_hk_p3
-8	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_þt_gm
-9	ákveðið	ákveða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	conj	_	tag=so_0_lhþt_et
-10	að	að	SCONJ	st	_	12	mark	_	tag=st
-11	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_kk_p3
-12	kæmi	koma	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	9	ccomp	_	tag=so_0_vh_p3_et_þt_gm
-13	ekki	ekki	ADV	ao	_	12	advmod	_	tag=ao
-14	með	með	ADV	ao	_	12	advmod	_	tag=ao
-15	út	út	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
-16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+1-2	Stefán Rafn	_	_	_	_	_	_	_	_
+1	Stefán	Stefán	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
+2	Rafn	Rafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
+4	að	að	PART	nhm	_	5	mark	_	tag=nhm
+5	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
+6	til	til	ADV	ao	_	5	compound:prt	_	tag=ao
+7	en	en	CCONJ	st	_	5	cc	_	tag=st
+8	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	tag=pfn_et_nf_hk_p3
+9	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_þt_gm
+10	ákveðið	ákveða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	conj	_	tag=so_0_lhþt_et
+11	að	að	SCONJ	st	_	13	mark	_	tag=st
+12	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	tag=pfn_et_nf_kk_p3
+13	kæmi	koma	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	10	ccomp	_	tag=so_0_vh_p3_et_þt_gm
+14	ekki	ekki	ADV	ao	_	13	advmod	_	tag=ao
+15	með	með	ADV	ao	_	13	advmod	_	tag=ao
+16	út	út	ADV	ao	_	13	advmod	_	SpaceAfter=No|tag=ao
+17	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00264,.3
 # text = Þetta sagði hann á þingi í dag við mikinn fögnuð þeirra þingmanna sem viðstaddir voru í salnum.
@@ -151,8 +158,8 @@
 7	hámarkshraðann	hámarkshraði	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_nf_hk
-10	væri	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_vh_p3_et_nt_gm
-11	eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	obl	_	tag=fn_et_nf_hk
+10	væri	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_vh_p3_et_nt_gm
+11	eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_nf_hk
 12	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
 13	hægt	hægt	ADJ	lo	_	14	nsubj	_	tag=lo
 14	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	tag=so_0_vh_p3_et_þt_gm
@@ -182,21 +189,25 @@
 17	starfsfólksins	starfsfólksins	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	16	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk_gr
 18	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00264,.10
+# text = Öryggisráð Sameinuðu þjóðanna fundaði í gær og ræddi drög að ályktun um þrjátíu daga vopnahlé í Sýrlandi.
 1	Öryggisráð	öryggisráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 2	Sameinuðu	sameinaður	ADJ	lo_ft_ef_kvk_vb	Case=Gen|Gender=Fem|Number=Plur	3	amod	_	tag=lo_ft_ef_kvk_vb
 3	þjóðanna	þjóð	NOUN	no_ft_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk_gr
 4	fundaði	funda	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-5	í gær	í gær	ADV	ao	_	4	advmod	_	tag=ao
-6	og	og	CCONJ	st	_	4	cc	_	tag=st
-7	ræddi	ræða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-8	drög	drag	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	tag=no_ft_þf_hk
-9	að	að	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	ályktun	ályktun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
-11	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-12	þrjátíu	þrjátíu	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	13	nummod	_	tag=töl_ft_ef_kk
-13	daga	dagur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	14	obl	_	tag=no_ft_ef_kk
-14	vopnahlé	vopnahlé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þf_hk
-15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	Sýrlandi	Sýrland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þgf_hk
-17	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+5-6	í gær	_	_	_	_	_	_	_	_
+5	í	í	ADV	ao	_	4	advmod	_	tag=ao
+6	gær	gær	ADV	ao	_	5	fixed	_	tag=ao
+7	og	og	CCONJ	st	_	4	cc	_	tag=st
+8	ræddi	ræða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+9	drög	drag	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	tag=no_ft_þf_hk
+10	að	að	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	ályktun	ályktun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk
+12	um	um	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+13	þrjátíu	þrjátíu	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	14	nummod	_	tag=töl_ft_ef_kk
+14	daga	dagur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	15	obl	_	tag=no_ft_ef_kk
+15	vopnahlé	vopnahlé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þf_hk
+16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	Sýrlandi	Sýrland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+18	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

@@ -15,22 +15,25 @@
 
 # sent_id = GREYNIR_CORPUS_00064,.2
 # text = Þá verða kvótar fyrir tollfrjáls viðskipti með landbúnaðar- og sjávarútvegsafurðir einnig óbreyttir.
-1	Þá	þá	ADV	ao	_	10	advmod	_	tag=ao
-2	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_0_fh_p3_ft_nt_gm
-3	kvótar	kvóti	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	tag=no_ft_nf_kk
+1	Þá	þá	ADV	ao	_	12	advmod	_	tag=ao
+2	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_ft_nt_gm
+3	kvótar	kvóti	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	tag=no_ft_nf_kk
 4	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 5	tollfrjáls	tollfrjáls	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	6	amod	_	tag=lo_ft_þf_hk_sb
 6	viðskipti	viðskipti	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þf_hk
 7	með	með	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	landbúnaðar- og sjávarútvegsafurðir	landbúnaðar- og sjávarútvegsafurð	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_þf_kvk
-9	einnig	einnig	ADV	eo	_	10	advmod	_	tag=eo
-10	óbreyttir	óbreyttur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
-11	.	_	PUNCT	grm	_	10	punct	_	tag=grm
+8-10	landbúnaðar- og sjávarútvegsafurðir	_	_	_	_	_	_	_	_
+8	landbúnaðar-	landbúnaðar-	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_þf_kvk
+9	og	og	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	fixed	_	tag=no_ft_þf_kvk
+10	sjávarútvegsafurðir	sjávarútvegsafurð	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	fixed	_	tag=no_ft_þf_kvk
+11	einnig	einnig	ADV	eo	_	12	advmod	_	tag=eo
+12	óbreyttir	óbreyttur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
+13	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00064,.3
 # text = Flestir eru þeir þó sammála um hvaða mál verða sett á oddinn.
 1	Flestir	margur	ADJ	lo_ft_nf_kk_esb	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur	5	nsubj	_	tag=lo_ft_nf_kk_esb
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	þeir	sá	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	obl	_	tag=fn_ft_nf_kk
 4	þó	þó	ADV	eo	_	5	advmod	_	tag=eo
 5	sammála	sammála	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
@@ -64,32 +67,36 @@
 1	Í	í	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	3	advmod	_	tag=lo_et_þf_hk_mst
 3	mældist	mæla	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_1_nf_fh_p3_et_þt_mm
-4	2,7%	2,7%	X	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	dep	_	tag=prósenta_et_nf_hk
+4	2,7%	2,7%	?	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	obl	_	tag=prósenta_et_nf_hk
 5	hagvöxtur	hagvöxtur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	Póllandi	Pólland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
 8	en	en	CCONJ	st	_	3	cc	_	tag=st
 9	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kk_p3
-10	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
-11	3,6%	3,6%	X	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=prósenta_et_nf_hk
-12	árið 2015	árið 2015	ADV	ártal	_	11	advmod	_	SpaceAfter=No|tag=ártal
-13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+10	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+11	3,6%	3,6%	?	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=prósenta_et_nf_hk
+12-13	árið 2015	_	_	_	_	_	_	_	_
+12	árið	árið	ADV	ártal	_	11	advmod	_	SpaceAfter=No|tag=ártal
+13	2015	2015	NUM	ártal	_	12	fixed	_	SpaceAfter=No|tag=ártal
+14	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00064,.6
 # text = Simon Cowell missti kjálkann í gólfið þegar þessi 32 ára Ástrali byrjaði að syngja
-1	Simon Cowell	Simon Cowell	PROPN	sérnafn	_	2	nsubj	_	tag=sérnafn
-2	missti	missa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	kjálkann	kjálki	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk_gr
-4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	gólfið	gólf	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk_gr
-6	þegar	þegar	SCONJ	st	_	11	mark	_	tag=st
-7	þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	tag=fn_et_nf_kk
-8	32	32	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	9	nummod	_	tag=tala_ft_ef_hk
-9	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	10	obl	_	tag=no_ft_ef_hk
-10	Ástrali	Ástrali	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	tag=no_et_nf_kk
-11	byrjaði	byrja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	tag=so_0_fh_p3_et_þt_gm
-12	að	að	PART	nhm	_	13	mark	_	tag=nhm
-13	syngja	syngja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	xcomp	_	tag=so_0_nh_gm
+1-2	Simon Cowell	_	_	_	_	_	_	_	_
+1	Simon	Simon	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
+2	Cowell	Cowell	PROPN	sérnafn	_	1	fixed	_	tag=sérnafn
+3	missti	missa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+4	kjálkann	kjálki	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk_gr
+5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
+6	gólfið	gólf	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk_gr
+7	þegar	þegar	SCONJ	st	_	12	mark	_	tag=st
+8	þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	tag=fn_et_nf_kk
+9	32	32	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	10	nummod	_	tag=tala_ft_ef_hk
+10	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_ef_hk
+11	Ástrali	Ástrali	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=no_et_nf_kk
+12	byrjaði	byrja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	advcl	_	tag=so_0_fh_p3_et_þt_gm
+13	að	að	PART	nhm	_	14	mark	_	tag=nhm
+14	syngja	syngja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_0_nh_gm
 
 # sent_id = GREYNIR_CORPUS_00064,.7
 # text = Þegar Lina kom til Íslands fór hún á íslenskunámskeið ásamt öðrum úr flóttamannahópnum.
@@ -115,19 +122,23 @@
 3	ásamt	ásamt	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 4	ástralska	ástralskur	ADJ	lo_et_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_þgf_kk_vb
 5	grínistanum	grínisti	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk_gr
-6	Jonathan Duffy	Jonathan Duffy	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	5	conj	_	tag=person_þgf_kk
-7	og	og	CCONJ	st	_	5	cc	_	tag=st
-8	umboðsmanni	umboðsmaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	conj	_	tag=no_et_þgf_kk
-9	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kk
-10	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-11	Rakel Sævarsdóttur	Rakel Sævarsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	5	conj	_	SpaceAfter=No|tag=person_þf_kvk
-12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+6-7	Jonathan Duffy	_	_	_	_	_	_	_	_
+6	Jonathan	Jonathan	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	5	conj	_	tag=person_þgf_kk
+7	Duffy	Duffy	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	6	fixed	_	tag=person_þgf_kk
+8	og	og	CCONJ	st	_	5	cc	_	tag=st
+9	umboðsmanni	umboðsmaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	conj	_	tag=no_et_þgf_kk
+10	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kk
+11	,	_	PUNCT	grm	_	12	punct	_	tag=grm
+12-13	Rakel Sævarsdóttur	_	_	_	_	_	_	_	_
+12	Rakel	Rakel	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	5	conj	_	SpaceAfter=No|tag=person_þf_kvk
+13	Sævarsdóttur	Sævarsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	12	fixed	_	SpaceAfter=No|tag=person_þf_kvk
+14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00064,.9
 # text = Og ég óska þér þess að alltaf opnist nýjar dyr þegar einar lokast.
-1	Og	og	SCONJ	st	_	0	root	_	tag=st
+1	Og	og	SCONJ	st	_	3	cc	_	tag=st
 2	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
-3	óska	óska	VERB	so_2_þgf_ef_fh_p1_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	1	conj	_	tag=so_2_þgf_ef_fh_p1_et_nt_gm
+3	óska	óska	VERB	so_2_þgf_ef_fh_p1_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þgf_ef_fh_p1_et_nt_gm
 4	þér	þú	PRON	pfn_et_þgf_p2	Case=Dat|Number=Sing|Person=2|PronType=Prs	3	iobj	_	tag=pfn_et_þgf_p2
 5	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	tag=pfn_et_ef_hk_p3
 6	að	að	SCONJ	st	_	8	mark	_	tag=st
@@ -138,19 +149,23 @@
 11	þegar	þegar	SCONJ	st	_	13	mark	_	tag=st
 12	einar	einn	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	tag=lo_ft_nf_kvk_sb
 13	lokast	loka	VERB	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	8	advcl	_	SpaceAfter=No|tag=so_0_fh_p3_ft_nt_mm
-14	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+14	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
-1	Árið 1990	Árið 1990	ADV	ártal	_	4	advmod	_	tag=ártal
-2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_ft_þt_gm
-3	sveitarstjórnarmenn	sveitarstjórnarmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_nf_kk
-4	alls	allur	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_ef_hk
-5	1.116	1.116	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	4	nummod	_	tag=tala_ft_nf_kvk
-6	talsins	tal	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk_gr
-7	og	og	CCONJ	st	_	4	cc	_	tag=st
-8	konur	kona	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_nf_kvk
-9	21,8%	21,8%	NUM	prósenta_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	nummod	_	tag=prósenta_et_ef_hk
-10	eða	eða	CCONJ	st	_	12	cc	_	tag=st
-11	243	243	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	12	nummod	_	tag=tala_ft_ef_kk
-12	talsins	tal	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	xcomp	_	tag=no_et_ef_hk_gr
-13	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+# sent_id = GREYNIR_CORPUS_00064,.10
+# text = Árið 1990 voru sveitarstjórnarmenn alls 1.116 talsins og konur 21,8% eða 243 talsins.
+1-2	Árið 1990	_	_	_	_	_	_	_	_
+1	Árið	Árið	ADV	ártal	_	5	advmod	_	tag=ártal
+2	1990	1990	NUM	ártal	_	1	fixed	_	tag=ártal
+3	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
+4	sveitarstjórnarmenn	sveitarstjórnarmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_nf_kk
+5	alls	allur	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_ef_hk
+6	1.116	1.116	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_nf_kvk
+7	talsins	tal	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=no_et_ef_hk_gr
+8	og	og	CCONJ	st	_	5	cc	_	tag=st
+9	konur	kona	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_nf_kvk
+10	21,8%	21,8%	NUM	prósenta_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	13	nummod	_	tag=prósenta_et_ef_hk
+11	eða	eða	CCONJ	st	_	13	cc	_	tag=st
+12	243	243	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	13	nummod	_	tag=tala_ft_ef_kk
+13	talsins	tal	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	xcomp	_	SpaceAfter=No|tag=no_et_ef_hk_gr
+14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
