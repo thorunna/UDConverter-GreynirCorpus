@@ -373,6 +373,7 @@ class UniversalDependencyGraph(DependencyGraph):
         text = re.sub(r" \.", ".", text)
         text = re.sub(r"\( ", "(", text)
         text = re.sub(r" \)", ")", text)
+        text = re.sub(r" \?", "?", text)
         print("plain text: ", text)
         return "# text = " + text
 
@@ -1897,7 +1898,9 @@ class Converter:
             self.dg = UniversalDependencyGraph()
 
             for i in t.treepositions():
+                print("I: ", t[i])
                 if isinstance(t[i], Tree):
+                    print("I: ", t[i])
 
                     if len(t[i]) == 1:
                         # If terminal node with label or tree with single child
@@ -1905,14 +1908,10 @@ class Converter:
                         tag_list[nr] = t[i].label()
                         t[i].set_id(nr)
                     elif len(t[i]) in {2, 3, 4, 5, 6} and t[i].height() == 2:
-                        # print("long t[i]: ", t[i])
-                        # print("halló", t[i])
-                        # If terminal node with multiword expression/phrase
+                        # If terminal node with multiword expression/phrase with up to 6 tokens
                         tag_list[nr] = t[i].label()
                         t[i].set_id(nr)
                         t[i].multiword_expression()
-                    # print("long t[i] after: ", t[i])
-                    # print("halló")
 
                     else:
                         # If constituent / complex phrase
@@ -1921,8 +1920,24 @@ class Converter:
                         const.append(i)
 
                 else:
-                    print("t[i]: ", t[i])
-                    # print(t[i])
+                    print("t[i] 1: ", t[i])
+                    # temp_form = t[i]
+                    # temp_lemma = None
+                    # if "+lemma+" in t[i]:
+                    #    temp_form, temp_lemma = t[i].split("+lemma+")
+                    # if (
+                    #    (
+                    #        (temp_form in string.punctuation or temp_form in "„“")
+                    #        and temp_lemma is None
+                    #    )
+                    #    or ("+" in temp_form and "+" in temp_lemma)
+                    #    or (
+                    #        "+" not in temp_form
+                    #        and temp_lemma is not None
+                    #        and "+" not in temp_lemma
+                    #    )
+                    #    or ("+" in temp_form and "+" not in temp_lemma)
+                    # ):
                     if t[i] == "\\":
                         print(
                             "The token is a backslash, which most likely precedes a bracket. Please exchange the '\(' for *opening_bracket* and the '\)' for *closing_bracket*"
@@ -1972,7 +1987,7 @@ class Converter:
                         LEMMA = LEMMA.replace("++", " ")
                         LEMMA = LEMMA.replace("+", " ")
 
-                    # Original brackets were \( or \), which cannot be used due to bracket parsing
+                        # Original brackets were \( or \), which cannot be used due to bracket parsing
                     if FORM == "*opening_bracket*":
                         FORM = "("
                     elif FORM == "*closing_bracket*":
@@ -1982,15 +1997,16 @@ class Converter:
                     elif LEMMA == "*closing_bracket*":
                         LEMMA = ")"
 
-                    #        XPOS = tag
-                    #        MISC = defaultdict(lambda: None)
-                    # Feature Classes called here
-                    #        UPOS = G_Features(tag, FORM).get_UD_tag()
-                    #        FEATS = G_Features(tag).get_features()
-                    #        MISC = defaultdict(lambda: None, {"tag": tag})
+                        #        XPOS = tag
+                        #        MISC = defaultdict(lambda: None)
+                        # Feature Classes called here
+                        #        UPOS = G_Features(tag, FORM).get_UD_tag()
+                        #        FEATS = G_Features(tag).get_features()
+                        #        MISC = defaultdict(lambda: None, {"tag": tag})
 
                     count = 0
                     new_nr = 0
+                    # if " " in FORM:
                     if " " in FORM:
                         print("MWE: ", FORM)
                         print("LEMMA: ", LEMMA)
@@ -1998,6 +2014,7 @@ class Converter:
                         LEMMAS = LEMMA.split(" ")
                         XPOS = tag
                         UPOS = G_Features(tag, FORM).get_UD_tag()
+                        print("UD tag: ", UPOS)
                         FEATS = G_Features(tag).get_features()
                         MISC = defaultdict(lambda: None, {"tag": tag})
                         print("nr í byrjun: ", nr)
@@ -2038,7 +2055,7 @@ class Converter:
                             )
                             nr += 1
                             count += 1
-                        # nr -= count
+                            # nr -= count
                         print("nr og count eftir for-loopu: ", nr, count)
                         # nr -= len(FORMS)
                         new_nr = nr

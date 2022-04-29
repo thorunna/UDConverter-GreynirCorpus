@@ -563,7 +563,7 @@ class IndexedCorpusTree(Tree):
                 # )
 
             count += 1
-        # print(self)
+
         return self
 
 

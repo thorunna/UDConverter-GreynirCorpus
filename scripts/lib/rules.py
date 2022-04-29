@@ -43,6 +43,7 @@ GC_UD_map = {
     "tími": "?",  # TODO
     "tímapunktur": "?",  # TODO
     "mælieining": "?",  # TODO
+    "prósenta": "?",  # TODO
     "raðnr": "ADJ",
     "grm": "PUNCT",
     "foreign": "X",
