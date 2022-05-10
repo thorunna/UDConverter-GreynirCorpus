@@ -55,7 +55,7 @@
 16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00082,.4
-# text = Hafið þið fengið einhverjar vísbendingar eða eruð þið einhverju nær um hvar steinninn er niðurkominn ?
+# text = Hafið þið fengið einhverjar vísbendingar eða eruð þið einhverju nær um hvar steinninn er niðurkominn?
 1	Hafið	hafa	VERB	so_0_fh_p2_ft_nt_gm	Mood=Ind|Number=Plur|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p2_ft_nt_gm
 2	þið	þú	PRON	pfn_ft_nf_p2	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p2
 3	fengið	fá	VERB	so_1_þf_gm	Case=Acc|Voice=Act	1	conj	_	tag=so_1_þf_gm
@@ -69,7 +69,7 @@
 11	um	um	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 12	hvar	hvar	ADV	ao	_	15	advmod	_	tag=ao
 13	steinninn	steinn	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	tag=no_et_nf_kk_gr
-14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_0_fh_p3_et_nt_gm
+14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
 15	niðurkominn	niðurkominn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 16	?	_	PUNCT	grm	_	1	punct	_	tag=grm
 
@@ -81,14 +81,17 @@
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Fróðárheiði	Fróðárheiði	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
 6	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-7	Dynjandis- og Hrafnseyrarheiði	Dynjandis- og Hrafnseyrarheiði	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	tag=sérnafn_et_þgf_kvk
-8	en	en	CCONJ	st	_	2	cc	_	tag=st
-9	hálkublettir	hálkublettur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	tag=no_ft_nf_kk
-10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	Fjarðarheiði	Fjarðarheiði	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	conj	_	tag=sérnafn_et_þgf_kvk
-12	og	og	CCONJ	st	_	13	cc	_	tag=st
-13	Mjóafjarðarheiði	Mjóafjarðarheiði	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
-14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+7-9	Dynjandis- og Hrafnseyrarheiði	_	_	_	_	_	_	_	_
+7	Dynjandis-	Dynjandis-	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	tag=sérnafn_et_þgf_kvk
+8	og	og	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	fixed	_	tag=sérnafn_et_þgf_kvk
+9	Hrafnseyrarheiði	Hrafnseyrarheiði	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	fixed	_	tag=sérnafn_et_þgf_kvk
+10	en	en	CCONJ	st	_	2	cc	_	tag=st
+11	hálkublettir	hálkublettur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	tag=no_ft_nf_kk
+12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	Fjarðarheiði	Fjarðarheiði	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	conj	_	tag=sérnafn_et_þgf_kvk
+14	og	og	CCONJ	st	_	15	cc	_	tag=st
+15	Mjóafjarðarheiði	Mjóafjarðarheiði	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
+16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00082,.6
 # text = Hann spjallaði við Thomas á netinu og spurði hann hvort hann ætlaði ekki að koma.
@@ -111,9 +114,8 @@
 
 # sent_id = GREYNIR_CORPUS_00082,.7
 # text = Flökkusjálf er hugtak sem lýsir ákveðnum veruhætti eða lífstíl sem einkennist og mótast af millibilsástandi.
--4	None	_	None	None	_	_	None	_	_
 1	Flökkusjálf	flökkusjálf	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	hugtak	hugtak	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	lýsir	lýsa	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	tag=so_1_þgf_fh_p3_et_nt_gm
@@ -132,20 +134,22 @@
 # sent_id = GREYNIR_CORPUS_00082,.8
 # text = Í yfirlýsingunni er hins vegar ítrekað að enn sé ekki samkomulag komið á milli aðila.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	yfirlýsingunni	yfirlýsing	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk_gr
-3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-4	hins vegar	hins vegar	ADV	ao	_	5	advmod	_	tag=ao
-5	ítrekað	ítreka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-6	að	að	SCONJ	st	_	11	mark	_	tag=st
-7	enn	enn	ADV	ao	_	11	advmod	_	tag=ao
-8	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_vh_p3_et_nt_gm
-9	ekki	ekki	ADV	ao	_	11	advmod	_	tag=ao
-10	samkomulag	samkomulag	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=no_et_nf_hk
-11	komið	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	ccomp	_	tag=so_0_lhþt_et
-12	á	á	ADV	ao	_	14	case	_	tag=ao
-13	milli	milli	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
-14	aðila	aðili	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_ef_kk
-15	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+2	yfirlýsingunni	yfirlýsing	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk_gr
+3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
+4-5	hins vegar	_	_	_	_	_	_	_	_
+4	hins	hins	ADV	ao	_	6	advmod	_	tag=ao
+5	vegar	vegar	ADV	ao	_	4	fixed	_	tag=ao
+6	ítrekað	ítreka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+7	að	að	SCONJ	st	_	12	mark	_	tag=st
+8	enn	enn	ADV	ao	_	12	advmod	_	tag=ao
+9	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_nt_gm
+10	ekki	ekki	ADV	ao	_	12	advmod	_	tag=ao
+11	samkomulag	samkomulag	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=no_et_nf_hk
+12	komið	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	ccomp	_	tag=so_0_lhþt_et
+13	á	á	ADV	ao	_	15	case	_	tag=ao
+14	milli	milli	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
+15	aðila	aðili	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_ef_kk
+16	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00082,.9
 # text = Sjálfstæðisflokkurinn fær kannski öðrum flokkum fremur meiri framlög frá fyrirtækjum og einstaklingum en aðrir flokkar.
@@ -166,6 +170,8 @@
 15	flokkar	flokkur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	advcl	_	SpaceAfter=No|tag=no_ft_nf_kk
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00082,.10
+# text = Rauða kross teymið hafði tíu legurými fyrir sjúklinga sem ekki var hægt að útskrifa strax.
 1	Rauða	rauður	ADJ	lo_et_ef_kk_fst_vb	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_ef_kk_fst_vb
 2	kross	kross	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kk
 3	teymið	teymi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
@@ -180,6 +186,6 @@
 12	hægt	hægt	ADV	ao_fst	Degree=Pos	11	nsubj	_	tag=ao_fst
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
 14	útskrifa	útskrifa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	csubj	_	tag=so_0_nh_gm
-15	strax	strax	ADV	ao	_	14	advmod	_	tag=ao
+15	strax	strax	ADV	ao	_	14	advmod	_	SpaceAfter=No|tag=ao
 16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

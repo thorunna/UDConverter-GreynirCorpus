@@ -30,12 +30,14 @@
 
 # sent_id = GREYNIR_CORPUS_00019,.4
 # text = Hólmar Örn - Líður vel í Búlgaríu
-1	Hólmar Örn	Hólmar Örn	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
-2	-	-	PUNCT	grm	_	3	punct	_	tag=grm
-3	Líður	Líða	VERB	so_0_op_subj_þgf_fh_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_op_subj_þgf_fh_et_nt_gm
-4	vel	vel	ADV	ao	_	3	advmod	_	tag=ao
-5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	Búlgaríu	Búlgaría	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_kvk
+1-2	Hólmar Örn	_	_	_	_	_	_	_	_
+1	Hólmar	Hólmar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
+2	Örn	Örn	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No|tag=person_et_nf_kk
+3	-	-	PUNCT	grm	_	4	punct	_	tag=grm
+4	Líður	Líða	VERB	so_0_op_subj_þgf_fh_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_op_subj_þgf_fh_et_nt_gm
+5	vel	vel	ADV	ao	_	4	advmod	_	tag=ao
+6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	Búlgaríu	Búlgaría	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_kvk
 
 # sent_id = GREYNIR_CORPUS_00019,.5
 # text = Ekki er vitað um ástæður árásarinnar.
@@ -88,11 +90,13 @@
 7	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-1	Já	já	INTJ	uh	_	0	root	_	tag=uh
+# sent_id = GREYNIR_CORPUS_00019,.10
+# text = Já, þetta hefur reynt á.
+1	Já	já	INTJ	uh	_	5	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=uh
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
 4	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-5	reynt	reyna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	conj	_	tag=so_0_sagnb_gm
-6	á	á	ADV	ao	_	5	advmod	_	tag=ao
-7	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+5	reynt	reyna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
+6	á	á	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
+7	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

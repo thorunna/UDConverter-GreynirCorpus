@@ -24,7 +24,7 @@
 4	að	að	SCONJ	st	_	8	mark	_	tag=st
 5	úrslitin	úrslit	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	tag=no_ft_nf_hk_gr
 6	gætu	geta	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	8	aux	_	tag=so_0_vh_p3_ft_þt_gm
-7	orðið	verða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	conj	_	tag=so_0_sagnb_gm
+7	orðið	verða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	cop	_	tag=so_0_sagnb_gm
 8	slæm	slæmur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	2	ccomp	_	tag=lo_ft_nf_hk_sb
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
 10	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	xcomp	_	tag=fn_et_nf_hk
@@ -36,17 +36,20 @@
 
 # sent_id = GREYNIR_CORPUS_00073,.3
 # text = Landsliðskonan Sandra María Jessen kom Þór/KA yfir gegn KR á 59. mínútu.
-1	Landsliðskonan	landsliðskona	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-2	Sandra María Jessen	Sandra María Jessen	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	tag=person_nf_kvk
-3	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
-4	Þór/KA	Þór/KA	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	3	obj	_	tag=sérnafn_þgf_kk
-5	yfir	yfir	ADV	ao	_	3	compound:prt	_	tag=ao
-6	gegn	gegn	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	KR	KR	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_hk
-8	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-9	59.	59.	ADJ	raðnr_þgf_kvk	Case=Dat|Gender=Fem|NumType=Ord	10	amod	_	tag=raðnr_þgf_kvk
-10	mínútu	mínúta	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1	Landsliðskonan	landsliðskona	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
+2-4	Sandra María Jessen	_	_	_	_	_	_	_	_
+2	Sandra	Sandra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	tag=person_nf_kvk
+3	María	María	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	fixed	_	tag=person_nf_kvk
+4	Jessen	Jessen	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	fixed	_	tag=person_nf_kvk
+5	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
+6	Þór/KA	Þór/KA	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	5	obj	_	tag=sérnafn_þgf_kk
+7	yfir	yfir	ADV	ao	_	5	compound:prt	_	tag=ao
+8	gegn	gegn	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	KR	KR	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_hk
+10	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+11	59.	59.	ADJ	raðnr_þgf_kvk	Case=Dat|Gender=Fem|NumType=Ord	12	amod	_	tag=raðnr_þgf_kvk
+12	mínútu	mínúta	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+13	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00073,.4
 # text = Hann segist ekki hafa miklar áhyggjur af því að niðurstaðan rýri traust til Landsréttar.
@@ -93,13 +96,13 @@
 5	löngum	langur	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_þgf_kk_sb
 6	boltum	bolti	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obj	_	tag=no_ft_þgf_kk
 7	og	og	CCONJ	st	_	3	cc	_	tag=st
-8	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	conj	_	tag=so_1_nf_fh_p3_ft_þt_gm
-9	skallabaráttur	skallabarátta	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	tag=no_ft_nf_kvk
-10	nánast	náið	ADV	eo_est	Degree=Sup	11	advmod	_	tag=eo_est
-11	fleiri	margur	ADJ	lo_ft_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	3	conj	_	tag=lo_ft_nf_kvk_mst
+8	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
+9	skallabaráttur	skallabarátta	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk
+10	nánast	náið	ADV	eo_est	Degree=Sup	3	advmod	_	tag=eo_est
+11	fleiri	margur	ADJ	lo_ft_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	3	cop	_	tag=lo_ft_nf_kvk_mst
 12	en	en	CCONJ	st	_	14	cc	_	tag=st
 13	stuttar	stuttur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	14	amod	_	tag=lo_ft_nf_kvk_sb
-14	sendingar	sending	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	11	advcl	_	SpaceAfter=No|tag=no_ft_nf_kvk
+14	sendingar	sending	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	advcl	_	SpaceAfter=No|tag=no_ft_nf_kvk
 15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00073,.7
@@ -124,7 +127,7 @@
 # text = Forskot Finna var því sex stig eftir fyrstu tíu mínúturnar, 24 – 18.
 1	Forskot	forskot	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
 2	Finna	Finni	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk
-3	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+3	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 4	því	því	ADV	ao	_	6	advmod	_	tag=ao
 5	sex	sex	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nummod	_	tag=töl_ft_nf_hk
 6	stig	stig	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_nf_hk
@@ -133,7 +136,7 @@
 9	tíu	tíu	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	nummod	_	tag=töl_ft_þf_kvk
 10	mínúturnar	mínúta	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk_gr
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
-12	24	24	NUM	tala	NumType=Card	6	('HALLÓ_S', 'EXPLAIN', 'S0', None)	_	SpaceAfter=No|tag=tala
+12	24	24	NUM	tala	NumType=Card	6	parataxis	_	SpaceAfter=No|tag=tala
 13	–	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	18	18	NUM	tala	NumType=Card	12	obl	_	SpaceAfter=No|tag=tala
 15	.	_	PUNCT	grm	_	6	punct	_	tag=grm
@@ -156,13 +159,20 @@
 14	gamall	gamall	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00073,.10
+# text = Platan ber heitið A Seat At The Table eða Sæti við borðið.
 1	Platan	plata	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
 2	ber	bera	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	heitið	heiti	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk_gr
-4	A Seat At The Table	A Seat At The Table	X	foreign	_	3	flat:foreign	_	tag=foreign
-5	eða	eða	CCONJ	st	_	3	cc	_	tag=st
-6	Sæti	sæti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_þf_hk
-7	við	við	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	borðið	borð	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk_gr
-9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+4-8	A Seat At The Table	_	_	_	_	_	_	_	_
+4	A	A	X	foreign	_	3	flat:foreign	_	tag=foreign
+5	Seat	Seat	X	foreign	_	4	fixed	_	tag=foreign
+6	At	At	X	foreign	_	5	fixed	_	tag=foreign
+7	The	The	X	foreign	_	6	fixed	_	tag=foreign
+8	Table	Table	X	foreign	_	7	fixed	_	tag=foreign
+9	eða	eða	CCONJ	st	_	3	cc	_	tag=st
+10	Sæti	sæti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_þf_hk
+11	við	við	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	borðið	borð	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
+13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

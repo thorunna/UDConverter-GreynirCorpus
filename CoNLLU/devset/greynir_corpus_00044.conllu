@@ -1,16 +1,17 @@
 # sent_id = GREYNIR_CORPUS_00044,.1
 # text = Sá frestur var þó reyndar síðar framlengdur til 15. mars.
--3	None	_	None	None	_	_	None	_	_
 1	Sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_nf_kk
 2	frestur	frestur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
-3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 4	þó	þó	ADV	eo	_	0	root	_	tag=eo
 5	reyndar	reyndar	ADV	eo	_	4	advmod	_	tag=eo
 6	síðar	síðar	ADV	ao	_	4	advmod	_	tag=ao
 7	framlengdur	framlengja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_et
 8	til	til	ADV	fs_ef	Case=Gen	4	advmod	_	tag=fs_ef
-9	15. mars	15. mars	NUM?	dagsafs	_	8	('HALLÓ_dagsafs', None, 'ADVP', 'DUR-REL')	_	SpaceAfter=No|tag=dagsafs
-10	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+9-10	15. mars	_	_	_	_	_	_	_	_
+9	15.	15.	NUM?	dagsafs	_	8	('HALLÓ_dagsafs', None, 'ADVP', 'DUR-REL')	_	SpaceAfter=No|tag=dagsafs
+10	mars	mars	NUM?	dagsafs	_	9	fixed	_	SpaceAfter=No|tag=dagsafs
+11	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00044,.2
 # text = Tökur á myndinni hófust í dag í kvikmyndaveri Warner Bros.
@@ -22,20 +23,25 @@
 6	dag	dag	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	advmod	_	tag=no_et_þf_kk
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	kvikmyndaveri	kvikmyndaver	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
-9	Warner Bros	Warner Bros	PROPN	fyrirtæki	_	8	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
-10	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+9-10	Warner Bros	_	_	_	_	_	_	_	_
+9	Warner	Warner	PROPN	fyrirtæki	_	8	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
+10	Bros	Bros	PROPN	fyrirtæki	_	9	fixed	_	SpaceAfter=No|tag=fyrirtæki
+11	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00044,.3
 # text = Íslands- og bikarmeistararnir fá því ágætis veganesti inn í Íslandsmótsins.
-1	Íslands- og bikarmeistararnir	Íslands- og bikarmeistararnir	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
-2	fá	fá	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
-3	því	því	ADV	ao	_	2	advmod	_	tag=ao
-4	ágætis	ágætis	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=no_et_ef_hk
-5	veganesti	veganesti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
-6	inn	inn	ADV	ao	_	8	advmod	_	tag=ao
-7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	Íslandsmótsins	Íslandsmótsins	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_ef_hk_gr
-9	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Íslands- og bikarmeistararnir	_	_	_	_	_	_	_	_
+1	Íslands-	Íslands-	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk_gr
+2	og	og	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	fixed	_	tag=no_et_nf_kk_gr
+3	bikarmeistararnir	bikarmeistararnir	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	fixed	_	tag=no_et_nf_kk_gr
+4	fá	fá	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
+5	því	því	ADV	ao	_	4	advmod	_	tag=ao
+6	ágætis	ágætis	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk
+7	veganesti	veganesti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þf_hk
+8	inn	inn	ADV	ao	_	10	advmod	_	tag=ao
+9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+10	Íslandsmótsins	Íslandsmótsins	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_ef_hk_gr
+11	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00044,.4
 # text = Í staðinn fékk ég urmul af gjöfum frá fallegu fólki.
@@ -53,9 +59,8 @@
 
 # sent_id = GREYNIR_CORPUS_00044,.5
 # text = Nú er langt liðið á ágúst og ekkert hefur gerst.
--4	None	_	None	None	_	_	None	_	_
 1	Nú	nú	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	langt	langt	ADV	eo	_	0	root	_	tag=eo
 4	liðið	líða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_et
 5	á	á	ADP	fs	_	6	case	_	tag=fs
@@ -68,29 +73,31 @@
 
 # sent_id = GREYNIR_CORPUS_00044,.6
 # text = Heiðrún Lind vildi ekki staðfesta þetta í samtali við Vísi.
-1	Heiðrún Lind	Heiðrún Lind	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
-2	vildi	vilja	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_þt_gm
-3	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
-4	staðfesta	staðfesta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
-5	þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	tag=fn_et_þf_hk
-6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
-8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	Vísi	vísir	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þf_kk
-10	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+1-2	Heiðrún Lind	_	_	_	_	_	_	_	_
+1	Heiðrún	Heiðrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	nsubj	_	tag=person_nf_kvk
+2	Lind	Lind	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	tag=person_nf_kvk
+3	vildi	vilja	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_þt_gm
+4	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
+5	staðfesta	staðfesta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
+6	þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	tag=fn_et_þf_hk
+7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
+9	við	við	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+10	Vísi	vísir	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þf_kk
+11	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00044,.7
 # text = En mjög margt áhugavert sem hefur komið í ljós.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	4	cc	_	tag=st
 2	mjög	mjög	ADV	eo	_	4	advmod	_	tag=eo
 3	margt	margt	ADV	eo	_	4	advmod	_	tag=eo
-4	áhugavert	áhugaverður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=lo_et_nf_hk_sb
+4	áhugavert	áhugaverður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 6	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 7	komið	koma	VERB	so_0_sagnb	VerbForm=Sup	6	acl:relcl	_	tag=so_0_sagnb
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	ljós	ljós	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-10	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+10	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00044,.8
 # text = Kolbrún tekur á fjölbreyttum og misalvarlegum vandamálum með skjólstæðingum sínum.
@@ -120,15 +127,17 @@
 10	helgina	helgi	ADV	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00044,.10
+# text = Hlutfall kvenna hefur aukist lítillega, úr 30% í 33%.
 1	Hlutfall	hlutfall	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 2	kvenna	kona	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	aukist	auka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	0	root	_	tag=so_0_sagnb_mm
-5	lítillega	lítillega	ADV	ao	_	4	advmod	_	tag=ao
+5	lítillega	lítillega	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	úr	úr	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	30%	30%	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 9	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	33%	33%	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
+10	33%	33%	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 11	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

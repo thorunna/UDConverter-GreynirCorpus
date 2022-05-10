@@ -66,8 +66,10 @@
 10	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 11	fram	fram	ADV	ao	_	12	compound:prt	_	tag=ao
 12	fóru	fara	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	acl:relcl	_	tag=so_0_fh_p3_ft_þt_gm
-13	12. maí	12. maí	ADV	dagsafs	_	12	advmod	_	SpaceAfter=No|tag=dagsafs
-14	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+13-14	12. maí	_	_	_	_	_	_	_	_
+13	12.	12.	ADV	dagsafs	_	12	advmod	_	SpaceAfter=No|tag=dagsafs
+14	maí	maí	NUM?	dagsafs	_	13	fixed	_	SpaceAfter=No|tag=dagsafs
+15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00075,.5
 # text = Hann er í sjötta flokki og býst við að byrja bráðum í þeim fimmta.
@@ -107,20 +109,22 @@
 
 # sent_id = GREYNIR_CORPUS_00075,.7
 # text = Skömmu fyrir miðnætti var svo óskað liðsinnis lögreglu vegna heimilisofbeldis í Hlíðahverfi í Reykjavík.
-1	Skömmu fyrir	skömmu fyrir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
-2	miðnætti	miðnætti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk
-3	var	vera	AUX	so_1_ef_fh_p3_et_þt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_1_ef_fh_p3_et_þt_gm
-4	svo	svo	ADV	ao	_	5	advmod	_	tag=ao
-5	óskað	óska	VERB	so_1_ef_sagnb_gm	Case=Gen|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_ef_sagnb_gm
-6	liðsinnis	liðsinni	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_ef_hk
-7	lögreglu	lögregla	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=no_et_ef_kvk
-8	vegna	vegna	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
-9	heimilisofbeldis	heimilisofbeldi	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_ef_hk
-10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	Hlíðahverfi	Hlíðahverfi	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=sérnafn_et_þgf_hk
-12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	Reykjavík	Reykjavík	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
-14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+1-2	Skömmu fyrir	_	_	_	_	_	_	_	_
+1	Skömmu	skömmu	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
+2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	fixed	_	tag=fs_þf
+3	miðnætti	miðnætti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk
+4	var	vera	AUX	so_1_ef_fh_p3_et_þt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_1_ef_fh_p3_et_þt_gm
+5	svo	svo	ADV	ao	_	6	advmod	_	tag=ao
+6	óskað	óska	VERB	so_1_ef_sagnb_gm	Case=Gen|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_ef_sagnb_gm
+7	liðsinnis	liðsinni	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_ef_hk
+8	lögreglu	lögregla	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	nmod:poss	_	tag=no_et_ef_kvk
+9	vegna	vegna	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
+10	heimilisofbeldis	heimilisofbeldi	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_ef_hk
+11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	Hlíðahverfi	Hlíðahverfi	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=sérnafn_et_þgf_hk
+13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	Reykjavík	Reykjavík	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
+15	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00075,.8
 # text = Ekki hefur enn soðið upp úr en lögreglan er þungvopnuð og með mikinn viðbúnað.
@@ -128,34 +132,40 @@
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	enn	enn	ADV	ao	_	4	advmod	_	tag=ao
 4	soðið	sjóða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-5	upp úr	upp úr	ADV	ao	_	4	advmod	_	tag=ao
-6	en	en	CCONJ	st	_	4	cc	_	tag=st
-7	lögreglan	lögregla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk_gr
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
-9	þungvopnuð	þungvopnaður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	tag=lo_et_nf_kvk_sb
-10	og	og	CCONJ	st	_	9	cc	_	tag=st
-11	með	með	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-12	mikinn	mikill	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_þf_kk_sb
-13	viðbúnað	viðbúnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þf_kk
-14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+5-6	upp úr	_	_	_	_	_	_	_	_
+5	upp	upp	ADV	ao	_	4	advmod	_	tag=ao
+6	úr	úr	ADV	ao	_	5	fixed	_	tag=ao
+7	en	en	CCONJ	st	_	4	cc	_	tag=st
+8	lögreglan	lögregla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	tag=no_et_nf_kvk_gr
+9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
+10	þungvopnuð	þungvopnaður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	tag=lo_et_nf_kvk_sb
+11	og	og	CCONJ	st	_	10	cc	_	tag=st
+12	með	með	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+13	mikinn	mikill	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_þf_kk_sb
+14	viðbúnað	viðbúnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þf_kk
+15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00075,.9
 # text = Hraði þess er 25,5 kílómetrar á sekúndu, eða 918 þúsund kílómetrar á klukkustund.
 1	Hraði	hraði	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
 2	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_et_ef_hk_p3
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	25,5	25,5	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_nf_kk
 5	kílómetrar	kílómetri	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	sekúndu	sekúnda	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	eða	eða	CCONJ	st	_	5	cc	_	tag=st
-10	918 þúsund	918 þúsund	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nummod	_	tag=töl_ft_nf_kk
-11	kílómetrar	kílómetri	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	tag=no_ft_nf_kk
-12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	klukkustund	klukkustund	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk
-14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+10-11	918 þúsund	_	_	_	_	_	_	_	_
+10	918	918	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nummod	_	tag=töl_ft_nf_kk
+11	þúsund	þúsund	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	10	fixed	_	tag=töl_ft_nf_kk
+12	kílómetrar	kílómetri	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	tag=no_ft_nf_kk
+13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	klukkustund	klukkustund	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk
+15	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00075,.10
+# text = Ef við hendum svona miklum mat þá erum við bara að henda peninugm.
 1	Ef	ef	SCONJ	st	_	3	mark	_	tag=st
 2	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
 3	hendum	henda	VERB	so_1_þgf_fh_p1_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	12	advcl	_	tag=so_1_þgf_fh_p1_ft_nt_gm
@@ -168,6 +178,6 @@
 10	bara	bara	ADV	ao	_	12	advmod	_	tag=ao
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
 12	henda	henda	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þgf_nh_gm
-13	peninugm	peningur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	12	obj	_	tag=no_ft_þgf_kk
+13	peninugm	peningur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No|tag=no_ft_þgf_kk
 14	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 

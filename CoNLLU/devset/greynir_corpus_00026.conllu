@@ -57,10 +57,9 @@
 
 # sent_id = GREYNIR_CORPUS_00026,.6
 # text = Nýliðanámskeiðið hafi verið gagnlegt og þingflokkurinn fundað stíft.
--3	None	_	None	None	_	_	None	_	_
 1	Nýliðanámskeiðið	nýliðanámskeið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
 2	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_vh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	conj	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
 4	gagnlegt	gagnlegur	ADJ	lo_et_nf_hk_fst	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_fst
 5	og	og	CCONJ	st	_	6	cc	_	tag=st
 6	þingflokkurinn	þingflokkur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	conj	_	tag=no_et_nf_kk_gr
@@ -93,10 +92,10 @@
 9	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00026,.9
-# text = Af hverju er ég ekki frjáls fyrir honum ?
+# text = Af hverju er ég ekki frjáls fyrir honum?
 1	Af	af	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	hverju	hver	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
-3	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p1_et_nt_gm
+2	hverju	hver	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_þgf_hk
+3	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p1_et_nt_gm
 4	ég	ég	PRON	pfn_et_nf_kvk_p1	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_kvk_p1
 5	ekki	ekki	ADV	eo	_	6	advmod	_	tag=eo
 6	frjáls	frjáls	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
@@ -104,6 +103,8 @@
 8	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No|tag=pfn_et_þgf_kk_p3
 9	?	_	PUNCT	grm	_	6	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00026,.10
+# text = Frjálsi hugði ekki nægilega að hagsmunatengslum við Arion banka
 1	Frjálsi	frjáls	PROPN	sérnafn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=sérnafn_et_nf_kk
 2	hugði	hyggja	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao

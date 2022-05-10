@@ -11,7 +11,7 @@
 9	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	tag=pfn_et_þgf_p1
 10	finnst	finna	VERB	so_1_nf_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	2	conj	_	tag=so_1_nf_op_subj_þgf_fh_p3_et_nt_mm
 11	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	tag=pfn_et_nf_hk_p3
-12	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	13	conj	_	tag=so_1_nf_nh_gm
+12	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	13	cop	_	tag=so_1_nf_nh_gm
 13	raddir	rödd	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	10	xcomp	_	tag=no_ft_nf_kvk
 14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
 15	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -49,21 +49,24 @@
 2	mitt	minn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	nmod	_	tag=fn_et_nf_hk
 3	virðist	virða	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 4	nefnilega	nefnilega	ADV	ao	_	3	advmod	_	tag=ao
-5	fyrst og fremst	fyrst og fremst	ADV	ao	_	3	advmod	_	tag=ao
-6	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
-7	til	til	ADP	fs_nh	VerbForm=Inf	9	case	_	tag=fs_nh
-8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	sýnast	sýna	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	6	obl	_	SpaceAfter=No|tag=so_0_nh_mm
-10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-11	ekki	ekki	ADV	ao	_	6	advmod	_	tag=ao
-12	til	til	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
-13	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_ef_hk
-14	að	að	PART	nhm	_	15	mark	_	tag=nhm
-15	gefa	gefa	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_2_þgf_þf_nh_gm
-16	borgarbúum	borgarbúi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	15	iobj	_	tag=no_ft_þgf_kk
-17	raunverulegt	raunverulegur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_þf_hk_sb
-18	val	val	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No|tag=no_et_þf_hk
-19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+5-7	fyrst og fremst	_	_	_	_	_	_	_	_
+5	fyrst	fyrst	ADV	ao	_	3	advmod	_	tag=ao
+6	og	og	ADV	ao	_	5	fixed	_	tag=ao
+7	fremst	fremst	ADV	ao	_	6	fixed	_	tag=ao
+8	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
+9	til	til	ADP	fs_nh	VerbForm=Inf	11	case	_	tag=fs_nh
+10	að	að	PART	nhm	_	11	mark	_	tag=nhm
+11	sýnast	sýna	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	8	obl	_	SpaceAfter=No|tag=so_0_nh_mm
+12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
+13	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
+14	til	til	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
+15	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	tag=fn_et_ef_hk
+16	að	að	PART	nhm	_	17	mark	_	tag=nhm
+17	gefa	gefa	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_2_þgf_þf_nh_gm
+18	borgarbúum	borgarbúi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	iobj	_	tag=no_ft_þgf_kk
+19	raunverulegt	raunverulegur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	20	amod	_	tag=lo_et_þf_hk_sb
+20	val	val	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	SpaceAfter=No|tag=no_et_þf_hk
+21	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00126,.4
 # text = Greiningardeild Arion banka fjallar um beinan og óbeinan kostnað af tíðum stjórnarskiptum og pólitískum óstöðugleika í færslu sinni í dag.
@@ -72,7 +75,7 @@
 3	banka	banki	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	tag=fyrirtæki_et_ef_kk
 4	fjallar	fjalla	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-6	beinan	beinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	9	('HALLÓ_ADJP', None, 'NP', None)	_	tag=lo_et_þf_kk_sb
+6	beinan	beinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_þf_kk_sb
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
 8	óbeinan	óbeinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	tag=lo_et_þf_kk_sb
 9	kostnað	kostnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
@@ -100,18 +103,20 @@
 7	hér	hér	ADV	ao	_	9	advmod	_	tag=ao
 8	úr	úr	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	smiðju	smiðja	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	0	root	_	tag=no_et_þgf_kvk
-10	Maríu Gomez	María Gomez	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	tag=person_et_ef_kvk
-11	á	á	ADP	fs_þgf	Case=Dat	12	dep	_	tag=fs_þgf
-12	Paz.is	Paz.is	X	lén	_	10	obl	_	tag=lén
-13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
-14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-15	heldur	heldur	ADV	ao	_	18	advmod	_	tag=ao
-16	betur	vel	ADV	ao_mst	Degree=Cmp	15	advmod	_	tag=ao_mst
-17	að	að	PART	nhm	_	18	mark	_	tag=nhm
-18	poppa	poppa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	acl:relcl	_	tag=so_1_þf_nh_gm
-19	upp	upp	ADV	ao	_	18	compound:prt	_	tag=ao
-20	bolludaginn	bolludagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-21	.	_	PUNCT	grm	_	9	punct	_	tag=grm
+10-11	Maríu Gomez	_	_	_	_	_	_	_	_
+10	Maríu	María	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	tag=person_et_ef_kvk
+11	Gomez	Gomez	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	fixed	_	tag=person_et_ef_kvk
+12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	Paz.is	Paz.is	X	lén	_	10	obl	_	tag=lén
+14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
+15	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+16	heldur	heldur	ADV	ao	_	19	advmod	_	tag=ao
+17	betur	vel	ADV	ao_mst	Degree=Cmp	16	advmod	_	tag=ao_mst
+18	að	að	PART	nhm	_	19	mark	_	tag=nhm
+19	poppa	poppa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	acl:relcl	_	tag=so_1_þf_nh_gm
+20	upp	upp	ADV	ao	_	19	compound:prt	_	tag=ao
+21	bolludaginn	bolludagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No|tag=no_et_þf_kk_gr
+22	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00126,.6
 # text = Bilunin, sem kom upp á þriðja tímanum í dag, olli röskun á ýmsum þjónustum og varði í u.þ.b. klukkustund.
@@ -143,7 +148,7 @@
 1	Vægi	vægi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
 2	þessara	þessi	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	tag=fn_ft_ef_kvk
 3	minninga	minning	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk
-4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_fh_p3_ft_nt_gm
+4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_ft_nt_gm
 5	að	að	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 6	mestu	mikill	ADJ	lo_et_þgf_hk_esb_sb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þgf_hk_esb_sb
 7	leiti	leyti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
@@ -201,33 +206,39 @@
 9	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 11	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_þt_gm
-12	Tryggvi Hrafn	Tryggvi Hrafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
-14	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-15	einungis	einungis	ADV	eo	_	17	advmod	_	tag=eo
-16	eitt	einn	NUM	to_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	nummod	_	tag=to_et_þf_hk
-17	mark	mark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	tag=no_et_þf_hk
-18	í	í	ADV	ao	_	14	advmod	_	tag=ao
-19	fyrra	fyrra	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
-20	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+12-13	Tryggvi Hrafn	_	_	_	_	_	_	_	_
+12	Tryggvi	Tryggvi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
+13	Hrafn	Hrafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	tag=person_nf_kk
+14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
+15	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
+16	einungis	einungis	ADV	eo	_	18	advmod	_	tag=eo
+17	eitt	einn	NUM	to_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	nummod	_	tag=to_et_þf_hk
+18	mark	mark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	tag=no_et_þf_hk
+19	í	í	ADV	ao	_	15	advmod	_	tag=ao
+20	fyrra	fyrra	ADV	ao	_	19	advmod	_	SpaceAfter=No|tag=ao
+21	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00126,.10
+# text = Ganamaðurinn Kofi Annan tók við embættinu af Boutros-Ghali eftir að Bandaríkjastjórn lagðist gegn því að hann sæti annað kjörtímabil.
 1	Ganamaðurinn	Ganamaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
-2	Kofi Annan	Kofi Annan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-3	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-4	við	við	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	embættinu	embætti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk_gr
-6	af	af	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	Boutros-Ghali	Boutros-Ghali	PROPN	person_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=person_et_þgf_kk
-8	eftir	eftir	ADP	fs	_	11	mark	_	tag=fs
-9	að	að	SCONJ	st	_	8	cc	_	tag=st
-10	Bandaríkjastjórn	Bandaríkjastjórn	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	tag=sérnafn_et_nf_kvk
-11	lagðist	leggja	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	advcl	_	tag=so_1_nf_fh_p3_et_þt_mm
-12	gegn	gegn	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=fn_et_þgf_hk
-14	að	að	SCONJ	st	_	16	mark	_	tag=st
-15	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
-16	sæti	sitja	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	13	ccomp	_	tag=so_0_vh_p3_et_þt_gm
-17	annað	annar	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	nmod	_	tag=fn_et_þf_hk
-18	kjörtímabil	kjörtímabil	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	advmod	_	tag=no_et_þf_hk
-19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+2-3	Kofi Annan	_	_	_	_	_	_	_	_
+2	Kofi	Kofi	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=person_et_nf_kk
+3	Annan	Annan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	fixed	_	tag=person_et_nf_kk
+4	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+5	við	við	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
+6	embættinu	embætti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk_gr
+7	af	af	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	Boutros-Ghali	Boutros-Ghali	PROPN	person_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=person_et_þgf_kk
+9	eftir	eftir	ADP	fs	_	12	mark	_	tag=fs
+10	að	að	SCONJ	st	_	9	cc	_	tag=st
+11	Bandaríkjastjórn	Bandaríkjastjórn	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=sérnafn_et_nf_kvk
+12	lagðist	leggja	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	4	advcl	_	tag=so_1_nf_fh_p3_et_þt_mm
+13	gegn	gegn	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=fn_et_þgf_hk
+15	að	að	SCONJ	st	_	17	mark	_	tag=st
+16	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kk_p3
+17	sæti	sitja	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	14	ccomp	_	tag=so_0_vh_p3_et_þt_gm
+18	annað	annar	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	tag=fn_et_þf_hk
+19	kjörtímabil	kjörtímabil	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
+20	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

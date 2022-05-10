@@ -101,7 +101,7 @@
 4	ljós	ljós	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk
 5	að	að	SCONJ	st	_	9	mark	_	tag=st
 6	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	tag=pfn_et_nf_hk_p3
-7	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	tag=so_1_nf_vh_p3_et_þt_gm
+7	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 8	ekki	ekki	ADV	eo	_	9	advmod	_	tag=eo
 9	raunhæft	raunhæfur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	xcomp	_	tag=lo_et_nf_hk_sb
 10	fyrir	fyrir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
@@ -144,7 +144,7 @@
 # sent_id = GREYNIR_CORPUS_00125,.7
 # text = Deildin er kannski ekki besta deild í heimi, en mér finnst dómarar hafa verið langt undir pari í sumar.
 1	Deildin	deild	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	kannski	kannski	ADV	ao	_	6	advmod	_	tag=ao
 4	ekki	ekki	ADV	ao	_	6	advmod	_	tag=ao
 5	besta	góður	ADJ	lo_et_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_evb
@@ -182,7 +182,7 @@
 13	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	15	nmod	_	tag=fn_et_nf_hk
 14	ræktað	ræktaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_nf_hk_sb
 15	land	land	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	tag=no_et_nf_hk
-16	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+16	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 17	lífrænt	lífrænn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	11	ccomp	_	tag=lo_et_nf_hk_sb
 18	eftir	eftir	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 19	fáa	fár	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	20	amod	_	tag=lo_ft_þf_kk_sb
@@ -211,23 +211,28 @@
 18	leik	leikur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 19	.	_	PUNCT	grm	_	14	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00125,.10
+# text = Hann taldi enn fremur að úthlutanir úr Orkusjóði í fyrrahaust hafi þar af leiðandi ekki verið í samræmi við lög.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	taldi	telja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	enn	enn	ADV	ao	_	2	advmod	_	tag=ao
 4	fremur	harla	ADV	ao_mst	Degree=Cmp	3	advmod	_	tag=ao_mst
-5	að	að	SCONJ	st	_	14	mark	_	tag=st
-6	úthlutanir	úthlutun	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	tag=no_ft_nf_kvk
+5	að	að	SCONJ	st	_	16	mark	_	tag=st
+6	úthlutanir	úthlutun	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	tag=no_ft_nf_kvk
 7	úr	úr	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	Orkusjóði	orkusjóður	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=sérnafn_et_þgf_kk
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	fyrrahaust	fyrrahaust	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	advmod	_	tag=no_et_þf_hk
-11	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_vh_p3_ft_nt_gm
-12	þar af leiðandi	þar af leiðandi	ADV	ao	_	14	advmod	_	tag=ao
-13	ekki	ekki	ADV	ao	_	14	advmod	_	tag=ao
-14	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	2	ccomp	_	tag=so_1_nf_sagnb_gm
-15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	samræmi	samræmi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þf_hk
-17	við	við	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	lög	lag	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	16	obl	_	tag=no_ft_þf_hk
-19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+11	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_vh_p3_ft_nt_gm
+12-14	þar af leiðandi	_	_	_	_	_	_	_	_
+12	þar	þar	ADV	ao	_	16	advmod	_	tag=ao
+13	af	af	ADV	ao	_	12	fixed	_	tag=ao
+14	leiðandi	leiðandi	ADV	ao	_	13	fixed	_	tag=ao
+15	ekki	ekki	ADV	ao	_	16	advmod	_	tag=ao
+16	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	2	ccomp	_	tag=so_1_nf_sagnb_gm
+17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
+18	samræmi	samræmi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	tag=no_et_þf_hk
+19	við	við	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
+20	lög	lag	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	18	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
+21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

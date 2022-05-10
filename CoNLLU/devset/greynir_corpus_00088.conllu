@@ -1,8 +1,8 @@
 # sent_id = GREYNIR_CORPUS_00088,.1
 # text = En hann treysti sér ekki til að sækja böll og aðra viðburði á vegum skólans.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	3	cc	_	tag=st
 2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
-3	treysti	treysta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_1_þgf_fh_p3_et_þt_gm
+3	treysti	treysta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 4	sér	sig	PRON	abfn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	3	obj	_	tag=abfn_et_þf_kk
 5	ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
 6	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
@@ -15,7 +15,7 @@
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	vegum	vegur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	tag=no_ft_þgf_kk
 15	skólans	skóli	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
-16	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00088,.2
 # text = Þar finnst einnig forn skógur og fjölskrúðugt dýralíf, m.a. tegundir sem eru í útrýmingarhættu.
@@ -38,20 +38,23 @@
 
 # sent_id = GREYNIR_CORPUS_00088,.3
 # text = Arnar Freyr Guðmundsson kom þeim 25 – 24 yfir þegar tæplega hálf mínúta var eftir.
-1	Arnar Freyr Guðmundsson	Arnar Freyr Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
-3	þeim	sá	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obj	_	tag=fn_et_þgf_kk
-4	25	25	NUM	tala	NumType=Card	2	obl	_	SpaceAfter=No|tag=tala
-5	–	_	PUNCT	grm	_	4	punct	_	tag=grm
-6	24	24	NUM	tala	NumType=Card	4	nummod	_	tag=tala
-7	yfir	yfir	ADV	ao	_	2	compound:prt	_	tag=ao
-8	þegar	þegar	SCONJ	st	_	12	mark	_	tag=st
-9	tæplega	tæplega	ADV	eo	_	11	advmod	_	tag=eo
-10	hálf	hálfur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	11	amod	_	tag=lo_et_nf_kvk_sb
-11	mínúta	mínúta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_nf_kvk
-12	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	tag=so_0_fh_p3_et_þt_gm
-13	eftir	eftir	ADV	ao	_	12	compound:prt	_	SpaceAfter=No|tag=ao
-14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Arnar Freyr Guðmundsson	_	_	_	_	_	_	_	_
+1	Arnar	Arnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
+2	Freyr	Freyr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+3	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+4	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
+5	þeim	sá	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obj	_	tag=fn_et_þgf_kk
+6	25	25	NUM	tala	NumType=Card	4	obl	_	SpaceAfter=No|tag=tala
+7	–	_	PUNCT	grm	_	6	punct	_	tag=grm
+8	24	24	NUM	tala	NumType=Card	6	nummod	_	tag=tala
+9	yfir	yfir	ADV	ao	_	4	compound:prt	_	tag=ao
+10	þegar	þegar	SCONJ	st	_	14	mark	_	tag=st
+11	tæplega	tæplega	ADV	eo	_	13	advmod	_	tag=eo
+12	hálf	hálfur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	tag=lo_et_nf_kvk_sb
+13	mínúta	mínúta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	tag=no_et_nf_kvk
+14	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	advcl	_	tag=so_0_fh_p3_et_þt_gm
+15	eftir	eftir	ADV	ao	_	14	compound:prt	_	SpaceAfter=No|tag=ao
+16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00088,.4
 # text = Viðreisn og Framsóknarflokkur njóta svipaðrar hylli, hvor flokkur um sig með um 8 prósent.
@@ -68,8 +71,10 @@
 11	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	6	obl	_	tag=abfn_þf
 12	með	með	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 13	um	um	ADV	eo	_	14	advmod	_	tag=eo
-14	8 prósent	8 prósent	X	prósenta	_	6	obl	_	SpaceAfter=No|tag=prósenta
-15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+14-15	8 prósent	_	_	_	_	_	_	_	_
+14	8	8	?	prósenta	_	6	obl	_	SpaceAfter=No|tag=prósenta
+15	prósent	prósent	?	prósenta	_	14	fixed	_	SpaceAfter=No|tag=prósenta
+16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00088,.5
 # text = Kúrdneskir hópar eru nú við stjórn á meiri hluta svæðisins þar sem Sýrland mætir Tyrklandi,
@@ -117,12 +122,17 @@
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	suðurhluta	suðurhluti	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
 7	Pakistans	Pakistan	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=sérnafn_et_ef_hk
-8	í gær	í gær	ADV	ao	_	2	advmod	_	tag=ao
-9	og	og	CCONJ	st	_	2	cc	_	tag=st
-10	myrti	myrða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-11	að minnsta kosti	að minnsta kosti	ADV	eo	_	10	obj	_	tag=eo
-12	sjötíu	sjötíu	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	nummod	_	SpaceAfter=No|tag=töl_ft_þf_kk
-13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+8-9	í gær	_	_	_	_	_	_	_	_
+8	í	í	ADV	ao	_	2	advmod	_	tag=ao
+9	gær	gær	ADV	ao	_	8	fixed	_	tag=ao
+10	og	og	CCONJ	st	_	2	cc	_	tag=st
+11	myrti	myrða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+12-14	að minnsta kosti	_	_	_	_	_	_	_	_
+12	að	að	ADV	eo	_	11	obj	_	tag=eo
+13	minnsta	minnsta	ADV	eo	_	12	fixed	_	tag=eo
+14	kosti	kosti	ADV	eo	_	13	fixed	_	tag=eo
+15	sjötíu	sjötíu	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	12	nummod	_	SpaceAfter=No|tag=töl_ft_þf_kk
+16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00088,.8
 # text = Moon samþykkti það og sagði að Norður-Kórea myndi ekkert græða á viðræðunum einum og sér.
@@ -162,6 +172,8 @@
 15	hráefniskostnað	hráefniskostnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|tag=no_et_þf_kk
 16	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00088,.10
+# text = Í skýrslutökum síðar kom fram að annar árásarmannanna hefði talið brotaþolann skulda sér pening fyrir bjór.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	skýrslutökum	skýrslutaka	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_þgf_kvk
 3	síðar	síðar	ADV	ao_mst	Degree=Cmp	4	advmod	_	tag=ao_mst
@@ -177,6 +189,6 @@
 13	sér	sig	PRON	abfn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	12	iobj	_	tag=abfn_et_þgf_kk
 14	pening	peningur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	tag=no_et_þf_kk
 15	fyrir	fyrir	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	bjór	bjór	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þgf_kk
+16	bjór	bjór	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 17	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

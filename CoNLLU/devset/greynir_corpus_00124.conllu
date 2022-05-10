@@ -8,18 +8,20 @@
 6	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	áhrif	áhrif	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk
 8	fyrirtækisins	fyrirtæki	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk_gr
-9	Cambridge Analytica	Cambridge Analytica	PROPN	fyrirtæki	_	8	obl	_	SpaceAfter=No|tag=fyrirtæki
-10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	eigu	eiga	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
-13	Mercers	Mercer	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	nmod:poss	_	SpaceAfter=No|tag=person_et_ef_kk
-14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-15	á	eiga	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-16	bresku	breskur	ADJ	lo_et_þf_kvk_vb	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	tag=lo_et_þf_kvk_vb
-17	atkvæðagreiðsluna	atkvæðagreiðsla	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk_gr
-18	í	í	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	17	advmod	_	SpaceAfter=No|tag=lo_et_þf_hk_mst
-20	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+9-10	Cambridge Analytica	_	_	_	_	_	_	_	_
+9	Cambridge	Cambridge	PROPN	fyrirtæki	_	8	obl	_	SpaceAfter=No|tag=fyrirtæki
+10	Analytica	Analytica	PROPN	fyrirtæki	_	9	fixed	_	SpaceAfter=No|tag=fyrirtæki
+11	,	_	PUNCT	grm	_	8	punct	_	tag=grm
+12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	eigu	eiga	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
+14	Mercers	Mercer	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	nmod:poss	_	SpaceAfter=No|tag=person_et_ef_kk
+15	,	_	PUNCT	grm	_	14	punct	_	tag=grm
+16	á	eiga	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
+17	bresku	breskur	ADJ	lo_et_þf_kvk_vb	Case=Acc|Gender=Fem|Number=Sing	18	amod	_	tag=lo_et_þf_kvk_vb
+18	atkvæðagreiðsluna	atkvæðagreiðsla	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk_gr
+19	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
+20	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	18	advmod	_	SpaceAfter=No|tag=lo_et_þf_hk_mst
+21	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00124,.2
 # text = Heimildamaður People segir þau vera saman og segir sambandið vera alvarlegra en áður, þau séu ekki að hitta aðra.
@@ -30,10 +32,10 @@
 5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_nf_nh_gm
 6	saman	saman	ADV	ao	_	5	advmod	_	tag=ao
 7	og	og	CCONJ	st	_	3	cc	_	tag=st
-8	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-9	sambandið	samband	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þf_hk_gr
-10	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	11	conj	_	tag=so_1_nf_nh_gm
-11	alvarlegra	alvarlegur	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	8	xcomp	_	tag=lo_et_nf_hk_mst
+8	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_þf_fh_p3_et_nt_gm
+9	sambandið	samband	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þf_hk_gr
+10	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	11	cop	_	tag=so_1_nf_nh_gm
+11	alvarlegra	alvarlegur	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	3	xcomp	_	tag=lo_et_nf_hk_mst
 12	en	en	CCONJ	st	_	11	advcl	_	tag=st
 13	áður	áður	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
@@ -109,11 +111,15 @@
 12	valt	velta	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_þt_gm
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	Mosfellsheiði	Mosfellsheiði	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=sérnafn_et_þgf_kvk
-15	upp úr	upp úr	ADV	ao	_	16	advmod	_	tag=ao
-16	klukkan fjögur	klukkan fjögur	ADV	tími	_	7	advmod	_	tag=tími
-17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kk
-19	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+15-16	upp úr	_	_	_	_	_	_	_	_
+15	upp	upp	ADV	ao	_	17	advmod	_	tag=ao
+16	úr	úr	ADV	ao	_	15	fixed	_	tag=ao
+17-18	klukkan fjögur	_	_	_	_	_	_	_	_
+17	klukkan	klukkan	ADV	tími	_	7	advmod	_	tag=tími
+18	fjögur	fjögur	?	tími	_	17	fixed	_	tag=tími
+19	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
+20	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þf_kk
+21	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00124,.6
 # text = Þetta kemur fram í frétt RÚV en Vilhjálmur Birgisson formaður VLFA staðfesti þetta í samtali við fréttastofu RÚV í morgun.
@@ -124,22 +130,25 @@
 5	frétt	frétt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 6	RÚV	RÚV	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=fyrirtæki_et_ef_hk
 7	en	en	CCONJ	st	_	2	cc	_	tag=st
-8	Vilhjálmur Birgisson	Vilhjálmur Birgisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-9	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_nf_kk
-10	VLFA	VLFA	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=no_et_ef_hk
-11	staðfesti	staðfesta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-12	þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	tag=fn_et_þf_hk
-13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
-15	við	við	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	fréttastofu	fréttastofa	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þf_kvk
-17	RÚV	RÚV	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	nmod:poss	_	tag=no_et_ef_hk
-18	í morgun	í morgun	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
-19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+8-9	Vilhjálmur Birgisson	_	_	_	_	_	_	_	_
+8	Vilhjálmur	Vilhjálmur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
+9	Birgisson	Birgisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	fixed	_	tag=person_nf_kk
+10	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_nf_kk
+11	VLFA	VLFA	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=no_et_ef_hk
+12	staðfesti	staðfesta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+13	þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	tag=fn_et_þf_hk
+14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+15	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk
+16	við	við	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
+17	fréttastofu	fréttastofa	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_þf_kvk
+18	RÚV	RÚV	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	17	nmod:poss	_	tag=no_et_ef_hk
+19-20	í morgun	_	_	_	_	_	_	_	_
+19	í	í	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
+20	morgun	morgun	ADV	ao	_	19	fixed	_	SpaceAfter=No|tag=ao
+21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00124,.7
 # text = 22 ára kona fannst látin í skóglendi í Virginíu eftir að hafa farið út að ganga með tvo hunda sína.
--2	None	_	None	None	_	_	None	_	_
 1	22	22	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	3	nummod	_	tag=tala_ft_ef_hk
 2	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	conj	_	tag=no_ft_ef_hk
 3	kona	kona	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
@@ -164,23 +173,30 @@
 
 # sent_id = GREYNIR_CORPUS_00124,.8
 # text = Mark Robins, sem á að hafa bjargað starfi Sir Alex Ferguson hjá Manchester United, skoraði tvívegis fyrir Kanarífuglana.
-1	Mark Robins	Mark Robins	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
-4	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-5	að	að	PART	nhm	_	7	mark	_	tag=nhm
-6	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	aux	_	tag=so_0_nh_gm
-7	bjargað	bjarga	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	4	xcomp	_	tag=so_1_þgf_sagnb_gm
-8	starfi	starf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obj	_	tag=no_et_þgf_hk
-9	Sir Alex Ferguson	Sir Alex Ferguson	PROPN	person	_	8	nmod:poss	_	tag=person
-10	hjá	hjá	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	Manchester United	Manchester United	PROPN	fyrirtæki	_	8	obl	_	SpaceAfter=No|tag=fyrirtæki
-12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-13	skoraði	skora	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-14	tvívegis	tvívegis	ADV	ao	_	13	advmod	_	tag=ao
-15	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	Kanarífuglana	kanarífugl	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
-17	.	_	PUNCT	grm	_	13	punct	_	tag=grm
+1-2	Mark Robins	_	_	_	_	_	_	_	_
+1	Mark	Mark	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
+2	Robins	Robins	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No|tag=person_et_nf_kk
+3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
+4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
+5	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+6	að	að	PART	nhm	_	8	mark	_	tag=nhm
+7	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	aux	_	tag=so_0_nh_gm
+8	bjargað	bjarga	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	5	xcomp	_	tag=so_1_þgf_sagnb_gm
+9	starfi	starf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þgf_hk
+10-12	Sir Alex Ferguson	_	_	_	_	_	_	_	_
+10	Sir	Sir	PROPN	person	_	9	nmod:poss	_	tag=person
+11	Alex	Alex	PROPN	person	_	10	fixed	_	tag=person
+12	Ferguson	Ferguson	PROPN	person	_	11	fixed	_	tag=person
+13	hjá	hjá	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14-15	Manchester United	_	_	_	_	_	_	_	_
+14	Manchester	Manchester	PROPN	fyrirtæki	_	9	obl	_	SpaceAfter=No|tag=fyrirtæki
+15	United	United	PROPN	fyrirtæki	_	14	fixed	_	SpaceAfter=No|tag=fyrirtæki
+16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
+17	skoraði	skora	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+18	tvívegis	tvívegis	ADV	ao	_	17	advmod	_	tag=ao
+19	fyrir	fyrir	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
+20	Kanarífuglana	kanarífugl	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
+21	.	_	PUNCT	grm	_	17	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00124,.9
 # text = Þegar íslensku bankarnir féllu og tóku allt hagkerfið með sér fór Ari Alexander af stað til að mynda atburðina.
@@ -195,15 +211,19 @@
 9	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	6	obl	_	tag=abfn_þgf
 11	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-12	Ari Alexander	Ari Alexander	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	stað	staður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þgf_kk
-15	til	til	ADP	fs_nh	VerbForm=Inf	17	case	_	tag=fs_nh
-16	að	að	PART	nhm	_	17	mark	_	tag=nhm
-17	mynda	mynda	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	obl	_	tag=so_1_þf_nh_gm
-18	atburðina	atburður	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
-19	.	_	PUNCT	grm	_	11	punct	_	tag=grm
+12-13	Ari Alexander	_	_	_	_	_	_	_	_
+12	Ari	Ari	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
+13	Alexander	Alexander	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	tag=person_nf_kk
+14	af	af	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+15	stað	staður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þgf_kk
+16	til	til	ADP	fs_nh	VerbForm=Inf	18	case	_	tag=fs_nh
+17	að	að	PART	nhm	_	18	mark	_	tag=nhm
+18	mynda	mynda	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	obl	_	tag=so_1_þf_nh_gm
+19	atburðina	atburður	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
+20	.	_	PUNCT	grm	_	11	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00124,.10
+# text = Ég tel að ég væri að misvirða hlutverk mitt og skyldur mínar gagnvart réttarríkinu ef ég gerði það ekki.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	tel	telja	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	að	að	SCONJ	st	_	7	mark	_	tag=st
@@ -222,6 +242,6 @@
 16	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_p1
 17	gerði	gera	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	7	advcl	_	tag=so_1_þf_fh_p1_et_þt_gm
 18	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	tag=pfn_et_þf_hk_p3
-19	ekki	ekki	ADV	ao	_	17	advmod	_	tag=ao
+19	ekki	ekki	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
 20	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

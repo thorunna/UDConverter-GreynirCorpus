@@ -32,18 +32,20 @@
 
 # sent_id = GREYNIR_CORPUS_00060,.3
 # text = Sjötíu prósent þeirra sem leita til Stígamóta voru beitt kynferðisofbeldi í æsku.
-1	Sjötíu prósent	Sjötíu prósent	X	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	8	dep	_	tag=prósenta_ft_nf_hk
-2	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_ft_ef_hk_p3
-3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
-4	leita	leita	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
-5	til	til	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
-6	Stígamóta	Stígamót	PROPN	sérnafn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	tag=sérnafn_ft_ef_hk
-7	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_ft_þt_gm
-8	beitt	beita	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-9	kynferðisofbeldi	kynferðisofbeldi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	iobj	_	tag=no_et_þgf_hk
-10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	æsku	æska	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-12	.	_	PUNCT	grm	_	8	punct	_	tag=grm
+1-2	Sjötíu prósent	_	_	_	_	_	_	_	_
+1	Sjötíu	Sjötíu	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	tag=prósenta_ft_nf_hk
+2	prósent	prósent	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	1	fixed	_	tag=prósenta_ft_nf_hk
+3	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_ft_ef_hk_p3
+4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
+5	leita	leita	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
+6	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
+7	Stígamóta	Stígamót	PROPN	sérnafn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	tag=sérnafn_ft_ef_hk
+8	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
+9	beitt	beita	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+10	kynferðisofbeldi	kynferðisofbeldi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	iobj	_	tag=no_et_þgf_hk
+11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	æsku	æska	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+13	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00060,.4
 # text = Þá eiga foreldrar það til að slaka á, segir Berglind.
@@ -61,7 +63,7 @@
 12	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00060,.5
-# text = Hvaða stjórnmálamenn og konur, innlendar sem erlendar, metur þú mest ?
+# text = Hvaða stjórnmálamenn og konur, innlendar sem erlendar, metur þú mest?
 1	Hvaða	hvaða	PRON	fn_ft_þf	Case=Acc|Number=Plur	2	nmod	_	tag=fn_ft_þf
 2	stjórnmálamenn	stjórnmálamaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	tag=no_ft_þf_kk
 3	og	og	CCONJ	st	_	4	cc	_	tag=st
@@ -83,13 +85,15 @@
 3	af	af	ADV	ao	_	2	compound:prt	_	tag=ao
 4	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	blárri	blár	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_þgf_kvk_sb
-6	Renault Clio	Renault Clio	PROPN	fyrirtæki	_	2	obl	_	tag=fyrirtæki
-7	bifreið	bifreið	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	tag=no_et_þgf_kvk
-8	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
-9	þriðji	þriðji	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_nf_kk_vb
-10	maðurinn	maður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	tag=no_et_nf_kk_gr
-11	ók	aka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
-12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+6-7	Renault Clio	_	_	_	_	_	_	_	_
+6	Renault	Renault	PROPN	fyrirtæki	_	2	obl	_	tag=fyrirtæki
+7	Clio	Clio	PROPN	fyrirtæki	_	6	fixed	_	tag=fyrirtæki
+8	bifreið	bifreið	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	tag=no_et_þgf_kvk
+9	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
+10	þriðji	þriðji	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_nf_kk_vb
+11	maðurinn	maður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	tag=no_et_nf_kk_gr
+12	ók	aka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
+13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00060,.7
 # text = Hægri fóturinn á mér fór ofan í sjóðandi heitt vatnið og festist.
@@ -111,14 +115,14 @@
 # text = Deutsche bank er ekki eini erlendi bankinn sem nafngreindur er í málinu.
 1	Deutsche	Deutsche	PROPN	fyrirtæki	_	7	nsubj	_	tag=fyrirtæki
 2	bank	bank	PROPN	fyrirtæki	_	1	flat:name	_	tag=fyrirtæki
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	ekki	ekki	ADV	ao	_	7	advmod	_	tag=ao
 5	eini	einn	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_vb
 6	erlendi	erlendur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_vb
 7	bankinn	banki	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk_gr
 8	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 9	nafngreindur	nafngreina	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	acl:relcl	_	tag=so_0_lhþt_et
-10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
+10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	málinu	mál	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 13	.	_	PUNCT	grm	_	7	punct	_	tag=grm
@@ -127,17 +131,21 @@
 # text = Tónleikarnir gengu hins vegar mjög vel og eru sennilega stærsti rappviðburður Íslands.
 1	Tónleikarnir	tónleikar	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_nf_kk_gr
 2	gengu	ganga	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
-3	hins vegar	hins vegar	ADV	ao	_	2	advmod	_	tag=ao
-4	mjög	mjög	ADV	ao	_	2	advmod	_	tag=ao
-5	vel	vel	ADV	ao	_	4	advmod	_	tag=ao
-6	og	og	CCONJ	st	_	2	cc	_	tag=st
-7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
-8	sennilega	sennilega	ADV	ao	_	10	advmod	_	tag=ao
-9	stærsti	stór	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_nf_kk_evb
-10	rappviðburður	rappviðburður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk
-11	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
-12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	hins vegar	_	_	_	_	_	_	_	_
+3	hins	hins	ADV	ao	_	2	advmod	_	tag=ao
+4	vegar	vegar	ADV	ao	_	3	fixed	_	tag=ao
+5	mjög	mjög	ADV	ao	_	2	advmod	_	tag=ao
+6	vel	vel	ADV	ao	_	5	advmod	_	tag=ao
+7	og	og	CCONJ	st	_	2	cc	_	tag=st
+8	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+9	sennilega	sennilega	ADV	ao	_	2	advmod	_	tag=ao
+10	stærsti	stór	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_evb
+11	rappviðburður	rappviðburður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	cop	_	tag=no_et_nf_kk
+12	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
+13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00060,.10
+# text = Þetta á ekki að skána þegar líður á daginn að sögn veðurfræðings.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=fn_et_nf_hk
 2	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
@@ -149,6 +157,6 @@
 9	daginn	dagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þf_kk_gr
 10	að	að	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	sögn	sögn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk
-12	veðurfræðings	veðurfræðingur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	11	nmod:poss	_	tag=no_et_ef_kk
+12	veðurfræðings	veðurfræðingur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	11	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

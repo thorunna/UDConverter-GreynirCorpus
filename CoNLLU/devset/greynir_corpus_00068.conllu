@@ -37,21 +37,23 @@
 1	Var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 2	tilkynningin	tilkynning	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
 3	dregin	draga	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	xcomp	_	tag=so_0_lhþt_et
-4	til baka	til baka	ADV	ao	_	3	advmod	_	tag=ao
-5	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	hraði	hrað	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
-7	með	með	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-8	nýrri	nýr	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_þgf_kvk_mst
-9	tilkynningu	tilkynning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
-10	þremur	þrír	NUM	to_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	nummod	_	tag=to_ft_þgf_kvk
-11	mínútum	mínúta	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þgf_kvk
-12	síðar	síðar	ADV	ao_mst	Degree=Cmp	3	advmod	_	SpaceAfter=No|tag=ao_mst
-13	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+4-5	til baka	_	_	_	_	_	_	_	_
+4	til	til	ADV	ao	_	3	advmod	_	tag=ao
+5	baka	baka	ADV	ao	_	4	fixed	_	tag=ao
+6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	hraði	hrað	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
+8	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+9	nýrri	nýr	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_þgf_kvk_mst
+10	tilkynningu	tilkynning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
+11	þremur	þrír	NUM	to_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	nummod	_	tag=to_ft_þgf_kvk
+12	mínútum	mínúta	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	tag=no_ft_þgf_kvk
+13	síðar	síðar	ADV	ao_mst	Degree=Cmp	3	advmod	_	SpaceAfter=No|tag=ao_mst
+14	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00068,.4
 # text = Það var mikill fiskur um allt og þetta á bara eftir að aukast.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_sb
 4	fiskur	fiskur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -67,10 +69,10 @@
 
 # sent_id = GREYNIR_CORPUS_00068,.5
 # text = Og fyrir vikið byrjaði ég snemma að fikta við að setja saman ljóð.
-1	Og	og	SCONJ	st	_	0	root	_	tag=st
+1	Og	og	SCONJ	st	_	4	cc	_	tag=st
 2	fyrir	fyrir	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
 3	vikið	vik	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þf_hk_gr
-4	byrjaði	byrja	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	1	conj	_	tag=so_0_fh_p1_et_þt_gm
+4	byrjaði	byrja	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p1_et_þt_gm
 5	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
 6	snemma	snemma	ADV	ao	_	4	advmod	_	tag=ao
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
@@ -80,7 +82,7 @@
 11	setja	setja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	obl	_	tag=so_1_þf_nh_gm
 12	saman	saman	ADV	ao	_	11	advmod	_	tag=ao
 13	ljóð	ljóð	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|tag=no_et_þf_kk
-14	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00068,.6
 # text = Þannig hafi tillaga hennar til alþingis verið frábrugðin tillögu hæfnisnefndar um fjóra einstaklinga.
@@ -90,7 +92,7 @@
 4	hennar	hún	PRON	pfn_et_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	tag=pfn_et_ef_kvk_p3
 5	til	til	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
 6	alþingis	alþingi	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_ef_hk
-7	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	conj	_	tag=so_0_sagnb_gm
+7	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	cop	_	tag=so_0_sagnb_gm
 8	frábrugðin	frábrugðinn	ADJ	lo_et_nf_kvk_sb_sþgf	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb_sþgf
 9	tillögu	tillaga	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
 10	hæfnisnefndar	hæfnisnefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kvk
@@ -129,7 +131,7 @@
 9	hennar	hún	PRON	pfn_et_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	tag=pfn_et_ef_kvk_p3
 10	við	við	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	sjónarspilið	sjónarspil	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk_gr
-12	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	conj	_	tag=so_0_fh_p3_et_þt_gm
+12	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_þt_gm
 13	nákvæmt	nákvæmur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -140,21 +142,22 @@
 3	fórnarlömbin	fórnarlamb	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_þf_hk_gr
 4	standa	standa	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
 5	á	á	ADV	ao	_	4	advmod	_	tag=ao
-6	er	vera	VERB	so_0_fh_p3_et_nt	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	conj	_	tag=so_0_fh_p3_et_nt
+6	er	vera	VERB	so_0_fh_p3_et_nt	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	cop	_	tag=so_0_fh_p3_et_nt
 7	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	tag=fn_et_nf_kk
 8	metri	metri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 9	á	á	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	hæð	hæð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þf_kvk
 11	og	og	CCONJ	st	_	8	cc	_	tag=st
-12	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_0_fh_p3_et_nt_gm
-13	steyptur	steypa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	conj	_	SpaceAfter=No|tag=so_0_lhþt_et
+12	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
+13	steyptur	steypa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	cop	_	SpaceAfter=No|tag=so_0_lhþt_et
 14	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
--2	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00068,.10
+# text = Ný skýrsla greiningardeildarinnar var kynnt á morgunfundi í höfuðstöðvum Arion banka í morgun.
 1	Ný	nýr	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_sb
 2	skýrsla	skýrsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 3	greiningardeildarinnar	greiningardeild	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	tag=no_et_ef_kvk_gr
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_þt_gm
+4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	kynnt	kynna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	morgunfundi	morgunfundur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
@@ -162,6 +165,8 @@
 9	höfuðstöðvum	höfuðstöðvar	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þgf_kvk
 10	Arion	Arion	PROPN	fyrirtæki	_	9	nmod:poss	_	tag=fyrirtæki
 11	banka	banki	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	conj	_	tag=no_et_ef_kk
-12	í morgun	í morgun	ADV	ao	_	5	advmod	_	tag=ao
-13	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+12-13	í morgun	_	_	_	_	_	_	_	_
+12	í	í	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
+13	morgun	morgun	ADV	ao	_	12	fixed	_	SpaceAfter=No|tag=ao
+14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

@@ -9,21 +9,26 @@
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	fundi	fundur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
 9	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	tag=fn_et_þgf_kk
-10	í gær	í gær	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
-11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+10-11	í gær	_	_	_	_	_	_	_	_
+10	í	í	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
+11	gær	gær	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
+12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00050,.2
 # text = Lággróður þolir aftur á móti lítið öskufall heldur kafnar og deyr.
 1	Lággróður	lággróður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
 2	þolir	þola	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-3	aftur á móti	aftur á móti	ADV	eo	_	5	advmod	_	tag=eo
-4	lítið	lítill	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þf_hk_sb
-5	öskufall	öskufall	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
-6	heldur	heldur	CCONJ	st	_	2	cc	_	tag=st
-7	kafnar	kafna	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
-8	og	og	CCONJ	st	_	2	cc	_	tag=st
-9	deyr	deyja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
-10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+3-5	aftur á móti	_	_	_	_	_	_	_	_
+3	aftur	aftur	ADV	eo	_	7	advmod	_	tag=eo
+4	á	á	ADV	eo	_	3	fixed	_	tag=eo
+5	móti	móti	ADV	eo	_	4	fixed	_	tag=eo
+6	lítið	lítill	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þf_hk_sb
+7	öskufall	öskufall	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
+8	heldur	heldur	CCONJ	st	_	2	cc	_	tag=st
+9	kafnar	kafna	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
+10	og	og	CCONJ	st	_	2	cc	_	tag=st
+11	deyr	deyja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
+12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00050,.3
 # text = Kroll fannst þá látinn í íbúð sinni ásamt áhöldum til fíkniefnaneyslu.
@@ -42,17 +47,19 @@
 
 # sent_id = GREYNIR_CORPUS_00050,.4
 # text = Samdráttur í prenti mun að óbreyttu leiða til samruna í prentgreininni.
-1	Samdráttur	samdráttur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk
+1	Samdráttur	samdráttur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk
 2	í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	prenti	prent	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk
-4	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
-5	að óbreyttu	að óbreyttu	ADV	ao	_	6	advmod	_	tag=ao
-6	leiða	leiða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
-7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
-8	samruna	samruni	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_ef_kk
-9	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	prentgreininni	prentgrein	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
-11	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+4	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
+5-6	að óbreyttu	_	_	_	_	_	_	_	_
+5	að	að	ADV	ao	_	7	advmod	_	tag=ao
+6	óbreyttu	óbreyttu	ADV	ao	_	5	fixed	_	tag=ao
+7	leiða	leiða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
+8	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
+9	samruna	samruni	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_ef_kk
+10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	prentgreininni	prentgrein	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
+12	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00050,.5
 # text = Flugi milli Reykjavíkur og Ísafjarðar hefur þó verið aflýst í dag.
@@ -63,7 +70,7 @@
 5	Ísafjarðar	Ísafjörður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_ef_kk
 6	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
 7	þó	þó	ADV	ao	_	9	advmod	_	tag=ao
-8	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	conj	_	tag=so_0_sagnb_gm
+8	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	cop	_	tag=so_0_sagnb_gm
 9	aflýst	aflýsa	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
 10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
@@ -75,12 +82,15 @@
 2	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk
 3	tjáði	tjá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	3	obj	_	tag=abfn_þf
-5	á liðnu ári	á liðnu ári	ADV	ao	_	3	advmod	_	tag=ao
-6	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-7	ýmis	ýmis	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	nmod	_	tag=fn_ft_þf_hk
-8	brýn	brýnn	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	9	amod	_	tag=lo_ft_þf_hk_sb
-9	samfélagsmál	samfélagsmál	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
-10	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+5-7	á liðnu ári	_	_	_	_	_	_	_	_
+5	á	á	ADV	ao	_	3	advmod	_	tag=ao
+6	liðnu	liðnu	ADV	ao	_	5	fixed	_	tag=ao
+7	ári	ári	ADV	ao	_	6	fixed	_	tag=ao
+8	um	um	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+9	ýmis	ýmis	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	tag=fn_ft_þf_hk
+10	brýn	brýnn	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	11	amod	_	tag=lo_ft_þf_hk_sb
+11	samfélagsmál	samfélagsmál	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
+12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00050,.7
 # text = Aðgerðaáætlun um eflingu stafrænnar þjónustu var samþykkt á ríkisstjórnarfundi í morgun.
@@ -89,12 +99,14 @@
 3	eflingu	efling	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þf_kvk
 4	stafrænnar	stafrænn	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_ef_kvk_sb
 5	þjónustu	þjónusta	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk
-6	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_þt_gm
+6	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
 7	samþykkt	samþykkja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	ríkisstjórnarfundi	ríkisstjórnarfundur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
-10	í morgun	í morgun	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-11	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+10-11	í morgun	_	_	_	_	_	_	_	_
+10	í	í	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
+11	morgun	morgun	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
+12	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00050,.8
 # text = Ég kvartaði yfir armbandinu til Clearsprings en ekkert var gert.
@@ -119,20 +131,26 @@
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	íþróttahúsi	íþróttahús	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 7	Þorlákshafnar	Þorlákshöfn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=no_et_ef_kvk
-8	klukkan 15:24	klukkan 15:24	ADV	tími	_	1	advmod	_	tag=tími
-9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þf_kk
-11	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+8-9	klukkan 15:24	_	_	_	_	_	_	_	_
+8	klukkan	klukkan	ADV	tími	_	1	advmod	_	tag=tími
+9	15:24	15:24	?	tími	_	8	fixed	_	tag=tími
+10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þf_kk
+12	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00050,.10
+# text = Erdogan krefst þess hins vegar að Bandaríkin framselji Gülen hið fyrsta.
 1	Erdogan	Erdogan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 2	krefst	krefja	VERB	so_1_ef_fh_p3_et_nt_mm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_ef_fh_p3_et_nt_mm
 3	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obj	_	tag=fn_et_ef_hk
-4	hins vegar	hins vegar	ADV	ao	_	3	advmod	_	tag=ao
-5	að	að	SCONJ	st	_	7	mark	_	tag=st
-6	Bandaríkin	Bandaríkin	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	tag=no_ft_nf_hk_gr
-7	framselji	framselja	VERB	so_2_þgf_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	tag=so_2_þgf_þf_vh_p3_ft_nt_gm
-8	Gülen	Gülen	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obj	_	tag=no_et_þgf_hk
-9	hið	hinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	tag=fn_et_þf_hk
-10	fyrsta	fyrstur	ADV	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	7	advmod	_	tag=lo_et_þf_hk_vb
-11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+4-5	hins vegar	_	_	_	_	_	_	_	_
+4	hins	hins	ADV	ao	_	3	advmod	_	tag=ao
+5	vegar	vegar	ADV	ao	_	4	fixed	_	tag=ao
+6	að	að	SCONJ	st	_	8	mark	_	tag=st
+7	Bandaríkin	Bandaríkin	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	tag=no_ft_nf_hk_gr
+8	framselji	framselja	VERB	so_2_þgf_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	tag=so_2_þgf_þf_vh_p3_ft_nt_gm
+9	Gülen	Gülen	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þgf_hk
+10	hið	hinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	tag=fn_et_þf_hk
+11	fyrsta	fyrstur	ADV	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	8	advmod	_	SpaceAfter=No|tag=lo_et_þf_hk_vb
+12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

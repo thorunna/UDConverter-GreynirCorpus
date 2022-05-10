@@ -1,12 +1,15 @@
 # sent_id = GREYNIR_CORPUS_00010,.1
 # text = Katrín Halldóra Sigurðardóttir vinnur leiksigur.
-1	Katrín Halldóra Sigurðardóttir	Katrín Halldóra Sigurðardóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=person_et_nf_kvk
-2	vinnur	vinna	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-3	leiksigur	leiksigur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|tag=no_et_þf_kk
-4	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Katrín Halldóra Sigurðardóttir	_	_	_	_	_	_	_	_
+1	Katrín	Katrín	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=person_et_nf_kvk
+2	Halldóra	Halldóra	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	fixed	_	tag=person_et_nf_kvk
+3	Sigurðardóttir	Sigurðardóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	fixed	_	tag=person_et_nf_kvk
+4	vinnur	vinna	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+5	leiksigur	leiksigur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|tag=no_et_þf_kk
+6	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00010,.2
-# text = Typpavasabuxurnar það flottasta í sumar ?
+# text = Typpavasabuxurnar það flottasta í sumar?
 1	Typpavasabuxurnar	Typpavasabuxur	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk_gr
 2	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	xcomp	_	tag=fn_et_nf_hk
 3	flottasta	flottur	ADJ	lo_et_nf_hk_est	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	2	amod	_	tag=lo_et_nf_hk_est
@@ -24,39 +27,41 @@
 6	þjóðhetju	þjóðhetja	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	advcl	_	tag=no_et_þf_kvk
 
 # sent_id = GREYNIR_CORPUS_00010,.4
-# text = Michael Jordan bestur allra tíma ?
-1	Michael Jordan	Michael Jordan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=person_et_nf_kk
-2	bestur	góður	ADJ	lo_et_nf_kk_esb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	1	xcomp	_	tag=lo_et_nf_kk_esb
-3	allra	allur	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	tag=fn_ft_ef_kk
-4	tíma	tími	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	2	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
-5	?	_	PUNCT	grm	_	1	punct	_	tag=grm
+# text = Michael Jordan bestur allra tíma?
+1-2	Michael Jordan	_	_	_	_	_	_	_	_
+1	Michael	Michael	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=person_et_nf_kk
+2	Jordan	Jordan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	fixed	_	tag=person_et_nf_kk
+3	bestur	góður	ADJ	lo_et_nf_kk_esb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	1	xcomp	_	tag=lo_et_nf_kk_esb
+4	allra	allur	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	tag=fn_ft_ef_kk
+5	tíma	tími	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
+6	?	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00010,.5
-# text = En hvað gerir ríkisstjórnin þá ?
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+# text = En hvað gerir ríkisstjórnin þá?
+1	En	en	SCONJ	st	_	3	cc	_	tag=st
 2	hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	tag=fn_et_þf_hk
-3	gerir	gera	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+3	gerir	gera	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 4	ríkisstjórnin	ríkisstjórn	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
 5	þá	þá	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
-6	?	_	PUNCT	grm	_	1	punct	_	tag=grm
+6	?	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00010,.6
 # text = Jöklarnir eru perlur Íslands.
--4	None	_	None	None	_	_	None	_	_
 1	Jöklarnir	jökull	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	tag=no_ft_nf_kk_gr
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	perlur	perla	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk
 4	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
 5	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00010,.7
 # text = Þjálfari liðsins er Israel Martin.
--3	None	_	None	None	_	_	None	_	_
 1	Þjálfari	þjálfari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
 2	liðsins	lið	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk_gr
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-4	Israel Martin	Israel Martin	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
-5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+4-5	Israel Martin	_	_	_	_	_	_	_	_
+4	Israel	Israel	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
+5	Martin	Martin	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	fixed	_	SpaceAfter=No|tag=person_et_nf_kk
+6	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00010,.8
 # text = Útgerðin telur málatilbúnað Fiskistofu ekki standast
@@ -69,16 +74,20 @@
 
 # sent_id = GREYNIR_CORPUS_00010,.9
 # text = Manchester United er núverandi bikarmeistari.
-1	Manchester United	Manchester United	PROPN	entity_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=entity_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-3	núverandi	núverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_sb
-4	bikarmeistari	bikarmeistari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
-5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+1-2	Manchester United	_	_	_	_	_	_	_	_
+1	Manchester	Manchester	PROPN	entity_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=entity_et_nf_hk
+2	United	United	PROPN	entity_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	fixed	_	tag=entity_et_nf_hk
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	núverandi	núverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_sb
+5	bikarmeistari	bikarmeistari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
+6	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00010,.10
+# text = Þetta vitum við um árásina :
 1	Þetta	þetta	PRON	pfn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	2	obj	_	tag=pfn_et_þf_hk
 2	vitum	vita	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_ft_nt_gm
 3	við	ég	PRON	pfn_ft_nf_hk_p1	Case=Nom|Gender=Neut|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_hk_p1
 4	um	um	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	árásina	árás	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk_gr
+5	árásina	árás	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 6	:	_	PUNCT	grm	_	2	punct	_	tag=grm
 

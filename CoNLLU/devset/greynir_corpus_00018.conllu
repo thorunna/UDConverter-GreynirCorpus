@@ -10,13 +10,14 @@
 
 # sent_id = GREYNIR_CORPUS_00018,.2
 # text = Gunnar Sigurðsson á Akranesi er varaformaður.
--2	None	_	None	None	_	_	None	_	_
-1	Gunnar Sigurðsson	Gunnar Sigurðsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_et_nf_kk
-2	á	á	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
-3	Akranesi	Akranes	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=sérnafn_et_þgf_hk
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-5	varaformaður	varaformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
-6	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+1-2	Gunnar Sigurðsson	_	_	_	_	_	_	_	_
+1	Gunnar	Gunnar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=person_et_nf_kk
+2	Sigurðsson	Sigurðsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	fixed	_	tag=person_et_nf_kk
+3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
+4	Akranesi	Akranes	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=sérnafn_et_þgf_hk
+5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+6	varaformaður	varaformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
+7	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00018,.3
 # text = Segir langstærsta sönnunargagn Bitcoin-málsins ómarktækt
@@ -84,11 +85,13 @@
 5	aftur	aftur	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
 6	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00018,.10
+# text = Þessi áform eru nú í uppnámi.
 1	Þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	nmod	_	tag=fn_ft_nf_hk
 2	áform	áform	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk
 3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 4	nú	nú	ADV	ao	_	3	advmod	_	tag=ao
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	uppnámi	uppnám	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
+6	uppnámi	uppnám	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 7	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

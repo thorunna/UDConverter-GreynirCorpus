@@ -31,7 +31,7 @@
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00061,.3
-# text = Hef ég yfirhöfuð trú á því að eitthvað batni eftir næstu kosningar ?
+# text = Hef ég yfirhöfuð trú á því að eitthvað batni eftir næstu kosningar?
 1	Hef	hafa	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 2	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	tag=pfn_et_nf_p1
 3	yfirhöfuð	yfirhöfuð	ADV	ao	_	1	advmod	_	tag=ao
@@ -48,15 +48,21 @@
 
 # sent_id = GREYNIR_CORPUS_00061,.4
 # text = Sigurður Ingi Jóhannsson, samgöngu- og sveitarstjórnarráðherra, segir tímasetningar ekki ákveðnar.
-1	Sigurður Ingi Jóhannsson	Sigurður Ingi Jóhannsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	samgöngu- og sveitarstjórnarráðherra	sveitarstjórnar-ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
+1-3	Sigurður Ingi Jóhannsson	_	_	_	_	_	_	_	_
+1	Sigurður	Sigurður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+3	Jóhannsson	Jóhannsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	SpaceAfter=No|tag=person_nf_kk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-5	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-6	tímasetningar	tímasetning	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	nsubj	_	tag=no_ft_þf_kvk
-7	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
-8	ákveðnar	ákveða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	5	xcomp	_	SpaceAfter=No|tag=so_0_lhþt_ft
-9	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+5-7	samgöngu- og sveitarstjórnarráðherra	_	_	_	_	_	_	_	_
+5	samgöngu-	sveitarstjórnar-ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
+6	og	sveitarstjórnar-ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	fixed	_	SpaceAfter=No|tag=no_et_nf_kk
+7	sveitarstjórnarráðherra	sveitarstjórnar-ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	fixed	_	SpaceAfter=No|tag=no_et_nf_kk
+8	,	_	PUNCT	grm	_	5	punct	_	tag=grm
+9	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+10	tímasetningar	tímasetning	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	nsubj	_	tag=no_ft_þf_kvk
+11	ekki	ekki	ADV	ao	_	12	advmod	_	tag=ao
+12	ákveðnar	ákveða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	9	xcomp	_	SpaceAfter=No|tag=so_0_lhþt_ft
+13	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00061,.5
 # text = Hún kærði hann og hann var í kjölfarið ákærður fyrir brot sín.
@@ -64,14 +70,16 @@
 2	kærði	kæra	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	tag=pfn_et_þf_kk_p3
 4	og	og	CCONJ	st	_	2	cc	_	tag=st
-5	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kk_p3
-6	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_þt_gm
-7	í kjölfarið	í kjölfarið	ADV	ao	_	8	advmod	_	tag=ao
-8	ákærður	ákæra	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
-9	fyrir	fyrir	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	brot	brot	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_þf_hk
-11	sín	sinn	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No|tag=fn_ft_þf_hk
-12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+5	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_kk_p3
+6	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_þt_gm
+7-8	í kjölfarið	_	_	_	_	_	_	_	_
+7	í	í	ADV	ao	_	9	advmod	_	tag=ao
+8	kjölfarið	kjölfarið	ADV	ao	_	7	fixed	_	tag=ao
+9	ákærður	ákæra	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
+10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	brot	brot	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_þf_hk
+12	sín	sinn	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No|tag=fn_ft_þf_hk
+13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00061,.6
 # text = Hinn 16 ára gamli Haukur Þrastarson hefur slegið í gegn í vetur.
@@ -79,13 +87,17 @@
 2	16	16	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	3	nummod	_	tag=tala_ft_ef_hk
 3	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_ef_hk
 4	gamli	gamall	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_vb
-5	Haukur Þrastarson	Haukur Þrastarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
-6	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
-7	slegið	slá	VERB	so_0_gm	Voice=Act	0	root	_	tag=so_0_gm
-8	í gegn	í gegn	ADV	ao	_	7	advmod	_	tag=ao
-9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	vetur	vetur	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	advmod	_	SpaceAfter=No|tag=no_ft_þf_kk
-11	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+5-6	Haukur Þrastarson	_	_	_	_	_	_	_	_
+5	Haukur	Haukur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
+6	Þrastarson	Þrastarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	fixed	_	tag=person_nf_kk
+7	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
+8	slegið	slá	VERB	so_0_gm	Voice=Act	0	root	_	tag=so_0_gm
+9-10	í gegn	_	_	_	_	_	_	_	_
+9	í	í	ADV	ao	_	8	advmod	_	tag=ao
+10	gegn	gegn	ADV	ao	_	9	fixed	_	tag=ao
+11	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	vetur	vetur	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	8	advmod	_	SpaceAfter=No|tag=no_ft_þf_kk
+13	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00061,.7
 # text = Í samningnum verða forsenduákvæði um uppsögn hans verði vaxtalækkanir ekki að raunveruleika.
@@ -125,15 +137,19 @@
 2	áfengið	áfengi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk_gr
 3	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_vh_p3_et_þt_gm
 4	verið	vera	AUX	so_0_gm	Voice=Act	5	aux	_	tag=so_0_gm
-5	fundið	finna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	advcl	_	tag=so_0_lhþt_et
+5	fundið	finna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	advcl	_	tag=so_0_lhþt_et
 6	upp	upp	ADV	ao	_	5	compound:prt	_	tag=ao
-7	í gær	í gær	ADV	ao	_	5	advmod	_	tag=ao
-8	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	11	aux	_	tag=so_0_vh_p3_et_þt_gm
-9	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_hk_p3
-10	örugglega	örugglega	ADV	ao	_	11	advmod	_	tag=ao
-11	bannað	banna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_0_lhþt_et
-12	.	_	PUNCT	grm	_	11	punct	_	tag=grm
+7-8	í gær	_	_	_	_	_	_	_	_
+7	í	í	ADV	ao	_	5	advmod	_	tag=ao
+8	gær	gær	ADV	ao	_	7	fixed	_	tag=ao
+9	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_þt_gm
+10	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_hk_p3
+11	örugglega	örugglega	ADV	ao	_	12	advmod	_	tag=ao
+12	bannað	banna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_0_lhþt_et
+13	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00061,.10
+# text = Það er komið nóg af því að Sikiley séu flóttamannabúðir Evrópu.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	tag=pfn_et_nf_hk_p3
 2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	komið	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
@@ -144,6 +160,6 @@
 8	Sikiley	Sikiley	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	xcomp	_	tag=sérnafn_et_nf_kvk
 9	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	ccomp	_	tag=so_1_nf_vh_p3_ft_nt_gm
 10	flóttamannabúðir	flóttamannabúð	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	tag=no_ft_nf_kvk
-11	Evrópu	Evrópa	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	nmod:poss	_	tag=sérnafn_et_ef_kvk
+11	Evrópu	Evrópa	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kvk
 12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

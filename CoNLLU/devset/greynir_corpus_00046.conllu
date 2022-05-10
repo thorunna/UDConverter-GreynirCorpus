@@ -15,15 +15,17 @@
 # sent_id = GREYNIR_CORPUS_00046,.2
 # text = Samkvæmt því verður Mette Frederiksen næsti og yngsti forsætisráðherra Danmerkur.
 1	Samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	tag=pfn_et_þgf_hk_p3
-3	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-4	Mette Frederiksen	Mette Frederiksen	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	tag=person_et_nf_kvk
-5	næsti	næstur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	8	('HALLÓ_ADJP', None, 'NP', 'PRD')	_	tag=lo_et_nf_kk_evb
-6	og	og	CCONJ	st	_	7	cc	_	tag=st
-7	yngsti	ungur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	5	conj	_	tag=lo_et_nf_kk_evb
-8	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
-9	Danmerkur	Danmörk	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kvk
-10	.	_	PUNCT	grm	_	8	punct	_	tag=grm
+2	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obl	_	tag=pfn_et_þgf_hk_p3
+3	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+4-5	Mette Frederiksen	_	_	_	_	_	_	_	_
+4	Mette	Mette	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	tag=person_et_nf_kvk
+5	Frederiksen	Frederiksen	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	fixed	_	tag=person_et_nf_kvk
+6	næsti	næstur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_nf_kk_evb
+7	og	og	CCONJ	st	_	8	cc	_	tag=st
+8	yngsti	ungur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	6	conj	_	tag=lo_et_nf_kk_evb
+9	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
+10	Danmerkur	Danmörk	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kvk
+11	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00046,.3
 # text = Mikið er um þetta talað og fjölmargar getgátur á lofti.
@@ -73,25 +75,29 @@
 2	eins	eins	ADV	ao	_	1	advmod	_	tag=ao
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	KEF	Keflavíkurflugvöllur	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk_gr
+5	KEF	Keflavíkurflugvöllur	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	8	cc	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk_gr
 6	;	;	PUNCT	grm	_	5	punct	_	tag=grm
 7	ríkið	ríki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk_gr
-8	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+8	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 9	skipulagsvald	skipulagsvald	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þf_hk
 10	þar	þar	ADV	ao	_	8	advmod	_	SpaceAfter=No|tag=ao
-11	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+11	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00046,.7
-# text = Seinni bylgjan : Viktor Gísli eða Daníel Freyr í landsliðið ?
+# text = Seinni bylgjan : Viktor Gísli eða Daníel Freyr í landsliðið?
 1	Seinni	seinn	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_mst
 2	bylgjan	bylgja	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	VANTAR_LIÐ_IP_None	_	SpaceAfter=No|tag=no_et_nf_kvk_gr
 3	:	_	PUNCT	grm	_	4	punct	_	tag=grm
-4	Viktor Gísli	Viktor Gísli	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=person_et_nf_kk
-5	eða	eða	CCONJ	st	_	6	cc	_	tag=st
-6	Daníel Freyr	Daníel Freyr	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	tag=person_et_nf_kk
-7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	landsliðið	landslið	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
-9	?	_	PUNCT	grm	_	1	punct	_	tag=grm
+4-5	Viktor Gísli	_	_	_	_	_	_	_	_
+4	Viktor	Viktor	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=person_et_nf_kk
+5	Gísli	Gísli	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	fixed	_	tag=person_et_nf_kk
+6	eða	eða	CCONJ	st	_	4	cc	_	tag=st
+7-8	Daníel Freyr	_	_	_	_	_	_	_	_
+7	Daníel	Daníel	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	tag=person_et_nf_kk
+8	Freyr	Freyr	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	fixed	_	tag=person_et_nf_kk
+9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+10	landsliðið	landslið	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
+11	?	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00046,.8
 # text = Rúnar bætti fyrra Íslandsmet Geirs Ómarssonar um rúmar 5 mínútur.
@@ -99,12 +105,14 @@
 2	bætti	bæta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	fyrra	fyrri	ADJ	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_þf_hk_mst
 4	Íslandsmet	Íslandsmet	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
-5	Geirs Ómarssonar	Geir Ómarsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	4	nmod:poss	_	tag=person_ef_kk
-6	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-7	rúmar	rúmur	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	9	amod	_	tag=lo_ft_þf_kvk_sb
-8	5	5	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	9	nummod	_	tag=tala_ft_þf_kvk
-9	mínútur	mínúta	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
-10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+5-6	Geirs Ómarssonar	_	_	_	_	_	_	_	_
+5	Geirs	Geir	PROPN	person_ef_kk	Case=Gen|Gender=Masc	4	nmod:poss	_	tag=person_ef_kk
+6	Ómarssonar	Ómarsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	5	fixed	_	tag=person_ef_kk
+7	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+8	rúmar	rúmur	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	10	amod	_	tag=lo_ft_þf_kvk_sb
+9	5	5	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	10	nummod	_	tag=tala_ft_þf_kvk
+10	mínútur	mínúta	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
+11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00046,.9
 # text = Lagt til að Norðurlöndin samræmi enn frekar stefnu sína í loftslagsmálum
@@ -120,6 +128,8 @@
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	loftslagsmálum	loftslagsmál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_þgf_hk
 
+# sent_id = GREYNIR_CORPUS_00046,.10
+# text = Þessi bíll á að fara á markað fyrir lok áratugarins.
 1	Þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_nf_kk
 2	bíll	bíll	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 3	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -129,6 +139,6 @@
 7	markað	markaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þf_kk
 8	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	lok	lok	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk
-10	áratugarins	áratugur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kk_gr
+10	áratugarins	áratugur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

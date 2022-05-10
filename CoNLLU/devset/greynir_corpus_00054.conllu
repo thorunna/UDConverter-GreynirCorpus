@@ -13,16 +13,20 @@
 
 # sent_id = GREYNIR_CORPUS_00054,.2
 # text = Karl Sigurðsson, var á Morgunvaktinni á Rás eitt í morgun.
-1	Karl Sigurðsson	Karl Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	Morgunvaktinni	morgunvakt	PROPN	sérnafn_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_kvk_gr
-6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	Rás	rás	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=fyrirtæki_et_þgf_kvk
-8	eitt	einn	NUM	töl_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	nummod	_	tag=töl_et_þf_hk
-9	í morgun	í morgun	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
-10	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1-2	Karl Sigurðsson	_	_	_	_	_	_	_	_
+1	Karl	Karl	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
+4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
+6	Morgunvaktinni	morgunvakt	PROPN	sérnafn_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_kvk_gr
+7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	Rás	rás	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=fyrirtæki_et_þgf_kvk
+9	eitt	einn	NUM	töl_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	nummod	_	tag=töl_et_þf_hk
+10-11	í morgun	_	_	_	_	_	_	_	_
+10	í	í	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
+11	morgun	morgun	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
+12	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00054,.3
 # text = Þessu næst kom Þingeyjarsveit með 99 nemendur sem nýttu sér skólaakstur.
@@ -65,8 +69,10 @@
 7	fréttastofan	fréttastofa	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk_gr
 8	Sky	Sky	PROPN	fyrirtæki	_	7	conj	_	tag=fyrirtæki
 9	birti	birta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-10	í morgun	í morgun	ADV	ao	_	9	advmod	_	SpaceAfter=No|tag=ao
-11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+10-11	í morgun	_	_	_	_	_	_	_	_
+10	í	í	ADV	ao	_	9	advmod	_	SpaceAfter=No|tag=ao
+11	morgun	morgun	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
+12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00054,.6
 # text = Sú vinna er í gangi í atvinnuvegaráðuneytinu í samstarfi við hagsmunaaðila.
@@ -122,9 +128,13 @@
 5	lenti	lenda	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	Reykjavíkurflugvelli	Reykjavíkurflugvöllur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_kk
-8	kl. 14.13	kl. 14.13	ADV	tímapunktur	_	5	advmod	_	SpaceAfter=No|tag=tímapunktur
-9	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+8-9	kl. 14.13	_	_	_	_	_	_	_	_
+8	kl.	kl.	ADV	tímapunktur	_	5	advmod	_	SpaceAfter=No|tag=tímapunktur
+9	14.13	14.13	?	tímapunktur	_	8	fixed	_	SpaceAfter=No|tag=tímapunktur
+10	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00054,.10
+# text = Rannsóknin byggir að gögnum Hagstofunnar um ráðahag rúmlega 96 þúsund manns.
 1	Rannsóknin	rannsókn	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
 2	byggir	byggja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	að	að	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
@@ -132,8 +142,10 @@
 5	Hagstofunnar	hagstofa	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
 6	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	ráðahag	ráðahagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
-8	rúmlega	rúmlegur	ADV	eo	_	10	advmod	_	tag=eo
-9	96 þúsund	96 þúsund	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	10	nummod	_	tag=tala_ft_ef_kk
-10	manns	maður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=no_et_ef_kk
-11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+8	rúmlega	rúmlegur	ADV	eo	_	11	advmod	_	tag=eo
+9-10	96 þúsund	_	_	_	_	_	_	_	_
+9	96	96	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	11	nummod	_	tag=tala_ft_ef_kk
+10	þúsund	þúsund	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	9	fixed	_	tag=tala_ft_ef_kk
+11	manns	maður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
+12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

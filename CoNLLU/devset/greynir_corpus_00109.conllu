@@ -13,11 +13,13 @@
 11	Viðreisn	Viðreisn	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|tag=sérnafn_et_nf_kvk
 12	)	_	PUNCT	grm	_	11	punct	_	tag=grm
 13	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
-14	hins vegar	hins vegar	ADV	ao	_	13	advmod	_	tag=ao
-15	með	með	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-16	35	35	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	17	nummod	_	tag=tala_ft_þf_kk
-17	þingmenn	þingmaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
-18	.	_	PUNCT	grm	_	13	punct	_	tag=grm
+14-15	hins vegar	_	_	_	_	_	_	_	_
+14	hins	hins	ADV	ao	_	13	advmod	_	tag=ao
+15	vegar	vegar	ADV	ao	_	14	fixed	_	tag=ao
+16	með	með	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
+17	35	35	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	18	nummod	_	tag=tala_ft_þf_kk
+18	þingmenn	þingmaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
+19	.	_	PUNCT	grm	_	13	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00109,.2
 # text = Þetta væri ekki í frásögu færandi ef Hof hefði ekki látist í síðasta mánuði 72 ára að aldri.
@@ -43,7 +45,6 @@
 
 # sent_id = GREYNIR_CORPUS_00109,.3
 # text = Okkur finnst gaman að dressa okkur upp í bæverska stemmningu, sagði Ásgeir Stefánsson, einn veislugesta.
--4	None	_	None	None	_	_	None	_	_
 1	Okkur	ég	PRON	pfn_ft_þgf_p1	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_þgf_p1
 2	finnst	finna	VERB	so_0_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	3	conj	_	tag=so_0_op_subj_þgf_fh_p3_et_nt_mm
 3	gaman	gaman	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	ccomp	_	tag=no_et_nf_hk
@@ -56,11 +57,13 @@
 10	stemmningu	stemmning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-13	Ásgeir Stefánsson	Ásgeir Stefánsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-15	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	obl	_	tag=fn_et_nf_kk
-16	veislugesta	veislugestur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	15	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
-17	.	_	PUNCT	grm	_	12	punct	_	tag=grm
+13-14	Ásgeir Stefánsson	_	_	_	_	_	_	_	_
+13	Ásgeir	Ásgeir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+14	Stefánsson	Stefánsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	fixed	_	SpaceAfter=No|tag=person_nf_kk
+15	,	_	PUNCT	grm	_	13	punct	_	tag=grm
+16	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	obl	_	tag=fn_et_nf_kk
+17	veislugesta	veislugestur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	16	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
+18	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00109,.4
 # text = Fjölskyldan er eins og hvert annað lið og þessi hegðun væri hvergi talin vís til árangurs.
@@ -99,8 +102,10 @@
 13	ljósmyndadeildar	ljósmyndadeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	12	nmod:poss	_	tag=no_et_ef_kvk
 14	365	365	PROPN	fyrirtæki_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	13	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ft_ef_kk
 15	,	_	PUNCT	grm	_	14	punct	_	tag=grm
-16	Pjeturs Sigurðssonar	Pjetur Sigurðsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-17	.	_	PUNCT	grm	_	8	punct	_	tag=grm
+16-17	Pjeturs Sigurðssonar	_	_	_	_	_	_	_	_
+16	Pjeturs	Pjetur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
+17	Sigurðssonar	Sigurðsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	16	fixed	_	SpaceAfter=No|tag=person_ef_kk
+18	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00109,.6
 # text = Guðni geymdi þó formannsbindið uppi á hóteli á æfingunni í gær og var klár í slaginn í æfingagallanum.
@@ -113,15 +118,17 @@
 7	hóteli	hótel	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	æfingunni	æfing	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk_gr
-10	í gær	í gær	ADV	ao	_	9	advmod	_	tag=ao
-11	og	og	CCONJ	st	_	2	cc	_	tag=st
-12	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
-13	klár	klár	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	tag=lo_et_nf_kk_fst_sb
-14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	slaginn	slagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þf_kk_gr
-16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	æfingagallanum	æfingagalli	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
-18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+10-11	í gær	_	_	_	_	_	_	_	_
+10	í	í	ADV	ao	_	9	advmod	_	tag=ao
+11	gær	gær	ADV	ao	_	10	fixed	_	tag=ao
+12	og	og	CCONJ	st	_	2	cc	_	tag=st
+13	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+14	klár	klár	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	cop	_	tag=lo_et_nf_kk_fst_sb
+15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+16	slaginn	slagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk_gr
+17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+18	æfingagallanum	æfingagalli	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
+19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00109,.7
 # text = Skil á skattframtölum hljómsveitarmeðlima fyrir árin 2010 – 2014 hafa verið til skoðunar hjá yfirvöldum í nokkur ár.
@@ -147,10 +154,10 @@
 
 # sent_id = GREYNIR_CORPUS_00109,.8
 # text = Suðvesturland : Það er hálka m.a. í Þrengslum og Suðurstrandarvegi en hálkublettir á Hellisheiði og flestum öðrum leiðum.
-1	Suðvesturland	Suðvesturland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=sérnafn_et_nf_hk
+1	Suðvesturland	Suðvesturland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=sérnafn_et_nf_hk
 2	:	:	PUNCT	grm	_	1	punct	_	tag=grm
 3	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	hálka	hálka	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 6	m.a.	m.a.	ADV	abbrev	_	4	advmod	_	tag=abbrev
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -165,7 +172,7 @@
 16	flestum	margur	ADJ	lo_ft_þgf_kvk_est_sb	Case=Dat|Degree=Sup|Gender=Fem|Number=Plur	18	amod	_	tag=lo_ft_þgf_kvk_est_sb
 17	öðrum	annar	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	18	nmod	_	tag=fn_ft_þgf_kvk
 18	leiðum	leiðum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-19	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+19	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00109,.9
 # text = Nýliðar Skagamanna hafa verið í miklu stuði á undirbúningstímabilinu og þeir verða mikið í beinni í fyrstu umferðunum.
@@ -189,6 +196,8 @@
 18	umferðunum	umferð	ADV	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	12	advmod	_	SpaceAfter=No|tag=no_ft_þgf_kvk_gr
 19	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00109,.10
+# text = Eftir 15 mínútna leik skölluðu Jóhann og Jonas Knudsen varnarmaður Ipswich, saman og þurftu báðir aðhlynningu.
 1	Eftir	eftir	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 2	15	15	NUM	tala_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur|NumType=Card	3	nummod	_	tag=tala_ft_ef_kvk
 3	mínútna	mínúta	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	4	nmod:poss	_	tag=no_ft_ef_kvk
@@ -196,14 +205,16 @@
 5	skölluðu	skalla	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
 6	Jóhann	Jóhann	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
-8	Jonas Knudsen	Jonas Knudsen	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	tag=person_et_nf_kk
-9	varnarmaður	varnarmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_nf_kk
-10	Ipswich	Ipswich	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=fyrirtæki_et_ef_hk
-11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
-12	saman	saman	ADV	ao	_	5	advmod	_	tag=ao
-13	og	og	CCONJ	st	_	5	cc	_	tag=st
-14	þurftu	þurfa	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_ft_þt_gm
-15	báðir	báðir	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	tag=fn_ft_nf_kk
-16	aðhlynningu	aðhlynning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	tag=no_et_þf_kvk
-17	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+8-9	Jonas Knudsen	_	_	_	_	_	_	_	_
+8	Jonas	Jonas	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	tag=person_et_nf_kk
+9	Knudsen	Knudsen	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	fixed	_	tag=person_et_nf_kk
+10	varnarmaður	varnarmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_nf_kk
+11	Ipswich	Ipswich	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
+12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
+13	saman	saman	ADV	ao	_	5	advmod	_	tag=ao
+14	og	og	CCONJ	st	_	5	cc	_	tag=st
+15	þurftu	þurfa	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_ft_þt_gm
+16	báðir	báðir	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	tag=fn_ft_nf_kk
+17	aðhlynningu	aðhlynning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
+18	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

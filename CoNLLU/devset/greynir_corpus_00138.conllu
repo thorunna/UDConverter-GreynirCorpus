@@ -16,7 +16,7 @@
 14	mun	munu	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 15	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	tag=fn_et_nf_hk
 16	ekki	ekki	ADV	ao	_	18	advmod	_	tag=ao
-17	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	18	conj	_	tag=so_1_nf_nh_gm
+17	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	18	cop	_	tag=so_1_nf_nh_gm
 18	óeðlilegt	óeðlilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	14	xcomp	_	tag=lo_et_nf_hk_sb
 19	um	um	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 20	þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	21	nmod	_	tag=fn_et_þf_hk
@@ -26,28 +26,30 @@
 
 # sent_id = GREYNIR_CORPUS_00138,.2
 # text = Þrátt fyrir að heimamenn væru með boltann 71% af leiknum og hafi átt 29 skot gegn aðeins fimm þá skyldu liðin jöfn.
-1	Þrátt fyrir	þrátt fyrir	ADV	ao	_	4	mark	_	tag=ao
-2	að	að	SCONJ	st	_	1	cc	_	tag=st
-3	heimamenn	heimamaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_nf_kk
-4	væru	vera	VERB	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	19	advcl	_	tag=so_1_nf_vh_p3_ft_þt_gm
-5	með	með	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	boltann	bolti	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk_gr
-7	71%	71%	X	prósenta_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	tag=prósenta_et_ef_hk
-8	af	af	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	leiknum	leikur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk_gr
-10	og	og	CCONJ	st	_	4	cc	_	tag=st
-11	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_vh_p3_ft_nt_gm
-12	átt	eiga	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	4	conj	_	tag=so_1_þf_sagnb_gm
-13	29	29	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	14	nummod	_	tag=tala_ft_þf_hk
-14	skot	skot	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	tag=no_ft_þf_hk
-15	gegn	gegn	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	aðeins	aðeins	ADV	eo	_	12	obl	_	tag=eo
-17	fimm	fimm	NUM	töl_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	16	nummod	_	tag=töl_ft_þgf_kk
-18	þá	þá	ADV	ao	_	19	advmod	_	tag=ao
-19	skyldu	skilja	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
-20	liðin	lið	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	19	nsubj	_	tag=no_ft_nf_hk_gr
-21	jöfn	jafn	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	19	obl	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
-22	.	_	PUNCT	grm	_	19	punct	_	tag=grm
+1-2	Þrátt fyrir	_	_	_	_	_	_	_	_
+1	Þrátt	þrátt	ADV	ao	_	5	mark	_	tag=ao
+2	fyrir	fyrir	ADV	ao	_	1	fixed	_	tag=ao
+3	að	að	SCONJ	st	_	1	cc	_	tag=st
+4	heimamenn	heimamaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_nf_kk
+5	væru	vera	VERB	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	20	advcl	_	tag=so_1_nf_vh_p3_ft_þt_gm
+6	með	með	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+7	boltann	bolti	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þf_kk_gr
+8	71%	71%	?	prósenta_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	tag=prósenta_et_ef_hk
+9	af	af	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+10	leiknum	leikur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk_gr
+11	og	og	CCONJ	st	_	5	cc	_	tag=st
+12	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_vh_p3_ft_nt_gm
+13	átt	eiga	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	5	conj	_	tag=so_1_þf_sagnb_gm
+14	29	29	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	15	nummod	_	tag=tala_ft_þf_hk
+15	skot	skot	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	tag=no_ft_þf_hk
+16	gegn	gegn	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	aðeins	aðeins	ADV	eo	_	13	obl	_	tag=eo
+18	fimm	fimm	NUM	töl_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	nummod	_	tag=töl_ft_þgf_kk
+19	þá	þá	ADV	ao	_	20	advmod	_	tag=ao
+20	skyldu	skilja	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
+21	liðin	lið	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	20	nsubj	_	tag=no_ft_nf_hk_gr
+22	jöfn	jafn	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
+23	.	_	PUNCT	grm	_	20	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00138,.3
 # text = Þá féll gerðardómur í deilu United Silicon við ÍAV hf., sem hafði tekið þátt í að reisa verksmiðjuna, í fyrrasumar.
@@ -56,22 +58,26 @@
 3	gerðardómur	gerðardómur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
 4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	deilu	deila	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk
-6	United Silicon	United Silicon	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	5	nmod:poss	_	tag=fyrirtæki_ef_hk
-7	við	við	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	ÍAV hf.	ÍAV hf.	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	5	obl	_	SpaceAfter=No|tag=fyrirtæki_þf_hk
-9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
-10	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
-11	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-12	tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	11	acl:relcl	_	tag=so_1_þf_sagnb_gm
-13	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	tag=no_et_þf_kk
-14	í	í	ADP	fs_nh	VerbForm=Inf	16	case	_	tag=fs_nh
-15	að	að	PART	nhm	_	16	mark	_	tag=nhm
-16	reisa	reisa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	13	obl	_	tag=so_1_þf_nh_gm
-17	verksmiðjuna	verksmiðja	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
-18	,	_	PUNCT	grm	_	17	punct	_	tag=grm
-19	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	fyrrasumar	fyrrasumar	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
-21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+6-7	United Silicon	_	_	_	_	_	_	_	_
+6	United	United	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	5	nmod:poss	_	tag=fyrirtæki_ef_hk
+7	Silicon	Silicon	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	6	fixed	_	tag=fyrirtæki_ef_hk
+8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+9-10	ÍAV hf.	_	_	_	_	_	_	_	_
+9	ÍAV	ÍAV	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	5	obl	_	SpaceAfter=No|tag=fyrirtæki_þf_hk
+10	hf.	hf.	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	9	fixed	_	SpaceAfter=No|tag=fyrirtæki_þf_hk
+11	,	_	PUNCT	grm	_	9	punct	_	tag=grm
+12	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
+13	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
+14	tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	13	acl:relcl	_	tag=so_1_þf_sagnb_gm
+15	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	tag=no_et_þf_kk
+16	í	í	ADP	fs_nh	VerbForm=Inf	18	case	_	tag=fs_nh
+17	að	að	PART	nhm	_	18	mark	_	tag=nhm
+18	reisa	reisa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	obl	_	tag=so_1_þf_nh_gm
+19	verksmiðjuna	verksmiðja	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
+20	,	_	PUNCT	grm	_	19	punct	_	tag=grm
+21	í	í	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+22	fyrrasumar	fyrrasumar	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
+23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00138,.4
 # text = Auk Mantzoukas þá birtast þau Kathy Baker og Martin Mull reglulega í þáttunum sem foreldrar Andreu en annars eru fáar fastar aukapersónur.
@@ -80,22 +86,26 @@
 3	þá	þá	ADV	ao	_	4	advmod	_	tag=ao
 4	birtast	birta	VERB	so_1_þgf_fh_p3_ft_nt_mm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_þgf_fh_p3_ft_nt_mm
 5	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	6	nmod	_	tag=pfn_ft_nf_hk_p3
-6	Kathy Baker	Kathy Baker	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
-7	og	og	CCONJ	st	_	8	cc	_	tag=st
-8	Martin Mull	Martin Mull	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	6	conj	_	tag=person_þgf_kk
-9	reglulega	reglulega	ADV	ao	_	4	advmod	_	tag=ao
-10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	þáttunum	þáttur	NOUN	no_ft_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_þgf_kk_gr
-12	sem	sem	ADP	fs_nf	Case=Nom	13	case	_	tag=fs_nf
-13	foreldrar	foreldrar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_nf_kk
-14	Andreu	Andrea	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	13	nmod:poss	_	tag=person_ef_kvk
-15	en	en	CCONJ	st	_	4	cc	_	tag=st
-16	annars	annars	ADV	ao	_	17	advmod	_	tag=ao
-17	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_nt_gm
-18	fáar	fár	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	20	amod	_	tag=lo_ft_nf_kvk_sb
-19	fastar	fastur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	20	amod	_	tag=lo_ft_nf_kvk_sb
-20	aukapersónur	aukapersóna	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	SpaceAfter=No|tag=no_ft_nf_kvk
-21	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+6-7	Kathy Baker	_	_	_	_	_	_	_	_
+6	Kathy	Kathy	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
+7	Baker	Baker	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	fixed	_	tag=person_nf_kvk
+8	og	og	CCONJ	st	_	6	cc	_	tag=st
+9-10	Martin Mull	_	_	_	_	_	_	_	_
+9	Martin	Martin	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	6	conj	_	tag=person_þgf_kk
+10	Mull	Mull	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	fixed	_	tag=person_þgf_kk
+11	reglulega	reglulega	ADV	ao	_	4	advmod	_	tag=ao
+12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	þáttunum	þáttur	NOUN	no_ft_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_þgf_kk_gr
+14	sem	sem	ADP	fs_nf	Case=Nom	15	case	_	tag=fs_nf
+15	foreldrar	foreldrar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_nf_kk
+16	Andreu	Andrea	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	15	nmod:poss	_	tag=person_ef_kvk
+17	en	en	CCONJ	st	_	4	cc	_	tag=st
+18	annars	annars	ADV	ao	_	19	advmod	_	tag=ao
+19	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_nt_gm
+20	fáar	fár	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	22	amod	_	tag=lo_ft_nf_kvk_sb
+21	fastar	fastur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	22	amod	_	tag=lo_ft_nf_kvk_sb
+22	aukapersónur	aukapersóna	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	SpaceAfter=No|tag=no_ft_nf_kvk
+23	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00138,.5
 # text = Við höfum unnið mikið í því að læra hver inn á annan, því ég er aðkomumaður hérna og svo til nýkominn.
@@ -114,7 +124,7 @@
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	því	því	SCONJ	st	_	17	mark	_	tag=st
 15	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_p1
-16	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	17	conj	_	tag=so_1_nf_fh_p1_et_nt_gm
+16	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p1_et_nt_gm
 17	aðkomumaður	aðkomumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	advcl	_	tag=no_et_nf_kk
 18	hérna	hérna	ADV	ao	_	17	advmod	_	tag=ao
 19	og	og	CCONJ	st	_	17	cc	_	tag=st
@@ -125,53 +135,59 @@
 
 # sent_id = GREYNIR_CORPUS_00138,.6
 # text = Man City er í 4. sætinu, fjórum stigum á eftir toppliði Chelsea, en Leicester er aðeins tveimur stigum frá fallsæti.
-1	Man City	Man City	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=fyrirtæki_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
-3	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-4	4.	4.	ADJ	raðnr_þgf_hk	Case=Dat|Gender=Neut|NumType=Ord	5	amod	_	tag=raðnr_þgf_hk
-5	sætinu	sæti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-7	fjórum	fjórir	NUM	to_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	8	nummod	_	tag=to_ft_þgf_hk
-8	stigum	stig	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þgf_hk
-9	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-10	eftir	eftir	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-11	toppliði	topplið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
-12	Chelsea	Chelsea	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
-13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
-14	en	en	CCONJ	st	_	2	cc	_	tag=st
-15	Leicester	Leicester	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	16	nsubj	_	tag=fyrirtæki_nf_hk
-16	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
-17	aðeins	aðeins	ADV	eo	_	19	advmod	_	tag=eo
-18	tveimur	tveir	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	19	nummod	_	tag=to_ft_þgf_kk
-19	stigum	stigi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	tag=no_ft_þgf_kk
-20	frá	frá	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-21	fallsæti	fallsæti	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Man City	_	_	_	_	_	_	_	_
+1	Man	Man	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fyrirtæki_et_nf_hk
+2	City	City	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	fixed	_	tag=fyrirtæki_et_nf_hk
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
+5	4.	4.	ADJ	raðnr_þgf_hk	Case=Dat|Gender=Neut|NumType=Ord	6	amod	_	tag=raðnr_þgf_hk
+6	sætinu	sæti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
+8	fjórum	fjórir	NUM	to_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	nummod	_	tag=to_ft_þgf_hk
+9	stigum	stig	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_þgf_hk
+10	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+11	eftir	eftir	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+12	toppliði	topplið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
+13	Chelsea	Chelsea	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
+14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
+15	en	en	CCONJ	st	_	3	cc	_	tag=st
+16	Leicester	Leicester	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	17	nsubj	_	tag=fyrirtæki_nf_hk
+17	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+18	aðeins	aðeins	ADV	eo	_	20	advmod	_	tag=eo
+19	tveimur	tveir	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	20	nummod	_	tag=to_ft_þgf_kk
+20	stigum	stigi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	obl	_	tag=no_ft_þgf_kk
+21	frá	frá	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+22	fallsæti	fallsæti	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+23	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00138,.7
 # text = Jürgen Klopp, knattspyrnustjóri Liverpool, viðurkennir að hann hafi ekki hugmynd um hvort sóknarmaðurinn Daniel Sturridge verði klár í slaginn á sunnudaginn.
-1	Jürgen Klopp	Jürgen Klopp	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	knattspyrnustjóri	knattspyrnustjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	Liverpool	Liverpool	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	3	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ef_hk
-5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
-6	viðurkennir	viðurkenna	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-7	að	að	SCONJ	st	_	9	mark	_	tag=st
-8	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_kk_p3
-9	hafi	hafa	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	ccomp	_	tag=so_1_þf_vh_p3_et_nt_gm
-10	ekki	ekki	ADV	ao	_	9	advmod	_	tag=ao
-11	hugmynd	hugmynd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	tag=no_et_þf_kvk
-12	um	um	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-13	hvort	hvort	CCONJ	st	_	17	cc	_	tag=st
-14	sóknarmaðurinn	sóknarmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	tag=no_et_nf_kk_gr
-15	Daniel Sturridge	Daniel Sturridge	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	obl	_	tag=person_nf_kk
-16	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
-17	klár	klár	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	tag=lo_et_nf_kk_sb
-18	í	í	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19	slaginn	slagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þf_kk_gr
-20	á	á	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	sunnudaginn	sunnudagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	advmod	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-22	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+1-2	Jürgen Klopp	_	_	_	_	_	_	_	_
+1	Jürgen	Jürgen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	Klopp	Klopp	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
+4	knattspyrnustjóri	knattspyrnustjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+5	Liverpool	Liverpool	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ef_hk
+6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
+7	viðurkennir	viðurkenna	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+8	að	að	SCONJ	st	_	10	mark	_	tag=st
+9	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_kk_p3
+10	hafi	hafa	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	ccomp	_	tag=so_1_þf_vh_p3_et_nt_gm
+11	ekki	ekki	ADV	ao	_	10	advmod	_	tag=ao
+12	hugmynd	hugmynd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	tag=no_et_þf_kvk
+13	um	um	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
+14	hvort	hvort	CCONJ	st	_	19	cc	_	tag=st
+15	sóknarmaðurinn	sóknarmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	tag=no_et_nf_kk_gr
+16-17	Daniel Sturridge	_	_	_	_	_	_	_	_
+16	Daniel	Daniel	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	obl	_	tag=person_nf_kk
+17	Sturridge	Sturridge	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	fixed	_	tag=person_nf_kk
+18	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+19	klár	klár	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	tag=lo_et_nf_kk_sb
+20	í	í	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
+21	slaginn	slagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_þf_kk_gr
+22	á	á	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+23	sunnudaginn	sunnudagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	advmod	_	SpaceAfter=No|tag=no_et_þf_kk_gr
+24	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00138,.8
 # text = Jafntefli gegn Huddersfield og tap gegn Cardiff, lið sem bæðu voru fallin úr deildinni, urðu til þess að hann hætti við.
@@ -226,10 +242,12 @@
 22	börn	barn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	SpaceAfter=No|tag=no_ft_þf_hk
 23	.	_	PUNCT	grm	_	11	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00138,.10
+# text = Neytendur og fjárfestar eru yfirleitt framsýnir og það þýðir að breytingar á hagstefnu hafa oft áhrif jafnvel áður en þær koma til framkvæmda.
 1	Neytendur	neytandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	tag=no_ft_nf_kk
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	fjárfestar	fjárfestir	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	tag=no_ft_nf_kk
-4	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+4	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 5	yfirleitt	yfirleitt	ADV	eo	_	6	advmod	_	tag=eo
 6	framsýnir	framsýnn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
 7	og	og	CCONJ	st	_	6	cc	_	tag=st
@@ -248,6 +266,6 @@
 20	þær	hún	PRON	pfn_ft_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	tag=pfn_ft_nf_kvk_p3
 21	koma	koma	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	advcl	_	tag=so_0_fh_p3_ft_nt_gm
 22	til	til	ADP	fs_ef	Case=Gen	23	case	_	tag=fs_ef
-23	framkvæmda	framkvæmd	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	21	obl	_	tag=no_ft_ef_kvk
+23	framkvæmda	framkvæmd	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No|tag=no_ft_ef_kvk
 24	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

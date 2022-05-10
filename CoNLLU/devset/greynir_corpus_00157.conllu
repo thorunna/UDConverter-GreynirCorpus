@@ -59,14 +59,14 @@
 # sent_id = GREYNIR_CORPUS_00157,.3
 # text = Hafi hann viljað hemja hana og koma í veg fyrir að skipta sér af því sem hann væri að gera, segir í dómnum.
 1	Hafi	hafa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_vh_p3_et_nt_gm
-2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
-3	viljað	vilja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	conj	_	tag=so_0_sagnb_gm
-4	hemja	hemja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
+2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	tag=pfn_et_nf_kk_p3
+3	viljað	vilja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	cop	_	tag=so_0_sagnb_gm
+4	hemja	hemja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	xcomp	_	tag=so_1_þf_nh_gm
 5	hana	hún	PRON	pfn_et_þf_kvk_p3	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	tag=pfn_et_þf_kvk_p3
 6	og	og	CCONJ	st	_	4	cc	_	tag=st
-7	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	conj	_	tag=so_0_nh_gm
+7	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	cop	_	tag=so_0_nh_gm
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	veg	vegur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þf_kk
+9	veg	vegur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
 10	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	12	case	_	tag=fs_nh
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
 12	skipta	skipta	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	9	obl	_	tag=so_1_þgf_nh_gm
@@ -158,17 +158,20 @@
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	neðansjávargosi	neðansjávargos	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
 14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	nóvember árið 1963	nóvember árið 1963	ADV	dagsafs	_	10	advmod	_	SpaceAfter=No|tag=dagsafs
-16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
-17	þar	þar	ADV	ao	_	10	advmod	_	tag=ao
-18	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
-19	fyrir	fyrir	ADV	ao	_	20	advmod	_	tag=ao
-20	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	advcl	_	tag=so_0_fh_p3_et_þt_gm
-21	um	um	ADV	eo	_	23	advmod	_	tag=eo
-22	130	130	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	23	nummod	_	tag=tala_ft_ef_kk
-23	metra	metri	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	24	nmod:poss	_	tag=no_ft_ef_kk
-24	dýpi	dýpi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	SpaceAfter=No|tag=no_et_nf_hk
-25	.	_	PUNCT	grm	_	10	punct	_	tag=grm
+15-17	nóvember árið 1963	_	_	_	_	_	_	_	_
+15	nóvember	nóvember	ADV	dagsafs	_	10	advmod	_	SpaceAfter=No|tag=dagsafs
+16	árið	árið	NUM?	dagsafs	_	15	fixed	_	SpaceAfter=No|tag=dagsafs
+17	1963	1963	NUM?	dagsafs	_	16	fixed	_	SpaceAfter=No|tag=dagsafs
+18	,	_	PUNCT	grm	_	10	punct	_	tag=grm
+19	þar	þar	ADV	ao	_	10	advmod	_	tag=ao
+20	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
+21	fyrir	fyrir	ADV	ao	_	22	advmod	_	tag=ao
+22	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	19	advcl	_	tag=so_0_fh_p3_et_þt_gm
+23	um	um	ADV	eo	_	25	advmod	_	tag=eo
+24	130	130	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	25	nummod	_	tag=tala_ft_ef_kk
+25	metra	metri	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	26	nmod:poss	_	tag=no_ft_ef_kk
+26	dýpi	dýpi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	SpaceAfter=No|tag=no_et_nf_hk
+27	.	_	PUNCT	grm	_	10	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00157,.7
 # text = Conte hefur skrifað undir þriggja ára samning við Chelsea og hefur störf að lokinni Evrópukeppninni í Frakklandi þar sem hann stýrir landsliði Ítalíu í síðasta skipti.
@@ -221,10 +224,12 @@
 17	Sýrlandsstjórnar	Sýrlandsstjórn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	tag=no_et_ef_kvk
 18	á	á	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 19	Douma	Douma	PROPN	sérnafn_þf	Case=Acc	14	obl	_	tag=sérnafn_þf
-20	þrátt fyrir	þrátt fyrir	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	loftárásir	loftárás	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	tag=no_ft_þf_kvk
-22	vesturveldanna	vesturveldi	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	21	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk_gr
-23	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+20-21	þrátt fyrir	_	_	_	_	_	_	_	_
+20	þrátt	þrátt	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+21	fyrir	fyrir	ADP	fs_þf	Case=Acc	20	fixed	_	tag=fs_þf
+22	loftárásir	loftárás	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	tag=no_ft_þf_kvk
+23	vesturveldanna	vesturveldi	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	22	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk_gr
+24	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00157,.9
 # text = Vantrausti var lýst á Bergvin í september 2015 og hann borinn þungum sökum í yfirlýsingu sem stjórnin sendi frá sér og birt var á vefsíðu samtakanna.
@@ -234,32 +239,34 @@
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Bergvin	Bergvin	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	3	obl	_	tag=person_þgf_kk
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	september 2015	september 2015	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
-8	og	og	CCONJ	st	_	3	cc	_	tag=st
-9	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_þf_kk_p3
-10	borinn	bera	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	3	conj	_	tag=so_1_þgf_lhþt_et
-11	þungum	þungur	ADJ	lo_ft_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Plur	12	amod	_	tag=lo_ft_þgf_kvk_sb
-12	sökum	sök	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	obj	_	tag=no_ft_þgf_kvk
-13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	yfirlýsingu	yfirlýsing	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
-15	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
-16	stjórnin	stjórn	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	tag=no_et_nf_kvk_gr
-17	sendi	senda	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-18	frá	frá	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	17	obl	_	tag=abfn_þgf
-20	og	og	CCONJ	st	_	17	cc	_	tag=st
-21	birt	birta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	17	conj	_	tag=so_0_lhþt_et
-22	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	21	aux	_	tag=so_0_fh_p3_et_þt_gm
-23	á	á	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	vefsíðu	vefsíða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	tag=no_et_þgf_kvk
-25	samtakanna	samtök	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	24	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk_gr
-26	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+7-8	september 2015	_	_	_	_	_	_	_	_
+7	september	september	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
+8	2015	2015	NUM?	dagsafs	_	7	fixed	_	tag=dagsafs
+9	og	og	CCONJ	st	_	3	cc	_	tag=st
+10	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_þf_kk_p3
+11	borinn	bera	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	3	conj	_	tag=so_1_þgf_lhþt_et
+12	þungum	þungur	ADJ	lo_ft_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Plur	13	amod	_	tag=lo_ft_þgf_kvk_sb
+13	sökum	sök	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	obj	_	tag=no_ft_þgf_kvk
+14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+15	yfirlýsingu	yfirlýsing	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
+16	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
+17	stjórnin	stjórn	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	tag=no_et_nf_kvk_gr
+18	sendi	senda	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
+19	frá	frá	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+20	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	18	obl	_	tag=abfn_þgf
+21	og	og	CCONJ	st	_	18	cc	_	tag=st
+22	birt	birta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	18	cop	_	tag=so_0_lhþt_et
+23	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	aux	_	tag=so_0_fh_p3_et_þt_gm
+24	á	á	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
+25	vefsíðu	vefsíða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_þgf_kvk
+26	samtakanna	samtök	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	25	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk_gr
+27	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	held	halda	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_et_nt_gm
 3	að	að	SCONJ	st	_	7	mark	_	tag=st
 4	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_hk_p3
-5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_vh_p3_et_nt_gm
+5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_vh_p3_et_nt_gm
 6	ekki	ekki	ADV	eo	_	7	advmod	_	tag=eo
 7	gerlegt	gerlegur	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	obj	_	tag=lo_et_nf_hk_fst_sb
 8	neinum	neinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=fn_et_þgf_kk
@@ -267,18 +274,20 @@
 10	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 11	gengið	ganga	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	acl:relcl	_	tag=so_0_sagnb_gm
 12	hafa	hafa	AUX	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_1_þf_fh_p3_ft_nt_gm
-13	í gegnum	í gegnum	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-14	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	tag=fn_et_þf_kk
-15	harm	harmur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þf_kk
-16	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
-17	fylgir	fylgja	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	acl:relcl	_	tag=so_1_þgf_fh_p3_et_nt_gm
-18	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	obj	_	tag=fn_et_þgf_hk
-19	að	að	PART	nhm	_	20	mark	_	tag=nhm
-20	deyfa	deyfa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	18	xcomp	_	tag=so_0_nh_gm
-21	frá	frá	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-22	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	20	obl	_	tag=abfn_þgf
-23	vit	vit	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	tag=no_et_þf_hk
-24	og	og	CCONJ	st	_	25	cc	_	tag=st
-25	rænu	ræna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	23	conj	_	tag=no_et_þf_kvk
-26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+13-14	í gegnum	_	_	_	_	_	_	_	_
+13	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+14	gegnum	gegnum	ADP	fs_þf	Case=Acc	13	fixed	_	tag=fs_þf
+15	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	tag=fn_et_þf_kk
+16	harm	harmur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þf_kk
+17	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
+18	fylgir	fylgja	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	acl:relcl	_	tag=so_1_þgf_fh_p3_et_nt_gm
+19	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obj	_	tag=fn_et_þgf_hk
+20	að	að	PART	nhm	_	21	mark	_	tag=nhm
+21	deyfa	deyfa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	19	xcomp	_	tag=so_0_nh_gm
+22	frá	frá	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
+23	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	21	obl	_	tag=abfn_þgf
+24	vit	vit	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	tag=no_et_þf_hk
+25	og	og	CCONJ	st	_	26	cc	_	tag=st
+26	rænu	ræna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	24	conj	_	tag=no_et_þf_kvk
+27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

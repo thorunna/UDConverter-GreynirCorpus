@@ -12,11 +12,15 @@
 10	meiri	mikill	ADJ	lo_et_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	12	amod	_	tag=lo_et_þf_kvk_mst
 11	jákvæða	jákvæður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	tag=lo_et_þf_kvk_sb
 12	umfjöllun	umfjöllun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	tag=no_et_þf_kvk
-13	í kringum	í kringum	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-14	komandi	komandi	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_þf_hk_sb
-15	heimsmeistaramót	heimsmeistaramót	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
-16	árið 2022	árið 2022	ADV	ártal	_	15	advmod	_	SpaceAfter=No|tag=ártal
-17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+13-14	í kringum	_	_	_	_	_	_	_	_
+13	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+14	kringum	kringum	ADP	fs_þf	Case=Acc	13	fixed	_	tag=fs_þf
+15	komandi	komandi	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þf_hk_sb
+16	heimsmeistaramót	heimsmeistaramót	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
+17-18	árið 2022	_	_	_	_	_	_	_	_
+17	árið	árið	ADV	ártal	_	16	advmod	_	SpaceAfter=No|tag=ártal
+18	2022	2022	NUM	ártal	_	17	fixed	_	SpaceAfter=No|tag=ártal
+19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00106,.2
 # text = Valdimar var gefið að sök að hafa eyðilagt friðað hús í skjóli nætur aðfaranótt mánudagsins 7. júlí 2014.
@@ -35,8 +39,11 @@
 13	nætur	nótt	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	12	nmod:poss	_	tag=no_et_ef_kvk
 14	aðfaranótt	aðfaranótt	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	advmod	_	tag=no_et_þf_kvk
 15	mánudagsins	mánudagur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod:poss	_	tag=no_et_ef_kk_gr
-16	7. júlí 2014	7. júlí 2014	?	dagsföst	_	15	('HALLÓ_dagsföst', None, 'NP', 'POSS')	_	SpaceAfter=No|tag=dagsföst
-17	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+16-18	7. júlí 2014	_	_	_	_	_	_	_	_
+16	7.	7.	?	dagsföst	_	15	('HALLÓ_dagsföst', None, 'NP', 'POSS')	_	SpaceAfter=No|tag=dagsföst
+17	júlí	júlí	?	dagsföst	_	16	fixed	_	SpaceAfter=No|tag=dagsföst
+18	2014	2014	?	dagsföst	_	17	fixed	_	SpaceAfter=No|tag=dagsföst
+19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00106,.3
 # text = ASÍ, Efling og Vinnumálastofnun rannasaka málið að því er fram kom í fréttum Stöðvar 2 í kvöld.
@@ -54,16 +61,19 @@
 12	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	fréttum	frétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þgf_kvk
-15	Stöðvar 2	Stöðvar 2	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	14	nmod:poss	_	tag=fyrirtæki_et_ef
-16	í kvöld	í kvöld	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
-17	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+15-16	Stöðvar 2	_	_	_	_	_	_	_	_
+15	Stöðvar	Stöðvar	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	14	nmod:poss	_	tag=fyrirtæki_et_ef
+16	2	2	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	15	fixed	_	tag=fyrirtæki_et_ef
+17-18	í kvöld	_	_	_	_	_	_	_	_
+17	í	í	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
+18	kvöld	kvöld	ADV	ao	_	17	fixed	_	SpaceAfter=No|tag=ao
+19	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00106,.4
 # text = Vaxandi einkaneysla er áhyggjuefni út frá hagstjórn, þar sem við viljum halda hagkerfinu í tiltölulega góðu jafnvægi.
--3	None	_	None	None	_	_	None	_	_
 1	Vaxandi	vaxandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_sb
 2	einkaneysla	einkaneysla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	áhyggjuefni	áhyggjuefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 5	út	út	ADV	ao	_	7	advmod	_	tag=ao
 6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -83,23 +93,27 @@
 
 # sent_id = GREYNIR_CORPUS_00106,.5
 # text = Emil Lyng skoraði þrennu fyrir KA í kvöld en þessi dani kom til félagsins núna rétt fyrir mót.
-1	Emil Lyng	Emil Lyng	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	þrennu	þrenna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
-4	fyrir	fyrir	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	KA	KA	PROPN	sérnafn_þf_hk	Case=Acc|Gender=Neut	2	obl	_	tag=sérnafn_þf_hk
-6	í kvöld	í kvöld	ADV	ao	_	2	advmod	_	tag=ao
-7	en	en	CCONJ	st	_	2	cc	_	tag=st
-8	þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	tag=fn_et_nf_kk
-9	dani	Dani	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	tag=no_et_nf_kk
-10	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
-11	til	til	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
-12	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_ef_hk_gr
-13	núna	núna	ADV	ao	_	10	advmod	_	tag=ao
-14	rétt	rétt	ADV	ao	_	13	advmod	_	tag=ao
-15	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	mót	mót	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Emil Lyng	_	_	_	_	_	_	_	_
+1	Emil	Emil	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
+2	Lyng	Lyng	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+3	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+4	þrennu	þrenna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þf_kvk
+5	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
+6	KA	KA	PROPN	sérnafn_þf_hk	Case=Acc|Gender=Neut	3	obl	_	tag=sérnafn_þf_hk
+7-8	í kvöld	_	_	_	_	_	_	_	_
+7	í	í	ADV	ao	_	3	advmod	_	tag=ao
+8	kvöld	kvöld	ADV	ao	_	7	fixed	_	tag=ao
+9	en	en	CCONJ	st	_	3	cc	_	tag=st
+10	þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	tag=fn_et_nf_kk
+11	dani	Dani	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=no_et_nf_kk
+12	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+13	til	til	ADP	fs_ef	Case=Gen	14	case	_	tag=fs_ef
+14	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_ef_hk_gr
+15	núna	núna	ADV	ao	_	12	advmod	_	tag=ao
+16	rétt	rétt	ADV	ao	_	15	advmod	_	tag=ao
+17	fyrir	fyrir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
+18	mót	mót	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þf_hk
+19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00106,.6
 # text = Við þurfum að standa saman og berjast til að vinna lið sem er með meiri hæfileika en við.
@@ -156,15 +170,17 @@
 7	Sameinuðu	sameinaður	ADJ	lo_ft_ef_kvk_vb	Case=Gen|Gender=Fem|Number=Plur	8	amod	_	tag=lo_ft_ef_kvk_vb
 8	þjóðanna	þjóð	NOUN	no_ft_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod:poss	_	tag=no_ft_ef_kvk_gr
 9	en	en	CCONJ	st	_	2	cc	_	tag=st
-10	um	um	ADV	eo	_	12	advmod	_	tag=eo
-11	fjórar milljónir	fjórar milljónir	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	12	nummod	_	tag=töl_ft_nf_kvk
-12	íbúa	íbúi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	15	nsubj	_	tag=no_ft_ef_kk
-13	hafa	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_fh_p3_et_nt_gm
-14	nú	nú	ADV	ao	_	15	advmod	_	tag=ao
-15	yfirgefið	yfirgefa	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	conj	_	tag=so_1_þf_sagnb_gm
-16	land	land	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	tag=no_et_þf_hk
-17	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No|tag=fn_et_þf_hk
-18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+10	um	um	ADV	eo	_	13	advmod	_	tag=eo
+11-12	fjórar milljónir	_	_	_	_	_	_	_	_
+11	fjórar	fjórar	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	13	nummod	_	tag=töl_ft_nf_kvk
+12	milljónir	milljónir	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	11	fixed	_	tag=töl_ft_nf_kvk
+13	íbúa	íbúi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	tag=no_ft_ef_kk
+14	hafa	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_fh_p3_et_nt_gm
+15	nú	nú	ADV	ao	_	16	advmod	_	tag=ao
+16	yfirgefið	yfirgefa	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	conj	_	tag=so_1_þf_sagnb_gm
+17	land	land	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=no_et_þf_hk
+18	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No|tag=fn_et_þf_hk
+19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00106,.9
 # text = Það gæti verið æskilegt að kasta jafn óstöðugum gjaldmiðli og krónunni og vitaskuld getur útgerðin greitt hærri veiðigjöld.
@@ -188,6 +204,8 @@
 18	veiðigjöld	veiðigjald	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	SpaceAfter=No|tag=no_ft_þf_hk
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00106,.10
+# text = Þessi saga rifjast upp nú þegar meiri hluti brezkra kjósenda hefur ákveðið að Bretar segi sig úr Evrópusambandinu.
 1	Þessi	þessi	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	tag=fn_et_nf_kvk
 2	saga	saga	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
 3	rifjast	rifja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
@@ -205,6 +223,6 @@
 15	segi	segja	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	ccomp	_	tag=so_1_þf_vh_p3_ft_nt_gm
 16	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	15	obj	_	tag=abfn_þf
 17	úr	úr	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18	Evrópusambandinu	Evrópusamband	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þgf_hk_gr
+18	Evrópusambandinu	Evrópusamband	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
