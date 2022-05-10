@@ -911,6 +911,7 @@ class Converter:
                         elif (
                             address - 1 in self.dg.nodes
                             and self.dg.get_by_address(address - 1)["rel"] == "conj"
+                            and type(self.dg.get_by_address(address - 1)["head"]) == int
                             and node["head"]
                             > self.dg.get_by_address(address - 1)["head"]
                         ):
@@ -2011,7 +2012,10 @@ class Converter:
                         print("MWE: ", FORM)
                         print("LEMMA: ", LEMMA)
                         FORMS = FORM.split(" ")
-                        LEMMAS = LEMMA.split(" ")
+                        if LEMMA is not None:
+                            LEMMAS = LEMMA.split(" ")
+                        else:
+                            LEMMAS = []
                         XPOS = tag
                         UPOS = G_Features(tag, FORM).get_UD_tag()
                         print("UD tag: ", UPOS)
@@ -2298,8 +2302,8 @@ class Converter:
             if ctag_counts["AUX"] > 0:
                 self._fix_root_tag()
             self._fix_head_id_same()
-            if ctag_counts["X"] > 0:
-                self._fix_flat_foreign()
+            # if ctag_counts["X"] > 0:
+            #    self._fix_flat_foreign()
             if ctag_counts["CCONJ"] > 0:
                 self._fix_cconj_rel()
             if rel_counts["cop"] > 0:
