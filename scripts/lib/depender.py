@@ -104,7 +104,7 @@ class UniversalDependencyGraph(DependencyGraph):
                         If dict is None returns '_'
 
         """
-        print("dict: ", dict)
+
         return (
             "|".join(
                 f"{pair[0]}={pair[1]}"
@@ -374,7 +374,7 @@ class UniversalDependencyGraph(DependencyGraph):
         text = re.sub(r"\( ", "(", text)
         text = re.sub(r" \)", ")", text)
         text = re.sub(r" \?", "?", text)
-        print("plain text: ", text)
+
         return "# text = " + text
 
     def original_ID_plain_text(self, **kwargs):
@@ -623,10 +623,7 @@ class Converter:
 
                 # print('No root relation found in sentence.')
                 for address, node in self.dg.nodes.items():
-                    print("ADDRESS: ", address)
                     if type(address) != str:
-                        # print(address, node['head'])
-                        # print("ADDRESS: ", type(address), address)
                         if address == node["head"]:
 
                             # # DEBUG:
@@ -1859,7 +1856,7 @@ class Converter:
         const = []
         tag_list = {}
         nr = 1
-        print("tree: ", tree)
+
         if tree != "":
             if isinstance(tree, (IndexedCorpusTree)):
                 t = tree.get_lemmas()
@@ -1899,9 +1896,8 @@ class Converter:
             self.dg = UniversalDependencyGraph()
 
             for i in t.treepositions():
-                print("I: ", t[i])
+
                 if isinstance(t[i], Tree):
-                    print("I: ", t[i])
 
                     if len(t[i]) == 1:
                         # If terminal node with label or tree with single child
@@ -1921,7 +1917,6 @@ class Converter:
                         const.append(i)
 
                 else:
-                    print("t[i] 1: ", t[i])
                     # temp_form = t[i]
                     # temp_lemma = None
                     # if "+lemma+" in t[i]:
@@ -1947,20 +1942,8 @@ class Converter:
                         try:
                             tag = tag_list[nr]
                         except KeyError:
-                            # if len(tag_list) == 1:
-                            #    print(tag_list)
-                            #    tag = tag_list[1]
-                            print(self.dg.nodes)
-                            # if any(type())
                             form = t[i].split("+lemma+")[0]
-                            print("form", form)
-                            print("nr: ", nr)
-                            # print(FORM)
-                            # print(len(FORM.split(" ")))
                             nr -= len(FORM.split(" "))
-                            # nr -= count
-                            # print("númer eftir minnkun: ", nr)
-                            # print("tag_list: ", tag_list)
                             tag = tag_list[nr]
                     else:
                         tag = None
@@ -2009,8 +1992,6 @@ class Converter:
                     new_nr = 0
                     # if " " in FORM:
                     if " " in FORM:
-                        print("MWE: ", FORM)
-                        print("LEMMA: ", LEMMA)
                         FORMS = FORM.split(" ")
                         if LEMMA is not None:
                             LEMMAS = LEMMA.split(" ")
@@ -2018,13 +1999,10 @@ class Converter:
                             LEMMAS = []
                         XPOS = tag
                         UPOS = G_Features(tag, FORM).get_UD_tag()
-                        print("UD tag: ", UPOS)
                         FEATS = G_Features(tag).get_features()
                         MISC = defaultdict(lambda: None, {"tag": tag})
-                        print("nr í byrjun: ", nr)
                         mwe_end = nr + len(FORMS) - 1
                         mwe_nr = str(nr) + "-" + str(mwe_end)
-                        print("NR: ", mwe_nr)
                         self.dg.add_node(
                             {
                                 "address": mwe_nr,
@@ -2039,10 +2017,7 @@ class Converter:
                             }
                         )
                         for FORM in FORMS:
-                            print("nr í byrjun: ", nr)
-                            print("FORM: ", FORM)
                             if len(LEMMAS) > 1:
-                                print("LEMMA: ", LEMMAS[count])
                                 LEMMA = LEMMAS[count]
                             self.dg.add_node(
                                 {
@@ -2059,9 +2034,6 @@ class Converter:
                             )
                             nr += 1
                             count += 1
-                            # nr -= count
-                        print("nr og count eftir for-loopu: ", nr, count)
-                        # nr -= len(FORMS)
                         new_nr = nr
 
                     else:
@@ -2073,11 +2045,6 @@ class Converter:
                             UPOS = G_Features(tag, FORM).get_UD_tag()
                             FEATS = G_Features(tag).get_features()
                             MISC = defaultdict(lambda: None, {"tag": tag})
-                            # new_nr = nr + count
-                            # nr += 1
-                            print("nýtt nr: ", new_nr)
-                            print("FORM: ", FORM)
-                            print("LEMMA: ", LEMMA)
                             if FORM not in {"None", None}:
                                 self.dg.add_node(
                                     {
@@ -2101,11 +2068,6 @@ class Converter:
                             UPOS = G_Features(tag, FORM).get_UD_tag()
                             FEATS = G_Features(tag).get_features()
                             MISC = defaultdict(lambda: None, {"tag": tag})
-                            # new_nr = nr + count
-                            # nr += 1
-                            print("nr í byrjun: ", nr)
-                            print("FORM: ", FORM)
-                            print("LEMMA: ", LEMMA)
                             if FORM not in {"None", None}:
                                 self.dg.add_node(
                                     {
@@ -2200,21 +2162,17 @@ class Converter:
 
                 head_tag = t[i].label()
                 head_nr = t[i].id()
-                print("head_nr: ", head_nr)
 
                 for child in t[i]:
 
                     try:
                         mod_tag = child.label()
                     except:
-                        # print(child)
-                        # raise
                         mod_tag = "_"
 
                     try:
                         mod_nr = child.id()
                     except:
-                        # print("CHILD TYPE: ", type(child), child)
                         mod_nr = "_"
 
                     if child:
@@ -2431,7 +2389,7 @@ class Converter:
                 "SCONJ",
             }:
                 dgraph.get_by_address(address)["misc"]["SpaceAfter"] = "No"
-        print("DGRAPH: ", dgraph)
+
         return dgraph
 
     @staticmethod

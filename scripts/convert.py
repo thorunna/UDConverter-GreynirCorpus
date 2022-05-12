@@ -230,7 +230,7 @@ def main():
                 continue
 
         try:
-            print(TREE)
+            # print(TREE)
             print()
             if args.auto_tag:
                 c = depender.Converter(auto_tags="single_sentence")
