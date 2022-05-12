@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00197,.1
 # text = Upplýsingaskjárinn er einfaldur í notkun og auðlært á kerfið, stýrið þétt og traustvekjandi og óneitanlega fær maður á tilfinninguna að það sé gott í þessu — það er ekki að fara að hrikta í neinu í náinni framtíð.
--4	None	_	None	None	_	_	None	_	_
 1	Upplýsingaskjárinn	upplýsingaskjár	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	einfaldur	einfaldur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	notkun	notkun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
@@ -23,7 +22,7 @@
 20	tilfinninguna	tilfinning	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_þf_kvk_gr
 21	að	að	SCONJ	st	_	24	mark	_	tag=st
 22	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	tag=pfn_et_nf_hk_p3
-23	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+23	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 24	gott	góður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	17	obj	_	tag=lo_et_nf_hk_sb
 25	í	í	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
 26	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|tag=fn_et_þgf_hk
@@ -44,53 +43,55 @@
 
 # sent_id = GREYNIR_CORPUS_00197,.2
 # text = Ákvörðun Harley Davidson um að færa hluta af framleiðslu mótorhjólana úr landi, vegna aukins kostnaðar sem rekja má til tolla sem Trump fyrirskipaði að yrðu lagðir á innflutning á áli og stáli, einkum frá Kína, fór illa í Trump.
-1	Ákvörðun	ákvörðun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	tag=no_et_nf_kvk
-2	Harley Davidson	Harley Davidson	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_hk
-3	um	um	ADP	fs_nh	VerbForm=Inf	5	case	_	tag=fs_nh
-4	að	að	PART	nhm	_	5	mark	_	tag=nhm
-5	færa	færa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	obl	_	tag=so_1_þf_nh_gm
-6	hluta	hluti	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	tag=no_et_þf_kk
-7	af	af	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	framleiðslu	framleiðsla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk
-9	mótorhjólana	mótorhjól	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	8	nmod:poss	_	tag=no_ft_ef_hk_gr
-10	úr	úr	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	landi	land	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-13	vegna	vegna	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
-14	aukins	aukinn	ADJ	lo_et_ef_kk_sb	Case=Gen|Gender=Masc|Number=Sing	15	amod	_	tag=lo_et_ef_kk_sb
-15	kostnaðar	kostnaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_ef_kk
-16	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
-17	rekja	rekja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	acl:relcl	_	tag=so_0_nh_gm
-18	má	mega	AUX	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_1_þf_fh_p3_et_nt_gm
-19	til	til	ADP	fs_ef	Case=Gen	20	case	_	tag=fs_ef
-20	tolla	tollur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_ef_kk
-21	sem	sem	SCONJ	stt	_	23	mark	_	tag=stt
-22	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	23	nsubj	_	tag=person_nf_kk
-23	fyrirskipaði	fyrirskipa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-24	að	að	SCONJ	st	_	25	mark	_	tag=st
-25	yrðu	verða	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	23	obj	_	tag=so_0_vh_p3_ft_þt_gm
-26	lagðir	leggja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	25	VANTAR_LIÐ_IP_None	_	tag=so_0_lhþt_ft
-27	á	á	ADP	fs_þf	Case=Acc	28	case	_	tag=fs_þf
-28	innflutning	innflutningur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	26	obl	_	tag=no_et_þf_kk
-29	á	á	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
-30	áli	ál	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	tag=no_et_þgf_hk
-31	og	og	CCONJ	st	_	32	cc	_	tag=st
-32	stáli	stál	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	30	conj	_	SpaceAfter=No|tag=no_et_þgf_hk
-33	,	_	PUNCT	grm	_	32	punct	_	tag=grm
-34	einkum	einkum	ADV	eo	_	30	advmod	_	tag=eo
-35	frá	frá	ADP	fs_þgf	Case=Dat	36	case	_	tag=fs_þgf
-36	Kína	Kína	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	30	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
-37	,	_	PUNCT	grm	_	36	punct	_	tag=grm
-38	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-39	illa	illa	ADV	ao	_	38	advmod	_	tag=ao
-40	í	í	ADP	fs_þf	Case=Acc	41	case	_	tag=fs_þf
-41	Trump	Trump	PROPN	person_þf_kk	Case=Acc|Gender=Masc	38	obl	_	SpaceAfter=No|tag=person_þf_kk
-42	.	_	PUNCT	grm	_	38	punct	_	tag=grm
+1	Ákvörðun	ákvörðun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	39	nsubj	_	tag=no_et_nf_kvk
+2-3	Harley Davidson	_	_	_	_	_	_	_	_
+2	Harley	Harley	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_hk
+3	Davidson	Davidson	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	fixed	_	tag=fyrirtæki_et_ef_hk
+4	um	um	ADP	fs_nh	VerbForm=Inf	6	case	_	tag=fs_nh
+5	að	að	PART	nhm	_	6	mark	_	tag=nhm
+6	færa	færa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	obl	_	tag=so_1_þf_nh_gm
+7	hluta	hluti	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	tag=no_et_þf_kk
+8	af	af	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	framleiðslu	framleiðsla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þgf_kvk
+10	mótorhjólana	mótorhjól	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	9	nmod:poss	_	tag=no_ft_ef_hk_gr
+11	úr	úr	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	landi	land	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
+14	vegna	vegna	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
+15	aukins	aukinn	ADJ	lo_et_ef_kk_sb	Case=Gen|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_ef_kk_sb
+16	kostnaðar	kostnaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_ef_kk
+17	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
+18	rekja	rekja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	16	acl:relcl	_	tag=so_0_nh_gm
+19	má	mega	AUX	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	tag=so_1_þf_fh_p3_et_nt_gm
+20	til	til	ADP	fs_ef	Case=Gen	21	case	_	tag=fs_ef
+21	tolla	tollur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	18	obl	_	tag=no_et_ef_kk
+22	sem	sem	SCONJ	stt	_	24	mark	_	tag=stt
+23	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	24	nsubj	_	tag=person_nf_kk
+24	fyrirskipaði	fyrirskipa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	21	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
+25	að	að	SCONJ	st	_	26	mark	_	tag=st
+26	yrðu	verða	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	24	obj	_	tag=so_0_vh_p3_ft_þt_gm
+27	lagðir	leggja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	26	VANTAR_LIÐ_IP_None	_	tag=so_0_lhþt_ft
+28	á	á	ADP	fs_þf	Case=Acc	29	case	_	tag=fs_þf
+29	innflutning	innflutningur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	27	obl	_	tag=no_et_þf_kk
+30	á	á	ADP	fs_þgf	Case=Dat	31	case	_	tag=fs_þgf
+31	áli	ál	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	29	obl	_	tag=no_et_þgf_hk
+32	og	og	CCONJ	st	_	33	cc	_	tag=st
+33	stáli	stál	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	31	conj	_	SpaceAfter=No|tag=no_et_þgf_hk
+34	,	_	PUNCT	grm	_	33	punct	_	tag=grm
+35	einkum	einkum	ADV	eo	_	31	advmod	_	tag=eo
+36	frá	frá	ADP	fs_þgf	Case=Dat	37	case	_	tag=fs_þgf
+37	Kína	Kína	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	31	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
+38	,	_	PUNCT	grm	_	37	punct	_	tag=grm
+39	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+40	illa	illa	ADV	ao	_	39	advmod	_	tag=ao
+41	í	í	ADP	fs_þf	Case=Acc	42	case	_	tag=fs_þf
+42	Trump	Trump	PROPN	person_þf_kk	Case=Acc|Gender=Masc	39	obl	_	SpaceAfter=No|tag=person_þf_kk
+43	.	_	PUNCT	grm	_	39	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00197,.3
 # text = Þetta er bara þriðja áætlunin sem er gefin út og þetta er allt í samræmi við lög um opinber fjármál frá 2016, segir hún og bætir við, en þetta hefur ekki komið fyrir í hin skiptin.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	bara	bara	ADV	eo	_	5	advmod	_	tag=eo
 4	þriðja	þriðji	ADJ	lo_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk
 5	áætlunin	áætlun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk_gr
@@ -100,7 +101,7 @@
 9	út	út	ADV	ao	_	8	compound:prt	_	tag=ao
 10	og	og	CCONJ	st	_	5	cc	_	tag=st
 11	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	tag=fn_et_nf_hk
-12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 13	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	('HALLÓ_S', 'QUOTE', 'S0', None)	_	tag=fn_et_nf_hk
 14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	samræmi	samræmi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þgf_hk
@@ -134,48 +135,57 @@
 1	Sú	sá	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	tag=fn_et_nf_kvk
 2	klípa	klípa	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
 3	snýr	snúa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-4	fyrst og fremst	fyrst og fremst	ADV	ao	_	3	advmod	_	tag=ao
-5	að	að	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	Hillary Clinton	Hillary Clinton	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	3	obl	_	tag=person_þgf_kvk
-7	sem	sem	SCONJ	stt	_	23	mark	_	SpaceAfter=No|tag=stt
-8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-9	þrátt fyrir	þrátt fyrir	ADV	ao	_	13	mark	_	tag=ao
-10	að	að	SCONJ	st	_	9	cc	_	tag=st
-11	nær	nær	ADV	eo	_	12	advmod	_	tag=eo
-12	allir	allur	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	tag=fn_ft_nf_kk
-13	líti	líta	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	23	advcl	_	tag=so_1_þf_vh_p3_ft_nt_gm
-14	svo	svo	ADV	ao	_	13	advmod	_	tag=ao
-15	á	á	ADV	ao	_	13	compound:prt	_	tag=ao
-16	að	að	SCONJ	st	_	21	mark	_	tag=st
-17	útnefning	útnefning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	tag=no_et_nf_kvk
-18	hennar	hún	PRON	pfn_et_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nmod:poss	_	tag=pfn_et_ef_kvk_p3
-19	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
-20	einungis	einungis	ADV	eo	_	21	advmod	_	tag=eo
-21	formsatriði	formsatriði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	ccomp	_	SpaceAfter=No|tag=no_et_nf_hk
-22	,	_	PUNCT	grm	_	21	punct	_	tag=grm
-23	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	tag=so_1_nf_vh_p3_et_nt_gm
-24	orðin	verða	AUX	so_0_lhþt_et	Number=Sing|VerbForm=Part	23	aux	_	tag=so_0_lhþt_et
-25	það	það	ADV	ao	_	26	advmod	_	tag=ao
-26	löskuð	laska	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	23	acl:relcl	_	tag=so_0_lhþt_et
-27	að	að	SCONJ	st	_	30	mark	_	tag=st
-28	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	tag=pfn_et_nf_kvk_p3
-29	muni	munu	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	aux	_	tag=so_0_vh_p3_et_nt_gm
-30	eiga	eiga	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	26	advcl	_	tag=so_1_þf_nh_gm
-31	mjög	mjög	ADV	eo	_	33	advmod	_	tag=eo
-32	erfitt	erfiður	ADJ	lo_et_þf_hk_fst_sb_sef	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	tag=lo_et_þf_hk_fst_sb_sef
-33	uppdráttar	uppdráttur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	30	obj	_	tag=no_et_ef_kk
-34	gegn	gegn	ADP	fs_þgf	Case=Dat	35	case	_	tag=fs_þgf
-35	Donald Trump	Donald Trump	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	30	obl	_	tag=person_þgf_kk
-36	í	í	ADP	fs_þgf	Case=Dat	37	case	_	tag=fs_þgf
-37	nóvember	nóvember	ADV	dagsafs	_	30	advmod	_	SpaceAfter=No|tag=dagsafs
-38	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+4-6	fyrst og fremst	_	_	_	_	_	_	_	_
+4	fyrst	fyrst	ADV	ao	_	3	advmod	_	tag=ao
+5	og	og	ADV	ao	_	4	fixed	_	tag=ao
+6	fremst	fremst	ADV	ao	_	5	fixed	_	tag=ao
+7	að	að	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8-9	Hillary Clinton	_	_	_	_	_	_	_	_
+8	Hillary	Hillary	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	3	obl	_	tag=person_þgf_kvk
+9	Clinton	Clinton	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	8	fixed	_	tag=person_þgf_kvk
+10	sem	sem	SCONJ	stt	_	27	mark	_	SpaceAfter=No|tag=stt
+11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
+12-13	þrátt fyrir	_	_	_	_	_	_	_	_
+12	þrátt	þrátt	ADV	ao	_	17	mark	_	tag=ao
+13	fyrir	fyrir	ADV	ao	_	12	fixed	_	tag=ao
+14	að	að	SCONJ	st	_	12	cc	_	tag=st
+15	nær	nær	ADV	eo	_	16	advmod	_	tag=eo
+16	allir	allur	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	tag=fn_ft_nf_kk
+17	líti	líta	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	advcl	_	tag=so_1_þf_vh_p3_ft_nt_gm
+18	svo	svo	ADV	ao	_	17	advmod	_	tag=ao
+19	á	á	ADV	ao	_	17	compound:prt	_	tag=ao
+20	að	að	SCONJ	st	_	25	mark	_	tag=st
+21	útnefning	útnefning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	tag=no_et_nf_kvk
+22	hennar	hún	PRON	pfn_et_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nmod:poss	_	tag=pfn_et_ef_kvk_p3
+23	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+24	einungis	einungis	ADV	eo	_	25	advmod	_	tag=eo
+25	formsatriði	formsatriði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	17	ccomp	_	SpaceAfter=No|tag=no_et_nf_hk
+26	,	_	PUNCT	grm	_	25	punct	_	tag=grm
+27	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	tag=so_1_nf_vh_p3_et_nt_gm
+28	orðin	verða	AUX	so_0_lhþt_et	Number=Sing|VerbForm=Part	27	aux	_	tag=so_0_lhþt_et
+29	það	það	ADV	ao	_	30	advmod	_	tag=ao
+30	löskuð	laska	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	27	acl:relcl	_	tag=so_0_lhþt_et
+31	að	að	SCONJ	st	_	34	mark	_	tag=st
+32	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	tag=pfn_et_nf_kvk_p3
+33	muni	munu	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	34	aux	_	tag=so_0_vh_p3_et_nt_gm
+34	eiga	eiga	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	30	advcl	_	tag=so_1_þf_nh_gm
+35	mjög	mjög	ADV	eo	_	37	advmod	_	tag=eo
+36	erfitt	erfiður	ADJ	lo_et_þf_hk_fst_sb_sef	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	tag=lo_et_þf_hk_fst_sb_sef
+37	uppdráttar	uppdráttur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	34	obj	_	tag=no_et_ef_kk
+38	gegn	gegn	ADP	fs_þgf	Case=Dat	39	case	_	tag=fs_þgf
+39-40	Donald Trump	_	_	_	_	_	_	_	_
+39	Donald	Donald	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	34	obl	_	tag=person_þgf_kk
+40	Trump	Trump	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	39	fixed	_	tag=person_þgf_kk
+41	í	í	ADP	fs_þgf	Case=Dat	42	case	_	tag=fs_þgf
+42	nóvember	nóvember	ADV	dagsafs	_	34	advmod	_	SpaceAfter=No|tag=dagsafs
+43	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00197,.5
 # text = Varðandi ríkið þá er ég náttúrulega stoltur yfir mörgu þar — en af löggjöf getur maður nefnt upplýsingalöggjöf, stjórnsýslulöggjöf, en jafnframt að við samfellt borguðum niður skuldir ríkisins um leið og við lækkuðum skatta aftur, aftur og aftur.
 1	Varðandi	varðandi	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	ríkið	ríki	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk_gr
 3	þá	þá	ADV	ao	_	7	advmod	_	tag=ao
-4	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_nf_fh_p1_et_nt_gm
+4	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p1_et_nt_gm
 5	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_p1
 6	náttúrulega	náttúrulega	ADV	ao	_	7	advmod	_	tag=ao
 7	stoltur	stoltur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
@@ -210,8 +220,11 @@
 36	skatta	skattur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	35	obj	_	tag=no_ft_þf_kk
 37	aftur	aftur	ADV	ao	_	35	advmod	_	SpaceAfter=No|tag=ao
 38	,	_	PUNCT	grm	_	37	punct	_	tag=grm
-39	aftur og aftur	aftur og aftur	ADV	ao	_	37	advmod	_	SpaceAfter=No|tag=ao
-40	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+39-41	aftur og aftur	_	_	_	_	_	_	_	_
+39	aftur	aftur	ADV	ao	_	37	advmod	_	SpaceAfter=No|tag=ao
+40	og	og	ADV	ao	_	39	fixed	_	SpaceAfter=No|tag=ao
+41	aftur	aftur	ADV	ao	_	40	fixed	_	SpaceAfter=No|tag=ao
+42	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00197,.6
 # text = Fésbók hefur legið undir gagnrýni fyrir að fjarlægja ekki samskonar falsað myndband af Nanci Pelosi, forseta fulltrúadeildar bandaríkjaþings, þar sem hún er látin stama og eiga í erfiðleikum með að koma frá sér heilli setningu líkt og hún sé drukkin.
@@ -228,40 +241,42 @@
 11	falsað	falsaður	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_þf_hk_sb
 12	myndband	myndband	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þf_hk
 13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	Nanci Pelosi	Nanci Pelosi	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	12	obl	_	SpaceAfter=No|tag=person_þgf_kvk
-15	,	_	PUNCT	grm	_	14	punct	_	tag=grm
-16	forseta	forseti	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þf_kk
-17	fulltrúadeildar	fulltrúadeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	tag=no_et_ef_kvk
-18	bandaríkjaþings	bandaríkjaþing	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	17	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
-19	,	_	PUNCT	grm	_	18	punct	_	tag=grm
-20	þar	þar	ADV	ao	_	12	advmod	_	tag=ao
-21	sem	sem	SCONJ	stt	_	24	mark	_	tag=stt
-22	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	tag=pfn_et_nf_kvk_p3
-23	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	tag=so_1_nf_fh_p3_et_nt_gm
-24	látin	láta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	20	advcl	_	tag=so_0_lhþt_et
-25	stama	stama	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	24	xcomp	_	tag=so_0_nh_gm
-26	og	og	CCONJ	st	_	27	cc	_	tag=st
-27	eiga	eiga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	25	conj	_	tag=so_0_nh_gm
-28	í	í	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
-29	erfiðleikum	erfiðleiki	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	27	obl	_	tag=no_ft_þgf_kk
-30	með	með	ADP	fs_nh	VerbForm=Inf	32	case	_	tag=fs_nh
-31	að	að	PART	nhm	_	32	mark	_	tag=nhm
-32	koma	koma	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	29	obl	_	tag=so_1_þf_nh_gm
-33	frá	frá	ADP	fs_þgf	Case=Dat	34	case	_	tag=fs_þgf
-34	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	32	obl	_	tag=abfn_þgf
-35	heilli	heill	ADJ	lo_et_þf_kvk_fst_sb	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	tag=lo_et_þf_kvk_fst_sb
-36	setningu	setning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	tag=no_et_þf_kvk
-37	líkt	líkt	ADV	ao	_	41	cc	_	tag=ao
-38	og	og	CCONJ	st	_	37	cc	_	tag=st
-39	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	tag=pfn_et_nf_kvk_p3
-40	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	41	aux	_	tag=so_1_nf_vh_p3_et_nt_gm
-41	drukkin	drukkinn	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	advcl	_	SpaceAfter=No|tag=lo_et_nf_kvk_fst_sb
-42	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+14-15	Nanci Pelosi	_	_	_	_	_	_	_	_
+14	Nanci	Nanci	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	12	obl	_	SpaceAfter=No|tag=person_þgf_kvk
+15	Pelosi	Pelosi	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	14	fixed	_	SpaceAfter=No|tag=person_þgf_kvk
+16	,	_	PUNCT	grm	_	14	punct	_	tag=grm
+17	forseta	forseti	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þf_kk
+18	fulltrúadeildar	fulltrúadeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	17	nmod:poss	_	tag=no_et_ef_kvk
+19	bandaríkjaþings	bandaríkjaþing	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	18	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
+20	,	_	PUNCT	grm	_	19	punct	_	tag=grm
+21	þar	þar	ADV	ao	_	12	advmod	_	tag=ao
+22	sem	sem	SCONJ	stt	_	25	mark	_	tag=stt
+23	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	tag=pfn_et_nf_kvk_p3
+24	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	tag=so_1_nf_fh_p3_et_nt_gm
+25	látin	láta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	21	advcl	_	tag=so_0_lhþt_et
+26	stama	stama	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	25	xcomp	_	tag=so_0_nh_gm
+27	og	og	CCONJ	st	_	28	cc	_	tag=st
+28	eiga	eiga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	26	conj	_	tag=so_0_nh_gm
+29	í	í	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
+30	erfiðleikum	erfiðleiki	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	26	obl	_	tag=no_ft_þgf_kk
+31	með	með	ADP	fs_nh	VerbForm=Inf	33	case	_	tag=fs_nh
+32	að	að	PART	nhm	_	33	mark	_	tag=nhm
+33	koma	koma	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	30	obl	_	tag=so_1_þf_nh_gm
+34	frá	frá	ADP	fs_þgf	Case=Dat	35	case	_	tag=fs_þgf
+35	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	33	obl	_	tag=abfn_þgf
+36	heilli	heill	ADJ	lo_et_þf_kvk_fst_sb	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	tag=lo_et_þf_kvk_fst_sb
+37	setningu	setning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	tag=no_et_þf_kvk
+38	líkt	líkt	ADV	ao	_	42	cc	_	tag=ao
+39	og	og	CCONJ	st	_	38	cc	_	tag=st
+40	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	tag=pfn_et_nf_kvk_p3
+41	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	42	aux	_	tag=so_1_nf_vh_p3_et_nt_gm
+42	drukkin	drukkinn	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	advcl	_	SpaceAfter=No|tag=lo_et_nf_kvk_fst_sb
+43	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00197,.7
 # text = Það þykir ansi ólíklegt að leikmenn sem spiluðu í Pepsi-deildinni á síðustu leiktíð og verða þar næsta sumar komist í lokahópinn en orðrómar hafa verið á kreiki um að atvinnumenn séu á heimleið fyrir næstu leiktíð í Pepsi-deildinni.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
-2	þykir	þykja	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	þykir	þykja	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	ansi	ansi	ADV	ao	_	4	advmod	_	tag=ao
 4	ólíklegt	ólíklegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	að	að	SCONJ	st	_	19	mark	_	tag=st
@@ -274,7 +289,7 @@
 12	síðustu	síðari	ADJ	lo_et_þgf_kvk_esb	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	13	amod	_	tag=lo_et_þgf_kvk_esb
 13	leiktíð	leiktíð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
 14	og	og	CCONJ	st	_	8	cc	_	tag=st
-15	verða	verða	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+15	verða	verða	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 16	þar	þar	ADV	ao	_	8	acl:relcl	_	tag=ao
 17	næsta	næstur	ADJ	lo_et_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_þf_hk_evb
 18	sumar	sumar	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	advmod	_	tag=no_et_þf_hk
@@ -284,13 +299,13 @@
 22	en	en	CCONJ	st	_	4	cc	_	tag=st
 23	orðrómar	orðrómur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	tag=no_ft_nf_kk
 24	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	aux	_	tag=so_0_fh_p3_ft_nt_gm
-25	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	27	conj	_	tag=so_1_nf_sagnb_gm
+25	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	27	cop	_	tag=so_1_nf_sagnb_gm
 26	á	á	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27	kreiki	kreik	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	conj	_	tag=no_et_þgf_hk
 28	um	um	ADP	fs_nh	VerbForm=Inf	33	case	_	tag=fs_nh
 29	að	að	SCONJ	st	_	33	mark	_	tag=st
 30	atvinnumenn	atvinnumaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	tag=no_ft_nf_kk
-31	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	33	conj	_	tag=so_1_nf_vh_p3_ft_nt_gm
+31	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	33	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 32	á	á	ADP	fs_þgf	Case=Dat	33	case	_	tag=fs_þgf
 33	heimleið	heimleið	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	tag=no_et_þgf_kvk
 34	fyrir	fyrir	ADP	fs_þf	Case=Acc	36	case	_	tag=fs_þf
@@ -392,6 +407,8 @@
 43	laga	lag	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	41	conj	_	SpaceAfter=No|tag=no_ft_ef_hk
 44	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00197,.10
+# text = Umfang þeirrar útborgunar sem það þarf að verða sér út um til að komast inn á eignarmarkað hækkað stanslaust samhliða hækkunum á húsnæðismarkaði og geta þeirra til að leggja þá útborgun fyrir verður sífellt minni vegna þess að leiguverð hefur líka hækkað mikið.
 1	Umfang	umfang	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	tag=no_et_nf_hk
 2	þeirrar	sá	PRON	fn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	tag=fn_et_ef_kvk
 3	útborgunar	útborgun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk
@@ -424,7 +441,7 @@
 30	þá	sá	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	31	nmod	_	tag=fn_et_þf_kvk
 31	útborgun	útborgun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	29	obj	_	tag=no_et_þf_kvk
 32	fyrir	fyrir	ADV	ao	_	29	compound:prt	_	tag=ao
-33	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+33	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 34	sífellt	sífellt	ADV	ao	_	35	advmod	_	tag=ao
 35	minni	lítill	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	18	conj	_	tag=lo_et_nf_kvk_mst
 36	vegna	vegna	ADP	fs_ef	Case=Gen	37	case	_	tag=fs_ef
@@ -434,6 +451,6 @@
 40	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	42	aux	_	tag=so_0_fh_p3_et_nt_gm
 41	líka	líka	ADV	ao	_	42	advmod	_	tag=ao
 42	hækkað	hækka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	37	ccomp	_	tag=so_0_sagnb_gm
-43	mikið	mikið	ADV	ao	_	42	advmod	_	tag=ao
+43	mikið	mikið	ADV	ao	_	42	advmod	_	SpaceAfter=No|tag=ao
 44	.	_	PUNCT	grm	_	18	punct	_	tag=grm
 

@@ -1,29 +1,36 @@
 # sent_id = GREYNIR_CORPUS_00453,.1
 # text = Tóta og Andrea, Þórunn Pálína Jónsdóttir og Andrea Gylfadóttir, hafa sent frá sér myndband með ábreiðu lagsins Glory Box eftir Portishead, frá tíunda áratuginum.
-1	Tóta	Tóta	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	nsubj	_	tag=person_nf_kvk
+1	Tóta	Tóta	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	13	nsubj	_	tag=person_nf_kvk
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	Andrea	Andrea	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	SpaceAfter=No|tag=person_nf_kvk
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
-5	Þórunn Pálína Jónsdóttir	Þórunn Pálína Jónsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	tag=person_nf_kvk
-6	og	og	CCONJ	st	_	7	cc	_	tag=st
-7	Andrea Gylfadóttir	Andrea Gylfadóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	conj	_	SpaceAfter=No|tag=person_nf_kvk
-8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_ft_nt_gm
-10	sent	senda	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
-11	frá	frá	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	10	obl	_	tag=abfn_þgf
-13	myndband	myndband	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	tag=no_et_þf_hk
-14	með	með	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	ábreiðu	ábreiða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þgf_kvk
-16	lagsins	lag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	17	obl	_	tag=no_et_ef_hk_gr
-17	Glory Box	Glory Box	PROPN	entity	_	15	nmod:poss	_	tag=entity
-18	eftir	eftir	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19	Portishead	Portishead	PROPN	fyrirtæki	_	17	obl	_	SpaceAfter=No|tag=fyrirtæki
-20	,	,	PUNCT	grm	_	19	punct	_	tag=grm
-21	frá	frá	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-22	tíunda	tíundi	ADJ	lo_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	23	amod	_	tag=lo_et_þgf_kk
-23	áratuginum	áratugur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
-24	.	.	PUNCT	grm	_	10	punct	_	tag=grm
+5-7	Þórunn Pálína Jónsdóttir	_	_	_	_	_	_	_	_
+5	Þórunn	Þórunn	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	tag=person_nf_kvk
+6	Pálína	Pálína	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	fixed	_	tag=person_nf_kvk
+7	Jónsdóttir	Jónsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	fixed	_	tag=person_nf_kvk
+8	og	og	CCONJ	st	_	5	cc	_	tag=st
+9-10	Andrea Gylfadóttir	_	_	_	_	_	_	_	_
+9	Andrea	Andrea	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	conj	_	SpaceAfter=No|tag=person_nf_kvk
+10	Gylfadóttir	Gylfadóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+11	,	,	PUNCT	grm	_	5	punct	_	tag=grm
+12	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_fh_p3_ft_nt_gm
+13	sent	senda	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
+14	frá	frá	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+15	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	13	obl	_	tag=abfn_þgf
+16	myndband	myndband	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	tag=no_et_þf_hk
+17	með	með	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+18	ábreiðu	ábreiða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þgf_kvk
+19	lagsins	lag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	20	obl	_	tag=no_et_ef_hk_gr
+20-21	Glory Box	_	_	_	_	_	_	_	_
+20	Glory	Glory	PROPN	entity	_	18	nmod:poss	_	tag=entity
+21	Box	Box	PROPN	entity	_	20	fixed	_	tag=entity
+22	eftir	eftir	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+23	Portishead	Portishead	PROPN	fyrirtæki	_	20	obl	_	SpaceAfter=No|tag=fyrirtæki
+24	,	,	PUNCT	grm	_	23	punct	_	tag=grm
+25	frá	frá	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
+26	tíunda	tíundi	ADJ	lo_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	27	amod	_	tag=lo_et_þgf_kk
+27	áratuginum	áratugur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
+28	.	.	PUNCT	grm	_	13	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00453,.2
 # text = Eins og fram hefur komið er það forseti Íslands sem kvittar, svo til blindandi, upp á uppreist æru að beiðni dómsmálaráðuneytisins.
@@ -91,7 +98,7 @@
 8	getur	geta	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	obj	_	tag=so_0_fh_p3_et_nt_gm
 9	en	en	CCONJ	st	_	3	cc	_	tag=st
 10	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_hk_p3
-11	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_0_fh_p3_et_nt_gm
+11	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_nt_gm
 12	gaman	gaman	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_nf_hk
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
 14	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_1_þf_nh_gm
@@ -108,53 +115,60 @@
 # text = Myndarlega leikaraparið Ryan Gosling og Eva Mendes eiga von á sínu öðru barni, en fyrir eiga þau dótturina Esmeröldu sem er tæplega tveggja ára.
 1	Myndarlega	myndarlega	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	tag=lo_et_nf_hk_vb
 2	leikaraparið	leikara-par	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_nf_hk_gr
-3	Ryan Gosling	Ryan Gosling	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-4	og	og	CCONJ	st	_	5	cc	_	tag=st
-5	Eva Mendes	Eva Mendes	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	conj	_	tag=person_nf_kvk
-6	eiga	eiga	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
-7	von	von	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þf_kvk
-8	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-9	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	tag=fn_et_þgf_hk
-10	öðru	annar	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	tag=fn_et_þgf_hk
-11	barni	barn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
-13	en	en	CCONJ	st	_	6	cc	_	tag=st
-14	fyrir	fyrir	ADV	ao	_	15	advmod	_	tag=ao
-15	eiga	eiga	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
-16	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_ft_nf_hk_p3
-17	dótturina	dóttir	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_þf_kvk_gr
-18	Esmeröldu	Esmeralda	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	obj	_	tag=person_þf_kvk
-19	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
-20	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-21	tæplega	tæplega	ADV	eo	_	20	acl:relcl	_	tag=eo
-22	tveggja	tveir	NUM	to_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	23	nummod	_	tag=to_ft_ef_hk
-23	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	21	xcomp	_	SpaceAfter=No|tag=no_ft_ef_hk
-24	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+3-4	Ryan Gosling	_	_	_	_	_	_	_	_
+3	Ryan	Ryan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
+4	Gosling	Gosling	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	fixed	_	tag=person_nf_kk
+5	og	og	CCONJ	st	_	3	cc	_	tag=st
+6-7	Eva Mendes	_	_	_	_	_	_	_	_
+6	Eva	Eva	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	conj	_	tag=person_nf_kvk
+7	Mendes	Mendes	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	fixed	_	tag=person_nf_kvk
+8	eiga	eiga	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
+9	von	von	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	tag=no_et_þf_kvk
+10	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+11	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	tag=fn_et_þgf_hk
+12	öðru	annar	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	tag=fn_et_þgf_hk
+13	barni	barn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
+15	en	en	CCONJ	st	_	8	cc	_	tag=st
+16	fyrir	fyrir	ADV	ao	_	17	advmod	_	tag=ao
+17	eiga	eiga	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
+18	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_ft_nf_hk_p3
+19	dótturina	dóttir	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þf_kvk_gr
+20	Esmeröldu	Esmeralda	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	17	obj	_	tag=person_þf_kvk
+21	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
+22	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+23	tæplega	tæplega	ADV	eo	_	22	acl:relcl	_	tag=eo
+24	tveggja	tveir	NUM	to_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	25	nummod	_	tag=to_ft_ef_hk
+25	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	23	xcomp	_	SpaceAfter=No|tag=no_ft_ef_hk
+26	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00453,.6
 # text = Þórdís Lóa Þórhallsdóttir, oddviti Viðreisnar, sagðist vona að niðurstaða næðist fljótlega en vildi ekki fara lofa neinum tíma frekar en öðrum.
-1	Þórdís Lóa Þórhallsdóttir	Þórdís Lóa Þórhallsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	oddviti	oddviti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	Viðreisnar	Viðreisn	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
-5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-6	sagðist	segja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
-7	vona	vona	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_1_þf_nh_gm
-8	að	að	SCONJ	st	_	10	mark	_	tag=st
-9	niðurstaða	niðurstaða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	tag=no_et_nf_kvk
-10	næðist	ná	VERB	so_0_vh_p3_et_þt_mm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Mid	7	obj	_	tag=so_0_vh_p3_et_þt_mm
-11	fljótlega	fljótlega	ADV	ao	_	10	advmod	_	tag=ao
-12	en	en	CCONJ	st	_	6	cc	_	tag=st
-13	vildi	vilja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_þt_gm
-14	ekki	ekki	ADV	ao	_	13	advmod	_	tag=ao
-15	fara	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_0_nh_gm
-16	lofa	lofa	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_1_þgf_nh_gm
-17	neinum	neinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	tag=fn_et_þgf_kk
-18	tíma	tíma	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obj	_	tag=no_et_þgf_kk
-19	frekar	gjarna	ADV	ao_mst	Degree=Cmp	16	advmod	_	tag=ao_mst
-20	en	en	CCONJ	st	_	21	cc	_	tag=st
-21	öðrum	annar	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	19	advcl	_	SpaceAfter=No|tag=fn_ft_þgf_kk
-22	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+1-3	Þórdís Lóa Þórhallsdóttir	_	_	_	_	_	_	_	_
+1	Þórdís	Þórdís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+2	Lóa	Lóa	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+3	Þórhallsdóttir	Þórhallsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
+5	oddviti	oddviti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+6	Viðreisnar	Viðreisn	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
+7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+8	sagðist	segja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
+9	vona	vona	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_1_þf_nh_gm
+10	að	að	SCONJ	st	_	12	mark	_	tag=st
+11	niðurstaða	niðurstaða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_nf_kvk
+12	næðist	ná	VERB	so_0_vh_p3_et_þt_mm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Mid	9	obj	_	tag=so_0_vh_p3_et_þt_mm
+13	fljótlega	fljótlega	ADV	ao	_	12	advmod	_	tag=ao
+14	en	en	CCONJ	st	_	8	cc	_	tag=st
+15	vildi	vilja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_þt_gm
+16	ekki	ekki	ADV	ao	_	15	advmod	_	tag=ao
+17	fara	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_0_nh_gm
+18	lofa	lofa	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_1_þgf_nh_gm
+19	neinum	neinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	tag=fn_et_þgf_kk
+20	tíma	tíma	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	obj	_	tag=no_et_þgf_kk
+21	frekar	gjarna	ADV	ao_mst	Degree=Cmp	18	advmod	_	tag=ao_mst
+22	en	en	CCONJ	st	_	23	cc	_	tag=st
+23	öðrum	annar	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	21	advcl	_	SpaceAfter=No|tag=fn_ft_þgf_kk
+24	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00453,.7
 # text = Flestir umsækjendur komu frá Albaníu (155), Makedóníu (110), Írak (50) og Sýrlandi (27).
@@ -196,19 +210,21 @@
 9	sagði	sagður	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_þt_gm
 10	danski	danska	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_nf_kk_vb
 11	rabbíninn	rabbíni	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	tag=no_et_nf_kk_gr
-12	Jair Melchior	Jair Melchior	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	conj	_	SpaceAfter=No|tag=person_nf_kk
-13	,	,	PUNCT	grm	_	12	punct	_	tag=grm
-14	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	ráðstefnu	ráðstefna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk
-16	um	um	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	umskurð	umskurður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_þf_kk
-18	drengja	drengur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	17	nmod:poss	_	tag=no_ft_ef_kk
-19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20	Norræna	Norræna	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	15	obl	_	tag=sérnafn_nf_kvk
-21	húsinu	hús	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	20	conj	_	tag=no_et_þgf_hk_gr
-22	í	í	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
-23	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-24	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+12-13	Jair Melchior	_	_	_	_	_	_	_	_
+12	Jair	Jair	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	conj	_	SpaceAfter=No|tag=person_nf_kk
+13	Melchior	Melchior	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	SpaceAfter=No|tag=person_nf_kk
+14	,	,	PUNCT	grm	_	11	punct	_	tag=grm
+15	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+16	ráðstefnu	ráðstefna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk
+17	um	um	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
+18	umskurð	umskurður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þf_kk
+19	drengja	drengur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	18	nmod:poss	_	tag=no_ft_ef_kk
+20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+21	Norræna	Norræna	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	16	obl	_	tag=sérnafn_nf_kvk
+22	húsinu	hús	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	21	conj	_	tag=no_et_þgf_hk_gr
+23	í	í	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
+24	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+25	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00453,.9
 # text = Hægt verður að sækja um heimild til að fresta helmingi hvers gjalddaga námslána vegna kaupa á fyrsta íbúðarhúsnæði í allt að 60 mánuði.
@@ -237,6 +253,8 @@
 23	mánuði	mánuður	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	9	advmod	_	SpaceAfter=No|tag=no_ft_þf_kk
 24	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00453,.10
+# text = Veðurstofan reiknar með að veðrið nái hámarki á Suðvestur og Vesturlandinu um hádegisbil og að eftir það hlýni og fari að rigna upp.
 1	Veðurstofan	veðurstofa	PROPN	fyrirtæki_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=fyrirtæki_et_nf_kvk_gr
 2	reiknar	reikna	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -259,6 +277,6 @@
 20	fari	fara	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	conj	_	tag=so_0_vh_p3_et_nt_gm
 21	að	að	PART	nhm	_	22	mark	_	tag=nhm
 22	rigna	rigna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_0_nh_gm
-23	upp	upp	ADV	ao	_	22	advmod	_	tag=ao
+23	upp	upp	ADV	ao	_	22	advmod	_	SpaceAfter=No|tag=ao
 24	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

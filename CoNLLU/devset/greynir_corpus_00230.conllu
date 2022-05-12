@@ -9,16 +9,15 @@
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
 8	að	að	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	tag=pfn_et_þgf_hk_p3
-10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_nt_gm
+10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 11	stefnt	stefna	VERB	so_0_lhþt_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	2	conj	_	SpaceAfter=No|tag=so_0_lhþt_et_nf_hk
 12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00230,.2
 # text = Þetta verk er algjörlega hugarfóstur Jóa, segir Daníel.
--6	None	_	None	None	_	_	None	_	_
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
 2	verk	verk	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	algjörlega	algjörlega	ADV	ao	_	5	advmod	_	tag=ao
 5	hugarfóstur	hugarfóstur	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	ccomp	_	tag=no_et_nf_hk
 6	Jóa	Jói	PROPN	person_ef_kk	Case=Gen|Gender=Masc	5	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
@@ -79,7 +78,7 @@
 4	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	tag=fn_et_þf_hk
 5	þegar	þegar	SCONJ	st	_	9	mark	_	tag=st
 6	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_kk_p3
-7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 8	helmingi	helmingur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þgf_kk
 9	minni	lítill	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	2	advcl	_	tag=lo_et_nf_hk_mst
 10	en	en	CCONJ	st	_	9	advcl	_	tag=st
@@ -89,15 +88,17 @@
 # sent_id = GREYNIR_CORPUS_00230,.7
 # text = Útgefnar bækur á hverja 1.000 íbúa árið 2015 voru 4,5.
 1	Útgefnar	útgefinn	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_nf_kvk_sb
-2	bækur	bók	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	tag=no_ft_nf_kvk
+2	bækur	bók	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	tag=no_ft_nf_kvk
 3	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 4	hverja	hver	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	tag=fn_ft_þf_kk
 5	1.000	1.000	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_þf_kk
 6	íbúa	íbúi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_þf_kk
-7	árið 2015	árið 2015	ADV	ártal	_	9	advmod	_	tag=ártal
-8	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_ft_þt_gm
-9	4,5	4,5	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	0	root	_	SpaceAfter=No|tag=tala_ft_nf_kvk
-10	.	_	PUNCT	grm	_	9	punct	_	tag=grm
+7-8	árið 2015	_	_	_	_	_	_	_	_
+7	árið	árið	ADV	ártal	_	10	advmod	_	tag=ártal
+8	2015	2015	NUM	ártal	_	7	fixed	_	tag=ártal
+9	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p3_ft_þt_gm
+10	4,5	4,5	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	0	root	_	SpaceAfter=No|tag=tala_ft_nf_kvk
+11	.	_	PUNCT	grm	_	10	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00230,.8
 # text = Bylgjurnar urðu til við árekstur tveggja svarthola í órafjarlægð frá jörðu.
@@ -125,7 +126,7 @@
 7	upplýsa	upplýsa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
 8	hvar	hvar	ADV	ao	_	11	advmod	_	tag=ao
 9	Sindri	Sindri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-10	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	11	conj	_	tag=so_0_vh_p3_et_þt_gm
+10	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_vh_p3_et_þt_gm
 11	vistaður	vista	VERB	so_0_lhþt_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	7	obj	_	SpaceAfter=No|tag=so_0_lhþt_et_nf_kk
 12	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

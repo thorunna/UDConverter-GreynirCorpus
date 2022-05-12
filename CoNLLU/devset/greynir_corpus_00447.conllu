@@ -6,7 +6,7 @@
 4	frá	frá	ADP	fs_þgf	Case=Dat	8	mark	_	tag=fs_þgf
 5	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nmod	_	tag=pfn_et_þgf_hk_p3
 6	Sigmundur	Sigmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
-7	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+7	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 8	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	advcl	_	tag=no_et_nf_kk
 9	stefnt	stefna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 10	að	að	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
@@ -27,7 +27,7 @@
 # sent_id = GREYNIR_CORPUS_00447,.2
 # text = Tæp 9% fullorðinna landsmanna reykja og vísaði ráðherra til virkara og áhrifaríkra forvarnaraðgerða sem unnið hefði verið að á grundvelli stefnu stjórnvalda.
 1	Tæp	tæpur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	2	amod	_	tag=lo_ft_nf_hk_sb
-2	9%	9%	X	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	dep	_	tag=prósenta_ft_nf_hk
+2	9%	9%	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	tag=prósenta_ft_nf_hk
 3	fullorðinna	fullorðinn	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	4	amod	_	tag=lo_ft_ef_kk_sb
 4	landsmanna	landsmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	2	nmod:poss	_	tag=no_ft_ef_kk
 5	reykja	reykja	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
@@ -35,7 +35,7 @@
 7	vísaði	vísa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_þt_gm
 8	ráðherra	ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk
 9	til	til	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
-10	virkara	virkur	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	13	('HALLÓ_ADJP', None, 'NP', None)	_	tag=lo_ft_ef_kvk_sb
+10	virkara	virkur	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	13	amod	_	tag=lo_ft_ef_kvk_sb
 11	og	og	CCONJ	st	_	12	cc	_	tag=st
 12	áhrifaríkra	áhrifaríkur	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	10	conj	_	tag=lo_ft_ef_kvk_sb
 13	forvarnaraðgerða	forvarnar-aðgerð	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_ef_kvk
@@ -80,27 +80,29 @@
 # text = Ef við tökum hugmyndir Maya Angelou um kærleikann og ástina, þá geri ég það með því að setja mig í fyrsta sætið.
 1	Ef	ef	SCONJ	st	_	3	mark	_	tag=st
 2	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
-3	tökum	taka	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	12	advcl	_	tag=so_1_þf_fh_p1_ft_nt_gm
+3	tökum	taka	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	13	advcl	_	tag=so_1_þf_fh_p1_ft_nt_gm
 4	hugmyndir	hugmynd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	tag=no_ft_þf_kvk
-5	Maya Angelou	Maya Angelou	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	4	nmod:poss	_	tag=person_ef_kvk
-6	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	kærleikann	kærleiki	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk_gr
-8	og	og	CCONJ	st	_	9	cc	_	tag=st
-9	ástina	ást	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
-10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	þá	þá	ADV	ao	_	12	advmod	_	tag=ao
-12	geri	gera	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
-13	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_p1
-14	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	tag=pfn_et_þf_hk_p3
-15	með	með	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=fn_et_þgf_hk
-17	að	að	PART	nhm	_	18	mark	_	tag=nhm
-18	setja	setja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_1_þf_nh_gm
-19	mig	ég	PRON	pfn_et_þf_p1	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	_	tag=pfn_et_þf_p1
-20	í	í	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
-21	fyrsta	fyrstur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	22	amod	_	tag=lo_et_þf_hk_vb
-22	sætið	sæti	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
-23	.	.	PUNCT	grm	_	12	punct	_	tag=grm
+5-6	Maya Angelou	_	_	_	_	_	_	_	_
+5	Maya	Maya	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	4	nmod:poss	_	tag=person_ef_kvk
+6	Angelou	Angelou	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	5	fixed	_	tag=person_ef_kvk
+7	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
+8	kærleikann	kærleiki	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk_gr
+9	og	og	CCONJ	st	_	10	cc	_	tag=st
+10	ástina	ást	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
+11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
+12	þá	þá	ADV	ao	_	13	advmod	_	tag=ao
+13	geri	gera	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
+14	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	tag=pfn_et_nf_p1
+15	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	tag=pfn_et_þf_hk_p3
+16	með	með	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	tag=fn_et_þgf_hk
+18	að	að	PART	nhm	_	19	mark	_	tag=nhm
+19	setja	setja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_1_þf_nh_gm
+20	mig	ég	PRON	pfn_et_þf_p1	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obj	_	tag=pfn_et_þf_p1
+21	í	í	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+22	fyrsta	fyrstur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	23	amod	_	tag=lo_et_þf_hk_vb
+23	sætið	sæti	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
+24	.	.	PUNCT	grm	_	13	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00447,.5
 # text = Það á líka við um tillögur sem lagðar hafa verið fram um leiðir til að draga úr eða stöðva brotastarfsemi á vinnumarkaði.
@@ -163,20 +165,24 @@
 5	öll	allur	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	obl	_	tag=fn_ft_nf_hk
 6	flutt	flytja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 7	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	6	obj	_	tag=abfn_þf
-8	á milli	á milli	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
-9	borga	borg	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_ef_kvk
-10	eða	eða	CCONJ	st	_	6	cc	_	tag=st
-11	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_nt_gm
-12	að	að	PART	nhm	_	13	mark	_	tag=nhm
-13	fata	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	xcomp	_	tag=so_0_nh_gm
-14	að	að	PART	nhm	_	15	mark	_	tag=nhm
-15	flytja	flytja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_1_þf_nh_gm
-16	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	15	obj	_	tag=abfn_þf
-17	á milli	á milli	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
-18	borga	borg	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	15	obl	_	tag=no_ft_ef_kvk
-19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20	Bandaríkjunum	Bandaríkin	PROPN	sérnafn_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	18	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_hk_gr
-21	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+8-9	á milli	_	_	_	_	_	_	_	_
+8	á	á	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
+9	milli	milli	ADP	fs_ef	Case=Gen	8	fixed	_	tag=fs_ef
+10	borga	borg	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_ef_kvk
+11	eða	eða	CCONJ	st	_	6	cc	_	tag=st
+12	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_ft_nt_gm
+13	að	að	PART	nhm	_	14	mark	_	tag=nhm
+14	fata	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
+15	að	að	PART	nhm	_	16	mark	_	tag=nhm
+16	flytja	flytja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	xcomp	_	tag=so_1_þf_nh_gm
+17	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	16	obj	_	tag=abfn_þf
+18-19	á milli	_	_	_	_	_	_	_	_
+18	á	á	ADP	fs_ef	Case=Gen	20	case	_	tag=fs_ef
+19	milli	milli	ADP	fs_ef	Case=Gen	18	fixed	_	tag=fs_ef
+20	borga	borg	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	16	obl	_	tag=no_ft_ef_kvk
+21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+22	Bandaríkjunum	Bandaríkin	PROPN	sérnafn_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_hk_gr
+23	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00447,.8
 # text = Konan, sem er 41 árs, var flutt á sjúkrahús en hún hafði reynt á skera sig á púls með eldhúshníf.
@@ -186,8 +192,8 @@
 4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 5	41	41	NUM	tala_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing|NumType=Card	4	acl:relcl	_	tag=tala_et_ef_hk
 6	árs	ár	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	xcomp	_	SpaceAfter=No|tag=no_et_ef_hk
-7	,	,	PUNCT	grm	_	8	punct	_	tag=grm
-8	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_þt_gm
+7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+8	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_þt_gm
 9	flutt	flytja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 10	á	á	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	sjúkrahús	sjúkrahús	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þf_hk
@@ -230,6 +236,8 @@
 22	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No|tag=pfn_et_þf_hk_p3
 23	.	.	PUNCT	grm	_	15	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00447,.10
+# text = Fyrir þann sem giskar rétt á öll tuttugu sætin þá mun sá hinn sami fá tvær milljónir dollara í verðlaunafé eða meira en 210 milljónir íslenskra króna.
 1	Fyrir	fyrir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	tag=fn_et_þf_kk
 3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
@@ -245,12 +253,19 @@
 13	hinn	hinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	tag=fn_et_nf_kk
 14	sami	sami	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_nf_kk_vb
 15	fá	fá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
-16	tvær milljónir dollara	tvær milljónir dollara	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	tag=no_ft_þf_kvk
-17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	verðlaunafé	verðlaunafé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	tag=no_et_þf_hk
-19	eða	eða	CCONJ	st	_	16	cc	_	tag=st
-20	meira	mikill	ADJ	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þf_hk_mst
-21	en	en	CCONJ	st	_	22	cc	_	tag=st
-22	210 milljónir íslenskra króna	210 milljónir íslenskra króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	16	advcl	_	tag=no_ft_þf_kvk
-23	.	.	PUNCT	grm	_	15	punct	_	tag=grm
+16-18	tvær milljónir dollara	_	_	_	_	_	_	_	_
+16	tvær	tvær	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	tag=no_ft_þf_kvk
+17	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	16	fixed	_	tag=no_ft_þf_kvk
+18	dollara	dollara	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	17	fixed	_	tag=no_ft_þf_kvk
+19	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
+20	verðlaunafé	verðlaunafé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	tag=no_et_þf_hk
+21	eða	eða	CCONJ	st	_	16	cc	_	tag=st
+22	meira	mikill	ADJ	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þf_hk_mst
+23	en	en	CCONJ	st	_	24	cc	_	tag=st
+24-27	210 milljónir íslenskra króna	_	_	_	_	_	_	_	_
+24	210	210	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	16	advcl	_	SpaceAfter=No|tag=no_ft_þf_kvk
+25	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	24	fixed	_	SpaceAfter=No|tag=no_ft_þf_kvk
+26	íslenskra	íslenskra	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	25	fixed	_	SpaceAfter=No|tag=no_ft_þf_kvk
+27	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	26	fixed	_	SpaceAfter=No|tag=no_ft_þf_kvk
+28	.	.	PUNCT	grm	_	15	punct	_	tag=grm
 

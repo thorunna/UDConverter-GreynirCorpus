@@ -6,9 +6,9 @@
 4	C-riðil	C-riðill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
 5	mótsins	mót	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk_gr
 6	og	og	CCONJ	st	_	2	cc	_	tag=st
-7	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
+7	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_0_fh_p3_et_þt_gm
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	riðli	riðill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
+9	riðli	riðill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
 10	með	með	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	Rúmeníu	Rúmenía	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
 12	,	,	PUNCT	grm	_	13	punct	_	tag=grm
@@ -20,26 +20,28 @@
 # sent_id = GREYNIR_CORPUS_00417,.2
 # text = Safnið Louvre Abu Dhabi opnaði fyrr í þessum mánuði eftir að hafa verið um 10 ár í byggingu.
 1	Safnið	safn	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_nf_hk_gr
-2	Louvre Abu Dhabi	Louvre Abu Dhabi	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
-3	opnaði	opna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-4	fyrr	fyrr	ADV	ao_mst	Degree=Cmp	3	advmod	_	tag=ao_mst
-5	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-6	þessum	þessi	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	tag=fn_et_þgf_kk
-7	mánuði	mánuður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
-8	eftir	eftir	ADP	fs_nh	VerbForm=Inf	11	case	_	tag=fs_nh
-9	að	að	PART	nhm	_	11	mark	_	tag=nhm
-10	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	aux	_	tag=so_0_nh_gm
-11	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	3	obl	_	tag=so_1_nf_sagnb_gm
-12	um	um	ADV	eo	_	14	advmod	_	tag=eo
-13	10	10	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	14	nummod	_	tag=tala_ft_þf_hk
-14	ár	ár	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	advmod	_	tag=no_ft_þf_hk
-15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	byggingu	bygging	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-17	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+2-4	Louvre Abu Dhabi	_	_	_	_	_	_	_	_
+2	Louvre	Louvre	PROPN	sérnafn	_	5	nsubj	_	tag=sérnafn
+3	Abu	Abu	PROPN	sérnafn	_	2	fixed	_	tag=sérnafn
+4	Dhabi	Dhabi	PROPN	sérnafn	_	3	fixed	_	tag=sérnafn
+5	opnaði	opna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+6	fyrr	fyrr	ADV	ao_mst	Degree=Cmp	5	advmod	_	tag=ao_mst
+7	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+8	þessum	þessi	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	tag=fn_et_þgf_kk
+9	mánuði	mánuður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
+10	eftir	eftir	ADP	fs_nh	VerbForm=Inf	13	case	_	tag=fs_nh
+11	að	að	PART	nhm	_	13	mark	_	tag=nhm
+12	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	aux	_	tag=so_0_nh_gm
+13	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	obl	_	tag=so_1_nf_sagnb_gm
+14	um	um	ADV	eo	_	16	advmod	_	tag=eo
+15	10	10	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	16	nummod	_	tag=tala_ft_þf_hk
+16	ár	ár	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	13	advmod	_	tag=no_ft_þf_hk
+17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+18	byggingu	bygging	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+19	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00417,.3
 # text = Botninn á bílnum var skaddað og rafgeymirinn var að ofhitna svo við ákváðum að stoppa bílinn.
--2	None	_	None	None	_	_	None	_	_
 1	Botninn	botn	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk_gr
 2	á	á	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	bílnum	bíll	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_þgf_kk_gr
@@ -81,12 +83,12 @@
 
 # sent_id = GREYNIR_CORPUS_00417,.5
 # text = En, Júlíus var einmitt skipaður sendiherra í skammvinnri tíð Davíðs í utanríkisráðuneytinu, ásamt tíu öðrum.
-1	En	en	SCONJ	st	_	0	root	_	SpaceAfter=No|tag=st
-2	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+1	En	en	SCONJ	st	_	6	cc	_	SpaceAfter=No|tag=st
+2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 3	Júlíus	Júlíus	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_þt_gm
+4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	einmitt	einmitt	ADV	eo	_	6	advmod	_	tag=eo
-6	skipaður	skipa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	conj	_	tag=so_0_lhþt_et
+6	skipaður	skipa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 7	sendiherra	sendiherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_nf_kk
 8	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	skammvinnri	skammvinnur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_þgf_kvk_sb
@@ -98,7 +100,7 @@
 15	ásamt	ásamt	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 16	tíu	tíu	NUM	töl_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	nummod	_	tag=töl_ft_þgf_kk
 17	öðrum	annar	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|tag=fn_ft_þgf_hk
-18	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+18	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00417,.6
 # text = Rætt er um að lágmarksfjárhæð sem verði hægt að leggja til verkefnisins verði um 200 — 250 þúsund íslenskra króna.
@@ -118,8 +120,12 @@
 14	um	um	ADV	eo	_	17	advmod	_	tag=eo
 15	200	200	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	17	nummod	_	SpaceAfter=No|tag=tala_ft_nf_hk
 16	—	—	PUNCT	grm	_	15	punct	_	tag=grm
-17	250 þúsund íslenskra króna	250 þúsund íslenskra króna	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No|tag=no_ft_nf_kvk
-18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+17-20	250 þúsund íslenskra króna	_	_	_	_	_	_	_	_
+17	250	250	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No|tag=no_ft_nf_kvk
+18	þúsund	þúsund	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	17	fixed	_	SpaceAfter=No|tag=no_ft_nf_kvk
+19	íslenskra	íslenskra	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	18	fixed	_	SpaceAfter=No|tag=no_ft_nf_kvk
+20	króna	króna	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	19	fixed	_	SpaceAfter=No|tag=no_ft_nf_kvk
+21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00417,.7
 # text = Menn hafa svo sem verið að fetta fingur út í það að hún hafi fundað sjaldan ríkisstjórnin.
@@ -153,20 +159,22 @@
 7	talaði	tala	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 8	enska	enskur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_nf_kvk_vb
 9	goðsögnin	goðsögn	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_nf_kvk_gr
-10	Alan Shearer	Alan Shearer	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
-11	afar	afar	ADV	ao	_	7	advmod	_	tag=ao
-12	fallega	fallega	ADV	ao	_	11	advmod	_	tag=ao
-13	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14	Ragnar	Ragnar	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	obl	_	tag=person_þf_kk
-15	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-16	breska	breskur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	17	amod	_	tag=lo_et_þgf_hk_vb
-17	sjónvarpinu	sjónvarp	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-18	.	.	PUNCT	grm	_	7	punct	_	tag=grm
+10-11	Alan Shearer	_	_	_	_	_	_	_	_
+10	Alan	Alan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
+11	Shearer	Shearer	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	fixed	_	tag=person_nf_kk
+12	afar	afar	ADV	ao	_	7	advmod	_	tag=ao
+13	fallega	fallega	ADV	ao	_	12	advmod	_	tag=ao
+14	um	um	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+15	Ragnar	Ragnar	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	obl	_	tag=person_þf_kk
+16	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+17	breska	breskur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_þgf_hk_vb
+18	sjónvarpinu	sjónvarp	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+19	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00417,.9
 # text = Við erum að mörgu leyti ósáttir við hana, hún náði ekki andanum sem var í bandinu.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_ft_nf_p1
-2	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p1_ft_nt_gm
+2	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p1_ft_nt_gm
 3	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 4	mörgu	margur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þgf_hk_sb
 5	leyti	leyti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk

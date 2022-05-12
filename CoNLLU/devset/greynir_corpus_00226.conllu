@@ -14,16 +14,16 @@
 
 # sent_id = GREYNIR_CORPUS_00226,.2
 # text = En oftast eru þetta eignaspjöll, segir í svarinu.
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+1	En	en	SCONJ	st	_	5	cc	_	tag=st
 2	oftast	oft	ADV	ao_est	Degree=Sup	5	advmod	_	tag=ao_est
-3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-5	eignaspjöll	eignaspjöll	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	1	('HALLÓ_S', 'QUOTE', 'S0', None)	_	SpaceAfter=No|tag=no_ft_nf_hk
+5	eignaspjöll	eignaspjöll	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|tag=no_ft_nf_hk
 6	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-7	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	svarinu	svar	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-10	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+10	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00226,.3
 # text = Skrifað hafi verið undir samninginn eftir liðlega heils árs viðræður.
@@ -46,10 +46,14 @@
 3	stiklað	stikla	VERB	so_0_lhþt_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_hk_sb
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	stóru	stór	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=lo_et_þgf_hk_sb
-6	í gegnum	í gegnum	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	tónlistarferil	tónlistarferill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
-8	Post Malone	Post Malone	PROPN	sérnafn	_	7	nmod:poss	_	SpaceAfter=No|tag=sérnafn
-9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+6-7	í gegnum	_	_	_	_	_	_	_	_
+6	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
+7	gegnum	gegnum	ADP	fs_þf	Case=Acc	6	fixed	_	tag=fs_þf
+8	tónlistarferil	tónlistarferill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
+9-10	Post Malone	_	_	_	_	_	_	_	_
+9	Post	Post	PROPN	sérnafn	_	8	nmod:poss	_	SpaceAfter=No|tag=sérnafn
+10	Malone	Malone	PROPN	sérnafn	_	9	fixed	_	SpaceAfter=No|tag=sérnafn
+11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00226,.5
 # text = Okkar úttekt miðaðist við það sem var búið og gert.
@@ -102,8 +106,11 @@
 5	leikmennirnir	leikmaður	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_nf_kk_gr
 6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	4	obl	_	tag=abfn_þgf
-8	sex milljónum punda	sex milljónum punda	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-9	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+8-10	sex milljónum punda	_	_	_	_	_	_	_	_
+8	sex	sex	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+9	milljónum	milljónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	fixed	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+10	punda	punda	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	9	fixed	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+11	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00226,.9
 # text = Við erum að taka næsta skref í uppbyggingu eldisins.

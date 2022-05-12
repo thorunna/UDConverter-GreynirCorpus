@@ -29,9 +29,8 @@
 
 # sent_id = GREYNIR_CORPUS_00465,.2
 # text = Ég er vanari að sjá hann í sóknarsinnaðra hlutverki í ensku úrvalsdeildinni en hér er hann um allan völl, í vörn, í sókn.
--4	None	_	None	None	_	_	None	_	_
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
-2	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p1_et_nt_gm
+2	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p1_et_nt_gm
 3	vanari	vanur	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_mst
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
@@ -59,32 +58,37 @@
 
 # sent_id = GREYNIR_CORPUS_00465,.3
 # text = Róbert Trausti Árnason, fréttastjóri Hringbrautar, segir Eyþór Arnalds, borgarstjóraefni Sjálfstæðisflokksins, vera að brotlenda í Reykjavík, í pistli sínum í dag undir merkjum Náttfara.
-1	Róbert Trausti Árnason	Róbert Trausti Árnason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	fréttastjóri	fréttastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	Hringbrautar	Hringbraut	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
-5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-6	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-7	Eyþór Arnalds	Eyþór Arnalds	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	nsubj	_	SpaceAfter=No|tag=person_þf_kk
-8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	borgarstjóraefni	borgarstjóraefni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
-10	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk_gr
+1-3	Róbert Trausti Árnason	_	_	_	_	_	_	_	_
+1	Róbert	Róbert	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	Trausti	Trausti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+3	Árnason	Árnason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	SpaceAfter=No|tag=person_nf_kk
+4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
+5	fréttastjóri	fréttastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+6	Hringbrautar	Hringbraut	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
+7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+8	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+9-10	Eyþór Arnalds	_	_	_	_	_	_	_	_
+9	Eyþór	Eyþór	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	nsubj	_	SpaceAfter=No|tag=person_þf_kk
+10	Arnalds	Arnalds	PROPN	person_þf_kk	Case=Acc|Gender=Masc	9	fixed	_	SpaceAfter=No|tag=person_þf_kk
 11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
-12	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
-13	að	að	PART	nhm	_	14	mark	_	tag=nhm
-14	brotlenda	brotlenda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_0_nh_gm
-15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	Reykjavík	Reykjavík	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
-17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
+12	borgarstjóraefni	borgarstjóraefni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þf_hk
+13	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk_gr
+14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
+15	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
+16	að	að	PART	nhm	_	17	mark	_	tag=nhm
+17	brotlenda	brotlenda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_0_nh_gm
 18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19	pistli	pistill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
-20	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	tag=fn_et_þgf_kk
-21	í	í	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
-22	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	advmod	_	tag=no_et_þf_kk
-23	undir	undir	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	merkjum	merki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_þgf_hk
-25	Náttfara	Náttfari	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	24	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk
-26	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+19	Reykjavík	Reykjavík	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
+20	,	,	PUNCT	grm	_	19	punct	_	tag=grm
+21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+22	pistli	pistill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk
+23	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	tag=fn_et_þgf_kk
+24	í	í	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
+25	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	advmod	_	tag=no_et_þf_kk
+26	undir	undir	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
+27	merkjum	merki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_þgf_hk
+28	Náttfara	Náttfari	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	27	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk
+29	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00465,.4
 # text = Í fyrravor afhenti ég Vigdísi mörg bréf og nokkra kafla sem ég hafði skrifað sjálf, það rennur allt saman hjá okkur í bókinni.
@@ -117,7 +121,7 @@
 # sent_id = GREYNIR_CORPUS_00465,.5
 # text = Smitandi hósti í hrossum, sem olli hrossarækt miklu fjárhagstjóni árið 2010, var vegna bakteríusýkingar sem hafði borist til Íslands einu til þremur árum áður.
 1	Smitandi	smitandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_sb
-2	hósti	hóst	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=no_et_nf_kk
+2	hósti	hóst	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	hrossum	hross	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
@@ -126,22 +130,24 @@
 8	hrossarækt	hrossarækt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	iobj	_	tag=no_et_þgf_kvk
 9	miklu	mikill	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_þgf_hk_sb
 10	fjárhagstjóni	fjárhagstjón	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obj	_	tag=no_et_þgf_hk
-11	árið 2010	árið 2010	ADV	ártal	_	7	advmod	_	SpaceAfter=No|tag=ártal
-12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
-13	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-14	vegna	vegna	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
-15	bakteríusýkingar	bakteríusýking	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_ef_kvk
-16	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
-17	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-18	borist	bera	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	17	acl:relcl	_	tag=so_0_sagnb_mm
-19	til	til	ADP	fs_ef	Case=Gen	20	case	_	tag=fs_ef
-20	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	18	obl	_	tag=sérnafn_et_ef_hk
-21	einu	einn	NUM	to_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	nummod	_	tag=to_et_þgf_hk
-22	til	til	ADV	ao	_	24	advmod	_	tag=ao
-23	þremur	þrír	NUM	to_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	24	nummod	_	tag=to_ft_þgf_hk
-24	árum	ár	ADV	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	18	advmod	_	tag=no_ft_þgf_hk
-25	áður	áður	ADV	ao	_	24	advmod	_	SpaceAfter=No|tag=ao
-26	.	.	PUNCT	grm	_	13	punct	_	tag=grm
+11-12	árið 2010	_	_	_	_	_	_	_	_
+11	árið	árið	ADV	ártal	_	7	advmod	_	SpaceAfter=No|tag=ártal
+12	2010	2010	NUM	ártal	_	11	fixed	_	SpaceAfter=No|tag=ártal
+13	,	,	PUNCT	grm	_	2	punct	_	tag=grm
+14	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+15	vegna	vegna	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
+16	bakteríusýkingar	bakteríusýking	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_ef_kvk
+17	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
+18	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
+19	borist	bera	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	18	acl:relcl	_	tag=so_0_sagnb_mm
+20	til	til	ADP	fs_ef	Case=Gen	21	case	_	tag=fs_ef
+21	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	obl	_	tag=sérnafn_et_ef_hk
+22	einu	einn	NUM	to_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	25	nummod	_	tag=to_et_þgf_hk
+23	til	til	ADV	ao	_	25	advmod	_	tag=ao
+24	þremur	þrír	NUM	to_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	25	nummod	_	tag=to_ft_þgf_hk
+25	árum	ár	ADV	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	19	advmod	_	tag=no_ft_þgf_hk
+26	áður	áður	ADV	ao	_	25	advmod	_	SpaceAfter=No|tag=ao
+27	.	.	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00465,.6
 # text = Það hefur bara verið mjög gaman — dálítið erfitt að vita hvað klukkan er, segir Sif Jónasdóttir, einn nemendanna, um tilraunina.
@@ -161,14 +167,16 @@
 14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	obj	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
 15	,	,	PUNCT	grm	_	14	punct	_	tag=grm
 16	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-17	Sif Jónasdóttir	Sif Jónasdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	16	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-18	,	,	PUNCT	grm	_	17	punct	_	tag=grm
-19	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	tag=fn_et_nf_kk
-20	nemendanna	nemandi	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	19	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk_gr
-21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
-22	um	um	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
-23	tilraunina	tilraun	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
-24	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+17-18	Sif Jónasdóttir	_	_	_	_	_	_	_	_
+17	Sif	Sif	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	16	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+18	Jónasdóttir	Jónasdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	17	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+19	,	,	PUNCT	grm	_	18	punct	_	tag=grm
+20	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	tag=fn_et_nf_kk
+21	nemendanna	nemandi	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	20	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk_gr
+22	,	,	PUNCT	grm	_	21	punct	_	tag=grm
+23	um	um	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
+24	tilraunina	tilraun	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
+25	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00465,.7
 # text = Í bréfinu veltir sá sem það skrifar því einnig fyrir sér hvort það færi vel á því ef einn til tveir nefndarmenn væru ekki löglærðir.
@@ -194,7 +202,7 @@
 20	til	til	ADV	eo	_	22	advmod	_	tag=eo
 21	tveir	tveir	NUM	to_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	22	nummod	_	tag=to_ft_nf_kk
 22	nefndarmenn	nefndarmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	tag=no_ft_nf_kk
-23	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	25	conj	_	tag=so_0_vh_p3_ft_þt_gm
+23	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	25	cop	_	tag=so_0_vh_p3_ft_þt_gm
 24	ekki	ekki	ADV	ao	_	25	advmod	_	tag=ao
 25	löglærðir	löglærður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	14	advcl	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
 26	.	.	PUNCT	grm	_	3	punct	_	tag=grm
@@ -228,9 +236,8 @@
 
 # sent_id = GREYNIR_CORPUS_00465,.9
 # text = Kristinn var arfadapur eftir að hann kom heim í fyrra og El Salvadorinn þarf að sanna að hann geti verið stór fiskur í stórri tjörn.
--4	None	_	None	None	_	_	None	_	_
 1	Kristinn	Kristinn	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	arfadapur	arfa-dapur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 4	eftir	eftir	ADV	ao	_	7	mark	_	tag=ao
 5	að	að	SCONJ	st	_	4	cc	_	tag=st
@@ -248,7 +255,7 @@
 17	að	að	SCONJ	st	_	22	mark	_	tag=st
 18	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	tag=pfn_et_nf_kk_p3
 19	geti	geta	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_vh_p3_et_nt_gm
-20	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	22	conj	_	tag=so_1_nf_sagnb_gm
+20	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	22	cop	_	tag=so_1_nf_sagnb_gm
 21	stór	stór	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	22	amod	_	tag=lo_et_nf_kk_sb
 22	fiskur	fiskur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	tag=no_et_nf_kk
 23	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
@@ -263,13 +270,13 @@
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Tölvunarfræði	Tölvunarfræði	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
-8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-9	ný	ný	ADV	eo_fst	Degree=Pos	10	advmod	_	tag=eo_fst
-10	fluttur	fluttur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=lo_et_nf_kk_sb
-11	heim	heim	ADV	ao	_	10	advmod	_	tag=ao
+8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+9	ný	ný	ADV	eo_fst	Degree=Pos	2	advmod	_	tag=eo_fst
+10	fluttur	fluttur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	cop	_	tag=lo_et_nf_kk_sb
+11	heim	heim	ADV	ao	_	2	advmod	_	tag=ao
 12	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	Kína	Kína	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=sérnafn_et_þgf_hk
-14	þar	þar	ADV	ao	_	10	advmod	_	tag=ao
+13	Kína	Kína	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=sérnafn_et_þgf_hk
+14	þar	þar	ADV	ao	_	2	advmod	_	tag=ao
 15	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
 16	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kk_p3
 17	vann	vinna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	advcl	_	tag=so_0_fh_p3_et_þt_gm

@@ -51,15 +51,17 @@
 18	3	3	NUM	tala	NumType=Card	15	obl	_	SpaceAfter=No|tag=tala
 19	:	:	PUNCT	grm	_	18	punct	_	tag=grm
 20	2	2	NUM	tala	NumType=Card	18	nummod	_	tag=tala
-21	árið 2010	árið 2010	ADV	ártal	_	18	advmod	_	tag=ártal
-22	og	og	CCONJ	st	_	15	cc	_	tag=st
-23	1	1	NUM	tala	NumType=Card	15	obl	_	SpaceAfter=No|tag=tala
-24	:	:	PUNCT	grm	_	23	punct	_	tag=grm
-25	0	0	NUM	tala	NumType=Card	23	nummod	_	tag=tala
-26	tveimur	tveimur	NUM	to_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	27	nummod	_	tag=to_ft_þgf_hk
-27	árum	ár	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	28	obl	_	tag=no_ft_þgf_hk
-28	síðar	síðar	ADV	ao_mst	Degree=Cmp	15	advmod	_	SpaceAfter=No|tag=ao_mst
-29	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+21-22	árið 2010	_	_	_	_	_	_	_	_
+21	árið	árið	ADV	ártal	_	18	advmod	_	tag=ártal
+22	2010	2010	NUM	ártal	_	21	fixed	_	tag=ártal
+23	og	og	CCONJ	st	_	15	cc	_	tag=st
+24	1	1	NUM	tala	NumType=Card	15	obl	_	SpaceAfter=No|tag=tala
+25	:	:	PUNCT	grm	_	24	punct	_	tag=grm
+26	0	0	NUM	tala	NumType=Card	24	nummod	_	tag=tala
+27	tveimur	tveimur	NUM	to_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	28	nummod	_	tag=to_ft_þgf_hk
+28	árum	ár	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	29	obl	_	tag=no_ft_þgf_hk
+29	síðar	síðar	ADV	ao_mst	Degree=Cmp	15	advmod	_	SpaceAfter=No|tag=ao_mst
+30	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00472,.3
 # text = Þá sendi Sveitarstjórn Skaftárhrepps frá sér yfirlýsingu þar sem hún harmaði þá ákvörðun Umhverfisstofnunar að hafa ekki starfandi landvörð við Fjaðrárgljúfur frá áramótum og fram á sumar.
@@ -95,31 +97,39 @@
 # sent_id = GREYNIR_CORPUS_00472,.4
 # text = Önnur plata Linkin Park, Meteroa, náði fyrsta sæti Billboard-lagalistans árið 2003 og þá hefur fyrsta plata sveitarinnar, Hybrid Theory, selst í yfir tíu milljónum eintaka.
 1	Önnur	annar	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	tag=fn_et_nf_kvk
-2	plata	plata	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk
-3	Linkin Park	Linkin Park	PROPN	sérnafn	_	5	obl	_	SpaceAfter=No|tag=sérnafn
-4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
-5	Meteroa	Meteroa	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
-6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
-7	náði	ná	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
-8	fyrsta	fyrsta	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	9	amod	_	tag=lo_et_þgf_hk_vb
-9	sæti	sitja	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obj	_	tag=no_et_þgf_hk
-10	Billboard-lagalistans	Billboard-lagalisti	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kk_gr
-11	árið 2003	árið 2003	ADV	ártal	_	7	advmod	_	tag=ártal
-12	og	og	CCONJ	st	_	7	cc	_	tag=st
-13	þá	hann	ADV	ao	_	21	advmod	_	tag=ao
-14	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	tag=so_0_fh_p3_et_nt_gm
-15	fyrsta	fyrsta	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	tag=lo_et_nf_kvk_vb
-16	plata	plata	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	tag=no_et_nf_kvk
-17	sveitarinnar	sveit	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
-18	,	,	PUNCT	grm	_	17	punct	_	tag=grm
-19	Hybrid Theory	Hybrid Theory	PROPN	person	_	16	obl	_	SpaceAfter=No|tag=person
-20	,	,	PUNCT	grm	_	21	punct	_	tag=grm
-21	selst	selja	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	7	conj	_	tag=so_0_sagnb_mm
-22	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
-23	yfir	yfir	ADV	eo	_	25	advmod	_	tag=eo
-24	tíu milljónum	tíu milljónum	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	25	nummod	_	tag=töl_ft_þgf_kvk
-25	eintaka	eintak	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	21	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
-26	.	.	PUNCT	grm	_	7	punct	_	tag=grm
+2	plata	plata	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk
+3-4	Linkin Park	_	_	_	_	_	_	_	_
+3	Linkin	Linkin	PROPN	sérnafn	_	6	obl	_	SpaceAfter=No|tag=sérnafn
+4	Park	Park	PROPN	sérnafn	_	3	fixed	_	SpaceAfter=No|tag=sérnafn
+5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
+6	Meteroa	Meteroa	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
+7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+8	náði	ná	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
+9	fyrsta	fyrsta	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_þgf_hk_vb
+10	sæti	sitja	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þgf_hk
+11	Billboard-lagalistans	Billboard-lagalisti	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod:poss	_	tag=no_et_ef_kk_gr
+12-13	árið 2003	_	_	_	_	_	_	_	_
+12	árið	árið	ADV	ártal	_	8	advmod	_	tag=ártal
+13	2003	2003	NUM	ártal	_	12	fixed	_	tag=ártal
+14	og	og	CCONJ	st	_	8	cc	_	tag=st
+15	þá	hann	ADV	ao	_	24	advmod	_	tag=ao
+16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	tag=so_0_fh_p3_et_nt_gm
+17	fyrsta	fyrsta	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	18	amod	_	tag=lo_et_nf_kvk_vb
+18	plata	plata	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	tag=no_et_nf_kvk
+19	sveitarinnar	sveit	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
+20	,	,	PUNCT	grm	_	19	punct	_	tag=grm
+21-22	Hybrid Theory	_	_	_	_	_	_	_	_
+21	Hybrid	Hybrid	PROPN	person	_	18	obl	_	SpaceAfter=No|tag=person
+22	Theory	Theory	PROPN	person	_	21	fixed	_	SpaceAfter=No|tag=person
+23	,	,	PUNCT	grm	_	24	punct	_	tag=grm
+24	selst	selja	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	8	conj	_	tag=so_0_sagnb_mm
+25	í	í	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
+26	yfir	yfir	ADV	eo	_	29	advmod	_	tag=eo
+27-28	tíu milljónum	_	_	_	_	_	_	_	_
+27	tíu	tíu	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	29	nummod	_	tag=töl_ft_þgf_kvk
+28	milljónum	milljónum	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	27	fixed	_	tag=töl_ft_þgf_kvk
+29	eintaka	eintak	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	24	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
+30	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00472,.5
 # text = Hún vitnaði í hæstaréttardóm frá árinu 2013 þar sem sakborningur var leiddur fyrir dómara rétt áður en gæsluvarðhald rann út og dómarinn kvað upp úrskurð sinn daginn eftir.
@@ -128,60 +138,64 @@
 3	í	í	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	hæstaréttardóm	hæstaréttardómur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
 5	frá	frá	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
-6	árinu 2013	árinu 2013	NUM	ártal	_	4	obl	_	tag=ártal
-7	þar	þar	ADV	ao	_	4	advmod	_	tag=ao
-8	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
-9	sakborningur	sakborningur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	tag=no_et_nf_kk
-10	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_þt_gm
-11	leiddur	leiddur	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	advcl	_	tag=so_0_lhþt_et
-12	fyrir	fyrir	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	dómara	dómari	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þf_kk
-14	rétt	rétt	ADV	ao	_	18	cc	_	tag=ao
-15	áður	áður	ADV	ao	_	14	advmod	_	tag=ao
-16	en	en	CCONJ	st	_	14	cc	_	tag=st
-17	gæsluvarðhald	gæsluvarðhald	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	tag=no_et_nf_hk
-18	rann	rann	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	advcl	_	tag=so_0_fh_p3_et_þt_gm
-19	út	út	ADV	ao	_	18	advmod	_	tag=ao
-20	og	og	CCONJ	st	_	2	cc	_	tag=st
-21	dómarinn	dómari	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	tag=no_et_nf_kk_gr
-22	kvað	kveða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-23	upp	upp	ADV	ao	_	22	advmod	_	tag=ao
-24	úrskurð	úrskurður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	tag=no_et_þf_kk
-25	sinn	sinn	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	24	nmod	_	tag=fn_et_þf_kk
-26	daginn	dagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	advmod	_	tag=no_et_þf_kk_gr
-27	eftir	eftir	ADV	ao	_	26	advmod	_	SpaceAfter=No|tag=ao
-28	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+6-7	árinu 2013	_	_	_	_	_	_	_	_
+6	árinu	árinu	NUM	ártal	_	4	obl	_	tag=ártal
+7	2013	2013	NUM	ártal	_	6	fixed	_	tag=ártal
+8	þar	þar	ADV	ao	_	4	advmod	_	tag=ao
+9	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
+10	sakborningur	sakborningur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=no_et_nf_kk
+11	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_0_fh_p3_et_þt_gm
+12	leiddur	leiddur	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	advcl	_	tag=so_0_lhþt_et
+13	fyrir	fyrir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+14	dómara	dómari	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þf_kk
+15	rétt	rétt	ADV	ao	_	19	cc	_	tag=ao
+16	áður	áður	ADV	ao	_	15	advmod	_	tag=ao
+17	en	en	CCONJ	st	_	15	cc	_	tag=st
+18	gæsluvarðhald	gæsluvarðhald	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	tag=no_et_nf_hk
+19	rann	rann	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	advcl	_	tag=so_0_fh_p3_et_þt_gm
+20	út	út	ADV	ao	_	19	advmod	_	tag=ao
+21	og	og	CCONJ	st	_	2	cc	_	tag=st
+22	dómarinn	dómari	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	tag=no_et_nf_kk_gr
+23	kvað	kveða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+24	upp	upp	ADV	ao	_	23	advmod	_	tag=ao
+25	úrskurð	úrskurður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	tag=no_et_þf_kk
+26	sinn	sinn	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	tag=fn_et_þf_kk
+27	daginn	dagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	advmod	_	tag=no_et_þf_kk_gr
+28	eftir	eftir	ADV	ao	_	27	advmod	_	SpaceAfter=No|tag=ao
+29	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00472,.6
 # text = Leikurinn fer hins vegar að öllum líkindum ekki í sögubækurnar fyrir sigur Osaka, heldur vegna þess að Williams missti algjörlega stjórn á skapi sínu við dómara leiksins.
 1	Leikurinn	leikur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk_gr
 2	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	hins vegar	hins vegar	ADV	ao	_	2	advmod	_	tag=ao
-4	að	að	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-5	öllum	allur	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	tag=fn_ft_þgf_hk
-6	líkindum	líkindi	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
-7	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
-8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	sögubækurnar	sögubók	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_þf_kvk_gr
-10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-11	sigur	sigur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þf_kk
-12	Osaka	Osaka	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-13	,	,	PUNCT	grm	_	12	punct	_	tag=grm
-14	heldur	gjarna	CCONJ	st	_	2	mark	_	tag=st
-15	vegna	vega	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
-16	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_ef_hk
-17	að	að	SCONJ	st	_	19	mark	_	tag=st
-18	Williams	Williams	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	tag=person_et_nf_kk
-19	missti	missa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	ccomp	_	tag=so_1_þf_fh_p3_et_þt_gm
-20	algjörlega	algjörlega	ADV	ao	_	19	advmod	_	tag=ao
-21	stjórn	stjórn	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	tag=no_et_þf_kvk
-22	á	eiga	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	skapi	skap	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	tag=no_et_þgf_hk
-24	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	tag=fn_et_þgf_hk
-25	við	við	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
-26	dómara	dómari	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	tag=no_et_þf_kk
-27	leiksins	leikur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	26	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
-28	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	hins vegar	_	_	_	_	_	_	_	_
+3	hins	hins	ADV	ao	_	2	advmod	_	tag=ao
+4	vegar	vegar	ADV	ao	_	3	fixed	_	tag=ao
+5	að	að	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+6	öllum	allur	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	7	nmod	_	tag=fn_ft_þgf_hk
+7	líkindum	líkindi	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
+8	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
+9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+10	sögubækurnar	sögubók	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_þf_kvk_gr
+11	fyrir	fyrir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	sigur	sigur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þf_kk
+13	Osaka	Osaka	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
+14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
+15	heldur	gjarna	CCONJ	st	_	2	mark	_	tag=st
+16	vegna	vega	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
+17	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_ef_hk
+18	að	að	SCONJ	st	_	20	mark	_	tag=st
+19	Williams	Williams	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	tag=person_et_nf_kk
+20	missti	missa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	ccomp	_	tag=so_1_þf_fh_p3_et_þt_gm
+21	algjörlega	algjörlega	ADV	ao	_	20	advmod	_	tag=ao
+22	stjórn	stjórn	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	tag=no_et_þf_kvk
+23	á	eiga	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
+24	skapi	skap	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	tag=no_et_þgf_hk
+25	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	tag=fn_et_þgf_hk
+26	við	við	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
+27	dómara	dómari	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	tag=no_et_þf_kk
+28	leiksins	leikur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
+29	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00472,.7
 # text = Verkefnið er hjá Isavia og við verðum að bregðast við eins fljótt og hægt er og erum að skoða það í ráðuneytinu, segir Sigurður.
@@ -201,9 +215,9 @@
 14	hægt	hægja	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	tag=lo_et_nf_hk_sb
 15	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	tag=so_0_fh_p3_et_nt_gm
 16	og	og	CCONJ	st	_	7	cc	_	tag=st
-17	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_fh_p1_ft_nt_gm
+17	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p1_ft_nt_gm
 18	að	að	PART	nhm	_	19	mark	_	tag=nhm
-19	skoða	skoða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_1_þf_nh_gm
+19	skoða	skoða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þf_nh_gm
 20	það	sá	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	tag=pfn_et_þf_hk_p3
 21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	ráðuneytinu	ráðuneyti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
@@ -217,38 +231,40 @@
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
 2	hafi	haf	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_vh_p3_et_nt_gm
 3	sagt	sagður	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
-4	að	að	SCONJ	st	_	14	mark	_	tag=st
-5	áhrifa	áhrif	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	nsubj	_	tag=no_ft_ef_hk
+4	að	að	SCONJ	st	_	15	mark	_	tag=st
+5	áhrifa	áhrif	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	15	nsubj	_	tag=no_ft_ef_hk
 6	Bandaríkjaforsetans	Bandaríkjaforseti	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kk_gr
-7	Donalds Trump	Donalds Trump	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	conj	_	SpaceAfter=No|tag=person_ef_kk
-8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	ef	ef	SCONJ	st	_	10	cc	_	tag=st
-10	einhverra	einhver	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No|tag=fn_ft_ef_hk
-11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
-12	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	14	aux	_	tag=so_0_vh_p3_et_þt_gm
-13	helst	gjarna	ADV	ao_est	Degree=Sup	14	advmod	_	tag=ao_est
-14	gætt	gæddur	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	3	obj	_	tag=so_0_sagnb_gm
-15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	kosningabaráttu	kosningabarátta	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þgf_kvk
-17	Miðflokksins	miðflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod:poss	_	tag=fyrirtæki_et_ef_kk_gr
-18	en	en	CCONJ	st	_	16	cc	_	tag=st
-19	ekki	ekki	ADV	eo	_	20	advmod	_	tag=eo
-20	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk_gr
-21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
-22	eins	einn	ADV	ao	_	25	cc	_	tag=ao
-23	og	og	CCONJ	st	_	22	cc	_	tag=st
-24	blaðamaður	blaðamaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	tag=no_et_nf_kk
-25	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	advcl	_	tag=so_0_fh_p3_et_þt_gm
-26	eftir	eftir	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
-27	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obl	_	SpaceAfter=No|tag=pfn_et_þgf_kk_p3
-28	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+7-8	Donalds Trump	_	_	_	_	_	_	_	_
+7	Donalds	Donalds	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	conj	_	SpaceAfter=No|tag=person_ef_kk
+8	Trump	Trump	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	fixed	_	SpaceAfter=No|tag=person_ef_kk
+9	,	,	PUNCT	grm	_	15	punct	_	tag=grm
+10	ef	ef	SCONJ	st	_	11	cc	_	tag=st
+11	einhverra	einhver	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	15	obl	_	SpaceAfter=No|tag=fn_ft_ef_hk
+12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
+13	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	15	aux	_	tag=so_0_vh_p3_et_þt_gm
+14	helst	gjarna	ADV	ao_est	Degree=Sup	15	advmod	_	tag=ao_est
+15	gætt	gæddur	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	3	obj	_	tag=so_0_sagnb_gm
+16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	kosningabaráttu	kosningabarátta	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_þgf_kvk
+18	Miðflokksins	miðflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod:poss	_	tag=fyrirtæki_et_ef_kk_gr
+19	en	en	CCONJ	st	_	17	cc	_	tag=st
+20	ekki	ekki	ADV	eo	_	21	advmod	_	tag=eo
+21	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk_gr
+22	,	,	PUNCT	grm	_	21	punct	_	tag=grm
+23	eins	einn	ADV	ao	_	26	cc	_	tag=ao
+24	og	og	CCONJ	st	_	23	cc	_	tag=st
+25	blaðamaður	blaðamaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	tag=no_et_nf_kk
+26	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	advcl	_	tag=so_0_fh_p3_et_þt_gm
+27	eftir	eftir	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
+28	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No|tag=pfn_et_þgf_kk_p3
+29	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00472,.9
 # text = Vilhjálmur segir jafnframt liggja fyrir að Samtök atvinnulífsins, SA, gráti sínum krókódílatárum og segi ekkert svigrúm vera til launahækkana þegar samningar verkafólk losni.
 1	Vilhjálmur	Vilhjálmur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 2	segir	segir	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	jafnframt	jafnframt	ADV	ao	_	2	advmod	_	tag=ao
-4	liggja	liggja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	conj	_	tag=so_0_nh_gm
+4	liggja	liggja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	cop	_	tag=so_0_nh_gm
 5	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	12	case	_	tag=fs_nh
 6	að	að	SCONJ	st	_	12	mark	_	tag=st
 7	Samtök	Samtök	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	tag=no_ft_nf_hk
@@ -256,14 +272,14 @@
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 10	SA	SA	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_ef_hk
 11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
-12	gráti	gráti	VERB	so_1_þgf_vh_p3_ft_nt_gm	Case=Dat|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	obl	_	tag=so_1_þgf_vh_p3_ft_nt_gm
+12	gráti	gráti	VERB	so_1_þgf_vh_p3_ft_nt_gm	Case=Dat|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	obl	_	tag=so_1_þgf_vh_p3_ft_nt_gm
 13	sínum	sínum	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	14	nmod	_	tag=fn_ft_þgf_hk
 14	krókódílatárum	krókódílatárum	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	12	obj	_	tag=no_ft_þgf_hk
 15	og	og	CCONJ	st	_	12	cc	_	tag=st
-16	segi	segi	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_þf_vh_p3_ft_nt_gm
+16	segi	segi	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_þf_vh_p3_ft_nt_gm
 17	ekkert	ekkert	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	nmod	_	tag=fn_et_þf_hk
 18	svigrúm	svigrúm	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	nsubj	_	tag=no_et_þf_hk
-19	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_0_nh_gm
+19	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_0_nh_gm
 20	til	til	ADP	fs_ef	Case=Gen	21	case	_	tag=fs_ef
 21	launahækkana	launahækkana	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	19	obl	_	tag=no_ft_ef_kvk
 22	þegar	þegar	SCONJ	st	_	25	mark	_	tag=st
@@ -295,7 +311,7 @@
 21	þar	þar	ADV	ao	_	23	advmod	_	tag=ao
 22	til	til	SCONJ	st	_	21	cc	_	tag=st
 23	samið	saminn	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	conj	_	tag=so_0_lhþt_et
-24	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	conj	_	tag=so_0_fh_p3_et_nt_gm
+24	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	cop	_	tag=so_0_fh_p3_et_nt_gm
 25	við	við	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
 26	nýjan	nýr	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	27	amod	_	tag=lo_et_þf_kk_sb
 27	þjónustuaðila	þjónustuaðili	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	tag=no_et_þf_kk

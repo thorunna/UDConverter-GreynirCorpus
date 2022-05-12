@@ -21,7 +21,7 @@
 5	barnaníðing	barnaníðingur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk
 
 # sent_id = GREYNIR_CORPUS_00341,.4
-# text = Hvernig getur þú haft áhrif ?
+# text = Hvernig getur þú haft áhrif?
 1	Hvernig	hvernig	ADV	ao	_	2	advmod	_	tag=ao
 2	getur	geta	VERB	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p2_et_nt_gm
 3	þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p2
@@ -51,10 +51,12 @@
 # text = Áhorfendaplássum fækkar á meðan Íslendingum fjölgar.
 1	Áhorfendaplássum	áhorfenda-pláss	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	nsubj	_	tag=no_ft_þgf_hk
 2	fækkar	fækka	VERB	so_0_op_subj_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_op_subj_þgf_fh_p3_et_nt_gm
-3	á meðan	á meðan	ADV	ao	_	5	mark	_	tag=ao
-4	Íslendingum	Íslendingur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_þgf_kk
-5	fjölgar	fjölga	VERB	so_0_op_subj_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	SpaceAfter=No|tag=so_0_op_subj_þgf_fh_p3_et_nt_gm
-6	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	á meðan	_	_	_	_	_	_	_	_
+3	á	á	ADV	ao	_	6	mark	_	tag=ao
+4	meðan	meðan	ADV	ao	_	3	fixed	_	tag=ao
+5	Íslendingum	Íslendingur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	nsubj	_	tag=no_ft_þgf_kk
+6	fjölgar	fjölga	VERB	so_0_op_subj_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	SpaceAfter=No|tag=so_0_op_subj_þgf_fh_p3_et_nt_gm
+7	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00341,.8
 # text = Sneiðið kartöflurnar næfurþunnt með mandólíni.
@@ -67,15 +69,16 @@
 
 # sent_id = GREYNIR_CORPUS_00341,.9
 # text = Að minnsta kosti tuttugu manns eru særðir.
--2	None	_	None	None	_	_	None	_	_
-1	Að minnsta kosti	að minnsta kosti	ADV	eo	_	3	advmod	_	tag=eo
-2	tuttugu	tuttugu	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	nummod	_	tag=töl_ft_nf_kk
-3	manns	maður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_ef_kk
-4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_ft_nt_gm
-5	særðir	særa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_0_lhþt_ft
-6	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+1-3	Að minnsta kosti	_	_	_	_	_	_	_	_
+1	Að	að	ADV	eo	_	5	advmod	_	tag=eo
+2	minnsta	minnsta	ADV	eo	_	1	fixed	_	tag=eo
+3	kosti	kosti	ADV	eo	_	2	fixed	_	tag=eo
+4	tuttugu	tuttugu	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nummod	_	tag=töl_ft_nf_kk
+5	manns	maður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_ef_kk
+6	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_ft_nt_gm
+7	særðir	særa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_0_lhþt_ft
+8	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
 2	segist	segja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	3	conj	_	tag=so_0_fh_p3_et_nt_mm
 3	opinn	opinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb

@@ -22,12 +22,11 @@
 
 # sent_id = GREYNIR_CORPUS_00276,.2
 # text = Fleira sem má nefna er Bróðir, virkilega fallegt og sterkt lag og með góðum texta.
--1	None	_	None	None	_	_	None	_	_
 1	Fleira	margur	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	6	nsubj	_	tag=lo_et_nf_hk_mst
 2	sem	sem	SCONJ	stt	_	3	mark	_	tag=stt
 3	má	mega	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 4	nefna	nefna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	acl:relcl	_	tag=so_0_nh_gm
-5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 6	Bróðir	Bróðir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	virkilega	virkilega	ADV	eo	_	12	advmod	_	tag=eo
@@ -75,13 +74,16 @@
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	hugsa	hugsa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þf_nh_gm
 10	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	9	obj	_	tag=no_et_þf_hk_gr
-11	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-12	Eiríkur Björn Björgvinsson	Eiríkur Björn Björgvinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No|tag=person_nf_kk
-13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
-14	bæjarstjóri	bæjarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_nf_kk
-15	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	Akureyri	Akureyri	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-17	.	_	PUNCT	grm	_	12	punct	_	tag=grm
+11	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+12-14	Eiríkur Björn Björgvinsson	_	_	_	_	_	_	_	_
+12	Eiríkur	Eiríkur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No|tag=person_nf_kk
+13	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	SpaceAfter=No|tag=person_nf_kk
+14	Björgvinsson	Björgvinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	fixed	_	SpaceAfter=No|tag=person_nf_kk
+15	,	_	PUNCT	grm	_	14	punct	_	tag=grm
+16	bæjarstjóri	bæjarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_nf_kk
+17	á	á	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+18	Akureyri	Akureyri	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+19	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00276,.5
 # text = Utanríkisráðuneyti Bandaríkjanna segir Kotey hafa pyntað fjölda fanga meðal annars með rafmagni og með því að drekkja þeim.
@@ -93,16 +95,18 @@
 6	pyntað	pynta	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	3	obj	_	tag=so_1_þf_sagnb_gm
 7	fjölda	fjöldi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	tag=no_et_þf_kk
 8	fanga	fangi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=no_et_ef_kk
-9	meðal annars	meðal annars	ADV	ao	_	6	advmod	_	tag=ao
-10	með	með	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	rafmagni	rafmagn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
-12	og	og	CCONJ	st	_	6	cc	_	tag=st
-13	með	með	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_þgf_hk
-15	að	að	PART	nhm	_	16	mark	_	tag=nhm
-16	drekkja	drekkja	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	14	xcomp	_	tag=so_1_þgf_nh_gm
-17	þeim	hann	PRON	pfn_ft_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No|tag=pfn_ft_þgf_kk_p3
-18	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+9-10	meðal annars	_	_	_	_	_	_	_	_
+9	meðal	meðal	ADV	ao	_	6	advmod	_	tag=ao
+10	annars	annars	ADV	ao	_	9	fixed	_	tag=ao
+11	með	með	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	rafmagni	rafmagn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
+13	og	og	CCONJ	st	_	6	cc	_	tag=st
+14	með	með	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+15	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_þgf_hk
+16	að	að	PART	nhm	_	17	mark	_	tag=nhm
+17	drekkja	drekkja	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_1_þgf_nh_gm
+18	þeim	hann	PRON	pfn_ft_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No|tag=pfn_ft_þgf_kk_p3
+19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00276,.6
 # text = Skýrslan sem er um 140 blaðsíður er nú til yfirferðar hjá ráðuneytinu og Matvælastofnun og verður birt innan tíðar.
@@ -121,31 +125,36 @@
 13	og	og	CCONJ	st	_	14	cc	_	tag=st
 14	Matvælastofnun	matvælastofnun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	conj	_	tag=no_et_þgf_kvk
 15	og	og	CCONJ	st	_	7	cc	_	tag=st
-16	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	tag=so_0_fh_p3_et_nt_gm
-17	birt	birta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	conj	_	tag=so_0_lhþt_et
-18	innan tíðar	innan tíðar	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
-19	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+16	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
+17	birt	birta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	cop	_	tag=so_0_lhþt_et
+18-19	innan tíðar	_	_	_	_	_	_	_	_
+18	innan	innan	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
+19	tíðar	tíðar	ADV	ao	_	18	fixed	_	SpaceAfter=No|tag=ao
+20	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00276,.7
 # text = Helgi Hrafn Gunnarsson tók í sama streng og sagði ábyrgðina vera karla og þeir þurfi að axla þessa ábyrgð.
-1	Helgi Hrafn Gunnarsson	Helgi Hrafn Gunnarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-3	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-4	sama	sami	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	tag=fn_et_þf_kk
-5	streng	strengur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
-6	og	og	CCONJ	st	_	2	cc	_	tag=st
-7	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-8	ábyrgðina	ábyrgð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_þf_kvk_gr
-9	vera	vera	VERB	so_1_ef_nh_gm	Case=Gen|VerbForm=Inf|Voice=Act	7	obj	_	tag=so_1_ef_nh_gm
-10	karla	karl	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	9	obl	_	tag=no_ft_ef_kk
-11	og	og	CCONJ	st	_	2	cc	_	tag=st
-12	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	tag=pfn_ft_nf_kk_p3
-13	þurfi	þurfa	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_vh_p3_ft_nt_gm
-14	að	að	PART	nhm	_	15	mark	_	tag=nhm
-15	axla	axla	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_1_þf_nh_gm
-16	þessa	þessi	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	tag=fn_et_þf_kvk
-17	ábyrgð	ábyrgð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
-18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Helgi Hrafn Gunnarsson	_	_	_	_	_	_	_	_
+1	Helgi	Helgi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
+2	Hrafn	Hrafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+3	Gunnarsson	Gunnarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+4	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+5	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+6	sama	sami	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	tag=fn_et_þf_kk
+7	streng	strengur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
+8	og	og	CCONJ	st	_	4	cc	_	tag=st
+9	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_þf_fh_p3_et_þt_gm
+10	ábyrgðina	ábyrgð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_þf_kvk_gr
+11	vera	vera	VERB	so_1_ef_nh_gm	Case=Gen|VerbForm=Inf|Voice=Act	4	obj	_	tag=so_1_ef_nh_gm
+12	karla	karl	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	11	obl	_	tag=no_ft_ef_kk
+13	og	og	CCONJ	st	_	4	cc	_	tag=st
+14	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_ft_nf_kk_p3
+15	þurfi	þurfa	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_vh_p3_ft_nt_gm
+16	að	að	PART	nhm	_	17	mark	_	tag=nhm
+17	axla	axla	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_1_þf_nh_gm
+18	þessa	þessi	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	tag=fn_et_þf_kvk
+19	ábyrgð	ábyrgð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
+20	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00276,.8
 # text = Hún eldar þá gjarnan karrýrétti en slíkir réttir eru ákaflega vinsælir í Bretlandi og er Tikka Masala þjóðarréttur Breta.
@@ -157,7 +166,7 @@
 6	en	en	CCONJ	st	_	2	cc	_	tag=st
 7	slíkir	slíkur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	8	amod	_	tag=lo_ft_nf_kk_sb
 8	réttir	réttur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	tag=no_ft_nf_kk
-9	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_0_fh_p3_ft_nt_gm
+9	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_ft_nt_gm
 10	ákaflega	ákaflegur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	tag=lo_ft_nf_kk_sb
 11	vinsælir	vinsæll	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	10	amod	_	tag=lo_ft_nf_kk_sb
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
@@ -182,14 +191,19 @@
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	landinu	land	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk_gr
 10	vegna	vegna	ADP	fs_ef	Case=Gen	11	case	_	tag=fs_ef
-11	sjúkra- og neyðarflugs	sjúkra- og neyðar-flug	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_ef_hk
-12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-13	svo	svo	ADV	ao	_	5	advmod	_	tag=ao
-14	og	og	CCONJ	st	_	5	cc	_	tag=st
-15	sem	sem	SCONJ	st	_	14	cc	_	tag=st
-16	varaflugvöllur	varaflugvöllur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_nf_kk
-17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+11-13	sjúkra- og neyðarflugs	_	_	_	_	_	_	_	_
+11	sjúkra-	sjúkra-	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_ef_hk
+12	og	og	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	fixed	_	SpaceAfter=No|tag=no_et_ef_hk
+13	neyðarflugs	neyðar-flug	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	fixed	_	SpaceAfter=No|tag=no_et_ef_hk
+14	,	_	PUNCT	grm	_	11	punct	_	tag=grm
+15	svo	svo	ADV	ao	_	5	advmod	_	tag=ao
+16	og	og	CCONJ	st	_	5	cc	_	tag=st
+17	sem	sem	SCONJ	st	_	16	cc	_	tag=st
+18	varaflugvöllur	varaflugvöllur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_nf_kk
+19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00276,.10
+# text = Öfugt mundu stjórnarandstæðingar gæta sín vegna þess að þeir vilja ekki eyðileggja möguleikann á að koma einstökum hugðarefnum fram.
 1	Öfugt	öfugt	ADV	ao	_	0	root	_	tag=ao
 2	mundu	munu	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	4	aux	_	tag=so_0_vh_p3_ft_þt_gm
 3	stjórnarandstæðingar	stjórnarandstæðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_nf_kk
@@ -208,6 +222,6 @@
 16	koma	koma	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	13	obl	_	tag=so_1_þgf_nh_gm
 17	einstökum	einstakur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	18	amod	_	tag=lo_ft_þgf_hk_sb
 18	hugðarefnum	hugðarefni	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	16	obj	_	tag=no_ft_þgf_hk
-19	fram	fram	ADV	ao	_	16	advmod	_	tag=ao
+19	fram	fram	ADV	ao	_	16	advmod	_	SpaceAfter=No|tag=ao
 20	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 

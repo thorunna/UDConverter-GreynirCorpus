@@ -13,17 +13,19 @@
 
 # sent_id = GREYNIR_CORPUS_00357,.2
 # text = Mörg alvarleg hagstjórnarmistök voru gerð í aðdraganda banka- og gjaldeyrishrunsins 2008.
--2	None	_	None	None	_	_	None	_	_
 1	Mörg	margur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	3	amod	_	tag=lo_ft_nf_hk_sb
 2	alvarleg	alvarlegur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	3	amod	_	tag=lo_ft_nf_hk_sb
 3	hagstjórnarmistök	hagstjórnar-mistak	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk
-4	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_ft_þt_gm
+4	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_þt_gm
 5	gerð	gera	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	aðdraganda	aðdragandi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
-8	banka- og gjaldeyrishrunsins	banka- og gjaldeyris-hrun	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk_gr
-9	2008	2008	ADV	ártal	_	8	advmod	_	SpaceAfter=No|tag=ártal
-10	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+8-10	banka- og gjaldeyrishrunsins	_	_	_	_	_	_	_	_
+8	banka-	banka-	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk_gr
+9	og	og	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	8	fixed	_	tag=no_et_ef_hk_gr
+10	gjaldeyrishrunsins	gjaldeyris-hrun	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	fixed	_	tag=no_et_ef_hk_gr
+11	2008	2008	ADV	ártal	_	8	advmod	_	SpaceAfter=No|tag=ártal
+12	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00357,.3
 # text = Það er eins og við séum ekki til lengur.
@@ -53,16 +55,18 @@
 
 # sent_id = GREYNIR_CORPUS_00357,.5
 # text = Inn á milli eru þó verkefni sem eru mjög skemmtileg.
-1	Inn	inn	ADV	ao	_	3	advmod	_	tag=ao
-2	á milli	á milli	ADV	ao	_	1	advmod	_	tag=ao
-3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
-4	þó	þó	ADV	ao	_	3	advmod	_	tag=ao
-5	verkefni	verkefni	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk
-6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
-7	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
-8	mjög	mjög	ADV	eo	_	9	advmod	_	tag=eo
-9	skemmtileg	skemmtilegur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	7	acl:relcl	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
-10	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+1	Inn	inn	ADV	ao	_	4	advmod	_	tag=ao
+2-3	á milli	_	_	_	_	_	_	_	_
+2	á	á	ADV	ao	_	1	advmod	_	tag=ao
+3	milli	milli	ADV	ao	_	2	fixed	_	tag=ao
+4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
+5	þó	þó	ADV	ao	_	4	advmod	_	tag=ao
+6	verkefni	verkefni	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
+7	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
+8	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
+9	mjög	mjög	ADV	eo	_	10	advmod	_	tag=eo
+10	skemmtileg	skemmtilegur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	8	acl:relcl	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
+11	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00357,.6
 # text = Í dag eru tíu fyrirtæki með starfsemi í kofunum.
@@ -86,9 +90,11 @@
 5	grafa	grafa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
 6	eftir	eftir	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	vatni	vatn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
-8	í gegnum	í gegnum	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	sífrerann	sífreri	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-10	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+8-9	í gegnum	_	_	_	_	_	_	_	_
+8	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+9	gegnum	gegnum	ADP	fs_þf	Case=Acc	8	fixed	_	tag=fs_þf
+10	sífrerann	sífreri	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
+11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00357,.8
 # text = Framboðið Betri byggð fékk 55 atkvæði eða 56% atkvæða.
@@ -106,7 +112,7 @@
 # sent_id = GREYNIR_CORPUS_00357,.9
 # text = Þetta var lengst af niðurnjörvað samfélag, segir Hallgrímur.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	lengst	langt	ADV	ao_est	Degree=Sup	6	advmod	_	tag=ao_est
 4	af	af	ADV	ao	_	3	advmod	_	tag=ao
 5	niðurnjörvað	niður-njörvaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_nf_hk_sb
@@ -116,10 +122,9 @@
 9	Hallgrímur	Hallgrímur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 10	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
--3	None	_	None	None	_	_	None	_	_
 1	Enn	enn	ADV	ao	_	4	advmod	_	tag=ao
 2	fremur	harla	ADV	ao_mst	Degree=Cmp	1	advmod	_	tag=ao_mst
-3	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_þt_gm
+3	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_þt_gm
 4	rýnd	rýna	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 5	gögn	gagn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
 6	úr	úr	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf

@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00394,.1
 # text = Tillögurnar eru ekki óumdeildar, en breið samstaða virðist hins vegar hafa náðst í nefndinni.
 1	Tillögurnar	tillaga	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	tag=no_ft_nf_kvk_gr
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	ekki	ekki	ADV	eo	_	4	advmod	_	tag=eo
 4	óumdeildar	óumdeildur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|tag=lo_ft_nf_kvk_sb
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
@@ -9,17 +9,19 @@
 7	breið	breið	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	tag=lo_et_nf_kvk_sb
 8	samstaða	samstaða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk
 9	virðist	virða	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	4	conj	_	tag=so_0_fh_p3_et_nt_mm
-10	hins vegar	hins vegar	ADV	ao	_	9	advmod	_	tag=ao
-11	hafa	haf	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	aux	_	tag=so_0_nh_gm
-12	náðst	ná	AUX	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	9	aux	_	tag=so_0_sagnb_mm
-13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	nefndinni	nefnd	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
-15	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+10-11	hins vegar	_	_	_	_	_	_	_	_
+10	hins	hins	ADV	ao	_	9	advmod	_	tag=ao
+11	vegar	vegar	ADV	ao	_	10	fixed	_	tag=ao
+12	hafa	haf	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	aux	_	tag=so_0_nh_gm
+13	náðst	ná	AUX	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	9	aux	_	tag=so_0_sagnb_mm
+14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+15	nefndinni	nefnd	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
+16	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00394,.2
 # text = Ljóst sé að félagið hafi ekki komið allri gengisveikingu krónunnar strax út í verðlag.
 1	Ljóst	ljós	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
-2	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_vh_p3_et_nt_gm
+2	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_vh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	1	nsubj	_	tag=st
 4	félagið	félag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk_gr
 5	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_nt_gm
@@ -41,13 +43,13 @@
 3	meina	meina	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
 4	að	að	SCONJ	st	_	3	obj	_	tag=st
 5	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=fn_et_nf_hk
-6	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+6	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 7	hin	hinn	DET	gr_et_nf_kvk	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	det	_	tag=gr_et_nf_kvk
 8	mesta	mikill	ADJ	lo_et_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_nf_kvk_evb
 9	villa	villa	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	VANTAR_LIÐ_IP_None	_	tag=no_et_nf_kvk
 10	og	og	CCONJ	st	_	2	cc	_	tag=st
 11	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_p1
-12	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	14	conj	_	tag=so_0_fh_p1_et_nt_gm
+12	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p1_et_nt_gm
 13	sammála	sammála	ADJ	lo_et_nf_kk_fst_vb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_nf_kk_fst_vb
 14	henni	hún	PRON	pfn_et_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	conj	_	SpaceAfter=No|tag=pfn_et_þgf_kvk_p3
 15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -73,7 +75,7 @@
 # sent_id = GREYNIR_CORPUS_00394,.5
 # text = Þetta eru svo margar sögur í einni, sem eru ómissandi fyrir heildarverkið.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	svo	svo	ADV	eo	_	5	advmod	_	tag=eo
 4	margar	margur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	5	amod	_	tag=lo_ft_nf_kvk_sb
 5	sögur	saga	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk
@@ -107,21 +109,23 @@
 
 # sent_id = GREYNIR_CORPUS_00394,.7
 # text = Óttarr Proppé, formaður Bjartrar framtíðar, er ekki sagður sækjast eftir neinu ákveðnu ráðherraembætti.
-1	Óttarr Proppé	Óttarr Proppé	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	formaður	forma	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	Bjartrar	bjartur	ADJ	lo_et_ef_kvk_fst_sb	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_ef_kvk_fst_sb
-5	framtíðar	framtíð	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
-6	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-7	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
-8	ekki	ekki	ADV	ao	_	9	advmod	_	tag=ao
-9	sagður	sagður	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-10	sækjast	sækja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	9	xcomp	_	tag=so_0_nh_mm
-11	eftir	eftir	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-12	neinu	neinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	tag=fn_et_þgf_hk
-13	ákveðnu	ákveða	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_þgf_hk_sb
-14	ráðherraembætti	ráðherraembætti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-15	.	.	PUNCT	grm	_	9	punct	_	tag=grm
+1-2	Óttarr Proppé	_	_	_	_	_	_	_	_
+1	Óttarr	Óttarr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	Proppé	Proppé	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
+4	formaður	forma	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+5	Bjartrar	bjartur	ADJ	lo_et_ef_kvk_fst_sb	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_ef_kvk_fst_sb
+6	framtíðar	framtíð	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
+7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+8	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
+9	ekki	ekki	ADV	ao	_	10	advmod	_	tag=ao
+10	sagður	sagður	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+11	sækjast	sækja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	10	xcomp	_	tag=so_0_nh_mm
+12	eftir	eftir	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+13	neinu	neinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	tag=fn_et_þgf_hk
+14	ákveðnu	ákveða	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_þgf_hk_sb
+15	ráðherraembætti	ráðherraembætti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+16	.	.	PUNCT	grm	_	10	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00394,.8
 # text = María segir að birkið hafi farið hægt af stað, sökum kulda og vætu.
@@ -151,13 +155,17 @@
 6	hrapað	hrapa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	obj	_	tag=so_0_sagnb_gm
 7	með	með	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	framhlutan	fram-hlutan	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þf_kk_gr
-9	á undan	á undan	ADV	ao	_	8	advmod	_	tag=ao
-10	á	eiga	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	akurlendi	akurlendi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
-12	suðaustur	suðaustur	ADV	ao	_	14	advmod	_	tag=ao
-13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	Addis Ababa	Addis Ababa	PROPN	sérnafn	_	11	obl	_	SpaceAfter=No|tag=sérnafn
-15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+9-10	á undan	_	_	_	_	_	_	_	_
+9	á	á	ADV	ao	_	8	advmod	_	tag=ao
+10	undan	undan	ADV	ao	_	9	fixed	_	tag=ao
+11	á	eiga	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	akurlendi	akurlendi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
+13	suðaustur	suðaustur	ADV	ao	_	15	advmod	_	tag=ao
+14	af	af	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+15-16	Addis Ababa	_	_	_	_	_	_	_	_
+15	Addis	Addis	PROPN	sérnafn	_	12	obl	_	SpaceAfter=No|tag=sérnafn
+16	Ababa	Ababa	PROPN	sérnafn	_	15	fixed	_	SpaceAfter=No|tag=sérnafn
+17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 1	Fræðsla	fræðsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 2	og	og	CCONJ	st	_	3	cc	_	tag=st

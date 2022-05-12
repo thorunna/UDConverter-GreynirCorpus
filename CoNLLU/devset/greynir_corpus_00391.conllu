@@ -18,10 +18,9 @@
 
 # sent_id = GREYNIR_CORPUS_00391,.2
 # text = Lengst af verður þurrt Norðaustanlands, en þar má eining búast við éljagangi í kvöld.
--3	None	_	None	None	_	_	None	_	_
 1	Lengst	langt	ADV	ao_est	Degree=Sup	4	advmod	_	tag=ao_est
 2	af	af	ADV	ao	_	1	advmod	_	tag=ao
-3	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	þurrt	þurr	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	Norðaustanlands	norðaustan-lands	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
 6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
@@ -32,13 +31,15 @@
 11	búast	búa	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	4	conj	_	tag=so_0_nh_mm
 12	við	við	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	éljagangi	éljagangur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þgf_kk
-14	í kvöld	í kvöld	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
-15	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+14-15	í kvöld	_	_	_	_	_	_	_	_
+14	í	í	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
+15	kvöld	kvöld	ADV	ao	_	14	fixed	_	SpaceAfter=No|tag=ao
+16	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00391,.3
 # text = Þetta er það verkefni sem fær langmesta athygli og mesta umfjöllun í heimi.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	tag=fn_et_nf_hk
 4	verkefni	verkefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
@@ -54,28 +55,31 @@
 
 # sent_id = GREYNIR_CORPUS_00391,.4
 # text = Karl Kristján Benediktsson vinur Péturs sem fór með honum í veisluna á Grímsstöðum lýsir Pétri svona.
-1	Karl Kristján Benediktsson	Karl Kristján Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
-2	vinur	vina	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-3	Péturs	Pétur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	nmod:poss	_	tag=person_ef_kk
-4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
-5	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	tag=pfn_et_þgf_kk_p3
-8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	veisluna	veisla	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þf_kvk_gr
-10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	Grímsstöðum	Grímsstaðir	PROPN	sérnafn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	tag=sérnafn_ft_þgf_kk
-12	lýsir	lýsa	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
-13	Pétri	Pétur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	12	obj	_	tag=person_þgf_kk
-14	svona	svona	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
-15	.	.	PUNCT	grm	_	12	punct	_	tag=grm
+1-3	Karl Kristján Benediktsson	_	_	_	_	_	_	_	_
+1	Karl	Karl	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	tag=person_nf_kk
+2	Kristján	Kristján	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+3	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+4	vinur	vina	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+5	Péturs	Pétur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	4	nmod:poss	_	tag=person_ef_kk
+6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
+7	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
+8	með	með	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	tag=pfn_et_þgf_kk_p3
+10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	veisluna	veisla	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk_gr
+12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	Grímsstöðum	Grímsstaðir	PROPN	sérnafn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	tag=sérnafn_ft_þgf_kk
+14	lýsir	lýsa	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
+15	Pétri	Pétur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	14	obj	_	tag=person_þgf_kk
+16	svona	svona	ADV	ao	_	14	advmod	_	SpaceAfter=No|tag=ao
+17	.	.	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00391,.5
 # text = Þar sem Costa er samningsbundinn Bayern til 2020 þá verður Juve að kaupa hann.
 1	Þar	þar	ADV	ao	_	5	mark	_	tag=ao
 2	sem	sem	SCONJ	st	_	1	cc	_	tag=st
 3	Costa	Costa	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	samningsbundinn	samningsbundinn	ADJ	lo_et_nf_kk_sb_sþgf	Case=Nom|Gender=Masc|Number=Sing	10	advcl	_	tag=lo_et_nf_kk_sb_sþgf
 6	Bayern	Bayern	PROPN	fyrirtæki_þgf_hk	Case=Dat|Gender=Neut	5	obl	_	tag=fyrirtæki_þgf_hk
 7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
@@ -91,7 +95,7 @@
 # sent_id = GREYNIR_CORPUS_00391,.6
 # text = Kólera er skæð bakteríusýking sem smitast mjög auðveldlega, m.a. með mat og vatni.
 1	Kólera	kólera	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	skæð	skæður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_nf_kvk_sb
 4	bakteríusýking	bakteríusýking	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
@@ -116,63 +120,78 @@
 6	fá	fá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_1_þf_nh_gm
 7	þetta	þetta	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	tag=fn_et_þf_hk
 8	fólk	fólk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	tag=no_et_þf_hk
-9	til baka	til baka	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
-10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	allavega	allavega	ADV	eo	_	14	advmod	_	tag=eo
-12	þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	14	nmod	_	tag=fn_ft_nf_hk
-13	570	570	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	14	nummod	_	tag=tala_ft_nf_hk
-14	störf	störf	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_nf_hk
-15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+9-10	til baka	_	_	_	_	_	_	_	_
+9	til	til	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
+10	baka	baka	ADV	ao	_	9	fixed	_	SpaceAfter=No|tag=ao
+11	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+12	allavega	allavega	ADV	eo	_	15	advmod	_	tag=eo
+13	þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	15	nmod	_	tag=fn_ft_nf_hk
+14	570	570	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	15	nummod	_	tag=tala_ft_nf_hk
+15	störf	störf	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_nf_hk
+16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00391,.8
 # text = Atli Fannar Skúlason kynnti lokaverkefni sitt í mekatróník hátæknifræði við Háskóla Íslands og Keili síðastliðinn þriðjudag.
-1	Atli Fannar Skúlason	Atli Fannar Skúlason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	kynnti	kynna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	lokaverkefni	loka-verkefni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
-4	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	tag=fn_et_þf_hk
-5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	mekatróník	mekatróník	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
-7	hátæknifræði	há-tæknifræði	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	tag=no_et_þgf_kvk
-8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	Háskóla	háskóli	PROPN	fyrirtæki_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	tag=fyrirtæki_et_þf_kk
-10	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=no_et_ef_hk
-11	og	og	CCONJ	st	_	9	cc	_	tag=st
-12	Keili	Keilir	PROPN	fyrirtæki_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	tag=fyrirtæki_et_þf_kk
-13	síðastliðinn	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_þf_kk_sb
-14	þriðjudag	þriðjudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Atli Fannar Skúlason	_	_	_	_	_	_	_	_
+1	Atli	Atli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
+2	Fannar	Fannar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+3	Skúlason	Skúlason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+4	kynnti	kynna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+5	lokaverkefni	loka-verkefni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þf_hk
+6	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	tag=fn_et_þf_hk
+7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	mekatróník	mekatróník	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk
+9	hátæknifræði	há-tæknifræði	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	conj	_	tag=no_et_þgf_kvk
+10	við	við	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	Háskóla	háskóli	PROPN	fyrirtæki_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	tag=fyrirtæki_et_þf_kk
+12	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	nmod:poss	_	tag=no_et_ef_hk
+13	og	og	CCONJ	st	_	11	cc	_	tag=st
+14	Keili	Keilir	PROPN	fyrirtæki_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	conj	_	tag=fyrirtæki_et_þf_kk
+15	síðastliðinn	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_þf_kk_sb
+16	þriðjudag	þriðjudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+17	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00391,.9
 # text = Rúnar Örn Ágústsson hafnaði í þrettánda sæti í Járnkarlinum sem fram fór í Kaupmannahöfn á sunnudaginn.
-1	Rúnar Örn Ágústsson	Rúnar Örn Ágústsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	hafnaði	hafna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-3	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-4	þrettánda	þrettándi	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þgf_hk_sb
-5	sæti	sæti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
-6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	Járnkarlinum	járnkarl	PROPN	fyrirtæki_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	tag=fyrirtæki_et_þgf_kk_gr
-8	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
-9	fram	fram	ADV	ao	_	10	advmod	_	tag=ao
-10	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	Kaupmannahöfn	Kaupmannahöfn	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=sérnafn_et_þgf_kvk
-13	á	á	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14	sunnudaginn	sunnudagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	advmod	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Rúnar Örn Ágústsson	_	_	_	_	_	_	_	_
+1	Rúnar	Rúnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
+2	Örn	Örn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+3	Ágústsson	Ágústsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+4	hafnaði	hafna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+5	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+6	þrettánda	þrettándi	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þgf_hk_sb
+7	sæti	sæti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
+8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	Járnkarlinum	járnkarl	PROPN	fyrirtæki_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	tag=fyrirtæki_et_þgf_kk_gr
+10	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
+11	fram	fram	ADV	ao	_	12	advmod	_	tag=ao
+12	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
+13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	Kaupmannahöfn	Kaupmannahöfn	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=sérnafn_et_þgf_kvk
+15	á	á	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+16	sunnudaginn	sunnudagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	advmod	_	SpaceAfter=No|tag=no_et_þf_kk_gr
+17	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00391,.10
+# text = Er upphæðin um 7,6 prósent af tekjum Símans í fyrra, sem námu alls 7.945 milljónum króna.
 1	Er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 2	upphæðin	upphæð	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
 3	um	um	ADV	eo	_	1	xcomp	_	tag=eo
-4	7,6 prósent	7,6 prósent	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nummod	_	tag=prósenta_ft_nf_hk
-5	af	af	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	tekjum	tekja	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þgf_kvk
-7	Símans	Síminn	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	tag=fyrirtæki_et_ef_kk
-8	í	í	ADV	ao	_	6	advmod	_	tag=ao
-9	fyrra	fyrra	ADV	ao	_	8	advmod	_	tag=ao
-10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
-12	námu	nema	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	tag=so_1_þgf_fh_p3_ft_þt_gm
-13	alls	alls	ADV	eo	_	12	advmod	_	tag=eo
-14	7.945 milljónum króna	7.945 milljónum króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obj	_	tag=no_ft_þgf_kvk
-15	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+4-5	7,6 prósent	_	_	_	_	_	_	_	_
+4	7,6	7,6	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nummod	_	tag=prósenta_ft_nf_hk
+5	prósent	prósent	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	fixed	_	tag=prósenta_ft_nf_hk
+6	af	af	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	tekjum	tekja	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þgf_kvk
+8	Símans	Síminn	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=fyrirtæki_et_ef_kk
+9	í	í	ADV	ao	_	7	advmod	_	tag=ao
+10	fyrra	fyrra	ADV	ao	_	9	advmod	_	SpaceAfter=No|tag=ao
+11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
+12	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
+13	námu	nema	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	tag=so_1_þgf_fh_p3_ft_þt_gm
+14	alls	alls	ADV	eo	_	13	advmod	_	tag=eo
+15-17	7.945 milljónum króna	_	_	_	_	_	_	_	_
+15	7.945	7.945	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+16	milljónum	milljónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	fixed	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+17	króna	króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	fixed	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+18	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

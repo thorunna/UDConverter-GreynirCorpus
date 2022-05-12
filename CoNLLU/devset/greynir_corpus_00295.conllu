@@ -27,7 +27,7 @@
 # sent_id = GREYNIR_CORPUS_00295,.2
 # text = Annars er farþegarýmið hljóðlátt og hljóðkerfið prýðilegt þó að það virðist hafa verið stillt meira með eyru farþega en ökumanns í huga.
 1	Annars	annars	ADV	ao	_	4	advmod	_	tag=ao
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	farþegarýmið	farþegarými	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
 4	hljóðlátt	hljóðlátur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	og	og	CCONJ	st	_	6	cc	_	tag=st
@@ -38,11 +38,11 @@
 10	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_hk_p3
 11	virðist	virða	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	6	advcl	_	tag=so_0_fh_p3_et_nt_mm
 12	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	aux	_	tag=so_0_nh_gm
-13	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	conj	_	tag=so_0_sagnb_gm
-14	stillt	stilla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	conj	_	tag=so_0_lhþt_et
-15	meira	mikið	ADV	ao_mst	Degree=Cmp	14	advmod	_	tag=ao_mst
+13	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	11	cop	_	tag=so_0_sagnb_gm
+14	stillt	stilla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	cop	_	tag=so_0_lhþt_et
+15	meira	mikið	ADV	ao_mst	Degree=Cmp	11	advmod	_	tag=ao_mst
 16	með	með	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	eyru	eyra	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_þf_hk
+17	eyru	eyra	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þf_hk
 18	farþega	farþegi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	17	nmod:poss	_	tag=no_et_ef_kk
 19	en	en	CCONJ	st	_	20	cc	_	tag=st
 20	ökumanns	ökumaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	18	advcl	_	tag=no_et_ef_kk
@@ -52,27 +52,30 @@
 
 # sent_id = GREYNIR_CORPUS_00295,.3
 # text = Halldór Auðar Svansson greinir jafnframt frá því að hann hafi verið starfsmaður netdeildar Kaupþings meðan allt lék í lyndi, fyrir hrun.
-1	Halldór Auðar Svansson	Halldór Auðar Svansson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	greinir	greina	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	jafnframt	jafnframt	ADV	ao	_	2	advmod	_	tag=ao
-4	frá	frá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
-6	að	að	SCONJ	st	_	10	mark	_	tag=st
-7	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_kk_p3
-8	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_vh_p3_et_nt_gm
-9	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	10	cop	_	tag=so_1_nf_sagnb_gm
-10	starfsmaður	starfsmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	ccomp	_	tag=no_et_nf_kk
-11	netdeildar	netdeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	nmod:poss	_	tag=no_et_ef_kvk
-12	Kaupþings	Kaupþing	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	nmod:poss	_	tag=fyrirtæki_et_ef_hk
-13	meðan	meðan	SCONJ	st	_	15	mark	_	tag=st
-14	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	tag=fn_et_nf_hk
-15	lék	leika	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	advcl	_	tag=so_0_fh_p3_et_þt_gm
-16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	lyndi	lyndi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-18	,	_	PUNCT	grm	_	17	punct	_	tag=grm
-19	fyrir	fyrir	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	hrun	hrun	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
-21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Halldór Auðar Svansson	_	_	_	_	_	_	_	_
+1	Halldór	Halldór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
+2	Auðar	Auðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+3	Svansson	Svansson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+4	greinir	greina	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+5	jafnframt	jafnframt	ADV	ao	_	4	advmod	_	tag=ao
+6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
+8	að	að	SCONJ	st	_	12	mark	_	tag=st
+9	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_kk_p3
+10	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_nt_gm
+11	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	12	cop	_	tag=so_1_nf_sagnb_gm
+12	starfsmaður	starfsmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	ccomp	_	tag=no_et_nf_kk
+13	netdeildar	netdeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	12	nmod:poss	_	tag=no_et_ef_kvk
+14	Kaupþings	Kaupþing	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	13	nmod:poss	_	tag=fyrirtæki_et_ef_hk
+15	meðan	meðan	SCONJ	st	_	17	mark	_	tag=st
+16	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	tag=fn_et_nf_hk
+17	lék	leika	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	advcl	_	tag=so_0_fh_p3_et_þt_gm
+18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+19	lyndi	lyndi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+20	,	_	PUNCT	grm	_	19	punct	_	tag=grm
+21	fyrir	fyrir	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+22	hrun	hrun	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
+23	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00295,.4
 # text = Stofnunin fær, ásamt Matís, styrk til að kanna erfðafræðileg áhrif laxeldis á villta laxastofna annan til vöktunar á umhverfisáhrifum sjókvíaeldis.
@@ -130,23 +133,27 @@
 2	á	eiga	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	líkt	líkt	ADV	ao	_	5	cc	_	tag=ao
 4	og	og	CCONJ	st	_	3	cc	_	tag=st
-5	Sindri Þór	Sindri Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	advcl	_	tag=person_nf_kk
-6	langan	langur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_þf_kk_sb
-7	brotaferil	brotaferill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk
-8	að	að	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	baki	bak	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
-10	en	en	CCONJ	st	_	2	cc	_	tag=st
-11	brot	brot	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	tag=no_ft_nf_hk
-12	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	tag=pfn_et_ef_kk_p3
-13	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_ft_nt_gm
-14	val	vel	ADV	ao	_	13	advmod	_	tag=ao
-15	á	á	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-16	annan	annar	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	17	amod	_	tag=lo_et_þf_kk_sb
-17	tug	tugur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þf_kk
-18	allt	allt	ADV	ao	_	13	advmod	_	tag=ao
-19	frá	frá	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20	árinu 2002	árið 2002	NUM	ártal	_	18	obl	_	SpaceAfter=No|tag=ártal
-21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+5-6	Sindri Þór	_	_	_	_	_	_	_	_
+5	Sindri	Sindri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	advcl	_	tag=person_nf_kk
+6	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	fixed	_	tag=person_nf_kk
+7	langan	langur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_þf_kk_sb
+8	brotaferil	brotaferill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk
+9	að	að	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+10	baki	bak	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
+11	en	en	CCONJ	st	_	2	cc	_	tag=st
+12	brot	brot	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	tag=no_ft_nf_hk
+13	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	tag=pfn_et_ef_kk_p3
+14	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_ft_nt_gm
+15	val	vel	ADV	ao	_	14	advmod	_	tag=ao
+16	á	á	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
+17	annan	annar	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	18	amod	_	tag=lo_et_þf_kk_sb
+18	tug	tugur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þf_kk
+19	allt	allt	ADV	ao	_	14	advmod	_	tag=ao
+20	frá	frá	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+21-22	árinu 2002	_	_	_	_	_	_	_	_
+21	árinu	árið	NUM	ártal	_	19	obl	_	SpaceAfter=No|tag=ártal
+22	2002	2002	NUM	ártal	_	21	fixed	_	SpaceAfter=No|tag=ártal
+23	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00295,.7
 # text = Megin tilgangurinn með þessari jógaferð er að leyfa okkur að losna frá öllum skyldum og lifa áreynslulausu lífi í náttúrunnar paradís.
@@ -192,18 +199,19 @@
 15	en	en	CCONJ	st	_	2	cc	_	tag=st
 16	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_þf_kk_p3
 17	hefst	hefja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	2	conj	_	tag=so_0_fh_p3_et_nt_mm
-18	klukkan 07,30	klukkan 07,30	ADV	tími	_	17	advmod	_	tag=tími
-19	að	að	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-20	íslenskum	íslenskur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	21	amod	_	tag=lo_et_þgf_kk_sb
-21	tíma	tími	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
-22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+18-19	klukkan 07,30	_	_	_	_	_	_	_	_
+18	klukkan	klukkan	ADV	tími	_	17	advmod	_	tag=tími
+19	07,30	07,30	?	tími	_	18	fixed	_	tag=tími
+20	að	að	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+21	íslenskum	íslenskur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	22	amod	_	tag=lo_et_þgf_kk_sb
+22	tíma	tími	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
+23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00295,.9
 # text = Það getur verið erfitt að finna tíma fyrir líkamsrækt vegna skutls, heimanáms, veikinda barna, eldamennsku og margra annarra þátta.
--3	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
 2	getur	geta	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	conj	_	tag=so_0_sagnb_gm
+3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	erfitt	erfiður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	finna	finna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_1_þf_nh_gm
@@ -225,6 +233,8 @@
 22	þátta	þáttur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No|tag=no_ft_ef_kk
 23	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00295,.10
+# text = Það tók sigurvegarann aðeins 22 mínútur og 40 sekúndur að næla í gullið, þ.e. þangað til þjófur stal hjólinu.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	tag=pfn_et_nf_hk_p3
 2	tók	taka	VERB	so_2_þf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þf_þf_fh_p3_et_þt_gm
 3	sigurvegarann	sigurvegari	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	iobj	_	tag=no_et_þf_kk_gr
@@ -237,13 +247,13 @@
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
 11	næla	næla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
 12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	gullið	gull	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þf_hk_gr
+13	gullið	gull	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	þ.e.	þ.e.	ADV	abbrev	_	2	advmod	_	tag=abbrev
 16	þangað	þangað	ADV	ao	_	19	mark	_	tag=ao
 17	til	til	SCONJ	st	_	16	cc	_	tag=st
 18	þjófur	þjófur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	tag=no_et_nf_kk
 19	stal	stela	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	tag=so_1_þgf_fh_p3_et_þt_gm
-20	hjólinu	hjól	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	19	obj	_	tag=no_et_þgf_hk_gr
+20	hjólinu	hjól	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -9,8 +9,10 @@
 7	opna	opinn	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	VANTAR_LIÐ_IP_None	_	tag=so_1_þf_nh_gm
 8	verslun	verslun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	tag=no_et_þf_kvk
 9	Bónus	bónus	PROPN	fyrirtæki_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	nmod:poss	_	tag=fyrirtæki_et_þf_kk
-10	klukkan tólf	klukkan tólf	ADV	tími	_	7	advmod	_	SpaceAfter=No|tag=tími
-11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+10-11	klukkan tólf	_	_	_	_	_	_	_	_
+10	klukkan	klukkan	ADV	tími	_	7	advmod	_	SpaceAfter=No|tag=tími
+11	tólf	tólf	?	tími	_	10	fixed	_	SpaceAfter=No|tag=tími
+12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00362,.2
 # text = Konur vita vel að þær eiga að nota getnaðarvarnir.
@@ -33,22 +35,23 @@
 4	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
 5	að	að	SCONJ	st	_	8	mark	_	tag=st
 6	hlutafé	hlutafé	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
-7	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_0_vh_p3_et_þt_gm
+7	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_þt_gm
 8	aukið	auka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	obl	_	tag=so_0_lhþt_et
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	300 milljónir	300 milljónir	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|tag=töl_ft_þf_kvk
-11	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+10-11	300 milljónir	_	_	_	_	_	_	_	_
+10	300	300	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|tag=töl_ft_þf_kvk
+11	milljónir	milljónir	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	fixed	_	SpaceAfter=No|tag=töl_ft_þf_kvk
+12	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00362,.4
 # text = Ég skil ekki af hverju þetta er svona flókið.
--2	None	_	None	None	_	_	None	_	_
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	skil	skil	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
 4	af	af	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	hverju	hvað	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=fn_et_þgf_hk
 6	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=fn_et_nf_hk
-7	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	svona	svona	ADV	eo	_	9	advmod	_	tag=eo
 9	flókið	flókinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	ccomp	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 10	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -69,29 +72,33 @@
 
 # sent_id = GREYNIR_CORPUS_00362,.6
 # text = 18% kjósenda Framsóknarflokksins í NA-kjördæmi strikuðu Sigmund Davíð út.
-1	18%	18%	X	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	dep	_	tag=prósenta_ft_nf_hk
+1	18%	18%	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	tag=prósenta_ft_nf_hk
 2	kjósenda	kjósandi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk
 3	Framsóknarflokksins	Framsóknarflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod:poss	_	tag=fyrirtæki_et_ef_kk_gr
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	NA-kjördæmi	NA-kjördæmi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 6	strikuðu	strika	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
-7	Sigmund Davíð	Sigmund Davíð	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	obj	_	tag=person_þf_kk
-8	út	út	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
-9	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+7-8	Sigmund Davíð	_	_	_	_	_	_	_	_
+7	Sigmund	Sigmund	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	obj	_	tag=person_þf_kk
+8	Davíð	Davíð	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	fixed	_	tag=person_þf_kk
+9	út	út	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
+10	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00362,.7
 # text = Að auki bjóða Sportvörur upp á hlaupafatnað frá fyrirtækinu 2 XU.
-1	Að auki	að auki	ADV	ao	_	2	advmod	_	tag=ao
-2	bjóða	bjóð	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
-3	Sportvörur	Sportvörur	PROPN	fyrirtæki_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	tag=fyrirtæki_ft_nf_kvk
-4	upp	upp	ADV	ao	_	6	advmod	_	tag=ao
-5	á	eiga	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	hlaupafatnað	hlaupa-fatnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
-7	frá	frá	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	fyrirtækinu	fyrirtæki	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk_gr
-9	2	2	NUM	tala	NumType=Card	10	nummod	_	tag=tala
-10	XU	XU	PROPN	entity	_	8	obl	_	SpaceAfter=No|tag=entity
-11	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Að auki	_	_	_	_	_	_	_	_
+1	Að	að	ADV	ao	_	3	advmod	_	tag=ao
+2	auki	auki	ADV	ao	_	1	fixed	_	tag=ao
+3	bjóða	bjóð	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
+4	Sportvörur	Sportvörur	PROPN	fyrirtæki_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	tag=fyrirtæki_ft_nf_kvk
+5	upp	upp	ADV	ao	_	7	advmod	_	tag=ao
+6	á	eiga	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+7	hlaupafatnað	hlaupa-fatnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
+8	frá	frá	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	fyrirtækinu	fyrirtæki	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk_gr
+10	2	2	NUM	tala	NumType=Card	11	nummod	_	tag=tala
+11	XU	XU	PROPN	entity	_	9	obl	_	SpaceAfter=No|tag=entity
+12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00362,.8
 # text = Þær segja manni hvað er gott og hvað er slæmt.
@@ -109,12 +116,11 @@
 
 # sent_id = GREYNIR_CORPUS_00362,.9
 # text = Þú segir að það sé hægt að leiðrétta þessi mistök.
--1	None	_	None	None	_	_	None	_	_
 1	Þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p2
 2	segir	segja	VERB	so_1_þf_fh_p2_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p2_et_nt_gm
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
 4	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_hk_p3
-5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_vh_p3_et_nt_gm
+5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
 6	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	obj	_	tag=lo_et_nf_hk_sb
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
 8	leiðrétta	leiðrétta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_1_þf_nh_gm
@@ -122,13 +128,17 @@
 10	mistök	mistak	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	SpaceAfter=No|tag=no_ft_þf_hk
 11	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00362,.10
+# text = Öldungadeildaþingmaðurinn Patrick Leahy segir málið ekkert minna en Nixon-málið.
 1	Öldungadeildaþingmaðurinn	öldungadeilda-þingmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
-2	Patrick Leahy	Patrick Leahy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-3	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-4	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þf_hk_gr
-5	ekkert	ekkert	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	xcomp	_	tag=fn_et_þf_hk
-6	minna	lítill	ADV	ao_mst	Degree=Cmp	5	advmod	_	tag=ao_mst
-7	en	en	CCONJ	st	_	8	cc	_	tag=st
-8	Nixon-málið	Nixon-mál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	advcl	_	tag=no_et_nf_hk_gr
-9	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+2-3	Patrick Leahy	_	_	_	_	_	_	_	_
+2	Patrick	Patrick	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
+3	Leahy	Leahy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+4	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+5	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þf_hk_gr
+6	ekkert	ekkert	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	xcomp	_	tag=fn_et_þf_hk
+7	minna	lítill	ADV	ao_mst	Degree=Cmp	6	advmod	_	tag=ao_mst
+8	en	en	CCONJ	st	_	9	cc	_	tag=st
+9	Nixon-málið	Nixon-mál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	advcl	_	SpaceAfter=No|tag=no_et_nf_hk_gr
+10	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 

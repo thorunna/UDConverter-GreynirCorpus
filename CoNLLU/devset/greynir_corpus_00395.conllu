@@ -17,12 +17,12 @@
 15	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00395,.2
-# text = En gæti Kauphöllin ekki nálgast þessar upplýsingar hjá félögunum sjálfum og miðlað þeim áfram ?
-1	En	en	SCONJ	st	_	0	root	_	tag=st
+# text = En gæti Kauphöllin ekki nálgast þessar upplýsingar hjá félögunum sjálfum og miðlað þeim áfram?
+1	En	en	SCONJ	st	_	5	cc	_	tag=st
 2	gæti	geta	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_vh_p3_et_þt_gm
 3	Kauphöllin	kauphöll	PROPN	fyrirtæki_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=fyrirtæki_et_nf_kvk_gr
 4	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
-5	nálgast	nálgast	VERB	so_1_þf_sagnb_mm	Case=Acc|VerbForm=Sup|Voice=Mid	1	conj	_	tag=so_1_þf_sagnb_mm
+5	nálgast	nálgast	VERB	so_1_þf_sagnb_mm	Case=Acc|VerbForm=Sup|Voice=Mid	0	root	_	tag=so_1_þf_sagnb_mm
 6	þessar	þessi	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	nmod	_	tag=fn_ft_þf_kvk
 7	upplýsingar	upplýsing	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	tag=no_ft_þf_kvk
 8	hjá	hjá	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
@@ -32,7 +32,7 @@
 12	miðlað	miðla	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	5	conj	_	tag=so_1_þgf_sagnb_gm
 13	þeim	það	PRON	pfn_ft_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Plur|Person=3|PronType=Prs	12	obj	_	tag=pfn_ft_þgf_hk_p3
 14	áfram	áfram	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
-15	?	?	PUNCT	grm	_	1	punct	_	tag=grm
+15	?	?	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00395,.3
 # text = Það virðist hafa orðið flugeldaslys og þau fengið í sig glæringar og smá högg.
@@ -72,7 +72,7 @@
 # sent_id = GREYNIR_CORPUS_00395,.5
 # text = Ríkissjóður er stærsti einstaki hagsmunaaðilinn í ferðaþjónustunni, tryggja þarf sveitarfélögunum tekjur af ferðaþjónustunni.
 1	Ríkissjóður	ríkissjóður	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=fyrirtæki_et_nf_kk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	stærsti	stór	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_evb
 4	einstaki	einstakur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_vb
 5	hagsmunaaðilinn	hagsmunaaðili	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk_gr
@@ -91,31 +91,34 @@
 # text = Southampton kom til baka og vann 2 – 1 sigur á Inter í Evrópudeildinni í kvöld.
 1	Southampton	Southampton	PROPN	fyrirtæki_nf	Case=Nom	2	nsubj	_	tag=fyrirtæki_nf
 2	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-3	til baka	til baka	ADV	ao	_	2	advmod	_	tag=ao
-4	og	og	CCONJ	st	_	2	cc	_	tag=st
-5	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-6	2	2	NUM	tala	NumType=Card	5	obl	_	SpaceAfter=No|tag=tala
-7	–	–	PUNCT	grm	_	6	punct	_	tag=grm
-8	1	1	NUM	tala	NumType=Card	6	nummod	_	tag=tala
-9	sigur	sigur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	tag=no_et_þf_kk
-10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	Inter	Inter	PROPN	fyrirtæki_þgf	Case=Dat	9	obl	_	tag=fyrirtæki_þgf
-12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	Evrópudeildinni	Evrópu-deild	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk_gr
-14	í kvöld	í kvöld	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
-15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	til baka	_	_	_	_	_	_	_	_
+3	til	til	ADV	ao	_	2	advmod	_	tag=ao
+4	baka	baka	ADV	ao	_	3	fixed	_	tag=ao
+5	og	og	CCONJ	st	_	2	cc	_	tag=st
+6	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+7	2	2	NUM	tala	NumType=Card	6	obl	_	SpaceAfter=No|tag=tala
+8	–	–	PUNCT	grm	_	7	punct	_	tag=grm
+9	1	1	NUM	tala	NumType=Card	7	nummod	_	tag=tala
+10	sigur	sigur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	tag=no_et_þf_kk
+11	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	Inter	Inter	PROPN	fyrirtæki_þgf	Case=Dat	10	obl	_	tag=fyrirtæki_þgf
+13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	Evrópudeildinni	Evrópu-deild	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk_gr
+15-16	í kvöld	_	_	_	_	_	_	_	_
+15	í	í	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
+16	kvöld	kvöld	ADV	ao	_	15	fixed	_	SpaceAfter=No|tag=ao
+17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00395,.7
 # text = Paul er hluti af henni og hann verður bara betri, segir Zlatan.
--4	None	_	None	None	_	_	None	_	_
 1	Paul	Paul	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	hluti	hluti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	af	af	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	henni	hún	PRON	pfn_et_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þgf_kvk_p3
 6	og	og	CCONJ	st	_	3	cc	_	tag=st
 7	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_kk_p3
-8	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_0_fh_p3_et_nt_gm
+8	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
 9	bara	bara	ADV	eo	_	10	advmod	_	tag=eo
 10	betri	góður	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|tag=lo_et_nf_kk_mst
 11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
@@ -146,32 +149,36 @@
 1	Þá	þá	ADV	ao	_	2	advmod	_	tag=ao
 2	þarf	þurfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	maður	maður	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=fn_et_nf_kk
-4	í senn	í senn	ADV	ao	_	2	advmod	_	tag=ao
-5	að	að	PART	nhm	_	6	mark	_	tag=nhm
-6	fylgja	fylgja	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þgf_nh_gm
-7	þeim	hann	PRON	pfn_ft_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No|tag=pfn_ft_þgf_kk_p3
-8	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-9	styðja	styðja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	conj	_	tag=so_1_þf_nh_gm
-10	þá	hann	PRON	pfn_ft_þf_kk_p3	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	tag=pfn_ft_þf_kk_p3
-11	og	og	CCONJ	st	_	6	cc	_	tag=st
-12	leiða	leið	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	conj	_	tag=so_1_þf_nh_gm
-13	þá	hann	PRON	pfn_ft_þf_kk_p3	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	tag=pfn_ft_þf_kk_p3
-14	áfram	áfram	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
-15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+4-5	í senn	_	_	_	_	_	_	_	_
+4	í	í	ADV	ao	_	2	advmod	_	tag=ao
+5	senn	senn	ADV	ao	_	4	fixed	_	tag=ao
+6	að	að	PART	nhm	_	7	mark	_	tag=nhm
+7	fylgja	fylgja	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þgf_nh_gm
+8	þeim	hann	PRON	pfn_ft_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No|tag=pfn_ft_þgf_kk_p3
+9	,	,	PUNCT	grm	_	10	punct	_	tag=grm
+10	styðja	styðja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	conj	_	tag=so_1_þf_nh_gm
+11	þá	hann	PRON	pfn_ft_þf_kk_p3	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obj	_	tag=pfn_ft_þf_kk_p3
+12	og	og	CCONJ	st	_	7	cc	_	tag=st
+13	leiða	leið	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	conj	_	tag=so_1_þf_nh_gm
+14	þá	hann	PRON	pfn_ft_þf_kk_p3	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	tag=pfn_ft_þf_kk_p3
+15	áfram	áfram	ADV	ao	_	13	advmod	_	SpaceAfter=No|tag=ao
+16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
-1	Víðir Reynisson	Víðir Reynisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	almannavarnafulltrúi	almannavarna-fulltrúi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	lögreglunnar	lögregla	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk_gr
-5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	Suðurlandi	Suðurland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_hk
-7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	ræddi	ræða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	ástand	ástand	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
-11	vegakerfisins	vegakerfi	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=no_et_ef_hk_gr
-12	og	og	CCONJ	st	_	10	cc	_	tag=st
-13	öryggi	öryggi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	tag=no_et_þf_hk
-14	ferðamanna	ferðamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	10	nmod:poss	_	tag=no_ft_ef_kk
-15	.	.	PUNCT	grm	_	8	punct	_	tag=grm
+1-2	Víðir Reynisson	_	_	_	_	_	_	_	_
+1	Víðir	Víðir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
+2	Reynisson	Reynisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
+4	almannavarnafulltrúi	almannavarna-fulltrúi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+5	lögreglunnar	lögregla	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kvk_gr
+6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	Suðurlandi	Suðurland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_hk
+8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
+9	ræddi	ræða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+10	um	um	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	ástand	ástand	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þf_hk
+12	vegakerfisins	vegakerfi	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	11	nmod:poss	_	tag=no_et_ef_hk_gr
+13	og	og	CCONJ	st	_	11	cc	_	tag=st
+14	öryggi	öryggi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	conj	_	tag=no_et_þf_hk
+15	ferðamanna	ferðamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	11	nmod:poss	_	tag=no_ft_ef_kk
+16	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 

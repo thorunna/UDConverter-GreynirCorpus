@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00458,.1
 # text = Önnur eru slæm út frá samfélagslegum ábata, en hugsanlega góð út frá hagsmunum endanlegs eigenda - og enn önnur hafa engin sérstök áhrif.
--4	None	_	None	None	_	_	None	_	_
 1	Önnur	annar	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	tag=fn_ft_nf_hk
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	slæm	slæma	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb
 4	út	út	ADV	ao	_	7	advmod	_	tag=ao
 5	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -50,10 +49,14 @@
 19	19:10	19:10	PROPN	entity	_	2	obl	_	tag=entity
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	fréttatíma	fréttatími	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
-22	Stöðvar 2	Stöðvar 2	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	21	nmod:poss	_	tag=fyrirtæki_et_ef
-23	fyrr	fyrr	ADV	ao_mst	Degree=Cmp	2	advmod	_	tag=ao_mst
-24	í kvöld	í kvöld	ADV	ao	_	23	advmod	_	SpaceAfter=No|tag=ao
-25	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+22-23	Stöðvar 2	_	_	_	_	_	_	_	_
+22	Stöðvar	Stöðvar	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	21	nmod:poss	_	tag=fyrirtæki_et_ef
+23	2	2	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	22	fixed	_	tag=fyrirtæki_et_ef
+24	fyrr	fyrr	ADV	ao_mst	Degree=Cmp	2	advmod	_	tag=ao_mst
+25-26	í kvöld	_	_	_	_	_	_	_	_
+25	í	í	ADV	ao	_	24	advmod	_	SpaceAfter=No|tag=ao
+26	kvöld	kvöld	ADV	ao	_	25	fixed	_	SpaceAfter=No|tag=ao
+27	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00458,.3
 # text = En það sem mér finnst gaman að sjá núna er líkamstjáningin í myndunum og svipbrigðin eru að verða sjálfsöruggari, opnari og sterkari.
@@ -66,7 +69,7 @@
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
 8	sjá	sjá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
 9	núna	núna	ADV	ao	_	8	advmod	_	tag=ao
-10	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 11	líkamstjáningin	líkams-tjáning	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk_gr
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	myndunum	mynd	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	11	obl	_	tag=no_ft_þgf_kvk_gr
@@ -74,7 +77,7 @@
 15	svipbrigðin	svipbrigði	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	16	nsubj	_	tag=no_ft_nf_hk_gr
 16	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p3_ft_nt_gm
 17	að	að	PART	nhm	_	19	mark	_	tag=nhm
-18	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	19	conj	_	tag=so_0_nh_gm
+18	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	19	cop	_	tag=so_0_nh_gm
 19	sjálfsöruggari	sjálfsöruggur	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	16	xcomp	_	SpaceAfter=No|tag=lo_ft_nf_hk_mst
 20	,	,	PUNCT	grm	_	19	punct	_	tag=grm
 21	opnari	opinn	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	19	amod	_	tag=lo_ft_nf_hk_mst
@@ -163,8 +166,10 @@
 21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	Hornafirði	Hornafjörður	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	tag=sérnafn_et_þgf_kk
 23	fyrr	fyrr	ADV	ao_mst	Degree=Cmp	13	advmod	_	tag=ao_mst
-24	í kvöld	í kvöld	ADV	ao	_	23	advmod	_	SpaceAfter=No|tag=ao
-25	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+24-25	í kvöld	_	_	_	_	_	_	_	_
+24	í	í	ADV	ao	_	23	advmod	_	SpaceAfter=No|tag=ao
+25	kvöld	kvöld	ADV	ao	_	24	fixed	_	SpaceAfter=No|tag=ao
+26	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00458,.7
 # text = Í skýrslunni er greint frá því að á fyrstu átta mánuðum þessa árs sé veitt magn orðið tæplega 7% meira en á síðasta ári.
@@ -184,11 +189,11 @@
 14	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_vh_p3_et_nt_gm
 15	veitt	veiða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	ccomp	_	tag=so_0_lhþt_et
 16	magn	magn	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	tag=no_et_nf_hk
-17	orðið	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	20	conj	_	tag=so_0_lhþt_et
-18	tæplega	tæplegur	ADV	eo	_	20	advmod	_	tag=eo
-19	7%	7%	NUM	prósenta_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	20	nummod	_	tag=prósenta_ft_þgf_hk
-20	meira	mikið	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	15	conj	_	tag=lo_et_nf_hk_mst
-21	en	en	CCONJ	st	_	20	advcl	_	tag=st
+17	orðið	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	15	cop	_	tag=so_0_lhþt_et
+18	tæplega	tæplegur	ADV	eo	_	15	advmod	_	tag=eo
+19	7%	7%	NUM	prósenta_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	15	nummod	_	tag=prósenta_ft_þgf_hk
+20	meira	mikið	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	15	cop	_	tag=lo_et_nf_hk_mst
+21	en	en	CCONJ	st	_	15	advcl	_	tag=st
 22	á	á	ADV	fs_þgf	Case=Dat	21	advmod	_	tag=fs_þgf
 23	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	24	amod	_	tag=lo_et_þgf_hk_evb
 24	ári	ár	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
@@ -196,31 +201,33 @@
 
 # sent_id = GREYNIR_CORPUS_00458,.8
 # text = Umhverfisráðherra landsins, Barbara Hendricks, hefur bannað kjöt og fisk á opinberum viðburðum ráðuneytisins og verður því eingöngu leyfilegt að bjóða upp á grænmetisfæði.
-1	Umhverfisráðherra	umhverfisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk
+1	Umhverfisráðherra	umhverfisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
 2	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
-4	Barbara Hendricks	Barbara Hendricks	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	SpaceAfter=No|tag=person_nf_kvk
-5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-6	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
-7	bannað	banna	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
-8	kjöt	kjöt	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	tag=no_et_þf_hk
-9	og	og	CCONJ	st	_	10	cc	_	tag=st
-10	fisk	fiskur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	conj	_	tag=no_et_þf_kk
-11	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-12	opinberum	opinber	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	13	amod	_	tag=lo_ft_þgf_kk_sb
-13	viðburðum	viðburður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	tag=no_ft_þgf_kk
-14	ráðuneytisins	ráðuneyti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	13	nmod:poss	_	tag=no_et_ef_hk_gr
-15	og	og	CCONJ	st	_	7	cc	_	tag=st
-16	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-17	því	því	ADV	ao	_	19	advmod	_	tag=ao
-18	eingöngu	eingöngu	ADV	eo	_	19	advmod	_	tag=eo
-19	leyfilegt	leyfilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	tag=lo_et_nf_hk_sb
-20	að	að	PART	nhm	_	21	mark	_	tag=nhm
-21	bjóða	bjóða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	19	xcomp	_	tag=so_0_nh_gm
-22	upp	upp	ADV	ao	_	24	advmod	_	tag=ao
-23	á	á	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
-24	grænmetisfæði	grænmetis-fæða	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-25	.	.	PUNCT	grm	_	7	punct	_	tag=grm
+4-5	Barbara Hendricks	_	_	_	_	_	_	_	_
+4	Barbara	Barbara	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	SpaceAfter=No|tag=person_nf_kvk
+5	Hendricks	Hendricks	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+6	,	,	PUNCT	grm	_	1	punct	_	tag=grm
+7	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
+8	bannað	banna	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
+9	kjöt	kjöt	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þf_hk
+10	og	og	CCONJ	st	_	11	cc	_	tag=st
+11	fisk	fiskur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	tag=no_et_þf_kk
+12	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+13	opinberum	opinber	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	14	amod	_	tag=lo_ft_þgf_kk_sb
+14	viðburðum	viðburður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	tag=no_ft_þgf_kk
+15	ráðuneytisins	ráðuneyti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=no_et_ef_hk_gr
+16	og	og	CCONJ	st	_	8	cc	_	tag=st
+17	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+18	því	því	ADV	ao	_	8	advmod	_	tag=ao
+19	eingöngu	eingöngu	ADV	eo	_	8	advmod	_	tag=eo
+20	leyfilegt	leyfilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	8	cop	_	tag=lo_et_nf_hk_sb
+21	að	að	PART	nhm	_	22	mark	_	tag=nhm
+22	bjóða	bjóða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
+23	upp	upp	ADV	ao	_	25	advmod	_	tag=ao
+24	á	á	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
+25	grænmetisfæði	grænmetis-fæða	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þf_hk
+26	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00458,.9
 # text = Her Kúrda í Írak hefur sent liðsauka til Kirkuk-héraðs í norðurhluta landsins til að verjast hugsanlegri árás Írakshers og vopnaðra sveita Síta.

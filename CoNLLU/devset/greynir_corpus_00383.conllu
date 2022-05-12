@@ -9,7 +9,7 @@
 7	líkamsárás	líkamsárás	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þf_kvk
 8	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 9	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	tag=pfn_et_þgf_kk_p3
-10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_þt_gm
+10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_þt_gm
 11	gefin	gefa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	acl:relcl	_	tag=so_0_lhþt_et
 12	að	að	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	sök	sök	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
@@ -75,11 +75,13 @@
 5	fögrum	fagur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	6	amod	_	tag=lo_ft_þgf_hk_sb
 6	orðum	orð	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þgf_hk
 7	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	Kim Jong-Un	Kim Jong-Un	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	obl	_	SpaceAfter=No|tag=person_þf_kk
-9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
-10	leiðtoga	leiðtogi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þf_kk
-11	Norður-Kóreu	Norður-Kórea	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kvk
-12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+8-9	Kim Jong-Un	_	_	_	_	_	_	_	_
+8	Kim	Kim	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	obl	_	SpaceAfter=No|tag=person_þf_kk
+9	Jong-Un	Jong-Un	PROPN	person_þf_kk	Case=Acc|Gender=Masc	8	fixed	_	SpaceAfter=No|tag=person_þf_kk
+10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
+11	leiðtoga	leiðtogi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þf_kk
+12	Norður-Kóreu	Norður-Kórea	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	11	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kvk
+13	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00383,.6
 # text = Það mun taka langan tíma fyrir Chapeco að jafna sig á þessu.
@@ -100,7 +102,7 @@
 # sent_id = GREYNIR_CORPUS_00383,.7
 # text = Ég er algjört jólabarn og byrja að hlusta á jólatónlist í lok október.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
-2	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p1_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p1_et_nt_gm
 3	algjört	algjör	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_nf_hk_sb
 4	jólabarn	jólabarn	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 5	og	og	CCONJ	st	_	6	cc	_	tag=st
@@ -119,17 +121,19 @@
 1	Um	um	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	borð	borð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
 3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
-4	meðal annars	meðal annars	ADV	ao	_	3	advmod	_	tag=ao
-5	kafarar	kafari	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_nf_kk
-6	og	og	CCONJ	st	_	7	cc	_	tag=st
-7	sprengjusérfræðingar	sprengju-sérfræðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	tag=no_ft_nf_kk
-8	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
-9	eiga	eiga	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
-10	að	að	PART	nhm	_	11	mark	_	tag=nhm
-11	aðstoða	aðstoða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_0_nh_gm
-12	við	við	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	leitina	leit	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
-14	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+4-5	meðal annars	_	_	_	_	_	_	_	_
+4	meðal	meðal	ADV	ao	_	3	advmod	_	tag=ao
+5	annars	annars	ADV	ao	_	4	fixed	_	tag=ao
+6	kafarar	kafari	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_nf_kk
+7	og	og	CCONJ	st	_	8	cc	_	tag=st
+8	sprengjusérfræðingar	sprengju-sérfræðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	tag=no_ft_nf_kk
+9	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
+10	eiga	eiga	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
+11	að	að	PART	nhm	_	12	mark	_	tag=nhm
+12	aðstoða	aðstoða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	xcomp	_	tag=so_0_nh_gm
+13	við	við	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+14	leitina	leit	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
+15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00383,.9
 # text = Trump hafði áður nefnt hlutlausa svæðið og Singapúr sem mögulega staði fyrir fundinn.

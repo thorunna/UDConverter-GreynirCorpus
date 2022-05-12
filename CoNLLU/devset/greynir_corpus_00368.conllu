@@ -25,23 +25,33 @@
 8	og	og	CCONJ	st	_	4	cc	_	tag=st
 9	draumkenndar	draumkenndur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	10	amod	_	tag=lo_ft_nf_kvk_sb
 10	hörpuhendingar	hörpu-hending	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_nf_kvk
-11	aftur og aftur	aftur og aftur	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
-12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+11-13	aftur og aftur	_	_	_	_	_	_	_	_
+11	aftur	aftur	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
+12	og	og	ADV	ao	_	11	fixed	_	SpaceAfter=No|tag=ao
+13	aftur	aftur	ADV	ao	_	12	fixed	_	SpaceAfter=No|tag=ao
+14	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00368,.3
 # text = Rætt var við Árna Gunnarsson, framkvæmdastjóra Air Iceland Connect, í fréttum Stöðvar 2.
 1	Rætt	ræddur	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 2	var	var	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_þt_gm
 3	við	við	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
-4	Árna Gunnarsson	Árna Gunnarsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	1	obl	_	SpaceAfter=No|tag=person_þf_kk
-5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-6	framkvæmdastjóra	framkvæmdastjóri	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
-7	Air Iceland Connect	Air Iceland Connect	PROPN	fyrirtæki	_	6	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
-8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	fréttum	frétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	tag=no_ft_þgf_kvk
-11	Stöðvar 2	Stöðvar 2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
-12	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+4-5	Árna Gunnarsson	_	_	_	_	_	_	_	_
+4	Árna	Árna	PROPN	person_þf_kk	Case=Acc|Gender=Masc	1	obl	_	SpaceAfter=No|tag=person_þf_kk
+5	Gunnarsson	Gunnarsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	4	fixed	_	SpaceAfter=No|tag=person_þf_kk
+6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
+7	framkvæmdastjóra	framkvæmdastjóri	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
+8-10	Air Iceland Connect	_	_	_	_	_	_	_	_
+8	Air	Air	PROPN	fyrirtæki	_	7	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
+9	Iceland	Iceland	PROPN	fyrirtæki	_	8	fixed	_	SpaceAfter=No|tag=fyrirtæki
+10	Connect	Connect	PROPN	fyrirtæki	_	9	fixed	_	SpaceAfter=No|tag=fyrirtæki
+11	,	,	PUNCT	grm	_	8	punct	_	tag=grm
+12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	fréttum	frétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	tag=no_ft_þgf_kvk
+14-15	Stöðvar 2	_	_	_	_	_	_	_	_
+14	Stöðvar	Stöðvar	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
+15	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	14	fixed	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
+16	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00368,.4
 # text = Töluverður reykur myndaðist og var fólkið flutt til skoðunar á slysadeild.
@@ -90,33 +100,39 @@
 
 # sent_id = GREYNIR_CORPUS_00368,.7
 # text = Hans væri hins vegar stærri og öflugri, auk þess sem hann virki.
-1	Hans	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kk_p3
-2	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_vh_p3_et_þt_gm
-3	hins vegar	hins vegar	ADV	eo	_	4	advmod	_	tag=eo
-4	stærri	stór	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_mst
-5	og	og	CCONJ	st	_	6	cc	_	tag=st
-6	öflugri	öflugur	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|tag=lo_et_nf_kk_mst
-7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	auk þess	auk þess	ADV	ao	_	11	advmod	_	tag=ao
-9	sem	sem	SCONJ	st	_	11	mark	_	tag=st
-10	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kk_p3
-11	virki	virka	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	SpaceAfter=No|tag=so_0_vh_p3_et_nt_gm
-12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+1	Hans	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_kk_p3
+2	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_vh_p3_et_þt_gm
+3-4	hins vegar	_	_	_	_	_	_	_	_
+3	hins	hins	ADV	eo	_	5	advmod	_	tag=eo
+4	vegar	vegar	ADV	eo	_	3	fixed	_	tag=eo
+5	stærri	stór	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_mst
+6	og	og	CCONJ	st	_	7	cc	_	tag=st
+7	öflugri	öflugur	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|tag=lo_et_nf_kk_mst
+8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
+9-10	auk þess	_	_	_	_	_	_	_	_
+9	auk	auk	ADV	ao	_	13	advmod	_	tag=ao
+10	þess	þess	ADV	ao	_	9	fixed	_	tag=ao
+11	sem	sem	SCONJ	st	_	13	mark	_	tag=st
+12	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	tag=pfn_et_nf_kk_p3
+13	virki	virka	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	SpaceAfter=No|tag=so_0_vh_p3_et_nt_gm
+14	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00368,.8
 # text = Fréttablaðið birti í gær umfjöllun um bestu og verstu bókakápurnar fyrir jólin.
 1	Fréttablaðið	Fréttablaðið	PROPN	fyrirtæki_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	tag=fyrirtæki_et_nf_hk_gr
 2	birti	birta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	í gær	í gær	ADV	ao	_	2	advmod	_	tag=ao
-4	umfjöllun	umfjöllun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
-5	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-6	bestu	góður	ADJ	lo_ft_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	9	('HALLÓ_ADJP', None, 'NP', None)	_	tag=lo_ft_þf_kvk_evb
-7	og	og	CCONJ	st	_	8	cc	_	tag=st
-8	verstu	illur	ADJ	lo_ft_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	6	conj	_	tag=lo_ft_þf_kvk_evb
-9	bókakápurnar	bóka-kápa	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_þf_kvk_gr
-10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-11	jólin	jól	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	9	advmod	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
-12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	í gær	_	_	_	_	_	_	_	_
+3	í	í	ADV	ao	_	2	advmod	_	tag=ao
+4	gær	gær	ADV	ao	_	3	fixed	_	tag=ao
+5	umfjöllun	umfjöllun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
+6	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+7	bestu	góður	ADJ	lo_ft_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	10	amod	_	tag=lo_ft_þf_kvk_evb
+8	og	og	CCONJ	st	_	9	cc	_	tag=st
+9	verstu	illur	ADJ	lo_ft_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	7	conj	_	tag=lo_ft_þf_kvk_evb
+10	bókakápurnar	bóka-kápa	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_þf_kvk_gr
+11	fyrir	fyrir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	jólin	jól	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	10	advmod	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
+13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00368,.9
 # text = Fyrir þrettán árum varð elsti strákurinn fyrir trúarlegri upplifun í kirkjunni.
@@ -143,6 +159,8 @@
 8	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	áttunda	áttund	ADJ	lo_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_þgf_kk
 10	tímanum	tími	ADV	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	tag=no_et_þgf_kk_gr
-11	í kvöld	í kvöld	ADV	ao	_	10	advmod	_	tag=ao
-12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+11-12	í kvöld	_	_	_	_	_	_	_	_
+11	í	í	ADV	ao	_	10	advmod	_	tag=ao
+12	kvöld	kvöld	ADV	ao	_	11	fixed	_	tag=ao
+13	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 

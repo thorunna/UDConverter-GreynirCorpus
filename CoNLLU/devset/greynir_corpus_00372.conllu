@@ -21,7 +21,7 @@
 3	leikmennina	leikmaður	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	2	obj	_	tag=no_ft_þf_kk_gr
 4	og	og	CCONJ	st	_	2	cc	_	tag=st
 5	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_ft_nf_kk_p3
-6	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_fh_p3_ft_nt_gm
+6	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_ft_nt_gm
 7	góðir	góður	ADJ	lo_ft_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	conj	_	tag=lo_ft_nf_kk_fst_sb
 8	og	og	CCONJ	st	_	7	cc	_	tag=st
 9	með	með	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
@@ -47,12 +47,11 @@
 
 # sent_id = GREYNIR_CORPUS_00372,.4
 # text = Þetta er búið að vera alveg geggjað, segir hann.
--4	None	_	None	None	_	_	None	_	_
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	búið	búinn	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	xcomp	_	tag=so_0_lhþt_et
 4	að	að	PART	nhm	_	7	mark	_	tag=nhm
-5	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	conj	_	tag=so_0_nh_gm
+5	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	cop	_	tag=so_0_nh_gm
 6	alveg	alveg	ADV	eo	_	7	advmod	_	tag=eo
 7	geggjað	geggjaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	VANTAR_LIÐ_IP_None	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
@@ -62,35 +61,52 @@
 
 # sent_id = GREYNIR_CORPUS_00372,.5
 # text = Ólafía Þórunn Kristinsdóttir, atvinnukylfingur, hóf leik á LPGA Mediheal Championship rétt fyrir utan San Francisco í gær.
-1	Ólafía Þórunn Kristinsdóttir	Ólafía Þórunn Kristinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	atvinnukylfingur	atvinnu-kylfingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
+1-3	Ólafía Þórunn Kristinsdóttir	_	_	_	_	_	_	_	_
+1	Ólafía	Ólafía	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+2	Þórunn	Þórunn	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+3	Kristinsdóttir	Kristinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	fixed	_	SpaceAfter=No|tag=person_nf_kvk
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
-5	hóf	hefja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-6	leik	leika	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	tag=no_et_þf_kk
-7	á	eiga	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	LPGA Mediheal Championship	LPGA Mediheal Championship	PROPN	sérnafn	_	6	obl	_	tag=sérnafn
-9	rétt	rétt	ADV	ao	_	6	obl	_	tag=ao
-10	fyrir utan	fyrir utan	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-11	San Francisco	San Francisco	PROPN	sérnafn_þf	Case=Acc	9	obl	_	tag=sérnafn_þf
-12	í gær	í gær	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
-13	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+5	atvinnukylfingur	atvinnu-kylfingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
+6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
+7	hóf	hefja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+8	leik	leika	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	tag=no_et_þf_kk
+9	á	eiga	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+10-12	LPGA Mediheal Championship	_	_	_	_	_	_	_	_
+10	LPGA	LPGA	PROPN	sérnafn	_	8	obl	_	tag=sérnafn
+11	Mediheal	Mediheal	PROPN	sérnafn	_	10	fixed	_	tag=sérnafn
+12	Championship	Championship	PROPN	sérnafn	_	11	fixed	_	tag=sérnafn
+13	rétt	rétt	ADV	ao	_	8	obl	_	tag=ao
+14-15	fyrir utan	_	_	_	_	_	_	_	_
+14	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+15	utan	utan	ADP	fs_þf	Case=Acc	14	fixed	_	tag=fs_þf
+16-17	San Francisco	_	_	_	_	_	_	_	_
+16	San	San	PROPN	sérnafn_þf	Case=Acc	13	obl	_	tag=sérnafn_þf
+17	Francisco	Francisco	PROPN	sérnafn_þf	Case=Acc	16	fixed	_	tag=sérnafn_þf
+18-19	í gær	_	_	_	_	_	_	_	_
+18	í	í	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
+19	gær	gær	ADV	ao	_	18	fixed	_	SpaceAfter=No|tag=ao
+20	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00372,.6
 # text = Kobe Steel er þriðji stærsti stálframleiðandi Japans og sér ýmsum bíla- og flugvélaframleiðendum fyrir efni.
-1	Kobe Steel	Kobe Steel	PROPN	fyrirtæki	_	5	nsubj	_	tag=fyrirtæki
-2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-3	þriðji	þriðji	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk
-4	stærsti	stór	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_evb
-5	stálframleiðandi	stál-framleiða	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
-6	Japans	Japan	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=sérnafn_et_ef_hk
-7	og	og	CCONJ	st	_	5	cc	_	tag=st
-8	sér	sig	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
-9	ýmsum	ýmis	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	tag=fn_ft_þgf_kk
-10	bíla- og flugvélaframleiðendum	bíla- og flugvélaframleiðandi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	8	obj	_	tag=no_ft_þgf_kk
-11	fyrir	fyrir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-12	efni	efni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-13	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+1-2	Kobe Steel	_	_	_	_	_	_	_	_
+1	Kobe	Kobe	PROPN	fyrirtæki	_	6	nsubj	_	tag=fyrirtæki
+2	Steel	Steel	PROPN	fyrirtæki	_	1	fixed	_	tag=fyrirtæki
+3	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	þriðji	þriðji	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk
+5	stærsti	stór	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_evb
+6	stálframleiðandi	stál-framleiða	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
+7	Japans	Japan	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=sérnafn_et_ef_hk
+8	og	og	CCONJ	st	_	6	cc	_	tag=st
+9	sér	sig	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
+10	ýmsum	ýmis	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	tag=fn_ft_þgf_kk
+11-13	bíla- og flugvélaframleiðendum	_	_	_	_	_	_	_	_
+11	bíla-	bíla-	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obj	_	tag=no_ft_þgf_kk
+12	og	og	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	fixed	_	tag=no_ft_þgf_kk
+13	flugvélaframleiðendum	flugvélaframleiðandi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	12	fixed	_	tag=no_ft_þgf_kk
+14	fyrir	fyrir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+15	efni	efni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þf_hk
+16	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00372,.7
 # text = Ég gerði líklega mestu mistökin í að tilkynna að hún væri sykurlaus.
@@ -104,7 +120,7 @@
 8	tilkynna	tilkynna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	obl	_	tag=so_1_þf_nh_gm
 9	að	að	SCONJ	st	_	8	obj	_	tag=st
 10	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_kvk_p3
-11	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_0_vh_p3_et_þt_gm
+11	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_þt_gm
 12	sykurlaus	sykurlaus	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	9	VANTAR_LIÐ_IP_None	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -134,11 +150,13 @@
 6	78	78	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	7	nummod	_	tag=tala_ft_þgf_kvk
 7	flugvélum	flugvél	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	5	obj	_	tag=no_ft_þgf_kvk
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
-9	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-10	jafnframt	jafnframt	ADV	ao	_	11	advmod	_	tag=ao
-11	eigandi	eiga	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk
-12	Czech Airlines	Czech Airlines	PROPN	fyrirtæki	_	11	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
-13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+9	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	jafnframt	jafnframt	ADV	ao	_	2	advmod	_	tag=ao
+11	eigandi	eiga	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	cop	_	tag=no_et_nf_kk
+12-13	Czech Airlines	_	_	_	_	_	_	_	_
+12	Czech	Czech	PROPN	fyrirtæki	_	2	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
+13	Airlines	Airlines	PROPN	fyrirtæki	_	12	fixed	_	SpaceAfter=No|tag=fyrirtæki
+14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 1	Við	við	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root	_	tag=pfn_ft_nf_p1
 2	verðum	verða	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p1_ft_nt_gm

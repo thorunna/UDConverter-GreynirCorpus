@@ -26,8 +26,11 @@
 7	kjör	kjör	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	tag=no_et_þf_hk
 8	öryrkja	öryrki	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=no_et_ef_kk
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	eina einustu krónu	eina einustu krónu	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|tag=fn_et_þf_kvk
-11	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+10-12	eina einustu krónu	_	_	_	_	_	_	_	_
+10	eina	eina	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|tag=fn_et_þf_kvk
+11	einustu	einustu	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	fixed	_	SpaceAfter=No|tag=fn_et_þf_kvk
+12	krónu	krónu	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	fixed	_	SpaceAfter=No|tag=fn_et_þf_kvk
+13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00382,.3
 # text = Framkvæmdastjórn Samfylkingarinnar lagði fram sömu tillögu síðasta sumar en það náði aldrei lengra.
@@ -52,16 +55,19 @@
 2	fær	fá	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
 4	upplýsingar	upplýsingar	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	tag=no_ft_þf_kvk
-5	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-6	hver	hver	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	tag=fn_et_nf_kvk
-7	eigandi	eiga	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	tag=no_et_nf_kk
+5	um	um	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+6	hver	hver	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	tag=fn_et_nf_kvk
+7	eigandi	eiga	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=no_et_nf_kk
 8	aflandsfélagsins	af-landsfélag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk_gr
-9	Dekhill Advisors Limited	Dekhill Advisors Limited	PROPN	fyrirtæki	_	8	obl	_	tag=fyrirtæki
-10	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	obl	_	tag=so_0_vh_p3_et_nt_gm
-11	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-12	svissneskum	svissneskur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	13	amod	_	tag=lo_ft_þgf_hk_sb
-13	skattyfirvöldum	skattyfirvöld	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
-14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+9-11	Dekhill Advisors Limited	_	_	_	_	_	_	_	_
+9	Dekhill	Dekhill	PROPN	fyrirtæki	_	8	obl	_	tag=fyrirtæki
+10	Advisors	Advisors	PROPN	fyrirtæki	_	9	fixed	_	tag=fyrirtæki
+11	Limited	Limited	PROPN	fyrirtæki	_	10	fixed	_	tag=fyrirtæki
+12	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	obl	_	tag=so_0_vh_p3_et_nt_gm
+13	frá	frá	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+14	svissneskum	svissneskur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	15	amod	_	tag=lo_ft_þgf_hk_sb
+15	skattyfirvöldum	skattyfirvöld	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
+16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00382,.5
 # text = Ég bjóst bara við skoti uppi eða niðri og valdi rétt horn.
@@ -81,21 +87,23 @@
 
 # sent_id = GREYNIR_CORPUS_00382,.6
 # text = Vegakerfið var hannað til þess að vera auðvelt yfirferðar, meira að segja á regntímabilinu.
--4	None	_	None	None	_	_	None	_	_
 1	Vegakerfið	vegakerfi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
 2	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
 3	hannað	hanna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_ef_hk
 6	að	að	PART	nhm	_	8	mark	_	tag=nhm
-7	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	conj	_	tag=so_0_nh_gm
+7	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	cop	_	tag=so_0_nh_gm
 8	auðvelt	auðveldur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	VANTAR_LIÐ_IP_None	_	tag=lo_et_nf_hk_sb
 9	yfirferðar	yfirferð	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
 10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	meira að segja	meira að segja	ADV	ao	_	8	advmod	_	tag=ao
-12	á	eiga	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	regntímabilinu	regn-tímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-14	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+11-13	meira að segja	_	_	_	_	_	_	_	_
+11	meira	meira	ADV	ao	_	8	advmod	_	tag=ao
+12	að	að	ADV	ao	_	11	fixed	_	tag=ao
+13	segja	segja	ADV	ao	_	12	fixed	_	tag=ao
+14	á	eiga	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+15	regntímabilinu	regn-tímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+16	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00382,.7
 # text = Ekki einungis fann Ása að hún gæti gert meira heldur kviknaði sterk þörf.
@@ -116,20 +124,22 @@
 
 # sent_id = GREYNIR_CORPUS_00382,.8
 # text = Hins vegar fækkaði íbúum tveggja sveitarfélaga ; Vesturbyggðar um tíu og Strandabyggðar um tuttugu.
-1	Hins vegar	hins vegar	ADV	ao	_	2	advmod	_	tag=ao
-2	fækkaði	fækka	VERB	so_0_op_subj_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_op_subj_þgf_fh_p3_et_þt_gm
-3	íbúum	íbúi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_þgf_kk
-4	tveggja	tveir	NUM	to_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	nummod	_	tag=to_ft_ef_hk
-5	sveitarfélaga	sveitarfélag	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
-6	;	;	PUNCT	grm	_	5	punct	_	tag=grm
-7	Vesturbyggðar	Vesturbyggð	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_ef_kvk
-8	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	tíu	tía	NUM	töl_ft_þf	Case=Acc|Number=Plur	7	obl	_	tag=töl_ft_þf
-10	og	og	CCONJ	st	_	7	cc	_	tag=st
-11	Strandabyggðar	Strandabyggð	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	tag=no_et_ef_kvk
-12	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	tuttugu	tuttugu	NUM	töl_ft_þf	Case=Acc|Number=Plur	7	obl	_	SpaceAfter=No|tag=töl_ft_þf
-14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Hins vegar	_	_	_	_	_	_	_	_
+1	Hins	hins	ADV	ao	_	3	advmod	_	tag=ao
+2	vegar	vegar	ADV	ao	_	1	fixed	_	tag=ao
+3	fækkaði	fækka	VERB	so_0_op_subj_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_op_subj_þgf_fh_p3_et_þt_gm
+4	íbúum	íbúi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	nsubj	_	tag=no_ft_þgf_kk
+5	tveggja	tveir	NUM	to_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	6	nummod	_	tag=to_ft_ef_hk
+6	sveitarfélaga	sveitarfélag	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
+7	;	;	PUNCT	grm	_	6	punct	_	tag=grm
+8	Vesturbyggðar	Vesturbyggð	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_ef_kvk
+9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+10	tíu	tía	NUM	töl_ft_þf	Case=Acc|Number=Plur	8	obl	_	tag=töl_ft_þf
+11	og	og	CCONJ	st	_	8	cc	_	tag=st
+12	Strandabyggðar	Strandabyggð	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	conj	_	tag=no_et_ef_kvk
+13	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+14	tuttugu	tuttugu	NUM	töl_ft_þf	Case=Acc|Number=Plur	8	obl	_	SpaceAfter=No|tag=töl_ft_þf
+15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00382,.9
 # text = Hernaðarumsvif á norðurslóðum aukast því miður á næstunni, að sögn Borgars Þórs Einarssonar, aðstoðarmanns utanríkisráðherra.
@@ -137,16 +147,23 @@
 2	á	eiga	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	norðurslóðum	norðurslóð	PROPN	sérnafn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	tag=sérnafn_ft_þgf_kvk
 4	aukast	auka	VERB	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_ft_nt_mm
-5	því miður	því miður	ADV	ao	_	4	advmod	_	tag=ao
-6	á næstunni	á næstunni	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
-7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	að	að	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	sögn	sögn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk
-10	Borgars Þórs Einarssonar	Borgars Þórs Einarssonar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
-12	aðstoðarmanns	aðstoðarmaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_ef_kk
-13	utanríkisráðherra	utanríkisráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
-14	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+5-6	því miður	_	_	_	_	_	_	_	_
+5	því	því	ADV	ao	_	4	advmod	_	tag=ao
+6	miður	miður	ADV	ao	_	5	fixed	_	tag=ao
+7-8	á næstunni	_	_	_	_	_	_	_	_
+7	á	á	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
+8	næstunni	næstunni	ADV	ao	_	7	fixed	_	SpaceAfter=No|tag=ao
+9	,	,	PUNCT	grm	_	4	punct	_	tag=grm
+10	að	að	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	sögn	sögn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk
+12-14	Borgars Þórs Einarssonar	_	_	_	_	_	_	_	_
+12	Borgars	Borgars	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
+13	Þórs	Þórs	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	fixed	_	SpaceAfter=No|tag=person_ef_kk
+14	Einarssonar	Einarssonar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	fixed	_	SpaceAfter=No|tag=person_ef_kk
+15	,	,	PUNCT	grm	_	12	punct	_	tag=grm
+16	aðstoðarmanns	aðstoðarmaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_ef_kk
+17	utanríkisráðherra	utanríkisráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
+18	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 1	Háhyrningar	háhyrningur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	tag=no_ft_nf_kk
 2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
@@ -157,8 +174,8 @@
 7	rándýr	rándýr	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	1	obl	_	tag=no_ft_nf_hk
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	höfunum	haf	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þgf_hk_gr
-10	,	,	PUNCT	grm	_	11	punct	_	tag=grm
-11	þykja	þykja	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_0_fh_p3_ft_nt_gm
+10	,	,	PUNCT	grm	_	13	punct	_	tag=grm
+11	þykja	þykja	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_ft_nt_gm
 12	mjög	mjög	ADV	eo	_	13	advmod	_	tag=eo
 13	skarpir	skarpur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
 14	.	.	PUNCT	grm	_	13	punct	_	tag=grm

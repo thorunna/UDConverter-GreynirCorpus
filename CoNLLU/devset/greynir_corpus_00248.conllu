@@ -4,7 +4,7 @@
 2	þýði	þýða	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_vh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	9	mark	_	tag=st
 4	seljendurnir	seljandi	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	tag=no_ft_nf_kk_gr
-5	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_vh_p3_ft_nt_gm
+5	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_vh_p3_ft_nt_gm
 6	ekkert	ekkert	ADV	ao	_	9	advmod	_	tag=ao
 7	endilega	endilega	ADV	ao	_	9	advmod	_	tag=ao
 8	sérstaklega	sérstaklega	ADV	eo	_	9	advmod	_	tag=eo
@@ -25,12 +25,16 @@
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	leiknum	leikur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 7	,	,	PUNCT	grm	_	8	punct	_	tag=grm
-8	Ólafur Bjarki	Ólafur Bjarki	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	conj	_	tag=person_nf_kk
-9	tvö	tveir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	tag=to_ft_þf_hk
-10	og	og	CCONJ	st	_	2	cc	_	tag=st
-11	Guðmundur Hólmar	Guðmundur Hólmar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	conj	_	tag=person_nf_kk
-12	eitt	einn	NUM	to_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No|tag=to_et_þf_hk
-13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+8-9	Ólafur Bjarki	_	_	_	_	_	_	_	_
+8	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	conj	_	tag=person_nf_kk
+9	Bjarki	Bjarki	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	fixed	_	tag=person_nf_kk
+10	tvö	tveir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	tag=to_ft_þf_hk
+11	og	og	CCONJ	st	_	2	cc	_	tag=st
+12-13	Guðmundur Hólmar	_	_	_	_	_	_	_	_
+12	Guðmundur	Guðmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	conj	_	tag=person_nf_kk
+13	Hólmar	Hólmar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	tag=person_nf_kk
+14	eitt	einn	NUM	to_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No|tag=to_et_þf_hk
+15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00248,.3
 # text = Munu þessar verksmiðjur framleiða rafhlöður í bíla frá Volkswagen bílafjölskyldunni og Renault Nissan.
@@ -45,8 +49,10 @@
 9	Volkswagen	Volkswagen	PROPN	fyrirtæki	_	10	VANTAR_LIÐ	_	tag=fyrirtæki
 10	bílafjölskyldunni	bílafjölskylda	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þgf_kvk_gr
 11	og	og	CCONJ	st	_	12	cc	_	tag=st
-12	Renault Nissan	Renault Nissan	PROPN	fyrirtæki	_	10	conj	_	SpaceAfter=No|tag=fyrirtæki
-13	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+12-13	Renault Nissan	_	_	_	_	_	_	_	_
+12	Renault	Renault	PROPN	fyrirtæki	_	10	conj	_	SpaceAfter=No|tag=fyrirtæki
+13	Nissan	Nissan	PROPN	fyrirtæki	_	12	fixed	_	SpaceAfter=No|tag=fyrirtæki
+14	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00248,.4
 # text = Þá vísar hann til þess að nýir hluthafar hafi nýlega komið í hluthafahóp bankans.
@@ -70,7 +76,7 @@
 # text = Farsæl fjármálastjórn er góður grunnur að öflugri þjónustu, ánægju íbúa og kraftmikilli uppbyggingu.
 1	Farsæl	farsæll	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_sb
 2	fjármálastjórn	fjármálastjórn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	góður	góður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_sb
 5	grunnur	grunnur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 6	að	að	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -86,13 +92,13 @@
 
 # sent_id = GREYNIR_CORPUS_00248,.6
 # text = En þessi þörf okkar fyrir öryggi gerir það að verkum að við framleiðum kvíðasjúklinga.
-1	En	En	SCONJ	st	_	0	root	_	tag=st
+1	En	En	SCONJ	st	_	7	cc	_	tag=st
 2	þessi	þessi	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	tag=fn_et_nf_kvk
 3	þörf	þörf	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk
 4	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	tag=pfn_ft_ef_p1
 5	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	öryggi	öryggi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
-7	gerir	gera	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+7	gerir	gera	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 8	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	tag=fn_et_þf_hk
 9	að	að	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	verkum	verk	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_þgf_hk
@@ -100,56 +106,64 @@
 12	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	tag=pfn_ft_nf_p1
 13	framleiðum	framleiða	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	8	ccomp	_	tag=so_0_fh_p1_ft_nt_gm
 14	kvíðasjúklinga	kvíðasjúklingur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No|tag=no_ft_þf_kk
-15	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+15	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00248,.7
 # text = Það er svo þröngt um að sums staðar er ekki hægt að leggjast.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	svo	svo	ADV	eo	_	4	advmod	_	tag=eo
 4	þröngt	þröngur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	um	um	ADV	ao	_	4	advmod	_	tag=ao
-6	að	að	SCONJ	st	_	10	mark	_	tag=st
-7	sums staðar	sums staðar	ADV	ao	_	10	advmod	_	tag=ao
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_0_fh_p3_et_nt_gm
-9	ekki	ekki	ADV	eo	_	10	advmod	_	tag=eo
-10	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	advcl	_	tag=lo_et_nf_hk_sb
-11	að	að	PART	nhm	_	12	mark	_	tag=nhm
-12	leggjast	leggja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	10	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
-13	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+6	að	að	SCONJ	st	_	11	mark	_	tag=st
+7-8	sums staðar	_	_	_	_	_	_	_	_
+7	sums	sums	ADV	ao	_	11	advmod	_	tag=ao
+8	staðar	staðar	ADV	ao	_	7	fixed	_	tag=ao
+9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
+10	ekki	ekki	ADV	eo	_	11	advmod	_	tag=eo
+11	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	advcl	_	tag=lo_et_nf_hk_sb
+12	að	að	PART	nhm	_	13	mark	_	tag=nhm
+13	leggjast	leggja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	11	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
+14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00248,.8
 # text = Félagsmálaráðherra Eygló Harðardóttir dróg framboð sitt til varaformanns Framsóknarflokks til baka rétt í þessu.
-1	Félagsmálaráðherra	félagsmálaráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
-2	Eygló Harðardóttir	Eygló Harðardóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	tag=person_nf_kvk
-3	dróg	draga	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-4	framboð	framboð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þf_hk
-5	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	tag=fn_et_þf_hk
-6	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-7	varaformanns	varaformaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_ef_kk
-8	Framsóknarflokks	Framsóknarflokkur	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=fyrirtæki_et_ef_kk
-9	til baka	til baka	ADV	ao	_	3	advmod	_	tag=ao
-10	rétt	rétt	ADV	ao	_	12	advmod	_	tag=ao
-11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	þessu	þessi	ADV	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|tag=fn_et_þgf_hk
-13	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+1	Félagsmálaráðherra	félagsmálaráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
+2-3	Eygló Harðardóttir	_	_	_	_	_	_	_	_
+2	Eygló	Eygló	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	tag=person_nf_kvk
+3	Harðardóttir	Harðardóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	fixed	_	tag=person_nf_kvk
+4	dróg	draga	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+5	framboð	framboð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þf_hk
+6	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	tag=fn_et_þf_hk
+7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
+8	varaformanns	varaformaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_ef_kk
+9	Framsóknarflokks	Framsóknarflokkur	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	8	nmod:poss	_	tag=fyrirtæki_et_ef_kk
+10-11	til baka	_	_	_	_	_	_	_	_
+10	til	til	ADV	ao	_	4	advmod	_	tag=ao
+11	baka	baka	ADV	ao	_	10	fixed	_	tag=ao
+12	rétt	rétt	ADV	ao	_	14	advmod	_	tag=ao
+13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	þessu	þessi	ADV	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	advmod	_	SpaceAfter=No|tag=fn_et_þgf_hk
+15	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00248,.9
 # text = Það eru ekki miklir peningar í deildinni hans þrátt fyrir mikla og erfiða vinnu.
 1	Það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
 4	miklir	mikill	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	tag=lo_ft_nf_kk_sb
 5	peningar	peningur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	deildinni	deild	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk_gr
 8	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	tag=pfn_et_ef_kk_p3
-9	þrátt fyrir	þrátt fyrir	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-10	mikla	mikill	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	13	('HALLÓ_ADJP', None, 'NP', None)	_	tag=lo_et_þf_kvk_sb
-11	og	og	CCONJ	st	_	12	cc	_	tag=st
-12	erfiða	erfiður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	tag=lo_et_þf_kvk_sb
-13	vinnu	vinna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
-14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+9-10	þrátt fyrir	_	_	_	_	_	_	_	_
+9	þrátt	þrátt	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+10	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	fixed	_	tag=fs_þf
+11	mikla	mikill	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_þf_kvk_sb
+12	og	og	CCONJ	st	_	13	cc	_	tag=st
+13	erfiða	erfiður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	tag=lo_et_þf_kvk_sb
+14	vinnu	vinna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
+15	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 1	Suðurnesjakonur	Suðurnesjakona	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	tag=no_ft_nf_kvk
 2	leiddu	leiða	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm

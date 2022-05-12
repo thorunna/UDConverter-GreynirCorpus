@@ -6,7 +6,7 @@
 4	barist	berja	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	3	acl:relcl	_	tag=so_0_sagnb_mm
 5	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	þeim	það	PRON	pfn_ft_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Plur|Person=3|PronType=Prs	4	obl	_	tag=pfn_ft_þgf_hk_p3
-7	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	conj	_	tag=so_0_fh_p3_ft_nt_gm
+7	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_ft_nt_gm
 8	þó	þó	ADV	ao	_	10	advmod	_	tag=ao
 9	ekki	ekki	ADV	ao	_	10	advmod	_	tag=ao
 10	fluttir	fluttur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
@@ -23,10 +23,14 @@
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	grein	grein	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	Bloomberg View	Bloomberg View	PROPN	fyrirtæki	_	6	obl	_	tag=fyrirtæki
-9	nú	nú	ADV	ao	_	2	advmod	_	tag=ao
-10	í kvöld	í kvöld	ADV	ao	_	9	advmod	_	SpaceAfter=No|tag=ao
-11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+8-9	Bloomberg View	_	_	_	_	_	_	_	_
+8	Bloomberg	Bloomberg	PROPN	fyrirtæki	_	6	obl	_	tag=fyrirtæki
+9	View	View	PROPN	fyrirtæki	_	8	fixed	_	tag=fyrirtæki
+10	nú	nú	ADV	ao	_	2	advmod	_	tag=ao
+11-12	í kvöld	_	_	_	_	_	_	_	_
+11	í	í	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
+12	kvöld	kvöld	ADV	ao	_	11	fixed	_	SpaceAfter=No|tag=ao
+13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00236,.3
 # text = Kensington höllin er nú þegar með yfir 22 herbergi og tvö eldhús.
@@ -46,33 +50,37 @@
 
 # sent_id = GREYNIR_CORPUS_00236,.4
 # text = Jón Gunnar Sigurjónsson, yfirverkstjóri í fiskiðjuverinu, tekur undir með Gísla.
-1	Jón Gunnar Sigurjónsson	Jón Gunnar Sigurjónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	yfirverkstjóri	yfirverkstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	fiskiðjuverinu	fiskiðjuver	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-7	tekur	taka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-8	undir	undir	ADV	ao	_	7	advmod	_	tag=ao
-9	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	Gísla	Gísli	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	7	obl	_	SpaceAfter=No|tag=person_þgf_kk
-11	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+1-3	Jón Gunnar Sigurjónsson	_	_	_	_	_	_	_	_
+1	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	Gunnar	Gunnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+3	Sigurjónsson	Sigurjónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	SpaceAfter=No|tag=person_nf_kk
+4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
+5	yfirverkstjóri	yfirverkstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	fiskiðjuverinu	fiskiðjuver	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
+9	tekur	taka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+10	undir	undir	ADV	ao	_	9	advmod	_	tag=ao
+11	með	með	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	Gísla	Gísli	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	obl	_	SpaceAfter=No|tag=person_þgf_kk
+13	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00236,.5
 # text = Gaskútarnir voru keyptir hjá Olís og eru frá Kosan Gas í Danmörku.
--4	None	_	None	None	_	_	None	_	_
 1	Gaskútarnir	gaskútur	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	tag=no_ft_nf_kk_gr
-2	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_þt_gm
+2	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_þt_gm
 3	keyptir	kaupa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Olís	Olís	PROPN	fyrirtæki	_	3	obl	_	tag=fyrirtæki
 6	og	og	CCONJ	st	_	3	cc	_	tag=st
-7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 8	frá	frá	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	Kosan Gas	Kosan Gas	PROPN	fyrirtæki	_	7	obl	_	tag=fyrirtæki
-10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	Danmörku	Danmörk	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
-12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+9-10	Kosan Gas	_	_	_	_	_	_	_	_
+9	Kosan	Kosan	PROPN	fyrirtæki	_	3	obl	_	tag=fyrirtæki
+10	Gas	Gas	PROPN	fyrirtæki	_	9	fixed	_	tag=fyrirtæki
+11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	Danmörku	Danmörk	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
+13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00236,.6
 # text = Frá áramótum á heilsugæslan að vera fyrsti viðkomustaður þeirra sem þurfa heilbrigðisþjónustu.
@@ -81,7 +89,7 @@
 3	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	heilsugæslan	heilsugæsla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
 5	að	að	PART	nhm	_	8	mark	_	tag=nhm
-6	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	8	conj	_	tag=so_1_nf_nh_gm
+6	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	8	cop	_	tag=so_1_nf_nh_gm
 7	fyrsti	fyrstur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_nf_kk_vb
 8	viðkomustaður	viðkomustaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	tag=no_et_nf_kk
 9	þeirra	sá	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	8	nmod:poss	_	tag=fn_ft_ef_kvk
@@ -147,6 +155,9 @@
 7	upplýsingaveitu	upplýsingaveita	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk
 8	utanríkisráðuneytisins	utanríkisráðuneyti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk_gr
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	þróunar- og mannúðarmál	þróunar- og mannúðarmál	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
-11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+10-12	þróunar- og mannúðarmál	_	_	_	_	_	_	_	_
+10	þróunar-	þróunar-	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
+11	og	og	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	tag=no_et_þf_hk
+12	mannúðarmál	mannúðarmál	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	tag=no_et_þf_hk
+13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

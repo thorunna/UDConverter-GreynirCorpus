@@ -5,11 +5,13 @@
 3	Eiðistorgi	Eiðistorg	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Seltjarnarnesi	Seltjarnarnes	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
-6	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_nt_gm
+6	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	stækkuð	stækka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 8	umtalsvert	umtalsvert	ADV	ao	_	7	advmod	_	tag=ao
-9	á næstunni	á næstunni	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-10	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+9-10	á næstunni	_	_	_	_	_	_	_	_
+9	á	á	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
+10	næstunni	næstunni	ADV	ao	_	9	fixed	_	SpaceAfter=No|tag=ao
+11	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00225,.2
 # text = Erla sveigir og beygir formin svo þau framkalla sjónræn þrívíddaráhrif.
@@ -40,9 +42,8 @@
 
 # sent_id = GREYNIR_CORPUS_00225,.4
 # text = Útkoman er gervimælska, ámóta spennandi og kjötlokur frá Borgarnesi.
--4	None	_	None	None	_	_	None	_	_
 1	Útkoman	útkoma	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	gervimælska	gervimælska	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kvk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	ámóta	ámóta	ADV	ao	_	3	advmod	_	tag=ao
@@ -63,8 +64,10 @@
 6	sumarmánaðarins	sumarmánuður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-9	19. apríl	19. apríl	ADV	dagsafs	_	8	advmod	_	SpaceAfter=No|tag=dagsafs
-10	.	_	PUNCT	grm	_	8	punct	_	tag=grm
+9-10	19. apríl	_	_	_	_	_	_	_	_
+9	19.	19.	ADV	dagsafs	_	8	advmod	_	SpaceAfter=No|tag=dagsafs
+10	apríl	apríl	NUM?	dagsafs	_	9	fixed	_	SpaceAfter=No|tag=dagsafs
+11	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00225,.6
 # text = Í sama streng hafa mannúðarsamtök tekið, m.a. Amnesty International.
@@ -76,8 +79,10 @@
 6	tekið	taka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	SpaceAfter=No|tag=so_0_sagnb_gm
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	m.a.	_	NOUN	abbrev	_	9	flat:name	_	tag=abbrev
-9	Amnesty International	Amnesty International	PROPN	entity	_	6	obl	_	SpaceAfter=No|tag=entity
-10	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+9-10	Amnesty International	_	_	_	_	_	_	_	_
+9	Amnesty	Amnesty	PROPN	entity	_	6	obl	_	SpaceAfter=No|tag=entity
+10	International	International	PROPN	entity	_	9	fixed	_	SpaceAfter=No|tag=entity
+11	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00225,.7
 # text = Við berjum gegn Íslamska ríkinu í mörgum heimsálfum í dag.
@@ -96,7 +101,7 @@
 # sent_id = GREYNIR_CORPUS_00225,.8
 # text = Kvísker eru austasti bærinn í Öræfum og kúra undir Bæjarskeri.
 1	Kvísker	Kvísker	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	austasti	austari	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_evb
 4	bærinn	bær	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk_gr
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -108,7 +113,7 @@
 11	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00225,.9
-# text = Af hverju er þetta búið að taka svona langan tíma ?
+# text = Af hverju er þetta búið að taka svona langan tíma?
 1	Af	af	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	hverju	hver	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
 3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm

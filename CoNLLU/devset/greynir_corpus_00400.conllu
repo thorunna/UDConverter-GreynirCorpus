@@ -10,7 +10,7 @@
 8	áður	áður	ADV	ao	_	12	cc	_	tag=ao
 9	en	en	CCONJ	st	_	8	cc	_	tag=st
 10	bifreiðaeign	bifreiðaeign	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_nf_kvk
-11	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_0_fh_p3_et_þt_gm
+11	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_þt_gm
 12	útbreidd	útbreiddur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	3	advcl	_	tag=lo_et_nf_kvk_sb
 13	eða	eð	CCONJ	st	_	12	mark	_	tag=st
 14	almenn	almennur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
@@ -51,33 +51,36 @@
 12	segja	segja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
 13	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_þf_kk_p3
 14	heita	heit	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	15	conj	_	tag=so_1_nf_nh_gm
-15	Dino Scala	Dino Scala	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	xcomp	_	SpaceAfter=No|tag=person_nf_kk
-16	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+15-16	Dino Scala	_	_	_	_	_	_	_	_
+15	Dino	Dino	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	xcomp	_	SpaceAfter=No|tag=person_nf_kk
+16	Scala	Scala	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	fixed	_	SpaceAfter=No|tag=person_nf_kk
+17	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00400,.4
 # text = Hefur þessi ótti meðal annars smitast út á markaðina, en hlutabréfaverð hefur fallið síðustu daga.
 1	Hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 2	þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_nf_kk
-3	ótti	ótti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
-4	meðal annars	meðal annars	ADV	ao	_	5	advmod	_	tag=ao
-5	smitast	smita	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	1	conj	_	tag=so_0_sagnb_mm
-6	út	út	ADV	ao	_	8	advmod	_	tag=ao
-7	á	eiga	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	markaðina	markaður	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
-9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
-10	en	en	CCONJ	st	_	1	cc	_	tag=st
-11	hlutabréfaverð	hlutabréfa-verja	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	tag=no_et_nf_hk
-12	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_nt_gm
-13	fallið	fall	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	conj	_	tag=so_0_sagnb_gm
-14	síðustu	síðari	ADJ	lo_ft_þf_kk_evb	Case=Acc|Degree=Sup|Gender=Masc|Number=Plur	15	amod	_	tag=lo_ft_þf_kk_evb
-15	daga	daga	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	13	advmod	_	SpaceAfter=No|tag=no_ft_þf_kk
-16	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+3	ótti	ótti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk
+4-5	meðal annars	_	_	_	_	_	_	_	_
+4	meðal	meðal	ADV	ao	_	6	advmod	_	tag=ao
+5	annars	annars	ADV	ao	_	4	fixed	_	tag=ao
+6	smitast	smita	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	_	conj	_	tag=so_0_sagnb_mm
+7	út	út	ADV	ao	_	9	advmod	_	tag=ao
+8	á	eiga	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+9	markaðina	markaður	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
+10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
+11	en	en	CCONJ	st	_	1	cc	_	tag=st
+12	hlutabréfaverð	hlutabréfa-verja	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
+13	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_et_nt_gm
+14	fallið	fall	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	conj	_	tag=so_0_sagnb_gm
+15	síðustu	síðari	ADJ	lo_ft_þf_kk_evb	Case=Acc|Degree=Sup|Gender=Masc|Number=Plur	16	amod	_	tag=lo_ft_þf_kk_evb
+16	daga	daga	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	14	advmod	_	SpaceAfter=No|tag=no_ft_þf_kk
+17	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00400,.5
 # text = Við vorum komnir á völlinn í hálfleik, þannig að við náðum seinni hálfleik.
--4	None	_	None	None	_	_	None	_	_
 1	Við	við	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
-2	vorum	vera	VERB	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p1_ft_þt_gm
+2	vorum	vera	VERB	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p1_ft_þt_gm
 3	komnir	koma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	á	eiga	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	völlinn	völlur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk_gr
@@ -97,25 +100,26 @@
 1	Þar	þar	ADV	ao	_	2	advmod	_	tag=ao
 2	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	fram	fram	ADV	ao	_	2	advmod	_	tag=ao
-4	að	að	SCONJ	st	_	14	mark	_	tag=st
-5	í kringum	í kringum	ADV	ao	_	14	advmod	_	tag=ao
-6	50%	50%	NUM	prósenta_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	nummod	_	tag=prósenta_et_þf_hk
-7	þeirra	hann	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	14	nsubj	_	tag=fn_ft_ef_kvk
-8	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
-9	búa	bú	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
-10	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-11	hinum	hinn	DET	gr_et_þgf_kk	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	13	det	_	tag=gr_et_þgf_kk
-12	vestræna	vestrænn	ADJ	lo_et_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_þgf_kk_vb
-13	heimi	heimi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þgf_kk
-14	spili	spil	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	tag=so_1_þf_vh_p3_et_nt_gm
-15	tölvuleiki	tölvuleikur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No|tag=no_ft_þf_kk
-16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+4	að	að	SCONJ	st	_	15	mark	_	tag=st
+5-6	í kringum	_	_	_	_	_	_	_	_
+5	í	í	ADV	ao	_	15	advmod	_	tag=ao
+6	kringum	kringum	ADV	ao	_	5	fixed	_	tag=ao
+7	50%	50%	NUM	prósenta_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	nummod	_	tag=prósenta_et_þf_hk
+8	þeirra	hann	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	15	nsubj	_	tag=fn_ft_ef_kvk
+9	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
+10	búa	bú	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
+11	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+12	hinum	hinn	DET	gr_et_þgf_kk	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	14	det	_	tag=gr_et_þgf_kk
+13	vestræna	vestrænn	ADJ	lo_et_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_þgf_kk_vb
+14	heimi	heimi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þgf_kk
+15	spili	spil	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	tag=so_1_þf_vh_p3_et_nt_gm
+16	tölvuleiki	tölvuleikur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No|tag=no_ft_þf_kk
+17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00400,.7
 # text = Það er eitt af því sem hefur verið skorið niður og er alveg óskiljanlegt.
--4	None	_	None	None	_	_	None	_	_
 1	Það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	eitt	einn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	af	af	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	því	sá	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þgf_hk_p3
@@ -125,9 +129,9 @@
 9	skorið	skera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	conj	_	tag=so_0_lhþt_et
 10	niður	niður	ADV	ao	_	9	advmod	_	tag=ao
 11	og	og	CCONJ	st	_	3	cc	_	tag=st
-12	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-13	alveg	alveg	ADV	eo	_	14	advmod	_	tag=eo
-14	óskiljanlegt	óskiljanlegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
+12	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+13	alveg	alveg	ADV	eo	_	3	advmod	_	tag=eo
+14	óskiljanlegt	óskiljanlegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	cop	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00400,.8
@@ -168,6 +172,8 @@
 15	Vísis	blaðamaður	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk
 16	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00400,.10
+# text = Minnst 70 mótmælendur voru handteknir í þinghúsinu í gær þar sem tilnefning Kavanaugh var til umræðu.
 1	Minnst	lítill	ADV	eo_est	Degree=Sup	3	advmod	_	tag=eo_est
 2	70	70	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	3	nummod	_	tag=tala_ft_nf_kk
 3	mótmælendur	mótmælandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_nf_kk
@@ -175,13 +181,15 @@
 5	handteknir	handtaka	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	þinghúsinu	þinghús	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk_gr
-8	í gær	í gær	ADV	ao	_	5	advmod	_	tag=ao
-9	þar	þar	ADV	ao	_	5	advmod	_	tag=ao
-10	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
-11	tilnefning	tilnefning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	tag=no_et_nf_kvk
-12	Kavanaugh	Kavanaugh	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	nmod:poss	_	tag=person_ef_kk
-13	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	advcl	_	tag=so_0_fh_p3_et_þt_gm
-14	til	til	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
-15	umræðu	umræða	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_ef_kvk
-16	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+8-9	í gær	_	_	_	_	_	_	_	_
+8	í	í	ADV	ao	_	5	advmod	_	tag=ao
+9	gær	gær	ADV	ao	_	8	fixed	_	tag=ao
+10	þar	þar	ADV	ao	_	5	advmod	_	tag=ao
+11	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
+12	tilnefning	tilnefning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	tag=no_et_nf_kvk
+13	Kavanaugh	Kavanaugh	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	nmod:poss	_	tag=person_ef_kk
+14	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	advcl	_	tag=so_0_fh_p3_et_þt_gm
+15	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
+16	umræðu	umræða	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_ef_kvk
+17	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

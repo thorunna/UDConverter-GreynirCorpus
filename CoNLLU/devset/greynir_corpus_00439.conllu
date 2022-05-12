@@ -12,15 +12,17 @@
 10	Tennessee	Tennessee	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=sérnafn_et_þgf_hk
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	Bandaríkjunum	Bandaríkin	PROPN	sérnafn_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	10	obl	_	tag=sérnafn_ft_þgf_hk_gr
-13	í gær	í gær	ADV	ao	_	7	advmod	_	tag=ao
-14	til	til	ADP	fs_nh	VerbForm=Inf	16	case	_	tag=fs_nh
-15	að	að	PART	nhm	_	16	mark	_	tag=nhm
-16	mótmæla	mótmæla	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	7	obl	_	tag=so_1_þgf_nh_gm
-17	mótttöku	mótttaka	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obj	_	tag=no_et_þgf_kvk
-18	flóttamanna	flóttamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	17	nmod:poss	_	tag=no_ft_ef_kk
-19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20	ríkinu	ríki	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-21	.	.	PUNCT	grm	_	7	punct	_	tag=grm
+13-14	í gær	_	_	_	_	_	_	_	_
+13	í	í	ADV	ao	_	7	advmod	_	tag=ao
+14	gær	gær	ADV	ao	_	13	fixed	_	tag=ao
+15	til	til	ADP	fs_nh	VerbForm=Inf	17	case	_	tag=fs_nh
+16	að	að	PART	nhm	_	17	mark	_	tag=nhm
+17	mótmæla	mótmæla	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	7	obl	_	tag=so_1_þgf_nh_gm
+18	mótttöku	mótttaka	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obj	_	tag=no_et_þgf_kvk
+19	flóttamanna	flóttamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	18	nmod:poss	_	tag=no_ft_ef_kk
+20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+21	ríkinu	ríki	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+22	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00439,.2
 # text = Útgangur er út á nýuppgerðar og góðar svalir með glæsilegu útsýni í norður, vestur og suðuráttir yfir miðbæ Reykjavíkur.
@@ -28,7 +30,7 @@
 2	er	vera	VERB	so_1_ef_fh_p3_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_ef_fh_p3_et_nt_gm
 3	út	út	ADV	ao	_	8	advmod	_	tag=ao
 4	á	á	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-5	nýuppgerðar	nýuppgerður	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	8	('HALLÓ_ADJP', None, 'NP', None)	_	tag=lo_ft_þf_kvk_sb
+5	nýuppgerðar	nýuppgerður	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	8	amod	_	tag=lo_ft_þf_kvk_sb
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
 7	góðar	góður	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	tag=lo_ft_þf_kvk_sb
 8	svalir	svalir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_þf_kvk
@@ -90,7 +92,7 @@
 16	á	á	ADV	ao	_	13	advmod	_	tag=ao
 17	þegar	þegar	SCONJ	st	_	20	mark	_	tag=st
 18	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	tag=pfn_et_nf_p1
-19	var	vera	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	20	conj	_	tag=so_1_nf_fh_p1_et_þt_gm
+19	var	vera	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	20	cop	_	tag=so_1_nf_fh_p1_et_þt_gm
 20	pjakkur	pjakkur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	advcl	_	SpaceAfter=No|tag=no_et_nf_kk
 21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -99,24 +101,27 @@
 1	Lögmaður	lögmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 2	fjórmenninganna	fjórmenningur	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk_gr
 3	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-4	Reimar Snæfells Pétursson	Reimar Snæfells Pétursson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-6	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-7	fram	fram	ADV	ao	_	6	advmod	_	tag=ao
-8	á	á	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	að	að	SCONJ	st	_	6	obl	_	tag=st
-10	myndefni	myndefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
-11	úr	úr	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	eftirlitsmyndavélum	eftirlits-myndavél	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	tag=no_ft_þgf_kvk
-13	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	tag=so_0_vh_p3_et_þt_gm
-14	rannsakað	rannsaka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	obl	_	tag=so_0_lhþt_et
-15	til	til	ADP	fs_nh	VerbForm=Inf	17	case	_	tag=fs_nh
-16	að	að	PART	nhm	_	17	mark	_	tag=nhm
-17	varpa	varpa	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	14	obl	_	tag=so_1_þgf_nh_gm
-18	ljósi	ljós	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	obj	_	tag=no_et_þgf_hk
-19	á	á	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
-21	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+4-6	Reimar Snæfells Pétursson	_	_	_	_	_	_	_	_
+4	Reimar	Reimar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+5	Snæfells	Snæfells	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	SpaceAfter=No|tag=person_nf_kk
+6	Pétursson	Pétursson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	fixed	_	SpaceAfter=No|tag=person_nf_kk
+7	,	,	PUNCT	grm	_	4	punct	_	tag=grm
+8	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+9	fram	fram	ADV	ao	_	8	advmod	_	tag=ao
+10	á	á	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	að	að	SCONJ	st	_	8	obl	_	tag=st
+12	myndefni	myndefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	tag=no_et_nf_hk
+13	úr	úr	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	eftirlitsmyndavélum	eftirlits-myndavél	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þgf_kvk
+15	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_0_vh_p3_et_þt_gm
+16	rannsakað	rannsaka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	obl	_	tag=so_0_lhþt_et
+17	til	til	ADP	fs_nh	VerbForm=Inf	19	case	_	tag=fs_nh
+18	að	að	PART	nhm	_	19	mark	_	tag=nhm
+19	varpa	varpa	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	16	obl	_	tag=so_1_þgf_nh_gm
+20	ljósi	ljós	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obj	_	tag=no_et_þgf_hk
+21	á	á	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+22	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
+23	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00439,.6
 # text = Simpson sagði þingmönnum að starfsmenn FBI hefðu gert Steele ljóst að þeir trúðu hluta þess sem fram kom í skýrslunni.
@@ -183,7 +188,7 @@
 12	Braggamálið	bragga-mál	PROPN	sérnafn_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|tag=sérnafn_et_þf_hk_gr
 13	:	:	PUNCT	grm	_	12	punct	_	tag=grm
 14	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	('HALLÓ_S', 'QUOTE', 'S0', None)	_	tag=pfn_et_nf_kvk_p3
-15	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
+15	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
 17	setja	setja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_1_þf_nh_gm
 18	upp	upp	ADV	ao	_	17	compound:prt	_	tag=ao
@@ -216,25 +221,31 @@
 22	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 1	Fjárfestirinn	fjárfestir	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
-2	Hallbjörn Karlsson	Hallbjörn Karlsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
-4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
-5	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-6	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	conj	_	tag=so_1_nf_sagnb_gm
-7	stjórnarformaður	stjórnarformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	acl:relcl	_	tag=no_et_nf_kk
-8	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	skeið	skeið	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	advmod	_	tag=no_et_þf_hk
-10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	hætti	hætta	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	stjórn	stjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
-14	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	13	nmod:poss	_	tag=no_et_ef_hk_gr
-15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	mars 2015	mars 2015	ADV	dagsafs	_	11	advmod	_	tag=dagsafs
-17	og	og	CCONJ	st	_	11	cc	_	tag=st
-18	við	við	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19	formennsku	formennska	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þf_kvk
-20	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_þt_gm
-21	Guðrún Þorgeirsdóttir	Guðrún Þorgeirsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	20	nsubj	_	tag=person_nf_kvk
-22	.	.	PUNCT	grm	_	11	punct	_	tag=grm
+2-3	Hallbjörn Karlsson	_	_	_	_	_	_	_	_
+2	Hallbjörn	Hallbjörn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
+3	Karlsson	Karlsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+4	,	,	PUNCT	grm	_	2	punct	_	tag=grm
+5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
+6	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
+7	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	cop	_	tag=so_1_nf_sagnb_gm
+8	stjórnarformaður	stjórnarformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	acl:relcl	_	tag=no_et_nf_kk
+9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+10	skeið	skeið	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	advmod	_	tag=no_et_þf_hk
+11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
+12	hætti	hætta	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	stjórn	stjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk
+15	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=no_et_ef_hk_gr
+16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17-18	mars 2015	_	_	_	_	_	_	_	_
+17	mars	mars	ADV	dagsafs	_	12	advmod	_	tag=dagsafs
+18	2015	2015	NUM?	dagsafs	_	17	fixed	_	tag=dagsafs
+19	og	og	CCONJ	st	_	12	cc	_	tag=st
+20	við	við	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
+21	formennsku	formennska	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	tag=no_et_þf_kvk
+22	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_0_fh_p3_et_þt_gm
+23-24	Guðrún Þorgeirsdóttir	_	_	_	_	_	_	_	_
+23	Guðrún	Guðrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	22	nsubj	_	tag=person_nf_kvk
+24	Þorgeirsdóttir	Þorgeirsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	23	fixed	_	tag=person_nf_kvk
+25	.	.	PUNCT	grm	_	12	punct	_	tag=grm
 

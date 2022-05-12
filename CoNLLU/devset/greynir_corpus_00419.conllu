@@ -26,21 +26,23 @@
 2	hitti	hitta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	konuna	kona	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk_gr
 4	fyrst	fyrst	ADV	ao_est	Degree=Sup	2	advmod	_	tag=ao_est
-5	árið 2005	árið 2005	ADV	ártal	_	2	advmod	_	tag=ártal
-6	og	og	CCONJ	st	_	2	cc	_	tag=st
-7	leitaði	leita	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
-8	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_kvk_p3
-9	alls	alls	ADV	eo	_	7	advmod	_	tag=eo
-10	tuttugu	tuttugu	NUM	töl_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	nummod	_	tag=töl_ft_þgf_hk
-11	og	og	CCONJ	st	_	9	cc	_	tag=st
-12	átta	átta	NUM	töl_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	nummod	_	tag=töl_ft_þgf_hk
-13	sinnum	sinn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_þgf_hk
-14	til	til	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
-15	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	tag=pfn_et_ef_kk_p3
-16	vegna	vegna	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
-17	veikinda	veikindi	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_ef_hk
-18	sinna	sinn	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No|tag=fn_ft_ef_hk
-19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+5-6	árið 2005	_	_	_	_	_	_	_	_
+5	árið	árið	ADV	ártal	_	2	advmod	_	tag=ártal
+6	2005	2005	NUM	ártal	_	5	fixed	_	tag=ártal
+7	og	og	CCONJ	st	_	2	cc	_	tag=st
+8	leitaði	leita	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
+9	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kvk_p3
+10	alls	alls	ADV	eo	_	8	advmod	_	tag=eo
+11	tuttugu	tuttugu	NUM	töl_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	nummod	_	tag=töl_ft_þgf_hk
+12	og	og	CCONJ	st	_	10	cc	_	tag=st
+13	átta	átta	NUM	töl_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	nummod	_	tag=töl_ft_þgf_hk
+14	sinnum	sinn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	tag=no_ft_þgf_hk
+15	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
+16	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	tag=pfn_et_ef_kk_p3
+17	vegna	vegna	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
+18	veikinda	veikindi	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_ef_hk
+19	sinna	sinn	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No|tag=fn_ft_ef_hk
+20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00419,.3
 # text = Kóreski tæknirisinn hefur lent í miklum vandræðum vegna símans allt frá því að fyrsti síminn sprakk í ágúst.
@@ -66,48 +68,57 @@
 
 # sent_id = GREYNIR_CORPUS_00419,.4
 # text = Hann var handtekinn árið 2012 í kjölfar þess að farið var aftur og ítarlegar yfir sönnunargögn í umfangsmikilli morðrannsókn.
--4	None	_	None	None	_	_	None	_	_
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	handtekinn	handtaka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-4	árið 2012	árið 2012	ADV	ártal	_	3	advmod	_	tag=ártal
-5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	kjölfar	kjölfar	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
-7	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=fn_et_ef_hk
-8	að	að	SCONJ	st	_	10	mark	_	tag=st
-9	farið	fara	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	nsubj	_	tag=so_0_lhþt_et
-10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	ccomp	_	tag=so_0_fh_p3_et_þt_gm
-11	aftur	aftur	ADV	ao	_	10	advmod	_	tag=ao
-12	og	og	CCONJ	st	_	13	cc	_	tag=st
-13	ítarlegar	ítarlega	ADV	ao_mst	Degree=Cmp	11	conj	_	tag=ao_mst
-14	yfir	yfir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	sönnunargögn	sönnunargagn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	tag=no_ft_þf_hk
-16	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-17	umfangsmikilli	umfangsmikill	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	18	amod	_	tag=lo_et_þgf_kvk_sb
-18	morðrannsókn	morð-rannsókn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+4-5	árið 2012	_	_	_	_	_	_	_	_
+4	árið	árið	ADV	ártal	_	3	advmod	_	tag=ártal
+5	2012	2012	NUM	ártal	_	4	fixed	_	tag=ártal
+6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+7	kjölfar	kjölfar	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
+8	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=fn_et_ef_hk
+9	að	að	SCONJ	st	_	11	mark	_	tag=st
+10	farið	fara	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	nsubj	_	tag=so_0_lhþt_et
+11	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	ccomp	_	tag=so_0_fh_p3_et_þt_gm
+12	aftur	aftur	ADV	ao	_	11	advmod	_	tag=ao
+13	og	og	CCONJ	st	_	14	cc	_	tag=st
+14	ítarlegar	ítarlega	ADV	ao_mst	Degree=Cmp	12	conj	_	tag=ao_mst
+15	yfir	yfir	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+16	sönnunargögn	sönnunargagn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þf_hk
+17	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+18	umfangsmikilli	umfangsmikill	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	19	amod	_	tag=lo_et_þgf_kvk_sb
+19	morðrannsókn	morð-rannsókn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00419,.5
 # text = Auk þess hefur hann ítrekað komist í kast við lögin, meðal annars vegna sprengjuárásar fyrir utan heimili fyrir hælisleitendur árið 1993.
-1	Auk þess	auk þess	ADV	ao	_	5	advmod	_	tag=ao
-2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_kk_p3
-4	ítrekað	ítrekað	ADV	ao	_	5	advmod	_	tag=ao
-5	komist	koma	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	0	root	_	tag=so_0_sagnb_mm
-6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	kast	kast	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk
-8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	lögin	lög	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
-10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	meðal annars	meðal annars	ADV	ao	_	5	advmod	_	tag=ao
-12	vegna	vegna	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
-13	sprengjuárásar	sprengjuárás	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_ef_kvk
-14	fyrir utan	fyrir utan	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	heimili	heimili	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_þf_hk
-16	fyrir	fyrir	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	hælisleitendur	hælisleitandi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	15	obl	_	tag=no_ft_þf_kk
-18	árið 1993	árið 1993	ADV	ártal	_	5	advmod	_	SpaceAfter=No|tag=ártal
-19	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+1-2	Auk þess	_	_	_	_	_	_	_	_
+1	Auk	auk	ADV	ao	_	6	advmod	_	tag=ao
+2	þess	þess	ADV	ao	_	1	fixed	_	tag=ao
+3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
+4	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_kk_p3
+5	ítrekað	ítrekað	ADV	ao	_	6	advmod	_	tag=ao
+6	komist	koma	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	0	root	_	tag=so_0_sagnb_mm
+7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
+8	kast	kast	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk
+9	við	við	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+10	lögin	lög	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
+11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
+12-13	meðal annars	_	_	_	_	_	_	_	_
+12	meðal	meðal	ADV	ao	_	6	advmod	_	tag=ao
+13	annars	annars	ADV	ao	_	12	fixed	_	tag=ao
+14	vegna	vegna	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
+15	sprengjuárásar	sprengjuárás	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_ef_kvk
+16-17	fyrir utan	_	_	_	_	_	_	_	_
+16	fyrir	fyrir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
+17	utan	utan	ADP	fs_þf	Case=Acc	16	fixed	_	tag=fs_þf
+18	heimili	heimili	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	tag=no_ft_þf_hk
+19	fyrir	fyrir	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
+20	hælisleitendur	hælisleitandi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	18	obl	_	tag=no_ft_þf_kk
+21-22	árið 1993	_	_	_	_	_	_	_	_
+21	árið	árið	ADV	ártal	_	6	advmod	_	SpaceAfter=No|tag=ártal
+22	1993	1993	NUM	ártal	_	21	fixed	_	SpaceAfter=No|tag=ártal
+23	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00419,.6
 # text = Því mætti ætla að við þyrftum að hafa þjónustuna okkar dýrari en aðrir, en svo er ekki.
@@ -152,31 +163,32 @@
 
 # sent_id = GREYNIR_CORPUS_00419,.8
 # text = Annar þeirra er sagður vera Corey Lewandowski, fyrrum kosningastjóri Trumps sem var rekinn eftir ósætti við börn Trumps.
--3	None	_	None	None	_	_	None	_	_
 1	Annar	annar	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=fn_et_nf_kk
 2	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_ft_ef_kk_p3
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	sagður	sagður	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	conj	_	tag=so_1_nf_nh_gm
-6	Corey Lewandowski	Corey Lewandowski	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	xcomp	_	SpaceAfter=No|tag=person_nf_kk
-7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	fyrrum	fyrrum	ADV	eo	_	9	advmod	_	tag=eo
-9	kosningastjóri	kosningastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_nf_kk
-10	Trumps	Trump	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	tag=person_ef_kk
-11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
-12	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-13	rekinn	reka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	acl:relcl	_	tag=so_0_lhþt_et
-14	eftir	eftir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	ósætti	ósætti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þf_hk
-16	við	við	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	börn	barn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	tag=no_ft_þf_hk
-18	Trumps	Trump	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-19	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	cop	_	tag=so_1_nf_nh_gm
+6-7	Corey Lewandowski	_	_	_	_	_	_	_	_
+6	Corey	Corey	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	xcomp	_	SpaceAfter=No|tag=person_nf_kk
+7	Lewandowski	Lewandowski	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	fixed	_	SpaceAfter=No|tag=person_nf_kk
+8	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+9	fyrrum	fyrrum	ADV	eo	_	10	advmod	_	tag=eo
+10	kosningastjóri	kosningastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_nf_kk
+11	Trumps	Trump	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	nmod:poss	_	tag=person_ef_kk
+12	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
+13	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
+14	rekinn	reka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	acl:relcl	_	tag=so_0_lhþt_et
+15	eftir	eftir	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+16	ósætti	ósætti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þf_hk
+17	við	við	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
+18	börn	barn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	16	obl	_	tag=no_ft_þf_hk
+19	Trumps	Trump	PROPN	person_ef_kk	Case=Gen|Gender=Masc	18	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
+20	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00419,.9
 # text = Þá var maður í annarlegu ástandi vistaður í fangageymslu eftir að hafa haft í hótunum við starfsfólk Gistiskýlisins.
 1	Þá	þá	ADV	ao	_	7	advmod	_	tag=ao
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	maður	maður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk
 4	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	annarlegu	annarlegur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þgf_hk_sb
@@ -195,9 +207,8 @@
 18	Gistiskýlisins	gistiskýli	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	17	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk_gr
 19	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
 3	verkefni	verkefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 4	sálfræðinga	sálfræðingur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nmod:poss	_	tag=no_ft_ef_kk
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm

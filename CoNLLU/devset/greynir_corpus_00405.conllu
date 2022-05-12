@@ -20,9 +20,8 @@
 
 # sent_id = GREYNIR_CORPUS_00405,.2
 # text = Google er eitt nokkurra risafyrirtækja á heimsvísu sem skattyfirvöld víða um heim eru með til rannsóknar.
--4	None	_	None	None	_	_	None	_	_
 1	Google	Google	PROPN	fyrirtæki	_	3	nsubj	_	tag=fyrirtæki
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	eitt	einn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	nokkurra	nokkur	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	tag=fn_ft_ef_hk
 5	risafyrirtækja	risafyrirtæki	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	nmod:poss	_	tag=no_ft_ef_hk
@@ -44,40 +43,47 @@
 1	Þá	þá	ADV	ao	_	2	advmod	_	tag=ao
 2	snýst	snúa	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 3	vindur	vindur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
-4	hins vegar	hins vegar	ADV	ao	_	2	advmod	_	tag=ao
-5	til	til	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
-6	suðausturs	suðaustur	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_ef_hk
-7	og	og	CCONJ	st	_	2	cc	_	tag=st
-8	fer	fara	VERB	so_0_op_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_op_fh_p3_et_nt_gm
-9	að	að	PART	nhm	_	10	mark	_	tag=nhm
-10	þykkna	þykkna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
-11	upp	upp	ADV	ao	_	10	advmod	_	tag=ao
-12	syðra	syðra	ADV	ao	_	10	advmod	_	tag=ao
-13	með	með	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	skúrum	skúr	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	tag=no_ft_þgf_kvk
-15	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	Suðausturlandi	Suðausturland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
-17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+4-5	hins vegar	_	_	_	_	_	_	_	_
+4	hins	hins	ADV	ao	_	2	advmod	_	tag=ao
+5	vegar	vegar	ADV	ao	_	4	fixed	_	tag=ao
+6	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
+7	suðausturs	suðaustur	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_ef_hk
+8	og	og	CCONJ	st	_	2	cc	_	tag=st
+9	fer	fara	VERB	so_0_op_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_op_fh_p3_et_nt_gm
+10	að	að	PART	nhm	_	11	mark	_	tag=nhm
+11	þykkna	þykkna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_0_nh_gm
+12	upp	upp	ADV	ao	_	11	advmod	_	tag=ao
+13	syðra	syðra	ADV	ao	_	11	advmod	_	tag=ao
+14	með	með	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+15	skúrum	skúr	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	tag=no_ft_þgf_kvk
+16	á	á	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	Suðausturlandi	Suðausturland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
+18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00405,.4
 # text = Eiður Smári skoraði að minnsta kosti tíu mörk á þremur þeirra og alls 41 mark sem er magnaður árangur.
-1	Eiður Smári	Eiður Smári	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	að minnsta kosti	að minnsta kosti	ADV	eo	_	5	advmod	_	tag=eo
-4	tíu	tíu	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	nummod	_	tag=töl_ft_þf_hk
-5	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	tag=no_ft_þf_hk
-6	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-7	þremur	þrír	NUM	to_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	nummod	_	tag=to_ft_þgf_kvk
-8	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obl	_	tag=pfn_ft_ef_kk_p3
-9	og	og	CCONJ	st	_	5	cc	_	tag=st
-10	alls	alls	ADV	eo	_	5	advmod	_	tag=eo
-11	41	41	NUM	tala_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	5	nummod	_	tag=tala_et_þf_hk
-12	mark	mark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	tag=no_et_þf_hk
-13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
-14	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_gm
-15	magnaður	magnaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_nf_kk_sb
-16	árangur	árangur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	acl:relcl	_	SpaceAfter=No|tag=no_et_nf_kk
-17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Eiður Smári	_	_	_	_	_	_	_	_
+1	Eiður	Eiður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
+2	Smári	Smári	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+3	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+4-6	að minnsta kosti	_	_	_	_	_	_	_	_
+4	að	að	ADV	eo	_	8	advmod	_	tag=eo
+5	minnsta	minnsta	ADV	eo	_	4	fixed	_	tag=eo
+6	kosti	kosti	ADV	eo	_	5	fixed	_	tag=eo
+7	tíu	tíu	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	nummod	_	tag=töl_ft_þf_hk
+8	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	tag=no_ft_þf_hk
+9	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+10	þremur	þrír	NUM	to_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	nummod	_	tag=to_ft_þgf_kvk
+11	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obl	_	tag=pfn_ft_ef_kk_p3
+12	og	og	CCONJ	st	_	8	cc	_	tag=st
+13	alls	alls	ADV	eo	_	8	advmod	_	tag=eo
+14	41	41	NUM	tala_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	8	nummod	_	tag=tala_et_þf_hk
+15	mark	mark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	conj	_	tag=no_et_þf_hk
+16	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
+17	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_gm
+18	magnaður	magnaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	tag=lo_et_nf_kk_sb
+19	árangur	árangur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	acl:relcl	_	SpaceAfter=No|tag=no_et_nf_kk
+20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00405,.5
 # text = ÍBV vann gríðarlega mikilvægan 3 - 0 sigur, sem kom þeim upp úr fallsæti á markatölu.
@@ -93,31 +99,35 @@
 10	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 11	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	tag=so_1_þgf_fh_p3_et_þt_gm
 12	þeim	hann	PRON	pfn_ft_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obj	_	tag=pfn_ft_þgf_kk_p3
-13	upp úr	upp úr	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	fallsæti	fallsæti	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
-15	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	markatölu	markatala	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+13-14	upp úr	_	_	_	_	_	_	_	_
+13	upp	upp	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+14	úr	úr	ADP	fs_þgf	Case=Dat	13	fixed	_	tag=fs_þgf
+15	fallsæti	fallsæti	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
+16	á	á	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	markatölu	markatala	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00405,.6
 # text = Ólafía Þórunn, sem er þrefaldur Íslandsmeistari, fékk átta fugla á hringnum og aðeins einn skolla.
-1	Ólafía Þórunn	Ólafía Þórunn	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_gm
-5	þrefaldur	þrefaldur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_sb
-6	Íslandsmeistari	Íslandsmeistari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	acl:relcl	_	SpaceAfter=No|tag=no_et_nf_kk
-7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	fékk	fá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-9	átta	átta	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	10	nummod	_	tag=töl_ft_þf_kk
-10	fugla	fugl	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	tag=no_ft_þf_kk
-11	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	hringnum	hringur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þgf_kk_gr
-13	og	og	CCONJ	st	_	10	cc	_	tag=st
-14	aðeins	aðeins	ADV	eo	_	10	advmod	_	tag=eo
-15	einn	einn	NUM	to_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	nummod	_	tag=to_et_þf_kk
-16	skolla	skolli	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No|tag=no_et_þf_kk
-17	.	.	PUNCT	grm	_	8	punct	_	tag=grm
+1-2	Ólafía Þórunn	_	_	_	_	_	_	_	_
+1	Ólafía	Ólafía	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+2	Þórunn	Þórunn	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+3	,	,	PUNCT	grm	_	1	punct	_	tag=grm
+4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
+5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_gm
+6	þrefaldur	þrefaldur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_sb
+7	Íslandsmeistari	Íslandsmeistari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	acl:relcl	_	SpaceAfter=No|tag=no_et_nf_kk
+8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
+9	fékk	fá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+10	átta	átta	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	nummod	_	tag=töl_ft_þf_kk
+11	fugla	fugl	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	tag=no_ft_þf_kk
+12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	hringnum	hringur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þgf_kk_gr
+14	og	og	CCONJ	st	_	11	cc	_	tag=st
+15	aðeins	aðeins	ADV	eo	_	11	advmod	_	tag=eo
+16	einn	einn	NUM	to_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	nummod	_	tag=to_et_þf_kk
+17	skolla	skolli	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No|tag=no_et_þf_kk
+18	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00405,.7
 # text = Skilmálarnir kveða á um að vaxtaberandi skuldir Icelandair megi á engu reikningstímabili fara yfir hlutfallið 3,5.
@@ -142,27 +152,29 @@
 # sent_id = GREYNIR_CORPUS_00405,.8
 # text = Á bíótónleikum Sinfóníunnar á dögunum hljómaði því tónlist Jórunnar í fyrsta skipti í áratugi hnökralaust við kvikmyndina.
 1	Á	á	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	bíótónleikum	bíó-tónleikar	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	tag=no_ft_þgf_kk
+2	bíótónleikum	bíó-tónleikar	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	tag=no_ft_þgf_kk
 3	Sinfóníunnar	sinfónía	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
-4	á dögunum	á dögunum	ADV	ao	_	5	advmod	_	tag=ao
-5	hljómaði	hljóma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-6	því	því	ADV	ao	_	5	advmod	_	tag=ao
-7	tónlist	tónlist	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
-8	Jórunnar	Jórunnar	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	7	nmod:poss	_	tag=person_ef_kvk
-9	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-10	fyrsta	fyrstur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	11	amod	_	tag=lo_et_þf_hk_vb
-11	skipti	skipti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk
-12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	áratugi	áratugur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þf_kk
-14	hnökralaust	hnökralaust	ADV	ao	_	5	advmod	_	tag=ao
-15	við	við	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	kvikmyndina	kvikmynd	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
-17	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+4-5	á dögunum	_	_	_	_	_	_	_	_
+4	á	á	ADV	ao	_	6	advmod	_	tag=ao
+5	dögunum	dögunum	ADV	ao	_	4	fixed	_	tag=ao
+6	hljómaði	hljóma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+7	því	því	ADV	ao	_	6	advmod	_	tag=ao
+8	tónlist	tónlist	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
+9	Jórunnar	Jórunnar	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	8	nmod:poss	_	tag=person_ef_kvk
+10	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+11	fyrsta	fyrstur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_þf_hk_vb
+12	skipti	skipti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk
+13	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+14	áratugi	áratugur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þf_kk
+15	hnökralaust	hnökralaust	ADV	ao	_	6	advmod	_	tag=ao
+16	við	við	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
+17	kvikmyndina	kvikmynd	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
+18	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00405,.9
 # text = Það var mjög lítið um færi hjá báðum liðum og enda oft svoleiðis leikir í jafntefli.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	mjög	mjög	ADV	eo	_	4	advmod	_	tag=eo
 4	lítið	lítill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf

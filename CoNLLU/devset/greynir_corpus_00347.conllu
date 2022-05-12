@@ -11,15 +11,16 @@
 
 # sent_id = GREYNIR_CORPUS_00347,.2
 # text = Ihor Kopyshynskyi var markahæstur Akureyringa með sex mörk.
--4	None	_	None	None	_	_	None	_	_
-1	Ihor Kopyshynskyi	Ihor Kopyshynskyi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
-3	markahæstur	marka-hár	ADJ	lo_et_nf_kk_esb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_esb
-4	Akureyringa	Akureyringur	PROPN	sérnafn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nmod:poss	_	tag=sérnafn_ft_ef_kk
-5	með	með	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-6	sex	sex	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	nummod	_	tag=töl_ft_þf_hk
-7	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
-8	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+1-2	Ihor Kopyshynskyi	_	_	_	_	_	_	_	_
+1	Ihor	Ihor	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
+2	Kopyshynskyi	Kopyshynskyi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+3	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+4	markahæstur	marka-hár	ADJ	lo_et_nf_kk_esb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_esb
+5	Akureyringa	Akureyringur	PROPN	sérnafn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	4	nmod:poss	_	tag=sérnafn_ft_ef_kk
+6	með	með	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
+7	sex	sex	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	nummod	_	tag=töl_ft_þf_hk
+8	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
+9	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00347,.3
 # text = Minnist hún á Hatara í þessu samhengi.
@@ -57,7 +58,7 @@
 # sent_id = GREYNIR_CORPUS_00347,.6
 # text = Honum voru m.a. dæmdar bæturnar vegna tekjumissis.
 1	Honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	tag=pfn_et_þgf_kk_p3
-2	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_þt_gm
+2	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_þt_gm
 3	m.a.	m.a.	ADV	ao	_	4	advmod	_	tag=ao
 4	dæmdar	dæma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 5	bæturnar	bót	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	tag=no_ft_nf_kvk_gr
@@ -77,7 +78,7 @@
 8	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00347,.8
-# text = Hvað ertu að borða á venjulegum degi ?
+# text = Hvað ertu að borða á venjulegum degi?
 1	Hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þf_hk
 2	ertu	vera	VERB	so_0_fh_p2_et_nt_gm_sn	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p2_et_nt_gm_sn
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm

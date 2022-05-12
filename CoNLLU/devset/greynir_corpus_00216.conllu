@@ -29,8 +29,10 @@
 4	að	að	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	hluta	hluti	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
 6	seint	seint	ADV	ao	_	2	advmod	_	tag=ao
-7	í gær	í gær	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
-8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+7-8	í gær	_	_	_	_	_	_	_	_
+7	í	í	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
+8	gær	gær	ADV	ao	_	7	fixed	_	SpaceAfter=No|tag=ao
+9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00216,.4
 # text = Hægt er að gerast áskrifandi að Vísbendingu hér.
@@ -58,15 +60,16 @@
 
 # sent_id = GREYNIR_CORPUS_00216,.6
 # text = Verðmæti þýfisins er talið nema um 200 milljónum.
--3	None	_	None	None	_	_	None	_	_
 1	Verðmæti	verðmæti	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 2	þýfisins	þýfi	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk_gr
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	talið	telja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	nema	nema	VERB	so_0_nh	VerbForm=Inf	4	VANTAR_LIÐ_VP_None	_	tag=so_0_nh
 6	um	um	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	200 milljónum	200 milljónum	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	5	obl	_	SpaceAfter=No|tag=tala_ft_þgf_kvk
-8	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+7-8	200 milljónum	_	_	_	_	_	_	_	_
+7	200	200	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	5	obl	_	SpaceAfter=No|tag=tala_ft_þgf_kvk
+8	milljónum	milljónum	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	7	fixed	_	SpaceAfter=No|tag=tala_ft_þgf_kvk
+9	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00216,.7
 # text = Þessari þjónustu sinnir Íslensk erfðagreining ókeypis fyrir spítalann.
@@ -94,22 +97,27 @@
 
 # sent_id = GREYNIR_CORPUS_00216,.9
 # text = Ford Ranger hefur fengið góðar viðtökur í ár.
-1	Ford Ranger	Ford Ranger	PROPN	entity_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=entity_et_nf_hk
-2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	fengið	fá	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
-4	góðar	góður	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	5	amod	_	tag=lo_ft_þf_kvk_sb
-5	viðtökur	viðtaka	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	tag=no_ft_þf_kvk
-6	í ár	í ár	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
-7	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1-2	Ford Ranger	_	_	_	_	_	_	_	_
+1	Ford	Ford	PROPN	entity_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=entity_et_nf_hk
+2	Ranger	Ranger	PROPN	entity_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	fixed	_	tag=entity_et_nf_hk
+3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
+4	fengið	fá	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
+5	góðar	góður	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	6	amod	_	tag=lo_ft_þf_kvk_sb
+6	viðtökur	viðtaka	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	tag=no_ft_þf_kvk
+7-8	í ár	_	_	_	_	_	_	_	_
+7	í	í	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
+8	ár	ár	ADV	ao	_	7	fixed	_	SpaceAfter=No|tag=ao
+9	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
--4	None	_	None	None	_	_	None	_	_
+# sent_id = GREYNIR_CORPUS_00216,.10
+# text = Talið er að málið sé stærsta þjófnaðarmál Íslandssögunnar.
 1	Talið	telja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	7	mark	_	tag=st
 4	málið	mál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk_gr
-5	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+5	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 6	stærsta	stór	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_nf_hk_evb
 7	þjófnaðarmál	þjófnaðarmál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	ccomp	_	tag=no_et_nf_hk
-8	Íslandssögunnar	Íslandssaga	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod:poss	_	tag=no_et_ef_kvk_gr
+8	Íslandssögunnar	Íslandssaga	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 9	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 

@@ -32,9 +32,8 @@
 
 # sent_id = GREYNIR_CORPUS_00481,.2
 # text = Það er mat siðanefndar að órökstuddar aðdróttanir af hálfu þingmanna um refsiverða háttsemi annarra þingmanna sé til þess fallið að kasta rýrð á Alþingi og skaða ímynd þess. […]
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
 3	mat	mat	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 4	siðanefndar	siðanefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk
 5	að	að	SCONJ	st	_	19	mark	_	tag=st
@@ -48,7 +47,7 @@
 13	háttsemi	háttsemi	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk
 14	annarra	annar	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	tag=fn_ft_ef_kk
 15	þingmanna	þingmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	13	nmod:poss	_	tag=no_ft_ef_kk
-16	sé	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	conj	_	tag=so_1_nf_vh_p3_ft_nt_gm
+16	sé	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 17	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
 18	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obl	_	tag=pfn_et_ef_hk_p3
 19	fallið	falla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	nsubj	_	tag=so_0_lhþt_et
@@ -85,69 +84,77 @@
 17	notkun	notkun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_þgf_kvk
 18	lyfseðilsskyldra	lyfseðilsskyldur	ADJ	lo_ft_ef_hk_sb	Case=Gen|Gender=Neut|Number=Plur	19	amod	_	tag=lo_ft_ef_hk_sb
 19	verkjalyfja	verkjalyf	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	17	nmod:poss	_	tag=no_ft_ef_hk
-20	að svo stöddu	að svo stöddu	ADV	ao	_	15	advmod	_	tag=ao
-21	en	en	CCONJ	st	_	2	cc	_	tag=st
-22	bendir	benda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
-23	á	á	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
-24	mikilvægi	mikilvægi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	22	obl	_	tag=no_et_þf_hk
-25	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	24	nmod:poss	_	tag=fn_et_ef_hk
-26	að	að	PART	nhm	_	27	mark	_	tag=nhm
-27	rannsaka	rannsaka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	25	xcomp	_	tag=so_1_þf_nh_gm
-28	tengslin	tengsl	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	27	obj	_	tag=no_ft_þf_hk_gr
-29	þar á milli	þar á milli	ADV	ao	_	27	advmod	_	tag=ao
-30	frekar	frekar	ADV	ao_mst	Degree=Cmp	27	advmod	_	SpaceAfter=No|tag=ao_mst
-31	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+20-22	að svo stöddu	_	_	_	_	_	_	_	_
+20	að	að	ADV	ao	_	15	advmod	_	tag=ao
+21	svo	svo	ADV	ao	_	20	fixed	_	tag=ao
+22	stöddu	stöddu	ADV	ao	_	21	fixed	_	tag=ao
+23	en	en	CCONJ	st	_	2	cc	_	tag=st
+24	bendir	benda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
+25	á	á	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
+26	mikilvægi	mikilvægi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	24	obl	_	tag=no_et_þf_hk
+27	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	26	nmod:poss	_	tag=fn_et_ef_hk
+28	að	að	PART	nhm	_	29	mark	_	tag=nhm
+29	rannsaka	rannsaka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	27	xcomp	_	tag=so_1_þf_nh_gm
+30	tengslin	tengsl	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	29	obj	_	tag=no_ft_þf_hk_gr
+31-33	þar á milli	_	_	_	_	_	_	_	_
+31	þar	þar	ADV	ao	_	29	advmod	_	tag=ao
+32	á	á	ADV	ao	_	31	fixed	_	tag=ao
+33	milli	milli	ADV	ao	_	32	fixed	_	tag=ao
+34	frekar	frekar	ADV	ao_mst	Degree=Cmp	29	advmod	_	SpaceAfter=No|tag=ao_mst
+35	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00481,.4
 # text = Snyrtivörulínan er búin til af Trice Angie Christiansen sem gafst upp á að nota hefðbundnar snyrtivörur frá öðrum línum þar sem hún steyptist út í ofnæmi og öðrum óþægindum eftir notkun þeirra.
--4	None	_	None	None	_	_	None	_	_
 1	Snyrtivörulínan	snyrtivörulína	PROPN	sérnafn_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=sérnafn_et_nf_kvk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	búin	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	til	til	ADV	ao	_	3	advmod	_	tag=ao
 5	af	af	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	Trice Angie Christiansen	Trice Angie Christiansen	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	3	obl	_	tag=person_þgf_kvk
-7	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
-8	gafst	gefa	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	6	acl:relcl	_	tag=so_0_fh_p3_et_þt_mm
-9	upp	upp	ADV	ao	_	8	advmod	_	tag=ao
-10	á	á	ADP	fs_nh	VerbForm=Inf	12	case	_	tag=fs_nh
-11	að	að	PART	nhm	_	12	mark	_	tag=nhm
-12	nota	nota	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	obl	_	tag=so_1_þf_nh_gm
-13	hefðbundnar	hefðbundinn	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	14	amod	_	tag=lo_ft_þf_kvk_sb
-14	snyrtivörur	snyrtivara	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	tag=no_ft_þf_kvk
-15	frá	frá	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-16	öðrum	annar	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	nmod	_	tag=fn_ft_þgf_kvk
-17	línum	lína	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	tag=no_ft_þgf_kvk
-18	þar	þar	ADV	ao	_	21	mark	_	tag=ao
-19	sem	sem	SCONJ	st	_	18	cc	_	tag=st
-20	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	tag=pfn_et_nf_kvk_p3
-21	steyptist	steypa	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	advcl	_	tag=so_0_fh_p3_et_þt_mm
-22	út	út	ADV	ao	_	24	advmod	_	tag=ao
-23	í	í	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	ofnæmi	ofnæmi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	tag=no_et_þgf_hk
-25	og	og	CCONJ	st	_	26	cc	_	tag=st
-26	öðrum	annar	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	24	conj	_	tag=fn_ft_þgf_hk
-27	óþægindum	óþægindi	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	24	conj	_	tag=no_ft_þgf_hk
-28	eftir	eftir	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
-29	notkun	notkun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	tag=no_et_þgf_kvk
-30	þeirra	hún	PRON	pfn_ft_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	29	nmod:poss	_	SpaceAfter=No|tag=pfn_ft_ef_kvk_p3
-31	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+6-8	Trice Angie Christiansen	_	_	_	_	_	_	_	_
+6	Trice	Trice	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	3	obl	_	tag=person_þgf_kvk
+7	Angie	Angie	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	6	fixed	_	tag=person_þgf_kvk
+8	Christiansen	Christiansen	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	7	fixed	_	tag=person_þgf_kvk
+9	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
+10	gafst	gefa	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	6	acl:relcl	_	tag=so_0_fh_p3_et_þt_mm
+11	upp	upp	ADV	ao	_	10	advmod	_	tag=ao
+12	á	á	ADP	fs_nh	VerbForm=Inf	14	case	_	tag=fs_nh
+13	að	að	PART	nhm	_	14	mark	_	tag=nhm
+14	nota	nota	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	10	obl	_	tag=so_1_þf_nh_gm
+15	hefðbundnar	hefðbundinn	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	16	amod	_	tag=lo_ft_þf_kvk_sb
+16	snyrtivörur	snyrtivara	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	tag=no_ft_þf_kvk
+17	frá	frá	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+18	öðrum	annar	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	19	nmod	_	tag=fn_ft_þgf_kvk
+19	línum	lína	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	obl	_	tag=no_ft_þgf_kvk
+20	þar	þar	ADV	ao	_	23	mark	_	tag=ao
+21	sem	sem	SCONJ	st	_	20	cc	_	tag=st
+22	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	tag=pfn_et_nf_kvk_p3
+23	steyptist	steypa	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	14	advcl	_	tag=so_0_fh_p3_et_þt_mm
+24	út	út	ADV	ao	_	26	advmod	_	tag=ao
+25	í	í	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
+26	ofnæmi	ofnæmi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	tag=no_et_þgf_hk
+27	og	og	CCONJ	st	_	28	cc	_	tag=st
+28	öðrum	annar	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	26	conj	_	tag=fn_ft_þgf_hk
+29	óþægindum	óþægindi	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	26	conj	_	tag=no_ft_þgf_hk
+30	eftir	eftir	ADP	fs_þgf	Case=Dat	31	case	_	tag=fs_þgf
+31	notkun	notkun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	tag=no_et_þgf_kvk
+32	þeirra	hún	PRON	pfn_ft_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	31	nmod:poss	_	SpaceAfter=No|tag=pfn_ft_ef_kvk_p3
+33	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00481,.5
 # text = Það var jafnframt ljóst að fréttir þess efnis að tæknimönnum fundarins hefði verið gert að slökkva á beinni útsendingu flokksins af fundinum undir ræðu Sigurðar Inga daginn áður hjálpuðu Sigmundi ekki.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	jafnframt	jafnframt	ADV	eo	_	4	advmod	_	tag=eo
 4	ljóst	ljós	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
-5	að	að	SCONJ	st	_	28	mark	_	tag=st
-6	fréttir	frétt	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	tag=no_ft_nf_kvk
+5	að	að	SCONJ	st	_	29	mark	_	tag=st
+6	fréttir	frétt	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	29	nsubj	_	tag=no_ft_nf_kvk
 7	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	tag=fn_et_ef_hk
 8	efnis	efni	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk
 9	að	að	SCONJ	st	_	14	mark	_	tag=st
 10	tæknimönnum	tæknimaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	14	iobj	_	tag=no_ft_þgf_kk
 11	fundarins	fundur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod:poss	_	tag=no_et_ef_kk_gr
 12	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	14	aux	_	tag=so_0_vh_p3_et_þt_gm
-13	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	conj	_	tag=so_0_sagnb_gm
+13	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	cop	_	tag=so_0_sagnb_gm
 14	gert	gera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	xcomp	_	tag=so_0_sagnb_gm
 15	að	að	PART	nhm	_	16	mark	_	tag=nhm
 16	slökkva	slökkva	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	14	xcomp	_	tag=so_0_nh_gm
@@ -159,13 +166,15 @@
 22	fundinum	fundur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_þgf_kk_gr
 23	undir	undir	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24	ræðu	ræða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þgf_kvk
-25	Sigurðar Inga	Sigurður Ingi	PROPN	person_ef_kk	Case=Gen|Gender=Masc	24	nmod:poss	_	tag=person_ef_kk
-26	daginn	dagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	advmod	_	tag=no_et_þf_kk_gr
-27	áður	áður	ADV	ao	_	26	advmod	_	tag=ao
-28	hjálpuðu	hjálpa	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	nsubj	_	tag=so_1_þgf_fh_p3_ft_þt_gm
-29	Sigmundi	Sigmundur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	28	obj	_	tag=person_þgf_kk
-30	ekki	ekki	ADV	ao	_	28	advmod	_	SpaceAfter=No|tag=ao
-31	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+25-26	Sigurðar Inga	_	_	_	_	_	_	_	_
+25	Sigurðar	Sigurður	PROPN	person_ef_kk	Case=Gen|Gender=Masc	24	nmod:poss	_	tag=person_ef_kk
+26	Inga	Ingi	PROPN	person_ef_kk	Case=Gen|Gender=Masc	25	fixed	_	tag=person_ef_kk
+27	daginn	dagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	advmod	_	tag=no_et_þf_kk_gr
+28	áður	áður	ADV	ao	_	27	advmod	_	tag=ao
+29	hjálpuðu	hjálpa	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	nsubj	_	tag=so_1_þgf_fh_p3_ft_þt_gm
+30	Sigmundi	Sigmundur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	29	obj	_	tag=person_þgf_kk
+31	ekki	ekki	ADV	ao	_	29	advmod	_	SpaceAfter=No|tag=ao
+32	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00481,.6
 # text = Þessum nýju kröfum og heimildum er ætlað að mæta erfiðleikum sem kunna að koma upp í rekstri fjármálafyrirtækja með það að markmiði að endurreisa fjárhagslega stöðu fyrirtækjanna og tryggja fjármálastöðugleika.
@@ -174,7 +183,7 @@
 3	kröfum	krafa	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	iobj	_	tag=no_ft_þgf_kvk
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	heimildum	heimild	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	conj	_	tag=no_ft_þgf_kvk
-6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_nt_gm
+6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	ætlað	ætla	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	mæta	mæta	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þgf_nh_gm
@@ -259,7 +268,7 @@
 20	samkynhneigðra	samkynhneigður	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	19	nmod:poss	_	tag=lo_ft_ef_kk_sb
 21	en	en	CCONJ	st	_	4	cc	_	tag=st
 22	Fæeryjar	Færeyjar	PROPN	person_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	tag=person_ft_nf_kvk
-23	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	25	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+23	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	25	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 24	síðasta	síðari	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	25	amod	_	tag=lo_et_nf_hk_evb
 25	norðurlandið	norður-land	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	conj	_	tag=no_et_nf_hk_gr
 26	til	til	ADP	fs_nh	VerbForm=Inf	28	case	_	tag=fs_nh
@@ -271,38 +280,42 @@
 
 # sent_id = GREYNIR_CORPUS_00481,.9
 # text = Hafberg Þórisson, framkvæmdastjóri Laufskála fasteignafélags og eigandi Lambhaga, segir starfsmenn sína orðna langþreytta á þeirri hættu sem stafi af fljúgandi golfkúlum yfir á jörð félagsins í Lundi í Mosfellsdal.
-1	Hafberg Þórisson	Hafberg Þórisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	Laufskála	Laufskálar	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	tag=fyrirtæki_et_ef_kk
-5	fasteignafélags	fasteigna-félag	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_ef_hk
-6	og	og	CCONJ	st	_	3	cc	_	tag=st
-7	eigandi	eigandi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_nf_kk
-8	Lambhaga	Lambhagi	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk
-9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
-10	segir	segja	VERB	so_2_þf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þf_þf_fh_p3_et_nt_gm
-11	starfsmenn	starfsmaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	tag=no_ft_þf_kk
-12	sína	sinn	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	nmod	_	tag=fn_ft_þf_kk
-13	orðna	orðinn	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	10	iobj	_	tag=lo_ft_þf_kk_sb
-14	langþreytta	langþreyttur	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	tag=lo_ft_þf_kk_sb
-15	á	á	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-16	þeirri	sá	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	tag=fn_et_þgf_kvk
-17	hættu	hætta	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
-18	sem	sem	SCONJ	stt	_	19	mark	_	tag=stt
-19	stafi	stafa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	acl:relcl	_	tag=so_0_vh_p3_et_nt_gm
-20	af	af	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-21	fljúgandi	fljúgandi	ADJ	lo_ft_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Plur	22	amod	_	tag=lo_ft_þgf_kvk_sb
-22	golfkúlum	golfkúla	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	tag=no_ft_þgf_kvk
-23	yfir	yfir	ADV	ao	_	25	advmod	_	tag=ao
-24	á	á	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
-25	jörð	jörð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þgf_kvk
-26	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	25	nmod:poss	_	tag=no_et_ef_hk_gr
-27	í	í	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
-28	Lundi	Lundur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	25	obl	_	tag=sérnafn_et_þgf_kk
-29	í	í	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
-30	Mosfellsdal	Mosfellsdalur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk
-31	.	.	PUNCT	grm	_	10	punct	_	tag=grm
+1-2	Hafberg Þórisson	_	_	_	_	_	_	_	_
+1	Hafberg	Hafberg	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	Þórisson	Þórisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
+4	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+5	Laufskála	Laufskálar	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_kk
+6	fasteignafélags	fasteigna-félag	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_ef_hk
+7	og	og	CCONJ	st	_	4	cc	_	tag=st
+8	eigandi	eigandi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	tag=no_et_nf_kk
+9	Lambhaga	Lambhagi	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk
+10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
+11	segir	segja	VERB	so_2_þf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þf_þf_fh_p3_et_nt_gm
+12	starfsmenn	starfsmaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	tag=no_ft_þf_kk
+13	sína	sinn	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	12	nmod	_	tag=fn_ft_þf_kk
+14	orðna	orðinn	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	11	iobj	_	tag=lo_ft_þf_kk_sb
+15	langþreytta	langþreyttur	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	tag=lo_ft_þf_kk_sb
+16	á	á	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+17	þeirri	sá	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	18	nmod	_	tag=fn_et_þgf_kvk
+18	hættu	hætta	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
+19	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
+20	stafi	stafa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	tag=so_0_vh_p3_et_nt_gm
+21	af	af	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
+22	fljúgandi	fljúgandi	ADJ	lo_ft_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Plur	23	amod	_	tag=lo_ft_þgf_kvk_sb
+23	golfkúlum	golfkúla	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	20	obl	_	tag=no_ft_þgf_kvk
+24	yfir	yfir	ADV	ao	_	26	advmod	_	tag=ao
+25	á	á	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
+26	jörð	jörð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þgf_kvk
+27	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	26	nmod:poss	_	tag=no_et_ef_hk_gr
+28	í	í	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
+29	Lundi	Lundur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	26	obl	_	tag=sérnafn_et_þgf_kk
+30	í	í	ADP	fs_þgf	Case=Dat	31	case	_	tag=fs_þgf
+31	Mosfellsdal	Mosfellsdalur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk
+32	.	.	PUNCT	grm	_	11	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00481,.10
+# text = Í viðtalinu greindi hann frá því að hann hefði ekki talað við dóttur sína eftir að vandamál kom upp á milli þeirra rétt fyrir brúðkaup Meghan og Harry í maí.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	viðtalinu	viðtal	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk_gr
 3	greindi	greina	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
@@ -322,15 +335,17 @@
 17	vandamál	vandamál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	tag=no_et_nf_hk
 18	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	advcl	_	tag=so_0_fh_p3_et_þt_gm
 19	upp	upp	ADV	ao	_	18	advmod	_	tag=ao
-20	á milli	á milli	ADP	fs_ef	Case=Gen	21	case	_	tag=fs_ef
-21	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	18	obl	_	tag=pfn_ft_ef_hk_p3
-22	rétt	rétt	ADV	ao	_	24	advmod	_	tag=ao
-23	fyrir	fyrir	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
-24	brúðkaup	brúðkaup	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	advmod	_	tag=no_et_þf_hk
-25	Meghan	Meghan	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	24	nmod:poss	_	tag=person_ef_kvk
-26	og	og	CCONJ	st	_	27	cc	_	tag=st
-27	Harry	Harry	PROPN	person_ef_kk	Case=Gen|Gender=Masc	25	conj	_	tag=person_ef_kk
-28	í	í	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
-29	maí	maí	ADV	dagsafs	_	24	advmod	_	tag=dagsafs
-30	.	maí	PUNCT	grm	_	3	punct	_	tag=grm
+20-21	á milli	_	_	_	_	_	_	_	_
+20	á	á	ADP	fs_ef	Case=Gen	22	case	_	tag=fs_ef
+21	milli	milli	ADP	fs_ef	Case=Gen	20	fixed	_	tag=fs_ef
+22	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	18	obl	_	tag=pfn_ft_ef_hk_p3
+23	rétt	rétt	ADV	ao	_	25	advmod	_	tag=ao
+24	fyrir	fyrir	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
+25	brúðkaup	brúðkaup	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	advmod	_	tag=no_et_þf_hk
+26	Meghan	Meghan	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	25	nmod:poss	_	tag=person_ef_kvk
+27	og	og	CCONJ	st	_	28	cc	_	tag=st
+28	Harry	Harry	PROPN	person_ef_kk	Case=Gen|Gender=Masc	26	conj	_	tag=person_ef_kk
+29	í	í	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
+30	maí	maí	ADV	dagsafs	_	25	advmod	_	SpaceAfter=No|tag=dagsafs
+31	.	maí	PUNCT	grm	_	3	punct	_	tag=grm
 

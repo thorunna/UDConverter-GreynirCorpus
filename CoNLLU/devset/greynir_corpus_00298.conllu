@@ -19,10 +19,12 @@
 17	slökkvistarfi	slökkvistarf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	nsubj	_	tag=no_et_þgf_hk
 18	lokið	ljúka	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	16	xcomp	_	tag=so_1_þgf_lhþt_et
 19	um	um	ADV	eo	_	20	advmod	_	tag=eo
-20	klukkan fjögur	klukkan fjögur	ADV	tími	_	18	advmod	_	tag=tími
-21	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-22	nótt	nótt	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
-23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+20-21	klukkan fjögur	_	_	_	_	_	_	_	_
+20	klukkan	klukkan	ADV	tími	_	18	advmod	_	tag=tími
+21	fjögur	fjögur	?	tími	_	20	fixed	_	tag=tími
+22	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
+23	nótt	nótt	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
+24	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00298,.2
 # text = Þá birti vinkona Swift paramynd af sér og eiginmanni sínum á Instagram ásamt þeim Hiddleston og Swift og Blake Lively og Ryan Reynolds.
@@ -44,10 +46,14 @@
 16	og	og	CCONJ	st	_	17	cc	_	tag=st
 17	Swift	Swift	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	conj	_	tag=sérnafn_et_þgf_kvk
 18	og	og	CCONJ	st	_	15	cc	_	tag=st
-19	Blake Lively	Blake Lively	PROPN	sérnafn_þgf_kvk	Case=Dat|Gender=Fem	15	conj	_	tag=sérnafn_þgf_kvk
-20	og	og	CCONJ	st	_	15	cc	_	tag=st
-21	Ryan Reynolds	Ryan Reynolds	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	15	conj	_	SpaceAfter=No|tag=sérnafn_þgf_kk
-22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+19-20	Blake Lively	_	_	_	_	_	_	_	_
+19	Blake	Blake	PROPN	sérnafn_þgf_kvk	Case=Dat|Gender=Fem	15	conj	_	tag=sérnafn_þgf_kvk
+20	Lively	Lively	PROPN	sérnafn_þgf_kvk	Case=Dat|Gender=Fem	19	fixed	_	tag=sérnafn_þgf_kvk
+21	og	og	CCONJ	st	_	15	cc	_	tag=st
+22-23	Ryan Reynolds	_	_	_	_	_	_	_	_
+22	Ryan	Ryan	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	15	conj	_	SpaceAfter=No|tag=sérnafn_þgf_kk
+23	Reynolds	Reynolds	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	22	fixed	_	SpaceAfter=No|tag=sérnafn_þgf_kk
+24	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00298,.3
 # text = Hann óskaði andstæðingunum til hamingju með vel heppnaða kosningabaráttu og þakkaði þeim sem unnu að baráttunni fyrir því að vera áfram í ESB.
@@ -61,8 +67,8 @@
 8	heppnaða	heppnaður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_þf_kvk_sb
 9	kosningabaráttu	kosningabarátta	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þf_kvk
 10	og	og	CCONJ	st	_	2	cc	_	tag=st
-11	þakkaði	þakka	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
-12	þeim	sá	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	iobj	_	tag=fn_ft_þgf_kvk
+11	þakkaði	þakka	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
+12	þeim	sá	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	2	iobj	_	tag=fn_ft_þgf_kvk
 13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
 14	unnu	vinna	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	tag=so_0_fh_p3_ft_þt_gm
 15	að	að	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
@@ -105,32 +111,37 @@
 
 # sent_id = GREYNIR_CORPUS_00298,.5
 # text = Óli Ingi Ólason, saksóknari hjá embætti Ríkissaksóknara, segir við mbl.is að vonir standi til þess að ljúka aðalmeðferð málsins 26. apríl.
-1	Óli Ingi Ólason	Óli Ingi Ólason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	saksóknari	saksóknari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	embætti	embætti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
-6	Ríkissaksóknara	ríkissaksóknari	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk
-7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
-8	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-9	við	við	ADP	fs_þf	Case=Acc	10	dep	_	tag=fs_þf
-10	mbl.is	mbl.is	X	lén_þf	Case=Acc	8	obl	_	tag=lén_þf
-11	að	að	SCONJ	st	_	13	mark	_	tag=st
-12	vonir	von	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	tag=no_ft_nf_kvk
-13	standi	standa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	obj	_	tag=so_0_vh_p3_et_nt_gm
-14	til	til	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
-15	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obl	_	tag=pfn_et_ef_hk_p3
-16	að	að	PART	nhm	_	17	mark	_	tag=nhm
-17	ljúka	ljúka	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_1_þgf_nh_gm
-18	aðalmeðferð	aðalmeðferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obj	_	tag=no_et_þgf_kvk
-19	málsins	mál	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	18	nmod:poss	_	tag=no_et_ef_hk_gr
-20	26. apríl	26. apríl	ADV	dagsafs	_	17	advmod	_	SpaceAfter=No|tag=dagsafs
-21	.	.	PUNCT	grm	_	8	punct	_	tag=grm
+1-3	Óli Ingi Ólason	_	_	_	_	_	_	_	_
+1	Óli	Óli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+3	Ólason	Ólason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	SpaceAfter=No|tag=person_nf_kk
+4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
+5	saksóknari	saksóknari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+6	hjá	hjá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	embætti	embætti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
+8	Ríkissaksóknara	ríkissaksóknari	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk
+9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
+10	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+11	við	við	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	mbl.is	mbl.is	X	lén_þf	Case=Acc	10	obl	_	tag=lén_þf
+13	að	að	SCONJ	st	_	15	mark	_	tag=st
+14	vonir	von	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	tag=no_ft_nf_kvk
+15	standi	standa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	obj	_	tag=so_0_vh_p3_et_nt_gm
+16	til	til	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
+17	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obl	_	tag=pfn_et_ef_hk_p3
+18	að	að	PART	nhm	_	19	mark	_	tag=nhm
+19	ljúka	ljúka	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_1_þgf_nh_gm
+20	aðalmeðferð	aðalmeðferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	obj	_	tag=no_et_þgf_kvk
+21	málsins	mál	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	20	nmod:poss	_	tag=no_et_ef_hk_gr
+22-23	26. apríl	_	_	_	_	_	_	_	_
+22	26.	26.	ADV	dagsafs	_	19	advmod	_	SpaceAfter=No|tag=dagsafs
+23	apríl	apríl	NUM?	dagsafs	_	22	fixed	_	SpaceAfter=No|tag=dagsafs
+24	.	.	PUNCT	grm	_	10	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00298,.6
 # text = Þetta var fyrsti bikarleikur Arons á leiktíðinni en hann skoraði ekki þegar Tromsö vann 5 — 0 stórsigur á Björnevatn í fyrstu umferðinni.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	fyrsti	fyrstur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_vb
 4	bikarleikur	bikarleikur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	Arons	Aron	PROPN	person_ef_kk	Case=Gen|Gender=Masc	4	nmod:poss	_	tag=person_ef_kk
@@ -156,10 +167,9 @@
 
 # sent_id = GREYNIR_CORPUS_00298,.7
 # text = Okkar lausn er viðbót við þá kælingu sem fyrir er í verksmiðjunum og hjálpar til að ná kælingunni niður í rétt hitastig.
--3	None	_	None	None	_	_	None	_	_
 1	Okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod:poss	_	tag=pfn_ft_ef_p1
 2	lausn	lausn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	viðbót	viðbót	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 5	við	við	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 6	þá	sá	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	tag=fn_et_þf_kvk
@@ -186,7 +196,7 @@
 1	Vopnahlé	vopnahlé	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	tag=no_et_nf_hk
 2	sem	sem	SCONJ	stt	_	3	mark	_	tag=stt
 3	komið	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	acl:relcl	_	tag=so_0_lhþt_et
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	á	á	ADV	ao	_	3	advmod	_	tag=ao
 6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	aðstoð	aðstoð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
@@ -203,9 +213,11 @@
 18	úr	úr	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19	árásum	árás	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	tag=no_ft_þgf_kvk
 20	dagana	dagur	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	17	advmod	_	tag=no_ft_þf_kk
-21	í kringum	í kringum	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
-22	kosningarnar	kosning	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk_gr
-23	.	_	PUNCT	grm	_	13	punct	_	tag=grm
+21-22	í kringum	_	_	_	_	_	_	_	_
+21	í	í	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+22	kringum	kringum	ADP	fs_þf	Case=Acc	21	fixed	_	tag=fs_þf
+23	kosningarnar	kosning	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk_gr
+24	.	_	PUNCT	grm	_	13	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00298,.9
 # text = Annað kvöld ætti þó að verða aðeins svalara en svo gengur á með þrumum og eldingum þegar nálgast föstudagsnóttina og yfir á laugardag.
@@ -214,7 +226,7 @@
 3	ætti	eiga	VERB	so_0_op_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_op_vh_p3_et_þt_gm
 4	þó	þó	ADV	ao	_	3	advmod	_	tag=ao
 5	að	að	PART	nhm	_	8	mark	_	tag=nhm
-6	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	conj	_	tag=so_0_nh_gm
+6	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	cop	_	tag=so_0_nh_gm
 7	aðeins	aðeins	ADV	eo	_	8	advmod	_	tag=eo
 8	svalara	svalur	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	3	xcomp	_	tag=lo_et_nf_hk_mst
 9	en	en	CCONJ	st	_	3	cc	_	tag=st
@@ -238,7 +250,7 @@
 2	að	að	SCONJ	st	_	1	cc	_	tag=st
 3	í	í	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	ljós	ljós	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk
-5	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	advcl	_	tag=so_0_fh_p3_et_þt_gm
+5	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	advcl	_	tag=so_0_fh_p3_et_þt_gm
 6	að	að	SCONJ	st	_	8	mark	_	tag=st
 7	ekkert	enginn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=fn_et_nf_hk
 8	yrði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	nsubj	_	tag=so_0_vh_p3_et_nt_gm
@@ -246,15 +258,17 @@
 10	kaupum	kaup	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_þgf_hk
 11	Icelandair	Icelandair	PROPN	fyrirtæki	_	10	nmod:poss	_	tag=fyrirtæki
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	WOW air	WOW air	PROPN	fyrirtæki	_	10	obl	_	tag=fyrirtæki
-14	brá	bregða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-15	fyrirtækið	fyrirtæki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk_gr
-16	á	á	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-17	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	nmod	_	tag=fn_et_þf_hk
-18	ráð	ráð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þf_hk
-19	að	að	PART	nhm	_	20	mark	_	tag=nhm
-20	segja	segja	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	18	xcomp	_	tag=so_1_þgf_nh_gm
-21	fólkinu	fólk	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	20	obj	_	tag=no_et_þgf_hk_gr
-22	upp	upp	ADV	ao	_	20	compound:prt	_	tag=ao
-23	.	_	PUNCT	grm	_	14	punct	_	tag=grm
+13-14	WOW air	_	_	_	_	_	_	_	_
+13	WOW	WOW	PROPN	fyrirtæki	_	10	obl	_	tag=fyrirtæki
+14	air	air	PROPN	fyrirtæki	_	13	fixed	_	tag=fyrirtæki
+15	brá	bregða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+16	fyrirtækið	fyrirtæki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	tag=no_et_nf_hk_gr
+17	á	á	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
+18	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	tag=fn_et_þf_hk
+19	ráð	ráð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þf_hk
+20	að	að	PART	nhm	_	21	mark	_	tag=nhm
+21	segja	segja	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	19	xcomp	_	tag=so_1_þgf_nh_gm
+22	fólkinu	fólk	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	21	obj	_	tag=no_et_þgf_hk_gr
+23	upp	upp	ADV	ao	_	21	compound:prt	_	tag=ao
+24	.	_	PUNCT	grm	_	15	punct	_	tag=grm
 

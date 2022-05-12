@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00217,.1
 # text = Það er langt í næsta leik þessara liða.
--4	None	_	None	None	_	_	None	_	_
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	langt	langur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 5	næsta	næstur	ADJ	lo_et_þf_kk_evb	Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_þf_kk_evb
@@ -15,7 +14,7 @@
 # text = Við höfum verið svolítið heppin með það.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_ft_nf_p1
 2	höfum	hafa	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p1_ft_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	conj	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 4	svolítið	svolítið	ADV	eo	_	5	advmod	_	tag=eo
 5	heppin	heppinn	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb
 6	með	með	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
@@ -42,7 +41,7 @@
 4	síðustu	síðari	ADJ	lo_ft_þf_kvk_est_vb	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	5	amod	_	tag=lo_ft_þf_kvk_est_vb
 5	mínútur	mínúta	ADV	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	advmod	_	tag=no_ft_þf_kvk
 6	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
-7	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	1	conj	_	tag=so_1_nf_sagnb_gm
+7	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	cop	_	tag=so_1_nf_sagnb_gm
 8	afleitur	afleitur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 9	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
@@ -64,8 +63,8 @@
 4	skólum	skóli	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_þgf_kk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Evrópu	Evrópa	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=sérnafn_et_þgf_kvk
-7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-8	11%	11%	X	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=prósenta_et_nf_hk
+7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	11%	11%	?	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=prósenta_et_nf_hk
 9	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00217,.7
@@ -76,8 +75,10 @@
 4	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þf_hk_gr
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	fréttum	frétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	tag=no_ft_þgf_kvk
-7	Stöðvar 2	Stöðvar 2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
-8	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+7-8	Stöðvar 2	_	_	_	_	_	_	_	_
+7	Stöðvar	Stöðvar	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
+8	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	fixed	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
+9	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00217,.8
 # text = Sigurður þýddi ýmis rit og ritstýrði fjölda bóka.
@@ -93,9 +94,8 @@
 
 # sent_id = GREYNIR_CORPUS_00217,.9
 # text = VR er með öfluga starfs og endurenntunar sjóði.
--4	None	_	None	None	_	_	None	_	_
 1	VR	VR	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=fyrirtæki_et_nf_hk
-2	er	vera	VERB	so_1_ef_fh_p3_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_ef_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_ef_fh_p3_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_ef_fh_p3_et_nt_gm
 3	með	með	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 4	öfluga	öflugur	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	8	amod	_	tag=lo_ft_þf_kk_sb
 5	starfs	starf	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod:poss	_	tag=no_et_ef_hk
@@ -106,7 +106,7 @@
 
 1	Sumir	sumur	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	nmod	_	tag=fn_ft_nf_kk
 2	leikir	leikur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_nf_kk
-3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_ft_nt_gm
+3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_nt_gm
 4	bara	bara	ADV	eo	_	5	advmod	_	tag=eo
 5	ómögulegir	ómögulegur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm

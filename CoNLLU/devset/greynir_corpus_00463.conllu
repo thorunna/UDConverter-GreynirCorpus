@@ -74,7 +74,7 @@
 14	atriða	atriði	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_ef_hk
 15	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
 16	þeim	hann	PRON	pfn_ft_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	tag=pfn_ft_þgf_hk_p3
-17	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	conj	_	tag=so_0_fh_p3_et_þt_gm
+17	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_þt_gm
 18	ekki	ekki	ADV	ao	_	20	advmod	_	tag=ao
 19	um	um	ADV	ao	_	20	advmod	_	tag=ao
 20	kennt	kenna	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No|tag=so_1_þgf_lhþt_et
@@ -105,7 +105,7 @@
 18	fyrr	snemma	ADV	ao_mst	Degree=Cmp	22	cc	_	tag=ao_mst
 19	en	en	CCONJ	st	_	18	cc	_	tag=st
 20	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	tag=pfn_ft_nf_hk_p3
-21	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	22	conj	_	tag=so_0_fh_p3_ft_þt_gm
+21	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	22	cop	_	tag=so_0_fh_p3_ft_þt_gm
 22	upplýst	upplýsa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	advcl	_	tag=so_0_lhþt_ft
 23	opinberlega	opinberlega	ADV	ao	_	22	advmod	_	tag=ao
 24	nú	nú	ADV	ao	_	22	advmod	_	tag=ao
@@ -200,32 +200,34 @@
 
 # sent_id = GREYNIR_CORPUS_00463,.8
 # text = Þetta rúmlega 7.500 km ferðalag frá vetrarstöðvunum hingað norður tekur 5 - 6 vikur hvora leið, að því er fram kemur í Morgunblaðinu í dag.
-1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	tag=fn_et_nf_hk
+1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	tag=fn_et_nf_hk
 2	rúmlega	rúmlega	ADV	eo	_	3	advmod	_	tag=eo
-3	7.500 km	7.500 km	X	mælieining	_	4	dep	_	tag=mælieining
-4	ferðalag	ferðalag	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_nf_hk
-5	frá	frá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	vetrarstöðvunum	vetrarstöð	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	tag=no_ft_þgf_kvk_gr
-7	hingað	hingað	ADV	ao	_	9	advmod	_	tag=ao
-8	norður	norður	ADV	ao	_	9	advmod	_	tag=ao
-9	tekur	taka	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-10	5	5	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	13	nummod	_	SpaceAfter=No|tag=tala_ft_þf_kvk
-11	-	-	PUNCT	grm	_	10	punct	_	tag=grm
-12	6	6	NUM	tala_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	13	nummod	_	tag=tala_et_þf_kvk
-13	vikur	vika	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	tag=no_ft_þf_kvk
-14	hvora	hvor	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	tag=fn_et_þf_kvk
-15	leið	leið	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk
-16	,	,	PUNCT	grm	_	15	punct	_	tag=grm
-17	að	að	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=fn_et_þgf_hk
-19	er	er	SCONJ	stt	_	21	mark	_	tag=stt
-20	fram	fram	ADV	ao	_	21	advmod	_	tag=ao
-21	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	Morgunblaðinu	morgunblað	PROPN	fyrirtæki_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	21	obl	_	tag=fyrirtæki_et_þgf_hk_gr
-24	í	í	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
-25	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	21	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-26	.	.	PUNCT	grm	_	9	punct	_	tag=grm
+3-4	7.500 km	_	_	_	_	_	_	_	_
+3	7.500	7.500	?	mælieining	_	5	obl	_	tag=mælieining
+4	km	km	?	mælieining	_	3	fixed	_	tag=mælieining
+5	ferðalag	ferðalag	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_nf_hk
+6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	vetrarstöðvunum	vetrarstöð	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	10	obl	_	tag=no_ft_þgf_kvk_gr
+8	hingað	hingað	ADV	ao	_	10	advmod	_	tag=ao
+9	norður	norður	ADV	ao	_	10	advmod	_	tag=ao
+10	tekur	taka	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+11	5	5	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	14	nummod	_	SpaceAfter=No|tag=tala_ft_þf_kvk
+12	-	-	PUNCT	grm	_	11	punct	_	tag=grm
+13	6	6	NUM	tala_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	14	nummod	_	tag=tala_et_þf_kvk
+14	vikur	vika	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	tag=no_ft_þf_kvk
+15	hvora	hvor	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	tag=fn_et_þf_kvk
+16	leið	leið	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk
+17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
+18	að	að	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+19	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=fn_et_þgf_hk
+20	er	er	SCONJ	stt	_	22	mark	_	tag=stt
+21	fram	fram	ADV	ao	_	22	advmod	_	tag=ao
+22	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+23	í	í	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
+24	Morgunblaðinu	morgunblað	PROPN	fyrirtæki_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	22	obl	_	tag=fyrirtæki_et_þgf_hk_gr
+25	í	í	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
+26	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	22	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+27	.	.	PUNCT	grm	_	10	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00463,.9
 # text = Búið er að mæla núverandi ljósmengun á svæðinu sem er í dag töluverð og ólíklegt að hún aukist mikið, segir í kynningu.
@@ -254,30 +256,39 @@
 23	kynningu	kynning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 24	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00463,.10
+# text = Næstkomandi sunnudag, 26. ágúst, ætla Mitsubishi og Vargurinn, Snorri Rafnsson, að taka höndum saman og halda heljarinnar pallbíla- og veiðiveislu í Mitsubishisalnum að Laugavegi 170.
 1	Næstkomandi	næstkomandi	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_þf_kk_sb
-2	sunnudag	sunnudagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
+2	sunnudag	sunnudagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
-4	26. ágúst	26. ágúst	ADV	dagsafs	_	6	advmod	_	tag=dagsafs
-5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-6	ætla	ætla	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
-7	Mitsubishi	Mitsubishi	PROPN	fyrirtæki	_	9	conj	_	tag=fyrirtæki
-8	og	og	CCONJ	st	_	9	cc	_	tag=st
-9	Vargurinn	vargur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk_gr
-10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	Snorri Rafnsson	Snorri Rafnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	tag=person_nf_kk
-12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
-13	að	að	PART	nhm	_	14	mark	_	tag=nhm
-14	taka	taka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
-15	höndum	hönd	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	tag=no_ft_þgf_kvk
-16	saman	saman	ADV	ao	_	14	advmod	_	tag=ao
-17	og	og	CCONJ	st	_	14	cc	_	tag=st
-18	halda	halda	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	conj	_	tag=so_1_þf_nh_gm
-19	heljarinnar	heljarinnar	ADV	eo	_	20	advmod	_	tag=eo
-20	pallbíla- og veiðiveislu	pallbíla- og veiði-veisla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	tag=no_et_þf_kvk
-21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-22	Mitsubishisalnum	Mitsubishi-salur	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	20	obl	_	tag=sérnafn_et_þgf_kk_gr
-23	að	að	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	Laugavegi	Laugavegur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	tag=sérnafn_et_þgf_kk
-25	170	170	NUM	tala_kk	Gender=Masc|NumType=Card	24	nummod	_	tag=tala_kk
-26	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+4-5	26. ágúst	_	_	_	_	_	_	_	_
+4	26.	26.	ADV	dagsafs	_	7	advmod	_	SpaceAfter=No|tag=dagsafs
+5	ágúst	ágúst	NUM?	dagsafs	_	4	fixed	_	SpaceAfter=No|tag=dagsafs
+6	,	,	PUNCT	grm	_	4	punct	_	tag=grm
+7	ætla	ætla	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
+8	Mitsubishi	Mitsubishi	PROPN	fyrirtæki	_	10	conj	_	tag=fyrirtæki
+9	og	og	CCONJ	st	_	10	cc	_	tag=st
+10	Vargurinn	vargur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|tag=no_et_nf_kk_gr
+11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
+12-13	Snorri Rafnsson	_	_	_	_	_	_	_	_
+12	Snorri	Snorri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	obl	_	SpaceAfter=No|tag=person_nf_kk
+13	Rafnsson	Rafnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	SpaceAfter=No|tag=person_nf_kk
+14	,	,	PUNCT	grm	_	12	punct	_	tag=grm
+15	að	að	PART	nhm	_	16	mark	_	tag=nhm
+16	taka	taka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_0_nh_gm
+17	höndum	hönd	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	obl	_	tag=no_ft_þgf_kvk
+18	saman	saman	ADV	ao	_	16	advmod	_	tag=ao
+19	og	og	CCONJ	st	_	16	cc	_	tag=st
+20	halda	halda	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	16	conj	_	tag=so_1_þf_nh_gm
+21	heljarinnar	heljarinnar	ADV	eo	_	22	advmod	_	tag=eo
+22-24	pallbíla- og veiðiveislu	_	_	_	_	_	_	_	_
+22	pallbíla-	pallbíla-	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	tag=no_et_þf_kvk
+23	og	og	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	22	fixed	_	tag=no_et_þf_kvk
+24	veiðiveislu	veiði-veisla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	23	fixed	_	tag=no_et_þf_kvk
+25	í	í	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
+26	Mitsubishisalnum	Mitsubishi-salur	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	tag=sérnafn_et_þgf_kk_gr
+27	að	að	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
+28	Laugavegi	Laugavegur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	26	obl	_	tag=sérnafn_et_þgf_kk
+29	170	170	NUM	tala_kk	Gender=Masc|NumType=Card	28	nummod	_	SpaceAfter=No|tag=tala_kk
+30	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
