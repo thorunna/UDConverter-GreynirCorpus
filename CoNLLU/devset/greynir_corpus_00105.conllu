@@ -18,7 +18,7 @@
 16	liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	17	obl	_	tag=no_et_þgf_hk_gr
 17-18	NEC Nijmegen	_	_	_	_	_	_	_	_
 17	NEC	NEC	PROPN	fyrirtæki_et_nf	Case=Nom|Number=Sing	12	obl	_	SpaceAfter=No|tag=fyrirtæki_et_nf
-18	Nijmegen	Nijmegen	PROPN	fyrirtæki_et_nf	Case=Nom|Number=Sing	17	_	_	SpaceAfter=No|tag=fyrirtæki_et_nf
+18	Nijmegen	Nijmegen	PROPN	fyrirtæki_et_nf	Case=Nom|Number=Sing	17	flat	_	SpaceAfter=No|tag=fyrirtæki_et_nf
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00105,.2
@@ -89,7 +89,7 @@
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00105,.5
-# text = Griezmann skoraði sex mörk í sjö leikjum Frakklands á EM ; eitt í riðlakeppninni og fimm í útsláttarkeppninni.
+# text = Griezmann skoraði sex mörk í sjö leikjum Frakklands á EM; eitt í riðlakeppninni og fimm í útsláttarkeppninni.
 1	Griezmann	Griezmann	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
 2	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	sex	sex	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	nummod	_	tag=töl_ft_þf_hk
@@ -181,11 +181,11 @@
 3	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_ft_nt_gm
 4	verið	vera	AUX	so_0_gm	Voice=Act	5	aux	_	tag=so_0_gm
 5	greiddar	greiða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
-6	og	og	CCONJ	st	_	7	cc	_	tag=st
-7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+6	og	og	CCONJ	st	_	5	cc	_	tag=st
+7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 8	þær	hún	PRON	pfn_ft_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_ft_nf_kvk_p3
 9	aðeins	aðeins	ADV	eo	_	10	advmod	_	tag=eo
-10	brot	brot	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	xcomp	_	tag=no_et_nf_hk
+10	brot	brot	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	tag=no_et_nf_hk
 11	af	af	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	þeim	sá	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	tag=fn_et_þgf_kk
 13	kostnaði	kostnaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þgf_kk

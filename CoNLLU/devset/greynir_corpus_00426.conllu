@@ -10,7 +10,7 @@
 8	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 9-10	Sigurborg Ósk	_	_	_	_	_	_	_	_
 9	Sigurborg	Sigurborg	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	nsubj	_	tag=person_nf_kvk
-10	Ósk	Ósk	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	_	_	tag=person_nf_kvk
+10	Ósk	Ósk	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	tag=person_nf_kvk
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	umfjöllun	umfjöllun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
 13	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
@@ -51,11 +51,10 @@
 # text = Þekkja má Sigurð A. Magnússon rithöfund við hlið fremsta hringborðsins hægra megin en allar ábendingar lesenda um fleiri nöfn væru vel þegnar.
 1	Þekkja	þekkja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 2	má	mega	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_nt_gm
-<<<<<<< HEAD
 3-5	Sigurð A. Magnússon	_	_	_	_	_	_	_	_
 3	Sigurð	Sigurð	PROPN	person_þf_kk	Case=Acc|Gender=Masc	1	obj	_	tag=person_þf_kk
-4	A.	A.	PROPN	person_þf_kk	Case=Acc|Gender=Masc	3	_	_	tag=person_þf_kk
-5	Magnússon	Magnússon	PROPN	person_þf_kk	Case=Acc|Gender=Masc	4	_	_	tag=person_þf_kk
+4	A.	A.	PROPN	person_þf_kk	Case=Acc|Gender=Masc	3	flat	_	tag=person_þf_kk
+5	Magnússon	Magnússon	PROPN	person_þf_kk	Case=Acc|Gender=Masc	3	flat	_	tag=person_þf_kk
 6	rithöfund	rithöfundur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
 7	við	við	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	hlið	hlið	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk
@@ -75,26 +74,6 @@
 21	vel	vel	ADV	eo	_	22	advmod	_	tag=eo
 22	þegnar	þeginn	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No|tag=lo_ft_nf_kvk_sb
 23	.	.	PUNCT	grm	_	1	punct	_	tag=grm
-=======
-3	Sigurð A. Magnússon	Sigurð A. Magnússon	PROPN	person_þf_kk	Case=Acc|Gender=Masc	1	obj	_	tag=person_þf_kk
-4	rithöfund	rithöfundur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
-5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	hlið	hlið	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk
-7	fremsta	fremri	ADJ	lo_et_ef_hk_evb	Case=Gen|Degree=Sup|Gender=Neut|Number=Sing	8	amod	_	tag=lo_et_ef_hk_evb
-8	hringborðsins	hringborð	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk_gr
-9	hægra megin	hægra megin	ADV	ao	_	1	advmod	_	tag=ao
-10	en	en	CCONJ	st	_	1	cc	_	tag=st
-11	allar	allur	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	12	nmod	_	tag=fn_ft_nf_kvk
-12	ábendingar	ábending	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	tag=no_ft_nf_kvk
-13	lesenda	lesandi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	12	nmod:poss	_	tag=no_ft_ef_kk
-14	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-15	fleiri	margur	ADJ	lo_ft_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	16	amod	_	tag=lo_ft_þf_hk_mst
-16	nöfn	nafn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_þf_hk
-17	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	19	cop	_	tag=so_0_vh_p3_ft_þt_gm
-18	vel	vel	ADV	eo	_	19	advmod	_	tag=eo
-19	þegnar	þeginn	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No|tag=lo_ft_nf_kvk_sb
-20	.	.	PUNCT	grm	_	1	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00426,.4
 # text = Holan er á vinnslusvæði Reykjanesvirkjunar og er tilgangurinn með því að bora svo djúpt að komast í meiri hita.
@@ -123,7 +102,7 @@
 # text = Nick Boles, fyrrverandi ráðherra Íhaldsflokksins, lýsir hugmyndinni sem örvæntingafullri lokatilraun sem gæti kostað May stuðning flokksmanna
 1-2	Nick Boles	_	_	_	_	_	_	_	_
 1	Nick	Nick	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Boles	Boles	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+2	Boles	Boles	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	5	punct	_	tag=grm
 4	fyrrverandi	fyrrverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_sb
 5	ráðherra	ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
@@ -234,11 +213,6 @@
 19	höggum	högg	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
-<<<<<<< HEAD
-=======
-# sent_id = GREYNIR_CORPUS_00426,.10
-# text = Haukar eru búnir að tapa þremur leikjum í röð og eru í fallsæti fyrir umferðina með aðeins átta stig.
->>>>>>> master
 1	Haukar	haukur	PROPN	fyrirtæki_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	tag=fyrirtæki_ft_nf_kk
 2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	búnir	búa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
@@ -257,10 +231,6 @@
 16	með	með	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 17	aðeins	aðeins	ADV	ao	_	19	advmod	_	tag=ao
 18	átta	átta	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	19	nummod	_	tag=töl_ft_þf_hk
-<<<<<<< HEAD
 19	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þf_hk
-=======
-19	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
->>>>>>> master
 20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

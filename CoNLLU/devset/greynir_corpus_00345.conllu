@@ -16,7 +16,7 @@
 5	eftir	eftir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6-7	Gerði Kristnýju	_	_	_	_	_	_	_	_
 6	Gerði	Gerður	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	4	obl	_	SpaceAfter=No|tag=person_þf_kvk
-7	Kristnýju	Kristný	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	6	_	_	SpaceAfter=No|tag=person_þf_kvk
+7	Kristnýju	Kristný	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	6	flat	_	SpaceAfter=No|tag=person_þf_kvk
 8	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00345,.3
@@ -88,7 +88,7 @@
 # text = Travis Scott er komin með fiðrildi á fótinn.
 1-2	Travis Scott	_	_	_	_	_	_	_	_
 1	Travis	Travis	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Scott	Scott	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+2	Scott	Scott	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 3	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	komin	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	með	með	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -99,23 +99,14 @@
 
 # sent_id = GREYNIR_CORPUS_00345,.10
 # text = Könnunin var framkvæmd dagana 15. til 22. júlí.
-<<<<<<< HEAD
-=======
--4	None	_	None	None	_	_	None	_	_
->>>>>>> master
 1	Könnunin	könnun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
 2	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
 3	framkvæmd	framkvæma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	dagana	dagur	ADV	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	3	advmod	_	tag=no_ft_þf_kk_gr
 5	15.	15.	NUM?	dagsafs	_	4	('HALLÓ_dagsafs', None, 'ADVP', 'DUR-REL')	_	tag=dagsafs
 6	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-<<<<<<< HEAD
 7-8	22. júlí	_	_	_	_	_	_	_	_
 7	22.	22.	NUM?	dagsafs	_	4	obl	_	SpaceAfter=No|tag=dagsafs
 8	júlí	júlí	NUM?	dagsafs	_	7	flat	_	SpaceAfter=No|tag=dagsafs
 9	.	.	PUNCT	grm	_	3	punct	_	tag=grm
-=======
-7	22. júlí	22. júlí	NUM?	dagsafs	_	4	obl	_	SpaceAfter=No|tag=dagsafs
-8	.	.	PUNCT	grm	_	3	punct	_	tag=grm
->>>>>>> master
 

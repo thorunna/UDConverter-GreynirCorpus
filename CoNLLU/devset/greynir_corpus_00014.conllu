@@ -1,12 +1,12 @@
 # sent_id = GREYNIR_CORPUS_00014,.1
-# text = Hér má sjá frétt Stöðvar 2 :
+# text = Hér má sjá frétt Stöðvar 2:
 1	Hér	hér	ADV	ao	_	3	advmod	_	tag=ao
 2	má	mega	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 4	frétt	frétt	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þf_kvk
 5-6	Stöðvar 2	_	_	_	_	_	_	_	_
 5	Stöðvar	Stöð	PROPN	entity_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=entity_et_ef_kvk
-6	2	2	PROPN	entity_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	_	_	SpaceAfter=No|tag=entity_et_ef_kvk
+6	2	2	PROPN	entity_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	flat	_	SpaceAfter=No|tag=entity_et_ef_kvk
 7	:	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00014,.2
@@ -31,13 +31,13 @@
 
 # sent_id = GREYNIR_CORPUS_00014,.4
 # text = Mun þessi ríkisstjórn þá halda áfram?
-1	Mun	munu	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+1	Mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
 2	þessi	þessi	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	tag=fn_et_nf_kvk
 3	ríkisstjórn	ríkisstjórn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 4	þá	þá	ADV	ao	_	5	advmod	_	tag=ao
-5	halda	halda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	1	conj	_	tag=so_0_nh_gm
+5	halda	halda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
 6	áfram	áfram	ADV	ao	_	5	compound:prt	_	SpaceAfter=No|tag=ao
-7	?	_	PUNCT	grm	_	1	punct	_	tag=grm
+7	?	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00014,.5
 # text = Trump óskaði Pútín til hamingju með kosningasigurinn

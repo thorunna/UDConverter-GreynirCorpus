@@ -47,8 +47,8 @@
 
 # sent_id = GREYNIR_CORPUS_00286,.3
 # text = Um hversu frábær við erum í íþróttum, hvað við eigum frjótt listafólk, erum harðger, vinnusöm og rosalega töff.
-1	Um	um	ADP	fs_þf	Case=Acc	0	root	_	tag=fs_þf
-2	hversu	hversu	ADV	ao	_	3	advmod	_	tag=ao
+1	Um	um	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
+2	hversu	hversu	ADV	ao	_	0	root	_	tag=ao
 3	frábær	frábær	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	5	obl	_	tag=lo_ft_nf_hk_sb
 4	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_ft_nf_p1
 5	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	obl	_	tag=so_0_fh_p1_ft_nt_gm
@@ -68,7 +68,7 @@
 19	og	og	CCONJ	st	_	11	cc	_	tag=st
 20	rosalega	rosalega	ADV	eo	_	11	advmod	_	tag=eo
 21	töff	töff	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	11	amod	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
-22	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+22	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00286,.4
 # text = Markmiðið að valdefla fjölskyldur og börn og styrkja foreldra í hlutverki sínu, ekki síst í upphafi og á erfiðum tímum.
@@ -119,7 +119,7 @@
 19	,	_	PUNCT	grm	_	18	punct	_	tag=grm
 20-21	772 mín	_	_	_	_	_	_	_	_
 20	772	772	ADV	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	advmod	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-21	mín	mín	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	20	_	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+21	mín	mín	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	20	flat	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00286,.6

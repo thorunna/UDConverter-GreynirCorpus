@@ -1,14 +1,14 @@
 # sent_id = GREYNIR_CORPUS_00479,.1
 # text = Er þeim séð fyrir nægum mat, enda þurfa þær að borða um 30 kíló af mat á dag hvor, en fæða þeirra samanstendur af loðnu og síld.
-1	Er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+1	Er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 2	þeim	hún	PRON	pfn_ft_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	iobj	_	tag=pfn_ft_þgf_kvk_p3
-3	séð	sjá	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	1	xcomp	_	tag=so_1_þgf_sagnb_gm
+3	séð	sjá	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
 4	fyrir	fyrir	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	nægum	nægur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_þgf_kk_sb
 6	mat	matur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	enda	enda	CCONJ	st	_	1	cc	_	tag=st
-9	þurfa	þurfa	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_ft_nt_gm
+8	enda	enda	CCONJ	st	_	3	cc	_	tag=st
+9	þurfa	þurfa	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_nt_gm
 10	þær	hún	PRON	pfn_ft_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_ft_nf_kvk_p3
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
 12	borða	borða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þf_nh_gm
@@ -21,15 +21,15 @@
 19	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	tag=no_et_þf_kk
 20	hvor	hvor	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|tag=fn_et_nf_kvk
 21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
-22	en	en	CCONJ	st	_	1	cc	_	tag=st
+22	en	en	CCONJ	st	_	3	cc	_	tag=st
 23	fæða	fæða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	tag=no_et_nf_kvk
 24	þeirra	hún	PRON	pfn_ft_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	23	nmod:poss	_	tag=pfn_ft_ef_kvk_p3
-25	samanstendur	samanstanda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+25	samanstendur	samanstanda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 26	af	af	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27	loðnu	loðna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	25	obl	_	tag=no_et_þgf_kvk
 28	og	og	CCONJ	st	_	29	cc	_	tag=st
 29	síld	síld	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No|tag=no_et_þgf_kvk
-30	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+30	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00479,.2
 # text = Philadelphia náði að stöðva Atlanta Falcons á heimavelli, 24 – 15, og Green Bay Packers fékk á sig 47 stig gegn Tennessee Titans sem vann öruggan sigur, 47 – 25.
@@ -39,7 +39,7 @@
 4	stöðva	stöðva	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
 5-6	Atlanta Falcons	_	_	_	_	_	_	_	_
 5	Atlanta	Atlanta	PROPN	fyrirtæki_þf	Case=Acc	4	obj	_	tag=fyrirtæki_þf
-6	Falcons	Falcons	PROPN	fyrirtæki_þf	Case=Acc	5	_	_	tag=fyrirtæki_þf
+6	Falcons	Falcons	PROPN	fyrirtæki_þf	Case=Acc	5	flat	_	tag=fyrirtæki_þf
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	heimavelli	heimavöllur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
@@ -60,7 +60,7 @@
 23	gegn	gegn	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24-25	Tennessee Titans	_	_	_	_	_	_	_	_
 24	Tennessee	Tennessee	PROPN	fyrirtæki_þgf	Case=Dat	18	obl	_	tag=fyrirtæki_þgf
-25	Titans	Titans	PROPN	fyrirtæki_þgf	Case=Dat	24	_	_	tag=fyrirtæki_þgf
+25	Titans	Titans	PROPN	fyrirtæki_þgf	Case=Dat	24	flat	_	tag=fyrirtæki_þgf
 26	sem	sem	SCONJ	stt	_	27	mark	_	tag=stt
 27	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 28	öruggan	öruggur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	29	amod	_	tag=lo_et_þf_kk_sb
@@ -179,8 +179,8 @@
 # text = Aron Snær Júlíusson úr Golfklúbbi Kópavogs og Garðabæ er með tveggja högga forystu í karlaflokki eftir fyrsta dag á Íslandsmótinu en hann lék á 67 höggum í gæreða fjórum höggum undir pari.
 1-3	Aron Snær Júlíusson	_	_	_	_	_	_	_	_
 1	Aron	Aron	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
-2	Snær	Snær	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
-3	Júlíusson	Júlíusson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
+2	Snær	Snær	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Júlíusson	Júlíusson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 4	úr	úr	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Golfklúbbi	golfklúbbur	PROPN	fyrirtæki_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	tag=fyrirtæki_et_þgf_kk
 6	Kópavogs	Kópavogur	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	tag=sérnafn_et_ef_kk
@@ -214,10 +214,9 @@
 
 # sent_id = GREYNIR_CORPUS_00479,.7
 # text = Íslenska krónan er að verða að stærri hindrun en áður í íslenska hagkerfinu, og er þegar farin að magna upp áhættuna í kerfinu, eins og þetta horfir við mér.
-<<<<<<< HEAD
 1-2	Íslenska krónan	_	_	_	_	_	_	_	_
 1	Íslenska	Íslenska	PROPN	entity_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=entity_et_nf_kvk
-2	krónan	krónan	PROPN	entity_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	_	_	tag=entity_et_nf_kvk
+2	krónan	krónan	PROPN	entity_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	tag=entity_et_nf_kvk
 3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
@@ -248,39 +247,6 @@
 30	við	við	ADP	fs_þgf	Case=Dat	31	case	_	tag=fs_þgf
 31	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	29	obl	_	SpaceAfter=No|tag=pfn_et_þgf_p1
 32	.	.	PUNCT	grm	_	3	punct	_	tag=grm
-=======
-1	Íslenska krónan	Íslenska krónan	PROPN	entity_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=entity_et_nf_kvk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	að	að	PART	nhm	_	4	mark	_	tag=nhm
-4	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
-5	að	að	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-6	stærri	stór	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	7	amod	_	tag=lo_et_þgf_kvk_mst
-7	hindrun	hindrun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk
-8	en	en	CCONJ	st	_	7	advcl	_	tag=st
-9	áður	áður	ADV	ao	_	8	advmod	_	tag=ao
-10	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-11	íslenska	íslenska	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_þgf_hk_vb
-12	hagkerfinu	hagkerfi	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-13	,	,	PUNCT	grm	_	12	punct	_	tag=grm
-14	og	og	CCONJ	st	_	2	cc	_	tag=st
-15	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_fh_p3_et_nt_gm
-16	þegar	þegar	ADV	ao	_	2	advmod	_	tag=ao
-17	farin	fara	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	cop	_	tag=lo_et_nf_kvk_sb
-18	að	að	PART	nhm	_	19	mark	_	tag=nhm
-19	magna	magna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
-20	upp	upp	ADV	ao	_	19	compound:prt	_	tag=ao
-21	áhættuna	áhætta	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	obj	_	tag=no_et_þf_kvk_gr
-22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	kerfinu	kerfi	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-24	,	,	PUNCT	grm	_	23	punct	_	tag=grm
-25	eins	einn	ADV	ao	_	28	cc	_	tag=ao
-26	og	og	CCONJ	st	_	25	cc	_	tag=st
-27	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	tag=fn_et_nf_hk
-28	horfir	horfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	tag=so_0_fh_p3_et_nt_gm
-29	við	við	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
-30	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	28	obl	_	SpaceAfter=No|tag=pfn_et_þgf_p1
-31	.	.	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00479,.8
 # text = Í byrjun desember komst Hæstiréttur Bandaríkjanna að þeirri niðurstöðu að bandarískum stjórnvöldum væri heimilt að hrinda í framkvæmd endurskoðuðu ferðabanni ríkisborgara frá sex ríkjum þar sem múslimar eru í meirihluta.
@@ -353,7 +319,6 @@
 1	Gary	Gary	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
 2	tjáði	tjá	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
 3	Vísi	Vísir	PROPN	fyrirtæki_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	tag=fyrirtæki_et_þgf_kk
-<<<<<<< HEAD
 4-5	í morgun	_	_	_	_	_	_	_	_
 4	í	í	ADV	ao	_	2	advmod	_	tag=ao
 5	morgun	morgun	ADV	ao	_	4	fixed	_	tag=ao
@@ -384,34 +349,4 @@
 30	nýjan	nýr	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	31	amod	_	tag=lo_et_þf_kk_sb
 31	leik	leikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 32	.	.	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-4	í morgun	í morgun	ADV	ao	_	2	advmod	_	tag=ao
-5	að	að	SCONJ	st	_	7	mark	_	tag=st
-6	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_kk_p3
-7	færi	fara	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	obj	_	tag=so_0_vh_p3_et_nt_gm
-8	ekki	ekki	ADV	ao	_	7	advmod	_	tag=ao
-9	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-10	þessum	þessi	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	tag=fn_et_þgf_kk
-11	glugga	glugga	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
-12	en	en	CCONJ	st	_	2	cc	_	tag=st
-13	ef	ef	SCONJ	st	_	15	mark	_	tag=st
-14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_kk_p3
-15	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	22	advcl	_	tag=so_0_vh_p3_et_þt_gm
-16	ekkert	ekkert	ADV	ao	_	15	advmod	_	tag=ao
-17	að	að	PART	nhm	_	18	mark	_	tag=nhm
-18	spila	spila	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_0_nh_gm
-19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20	júlí	júlí	ADV	dagsafs	_	18	advmod	_	tag=dagsafs
-21	þá	þá	ADV	ao	_	22	advmod	_	tag=ao
-22	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_vh_p3_et_þt_gm
-23	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	tag=pfn_et_nf_kk_p3
-24	að	að	PART	nhm	_	25	mark	_	tag=nhm
-25	skoða	skoða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	22	xcomp	_	tag=so_1_þf_nh_gm
-26	sín	sinn	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	27	nmod	_	tag=fn_ft_þf_hk
-27	mál	mál	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	25	obj	_	tag=no_ft_þf_hk
-28	á	á	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
-29	nýjan	nýr	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	30	amod	_	tag=lo_et_þf_kk_sb
-30	leik	leikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No|tag=no_et_þf_kk
-31	.	.	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 

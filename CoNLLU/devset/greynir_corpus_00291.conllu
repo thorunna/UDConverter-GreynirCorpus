@@ -219,7 +219,7 @@
 13	samkennd	samkennd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_nf_kvk
 14-15	Jürgen Klopp	_	_	_	_	_	_	_	_
 14	Jürgen	Jürgen	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	nsubj	_	tag=person_ef_kk
-15	Klopp	Klopp	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	_	_	tag=person_ef_kk
+15	Klopp	Klopp	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	flat	_	tag=person_ef_kk
 16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_fh_p3_et_nt_gm
 17	tekist	taka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	8	obj	_	tag=so_0_sagnb_mm
 18	að	að	PART	nhm	_	19	mark	_	tag=nhm
@@ -231,10 +231,9 @@
 
 # sent_id = GREYNIR_CORPUS_00291,.10
 # text = Bjarni Benediktsson fjármálaráðherra skýtur föstum skotum á Twitter í kvöld á gagnrýni Ólafs Ragnars Grímssonar forseta Íslands varðandi fátækt í íslensku samfélagi.
-<<<<<<< HEAD
 1-2	Bjarni Benediktsson	_	_	_	_	_	_	_	_
 1	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+2	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 3	fjármálaráðherra	fjármálaráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_ef_kk
 4	skýtur	skjóta	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 5	föstum	fastur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	6	amod	_	tag=lo_ft_þgf_hk_sb
@@ -248,8 +247,8 @@
 12	gagnrýni	gagnrýni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk
 13-15	Ólafs Ragnars Grímssonar	_	_	_	_	_	_	_	_
 13	Ólafs	Ólafur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	nmod:poss	_	tag=person_ef_kk
-14	Ragnars	Ragnar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	_	_	tag=person_ef_kk
-15	Grímssonar	Grímsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	_	_	tag=person_ef_kk
+14	Ragnars	Ragnar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	flat	_	tag=person_ef_kk
+15	Grímssonar	Grímsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	flat	_	tag=person_ef_kk
 16	forseta	forseti	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	nmod:poss	_	tag=no_et_ef_kk
 17	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	nmod:poss	_	tag=no_et_ef_hk
 18	varðandi	varða	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
@@ -258,25 +257,4 @@
 21	íslensku	íslenskur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	22	amod	_	tag=lo_et_þgf_hk_sb
 22	samfélagi	samfélag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 23	.	_	PUNCT	grm	_	4	punct	_	tag=grm
-=======
-1	Bjarni Benediktsson	Bjarni Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	fjármálaráðherra	fjármálaráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_ef_kk
-3	skýtur	skjóta	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
-4	föstum	fastur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	5	amod	_	tag=lo_ft_þgf_hk_sb
-5	skotum	skot	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obj	_	tag=no_ft_þgf_hk
-6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	Twitter	Twitter	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
-8	í kvöld	í kvöld	ADV	ao	_	7	obl	_	tag=ao
-9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	gagnrýni	gagnrýni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk
-11	Ólafs Ragnars Grímssonar	Ólafur Ragnar Grímsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	nmod:poss	_	tag=person_ef_kk
-12	forseta	forseti	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	11	nmod:poss	_	tag=no_et_ef_kk
-13	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	nmod:poss	_	tag=no_et_ef_hk
-14	varðandi	varða	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	fátækt	fátækt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
-16	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-17	íslensku	íslenskur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_þgf_hk_sb
-18	samfélagi	samfélag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
->>>>>>> master
 

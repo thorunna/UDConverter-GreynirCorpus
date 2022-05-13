@@ -87,7 +87,7 @@
 1	Forsetaframbjóðandinn	forsetaframbjóðandi	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
 2-3	Donald Trump	_	_	_	_	_	_	_	_
 2	Donald	Donald	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-3	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
+3	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	flat	_	tag=person_nf_kk
 4	tjáði	tjá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 5	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	4	obj	_	tag=abfn_þf
 6-7	í kjölfarið	_	_	_	_	_	_	_	_
@@ -173,11 +173,11 @@
 
 # sent_id = GREYNIR_CORPUS_00155,.7
 # text = Var lögreglunni á Suðurnesjum gert viðvart um háttsemi mannsins þegar hann hafði hringt hundrað símtöl og fóru lögreglumenn á heimili hans og ræddu við hann.
-1	Var	vera	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
+1	Var	vera	AUX	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_1_þgf_fh_p3_et_þt_gm
 2	lögreglunni	lögregla	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	tag=no_et_þgf_kvk_gr
 3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	Suðurnesjum	Suðurnes	PROPN	sérnafn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=sérnafn_ft_þgf_hk
-5	gert	gera	VERB	so_1_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	1	conj	_	tag=so_1_þf_lhþt_et
+5	gert	gera	VERB	so_1_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	0	root	_	tag=so_1_þf_lhþt_et
 6	viðvart	viðvart	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	obj	_	tag=lo_et_þf_hk_fst_sb
 7	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	háttsemi	háttsemi	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk
@@ -188,8 +188,8 @@
 13	hringt	hringja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	5	advcl	_	tag=so_1_þf_sagnb_gm
 14	hundrað	hundrað	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	nummod	_	tag=töl_ft_þf_hk
 15	símtöl	símtal	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	tag=no_ft_þf_hk
-16	og	og	CCONJ	st	_	1	cc	_	tag=st
-17	fóru	fara	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_0_fh_p3_ft_þt_gm
+16	og	og	CCONJ	st	_	5	cc	_	tag=st
+17	fóru	fara	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_ft_þt_gm
 18	lögreglumenn	lögreglumaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	tag=no_ft_nf_kk
 19	á	á	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 20	heimili	heimili	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	tag=no_et_þf_hk
@@ -198,7 +198,7 @@
 23	ræddu	ræða	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	17	conj	_	tag=so_0_fh_p3_ft_þt_gm
 24	við	við	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
 25	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	SpaceAfter=No|tag=pfn_et_þf_kk_p3
-26	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+26	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00155,.8
 # text = Einmitt þess vegna komum við saman áður en sól rís, finnum styrk í nálægð við aðra og göngum af stað til að heilsa deginum.

@@ -9,7 +9,7 @@
 7	smáatriðum	smáatriði	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_þgf_hk
 8-9	í kringum	_	_	_	_	_	_	_	_
 8	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-9	kringum	kringum	ADP	fs_þf	Case=Acc	8	_	_	tag=fs_þf
+9	kringum	kringum	ADP	fs_þf	Case=Acc	8	fixed	_	tag=fs_þf
 10	samninginn	samningur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 11	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -18,8 +18,8 @@
 1	Tíu	tíu	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	nummod	_	tag=töl_ft_nf_kk
 2-4	lögreglu- og sérsveitarmenn	_	_	_	_	_	_	_	_
 2	lögreglu-	lögreglu-	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_nf_kk
-3	og	og	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	_	_	tag=no_ft_nf_kk
-4	sérsveitarmenn	sérsveitar-maður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	_	_	tag=no_ft_nf_kk
+3	og	og	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	flat	_	tag=no_ft_nf_kk
+4	sérsveitarmenn	sérsveitar-maður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	flat	_	tag=no_ft_nf_kk
 5	tóku	taka	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 6	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	tag=no_et_þf_kk
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -42,15 +42,15 @@
 
 # sent_id = GREYNIR_CORPUS_00351,.4
 # text = Var þetta hans flottasta mark í Blika treyjunni?
-1	Var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_þt_gm
+1	Var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 2	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
 3	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	tag=pfn_et_ef_kk_p3
 4	flottasta	flottur	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_nf_hk_evb
-5	mark	mark	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	xcomp	_	tag=no_et_nf_hk
+5	mark	mark	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 6	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 7	Blika	Blikar	PROPN	fyrirtæki_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	8	nmod:poss	_	tag=fyrirtæki_ft_ef_kk
 8	treyjunni	treyja	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
-9	?	?	PUNCT	grm	_	1	punct	_	tag=grm
+9	?	?	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00351,.5
 # text = Upprunalega stóð til að hofið yrði tilbúið 2016.
@@ -74,7 +74,7 @@
 6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7-8	Víkingi Ó.	_	_	_	_	_	_	_	_
 7	Víkingi	Víkingi	PROPN	fyrirtæki_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=fyrirtæki_et_þgf_kk
-8	Ó.	Ó.	PROPN	fyrirtæki_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	_	_	tag=fyrirtæki_et_þgf_kk
+8	Ó.	Ó.	PROPN	fyrirtæki_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	flat	_	tag=fyrirtæki_et_þgf_kk
 9	vegna	vega	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
 10	meiðsla	meiðsl	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
 11	.	.	PUNCT	grm	_	4	punct	_	tag=grm
@@ -106,11 +106,7 @@
 9	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00351,.9
-<<<<<<< HEAD
 # text = En hvernig lítur framhaldið út hjá skyttunni öflugu?
-=======
-# text = En hvernig lítur framhaldið út hjá skyttunni öflugu ?
->>>>>>> master
 1	En	en	SCONJ	st	_	3	cc	_	tag=st
 2	hvernig	hvernig	ADV	ao	_	3	advmod	_	tag=ao
 3	lítur	líta	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -121,8 +117,6 @@
 8	öflugu	öflugur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No|tag=lo_et_þgf_kvk_vb
 9	?	?	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00351,.10
-# text = Framarar hefðu átt að fá vítakast eftir sigurmark ÍBV
 1	Framarar	Framari	PROPN	sérnafn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	tag=sérnafn_ft_nf_kk
 2	hefðu	hafa	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_vh_p3_ft_þt_gm
 3	átt	eiga	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm

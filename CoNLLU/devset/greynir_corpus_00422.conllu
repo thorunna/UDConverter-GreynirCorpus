@@ -24,7 +24,7 @@
 1	Útsending	útsending	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 2-3	Rásar 2	_	_	_	_	_	_	_	_
 2	Rásar	Rásar	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
-3	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	2	_	_	tag=fyrirtæki_et_ef_kvk
+3	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	2	flat	_	tag=fyrirtæki_et_ef_kvk
 4	liggur	liggja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	niðri	niðra	ADV	ao	_	7	advmod	_	tag=ao
 6	á	eiga	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -100,12 +100,12 @@
 9	vegna	vegna	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
 10	vinnuálags	vinnuálag	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_ef_hk
 11	og	og	CCONJ	st	_	3	cc	_	tag=st
-12	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+12	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_fh_p3_et_nt_gm
 13	nýliðun	nýliðun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	tag=no_et_nf_kvk
 14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	faginu	fag	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þgf_hk_gr
 16	ekki	ekki	ADV	ao	_	17	advmod	_	tag=ao
-17	gengið	ganga	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	17	conj	_	tag=so_0_sagnb_gm
+17	gengið	ganga	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	3	conj	_	tag=so_0_sagnb_gm
 18	eftir	eftir	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
 19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
@@ -137,11 +137,10 @@
 2	starfaði	starfa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	áður	áður	ADV	ao	_	2	advmod	_	tag=ao
 4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-<<<<<<< HEAD
 5-7	Videntifier Technologies ehf.	_	_	_	_	_	_	_	_
 5	Videntifier	Videntifier	PROPN	fyrirtæki_þgf	Case=Dat	2	obl	_	SpaceAfter=No|tag=fyrirtæki_þgf
-6	Technologies	Technologies	PROPN	fyrirtæki_þgf	Case=Dat	5	_	_	SpaceAfter=No|tag=fyrirtæki_þgf
-7	ehf.	ehf.	PROPN	fyrirtæki_þgf	Case=Dat	6	_	_	SpaceAfter=No|tag=fyrirtæki_þgf
+6	Technologies	Technologies	PROPN	fyrirtæki_þgf	Case=Dat	5	flat	_	SpaceAfter=No|tag=fyrirtæki_þgf
+7	ehf.	ehf.	PROPN	fyrirtæki_þgf	Case=Dat	5	flat	_	SpaceAfter=No|tag=fyrirtæki_þgf
 8	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 9	fyrst	fyrst	ADV	ao_est	Degree=Sup	2	advmod	_	tag=ao_est
 10	sem	sem	ADP	fs_nf	Case=Nom	11	case	_	tag=fs_nf
@@ -153,26 +152,9 @@
 16	yfirmaður	yfirmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_nf_kk
 17	viðskipta	viðskipti	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	16	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
 18	&#40;	_	PUNCT	grm	_	17	punct	_	tag=grm
-19	CCO	CCO	NOUN	abbrev	_	17	flat	_	SpaceAfter=No|tag=abbrev
+19	CCO	CCO	ADV	abbrev	_	17	advmod	_	SpaceAfter=No|tag=abbrev
 20	&#41;	_	PUNCT	grm	_	19	punct	_	SpaceAfter=No|tag=grm
 21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-5	Videntifier Technologies ehf.	Videntifier Technologies ehf.	PROPN	fyrirtæki_þgf	Case=Dat	2	obl	_	SpaceAfter=No|tag=fyrirtæki_þgf
-6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
-7	fyrst	fyrst	ADV	ao_est	Degree=Sup	2	advmod	_	tag=ao_est
-8	sem	sem	ADP	fs_nf	Case=Nom	9	case	_	tag=fs_nf
-9	yfirmaður	yfirmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_nf_kk
-10	viðskiptaþróunar	viðskipta-þróun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kvk
-11	og	og	CCONJ	st	_	2	cc	_	tag=st
-12	síðar	síðar	ADV	ao_mst	Degree=Cmp	2	advmod	_	tag=ao_mst
-13	sem	sem	ADP	fs_nf	Case=Nom	14	case	_	tag=fs_nf
-14	yfirmaður	yfirmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_nf_kk
-15	viðskipta	viðskipti	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
-16	&#40;	_	PUNCT	grm	_	15	punct	_	tag=grm
-17	CCO	CCO	ADV	abbrev	_	15	advmod	_	SpaceAfter=No|tag=abbrev
-18	&#41;	_	PUNCT	grm	_	17	punct	_	SpaceAfter=No|tag=grm
-19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00422,.8
 # text = Núna erum við samt að berjast enn meira og ég er mjög ánægður með alla strákana í kvöld.
@@ -214,7 +196,7 @@
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
 13-14	samanborið við	_	_	_	_	_	_	_	_
 13	samanborið	samanborið	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-14	við	við	ADP	fs_þf	Case=Acc	13	_	_	tag=fs_þf
+14	við	við	ADP	fs_þf	Case=Acc	13	fixed	_	tag=fs_þf
 15	tvö	tveir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	tag=to_ft_þf_hk
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17-18	janúar 2017	_	_	_	_	_	_	_	_
@@ -228,8 +210,6 @@
 23	2016	2016	NUM?	dagsafs	_	22	flat	_	SpaceAfter=No|tag=dagsafs
 24	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00422,.10
-# text = Aukin hætta er á heilablóðfalli og elliglöpum ef einstaklingur neytir einnar dósar sykurskertum eða sykurlausum gosdrykk á dag.
 1	Aukin	auka	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_sb
 2	hætta	hætta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
 3	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -247,6 +227,6 @@
 15	sykurlausum	sykurlaus	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_þgf_kk_sb
 16	gosdrykk	gosdrykkur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þgf_kk
 17	á	eiga	ADV	fs_þf	Case=Acc	10	advmod	_	tag=fs_þf
-18	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þf_kk
+18	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þf_kk
 19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

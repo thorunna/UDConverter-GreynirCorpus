@@ -24,7 +24,7 @@
 22	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00140,.2
-# text = Það er mikill heiður að vera í hópi hönnuða sem unnið hafa með H&M ;, segir Erdem Moralioglu.
+# text = Það er mikill heiður að vera í hópi hönnuða sem unnið hafa með H&M;, segir Erdem Moralioglu.
 1	Það	Það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
 2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	mikill	mikill	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_fst_sb
@@ -44,7 +44,7 @@
 17	segir	segir	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 18-19	Erdem Moralioglu	_	_	_	_	_	_	_	_
 18	Erdem	Erdem	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-19	Moralioglu	Moralioglu	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	_	_	SpaceAfter=No|tag=person_nf_kk
+19	Moralioglu	Moralioglu	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	SpaceAfter=No|tag=person_nf_kk
 20	.	.	PUNCT	grm	_	17	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00140,.3
@@ -110,9 +110,9 @@
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	advmod	_	tag=no_et_þf_kk
 10	og	og	CCONJ	st	_	2	cc	_	tag=st
-11	vorum	vera	VERB	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p1_ft_þt_gm
+11	vorum	vera	AUX	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	13	aux	_	tag=so_0_fh_p1_ft_þt_gm
 12	að	að	PART	nhm	_	13	mark	_	tag=nhm
-13	ræða	ræða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	conj	_	tag=so_1_þf_nh_gm
+13	ræða	ræða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	conj	_	tag=so_1_þf_nh_gm
 14	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	tag=fn_et_þf_hk
 15	eftir	eftir	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	leik	leikur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	advmod	_	tag=no_et_þf_kk
@@ -252,9 +252,9 @@
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	hafnarsvæðunum	hafnarsvæði	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	tag=no_ft_þgf_hk
 15	og	og	CCONJ	st	_	2	cc	_	tag=st
-16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 17	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_et_nf_hk_p3
-18	eitthvað	einhver	PRON	fn_et_nf	Case=Nom|Number=Sing	16	xcomp	_	tag=fn_et_nf
+18	eitthvað	einhver	PRON	fn_et_nf	Case=Nom|Number=Sing	2	conj	_	tag=fn_et_nf
 19	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
 20	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 21	nú	nú	ADV	ao	_	22	advmod	_	tag=ao

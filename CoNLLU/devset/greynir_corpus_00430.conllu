@@ -2,7 +2,7 @@
 # text = Eyþór Árnason, ljósmyndari Vísi og Fréttablaðsins, mætti í DHL-höllina í kvöld og náði þessum skemmtilegum myndum hér fyrir ofan.
 1-2	Eyþór Árnason	_	_	_	_	_	_	_	_
 1	Eyþór	Eyþór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Árnason	Árnason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+2	Árnason	Árnason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	ljósmyndari	ljósmyndari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Vísi	Vísi	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_kk
@@ -174,7 +174,6 @@
 7	umsóknir	umsókn	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	tag=no_ft_þf_kvk
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
 9	um	um	ADV	eo	_	10	advmod	_	tag=eo
-<<<<<<< HEAD
 10-11	fimm prósent	_	_	_	_	_	_	_	_
 10	fimm	fimm	?	prósenta_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	tag=prósenta_ft_nf_kvk
 11	prósent	prósent	?	prósenta_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	10	_	_	tag=prósenta_ft_nf_kvk
@@ -187,18 +186,6 @@
 18	þröngt	þröngt	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	19	amod	_	tag=lo_et_nf_hk_sb
 19	nálaraugað	nálarauga	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|tag=no_et_nf_hk_gr
 20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-10	fimm prósent	fimm prósent	X	prósenta_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	12	dep	_	tag=prósenta_ft_nf_kvk
-11	þeirra	hann	PRON	pfn_ft_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	nmod:poss	_	tag=pfn_ft_ef_kvk_p3
-12	fengu	fá	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_ft_þt_gm
-13	brautargengi	brautargengi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No|tag=no_et_þf_hk
-14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
-15	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_et_nf_hk_p3
-16	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-17	þröngt	þröngt	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_nf_hk_sb
-18	nálaraugað	nálarauga	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|tag=no_et_nf_hk_gr
-19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00430,.9
 # text = Sá ásetningur Alþingis og ríkisstjórnar að breyta ákvæðum laga um uppreist æru gefur mér von um að svo fari.
@@ -223,11 +210,6 @@
 19	fari	fara	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	obl	_	SpaceAfter=No|tag=so_0_vh_p3_et_nt_gm
 20	.	.	PUNCT	grm	_	13	punct	_	tag=grm
 
-<<<<<<< HEAD
-=======
-# sent_id = GREYNIR_CORPUS_00430,.10
-# text = Hér er reynt að varpa ljósi á það hvernig málin blöstu við íslensku þjóðinni á árunum 1974 til 1980.
->>>>>>> master
 1	Hér	hér	ADV	ao	_	3	advmod	_	tag=ao
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	reynt	reyna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
@@ -246,6 +228,6 @@
 16	árunum	ár	ADV	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	11	advmod	_	tag=no_ft_þgf_hk_gr
 17	1974	1974	NUM	ártal	_	16	nummod	_	tag=ártal
 18	til	til	ADP	fs_ef	Case=Gen	19	case	_	tag=fs_ef
-19	1980	1980	NUM	ártal	_	16	obl	_	SpaceAfter=No|tag=ártal
+19	1980	1980	NUM	ártal	_	16	obl	_	tag=ártal
 20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

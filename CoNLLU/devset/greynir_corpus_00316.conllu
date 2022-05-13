@@ -157,7 +157,6 @@
 2	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
 3	Michele	Michele	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_þf_hk
 4	gerir	gera	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
-<<<<<<< HEAD
 5-6	á morgnana	_	_	_	_	_	_	_	_
 5	á	á	ADV	ao	_	4	advmod	_	tag=ao
 6	morgnana	morgnana	ADV	ao	_	5	fixed	_	tag=ao
@@ -185,29 +184,6 @@
 26	á	á	ADV	ao	_	25	advmod	_	SpaceAfter=No|tag=ao
 27	morgnana	morgnana	ADV	ao	_	26	fixed	_	SpaceAfter=No|tag=ao
 28	.	_	PUNCT	grm	_	7	punct	_	tag=grm
-=======
-5	á morgnana	á morgnana	ADV	ao	_	4	advmod	_	tag=ao
-6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	drekka	drekka	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_1_þgf_nh_gm
-9	sellerísafa	sellerísafi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|tag=no_et_þgf_kk
-10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-11	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
-12	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_kvk_p3
-13	segir	segja	AUX	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_1_þf_fh_p3_et_nt_gm
-14	hafa	hafa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	acl:relcl	_	tag=so_1_þf_nh_gm
-15	góð	góður	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	17	amod	_	tag=lo_ft_þf_hk_sb
-16	heilsusamleg	heilsusamlegur	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	17	amod	_	tag=lo_ft_þf_hk_sb
-17	áhrif	áhrif	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	tag=no_ft_þf_hk
-18	auk þess	auk þess	ADV	ao	_	6	mark	_	tag=ao
-19	sem	sem	SCONJ	st	_	18	cc	_	tag=st
-20	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	tag=pfn_et_nf_hk_p3
-21	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
-22	góð	góður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	23	amod	_	tag=lo_et_nf_kvk_sb
-23	hreinsun	hreinsun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	tag=no_et_nf_kvk
-24	á morgnana	á morgnana	ADV	ao	_	23	advmod	_	SpaceAfter=No|tag=ao
-25	.	_	PUNCT	grm	_	6	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00316,.7
 # text = Fyrirtækið ÍSP var fært undir gildissvið upplýsingalaga í ársbyrjun 2013 og hefur Pósturinn tekið þann pólinn í hæðina að afhenda ekki gögn sem urðu til fyrir það tímamark.
@@ -222,9 +198,9 @@
 9	ársbyrjun	ársbyrjun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk
 10	2013	2013	NUM	ártal	_	9	nmod:poss	_	tag=ártal
 11	og	og	CCONJ	st	_	4	cc	_	tag=st
-12	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+12	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_et_nt_gm
 13	Pósturinn	póstur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk_gr
-14	tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	12	conj	_	tag=so_1_þf_sagnb_gm
+14	tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	4	conj	_	tag=so_1_þf_sagnb_gm
 15	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	tag=fn_et_þf_kk
 16	pólinn	póll	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obj	_	tag=no_et_þf_kk_gr
 17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
@@ -250,10 +226,9 @@
 5	um	um	ADV	ao	_	8	advmod	_	tag=ao
 6	15	15	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	8	nummod	_	tag=tala_ft_nf_hk
 7	til	til	ADV	eo	_	8	advmod	_	tag=eo
-<<<<<<< HEAD
 8-9	20 prósent	_	_	_	_	_	_	_	_
 8	20	20	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_nf_hk
-9	prósent	prósent	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	8	_	_	tag=no_ft_nf_hk
+9	prósent	prósent	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	8	flat	_	tag=no_ft_nf_hk
 10	þannig	þannig	ADV	ao	_	13	mark	_	tag=ao
 11	að	að	SCONJ	st	_	10	cc	_	tag=st
 12	samanlagt	samanlagt	ADV	ao	_	13	advmod	_	tag=ao
@@ -273,28 +248,6 @@
 26	þessum	þessi	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	27	nmod	_	tag=fn_ft_þgf_kvk
 27	breytingum	breyting	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 28	.	_	PUNCT	grm	_	3	punct	_	tag=grm
-=======
-8	20 prósent	20 prósent	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_nf_hk
-9	þannig	þannig	ADV	ao	_	12	mark	_	tag=ao
-10	að	að	SCONJ	st	_	9	cc	_	tag=st
-11	samanlagt	samanlagt	ADV	ao	_	12	advmod	_	tag=ao
-12	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	advcl	_	tag=so_0_fh_p1_ft_nt_gm
-13	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	tag=pfn_ft_nf_p1
-14	kannski	kannski	ADV	ao	_	12	advmod	_	tag=ao
-15	að	að	PART	nhm	_	16	mark	_	tag=nhm
-16	horfa	horfa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_0_nh_gm
-17	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-18	30%	30%	X	prósenta	_	19	dep	_	tag=prósenta
-19	hækkun	hækkun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þgf_kvk
-20	ef	ef	SCONJ	st	_	23	mark	_	tag=st
-21	ekki	ekki	ADV	ao	_	23	advmod	_	tag=ao
-22	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	cop	_	tag=so_0_fh_p3_et_nt_gm
-23	brugðist	bregða	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	16	advcl	_	tag=so_0_sagnb_mm
-24	við	við	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
-25	þessum	þessi	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	26	nmod	_	tag=fn_ft_þgf_kvk
-26	breytingum	breyting	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-27	.	_	PUNCT	grm	_	3	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00316,.9
 # text = Flokkarnir stóru fara ekki alveg eins að en fundargestum er gert skilt að hlusta á ræður frambjóðenda og taka þátt í umræðum áður en þeir fá að kjósa.

@@ -119,7 +119,7 @@
 21	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00434,.6
-# text = Það er til mikils að vinna að efla þekkingu á því og stuðla þannig að minni plastneyslu ferðamanna hér á landi. “
+# text = Það er til mikils að vinna að efla þekkingu á því og stuðla þannig að minni plastneyslu ferðamanna hér á landi.“
 1	Það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_hk_p3
 2	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	til	til	ADP	fs_ef	Case=Gen	4	case	_	tag=fs_ef
@@ -149,7 +149,7 @@
 # text = Paul Newman með úrið fræga, Rolex-armbandsúr, sem hann síðar gaf þáverandi tengdasyni sínum, James Cox, árið 1969.
 1-2	Paul Newman	_	_	_	_	_	_	_	_
 1	Paul	Paul	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	tag=person_nf_kk
-2	Newman	Newman	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+2	Newman	Newman	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 3	með	með	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	úrið	úr	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þf_hk_gr
 5	fræga	frægur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No|tag=lo_et_þf_hk_vb
@@ -166,7 +166,7 @@
 16	,	,	PUNCT	grm	_	17	punct	_	tag=grm
 17-18	James Cox	_	_	_	_	_	_	_	_
 17	James	James	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	conj	_	SpaceAfter=No|tag=person_þf_kk
-18	Cox	Cox	PROPN	person_þf_kk	Case=Acc|Gender=Masc	17	_	_	SpaceAfter=No|tag=person_þf_kk
+18	Cox	Cox	PROPN	person_þf_kk	Case=Acc|Gender=Masc	17	flat	_	SpaceAfter=No|tag=person_þf_kk
 19	,	,	PUNCT	grm	_	14	punct	_	tag=grm
 20-21	árið 1969	_	_	_	_	_	_	_	_
 20	árið	árið	ADV	ártal	_	12	advmod	_	SpaceAfter=No|tag=ártal
@@ -174,7 +174,7 @@
 22	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00434,.8
-# text = Mjög sjaldgæft er að banaslysin verði af eintómum klaufaskap heldur eru þau jafnan afleiðing af röð margra rangra ákvarðana. “
+# text = Mjög sjaldgæft er að banaslysin verði af eintómum klaufaskap heldur eru þau jafnan afleiðing af röð margra rangra ákvarðana.“
 1	Mjög	mjög	ADV	eo	_	2	advmod	_	tag=eo
 2	sjaldgæft	sjaldgæfur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=lo_et_nf_hk_sb
 3	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -185,10 +185,10 @@
 8	eintómum	eintómur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_þgf_kk_sb
 9	klaufaskap	klaufaskapur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
 10	heldur	gjarna	CCONJ	st	_	3	mark	_	tag=st
-11	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+11	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 12	þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_ft_nf_hk_p3
 13	jafnan	jafn	ADV	ao	_	14	advmod	_	tag=ao
-14	afleiðing	afleiðing	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	xcomp	_	tag=no_et_nf_kvk
+14	afleiðing	afleiðing	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	tag=no_et_nf_kvk
 15	af	af	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	röð	röð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þgf_kvk
 17	margra	margur	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	19	amod	_	tag=lo_ft_ef_kvk_sb
@@ -233,21 +233,21 @@
 8	hendur	hönd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þf_kvk
 9-11	Þórði Má Jóhannessyni	_	_	_	_	_	_	_	_
 9	Þórði	Þórði	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	3	obl	_	tag=person_þgf_kk
-10	Má	Má	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	_	_	tag=person_þgf_kk
-11	Jóhannessyni	Jóhannessyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	10	_	_	tag=person_þgf_kk
+10	Má	Má	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	flat	_	tag=person_þgf_kk
+11	Jóhannessyni	Jóhannessyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	flat	_	tag=person_þgf_kk
 12	,	,	PUNCT	grm	_	13	punct	_	tag=grm
 13-14	Magnúsi Kristinssyni	_	_	_	_	_	_	_	_
 13	Magnúsi	Magnúsi	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	conj	_	tag=person_þgf_kk
-14	Kristinssyni	Kristinssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	13	_	_	tag=person_þgf_kk
+14	Kristinssyni	Kristinssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	13	flat	_	tag=person_þgf_kk
 15	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 16-17	Sólveigu Pétursdóttur	_	_	_	_	_	_	_	_
 16	Sólveigu	Sólveigu	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	9	conj	_	tag=person_þgf_kvk
-17	Pétursdóttur	Pétursdóttur	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	16	_	_	tag=person_þgf_kvk
+17	Pétursdóttur	Pétursdóttur	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	16	flat	_	tag=person_þgf_kvk
 18	,	,	PUNCT	grm	_	19	punct	_	tag=grm
 19-21	Helga Friðjóni Arnarssyni	_	_	_	_	_	_	_	_
 19	Helga	Helga	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	conj	_	tag=person_þgf_kk
-20	Friðjóni	Friðjóni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	19	_	_	tag=person_þgf_kk
-21	Arnarssyni	Arnarssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	20	_	_	tag=person_þgf_kk
+20	Friðjóni	Friðjóni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	19	flat	_	tag=person_þgf_kk
+21	Arnarssyni	Arnarssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	19	flat	_	tag=person_þgf_kk
 22	og	og	CCONJ	st	_	9	cc	_	tag=st
 23-24	KPMG ehf.	_	_	_	_	_	_	_	_
 23	KPMG	KPMG	PROPN	fyrirtæki	_	9	conj	_	tag=fyrirtæki

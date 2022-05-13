@@ -29,7 +29,7 @@
 # text = Sindri Viborg, sem var kjörinn formaður framkvæmdaráðs Pírata á aðalfundi flokksins fyrir rúmum tveimur vikum, hefur sagt sig úr ráðinu sem og flokknum.
 1-2	Sindri Viborg	_	_	_	_	_	_	_	_
 1	Sindri	Sindri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Viborg	Viborg	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+2	Viborg	Viborg	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_1_nf_fh_p3_et_þt_gm
@@ -59,20 +59,19 @@
 # text = Þar af verða 3,5 milljarðar íslenskra króna greiddar út og 5,9 milljarða fær Norvik í formi hlutafjár í Bergs Timber sé miðað við gengið 2,71.
 1	Þar	þar	ADV	ao	_	8	advmod	_	tag=ao
 2	af	af	ADV	ao	_	1	advmod	_	tag=ao
-<<<<<<< HEAD
 3	verða	verða	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4-7	3,5 milljarðar íslenskra króna	_	_	_	_	_	_	_	_
 4	3,5	3,5	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	tag=no_ft_nf_kk
-5	milljarðar	milljarðar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	_	_	tag=no_ft_nf_kk
-6	íslenskra	íslenskra	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	_	_	tag=no_ft_nf_kk
-7	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	_	_	tag=no_ft_nf_kk
+5	milljarðar	milljarðar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	flat	_	tag=no_ft_nf_kk
+6	íslenskra	íslenskra	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	flat	_	tag=no_ft_nf_kk
+7	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	flat	_	tag=no_ft_nf_kk
 8	greiddar	greiddur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=lo_ft_nf_kvk_sb
 9	út	út	ADV	eo	_	8	advmod	_	tag=eo
 10	og	og	CCONJ	st	_	8	cc	_	tag=st
 11-12	5,9 milljarða	_	_	_	_	_	_	_	_
-11	5,9	5,9	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	8	conj	_	tag=töl_ft_ef_kvk
+11	5,9	5,9	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	13	obj	_	tag=töl_ft_ef_kvk
 12	milljarða	milljarða	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	11	_	_	tag=töl_ft_ef_kvk
-13	fær	fá	VERB	so_0	_	_	conj	_	tag=so_0
+13	fær	fá	VERB	so_0	_	8	conj	_	tag=so_0
 14	Norvik	Norvik	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	tag=no_et_nf_hk
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	formi	formur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þgf_kk
@@ -80,34 +79,13 @@
 18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19-20	Bergs Timber	_	_	_	_	_	_	_	_
 19	Bergs	Berg	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	obl	_	tag=person_ef_kk
-20	Timber	Timber	PROPN	person_ef_kk	Case=Gen|Gender=Masc	19	_	_	tag=person_ef_kk
+20	Timber	Timber	PROPN	person_ef_kk	Case=Gen|Gender=Masc	19	flat	_	tag=person_ef_kk
 21	sé	sé	VERB	so_0	_	13	advcl	_	tag=so_0
 22	miðað	miðað	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
 23	við	við	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
 24	gengið	gengi	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	21	obl	_	tag=no_et_þf_hk_gr
 25	2,71	2,71	NUM	tala_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur|NumType=Card	24	nmod:poss	_	SpaceAfter=No|tag=tala_ft_ef_kvk
 26	.	_	PUNCT	grm	_	8	punct	_	tag=grm
-=======
-3	verða	verða	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
-4	3,5 milljarðar íslenskra króna	3,5 milljarðar íslenskra króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_nf_kk
-5	greiddar	greiddur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=lo_ft_nf_kvk_sb
-6	út	út	ADV	eo	_	5	advmod	_	tag=eo
-7	og	og	CCONJ	st	_	5	cc	_	tag=st
-8	5,9 milljarða	5,9 milljarða	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	5	conj	_	tag=töl_ft_ef_kvk
-9	fær	fá	VERB	so_0	_	5	conj	_	tag=so_0
-10	Norvik	Norvik	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk
-11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	formi	formur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þgf_kk
-13	hlutafjár	hlutafé	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	nmod:poss	_	tag=no_et_ef_hk
-14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	Bergs Timber	Berg Timber	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	obl	_	tag=person_ef_kk
-16	sé	sé	VERB	so_0	_	9	advcl	_	tag=so_0
-17	miðað	miðað	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-18	við	við	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-19	gengið	gengi	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	16	obl	_	tag=no_et_þf_hk_gr
-20	2,71	2,71	NUM	tala_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur|NumType=Card	19	nmod:poss	_	SpaceAfter=No|tag=tala_ft_ef_kvk
-21	.	_	PUNCT	grm	_	5	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00307,.4
 # text = Gæði efnanna skipta mig miklu máli en ég fell mjög oft fyrir dýrari efnunum sem eru erfiðari í framleiðslu, segir hún og brosir.
@@ -152,7 +130,7 @@
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
 12	tryggja	tryggja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	18	xcomp	_	tag=so_1_þf_nh_gm
 13	öryggi	öryggi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	tag=no_et_þf_hk
-14	gangandi	ganga	VERB	so_1_ef_lhnt	Case=Gen	15	amod	_	tag=so_1_ef_lhnt
+14	gangandi	ganga	VERB	so_1_ef_lhnt	Case=Gen	15	('HALLÓ_so', '1_ef_lhnt', 'NP', 'POSS')	_	tag=so_1_ef_lhnt
 15	fólks	fólk	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	13	nmod:poss	_	tag=no_et_ef_hk
 16	og	og	CCONJ	st	_	18	cc	_	tag=st
 17	að	að	PART	nhm	_	18	mark	_	tag=nhm
@@ -289,7 +267,6 @@
 # text = Sagði hann meðal annars að hún hefði grátbeðið sig um fjárframlög og að hún myndi gera hvað sem er fyrir þau.
 1	Sagði	segja	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
 2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	tag=pfn_et_nf_kk_p3
-<<<<<<< HEAD
 3-4	meðal annars	_	_	_	_	_	_	_	_
 3	meðal	meðal	ADV	eo	_	1	obj	_	tag=eo
 4	annars	annars	ADV	eo	_	3	fixed	_	tag=eo
@@ -311,25 +288,4 @@
 20	fyrir	fyrir	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 21	þau	það	PRON	pfn_ft_þf_hk_p3	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No|tag=pfn_ft_þf_hk_p3
 22	.	_	PUNCT	grm	_	1	punct	_	tag=grm
-=======
-3	meðal annars	meðal annars	ADV	eo	_	1	obj	_	tag=eo
-4	að	að	SCONJ	st	_	7	mark	_	tag=st
-5	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_kvk_p3
-6	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_þt_gm
-7	grátbeðið	grátbiðja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	3	ccomp	_	tag=so_1_þf_sagnb_gm
-8	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	7	obj	_	tag=abfn_þf
-9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	fjárframlög	fjárframlag	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þf_hk
-11	og	og	CCONJ	st	_	3	cc	_	tag=st
-12	að	að	SCONJ	st	_	15	mark	_	tag=st
-13	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_kvk_p3
-14	myndi	munu	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	15	aux	_	tag=so_0_vh_p3_et_þt_gm
-15	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	ccomp	_	tag=so_0_nh_gm
-16	hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	tag=fn_et_þf_hk
-17	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
-18	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-19	fyrir	fyrir	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	þau	það	PRON	pfn_ft_þf_hk_p3	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No|tag=pfn_ft_þf_hk_p3
-21	.	_	PUNCT	grm	_	1	punct	_	tag=grm
->>>>>>> master
 

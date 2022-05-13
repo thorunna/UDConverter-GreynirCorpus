@@ -1,8 +1,8 @@
 # sent_id = GREYNIR_CORPUS_00185,.1
 # text = Þannig að ég held að þetta séu kannski beinharðir peningar sem ráða því, — að það svari ekki kostnaði að svo stöddu að fara í frekari rannsóknir, segir Skúli.
-1	Þannig	þannig	ADV	ao	_	0	root	_	tag=ao
-2	að	að	SCONJ	st	_	3	cc	_	tag=st
-3	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	tag=pfn_et_nf_p1
+1	Þannig	þannig	ADV	ao	_	3	mark	_	tag=ao
+2	að	að	SCONJ	st	_	1	cc	_	tag=st
+3	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	tag=pfn_et_nf_p1
 4	held	halda	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p1_et_nt_gm
 5	að	að	SCONJ	st	_	7	mark	_	tag=st
 6	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	xcomp	_	tag=fn_et_nf_hk
@@ -30,9 +30,9 @@
 27	frekari	frekur	ADJ	lo_ft_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	28	amod	_	tag=lo_ft_þf_kvk_mst
 28	rannsóknir	rannsókn	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	25	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 29	,	_	PUNCT	grm	_	30	punct	_	tag=grm
-30	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+30	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 31	Skúli	Skúli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	30	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-32	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+32	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00185,.2
 # text = Einn þeirra er utanvegahlauparinn Þorbergur Ingi Jónsson sem setti met í Mt. Esja Ultra-hlaupinu í fyrra þegar hann hljóp ellefu sinnum upp Esjuna á 9 klukkustundum og 39 mínútum.
@@ -40,19 +40,18 @@
 2	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_ft_ef_kk_p3
 3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	utanvegahlauparinn	utanvegahlaupari	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_nf_kk_gr
-<<<<<<< HEAD
 5-7	Þorbergur Ingi Jónsson	_	_	_	_	_	_	_	_
 5	Þorbergur	Þorbergur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-6	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	_	_	tag=person_nf_kk
-7	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	_	_	tag=person_nf_kk
+6	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	flat	_	tag=person_nf_kk
+7	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	flat	_	tag=person_nf_kk
 8	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 9	setti	setja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 10	met	met	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	tag=no_et_þf_hk
 11	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-12	Mt.	Mt.	NOUN	abbrev	_	13	flat	_	tag=abbrev
+12	Mt.	Mt.	ADV	abbrev	_	13	advmod	_	tag=abbrev
 13-14	Esja Ultra-hlaupinu	_	_	_	_	_	_	_	_
 13	Esja	Esja	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk_gr
-14	Ultra-hlaupinu	Ultra-hlaup	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	13	_	_	tag=no_et_þgf_hk_gr
+14	Ultra-hlaupinu	Ultra-hlaup	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	13	flat	_	tag=no_et_þgf_hk_gr
 15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	13	advmod	_	tag=lo_et_þf_hk_mst
 17	þegar	þegar	SCONJ	st	_	19	mark	_	tag=st
@@ -69,31 +68,6 @@
 28	39	39	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	26	conj	_	tag=tala_ft_þgf_kvk
 29	mínútum	mínúta	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 30	.	.	PUNCT	grm	_	3	punct	_	tag=grm
-=======
-5	Þorbergur Ingi Jónsson	Þorbergur Ingi Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
-7	setti	setja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-8	met	met	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	tag=no_et_þf_hk
-9	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-10	Mt.	Mt.	ADV	abbrev	_	11	advmod	_	tag=abbrev
-11	Esja Ultra-hlaupinu	Esja Ultra-hlaup	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk_gr
-12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	11	advmod	_	tag=lo_et_þf_hk_mst
-14	þegar	þegar	SCONJ	st	_	16	mark	_	tag=st
-15	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
-16	hljóp	hlaupa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	tag=so_0_fh_p3_et_þt_gm
-17	ellefu	ellefu	NUM	töl_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	18	nummod	_	tag=töl_ft_þgf_hk
-18	sinnum	sinn	ADV	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	16	advmod	_	tag=no_ft_þgf_hk
-19	upp	upp	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	Esjuna	Esja	PROPN	sérnafn_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	tag=sérnafn_et_þf_kvk_gr
-21	á	á	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-22	9	9	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	23	nummod	_	tag=tala_ft_þgf_kvk
-23	klukkustundum	klukkustund	ADV	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	advmod	_	tag=no_ft_þgf_kvk
-24	og	og	CCONJ	st	_	25	cc	_	tag=st
-25	39	39	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	23	conj	_	tag=tala_ft_þgf_kvk
-26	mínútum	mínúta	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-27	.	.	PUNCT	grm	_	3	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00185,.3
 # text = Með því að efla þjónustuna og gera hana meira í takt við nútímaþarfir, getur Microsoft nýtt tækifæri til vaxtar, með skýjaþjónustuna sem helsta vaxtarbroddinn og traustar tengingar við sterkt net viðskiptavina.
@@ -150,8 +124,8 @@
 13	ritstjórn	ritstjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	conj	_	tag=no_et_þgf_kvk
 14-16	Steinunnar Ólínu Þorsteinsdóttur	_	_	_	_	_	_	_	_
 14	Steinunnar	Steinunn	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	13	nmod:poss	_	tag=person_ef_kvk
-15	Ólínu	Ólína	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	14	_	_	tag=person_ef_kvk
-16	Þorsteinsdóttur	Þorsteinsdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	15	_	_	tag=person_ef_kvk
+15	Ólínu	Ólína	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	14	flat	_	tag=person_ef_kvk
+16	Þorsteinsdóttur	Þorsteinsdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	14	flat	_	tag=person_ef_kvk
 17	en	en	CCONJ	st	_	19	cc	_	tag=st
 18	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kvk_p3
 19	endurvakti	endurvekja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
@@ -161,7 +135,7 @@
 23	hennar	hún	PRON	pfn_et_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	tag=pfn_et_ef_kvk_p3
 24-25	Bríet Bjarnhéðinsdóttir	_	_	_	_	_	_	_	_
 24	Bríet	Bríet	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	22	obl	_	tag=person_nf_kvk
-25	Bjarnhéðinsdóttir	Bjarnhéðinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	24	_	_	tag=person_nf_kvk
+25	Bjarnhéðinsdóttir	Bjarnhéðinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	24	flat	_	tag=person_nf_kvk
 26	stofnaði	stofna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 27-28	árið 1885	_	_	_	_	_	_	_	_
 27	árið	árið	ADV	ártal	_	26	advmod	_	tag=ártal
@@ -242,11 +216,7 @@
 28	,	_	PUNCT	grm	_	27	punct	_	tag=grm
 29	svo	svo	ADV	eo	_	33	advmod	_	tag=eo
 30	nefndum	nefndur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	33	amod	_	tag=lo_et_þgf_kk_sb
-<<<<<<< HEAD
-31	PTC	PTC	NOUN	abbrev	_	33	flat	_	SpaceAfter=No|tag=abbrev
-=======
 31	PTC	PTC	ADV	abbrev	_	33	advmod	_	SpaceAfter=No|tag=abbrev
->>>>>>> master
 32	-	_	PUNCT	grm	_	31	punct	_	tag=grm
 33	búnaði	búnaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 34	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -362,13 +332,11 @@
 31	verðlag	verðlag	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	29	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 32	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00185,.10
-# text = Þá hafa dönsk, norsk, austurísk og þýsk stjórnvöld einnig haft hert eftirlit frá 2015, en þessi ríki hafa ekki stækkað umfang aðgerða sinna eins og Svíar, að sögn Sigríðar.
 1	Þá	þá	ADV	ao	_	12	advmod	_	tag=ao
 2	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_ft_nt_gm
-3	dönsk	danskur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	10	amod	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
+3	dönsk	danskur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	10	amod	_	tag=lo_ft_nf_hk_sb
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-5	norsk	norskur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	10	amod	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
+5	norsk	norskur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	10	amod	_	tag=lo_ft_nf_hk_sb
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	austurísk	austurrískur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	10	amod	_	tag=lo_ft_nf_hk_sb
 8	og	og	CCONJ	st	_	10	cc	_	tag=st
@@ -379,7 +347,7 @@
 13	hert	hertur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_þf_hk_sb
 14	eftirlit	eftirlit	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	tag=no_et_þf_hk
 15	frá	frá	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	2015	2015	ADV	ártal	_	12	advmod	_	SpaceAfter=No|tag=ártal
+16	2015	2015	ADV	ártal	_	12	advmod	_	tag=ártal
 17	,	_	PUNCT	grm	_	16	punct	_	tag=grm
 18	en	en	CCONJ	st	_	12	cc	_	tag=st
 19	þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	20	nmod	_	tag=fn_ft_nf_hk
@@ -392,10 +360,10 @@
 26	sinna	sinn	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	tag=fn_ft_ef_kvk
 27	eins	eins	ADV	ao	_	29	cc	_	tag=ao
 28	og	og	CCONJ	st	_	27	cc	_	tag=st
-29	Svíar	Svíi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	23	advcl	_	SpaceAfter=No|tag=no_ft_nf_kk
+29	Svíar	Svíi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	23	advcl	_	tag=no_ft_nf_kk
 30	,	_	PUNCT	grm	_	29	punct	_	tag=grm
 31	að	að	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
 32	sögn	sögn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	tag=no_et_þgf_kvk
-33	Sigríðar	Sigríður	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	32	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
+33	Sigríðar	Sigríður	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	32	nmod:poss	_	tag=person_ef_kvk
 34	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 

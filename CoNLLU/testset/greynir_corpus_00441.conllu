@@ -24,12 +24,12 @@
 22	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00441,.2
-# text = Ég tilkynnti Þorsteini Má í símtali þá niðurstöðu en við höfðum verið í símasambandi um stöðu málsins á fyrstu mánuðum ársins 2013. “
+# text = Ég tilkynnti Þorsteini Má í símtali þá niðurstöðu en við höfðum verið í símasambandi um stöðu málsins á fyrstu mánuðum ársins 2013.“
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	tilkynnti	tilkynna	VERB	so_2_þgf_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p1_et_þt_gm
 3-4	Þorsteini Má	_	_	_	_	_	_	_	_
 3	Þorsteini	Þorsteinn	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	2	iobj	_	tag=person_þgf_kk
-4	Má	Már	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	3	_	_	tag=person_þgf_kk
+4	Má	Már	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	3	flat	_	tag=person_þgf_kk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	símtali	símtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 7	þá	sá	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	tag=fn_et_þf_kvk
@@ -53,7 +53,7 @@
 24	“	“	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00441,.3
-# text = Víkingur vann sinn fyrsta sigur í deildinni en lokatölur urðu 0 : 3 eftir að staðan í hálfleik var 0 : 0
+# text = Víkingur vann sinn fyrsta sigur í deildinni en lokatölur urðu 0: 3 eftir að staðan í hálfleik var 0: 0
 1	Víkingur	Víkingur	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=fyrirtæki_et_nf_kk
 2	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	sinn	sinn	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	tag=fn_et_þf_kk
@@ -130,7 +130,7 @@
 22	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00441,.6
-# text = „ Við ætlum ekkert að blekkja sjálfa okkur með því að halda að við séum komnir í baráttu um einhverja titla.
+# text = „Við ætlum ekkert að blekkja sjálfa okkur með því að halda að við séum komnir í baráttu um einhverja titla.
 1	„	„	PUNCT	grm	_	3	punct	_	tag=grm
 2	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
 3	ætlum	ætla	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_nt_gm
@@ -155,7 +155,7 @@
 22	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00441,.7
-# text = Það hefur kannski vantað upp á hjá okkur, “ segir Damir en Blikaliðið er aðeins búið að skora þrettán mörk.
+# text = Það hefur kannski vantað upp á hjá okkur,“ segir Damir en Blikaliðið er aðeins búið að skora þrettán mörk.
 1	Það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_þf_hk_p3
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	kannski	kannski	ADV	ao	_	4	advmod	_	tag=ao
@@ -236,7 +236,7 @@
 3	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 4-5	Þórður Sveinsson	_	_	_	_	_	_	_	_
 4	Þórður	Þórður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	SpaceAfter=No|tag=person_nf_kk
-5	Sveinsson	Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	SpaceAfter=No|tag=person_nf_kk
+5	Sveinsson	Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	SpaceAfter=No|tag=person_nf_kk
 6	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 7	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 8	geðlæknir	geðlæknir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk

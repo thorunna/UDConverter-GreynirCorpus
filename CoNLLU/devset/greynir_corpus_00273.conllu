@@ -45,16 +45,16 @@
 
 # sent_id = GREYNIR_CORPUS_00273,.3
 # text = Frá þessu greindi Trump í gær en áformin eru í takt við stefnumál hans í forsetakosningum síðasta árs.
-1	Frá	frá	ADP	fs_þgf	Case=Dat	0	root	_	tag=fs_þgf
+1	Frá	frá	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
-3	greindi	greina	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_þt_gm
+3	greindi	greina	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
 5-6	í gær	_	_	_	_	_	_	_	_
 5	í	í	ADV	ao	_	3	advmod	_	tag=ao
 6	gær	gær	ADV	ao	_	5	fixed	_	tag=ao
-7	en	en	CCONJ	st	_	1	cc	_	tag=st
+7	en	en	CCONJ	st	_	3	cc	_	tag=st
 8	áformin	áform	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	9	nsubj	_	tag=no_ft_nf_hk_gr
-9	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_ft_nt_gm
+9	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_nt_gm
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	takt	taktur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þgf_kk
 12	við	við	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
@@ -64,7 +64,7 @@
 16	forsetakosningum	forsetakosning	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	tag=no_ft_þgf_kvk
 17	síðasta	síðari	ADJ	lo_et_ef_kk_evb	Case=Gen|Degree=Sup|Gender=Masc|Number=Sing	18	amod	_	tag=lo_et_ef_kk_evb
 18	árs	ár	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
-19	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00273,.4
 # text = KR mætti í dag til Grindavíkur í sannkallaðari veðurblíðu og mættu heimamönnum í Pepsi deild karla í fótbolta.
@@ -103,7 +103,7 @@
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12-13	Karl Lagerfeld	_	_	_	_	_	_	_	_
 12	Karl	Karl	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-13	Lagerfeld	Lagerfeld	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	_	_	SpaceAfter=No|tag=person_nf_kk
+13	Lagerfeld	Lagerfeld	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	SpaceAfter=No|tag=person_nf_kk
 14	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 15	um	um	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 16	rúmlega	rúmlega	ADV	eo	_	18	advmod	_	tag=eo
@@ -115,8 +115,8 @@
 # text = Guðmundur Oddur Magnússon, Goddur, felldi svo sinn stóra dóm í Síðdegisútvarpinu á Rás 2 í dag.
 1-3	Guðmundur Oddur Magnússon	_	_	_	_	_	_	_	_
 1	Guðmundur	Guðmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Oddur	Oddur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
-3	Magnússon	Magnússon	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	SpaceAfter=No|tag=person_nf_kk
+2	Oddur	Oddur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+3	Magnússon	Magnússon	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	Goddur	Goddur	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_hk
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
@@ -203,8 +203,6 @@
 18	hugmyndavinnu	hugmyndavinna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 19	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00273,.10
-# text = Þess vegna skiptir svo miklu máli að við séum að þróa lifandi, áhugaverða og fjölbreytta borg.
 1	Þess	þess	ADV	ao	_	3	advmod	_	tag=ao
 2	vegna	vegna	ADV	ao	_	1	advmod	_	tag=ao
 3	skiptir	skipta	VERB	so_2_þgf_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þgf_þgf_fh_p3_et_nt_gm
@@ -216,11 +214,11 @@
 9	séum	vera	VERB	so_0_vh_p1_ft_nt_gm	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	obj	_	tag=so_0_vh_p1_ft_nt_gm
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
 11	þróa	þróa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þf_nh_gm
-12	lifandi	lifa	VERB	so_0_lhnt	_	17	amod	_	SpaceAfter=No|tag=so_0_lhnt
+12	lifandi	lifa	VERB	so_0_lhnt	_	17	('HALLÓ_so', '0_lhnt', 'NP', 'OBJ')	_	tag=so_0_lhnt
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	áhugaverða	áhugaverður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	tag=lo_et_þf_kvk_sb
 15	og	og	CCONJ	st	_	17	cc	_	tag=st
 16	fjölbreytta	fjölbreyttur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	tag=lo_et_þf_kvk_sb
-17	borg	borg	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
+17	borg	borg	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	tag=no_et_þf_kvk
 18	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

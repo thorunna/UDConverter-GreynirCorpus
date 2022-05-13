@@ -7,7 +7,7 @@
 5	óska	ósk	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 6-7	Max Brod	_	_	_	_	_	_	_	_
 6	Max	Max	PROPN	person_ef_kk	Case=Gen|Gender=Masc	5	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-7	Brod	Brod	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	_	_	SpaceAfter=No|tag=person_ef_kk
+7	Brod	Brod	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	flat	_	SpaceAfter=No|tag=person_ef_kk
 8	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 9	vinar	vina	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	conj	_	tag=no_et_ef_kk
 10	Kafka	Kafka	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	6	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
@@ -28,16 +28,16 @@
 
 # sent_id = GREYNIR_CORPUS_00354,.3
 # text = Í Írak eru átta látnir og nokkur hundruð slösuðust.
-1	Í	í	ADP	fs_þgf	Case=Dat	0	root	_	tag=fs_þgf
+1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	Írak	Írak	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_hk
 3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_nt_gm
 4	átta	átta	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=töl_ft_nf_kk
-5	látnir	láta	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	3	xcomp	_	tag=so_0_lhþt_ft
-6	og	og	CCONJ	st	_	1	cc	_	tag=st
+5	látnir	láta	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
+6	og	og	CCONJ	st	_	5	cc	_	tag=st
 7	nokkur	nokkur	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	8	nmod	_	tag=fn_ft_nf_hk
 8	hundruð	hundrað	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	tag=no_ft_nf_hk
-9	slösuðust	slasa	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	1	conj	_	SpaceAfter=No|tag=so_0_fh_p3_ft_þt_mm
-10	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+9	slösuðust	slasa	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	5	conj	_	SpaceAfter=No|tag=so_0_fh_p3_ft_þt_mm
+10	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00354,.4
 # text = Segir af sér í skugga ásakana um ofbeldi gegn konu
@@ -54,18 +54,18 @@
 
 # sent_id = GREYNIR_CORPUS_00354,.5
 # text = Undir þetta tekur Jónas Haraldsson hæstaréttarlögmaður og lögmaður margra sjómannafélaga.
-1	Undir	undir	ADP	fs_þf	Case=Acc	0	root	_	tag=fs_þf
+1	Undir	undir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þf_hk
-3	tekur	taka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+3	tekur	taka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4-5	Jónas Haraldsson	_	_	_	_	_	_	_	_
 4	Jónas	Jónas	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-5	Haraldsson	Haraldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
+5	Haraldsson	Haraldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
 6	hæstaréttarlögmaður	hæstaréttarlögmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
 8	lögmaður	lögmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	tag=no_et_nf_kk
 9	margra	margur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	10	amod	_	tag=lo_ft_ef_kk_sb
 10	sjómannafélaga	sjómannafélag	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	6	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
-11	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00354,.6
 # text = Gildir þetta jafnt fyrir atvinnutæki og tæki til einkanota.
@@ -123,10 +123,6 @@
 
 # sent_id = GREYNIR_CORPUS_00354,.10
 # text = Myndskeið af fyrirhuguðum mannvirkjum var sýnt í fréttum Stöðvar 2.
-<<<<<<< HEAD
-=======
--1	None	_	None	None	_	_	None	_	_
->>>>>>> master
 1	Myndskeið	myndskeið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
 2	af	af	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 3	fyrirhuguðum	fyrirhuga	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	4	amod	_	tag=lo_ft_þgf_hk_sb
@@ -135,13 +131,8 @@
 6	sýnt	sýna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	fréttum	frétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_þgf_kvk
-<<<<<<< HEAD
 9-10	Stöðvar 2	_	_	_	_	_	_	_	_
 9	Stöðvar	Stöðvar	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
-10	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	_	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
+10	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	flat	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
 11	.	.	PUNCT	grm	_	6	punct	_	tag=grm
-=======
-9	Stöðvar 2	Stöðvar 2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
-10	.	.	PUNCT	grm	_	6	punct	_	tag=grm
->>>>>>> master
 

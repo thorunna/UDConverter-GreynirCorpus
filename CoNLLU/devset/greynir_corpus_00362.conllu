@@ -29,8 +29,8 @@
 
 # sent_id = GREYNIR_CORPUS_00362,.3
 # text = Var gert ráð fyrir að hlutafé yrði aukið um 300 milljónir.
-1	Var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-2	gert	ger	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	xcomp	_	tag=so_0_lhþt_et
+1	Var	var	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	aux	_	tag=so_0_fh_p3_et_þt_gm
+2	gert	ger	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 3	ráð	ráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=no_et_nf_hk
 4	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
 5	að	að	SCONJ	st	_	8	mark	_	tag=st
@@ -41,7 +41,7 @@
 10-11	300 milljónir	_	_	_	_	_	_	_	_
 10	300	300	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|tag=töl_ft_þf_kvk
 11	milljónir	milljónir	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	_	_	SpaceAfter=No|tag=töl_ft_þf_kvk
-12	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00362,.4
 # text = Ég skil ekki af hverju þetta er svona flókið.
@@ -80,7 +80,7 @@
 6	strikuðu	strika	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 7-8	Sigmund Davíð	_	_	_	_	_	_	_	_
 7	Sigmund	Sigmund	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	obj	_	tag=person_þf_kk
-8	Davíð	Davíð	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	_	_	tag=person_þf_kk
+8	Davíð	Davíð	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	flat	_	tag=person_þf_kk
 9	út	út	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
 10	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
@@ -131,10 +131,9 @@
 # sent_id = GREYNIR_CORPUS_00362,.10
 # text = Öldungadeildaþingmaðurinn Patrick Leahy segir málið ekkert minna en Nixon-málið.
 1	Öldungadeildaþingmaðurinn	öldungadeilda-þingmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
-<<<<<<< HEAD
 2-3	Patrick Leahy	_	_	_	_	_	_	_	_
 2	Patrick	Patrick	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-3	Leahy	Leahy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
+3	Leahy	Leahy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	flat	_	tag=person_nf_kk
 4	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 5	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þf_hk_gr
 6	ekkert	ekkert	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	xcomp	_	tag=fn_et_þf_hk
@@ -142,14 +141,4 @@
 8	en	en	CCONJ	st	_	9	cc	_	tag=st
 9	Nixon-málið	Nixon-mál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	advcl	_	SpaceAfter=No|tag=no_et_nf_hk_gr
 10	.	.	PUNCT	grm	_	4	punct	_	tag=grm
-=======
-2	Patrick Leahy	Patrick Leahy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-3	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-4	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þf_hk_gr
-5	ekkert	ekkert	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	xcomp	_	tag=fn_et_þf_hk
-6	minna	lítill	ADV	ao_mst	Degree=Cmp	5	advmod	_	tag=ao_mst
-7	en	en	CCONJ	st	_	8	cc	_	tag=st
-8	Nixon-málið	Nixon-mál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	advcl	_	SpaceAfter=No|tag=no_et_nf_hk_gr
-9	.	.	PUNCT	grm	_	3	punct	_	tag=grm
->>>>>>> master
 

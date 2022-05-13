@@ -29,8 +29,8 @@
 10	um	um	ADV	eo	_	11	advmod	_	tag=eo
 11-13	150 milljónir króna	_	_	_	_	_	_	_	_
 11	150	150	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
-12	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	_	_	SpaceAfter=No|tag=no_ft_þf_kvk
-13	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	_	_	SpaceAfter=No|tag=no_ft_þf_kvk
+12	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	flat	_	SpaceAfter=No|tag=no_ft_þf_kvk
+13	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	flat	_	SpaceAfter=No|tag=no_ft_þf_kvk
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00239,.3
@@ -43,8 +43,8 @@
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7-9	hundrað þúsund krónur	_	_	_	_	_	_	_	_
 7	hundrað	hundrað	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_þf_hk
-8	þúsund	þúsund	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	_	_	tag=no_ft_þf_hk
-9	krónur	krónur	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	_	_	tag=no_ft_þf_hk
+8	þúsund	þúsund	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	flat	_	tag=no_ft_þf_hk
+9	krónur	krónur	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	flat	_	tag=no_ft_þf_hk
 10	strax	strax	ADV	ao	_	13	advmod	_	tag=ao
 11	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 12	næstu	næstur	ADJ	lo_ft_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur	13	amod	_	tag=lo_ft_þf_hk_evb
@@ -151,8 +151,6 @@
 13	hendur	hönd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00239,.10
-# text = Við höfum verið að lækka skuldir og búa í haginn fyrir framtíðina.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
 2	höfum	hafa	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p1_ft_nt_gm
 3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
@@ -164,6 +162,6 @@
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	haginn	hagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þf_kk_gr
 11	fyrir	fyrir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-12	framtíðina	framtíð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
+12	framtíðina	framtíð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk_gr
 13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

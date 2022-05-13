@@ -19,8 +19,8 @@
 
 # sent_id = GREYNIR_CORPUS_00401,.2
 # text = Ertu sammála rökum þeirra sem telja kynjakvóta nauðsynlegan til að viðhalda jöfnum kynjahlutföllum á þingi?
-1	Ertu	vera	VERB	so_0_fh_p2_et_nt_gm_sn	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p2_et_nt_gm_sn
-2	sammála	sammála	ADJ	lo_et_nf_sb_sþgf	Case=Nom|Number=Sing	1	xcomp	_	tag=lo_et_nf_sb_sþgf
+1	Ertu	vera	VERB	so_0_fh_p2_et_nt_gm_sn	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_fh_p2_et_nt_gm_sn
+2	sammála	sammála	ADJ	lo_et_nf_sb_sþgf	Case=Nom|Number=Sing	0	root	_	tag=lo_et_nf_sb_sþgf
 3	rökum	rök	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
 4	þeirra	sá	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nmod:poss	_	tag=fn_ft_ef_kk
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
@@ -34,11 +34,10 @@
 13	kynjahlutföllum	kynja-hlutfall	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	obj	_	tag=no_ft_þgf_hk
 14	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	þingi	þing	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-16	?	?	PUNCT	grm	_	1	punct	_	tag=grm
+16	?	?	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00401,.3
 # text = Á sama tíma í fyrra var atvinnuleysi um 4,6 prósent og hefur því minnkað um rúmt hálft prósent.
-<<<<<<< HEAD
 1-3	Á sama tíma	_	_	_	_	_	_	_	_
 1	Á	á	ADV	ao	_	8	advmod	_	tag=ao
 2	sama	sama	ADV	ao	_	1	fixed	_	tag=ao
@@ -60,24 +59,6 @@
 17	hálft	hálfur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_þf_hk_sb
 18	prósent	prósent	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 19	.	.	PUNCT	grm	_	8	punct	_	tag=grm
-=======
-1	Á sama tíma	á sama tíma	ADV	ao	_	6	advmod	_	tag=ao
-2	í	í	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
-3	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	6	advmod	_	tag=lo_et_þf_hk_mst
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
-5	atvinnuleysi	atvinnuleysi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
-6	um	um	ADV	eo	_	0	root	_	tag=eo
-7	4,6 prósent	4,6 prósent	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nummod	_	tag=prósenta_ft_nf_hk
-8	og	og	CCONJ	st	_	6	cc	_	tag=st
-9	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
-10	því	því	ADV	ao	_	11	advmod	_	tag=ao
-11	minnkað	minnka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	conj	_	tag=so_0_sagnb_gm
-12	um	um	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-13	rúmt	rúmur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_þf_hk_sb
-14	hálft	hálfur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_þf_hk_sb
-15	prósent	prósent	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-16	.	.	PUNCT	grm	_	6	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00401,.4
 # text = Þá vann Bólivía 2 — 0 sigur á Perú í þunna loftinu í La Paz.
@@ -105,11 +86,11 @@
 3	vinkonurnar	vinkona	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_nf_kvk_gr
 4-5	Solla Eiríks	_	_	_	_	_	_	_	_
 4	Solla	Solla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-5	Eiríks	Eiríks	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	_	_	SpaceAfter=No|tag=person_nf_kvk
+5	Eiríks	Eiríks	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	flat	_	SpaceAfter=No|tag=person_nf_kvk
 6	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 7-8	Vala Matt	_	_	_	_	_	_	_	_
 7	Vala	Vala	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	tag=person_nf_kvk
-8	Matt	Matt	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	_	_	tag=person_nf_kvk
+8	Matt	Matt	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	flat	_	tag=person_nf_kvk
 9	og	og	CCONJ	st	_	4	cc	_	tag=st
 10	Ásdís	Ásdís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	tag=person_nf_kvk
 11	grasalæknir	grasalæknir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
@@ -165,24 +146,24 @@
 1	Leikkonurnar	leikkona	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_nf_kvk_gr
 2-4	Aldís Amah Hamilton	_	_	_	_	_	_	_	_
 2	Aldís	Aldís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-3	Amah	Amah	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	_	_	SpaceAfter=No|tag=person_nf_kvk
-4	Hamilton	Hamilton	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	_	_	SpaceAfter=No|tag=person_nf_kvk
+3	Amah	Amah	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	flat	_	SpaceAfter=No|tag=person_nf_kvk
+4	Hamilton	Hamilton	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	flat	_	SpaceAfter=No|tag=person_nf_kvk
 5	,	,	PUNCT	grm	_	6	punct	_	tag=grm
 6-7	Ragnheiður Steindórsdóttir	_	_	_	_	_	_	_	_
 6	Ragnheiður	Ragnheiður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	conj	_	tag=person_nf_kvk
-7	Steindórsdóttir	Steindórsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	_	_	tag=person_nf_kvk
+7	Steindórsdóttir	Steindórsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	flat	_	tag=person_nf_kvk
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
 9-11	Esther Talía Casey	_	_	_	_	_	_	_	_
 9	Esther	Esther	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	conj	_	tag=person_nf_kvk
-10	Talía	Talía	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	_	_	tag=person_nf_kvk
-11	Casey	Casey	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	_	_	tag=person_nf_kvk
+10	Talía	Talía	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	tag=person_nf_kvk
+11	Casey	Casey	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	tag=person_nf_kvk
 12	fluttu	flytja	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 13	örverk	ör-verk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	tag=no_et_þf_hk
 14	eftir	eftir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15-17	Yrsu Þöll Gylfadóttur	_	_	_	_	_	_	_	_
 15	Yrsu	Yrsa	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	13	obl	_	tag=person_þf_kvk
-16	Þöll	Þöll	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	_	_	tag=person_þf_kvk
-17	Gylfadóttur	Gylfadóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	16	_	_	tag=person_þf_kvk
+16	Þöll	Þöll	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	flat	_	tag=person_þf_kvk
+17	Gylfadóttur	Gylfadóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	flat	_	tag=person_þf_kvk
 18	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19	samstöðufundi	samstöðu-fundur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þgf_kk
 20	kvenna	kona	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	19	nmod:poss	_	tag=no_ft_ef_kvk
@@ -211,12 +192,10 @@
 16	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No|tag=pfn_et_þf_hk_p3
 17	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00401,.10
-# text = Við innheimtum rétt laun, þau greiða þau jafnvel og halda áfram á sömu braut.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_p1
 2	innheimtum	innheimta	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_ft_nt_gm
 3	rétt	réttur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_þf_hk_sb
-4	laun	laun	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|tag=no_et_þf_hk
+4	laun	laun	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 6	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_ft_nf_hk_p3
 7	greiða	greiða	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
@@ -227,6 +206,6 @@
 12	áfram	áfram	ADV	ao	_	15	advmod	_	tag=ao
 13	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 14	sömu	sami	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	tag=fn_et_þgf_kvk
-15	braut	braut	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+15	braut	braut	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
 16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

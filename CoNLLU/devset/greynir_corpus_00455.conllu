@@ -28,8 +28,8 @@
 # text = Viðar Örn Hafsteinsson, þjálfari Hattar, lék ekki með liðinu í Domino´s deildinni í fyrra en hann hefur nú tekið skóna fram að nýju.
 1-3	Viðar Örn Hafsteinsson	_	_	_	_	_	_	_	_
 1	Viðar	Viðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Örn	Örn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
-3	Hafsteinsson	Hafsteinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	SpaceAfter=No|tag=person_nf_kk
+2	Örn	Örn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+3	Hafsteinsson	Hafsteinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 5	þjálfari	þjálfari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	Hattar	Höttur	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
@@ -216,11 +216,10 @@
 
 # sent_id = GREYNIR_CORPUS_00455,.9
 # text = Tillaga Hildar Björnsdóttur, borgarfulltrúa Sjálfstæðisflokksins, um að gera bólusetningar að skilyrði við innritun barna á leikskólum Reykjavíkur var felld á fundi borgarstjórnar í gær.
-<<<<<<< HEAD
 1	Tillaga	tillaga	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	tag=no_et_nf_kvk
 2-3	Hildar Björnsdóttur	_	_	_	_	_	_	_	_
 2	Hildar	Hildar	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	1	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
-3	Björnsdóttur	Björnsdóttur	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	_	_	SpaceAfter=No|tag=person_ef_kvk
+3	Björnsdóttur	Björnsdóttur	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	flat	_	SpaceAfter=No|tag=person_ef_kvk
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 5	borgarfulltrúa	borgarfulltrúi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_ef_kk
 6	Sjálfstæðisflokksins	Sjálfstæðisflokkur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
@@ -246,36 +245,7 @@
 25	í	í	ADV	ao	_	21	advmod	_	SpaceAfter=No|tag=ao
 26	gær	gær	ADV	ao	_	25	fixed	_	SpaceAfter=No|tag=ao
 27	.	.	PUNCT	grm	_	21	punct	_	tag=grm
-=======
-1	Tillaga	tillaga	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	tag=no_et_nf_kvk
-2	Hildar Björnsdóttur	Hildar Björnsdóttur	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	1	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
-3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
-4	borgarfulltrúa	borgarfulltrúi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_ef_kk
-5	Sjálfstæðisflokksins	Sjálfstæðisflokkur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
-6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
-7	um	um	ADP	fs_nh	VerbForm=Inf	9	case	_	tag=fs_nh
-8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	gera	gera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	obl	_	tag=so_1_þf_nh_gm
-10	bólusetningar	bólusetning	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	tag=no_ft_þf_kvk
-11	að	að	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	skilyrði	skilyrða	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
-13	við	við	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14	innritun	innritun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þf_kvk
-15	barna	barn	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	nmod:poss	_	tag=no_ft_ef_hk
-16	á	á	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	leikskólum	leikskóli	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	tag=no_ft_þgf_kk
-18	Reykjavíkur	Reykjavík	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	17	nmod:poss	_	tag=sérnafn_et_ef_kvk
-19	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_þt_gm
-20	felld	fella	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-21	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-22	fundi	fundur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	tag=no_et_þgf_kk
-23	borgarstjórnar	borgarstjórn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	22	nmod:poss	_	tag=no_et_ef_kvk
-24	í gær	í gær	ADV	ao	_	20	advmod	_	SpaceAfter=No|tag=ao
-25	.	.	PUNCT	grm	_	20	punct	_	tag=grm
->>>>>>> master
 
-# sent_id = GREYNIR_CORPUS_00455,.10
-# text = Eftir leikinn í dag hefur Southampton aðeins unnið einn af síðustu 20 leikjum sínum í deildinni, en sá sigur kom gegn botnliði WBA.
 1	Eftir	eftir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	leikinn	leikur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	advmod	_	tag=no_et_þf_kk_gr
 3	í	í	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
@@ -291,7 +261,7 @@
 13	leikjum	leikur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	tag=no_ft_þgf_kk
 14	sínum	sinn	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	tag=fn_ft_þgf_kk
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	deildinni	deild	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
+16	deildinni	deild	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þgf_kvk_gr
 17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 18	en	en	CCONJ	st	_	8	cc	_	tag=st
 19	sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	tag=fn_et_nf_kk
@@ -299,6 +269,6 @@
 21	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_þt_gm
 22	gegn	gegn	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	botnliði	botn-lið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	tag=no_et_þgf_hk
-24	WBA	WBA	PROPN	fyrirtæki_ef	Case=Gen	23	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ef
+24	WBA	WBA	PROPN	fyrirtæki_ef	Case=Gen	23	nmod:poss	_	tag=fyrirtæki_ef
 25	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 

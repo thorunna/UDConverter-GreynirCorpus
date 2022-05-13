@@ -2,11 +2,7 @@
 # text = Að því búnu fer annar skipverjanna um borð í Polar Nanoq en hinn ekur um hafnarsvæðið í góðar 40 mínútur.
 1	Að	að	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	því	sá	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	tag=pfn_et_þgf_hk_p3
-<<<<<<< HEAD
 3	búnu	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	('HALLÓ_so', '0_lhþt_et', 'NP', None)	_	tag=so_0_lhþt_et
-=======
-3	búnu	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	amod	_	tag=so_0_lhþt_et
->>>>>>> master
 4	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	annar	anna	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=fn_et_nf_kk
 6	skipverjanna	skipverji	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod:poss	_	tag=no_ft_ef_kk_gr
@@ -77,9 +73,9 @@
 
 # sent_id = GREYNIR_CORPUS_00432,.4
 # text = Talið er að minnst 250 þeirra hafi tekist að smygla sér til Evrópu frá árslokum 2014 til miðs 2016.
-1	Talið	telja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
+1	Talið	telja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	3	conj	_	tag=so_0_sagnb_gm
 2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	að	að	SCONJ	st	_	1	xcomp	_	tag=st
+3	að	að	SCONJ	st	_	0	root	_	tag=st
 4	minnst	lítið	ADV	eo_est	Degree=Sup	6	advmod	_	tag=eo_est
 5	250	250	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_nf_hk
 6	þeirra	sá	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_ft_ef_hk_p3
@@ -96,7 +92,7 @@
 17	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
 18	miðs	mið	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_ef_kk
 19	2016	2016	NUM	ártal	_	18	nmod:poss	_	SpaceAfter=No|tag=ártal
-20	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00432,.5
 # text = Ég veit ekki hve oft slík spurningaflóð hafa hrunið yfir mig, sérstaklega á meðan ég var enn í námi.
@@ -161,7 +157,6 @@
 11	Ólympíulið	ólympíulið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_nf_hk
 12	flóttamanna	flóttamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	11	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
 13	(	_	PUNCT	grm	_	12	punct	_	tag=grm
-<<<<<<< HEAD
 14-18	Team of Refugee Olympic Athletes	_	_	_	_	_	_	_	_
 14	Team	Team	X	foreign	_	11	obl	_	SpaceAfter=No|tag=foreign
 15	of	of	X	foreign	_	14	flat:foreign	_	SpaceAfter=No|tag=foreign
@@ -169,16 +164,9 @@
 17	Olympic	Olympic	X	foreign	_	16	flat:foreign	_	SpaceAfter=No|tag=foreign
 18	Athletes	Athletes	X	foreign	_	17	flat:foreign	_	SpaceAfter=No|tag=foreign
 19	-	-	PUNCT	grm	_	14	punct	_	tag=grm
-20	ROA	ROA	NOUN	abbrev	_	14	flat	_	SpaceAfter=No|tag=abbrev
+20	ROA	ROA	ADV	abbrev	_	14	advmod	_	SpaceAfter=No|tag=abbrev
 21	)	_	PUNCT	grm	_	20	punct	_	SpaceAfter=No|tag=grm
 22	.	.	PUNCT	grm	_	3	punct	_	tag=grm
-=======
-14	Team of Refugee Olympic Athletes	Team of Refugee Olympic Athletes	X	foreign	_	11	obl	_	SpaceAfter=No|tag=foreign
-15	-	-	PUNCT	grm	_	14	punct	_	tag=grm
-16	ROA	ROA	ADV	abbrev	_	14	advmod	_	SpaceAfter=No|tag=abbrev
-17	)	_	PUNCT	grm	_	16	punct	_	SpaceAfter=No|tag=grm
-18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00432,.8
 # text = Munurinn á flokkunum tveimur, sem sögulega hafa verið turnarnir tveir í norskum stjórnmálum, er hins vegar innan skekkjumarka.
@@ -221,16 +209,16 @@
 11	að	að	ADV	ao	_	12	advmod	_	tag=ao
 12-14	150 milljónir punda	_	_	_	_	_	_	_	_
 12	150	150	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	tag=no_ft_þf_kvk
-13	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	_	_	tag=no_ft_þf_kvk
-14	punda	punda	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	_	_	tag=no_ft_þf_kvk
+13	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	flat	_	tag=no_ft_þf_kvk
+14	punda	punda	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	flat	_	tag=no_ft_þf_kvk
 15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	bætur	bót	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 18	um	um	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 19-21	19 milljarða króna	_	_	_	_	_	_	_	_
 19	19	19	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
-20	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	_	_	SpaceAfter=No|tag=no_ft_þf_kk
-21	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	20	_	_	SpaceAfter=No|tag=no_ft_þf_kk
+20	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
+21	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
 22	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 23	vegna	vega	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
 24	tölvubilunarinnar	tölvubilun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_ef_kvk_gr

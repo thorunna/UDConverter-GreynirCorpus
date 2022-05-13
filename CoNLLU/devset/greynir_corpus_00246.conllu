@@ -2,7 +2,7 @@
 # text = Leifur Bárðarson, starfandi landlæknir, segir enga eina skýringu á þessari aukningu.
 1-2	Leifur Bárðarson	_	_	_	_	_	_	_	_
 1	Leifur	Leifur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Bárðarson	Bárðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+2	Bárðarson	Bárðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 4	starfandi	starfa	VERB	so_0_lhnt	_	5	VANTAR_LIÐ_VP_None	_	tag=so_0_lhnt
 5	landlæknir	landlæknir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
@@ -18,15 +18,6 @@
 
 # sent_id = GREYNIR_CORPUS_00246,.2
 # text = EM er geymt en ekki gleymt en við lifum ekkert lengur á því.
-<<<<<<< HEAD
-1	EM	EM	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
-3	geymt	geyma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	('HALLÓ_so', '0_lhþt_et', 'NP', 'PRD')	_	tag=so_0_lhþt_et
-4	en	en	CCONJ	st	_	6	cc	_	tag=st
-5	ekki	ekki	ADV	eo	_	6	advmod	_	tag=eo
-6	gleymt	gleymdur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
-7	en	en	CCONJ	st	_	6	cc	_	tag=st
-=======
 1	EM	EM	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	geymt	geyma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
@@ -34,7 +25,6 @@
 5	ekki	ekki	ADV	eo	_	3	conj	_	tag=eo
 6	gleymt	gleymdur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	tag=lo_et_nf_hk_sb
 7	en	en	CCONJ	st	_	3	cc	_	tag=st
->>>>>>> master
 8	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	tag=pfn_ft_nf_p1
 9	lifum	lifa	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þf_fh_p1_ft_nt_gm
 10	ekkert	enginn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	tag=fn_et_þf_hk
@@ -116,10 +106,10 @@
 
 # sent_id = GREYNIR_CORPUS_00246,.7
 # text = Hefur málið þannig undið uppá sig og sér ekki fyrir enda á þeim deilum.
-1	Hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+1	Hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 2	málið	mál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
 3	þannig	þannig	ADV	ao	_	4	advmod	_	tag=ao
-4	undið	vinda	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	conj	_	tag=so_0_sagnb_gm
+4	undið	vinda	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 5	uppá	uppá	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	4	obl	_	tag=abfn_þf
 7	og	og	CCONJ	st	_	4	cc	_	tag=st
@@ -130,7 +120,7 @@
 12	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 13	þeim	sá	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	tag=fn_ft_þgf_kvk
 14	deilum	deila	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-15	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00246,.8
 # text = Á sama tíma hafa rúmlega 200 Palestínumenn, þá helst árásarmenn, látið lífið.
@@ -167,8 +157,6 @@
 12	erfðasyndir	erfðasynd	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|tag=no_ft_nf_kvk
 13	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00246,.10
-# text = Þessum ímyndaða Íslendingi finnst arkitektúr módernistanna kaldur og ekki í manneskjulegum skala.
 1	Þessum	þessi	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_þgf_kk
 2	ímyndaða	ímyndaður	ADJ	lo_et_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	tag=lo_et_þgf_kk_vb
 3	Íslendingi	Íslendingur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_þgf_kk
@@ -180,6 +168,6 @@
 9	ekki	ekki	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_nf_kk
 10	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 11	manneskjulegum	manneskjulegur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_þgf_kk_sb
-12	skala	skali	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
+12	skala	skali	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
 13	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

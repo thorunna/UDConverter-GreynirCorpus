@@ -40,30 +40,30 @@
 
 # sent_id = GREYNIR_CORPUS_00408,.3
 # text = Með aðalhlutverk í þessum vinsælu grínþáttum fara þau Saga Garðarsdóttir, Steindi Jr., Auðunn Blöndal og Sverrir Þór Sverrisson.
-1	Með	með	ADP	fs_þf	Case=Acc	0	root	_	tag=fs_þf
+1	Með	með	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	aðalhlutverk	aðalhlutverk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
 3	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 4	þessum	þessi	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	tag=fn_ft_þgf_kk
 5	vinsælu	vinsæll	ADJ	lo_ft_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_þgf_kk_vb
 6	grínþáttum	grín-þátta	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_þgf_kk
-7	fara	fara	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_ft_nt_gm
+7	fara	fara	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 8	þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	9	nmod	_	tag=pfn_ft_nf_hk_p3
 9-10	Saga Garðarsdóttir	_	_	_	_	_	_	_	_
 9	Saga	Saga	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-10	Garðarsdóttir	Garðarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	_	_	SpaceAfter=No|tag=person_nf_kvk
+10	Garðarsdóttir	Garðarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	SpaceAfter=No|tag=person_nf_kvk
 11	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 12	Steindi	steindur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	tag=person_nf_kk
 13	Jr.	Jr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat:name	_	SpaceAfter=No|tag=person_nf_kk
 14	,	,	PUNCT	grm	_	15	punct	_	tag=grm
 15-16	Auðunn Blöndal	_	_	_	_	_	_	_	_
 15	Auðunn	Auðunn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	conj	_	tag=person_nf_kk
-16	Blöndal	Blöndal	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	_	_	tag=person_nf_kk
+16	Blöndal	Blöndal	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	tag=person_nf_kk
 17	og	og	CCONJ	st	_	9	cc	_	tag=st
 18-20	Sverrir Þór Sverrisson	_	_	_	_	_	_	_	_
 18	Sverrir	Sverrir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	SpaceAfter=No|tag=person_nf_kk
-19	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	_	_	SpaceAfter=No|tag=person_nf_kk
-20	Sverrisson	Sverrisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	_	_	SpaceAfter=No|tag=person_nf_kk
-21	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+19	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	SpaceAfter=No|tag=person_nf_kk
+20	Sverrisson	Sverrisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	SpaceAfter=No|tag=person_nf_kk
+21	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00408,.4
 # text = Líklega munu 40% nýrra starfsmanna í ferðaþjónustunni á þessu ári og því næsta koma erlendis frá.
@@ -160,11 +160,11 @@
 9	mánuði	mánuður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	tag=no_ft_þf_kk
 10	eða	eða	CCONJ	st	_	11	cc	_	tag=st
 11	ár	ár	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
-12	fái	fá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	tag=so_0_vh_p3_et_nt_gm
+12	fái	fá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	conj	_	tag=so_0_vh_p3_et_nt_gm
 13	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
 14	ekki	ekki	ADV	ao	_	16	advmod	_	tag=ao
 15	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obj	_	tag=fn_et_þgf_hk
-16	framgengt	framgengt	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	('HALLÓ_so', '0_lhþt_et', 'VP', None)	_	SpaceAfter=No|tag=so_0_lhþt_et
+16	framgengt	framgengt	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	advcl	_	SpaceAfter=No|tag=so_0_lhþt_et
 17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00408,.9

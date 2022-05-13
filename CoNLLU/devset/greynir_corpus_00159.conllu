@@ -34,7 +34,7 @@
 2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 3-4	á milli	_	_	_	_	_	_	_	_
 3	á	á	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
-4	milli	milli	ADP	fs_ef	Case=Gen	3	_	_	tag=fs_ef
+4	milli	milli	ADP	fs_ef	Case=Gen	3	fixed	_	tag=fs_ef
 5	Roberts	Robert	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	obl	_	tag=person_ef_kk
 6	gamla	gamall	ADJ	lo_et_ef_hk_vb	Case=Gen|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_ef_hk_vb
 7	Plant	Plant	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|tag=no_et_ef_hk
@@ -58,7 +58,7 @@
 24	,	_	PUNCT	grm	_	23	punct	_	tag=grm
 25-26	Maureen Plant	_	_	_	_	_	_	_	_
 25	Maureen	Maureen	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_nf_hk
-26	Plant	Plant	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	25	_	_	SpaceAfter=No|tag=no_et_nf_hk
+26	Plant	Plant	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	25	flat	_	SpaceAfter=No|tag=no_et_nf_hk
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00159,.3
@@ -126,7 +126,7 @@
 1	Verjandi	verjandi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
 2-3	Ívars Gylfasonar	_	_	_	_	_	_	_	_
 2	Ívars	Ívar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	1	nmod:poss	_	tag=person_ef_kk
-3	Gylfasonar	Gylfason	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	_	_	tag=person_ef_kk
+3	Gylfasonar	Gylfason	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	flat	_	tag=person_ef_kk
 4	spurði	spyrja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 5	hvers	hver	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	tag=fn_et_ef_hk
 6	vegna	vegna	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
@@ -202,12 +202,12 @@
 15	hnekkt	hnekkja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	obl	_	SpaceAfter=No|tag=so_0_lhþt_et
 16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 17	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-18	AFP	AFP	NOUN	abbrev	_	19	flat	_	tag=abbrev
+18	AFP	AFP	ADV	abbrev	_	19	advmod	_	tag=abbrev
 19	fréttastofan	fréttastofa	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	tag=no_et_nf_kvk_gr
 20	eftir	eftir	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21-22	Luvuyo Mfaku	_	_	_	_	_	_	_	_
 21	Luvuyo	Luvuyo	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
-22	Mfaku	Mfaku	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	_	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
+22	Mfaku	Mfaku	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	flat	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 23	,	_	PUNCT	grm	_	21	punct	_	tag=grm
 24	talsmanni	talsmaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	tag=no_et_þgf_kk
 25	ákæruvaldsins	ákæruvald	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	24	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
@@ -220,8 +220,8 @@
 3	að	að	SCONJ	st	_	1	cc	_	tag=st
 4-6	SS United States	_	_	_	_	_	_	_	_
 4	SS	SS	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk
-5	United	United	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	_	_	tag=no_et_nf_hk
-6	States	States	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	_	_	tag=no_et_nf_hk
+5	United	United	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	flat	_	tag=no_et_nf_hk
+6	States	States	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	flat	_	tag=no_et_nf_hk
 7	hætti	hætta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	advcl	_	tag=so_1_þgf_fh_p3_et_þt_gm
 8	farþegasiglingum	farþegasigling	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	obj	_	tag=no_ft_þgf_kvk
 9	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -276,14 +276,12 @@
 26	einbeittur	einbeita	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	conj	_	SpaceAfter=No|tag=so_0_lhþt_et
 27	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00159,.10
-# text = Önnur lönd kaupa heróín af lyfjafyrirtækjum, við förum ekki út á götur til að kaupa efnin, sagði Høie í viðtali við Aftenposten.
 1	Önnur	annar	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	nmod	_	tag=fn_ft_nf_hk
 2	lönd	land	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk
 3	kaupa	kaupa	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
 4	heróín	heróín	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þf_hk
 5	af	af	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	lyfjafyrirtækjum	lyfjafyrirtæki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
+6	lyfjafyrirtækjum	lyfjafyrirtæki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	tag=pfn_ft_nf_p1
 9	förum	fara	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þf_fh_p1_ft_nt_gm
@@ -294,13 +292,13 @@
 14	til	til	ADP	fs_nh	VerbForm=Inf	16	mark	_	tag=fs_nh
 15	að	að	SCONJ	st	_	14	cc	_	tag=st
 16	kaupa	kaupa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	advcl	_	tag=so_0_nh_gm
-17	efnin	efni	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	16	obj	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
+17	efnin	efni	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	16	obj	_	tag=no_ft_þf_hk_gr
 18	,	_	PUNCT	grm	_	17	punct	_	tag=grm
 19	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	ccomp	_	tag=so_0_fh_p3_et_þt_gm
 20	Høie	Høie	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	tag=no_et_nf_hk
 21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	viðtali	viðtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	tag=no_et_þgf_hk
 23	við	við	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
-24	Aftenposten	Aftenposten	PROPN	fyrirtæki	_	22	obl	_	SpaceAfter=No|tag=fyrirtæki
+24	Aftenposten	Aftenposten	PROPN	fyrirtæki	_	22	obl	_	tag=fyrirtæki
 25	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

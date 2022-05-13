@@ -24,7 +24,7 @@
 21	segir	segir	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 22-23	Páll Ágúst	_	_	_	_	_	_	_	_
 22	Páll	Páll	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	nsubj	_	tag=person_nf_kk
-23	Ágúst	Ágúst	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	_	_	tag=person_nf_kk
+23	Ágúst	Ágúst	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	flat	_	tag=person_nf_kk
 24	sem	sem	SCONJ	stt	_	26	mark	_	tag=stt
 25	enn	enn	ADV	ao	_	26	advmod	_	tag=ao
 26	á	á	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -158,11 +158,10 @@
 
 # sent_id = GREYNIR_CORPUS_00490,.5
 # text = Gunnar Ólafur Schram, yfirlögregluþjónn hjá lögreglunni á Suðurnesjum, sagði í samtali við mbl.is í kvöld fullvíst er að Sindri hafi haft vitorðsmann, eða menn, sem aðstoðuðu hann að komast frá Sogni og að flugstöðinni.
-<<<<<<< HEAD
 1-3	Gunnar Ólafur Schram	_	_	_	_	_	_	_	_
 1	Gunnar	Gunnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
-3	Schram	Schram	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	SpaceAfter=No|tag=person_nf_kk
+2	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+3	Schram	Schram	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
 4	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 5	yfirlögregluþjónn	yfir-lögregluþjónn	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	hjá	hjá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -174,7 +173,7 @@
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
 14	við	við	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	mbl.is	mbl.is	X	lén_þf	Case=Acc	13	obl	_	tag=lén_þf
+15	mbl.is	mbl.is	SYM	lén_þf	Case=Acc	13	obl	_	tag=lén_þf
 16-17	í kvöld	_	_	_	_	_	_	_	_
 16	í	í	ADV	ao	_	11	advmod	_	tag=ao
 17	kvöld	kvöld	ADV	ao	_	16	fixed	_	tag=ao
@@ -185,32 +184,6 @@
 22	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	tag=so_0_vh_p3_et_nt_gm
 23	haft	hafa	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	18	ccomp	_	tag=so_1_þf_sagnb_gm
 24	vitorðsmann	vitorðsmaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No|tag=no_et_þf_kk
-=======
-1	Gunnar Ólafur Schram	Gunnar Ólafur Schram	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	yfirlögregluþjónn	yfir-lögregluþjónn	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	lögreglunni	lögregla	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk_gr
-6	á	eiga	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	Suðurnesjum	Suðurnes	PROPN	sérnafn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_hk
-8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	sagði	sagður	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
-12	við	við	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	mbl.is	mbl.is	SYM	lén_þf	Case=Acc	11	obl	_	tag=lén_þf
-14	í kvöld	í kvöld	ADV	ao	_	9	advmod	_	tag=ao
-15	fullvíst	fullvís	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	tag=lo_et_þf_hk_sb
-16	er	er	X	x		15	dep	_	tag=x
-17	að	að	SCONJ	st	_	20	mark	_	tag=st
-18	Sindri	Sindri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	nsubj	_	tag=person_nf_kk
-19	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	tag=so_0_vh_p3_et_nt_gm
-20	haft	hafa	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	15	ccomp	_	tag=so_1_þf_sagnb_gm
-21	vitorðsmann	vitorðsmaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No|tag=no_et_þf_kk
-22	,	,	PUNCT	grm	_	21	punct	_	tag=grm
-23	eða	eða	CCONJ	st	_	21	cc	_	tag=st
-24	menn	maður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No|tag=no_ft_þf_kk
->>>>>>> master
 25	,	,	PUNCT	grm	_	24	punct	_	tag=grm
 26	eða	eða	CCONJ	st	_	24	cc	_	tag=st
 27	menn	maður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No|tag=no_ft_þf_kk
@@ -259,7 +232,7 @@
 28	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 29-30	Edvard Björkenheim	_	_	_	_	_	_	_	_
 29	Edvard	Edvard	PROPN	person_nf_kk	Case=Nom|Gender=Masc	28	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-30	Björkenheim	Björkenheim	PROPN	person_nf_kk	Case=Nom|Gender=Masc	29	_	_	SpaceAfter=No|tag=person_nf_kk
+30	Björkenheim	Björkenheim	PROPN	person_nf_kk	Case=Nom|Gender=Masc	29	flat	_	SpaceAfter=No|tag=person_nf_kk
 31	,	,	PUNCT	grm	_	29	punct	_	tag=grm
 32	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	29	obl	_	tag=no_et_nf_kk
 33	Capacent	Capacent	PROPN	fyrirtæki	_	32	nmod:poss	_	tag=fyrirtæki
@@ -338,7 +311,7 @@
 32	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 33-34	Hanna Birna	_	_	_	_	_	_	_	_
 33	Hanna	Hanna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	32	nsubj	_	tag=person_nf_kvk
-34	Birna	Birna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	33	_	_	tag=person_nf_kvk
+34	Birna	Birna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	33	flat	_	tag=person_nf_kvk
 35	einnig	einnig	ADV	ao	_	32	advmod	_	SpaceAfter=No|tag=ao
 36	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -346,7 +319,7 @@
 # text = Katrín Jakobsdóttir, formaður Vinstri-grænna, furðaði sig á því að þingsalurinn væri þunnt skipað og hvernig dagskráin væri, þar væri ekki einu sinni að finna atkvæðagreiðslurnar sem frestað var í gær vegna fjarveru þingmanna.
 1-2	Katrín Jakobsdóttir	_	_	_	_	_	_	_	_
 1	Katrín	Katrín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	Jakobsdóttir	Jakobsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	SpaceAfter=No|tag=person_nf_kvk
+2	Jakobsdóttir	Jakobsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Vinstri-grænna	Vinstri-grænn	ADJ	lo_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	nmod:poss	_	SpaceAfter=No|tag=lo_ft_ef_hk

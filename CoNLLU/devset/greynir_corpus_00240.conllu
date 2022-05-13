@@ -41,7 +41,7 @@
 6	lífvarða	lífvörður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nmod:poss	_	tag=no_ft_ef_kk
 7-8	fyrir utan	_	_	_	_	_	_	_	_
 7	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-8	utan	utan	ADP	fs_þf	Case=Acc	7	_	_	tag=fs_þf
+8	utan	utan	ADP	fs_þf	Case=Acc	7	fixed	_	tag=fs_þf
 9	höllina	höll	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk_gr
 10	á	á	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	mánudag	mánudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
@@ -52,10 +52,9 @@
 
 # sent_id = GREYNIR_CORPUS_00240,.4
 # text = Arnar Freyr er línumaður, uppalinn Framari og er samningsbundinn liðinu til 2018.
-<<<<<<< HEAD
 1-2	Arnar Freyr	_	_	_	_	_	_	_	_
 1	Arnar	Arnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Freyr	Freyr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+2	Freyr	Freyr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	línumaður	línumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
 5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
@@ -68,21 +67,6 @@
 12	til	til	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
 13	2018	2018	ADV	ártal	_	10	advmod	_	SpaceAfter=No|tag=ártal
 14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
-=======
-1	Arnar Freyr	Arnar Freyr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-3	línumaður	línumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
-4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-5	uppalinn	uppalinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_sb
-6	Framari	Framari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk
-7	og	og	CCONJ	st	_	3	cc	_	tag=st
-8	er	vera	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_þgf_fh_p3_et_nt_gm
-9	samningsbundinn	samningsbundinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	tag=lo_et_nf_kk_sb
-10	liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk_gr
-11	til	til	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
-12	2018	2018	ADV	ártal	_	9	advmod	_	SpaceAfter=No|tag=ártal
-13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00240,.5
 # text = Hin sósíalíska stjórn landsins þjóðnýtti marga geira atvinnulífsins, s.s. stáliðnað og sementsframleiðslu.
@@ -95,11 +79,7 @@
 7	geira	geiri	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	tag=no_ft_þf_kk
 8	atvinnulífsins	atvinnulíf	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
-<<<<<<< HEAD
-10	s.s.	s.s.	NOUN	abbrev	_	11	flat	_	tag=abbrev
-=======
 10	s.s.	s.s.	ADV	abbrev	_	11	advmod	_	tag=abbrev
->>>>>>> master
 11	stáliðnað	stáliðnað	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þf_kk
 12	og	og	CCONJ	st	_	13	cc	_	tag=st
 13	sementsframleiðslu	sementsframleiðslu	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No|tag=no_et_þf_kvk
@@ -125,26 +105,26 @@
 
 # sent_id = GREYNIR_CORPUS_00240,.7
 # text = Á öllum deildum, nema krabbameinsdeildinni, séu sjúklingar á göngum eða kaffistofum.
-1	Á	á	ADP	fs_þgf	Case=Dat	0	root	_	tag=fs_þgf
+1	Á	á	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 2	öllum	allur	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	tag=fn_ft_þgf_kvk
 3	deildum	deild	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	nema	nema	SCONJ	st	_	3	advcl	_	tag=st
 6	krabbameinsdeildinni	krabbameinsdeild	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
-8	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_ft_nt_gm
+8	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_vh_p3_ft_nt_gm
 9	sjúklingar	sjúklingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	tag=no_ft_nf_kk
 10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	göngum	ganga	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	tag=no_ft_þgf_kvk
 12	eða	eða	CCONJ	st	_	13	cc	_	tag=st
 13	kaffistofum	kaffistofa	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-14	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+14	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00240,.8
 # text = Jón Gunnarsson tók undir það í ávarpi sínu og sagði verkið einstaklega mikilvægt.
 1-2	Jón Gunnarsson	_	_	_	_	_	_	_	_
 1	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Gunnarsson	Gunnarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+2	Gunnarsson	Gunnarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 3	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	undir	undir	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þf_hk_p3
@@ -175,37 +155,19 @@
 13	sunnudagur	sunnudagur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 14	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
-<<<<<<< HEAD
-1	Ákvörðun	ákvörðun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	tag=no_et_nf_kvk
-2	um	um	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
-3	stofnun	stofnun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þf_kvk
-4	þjóðhagsráðs	þjóðhagsráð	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk
-5	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_þt_gm
-6	tekin	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	('HALLÓ_so', '0_lhþt_et', 'NP', 'PRD')	_	tag=so_0_lhþt_et
-7-8	árið 2015	_	_	_	_	_	_	_	_
-7	árið	árið	ADV	ártal	_	10	advmod	_	tag=ártal
-8	2015	2015	NUM	ártal	_	7	flat	_	tag=ártal
-9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
-10	m.a.	m.a.	NOUN	abbrev	_	0	root	_	tag=abbrev
-11	að	að	ADP	fs	_	12	case	_	tag=fs
-12	frumkvæði	frumkvæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
-13	ASÍ	ASÍ	PROPN	sérnafn	_	12	conj	_	tag=sérnafn
-14	.	.	PUNCT	grm	_	10	punct	_	tag=grm
-=======
-# sent_id = GREYNIR_CORPUS_00240,.10
-# text = Ákvörðun um stofnun þjóðhagsráðs var tekin árið 2015, m.a. að frumkvæði ASÍ.
 1	Ákvörðun	ákvörðun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
 2	um	um	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
 3	stofnun	stofnun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þf_kvk
 4	þjóðhagsráðs	þjóðhagsráð	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk
 5	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 6	tekin	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-7	árið 2015	árið 2015	ADV	ártal	_	6	advmod	_	SpaceAfter=No|tag=ártal
-8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-9	m.a.	m.a.	ADV	abbrev	_	6	obl	_	tag=abbrev
-10	að	að	ADP	fs	_	11	case	_	tag=fs
-11	frumkvæði	frumkvæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
-12	ASÍ	ASÍ	PROPN	sérnafn	_	11	conj	_	SpaceAfter=No|tag=sérnafn
-13	.	.	PUNCT	grm	_	6	punct	_	tag=grm
->>>>>>> master
+7-8	árið 2015	_	_	_	_	_	_	_	_
+7	árið	árið	ADV	ártal	_	6	advmod	_	tag=ártal
+8	2015	2015	NUM	ártal	_	7	flat	_	tag=ártal
+9	,	_	PUNCT	grm	_	6	punct	_	tag=grm
+10	m.a.	m.a.	ADV	abbrev	_	6	obl	_	tag=abbrev
+11	að	að	ADP	fs	_	12	case	_	tag=fs
+12	frumkvæði	frumkvæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
+13	ASÍ	ASÍ	PROPN	sérnafn	_	12	conj	_	tag=sérnafn
+14	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 

@@ -45,7 +45,7 @@
 # text = Viðar Guðjohnsen er án nokkurs vafa sá maður sem hefur valdið mestum usla í tengslum við leiðtogaslaginn.
 1-2	Viðar Guðjohnsen	_	_	_	_	_	_	_	_
 1	Viðar	Viðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
-2	Guðjohnsen	Guðjohnsen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+2	Guðjohnsen	Guðjohnsen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	án	án	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
 5	nokkurs	nokkur	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	tag=fn_et_ef_kk
@@ -72,8 +72,8 @@
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5-7	flóttamanna- og útlendingamálin	_	_	_	_	_	_	_	_
 5	flóttamanna-	útlendinga-mál	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	3	conj	_	tag=no_ft_þf_hk_gr
-6	og	útlendinga-mál	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	5	_	_	tag=no_ft_þf_hk_gr
-7	útlendingamálin	útlendinga-mál	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	6	_	_	tag=no_ft_þf_hk_gr
+6	og	útlendinga-mál	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	5	flat	_	tag=no_ft_þf_hk_gr
+7	útlendingamálin	útlendinga-mál	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	5	flat	_	tag=no_ft_þf_hk_gr
 8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_nt_gm
 9	ESB-aðild	ESB-aðild	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	tag=no_et_nf_kvk
 10	Ítala	Ítali	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	tag=sérnafn_et_ef_kk
@@ -103,7 +103,7 @@
 15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00099,.6
-# text = Eftir stóð ein fortíðarsynd ; orkusölusamningur sem HS Orka gerði við Norðurál vegna byggingu álvers í Helguvík.
+# text = Eftir stóð ein fortíðarsynd; orkusölusamningur sem HS Orka gerði við Norðurál vegna byggingu álvers í Helguvík.
 1	Eftir	eftir	ADV	ao	_	2	advmod	_	tag=ao
 2	stóð	standa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	ein	einn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	tag=fn_et_nf_kvk
@@ -151,7 +151,7 @@
 3	reisa	reisa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 4	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	tag=pfn_et_þf_hk_p3
 5	og	og	CCONJ	st	_	3	cc	_	tag=st
-6	er	vera	VERB	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
+6	er	vera	AUX	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
 7	gert	gera	VERB	so_1_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	3	conj	_	tag=so_1_þf_lhþt_et
 8	ráð	ráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk
 9	fyrr	fyrir	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
@@ -196,7 +196,7 @@
 6	kemur	koma	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 7-8	í gegnum	_	_	_	_	_	_	_	_
 7	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-8	gegnum	gegnum	ADP	fs_þf	Case=Acc	7	_	_	tag=fs_þf
+8	gegnum	gegnum	ADP	fs_þf	Case=Acc	7	fixed	_	tag=fs_þf
 9	hin	hinn	DET	gr_ft_þf_hk	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	11	det	_	tag=gr_ft_þf_hk
 10	ýmsu	ýmis	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	tag=fn_ft_þf_hk
 11	þjóðhagsvarúðartæki	þjóðhagsvarúðartæki	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_þf_hk

@@ -49,8 +49,8 @@
 
 # sent_id = GREYNIR_CORPUS_00124,.3
 # text = Auk þess að vinna alltaf með umhverfið sem þarf að skapa þessa umgjörð sem styður við heilbrigt og ánægjulegt líf.
-1	Auk	auk	ADP	fs	_	0	root	_	tag=fs
-2	þess	þess	PRON	fn	_	2	obl	_	tag=fn
+1	Auk	auk	ADP	fs	_	2	case	_	tag=fs
+2	þess	þess	PRON	fn	_	0	root	_	tag=fn
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
 4	vinna	vinna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
 5	alltaf	alltaf	ADV	ao	_	4	advmod	_	tag=ao
@@ -69,7 +69,7 @@
 18	og	og	CCONJ	st	_	20	cc	_	tag=st
 19	ánægjulegt	ánægjulegur	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	tag=lo_et_þf_hk_fst_sb
 20	líf	líf	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-21	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00124,.4
 # text = Katrín telur að samningurinn og væntanlegur endir á kjaraviðræðum ljósmæðra komi til með að hafa gríðarleg áhrif á starf ljósmæðra.
@@ -132,7 +132,7 @@
 7	en	en	CCONJ	st	_	2	cc	_	tag=st
 8-9	Vilhjálmur Birgisson	_	_	_	_	_	_	_	_
 8	Vilhjálmur	Vilhjálmur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
-9	Birgisson	Birgisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	_	_	tag=person_nf_kk
+9	Birgisson	Birgisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	flat	_	tag=person_nf_kk
 10	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_nf_kk
 11	VLFA	VLFA	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=no_et_ef_hk
 12	staðfesti	staðfesta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
@@ -175,7 +175,7 @@
 # text = Mark Robins, sem á að hafa bjargað starfi Sir Alex Ferguson hjá Manchester United, skoraði tvívegis fyrir Kanarífuglana.
 1-2	Mark Robins	_	_	_	_	_	_	_	_
 1	Mark	Mark	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-2	Robins	Robins	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	_	_	SpaceAfter=No|tag=person_et_nf_kk
+2	Robins	Robins	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|tag=person_et_nf_kk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -213,7 +213,7 @@
 11	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 12-13	Ari Alexander	_	_	_	_	_	_	_	_
 12	Ari	Ari	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-13	Alexander	Alexander	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	_	_	tag=person_nf_kk
+13	Alexander	Alexander	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	tag=person_nf_kk
 14	af	af	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	stað	staður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þgf_kk
 16	til	til	ADP	fs_nh	VerbForm=Inf	18	case	_	tag=fs_nh

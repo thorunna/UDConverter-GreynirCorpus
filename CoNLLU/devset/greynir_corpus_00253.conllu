@@ -33,7 +33,7 @@
 12	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	10	obl	_	tag=abfn_þf
 13-14	í gegnum	_	_	_	_	_	_	_	_
 13	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-14	gegnum	gegnum	ADP	fs_þf	Case=Acc	13	_	_	tag=fs_þf
+14	gegnum	gegnum	ADP	fs_þf	Case=Acc	13	fixed	_	tag=fs_þf
 15	tíðina	tíð	ADV	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -46,7 +46,6 @@
 5	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 6	útlenskum	útlenskur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	7	amod	_	tag=lo_ft_þgf_hk_sb
 7	símanúmerum	símanúmer	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk
-<<<<<<< HEAD
 8	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 9-10	3,37 prósent	_	_	_	_	_	_	_	_
 9	3,37	3,37	NUM	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nummod	_	tag=prósenta_et_nf_hk
@@ -57,27 +56,17 @@
 14	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_þgf_hk_evb
 15	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk
 16	.	_	PUNCT	grm	_	12	punct	_	tag=grm
-=======
-8	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
-9	3,37 prósent	3,37 prósent	NUM	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nummod	_	tag=prósenta_et_nf_hk
-10	allra	allur	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	tag=fn_ft_ef_hk
-11	útkalla	útkall	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_ef_hk
-12	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-13	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_þgf_hk_evb
-14	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk
-15	.	_	PUNCT	grm	_	11	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00253,.4
 # text = Stefán Árni gekk líka á milli manna í stúkunni og hitti suma frægari en aðra.
 1-2	Stefán Árni	_	_	_	_	_	_	_	_
 1	Stefán	Stefán	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Árni	Árni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+2	Árni	Árni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 3	gekk	ganga	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	líka	líka	ADV	ao	_	3	advmod	_	tag=ao
 5-6	á milli	_	_	_	_	_	_	_	_
 5	á	á	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-6	milli	milli	ADP	fs_ef	Case=Gen	5	_	_	tag=fs_ef
+6	milli	milli	ADP	fs_ef	Case=Gen	5	fixed	_	tag=fs_ef
 7	manna	manna	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_ef_hk
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	stúkunni	stúka	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk_gr
@@ -90,7 +79,7 @@
 16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00253,.5
-# text = Fréttin er stutt en fyrirsögn hennar er : Slógust með hnífum á gistiheimili.
+# text = Fréttin er stutt en fyrirsögn hennar er: Slógust með hnífum á gistiheimili.
 1	Fréttin	frétt	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
 2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	stutt	stuttur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
@@ -127,9 +116,9 @@
 
 # sent_id = GREYNIR_CORPUS_00253,.7
 # text = Settar verði reglur um störf æðstu handhafa framkvæmdarvalds eftir að störfum fyrir hið opinbera lýkur.
-1	Settar	setja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
+1	Settar	setja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	3	conj	_	tag=so_0_lhþt_ft
 2	verði	verða	AUX	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_1_nf_vh_p3_ft_nt_gm
-3	reglur	regla	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	1	xcomp	_	tag=no_ft_nf_kvk
+3	reglur	regla	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk
 4	um	um	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	störf	starf	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þf_hk
 6	æðstu	æðri	ADJ	lo_ft_ef_kk_evb	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	7	amod	_	tag=lo_ft_ef_kk_evb
@@ -142,7 +131,7 @@
 13	hið	hinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	tag=fn_et_þf_hk
 14	opinbera	opinber	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	tag=lo_et_þf_hk_vb
 15	lýkur	ljúka	VERB	so_0_op_subj_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	SpaceAfter=No|tag=so_0_op_subj_þgf_fh_p3_et_nt_gm
-16	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00253,.8
 # text = Slydda eða rigning með köflum á norðanverðu landinu, en þurrt að kalla sunnan til.
@@ -182,8 +171,6 @@
 15	lögin	lag	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00253,.10
-# text = Hann tók ekki fram hvernig McGregor yrði refsað og sagðist ekki hafa rætt við hann.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
@@ -198,6 +185,6 @@
 12	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	aux	_	tag=so_0_nh_gm
 13	rætt	ræða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	conj	_	tag=so_0_sagnb_gm
 14	við	við	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No|tag=pfn_et_þf_kk_p3
+15	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	tag=pfn_et_þf_kk_p3
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

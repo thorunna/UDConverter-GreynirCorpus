@@ -149,7 +149,7 @@
 47	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00199,.4
-# text = Orðspor er bók sem fjallar um fortíðina og nútímann á sama tíma, hún fjallar um minnið og karlmennsku en umfram allt fjallar hún um endurskoðun á svari manns við grundvallar spurningum lífsins ; hver er ég og hvað hef ég lagt af mörkum?
+# text = Orðspor er bók sem fjallar um fortíðina og nútímann á sama tíma, hún fjallar um minnið og karlmennsku en umfram allt fjallar hún um endurskoðun á svari manns við grundvallar spurningum lífsins; hver er ég og hvað hef ég lagt af mörkum?
 1	Orðspor	Orðspor	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=sérnafn_et_nf_hk
 2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	bók	bók	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
@@ -251,14 +251,14 @@
 # text = Jón Viðar Sigurðsson jarðfræðingur sagði í samtali við mbl.is í dag, að skjálftinn hefði átt upptök einhverja 30 kílómetra norðan við þorpið og ekki væri komið á hreint hvort að þetta hefði verið jarðskjálfti eða hvort að þetta væri berghlaup sem hefði fallið niður í sjó.
 1-3	Jón Viðar Sigurðsson	_	_	_	_	_	_	_	_
 1	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	Viðar	Viðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
-3	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
+2	Viðar	Viðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 4	jarðfræðingur	jarðfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
 8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	mbl.is	mbl.is	X	lén_þf	Case=Acc	7	obl	_	tag=lén_þf
+9	mbl.is	mbl.is	SYM	lén_þf	Case=Acc	7	obl	_	tag=lén_þf
 10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
@@ -314,16 +314,16 @@
 11	við	við	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12-13	Albert Guðmundsson	_	_	_	_	_	_	_	_
 12	Albert	Albert	PROPN	person_þf_kk	Case=Acc|Gender=Masc	10	obl	_	SpaceAfter=No|tag=person_þf_kk
-13	Guðmundsson	Guðmundsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	_	_	SpaceAfter=No|tag=person_þf_kk
+13	Guðmundsson	Guðmundsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	flat	_	SpaceAfter=No|tag=person_þf_kk
 14	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 15-16	Arnór Sigurðsson	_	_	_	_	_	_	_	_
 15	Arnór	Arnór	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	conj	_	tag=person_þf_kk
-16	Sigurðsson	Sigurðsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	_	_	tag=person_þf_kk
+16	Sigurðsson	Sigurðsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	flat	_	tag=person_þf_kk
 17	og	og	CCONJ	st	_	12	cc	_	tag=st
 18-20	Jón Dag Þorsteinsson	_	_	_	_	_	_	_	_
 18	Jón	Jón	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	conj	_	tag=person_þf_kk
-19	Dag	Dagur	PROPN	person_þf_kk	Case=Acc|Gender=Masc	18	_	_	tag=person_þf_kk
-20	Þorsteinsson	Þorsteinsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	19	_	_	tag=person_þf_kk
+19	Dag	Dagur	PROPN	person_þf_kk	Case=Acc|Gender=Masc	18	flat	_	tag=person_þf_kk
+20	Þorsteinsson	Þorsteinsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	18	flat	_	tag=person_þf_kk
 21	en	en	CCONJ	st	_	5	cc	_	tag=st
 22	Albert	Albert Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	35	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 23	,	_	PUNCT	grm	_	22	punct	_	tag=grm
@@ -337,7 +337,7 @@
 31	félagi	félag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	tag=no_et_þgf_hk
 32-33	AZ Alkmaar	_	_	_	_	_	_	_	_
 32	AZ	AZ	PROPN	fyrirtæki_þgf	Case=Dat	31	conj	_	SpaceAfter=No|tag=fyrirtæki_þgf
-33	Alkmaar	Alkmaar	PROPN	fyrirtæki_þgf	Case=Dat	32	_	_	SpaceAfter=No|tag=fyrirtæki_þgf
+33	Alkmaar	Alkmaar	PROPN	fyrirtæki_þgf	Case=Dat	32	flat	_	SpaceAfter=No|tag=fyrirtæki_þgf
 34	,	_	PUNCT	grm	_	35	punct	_	tag=grm
 35	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
 36	ekki	ekki	ADV	ao	_	35	advmod	_	tag=ao
@@ -346,18 +346,18 @@
 39	síðast	síðar	ADV	ao_est	Degree=Sup	35	advmod	_	tag=ao_est
 40-41	þrátt fyrir	_	_	_	_	_	_	_	_
 40	þrátt	þrátt	ADP	fs_nh	VerbForm=Inf	44	case	_	tag=fs_nh
-41	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	40	_	_	tag=fs_nh
+41	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	40	fixed	_	tag=fs_nh
 42	að	að	PART	nhm	_	44	mark	_	tag=nhm
 43	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	44	aux	_	tag=so_0_nh_gm
 44	farið	fara	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	35	obl	_	tag=so_0_sagnb_gm
 45	með	með	ADP	fs_þgf	Case=Dat	46	case	_	tag=fs_þgf
 46	liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	44	obl	_	tag=no_et_þgf_hk_gr
 47	á	á	ADP	fs_þf	Case=Acc	48	case	_	tag=fs_þf
-48	HM	HM	NOUN	abbrev	_	44	obl	_	SpaceAfter=No|tag=abbrev
+48	HM	HM	ADV	abbrev	_	44	obl	_	SpaceAfter=No|tag=abbrev
 49	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00199,.8
-# text = Á löngum ferli samdi Jórunn margskonar tónsmíðar : sönglög, kórverk, einleiksverk og hljómsveitarverk, og má þar nefna Hugleiðingar um fimm gamlar stemmur fyrir píanó frá árinu 1963, svítuna Þjóðlífsþætti fyrir fiðlu og píanó 1974 og píanókonsertinn Sláttu frá 1977.
+# text = Á löngum ferli samdi Jórunn margskonar tónsmíðar: sönglög, kórverk, einleiksverk og hljómsveitarverk, og má þar nefna Hugleiðingar um fimm gamlar stemmur fyrir píanó frá árinu 1963, svítuna Þjóðlífsþætti fyrir fiðlu og píanó 1974 og píanókonsertinn Sláttu frá 1977.
 1	Á	á	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 2	löngum	langur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	tag=lo_et_þgf_kk_sb
 3	ferli	ferill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
@@ -405,7 +405,7 @@
 44	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00199,.9
-# text = Það eru hins vegar góðar fréttir að langtíma verðbólguvæntingar hafa lækkað nokkuð frá því sem þær risu hæst fyrir jól og af þeim sökum hafa raunvextir Seðlabankans hækkað, segir Már og beinir þá máli sínu með óbeinum hætti til þeirra sem nú standa í samningaviðræðum á vinnumarkaði :
+# text = Það eru hins vegar góðar fréttir að langtíma verðbólguvæntingar hafa lækkað nokkuð frá því sem þær risu hæst fyrir jól og af þeim sökum hafa raunvextir Seðlabankans hækkað, segir Már og beinir þá máli sínu með óbeinum hætti til þeirra sem nú standa í samningaviðræðum á vinnumarkaði:
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	tag=pfn_et_nf_hk_p3
 2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3-4	hins vegar	_	_	_	_	_	_	_	_

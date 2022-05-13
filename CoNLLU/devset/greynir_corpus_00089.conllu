@@ -24,7 +24,7 @@
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3-4	Hrafnhildur Skúladóttir	_	_	_	_	_	_	_	_
 3	Hrafnhildur	Hrafnhildur	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	tag=person_et_nf_kvk
-4	Skúladóttir	Skúladóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	_	_	tag=person_et_nf_kvk
+4	Skúladóttir	Skúladóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	tag=person_et_nf_kvk
 5	fengu	fá	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 6	báðar	báðir	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	obl	_	tag=fn_ft_nf_kvk
 7	fleiri	margur	ADJ	lo_ft_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	8	amod	_	tag=lo_ft_þf_hk_mst
@@ -75,8 +75,8 @@
 13	um	um	ADV	eo	_	14	advmod	_	tag=eo
 14-16	630 milljarðar króna	_	_	_	_	_	_	_	_
 14	630	630	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|tag=no_ft_nf_kk
-15	milljarðar	milljarðar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	_	_	SpaceAfter=No|tag=no_ft_nf_kk
-16	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	_	_	SpaceAfter=No|tag=no_ft_nf_kk
+15	milljarðar	milljarðar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	flat	_	SpaceAfter=No|tag=no_ft_nf_kk
+16	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	flat	_	SpaceAfter=No|tag=no_ft_nf_kk
 17	.	_	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00089,.5
@@ -120,12 +120,12 @@
 
 # sent_id = GREYNIR_CORPUS_00089,.7
 # text = Voru þau trúlofuð en söngkonan sleit trúlofuninni nokkrum mánuðum eftir að sonur þeirra kom í heiminn.
-1	Voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_ft_þt_gm
+1	Voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 2	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_hk_p3
-3	trúlofuð	trúlofa	ADJ	lo_ft	Number=Plur	1	xcomp	_	tag=lo_ft
-4	en	en	CCONJ	st	_	1	cc	_	tag=st
+3	trúlofuð	trúlofa	ADJ	lo_ft	Number=Plur	0	root	_	tag=lo_ft
+4	en	en	CCONJ	st	_	3	cc	_	tag=st
 5	söngkonan	söngkona	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk_gr
-6	sleit	slíta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_1_þgf_fh_p3_et_þt_gm
+6	sleit	slíta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þgf_fh_p3_et_þt_gm
 7	trúlofuninni	trúlofun	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þgf_kvk_gr
 8	nokkrum	nokkur	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	tag=fn_ft_þgf_kk
 9	mánuðum	mánuður	ADV	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	advmod	_	tag=no_ft_þgf_kk
@@ -136,7 +136,7 @@
 14	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	advcl	_	tag=so_0_fh_p3_et_þt_gm
 15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	heiminn	heimur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-17	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+17	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00089,.8
 # text = Fyrirhugað bann er m.a. liður í að framfylgja aðgerðaáætlun ríkisstjórnarinnar í loftslagsmálum, sem og stjórnarsáttmála.
@@ -194,7 +194,7 @@
 12	útgáfu	útgáfa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
 13-14	Harry Potter	_	_	_	_	_	_	_	_
 13	Harry	Harry	PROPN	sérnafn_ef_kk	Case=Gen|Gender=Masc	12	nmod:poss	_	tag=sérnafn_ef_kk
-14	Potter	Potter	PROPN	sérnafn_ef_kk	Case=Gen|Gender=Masc	13	_	_	tag=sérnafn_ef_kk
+14	Potter	Potter	PROPN	sérnafn_ef_kk	Case=Gen|Gender=Masc	13	flat	_	tag=sérnafn_ef_kk
 15	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	Íslandi	Ísland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm

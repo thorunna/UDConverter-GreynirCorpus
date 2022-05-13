@@ -29,7 +29,7 @@
 # text = Ragnar Guðgeirsson ráðgjafi, sem leiddi stefnumótunarverkefni á vegum velferðarráðuneytisins í málefnum barna, kynnti í vor niðurstöður rannsóknar á líðan ungmenna á Íslandi.
 1-2	Ragnar Guðgeirsson	_	_	_	_	_	_	_	_
 1	Ragnar	Ragnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	tag=person_nf_kk
-2	Guðgeirsson	Guðgeirsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+2	Guðgeirsson	Guðgeirsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 3	ráðgjafi	ráðgjafi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
@@ -67,7 +67,6 @@
 9	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 10	birt	birta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	acl:relcl	_	tag=so_0_lhþt_et
 11	var	var	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_þt_gm
-<<<<<<< HEAD
 12-13	í morgun	_	_	_	_	_	_	_	_
 12	í	í	ADV	ao	_	10	advmod	_	tag=ao
 13	morgun	morgun	ADV	ao	_	12	fixed	_	tag=ao
@@ -83,21 +82,6 @@
 23	þýskra	þýskur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	24	amod	_	tag=lo_ft_ef_kk_sb
 24	rannsóknarblaðamanna	rannsóknarblaðamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	22	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
 25	.	.	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-12	í morgun	í morgun	ADV	ao	_	10	advmod	_	tag=ao
-13	og	og	CCONJ	st	_	10	cc	_	tag=st
-14	unnin	unninn	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	cop	_	tag=so_0_lhþt_et
-15	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
-16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	samstarfi	samstarf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
-18	við	við	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19	Correctiv	Correctiv	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	17	obl	_	SpaceAfter=No|tag=fyrirtæki_þf_hk
-20	,	,	PUNCT	grm	_	19	punct	_	tag=grm
-21	teymi	teyma	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_þf_hk
-22	þýskra	þýskur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	23	amod	_	tag=lo_ft_ef_kk_sb
-23	rannsóknarblaðamanna	rannsóknarblaðamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	21	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
-24	.	.	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00452,.4
 # text = Bílaumboðið hefði meðal annars fengið rapparann Gauta Þeyr, Emmsjé Gauta, til að auglýsa Audi Q5 en engin af færslunum væri merkt sem auglýsing.
@@ -110,11 +94,11 @@
 6	rapparann	rappari	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	tag=no_et_þf_kk_gr
 7-8	Gauta Þeyr	_	_	_	_	_	_	_	_
 7	Gauta	Gauta	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	obl	_	SpaceAfter=No|tag=person_þf_kk
-8	Þeyr	Þeyr	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	_	_	SpaceAfter=No|tag=person_þf_kk
+8	Þeyr	Þeyr	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	flat	_	SpaceAfter=No|tag=person_þf_kk
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 10-11	Emmsjé Gauta	_	_	_	_	_	_	_	_
 10	Emmsjé	Emmsjé	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	obl	_	SpaceAfter=No|tag=person_þf_kk
-11	Gauta	Gauta	PROPN	person_þf_kk	Case=Acc|Gender=Masc	10	_	_	SpaceAfter=No|tag=person_þf_kk
+11	Gauta	Gauta	PROPN	person_þf_kk	Case=Acc|Gender=Masc	10	flat	_	SpaceAfter=No|tag=person_þf_kk
 12	,	,	PUNCT	grm	_	10	punct	_	tag=grm
 13	til	til	ADP	fs_nh	VerbForm=Inf	15	case	_	tag=fs_nh
 14	að	að	PART	nhm	_	15	mark	_	tag=nhm
@@ -236,7 +220,7 @@
 20	sagði	sagður	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	xcomp	_	tag=so_0_fh_p3_et_þt_gm
 21-22	Gísli Runólfsson	_	_	_	_	_	_	_	_
 21	Gísli	Gísli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	obl	_	tag=person_nf_kk
-22	Runólfsson	Runólfsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	_	_	tag=person_nf_kk
+22	Runólfsson	Runólfsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	flat	_	tag=person_nf_kk
 23	skipstjóri	skipstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 24	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
@@ -267,8 +251,6 @@
 23	HM	HM	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	22	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
 24	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00452,.10
-# text = Hvid er sagður hafa tekið myndir af sjálfum sér og konu við að stunda kynferðismök ofan á einum af pýramídunum frægu í Egyptalandi.
 1	Hvid	Hvid	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
 2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	sagður	segja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
@@ -291,6 +273,6 @@
 20	pýramídunum	pýramídi	NOUN	no_ft_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	18	obl	_	tag=no_ft_þgf_kk_gr
 21	frægu	frægur	ADJ	lo_ft_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Plur	20	amod	_	tag=lo_ft_þgf_kk_vb
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	Egyptalandi	Egyptaland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
+23	Egyptalandi	Egyptaland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	tag=sérnafn_et_þgf_hk
 24	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

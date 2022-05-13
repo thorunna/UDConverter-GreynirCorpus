@@ -36,10 +36,9 @@
 34	meira	mikill	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	35	amod	_	tag=lo_et_nf_hk_mst
 35	jafnræði	jafnræði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	36	nsubj	_	tag=no_et_nf_hk
 36	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
-<<<<<<< HEAD
 37-38	á milli	_	_	_	_	_	_	_	_
 37	á	á	ADP	fs_ef	Case=Gen	42	case	_	tag=fs_ef
-38	milli	milli	ADP	fs_ef	Case=Gen	37	_	_	tag=fs_ef
+38	milli	milli	ADP	fs_ef	Case=Gen	37	fixed	_	tag=fs_ef
 39	minni	lítill	ADJ	lo_ft_ef_kk_mst	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	42	amod	_	tag=lo_ft_ef_kk_mst
 40	og	og	CCONJ	st	_	41	cc	_	tag=st
 41	stærri	stór	ADJ	lo_ft_ef_kk_mst	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	39	conj	_	tag=lo_ft_ef_kk_mst
@@ -50,27 +49,11 @@
 46	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 47-48	Lilja Rafney	_	_	_	_	_	_	_	_
 47	Lilja	Lilja	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	46	nsubj	_	tag=person_nf_kvk
-48	Rafney	Rafney	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	47	_	_	tag=person_nf_kvk
+48	Rafney	Rafney	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	47	flat	_	tag=person_nf_kvk
 49	í	í	ADP	fs_þgf	Case=Dat	50	case	_	tag=fs_þgf
 50	grein	grein	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	46	obl	_	tag=no_et_þgf_kvk
 51	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	50	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kvk
 52	.	_	PUNCT	grm	_	4	punct	_	tag=grm
-=======
-37	á milli	á milli	ADP	fs_ef	Case=Gen	41	case	_	tag=fs_ef
-38	minni	lítill	ADJ	lo_ft_ef_kk_mst	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	41	amod	_	tag=lo_ft_ef_kk_mst
-39	og	og	CCONJ	st	_	40	cc	_	tag=st
-40	stærri	stór	ADJ	lo_ft_ef_kk_mst	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	38	conj	_	tag=lo_ft_ef_kk_mst
-41	báta	bátur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	36	obl	_	tag=no_ft_ef_kk
-42	í	í	ADP	fs_þgf	Case=Dat	43	case	_	tag=fs_þgf
-43	kerfinu	kerfi	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	36	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-44	,	_	PUNCT	grm	_	43	punct	_	tag=grm
-45	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-46	Lilja Rafney	Lilja Rafney	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	45	nsubj	_	tag=person_nf_kvk
-47	í	í	ADP	fs_þgf	Case=Dat	48	case	_	tag=fs_þgf
-48	grein	grein	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	45	obl	_	tag=no_et_þgf_kvk
-49	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kvk
-50	.	_	PUNCT	grm	_	4	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00340,.2
 # text = Meðal áhyggjuefna hjá okkur er að um er að ræða 24 hæða byggingu en af augljósum ástæðum, miðað við umfang eldsins, hefur fagfólkið okkar ekki komist alla leið upp bygginguna, svo auðvitað eru þarna spurningar sem þarf að svara eins fljótt og auðið er, sagði Khan ennfremur.
@@ -184,10 +167,9 @@
 53	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00340,.4
-# text = Það á að sjálfsögðu einnig við um fötluð börn af erlendum uppruna og þegar barn þarf á stuðningi að halda á að veita hann eins snemma og hægt er, og hann á að vera eins heildstæður og mögulegt er — í daglegu umhverfi barnsins : í skóla, frístund og inn á heimili.
+# text = Það á að sjálfsögðu einnig við um fötluð börn af erlendum uppruna og þegar barn þarf á stuðningi að halda á að veita hann eins snemma og hægt er, og hann á að vera eins heildstæður og mögulegt er — í daglegu umhverfi barnsins: í skóla, frístund og inn á heimili.
 1	Það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=fn_et_nf_hk
 2	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-<<<<<<< HEAD
 3-4	að sjálfsögðu	_	_	_	_	_	_	_	_
 3	að	að	ADV	ao	_	2	advmod	_	tag=ao
 4	sjálfsögðu	sjálfsögðu	ADV	ao	_	3	fixed	_	tag=ao
@@ -249,7 +231,7 @@
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3-4	Ólafur Már	_	_	_	_	_	_	_	_
 3	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-4	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	_	_	tag=person_nf_kk
+4	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
 5	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_ft_nt_gm
 6	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	cop	_	tag=so_0_sagnb_gm
 7	óþreytandi	óþreytandi	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
@@ -271,10 +253,10 @@
 23	síðastliðnu	síðastliðinn	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	24	amod	_	tag=lo_et_þgf_hk_sb
 24	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	advmod	_	tag=no_et_þgf_hk
 25	og	og	CCONJ	st	_	7	cc	_	tag=st
-26	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_nt_gm
+26	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	cop	_	tag=so_0_fh_p3_et_nt_gm
 27	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	expl	_	tag=pfn_et_nf_hk_p3
 28	samdóma	samdóma	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	29	amod	_	tag=lo_et_nf_hk_sb
-29	álit	álit	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	26	xcomp	_	tag=no_et_nf_hk
+29	álit	álit	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	tag=no_et_nf_hk
 30	dómnefndar	dómnefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	29	nmod:poss	_	tag=no_et_ef_kvk
 31	að	að	SCONJ	st	_	36	mark	_	tag=st
 32	með	með	ADP	fs_þgf	Case=Dat	33	case	_	tag=fs_þgf
@@ -304,120 +286,6 @@
 56	almenna	almennur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	57	amod	_	tag=lo_et_þf_kvk_sb
 57	umræðu	umræða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	54	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 58	.	_	PUNCT	grm	_	7	punct	_	tag=grm
-=======
-3	að sjálfsögðu	að sjálfsögðu	ADV	ao	_	2	advmod	_	tag=ao
-4	einnig	einnig	ADV	ao	_	2	advmod	_	tag=ao
-5	við	við	ADV	ao	_	2	advmod	_	tag=ao
-6	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-7	fötluð	fatlaður	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	8	amod	_	tag=lo_ft_þf_hk_sb
-8	börn	barn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þf_hk
-9	af	af	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-10	erlendum	erlendur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_þgf_kk_sb
-11	uppruna	uppruni	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk
-12	og	og	CCONJ	st	_	2	cc	_	tag=st
-13	þegar	þegar	SCONJ	st	_	15	mark	_	tag=st
-14	barn	barn	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	tag=no_et_nf_hk
-15	þarf	þurfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	advcl	_	tag=so_0_fh_p3_et_nt_gm
-16	á	á	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	stuðningi	stuðningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_þgf_kk
-18	að	að	PART	nhm	_	19	mark	_	tag=nhm
-19	halda	halda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_0_nh_gm
-20	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
-21	að	að	PART	nhm	_	22	mark	_	tag=nhm
-22	veita	veita	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_1_þf_nh_gm
-23	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	tag=pfn_et_þf_kk_p3
-24	eins	eins	ADV	ao	_	22	advmod	_	tag=ao
-25	snemma	snemma	ADV	ao	_	24	advmod	_	tag=ao
-26	og	og	CCONJ	st	_	28	cc	_	tag=st
-27	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	28	xcomp	_	tag=lo_et_nf_hk_sb
-28	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	advcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
-29	,	_	PUNCT	grm	_	28	punct	_	tag=grm
-30	og	og	CCONJ	st	_	2	cc	_	tag=st
-31	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	tag=pfn_et_nf_kk_p3
-32	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
-33	að	að	PART	nhm	_	36	mark	_	tag=nhm
-34	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	36	cop	_	tag=so_0_nh_gm
-35	eins	eins	ADV	eo	_	36	advmod	_	tag=eo
-36	heildstæður	heildstæður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	32	xcomp	_	tag=lo_et_nf_kk_sb
-37	og	og	CCONJ	st	_	39	cc	_	tag=st
-38	mögulegt	mögulegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	39	xcomp	_	tag=lo_et_nf_hk_sb
-39	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	36	advcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
-40	—	_	PUNCT	grm	_	39	punct	_	tag=grm
-41	í	í	ADP	fs_þgf	Case=Dat	43	case	_	tag=fs_þgf
-42	daglegu	daglegur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	43	amod	_	tag=lo_et_þgf_hk_sb
-43	umhverfi	umhverfi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	36	obl	_	tag=no_et_þgf_hk
-44	barnsins	barn	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	43	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
-45	:	_	PUNCT	grm	_	44	punct	_	tag=grm
-46	í	í	ADP	fs_þgf	Case=Dat	47	case	_	tag=fs_þgf
-47	skóla	skóli	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
-48	,	_	PUNCT	grm	_	49	punct	_	tag=grm
-49	frístund	frístund	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	47	conj	_	tag=no_et_þgf_kvk
-50	og	og	CCONJ	st	_	47	cc	_	tag=st
-51	inn	inni	ADV	ao	_	53	advmod	_	tag=ao
-52	á	á	ADP	fs_þf	Case=Acc	53	case	_	tag=fs_þf
-53	heimili	heimili	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	47	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-54	.	_	PUNCT	grm	_	2	punct	_	tag=grm
-
-# sent_id = GREYNIR_CORPUS_00340,.5
-# text = Tómas og Ólafur Már hafa verið óþreytandi við að halda íslenskri náttúru á lofti í fjölmiðlum, hefðbundnum sem óhefðbundum, á síðastliðnu ári og er það samdóma álit dómnefndar að með því hafi þeir haft bein áhrif á að lítt þekktar náttúruperlur, svo sem fossaröð á fyrirhuguðu framkvæmdasvæði Hvalárvirkjunar, hafa komist í almenna umræðu.
-1	Tómas	Tómas	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-2	og	og	CCONJ	st	_	3	cc	_	tag=st
-3	Ólafur Már	Ólafur Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-4	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_ft_nt_gm
-5	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	cop	_	tag=so_0_sagnb_gm
-6	óþreytandi	óþreytandi	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
-7	við	við	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	að	að	SCONJ	st	_	6	obl	_	tag=st
-9	halda	halda	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	obl	_	tag=so_1_þgf_fh_p3_ft_nt_gm
-10	íslenskri	íslenskur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	11	amod	_	tag=lo_et_þgf_kvk_sb
-11	náttúru	náttúra	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obj	_	tag=no_et_þgf_kvk
-12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	lofti	loft	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
-14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	fjölmiðlum	fjölmiðill	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
-16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
-17	hefðbundnum	hefðbundinn	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	tag=lo_ft_þgf_kk_sb
-18	sem	sem	SCONJ	stt	_	17	acl:relcl	_	tag=stt
-19	óhefðbundum	óhefðbundinn	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No|tag=lo_ft_þgf_kk_sb
-20	,	_	PUNCT	grm	_	19	punct	_	tag=grm
-21	á	á	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-22	síðastliðnu	síðastliðinn	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	23	amod	_	tag=lo_et_þgf_hk_sb
-23	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	advmod	_	tag=no_et_þgf_hk
-24	og	og	CCONJ	st	_	6	cc	_	tag=st
-25	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_nt_gm
-26	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	expl	_	tag=pfn_et_nf_hk_p3
-27	samdóma	samdóma	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	28	amod	_	tag=lo_et_nf_hk_sb
-28	álit	álit	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	25	xcomp	_	tag=no_et_nf_hk
-29	dómnefndar	dómnefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	28	nmod:poss	_	tag=no_et_ef_kvk
-30	að	að	SCONJ	st	_	35	mark	_	tag=st
-31	með	með	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
-32	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	obl	_	tag=pfn_et_þgf_hk_p3
-33	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	35	aux	_	tag=so_0_vh_p3_ft_nt_gm
-34	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	tag=pfn_ft_nf_kk_p3
-35	haft	hafa	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	28	nsubj	_	tag=so_1_þf_sagnb_gm
-36	bein	beinn	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	37	amod	_	tag=lo_ft_þf_hk_sb
-37	áhrif	áhrif	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	35	obj	_	tag=no_ft_þf_hk
-38	á	á	ADP	fs_þf	Case=Acc	39	case	_	tag=fs_þf
-39	að	að	SCONJ	st	_	37	obl	_	tag=st
-40	lítt	lítt	ADV	eo	_	42	advmod	_	tag=eo
-41	þekktar	þekktur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	42	amod	_	tag=lo_ft_nf_kvk_sb
-42	náttúruperlur	náttúruperla	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	53	nsubj	_	SpaceAfter=No|tag=no_ft_nf_kvk
-43	,	_	PUNCT	grm	_	42	punct	_	tag=grm
-44	svo	svo	SCONJ	st	_	46	mark	_	tag=st
-45	sem	sem	SCONJ	st	_	44	cc	_	tag=st
-46	fossaröð	fossaröð	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	42	advcl	_	tag=no_et_nf_kvk
-47	á	á	ADP	fs_þf	Case=Acc	49	case	_	tag=fs_þf
-48	fyrirhuguðu	fyrirhugaður	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	49	amod	_	tag=lo_ft_þgf_hk_sb
-49	framkvæmdasvæði	framkvæmdasvæði	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	46	obl	_	tag=no_ft_þgf_hk
-50	Hvalárvirkjunar	Hvalárvirkjun	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	49	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kvk
-51	,	_	PUNCT	grm	_	50	punct	_	tag=grm
-52	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	53	aux	_	tag=so_0_fh_p3_ft_nt_gm
-53	komist	koma	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	39	obl	_	tag=so_0_sagnb_mm
-54	í	í	ADP	fs_þf	Case=Acc	56	case	_	tag=fs_þf
-55	almenna	almennur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	56	amod	_	tag=lo_et_þf_kvk_sb
-56	umræðu	umræða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	53	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
-57	.	_	PUNCT	grm	_	6	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00340,.6
 # text = Hið sígilda hip hop lag I Got 5 on It með Luniz gengur aftur og vekur nú óhugnað með áhorfendum og hlustendum, Good Vibrations með Beach Boys og Fuck Tha Police með N.W.A skapa mikilvæga umgjörð, reyndar fer síðarnefnda lagið í gang þegar snjalltæki er skipað að hringja á lögregluna sem er fjarverandi alla myndina, sem er engin tilviljun.
@@ -444,7 +312,6 @@
 21	og	og	CCONJ	st	_	22	cc	_	tag=st
 22	hlustendum	hlustandi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No|tag=no_ft_þgf_kk
 23	,	,	PUNCT	grm	_	22	punct	_	tag=grm
-<<<<<<< HEAD
 24-25	Good Vibrations	_	_	_	_	_	_	_	_
 24	Good	Good	PROPN	entity	_	35	nsubj	_	tag=entity
 25	Vibrations	Vibrations	PROPN	entity	_	24	flat	_	tag=entity
@@ -488,44 +355,6 @@
 61	engin	enginn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	62	nmod	_	tag=fn_et_nf_kvk
 62	tilviljun	tilviljun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	60	acl:relcl	_	SpaceAfter=No|tag=no_et_nf_kvk
 63	.	.	PUNCT	grm	_	13	punct	_	tag=grm
-=======
-24	Good Vibrations	Good Vibrations	PROPN	entity	_	31	nsubj	_	tag=entity
-25	með	með	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
-26	Beach Boys	Beach Boys	PROPN	fyrirtæki	_	24	obl	_	tag=fyrirtæki
-27	og	og	CCONJ	st	_	24	cc	_	tag=st
-28	Fuck Tha Police	Fuck Tha Police	PROPN	entity	_	24	conj	_	tag=entity
-29	með	með	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
-30	N.W.A	N.W.A	PROPN	fyrirtæki	_	24	obl	_	tag=fyrirtæki
-31	skapa	skapa	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
-32	mikilvæga	mikilvægur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	33	amod	_	tag=lo_et_þf_kvk_sb
-33	umgjörð	umgjörð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
-34	,	,	PUNCT	grm	_	33	punct	_	tag=grm
-35	reyndar	reyndar	ADV	ao	_	36	advmod	_	tag=ao
-36	fer	fara	VERB	so_0_fh_p3_et_nt	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	conj	_	tag=so_0_fh_p3_et_nt
-37	síðarnefnda	síðarnefndur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	38	amod	_	tag=lo_et_nf_kk_vb
-38	lagið	lag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	36	nsubj	_	tag=no_et_nf_hk_gr
-39	í	í	ADP	fs_þf	Case=Acc	40	case	_	tag=fs_þf
-40	gang	gangur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	36	obl	_	tag=no_et_þf_kk
-41	þegar	þegar	SCONJ	st	_	44	mark	_	tag=st
-42	snjalltæki	snjalltæki	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	44	nsubj	_	tag=no_et_þgf_hk
-43	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	44	cop	_	tag=so_0_fh_p3_et_nt_gm
-44	skipað	skipa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	36	advcl	_	tag=so_0_lhþt_et
-45	að	að	PART	nhm	_	46	mark	_	tag=nhm
-46	hringja	hringja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	44	xcomp	_	tag=so_0_nh_gm
-47	á	á	ADP	fs_þf	Case=Acc	48	case	_	tag=fs_þf
-48	lögregluna	lögregla	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	46	obl	_	tag=no_et_þf_kvk_gr
-49	sem	sem	SCONJ	stt	_	50	mark	_	tag=stt
-50	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	48	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-51	fjarverandi	fjarverandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	50	acl:relcl	_	tag=lo_et_nf_kvk_sb
-52	alla	allur	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	53	nmod	_	tag=fn_et_þf_kvk
-53	myndina	mynd	ADV	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	51	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
-54	,	,	PUNCT	grm	_	53	punct	_	tag=grm
-55	sem	sem	SCONJ	stt	_	56	mark	_	tag=stt
-56	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	51	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-57	engin	enginn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	58	nmod	_	tag=fn_et_nf_kvk
-58	tilviljun	tilviljun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	56	acl:relcl	_	SpaceAfter=No|tag=no_et_nf_kvk
-59	.	.	PUNCT	grm	_	13	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00340,.7
 # text = Það pirrar mig að þegar við vinnum Meistaradeildina þriðja árið í röð og menn eru að segja að það sé vegna þess að einn leikmaður lenti í árekstri við markvörð þeirra eða að einn leikmaður þeirra þurfti að fara af velli eða að þeir fengu ekki vítaspyrnu sem þeir áttu að fá, segir Marcelo eins og sjá má hér fyrir ofan.
@@ -665,7 +494,7 @@
 67	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00340,.9
-# text = Þegar sýningin hefst birtist titill verksins á fortjaldinu, hannaður í dæmigerðum film noir-stíl-hverfull, sundurleitur, margþættur ; yfirgnæfandi sjötta áratugar spennutónlist hljómar og þar með er takturinn sleginn fyrir áferð sýningarinnar allt til enda : nú tekur við myrk saga í þess orðs bókstaflegu merkingu og sú áferð á sér stoð í texta verksins : sýningin er … eins og op ofan í niðdimm göng … og lýsing verksins er eftir því-dimm, drungaleg og þröng og myndgerir þannig viðhorf Eddies, þessa höfuðpaurs feðraveldisins, sem eru nákvæmlega það-myrkur mannlegrar hugsunar !
+# text = Þegar sýningin hefst birtist titill verksins á fortjaldinu, hannaður í dæmigerðum film noir-stíl-hverfull, sundurleitur, margþættur; yfirgnæfandi sjötta áratugar spennutónlist hljómar og þar með er takturinn sleginn fyrir áferð sýningarinnar allt til enda: nú tekur við myrk saga í þess orðs bókstaflegu merkingu og sú áferð á sér stoð í texta verksins: sýningin er … eins og op ofan í niðdimm göng … og lýsing verksins er eftir því-dimm, drungaleg og þröng og myndgerir þannig viðhorf Eddies, þessa höfuðpaurs feðraveldisins, sem eru nákvæmlega það-myrkur mannlegrar hugsunar !
 1	Þegar	þegar	SCONJ	st	_	3	mark	_	tag=st
 2	sýningin	sýning	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
 3	hefst	hefja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	4	advcl	_	tag=so_0_fh_p3_et_nt_mm

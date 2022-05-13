@@ -28,7 +28,7 @@
 2	sögn	sögn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk
 3-4	Pauline Foulkes	_	_	_	_	_	_	_	_
 3	Pauline	Pauline	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
-4	Foulkes	Foulkes	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	3	_	_	SpaceAfter=No|tag=person_ef_kvk
+4	Foulkes	Foulkes	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	3	flat	_	SpaceAfter=No|tag=person_ef_kvk
 5	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 6	fulltrúa	fulltrúi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_ef_kk
 7	verkalýðsfélags	verkalýðsfélag	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk
@@ -106,7 +106,7 @@
 8	gegn	gegn	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9-10	Hillary Clinton	_	_	_	_	_	_	_	_
 9	Hillary	Hillary	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	7	obl	_	SpaceAfter=No|tag=person_þgf_kvk
-10	Clinton	Clinton	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	9	_	_	SpaceAfter=No|tag=person_þgf_kvk
+10	Clinton	Clinton	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	9	flat	_	SpaceAfter=No|tag=person_þgf_kvk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12	frambjóðanda	frambjóðandi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þgf_kk
 13	Demókrataflokksins	demókrataflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk_gr
@@ -216,19 +216,18 @@
 
 # sent_id = GREYNIR_CORPUS_00283,.10
 # text = Var stöðin fyrst opnuð árið 1987 en Stefán og Rannveig létu af störfum í fyrra þegar nýir eigendur tóku við.
-1	Var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+1	Var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 2	stöðin	stöð	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
 3	fyrst	snemma	ADV	ao_est	Degree=Sup	4	advmod	_	tag=ao_est
-4	opnuð	opnaður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	1	xcomp	_	tag=lo_et_nf_kvk_sb
-<<<<<<< HEAD
+4	opnuð	opnaður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 5-6	árið 1987	_	_	_	_	_	_	_	_
 5	árið	árið	ADV	ártal	_	4	advmod	_	tag=ártal
 6	1987	1987	NUM	ártal	_	5	flat	_	tag=ártal
-7	en	en	CCONJ	st	_	1	cc	_	tag=st
+7	en	en	CCONJ	st	_	4	cc	_	tag=st
 8	Stefán	Stefán	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
 9	og	og	CCONJ	st	_	10	cc	_	tag=st
 10	Rannveig	Rannveig	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	conj	_	tag=person_nf_kvk
-11	létu	láta	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_0_fh_p3_ft_þt_gm
+11	létu	láta	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_ft_þt_gm
 12	af	af	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	störfum	starf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þgf_hk
 14	í	í	ADV	ao	_	11	advmod	_	tag=ao
@@ -238,23 +237,5 @@
 18	eigendur	eigandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	tag=no_ft_nf_kk
 19	tóku	taka	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	advcl	_	tag=so_0_fh_p3_ft_þt_gm
 20	við	við	ADV	ao	_	19	advmod	_	SpaceAfter=No|tag=ao
-21	.	_	PUNCT	grm	_	1	punct	_	tag=grm
-=======
-5	árið 1987	árið 1987	ADV	ártal	_	4	advmod	_	tag=ártal
-6	en	en	CCONJ	st	_	1	cc	_	tag=st
-7	Stefán	Stefán	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	tag=person_nf_kk
-8	og	og	CCONJ	st	_	9	cc	_	tag=st
-9	Rannveig	Rannveig	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	conj	_	tag=person_nf_kvk
-10	létu	láta	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_0_fh_p3_ft_þt_gm
-11	af	af	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	störfum	starf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	tag=no_ft_þgf_hk
-13	í	í	ADV	ao	_	10	advmod	_	tag=ao
-14	fyrra	fyrra	ADV	ao	_	13	advmod	_	tag=ao
-15	þegar	þegar	SCONJ	st	_	18	mark	_	tag=st
-16	nýir	nýr	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	17	amod	_	tag=lo_ft_nf_kk_sb
-17	eigendur	eigandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	tag=no_ft_nf_kk
-18	tóku	taka	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	advcl	_	tag=so_0_fh_p3_ft_þt_gm
-19	við	við	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
-20	.	_	PUNCT	grm	_	1	punct	_	tag=grm
->>>>>>> master
+21	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

@@ -34,8 +34,8 @@
 
 # sent_id = GREYNIR_CORPUS_00384,.3
 # text = Annar staður sem mætti skoða eru ofnarnir sem oftast eru geymdir undir gluggakistum.
-1	Annar	Annar	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=fn_et_nf_kk
-2	staður	staður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	tag=no_et_nf_kk
+1	Annar	Annar	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_nf_kk
+2	staður	staður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
 4	mætti	mega	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	tag=so_0_vh_p3_et_þt_gm
 5	skoða	skoða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	acl:relcl	_	tag=so_0_nh_gm
@@ -47,7 +47,7 @@
 11	geymdir	geyma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	7	acl:relcl	_	tag=so_0_lhþt_ft
 12	undir	undir	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	gluggakistum	gluggakista	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
-14	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00384,.4
 # text = Liðin voru saman á botni deildarinnar með fimm stig þegar kom að leiknum.
@@ -108,8 +108,8 @@
 5	dótturfélögum	dótturfélag	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þgf_hk
 6-8	Dylan Holding ehf.	_	_	_	_	_	_	_	_
 6	Dylan	Dylan	PROPN	fyrirtæki_ef	Case=Gen	5	nmod:poss	_	tag=fyrirtæki_ef
-7	Holding	Holding	PROPN	fyrirtæki_ef	Case=Gen	6	_	_	tag=fyrirtæki_ef
-8	ehf.	ehf.	PROPN	fyrirtæki_ef	Case=Gen	7	_	_	tag=fyrirtæki_ef
+7	Holding	Holding	PROPN	fyrirtæki_ef	Case=Gen	6	flat	_	tag=fyrirtæki_ef
+8	ehf.	ehf.	PROPN	fyrirtæki_ef	Case=Gen	6	flat	_	tag=fyrirtæki_ef
 9	að	að	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
 11	er	er	SCONJ	stt	_	13	mark	_	tag=stt
@@ -164,19 +164,11 @@
 7	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_et_nt_gm
 8	markaðurinn	markaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk_gr
 9	sem	sem	SCONJ	stt	_	8	acl:relcl	_	tag=stt
-<<<<<<< HEAD
 10-11	Fáfnir Offshore	_	_	_	_	_	_	_	_
 10	Fáfnir	Fáfnir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	tag=person_nf_kk
-11	Offshore	Offshore	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	_	_	tag=person_nf_kk
+11	Offshore	Offshore	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	flat	_	tag=person_nf_kk
 12	starfar	starfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	VANTAR_LIÐ_VP_None	_	tag=so_0_fh_p3_et_nt_gm
 13	á	eiga	ADV	ao	_	14	advmod	_	tag=ao
 14	hrunið	hrun	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	SpaceAfter=No|tag=so_0_sagnb_gm
 15	.	.	PUNCT	grm	_	14	punct	_	tag=grm
-=======
-10	Fáfnir Offshore	Fáfnir Offshore	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	tag=person_nf_kk
-11	starfar	starfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	VANTAR_LIÐ_VP_None	_	tag=so_0_fh_p3_et_nt_gm
-12	á	eiga	ADV	ao	_	13	advmod	_	tag=ao
-13	hrunið	hrun	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	SpaceAfter=No|tag=so_0_sagnb_gm
-14	.	.	PUNCT	grm	_	13	punct	_	tag=grm
->>>>>>> master
 

@@ -34,11 +34,10 @@
 
 # sent_id = GREYNIR_CORPUS_00166,.2
 # text = Jóhannes Karl Sveinsson sagði í sjónvarpsfréttum RÚV í kvöld að það breytti mjög miklu að þetta væri ekki lengur skýrsla meirihluta fjárlaganefndar heldur eingöngu skýrsla Vigdísar Hauksdóttur.
-<<<<<<< HEAD
 1-3	Jóhannes Karl Sveinsson	_	_	_	_	_	_	_	_
 1	Jóhannes	Jóhannes	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Karl	Karl	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
-3	Sveinsson	Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
+2	Karl	Karl	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Sveinsson	Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 4	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	sjónvarpsfréttum	sjónvarpsfrétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_þgf_kvk
@@ -64,34 +63,8 @@
 25	skýrsla	skýrsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_nf_kvk
 26-27	Vigdísar Hauksdóttur	_	_	_	_	_	_	_	_
 26	Vigdísar	Vigdís	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	25	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
-27	Hauksdóttur	Hauksdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	26	_	_	SpaceAfter=No|tag=person_ef_kvk
+27	Hauksdóttur	Hauksdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	26	flat	_	SpaceAfter=No|tag=person_ef_kvk
 28	.	_	PUNCT	grm	_	4	punct	_	tag=grm
-=======
-1	Jóhannes Karl Sveinsson	Jóhannes Karl Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
-4	sjónvarpsfréttum	sjónvarpsfrétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_þgf_kvk
-5	RÚV	RÚV	PROPN	fyrirtæki_ef	Case=Gen	4	nmod:poss	_	tag=fyrirtæki_ef
-6	í kvöld	í kvöld	ADV	ao	_	4	advmod	_	tag=ao
-7	að	að	SCONJ	st	_	9	mark	_	tag=st
-8	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	tag=pfn_et_nf_hk_p3
-9	breytti	breyta	VERB	so_1_þgf_vh_p3_et_þt_gm	Case=Dat|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	2	obj	_	tag=so_1_þgf_vh_p3_et_þt_gm
-10	mjög	mjög	ADV	eo_fst	Degree=Pos	9	obj	_	tag=eo_fst
-11	miklu	mikill	ADJ	lo_et_þgf_hk_fst_sb	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_þgf_hk_fst_sb
-12	að	að	SCONJ	st	_	17	mark	_	tag=st
-13	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	tag=fn_et_nf_hk
-14	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
-15	ekki	ekki	ADV	ao	_	17	advmod	_	tag=ao
-16	lengur	lengi	ADV	ao_mst	Degree=Cmp	15	advmod	_	tag=ao_mst
-17	skýrsla	skýrsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk
-18	meirihluta	meirihluti	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	17	nmod:poss	_	tag=no_et_ef_kk
-19	fjárlaganefndar	fjárlaganefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	18	nmod:poss	_	tag=no_et_ef_kvk
-20	heldur	heldur	CCONJ	st	_	17	cc	_	tag=st
-21	eingöngu	eingöngu	ADV	eo	_	22	advmod	_	tag=eo
-22	skýrsla	skýrsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_nf_kvk
-23	Vigdísar Hauksdóttur	Vigdís Hauksdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	22	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
-24	.	_	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00166,.3
 # text = Herdís vill að reglugerðin nái einnig til hoppukastala enda sé vel þekkt að börn geti slasast við leik í slíkum leiktækjum, sé fyllsta öryggis ekki gætt.
@@ -162,7 +135,6 @@
 3	sprotafyrirtæki	sprotafyrirtæki	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
 4	undir	undir	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	nafninu	nafn	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk_gr
-<<<<<<< HEAD
 6-7	Monstri ehf.	_	_	_	_	_	_	_	_
 6	Monstri	Monstri	PROPN	fyrirtæki	_	5	VANTAR_LIÐ-obl?	_	tag=fyrirtæki
 7	ehf.	ehf.	PROPN	fyrirtæki	_	6	flat	_	tag=fyrirtæki
@@ -186,35 +158,12 @@
 25	í	í	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
 26	bókaútgáfu	bókaútgáfa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-6	Monstri ehf.	Monstri ehf.	PROPN	fyrirtæki	_	5	VANTAR_LIÐ-obl?	_	tag=fyrirtæki
-7	þar	þar	ADV	ao	_	3	advmod	_	tag=ao
-8	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
-9	ekki	ekki	ADV	ao	_	11	advmod	_	tag=ao
-10	einungis	einungis	ADV	ao	_	9	advmod	_	tag=ao
-11	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	advcl	_	tag=so_0_fh_p3_et_nt_gm
-12	fram	fram	ADV	ao	_	11	compound:prt	_	tag=ao
-13	hönnun	hönnun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_nf_kvk
-14	og	og	CCONJ	st	_	15	cc	_	tag=st
-15	framleiðsla	framleiðsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	tag=no_et_nf_kvk
-16	á	á	ADP	fs_þgf_þgf	Case=Dat	17	case	_	tag=fs_þgf_þgf
-17	skrímslunum	skrímsl	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_þgf_hk_gr
-18	heldur	heldur	CCONJ	st	_	11	cc	_	tag=st
-19	erum	vera	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p1_ft_nt_gm
-20	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	tag=pfn_ft_nf_p1
-21	nú	nú	ADV	ao	_	11	advmod	_	tag=ao
-22	einnig	einnig	ADV	ao	_	11	advmod	_	tag=ao
-23	komin	koma	VERB	so_0_lhþt_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Part	11	cop	_	tag=so_0_lhþt_ft_nf_hk_sb
-24	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
-25	bókaútgáfu	bókaútgáfa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00166,.6
 # text = Alcoa Fjarðaál vinnur nú að því að reyna að selja vinnuskúra sem enn eru á framkvæmdasvæði fyrirtækisins á Reyðarfirði, tólf árum eftir að álverið hóf framleiðslu.
 1-2	Alcoa Fjarðaál	_	_	_	_	_	_	_	_
 1	Alcoa	Alcoa	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	3	nsubj	_	tag=fyrirtæki_nf_hk
-2	Fjarðaál	Fjarðaál	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	1	_	_	tag=fyrirtæki_nf_hk
+2	Fjarðaál	Fjarðaál	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	1	flat	_	tag=fyrirtæki_nf_hk
 3	vinnur	vinna	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 4	nú	nú	ADV	ao	_	3	advmod	_	tag=ao
 5	að	að	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -313,7 +262,6 @@
 7	vegna	vegna	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
 8	stöðu	staða	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_ef_kvk
 9	sinnar	sinn	PRON	fn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	tag=fn_et_ef_kvk
-<<<<<<< HEAD
 10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
 11	Hlaing	Hlaing	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	tag=person_et_nf_kk
 12-14	ef til vill	_	_	_	_	_	_	_	_
@@ -324,7 +272,7 @@
 16	en	en	CCONJ	st	_	15	advcl	_	tag=st
 17-18	Suu Kyi	_	_	_	_	_	_	_	_
 17	Suu	Suu	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	16	obl	_	tag=person_et_nf_kvk
-18	Kyi	Kyi	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	17	_	_	tag=person_et_nf_kvk
+18	Kyi	Kyi	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	17	flat	_	tag=person_et_nf_kvk
 19	en	en	CCONJ	st	_	2	cc	_	tag=st
 20	herinn	her	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	tag=no_et_nf_kk_gr
 21	fær	fá	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -335,27 +283,7 @@
 26	valdamikil	valdamikill	ADJ	lo_ft_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	27	amod	_	tag=lo_ft_þf_hk_fst_sb
 27	ráðuneyti	ráðuneyti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 28	.	_	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
-11	Hlaing	Hlaing	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=person_et_nf_kk
-12	ef til vill	ef til vill	ADV	ao	_	13	advmod	_	tag=ao
-13	valdameiri	valdamikill	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	4	obj	_	tag=lo_et_nf_kk_mst
-14	en	en	CCONJ	st	_	13	advcl	_	tag=st
-15	Suu Kyi	Suu Kyi	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	14	obl	_	tag=person_et_nf_kvk
-16	en	en	CCONJ	st	_	2	cc	_	tag=st
-17	herinn	her	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	tag=no_et_nf_kk_gr
-18	fær	fá	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-19	um	um	ADV	eo	_	20	advmod	_	tag=eo
-20	fjórðung	fjórðungur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	tag=no_et_þf_kk
-21	þingsæta	þingsæti	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	20	nmod:poss	_	tag=no_ft_ef_hk
-22	og	og	CCONJ	st	_	20	cc	_	tag=st
-23	valdamikil	valdamikill	ADJ	lo_ft_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	24	amod	_	tag=lo_ft_þf_hk_fst_sb
-24	ráðuneyti	ráðuneyti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-25	.	_	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
-# sent_id = GREYNIR_CORPUS_00166,.10
-# text = Skóli án aðgreiningar er byggður hugmyndum um jafnræði og réttlæti en ekki á því að allir séu á sama stað á sama tíma að gera það sama.
 1	Skóli	skóli	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
 2	án	án	ADP	fs_ef	Case=Gen	3	case	_	tag=fs_ef
 3	aðgreiningar	aðgreining	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_ef_kvk
@@ -376,7 +304,6 @@
 18	á	á	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	sama	sami	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	tag=fn_et_þgf_kk
 20	stað	staður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þgf_kk
-<<<<<<< HEAD
 21-23	á sama tíma	_	_	_	_	_	_	_	_
 21	á	á	ADV	ao	_	17	advmod	_	tag=ao
 22	sama	sama	ADV	ao	_	21	fixed	_	tag=ao
@@ -386,12 +313,4 @@
 26	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	tag=fn_et_þf_hk
 27	sama	sami	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	26	nmod	_	tag=fn_et_þf_hk
 28	.	_	PUNCT	grm	_	5	punct	_	tag=grm
-=======
-21	á sama tíma	á sama tíma	ADV	ao	_	17	advmod	_	tag=ao
-22	að	að	PART	nhm	_	23	mark	_	tag=nhm
-23	gera	gera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_1_þf_nh_gm
-24	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	tag=fn_et_þf_hk
-25	sama	sami	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No|tag=fn_et_þf_hk
-26	.	_	PUNCT	grm	_	5	punct	_	tag=grm
->>>>>>> master
 

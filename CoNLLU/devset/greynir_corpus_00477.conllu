@@ -117,8 +117,8 @@
 16	af	af	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17-19	Frank de Boer	_	_	_	_	_	_	_	_
 17	Frank	Frank	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	15	obl	_	tag=person_þgf_kk
-18	de	de	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	17	_	_	tag=person_þgf_kk
-19	Boer	Boer	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	18	_	_	tag=person_þgf_kk
+18	de	de	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	17	flat	_	tag=person_þgf_kk
+19	Boer	Boer	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	17	flat	_	tag=person_þgf_kk
 20	sem	sem	SCONJ	stt	_	21	mark	_	tag=stt
 21	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 22	rekinn	reka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	21	acl:relcl	_	tag=so_0_lhþt_et
@@ -217,8 +217,8 @@
 15	og	og	CCONJ	st	_	4	cc	_	tag=st
 16-18	oftar en ekki	_	_	_	_	_	_	_	_
 16	oftar	oft	ADV	ao_mst	Degree=Cmp	19	advmod	_	tag=ao_mst
-17	en	en	ADV	ao_mst	Degree=Cmp	16	_	_	tag=ao_mst
-18	ekki	ekki	ADV	ao_mst	Degree=Cmp	17	_	_	tag=ao_mst
+17	en	en	ADV	ao_mst	Degree=Cmp	16	fixed	_	tag=ao_mst
+18	ekki	ekki	ADV	ao_mst	Degree=Cmp	16	fixed	_	tag=ao_mst
 19	þarf	þurfa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
 20	mun	munur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	tag=no_et_þgf_kk
 21	meiri	mikill	ADJ	lo_ft_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	22	amod	_	tag=lo_ft_þf_kvk_mst
@@ -245,7 +245,6 @@
 9	Kötluöskjunni	Kötlu-askja	PROPN	sérnafn_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=sérnafn_et_þgf_kvk_gr
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	Mýrdalsjökli	Mýrdalsjökull	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=sérnafn_et_þgf_kk
-<<<<<<< HEAD
 12-13	í fyrrakvöld	_	_	_	_	_	_	_	_
 12	í	í	ADV	ao	_	5	advmod	_	tag=ao
 13	fyrrakvöld	fyrrakvöld	ADV	ao	_	12	fixed	_	tag=ao
@@ -253,7 +252,7 @@
 15	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 16-17	Páll Einarsson	_	_	_	_	_	_	_	_
 16	Páll	Páll	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-17	Einarsson	Einarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	_	_	SpaceAfter=No|tag=person_nf_kk
+17	Einarsson	Einarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	flat	_	SpaceAfter=No|tag=person_nf_kk
 18	,	,	PUNCT	grm	_	17	punct	_	tag=grm
 19	jarðeðlisfræðingur	jarðeðlisfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_nf_kk
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
@@ -271,27 +270,6 @@
 31	leyti	leyti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	32	obl	_	tag=no_et_þgf_hk
 32	óvenjulegur	óvenjulegur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 33	.	.	PUNCT	grm	_	5	punct	_	tag=grm
-=======
-12	í fyrrakvöld	í fyrrakvöld	ADV	ao	_	5	advmod	_	tag=ao
-13	og	og	CCONJ	st	_	5	cc	_	tag=st
-14	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-15	Páll Einarsson	Páll Einarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-16	,	,	PUNCT	grm	_	15	punct	_	tag=grm
-17	jarðeðlisfræðingur	jarðeðlisfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_nf_kk
-18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þgf_hk
-20	við	við	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	fréttastofu	fréttastofa	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þf_kvk
-22	í gær	í gær	ADV	ao	_	14	advmod	_	tag=ao
-23	að	að	SCONJ	st	_	29	mark	_	tag=st
-24	skjálftinn	skjálfti	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	nsubj	_	tag=no_et_nf_kk_gr
-25	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	29	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
-26	að	að	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
-27	mörgu	margur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	28	amod	_	tag=lo_et_þgf_hk_sb
-28	leyti	leyti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	29	obl	_	tag=no_et_þgf_hk
-29	óvenjulegur	óvenjulegur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
-30	.	.	PUNCT	grm	_	5	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00477,.9
 # text = Ég er núna í Melbourne og kom fram í sjónvarpsspjallþætti sem heitir The Project og kallaði Trump nasista í gríni og þá hófust árásirnar aftur, segir Griffin.
@@ -326,8 +304,6 @@
 28	Griffin	Griffin	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	SpaceAfter=No|tag=person_et_nf_kvk
 29	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00477,.10
-# text = Það getur vel verið og eg tel hana sjálfur mjög efnilegan stjórnmálamann, og ég held að það sé miklu meira í henni en menn átta sig á.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	tag=pfn_et_nf_hk_p3
 2	getur	geta	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	vel	vel	ADV	ao	_	4	advmod	_	tag=ao
@@ -339,7 +315,7 @@
 9	sjálfur	sjálfur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	tag=fn_et_nf_kk
 10	mjög	mjög	ADV	eo	_	12	advmod	_	tag=eo
 11	efnilegan	efnilegur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_þf_kk_sb
-12	stjórnmálamann	stjórnmálamaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	iobj	_	SpaceAfter=No|tag=no_et_þf_kk
+12	stjórnmálamann	stjórnmálamaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	iobj	_	tag=no_et_þf_kk
 13	,	,	PUNCT	grm	_	12	punct	_	tag=grm
 14	og	og	CCONJ	st	_	4	cc	_	tag=st
 15	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_p1
@@ -355,6 +331,6 @@
 25	menn	maður	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	tag=fn_ft_nf_kk
 26	átta	átta	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	advcl	_	tag=so_1_þf_fh_p3_ft_nt_gm
 27	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	26	obj	_	tag=abfn_þf
-28	á	á	ADV	ao	_	26	advmod	_	SpaceAfter=No|tag=ao
+28	á	á	ADV	ao	_	26	advmod	_	tag=ao
 29	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 

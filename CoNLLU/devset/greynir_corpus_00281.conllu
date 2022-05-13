@@ -70,8 +70,8 @@
 # text = Viggó I. Jónasson var að gefa út sína fyrstu bók, barnabókina Konungborna bólubaslið, ásamt teiknaranum Ara Yates.
 1-3	Viggó I. Jónasson	_	_	_	_	_	_	_	_
 1	Viggó	Viggó	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	I.	I.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
-3	Jónasson	Jónasson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
+2	I.	I.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Jónasson	Jónasson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	gefa	gefa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_1_þf_nh_gm
@@ -88,7 +88,7 @@
 17	teiknaranum	teiknari	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk_gr
 18-19	Ara Yates	_	_	_	_	_	_	_	_
 18	Ara	Ari	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	17	obl	_	SpaceAfter=No|tag=person_þgf_kk
-19	Yates	Yates	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	18	_	_	SpaceAfter=No|tag=person_þgf_kk
+19	Yates	Yates	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	18	flat	_	SpaceAfter=No|tag=person_þgf_kk
 20	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00281,.5
@@ -128,7 +128,7 @@
 11	geysivinsæli	geysivinsæll	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_nf_kk_vb
 12-13	Freddie Mercury	_	_	_	_	_	_	_	_
 12	Freddie	Freddie	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	advcl	_	tag=person_nf_kk
-13	Mercury	Mercury	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	_	_	tag=person_nf_kk
+13	Mercury	Mercury	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	tag=person_nf_kk
 14	og	og	CCONJ	st	_	5	cc	_	tag=st
 15	aftur	aftur	ADV	ao	_	5	conj	_	tag=ao
 16	á	á	ADV	fs_þf	Case=Acc	15	advmod	_	tag=fs_þf
@@ -208,8 +208,6 @@
 19	vinnumarkaði	vinnumarkaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 20	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00281,.10
-# text = Þá horfir hann á mig með fyrirlitningu og segir : ekki datt mér í hug að þú værir SVONA kvenmaður !
 1	Þá	þá	ADV	ao	_	2	advmod	_	tag=ao
 2	horfir	horfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
@@ -218,11 +216,7 @@
 6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	fyrirlitningu	fyrirlitning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
-<<<<<<< HEAD
 9	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_þf_fh_p3_et_nt_gm
-=======
-9	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	SpaceAfter=No|tag=so_1_þf_fh_p3_et_nt_gm
->>>>>>> master
 10	:	_	PUNCT	grm	_	9	punct	_	tag=grm
 11	ekki	ekki	ADV	ao	_	12	advmod	_	tag=ao
 12	datt	detta	VERB	so_1_nf_op_subj_þgf_fh_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Tense=Past|Voice=Act	2	obj	_	tag=so_1_nf_op_subj_þgf_fh_et_þt_gm
@@ -233,6 +227,6 @@
 17	þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	tag=pfn_et_nf_p2
 18	værir	vera	VERB	so_1_nf_vh_p2_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=2|Tense=Past|Voice=Act	20	cop	_	tag=so_1_nf_vh_p2_et_þt_gm
 19	SVONA	svona	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	20	amod	_	tag=lo_et_nf_kk_sb
-20	kvenmaður	kvenmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|tag=no_et_nf_kk
+20	kvenmaður	kvenmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	tag=no_et_nf_kk
 21	!	_	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -30,13 +30,13 @@
 1	Fréttamennirnir	fréttamaður	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_nf_kk_gr
 2-4	Stefán Árni Pálsson	_	_	_	_	_	_	_	_
 2	Stefán	Stefán	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
-3	Árni	Árni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
-4	Pálsson	Pálsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	_	_	tag=person_nf_kk
+3	Árni	Árni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	flat	_	tag=person_nf_kk
+4	Pálsson	Pálsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	flat	_	tag=person_nf_kk
 5	og	og	CCONJ	st	_	2	cc	_	tag=st
 6-8	Benedikt Bóas Hinriksson	_	_	_	_	_	_	_	_
 6	Benedikt	Benedikt	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	conj	_	tag=person_nf_kk
-7	Bóas	Bóas	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	_	_	tag=person_nf_kk
-8	Hinriksson	Hinriksson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	_	_	tag=person_nf_kk
+7	Bóas	Bóas	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	flat	_	tag=person_nf_kk
+8	Hinriksson	Hinriksson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	flat	_	tag=person_nf_kk
 9	verða	verða	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_ft_nt_gm
 10	með	með	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 11	umfjöllun	umfjöllun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
@@ -46,7 +46,7 @@
 15	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 16-17	Stöð 2	_	_	_	_	_	_	_	_
 16	Stöð	Stöð	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_kvk
-17	2	2	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	_	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_kvk
+17	2	2	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	flat	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_kvk
 18	,	,	PUNCT	grm	_	19	punct	_	tag=grm
 19	Fréttablaðinu	Fréttablaðið	PROPN	fyrirtæki_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	14	conj	_	tag=fyrirtæki_et_þgf_hk_gr
 20	og	og	CCONJ	st	_	14	cc	_	tag=st
@@ -57,7 +57,7 @@
 25	degi	dagur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	tag=no_et_þgf_kk
 26-27	í gegnum	_	_	_	_	_	_	_	_
 26	í	í	ADP	fs_þf	Case=Acc	29	case	_	tag=fs_þf
-27	gegnum	gegnum	ADP	fs_þf	Case=Acc	26	_	_	tag=fs_þf
+27	gegnum	gegnum	ADP	fs_þf	Case=Acc	26	fixed	_	tag=fs_þf
 28	alla	allur	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	29	nmod	_	tag=fn_et_þf_kvk
 29	keppnina	keppni	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 30	.	.	PUNCT	grm	_	9	punct	_	tag=grm
@@ -113,7 +113,7 @@
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21-22	Kúala Lúmpúr	_	_	_	_	_	_	_	_
 21	Kúala	Kúala	PROPN	sérnafn_et_þgf	Case=Dat|Number=Sing	18	obl	_	tag=sérnafn_et_þgf
-22	Lúmpúr	Lúmpúr	PROPN	sérnafn_et_þgf	Case=Dat|Number=Sing	21	_	_	tag=sérnafn_et_þgf
+22	Lúmpúr	Lúmpúr	PROPN	sérnafn_et_þgf	Case=Dat|Number=Sing	21	flat	_	tag=sérnafn_et_þgf
 23	í	í	ADV	ao	_	2	advmod	_	tag=ao
 24	fyrra	fyrra	ADV	ao	_	23	advmod	_	SpaceAfter=No|tag=ao
 25	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -147,10 +147,9 @@
 
 # sent_id = GREYNIR_CORPUS_00451,.6
 # text = Geir Sveinsson landsliðsþjálfari sagði við RÚV að smávægileg meiðsli hafi tekið sig upp hjá Bjarka Má og því hafi verið ákveðið að hvíla hann í kvöld.
-<<<<<<< HEAD
 1-2	Geir Sveinsson	_	_	_	_	_	_	_	_
 1	Geir	Geir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Sveinsson	Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+2	Sveinsson	Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 3	landsliðsþjálfari	landsliðsþjálfari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 4	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -165,7 +164,7 @@
 14	hjá	hjá	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15-16	Bjarka Má	_	_	_	_	_	_	_	_
 15	Bjarka	Bjarki	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	11	obl	_	tag=person_þgf_kk
-16	Má	Már	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	15	_	_	tag=person_þgf_kk
+16	Má	Már	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	15	flat	_	tag=person_þgf_kk
 17	og	og	CCONJ	st	_	11	cc	_	tag=st
 18	því	því	ADV	ao	_	21	advmod	_	tag=ao
 19	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	aux	_	tag=so_0_vh_p3_ft_nt_gm
@@ -178,35 +177,9 @@
 25	í	í	ADV	ao	_	23	advmod	_	SpaceAfter=No|tag=ao
 26	kvöld	kvöld	ADV	ao	_	25	fixed	_	SpaceAfter=No|tag=ao
 27	.	.	PUNCT	grm	_	4	punct	_	tag=grm
-=======
-1	Geir Sveinsson	Geir Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	landsliðsþjálfari	landsliðsþjálfari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-3	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-4	við	við	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	RÚV	Ríkisútvarpið	PROPN	fyrirtæki_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=fyrirtæki_et_þf_hk
-6	að	að	SCONJ	st	_	10	mark	_	tag=st
-7	smávægileg	smávægilegur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	8	amod	_	tag=lo_ft_nf_hk_sb
-8	meiðsli	meiðsli	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	tag=no_ft_nf_hk
-9	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_vh_p3_ft_nt_gm
-10	tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	3	obj	_	tag=so_1_þf_sagnb_gm
-11	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	10	obj	_	tag=abfn_þf
-12	upp	upp	ADV	ao	_	10	advmod	_	tag=ao
-13	hjá	hjá	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	Bjarka Má	Bjarki Már	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	10	obl	_	tag=person_þgf_kk
-15	og	og	CCONJ	st	_	10	cc	_	tag=st
-16	því	því	ADV	ao	_	19	advmod	_	tag=ao
-17	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_vh_p3_ft_nt_gm
-18	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	19	cop	_	tag=so_0_sagnb_gm
-19	ákveðið	ákveða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	VANTAR_LIÐ_IP_None	_	tag=so_0_lhþt_et
-20	að	að	PART	nhm	_	21	mark	_	tag=nhm
-21	hvíla	hvíla	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	19	xcomp	_	tag=so_1_þf_nh_gm
-22	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	tag=pfn_et_þf_kk_p3
-23	í kvöld	í kvöld	ADV	ao	_	21	advmod	_	SpaceAfter=No|tag=ao
-24	.	.	PUNCT	grm	_	3	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00451,.7
-# text = Mikil þensla sé á framkvæmdum í Reykjavík og mikið að umsóknum hafi borist að undanförnu, þar að auki fari gæði gagna sem embættinu berist minnkandi :
+# text = Mikil þensla sé á framkvæmdum í Reykjavík og mikið að umsóknum hafi borist að undanförnu, þar að auki fari gæði gagna sem embættinu berist minnkandi:
 1	Mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_sb
 2	þensla	þensla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
 3	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_vh_p3_et_nt_gm
@@ -301,7 +274,6 @@
 # text = ÍBV vann í kvöld öruggan sigur á Fylki í Árbæ, 3:1, í 2. umferð Pepsi-deildar kvenna í knattspyrnu.
 1	ÍBV	ÍBV	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	2	nsubj	_	tag=fyrirtæki_nf_hk
 2	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-<<<<<<< HEAD
 3-4	í kvöld	_	_	_	_	_	_	_	_
 3	í	í	ADV	ao	_	2	advmod	_	tag=ao
 4	kvöld	kvöld	ADV	ao	_	3	fixed	_	tag=ao
@@ -322,24 +294,4 @@
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	knattspyrnu	knattspyrna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-3	í kvöld	í kvöld	ADV	ao	_	2	advmod	_	tag=ao
-4	öruggan	öruggur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_þf_kk_sb
-5	sigur	sigur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk
-6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	Fylki	Fylkir	PROPN	fyrirtæki_þgf_kk	Case=Dat|Gender=Masc	5	obl	_	tag=fyrirtæki_þgf_kk
-8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	Árbæ	Árbær	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk
-10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	3:1	3:1	NUM	tala	NumType=Card	2	obl	_	SpaceAfter=No|tag=tala
-12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
-13	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-14	2.	2.	ADJ	raðnr_þgf_kvk	Case=Dat|Gender=Fem|NumType=Ord	15	amod	_	tag=raðnr_þgf_kvk
-15	umferð	umferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
-16	Pepsi-deildar	Pepsi-deild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	15	nmod:poss	_	tag=no_et_ef_kvk
-17	kvenna	kona	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	16	nmod:poss	_	tag=no_ft_ef_kvk
-18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19	knattspyrnu	knattspyrna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 

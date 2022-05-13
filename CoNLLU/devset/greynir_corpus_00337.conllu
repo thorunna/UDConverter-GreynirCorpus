@@ -226,7 +226,7 @@
 # text = Sandra Joyce, aðstoðarforstjóri upplýsingamála hjá FirEye, segir meðlimi APT 38 gefa sér langan tíma og þá allt að tvö ár, til þess að læra það sem þeir geta um þá aðila sem þeir ráðast á og læra á kerfi þeirra.
 1-2	Sandra Joyce	_	_	_	_	_	_	_	_
 1	Sandra	Sandra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	Joyce	Joyce	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	SpaceAfter=No|tag=person_nf_kvk
+2	Joyce	Joyce	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	aðstoðarforstjóri	aðstoðarforstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	upplýsingamála	upplýsingamál	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	nmod:poss	_	tag=no_ft_ef_hk
@@ -349,7 +349,6 @@
 28	fallegur	fallegur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	33	amod	_	tag=lo_et_nf_kk_sb
 29	2	2	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	31	nummod	_	SpaceAfter=No|tag=tala_ft_ef_hk
 30	—	—	PUNCT	grm	_	29	punct	_	tag=grm
-<<<<<<< HEAD
 31-32	3 punda	_	_	_	_	_	_	_	_
 31	3	3	?	mælieining	_	33	obl	_	tag=mælieining
 32	punda	pund	?	mælieining	_	31	_	_	tag=mælieining
@@ -366,20 +365,6 @@
 42	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	43	nsubj	_	tag=pfn_ft_nf_kk_p3
 43	stærri	stór	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No|tag=lo_ft_nf_kk_mst
 44	.	.	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-31	3 punda	3 pund	X	mælieining	_	32	dep	_	tag=mælieining
-32	urriði	urriði	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	27	obl	_	tag=no_et_nf_kk
-33	í	í	ADP	fs_þgf	Case=Dat	35	case	_	tag=fs_þgf
-34	flestum	margur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	35	amod	_	tag=lo_ft_þgf_hk_sb
-35	tilfellum	tilfelli	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	27	obl	_	tag=no_ft_þgf_hk
-36	og	og	CCONJ	st	_	2	cc	_	tag=st
-37	inn	inn	ADV	ao	_	41	advmod	_	tag=ao
-38	á milli	á milli	ADV	ao	_	37	advmod	_	tag=ao
-39	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	41	cop	_	tag=so_0_fh_p3_ft_nt_gm
-40	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	tag=pfn_ft_nf_kk_p3
-41	stærri	stór	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No|tag=lo_ft_nf_kk_mst
-42	.	.	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00337,.9
 # text = Í aðsendri grein Erdogan sem var birt í The Washington Post, þar sem Khashoggi starfaði, sakaði forsetinn stjórnvöld í Sádi-Arabíu um að neita að svara lykilspurningum um morðið, þrátt fyrir að þau hafi handtekið 18 grunaða einstaklinga fyrir nokkru síðan.
@@ -430,8 +415,6 @@
 43	síðan	síðan	ADV	ao	_	42	advmod	_	SpaceAfter=No|tag=ao
 44	.	_	PUNCT	grm	_	18	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00337,.10
-# text = Það eru jú einhverjar fjárhæðir og dagsetningar en ekkert sem breytir þeirri staðreynd að samskipti mín við bankann þau voru bara eðlileg, sagði Bjarni Benediktsson forsætisráðherra í samtali við Heimi Má Pétursson, fréttamann stöðvar 2, eftir ríkisstjórnarfund í dag.
 1	Það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
 2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	jú	jú	ADV	ao	_	5	advmod	_	tag=ao
@@ -453,21 +436,20 @@
 19	þau	sá	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	22	obl	_	tag=fn_ft_nf_hk
 20	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	22	cop	_	tag=so_0_fh_p3_ft_þt_gm
 21	bara	bara	ADV	ao	_	22	advmod	_	tag=ao
-22	eðlileg	eðlilegur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	13	ccomp	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
+22	eðlileg	eðlilegur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	13	ccomp	_	tag=lo_ft_nf_hk_sb
 23	,	_	PUNCT	grm	_	22	punct	_	tag=grm
 24	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_þt_gm
-<<<<<<< HEAD
 25-26	Bjarni Benediktsson	_	_	_	_	_	_	_	_
 25	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	24	nsubj	_	tag=person_nf_kk
-26	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	25	_	_	tag=person_nf_kk
+26	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	25	flat	_	tag=person_nf_kk
 27	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	25	obl	_	tag=no_et_nf_kk
 28	í	í	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
 29	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	tag=no_et_þgf_hk
 30	við	við	ADP	fs_þf	Case=Acc	31	case	_	tag=fs_þf
 31-33	Heimi Má Pétursson	_	_	_	_	_	_	_	_
 31	Heimi	Heimir	PROPN	person_þf_kk	Case=Acc|Gender=Masc	29	obl	_	tag=person_þf_kk
-32	Má	Már	PROPN	person_þf_kk	Case=Acc|Gender=Masc	31	_	_	tag=person_þf_kk
-33	Pétursson	Pétursson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	32	_	_	tag=person_þf_kk
+32	Má	Már	PROPN	person_þf_kk	Case=Acc|Gender=Masc	31	flat	_	tag=person_þf_kk
+33	Pétursson	Pétursson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	31	flat	_	tag=person_þf_kk
 34	,	_	PUNCT	grm	_	33	punct	_	tag=grm
 35	fréttamann	fréttamaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	31	obl	_	tag=no_et_þf_kk
 36	stöðvar	stöð	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	35	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
@@ -478,22 +460,4 @@
 41	í	í	ADP	fs_þf	Case=Acc	42	case	_	tag=fs_þf
 42	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	40	advmod	_	tag=no_et_þf_kk
 43	.	_	PUNCT	grm	_	1	punct	_	tag=grm
-=======
-25	Bjarni Benediktsson	Bjarni Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	24	nsubj	_	tag=person_nf_kk
-26	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	25	obl	_	tag=no_et_nf_kk
-27	í	í	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
-28	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	tag=no_et_þgf_hk
-29	við	við	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
-30	Heimi Má Pétursson	Heimir Már Pétursson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	28	obl	_	SpaceAfter=No|tag=person_þf_kk
-31	,	_	PUNCT	grm	_	30	punct	_	tag=grm
-32	fréttamann	fréttamaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	30	obl	_	tag=no_et_þf_kk
-33	stöðvar	stöð	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	32	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
-34	2	2	PROPN	fyrirtæki	_	33	flat:name	_	SpaceAfter=No|tag=fyrirtæki
-35	,	_	PUNCT	grm	_	34	punct	_	tag=grm
-36	eftir	eftir	ADP	fs_þf	Case=Acc	37	case	_	tag=fs_þf
-37	ríkisstjórnarfund	ríkisstjórnarfundur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	24	advmod	_	tag=no_et_þf_kk
-38	í	í	ADP	fs_þf	Case=Acc	39	case	_	tag=fs_þf
-39	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	37	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-40	.	_	PUNCT	grm	_	1	punct	_	tag=grm
->>>>>>> master
 

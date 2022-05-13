@@ -37,8 +37,8 @@
 # text = Guðlaug Rakel Guðjónsdóttir, framkvæmdastjóri flæðissviðs Landspítalans, segir að þetta sé vissulega raunlýsing á ástandinu.
 1-3	Guðlaug Rakel Guðjónsdóttir	_	_	_	_	_	_	_	_
 1	Guðlaug	Guðlaug	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	Rakel	Rakel	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	SpaceAfter=No|tag=person_nf_kvk
-3	Guðjónsdóttir	Guðjónsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	_	_	SpaceAfter=No|tag=person_nf_kvk
+2	Rakel	Rakel	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
+3	Guðjónsdóttir	Guðjónsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
 4	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 5	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	flæðissviðs	flæðis-svið	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=no_et_ef_hk
@@ -94,7 +94,6 @@
 # text = Læknirinn vissi að sjálfsögðu að það væri lygi enda brotnar typpið ekki við mörg tilefni.
 1	Læknirinn	læknir	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk_gr
 2	vissi	viss	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-<<<<<<< HEAD
 3-4	að sjálfsögðu	_	_	_	_	_	_	_	_
 3	að	að	ADV	ao	_	2	advmod	_	tag=ao
 4	sjálfsögðu	sjálfsögðu	ADV	ao	_	3	fixed	_	tag=ao
@@ -110,21 +109,6 @@
 14	mörg	margur	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	15	amod	_	tag=lo_ft_þf_hk_sb
 15	tilefni	tilefni	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
 16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-3	að sjálfsögðu	að sjálfsögðu	ADV	ao	_	2	advmod	_	tag=ao
-4	að	að	SCONJ	st	_	7	mark	_	tag=st
-5	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_hk_p3
-6	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
-7	lygi	ljúga	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_nf_kvk
-8	enda	enda	CCONJ	st	_	2	cc	_	tag=st
-9	brotnar	brjóta	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
-10	typpið	typpa	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk_gr
-11	ekki	ekki	ADV	ao	_	9	advmod	_	tag=ao
-12	við	við	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-13	mörg	margur	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	14	amod	_	tag=lo_ft_þf_hk_sb
-14	tilefni	tilefni	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
-15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00396,.7
 # text = Það var staðfest þegar það lak út frá Bandaríkjunum að ákæran væri tilbúin, framsalskrafan.
@@ -147,18 +131,17 @@
 
 # sent_id = GREYNIR_CORPUS_00396,.8
 # text = William McGirt, Jimmy Walker og Ryan Moore eru jafnir í þriðja sæti á 14 höggum undir pari.
-<<<<<<< HEAD
 1-2	William McGirt	_	_	_	_	_	_	_	_
 1	William	William	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	McGirt	McGirt	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+2	McGirt	McGirt	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 4-5	Jimmy Walker	_	_	_	_	_	_	_	_
 4	Jimmy	Jimmy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	obl	_	tag=person_nf_kk
-5	Walker	Walker	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
+5	Walker	Walker	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
 6	og	og	CCONJ	st	_	1	cc	_	tag=st
 7-8	Ryan Moore	_	_	_	_	_	_	_	_
 7	Ryan	Ryan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	obl	_	tag=person_nf_kk
-8	Moore	Moore	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	_	_	tag=person_nf_kk
+8	Moore	Moore	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	tag=person_nf_kk
 9	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_ft_nt_gm
 10	jafnir	jafn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
 11	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
@@ -170,24 +153,6 @@
 17	undir	una	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 18	pari	par	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 19	.	.	PUNCT	grm	_	10	punct	_	tag=grm
-=======
-1	William McGirt	William McGirt	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	Jimmy Walker	Jimmy Walker	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	obl	_	tag=person_nf_kk
-4	og	og	CCONJ	st	_	1	cc	_	tag=st
-5	Ryan Moore	Ryan Moore	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	obl	_	tag=person_nf_kk
-6	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_ft_nt_gm
-7	jafnir	jafn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
-8	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-9	þriðja	þriðji	ADJ	lo_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_þgf_hk
-10	sæti	sitja	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
-11	á	eiga	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-12	14	14	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	13	nummod	_	tag=tala_ft_þgf_hk
-13	höggum	hagga	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þgf_hk
-14	undir	una	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	pari	par	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-16	.	.	PUNCT	grm	_	7	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00396,.9
 # text = Niðurstaða fékkst í 1292 umsóknir um alþjóðlega vernd árið 2017, samanborið við 976 afgreidd mál árið 2016.
@@ -199,14 +164,13 @@
 6	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 7	alþjóðlega	alþjóðlegur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	tag=lo_et_þf_kvk_sb
 8	vernd	vernd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þf_kvk
-<<<<<<< HEAD
 9-10	árið 2017	_	_	_	_	_	_	_	_
 9	árið	árið	ADV	ártal	_	2	advmod	_	SpaceAfter=No|tag=ártal
 10	2017	2017	NUM	ártal	_	9	flat	_	SpaceAfter=No|tag=ártal
 11	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 12-13	samanborið við	_	_	_	_	_	_	_	_
 12	samanborið	samanborið	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-13	við	við	ADP	fs_þf	Case=Acc	12	_	_	tag=fs_þf
+13	við	við	ADP	fs_þf	Case=Acc	12	fixed	_	tag=fs_þf
 14	976	976	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	16	nummod	_	tag=tala_ft_þf_hk
 15	afgreidd	afgreiða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	16	('HALLÓ_so', '0_lhþt_ft', 'NP', None)	_	tag=so_0_lhþt_ft
 16	mál	mál	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þf_hk
@@ -214,16 +178,6 @@
 17	árið	árið	ADV	ártal	_	2	advmod	_	SpaceAfter=No|tag=ártal
 18	2016	2016	NUM	ártal	_	17	flat	_	SpaceAfter=No|tag=ártal
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-9	árið 2017	árið 2017	ADV	ártal	_	2	advmod	_	SpaceAfter=No|tag=ártal
-10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	samanborið við	samanborið við	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-12	976	976	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	14	nummod	_	tag=tala_ft_þf_hk
-13	afgreidd	afgreiða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	14	amod	_	tag=so_0_lhþt_ft
-14	mál	mál	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þf_hk
-15	árið 2016	árið 2016	ADV	ártal	_	2	advmod	_	SpaceAfter=No|tag=ártal
-16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00396,.10
 # text = Guðmundur segist aðeins vilja komast til botns í því hver henti glænýjum fiski fyrir borð.

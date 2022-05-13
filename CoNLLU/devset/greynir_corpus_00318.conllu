@@ -107,7 +107,6 @@
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	Rúanda	Rúanda	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
 12	snemma	snemma	ADV	ao	_	5	advmod	_	tag=ao
-<<<<<<< HEAD
 13-14	í morgun	_	_	_	_	_	_	_	_
 13	í	í	ADV	ao	_	5	advmod	_	tag=ao
 14	morgun	morgun	ADV	ao	_	13	fixed	_	tag=ao
@@ -126,24 +125,6 @@
 27	og	og	CCONJ	st	_	28	cc	_	tag=st
 28	loftkælingar	loftkæling	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No|tag=no_ft_þf_kvk
 29	.	_	PUNCT	grm	_	5	punct	_	tag=grm
-=======
-13	í morgun	í morgun	ADV	ao	_	5	advmod	_	tag=ao
-14	að	að	PART	nhm	_	15	mark	_	tag=nhm
-15	minnka	minnka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
-16	notkun	notkun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	tag=no_et_þf_kvk
-17	vetnisflúrkolefnislofttegunda	vetnisflúrkolefnislofttegund	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	16	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kvk
-18	,	_	PUNCT	grm	_	19	punct	_	tag=grm
-19	HFC	HFC	PROPN	sérnafn	_	17	conj	_	SpaceAfter=No|tag=sérnafn
-20	,	_	PUNCT	grm	_	19	punct	_	tag=grm
-21	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
-22	notaðar	nota	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	17	acl:relcl	_	tag=so_0_lhþt_ft
-23	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_0_fh_p3_ft_nt_gm
-24	í	í	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
-25	ísskápa	ísskápur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	22	obl	_	tag=no_ft_þf_kk
-26	og	og	CCONJ	st	_	27	cc	_	tag=st
-27	loftkælingar	loftkæling	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	25	conj	_	SpaceAfter=No|tag=no_ft_þf_kvk
-28	.	_	PUNCT	grm	_	5	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00318,.5
 # text = Evans-Pritchard segir að loforð Le Pen um að halda þjóðaratkvæðagreiðslu um aðildina að ESB og taka upp franska frankann að nýju geti orðið evrusamstarfinu að falli.
@@ -153,7 +134,7 @@
 4	loforð	loforð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	tag=no_et_nf_hk
 5-6	Le Pen	_	_	_	_	_	_	_	_
 5	Le	Le	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=person_et_ef_kvk
-6	Pen	Pen	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	_	_	tag=person_et_ef_kvk
+6	Pen	Pen	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	flat	_	tag=person_et_ef_kvk
 7	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	halda	halda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	obl	_	tag=so_0_nh_gm
@@ -295,8 +276,8 @@
 22	að	að	ADV	ao	_	23	advmod	_	tag=ao
 23-25	tíu þúsund dollara	_	_	_	_	_	_	_	_
 23	tíu	tíu	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	19	obj	_	tag=no_ft_ef_kvk
-24	þúsund	þúsund	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	23	_	_	tag=no_ft_ef_kvk
-25	dollara	dollara	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	24	_	_	tag=no_ft_ef_kvk
+24	þúsund	þúsund	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	23	flat	_	tag=no_ft_ef_kvk
+25	dollara	dollara	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	23	flat	_	tag=no_ft_ef_kvk
 26	í	í	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
 27	bætur	bót	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	tag=no_ft_þf_kvk
 28	hverjum	hver	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	19	iobj	_	SpaceAfter=No|tag=fn_ft_þgf_kk

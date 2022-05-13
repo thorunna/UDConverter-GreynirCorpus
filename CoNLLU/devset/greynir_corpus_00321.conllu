@@ -36,7 +36,7 @@
 # text = L.A. Times tók saman sögur sex kvenna, þar á meðal leikkvennanna Olivia Munn og Natasha Henstridge, sem sökuðu leikstjórann um ágenga, hrottalega og óæskilega kynferðislega hegðun.
 1-2	L.A. Times	_	_	_	_	_	_	_	_
 1	L.A.	L.A.	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
-2	Times	Times	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	_	_	tag=no_et_nf_hk
+2	Times	Times	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	tag=no_et_nf_hk
 3	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	saman	saman	ADV	eo	_	5	advmod	_	tag=eo
 5	sögur	saga	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	tag=no_ft_þf_kvk
@@ -136,10 +136,10 @@
 
 # sent_id = GREYNIR_CORPUS_00321,.5
 # text = Í ávarpi sínu talaði forsætisráðherra m.a. um áherslur ríkisstjórnarinnar að eiga gott samstarf við aðila vinnumarkaðarins, mikilvægi félagslegs stöðuleika fyrir velferðarsamfélagið og að gott heilbrigðiskerfi væri brýnt lífskjaramál.
-1	Í	í	ADP	fs_þgf	Case=Dat	0	root	_	tag=fs_þgf
+1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	ávarpi	ávarp	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 3	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	tag=fn_et_þgf_hk
-4	talaði	tala	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
+4	talaði	tala	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 5	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
 6	m.a.	m.a.	ADV	ao	_	4	advmod	_	tag=ao
 7	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
@@ -165,7 +165,7 @@
 27	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	29	cop	_	tag=so_0_vh_p3_et_þt_gm
 28	brýnt	brýnn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	29	amod	_	tag=lo_et_nf_hk_sb
 29	lífskjaramál	lífskjaramál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	ccomp	_	SpaceAfter=No|tag=no_et_nf_hk
-30	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+30	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00321,.6
 # text = Við viljum vernda heimaland okkar, Austurríki, sem stað sem fýsilegt sé að búa á með öllum þeim menningarlegum eiginleikum sem landið hefur upp á að bjóða.
@@ -225,7 +225,7 @@
 21	en	en	CCONJ	st	_	4	cc	_	tag=st
 22-23	47 prósent	_	_	_	_	_	_	_	_
 22	47	47	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	25	nsubj	_	tag=no_ft_nf_hk
-23	prósent	prósent	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	22	_	_	tag=no_ft_nf_hk
+23	prósent	prósent	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	22	flat	_	tag=no_ft_nf_hk
 24	aðspurðra	aðspurður	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	22	nmod:poss	_	tag=lo_ft_ef_kvk_sb
 25	segjast	segja	VERB	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	4	conj	_	tag=so_0_fh_p3_ft_nt_mm
 26	ætla	ætla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	25	conj	_	tag=so_0_nh_gm
@@ -315,10 +315,10 @@
 11	nú	nú	ADV	ao	_	12	advmod	_	tag=ao
 12	tröllríður	tröllríða	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	acl:relcl	_	tag=so_1_þgf_fh_p3_et_nt_gm
 13	Internetinu	Internet	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-14	,	_	PUNCT	grm	_	15	punct	_	tag=grm
-15	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_þt_gm
+14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
+15	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_0_fh_p3_et_þt_gm
 16	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kvk_p3
-17	tekin	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	xcomp	_	tag=so_0_lhþt_et
+17	tekin	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	conj	_	tag=so_0_lhþt_et
 18	upp	upp	ADV	eo	_	17	advmod	_	tag=eo
 19	á	á	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 20	myndband	myndband	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	tag=no_et_þf_hk

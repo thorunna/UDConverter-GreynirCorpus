@@ -111,7 +111,7 @@
 15	sprengjuárásar	sprengjuárás	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_ef_kvk
 16-17	fyrir utan	_	_	_	_	_	_	_	_
 16	fyrir	fyrir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-17	utan	utan	ADP	fs_þf	Case=Acc	16	_	_	tag=fs_þf
+17	utan	utan	ADP	fs_þf	Case=Acc	16	fixed	_	tag=fs_þf
 18	heimili	heimili	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	tag=no_ft_þf_hk
 19	fyrir	fyrir	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 20	hælisleitendur	hælisleitandi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	18	obl	_	tag=no_ft_þf_kk
@@ -143,7 +143,7 @@
 19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00419,.7
-# text = Hann svaraði : Þið getið gert það, og þannig endaði það, sagði Trump.
+# text = Hann svaraði: Þið getið gert það, og þannig endaði það, sagði Trump.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	svaraði	svara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
 3	:	:	PUNCT	grm	_	6	punct	_	tag=grm
@@ -168,10 +168,9 @@
 3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	sagður	sagður	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	cop	_	tag=so_1_nf_nh_gm
-<<<<<<< HEAD
 6-7	Corey Lewandowski	_	_	_	_	_	_	_	_
 6	Corey	Corey	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	xcomp	_	SpaceAfter=No|tag=person_nf_kk
-7	Lewandowski	Lewandowski	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	_	_	SpaceAfter=No|tag=person_nf_kk
+7	Lewandowski	Lewandowski	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	flat	_	SpaceAfter=No|tag=person_nf_kk
 8	,	,	PUNCT	grm	_	6	punct	_	tag=grm
 9	fyrrum	fyrrum	ADV	eo	_	10	advmod	_	tag=eo
 10	kosningastjóri	kosningastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_nf_kk
@@ -185,22 +184,6 @@
 18	börn	barn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	16	obl	_	tag=no_ft_þf_hk
 19	Trumps	Trump	PROPN	person_ef_kk	Case=Gen|Gender=Masc	18	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
 20	.	.	PUNCT	grm	_	4	punct	_	tag=grm
-=======
-6	Corey Lewandowski	Corey Lewandowski	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	xcomp	_	SpaceAfter=No|tag=person_nf_kk
-7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	fyrrum	fyrrum	ADV	eo	_	9	advmod	_	tag=eo
-9	kosningastjóri	kosningastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_nf_kk
-10	Trumps	Trump	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	tag=person_ef_kk
-11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
-12	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-13	rekinn	reka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	acl:relcl	_	tag=so_0_lhþt_et
-14	eftir	eftir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	ósætti	ósætti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þf_hk
-16	við	við	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	börn	barn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	tag=no_ft_þf_hk
-18	Trumps	Trump	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-19	.	.	PUNCT	grm	_	4	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00419,.9
 # text = Þá var maður í annarlegu ástandi vistaður í fangageymslu eftir að hafa haft í hótunum við starfsfólk Gistiskýlisins.
@@ -224,11 +207,6 @@
 18	Gistiskýlisins	gistiskýli	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	17	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk_gr
 19	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
-<<<<<<< HEAD
-=======
-# sent_id = GREYNIR_CORPUS_00419,.10
-# text = Það er verkefni sálfræðinga að rannsaka hvers vegna stjórnmálamenn og ráðamenn hér hafa neikvæða afstöðu til eldri borgara.
->>>>>>> master
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	tag=pfn_et_nf_hk_p3
 2	er	vera	VERB	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
 3	verkefni	verkefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
@@ -246,6 +224,6 @@
 15	afstöðu	afstaða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	tag=no_et_þf_kvk
 16	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
 17	eldri	gamall	ADJ	lo_et_ef_kk_mst	Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	18	amod	_	tag=lo_et_ef_kk_mst
-18	borgara	borgari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_ef_kk
+18	borgara	borgari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_ef_kk
 19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

@@ -1,5 +1,5 @@
 # sent_id = GREYNIR_CORPUS_00270,.1
-# text = Slysið hafi orðið á Íslandi og flugvélin ; ásamt flugmanni og farþegum, verið tryggð hjá íslensku tryggingafélagi.
+# text = Slysið hafi orðið á Íslandi og flugvélin; ásamt flugmanni og farþegum, verið tryggð hjá íslensku tryggingafélagi.
 1	Slysið	Slys	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
 2	hafi	hafi	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_vh_p3_et_nt_gm
 3	orðið	orðið	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
@@ -52,12 +52,12 @@
 7	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 8-9	Hlynur Bæringsson	_	_	_	_	_	_	_	_
 8	Hlynur	Hlynur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	conj	_	tag=person_nf_kk
-9	Bæringsson	Bæringsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	_	_	tag=person_nf_kk
+9	Bæringsson	Bæringsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	flat	_	tag=person_nf_kk
 10	og	og	CCONJ	st	_	2	cc	_	tag=st
 11-13	Tómas Þórður Hilmarsson	_	_	_	_	_	_	_	_
 11	Tómas	Tómas	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	conj	_	tag=person_nf_kk
-12	Þórður	Þórður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	_	_	tag=person_nf_kk
-13	Hilmarsson	Hilmarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	_	_	tag=person_nf_kk
+12	Þórður	Þórður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	flat	_	tag=person_nf_kk
+13	Hilmarsson	Hilmarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	flat	_	tag=person_nf_kk
 14	framlengdu	framlengja	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 15	samninga	samningur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	tag=no_ft_þf_kk
 16	sína	sinn	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	tag=fn_ft_þf_kk
@@ -93,11 +93,10 @@
 2	fyrstu	fyrstur	ADJ	lo_et_ef_kvk_vb	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	tag=lo_et_ef_kvk_vb
 3	jafningjarýni	jafningjarýni	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk
 4	Þróunarsamvinnunefndar	þróunarsamvinnunefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk
-<<<<<<< HEAD
 5-7	Efnahags- og framfarastofnunarinnar	_	_	_	_	_	_	_	_
 5	Efnahags-	Efnahags-	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kvk_gr
-6	og	og	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	_	_	tag=no_et_ef_kvk_gr
-7	framfarastofnunarinnar	framfarastofnun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	_	_	tag=no_et_ef_kvk_gr
+6	og	og	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	flat	_	tag=no_et_ef_kvk_gr
+7	framfarastofnunarinnar	framfarastofnun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	flat	_	tag=no_et_ef_kvk_gr
 8	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	íslenskri	íslenskur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_þgf_kvk_sb
 10	þróunarsamvinnu	þróunarsamvinna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
@@ -110,21 +109,6 @@
 17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 18	málaflokknum	málaflokkur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 19	.	_	PUNCT	grm	_	13	punct	_	tag=grm
-=======
-5	Efnahags- og framfarastofnunarinnar	Efnahags- og framfarastofnun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kvk_gr
-6	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-7	íslenskri	íslenskur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	8	amod	_	tag=lo_et_þgf_kvk_sb
-8	þróunarsamvinnu	þróunarsamvinna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
-9	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
-10	góður	góður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_nf_kk_sb
-11	vitnisburður	vitnisburður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
-12	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	framlag	framlag	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þf_hk
-14	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	13	nmod:poss	_	tag=no_et_ef_hk
-15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	málaflokknum	málaflokkur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
-17	.	_	PUNCT	grm	_	11	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00270,.6
 # text = Þannig að já, að einhverju leyti er hægt að loka sárunum og ná einhvers konar bata.
@@ -154,7 +138,7 @@
 3	líka	líka	ADV	eo	_	4	advmod	_	tag=eo
 4-5	Egill Sigurgeirsson	_	_	_	_	_	_	_	_
 4	Egill	Egill	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-5	Sigurgeirsson	Sigurgeirsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
+5	Sigurgeirsson	Sigurgeirsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
 6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
 7	sat	sitja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
@@ -228,18 +212,10 @@
 11	kærða	kæra	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	obl	_	tag=so_0_lhþt_et
 12	þar	þar	ADV	ao	_	17	mark	_	tag=ao
 13	sem	sem	SCONJ	st	_	12	cc	_	tag=st
-<<<<<<< HEAD
-14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_et_nf_kk_p3
-15	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	tag=so_0_vh_p3_et_nt_gm
-16	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	18	cop	_	tag=so_0_sagnb_gm
-17	metinn	meta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	18	('HALLÓ_so', '0_lhþt_et', 'NP', 'PRD')	_	tag=so_0_lhþt_et
-18	sakhæfur	sakhæfur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	advcl	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
-=======
 14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kk_p3
 15	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_vh_p3_et_nt_gm
 16	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	17	cop	_	tag=so_0_sagnb_gm
 17	metinn	meta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	advcl	_	tag=so_0_lhþt_et
 18	sakhæfur	sakhæfur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
->>>>>>> master
 19	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 

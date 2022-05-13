@@ -34,7 +34,7 @@
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13-14	íslenskum krónum	_	_	_	_	_	_	_	_
 13	íslenskum	íslenskum	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
-14	krónum	krónum	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	_	_	tag=no_et_þgf_kvk
+14	krónum	krónum	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	flat	_	tag=no_et_þgf_kvk
 15	miðað	miðað	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	obl	_	tag=so_0_lhþt_et
 16	við	við	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
 17	gengi	ganga	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þf_hk
@@ -126,9 +126,9 @@
 
 # sent_id = GREYNIR_CORPUS_00410,.7
 # text = Um að gera að mæta á viðburði á vegum vinnunnar eftir vinnu eða hitta vinnufélagana utan vinnutíma.
-1	Um	um	ADP	fs_nh	VerbForm=Inf	0	root	_	tag=fs_nh
+1	Um	um	ADP	fs_nh	VerbForm=Inf	3	case	_	tag=fs_nh
 2	að	að	PART	nhm	_	3	mark	_	tag=nhm
-3	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	1	xcomp	_	tag=so_0_nh_gm
+3	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	mæta	mæta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -143,7 +143,7 @@
 15	vinnufélagana	vinnufélagi	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	14	obj	_	tag=no_ft_þf_kk_gr
 16	utan	utan	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
 17	vinnutíma	vinnutími	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_ef_kk
-18	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00410,.8
 # text = Ísland vann Kósóvó úti 1 – 2, en sá leikur var alls ekki auðveldur fyrir íslenska liðið.
@@ -191,10 +191,9 @@
 
 # sent_id = GREYNIR_CORPUS_00410,.10
 # text = Elín Elísabet sleit sambandinu en hann reyndi mikið að sannfæra hana um að hún væri að gera mistök.
-<<<<<<< HEAD
 1-2	Elín Elísabet	_	_	_	_	_	_	_	_
 1	Elín	Elín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
-2	Elísabet	Elísabet	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
+2	Elísabet	Elísabet	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
 3	sleit	slíta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 4	sambandinu	samband	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þgf_hk_gr
 5	en	en	CCONJ	st	_	3	cc	_	tag=st
@@ -212,24 +211,4 @@
 17	gera	ger	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	ccomp	_	tag=so_1_þf_nh_gm
 18	mistök	mistak	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	SpaceAfter=No|tag=no_ft_þf_hk
 19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
-=======
-1	Elín Elísabet	Elín Elísabet	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
-2	sleit	slíta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
-3	sambandinu	samband	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þgf_hk_gr
-4	en	en	CCONJ	st	_	2	cc	_	tag=st
-5	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_kk_p3
-6	reyndi	reyna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-7	mikið	mikill	ADV	ao	_	6	advmod	_	tag=ao
-8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	sannfæra	sannfæra	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	ccomp	_	tag=so_1_þf_nh_gm
-10	hana	hana	PRON	pfn_et_þf_kvk_p3	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	tag=pfn_et_þf_kvk_p3
-11	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-12	að	að	SCONJ	st	_	14	mark	_	tag=st
-13	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_kvk_p3
-14	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	9	obl	_	tag=so_0_vh_p3_et_þt_gm
-15	að	að	PART	nhm	_	16	mark	_	tag=nhm
-16	gera	ger	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	ccomp	_	tag=so_1_þf_nh_gm
-17	mistök	mistak	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	SpaceAfter=No|tag=no_ft_þf_hk
-18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 

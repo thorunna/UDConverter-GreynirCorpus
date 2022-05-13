@@ -83,15 +83,9 @@
 9	Þjóðanna	þjóð	NOUN	no_ft_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	7	nmod:poss	_	tag=no_ft_ef_kvk_gr
 10	svo	svo	ADV	eo	_	7	obl	_	tag=eo
 11	sem	sem	ADV	eo	_	10	advmod	_	tag=eo
-<<<<<<< HEAD
-12	UNIFEM	UNIFEM	NOUN	abbrev	_	10	flat	_	tag=abbrev
-13	og	og	CCONJ	st	_	10	cc	_	tag=st
-14	UNICEF	UNICEF	NOUN	abbrev	_	10	flat	_	SpaceAfter=No|tag=abbrev
-=======
 12	UNIFEM	UNIFEM	ADV	abbrev	_	10	advmod	_	tag=abbrev
 13	og	og	CCONJ	st	_	10	cc	_	tag=st
 14	UNICEF	UNICEF	ADV	abbrev	_	10	advmod	_	SpaceAfter=No|tag=abbrev
->>>>>>> master
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00250,.6
@@ -109,7 +103,7 @@
 11	svæði	svæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	acl:relcl	_	tag=no_et_þgf_hk
 12-13	fyrir utan	_	_	_	_	_	_	_	_
 12	fyrir	fyrir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-13	utan	utan	ADP	fs_þf	Case=Acc	12	_	_	tag=fs_þf
+13	utan	utan	ADP	fs_þf	Case=Acc	12	fixed	_	tag=fs_þf
 14	Arnheim	Arnheim	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
 15	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
@@ -167,8 +161,6 @@
 14	tvöfaldast	tvöfalda	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	10	ccomp	_	SpaceAfter=No|tag=so_0_sagnb_mm
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00250,.10
-# text = Aldrei hafa fleiri skipt út MacBook fartölvu sinni fyrir Surface Book fartölvu frá Microsoft.
 1	Aldrei	aldrei	ADV	ao	_	4	advmod	_	tag=ao
 2	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_ft_nt_gm
 3	fleiri	margur	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	4	nsubj	_	tag=lo_ft_nf_kk_mst
@@ -178,7 +170,6 @@
 7	fartölvu	fartölva	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	tag=no_et_þgf_kvk
 8	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	tag=fn_et_þgf_kvk
 9	fyrir	fyrir	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-<<<<<<< HEAD
 10-11	Surface Book	_	_	_	_	_	_	_	_
 10	Surface	Surface	PROPN	sérnafn	_	4	obl	_	tag=sérnafn
 11	Book	Book	PROPN	sérnafn	_	10	flat	_	tag=sérnafn
@@ -186,11 +177,4 @@
 13	frá	frá	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	Microsoft	microsoft	PROPN	fyrirtæki_þgf_hk	Case=Dat|Gender=Neut	10	obl	_	tag=fyrirtæki_þgf_hk
 15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
-=======
-10	Surface Book	Surface Book	PROPN	sérnafn	_	4	obl	_	tag=sérnafn
-11	fartölvu	fartölva	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	tag=no_et_þf_kvk
-12	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	Microsoft	microsoft	PROPN	fyrirtæki_þgf_hk	Case=Dat|Gender=Neut	10	obl	_	SpaceAfter=No|tag=fyrirtæki_þgf_hk
-14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
->>>>>>> master
 

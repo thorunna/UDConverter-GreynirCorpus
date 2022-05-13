@@ -14,7 +14,7 @@
 2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 3-4	á milli	_	_	_	_	_	_	_	_
 3	á	á	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
-4	milli	milli	ADP	fs_ef	Case=Gen	3	_	_	tag=fs_ef
+4	milli	milli	ADP	fs_ef	Case=Gen	3	fixed	_	tag=fs_ef
 5	Djúpavogs	Djúpivogur	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	tag=sérnafn_et_ef_kk
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
 7	Hafnar	Höfn	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No|tag=sérnafn_et_ef_kvk
@@ -74,10 +74,10 @@
 # text = Engan sakaði og eru eldsupptök ókunn.
 1	Engan	enginn	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	tag=fn_et_þf_kk
 2	sakaði	saka	VERB	so_0_op_subj_þf_fh_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Tense=Past|Voice=Act	0	root	_	tag=so_0_op_subj_þf_fh_et_þt_gm
-3	og	og	CCONJ	st	_	4	cc	_	tag=st
-4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_ft_nt_gm
+3	og	og	CCONJ	st	_	2	cc	_	tag=st
+4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_ft_nt_gm
 5	eldsupptök	eldsupptök	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	tag=no_ft_nf_hk
-6	ókunn	ókunnur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	2	xcomp	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
+6	ókunn	ókunnur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	2	conj	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
 7	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00343,.9
@@ -90,13 +90,11 @@
 6	tíma	tími	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
 7	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00343,.10
-# text = Kennarar hafa kvartað undan auknu álagi.
 1	Kennarar	kennari	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	tag=no_ft_nf_kk
 2	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_ft_nt_gm
 3	kvartað	kvarta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 4	undan	undan	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	auknu	aukinn	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þgf_hk_sb
-6	álagi	álag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+6	álagi	álag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
 7	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

@@ -13,11 +13,11 @@
 11	Veiðifélagi	veiðifélag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
 12	Landmannaafréttar	Landmannaafrétt	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	11	nmod:poss	_	tag=sérnafn_et_ef_kvk
 13	og	og	CCONJ	st	_	3	cc	_	tag=st
-14	mun	munu	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+14	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	tag=so_0_fh_p3_et_nt_gm
 15	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	tag=fn_et_nf_hk
 16	ekki	ekki	ADV	ao	_	18	advmod	_	tag=ao
 17	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	18	cop	_	tag=so_1_nf_nh_gm
-18	óeðlilegt	óeðlilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	14	xcomp	_	tag=lo_et_nf_hk_sb
+18	óeðlilegt	óeðlilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=lo_et_nf_hk_sb
 19	um	um	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 20	þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	21	nmod	_	tag=fn_et_þf_hk
 21	leyti	leyti	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	advmod	_	tag=no_et_þf_hk
@@ -60,11 +60,11 @@
 5	deilu	deila	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk
 6-7	United Silicon	_	_	_	_	_	_	_	_
 6	United	United	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	5	nmod:poss	_	tag=fyrirtæki_ef_hk
-7	Silicon	Silicon	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	6	_	_	tag=fyrirtæki_ef_hk
+7	Silicon	Silicon	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	6	flat	_	tag=fyrirtæki_ef_hk
 8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9-10	ÍAV hf.	_	_	_	_	_	_	_	_
 9	ÍAV	ÍAV	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	5	obl	_	SpaceAfter=No|tag=fyrirtæki_þf_hk
-10	hf.	hf.	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	9	_	_	SpaceAfter=No|tag=fyrirtæki_þf_hk
+10	hf.	hf.	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	9	flat	_	SpaceAfter=No|tag=fyrirtæki_þf_hk
 11	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 12	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
 13	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
@@ -88,11 +88,11 @@
 5	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	6	nmod	_	tag=pfn_ft_nf_hk_p3
 6-7	Kathy Baker	_	_	_	_	_	_	_	_
 6	Kathy	Kathy	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
-7	Baker	Baker	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	_	_	tag=person_nf_kvk
+7	Baker	Baker	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	flat	_	tag=person_nf_kvk
 8	og	og	CCONJ	st	_	6	cc	_	tag=st
 9-10	Martin Mull	_	_	_	_	_	_	_	_
 9	Martin	Martin	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	6	conj	_	tag=person_þgf_kk
-10	Mull	Mull	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	_	_	tag=person_þgf_kk
+10	Mull	Mull	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	flat	_	tag=person_þgf_kk
 11	reglulega	reglulega	ADV	ao	_	4	advmod	_	tag=ao
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	þáttunum	þáttur	NOUN	no_ft_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_þgf_kk_gr
@@ -137,7 +137,7 @@
 # text = Man City er í 4. sætinu, fjórum stigum á eftir toppliði Chelsea, en Leicester er aðeins tveimur stigum frá fallsæti.
 1-2	Man City	_	_	_	_	_	_	_	_
 1	Man	Man	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fyrirtæki_et_nf_hk
-2	City	City	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	_	_	tag=fyrirtæki_et_nf_hk
+2	City	City	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	tag=fyrirtæki_et_nf_hk
 3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	4.	4.	ADJ	raðnr_þgf_hk	Case=Dat|Gender=Neut|NumType=Ord	6	amod	_	tag=raðnr_þgf_hk
@@ -164,7 +164,7 @@
 # text = Jürgen Klopp, knattspyrnustjóri Liverpool, viðurkennir að hann hafi ekki hugmynd um hvort sóknarmaðurinn Daniel Sturridge verði klár í slaginn á sunnudaginn.
 1-2	Jürgen Klopp	_	_	_	_	_	_	_	_
 1	Jürgen	Jürgen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Klopp	Klopp	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+2	Klopp	Klopp	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	knattspyrnustjóri	knattspyrnustjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Liverpool	Liverpool	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ef_hk
@@ -180,7 +180,7 @@
 15	sóknarmaðurinn	sóknarmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	tag=no_et_nf_kk_gr
 16-17	Daniel Sturridge	_	_	_	_	_	_	_	_
 16	Daniel	Daniel	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	obl	_	tag=person_nf_kk
-17	Sturridge	Sturridge	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	_	_	tag=person_nf_kk
+17	Sturridge	Sturridge	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	flat	_	tag=person_nf_kk
 18	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 19	klár	klár	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	tag=lo_et_nf_kk_sb
 20	í	í	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf

@@ -61,7 +61,6 @@
 12	afrek	afrek	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk
 13	kvennaliðs	kvennalið	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	nmod:poss	_	tag=no_et_ef_hk
 14	Arsenal	Arsenal	PROPN	entity	_	13	nmod:poss	_	tag=entity
-<<<<<<< HEAD
 15-16	árið 2009	_	_	_	_	_	_	_	_
 15	árið	árið	ADV	ártal	_	2	advmod	_	tag=ártal
 16	2009	2009	NUM	ártal	_	15	flat	_	tag=ártal
@@ -70,21 +69,12 @@
 19	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	advcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 20	þrennuna	þrenna	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-15	árið 2009	árið 2009	ADV	ártal	_	2	advmod	_	tag=ártal
-16	er	er	SCONJ	stt	_	18	mark	_	tag=stt
-17	liðið	lið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	nsubj	_	tag=no_et_nf_hk_gr
-18	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	advcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-19	þrennuna	þrenna	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
-20	.	_	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00282,.4
 # text = BBC segir 78 nemendur hið minnsta hafa verið í hópi þeirra sem rænt var, auk þriggja annarra m.a. skólastjórans.
 1	BBC	BBC	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=no_et_nf_hk
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	78	78	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	4	nummod	_	tag=tala_ft_þf_kk
-<<<<<<< HEAD
 4	nemendur	nemandi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	8	nsubj	_	tag=no_ft_þf_kk
 5-6	hið minnsta	_	_	_	_	_	_	_	_
 5	hið	hið	ADV	ao	_	8	advmod	_	tag=ao
@@ -101,28 +91,9 @@
 16	auk	auk	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
 17	þriggja	þrír	NUM	to_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	18	nummod	_	tag=to_ft_ef_kk
 18	annarra	annar	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	10	obl	_	tag=fn_ft_ef_kk
-19	m.a.	m.a.	NOUN	abbrev	_	18	flat	_	tag=abbrev
+19	m.a.	m.a.	ADV	abbrev	_	18	advmod	_	tag=abbrev
 20	skólastjórans	skólastjóri	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
-=======
-4	nemendur	nemandi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	nsubj	_	tag=no_ft_þf_kk
-5	hið minnsta	hið minnsta	ADV	ao	_	7	advmod	_	tag=ao
-6	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	aux	_	tag=so_0_nh_gm
-7	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	obj	_	tag=so_0_sagnb_gm
-8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	hópi	hópur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
-10	þeirra	sá	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	9	nmod:poss	_	tag=fn_ft_ef_kvk
-11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
-12	rænt	ræna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	acl:relcl	_	tag=so_0_sagnb_gm
-13	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
-14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-15	auk	auk	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
-16	þriggja	þrír	NUM	to_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	17	nummod	_	tag=to_ft_ef_kk
-17	annarra	annar	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	9	obl	_	tag=fn_ft_ef_kk
-18	m.a.	m.a.	ADV	abbrev	_	17	advmod	_	tag=abbrev
-19	skólastjórans	skólastjóri	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00282,.5
 # text = Stjörnukonur hafa með þessu vonandi gefið rétta tóninn fyrir komandi sumar þar sem karlalandsliðið mun gekk á heimsmeistaramótinu í Rússlandi.
@@ -156,17 +127,17 @@
 4	stofnun	stofnun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
 5	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk_gr
 6	og	og	CCONJ	st	_	1	cc	_	tag=st
-7	mun	munu	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+7	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_et_nt_gm
 8	stjórn	stjórn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_nf_kvk
 9	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	tag=pfn_et_ef_hk_p3
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	framhaldinu	framhald	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk_gr
-12	fara	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	conj	_	tag=so_0_nh_gm
+12	fara	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	1	conj	_	tag=so_0_nh_gm
 13	með	með	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	eigendavald	eigendavaldur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þf_kk
 15-16	fyrir hönd	_	_	_	_	_	_	_	_
 15	fyrir	fyrir	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
-16	hönd	hönd	ADP	fs_ef	Case=Gen	15	_	_	tag=fs_ef
+16	hönd	hönd	ADP	fs_ef	Case=Gen	15	fixed	_	tag=fs_ef
 17	ríkissjóðs	ríkissjóður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_ef_kk
 18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	fyrrnefndum	fyrrnefndur	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	20	amod	_	tag=lo_ft_þgf_kk_sb
@@ -257,7 +228,6 @@
 9	úr	úr	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	liði	lið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
 11	Breiðabliks	Breiðablik	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=no_et_ef_hk
-<<<<<<< HEAD
 12-13	í kvöld	_	_	_	_	_	_	_	_
 12	í	í	ADV	ao	_	5	advmod	_	tag=ao
 13	kvöld	kvöld	ADV	ao	_	12	fixed	_	tag=ao
@@ -269,15 +239,4 @@
 19	góðan	góður	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	20	amod	_	tag=lo_et_þf_kk_sb
 20	leik	leikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No|tag=no_et_þf_kk
 21	.	_	PUNCT	grm	_	3	punct	_	tag=grm
-=======
-12	í kvöld	í kvöld	ADV	ao	_	5	advmod	_	tag=ao
-13	en	en	CCONJ	st	_	3	cc	_	tag=st
-14	flestir	flestir	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	nmod	_	tag=fn_ft_nf_kk
-15	leikmenn	leikmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	tag=no_ft_nf_kk
-16	þeirra	hún	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	15	nmod:poss	_	tag=pfn_ft_ef_hk_p3
-17	áttu	eiga	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_ft_þt_gm
-18	góðan	góður	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	19	amod	_	tag=lo_et_þf_kk_sb
-19	leik	leikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No|tag=no_et_þf_kk
-20	.	_	PUNCT	grm	_	3	punct	_	tag=grm
->>>>>>> master
 

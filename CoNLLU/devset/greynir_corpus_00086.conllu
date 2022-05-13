@@ -96,7 +96,7 @@
 16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00086,.6
-# text = Sjá einnig : Kerfið gæti hafa brugðist mér, en þetta er ekki endirinn
+# text = Sjá einnig: Kerfið gæti hafa brugðist mér, en þetta er ekki endirinn
 1	Sjá	sjá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	VANTAR_LIÐ_S_PREFIX	_	tag=so_0_nh_gm
 2	einnig	einnig	ADV	ao	_	1	advmod	_	SpaceAfter=No|tag=ao
 3	:	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -121,11 +121,11 @@
 5	greiðslukortavelta	greiðslukortavelta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
 6-8	14,9 milljörðum króna	_	_	_	_	_	_	_	_
 6	14,9	14,9	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obj	_	tag=no_ft_þgf_kk
-7	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	_	_	tag=no_ft_þgf_kk
-8	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	7	_	_	tag=no_ft_þgf_kk
+7	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	flat	_	tag=no_ft_þgf_kk
+8	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	flat	_	tag=no_ft_þgf_kk
 9-10	samanborið við	_	_	_	_	_	_	_	_
 9	samanborið	samanborið	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-10	við	við	ADP	fs_þf	Case=Acc	9	_	_	tag=fs_þf
+10	við	við	ADP	fs_þf	Case=Acc	9	fixed	_	tag=fs_þf
 11-12	9,4 milljarða	_	_	_	_	_	_	_	_
 11	9,4	9,4	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	tag=töl_ft_þf_kk
 12	milljarða	milljarða	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	_	_	tag=töl_ft_þf_kk
@@ -139,7 +139,7 @@
 # text = Hlynur Bæringsson var enn ekki kominn með körfu utan af velli og munaði um minna.
 1-2	Hlynur Bæringsson	_	_	_	_	_	_	_	_
 1	Hlynur	Hlynur	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=person_et_nf_kk
-2	Bæringsson	Bæringsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	_	_	tag=person_et_nf_kk
+2	Bæringsson	Bæringsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
 3	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_1_nf_fh_p3_et_þt_gm
 4	enn	enn	ADV	ao	_	6	advmod	_	tag=ao
 5	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
@@ -179,13 +179,13 @@
 1	Helga	Helga	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=person_et_nf_kvk
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	með	með	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-4	BSc	Bachelor of Science	NOUN	abbrev	_	6	flat	_	SpaceAfter=No|tag=abbrev
+4	BSc	Bachelor of Science	ADV	abbrev	_	6	advmod	_	SpaceAfter=No|tag=abbrev
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	gráðu	gráða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	vélaverkfræði	vélaverkfræði	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk
 9	ásamt	ásamt	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-10	MBA	MBA	NOUN	abbrev	_	11	flat	_	tag=abbrev
+10	MBA	MBA	ADV	abbrev	_	11	advmod	_	tag=abbrev
 11	gráðu	gráða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk
 12	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Háskólanum	háskóli	PROPN	fyrirtæki_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	tag=fyrirtæki_et_þgf_kk_gr

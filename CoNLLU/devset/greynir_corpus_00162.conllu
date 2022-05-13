@@ -8,7 +8,7 @@
 6	upp	upp	ADV	ao	_	5	compound:prt	_	tag=ao
 7-8	í gegnum	_	_	_	_	_	_	_	_
 7	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-8	gegnum	gegnum	ADP	fs_þf	Case=Acc	7	_	_	tag=fs_þf
+8	gegnum	gegnum	ADP	fs_þf	Case=Acc	7	fixed	_	tag=fs_þf
 9	tíðina	tíð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þf_kvk_gr
 10	og	og	CCONJ	st	_	3	cc	_	tag=st
 11	sum	sumur	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	12	nmod	_	tag=fn_ft_nf_hk
@@ -38,12 +38,11 @@
 4	af	af	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	þessum	þessi	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	tag=fn_et_þgf_kk
 6	lista	listi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
-<<<<<<< HEAD
 7	erum	vera	VERB	so_1_nf_fh_p1_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p1_ft_nt_gm
 8	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	tag=pfn_ft_nf_p1
 9-10	fyrir ofan	_	_	_	_	_	_	_	_
 9	fyrir	fyrir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-10	ofan	ofan	ADP	fs_þf	Case=Acc	9	_	_	tag=fs_þf
+10	ofan	ofan	ADP	fs_þf	Case=Acc	9	fixed	_	tag=fs_þf
 11	ýmsar	ýmis	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	nmod	_	tag=fn_ft_þf_kvk
 12	borgir	borg	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_þf_kvk
 13	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
@@ -61,28 +60,6 @@
 25	sem	sem	ADP	fs_nf	Case=Nom	26	case	_	tag=fs_nf
 26	dæmi	dæmi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No|tag=no_et_nf_hk
 27	.	_	PUNCT	grm	_	12	punct	_	tag=grm
-=======
-7	erum	vera	VERB	so_1_nf_fh_p1_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p1_ft_nt_gm
-8	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	tag=pfn_ft_nf_p1
-9	fyrir ofan	fyrir ofan	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-10	ýmsar	ýmis	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	tag=fn_ft_þf_kvk
-11	borgir	borg	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_þf_kvk
-12	sem	sem	SCONJ	stt	_	16	mark	_	tag=stt
-13	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	tag=pfn_ft_nf_p1
-14	höfum	hafa	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_fh_p1_ft_nt_gm
-15	oft	oft	ADV	ao	_	16	advmod	_	tag=ao
-16	lítið	líta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	11	acl:relcl	_	tag=so_0_sagnb_gm
-17	til	til	ADV	ao	_	16	compound:prt	_	tag=ao
-18	sem	sem	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19	fyrirmynda	fyrirmynd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	16	obl	_	tag=no_ft_þf_kvk
-20	eins	eins	ADV	ao	_	22	cc	_	tag=ao
-21	og	og	CCONJ	st	_	20	cc	_	tag=st
-22	Kaupmannahöfn	Kaupmannahöfn	PROPN	sérnafn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	advcl	_	SpaceAfter=No|tag=sérnafn_et_þf_kvk
-23	,	_	PUNCT	grm	_	22	punct	_	tag=grm
-24	sem	sem	ADP	fs_nf	Case=Nom	25	case	_	tag=fs_nf
-25	dæmi	dæmi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_nf_hk
-26	.	_	PUNCT	grm	_	11	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00162,.3
 # text = Það skipulag má segja að hafi staðið í grundvallaratriðum frá því það var samþykkt og til ársins 2013 þegar núgildandi aðalskipulag 2010 — 2030 tók gildi.
@@ -209,8 +186,8 @@
 # text = Pála Marie Einarsdóttir fékk að líta sitt annað gula spjald og þar með rautt þegar venjulegum leiktíma var að ljúka, og Valskonur því manni færri.
 1-3	Pála Marie Einarsdóttir	_	_	_	_	_	_	_	_
 1	Pála	Pála	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
-2	Marie	Marie	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
-3	Einarsdóttir	Einarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	_	_	tag=person_nf_kvk
+2	Marie	Marie	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+3	Einarsdóttir	Einarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
 4	fékk	fá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	líta	líta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	obj	_	tag=so_1_þf_nh_gm
@@ -272,7 +249,7 @@
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6-7	Rás 1	_	_	_	_	_	_	_	_
 6	Rás	Rás	PROPN	entity_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=entity_et_þgf_kvk
-7	1	1	PROPN	entity_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	_	_	tag=entity_et_þgf_kvk
+7	1	1	PROPN	entity_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	flat	_	tag=entity_et_þgf_kvk
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
@@ -295,10 +272,9 @@
 26	heild	heild	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 27	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
-<<<<<<< HEAD
 1-2	Yvonne Filler	_	_	_	_	_	_	_	_
 1	Yvonne	Yvonne	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	15	nsubj	_	tag=person_nf_kvk
-2	Filler	Filler	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
+2	Filler	Filler	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	vinnur	vinna	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -324,34 +300,4 @@
 25	augu	auga	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	24	obj	_	tag=no_ft_þf_hk
 26	með	með	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 27	.	_	PUNCT	grm	_	15	punct	_	tag=grm
-=======
-# sent_id = GREYNIR_CORPUS_00162,.10
-# text = Yvonne Filler, sem vinnur hjá stofu sem vinnur með framhjáhöld í London, fór yfir með Independent hvaða fimm atriðum ætti að hafa augu með.
-1	Yvonne Filler	Yvonne Filler	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
-4	vinnur	vinna	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-5	hjá	hjá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	stofu	stofa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk
-7	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
-8	vinnur	vinna	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-9	með	með	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	framhjáhöld	framhjáhald	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
-11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	London	London	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	8	obl	_	SpaceAfter=No|tag=sérnafn_þgf_hk
-13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
-14	fór	fara	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-15	yfir	yfir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-16	með	með	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	Independent	Independent	PROPN	fyrirtæki_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	tag=fyrirtæki_et_þf_hk
-18	hvaða	hvaða	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=fn_et_þgf_hk
-19	fimm	fimm	NUM	töl_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	20	nummod	_	tag=töl_ft_þgf_hk
-20	atriðum	atriði	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	21	obl	_	tag=no_ft_þgf_hk
-21	ætti	eiga	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	18	obl	_	tag=so_0_vh_p3_et_þt_gm
-22	að	að	PART	nhm	_	23	mark	_	tag=nhm
-23	hafa	hafa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	21	xcomp	_	tag=so_1_þf_nh_gm
-24	augu	auga	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	23	obj	_	tag=no_ft_þf_hk
-25	með	með	ADP	fs_þgf	Case=Dat	23	case	_	SpaceAfter=No|tag=fs_þgf
-26	.	_	PUNCT	grm	_	14	punct	_	tag=grm
->>>>>>> master
 

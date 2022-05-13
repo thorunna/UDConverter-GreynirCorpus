@@ -7,7 +7,7 @@
 5	manna	maður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_ef_kk
 6-7	á milli	_	_	_	_	_	_	_	_
 6	á	á	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
-7	milli	milli	ADP	fs_ef	Case=Gen	6	_	_	tag=fs_ef
+7	milli	milli	ADP	fs_ef	Case=Gen	6	fixed	_	tag=fs_ef
 8	hversu	hversu	ADV	ao	_	9	advmod	_	tag=ao
 9	mikið	mikill	ADJ	lo_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	obl	_	tag=lo_et_nf_hk
 10	kynið	kyn	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	tag=no_et_nf_hk_gr
@@ -84,24 +84,24 @@
 
 # sent_id = GREYNIR_CORPUS_00269,.5
 # text = Er aðkoma stjórnenda sögð hafa verið ómarkviss, verkskipting óljós og aðhald um framvindu málsins ekki viðunandi.
-1	Er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+1	Er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 2	aðkoma	aðkoma	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 3	stjórnenda	stjórnandi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	2	nmod:poss	_	tag=no_ft_ef_kk
-4	sögð	segja	VERB	so_0_lhþt_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part	1	xcomp	_	tag=so_0_lhþt_et_nf_kvk
+4	sögð	segja	VERB	so_0_lhþt_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_kvk
 5	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	aux	_	tag=so_0_nh_gm
 6	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	cop	_	tag=so_1_nf_sagnb_gm
 7	ómarkviss	ómarkviss	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-9	verkskipting	verkskipting	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	tag=no_et_nf_kvk
+9	verkskipting	verkskipting	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	tag=no_et_nf_kvk
 10	óljós	óljós	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	9	xcomp	_	tag=lo_et_nf_kvk_sb
-11	og	og	CCONJ	st	_	1	cc	_	tag=st
-12	aðhald	aðhald	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=no_et_nf_hk
+11	og	og	CCONJ	st	_	4	cc	_	tag=st
+12	aðhald	aðhald	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	tag=no_et_nf_hk
 13	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	framvindu	framvinda	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þf_kvk
 15	málsins	mál	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=no_et_ef_hk_gr
 16	ekki	ekki	ADV	eo	_	17	advmod	_	tag=eo
 17	viðunandi	viðunandi	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	12	xcomp	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
-18	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+18	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00269,.6
 # text = Þjóðarráðið virti sjálfstæði dómstóla og væri á þeirri skoðun að allir ættu að vera jafnir fyrir lögunum.
@@ -187,17 +187,12 @@
 17	nálægur	nálægur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	12	ccomp	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-<<<<<<< HEAD
-=======
-# sent_id = GREYNIR_CORPUS_00269,.10
-# text = Þjóðarmorð er summa þeirra samfélagslegu venja, hugmynda og gjörða sem lýst er í þessari skýrslu.
->>>>>>> master
 1	Þjóðarmorð	þjóðarmorð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
 2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	summa	summa	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	þeirra	sá	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	tag=fn_ft_ef_kvk
 5	samfélagslegu	samfélagslegur	ADJ	lo_ft_ef_kvk_vb	Case=Gen|Gender=Fem|Number=Plur	6	amod	_	tag=lo_ft_ef_kvk_vb
-6	venja	venja	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	3	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kvk
+6	venja	venja	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	3	nmod:poss	_	tag=no_ft_ef_kvk
 7	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 8	hugmynda	hugmynd	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	6	conj	_	tag=no_ft_ef_kvk
 9	og	og	CCONJ	st	_	6	cc	_	tag=st
@@ -207,6 +202,6 @@
 13	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 14	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 15	þessari	þessi	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	tag=fn_et_þgf_kvk
-16	skýrslu	skýrsla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+16	skýrslu	skýrsla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þgf_kvk
 17	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

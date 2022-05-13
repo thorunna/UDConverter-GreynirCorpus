@@ -43,7 +43,7 @@
 9	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
 10-11	Halldór Þormar	_	_	_	_	_	_	_	_
 10	Halldór	Halldór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-11	Þormar	Þormar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	_	_	SpaceAfter=No|tag=person_nf_kk
+11	Þormar	Þormar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	flat	_	SpaceAfter=No|tag=person_nf_kk
 12	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00238,.4
@@ -53,7 +53,7 @@
 3	hópanna	hópur	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk_gr
 4-5	fyrir utan	_	_	_	_	_	_	_	_
 4	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-5	utan	utan	ADP	fs_þf	Case=Acc	4	_	_	tag=fs_þf
+5	utan	utan	ADP	fs_þf	Case=Acc	4	fixed	_	tag=fs_þf
 6	tekjuhæstu	tekjuhár	ADJ	lo_ft_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur	7	amod	_	tag=lo_ft_þf_hk_evb
 7	10%	10%	?	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	tag=prósenta_ft_þf_hk
 8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -116,7 +116,7 @@
 2	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3-4	Trausti Jónsson	_	_	_	_	_	_	_	_
 3	Trausti	Trausti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-4	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	_	_	tag=person_nf_kk
+4	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
 5	veðurfræðingur	veðurfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	yfirför	yfirför	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
@@ -144,7 +144,6 @@
 12	aftur	aftur	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-<<<<<<< HEAD
 1-3	Chairman Fred Ridley	_	_	_	_	_	_	_	_
 1	Chairman	Chairman	PROPN	sérnafn	_	4	VANTAR_LIÐ	_	tag=sérnafn
 2	Fred	Fred	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
@@ -161,16 +160,4 @@
 12	Amateur	Amateur	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
 13	Championship	Championship	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
 14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
-=======
-# sent_id = GREYNIR_CORPUS_00238,.10
-# text = Chairman Fred Ridley announces the establishment of the Augusta National Women's Amateur Championship.
-1	Chairman Fred Ridley	Chairman Fred Ridley	PROPN	sérnafn	_	2	VANTAR_LIÐ	_	tag=sérnafn
-2	announces	announces	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
-3	the	the	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	nmod:poss	_	tag=no_et_ef_hk
-4	establishment	establishment	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk
-5	of	of	ADV	eo	_	6	advmod	_	tag=eo
-6	the	the	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk
-7	Augusta National Women's Amateur Championship	Augusta National Women's Amateur Championship	PROPN	sérnafn	_	6	nmod:poss	_	SpaceAfter=No|tag=sérnafn
-8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
->>>>>>> master
 

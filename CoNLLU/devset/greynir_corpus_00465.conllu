@@ -60,8 +60,8 @@
 # text = Róbert Trausti Árnason, fréttastjóri Hringbrautar, segir Eyþór Arnalds, borgarstjóraefni Sjálfstæðisflokksins, vera að brotlenda í Reykjavík, í pistli sínum í dag undir merkjum Náttfara.
 1-3	Róbert Trausti Árnason	_	_	_	_	_	_	_	_
 1	Róbert	Róbert	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Trausti	Trausti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
-3	Árnason	Árnason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	SpaceAfter=No|tag=person_nf_kk
+2	Trausti	Trausti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+3	Árnason	Árnason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 5	fréttastjóri	fréttastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	Hringbrautar	Hringbraut	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
@@ -69,7 +69,7 @@
 8	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 9-10	Eyþór Arnalds	_	_	_	_	_	_	_	_
 9	Eyþór	Eyþór	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	nsubj	_	SpaceAfter=No|tag=person_þf_kk
-10	Arnalds	Arnalds	PROPN	person_þf_kk	Case=Acc|Gender=Masc	9	_	_	SpaceAfter=No|tag=person_þf_kk
+10	Arnalds	Arnalds	PROPN	person_þf_kk	Case=Acc|Gender=Masc	9	flat	_	SpaceAfter=No|tag=person_þf_kk
 11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
 12	borgarstjóraefni	borgarstjóraefni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þf_hk
 13	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk_gr
@@ -169,7 +169,7 @@
 16	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 17-18	Sif Jónasdóttir	_	_	_	_	_	_	_	_
 17	Sif	Sif	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	16	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-18	Jónasdóttir	Jónasdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	17	_	_	SpaceAfter=No|tag=person_nf_kvk
+18	Jónasdóttir	Jónasdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	17	flat	_	SpaceAfter=No|tag=person_nf_kvk
 19	,	,	PUNCT	grm	_	18	punct	_	tag=grm
 20	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	tag=fn_et_nf_kk
 21	nemendanna	nemandi	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	20	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk_gr
@@ -263,8 +263,6 @@
 25	tjörn	tjörn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 26	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00465,.10
-# text = Þórbergur er með B.Sc. í Tölvunarfræði og er ný fluttur heim frá Kína þar sem hann vann fyrir SAP og þjónustaði viðskiptavini þess víðsvegar í Asíu.
 1	Þórbergur	Þórbergur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	með	með	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
@@ -290,6 +288,6 @@
 23	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	tag=pfn_et_ef_hk_p3
 24	víðsvegar	víðsvegar	ADV	ao	_	26	advmod	_	tag=ao
 25	í	í	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
-26	Asíu	Asía	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
+26	Asíu	Asía	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	tag=sérnafn_et_þgf_kvk
 27	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

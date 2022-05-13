@@ -32,7 +32,7 @@
 # text = Stefán Rafn og félagar töpuðu gegn PSG
 1-2	Stefán Rafn	_	_	_	_	_	_	_	_
 1	Stefán	Stefán	PROPN	person_kk_nf_et	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_kk_nf_et
-2	Rafn	Rafn	PROPN	person_kk_nf_et	Case=Nom|Gender=Masc|Number=Sing	1	_	_	tag=person_kk_nf_et
+2	Rafn	Rafn	PROPN	person_kk_nf_et	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_kk_nf_et
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
 4	félagar	félagi	NOUN	no_ft_kk_nf	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	tag=no_ft_kk_nf
 5	töpuðu	tapa	VERB	so_0_fh_ft_gm_p3_þt	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_ft_gm_p3_þt
@@ -61,16 +61,16 @@
 
 # sent_id = GREYNIR_CORPUS_00017,.7
 # text = Var það samþykkt með 11 atkvæðum.
-1	Var	vera	VERB	so_0_et_fh_gm_p3_þt	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_et_fh_gm_p3_þt
+1	Var	vera	AUX	so_0_et_fh_gm_p3_þt	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_et_fh_gm_p3_þt
 2	það	það	PRON	pfn_et_hk_nf_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_hk_nf_p3
-3	samþykkt	samþykkja	VERB	so_0_et_hk_lhþt_nf_sb	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	1	xcomp	_	tag=so_0_et_hk_lhþt_nf_sb
+3	samþykkt	samþykkja	VERB	so_0_et_hk_lhþt_nf_sb	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_et_hk_lhþt_nf_sb
 4	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	11	11	NUM	tala_ft_hk_þgf	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_hk_þgf
 6	atkvæðum	atkvæði	NOUN	no_ft_hk_þgf	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_hk_þgf
-7	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+7	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00017,.8
-# text = Vivaldi : Fara nýstárlega leið með vafrasögu
+# text = Vivaldi: Fara nýstárlega leið með vafrasögu
 1	Vivaldi	Vivaldi	PROPN	sérnafn_nf_et_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=sérnafn_nf_et_kk
 2	:	_	PUNCT	grm	_	3	punct	_	tag=grm
 3	Fara	fara	VERB	so_1_þf_ft_fh_gm_p3_nt	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_þf_ft_fh_gm_p3_nt
@@ -89,8 +89,6 @@
 6	Spáni	Spánn	PROPN	sérnafn_et_kk_þgf	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|tag=sérnafn_et_kk_þgf
 7	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00017,.10
-# text = Þú ert að njóta okkar bestu kjara
 1	Þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p2
 2	ert	vera	VERB	so_0_et_fh_gm_nt_p2	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_et_fh_gm_nt_p2
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm

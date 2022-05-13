@@ -42,7 +42,7 @@
 40	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00494,.2
-# text = Ég hef skynjað það lengi að hjörtu okkar slægju töluvert oft í takt, segir Logi og bætir því við : Svo ég vitni í orð hans [ Jóns Gnarr ] þá er eitthvað nýtt að gerast.
+# text = Ég hef skynjað það lengi að hjörtu okkar slægju töluvert oft í takt, segir Logi og bætir því við: Svo ég vitni í orð hans [ Jóns Gnarr ] þá er eitthvað nýtt að gerast.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
 2	hef	hafa	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p1_et_nt_gm
 3	skynjað	skynja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
@@ -71,10 +71,9 @@
 26	orð	orð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	24	obl	_	tag=no_et_þf_hk
 27	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nmod	_	SpaceAfter=No|tag=pfn_et_ef_kk_p3
 28	[	[	PUNCT	grm	_	27	punct	_	tag=grm
-<<<<<<< HEAD
 29-30	Jóns Gnarr	_	_	_	_	_	_	_	_
 29	Jóns	Jóns	PROPN	person_ef_kk	Case=Gen|Gender=Masc	26	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-30	Gnarr	Gnarr	PROPN	person_ef_kk	Case=Gen|Gender=Masc	29	_	_	SpaceAfter=No|tag=person_ef_kk
+30	Gnarr	Gnarr	PROPN	person_ef_kk	Case=Gen|Gender=Masc	29	flat	_	SpaceAfter=No|tag=person_ef_kk
 31	]	]	PUNCT	grm	_	29	punct	_	tag=grm
 32	þá	hann	ADV	ao	_	24	advmod	_	tag=ao
 33	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	cop	_	tag=so_0_fh_p3_et_nt_gm
@@ -83,17 +82,6 @@
 36	að	að	PART	nhm	_	37	mark	_	tag=nhm
 37	gerast	ger	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	24	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
 38	.	.	PUNCT	grm	_	3	punct	_	tag=grm
-=======
-29	Jóns Gnarr	Jóns Gnarr	PROPN	person_ef_kk	Case=Gen|Gender=Masc	26	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-30	]	]	PUNCT	grm	_	29	punct	_	tag=grm
-31	þá	hann	ADV	ao	_	24	advmod	_	tag=ao
-32	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	cop	_	tag=so_0_fh_p3_et_nt_gm
-33	eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	tag=fn_et_nf_hk
-34	nýtt	nýr	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	33	amod	_	tag=lo_et_nf_hk_sb
-35	að	að	PART	nhm	_	36	mark	_	tag=nhm
-36	gerast	ger	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	24	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
-37	.	.	PUNCT	grm	_	3	punct	_	tag=grm
->>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00494,.3
 # text = Markmiðið með því að fela Landspítala ábyrgð á rekstrinum er að stuðla að samfelldri þjónustu við sjúklinga í framhaldi af meðferð á Landspítalanum en reiknað er með að stærstur hluti hótelgesta sæki þjónustu hjá Landspítala eða hafi dvalið þar.
@@ -202,7 +190,7 @@
 19	tíðum	tíð	ADV	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	advmod	_	tag=no_ft_þgf_kvk
 20-21	Carmen Tyson-Thomas	_	_	_	_	_	_	_	_
 20	Carmen	Carmen	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	14	obl	_	SpaceAfter=No|tag=person_þgf_kvk
-21	Tyson-Thomas	Tyson-Thomas	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	20	_	_	SpaceAfter=No|tag=person_þgf_kvk
+21	Tyson-Thomas	Tyson-Thomas	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	20	flat	_	SpaceAfter=No|tag=person_þgf_kvk
 22	,	,	PUNCT	grm	_	23	punct	_	tag=grm
 23	jafnaði	jafna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 24	leikinn	leika	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	obj	_	tag=no_et_þf_kk_gr
@@ -240,7 +228,7 @@
 13	Radiohead	Radiohead	PROPN	fyrirtæki_ef	Case=Gen	12	nmod:poss	_	tag=fyrirtæki_ef
 14-15	á hendur	_	_	_	_	_	_	_	_
 14	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-15	hendur	hendur	ADP	fs_þgf	Case=Dat	14	_	_	tag=fs_þgf
+15	hendur	hendur	ADP	fs_þgf	Case=Dat	14	fixed	_	tag=fs_þgf
 16	söngkonunni	söngkona	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk_gr
 17	þar	þar	ADV	ao	_	21	mark	_	tag=ao
 18	sem	sem	SCONJ	st	_	17	cc	_	tag=st
@@ -271,7 +259,7 @@
 41	líkinda	líkindi	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	23	obl	_	tag=no_ft_ef_hk
 42-43	á milli	_	_	_	_	_	_	_	_
 42	á	á	ADP	fs_ef	Case=Gen	44	case	_	tag=fs_ef
-43	milli	milli	ADP	fs_ef	Case=Gen	42	_	_	tag=fs_ef
+43	milli	milli	ADP	fs_ef	Case=Gen	42	fixed	_	tag=fs_ef
 44	lagsins	lag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	41	obl	_	tag=no_et_ef_hk_gr
 45	og	og	CCONJ	st	_	46	cc	_	tag=st
 46	Creep	Creep	X	foreign	_	44	advcl	_	SpaceAfter=No|tag=foreign

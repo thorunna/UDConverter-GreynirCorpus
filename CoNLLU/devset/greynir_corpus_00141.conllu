@@ -2,11 +2,11 @@
 # text = Sacramento Kings og LA Lakers áttust við í NBA-deildinni um helgina en það er lítill kærleikur á milli þessarar tveggja Kaliforníuliða.
 1-2	Sacramento Kings	_	_	_	_	_	_	_	_
 1	Sacramento	Sacramento	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	6	nsubj	_	tag=fyrirtæki_nf_hk
-2	Kings	Kings	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	1	_	_	tag=fyrirtæki_nf_hk
+2	Kings	Kings	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	1	flat	_	tag=fyrirtæki_nf_hk
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
 4-5	LA Lakers	_	_	_	_	_	_	_	_
 4	LA	LA	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	1	conj	_	tag=fyrirtæki_nf_hk
-5	Lakers	Lakers	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	4	_	_	tag=fyrirtæki_nf_hk
+5	Lakers	Lakers	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	4	flat	_	tag=fyrirtæki_nf_hk
 6	áttust	eiga	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_ft_þt_mm
 7	við	við	ADV	ao	_	6	compound:prt	_	tag=ao
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
@@ -20,7 +20,7 @@
 16	kærleikur	kærleikur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk
 17-18	á milli	_	_	_	_	_	_	_	_
 17	á	á	ADP	fs_ef	Case=Gen	21	case	_	tag=fs_ef
-18	milli	milli	ADP	fs_ef	Case=Gen	17	_	_	tag=fs_ef
+18	milli	milli	ADP	fs_ef	Case=Gen	17	fixed	_	tag=fs_ef
 19	þessarar	þessi	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	tag=fn_ft_ef_hk
 20	tveggja	tveir	NUM	to_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	21	nummod	_	tag=to_ft_ef_hk
 21	Kaliforníuliða	Kaliforníulið	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
@@ -37,17 +37,17 @@
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8-9	New York	_	_	_	_	_	_	_	_
 8	New	New	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	6	obl	_	tag=sérnafn_þgf_hk
-9	York	York	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	8	_	_	tag=sérnafn_þgf_hk
+9	York	York	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	8	flat	_	tag=sérnafn_þgf_hk
 10	á	á	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 11	síðastliðinn	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_þf_kk_sb
 12	mánudag	mánudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
 13	og	og	CCONJ	st	_	2	cc	_	tag=st
-14	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+14	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 15	stefndi	stefndur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	tag=lo_et_nf_kk_vb
-16	fyrirtækið	fyrirtæki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	xcomp	_	tag=no_et_nf_hk_gr
+16	fyrirtækið	fyrirtæki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	conj	_	tag=no_et_nf_hk_gr
 17-18	European Collectibles	_	_	_	_	_	_	_	_
 17	European	European	PROPN	sérnafn_nf_hk	Case=Nom|Gender=Neut	16	obl	_	tag=sérnafn_nf_hk
-18	Collectibles	Collectibles	PROPN	sérnafn_nf_hk	Case=Nom|Gender=Neut	17	_	_	tag=sérnafn_nf_hk
+18	Collectibles	Collectibles	PROPN	sérnafn_nf_hk	Case=Nom|Gender=Neut	17	flat	_	tag=sérnafn_nf_hk
 19	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
 20	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 21	aðsetur	aðsetur	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	tag=no_et_þf_hk
@@ -110,7 +110,7 @@
 24	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00141,.5
-# text = Aðildarríki EFTA nú eru fjögur ; Sviss, Noregur, Lichtenstein og Ísland en aðild nýrra ríkja að samtökunum krefst samþykkis allra aðildarríkjanna.
+# text = Aðildarríki EFTA nú eru fjögur; Sviss, Noregur, Lichtenstein og Ísland en aðild nýrra ríkja að samtökunum krefst samþykkis allra aðildarríkjanna.
 1	Aðildarríki	aðildarríki	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	tag=no_ft_nf_hk
 2	EFTA	EFTA	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk
 3	nú	nú	ADV	ao	_	7	advmod	_	tag=ao
@@ -140,14 +140,14 @@
 # text = Bjarni Benediktsson hefur einnig hafnað að Gunnar Bragi eigi inni greiða hjá Sjálfstæðisflokknum og Guðlaugur Þór tók í sama streng í sjónvarpsfréttum RÚV.
 1-2	Bjarni Benediktsson	_	_	_	_	_	_	_	_
 1	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+2	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	einnig	einnig	ADV	ao	_	5	advmod	_	tag=ao
 5	hafnað	hafna	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
 6	að	að	SCONJ	st	_	9	mark	_	tag=st
 7-8	Gunnar Bragi	_	_	_	_	_	_	_	_
 7	Gunnar	Gunnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
-8	Bragi	Bragi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	_	_	tag=person_nf_kk
+8	Bragi	Bragi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	tag=person_nf_kk
 9	eigi	eiga	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	tag=so_1_þf_vh_p3_et_nt_gm
 10	inni	inni	ADV	ao	_	9	compound:prt	_	tag=ao
 11	greiða	greiði	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	tag=no_ft_þf_kk
@@ -156,7 +156,7 @@
 14	og	og	CCONJ	st	_	5	cc	_	tag=st
 15-16	Guðlaugur Þór	_	_	_	_	_	_	_	_
 15	Guðlaugur	Guðlaugur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	nsubj	_	tag=person_nf_kk
-16	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	_	_	tag=person_nf_kk
+16	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	tag=person_nf_kk
 17	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	sama	sami	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	tag=fn_et_þgf_kk

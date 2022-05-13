@@ -2,15 +2,15 @@
 # text = Sævar Marinó, Kristján Viðar og Tryggvi Rúnar voru sakfelldir í Hæstarétti árið 1980 fyrir að hafa orðið Guðmundi Einarssyni að bana í byrjun árs 1974.
 1-2	Sævar Marinó	_	_	_	_	_	_	_	_
 1	Sævar	Sævar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Marinó	Marinó	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+2	Marinó	Marinó	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 4-5	Kristján Viðar	_	_	_	_	_	_	_	_
 4	Kristján	Kristján	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-5	Viðar	Viðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
+5	Viðar	Viðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
 6	og	og	CCONJ	st	_	1	cc	_	tag=st
 7-8	Tryggvi Rúnar	_	_	_	_	_	_	_	_
 7	Tryggvi	Tryggvi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-8	Rúnar	Rúnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	_	_	tag=person_nf_kk
+8	Rúnar	Rúnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	tag=person_nf_kk
 9	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	aux	_	tag=so_0_fh_p3_ft_þt_gm
 10	sakfelldir	sakfella	VERB	so_0_lhþt_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft_nf_kk_sb
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
@@ -24,7 +24,7 @@
 18	orðið	verða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	obl	_	tag=so_0_sagnb_gm
 19-20	Guðmundi Einarssyni	_	_	_	_	_	_	_	_
 19	Guðmundi	Guðmundur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	18	obl	_	tag=person_þgf_kk
-20	Einarssyni	Einarsson	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	19	_	_	tag=person_þgf_kk
+20	Einarssyni	Einarsson	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	19	flat	_	tag=person_þgf_kk
 21	að	að	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	bana	bani	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	tag=no_et_þgf_kk
 23	í	í	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
@@ -55,8 +55,8 @@
 18	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 19-21	Haukur Már Gestsson	_	_	_	_	_	_	_	_
 19	Haukur	Haukur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-20	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	_	_	SpaceAfter=No|tag=person_nf_kk
-21	Gestsson	Gestsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	_	_	SpaceAfter=No|tag=person_nf_kk
+20	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	flat	_	SpaceAfter=No|tag=person_nf_kk
+21	Gestsson	Gestsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	flat	_	SpaceAfter=No|tag=person_nf_kk
 22	,	_	PUNCT	grm	_	19	punct	_	tag=grm
 23	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_nf_kk
 24	Hlemms	Hlemmur	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	23	nmod:poss	_	tag=sérnafn_et_ef_kk
@@ -272,8 +272,6 @@
 26	mannkyninu	mannkyn	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00161,.10
-# text = Rannsókn lögreglunnar þar leiddi til þess að lögreglumaðurinn var ákærður fyrir að fletta upp nöfnum kvenna í málaskrárkerfi lögreglunnar án þess að það tengdist starfi hans.
 1	Rannsókn	rannsókn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 2	lögreglunnar	lögregla	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk_gr
 3	þar	þar	ADV	ao	_	2	advmod	_	tag=ao
@@ -299,6 +297,6 @@
 23	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	tag=pfn_et_nf_hk_p3
 24	tengdist	tengja	VERB	so_1_þgf_vh_p3_et_þt_mm	Case=Dat|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Mid	21	ccomp	_	tag=so_1_þgf_vh_p3_et_þt_mm
 25	starfi	starf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	obj	_	tag=no_et_þgf_hk
-26	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nmod:poss	_	SpaceAfter=No|tag=pfn_et_ef_kk_p3
+26	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nmod:poss	_	tag=pfn_et_ef_kk_p3
 27	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

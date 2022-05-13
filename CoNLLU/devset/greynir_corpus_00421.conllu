@@ -46,7 +46,7 @@
 # text = Þrátt fyrir það eru gríðarlegir fjármunir að baki þeirri söguskoðun að Davíð Oddsson hafi í raun varað við þessu öllu.
 1-2	Þrátt fyrir	_	_	_	_	_	_	_	_
 1	Þrátt	þrátt	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
-2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	_	_	tag=fs_þf
+2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	fixed	_	tag=fs_þf
 3	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	tag=pfn_et_þf_hk_p3
 4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 5	gríðarlegir	gríðarlegur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_nf_kk_sb
@@ -58,7 +58,7 @@
 11	að	að	SCONJ	st	_	17	mark	_	tag=st
 12-13	Davíð Oddsson	_	_	_	_	_	_	_	_
 12	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	nsubj	_	tag=person_nf_kk
-13	Oddsson	Oddsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	_	_	tag=person_nf_kk
+13	Oddsson	Oddsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	tag=person_nf_kk
 14	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_vh_p3_et_nt_gm
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	raun	raun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_þgf_kvk
@@ -97,7 +97,7 @@
 3	svolítið	svolítið	ADV	ao	_	2	advmod	_	tag=ao
 4-5	fyrir utan	_	_	_	_	_	_	_	_
 4	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-5	utan	utan	ADP	fs_þf	Case=Acc	4	_	_	tag=fs_þf
+5	utan	utan	ADP	fs_þf	Case=Acc	4	fixed	_	tag=fs_þf
 6	þau	það	PRON	pfn_ft_þf_hk_p3	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No|tag=pfn_ft_þf_hk_p3
 7	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 8	fannst	finna	VERB	so_0_op_subj_þgf_fh_p1_et_þt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Mid	10	conj	_	tag=so_0_op_subj_þgf_fh_p1_et_þt_mm
@@ -146,7 +146,7 @@
 7	skoraði	skora	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 8-9	Kristen Gillibrand	_	_	_	_	_	_	_	_
 8	Kristen	Kristen	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	tag=person_nf_kvk
-9	Gillibrand	Gillibrand	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	_	_	tag=person_nf_kvk
+9	Gillibrand	Gillibrand	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	flat	_	tag=person_nf_kvk
 10	öldungardeildarþingmaður	öldungar-deildar-þingmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
 12	á	á	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
@@ -205,29 +205,28 @@
 18	forystuna	forysta	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 19	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
-<<<<<<< HEAD
 1-3	Guðný Lára Gunnarsdóttir	_	_	_	_	_	_	_	_
 1	Guðný	Guðný	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	18	nsubj	_	tag=person_nf_kvk
-2	Lára	Lára	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
-3	Gunnarsdóttir	Gunnarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	_	_	tag=person_nf_kvk
+2	Lára	Lára	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+3	Gunnarsdóttir	Gunnarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
 4	,	,	PUNCT	grm	_	5	punct	_	tag=grm
 5-7	Erla Björk Hjartardóttir	_	_	_	_	_	_	_	_
 5	Erla	Erla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
-6	Björk	Björk	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	_	_	tag=person_nf_kvk
-7	Hjartardóttir	Hjartardóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	_	_	tag=person_nf_kvk
+6	Björk	Björk	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	flat	_	tag=person_nf_kvk
+7	Hjartardóttir	Hjartardóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	flat	_	tag=person_nf_kvk
 8	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 9-10	Helga Reynisdóttir	_	_	_	_	_	_	_	_
 9	Helga	Helga	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
-10	Reynisdóttir	Reynisdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	_	_	tag=person_nf_kvk
+10	Reynisdóttir	Reynisdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	tag=person_nf_kvk
 11	,	,	PUNCT	grm	_	12	punct	_	tag=grm
 12-14	Sandra Vilborg Jónsdóttir	_	_	_	_	_	_	_	_
 12	Sandra	Sandra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
-13	Vilborg	Vilborg	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	_	_	tag=person_nf_kvk
-14	Jónsdóttir	Jónsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	13	_	_	tag=person_nf_kvk
+13	Vilborg	Vilborg	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	flat	_	tag=person_nf_kvk
+14	Jónsdóttir	Jónsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	flat	_	tag=person_nf_kvk
 15	og	og	CCONJ	st	_	1	cc	_	tag=st
 16-17	Bára Hafsteinsdóttir	_	_	_	_	_	_	_	_
 16	Bára	Bára	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
-17	Hafsteinsdóttir	Hafsteinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	16	_	_	tag=person_nf_kvk
+17	Hafsteinsdóttir	Hafsteinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	16	flat	_	tag=person_nf_kvk
 18	tóku	taka	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 19	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	tag=no_et_þf_kk
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
@@ -238,27 +237,4 @@
 25	í	í	ADV	ao	_	18	advmod	_	tag=ao
 26	fyrra	fyrra	ADV	ao	_	25	advmod	_	tag=ao
 27	.	.	PUNCT	grm	_	18	punct	_	tag=grm
-=======
-# sent_id = GREYNIR_CORPUS_00421,.10
-# text = Guðný Lára Gunnarsdóttir, Erla Björk Hjartardóttir, Helga Reynisdóttir, Sandra Vilborg Jónsdóttir og Bára Hafsteinsdóttir tóku þátt í Lífsstílsbreytingu Smartlands og Sporthússins í fyrra.
-1	Guðný Lára Gunnarsdóttir	Guðný Lára Gunnarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	,	,	PUNCT	grm	_	3	punct	_	tag=grm
-3	Erla Björk Hjartardóttir	Erla Björk Hjartardóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	SpaceAfter=No|tag=person_nf_kvk
-4	,	,	PUNCT	grm	_	5	punct	_	tag=grm
-5	Helga Reynisdóttir	Helga Reynisdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	SpaceAfter=No|tag=person_nf_kvk
-6	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-7	Sandra Vilborg Jónsdóttir	Sandra Vilborg Jónsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
-8	og	og	CCONJ	st	_	1	cc	_	tag=st
-9	Bára Hafsteinsdóttir	Bára Hafsteinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
-10	tóku	taka	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
-11	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	tag=no_et_þf_kk
-12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	Lífsstílsbreytingu	lífsstíls-breyting	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
-14	Smartlands	smart-land	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	13	nmod:poss	_	tag=fyrirtæki_et_ef_hk
-15	og	og	CCONJ	st	_	16	cc	_	tag=st
-16	Sporthússins	Sporthúsið	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	conj	_	tag=fyrirtæki_et_ef_hk_gr
-17	í	í	ADV	ao	_	10	advmod	_	tag=ao
-18	fyrra	fyrra	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
-19	.	.	PUNCT	grm	_	10	punct	_	tag=grm
->>>>>>> master
 

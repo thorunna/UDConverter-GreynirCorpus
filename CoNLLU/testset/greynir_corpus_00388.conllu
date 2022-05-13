@@ -32,14 +32,14 @@
 10	leik	leikur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
 11-12	Golden State	_	_	_	_	_	_	_	_
 11	Golden	Golden	PROPN	entity_ef_hk	Case=Gen|Gender=Neut	10	nmod:poss	_	tag=entity_ef_hk
-12	State	State	PROPN	entity_ef_hk	Case=Gen|Gender=Neut	11	_	_	tag=entity_ef_hk
+12	State	State	PROPN	entity_ef_hk	Case=Gen|Gender=Neut	11	flat	_	tag=entity_ef_hk
 13	og	og	CCONJ	st	_	11	cc	_	tag=st
 14	La	La	PROPN	entity	_	11	conj	_	tag=entity
 15	Clippers	Clippers	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	11	conj	_	SpaceAfter=No|tag=fyrirtæki_ef_hk
 16	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00388,.3
-# text = Það var ekkert annað í stöðunni, “ segir Eyrún Ýr spurð út í spennustigið.
+# text = Það var ekkert annað í stöðunni,“ segir Eyrún Ýr spurð út í spennustigið.
 1	Það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_hk_p3
 2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	ccomp	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	ekkert	ekkert	ADV	eo	_	4	advmod	_	tag=eo
@@ -51,7 +51,7 @@
 9	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 10-11	Eyrún Ýr	_	_	_	_	_	_	_	_
 10	Eyrún	Eyrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	nsubj	_	tag=person_nf_kvk
-11	Ýr	Ýr	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	_	_	tag=person_nf_kvk
+11	Ýr	Ýr	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	flat	_	tag=person_nf_kvk
 12	spurð	spyrja	ADJ	lo_et	Number=Sing	9	obl	_	tag=lo_et
 13	út	út	ADV	ao	_	15	advmod	_	tag=ao
 14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
@@ -59,7 +59,7 @@
 16	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00388,.4
-# text = „ Sátt virðist líka ríkja um nauðsyn þess að heilbrigðis- og menntakerfi landsins standi undir nafni.
+# text = „Sátt virðist líka ríkja um nauðsyn þess að heilbrigðis- og menntakerfi landsins standi undir nafni.
 1	„	„	PUNCT	grm	_	5	punct	_	tag=grm
 2	Sátt	sátt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 3	virðist	virða	AUX	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	5	aux	_	tag=so_0_fh_p3_et_nt_mm
@@ -71,8 +71,8 @@
 9	að	að	SCONJ	st	_	14	mark	_	tag=st
 10-12	heilbrigðis- og menntakerfi	_	_	_	_	_	_	_	_
 10	heilbrigðis-	heilbrigðis-	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
-11	og	og	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	_	_	tag=no_et_nf_hk
-12	menntakerfi	menntakerfi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	_	_	tag=no_et_nf_hk
+11	og	og	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	flat	_	tag=no_et_nf_hk
+12	menntakerfi	menntakerfi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	flat	_	tag=no_et_nf_hk
 13	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=no_et_ef_hk_gr
 14	standi	standa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	ccomp	_	tag=so_0_vh_p3_et_nt_gm
 15	undir	undir	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
@@ -98,7 +98,7 @@
 15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00388,.6
-# text = „ Við bara sjáum hvort það verður og þá hvað, “ segir Magnús Geir.
+# text = „Við bara sjáum hvort það verður og þá hvað,“ segir Magnús Geir.
 1	„	„	PUNCT	grm	_	4	punct	_	tag=grm
 2	Við	við	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_ft_nf_p1
 3	bara	bara	ADV	ao	_	4	advmod	_	tag=ao
@@ -114,7 +114,7 @@
 13	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 14-15	Magnús Geir	_	_	_	_	_	_	_	_
 14	Magnús	Magnús	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-15	Geir	Geir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	_	_	SpaceAfter=No|tag=person_nf_kk
+15	Geir	Geir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	flat	_	SpaceAfter=No|tag=person_nf_kk
 16	.	.	PUNCT	grm	_	13	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00388,.7
