@@ -71,7 +71,7 @@
 # text = Að því loknu fer Ólafía Þórunn til Bandaríkjanna þar sem hún tekur þátt á lokastigi úrtökumótsins fyrir LPGA atvinnumótaröðina í Bandaríkjunum sem fram fer í lok nóvember og byrjun desember.
 1	Að	að	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	tag=pfn_et_þgf_hk_p3
-3	loknu	ljúka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	('HALLÓ_so', '0_lhþt_et', 'NP', None)	_	tag=so_0_lhþt_et
+3	loknu	ljúka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	dep	_	tag=so_0_lhþt_et
 4	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5-6	Ólafía Þórunn	_	_	_	_	_	_	_	_
 5	Ólafía	Ólafía	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
@@ -96,10 +96,10 @@
 24	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 25	í	í	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
 26	lok	lok	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	24	advmod	_	tag=no_ft_þf_hk
-27	nóvember	nóvember	NUM?	dagsafs	_	26	nmod:poss	_	tag=dagsafs
+27	nóvember	nóvember	NOUN	dagsafs	_	26	nmod:poss	_	tag=dagsafs
 28	og	og	CCONJ	st	_	26	cc	_	tag=st
 29	byrjun	byrjun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	tag=no_et_þf_kvk
-30	desember	desember	NUM?	dagsafs	_	26	nmod:poss	_	SpaceAfter=No|tag=dagsafs
+30	desember	desember	NOUN	dagsafs	_	26	nmod:poss	_	SpaceAfter=No|tag=dagsafs
 31	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00179,.4

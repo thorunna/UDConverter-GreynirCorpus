@@ -216,11 +216,11 @@
 23	í	í	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24	Sviss	Sviss	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	tag=sérnafn_et_þgf_hk
 25	dagana	dagur	ADV	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	19	advmod	_	tag=no_ft_þf_kk_gr
-26	7.	7.	ADJ	raðnr_þf_kk	Case=Acc|Gender=Masc|NumType=Ord	25	amod	_	SpaceAfter=No|tag=raðnr_þf_kk
+26	7.	7.	NUM	raðnr_þf_kk	Case=Acc|Gender=Masc|NumType=Ord	25	amod	_	SpaceAfter=No|tag=raðnr_þf_kk
 27	–	_	PUNCT	grm	_	26	punct	_	tag=grm
 28-29	11. nóvember	_	_	_	_	_	_	_	_
-28	11.	11.	NUM?	dagsafs	_	25	('HALLÓ_dagsafs', None, 'ADVP', 'DUR-REL')	_	SpaceAfter=No|tag=dagsafs
-29	nóvember	nóvember	NUM?	dagsafs	_	28	flat	_	SpaceAfter=No|tag=dagsafs
+28	11.	11.	NOUN	dagsafs	_	25	obl	_	SpaceAfter=No|tag=dagsafs
+29	nóvember	nóvember	NOUN	dagsafs	_	28	flat	_	SpaceAfter=No|tag=dagsafs
 30	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00329,.7
@@ -312,9 +312,9 @@
 13	að	að	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	upphæð	upphæð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk
 15-17	3,4 milljónir Evra	_	_	_	_	_	_	_	_
-15	3,4	3,4	X	amount	_	14	('HALLÓ_amount', None, 'NP', None)	_	tag=amount
-16	milljónir	milljónir	X	amount	_	15	_	_	tag=amount
-17	Evra	Evra	X	amount	_	16	_	_	tag=amount
+15	3,4	3,4	NUM	amount	_	14	nummod	_	tag=amount
+16	milljónir	milljónir	NUM	amount	_	15	_	_	tag=amount
+17	Evra	Evra	NUM	amount	_	16	_	_	tag=amount
 18	eða	eða	CCONJ	st	_	14	cc	_	tag=st
 19	um	um	ADV	eo	_	14	advmod	_	tag=eo
 20-23	400 milljónir íslenskra króna	_	_	_	_	_	_	_	_

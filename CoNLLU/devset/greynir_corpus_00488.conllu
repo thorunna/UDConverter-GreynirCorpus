@@ -101,7 +101,7 @@
 23	um	um	ADP	fs_nh	VerbForm=Inf	30	case	_	tag=fs_nh
 24	að	að	SCONJ	st	_	30	mark	_	tag=st
 25	fréttir	frétt	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	tag=no_ft_nf_kvk
-26	byggðar	byggð	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	25	('HALLÓ_so', '0_lhþt_ft', 'NP', 'SUBJ')	_	tag=so_0_lhþt_ft
+26	byggðar	byggð	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	25	dep	_	tag=so_0_lhþt_ft
 27	á	á	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
 28	gögnunum	gagn	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	25	obl	_	tag=no_ft_þgf_hk_gr
 29	yrðu	verða	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	30	aux	_	tag=so_0_vh_p3_ft_þt_gm
@@ -195,7 +195,7 @@
 2	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_fh_p3_ft_þt_gm
 3	fluttir	fluttur	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	þungt	þungt	ADV	eo	_	3	obl	_	tag=eo
-5	haldnir	halda	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	4	('HALLÓ_so', '0_lhþt_ft', 'NP', None)	_	tag=so_0_lhþt_ft
+5	haldnir	halda	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	4	dep	_	tag=so_0_lhþt_ft
 6	á	eiga	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	sjúkrahús	sjúkrahús	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
 8	á	á	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
@@ -255,7 +255,7 @@
 22	hegðun	hegðun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þgf_kvk
 23	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kvk
 24	(	_	PUNCT	grm	_	23	punct	_	tag=grm
-25	67%	67%	?	prósenta	_	22	obl	_	SpaceAfter=No|tag=prósenta
+25	67%	67%	NUM	prósenta	_	22	obl	_	SpaceAfter=No|tag=prósenta
 26	)	_	PUNCT	grm	_	25	punct	_	tag=grm
 27	heldur	gjarna	ADV	ao_mst	Degree=Cmp	16	advmod	_	tag=ao_mst
 28	en	en	CCONJ	st	_	29	cc	_	tag=st
@@ -354,8 +354,8 @@
 7	utan	utan	ADV	ao	_	11	advmod	_	tag=ao
 8	um	um	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 9-10	100 prósenta	_	_	_	_	_	_	_	_
-9	100	100	?	prósenta	_	11	nmod:poss	_	tag=prósenta
-10	prósenta	prósenta	?	prósenta	_	9	_	_	tag=prósenta
+9	100	100	NUM	prósenta	_	11	nmod:poss	_	tag=prósenta
+10	prósenta	prósenta	NUM	prósenta	_	9	_	_	tag=prósenta
 11	hlut	hlutur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þf_kk
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	eignaleigufyrirtækinu	eign-aleigu-fyrirtæki	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk_gr

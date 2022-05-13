@@ -180,16 +180,16 @@
 15	og	og	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	flat	_	SpaceAfter=No|tag=no_et_ef_kk
 16	auðlindaráðherra	auðlindaráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	flat	_	SpaceAfter=No|tag=no_et_ef_kk
 17	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-18	þann	sá	ADV	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	advmod	_	tag=fn_et_þf_kk
+18	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	tag=fn_et_þf_kk
 19-20	14. desember	_	_	_	_	_	_	_	_
-19	14.	14.	NUM?	dagsafs	_	18	('HALLÓ_dagsafs', None, 'NP', None)	_	tag=dagsafs
-20	desember	desember	NUM?	dagsafs	_	19	flat	_	tag=dagsafs
-21	síðastliðinn	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	18	amod	_	tag=lo_et_þf_kk_sb
+19	14.	14.	ADV	dagsafs	_	9	advmod	_	tag=dagsafs
+20	desember	desember	NOUN	dagsafs	_	19	flat	_	tag=dagsafs
+21	síðastliðinn	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	19	amod	_	tag=lo_et_þf_kk_sb
 22	en	en	CCONJ	st	_	9	cc	_	tag=st
-23	þann	sá	ADV	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	26	advmod	_	tag=fn_et_þf_kk
+23	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	24	nmod	_	tag=fn_et_þf_kk
 24-25	16. febrúar	_	_	_	_	_	_	_	_
-24	16.	16.	NUM?	dagsafs	_	23	('HALLÓ_dagsafs', None, 'NP', None)	_	tag=dagsafs
-25	febrúar	febrúar	NUM?	dagsafs	_	24	flat	_	tag=dagsafs
+24	16.	16.	ADV	dagsafs	_	26	advmod	_	tag=dagsafs
+25	febrúar	febrúar	NOUN	dagsafs	_	24	flat	_	tag=dagsafs
 26	ákvað	ákveða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 27	ráðherra	ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	tag=no_et_nf_kk
 28	að	að	SCONJ	st	_	31	mark	_	tag=st
@@ -365,8 +365,8 @@
 # text = Í mars 2012, mánuði eftir að Skeljungur var endurfjármagnaður af Arion banka, var Skeljungur látinn kaupa 34 prósent hlut í P F Magn af Heddu, félagi þeirra Svanhildar Nönnu og Guðmundar.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2-3	mars 2012	_	_	_	_	_	_	_	_
-2	mars	mars	NUM?	dagsafs	_	5	obl	_	SpaceAfter=No|tag=dagsafs
-3	2012	2012	NUM?	dagsafs	_	2	flat	_	SpaceAfter=No|tag=dagsafs
+2	mars	mars	NOUN	dagsafs	_	5	obl	_	SpaceAfter=No|tag=dagsafs
+3	2012	2012	NOUN	dagsafs	_	2	flat	_	SpaceAfter=No|tag=dagsafs
 4	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 5	mánuði	mánuður	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	advmod	_	tag=no_et_þgf_kk
 6	eftir	eftir	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
@@ -384,7 +384,7 @@
 18	kaupa	kaupa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_1_þf_nh_gm
 19-20	34 prósent	_	_	_	_	_	_	_	_
 19	34	34	NUM	prósenta	_	21	nummod	_	tag=prósenta
-20	prósent	prósent	?	prósenta	_	19	_	_	tag=prósenta
+20	prósent	prósent	NUM	prósenta	_	19	_	_	tag=prósenta
 21	hlut	hlutur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	tag=no_et_þf_kk
 22	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
 23	P	P	ADV	abbrev	_	25	advmod	_	tag=abbrev
