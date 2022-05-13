@@ -121,6 +121,7 @@
 10	og	og	CCONJ	st	_	11	cc	_	tag=st
 11	Ísafjarðar	Ísafjörður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	tag=no_et_ef_kk
 12	styttast	stytta	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	5	advcl	_	tag=so_0_nh_mm
+<<<<<<< HEAD
 13	um	um	ADP	fs	_	17	case	_	tag=fs
 14-15	50 km	_	_	_	_	_	_	_	_
 14	50	50	?	mælieining	_	17	obl	_	SpaceAfter=No|tag=mælieining
@@ -145,6 +146,24 @@
 30	km	km	?	mælieining	_	29	_	_	SpaceAfter=No|tag=mælieining
 31	)	_	PUNCT	grm	_	17	punct	_	SpaceAfter=No|tag=grm
 32	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+13	um	um	ADP	fs	_	16	case	_	tag=fs
+14	50 km	50 km	X	mælieining	_	16	dep	_	SpaceAfter=No|tag=mælieining
+15	(	_	PUNCT	grm	_	14	punct	_	tag=grm
+16	Dýrafjarðargöng	Dýrafjarðargöng	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_þf_hk
+17	27,3 km	27,3 km	X	mælieining	_	16	obl	_	SpaceAfter=No|tag=mælieining
+18	,	_	PUNCT	grm	_	19	punct	_	tag=grm
+19	Dynjandisheiði	Dynjandisheiði	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	tag=no_et_þf_kvk
+20	2	2	NUM	tala	NumType=Card	22	nummod	_	SpaceAfter=No|tag=tala
+21	–	_	PUNCT	grm	_	20	punct	_	tag=grm
+22	3 km	3 km	X	mælieining	_	16	obl	_	SpaceAfter=No|tag=mælieining
+23	,	_	PUNCT	grm	_	24	punct	_	tag=grm
+24	leið	leið	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	22	conj	_	tag=no_et_nf_kvk
+25	Þ-H	Þ-H	ADV	abbrev	_	16	advmod	_	tag=abbrev
+26	21,6 km	21,6 km	X	mælieining	_	16	obl	_	SpaceAfter=No|tag=mælieining
+27	)	_	PUNCT	grm	_	26	punct	_	SpaceAfter=No|tag=grm
+28	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00186,.5
 # text = Jón Þór Ólafsson, þingmaður Pírata, hefur ákveðið að flytja úr íbúð fjölskyldunnar á Stúdentagörðum og segist þannig vilja víkja fyrir annarri fjölskyldu sem ekki sé í jafn góðri stöðu og þau.
@@ -303,6 +322,7 @@
 5	að	að	SCONJ	st	_	7	mark	_	tag=st
 6	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_kvk_p3
 7	komi	koma	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	obj	_	tag=so_1_þf_vh_p3_et_nt_gm
+<<<<<<< HEAD
 8-10	að öllu leyti	_	_	_	_	_	_	_	_
 8	að	að	ADV	ao	_	7	advmod	_	tag=ao
 9	öllu	öllu	ADV	ao	_	8	fixed	_	tag=ao
@@ -330,6 +350,32 @@
 31	vissulega	vissulega	ADV	eo	_	32	advmod	_	tag=eo
 32	sláandi	sláandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 33	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+=======
+8	að öllu leyti	að öllu leyti	ADV	ao	_	7	advmod	_	tag=ao
+9	á	á	ADV	ao	_	8	advmod	_	tag=ao
+10	óvart	óvart	ADV	ao	_	8	advmod	_	tag=ao
+11	vegna	vegna	ADP	fs	_	21	mark	_	tag=fs
+12	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	tag=fn_et_ef_hk
+13	að	að	SCONJ	st	_	11	cc	_	tag=st
+14	hækkandi	hækkandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_nf_kk_sb
+15	launatengdur	launatengdur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_nf_kk_sb
+16	kostnaður	kostnaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	tag=no_et_nf_kk
+17	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	tag=so_0_fh_p3_et_nt_gm
+18	verið	vera	VERB	so_1_nf_gm	Case=Nom|Voice=Act	21	cop	_	tag=so_1_nf_gm
+19	eitt	einn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	21	nmod	_	tag=fn_et_nf_hk
+20	helsta	heldri	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	21	amod	_	tag=lo_et_nf_hk_evb
+21	umkvörtunarefni	umkvörtunarefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	advcl	_	tag=no_et_nf_hk
+22	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	23	nmod	_	tag=pfn_ft_ef_p1
+23	félagsmanna	félagsmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	21	nmod:poss	_	tag=no_ft_ef_kk
+24	undanfarin	undanfarinn	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	25	amod	_	tag=lo_ft_þf_hk_sb
+25	misseri	misseri	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	21	advmod	_	tag=no_ft_þf_hk
+26	en	en	CCONJ	st	_	4	cc	_	tag=st
+27	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	tag=pfn_et_nf_kvk_p3
+28	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	cop	_	tag=so_0_fh_p3_et_nt_gm
+29	vissulega	vissulega	ADV	eo	_	30	advmod	_	tag=eo
+30	sláandi	sláandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
+31	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00186,.10
 # text = Eftir því sem á líður fer starf Barrys að taka meira og meira á hann og hann neyðist til þess að taka afdrifaríkar persónulegar ákvarðanir til þess að halda í sitt tvöfalda líf.

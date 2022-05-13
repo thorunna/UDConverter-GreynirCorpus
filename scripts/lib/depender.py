@@ -374,6 +374,10 @@ class UniversalDependencyGraph(DependencyGraph):
         text = re.sub(r"\( ", "(", text)
         text = re.sub(r" \)", ")", text)
         text = re.sub(r" \?", "?", text)
+        text = re.sub(r" ;", ";", text)
+        text = re.sub(r" :", ":", text)
+        text = re.sub(r"„ ", "„", text)
+        text = re.sub(r" “", "“", text)
 
         return "# text = " + text
 
@@ -2202,7 +2206,32 @@ class Converter:
                     else:
                         t[i].set_id(t[i][0].id())
 
-                # print('Tree ID:', t[i].id(), 'Child ID:', t[i][0].id())
+                else:
+                    self._select_head(t[i])
+
+            # fixes subtrees with 1 child but wrong id
+            for i in singles:
+                if isinstance(t[i][0], Tree) and t[i].id() != t[i][0].id():
+
+                    # # DEBUG:
+                    # print()
+                    # print('Tree ID:', t[i].id(), 'Child ID:', t[i][0].id())
+                    # print('Tree:', t[i])
+                    # # print()
+                    # print('Child:', t[i][0])
+
+                    if re.match("=\d", t[i].label()[-2:]):
+                        # print('\nMain Clause indicated\n')
+                        clause_index = t[i].label()[-1]
+                        # re.match('\d', t[i].label()[-2:])
+                        for j in const:
+                            if re.match(f"-{clause_index}", t[j].label()[-2:]):
+                                self._select_head(t[i][0], main_clause=t[j])
+                    # else
+                    else:
+                        t[i].set_id(t[i][0].id())
+
+                    # print('Tree ID:', t[i].id(), 'Child ID:', t[i][0].id())
 
             # runs various subtrees that are likely to have root errors after
             # last block back through head selection
@@ -2224,11 +2253,14 @@ class Converter:
                     try:
                         mod_tag = child.label()
                     except:
+                        # print(child)
+                        # raise
                         mod_tag = "_"
 
                     try:
                         mod_nr = child.id()
                     except:
+                        # print("CHILD TYPE: ", type(child), child)
                         mod_nr = "_"
 
                     if child:

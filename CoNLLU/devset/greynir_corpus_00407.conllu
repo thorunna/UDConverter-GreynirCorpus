@@ -20,6 +20,7 @@
 
 # sent_id = GREYNIR_CORPUS_00407,.2
 # text = Landssambandið hefur hins vegar ekki enn rætt málið við Isavia, en það verður gert í vikunni.
+<<<<<<< HEAD
 1	Landssambandið	landssamband	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk_gr
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
 3-4	hins vegar	_	_	_	_	_	_	_	_
@@ -39,6 +40,25 @@
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	vikunni	vika	ADV	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	15	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
 18	.	.	PUNCT	grm	_	7	punct	_	tag=grm
+=======
+1	Landssambandið	landssamband	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk_gr
+2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
+3	hins vegar	hins vegar	ADV	ao	_	6	advmod	_	tag=ao
+4	ekki	ekki	ADV	ao	_	6	advmod	_	tag=ao
+5	enn	enn	ADV	ao	_	4	advmod	_	tag=ao
+6	rætt	ræða	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
+7	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	obj	_	tag=no_et_þf_hk_gr
+8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+9	Isavia	Isavia	PROPN	fyrirtæki_þf	Case=Acc	6	obl	_	SpaceAfter=No|tag=fyrirtæki_þf
+10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
+11	en	en	CCONJ	st	_	6	cc	_	tag=st
+12	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_hk_p3
+13	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
+14	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	conj	_	tag=so_0_lhþt_et
+15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+16	vikunni	vika	ADV	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	14	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
+17	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00407,.3
 # text = Mataxas var klæddur í skothelt vesti þegar hann gekk inn í dómhúsið í morgun í fylgd lögreglu.
@@ -183,6 +203,8 @@
 15	ráðherra	ráðherra	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
 16	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00407,.10
+# text = Hann er á því að Gylfi sé á leið með að verða sá besti frá upphafi.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
@@ -198,6 +220,6 @@
 13	sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	tag=fn_et_nf_kk
 14	besti	góður	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_nf_kk_evb
 15	frá	frá	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	upphafi	upphaf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þgf_hk
+16	upphafi	upphaf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

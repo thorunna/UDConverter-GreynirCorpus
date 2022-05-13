@@ -56,6 +56,7 @@
 18	þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	16	advcl	_	tag=fn_ft_nf_hk
 19	og	og	CCONJ	st	_	7	cc	_	tag=st
 20	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_nt_gm
+<<<<<<< HEAD
 21-22	auk þess	_	_	_	_	_	_	_	_
 21	auk	auk	ADV	ao	_	7	advmod	_	tag=ao
 22	þess	þess	ADV	ao	_	21	fixed	_	tag=ao
@@ -71,6 +72,21 @@
 32	skipað	skipaður	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	28	acl:relcl	_	tag=lo_et_nf_hk_sb_sþgf
 33	sérfræðingum	sérfræðingur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 34	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+21	auk þess	auk þess	ADV	ao	_	7	advmod	_	tag=ao
+22	haft	hafa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	cop	_	tag=so_0_sagnb_gm
+23	yfir	yfir	ADV	ao	_	7	advmod	_	tag=ao
+24	að	að	PART	nhm	_	25	mark	_	tag=nhm
+25	ráða	ráða	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þgf_nh_gm
+26	fjölmennu	fjölmennur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	27	amod	_	tag=lo_et_þgf_hk_sb
+27	starfsliði	starfslið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	25	obl	_	tag=no_et_þgf_hk
+28	sem	sem	SCONJ	stt	_	31	mark	_	tag=stt
+29	einkum	einkum	ADV	ao	_	31	advmod	_	tag=ao
+30	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	31	cop	_	tag=so_0_fh_p3_et_þt_gm
+31	skipað	skipaður	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	27	acl:relcl	_	tag=lo_et_nf_hk_sb_sþgf
+32	sérfræðingum	sérfræðingur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
+33	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00485,.3
 # text = Í bókinni Kaupthinking : Bankinn sem átti sig sjálfur, sem kom út í nóvember 2018, er aðdragandinn að veitingu neyðarlánsins rakinn ítarlega og ýmsar áður óbirtar upplýsingar birtar um þann aðdraganda.
@@ -88,6 +104,7 @@
 12	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 13	út	út	ADV	ao	_	12	advmod	_	tag=ao
 14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+<<<<<<< HEAD
 15-16	nóvember 2018	_	_	_	_	_	_	_	_
 15	nóvember	nóvember	ADV	dagsafs	_	12	advmod	_	SpaceAfter=No|tag=dagsafs
 16	2018	2018	NUM?	dagsafs	_	15	flat	_	SpaceAfter=No|tag=dagsafs
@@ -109,6 +126,27 @@
 32	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	33	nmod	_	tag=fn_et_þf_kk
 33	aðdraganda	aðdragandi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No|tag=no_et_þf_kk
 34	.	.	PUNCT	grm	_	23	punct	_	tag=grm
+=======
+15	nóvember 2018	nóvember 2018	ADV	dagsafs	_	12	advmod	_	SpaceAfter=No|tag=dagsafs
+16	,	,	PUNCT	grm	_	15	punct	_	tag=grm
+17	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+18	aðdragandinn	aðdragandi	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	tag=no_et_nf_kk_gr
+19	að	að	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+20	veitingu	veiting	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_þgf_kvk
+21	neyðarlánsins	neyðarlán	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	20	nmod:poss	_	tag=no_et_ef_hk_gr
+22	rakinn	rekja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+23	ítarlega	ítarlega	ADV	ao	_	22	advmod	_	tag=ao
+24	og	og	CCONJ	st	_	22	cc	_	tag=st
+25	ýmsar	ýmis	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	28	nmod	_	tag=fn_ft_nf_kvk
+26	áður	áður	ADV	eo	_	28	advmod	_	tag=eo
+27	óbirtar	óbirtur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	28	amod	_	tag=lo_ft_nf_kvk_sb
+28	upplýsingar	upplýsing	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	32	nsubj	_	tag=no_ft_nf_kvk
+29	birtar	birta	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	32	xcomp	_	tag=so_0_lhþt_ft
+30	um	um	ADP	fs_þf	Case=Acc	32	case	_	tag=fs_þf
+31	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	32	nmod	_	tag=fn_et_þf_kk
+32	aðdraganda	aðdragandi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No|tag=no_et_þf_kk
+33	.	.	PUNCT	grm	_	22	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00485,.4
 # text = May lét þessi orð falla í ræðu sem hún hélt fyrir utan Downing-stræti 10 í gær en forsætisráðherrann sagði jafnframt að embættismenn í Brussel vildu helst láta komandi samningaviðræður mistakast.

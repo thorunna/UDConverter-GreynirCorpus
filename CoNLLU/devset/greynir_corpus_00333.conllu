@@ -65,6 +65,7 @@
 23	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	25	nmod	_	tag=fn_et_þf_hk
 24	eigið	eigin	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	25	amod	_	tag=lo_et_þf_hk_sb
 25	heimili	heimili	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	22	obj	_	tag=no_et_þf_hk
+<<<<<<< HEAD
 26-27	og fleira	_	_	_	_	_	_	_	_
 26	og	og	ADV	eo	_	25	advmod	_	tag=eo
 27	fleira	fleira	ADV	eo	_	26	fixed	_	tag=eo
@@ -78,6 +79,19 @@
 35	ekki	ekki	ADV	eo	_	36	advmod	_	tag=eo
 36	lausar	laus	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	31	ccomp	_	SpaceAfter=No|tag=lo_ft_nf_kvk_sb
 37	.	_	PUNCT	grm	_	31	punct	_	tag=grm
+=======
+26	og fleira	og fleira	ADV	eo	_	25	advmod	_	tag=eo
+27	þá	þá	ADV	ao	_	30	advmod	_	tag=ao
+28	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	cop	_	tag=so_0_fh_p3_et_nt_gm
+29	ótrúlega	ótrúlega	ADV	eo	_	30	advmod	_	tag=eo
+30	algengt	algengur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
+31	að	að	SCONJ	st	_	35	mark	_	tag=st
+32	þær	hún	PRON	pfn_ft_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	tag=pfn_ft_nf_kvk_p3
+33	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	35	cop	_	tag=so_0_vh_p3_ft_nt_gm
+34	ekki	ekki	ADV	eo	_	35	advmod	_	tag=eo
+35	lausar	laus	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	30	ccomp	_	SpaceAfter=No|tag=lo_ft_nf_kvk_sb
+36	.	_	PUNCT	grm	_	30	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00333,.3
 # text = Jaeger er í 102. sæti á peningalista Web com mótaraðarinnar í ár, en hann hefur aldrei verið á meðal tíu efstu kylfinga í móti á mótaröðinni og því kemur þessi góði hringur hans nokkuð á óvart.
@@ -344,6 +358,7 @@
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	geni	gen	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 18	,	_	PUNCT	grm	_	17	punct	_	tag=grm
+<<<<<<< HEAD
 19-20	til dæmis	_	_	_	_	_	_	_	_
 19	til	til	ADV	ao	_	17	advmod	_	tag=ao
 20	dæmis	dæmis	ADV	ao	_	19	fixed	_	tag=ao
@@ -365,6 +380,27 @@
 36	viðeigandi	viðeigandi	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	37	amod	_	tag=lo_et_þf_kvk_sb
 37	erfðaráðgjöf	erfðaráðgjöf	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	35	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 38	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+19	til dæmis	til dæmis	ADV	ao	_	17	advmod	_	tag=ao
+20	BRCA	BRCA	PROPN	sérnafn	_	22	VANTAR_LIÐ	_	tag=sérnafn
+21	2	2	NUM	tala	NumType=Card	20	nummod	_	tag=tala
+22	stökkbreytingu	stökkbreyting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
+23	,	_	PUNCT	grm	_	22	punct	_	tag=grm
+24	ef	ef	SCONJ	st	_	27	mark	_	tag=st
+25	upplýst	upplýstur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	26	amod	_	tag=lo_et_nf_hk_sb
+26	samþykki	samþykki	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	tag=no_et_nf_hk
+27	liggur	liggja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	advcl	_	tag=so_0_fh_p3_et_nt_gm
+28	fyrir	fyrir	ADV	ao	_	27	advmod	_	tag=ao
+29	og	og	CCONJ	st	_	27	cc	_	tag=st
+30	tryggt	tryggja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	27	VANTAR_LIÐ_IP_None	_	tag=so_0_sagnb_gm
+31	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	cop	_	tag=so_0_fh_p3_et_nt_gm
+32	að	að	SCONJ	st	_	34	mark	_	tag=st
+33	einstaklingar	einstaklingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	tag=no_ft_nf_kk
+34	fái	fá	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	30	ccomp	_	tag=so_1_þf_vh_p3_ft_nt_gm
+35	viðeigandi	viðeigandi	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	36	amod	_	tag=lo_et_þf_kvk_sb
+36	erfðaráðgjöf	erfðaráðgjöf	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
+37	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00333,.10
 # text = Ashley skilaði ágætis tölum en miðað við hæfileikana sem í henni búa er deginum ljósara að hún feel-aði sig ekki vel á Íslandi því hún sýndi bara brotabrot og gaf lítið af sér.

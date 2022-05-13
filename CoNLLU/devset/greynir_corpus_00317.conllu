@@ -45,6 +45,7 @@
 5	skrifaði	skrifa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 6	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	starfshópinn	starfshópur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þf_kk_gr
+<<<<<<< HEAD
 8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 9-10	meðal annars	_	_	_	_	_	_	_	_
 9	meðal	meðal	ADV	eo	_	11	advmod	_	tag=eo
@@ -68,6 +69,29 @@
 27	til	til	ADP	fs_ef	Case=Gen	28	case	_	tag=fs_ef
 28	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	26	obl	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 29	.	_	PUNCT	grm	_	11	punct	_	tag=grm
+=======
+8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
+9	meðal annars	meðal annars	ADV	eo	_	10	advmod	_	tag=eo
+10	tekið	tekinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
+11	fram	fram	ADV	ao	_	10	advmod	_	tag=ao
+12	að	að	SCONJ	st	_	16	mark	_	tag=st
+13	innflæðishöftin	innflæðishaft	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	16	nsubj	_	tag=no_ft_nf_hk_gr
+14	geti	geta	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_vh_p3_ft_nt_gm
+15	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	16	cop	_	tag=so_0_sagnb_gm
+16	túlkuð	túlka	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	10	nsubj	_	tag=so_0_lhþt_ft
+17	á	á	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
+18	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	tag=fn_et_þf_kk
+19	veg	vegur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þf_kk
+20	að	að	SCONJ	st	_	25	mark	_	tag=st
+21	erlendir	erlendur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	22	amod	_	tag=lo_ft_nf_kk_sb
+22	fjárfestar	fjárfestir	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	tag=no_ft_nf_kk
+23	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_0_vh_p3_ft_nt_gm
+24	ekki	ekki	ADV	ao	_	25	advmod	_	tag=ao
+25	velkomnir	velkominn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	19	ccomp	_	tag=lo_ft_nf_kk_sb
+26	til	til	ADP	fs_ef	Case=Gen	27	case	_	tag=fs_ef
+27	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No|tag=no_et_ef_hk_gr
+28	.	_	PUNCT	grm	_	10	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00317,.3
 # text = Skinney er í dag að fá um það bil þriðjung af umsóknum um sumarstarf frá skólakrökkum á við það sem var áður vegna samkeppninnar við ferðaþjónustuna um vinnuafl.
@@ -294,6 +318,8 @@
 28	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 29	.	_	PUNCT	grm	_	13	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00317,.10
+# text = Hún lést af því að hún var ekki með bjöllu til að láta vita af sér, þó það sé skýrt að vistmenn eigi að vera með hana.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p3
 2	lést	láta	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 3	af	af	ADP	fs_þgf	Case=Dat	7	mark	_	tag=fs_þgf
@@ -309,7 +335,7 @@
 13	láta	láta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	obl	_	tag=so_0_nh_gm
 14	vita	vita	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_0_nh_gm
 15	af	af	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	14	obl	_	tag=abfn_þgf
+16	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	14	obl	_	SpaceAfter=No|tag=abfn_þgf
 17	,	_	PUNCT	grm	_	16	punct	_	tag=grm
 18	þó	þó	SCONJ	st	_	21	mark	_	tag=st
 19	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	_	tag=pfn_et_nf_hk_p3
@@ -321,6 +347,6 @@
 25	að	að	PART	nhm	_	26	mark	_	tag=nhm
 26	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	24	xcomp	_	tag=so_0_nh_gm
 27	með	með	ADP	fs_þf	Case=Acc	28	case	_	tag=fs_þf
-28	hana	hún	PRON	pfn_et_þf_kvk_p3	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obl	_	tag=pfn_et_þf_kvk_p3
+28	hana	hún	PRON	pfn_et_þf_kvk_p3	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No|tag=pfn_et_þf_kvk_p3
 29	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

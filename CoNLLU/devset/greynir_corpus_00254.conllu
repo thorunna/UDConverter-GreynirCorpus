@@ -171,10 +171,13 @@
 15	Frakkland	Frakkland	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
 16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00254,.10
+# text = Margar milljónir dósa seljast hér á landi árlega og hugsanlegt að höfðatölumet hafi verið slegin.
 1	Margar	margur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_nf_kvk_sb
 2	milljónir	milljón	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	tag=no_ft_nf_kvk
 3	dósa	dós	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	2	nmod:poss	_	tag=no_ft_ef_kvk
 4	seljast	selja	VERB	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_ft_nt_mm
+<<<<<<< HEAD
 5-7	hér á landi	_	_	_	_	_	_	_	_
 5	hér	hér	ADV	ao	_	4	advmod	_	tag=ao
 6	á	á	ADV	ao	_	5	fixed	_	tag=ao
@@ -188,4 +191,16 @@
 14	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	ccomp	_	tag=so_0_sagnb_gm
 15	slegin	slá	VERB	so_0_lhþt_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part	14	obl	_	tag=so_0_lhþt_ft_nf_kvk
 16	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+=======
+5	hér á landi	hér á landi	ADV	ao	_	4	advmod	_	tag=ao
+6	árlega	árlega	ADV	ao	_	4	advmod	_	tag=ao
+7	og	og	CCONJ	st	_	4	cc	_	tag=st
+8	hugsanlegt	hugsanlegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	tag=lo_et_nf_hk_sb
+9	að	að	SCONJ	st	_	12	mark	_	tag=st
+10	höfðatölumet	höfðatölumet	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	tag=no_ft_nf_hk
+11	hafi	hefur	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_nt_gm
+12	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	ccomp	_	tag=so_0_sagnb_gm
+13	slegin	slá	VERB	so_0_lhþt_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part	12	obl	_	SpaceAfter=No|tag=so_0_lhþt_ft_nf_kvk
+14	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+>>>>>>> master
 

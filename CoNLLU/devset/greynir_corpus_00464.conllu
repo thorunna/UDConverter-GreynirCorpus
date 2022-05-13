@@ -39,6 +39,7 @@
 4	Íslandi	Ísland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 5	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 6	fram	fram	ADV	ao	_	5	advmod	_	tag=ao
+<<<<<<< HEAD
 7-8	árið 1830	_	_	_	_	_	_	_	_
 7	árið	árið	ADV	ártal	_	5	advmod	_	SpaceAfter=No|tag=ártal
 8	1830	1830	NUM	ártal	_	7	flat	_	SpaceAfter=No|tag=ártal
@@ -63,6 +64,28 @@
 26	Natani	Natani	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	24	obl	_	SpaceAfter=No|tag=person_þgf_kk
 27	Ketilssyni	Ketilssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	26	_	_	SpaceAfter=No|tag=person_þgf_kk
 28	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+=======
+7	árið 1830	árið 1830	ADV	ártal	_	5	advmod	_	SpaceAfter=No|tag=ártal
+8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
+9	þegar	þegar	SCONJ	st	_	15	mark	_	tag=st
+10	þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	11	nmod	_	tag=pfn_ft_nf_hk_p3
+11	Agnes	Agnes	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	15	nsubj	_	tag=person_nf_kvk
+12	og	og	CCONJ	st	_	13	cc	_	tag=st
+13	Friðrik	Friðrik	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	conj	_	tag=person_nf_kk
+14	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_fh_p3_ft_þt_gm
+15	hálshöggvin	hálshöggva	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	5	advcl	_	tag=so_0_lhþt_ft
+16	eins	einn	ADV	ao	_	19	cc	_	tag=ao
+17	og	og	CCONJ	st	_	16	cc	_	tag=st
+18	frægt	frægja	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	xcomp	_	tag=lo_et_nf_hk_fst_sb
+19	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	advcl	_	tag=so_0_fh_p3_et_nt_gm
+20	orðið	orð	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	19	conj	_	SpaceAfter=No|tag=so_0_lhþt_et
+21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
+22	fyrir	fyrir	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+23	morðið	morð	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þf_hk_gr
+24	á	eiga	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
+25	Natani Ketilssyni	Natani Ketilssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	23	obl	_	SpaceAfter=No|tag=person_þgf_kk
+26	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00464,.3
 # text = Jennifer Gonzalez segir að það taki 30 til 45 daga að fá svar frá kortafyrirtækinu og ekki er enn víst hvort þau fá að fullu endurgreitt.
@@ -141,6 +164,7 @@
 14	sem	sem	SCONJ	st	_	13	cc	_	tag=st
 15	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_ft_nf_kk_p3
 16	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+<<<<<<< HEAD
 17-19	atvinnu- eða áhugamenn	_	_	_	_	_	_	_	_
 17	atvinnu-	atvinnu-	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	25	ccomp	_	SpaceAfter=No|tag=no_ft_nf_kk
 18	eða	eða	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	17	_	_	SpaceAfter=No|tag=no_ft_nf_kk
@@ -152,6 +176,16 @@
 24	mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	25	amod	_	tag=lo_et_nf_kvk_sb
 25	áskorun	áskorun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	VANTAR_LIÐ_IP_None	_	SpaceAfter=No|tag=no_et_nf_kvk
 26	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+=======
+17	atvinnu- eða áhugamenn	atvinnu- eða áhugamaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	23	ccomp	_	SpaceAfter=No|tag=no_ft_nf_kk
+18	,	,	PUNCT	grm	_	17	punct	_	tag=grm
+19	getur	geta	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	tag=so_0_fh_p3_et_nt_gm
+20	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	tag=pfn_et_nf_hk_p3
+21	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	23	cop	_	tag=so_1_nf_sagnb_gm
+22	mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	23	amod	_	tag=lo_et_nf_kvk_sb
+23	áskorun	áskorun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	VANTAR_LIÐ_IP_None	_	SpaceAfter=No|tag=no_et_nf_kvk
+24	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00464,.6
 # text = Og það var bara kominn tími á að ég skírði plötu Songs About Nothing þar sem Ekkert hefur gefið mér endalausan innblástur gegnum tíðina.
@@ -215,6 +249,7 @@
 # text = Þá verður Helga Hauksdóttir, sem nú er skrifstofustjóri laga- og stjórnsýsluskrifstofu utanríkisráðuneytisins, sendiherra í Danmörku og María Erla Marelsdóttir, skrifstofustjóri þróunarsamvinnuskrifstofu ráðuneytisins, verður sendiherra í Þýskalandi.
 1	Þá	hann	ADV	ao	_	2	advmod	_	tag=ao
 2	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
+<<<<<<< HEAD
 3-4	Helga Hauksdóttir	_	_	_	_	_	_	_	_
 3	Helga	Helga	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
 4	Hauksdóttir	Hauksdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	_	_	SpaceAfter=No|tag=person_nf_kvk
@@ -247,6 +282,32 @@
 29	í	í	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
 30	Þýskalandi	Þýskaland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 31	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+3	Helga Hauksdóttir	Helga Hauksdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
+5	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
+6	nú	nú	ADV	ao	_	8	advmod	_	tag=ao
+7	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	skrifstofustjóri	skrifstofustjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	acl:relcl	_	tag=no_et_nf_kk
+9	laga- og stjórnsýsluskrifstofu	laga- og stjórnsýsluskrifstofa	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	_	tag=no_et_ef_kvk
+10	utanríkisráðuneytisins	utanríkisráðuneyti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
+11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
+12	sendiherra	sendiherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk
+13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	Danmörku	Danmörk	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=sérnafn_et_þgf_kvk
+15	og	og	CCONJ	st	_	2	cc	_	tag=st
+16	María Erla Marelsdóttir	María Erla Marelsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	23	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
+18	skrifstofustjóri	skrifstofustjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_nf_kk
+19	þróunarsamvinnuskrifstofu	þróunar-samvinnu-skrifstofa	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	18	nmod:poss	_	tag=no_et_ef_kvk
+20	ráðuneytisins	ráðuneyti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	19	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
+21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
+22	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+23	sendiherra	sendiherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk
+24	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
+25	Þýskalandi	Þýskaland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
+26	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00464,.9
 # text = Lokatölur 24 — 23 heimamönnum í vil og ljóst að Haukar verði í pottinum þegar dregið verður í 8-liða úrslit Coca Cola-bikarsins.
@@ -275,6 +336,8 @@
 22	Cola-bikarsins	Cola-bikar	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	_	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 23	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00464,.10
+# text = Þá er stundum óskað eftir því að þeir sem þiggja styrk skili ráðuneyti skýrslu um hvernig styrkurinn var notaður og hver árangurinn af verkefninu var.
 1	Þá	þá	ADV	ao	_	4	advmod	_	tag=ao
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	stundum	stund	ADV	ao	_	4	advmod	_	tag=ao
@@ -299,6 +362,6 @@
 22	árangurinn	árangur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	tag=no_et_nf_kk_gr
 23	af	af	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24	verkefninu	verkefni	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	22	obl	_	tag=no_et_þgf_hk_gr
-25	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	19	ccomp	_	tag=so_0_fh_p3_et_þt_gm
+25	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	19	ccomp	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
 26	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 

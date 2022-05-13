@@ -20,7 +20,11 @@
 
 # sent_id = GREYNIR_CORPUS_00258,.2
 # text = Grundvöllur þess að málið var endurupptekið til að byrja með er hins vegar breyttar aðstæður fjölskyldunnar.
+<<<<<<< HEAD
 1	Grundvöllur	grundvöllur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	tag=no_et_nf_kk
+=======
+1	Grundvöllur	grundvöllur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk
+>>>>>>> master
 2	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=fn_et_ef_hk
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
 4	málið	mál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk_gr
@@ -30,6 +34,7 @@
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	byrja	byrja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	obl	_	tag=so_0_nh_gm
 10	með	með	ADV	ao	_	9	compound:prt	_	tag=ao
+<<<<<<< HEAD
 11	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 12-13	hins vegar	_	_	_	_	_	_	_	_
 12	hins	hins	ADV	eo	_	15	advmod	_	tag=eo
@@ -38,6 +43,14 @@
 15	aðstæður	aðstæður	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk
 16	fjölskyldunnar	fjölskylda	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 17	.	_	PUNCT	grm	_	15	punct	_	tag=grm
+=======
+11	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+12	hins vegar	hins vegar	ADV	eo	_	14	advmod	_	tag=eo
+13	breyttar	breyttur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	14	amod	_	tag=lo_ft_nf_kvk_sb
+14	aðstæður	aðstæður	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk
+15	fjölskyldunnar	fjölskylda	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
+16	.	_	PUNCT	grm	_	14	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00258,.3
 # text = Mótið er haldið í minningu heimsmeistarans Roberts James Fischer sem hefði orðið 75 ára 9. mars.
@@ -47,6 +60,7 @@
 4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	minningu	minning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk
 6	heimsmeistarans	heimsmeistari	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kk_gr
+<<<<<<< HEAD
 7-8	Roberts James	_	_	_	_	_	_	_	_
 7	Roberts	Robert	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	conj	_	tag=person_ef_kk
 8	James	James	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	_	_	tag=person_ef_kk
@@ -60,6 +74,17 @@
 15	9.	9.	ADV	dagsafs	_	13	advmod	_	SpaceAfter=No|tag=dagsafs
 16	mars	mars	NUM?	dagsafs	_	15	flat	_	SpaceAfter=No|tag=dagsafs
 17	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+=======
+7	Roberts James	Robert James	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	conj	_	tag=person_ef_kk
+8	Fischer	Fischer	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	tag=person_et_nf_kk
+9	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
+10	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_þt_gm
+11	orðið	verða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	12	cop	_	tag=so_0_sagnb_gm
+12	75	75	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	6	acl:relcl	_	tag=tala_ft_ef_hk
+13	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	xcomp	_	tag=no_ft_ef_hk
+14	9. mars	9. mars	ADV	dagsafs	_	12	advmod	_	SpaceAfter=No|tag=dagsafs
+15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00258,.4
 # text = En flest njótum við í þessum heimshluta þeirra fáheyrðu forréttinda að áhyggjuefnin eru af léttvægari gerðinni.
@@ -169,6 +194,7 @@
 6	umboðsmaður	umboðsmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
 7	Musa	Musa	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
 8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
+<<<<<<< HEAD
 9-10	Tony Harris	_	_	_	_	_	_	_	_
 9	Tony	Tony	PROPN	sérnafn	_	7	conj	_	SpaceAfter=No|tag=sérnafn
 10	Harris	Harris	PROPN	sérnafn	_	9	flat	_	SpaceAfter=No|tag=sérnafn
@@ -179,6 +205,16 @@
 15	aðeins	aðeins	ADV	eo	_	16	advmod	_	tag=eo
 16	tímaspursmál	tímaspursmál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|tag=no_et_nf_hk
 17	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+=======
+9	Tony Harris	Tony Harris	PROPN	sérnafn	_	7	conj	_	SpaceAfter=No|tag=sérnafn
+10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
+11	að	að	SCONJ	st	_	15	mark	_	tag=st
+12	félagsskiptin	félagsskipti	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	15	nsubj	_	tag=no_ft_nf_hk_gr
+13	væru	vera	VERB	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_1_nf_vh_p3_ft_þt_gm
+14	aðeins	aðeins	ADV	eo	_	15	advmod	_	tag=eo
+15	tímaspursmál	tímaspursmál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|tag=no_et_nf_hk
+16	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00258,.10
 # text = Pósturinn hefur tekið í notkun 15 rafmagnsþríhjól, sem nota á við póstdreifingu víðsvegar um landið.

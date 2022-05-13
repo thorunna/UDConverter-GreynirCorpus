@@ -180,6 +180,8 @@
 15	starfsmennina	starfsmaður	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
 16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00402,.10
+# text = Stofnunin fer fram á að Íslandspóstur endurskoði gjaldskrá, með tilliti til verðlækkana, fyrir 1. júní næstkomandi.
 1	Stofnunin	stofnun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
 2	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	fram	fram	ADV	ao	_	2	advmod	_	tag=ao
@@ -187,8 +189,9 @@
 5	að	að	SCONJ	st	_	7	mark	_	tag=st
 6	Íslandspóstur	Íslands-póstur	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=fyrirtæki_et_nf_kk
 7	endurskoði	endurskoða	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	obj	_	tag=so_1_þf_vh_p3_et_nt_gm
-8	gjaldskrá	gjaldskrá	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	tag=no_et_þf_kvk
+8	gjaldskrá	gjaldskrá	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
+<<<<<<< HEAD
 10-12	með tilliti til	_	_	_	_	_	_	_	_
 10	með	með	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
 11	tilliti	tilliti	ADP	fs_ef	Case=Gen	10	_	_	tag=fs_ef
@@ -201,4 +204,13 @@
 17	júní	júní	NUM?	dagsafs	_	16	flat	_	tag=dagsafs
 18	næstkomandi	næstkomandi	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	15	amod	_	tag=lo_et_þf_kk_sb
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+10	með tilliti til	með tilliti til	ADP	fs_ef	Case=Gen	11	case	_	tag=fs_ef
+11	verðlækkana	verðlækkun	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_ef_kvk
+12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
+13	fyrir	fyrir	ADV	fs_þf	Case=Acc	7	advmod	_	tag=fs_þf
+14	1. júní	1. júní	NUM?	dagsafs	_	13	('HALLÓ_dagsafs', None, 'ADVP', 'DUR-REL')	_	tag=dagsafs
+15	næstkomandi	næstkomandi	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No|tag=lo_et_þf_kk_sb
+16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 

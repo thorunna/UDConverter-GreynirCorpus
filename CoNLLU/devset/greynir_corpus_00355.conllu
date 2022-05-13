@@ -80,6 +80,7 @@
 
 # sent_id = GREYNIR_CORPUS_00355,.7
 # text = Guðlaugur Þór Þórðarson segir samkomulag milli aðila hafa verið nokkuð skýrt.
+<<<<<<< HEAD
 1-3	Guðlaugur Þór Þórðarson	_	_	_	_	_	_	_	_
 1	Guðlaugur	Guðlaugur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
 2	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
@@ -93,6 +94,18 @@
 10	nokkuð	nokkuð	ADV	eo	_	11	advmod	_	tag=eo
 11	skýrt	skýr	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	4	xcomp	_	SpaceAfter=No|tag=lo_et_þf_hk_sb
 12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+=======
+1	Guðlaugur Þór Þórðarson	Guðlaugur Þór Þórðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
+2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+3	samkomulag	samkomulag	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_þf_hk
+4	milli	mill	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
+5	aðila	aðili	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_ef_kk
+6	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	aux	_	tag=so_0_nh_gm
+7	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	9	cop	_	tag=so_1_nf_sagnb_gm
+8	nokkuð	nokkuð	ADV	eo	_	9	advmod	_	tag=eo
+9	skýrt	skýr	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	2	xcomp	_	SpaceAfter=No|tag=lo_et_þf_hk_sb
+10	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00355,.8
 # text = Þetta má lesa úr talningum Ferðamálastofu í Flugstöð Leifs Eiríkssonar.
@@ -122,6 +135,8 @@
 9	máli	mál	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No|tag=no_et_þgf_hk
 10	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00355,.10
+# text = Flest lítum við á sjálf okkur sem upplýstar skynsemisverur.
 1	Flest	margur	ADJ	lo_ft_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Plur	2	obl	_	tag=lo_ft_nf_hk_esb
 2	lítum	líta	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_ft_nt_gm
 3	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_p1
@@ -130,6 +145,6 @@
 6	okkur	ég	PRON	pfn_ft_þf_p1	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	nmod	_	tag=pfn_ft_þf_p1
 7	sem	sem	SCONJ	st	_	9	mark	_	tag=st
 8	upplýstar	upplýstur	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	9	amod	_	tag=lo_ft_þf_kvk_sb
-9	skynsemisverur	skynsemisvera	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	5	advcl	_	tag=no_ft_þf_kvk
+9	skynsemisverur	skynsemisvera	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	5	advcl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 10	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -78,6 +78,7 @@
 4	sáum	sjá	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_nt_gm
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	heimsmeistaraeinvígi	heimsmeistaraeinvígi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
+<<<<<<< HEAD
 7-8	Magnusar Carlsen	_	_	_	_	_	_	_	_
 7	Magnusar	Magnusar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	nmod:poss	_	tag=person_ef_kk
 8	Carlsen	Carlsen	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	_	_	tag=person_ef_kk
@@ -97,6 +98,23 @@
 21	miklu	mikill	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	22	amod	_	tag=lo_et_þgf_hk_sb
 22	máli	mál	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	obj	_	SpaceAfter=No|tag=no_et_þgf_hk
 23	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+=======
+7	Magnusar Carlsen	Magnusar Carlsen	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	nmod:poss	_	tag=person_ef_kk
+8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+9	Fabiano Caruana	Fabiano Caruana	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	obl	_	tag=person_þf_kk
+10	þar	þar	ADV	ao	_	4	advmod	_	tag=ao
+11	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
+12	Carlsen	Carlsen	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=person_et_nf_kk
+13	sýndi	sýna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	advcl	_	tag=so_1_þf_fh_p3_et_þt_gm
+14	svo	svo	ADV	eo	_	13	advmod	_	tag=eo
+15	vel	vel	ADV	ao	_	14	advmod	_	tag=ao
+16	hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	tag=fn_et_þf_hk
+17	reynsla	reynsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	tag=no_et_nf_kvk
+18	skiptir	skipta	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	obj	_	tag=so_1_þgf_fh_p3_et_nt_gm
+19	miklu	mikill	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	20	amod	_	tag=lo_et_þgf_hk_sb
+20	máli	mál	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No|tag=no_et_þgf_hk
+21	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00435,.5
 # text = Umhverfið verður æ flóknara en tæknin mun gera það að verkum að það verður auðveldara að ná til markhópanna.
@@ -231,6 +249,7 @@
 9	svefnlotur	svefn-lota	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 11	en	en	CCONJ	st	_	2	cc	_	tag=st
+<<<<<<< HEAD
 12-15	eftir á að hyggja	_	_	_	_	_	_	_	_
 12	eftir	eftir	ADV	ao	_	18	advmod	_	tag=ao
 13	á	á	ADV	ao	_	12	fixed	_	tag=ao
@@ -245,4 +264,16 @@
 22	einni	einn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	tag=fn_et_þgf_kvk
 23	lotu	lota	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 24	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+12	eftir á að hyggja	eftir á að hyggja	ADV	ao	_	15	advmod	_	tag=ao
+13	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	15	aux	_	tag=so_0_vh_p3_et_þt_gm
+14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_kk_p3
+15	viljað	vilja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	conj	_	tag=so_0_sagnb_gm
+16	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_1_þf_nh_gm
+17	þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=fn_et_þf_hk
+18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+19	einni	einn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	tag=fn_et_þgf_kvk
+20	lotu	lota	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 

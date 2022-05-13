@@ -36,6 +36,7 @@
 
 # sent_id = GREYNIR_CORPUS_00241,.3
 # text = Sigríður Vilhjálmsdóttir, ritari ferðakostnaðarnefndarinnar svarar fyrirspurnum í síma : 528-1054 eða Sigridur.Vilhjalmsdottir@hagstofa.is.
+<<<<<<< HEAD
 1-2	Sigríður Vilhjálmsdóttir	_	_	_	_	_	_	_	_
 1	Sigríður	Sigríður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
 2	Vilhjálmsdóttir	Vilhjálmsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	SpaceAfter=No|tag=person_nf_kvk
@@ -51,6 +52,21 @@
 12	eða	eða	CCONJ	st	_	9	cc	_	tag=st
 13	Sigridur.Vilhjalmsdottir@hagstofa.is	Sigridur.Vilhjalmsdottir@hagstofa.is	X	tölvupóstfang	_	9	('HALLÓ_tölvupóstfang', None, 'NP', None)	_	SpaceAfter=No|tag=tölvupóstfang
 14	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+=======
+1	Sigríður Vilhjálmsdóttir	Sigríður Vilhjálmsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
+3	ritari	ritari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+4	ferðakostnaðarnefndarinnar	ferðakostnaðarnefnd	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk_gr
+5	svarar	svara	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
+6	fyrirspurnum	fyrirspurn	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	5	obj	_	tag=no_ft_þgf_kvk
+7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	síma	síma	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+9	:	_	PUNCT	grm	_	8	punct	_	tag=grm
+10	528-1054	528-1054	SYM	símanúmer	_	8	obl	_	tag=símanúmer
+11	eða	eða	CCONJ	st	_	8	cc	_	tag=st
+12	Sigridur.Vilhjalmsdottir@hagstofa.is	Sigridur.Vilhjalmsdottir@hagstofa.is	SYM	tölvupóstfang	_	8	('HALLÓ_tölvupóstfang', None, 'NP', None)	_	SpaceAfter=No|tag=tölvupóstfang
+13	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00241,.4
 # text = Var Bretinn barinn í höfuð með járnstöng og skilinn eftir í lífshættulegu ástandi.
@@ -154,6 +170,8 @@
 13	2014	2014	NUM	ártal	_	11	obl	_	SpaceAfter=No|tag=ártal
 14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00241,.10
+# text = Ég geng daglega með hund og ég finn ekki fyrir þessu sjálfur.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	geng	ganga	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_et_nt_gm
 3	daglega	daglega	ADV	ao	_	2	advmod	_	tag=ao
@@ -165,6 +183,6 @@
 9	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
 10	fyrir	fyrir	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=fn_et_þgf_hk
-12	sjálfur	sjálfur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	tag=fn_et_nf_kk
+12	sjálfur	sjálfur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=fn_et_nf_kk
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

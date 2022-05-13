@@ -90,6 +90,7 @@
 9	sigraði	sigra	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	risasvigi	risasvig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
+<<<<<<< HEAD
 12-13	í gær	_	_	_	_	_	_	_	_
 12	í	í	ADV	ao	_	5	advmod	_	tag=ao
 13	gær	gær	ADV	ao	_	12	fixed	_	tag=ao
@@ -117,6 +118,29 @@
 33	Sochi	Sochi	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	31	obl	_	tag=sérnafn_et_þgf_hk
 34	2014	2014	ADV	ártal	_	31	advmod	_	SpaceAfter=No|tag=ártal
 35	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+=======
+12	í gær	í gær	ADV	ao	_	5	advmod	_	tag=ao
+13	þar	þar	ADV	ao	_	5	advmod	_	tag=ao
+14	sem	sem	SCONJ	stt	_	16	mark	_	tag=stt
+15	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kvk_p3
+16	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	advcl	_	tag=so_1_nf_fh_p3_et_þt_gm
+17	í	í	X	x		16	dep	_	tag=x
+18	0,01	0,01	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	19	nummod	_	tag=tala_ft_þgf_kvk
+19	sekúndu	sekúnda	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	tag=no_et_þgf_kvk
+20	á undan	á undan	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+21	Önnu Veith	Anna Veith	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	16	obl	_	tag=person_þgf_kvk
+22	í	í	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+23	mark	mark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	tag=no_et_þf_hk
+24	en	en	CCONJ	st	_	5	cc	_	tag=st
+25	sú	sá	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	tag=fn_et_nf_kvk
+26	síðarnefnda	síðarnefndur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	25	amod	_	tag=lo_et_nf_kvk_vb
+27	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	28	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+28	Ólympíumeistari	ólympíumeistari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	tag=no_et_nf_kk
+29	í	í	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
+30	Sochi	Sochi	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	tag=sérnafn_et_þgf_hk
+31	2014	2014	ADV	ártal	_	28	advmod	_	SpaceAfter=No|tag=ártal
+32	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00188,.4
 # text = Halldór biður fólk um að gefa sér góðan tíma í að komast leiðar sinnar nú í morgunsárið því þrátt fyrir að þokkaleg færð sé á stofnleiðum þá er ljóst að umferðin mun ganga hægt.
@@ -364,6 +388,7 @@
 # sent_id = GREYNIR_CORPUS_00188,.10
 # text = Í mars 2012, mánuði eftir að Skeljungur var endurfjármagnaður af Arion banka, var Skeljungur látinn kaupa 34 prósent hlut í P F Magn af Heddu, félagi þeirra Svanhildar Nönnu og Guðmundar.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
+<<<<<<< HEAD
 2-3	mars 2012	_	_	_	_	_	_	_	_
 2	mars	mars	NUM?	dagsafs	_	5	obl	_	SpaceAfter=No|tag=dagsafs
 3	2012	2012	NUM?	dagsafs	_	2	flat	_	SpaceAfter=No|tag=dagsafs
@@ -401,4 +426,37 @@
 33	og	og	CCONJ	st	_	31	cc	_	tag=st
 34	Guðmundar	Guðmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	31	conj	_	SpaceAfter=No|tag=person_ef_kk
 35	.	_	PUNCT	grm	_	17	punct	_	tag=grm
+=======
+2	mars 2012	mars 2012	NUM?	dagsafs	_	4	obl	_	SpaceAfter=No|tag=dagsafs
+3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
+4	mánuði	mánuður	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	advmod	_	tag=no_et_þgf_kk
+5	eftir	eftir	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
+6	að	að	SCONJ	st	_	9	mark	_	tag=st
+7	Skeljungur	skeljungur	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	xcomp	_	tag=fyrirtæki_et_nf_kk
+8	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	aux	_	tag=so_1_nf_fh_p3_et_þt_gm
+9	endurfjármagnaður	endurfjármagna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	xcomp	_	tag=so_0_lhþt_et
+10	af	af	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	Arion	Arion	PROPN	fyrirtæki	_	9	obl	_	tag=fyrirtæki
+12	banka	banki	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No|tag=no_et_þgf_kk
+13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
+14	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	aux	_	tag=so_0_fh_p3_et_þt_gm
+15	Skeljungur	skeljungur	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	tag=fyrirtæki_et_nf_kk
+16	látinn	láta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+17	kaupa	kaupa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_1_þf_nh_gm
+18	34 prósent	34 prósent	NUM	prósenta	_	19	nummod	_	tag=prósenta
+19	hlut	hlutur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	tag=no_et_þf_kk
+20	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
+21	P	P	ADV	abbrev	_	23	advmod	_	tag=abbrev
+22	F	F	ADV	abbrev	_	23	advmod	_	tag=abbrev
+23	Magn	magn	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	tag=fyrirtæki_et_þgf_hk
+24	af	af	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
+25	Heddu	Hedda	PROPN	fyrirtæki_þgf_kvk	Case=Dat|Gender=Fem	16	obl	_	SpaceAfter=No|tag=fyrirtæki_þgf_kvk
+26	,	_	PUNCT	grm	_	25	punct	_	tag=grm
+27	félagi	félag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	25	obl	_	tag=no_et_þgf_hk
+28	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	29	nmod	_	tag=pfn_ft_ef_hk_p3
+29	Svanhildar Nönnu	Svanhildur Nanna	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	27	nmod:poss	_	tag=person_ef_kvk
+30	og	og	CCONJ	st	_	31	cc	_	tag=st
+31	Guðmundar	Guðmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	29	conj	_	SpaceAfter=No|tag=person_ef_kk
+32	.	_	PUNCT	grm	_	16	punct	_	tag=grm
+>>>>>>> master
 

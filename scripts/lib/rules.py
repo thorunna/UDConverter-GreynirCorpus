@@ -14,7 +14,7 @@ cconj = {
 
 GC_UD_map = {
     "no": "NOUN",  # generalized nouns tagged as NOUN
-    "abbrev": "NOUN",
+    "abbrev": "ADV",
     "so": "VERB",
     "lo": "ADJ",
     "fs": "ADP",
@@ -38,6 +38,9 @@ GC_UD_map = {
     "tala": "NUM",
     "tími": "NUM",
     "ártal": "NUM",
+    "símanúmer": "SYM",
+    "tölvupóstfang": "SYM",
+    "lén": "SYM",
     "dagsafs": "NUM?",  # TODO
     "dagsföst": "?",  # TODO
     "tímapunktur": "?",  # TODO
@@ -188,9 +191,9 @@ head_rules = {
         "rules": [
             ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*|abbrev"),
             ("fn.*|pfn.*|abfn.*"),
-            "lo_\w\w_nf.*",
+            ("lo_\w\w_nf.*|so.*"),
             "NP.*",
-            "lo.*",
+            ("lo.*|so.*"),
             "tala",
             "gr.",
             ("tala.*|to.*|töl.*"),
@@ -203,7 +206,7 @@ head_rules = {
     "NP-POSS": {
         "dir": "r",
         "rules": [
-            ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*"),
+            ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*|abbrev"),
             "prósenta.*",
             "NP",
             ("fn.*|pfn.*"),

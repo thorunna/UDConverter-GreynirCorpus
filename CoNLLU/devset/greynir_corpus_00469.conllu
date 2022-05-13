@@ -268,6 +268,7 @@
 18	margar	margur	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	19	amod	_	tag=lo_ft_þf_kvk_sb
 19	skýringar	skýring	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	tag=no_ft_þf_kvk
 20	á	á	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+<<<<<<< HEAD
 21	töfum	töf	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	tag=no_ft_þgf_kvk
 22	á	á	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	flugi	flug	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
@@ -278,8 +279,21 @@
 28	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	29	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 29	nýlunda	nýlunda	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No|tag=no_et_nf_kvk
 30	.	.	PUNCT	grm	_	12	punct	_	tag=grm
+=======
+21	flugi	flug	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+22	,	,	PUNCT	grm	_	21	punct	_	tag=grm
+23	en	en	CCONJ	st	_	11	cc	_	tag=st
+24	að	að	SCONJ	st	_	27	mark	_	tag=st
+25	áhafnarhvíld	áhafnar-hvíla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	27	nsubj	_	tag=no_et_þgf_kvk
+26	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	27	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
+27	nýlunda	nýlunda	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No|tag=no_et_nf_kvk
+28	.	.	PUNCT	grm	_	11	punct	_	tag=grm
+>>>>>>> master
 
+# sent_id = GREYNIR_CORPUS_00469,.10
+# text = Fjölmargir stuðningsmenn Manchester United og sparkfræðingar vilja að fyrirliðinn Wayne Rooney verði settur á bekkinn en hann hefur þótt vera afar slakur með Manchester-liðinu á tímabilinu.
 1	Fjölmargir	fjölmargur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	tag=lo_ft_nf_kk_sb
+<<<<<<< HEAD
 2	stuðningsmenn	stuðningsmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	tag=no_ft_nf_kk
 3-4	Manchester United	_	_	_	_	_	_	_	_
 3	Manchester	Manchester	PROPN	fyrirtæki	_	2	nmod:poss	_	tag=fyrirtæki
@@ -308,4 +322,30 @@
 25	á	á	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
 26	tímabilinu	tímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	22	advmod	_	tag=no_et_þgf_hk_gr
 27	.	.	PUNCT	grm	_	7	punct	_	tag=grm
+=======
+2	stuðningsmenn	stuðningsmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	tag=no_ft_nf_kk
+3	Manchester United	Manchester United	PROPN	fyrirtæki	_	2	nmod:poss	_	tag=fyrirtæki
+4	og	og	CCONJ	st	_	2	cc	_	tag=st
+5	sparkfræðingar	sparkfræðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	tag=no_ft_nf_kk
+6	vilja	vilja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
+7	að	að	SCONJ	st	_	11	mark	_	tag=st
+8	fyrirliðinn	fyrirliði	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_nf_kk_gr
+9	Wayne Rooney	Wayne Rooney	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
+10	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_vh_p3_et_nt_gm
+11	settur	setja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	obj	_	tag=so_0_lhþt_et
+12	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+13	bekkinn	bekkur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þf_kk_gr
+14	en	en	CCONJ	st	_	6	cc	_	tag=st
+15	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kk_p3
+16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_fh_p3_et_nt_gm
+17	þótt	þykja	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	6	conj	_	tag=so_1_nf_sagnb_gm
+18	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	cop	_	tag=so_0_nh_gm
+19	afar	afar	ADV	eo	_	20	advmod	_	tag=eo
+20	slakur	slakur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	17	xcomp	_	tag=lo_et_nf_kk_sb
+21	með	með	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+22	Manchester-liðinu	Manchester-lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	20	obl	_	tag=no_et_þgf_hk_gr
+23	á	á	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
+24	tímabilinu	tímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	20	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+25	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+>>>>>>> master
 

@@ -21,6 +21,7 @@
 
 # sent_id = GREYNIR_CORPUS_00415,.2
 # text = Sigmundur Davíð fagnar komu þeirra í bréfinu, og segir þá hafa verið samherja í stórum málum stjórnmálanna.
+<<<<<<< HEAD
 1-2	Sigmundur Davíð	_	_	_	_	_	_	_	_
 1	Sigmundur	Sigmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
 2	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
@@ -41,6 +42,26 @@
 17	málum	mál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_þgf_hk
 18	stjórnmálanna	stjórnmál	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	17	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk_gr
 19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+=======
+1	Sigmundur Davíð	Sigmundur Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
+2	fagnar	fagna	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
+3	komu	koma	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þgf_kvk
+4	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nmod:poss	_	tag=pfn_ft_ef_kk_p3
+5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
+6	bréfinu	bréf	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+8	og	og	CCONJ	st	_	2	cc	_	tag=st
+9	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_þf_fh_p3_et_nt_gm
+10	þá	hann	PRON	pfn_ft_þf_kk_p3	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	tag=pfn_ft_þf_kk_p3
+11	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	aux	_	tag=so_0_nh_gm
+12	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	13	cop	_	tag=so_0_sagnb_gm
+13	samherja	samherji	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	xcomp	_	tag=no_et_þf_kk
+14	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+15	stórum	stór	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	16	amod	_	tag=lo_ft_þgf_hk_sb
+16	málum	mál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_þgf_hk
+17	stjórnmálanna	stjórnmál	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	16	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk_gr
+18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00415,.3
 # text = Ofninn er núna keyrður á tuttugu og átta megawöttum en fullt afl er þrjátíu og tvö megawött.
@@ -191,6 +212,8 @@
 17	félagstengsla	félagstengsl	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
 18	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00415,.10
+# text = Varðskipið Þór nálgast nú skipið en þarna eru margar eldiskvíar sem gerir skipstjórnarmönnum Þórs erfitt um vik.
 1	Varðskipið	varðskip	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_nf_hk_gr
 2	Þór	Þór	PROPN	sérnafn_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=sérnafn_nf_kk
 3	nálgast	nálgast	VERB	so_1_þf_fh_p3_et_nt_mm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_þf_fh_p3_et_nt_mm
@@ -207,6 +230,6 @@
 14	Þórs	Þór	PROPN	sérnafn_ef_kk	Case=Gen|Gender=Masc	13	nmod:poss	_	tag=sérnafn_ef_kk
 15	erfitt	erfiður	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	tag=lo_et_þf_hk_sb
 16	um	um	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	vik	vik	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þf_hk
+17	vik	vik	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

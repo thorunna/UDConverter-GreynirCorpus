@@ -118,6 +118,7 @@
 
 # sent_id = GREYNIR_CORPUS_00232,.9
 # text = Magnús Geir Þórðarson útvarpsstjóri sagði RÚV að vissu leyti vera spegil.
+<<<<<<< HEAD
 1-3	Magnús Geir Þórðarson	_	_	_	_	_	_	_	_
 1	Magnús	Magnús	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
 2	Geir	Geir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
@@ -131,7 +132,21 @@
 10	vera	vera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	cop	_	tag=so_1_þf_nh_gm
 11	spegil	spegill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No|tag=no_et_þf_kk
 12	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+=======
+1	Magnús Geir Þórðarson	Magnús Geir Þórðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
+2	útvarpsstjóri	útvarpsstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+3	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+4	RÚV	RÚV	PROPN	fyrirtæki_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	nsubj	_	tag=fyrirtæki_et_þf_hk
+5	að	að	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+6	vissu	viss	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þgf_hk_sb
+7	leyti	leyti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
+8	vera	vera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	cop	_	tag=so_1_þf_nh_gm
+9	spegil	spegill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No|tag=no_et_þf_kk
+10	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+>>>>>>> master
 
+# sent_id = GREYNIR_CORPUS_00232,.10
+# text = Eftir það var ekki aftur rætt um skýrsluna á vettvangi Sjálfstæðisflokksins.
 1	Eftir	eftir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	það	það	ADV	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	advmod	_	tag=pfn_et_þf_hk_p3
 3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_þt_gm
@@ -142,6 +157,6 @@
 8	skýrsluna	skýrsla	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk_gr
 9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	vettvangi	vettvangur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
-11	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod:poss	_	tag=sérnafn_et_ef_kk_gr
+11	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk_gr
 12	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

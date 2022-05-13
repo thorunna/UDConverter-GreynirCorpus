@@ -408,6 +408,7 @@
 # sent_id = GREYNIR_CORPUS_00196,.10
 # text = Í málinu eru Hreiðar Már, Sigurður og Magnús ákærðir fyrir lán til Chesterfield United Inc., Partride Management Group S.A. og eignarhaldsfélaga þeirra, samanlagt um 510 milljónir evra, eða sem nemur um 64 milljörðum króna á núverandi gengi.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
+<<<<<<< HEAD
 2	málinu	mál	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk_gr
 3	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_ft_nt_gm
 4-5	Hreiðar Már	_	_	_	_	_	_	_	_
@@ -454,4 +455,37 @@
 40	núverandi	núverandi	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	41	amod	_	tag=lo_et_þgf_hk_sb
 41	gengi	gengi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	34	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 42	.	_	PUNCT	grm	_	10	punct	_	tag=grm
+=======
+2	málinu	mál	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk_gr
+3	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_ft_nt_gm
+4	Hreiðar Már	Hreiðar Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+5	,	_	PUNCT	grm	_	6	punct	_	tag=grm
+6	Sigurður	Sigurður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	conj	_	tag=person_nf_kk
+7	og	og	CCONJ	st	_	4	cc	_	tag=st
+8	Magnús	Magnús	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	conj	_	tag=person_nf_kk
+9	ákærðir	ákæra	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
+10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	lán	lán	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_þf_hk
+12	til	til	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
+13	Chesterfield United Inc.	Chesterfield United Inc.	PROPN	fyrirtæki	_	17	VANTAR_LIÐ-obl?	_	SpaceAfter=No|tag=fyrirtæki
+14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
+15	Partride Management Group S.A.	Partride Management Group S.A.	PROPN	fyrirtæki	_	17	VANTAR_LIÐ-obl?	_	tag=fyrirtæki
+16	og	og	CCONJ	st	_	17	cc	_	tag=st
+17	eignarhaldsfélaga	eignarhaldsfélag	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_ef_hk
+18	þeirra	hann	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	17	nmod:poss	_	SpaceAfter=No|tag=pfn_ft_ef_hk_p3
+19	,	_	PUNCT	grm	_	18	punct	_	tag=grm
+20	samanlagt	samanlagt	ADV	ao	_	22	advmod	_	tag=ao
+21	um	um	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+22	510 milljónir evra	510 milljónir evra	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
+23	,	_	PUNCT	grm	_	22	punct	_	tag=grm
+24	eða	eða	CCONJ	st	_	22	cc	_	tag=st
+25	sem	sem	SCONJ	stt	_	26	mark	_	tag=stt
+26	nemur	nema	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	acl:relcl	_	tag=so_1_þgf_fh_p3_et_nt_gm
+27	um	um	ADV	eo	_	28	advmod	_	tag=eo
+28	64 milljörðum króna	64 milljörðum króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	26	obj	_	tag=no_ft_þgf_kk
+29	á	á	ADP	fs_þf	Case=Acc	31	case	_	tag=fs_þf
+30	núverandi	núverandi	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	31	amod	_	tag=lo_et_þgf_hk_sb
+31	gengi	gengi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+32	.	_	PUNCT	grm	_	9	punct	_	tag=grm
+>>>>>>> master
 

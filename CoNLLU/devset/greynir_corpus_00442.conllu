@@ -214,6 +214,7 @@
 1	Almenn	almennur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_sb
 2	miðasala	miðasala	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
 3	hefst	hafa	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
+<<<<<<< HEAD
 4-7	15. desember kl. 10	_	_	_	_	_	_	_	_
 4	15.	15.	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
 5	desember	desember	NUM?	dagsafs	_	4	flat	_	tag=dagsafs
@@ -226,6 +227,16 @@
 # sent_id = GREYNIR_CORPUS_00442,.10
 # text = Santiago, sem einnig hefur starfað fyrir þjóðvarðlið Puerto Rico og Alaska, gegndi herþjónustu í Írak frá apríl 2010 fram í febrúar 2011.
 1	Santiago	Santiago	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
+=======
+4	15. desember kl. 10	15. desember kl. 10	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
+5	á	eiga	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
+6	Miði.is	Miði.is	SYM	lén_þgf	Case=Dat	3	obl	_	SpaceAfter=No|tag=lén_þgf
+7	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+
+# sent_id = GREYNIR_CORPUS_00442,.10
+# text = Santiago, sem einnig hefur starfað fyrir þjóðvarðlið Puerto Rico og Alaska, gegndi herþjónustu í Írak frá apríl 2010 fram í febrúar 2011.
+1	Santiago	Santiago	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
+>>>>>>> master
 2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 3	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 4	einnig	einnig	ADV	ao	_	6	advmod	_	tag=ao
@@ -233,6 +244,7 @@
 6	starfað	starfa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	acl:relcl	_	tag=so_0_sagnb_gm
 7	fyrir	fyrir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	þjóðvarðlið	þjóðvarðlið	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk_gr
+<<<<<<< HEAD
 9-10	Puerto Rico	_	_	_	_	_	_	_	_
 9	Puerto	Puerto	PROPN	sérnafn	_	8	nmod:poss	_	tag=sérnafn
 10	Rico	Rico	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
@@ -253,4 +265,20 @@
 23	febrúar	febrúar	NUM?	dagsafs	_	18	obl	_	SpaceAfter=No|tag=dagsafs
 24	2011	2011	NUM?	dagsafs	_	23	flat	_	SpaceAfter=No|tag=dagsafs
 25	.	.	PUNCT	grm	_	14	punct	_	tag=grm
+=======
+9	Puerto Rico	Puerto Rico	PROPN	sérnafn	_	8	nmod:poss	_	tag=sérnafn
+10	og	og	CCONJ	st	_	11	cc	_	tag=st
+11	Alaska	Alaska	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
+12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
+13	gegndi	gegna	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
+14	herþjónustu	herþjónusta	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obj	_	tag=no_et_þgf_kvk
+15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+16	Írak	Írak	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	tag=sérnafn_et_þf_hk
+17	frá	frá	ADV	fs_þgf	Case=Dat	13	advmod	_	tag=fs_þgf
+18	apríl 2010	apríl 2010	NUM?	dagsafs	_	17	obl	_	tag=dagsafs
+19	fram	fram	ADV	ao	_	21	case	_	tag=ao
+20	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+21	febrúar 2011	febrúar 2011	NUM?	dagsafs	_	17	obl	_	SpaceAfter=No|tag=dagsafs
+22	.	.	PUNCT	grm	_	13	punct	_	tag=grm
+>>>>>>> master
 

@@ -25,6 +25,7 @@
 # text = Ég tel fyrst og fremst að þetta mál sé rekið í hæstarétti á grundvelli áfrýjunar í þessu máli.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	tel	telja	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
+<<<<<<< HEAD
 3-5	fyrst og fremst	_	_	_	_	_	_	_	_
 3	fyrst	fyrst	ADV	ao	_	2	advmod	_	tag=ao
 4	og	og	ADV	ao	_	3	fixed	_	tag=ao
@@ -43,6 +44,23 @@
 17	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	tag=fn_et_þgf_hk
 18	máli	mál	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+3	fyrst og fremst	fyrst og fremst	ADV	ao	_	2	advmod	_	tag=ao
+4	að	að	SCONJ	st	_	8	mark	_	tag=st
+5	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	tag=fn_et_nf_hk
+6	mál	mál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
+7	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
+8	rekið	reka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	obj	_	tag=so_0_lhþt_et
+9	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+10	hæstarétti	hæstiréttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk
+11	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	grundvelli	grundvöllur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk
+13	áfrýjunar	áfrýjun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	12	nmod:poss	_	tag=no_et_ef_kvk
+14	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+15	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	tag=fn_et_þgf_hk
+16	máli	mál	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00277,.3
 # text = Davíð Snær sendi í kjölfarið frá sér yfirlýsingu þar sem hann lýsti áhyggjum af öfgafullum viðbrögðum stjórnarinnar.
@@ -94,13 +112,18 @@
 # text = Eftir að fluttar voru fréttir af nýjasta ársreikningi Alcoa á dögunum var fjármálaráðherra aftur spurður um málið á Alþingi.
 1	Eftir	eftir	ADV	ao	_	3	mark	_	tag=ao
 2	að	að	SCONJ	st	_	1	cc	_	tag=st
+<<<<<<< HEAD
 3	fluttar	flytja	VERB	so_0	_	15	advcl	_	tag=so_0
+=======
+3	fluttar	flytja	VERB	so_0	_	14	advcl	_	tag=so_0
+>>>>>>> master
 4	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_þt_gm
 5	fréttir	frétt	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk
 6	af	af	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 7	nýjasta	nýr	ADJ	lo_et_þgf_kk_evb	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_þgf_kk_evb
 8	ársreikningi	ársreikningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
 9	Alcoa	Alcoa	PROPN	fyrirtæki	_	8	nmod:poss	_	tag=fyrirtæki
+<<<<<<< HEAD
 10-11	á dögunum	_	_	_	_	_	_	_	_
 10	á	á	ADV	ao	_	3	advmod	_	tag=ao
 11	dögunum	dögunum	ADV	ao	_	10	fixed	_	tag=ao
@@ -113,6 +136,18 @@
 18	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19	Alþingi	Alþingi	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_hk
 20	.	_	PUNCT	grm	_	15	punct	_	tag=grm
+=======
+10	á dögunum	á dögunum	ADV	ao	_	3	advmod	_	tag=ao
+11	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_þt_gm
+12	fjármálaráðherra	fjármálaráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk
+13	aftur	aftur	ADV	eo	_	14	advmod	_	tag=eo
+14	spurður	spyrja	VERB	so_0	_	0	root	_	tag=so_0
+15	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+16	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þf_hk_gr
+17	á	á	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+18	Alþingi	Alþingi	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_hk
+19	.	_	PUNCT	grm	_	14	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00277,.6
 # text = Umræðan er alltaf eins og ferðaþjónustan sé að hrynja af því fjölgunin sé ekki nema 7% milli ára.
@@ -207,8 +242,11 @@
 19	Reykjanesi	Reykjanes	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 20	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00277,.10
+# text = Þar segir Jón Þór að þrír aðilar geti aftengt sprengjuna, eins og hann kallar úrskurð kjararáðs.
 1	Þar	þar	ADV	ao	_	2	advmod	_	tag=ao
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+<<<<<<< HEAD
 3-4	Jón Þór	_	_	_	_	_	_	_	_
 3	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 4	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	_	_	tag=person_nf_kk
@@ -226,4 +264,21 @@
 16	úrskurð	úrskurður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	tag=no_et_þf_kk
 17	kjararáðs	kjararáð	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	nmod:poss	_	tag=no_et_ef_hk
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+3	Jón Þór	Jón Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
+4	að	að	SCONJ	st	_	8	mark	_	tag=st
+5	þrír	þrír	NUM	to_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nummod	_	tag=to_ft_nf_kk
+6	aðilar	aðili	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	tag=no_ft_nf_kk
+7	geti	geta	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_vh_p3_ft_nt_gm
+8	aftengt	aftengja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	obj	_	tag=so_1_þf_sagnb_gm
+9	sprengjuna	sprengja	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
+10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
+11	eins	eins	ADV	ao	_	14	cc	_	tag=ao
+12	og	og	CCONJ	st	_	11	cc	_	tag=st
+13	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_kk_p3
+14	kallar	kalla	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
+15	úrskurð	úrskurður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	tag=no_et_þf_kk
+16	kjararáðs	kjararáð	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	15	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
+17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 

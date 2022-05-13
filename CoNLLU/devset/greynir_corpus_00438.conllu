@@ -173,6 +173,7 @@
 4	búin	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	nota	not	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_1_þf_nh_gm
+<<<<<<< HEAD
 7-8	Wonder Powder	_	_	_	_	_	_	_	_
 7	Wonder	Wonder	PROPN	entity	_	6	obj	_	tag=entity
 8	Powder	Powder	PROPN	entity	_	7	flat	_	tag=entity
@@ -193,6 +194,23 @@
 22	að	að	PART	nhm	_	23	mark	_	tag=nhm
 23	eiga	eiga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	21	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
 24	!	!	PUNCT	grm	_	4	punct	_	tag=grm
+=======
+7	Wonder Powder	Wonder Powder	PROPN	entity	_	6	obj	_	tag=entity
+8	frá	frá	ADP	fs_þgf	Case=Dat	9	dep	_	tag=fs_þgf
+9	Make Up Store	Make Up Store	X	foreign	_	7	obl	_	tag=foreign
+10	mikið	mikill	ADV	ao_fst	Degree=Pos	6	advmod	_	tag=ao_fst
+11	en	en	CCONJ	st	_	4	cc	_	tag=st
+12	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_hk_p3
+13	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+14	eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	15	nmod	_	tag=fn_et_nf_hk
+15	kraftaverkapúður	kraftaverka-púður	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	tag=no_et_nf_hk
+16	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
+17	allir	allur	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	tag=fn_ft_nf_kk
+18	ættu	eiga	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	tag=so_0_vh_p3_ft_þt_gm
+19	að	að	PART	nhm	_	20	mark	_	tag=nhm
+20	eiga	eiga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	18	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
+21	!	!	PUNCT	grm	_	4	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00438,.9
 # text = Hægt er að bólusetja börn frá 6 mánaða aldri en vörn bólusetningarinnar er óviss á aldrinum 6 − 12 mánaða.
@@ -233,6 +251,7 @@
 11	þangað	þangað	ADV	ao	_	12	advmod	_	tag=ao
 12	komi	koma	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	xcomp	_	tag=so_0_vh_p3_et_nt_gm
 13	rúmlega	rúmlega	ADV	eo	_	14	advmod	_	tag=eo
+<<<<<<< HEAD
 14-15	40 prósent	_	_	_	_	_	_	_	_
 14	40	40	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	tag=prósenta_ft_nf_hk
 15	prósent	prósent	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	14	_	_	tag=prósenta_ft_nf_hk
@@ -243,4 +262,14 @@
 20	heimsækja	heimsækja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	tag=so_1_þf_fh_p3_ft_nt_gm
 21	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	20	obj	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 22	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+=======
+14	40 prósent	40 prósent	X	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	tag=prósenta_ft_nf_hk
+15	þeirra	hann	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	tag=fn_ft_ef_kk
+16	erlendu	erlendur	ADJ	lo_ft_ef_kk_vb	Case=Gen|Gender=Masc|Number=Plur	17	amod	_	tag=lo_ft_ef_kk_vb
+17	ferðamanna	ferðamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	14	nmod:poss	_	tag=no_ft_ef_kk
+18	sem	sem	SCONJ	stt	_	19	mark	_	tag=stt
+19	heimsækja	heimsækja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	acl:relcl	_	tag=so_1_þf_fh_p3_ft_nt_gm
+20	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No|tag=no_et_þf_hk_gr
+21	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+>>>>>>> master
 

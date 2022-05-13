@@ -20,8 +20,8 @@
 3	nýaldarlyktin	nýaldar-lykt	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
 4	allsráðandi	allsráðandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-6	liggjandi	liggja	VERB	so_0	_	4	obl	_	tag=so_0
-7	hljómar	hljóma	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	('HALLÓ_so', '0_fh_p3_ft_nt_gm', 'NP', None)	_	tag=so_0_fh_p3_ft_nt_gm
+6	liggjandi	liggja	VERB	so_0	_	7	('HALLÓ_so', '0', 'NP', None)	_	tag=so_0
+7	hljómar	hljómur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_nf_kk
 8	og	og	CCONJ	st	_	4	cc	_	tag=st
 9	draumkenndar	draumkenndur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	10	amod	_	tag=lo_ft_nf_kvk_sb
 10	hörpuhendingar	hörpu-hending	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_nf_kvk
@@ -100,6 +100,7 @@
 
 # sent_id = GREYNIR_CORPUS_00368,.7
 # text = Hans væri hins vegar stærri og öflugri, auk þess sem hann virki.
+<<<<<<< HEAD
 1	Hans	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_kk_p3
 2	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_vh_p3_et_þt_gm
 3-4	hins vegar	_	_	_	_	_	_	_	_
@@ -116,11 +117,26 @@
 12	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	tag=pfn_et_nf_kk_p3
 13	virki	virka	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	SpaceAfter=No|tag=so_0_vh_p3_et_nt_gm
 14	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+=======
+1	Hans	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kk_p3
+2	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_vh_p3_et_þt_gm
+3	hins vegar	hins vegar	ADV	eo	_	4	advmod	_	tag=eo
+4	stærri	stór	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_mst
+5	og	og	CCONJ	st	_	6	cc	_	tag=st
+6	öflugri	öflugur	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|tag=lo_et_nf_kk_mst
+7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+8	auk þess	auk þess	ADV	ao	_	11	advmod	_	tag=ao
+9	sem	sem	SCONJ	st	_	11	mark	_	tag=st
+10	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kk_p3
+11	virki	virka	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	SpaceAfter=No|tag=so_0_vh_p3_et_nt_gm
+12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00368,.8
 # text = Fréttablaðið birti í gær umfjöllun um bestu og verstu bókakápurnar fyrir jólin.
 1	Fréttablaðið	Fréttablaðið	PROPN	fyrirtæki_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	tag=fyrirtæki_et_nf_hk_gr
 2	birti	birta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+<<<<<<< HEAD
 3-4	í gær	_	_	_	_	_	_	_	_
 3	í	í	ADV	ao	_	2	advmod	_	tag=ao
 4	gær	gær	ADV	ao	_	3	fixed	_	tag=ao
@@ -133,6 +149,18 @@
 11	fyrir	fyrir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	jólin	jól	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	10	advmod	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
 13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+3	í gær	í gær	ADV	ao	_	2	advmod	_	tag=ao
+4	umfjöllun	umfjöllun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
+5	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+6	bestu	góður	ADJ	lo_ft_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	9	amod	_	tag=lo_ft_þf_kvk_evb
+7	og	og	CCONJ	st	_	8	cc	_	tag=st
+8	verstu	illur	ADJ	lo_ft_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	6	conj	_	tag=lo_ft_þf_kvk_evb
+9	bókakápurnar	bóka-kápa	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_þf_kvk_gr
+10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	jólin	jól	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	9	advmod	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
+12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00368,.9
 # text = Fyrir þrettán árum varð elsti strákurinn fyrir trúarlegri upplifun í kirkjunni.
@@ -149,6 +177,8 @@
 11	kirkjunni	kirkja	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
 12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00368,.10
+# text = Fundum Alþingis var frestað fram yfir páska á áttunda tímanum í kvöld.
 1	Fundum	finna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_þgf_kk
 2	Alþingis	Alþingi	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_hk
 3	var	var	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_þt_gm
@@ -159,8 +189,13 @@
 8	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	áttunda	áttund	ADJ	lo_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_þgf_kk
 10	tímanum	tími	ADV	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	tag=no_et_þgf_kk_gr
+<<<<<<< HEAD
 11-12	í kvöld	_	_	_	_	_	_	_	_
 11	í	í	ADV	ao	_	10	advmod	_	tag=ao
 12	kvöld	kvöld	ADV	ao	_	11	fixed	_	tag=ao
 13	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+=======
+11	í kvöld	í kvöld	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
+12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+>>>>>>> master
 

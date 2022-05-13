@@ -289,7 +289,10 @@
 29	hagnaði	hagnaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No|tag=no_et_þgf_kk
 30	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00322,.10
+# text = Í bréfi Keith L. Seitter, framkvæmdastjóra AMS, til Perry segir hann að það sé lykilatriði að ráðherrann skilji að koltvísýringur og aðrar gróðurhúsalofttegundir séu aðalorsakavaldar hnattrænnar hlýnunar.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
+<<<<<<< HEAD
 2	bréfi	bréf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk
 3-5	Keith L. Seitter	_	_	_	_	_	_	_	_
 3	Keith	Keith	PROPN	sérnafn	_	2	nmod:poss	_	tag=sérnafn
@@ -320,4 +323,33 @@
 28	hnattrænnar	hnattrænn	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	29	amod	_	tag=lo_et_ef_kvk_sb
 29	hlýnunar	hlýnun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	27	nmod:poss	_	tag=no_et_ef_kvk
 30	.	_	PUNCT	grm	_	12	punct	_	tag=grm
+=======
+2	bréfi	bréf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
+3	Keith L. Seitter	Keith L. Seitter	PROPN	sérnafn	_	2	nmod:poss	_	SpaceAfter=No|tag=sérnafn
+4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
+5	framkvæmdastjóra	framkvæmdastjóri	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_ef_kk
+6	AMS	AMS	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
+7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
+8	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
+9	Perry	Perry	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_ef_hk
+10	segir	segja	VERB	so_2_þgf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p3_et_nt_gm
+11	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_kk_p3
+12	að	að	SCONJ	st	_	15	mark	_	tag=st
+13	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_hk_p3
+14	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+15	lykilatriði	lykilatriði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	obj	_	tag=no_et_nf_hk
+16	að	að	SCONJ	st	_	18	mark	_	tag=st
+17	ráðherrann	ráðherra	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	tag=no_et_nf_kk_gr
+18	skilji	skilja	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	ccomp	_	tag=so_1_þf_vh_p3_et_nt_gm
+19	að	að	SCONJ	st	_	25	mark	_	tag=st
+20	koltvísýringur	koltvísýringur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	tag=no_et_nf_kk
+21	og	og	CCONJ	st	_	22	cc	_	tag=st
+22	aðrar	annar	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	20	conj	_	tag=fn_ft_nf_kvk
+23	gróðurhúsalofttegundir	gróðurhúsalofttegund	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	20	conj	_	tag=no_ft_nf_kvk
+24	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
+25	aðalorsakavaldar	aðalorsakavaldur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	18	obj	_	tag=no_ft_nf_kk
+26	hnattrænnar	hnattrænn	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	27	amod	_	tag=lo_et_ef_kvk_sb
+27	hlýnunar	hlýnun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	25	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
+28	.	_	PUNCT	grm	_	10	punct	_	tag=grm
+>>>>>>> master
 

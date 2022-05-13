@@ -2,7 +2,11 @@
 # text = Að því búnu fer annar skipverjanna um borð í Polar Nanoq en hinn ekur um hafnarsvæðið í góðar 40 mínútur.
 1	Að	að	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	því	sá	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	tag=pfn_et_þgf_hk_p3
+<<<<<<< HEAD
 3	búnu	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	('HALLÓ_so', '0_lhþt_et', 'NP', None)	_	tag=so_0_lhþt_et
+=======
+3	búnu	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	amod	_	tag=so_0_lhþt_et
+>>>>>>> master
 4	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	annar	anna	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=fn_et_nf_kk
 6	skipverjanna	skipverji	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod:poss	_	tag=no_ft_ef_kk_gr
@@ -157,6 +161,7 @@
 11	Ólympíulið	ólympíulið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_nf_hk
 12	flóttamanna	flóttamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	11	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
 13	(	_	PUNCT	grm	_	12	punct	_	tag=grm
+<<<<<<< HEAD
 14-18	Team of Refugee Olympic Athletes	_	_	_	_	_	_	_	_
 14	Team	Team	X	foreign	_	11	obl	_	SpaceAfter=No|tag=foreign
 15	of	of	X	foreign	_	14	flat:foreign	_	SpaceAfter=No|tag=foreign
@@ -167,6 +172,13 @@
 20	ROA	ROA	NOUN	abbrev	_	14	flat	_	SpaceAfter=No|tag=abbrev
 21	)	_	PUNCT	grm	_	20	punct	_	SpaceAfter=No|tag=grm
 22	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+=======
+14	Team of Refugee Olympic Athletes	Team of Refugee Olympic Athletes	X	foreign	_	11	obl	_	SpaceAfter=No|tag=foreign
+15	-	-	PUNCT	grm	_	14	punct	_	tag=grm
+16	ROA	ROA	ADV	abbrev	_	14	advmod	_	SpaceAfter=No|tag=abbrev
+17	)	_	PUNCT	grm	_	16	punct	_	SpaceAfter=No|tag=grm
+18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00432,.8
 # text = Munurinn á flokkunum tveimur, sem sögulega hafa verið turnarnir tveir í norskum stjórnmálum, er hins vegar innan skekkjumarka.

@@ -89,6 +89,7 @@
 
 # sent_id = GREYNIR_CORPUS_00372,.6
 # text = Kobe Steel er þriðji stærsti stálframleiðandi Japans og sér ýmsum bíla- og flugvélaframleiðendum fyrir efni.
+<<<<<<< HEAD
 1-2	Kobe Steel	_	_	_	_	_	_	_	_
 1	Kobe	Kobe	PROPN	fyrirtæki	_	6	nsubj	_	tag=fyrirtæki
 2	Steel	Steel	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
@@ -107,6 +108,21 @@
 14	fyrir	fyrir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	efni	efni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 16	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+=======
+1	Kobe Steel	Kobe Steel	PROPN	fyrirtæki	_	5	nsubj	_	tag=fyrirtæki
+2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	þriðji	þriðji	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk
+4	stærsti	stór	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_evb
+5	stálframleiðandi	stál-framleiða	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
+6	Japans	Japan	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=sérnafn_et_ef_hk
+7	og	og	CCONJ	st	_	5	cc	_	tag=st
+8	sér	sig	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
+9	ýmsum	ýmis	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	tag=fn_ft_þgf_kk
+10	bíla- og flugvélaframleiðendum	bíla- og flugvélaframleiðandi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	8	obj	_	tag=no_ft_þgf_kk
+11	fyrir	fyrir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	efni	efni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þf_hk
+13	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00372,.7
 # text = Ég gerði líklega mestu mistökin í að tilkynna að hún væri sykurlaus.
@@ -153,11 +169,18 @@
 9	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 10	jafnframt	jafnframt	ADV	ao	_	2	advmod	_	tag=ao
 11	eigandi	eiga	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	cop	_	tag=no_et_nf_kk
+<<<<<<< HEAD
 12-13	Czech Airlines	_	_	_	_	_	_	_	_
 12	Czech	Czech	PROPN	fyrirtæki	_	2	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
 13	Airlines	Airlines	PROPN	fyrirtæki	_	12	flat	_	SpaceAfter=No|tag=fyrirtæki
 14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+12	Czech Airlines	Czech Airlines	PROPN	fyrirtæki	_	2	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
+13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
+# sent_id = GREYNIR_CORPUS_00372,.10
+# text = Við verðum því að vera við öllu búnir, segir hann.
 1	Við	við	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root	_	tag=pfn_ft_nf_p1
 2	verðum	verða	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p1_ft_nt_gm
 3	því	sá	ADV	ao	_	5	advmod	_	tag=ao
@@ -165,9 +188,9 @@
 5	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	1	xcomp	_	tag=so_0_nh_gm
 6	við	við	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	öllu	allur	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=fn_et_þgf_hk
-8	búnir	búa	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	5	xcomp	_	tag=lo_ft_nf_kk_sb
+8	búnir	búa	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	5	xcomp	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 10	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-11	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_kk_p3
+11	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No|tag=pfn_et_nf_kk_p3
 12	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

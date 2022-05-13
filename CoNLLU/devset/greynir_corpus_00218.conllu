@@ -12,6 +12,7 @@
 
 # sent_id = GREYNIR_CORPUS_00218,.2
 # text = Þóra Sigga var 68 ára þegar hún lést.
+<<<<<<< HEAD
 1-2	Þóra Sigga	_	_	_	_	_	_	_	_
 1	Þóra	Þóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
 2	Sigga	Sigga	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
@@ -22,6 +23,16 @@
 7	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kvk_p3
 8	lést	láta	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	4	advcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_mm
 9	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+=======
+1	Þóra Sigga	Þóra Sigga	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
+2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
+3	68	68	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	0	root	_	tag=tala_ft_ef_hk
+4	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	xcomp	_	tag=no_ft_ef_hk
+5	þegar	þegar	SCONJ	st	_	7	mark	_	tag=st
+6	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_kvk_p3
+7	lést	láta	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	advcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_mm
+8	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00218,.3
 # text = Höfundarréttarvarin strá við braggann kostuðu 757 þúsund krónur
@@ -89,6 +100,7 @@
 
 # sent_id = GREYNIR_CORPUS_00218,.8
 # text = Náttúran er auk þess stærsta aðdráttarafl Íslands fyrir ferðamenn.
+<<<<<<< HEAD
 1	Náttúran	náttúra	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk_gr
 2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3-4	auk þess	_	_	_	_	_	_	_	_
@@ -100,6 +112,17 @@
 8	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	ferðamenn	ferðamaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
 10	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+=======
+1	Náttúran	náttúra	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	auk þess	auk þess	ADV	ao	_	5	advmod	_	tag=ao
+4	stærsta	stór	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_nf_hk_evb
+5	aðdráttarafl	aðdráttarafl	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
+6	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=sérnafn_et_ef_hk
+7	fyrir	fyrir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
+8	ferðamenn	ferðamaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
+9	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00218,.9
 # text = Akraneskaupstaður annast nauðsynlegt skipulag svæðisins, aðalskipulag og deiliskipulag.
@@ -114,6 +137,8 @@
 9	deiliskipulag	deiliskipulag	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|tag=no_et_þf_hk
 10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00218,.10
+# text = Hann kom aldrei út úr sendiráðinu eftir þann dag.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	aldrei	aldrei	ADV	ao	_	2	advmod	_	tag=ao
@@ -122,6 +147,6 @@
 6	sendiráðinu	sendiráð	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk_gr
 7	eftir	eftir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 8	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	tag=fn_et_þf_kk
-9	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
+9	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

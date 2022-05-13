@@ -167,6 +167,7 @@
 
 # sent_id = GREYNIR_CORPUS_00200,.4
 # text = Halldóra Mogensen segir rangt að skella skuldinni á nefndina, ástæðan fyrir því að nefndin hafi ekki spurt eða sent fyrirspurn fyrr hafi verið sú að eftir fundinn með Ásmundi þann 28. febrúar, hefði hún og fleiri nefndarmenn dregið þá ályktun að frekari gögn um niðurstöðu ráðuneytisins væru ekki til.
+<<<<<<< HEAD
 1-2	Halldóra Mogensen	_	_	_	_	_	_	_	_
 1	Halldóra	Halldóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
 2	Mogensen	Mogensen	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
@@ -221,6 +222,58 @@
 50	ekki	ekki	ADV	ao	_	49	advmod	_	tag=ao
 51	til	til	ADV	ao	_	49	compound:prt	_	SpaceAfter=No|tag=ao
 52	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+=======
+1	Halldóra Mogensen	Halldóra Mogensen	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
+2	segir	segja	VERB	so_2_þf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þf_þf_fh_p3_et_nt_gm
+3	rangt	rangur	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	iobj	_	tag=lo_et_þf_hk_fst_sb
+4	að	að	PART	nhm	_	5	mark	_	tag=nhm
+5	skella	skella	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	2	obj	_	tag=so_1_þgf_nh_gm
+6	skuldinni	skuld	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obj	_	tag=no_et_þgf_kvk_gr
+7	á	á	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
+8	nefndina	nefnd	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
+9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
+10	ástæðan	ástæða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	nsubj	_	tag=no_et_nf_kvk_gr
+11	fyrir	fyrir	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=fn_et_þgf_hk
+13	að	að	SCONJ	st	_	17	mark	_	tag=st
+14	nefndin	nefnd	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	tag=no_et_nf_kvk_gr
+15	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_vh_p3_et_nt_gm
+16	ekki	ekki	ADV	ao	_	17	advmod	_	tag=ao
+17	spurt	spyrja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	12	ccomp	_	tag=so_0_sagnb_gm
+18	eða	eða	CCONJ	st	_	19	cc	_	tag=st
+19	sent	senda	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	17	conj	_	tag=so_1_þf_sagnb_gm
+20	fyrirspurn	fyrirspurn	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	tag=no_et_þf_kvk
+21	fyrr	fyrr	ADV	ao_mst	Degree=Cmp	19	advmod	_	tag=ao_mst
+22	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	tag=so_0_vh_p3_et_nt_gm
+23	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	24	cop	_	tag=so_1_nf_sagnb_gm
+24	sú	sá	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=fn_et_nf_kvk
+25	að	að	SCONJ	st	_	38	mark	_	tag=st
+26	eftir	eftir	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
+27	fundinn	fundur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	38	advmod	_	tag=no_et_þf_kk_gr
+28	með	með	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
+29	Ásmundi	Ásmundur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	27	obl	_	tag=person_þgf_kk
+30	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	31	nmod	_	tag=fn_et_þf_kk
+31	28. febrúar	28. febrúar	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	27	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+32	,	_	PUNCT	grm	_	38	punct	_	tag=grm
+33	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	38	aux	_	tag=so_0_vh_p3_et_þt_gm
+34	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	nmod	_	tag=pfn_et_nf_kvk_p3
+35	og	og	CCONJ	st	_	37	cc	_	tag=st
+36	fleiri	margur	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	37	amod	_	tag=lo_ft_nf_kk_mst
+37	nefndarmenn	nefndarmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	38	nsubj	_	tag=no_ft_nf_kk
+38	dregið	draga	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	24	ccomp	_	tag=so_1_þf_sagnb_gm
+39	þá	sá	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	40	nmod	_	tag=fn_et_þf_kvk
+40	ályktun	ályktun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	38	obj	_	tag=no_et_þf_kvk
+41	að	að	SCONJ	st	_	47	mark	_	tag=st
+42	frekari	frekur	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	43	amod	_	tag=lo_ft_nf_hk_mst
+43	gögn	gagn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	47	nsubj	_	tag=no_ft_nf_hk
+44	um	um	ADP	fs_þf	Case=Acc	45	case	_	tag=fs_þf
+45	niðurstöðu	niðurstaða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	43	obl	_	tag=no_et_þf_kvk
+46	ráðuneytisins	ráðuneyti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	45	nmod:poss	_	tag=no_et_ef_hk_gr
+47	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	40	ccomp	_	tag=so_0_vh_p3_ft_þt_gm
+48	ekki	ekki	ADV	ao	_	47	advmod	_	tag=ao
+49	til	til	ADV	ao	_	47	compound:prt	_	SpaceAfter=No|tag=ao
+50	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00200,.5
 # text = Þessi vika núna, sem ég raunverulega fæ þar til ég fer í þennan holskurð, hef ég haft þrennt að leiðarljósi : Halda utan um andlega heilsu mína sem ég geri með því að halda utan um konuna mína og börnin, borða vel og hollt og svo sofa vel.
@@ -447,6 +500,7 @@
 2	stuðningur	stuðningur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 3	reyndist	reyna	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 4	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	cop	_	tag=so_0_nh_gm
+<<<<<<< HEAD
 5-6	á meðal	_	_	_	_	_	_	_	_
 5	á	á	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
 6	meðal	meðal	ADP	fs_ef	Case=Gen	5	_	_	tag=fs_ef
@@ -498,9 +552,61 @@
 51	úr	úr	ADP	fs_þgf	Case=Dat	52	case	_	tag=fs_þgf
 52	Evrópusambandinu	Evrópusamband	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	50	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 53	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+=======
+5	á meðal	á meðal	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
+6	þingmanna	þingmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_ef_kk
+7	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+8	neðri	neðri	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_þgf_kvk_mst
+9	deild	deild	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
+10	breska	breskur	ADJ	lo_et_ef_hk_vb	Case=Gen|Gender=Neut|Number=Sing	11	amod	_	tag=lo_et_ef_hk_vb
+11	þingsins	þing	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=no_et_ef_hk_gr
+12	við	við	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+13	þá	sá	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	tag=fn_et_þf_kvk
+14	leið	leið	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þf_kvk
+15	að	að	SCONJ	st	_	18	mark	_	tag=st
+16	Bretland	Bretland	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	tag=no_et_nf_hk
+17	gerðist	gera	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	18	conj	_	tag=so_1_nf_fh_p3_et_þt_mm
+18	aðili	aðili	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	ccomp	_	tag=no_et_nf_kk
+19	að	að	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+20	EES-samningnum	EES-samningur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk_gr
+21	í gegnum	í gegnum	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+22	Fríverslunarsamtök	fríverslunarsamtök	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	20	obl	_	tag=no_ft_þf_hk
+23	Evrópu	Evrópa	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	22	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
+24	(	_	PUNCT	grm	_	23	punct	_	tag=grm
+25	EFTA	EFTA	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No|tag=no_et_ef_hk
+26	)	_	PUNCT	grm	_	25	punct	_	SpaceAfter=No|tag=grm
+27	,	_	PUNCT	grm	_	26	punct	_	tag=grm
+28	líkt	líkt	ADV	ao	_	3	cc	_	tag=ao
+29	og	og	CCONJ	st	_	28	cc	_	tag=st
+30	Ísland	Ísland	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_nf_hk
+31	,	_	PUNCT	grm	_	32	punct	_	tag=grm
+32	Noregur	Noregur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	30	conj	_	tag=no_et_nf_kk
+33	og	og	CCONJ	st	_	30	cc	_	tag=st
+34	Liechtenstein	Liechtenstein	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	30	conj	_	SpaceAfter=No|tag=no_et_nf_hk
+35	,	_	PUNCT	grm	_	34	punct	_	tag=grm
+36	þegar	þegar	ADV	eo	_	37	advmod	_	tag=eo
+37	greidd	greiddur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	38	xcomp	_	tag=lo_ft_nf_hk_sb
+38	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_þt_gm
+39	atkvæði	atkvæði	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	38	nsubj	_	tag=no_ft_nf_hk
+40	á	á	ADP	fs_þf	Case=Acc	41	case	_	tag=fs_þf
+41	miðvikudaginn	miðvikudagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	38	advmod	_	tag=no_et_þf_kk_gr
+42	um	um	ADP	fs_þf	Case=Acc	44	case	_	tag=fs_þf
+43	ólíkar	ólíkur	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	44	amod	_	tag=lo_ft_þf_kvk_sb
+44	leiðir	leið	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	38	obl	_	tag=no_ft_þf_kvk
+45	vegna	vegna	ADP	fs_ef	Case=Gen	47	case	_	tag=fs_ef
+46	fyrirhugaðrar	fyrirhugaður	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	47	amod	_	tag=lo_et_ef_kvk_sb
+47	útgöngu	útganga	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	38	obl	_	tag=no_et_ef_kvk
+48	Bretlands	Bretland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	47	nmod:poss	_	tag=no_et_ef_hk
+49	úr	úr	ADP	fs_þgf	Case=Dat	50	case	_	tag=fs_þgf
+50	Evrópusambandinu	Evrópusamband	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	48	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+51	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+>>>>>>> master
 
+# sent_id = GREYNIR_CORPUS_00200,.10
+# text = Þá bætir Sema Erla við að lokum : Þetta er kannski ekki vinsælasta skoðun dagsins hjá félögum mínum í Samfylkingunni en ef við ætlum að koma í veg fyrir kynferðislega áreitni og ofbeldi á vettvangi stjórnmálanna og í samfélaginu öllu þurfum við að gera það af heilindum og hugrekki en ekki eftir hentugleika.
 1	Þá	þá	ADV	ao	_	2	advmod	_	tag=ao
 2	bætir	bæta	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+<<<<<<< HEAD
 3-4	Sema Erla	_	_	_	_	_	_	_	_
 3	Sema	Sema	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
 4	Erla	Erla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	_	_	tag=person_nf_kvk
@@ -554,4 +660,57 @@
 52	eftir	eftir	ADP	fs_þgf	Case=Dat	53	case	_	tag=fs_þgf
 53	hentugleika	hentugleiki	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	44	obl	_	tag=no_et_þgf_kk
 54	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+3	Sema Erla	Sema Erla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
+4	við	við	ADV	ao	_	3	obl	_	tag=ao
+5	að	að	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
+6	lokum	lok	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
+7	:	_	PUNCT	grm	_	6	punct	_	tag=grm
+8	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	tag=fn_et_nf_hk
+9	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	kannski	kannski	ADV	eo	_	13	advmod	_	tag=eo
+11	ekki	ekki	ADV	eo	_	13	advmod	_	tag=eo
+12	vinsælasta	vinsæll	ADJ	lo_et_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	13	amod	_	tag=lo_et_nf_kvk_evb
+13	skoðun	skoðun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=no_et_nf_kvk
+14	dagsins	dagur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod:poss	_	tag=no_et_ef_kk_gr
+15	hjá	hjá	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+16	félögum	félag	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_þgf_hk
+17	mínum	minn	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	16	nmod	_	tag=fn_ft_þgf_hk
+18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+19	Samfylkingunni	Samfylkingin	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þgf_kvk_gr
+20	en	en	CCONJ	st	_	2	cc	_	tag=st
+21	ef	ef	SCONJ	st	_	23	mark	_	tag=st
+22	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	tag=pfn_ft_nf_p1
+23	ætlum	ætla	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	40	advcl	_	tag=so_0_fh_p1_ft_nt_gm
+24	að	að	PART	nhm	_	25	mark	_	tag=nhm
+25	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	23	xcomp	_	tag=so_0_nh_gm
+26	í	í	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
+27	veg	vegur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	25	obl	_	tag=no_et_þf_kk
+28	fyrir	fyrir	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
+29	kynferðislega	kynferðislegur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	30	amod	_	tag=lo_et_þf_kvk_sb
+30	áreitni	áreitni	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	tag=no_et_þf_kvk
+31	og	og	CCONJ	st	_	32	cc	_	tag=st
+32	ofbeldi	ofbeldi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	30	conj	_	tag=no_et_þf_hk
+33	á	á	ADP	fs_þgf	Case=Dat	34	case	_	tag=fs_þgf
+34	vettvangi	vettvangur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	40	obl	_	tag=no_et_þgf_kk
+35	stjórnmálanna	stjórnmál	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	34	nmod:poss	_	tag=no_ft_ef_hk_gr
+36	og	og	CCONJ	st	_	40	cc	_	tag=st
+37	í	í	ADP	fs_þgf	Case=Dat	38	case	_	tag=fs_þgf
+38	samfélaginu	samfélag	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	40	obl	_	tag=no_et_þgf_hk_gr
+39	öllu	allur	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	38	nmod	_	tag=fn_et_þgf_hk
+40	þurfum	þurfa	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p1_ft_nt_gm
+41	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	40	nsubj	_	tag=pfn_ft_nf_p1
+42	að	að	PART	nhm	_	43	mark	_	tag=nhm
+43	gera	gera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	40	xcomp	_	tag=so_1_þf_nh_gm
+44	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	obj	_	tag=pfn_et_þf_hk_p3
+45	af	af	ADP	fs_þgf	Case=Dat	46	case	_	tag=fs_þgf
+46	heilindum	heilindi	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	43	obl	_	tag=no_ft_þgf_hk
+47	og	og	CCONJ	st	_	48	cc	_	tag=st
+48	hugrekki	hugrekki	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	46	conj	_	tag=no_et_þgf_hk
+49	en	en	CCONJ	st	_	43	cc	_	tag=st
+50	ekki	ekki	ADV	ao	_	43	advmod	_	tag=ao
+51	eftir	eftir	ADP	fs_þgf	Case=Dat	52	case	_	tag=fs_þgf
+52	hentugleika	hentugleiki	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
+53	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 

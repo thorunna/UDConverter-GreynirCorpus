@@ -42,7 +42,11 @@
 8	hafði	hafa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_þf_fh_p3_et_þt_gm
 9	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
 10	hugmynd	hugmynd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
+<<<<<<< HEAD
 11	um	um	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+=======
+11	um	um	ADP	fs_þf	Case=Acc	12	dep	_	tag=fs_þf
+>>>>>>> master
 12	hvað	hver	X	x		10	obl	_	tag=x
 13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	hverju	hver	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	tag=fn_et_þgf_hk
@@ -127,6 +131,7 @@
 
 # sent_id = GREYNIR_CORPUS_00314,.5
 # text = Guðmundur Guðmundsson stýrir íslenska landsliðinu, Patrekur Jóhannesson þjálfar Austurríki, Dagur Sigurðsson er með Japan, Aron Kristjánsson er þjálfari Barein og Kristján Andrésson stýrir Svíum.
+<<<<<<< HEAD
 1-2	Guðmundur Guðmundsson	_	_	_	_	_	_	_	_
 1	Guðmundur	Guðmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
 2	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
@@ -160,6 +165,31 @@
 26	stýrir	stýra	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
 27	Svíum	Svíi	PROPN	sérnafn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No|tag=sérnafn_ft_þgf_kk
 28	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+=======
+1	Guðmundur Guðmundsson	Guðmundur Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
+2	stýrir	stýra	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
+3	íslenska	íslenskur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_þgf_hk_vb
+4	landsliðinu	landslið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
+6	Patrekur Jóhannesson	Patrekur Jóhannesson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
+7	þjálfar	þjálfa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+8	Austurríki	Austurríki	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
+9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
+10	Dagur Sigurðsson	Dagur Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
+11	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
+12	með	með	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	Japan	Japan	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
+14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
+15	Aron Kristjánsson	Aron Kristjánsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	nsubj	_	tag=person_nf_kk
+16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+17	þjálfari	þjálfari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk
+18	Barein	Barein	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	17	nmod:poss	_	tag=sérnafn_et_ef_hk
+19	og	og	CCONJ	st	_	2	cc	_	tag=st
+20	Kristján Andrésson	Kristján Andrésson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	nsubj	_	tag=person_nf_kk
+21	stýrir	stýra	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
+22	Svíum	Svíi	PROPN	sérnafn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No|tag=sérnafn_ft_þgf_kk
+23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00314,.6
 # text = Miðillinn hefur eftir heimildarmanni sínum að tyrkneski utanríkisráðherrann Cavusoglu hafi tjáð Guðlaugi að framkoman sem tyrkneska liðið hefði mátt þola á Keflavíkurflugvelli hefði verið óásættanleg.
@@ -282,6 +312,8 @@
 23	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 24	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00314,.10
+# text = Ég bý í sveit og það er svo þægilegt að nota það til að safna upplýsingum fyrir það sem þarf að gera í næstu Selfoss- eða Reykjavíkurferð.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	bý	búa	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_et_nt_gm
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
@@ -306,9 +338,14 @@
 22	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_0_nh_gm
 23	í	í	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
 24	næstu	næstur	ADJ	lo_et_þgf_kvk_evb	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	25	amod	_	tag=lo_et_þgf_kvk_evb
+<<<<<<< HEAD
 25-27	Selfoss- eða Reykjavíkurferð	_	_	_	_	_	_	_	_
 25	Selfoss-	Selfoss-	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	tag=no_et_þgf_kvk
 26	eða	eða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	25	_	_	tag=no_et_þgf_kvk
 27	Reykjavíkurferð	Reykjavíkur-ferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	26	_	_	tag=no_et_þgf_kvk
 28	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+25	Selfoss- eða Reykjavíkurferð	Selfoss- eða Reykjavíkur-ferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 

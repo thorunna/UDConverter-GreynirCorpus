@@ -216,6 +216,7 @@
 
 # sent_id = GREYNIR_CORPUS_00312,.8
 # text = Áður voru André Silva, Ricardo Rodríguez, Mateo Musacchio og Franck Kessié komnir til Milan sem endaði í 6. sæti ítölsku úrvalsdeildarinnar á síðasta tímabili.
+<<<<<<< HEAD
 1	Áður	áður	ADV	ao	_	14	advmod	_	tag=ao
 2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 3-4	André Silva	_	_	_	_	_	_	_	_
@@ -247,6 +248,31 @@
 25	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	26	amod	_	tag=lo_et_þgf_hk_evb
 26	tímabili	tímabil	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 27	.	_	PUNCT	grm	_	14	punct	_	tag=grm
+=======
+1	Áður	áður	ADV	ao	_	10	advmod	_	tag=ao
+2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
+3	André Silva	André Silva	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+4	,	_	PUNCT	grm	_	5	punct	_	tag=grm
+5	Ricardo Rodríguez	Ricardo Rodríguez	PROPN	sérnafn	_	3	conj	_	SpaceAfter=No|tag=sérnafn
+6	,	_	PUNCT	grm	_	7	punct	_	tag=grm
+7	Mateo Musacchio	Mateo Musacchio	PROPN	sérnafn	_	3	conj	_	tag=sérnafn
+8	og	og	CCONJ	st	_	3	cc	_	tag=st
+9	Franck Kessié	Franck Kessié	PROPN	sérnafn	_	3	conj	_	tag=sérnafn
+10	komnir	kominn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
+11	til	til	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
+12	Milan	Milan	PROPN	entity	_	10	obl	_	tag=entity
+13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
+14	endaði	enda	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
+15	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+16	6.	6.	ADJ	raðnr_þgf_hk	Case=Dat|Gender=Neut|NumType=Ord	17	amod	_	tag=raðnr_þgf_hk
+17	sæti	sæti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þgf_hk
+18	ítölsku	ítalskur	ADJ	lo_et_ef_kvk_vb	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	tag=lo_et_ef_kvk_vb
+19	úrvalsdeildarinnar	úrvalsdeild	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod:poss	_	tag=no_et_ef_kvk_gr
+20	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+21	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	22	amod	_	tag=lo_et_þgf_hk_evb
+22	tímabili	tímabil	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+23	.	_	PUNCT	grm	_	10	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00312,.9
 # text = Hellið vatninu af og bætið rjóma, smjöri og nýrifnum parmesanosti saman við og stappið með kartöflustöppu þar til þið náið þeirri áferð sem þið kjósið.
@@ -278,6 +304,7 @@
 26	kjósið	kjósa	VERB	so_0_fh_p2_ft_nt_gm	Mood=Ind|Number=Plur|Person=2|Tense=Pres|Voice=Act	23	acl:relcl	_	SpaceAfter=No|tag=so_0_fh_p2_ft_nt_gm
 27	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+<<<<<<< HEAD
 1	Vitnastefnan	vitnastefna	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
 2-3	á hendur	_	_	_	_	_	_	_	_
 2	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
@@ -306,4 +333,34 @@
 25	þagmælsku	þagmælska	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	24	nmod:poss	_	tag=no_et_ef_kvk
 26	sinnar	sinn	PRON	fn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	tag=fn_et_ef_kvk
 27	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+=======
+# sent_id = GREYNIR_CORPUS_00312,.10
+# text = Vitnastefnan á hendur Bannon er þó ennþá í gildi og má hann því gera ráð fyrir að vera aftur kallaður fyrir nefndina í ljósi þagmælsku sinnar.
+1	Vitnastefnan	vitnastefna	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
+2	á hendur	á hendur	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
+3	Bannon	Bannon	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk
+4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+5	þó	þó	ADV	ao	_	4	advmod	_	tag=ao
+6	ennþá	ennþá	ADV	ao	_	4	advmod	_	tag=ao
+7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	gildi	gildir	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
+9	og	og	CCONJ	st	_	4	cc	_	tag=st
+10	má	mega	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+11	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_þf_kk_p3
+12	því	því	ADV	ao	_	10	advmod	_	tag=ao
+13	gera	gera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_ft_nt_gm
+14	ráð	ráð	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	tag=no_ft_nf_hk
+15	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	19	case	_	tag=fs_nh
+16	að	að	PART	nhm	_	19	mark	_	tag=nhm
+17	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	19	cop	_	tag=so_0_nh_gm
+18	aftur	aftur	ADV	eo	_	19	advmod	_	tag=eo
+19	kallaður	kallaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	tag=lo_et_nf_kk_sb
+20	fyrir	fyrir	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
+21	nefndina	nefnd	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þf_kvk_gr
+22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
+23	ljósi	ljós	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_þgf_hk
+24	þagmælsku	þagmælska	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	23	nmod:poss	_	tag=no_et_ef_kvk
+25	sinnar	sinn	PRON	fn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No|tag=fn_et_ef_kvk
+26	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+>>>>>>> master
 

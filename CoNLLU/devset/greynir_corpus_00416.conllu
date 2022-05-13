@@ -155,6 +155,7 @@
 1	Verkefnisstjórnin	verkefnis-stjórn	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
 2	hóf	hefja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	störf	starf	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	tag=no_ft_þf_hk
+<<<<<<< HEAD
 4-5	árið 2013	_	_	_	_	_	_	_	_
 4	árið	árið	ADV	ártal	_	2	advmod	_	tag=ártal
 5	2013	2013	NUM	ártal	_	4	flat	_	tag=ártal
@@ -172,6 +173,23 @@
 17	orkunýtingu	orkunýting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	conj	_	tag=no_et_þf_kvk
 18	landsvæða	landsvæði	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	15	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+4	árið 2013	árið 2013	ADV	ártal	_	2	advmod	_	tag=ártal
+5	og	og	CCONJ	st	_	2	cc	_	tag=st
+6	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+7	hlutverk	hlutverk	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=no_et_nf_hk
+8	hennar	hún	PRON	pfn_et_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	tag=pfn_et_ef_kvk_p3
+9	að	að	PART	nhm	_	10	mark	_	tag=nhm
+10	veita	veita	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	ccomp	_	tag=so_2_þgf_þf_nh_gm
+11	ráðherra	ráðherra	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	tag=no_et_þgf_kk
+12	ráðgjöf	ráðgjöf	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	tag=no_et_þf_kvk
+13	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+14	vernd	vernd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þf_kvk
+15	og	og	CCONJ	st	_	16	cc	_	tag=st
+16	orkunýtingu	orkunýting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	tag=no_et_þf_kvk
+17	landsvæða	landsvæði	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
+18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00416,.9
 # text = Annað mál kom á borð lögreglunnar á Sauðárkróki um ellefuleytið í gærkvöldi þegar útafakstur varð á þjóðvegi eitt.
@@ -196,6 +214,8 @@
 18	eitt	einn	NUM	töl_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	nummod	_	SpaceAfter=No|tag=töl_et_þf_hk
 19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00416,.10
+# text = Þetta eru svo mörg mál og margir málaflokkar, ég veit ekki hvað ég ætti sérstaklega nefna.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
 2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	svo	svo	ADV	eo	_	5	advmod	_	tag=eo
@@ -203,7 +223,7 @@
 5	mál	mál	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_nf_hk
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
 7	margir	margur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	tag=lo_ft_nf_kk_sb
-8	málaflokkar	málaflokkur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	tag=no_ft_nf_kk
+8	málaflokkar	málaflokkur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No|tag=no_ft_nf_kk
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 10	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_p1
 11	veit	vita	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_þf_fh_p1_et_nt_gm
@@ -212,6 +232,6 @@
 14	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_p1
 15	ætti	eiga	AUX	so_0_vh_p1_et_þt_gm	Mood=Sub|Number=Sing|Person=1|Tense=Past|Voice=Act	17	aux	_	tag=so_0_vh_p1_et_þt_gm
 16	sérstaklega	sérstaklega	ADV	ao	_	17	advmod	_	tag=ao
-17	nefna	nefna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	obj	_	tag=so_0_nh_gm
+17	nefna	nefna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	obj	_	SpaceAfter=No|tag=so_0_nh_gm
 18	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

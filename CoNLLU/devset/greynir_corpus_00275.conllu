@@ -69,6 +69,7 @@
 4	hæst	hár	ADJ	lo_et_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	2	obl	_	tag=lo_et_nf_hk_esb
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	dreifbýli	dreifbýli	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
+<<<<<<< HEAD
 7-8	árið 2006	_	_	_	_	_	_	_	_
 7	árið	árið	ADV	ártal	_	2	advmod	_	tag=ártal
 8	2006	2006	NUM	ártal	_	7	flat	_	tag=ártal
@@ -83,6 +84,20 @@
 17	nú	nú	ADV	ao	_	2	advmod	_	tag=ao
 18	466	466	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	2	obl	_	SpaceAfter=No|tag=tala_ft_nf_hk
 19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+7	árið 2006	árið 2006	ADV	ártal	_	2	advmod	_	tag=ártal
+8	en	en	CCONJ	st	_	2	cc	_	tag=st
+9	hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	aux	_	tag=so_0_fh_p3_et_þt_gm
+10	lækkað	lækka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	cop	_	tag=so_0_sagnb_gm
+11	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+12	35	35	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	13	nummod	_	tag=tala_ft_þf_hk
+13	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þf_hk
+14	og	og	CCONJ	st	_	2	cc	_	tag=st
+15	mælist	mæla	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	2	cop	_	tag=so_1_nf_fh_p3_et_nt_mm
+16	nú	nú	ADV	ao	_	2	advmod	_	tag=ao
+17	466	466	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	2	obl	_	SpaceAfter=No|tag=tala_ft_nf_hk
+18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00275,.5
 # text = Sigfús segir að atvinnu sé að fá á Sauðárkróki og í Skagafirði og að í rauninni vanti starfsfólk.
@@ -163,6 +178,7 @@
 8	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	xcomp	_	tag=so_0_fh_p3_et_þt_gm
 9	haft	hafa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	conj	_	tag=so_0_sagnb_gm
 10	eftir	eftir	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+<<<<<<< HEAD
 11-12	Sabine Kehm	_	_	_	_	_	_	_	_
 11	Sabine	Sabine	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	8	obl	_	tag=sérnafn_nf_kvk
 12	Kehm	Kehm	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	11	_	_	tag=sérnafn_nf_kvk
@@ -173,6 +189,14 @@
 16	september	september	ADV	dagsafs	_	8	advmod	_	SpaceAfter=No|tag=dagsafs
 17	2014	2014	NUM?	dagsafs	_	16	flat	_	SpaceAfter=No|tag=dagsafs
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+11	Sabine Kehm	Sabine Kehm	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	8	obl	_	tag=sérnafn_nf_kvk
+12	umboðsmanni	umboðsmaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þgf_kk
+13	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	tag=pfn_et_ef_kk_p3
+14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+15	september 2014	september 2014	ADV	dagsafs	_	8	advmod	_	SpaceAfter=No|tag=dagsafs
+16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00275,.9
 # text = Erum við að skoða list eða er það bara orð sem við notum til að sjá hluti betur?
@@ -196,6 +220,11 @@
 18	betur	vel	ADV	ao_mst	Degree=Cmp	16	advmod	_	SpaceAfter=No|tag=ao_mst
 19	?	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+<<<<<<< HEAD
+=======
+# sent_id = GREYNIR_CORPUS_00275,.10
+# text = Ríkin eru flokkuð í fjóra flokka og er Ísland nú í 2. flokki, annað árið í röð.
+>>>>>>> master
 1	Ríkin	ríki	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk_gr
 2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	flokkuð	flokka	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
@@ -208,11 +237,11 @@
 10	nú	nú	ADV	ao	_	8	advmod	_	tag=ao
 11	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	2.	2.	ADJ	raðnr_þgf_kk	Case=Dat|Gender=Masc|NumType=Ord	13	amod	_	tag=raðnr_þgf_kk
-13	flokki	flokkur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk
+13	flokki	flokkur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	annað	annar	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	tag=fn_et_þf_hk
 16	árið	ár	ADV	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	advmod	_	tag=no_et_þf_hk_gr
 17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	röð	röð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þf_kvk
+18	röð	röð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

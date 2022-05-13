@@ -42,6 +42,7 @@
 7	ekki	ekki	ADV	ao	_	6	advmod	_	tag=ao
 8	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 9	lýði	lýður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	cop	_	tag=no_ft_þf_kk
+<<<<<<< HEAD
 10-12	hér á landi	_	_	_	_	_	_	_	_
 10	hér	hér	ADV	ao	_	6	advmod	_	tag=ao
 11	á	á	ADV	ao	_	10	fixed	_	tag=ao
@@ -64,6 +65,27 @@
 28	sömu	sami	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	29	nmod	_	tag=fn_ft_þf_kvk
 29	upplýsingar	upplýsing	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	27	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
 30	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+10	hér á landi	hér á landi	ADV	ao	_	6	advmod	_	tag=ao
+11	en	en	CCONJ	st	_	6	cc	_	tag=st
+12	æskilegt	æskilegur	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	xcomp	_	tag=lo_et_nf_hk_fst_sb
+13	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
+14	að	að	SCONJ	st	_	16	mark	_	tag=st
+15	Kauphöllin	kauphöll	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	tag=no_et_nf_kvk_gr
+16	tæki	taka	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	nsubj	_	tag=so_0_vh_p3_et_þt_gm
+17	upp	upp	ADV	ao	_	16	compound:prt	_	tag=ao
+18	slíkt	slíkur	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	tag=fn_et_þf_hk
+19	kerfi	kerfi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=no_et_þf_hk
+20	svo	svo	SCONJ	st	_	25	mark	_	tag=st
+21	allir	allur	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	22	nmod	_	tag=fn_ft_nf_kk
+22	aðilar	aðili	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	tag=no_ft_nf_kk
+23	á	á	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
+24	markaði	markaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	tag=no_et_þgf_kk
+25	hefðu	hafa	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	6	advcl	_	tag=so_0_vh_p3_ft_þt_gm
+26	sömu	sami	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	27	nmod	_	tag=fn_ft_þf_kvk
+27	upplýsingar	upplýsing	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
+28	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00175,.3
 # text = Í greinargerð Veiðimálastofnunar Bandaríkjanna, sem er ábyrg fyrir reglugerðarbreytingunni, er hún meðal annars réttlætt með því að veiðileyfagjöldin geti stuðlað að vernd og uppbyggingu fílastofnanna í Afríku.
@@ -298,6 +320,8 @@
 29	Dýrafjarðar	Dýrafjörður	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No|tag=sérnafn_et_ef_kk
 30	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00175,.10
+# text = Ísleifur segir að upplýsingar um símabannið hafi verið komið á framfæri við gesti og þá sé að finna upplýsingar um þetta á Facebook-síðu viðburðarins og fleiri stöðum.
 1	Ísleifur	Ísleifur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	9	mark	_	tag=st
@@ -324,6 +348,6 @@
 24	viðburðarins	viðburður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	nmod:poss	_	tag=no_et_ef_kk_gr
 25	og	og	CCONJ	st	_	23	cc	_	tag=st
 26	fleiri	margur	ADJ	lo_ft_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Plur	23	amod	_	tag=lo_ft_þgf_kvk_mst
-27	stöðum	staða	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	23	conj	_	tag=no_ft_þgf_kvk
+27	stöðum	staða	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 28	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

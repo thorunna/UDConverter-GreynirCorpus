@@ -199,6 +199,7 @@
 
 # sent_id = GREYNIR_CORPUS_00489,.6
 # text = Jóhann Karl Þórisson, aðstoðaryfirlögregluþjónn hjá lögreglunni á höfuðborgarsvæðinu, segir að starfsmenn hafi verið búnir að ná bílnum ofan af manninum þegar lögreglu og sjúkralið bar að garði nokkrum mínútum eftir að óskað var eftir aðstoð.
+<<<<<<< HEAD
 1-3	Jóhann Karl Þórisson	_	_	_	_	_	_	_	_
 1	Jóhann	Jóhann	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 2	Karl	Karl	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
@@ -238,6 +239,44 @@
 36	eftir	eftir	ADP	fs_þgf	Case=Dat	37	case	_	tag=fs_þgf
 37	aðstoð	aðstoð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 38	.	.	PUNCT	grm	_	11	punct	_	tag=grm
+=======
+1	Jóhann Karl Þórisson	Jóhann Karl Þórisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
+3	aðstoðaryfirlögregluþjónn	aðstoðar-yfir-lögregluþjónn	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+5	lögreglunni	lögregla	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk_gr
+6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	höfuðborgarsvæðinu	höfuðborgarsvæði	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
+9	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+10	að	að	SCONJ	st	_	14	mark	_	tag=st
+11	starfsmenn	starfsmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	tag=no_ft_nf_kk
+12	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_vh_p3_ft_nt_gm
+13	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	cop	_	tag=so_0_sagnb_gm
+14	búnir	búa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	9	obj	_	tag=so_0_lhþt_ft
+15	að	að	PART	nhm	_	16	mark	_	tag=nhm
+16	ná	ná	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	14	xcomp	_	tag=so_1_þgf_nh_gm
+17	bílnum	bíll	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	tag=no_et_þgf_kk_gr
+18	ofan	ofan	ADV	ao	_	20	advmod	_	tag=ao
+19	af	af	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+20	manninum	maður	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þgf_kk_gr
+21	þegar	þegar	SCONJ	st	_	25	mark	_	tag=st
+22	lögreglu	lögregla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	25	nsubj	_	tag=no_et_þf_kvk
+23	og	og	CCONJ	st	_	24	cc	_	tag=st
+24	sjúkralið	sjúkra-lið	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	22	conj	_	tag=no_et_þf_hk
+25	bar	bera	VERB	so_1_þf_op_subj_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	advcl	_	tag=so_1_þf_op_subj_þf_fh_p3_et_þt_gm
+26	að	að	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
+27	garði	garður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	25	obl	_	tag=no_et_þgf_kk
+28	nokkrum	nokkur	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	29	nmod	_	tag=fn_ft_þgf_kvk
+29	mínútum	mínúta	ADV	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	25	advmod	_	tag=no_ft_þgf_kvk
+30	eftir	eftir	ADV	ao	_	29	advmod	_	tag=ao
+31	að	að	SCONJ	st	_	33	mark	_	tag=st
+32	óskað	óska	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	33	xcomp	_	tag=so_0_lhþt_et
+33	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	29	ccomp	_	tag=so_0_fh_p3_et_þt_gm
+34	eftir	eftir	ADP	fs_þgf	Case=Dat	35	case	_	tag=fs_þgf
+35	aðstoð	aðstoð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+36	.	.	PUNCT	grm	_	9	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00489,.7
 # text = Ljóðabókin Ljóð námu völd var tilnefnd til Bókmenntaverðlauna Norðurlandaráðs árið 1993, Sigurður hlaut Íslensku bókmenntaverðlaunin fyrir Minnisbók árið 2007 og hafði þá áður verið tilnefndur fyrir ljóðabækurnar Ljóðlínuskip &#40; 1995 &#41; og Ljóðtímaleit &#40; 2001 &#41;.
@@ -250,6 +289,7 @@
 7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
 8	Bókmenntaverðlauna	bókmenntaverðlaun	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_ef_hk
 9	Norðurlandaráðs	Norðurlandaráð	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod:poss	_	tag=fyrirtæki_et_ef_hk
+<<<<<<< HEAD
 10-11	árið 1993	_	_	_	_	_	_	_	_
 10	árið	árið	ADV	ártal	_	6	advmod	_	SpaceAfter=No|tag=ártal
 11	1993	1993	NUM	ártal	_	10	flat	_	SpaceAfter=No|tag=ártal
@@ -281,6 +321,35 @@
 36	2001	2001	NUM	ártal	_	35	nummod	_	SpaceAfter=No|tag=ártal
 37	&#41;	&#41;	PUNCT	grm	_	36	punct	_	SpaceAfter=No|tag=grm
 38	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+=======
+10	árið 1993	árið 1993	ADV	ártal	_	6	advmod	_	SpaceAfter=No|tag=ártal
+11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
+12	Sigurður	Sigurður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	tag=person_nf_kk
+13	hlaut	hljóta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+14	Íslensku	íslenskur	ADJ	lo_ft_þf_hk_vb	Case=Acc|Gender=Neut|Number=Plur	15	amod	_	tag=lo_ft_þf_hk_vb
+15	bókmenntaverðlaunin	bókmenntaverðlaun	PROPN	sérnafn_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	13	obj	_	tag=sérnafn_ft_þf_hk_gr
+16	fyrir	fyrir	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
+17	Minnisbók	minnisbók	PROPN	entity_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	tag=entity_et_þf_kvk
+18	árið 2007	árið 2007	ADV	ártal	_	13	advmod	_	tag=ártal
+19	og	og	CCONJ	st	_	13	cc	_	tag=st
+20	hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_þt_gm
+21	þá	þá	ADV	ao	_	13	advmod	_	tag=ao
+22	áður	áður	ADV	ao	_	13	advmod	_	tag=ao
+23	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	13	cop	_	tag=so_0_sagnb_gm
+24	tilnefndur	tilnefna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	cop	_	tag=so_0_lhþt_et
+25	fyrir	fyrir	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
+26	ljóðabækurnar	ljóðabók	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	27	obl	_	tag=no_ft_þf_kvk_gr
+27	Ljóðlínuskip	ljóð-línuskip	PROPN	entity_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	tag=entity_et_þf_hk
+28	&#40;	&#40;	ADV	grm	_	27	advmod	_	tag=grm
+29	1995	1995	NUM	ártal	_	28	nummod	_	SpaceAfter=No|tag=ártal
+30	&#41;	&#41;	PUNCT	grm	_	29	punct	_	tag=grm
+31	og	og	CCONJ	st	_	27	cc	_	tag=st
+32	Ljóðtímaleit	ljóð-tíma-leit	PROPN	entity_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	27	conj	_	tag=entity_et_þf_kvk
+33	&#40;	&#40;	ADV	grm	_	27	advmod	_	tag=grm
+34	2001	2001	NUM	ártal	_	33	nummod	_	SpaceAfter=No|tag=ártal
+35	&#41;	&#41;	PUNCT	grm	_	34	punct	_	SpaceAfter=No|tag=grm
+36	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00489,.8
 # text = Donald Trump, forseti Bandaríkjanna og Moon Jae-In, forseti Suður-Kóreu heita að beita enn frekari refsiaðgerðum gagnvart Norður-Kóreu eftir að stjórnvöld í landinu skutu eldflaugaskoti í kjölfar nýsamþykktra hertra viðskiptaþvingana af hálfu Sameinuðu þjóðanna.
@@ -361,6 +430,8 @@
 34	Þórunn	Þórunn	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	33	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
 35	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00489,.10
+# text = Myndir sem birst hafa í Fréttablaðinu sýna hins vegar glögglega að TF-KOZ var í það skipti flogið frá austri til vesturs, þvert á aðflugsstefnuna að Reykjahlíðarflugvelli sem er um 1.800 metra norður af Hlíðarrétt.
 1	Myndir	mynd	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	tag=no_ft_nf_kvk
 2	sem	sem	SCONJ	stt	_	3	mark	_	tag=stt
 3	birst	birta	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	1	acl:relcl	_	tag=so_0_sagnb_mm
@@ -368,6 +439,7 @@
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Fréttablaðinu	Fréttablaðið	PROPN	fyrirtæki_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=fyrirtæki_et_þgf_hk_gr
 7	sýna	sýna	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
+<<<<<<< HEAD
 8-9	hins vegar	_	_	_	_	_	_	_	_
 8	hins	hins	ADV	ao	_	7	advmod	_	tag=ao
 9	vegar	vegar	ADV	ao	_	8	fixed	_	tag=ao
@@ -399,4 +471,33 @@
 34	af	af	ADP	fs_þgf	Case=Dat	35	case	_	tag=fs_þgf
 35	Hlíðarrétt	Hlíðar-rétt	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	32	obl	_	tag=sérnafn_et_þgf_kvk
 36	.	.	PUNCT	grm	_	7	punct	_	tag=grm
+=======
+8	hins vegar	hins vegar	ADV	ao	_	7	advmod	_	tag=ao
+9	glögglega	glögglega	ADV	ao	_	7	advmod	_	tag=ao
+10	að	að	SCONJ	st	_	16	mark	_	tag=st
+11	TF-KOZ	TF-KOZ	PROPN	entity_þgf	Case=Dat	16	nsubj	_	tag=entity_þgf
+12	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+13	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+14	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	tag=fn_et_þf_hk
+15	skipti	skipti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	tag=no_et_þf_hk
+16	flogið	fljúga	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	7	obj	_	tag=so_1_þgf_lhþt_et
+17	frá	frá	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+18	austri	austur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þgf_kk
+19	til	til	ADP	fs_ef	Case=Gen	20	case	_	tag=fs_ef
+20	vesturs	vestur	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_ef_hk
+21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
+22	þvert á	þvert á	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+23	aðflugsstefnuna	aðflugs-stefna	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þf_kvk_gr
+24	að	að	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
+25	Reykjahlíðarflugvelli	Reykjahlíðarflugvöllur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	tag=sérnafn_et_þgf_kk
+26	sem	sem	SCONJ	stt	_	27	mark	_	tag=stt
+27	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+28	um	um	ADV	ao	_	30	advmod	_	tag=ao
+29	1.800	1.800	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	30	nummod	_	tag=tala_ft_ef_kk
+30	metra	metri	ADV	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	27	advmod	_	tag=no_ft_ef_kk
+31	norður	norður	ADV	ao	_	30	advmod	_	tag=ao
+32	af	af	ADP	fs_þgf	Case=Dat	33	case	_	tag=fs_þgf
+33	Hlíðarrétt	Hlíðar-rétt	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
+34	.	.	PUNCT	grm	_	7	punct	_	tag=grm
+>>>>>>> master
 

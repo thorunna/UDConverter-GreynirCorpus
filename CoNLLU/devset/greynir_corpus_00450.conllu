@@ -132,6 +132,7 @@
 
 # sent_id = GREYNIR_CORPUS_00450,.6
 # text = Á dögunum var greint frá því að tískuhönnuðir væru ekki sérlega hrifnir af því að útvega tilvonandi forsetafrú Bandaríkjanna, Melaniu Trump, fatnað.
+<<<<<<< HEAD
 1-2	Á dögunum	_	_	_	_	_	_	_	_
 1	Á	á	ADV	ao	_	4	advmod	_	tag=ao
 2	dögunum	dögunum	ADV	ao	_	1	fixed	_	tag=ao
@@ -159,6 +160,31 @@
 23	,	,	PUNCT	grm	_	21	punct	_	tag=grm
 24	fatnað	fatnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No|tag=no_et_þf_kk
 25	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+=======
+1	Á dögunum	á dögunum	ADV	ao	_	3	advmod	_	tag=ao
+2	var	var	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_þt_gm
+3	greint	greina	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+4	frá	frá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
+6	að	að	SCONJ	st	_	11	mark	_	tag=st
+7	tískuhönnuðir	tískuhönnuður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	tag=no_ft_nf_kk
+8	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_vh_p3_ft_þt_gm
+9	ekki	ekki	ADV	eo	_	11	advmod	_	tag=eo
+10	sérlega	sérlega	ADV	eo	_	11	advmod	_	tag=eo
+11	hrifnir	hrifinn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	5	ccomp	_	tag=lo_ft_nf_kk_sb
+12	af	af	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=fn_et_þgf_hk
+14	að	að	PART	nhm	_	15	mark	_	tag=nhm
+15	útvega	útvega	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_2_þgf_þf_nh_gm
+16	tilvonandi	tilvonandi	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	tag=lo_et_þf_kvk_sb
+17	forsetafrú	forsetafrú	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	iobj	_	tag=no_et_þf_kvk
+18	Bandaríkjanna	Bandaríkin	PROPN	sérnafn_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	17	nmod:poss	_	SpaceAfter=No|tag=sérnafn_ft_ef_hk_gr
+19	,	,	PUNCT	grm	_	18	punct	_	tag=grm
+20	Melaniu Trump	Melaniu Trump	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	17	obl	_	SpaceAfter=No|tag=person_þf_kvk
+21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
+22	fatnað	fatnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|tag=no_et_þf_kk
+23	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00450,.7
 # text = Guðrún Gylfadóttir, formaður Lyfjagreiðslunefndar, segir það rétt að fjármagn sé uppurið og meira til en vill horfa jákvæðum augum á árið.
@@ -241,6 +267,8 @@
 23	fyrir	fyrir	ADV	ao	_	22	advmod	_	SpaceAfter=No|tag=ao
 24	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00450,.10
+# text = En héðan í frá verður fólki með til að mynda hjartsláttartruflanir og -óreglu, mæði, brjóstverki og annað slíkt sinnt í Fossvogi.
 1	En	en	SCONJ	st	_	5	mark	_	tag=st
 2	héðan	héðan	ADV	ao	_	5	advmod	_	tag=ao
 3	í	í	ADV	ao	_	2	advmod	_	tag=ao
@@ -253,9 +281,9 @@
 10	mynda	mynda	ADV	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	advmod	_	tag=so_1_þf_nh_gm
 11	hjartsláttartruflanir	hjartsláttar-truflun	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_þf_kvk
 12	og	og	CCONJ	st	_	13	cc	_	tag=st
-13	-óreglu	óregla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	tag=no_et_þf_kvk
+13	-óreglu	óregla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No|tag=no_et_þf_kvk
 14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
-15	mæði	mæði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_nf_hk
+15	mæði	mæði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_nf_hk
 16	,	,	PUNCT	grm	_	17	punct	_	tag=grm
 17	brjóstverki	brjóstverkur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	conj	_	tag=no_ft_nf_kk
 18	og	og	CCONJ	st	_	11	cc	_	tag=st
@@ -263,6 +291,6 @@
 20	slíkt	slíkur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nmod	_	tag=fn_et_nf_hk
 21	sinnt	sinna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	conj	_	tag=so_0_lhþt_et
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	Fossvogi	Fossvogur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_kk
+23	Fossvogi	Fossvogur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk
 24	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

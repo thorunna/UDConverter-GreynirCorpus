@@ -146,6 +146,7 @@
 16	urðu	verða	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_0_fh_p3_ft_þt_gm
 17	varir	var	ADJ	lo_ft_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	acl:relcl	_	tag=lo_ft_nf_kk_fst_sb
 18	við	við	ADV	ao	_	17	advmod	_	tag=ao
+<<<<<<< HEAD
 19-20	meðal annars	_	_	_	_	_	_	_	_
 19	meðal	meðal	ADV	ao	_	17	advmod	_	tag=ao
 20	annars	annars	ADV	ao	_	19	fixed	_	tag=ao
@@ -216,6 +217,68 @@
 37	til	til	ADV	ao	_	35	advmod	_	SpaceAfter=No|tag=ao
 38	baka	baka	ADV	ao	_	37	fixed	_	SpaceAfter=No|tag=ao
 39	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+=======
+19	meðal annars	meðal annars	ADV	ao	_	17	advmod	_	tag=ao
+20	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+21	þessari	þessi	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	tag=fn_et_þgf_kvk
+22	almenningssamkomu	almenningssamkoma	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_þgf_kvk
+23	í gær	í gær	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
+24	,	_	PUNCT	grm	_	23	punct	_	tag=grm
+25	þá	þá	ADV	ao	_	30	advmod	_	tag=ao
+26	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	cop	_	tag=so_0_fh_p3_et_nt_gm
+27	ekki	ekki	ADV	ao	_	30	advmod	_	tag=ao
+28	þar	þar	ADV	ao	_	30	advmod	_	tag=ao
+29	með	með	ADV	ao	_	28	advmod	_	tag=ao
+30	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	xcomp	_	tag=so_0_sagnb_gm
+31	að	að	PART	nhm	_	32	mark	_	tag=nhm
+32	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	30	xcomp	_	tag=so_1_þf_nh_gm
+33	neina	neinn	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	34	nmod	_	tag=fn_et_þf_kvk
+34	ákvörðun	ákvörðun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	32	obj	_	tag=no_et_þf_kvk
+35	til	til	ADP	fs_ef	Case=Gen	37	case	_	tag=fs_ef
+36	langs	langur	ADJ	lo_et_ef_kk_sb	Case=Gen|Gender=Masc|Number=Sing	37	amod	_	tag=lo_et_ef_kk_sb
+37	tíma	tími	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	34	obl	_	tag=no_et_ef_kk
+38	endilega	endilega	ADV	ao	_	30	advmod	_	SpaceAfter=No|tag=ao
+39	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+
+# sent_id = GREYNIR_CORPUS_00195,.5
+# text = WOW air hafi spilað stórt hlutverk og nú þegar flugfélagið er fallið, að viðbættum vandræðunum í kringum Beoing-vélar, séu líkur á því að þessi árangur sem náðist í að draga úr árstíðasveiflu gangi eitthvað til baka.
+1	WOW air	WOW air	PROPN	fyrirtæki	_	3	nsubj	_	tag=fyrirtæki
+2	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_vh_p3_et_nt_gm
+3	spilað	spila	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
+4	stórt	stór	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þf_hk_sb
+5	hlutverk	hlutverk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þf_hk
+6	og	og	CCONJ	st	_	3	cc	_	tag=st
+7	nú	nú	ADV	ao	_	19	advmod	_	tag=ao
+8	þegar	þegar	SCONJ	st	_	11	mark	_	tag=st
+9	flugfélagið	flugfélag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	tag=no_et_nf_hk_gr
+10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
+11	fallið	falla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	advcl	_	SpaceAfter=No|tag=so_0_lhþt_et
+12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
+13	að	að	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+14	viðbættum	viðbættur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	15	amod	_	tag=lo_ft_þgf_hk_sb
+15	vandræðunum	vandræði	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	19	obl	_	tag=no_ft_þgf_hk_gr
+16	í kringum	í kringum	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
+17	Beoing-vélar	Beoing-vél	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
+18	,	_	PUNCT	grm	_	19	punct	_	tag=grm
+19	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_vh_p3_ft_nt_gm
+20	líkur	líkur	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	tag=no_ft_nf_kvk
+21	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+22	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	tag=fn_et_þgf_hk
+23	að	að	SCONJ	st	_	33	mark	_	tag=st
+24	þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	25	nmod	_	tag=fn_et_nf_kk
+25	árangur	árangur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	tag=no_et_nf_kk
+26	sem	sem	SCONJ	stt	_	27	mark	_	tag=stt
+27	náðist	ná	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	25	acl:relcl	_	tag=so_0_fh_p3_et_þt_mm
+28	í	í	ADP	fs_nh	VerbForm=Inf	30	case	_	tag=fs_nh
+29	að	að	PART	nhm	_	30	mark	_	tag=nhm
+30	draga	draga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	27	obl	_	tag=so_0_nh_gm
+31	úr	úr	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
+32	árstíðasveiflu	árstíðasveifla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	30	obl	_	tag=no_et_þgf_kvk
+33	gangi	ganga	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	ccomp	_	tag=so_1_þf_vh_p3_et_nt_gm
+34	eitthvað	eitthvað	ADV	ao	_	33	advmod	_	tag=ao
+35	til baka	til baka	ADV	ao	_	33	advmod	_	SpaceAfter=No|tag=ao
+36	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00195,.6
 # text = Núna á þessari aðventu sem er um það bil að enda var þessu ekkert öðruvísi farið en venjulega hjá mér til að byrja með og ég fann að ég ætlaði að fara að detta í minn venjulega jólablús og nostalgíu.
@@ -275,6 +338,7 @@
 10	Spotify	Spotify	PROPN	fyrirtæki	_	8	obl	_	tag=fyrirtæki
 11	og	og	CCONJ	st	_	4	cc	_	tag=st
 12	auglýsingar	auglýsing	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_nf_kvk
+<<<<<<< HEAD
 13-14	í gegnum	_	_	_	_	_	_	_	_
 13	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 14	gegnum	gegnum	ADP	fs_þf	Case=Acc	13	_	_	tag=fs_þf
@@ -307,6 +371,33 @@
 39	í	í	ADP	fs_þf	Case=Acc	40	case	_	tag=fs_þf
 40	áratug	áratugur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	36	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 41	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+=======
+13	í gegnum	í gegnum	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+14	YouTube	YouTube	PROPN	fyrirtæki	_	12	obl	_	tag=fyrirtæki
+15	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_0_vh_p3_ft_nt_gm
+16	loksins	loksins	ADV	ao	_	17	advmod	_	tag=ao
+17	farnar	farinn	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	2	advcl	_	tag=lo_ft_nf_kvk_sb
+18	að	að	PART	nhm	_	19	mark	_	tag=nhm
+19	skila	skila	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_1_þgf_nh_gm
+20	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	19	obj	_	tag=abfn_þgf
+21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+22	vasa	vasi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	19	obl	_	tag=no_ft_þgf_kk
+23	tónlistarmanna	tónlistarmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	22	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
+24	,	_	PUNCT	grm	_	23	punct	_	tag=grm
+25	en	en	CCONJ	st	_	2	cc	_	tag=st
+26	tekjur	tekja	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	29	nsubj	_	tag=no_ft_nf_kvk
+27	í	í	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
+28	tónlistariðnaðinum	tónlistariðnaður	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	26	obl	_	tag=no_et_þgf_kk_gr
+29	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_ft_nt_gm
+30	nú	nú	ADV	ao	_	29	advmod	_	tag=ao
+31	að	að	PART	nhm	_	32	mark	_	tag=nhm
+32	vaxa	vaxa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	29	xcomp	_	tag=so_0_nh_gm
+33	á ný	á ný	ADV	ao	_	32	advmod	_	tag=ao
+34	í fyrsta sinn	í fyrsta sinn	ADV	ao	_	32	advmod	_	tag=ao
+35	í	í	ADP	fs_þf	Case=Acc	36	case	_	tag=fs_þf
+36	áratug	áratugur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	34	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+37	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00195,.8
 # text = Þú átt að sjálfsögðu eftir að upplifa spennandi ævintýri og gera stórbrotna hluti í lífinu, en taktu bara eitt skref í einu, því þegar svo mögnuð persóna eins og þú nær rétta jafnvæginu þá flýgur enginn eins fallega.

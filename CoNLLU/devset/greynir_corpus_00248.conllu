@@ -115,6 +115,7 @@
 3	svo	svo	ADV	eo	_	4	advmod	_	tag=eo
 4	þröngt	þröngur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	um	um	ADV	ao	_	4	advmod	_	tag=ao
+<<<<<<< HEAD
 6	að	að	SCONJ	st	_	11	mark	_	tag=st
 7-8	sums staðar	_	_	_	_	_	_	_	_
 7	sums	sums	ADV	ao	_	11	advmod	_	tag=ao
@@ -125,6 +126,16 @@
 12	að	að	PART	nhm	_	13	mark	_	tag=nhm
 13	leggjast	leggja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	11	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
 14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+=======
+6	að	að	SCONJ	st	_	10	mark	_	tag=st
+7	sums staðar	sums staðar	ADV	ao	_	10	advmod	_	tag=ao
+8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
+9	ekki	ekki	ADV	eo	_	10	advmod	_	tag=eo
+10	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	advcl	_	tag=lo_et_nf_hk_sb
+11	að	að	PART	nhm	_	12	mark	_	tag=nhm
+12	leggjast	leggja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	10	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
+13	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00248,.8
 # text = Félagsmálaráðherra Eygló Harðardóttir dróg framboð sitt til varaformanns Framsóknarflokks til baka rétt í þessu.
@@ -156,6 +167,7 @@
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	deildinni	deild	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk_gr
 8	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	tag=pfn_et_ef_kk_p3
+<<<<<<< HEAD
 9-10	þrátt fyrir	_	_	_	_	_	_	_	_
 9	þrátt	þrátt	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 10	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	_	_	tag=fs_þf
@@ -164,7 +176,17 @@
 13	erfiða	erfiður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	tag=lo_et_þf_kvk_sb
 14	vinnu	vinna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 15	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+=======
+9	þrátt fyrir	þrátt fyrir	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+10	mikla	mikill	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	tag=lo_et_þf_kvk_sb
+11	og	og	CCONJ	st	_	12	cc	_	tag=st
+12	erfiða	erfiður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	tag=lo_et_þf_kvk_sb
+13	vinnu	vinna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
+14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+>>>>>>> master
 
+# sent_id = GREYNIR_CORPUS_00248,.10
+# text = Suðurnesjakonur leiddu með tíu stigum eftir fyrsta leikhluta og létu forystuna aldrei af hendi.
 1	Suðurnesjakonur	Suðurnesjakona	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	tag=no_ft_nf_kvk
 2	leiddu	leiða	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
 3	með	með	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
@@ -178,6 +200,6 @@
 11	forystuna	forysta	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	tag=no_et_þf_kvk_gr
 12	aldrei	aldrei	ADV	ao	_	10	advmod	_	tag=ao
 13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	hendi	hönd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
+14	hendi	hönd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

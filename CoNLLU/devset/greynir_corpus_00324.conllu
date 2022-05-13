@@ -35,6 +35,7 @@
 # sent_id = GREYNIR_CORPUS_00324,.2
 # text = Er þar meðal annars átt við við lýsingu á mönnum og bifreiðum en gott er að skrifa slíkt hjá sér ef fólk tekur eftir einhverju óvenjulegu í sínu nánasta umhverfi.
 1	Er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
+<<<<<<< HEAD
 2	þar	þar	ADV	ao	_	5	advmod	_	tag=ao
 3-4	meðal annars	_	_	_	_	_	_	_	_
 3	meðal	meðal	ADV	ao	_	5	advmod	_	tag=ao
@@ -66,6 +67,37 @@
 29	nánasta	náinn	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	30	amod	_	tag=lo_et_þgf_hk_evb
 30	umhverfi	umhverfi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 31	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+=======
+2	þar	þar	ADV	ao	_	4	advmod	_	tag=ao
+3	meðal annars	meðal annars	ADV	ao	_	4	advmod	_	tag=ao
+4	átt	átt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	xcomp	_	tag=no_et_nf_kvk
+5	við	við	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+6	við	við	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+7	lýsingu	lýsing	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
+8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	mönnum	maður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	tag=no_ft_þgf_kk
+10	og	og	CCONJ	st	_	11	cc	_	tag=st
+11	bifreiðum	bifreið	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	9	conj	_	tag=no_ft_þgf_kvk
+12	en	en	CCONJ	st	_	1	cc	_	tag=st
+13	gott	góður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=lo_et_nf_hk_sb
+14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
+15	að	að	PART	nhm	_	16	mark	_	tag=nhm
+16	skrifa	skrifa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	csubj	_	tag=so_1_þf_nh_gm
+17	slíkt	slíkur	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=fn_et_þf_hk
+18	hjá	hjá	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+19	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	17	obl	_	tag=abfn_þgf
+20	ef	ef	SCONJ	st	_	22	mark	_	tag=st
+21	fólk	fólk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	22	nsubj	_	tag=no_et_þf_hk
+22	tekur	taka	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
+23	eftir	eftir	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
+24	einhverju	einhver	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	tag=fn_et_þgf_hk
+25	óvenjulegu	óvenjulegur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	24	amod	_	tag=lo_et_þgf_hk_sb
+26	í	í	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
+27	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	29	nmod	_	tag=fn_et_þgf_hk
+28	nánasta	náinn	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	29	amod	_	tag=lo_et_þgf_hk_evb
+29	umhverfi	umhverfi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+30	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+>>>>>>> master
 
 # sent_id = GREYNIR_CORPUS_00324,.3
 # text = Þess er getið í skýrslu ICCT að eldsneytisnýtingin hjá Icelandair ætti að lækka á næstu árum með tilkomu nýrra Boeing MAX þota sem félagið er nú að taka í notkun.
@@ -223,11 +255,19 @@
 16	beina	beina	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	VANTAR_LIÐ_IP_None	_	tag=so_0_nh_gm
 17	stuðningi	stuðningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obj	_	tag=no_et_þgf_kk
 18	þangað	þangað	ADV	ao	_	17	obl	_	tag=ao
+<<<<<<< HEAD
 19	sem	sem	SCONJ	stt	_	23	mark	_	tag=stt
 20	þörfin	þörf	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	tag=no_et_nf_kvk_gr
 21	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	cop	_	tag=so_0_fh_p3_et_nt_gm
 22	talin	telja	VERB	so_2_þgf_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	23	('HALLÓ_so', '2_þgf_þf_lhþt_et', 'NP', 'PRD')	_	tag=so_2_þgf_þf_lhþt_et
 23	mest	mikill	ADJ	lo_et_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	18	advcl	_	tag=lo_et_nf_hk_esb
+=======
+19	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
+20	þörfin	þörf	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	nsubj	_	tag=no_et_nf_kvk_gr
+21	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_0_fh_p3_et_nt_gm
+22	talin	telja	VERB	so_2_þgf_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	18	advcl	_	tag=so_2_þgf_þf_lhþt_et
+23	mest	mikill	ADJ	lo_et_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	22	amod	_	tag=lo_et_nf_hk_esb
+>>>>>>> master
 24	og	og	CCONJ	st	_	11	cc	_	tag=st
 25	framlögin	framlag	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	26	nsubj	_	tag=no_ft_nf_hk_gr
 26	koma	koma	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	VANTAR_LIÐ_IP_None	_	tag=so_0_fh_p3_ft_nt_gm
@@ -308,13 +348,21 @@
 
 # sent_id = GREYNIR_CORPUS_00324,.10
 # text = En, ekki er boðið uppá ræðuhöld um málið á þessu stigi, þannig að hver og einn þingmaður hefur takmarkaðan tíma til að gera ítarlega grein fyrir afstöðu sinni.
+<<<<<<< HEAD
 1	En	en	SCONJ	st	_	13	cc	_	SpaceAfter=No|tag=st
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	ekki	ekki	ADV	ao	_	13	advmod	_	tag=ao
 4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	boðið	bjóða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	('HALLÓ_so', '0_lhþt_et', 'NP', 'PRD')	_	tag=so_0_lhþt_et
+=======
+1	En	en	SCONJ	st	_	5	cc	_	SpaceAfter=No|tag=st
+2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
+3	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
+4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
+5	boðið	bjóða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+>>>>>>> master
 6	uppá	uppá	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	ræðuhöld	ræðuhald	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_þf_hk
+7	ræðuhöld	ræðuhald	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_þf_hk
 8	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	málið	mál	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk_gr
 10	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
@@ -327,7 +375,7 @@
 17	og	og	CCONJ	st	_	19	cc	_	tag=st
 18	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	tag=fn_et_nf_kk
 19	þingmaður	þingmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	tag=no_et_nf_kk
-20	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
+20	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 21	takmarkaðan	takmarkaður	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	22	amod	_	tag=lo_et_þf_kk_sb
 22	tíma	tími	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	tag=no_et_þf_kk
 23	til	til	ADP	fs_nh	VerbForm=Inf	25	case	_	tag=fs_nh
@@ -338,5 +386,9 @@
 28	fyrir	fyrir	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
 29	afstöðu	afstaða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	tag=no_et_þgf_kvk
 30	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kvk
+<<<<<<< HEAD
 31	.	_	PUNCT	grm	_	29	punct	_	tag=grm
+=======
+31	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+>>>>>>> master
 

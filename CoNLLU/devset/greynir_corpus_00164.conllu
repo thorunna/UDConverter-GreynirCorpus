@@ -17,7 +17,11 @@
 15	heimildir	heimild	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	tag=no_ft_þf_kvk
 16	sínar	sinn	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	15	nmod	_	tag=fn_ft_þf_kvk
 17	til	til	ADP	fs_nh	VerbForm=Inf	20	case	_	tag=fs_nh
+<<<<<<< HEAD
 18	að	að	X	x		20	mark	_	tag=x
+=======
+18	að	að	X	x		20	dep	_	tag=x
+>>>>>>> master
 19	að	að	PART	nhm	_	18	mark	_	tag=nhm
 20	setja	setja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	12	obl	_	tag=so_1_þf_nh_gm
 21	reglur	regla	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	tag=no_ft_þf_kvk
@@ -279,6 +283,8 @@
 27	ár	ár	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	25	advmod	_	SpaceAfter=No|tag=no_ft_þf_hk
 28	.	_	PUNCT	grm	_	11	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00164,.10
+# text = Þar verður einnig boðið upp á reynsluakstur og rjúkandi heitt Lavazza kaffi, en fjöldi góðra og skemmilegra akstursleiða er að finna í nágrenni fyrirtækisins í Mosfellsbæ.
 1	Þar	þar	ADV	ao	_	4	advmod	_	tag=ao
 2	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	einnig	einnig	ADV	eo	_	4	advmod	_	tag=eo
@@ -290,7 +296,7 @@
 9	rjúkandi	rjúkandi	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	tag=lo_et_þf_hk_sb
 10	heitt	heitur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þf_hk_sb
 11	Lavazza	Lavazza	PROPN	fyrirtæki	_	7	conj	_	tag=fyrirtæki
-12	kaffi	kaffi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	tag=no_et_þf_hk
+12	kaffi	kaffi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|tag=no_et_þf_hk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	en	en	CCONJ	st	_	4	cc	_	tag=st
 15	fjöldi	fjöldi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	tag=no_et_nf_kk
@@ -305,6 +311,6 @@
 24	nágrenni	nágrenni	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	tag=no_et_þgf_hk
 25	fyrirtækisins	fyrirtæki	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	24	nmod:poss	_	tag=no_et_ef_hk_gr
 26	í	í	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
-27	Mosfellsbæ	Mosfellsbær	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	tag=sérnafn_et_þgf_kk
+27	Mosfellsbæ	Mosfellsbær	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk
 28	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
