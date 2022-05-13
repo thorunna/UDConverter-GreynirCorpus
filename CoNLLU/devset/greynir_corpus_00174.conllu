@@ -2,7 +2,7 @@
 # text = Á meðan íslenska liðið hefur átt í vandræðum með að skora að undanförnu fékk Frakkland ekki mark á sig í undankeppninni og er ósigrað í ellefu leikjum á árinu.
 1-2	Á meðan	_	_	_	_	_	_	_	_
 1	Á	á	SCONJ	st	_	6	mark	_	tag=st
-2	meðan	meðan	SCONJ	st	_	1	fixed	_	tag=st
+2	meðan	meðan	SCONJ	st	_	1	_	_	tag=st
 3	íslenska	íslenskur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_nf_hk_vb
 4	liðið	lið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk_gr
 5	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -120,7 +120,7 @@
 17-19	engu að síður	_	_	_	_	_	_	_	_
 17	engu	engu	ADV	ao	_	16	advmod	_	tag=ao
 18	að	að	ADV	ao	_	17	fixed	_	tag=ao
-19	síður	síður	ADV	ao	_	18	fixed	_	tag=ao
+19	síður	síður	ADV	ao	_	17	fixed	_	tag=ao
 20	allt	allur	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=fn_et_þf_hk
 21	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nmod	_	tag=pfn_et_þf_hk_p3
 22	sem	sem	SCONJ	stt	_	24	mark	_	tag=stt
@@ -192,7 +192,7 @@
 23	að	að	PART	nhm	_	24	mark	_	tag=nhm
 24	ræða	ræða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	22	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
 25	,	_	PUNCT	grm	_	24	punct	_	tag=grm
-26	þ.e.	þ.e.	NOUN	abbrev	_	28	flat:name	_	tag=abbrev
+26	þ.e.	þ.e.	NOUN	abbrev	_	28	flat	_	tag=abbrev
 27	ekki	ekki	ADV	eo	_	28	advmod	_	tag=eo
 28	starfsmanna	starfsmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	22	obl	_	tag=no_ft_ef_kk
 29	flugrekanda	flugrekandi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	28	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
@@ -241,13 +241,13 @@
 6-8	á sama tíma	_	_	_	_	_	_	_	_
 6	á	á	ADV	ao	_	9	advmod	_	tag=ao
 7	sama	sama	ADV	ao	_	6	fixed	_	tag=ao
-8	tíma	tíma	ADV	ao	_	7	fixed	_	tag=ao
+8	tíma	tíma	ADV	ao	_	6	fixed	_	tag=ao
 9	numið	nema	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
 10	um	um	ADV	eo	_	11	advmod	_	tag=eo
 11-13	120 milljónum dala	_	_	_	_	_	_	_	_
 11	120	120	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	9	obj	_	tag=no_ft_þgf_kvk
-12	milljónum	milljónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	fixed	_	tag=no_ft_þgf_kvk
-13	dala	dala	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	fixed	_	tag=no_ft_þgf_kvk
+12	milljónum	milljónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	_	_	tag=no_ft_þgf_kvk
+13	dala	dala	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	_	_	tag=no_ft_þgf_kvk
 14	en	en	CCONJ	st	_	9	cc	_	tag=st
 15	meðal	meðal	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
 16	helstu	heldri	ADJ	lo_ft_ef_kvk_evb	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	17	amod	_	tag=lo_ft_ef_kvk_evb

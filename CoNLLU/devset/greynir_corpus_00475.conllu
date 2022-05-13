@@ -14,13 +14,13 @@
 12	e.	enska	ADV	eo	_	13	advmod	_	tag=eo
 13-18	Human Rights and Development Trust Fund	_	_	_	_	_	_	_	_
 13	Human	Human	PROPN	entity	_	10	VANTAR_LIÐ-obl?	_	SpaceAfter=No|tag=entity
-14	Rights	Rights	PROPN	entity	_	13	fixed	_	SpaceAfter=No|tag=entity
-15	and	and	PROPN	entity	_	14	fixed	_	SpaceAfter=No|tag=entity
-16	Development	Development	PROPN	entity	_	15	fixed	_	SpaceAfter=No|tag=entity
-17	Trust	Trust	PROPN	entity	_	16	fixed	_	SpaceAfter=No|tag=entity
-18	Fund	Fund	PROPN	entity	_	17	fixed	_	SpaceAfter=No|tag=entity
+14	Rights	Rights	PROPN	entity	_	13	flat	_	SpaceAfter=No|tag=entity
+15	and	and	PROPN	entity	_	13	flat	_	SpaceAfter=No|tag=entity
+16	Development	Development	PROPN	entity	_	13	flat	_	SpaceAfter=No|tag=entity
+17	Trust	Trust	PROPN	entity	_	13	flat	_	SpaceAfter=No|tag=entity
+18	Fund	Fund	PROPN	entity	_	13	flat	_	SpaceAfter=No|tag=entity
 19	,	,	PUNCT	grm	_	13	punct	_	tag=grm
-20	HRDTF	HRDTF	NOUN	abbrev	_	13	flat:name	_	SpaceAfter=No|tag=abbrev
+20	HRDTF	HRDTF	NOUN	abbrev	_	13	flat	_	SpaceAfter=No|tag=abbrev
 21	&#41;	&#41;	PUNCT	grm	_	20	punct	_	tag=grm
 22	og	og	CCONJ	st	_	6	cc	_	tag=st
 23	endurspeglar	endurspegla	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -77,8 +77,8 @@
 7	skipuleggur	skipuleggja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 8-10	mennta- og menningarmálaráðuneyti	_	_	_	_	_	_	_	_
 8	mennta-	mennta-	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk
-9	og	og	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	fixed	_	tag=no_et_nf_hk
-10	menningarmálaráðuneyti	menningarmálaráðuneyti	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	fixed	_	tag=no_et_nf_hk
+9	og	og	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	_	_	tag=no_et_nf_hk
+10	menningarmálaráðuneyti	menningarmálaráðuneyti	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	_	_	tag=no_et_nf_hk
 11	sumarlestrarleik	sumarlestrarleikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	tag=no_et_þf_kk
 12	með	með	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 13	góðri	góður	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_þgf_kvk_sb
@@ -170,7 +170,7 @@
 1-3	Á þeim tíma	_	_	_	_	_	_	_	_
 1	Á	á	ADV	ao	_	6	advmod	_	tag=ao
 2	þeim	þeim	ADV	ao	_	1	fixed	_	tag=ao
-3	tíma	tíma	ADV	ao	_	2	fixed	_	tag=ao
+3	tíma	tíma	ADV	ao	_	1	fixed	_	tag=ao
 4	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_ft_nt_gm
 5	aðilar	aðili	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	tag=no_ft_nf_kk
 6	átt	eiga	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
@@ -205,7 +205,7 @@
 1	Þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_þf_kk
 2-3	13. júlí	_	_	_	_	_	_	_	_
 2	13.	13.	ADV	dagsafs	_	8	advmod	_	tag=dagsafs
-3	júlí	júlí	NUM?	dagsafs	_	2	fixed	_	tag=dagsafs
+3	júlí	júlí	NUM?	dagsafs	_	2	flat	_	tag=dagsafs
 4	hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_þt_gm
 5	233	233	NUM	tala_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_þgf_kk
 6	löxum	lax	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	8	nsubj	_	tag=no_ft_þgf_kk
@@ -228,7 +228,7 @@
 23-25	á sama tíma	_	_	_	_	_	_	_	_
 23	á	á	ADV	ao	_	28	advmod	_	tag=ao
 24	sama	sama	ADV	ao	_	23	fixed	_	tag=ao
-25	tíma	tíma	ADV	ao	_	24	fixed	_	tag=ao
+25	tíma	tíma	ADV	ao	_	23	fixed	_	tag=ao
 26	í	í	ADV	fs_þf	Case=Acc	23	advmod	_	tag=fs_þf
 27	fyrra	fyrri	ADJ	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	26	obl	_	tag=lo_et_þf_hk_mst
 28	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_ft_þt_gm

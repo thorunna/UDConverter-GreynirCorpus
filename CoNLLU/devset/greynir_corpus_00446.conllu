@@ -2,7 +2,7 @@
 # text = Upp úr álverinu rís 78 metra langur skorsteinn og upp um hann streymir heitt loft, orka sem mögulega verður nýtt í framtíðinni.
 1-2	Upp úr	_	_	_	_	_	_	_	_
 1	Upp	upp	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
-2	úr	úr	ADP	fs_þgf	Case=Dat	1	fixed	_	tag=fs_þgf
+2	úr	úr	ADP	fs_þgf	Case=Dat	1	_	_	tag=fs_þgf
 3	álverinu	álver	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk_gr
 4	rís	rísa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	78	78	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_ef_kk
@@ -31,7 +31,7 @@
 1-3	Í það minnsta	_	_	_	_	_	_	_	_
 1	Í	í	ADV	eo	_	5	advmod	_	tag=eo
 2	það	það	ADV	eo	_	1	fixed	_	tag=eo
-3	minnsta	minnsta	ADV	eo	_	2	fixed	_	tag=eo
+3	minnsta	minnsta	ADV	eo	_	1	fixed	_	tag=eo
 4	tvö	tveir	NUM	to_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nummod	_	tag=to_ft_nf_hk
 5	flugfélög	flugfélag	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	SpaceAfter=No|tag=no_ft_nf_hk
 6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
@@ -48,7 +48,7 @@
 17	falls	fall	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_ef_hk
 18-19	WOW air	_	_	_	_	_	_	_	_
 18	WOW	WOW	PROPN	fyrirtæki	_	17	nmod:poss	_	tag=fyrirtæki
-19	air	air	PROPN	fyrirtæki	_	18	fixed	_	tag=fyrirtæki
+19	air	air	PROPN	fyrirtæki	_	18	flat	_	tag=fyrirtæki
 20	að	að	PART	nhm	_	21	mark	_	tag=nhm
 21	kaupa	kaup	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	xcomp	_	tag=so_1_þf_nh_gm
 22	miða	mið	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	21	obj	_	tag=no_ft_þf_kk
@@ -184,7 +184,7 @@
 20	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 21-22	Alda Hrönn	_	_	_	_	_	_	_	_
 21	Alda	Alda	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	20	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-22	Hrönn	Hrönn	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	21	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+22	Hrönn	Hrönn	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	21	_	_	SpaceAfter=No|tag=person_nf_kvk
 23	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00446,.8
@@ -222,7 +222,7 @@
 3	yfir	yfir	ADV	eo	_	6	advmod	_	tag=eo
 4-5	þremur milljónum	_	_	_	_	_	_	_	_
 4	þremur	þremur	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	6	nummod	_	tag=töl_ft_ef_kvk
-5	milljónum	milljónum	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	4	fixed	_	tag=töl_ft_ef_kvk
+5	milljónum	milljónum	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	4	_	_	tag=töl_ft_ef_kvk
 6	manna	manna	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	2	iobj	_	tag=no_ft_ef_kk
 7	aðstoð	aðstoð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
 8	en	en	CCONJ	st	_	2	cc	_	tag=st

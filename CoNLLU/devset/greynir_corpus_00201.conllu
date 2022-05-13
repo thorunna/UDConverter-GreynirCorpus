@@ -124,7 +124,7 @@
 # text = Þrátt fyrir verstu skotárás í sögu Bandaríkjanna, þar sem 49 létu lífið og 53 særðust þegar Omar Mateen hóf skothríð á skemmtistaðnum Pulse í Orlando, þá virðist bandaríska þingið ekki geta komið sér saman um aðgerðir til að vinna gegn því að hættulegt fólk komist yfir byssur sem hannaðar eru til þess að drepa fólk.
 1-2	Þrátt fyrir	_	_	_	_	_	_	_	_
 1	Þrátt	þrátt	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
-2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	fixed	_	tag=fs_þf
+2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	_	_	tag=fs_þf
 3	verstu	illur	ADJ	lo_et_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_þf_kvk_evb
 4	skotárás	skotárás	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	34	obl	_	tag=no_et_þf_kvk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -142,7 +142,7 @@
 17	þegar	þegar	SCONJ	st	_	20	mark	_	tag=st
 18-19	Omar Mateen	_	_	_	_	_	_	_	_
 18	Omar	Omar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	tag=person_et_nf_kk
-19	Mateen	Mateen	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	fixed	_	tag=person_et_nf_kk
+19	Mateen	Mateen	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	_	_	tag=person_et_nf_kk
 20	hóf	hefja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	advcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 21	skothríð	skothríð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	tag=no_et_þf_kvk
 22	á	á	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
@@ -226,7 +226,7 @@
 39	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 40-41	Jón Þórðarson	_	_	_	_	_	_	_	_
 40	Jón	Jón	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-41	Þórðarson	Þórðarson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	40	fixed	_	SpaceAfter=No|tag=person_et_nf_kk
+41	Þórðarson	Þórðarson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	40	_	_	SpaceAfter=No|tag=person_et_nf_kk
 42	,	_	PUNCT	grm	_	40	punct	_	tag=grm
 43	sveitarstjóri	sveitarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	40	obl	_	tag=no_et_nf_kk
 44	á	á	ADP	fs_þgf	Case=Dat	45	case	_	tag=fs_þgf
@@ -282,7 +282,7 @@
 33	í	í	ADP	fs_þgf	Case=Dat	34	case	_	tag=fs_þgf
 34-35	Icelandair Group	_	_	_	_	_	_	_	_
 34	Icelandair	Icelandair	PROPN	fyrirtæki	_	32	obl	_	SpaceAfter=No|tag=fyrirtæki
-35	Group	Group	PROPN	fyrirtæki	_	34	fixed	_	SpaceAfter=No|tag=fyrirtæki
+35	Group	Group	PROPN	fyrirtæki	_	34	flat	_	SpaceAfter=No|tag=fyrirtæki
 36	,	_	PUNCT	grm	_	37	punct	_	tag=grm
 37	fjölmiðlaumfjöllun	fjölmiðlaumfjöllun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	31	conj	_	tag=no_et_þf_kvk
 38	um	um	ADP	fs_þf	Case=Acc	39	case	_	tag=fs_þf
@@ -298,10 +298,10 @@
 48	eða	eða	CCONJ	st	_	46	cc	_	tag=st
 49-50	fyrir hönd	_	_	_	_	_	_	_	_
 49	fyrir	fyrir	ADP	fs_ef	Case=Gen	51	case	_	tag=fs_ef
-50	hönd	hönd	ADP	fs_ef	Case=Gen	49	fixed	_	tag=fs_ef
+50	hönd	hönd	ADP	fs_ef	Case=Gen	49	_	_	tag=fs_ef
 51-52	VIP Travel	_	_	_	_	_	_	_	_
 51	VIP	VIP	PROPN	fyrirtæki	_	46	obl	_	SpaceAfter=No|tag=fyrirtæki
-52	Travel	Travel	PROPN	fyrirtæki	_	51	fixed	_	SpaceAfter=No|tag=fyrirtæki
+52	Travel	Travel	PROPN	fyrirtæki	_	51	flat	_	SpaceAfter=No|tag=fyrirtæki
 53	,	_	PUNCT	grm	_	46	punct	_	tag=grm
 54	um	um	ADP	fs_þf	Case=Acc	55	case	_	tag=fs_þf
 55	viðskipti	viðskipti	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	46	obl	_	tag=no_ft_þf_hk
@@ -314,7 +314,7 @@
 1-3	Hér á landi	_	_	_	_	_	_	_	_
 1	Hér	hér	ADV	ao	_	8	advmod	_	tag=ao
 2	á	á	ADV	ao	_	1	fixed	_	tag=ao
-3	landi	landi	ADV	ao	_	2	fixed	_	tag=ao
+3	landi	landi	ADV	ao	_	1	fixed	_	tag=ao
 4	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
 5	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kk_p3
 6	líklega	líklega	ADV	ao	_	8	advmod	_	tag=ao
@@ -330,7 +330,7 @@
 16	um	um	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
 17-18	Harry Potter	_	_	_	_	_	_	_	_
 17	Harry	Harry	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|tag=person_et_þf_kk
-18	Potter	Potter	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	fixed	_	SpaceAfter=No|tag=person_et_þf_kk
+18	Potter	Potter	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	_	_	SpaceAfter=No|tag=person_et_þf_kk
 19	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 20	þar	þar	ADV	ao	_	15	advmod	_	tag=ao
 21	sem	sem	SCONJ	st	_	23	mark	_	tag=st
@@ -341,18 +341,18 @@
 26	prófessorsins	prófessor	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	nmod:poss	_	tag=no_et_ef_kk_gr
 27-28	Severus Snape	_	_	_	_	_	_	_	_
 27	Severus	Severus	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|tag=person_et_ef_kk
-28	Snape	Snape	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	27	fixed	_	SpaceAfter=No|tag=person_et_ef_kk
+28	Snape	Snape	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	27	_	_	SpaceAfter=No|tag=person_et_ef_kk
 29	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 30	vondi	vondur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	13	obl	_	tag=lo_et_nf_kk_vb
 31	Þjóðverjinn	Þjóðverji	PROPN	sérnafn_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	conj	_	tag=sérnafn_et_nf_kk_gr
 32-33	Hans Gruber	_	_	_	_	_	_	_	_
 32	Hans	Hans	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	tag=person_et_nf_kk
-33	Gruber	Gruber	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	32	fixed	_	tag=person_et_nf_kk
+33	Gruber	Gruber	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	32	_	_	tag=person_et_nf_kk
 34	í	í	ADP	fs_þgf	Case=Dat	38	case	_	tag=fs_þgf
 35	fyrstu	fyrstur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	38	amod	_	tag=lo_et_þgf_kvk_vb
 36-37	Die Hard	_	_	_	_	_	_	_	_
 36	Die	Die	X	foreign	_	38	flat:foreign	_	tag=foreign
-37	Hard	Hard	X	foreign	_	36	fixed	_	tag=foreign
+37	Hard	Hard	X	foreign	_	36	flat:foreign	_	tag=foreign
 38	myndinni	mynd	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
 39	,	_	PUNCT	grm	_	38	punct	_	tag=grm
 40	hinn	hinn	DET	gr_et_nf_kk	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	det	_	tag=gr_et_nf_kk
@@ -364,12 +364,12 @@
 46	í	í	ADP	fs_þgf	Case=Dat	47	case	_	tag=fs_þgf
 47-48	Robin Hood	_	_	_	_	_	_	_	_
 47	Robin	Robin	X	foreign	_	13	obl	_	SpaceAfter=No|tag=foreign
-48	Hood	Hood	X	foreign	_	47	fixed	_	SpaceAfter=No|tag=foreign
+48	Hood	Hood	X	foreign	_	47	flat:foreign	_	SpaceAfter=No|tag=foreign
 49	:	_	PUNCT	grm	_	47	punct	_	tag=grm
 50-52	Prince of Thieves	_	_	_	_	_	_	_	_
 50	Prince	Prince	X	foreign	_	47	flat:foreign	_	SpaceAfter=No|tag=foreign
-51	of	of	X	foreign	_	50	fixed	_	SpaceAfter=No|tag=foreign
-52	Thieves	Thieves	X	foreign	_	51	fixed	_	SpaceAfter=No|tag=foreign
+51	of	of	X	foreign	_	50	flat:foreign	_	SpaceAfter=No|tag=foreign
+52	Thieves	Thieves	X	foreign	_	51	flat:foreign	_	SpaceAfter=No|tag=foreign
 53	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 54	og	og	CCONJ	st	_	10	cc	_	tag=st
 55	svo	svo	ADV	ao	_	10	advmod	_	tag=ao
@@ -380,7 +380,7 @@
 60	,	_	PUNCT	grm	_	59	punct	_	tag=grm
 61-62	Love Actually	_	_	_	_	_	_	_	_
 61	Love	Love	X	foreign	_	58	obl	_	SpaceAfter=No|tag=foreign
-62	Actually	Actually	X	foreign	_	61	fixed	_	SpaceAfter=No|tag=foreign
+62	Actually	Actually	X	foreign	_	61	flat:foreign	_	SpaceAfter=No|tag=foreign
 63	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00201,.7
@@ -391,7 +391,7 @@
 4	en	en	CCONJ	st	_	5	cc	_	tag=st
 5-6	árið 2030	_	_	_	_	_	_	_	_
 5	árið	árið	NUM	ártal	_	3	advcl	_	tag=ártal
-6	2030	2030	NUM	ártal	_	5	fixed	_	tag=ártal
+6	2030	2030	NUM	ártal	_	5	flat	_	tag=ártal
 7	verði	verða	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_vh_p3_et_nt_gm
 8	bundinn	bundinn	VERB	so_0_lhþt_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_kk_sb
 9	endir	endir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
@@ -425,7 +425,7 @@
 37-39	að minnsta kosti	_	_	_	_	_	_	_	_
 37	að	að	ADV	ao	_	35	advmod	_	tag=ao
 38	minnsta	minnsta	ADV	ao	_	37	fixed	_	tag=ao
-39	kosti	kosti	ADV	ao	_	38	fixed	_	tag=ao
+39	kosti	kosti	ADV	ao	_	37	fixed	_	tag=ao
 40	niður	niður	ADV	ao	_	42	advmod	_	tag=ao
 41	í	í	ADP	fs_þf	Case=Acc	42	case	_	tag=fs_þf
 42	12	12	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	35	obl	_	tag=tala_ft_þf_kvk
@@ -445,7 +445,7 @@
 56-58	að minnsta kosti	_	_	_	_	_	_	_	_
 56	að	að	ADV	ao	_	35	advmod	_	tag=ao
 57	minnsta	minnsta	ADV	ao	_	56	fixed	_	tag=ao
-58	kosti	kosti	ADV	ao	_	57	fixed	_	tag=ao
+58	kosti	kosti	ADV	ao	_	56	fixed	_	tag=ao
 59	niður	niður	ADV	ao	_	65	advmod	_	tag=ao
 60	í	í	ADP	fs_þf	Case=Acc	65	case	_	tag=fs_þf
 61	25	25	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	65	nummod	_	tag=tala_ft_þf_kvk
@@ -536,7 +536,7 @@
 # text = Sólveig Anna var í ljósi þess sem hefur verið að gerast á skrifstofu Eflingar að undanförnu, spurð hvort draga mætti þá ályktun að Sósíalistaflokkurinn væri að taka yfir öll völd í 19 þúsund manna stéttarfélagi : Ég held bara að ég svari þessu þannig, að ég hljóti að vera bundin fullum trúnaði um þessi mál og ég kýs að tjá mig ekki um innri mál skrifstofunnar, sökum trúnaðar við starfsfólk, sagði Sólveig Anna.
 1-2	Sólveig Anna	_	_	_	_	_	_	_	_
 1	Sólveig	Sólveig	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	18	obl	_	tag=person_et_nf_kvk
-2	Anna	Anna	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	fixed	_	tag=person_et_nf_kvk
+2	Anna	Anna	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	_	_	tag=person_et_nf_kvk
 3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	aux	_	tag=so_0_fh_p3_et_þt_gm
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	ljósi	ljós	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	tag=no_et_þgf_hk
@@ -570,7 +570,7 @@
 32	í	í	ADP	fs_þgf	Case=Dat	36	case	_	tag=fs_þgf
 33-34	19 þúsund	_	_	_	_	_	_	_	_
 33	19	19	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	35	nummod	_	tag=tala_ft_ef_kk
-34	þúsund	þúsund	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	33	fixed	_	tag=tala_ft_ef_kk
+34	þúsund	þúsund	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	33	_	_	tag=tala_ft_ef_kk
 35	manna	maður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	36	obl	_	tag=no_ft_ef_kk
 36	stéttarfélagi	stéttarfélag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	31	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 37	:	:	PUNCT	grm	_	36	punct	_	tag=grm
@@ -614,7 +614,7 @@
 75	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	39	ccomp	_	tag=so_0_fh_p3_et_þt_gm
 76-77	Sólveig Anna	_	_	_	_	_	_	_	_
 76	Sólveig	Sólveig	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	75	nsubj	_	SpaceAfter=No|tag=person_et_nf_kvk
-77	Anna	Anna	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	76	fixed	_	SpaceAfter=No|tag=person_et_nf_kvk
+77	Anna	Anna	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	76	_	_	SpaceAfter=No|tag=person_et_nf_kvk
 78	.	.	PUNCT	grm	_	18	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00201,.10
@@ -706,6 +706,6 @@
 84	kvöld	kvöld	ADV	ao	_	83	fixed	_	tag=ao
 85-86	klukkan 20	_	_	_	_	_	_	_	_
 85	klukkan	klukkan	ADV	tími	_	74	advmod	_	SpaceAfter=No|tag=tími
-86	20	20	?	tími	_	85	fixed	_	SpaceAfter=No|tag=tími
+86	20	20	NUM	tími	_	85	flat	_	SpaceAfter=No|tag=tími
 87	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 

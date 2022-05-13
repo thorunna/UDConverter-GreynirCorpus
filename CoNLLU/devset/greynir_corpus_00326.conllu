@@ -70,8 +70,8 @@
 # text = Haraldur Dean Nelson framkvæmdastjóri Mjölnis segir félagið mjög stolt af samstarfinu við Háskólann í Reykjavík og vonast til að þetta verði aðeins fyrstu skrefin að mörgum í samstarfi Mjölnis við háskólann.
 1-3	Haraldur Dean Nelson	_	_	_	_	_	_	_	_
 1	Haraldur	Haraldur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-2	Dean	Dean	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
-3	Nelson	Nelson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+2	Dean	Dean	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+3	Nelson	Nelson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
 4	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Mjölnis	Mjölnir	PROPN	fyrirtæki_ef_kk	Case=Gen|Gender=Masc	4	nmod:poss	_	tag=fyrirtæki_ef_kk
 6	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -106,7 +106,7 @@
 # text = Þórhildur Stefánsdóttir, sem hefur tekið fram skóna eftir nokkurra ára hlé, skoraði tvö mörk fyrir HK Víking sem vann Hvíta riddarann 5 : 0 á Tungubökkum í Mosfellsbæ.
 1-2	Þórhildur Stefánsdóttir	_	_	_	_	_	_	_	_
 1	Þórhildur	Þórhildur	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	Stefánsdóttir	Stefánsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+2	Stefánsdóttir	Stefánsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	SpaceAfter=No|tag=person_nf_kvk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -209,11 +209,11 @@
 # text = Tammy Abraham kom Aston Villa yfir undir lok fyrri hálfleiks en Ahmed El Mohamady, leikmaður Aston Villa varð fyrir því óláni að skora sjálfsmark þegar um klukkutími var liðinn af leiknum.
 1-2	Tammy Abraham	_	_	_	_	_	_	_	_
 1	Tammy	Tammy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Abraham	Abraham	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Abraham	Abraham	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 4-5	Aston Villa	_	_	_	_	_	_	_	_
 4	Aston	Aston	PROPN	fyrirtæki	_	3	obj	_	tag=fyrirtæki
-5	Villa	Villa	PROPN	fyrirtæki	_	4	fixed	_	tag=fyrirtæki
+5	Villa	Villa	PROPN	fyrirtæki	_	4	flat	_	tag=fyrirtæki
 6	yfir	yfir	ADV	ao	_	3	advmod	_	tag=ao
 7	undir	undir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	lok	lok	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þf_hk
@@ -222,13 +222,13 @@
 11	en	en	CCONJ	st	_	3	cc	_	tag=st
 12-14	Ahmed El Mohamady	_	_	_	_	_	_	_	_
 12	Ahmed	Ahmed	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-13	El	El	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	SpaceAfter=No|tag=person_nf_kk
-14	Mohamady	Mohamady	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	fixed	_	SpaceAfter=No|tag=person_nf_kk
+13	El	El	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	_	_	SpaceAfter=No|tag=person_nf_kk
+14	Mohamady	Mohamady	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	_	_	SpaceAfter=No|tag=person_nf_kk
 15	,	,	PUNCT	grm	_	14	punct	_	tag=grm
 16	leikmaður	leikmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_nf_kk
 17-18	Aston Villa	_	_	_	_	_	_	_	_
 17	Aston	Aston	PROPN	fyrirtæki	_	16	nmod:poss	_	tag=fyrirtæki
-18	Villa	Villa	PROPN	fyrirtæki	_	17	fixed	_	tag=fyrirtæki
+18	Villa	Villa	PROPN	fyrirtæki	_	17	flat	_	tag=fyrirtæki
 19	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
 20	fyrir	fyrir	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 21	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	22	nmod	_	tag=fn_et_þgf_hk
@@ -261,19 +261,19 @@
 12	meistarabikarinn	meistarabikar	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þf_kk_gr
 13-14	14. ágúst	_	_	_	_	_	_	_	_
 13	14.	14.	ADV	dagsafs	_	2	advmod	_	SpaceAfter=No|tag=dagsafs
-14	ágúst	ágúst	NUM?	dagsafs	_	13	fixed	_	SpaceAfter=No|tag=dagsafs
+14	ágúst	ágúst	NUM?	dagsafs	_	13	flat	_	SpaceAfter=No|tag=dagsafs
 15	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 16	og	og	CCONJ	st	_	2	cc	_	tag=st
 17	leikur	leika	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 18	gegn	gegn	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19-20	Werder Bremen	_	_	_	_	_	_	_	_
 19	Werder	Werder	PROPN	fyrirtæki	_	17	obl	_	SpaceAfter=No|tag=fyrirtæki
-20	Bremen	Bremen	PROPN	fyrirtæki	_	19	fixed	_	SpaceAfter=No|tag=fyrirtæki
+20	Bremen	Bremen	PROPN	fyrirtæki	_	19	flat	_	SpaceAfter=No|tag=fyrirtæki
 21	,	_	PUNCT	grm	_	19	punct	_	tag=grm
 22	liði	lið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_þgf_hk
 23-24	Arons Jóhannssonar	_	_	_	_	_	_	_	_
 23	Arons	Aron	PROPN	person_ef_kk	Case=Gen|Gender=Masc	22	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-24	Jóhannssonar	Jóhannsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	23	fixed	_	SpaceAfter=No|tag=person_ef_kk
+24	Jóhannssonar	Jóhannsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	23	_	_	SpaceAfter=No|tag=person_ef_kk
 25	,	_	PUNCT	grm	_	19	punct	_	tag=grm
 26	í	í	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
 27	fyrstu	fyrstur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	28	amod	_	tag=lo_et_þgf_kvk_vb
@@ -282,7 +282,7 @@
 30	deildarinnar	deild	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod:poss	_	tag=no_et_ef_kvk_gr
 31-32	26. ágúst	_	_	_	_	_	_	_	_
 31	26.	26.	ADV	dagsafs	_	17	advmod	_	SpaceAfter=No|tag=dagsafs
-32	ágúst	ágúst	NUM?	dagsafs	_	31	fixed	_	SpaceAfter=No|tag=dagsafs
+32	ágúst	ágúst	NUM?	dagsafs	_	31	flat	_	SpaceAfter=No|tag=dagsafs
 33	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00326,.9
@@ -294,8 +294,8 @@
 5	dagblaðinu	dagblað	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk_gr
 6-8	New York Times	_	_	_	_	_	_	_	_
 6	New	New	PROPN	fyrirtæki	_	5	VANTAR_LIÐ-obl?	_	tag=fyrirtæki
-7	York	York	PROPN	fyrirtæki	_	6	fixed	_	tag=fyrirtæki
-8	Times	Times	PROPN	fyrirtæki	_	7	fixed	_	tag=fyrirtæki
+7	York	York	PROPN	fyrirtæki	_	6	flat	_	tag=fyrirtæki
+8	Times	Times	PROPN	fyrirtæki	_	6	flat	_	tag=fyrirtæki
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
 11	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
@@ -316,12 +316,12 @@
 26	kvikmyndin	kvikmynd	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	27	obl	_	tag=no_et_nf_kvk_gr
 27-28	Pulp Fiction	_	_	_	_	_	_	_	_
 27	Pulp	Pulp	PROPN	entity	_	30	nsubj	_	tag=entity
-28	Fiction	Fiction	PROPN	entity	_	27	fixed	_	tag=entity
+28	Fiction	Fiction	PROPN	entity	_	27	flat	_	tag=entity
 29	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	30	cop	_	tag=so_0_fh_p3_et_þt_gm
 30	frumsýnd	frumsýna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	15	advcl	_	tag=so_0_lhþt_et
 31-32	árið 1994	_	_	_	_	_	_	_	_
 31	árið	árið	ADV	ártal	_	30	advmod	_	SpaceAfter=No|tag=ártal
-32	1994	1994	NUM	ártal	_	31	fixed	_	SpaceAfter=No|tag=ártal
+32	1994	1994	NUM	ártal	_	31	flat	_	SpaceAfter=No|tag=ártal
 33	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 1	Yfir	yfir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf

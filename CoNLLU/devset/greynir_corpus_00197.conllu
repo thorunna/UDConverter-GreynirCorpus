@@ -46,7 +46,7 @@
 1	Ákvörðun	ákvörðun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	39	nsubj	_	tag=no_et_nf_kvk
 2-3	Harley Davidson	_	_	_	_	_	_	_	_
 2	Harley	Harley	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_hk
-3	Davidson	Davidson	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	fixed	_	tag=fyrirtæki_et_ef_hk
+3	Davidson	Davidson	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	_	_	tag=fyrirtæki_et_ef_hk
 4	um	um	ADP	fs_nh	VerbForm=Inf	6	case	_	tag=fs_nh
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	færa	færa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	obl	_	tag=so_1_þf_nh_gm
@@ -138,11 +138,11 @@
 4-6	fyrst og fremst	_	_	_	_	_	_	_	_
 4	fyrst	fyrst	ADV	ao	_	3	advmod	_	tag=ao
 5	og	og	ADV	ao	_	4	fixed	_	tag=ao
-6	fremst	fremst	ADV	ao	_	5	fixed	_	tag=ao
+6	fremst	fremst	ADV	ao	_	4	fixed	_	tag=ao
 7	að	að	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8-9	Hillary Clinton	_	_	_	_	_	_	_	_
 8	Hillary	Hillary	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	3	obl	_	tag=person_þgf_kvk
-9	Clinton	Clinton	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	8	fixed	_	tag=person_þgf_kvk
+9	Clinton	Clinton	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	8	_	_	tag=person_þgf_kvk
 10	sem	sem	SCONJ	stt	_	27	mark	_	SpaceAfter=No|tag=stt
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12-13	þrátt fyrir	_	_	_	_	_	_	_	_
@@ -175,7 +175,7 @@
 38	gegn	gegn	ADP	fs_þgf	Case=Dat	39	case	_	tag=fs_þgf
 39-40	Donald Trump	_	_	_	_	_	_	_	_
 39	Donald	Donald	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	34	obl	_	tag=person_þgf_kk
-40	Trump	Trump	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	39	fixed	_	tag=person_þgf_kk
+40	Trump	Trump	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	39	_	_	tag=person_þgf_kk
 41	í	í	ADP	fs_þgf	Case=Dat	42	case	_	tag=fs_þgf
 42	nóvember	nóvember	ADV	dagsafs	_	34	advmod	_	SpaceAfter=No|tag=dagsafs
 43	.	_	PUNCT	grm	_	3	punct	_	tag=grm
@@ -223,7 +223,7 @@
 39-41	aftur og aftur	_	_	_	_	_	_	_	_
 39	aftur	aftur	ADV	ao	_	37	advmod	_	SpaceAfter=No|tag=ao
 40	og	og	ADV	ao	_	39	fixed	_	SpaceAfter=No|tag=ao
-41	aftur	aftur	ADV	ao	_	40	fixed	_	SpaceAfter=No|tag=ao
+41	aftur	aftur	ADV	ao	_	39	fixed	_	SpaceAfter=No|tag=ao
 42	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00197,.6
@@ -243,7 +243,7 @@
 13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14-15	Nanci Pelosi	_	_	_	_	_	_	_	_
 14	Nanci	Nanci	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	12	obl	_	SpaceAfter=No|tag=person_þgf_kvk
-15	Pelosi	Pelosi	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	14	fixed	_	SpaceAfter=No|tag=person_þgf_kvk
+15	Pelosi	Pelosi	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	14	_	_	SpaceAfter=No|tag=person_þgf_kvk
 16	,	_	PUNCT	grm	_	14	punct	_	tag=grm
 17	forseta	forseti	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þf_kk
 18	fulltrúadeildar	fulltrúadeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	17	nmod:poss	_	tag=no_et_ef_kvk

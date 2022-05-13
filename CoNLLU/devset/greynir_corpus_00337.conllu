@@ -175,7 +175,7 @@
 40-42	þegar í stað	_	_	_	_	_	_	_	_
 40	þegar	þegar	ADV	ao	_	36	advmod	_	SpaceAfter=No|tag=ao
 41	í	í	ADV	ao	_	40	fixed	_	SpaceAfter=No|tag=ao
-42	stað	stað	ADV	ao	_	41	fixed	_	SpaceAfter=No|tag=ao
+42	stað	stað	ADV	ao	_	40	fixed	_	SpaceAfter=No|tag=ao
 43	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00337,.5
@@ -226,7 +226,7 @@
 # text = Sandra Joyce, aðstoðarforstjóri upplýsingamála hjá FirEye, segir meðlimi APT 38 gefa sér langan tíma og þá allt að tvö ár, til þess að læra það sem þeir geta um þá aðila sem þeir ráðast á og læra á kerfi þeirra.
 1-2	Sandra Joyce	_	_	_	_	_	_	_	_
 1	Sandra	Sandra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	Joyce	Joyce	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+2	Joyce	Joyce	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	SpaceAfter=No|tag=person_nf_kvk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	aðstoðarforstjóri	aðstoðarforstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	upplýsingamála	upplýsingamál	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	nmod:poss	_	tag=no_ft_ef_hk
@@ -351,7 +351,7 @@
 30	—	—	PUNCT	grm	_	29	punct	_	tag=grm
 31-32	3 punda	_	_	_	_	_	_	_	_
 31	3	3	?	mælieining	_	33	obl	_	tag=mælieining
-32	punda	pund	?	mælieining	_	31	fixed	_	tag=mælieining
+32	punda	pund	?	mælieining	_	31	_	_	tag=mælieining
 33	urriði	urriði	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	27	obl	_	tag=no_et_nf_kk
 34	í	í	ADP	fs_þgf	Case=Dat	36	case	_	tag=fs_þgf
 35	flestum	margur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	36	amod	_	tag=lo_ft_þgf_hk_sb
@@ -378,8 +378,8 @@
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9-11	The Washington Post	_	_	_	_	_	_	_	_
 9	The	The	PROPN	fyrirtæki	_	7	obl	_	SpaceAfter=No|tag=fyrirtæki
-10	Washington	Washington	PROPN	fyrirtæki	_	9	fixed	_	SpaceAfter=No|tag=fyrirtæki
-11	Post	Post	PROPN	fyrirtæki	_	10	fixed	_	SpaceAfter=No|tag=fyrirtæki
+10	Washington	Washington	PROPN	fyrirtæki	_	9	flat	_	SpaceAfter=No|tag=fyrirtæki
+11	Post	Post	PROPN	fyrirtæki	_	9	flat	_	SpaceAfter=No|tag=fyrirtæki
 12	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 13	þar	þar	ADV	ao	_	7	advmod	_	tag=ao
 14	sem	sem	SCONJ	stt	_	16	mark	_	tag=stt
@@ -441,15 +441,15 @@
 24	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_þt_gm
 25-26	Bjarni Benediktsson	_	_	_	_	_	_	_	_
 25	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	24	nsubj	_	tag=person_nf_kk
-26	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	25	fixed	_	tag=person_nf_kk
+26	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	25	_	_	tag=person_nf_kk
 27	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	25	obl	_	tag=no_et_nf_kk
 28	í	í	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
 29	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	tag=no_et_þgf_hk
 30	við	við	ADP	fs_þf	Case=Acc	31	case	_	tag=fs_þf
 31-33	Heimi Má Pétursson	_	_	_	_	_	_	_	_
 31	Heimi	Heimir	PROPN	person_þf_kk	Case=Acc|Gender=Masc	29	obl	_	tag=person_þf_kk
-32	Má	Már	PROPN	person_þf_kk	Case=Acc|Gender=Masc	31	fixed	_	tag=person_þf_kk
-33	Pétursson	Pétursson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	32	fixed	_	tag=person_þf_kk
+32	Má	Már	PROPN	person_þf_kk	Case=Acc|Gender=Masc	31	_	_	tag=person_þf_kk
+33	Pétursson	Pétursson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	32	_	_	tag=person_þf_kk
 34	,	_	PUNCT	grm	_	33	punct	_	tag=grm
 35	fréttamann	fréttamaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	31	obl	_	tag=no_et_þf_kk
 36	stöðvar	stöð	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	35	nmod:poss	_	tag=fyrirtæki_et_ef_kvk

@@ -53,7 +53,7 @@
 20	2	2	NUM	tala	NumType=Card	18	nummod	_	tag=tala
 21-22	árið 2010	_	_	_	_	_	_	_	_
 21	árið	árið	ADV	ártal	_	18	advmod	_	tag=ártal
-22	2010	2010	NUM	ártal	_	21	fixed	_	tag=ártal
+22	2010	2010	NUM	ártal	_	21	flat	_	tag=ártal
 23	og	og	CCONJ	st	_	15	cc	_	tag=st
 24	1	1	NUM	tala	NumType=Card	15	obl	_	SpaceAfter=No|tag=tala
 25	:	:	PUNCT	grm	_	24	punct	_	tag=grm
@@ -100,7 +100,7 @@
 2	plata	plata	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk
 3-4	Linkin Park	_	_	_	_	_	_	_	_
 3	Linkin	Linkin	PROPN	sérnafn	_	6	obl	_	SpaceAfter=No|tag=sérnafn
-4	Park	Park	PROPN	sérnafn	_	3	fixed	_	SpaceAfter=No|tag=sérnafn
+4	Park	Park	PROPN	sérnafn	_	3	flat	_	SpaceAfter=No|tag=sérnafn
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 6	Meteroa	Meteroa	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
 7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
@@ -110,7 +110,7 @@
 11	Billboard-lagalistans	Billboard-lagalisti	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod:poss	_	tag=no_et_ef_kk_gr
 12-13	árið 2003	_	_	_	_	_	_	_	_
 12	árið	árið	ADV	ártal	_	8	advmod	_	tag=ártal
-13	2003	2003	NUM	ártal	_	12	fixed	_	tag=ártal
+13	2003	2003	NUM	ártal	_	12	flat	_	tag=ártal
 14	og	og	CCONJ	st	_	8	cc	_	tag=st
 15	þá	hann	ADV	ao	_	24	advmod	_	tag=ao
 16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -120,14 +120,14 @@
 20	,	,	PUNCT	grm	_	19	punct	_	tag=grm
 21-22	Hybrid Theory	_	_	_	_	_	_	_	_
 21	Hybrid	Hybrid	PROPN	person	_	18	obl	_	SpaceAfter=No|tag=person
-22	Theory	Theory	PROPN	person	_	21	fixed	_	SpaceAfter=No|tag=person
+22	Theory	Theory	PROPN	person	_	21	flat	_	SpaceAfter=No|tag=person
 23	,	,	PUNCT	grm	_	24	punct	_	tag=grm
 24	selst	selja	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	8	conj	_	tag=so_0_sagnb_mm
 25	í	í	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
 26	yfir	yfir	ADV	eo	_	29	advmod	_	tag=eo
 27-28	tíu milljónum	_	_	_	_	_	_	_	_
 27	tíu	tíu	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	29	nummod	_	tag=töl_ft_þgf_kvk
-28	milljónum	milljónum	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	27	fixed	_	tag=töl_ft_þgf_kvk
+28	milljónum	milljónum	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	27	_	_	tag=töl_ft_þgf_kvk
 29	eintaka	eintak	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	24	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
 30	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
@@ -140,7 +140,7 @@
 5	frá	frá	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 6-7	árinu 2013	_	_	_	_	_	_	_	_
 6	árinu	árinu	NUM	ártal	_	4	obl	_	tag=ártal
-7	2013	2013	NUM	ártal	_	6	fixed	_	tag=ártal
+7	2013	2013	NUM	ártal	_	6	flat	_	tag=ártal
 8	þar	þar	ADV	ao	_	4	advmod	_	tag=ao
 9	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 10	sakborningur	sakborningur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=no_et_nf_kk
@@ -236,7 +236,7 @@
 6	Bandaríkjaforsetans	Bandaríkjaforseti	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kk_gr
 7-8	Donalds Trump	_	_	_	_	_	_	_	_
 7	Donalds	Donalds	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	conj	_	SpaceAfter=No|tag=person_ef_kk
-8	Trump	Trump	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	fixed	_	SpaceAfter=No|tag=person_ef_kk
+8	Trump	Trump	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	_	_	SpaceAfter=No|tag=person_ef_kk
 9	,	,	PUNCT	grm	_	15	punct	_	tag=grm
 10	ef	ef	SCONJ	st	_	11	cc	_	tag=st
 11	einhverra	einhver	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	15	obl	_	SpaceAfter=No|tag=fn_ft_ef_hk

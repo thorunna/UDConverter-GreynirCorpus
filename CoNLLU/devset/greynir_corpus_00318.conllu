@@ -2,8 +2,8 @@
 # text = Gilles Mbang Ondo, knattspyrnumaður frá Gabon og markakóngur úrvalsdeildarinnar 2010 þegar hann lék með Grindavík, kemur ekki til 1. deildar liðs Fjarðabyggðar eins og til stóð.
 1-3	Gilles Mbang Ondo	_	_	_	_	_	_	_	_
 1	Gilles	Gilles	PROPN	person	_	18	nsubj	_	SpaceAfter=No|tag=person
-2	Mbang	Mbang	PROPN	person	_	1	fixed	_	SpaceAfter=No|tag=person
-3	Ondo	Ondo	PROPN	person	_	2	fixed	_	SpaceAfter=No|tag=person
+2	Mbang	Mbang	PROPN	person	_	1	flat	_	SpaceAfter=No|tag=person
+3	Ondo	Ondo	PROPN	person	_	1	flat	_	SpaceAfter=No|tag=person
 4	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 5	knattspyrnumaður	knattspyrnumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -28,8 +28,8 @@
 25-28	eins og til stóð	_	_	_	_	_	_	_	_
 25	eins	eins	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
 26	og	og	ADV	ao	_	25	fixed	_	SpaceAfter=No|tag=ao
-27	til	til	ADV	ao	_	26	fixed	_	SpaceAfter=No|tag=ao
-28	stóð	stóð	ADV	ao	_	27	fixed	_	SpaceAfter=No|tag=ao
+27	til	til	ADV	ao	_	25	fixed	_	SpaceAfter=No|tag=ao
+28	stóð	stóð	ADV	ao	_	25	fixed	_	SpaceAfter=No|tag=ao
 29	.	_	PUNCT	grm	_	18	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00318,.2
@@ -43,7 +43,7 @@
 7	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	tag=fn_et_þf_kk
 8-9	25. júlí	_	_	_	_	_	_	_	_
 8	25.	25.	ADV	dagsafs	_	6	advmod	_	tag=dagsafs
-9	júlí	júlí	NUM?	dagsafs	_	8	fixed	_	tag=dagsafs
+9	júlí	júlí	NUM?	dagsafs	_	8	flat	_	tag=dagsafs
 10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	Suðurnesjum	Suðurnes	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_þgf_hk
 12	en	en	CCONJ	st	_	2	cc	_	tag=st
@@ -134,7 +134,7 @@
 4	loforð	loforð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	tag=no_et_nf_hk
 5-6	Le Pen	_	_	_	_	_	_	_	_
 5	Le	Le	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=person_et_ef_kvk
-6	Pen	Pen	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	fixed	_	tag=person_et_ef_kvk
+6	Pen	Pen	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	_	_	tag=person_et_ef_kvk
 7	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	halda	halda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	obl	_	tag=so_0_nh_gm
@@ -276,8 +276,8 @@
 22	að	að	ADV	ao	_	23	advmod	_	tag=ao
 23-25	tíu þúsund dollara	_	_	_	_	_	_	_	_
 23	tíu	tíu	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	19	obj	_	tag=no_ft_ef_kvk
-24	þúsund	þúsund	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	23	fixed	_	tag=no_ft_ef_kvk
-25	dollara	dollara	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	24	fixed	_	tag=no_ft_ef_kvk
+24	þúsund	þúsund	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	23	_	_	tag=no_ft_ef_kvk
+25	dollara	dollara	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	24	_	_	tag=no_ft_ef_kvk
 26	í	í	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
 27	bætur	bót	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	tag=no_ft_þf_kvk
 28	hverjum	hver	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	19	iobj	_	SpaceAfter=No|tag=fn_ft_þgf_kk

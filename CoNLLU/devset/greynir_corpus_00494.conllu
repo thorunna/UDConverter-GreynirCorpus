@@ -73,7 +73,7 @@
 28	[	[	PUNCT	grm	_	27	punct	_	tag=grm
 29-30	Jóns Gnarr	_	_	_	_	_	_	_	_
 29	Jóns	Jóns	PROPN	person_ef_kk	Case=Gen|Gender=Masc	26	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-30	Gnarr	Gnarr	PROPN	person_ef_kk	Case=Gen|Gender=Masc	29	fixed	_	SpaceAfter=No|tag=person_ef_kk
+30	Gnarr	Gnarr	PROPN	person_ef_kk	Case=Gen|Gender=Masc	29	_	_	SpaceAfter=No|tag=person_ef_kk
 31	]	]	PUNCT	grm	_	29	punct	_	tag=grm
 32	þá	hann	ADV	ao	_	24	advmod	_	tag=ao
 33	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	cop	_	tag=so_0_fh_p3_et_nt_gm
@@ -190,7 +190,7 @@
 19	tíðum	tíð	ADV	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	advmod	_	tag=no_ft_þgf_kvk
 20-21	Carmen Tyson-Thomas	_	_	_	_	_	_	_	_
 20	Carmen	Carmen	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	14	obl	_	SpaceAfter=No|tag=person_þgf_kvk
-21	Tyson-Thomas	Tyson-Thomas	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	20	fixed	_	SpaceAfter=No|tag=person_þgf_kvk
+21	Tyson-Thomas	Tyson-Thomas	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	20	_	_	SpaceAfter=No|tag=person_þgf_kvk
 22	,	,	PUNCT	grm	_	23	punct	_	tag=grm
 23	jafnaði	jafna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 24	leikinn	leika	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	23	obj	_	tag=no_et_þf_kk_gr
@@ -228,7 +228,7 @@
 13	Radiohead	Radiohead	PROPN	fyrirtæki_ef	Case=Gen	12	nmod:poss	_	tag=fyrirtæki_ef
 14-15	á hendur	_	_	_	_	_	_	_	_
 14	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-15	hendur	hendur	ADP	fs_þgf	Case=Dat	14	fixed	_	tag=fs_þgf
+15	hendur	hendur	ADP	fs_þgf	Case=Dat	14	_	_	tag=fs_þgf
 16	söngkonunni	söngkona	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk_gr
 17	þar	þar	ADV	ao	_	21	mark	_	tag=ao
 18	sem	sem	SCONJ	st	_	17	cc	_	tag=st
@@ -240,14 +240,14 @@
 24	lagsins	lag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	23	conj	_	tag=no_et_ef_hk_gr
 25-29	The Air That I Breath	_	_	_	_	_	_	_	_
 25	The	The	X	foreign	_	23	obl	_	tag=foreign
-26	Air	Air	X	foreign	_	25	fixed	_	tag=foreign
-27	That	That	X	foreign	_	26	fixed	_	tag=foreign
-28	I	I	X	foreign	_	27	fixed	_	tag=foreign
-29	Breath	Breath	X	foreign	_	28	fixed	_	tag=foreign
+26	Air	Air	X	foreign	_	25	flat:foreign	_	tag=foreign
+27	That	That	X	foreign	_	26	flat:foreign	_	tag=foreign
+28	I	I	X	foreign	_	27	flat:foreign	_	tag=foreign
+29	Breath	Breath	X	foreign	_	28	flat:foreign	_	tag=foreign
 30	sem	sem	SCONJ	stt	_	33	mark	_	tag=stt
 31-32	The Hollies	_	_	_	_	_	_	_	_
 31	The	The	X	foreign	_	33	nsubj	_	tag=foreign
-32	Hollies	Hollies	X	foreign	_	31	fixed	_	tag=foreign
+32	Hollies	Hollies	X	foreign	_	31	flat:foreign	_	tag=foreign
 33	gerðu	gera	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	23	acl:relcl	_	tag=so_1_þf_fh_p3_ft_þt_gm
 34	frægt	frægja	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	33	obj	_	tag=lo_et_þf_hk_fst_sb
 35	á	eiga	ADP	fs_þgf	Case=Dat	37	case	_	tag=fs_þgf
@@ -259,7 +259,7 @@
 41	líkinda	líkindi	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	23	obl	_	tag=no_ft_ef_hk
 42-43	á milli	_	_	_	_	_	_	_	_
 42	á	á	ADP	fs_ef	Case=Gen	44	case	_	tag=fs_ef
-43	milli	milli	ADP	fs_ef	Case=Gen	42	fixed	_	tag=fs_ef
+43	milli	milli	ADP	fs_ef	Case=Gen	42	_	_	tag=fs_ef
 44	lagsins	lag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	41	obl	_	tag=no_et_ef_hk_gr
 45	og	og	CCONJ	st	_	46	cc	_	tag=st
 46	Creep	Creep	X	foreign	_	44	advcl	_	SpaceAfter=No|tag=foreign

@@ -73,9 +73,9 @@
 # text = Ragnheiður Haralds- og Eiríksdóttir hjúkrunarfræðingur og blaðamaður hefur tekið saman 6 leiðir til að eiga betri vetur í vetur en í fyrra.
 1-4	Ragnheiður Haralds- og Eiríksdóttir	_	_	_	_	_	_	_	_
 1	Ragnheiður	Ragnheiður	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	tag=person_et_nf_kvk
-2	Haralds-	Haralds-	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	fixed	_	tag=person_et_nf_kvk
-3	og	og	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	fixed	_	tag=person_et_nf_kvk
-4	Eiríksdóttir	Eiríksdóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	fixed	_	tag=person_et_nf_kvk
+2	Haralds-	Haralds-	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	_	_	tag=person_et_nf_kvk
+3	og	og	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	_	_	tag=person_et_nf_kvk
+4	Eiríksdóttir	Eiríksdóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	_	_	tag=person_et_nf_kvk
 5	hjúkrunarfræðingur	hjúkrunarfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
 6	og	og	CCONJ	st	_	1	cc	_	tag=st
 7	blaðamaður	blaðamaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
@@ -123,7 +123,7 @@
 # text = Daniel Narcisse, sem átti frábæran leik fyrir Frakka, skoraði sigurmarkið á lokasekúndu leiksins, eftir langa lokasókn Frakka.
 1-2	Daniel Narcisse	_	_	_	_	_	_	_	_
 1	Daniel	Daniel	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Narcisse	Narcisse	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Narcisse	Narcisse	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	átti	eiga	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
@@ -150,17 +150,17 @@
 2	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk
 3-5	Guðni Th. Jóhannesson	_	_	_	_	_	_	_	_
 3	Guðni	Guðni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-4	Th.	Th.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	fixed	_	tag=person_nf_kk
-5	Jóhannesson	Jóhannesson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	tag=person_nf_kk
+4	Th.	Th.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	_	_	tag=person_nf_kk
+5	Jóhannesson	Jóhannesson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
 6	sendi	senda	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
 7-8	Felipe IV	_	_	_	_	_	_	_	_
 7	Felipe	Felipe	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	6	iobj	_	tag=person_þgf_kk
-8	IV	IV	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	7	fixed	_	tag=person_þgf_kk
+8	IV	IV	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	7	_	_	tag=person_þgf_kk
 9	Spánarkonungi	Spánarkonungi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_þgf_kk
 10	samúðarkveðju	samúðarkveðja	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þf_kvk
 11-12	fyrir hönd	_	_	_	_	_	_	_	_
 11	fyrir	fyrir	ADP	fs_ef	Case=Gen	14	case	_	tag=fs_ef
-12	hönd	hönd	ADP	fs_ef	Case=Gen	11	fixed	_	tag=fs_ef
+12	hönd	hönd	ADP	fs_ef	Case=Gen	11	_	_	tag=fs_ef
 13	íslensku	íslenska	ADJ	lo_et_ef_kvk_vb	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_ef_kvk_vb
 14	þjóðarinnar	þjóð	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_ef_kvk_gr
 15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
@@ -217,7 +217,7 @@
 13	flugstöð	flugstöð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
 14-15	Leifs Eiríkssonar	_	_	_	_	_	_	_	_
 14	Leifs	Leifs	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	nmod:poss	_	tag=person_ef_kk
-15	Eiríkssonar	Eiríkssonar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	fixed	_	tag=person_ef_kk
+15	Eiríkssonar	Eiríkssonar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	_	_	tag=person_ef_kk
 16	vegna	vegna	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
 17	ölvunar	ölvun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_ef_kvk
 18	og	og	CCONJ	st	_	19	cc	_	tag=st
@@ -230,7 +230,7 @@
 1-3	Þar að auki	_	_	_	_	_	_	_	_
 1	Þar	þar	ADV	ao	_	4	advmod	_	tag=ao
 2	að	að	ADV	ao	_	1	fixed	_	tag=ao
-3	auki	auki	ADV	ao	_	2	fixed	_	tag=ao
+3	auki	auki	ADV	ao	_	1	fixed	_	tag=ao
 4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	útlit	útlit	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 6	fyrir	fyrir	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf

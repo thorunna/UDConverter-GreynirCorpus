@@ -9,8 +9,8 @@
 7	en	en	CCONJ	st	_	8	cc	_	tag=st
 8-10	oftar en ekki	_	_	_	_	_	_	_	_
 8	oftar	oft	ADV	ao_mst	Degree=Cmp	6	conj	_	tag=ao_mst
-9	en	en	ADV	ao_mst	Degree=Cmp	8	fixed	_	tag=ao_mst
-10	ekki	ekki	ADV	ao_mst	Degree=Cmp	9	fixed	_	tag=ao_mst
+9	en	en	ADV	ao_mst	Degree=Cmp	8	_	_	tag=ao_mst
+10	ekki	ekki	ADV	ao_mst	Degree=Cmp	9	_	_	tag=ao_mst
 11	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 12	sér	sjá	PRON	abfn_et_þgf	Case=Dat|Number=Sing|PronType=Prs	14	nmod	_	tag=abfn_et_þgf
 13	þvílík	þvílíkur	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	nmod	_	tag=fn_ft_þf_hk
@@ -155,8 +155,8 @@
 9	virtist	virða	VERB	so_0_fh_p1_et_þt_mm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p1_et_þt_mm
 10-12	Þorgerður Katrín Gunnarsdóttir	_	_	_	_	_	_	_	_
 10	Þorgerður	Þorgerður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	obl	_	SpaceAfter=No|tag=person_nf_kvk
-11	Katrín	Katrín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	fixed	_	SpaceAfter=No|tag=person_nf_kvk
-12	Gunnarsdóttir	Gunnarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	11	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+11	Katrín	Katrín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	_	_	SpaceAfter=No|tag=person_nf_kvk
+12	Gunnarsdóttir	Gunnarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	11	_	_	SpaceAfter=No|tag=person_nf_kvk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	þingmaður	þingmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_nf_kk
 15	Viðreisnar	viðreisn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	14	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
@@ -226,8 +226,8 @@
 6	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	VANTAR_LIÐ_VP_None	_	tag=so_0_fh_p3_et_nt_gm
 7-9	Guðjón Þór Guðmundsson	_	_	_	_	_	_	_	_
 7	Guðjón	Guðjón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-8	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	fixed	_	SpaceAfter=No|tag=person_nf_kk
-9	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	fixed	_	SpaceAfter=No|tag=person_nf_kk
+8	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	_	_	SpaceAfter=No|tag=person_nf_kk
+9	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	_	_	SpaceAfter=No|tag=person_nf_kk
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 11	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_nf_kk
 12	veitingastaðarins	veitingastaður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=no_et_ef_kk_gr
@@ -328,7 +328,7 @@
 4-6	aftur á móti	_	_	_	_	_	_	_	_
 4	aftur	aftur	ADV	eo	_	8	nmod:poss	_	tag=eo
 5	á	á	ADV	eo	_	4	fixed	_	tag=eo
-6	móti	móti	ADV	eo	_	5	fixed	_	tag=eo
+6	móti	móti	ADV	eo	_	4	fixed	_	tag=eo
 7	42	42	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	4	nummod	_	tag=tala_ft_ef_kk
 8	ára	ára	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kvk
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
@@ -346,7 +346,7 @@
 21	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	tag=fn_et_þgf_kk
 22-23	Gauti Sturlusyni	_	_	_	_	_	_	_	_
 22	Gauti	Gautur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	20	conj	_	tag=person_þgf_kk
-23	Sturlusyni	Sturluson	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	22	fixed	_	tag=person_þgf_kk
+23	Sturlusyni	Sturluson	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	22	_	_	tag=person_þgf_kk
 24	lögfræðingi	lögfræðingur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 25	,	_	PUNCT	grm	_	24	punct	_	tag=grm
 26	en	en	CCONJ	st	_	8	cc	_	tag=st

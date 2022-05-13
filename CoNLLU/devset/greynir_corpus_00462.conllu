@@ -2,7 +2,7 @@
 # text = Anníe Mist er í 8. sæti með 120, Oddrún Eik er í 16. sæti með 98 stig og Sara Sigmundsdóttir er í 20. sæti með 90 stig.
 1-2	Anníe Mist	_	_	_	_	_	_	_	_
 1	Anníe	Anníe	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
-2	Mist	Mist	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	tag=person_nf_kvk
+2	Mist	Mist	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
 3	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	8.	8.	ADJ	raðnr_þgf_hk	Case=Dat|Gender=Neut|NumType=Ord	6	amod	_	tag=raðnr_þgf_hk
@@ -12,7 +12,7 @@
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 10-11	Oddrún Eik	_	_	_	_	_	_	_	_
 10	Oddrún	Oddrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	nsubj	_	tag=person_nf_kvk
-11	Eik	Eik	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	fixed	_	tag=person_nf_kvk
+11	Eik	Eik	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	_	_	tag=person_nf_kvk
 12	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 13	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 14	16.	16.	ADJ	raðnr_þgf_hk	Case=Dat|Gender=Neut|NumType=Ord	15	amod	_	tag=raðnr_þgf_hk
@@ -23,7 +23,7 @@
 19	og	og	CCONJ	st	_	3	cc	_	tag=st
 20-21	Sara Sigmundsdóttir	_	_	_	_	_	_	_	_
 20	Sara	Sara	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	22	nsubj	_	tag=person_nf_kvk
-21	Sigmundsdóttir	Sigmundsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	20	fixed	_	tag=person_nf_kvk
+21	Sigmundsdóttir	Sigmundsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	20	_	_	tag=person_nf_kvk
 22	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 23	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
 24	20.	20.	ADJ	raðnr_þgf_hk	Case=Dat|Gender=Neut|NumType=Ord	25	amod	_	tag=raðnr_þgf_hk
@@ -49,7 +49,7 @@
 12	komast	koma	VERB	so_1_þf_nh_mm	Case=Acc|VerbForm=Inf|Voice=Mid	10	xcomp	_	tag=so_1_þf_nh_mm
 13	ólöglega	ólöglegur	ADV	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	12	advmod	_	tag=lo_et_þf_kvk_sb
 14	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
-15	ESB	ESB	NOUN	abbrev	_	16	flat:name	_	tag=abbrev
+15	ESB	ESB	NOUN	abbrev	_	16	flat	_	tag=abbrev
 16	ríkja	ríki	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
 17	,	,	PUNCT	grm	_	18	punct	_	tag=grm
 18	bjarga	bjarga	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	12	conj	_	tag=so_1_þgf_nh_gm
@@ -89,7 +89,7 @@
 23-25	hér á landi	_	_	_	_	_	_	_	_
 23	hér	hér	ADV	ao	_	22	advmod	_	tag=ao
 24	á	á	ADV	ao	_	23	fixed	_	tag=ao
-25	landi	landi	ADV	ao	_	24	fixed	_	tag=ao
+25	landi	landi	ADV	ao	_	23	fixed	_	tag=ao
 26	en	en	CCONJ	st	_	27	cc	_	tag=st
 27	karlar	karl	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	22	advcl	_	SpaceAfter=No|tag=no_ft_nf_kk
 28	.	.	PUNCT	grm	_	12	punct	_	tag=grm
@@ -138,8 +138,8 @@
 11	sem	sem	SCONJ	stt	_	19	mark	_	tag=stt
 12-14	Eggerti Þór Kristófersyni	_	_	_	_	_	_	_	_
 12	Eggerti	Eggerti	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	19	nsubj	_	SpaceAfter=No|tag=person_þgf_kk
-13	Þór	Þór	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	12	fixed	_	SpaceAfter=No|tag=person_þgf_kk
-14	Kristófersyni	Kristófersyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	13	fixed	_	SpaceAfter=No|tag=person_þgf_kk
+13	Þór	Þór	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	12	_	_	SpaceAfter=No|tag=person_þgf_kk
+14	Kristófersyni	Kristófersyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	13	_	_	SpaceAfter=No|tag=person_þgf_kk
 15	,	,	PUNCT	grm	_	14	punct	_	tag=grm
 16	forstjóra	forstjóra	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þgf_kk
 17	N1	N1	NOUN	abbrev	_	16	nmod:poss	_	tag=abbrev
@@ -153,7 +153,7 @@
 25	á	á	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
 26-27	árinu 2017	_	_	_	_	_	_	_	_
 26	árinu	árinu	ADV	ártal	_	19	advmod	_	SpaceAfter=No|tag=ártal
-27	2017	2017	NUM	ártal	_	26	fixed	_	SpaceAfter=No|tag=ártal
+27	2017	2017	NUM	ártal	_	26	flat	_	SpaceAfter=No|tag=ártal
 28	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00462,.6
@@ -220,7 +220,7 @@
 # text = Sadio Mane, leikmaður Liverpool sem verður í liði Senegal, fékk heimild til að koma til móts við liðið eftir leik Liverpool gegn Sunderland á morgun.
 1-2	Sadio Mane	_	_	_	_	_	_	_	_
 1	Sadio	Sadio	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Mane	Mane	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Mane	Mane	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 4	leikmaður	leikmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Liverpool	Liverpool	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	4	nmod:poss	_	tag=fyrirtæki_ef_hk
@@ -292,7 +292,7 @@
 9-11	fyrst og fremst	_	_	_	_	_	_	_	_
 9	fyrst	fyrst	ADV	eo	_	12	advmod	_	tag=eo
 10	og	og	ADV	eo	_	9	fixed	_	tag=eo
-11	fremst	fremst	ADV	eo	_	10	fixed	_	tag=eo
+11	fremst	fremst	ADV	eo	_	9	fixed	_	tag=eo
 12	gagnvirknin	gagnvirkni	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk_gr
 13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
 14	býður	bjóða	VERB	so_2_þgf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	tag=so_2_þgf_þf_fh_p3_et_nt_gm

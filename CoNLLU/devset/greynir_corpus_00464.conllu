@@ -2,7 +2,7 @@
 # text = Árið 2017 hófu flest ný fyrirtæki rekstur í byggingarstarfsemi og mannvirkjagerð, alls 627 fyrirtæki sem voru með 716 starfsmenn og samanlagðar rekstrartekjur upp á 9,35 milljarða.
 1-2	Árið 2017	_	_	_	_	_	_	_	_
 1	Árið	Árið	ADV	ártal	_	3	advmod	_	tag=ártal
-2	2017	2017	NUM	ártal	_	1	fixed	_	tag=ártal
+2	2017	2017	NUM	ártal	_	1	flat	_	tag=ártal
 3	hófu	hefja	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 4	flest	flestir	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nmod	_	tag=fn_ft_nf_hk
 5	ný	núa	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	6	amod	_	tag=lo_ft_nf_hk_sb
@@ -28,7 +28,7 @@
 25	á	eiga	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
 26-27	9,35 milljarða	_	_	_	_	_	_	_	_
 26	9,35	9,35	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No|tag=töl_ft_þf_kk
-27	milljarða	milljarða	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	26	fixed	_	SpaceAfter=No|tag=töl_ft_þf_kk
+27	milljarða	milljarða	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	26	_	_	SpaceAfter=No|tag=töl_ft_þf_kk
 28	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00464,.2
@@ -41,7 +41,7 @@
 6	fram	fram	ADV	ao	_	5	advmod	_	tag=ao
 7-8	árið 1830	_	_	_	_	_	_	_	_
 7	árið	árið	ADV	ártal	_	5	advmod	_	SpaceAfter=No|tag=ártal
-8	1830	1830	NUM	ártal	_	7	fixed	_	SpaceAfter=No|tag=ártal
+8	1830	1830	NUM	ártal	_	7	flat	_	SpaceAfter=No|tag=ártal
 9	,	,	PUNCT	grm	_	5	punct	_	tag=grm
 10	þegar	þegar	SCONJ	st	_	16	mark	_	tag=st
 11	þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	12	nmod	_	tag=pfn_ft_nf_hk_p3
@@ -61,7 +61,7 @@
 25	á	eiga	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
 26-27	Natani Ketilssyni	_	_	_	_	_	_	_	_
 26	Natani	Natani	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	24	obl	_	SpaceAfter=No|tag=person_þgf_kk
-27	Ketilssyni	Ketilssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	26	fixed	_	SpaceAfter=No|tag=person_þgf_kk
+27	Ketilssyni	Ketilssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	26	_	_	SpaceAfter=No|tag=person_þgf_kk
 28	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00464,.3
@@ -143,8 +143,8 @@
 16	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 17-19	atvinnu- eða áhugamenn	_	_	_	_	_	_	_	_
 17	atvinnu-	atvinnu-	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	25	ccomp	_	SpaceAfter=No|tag=no_ft_nf_kk
-18	eða	eða	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	17	fixed	_	SpaceAfter=No|tag=no_ft_nf_kk
-19	áhugamenn	áhugamaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	18	fixed	_	SpaceAfter=No|tag=no_ft_nf_kk
+18	eða	eða	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	17	_	_	SpaceAfter=No|tag=no_ft_nf_kk
+19	áhugamenn	áhugamaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	18	_	_	SpaceAfter=No|tag=no_ft_nf_kk
 20	,	,	PUNCT	grm	_	25	punct	_	tag=grm
 21	getur	geta	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	tag=so_0_fh_p3_et_nt_gm
 22	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	tag=pfn_et_nf_hk_p3
@@ -168,8 +168,8 @@
 11	plötu	plata	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	tag=no_et_þf_kvk
 12-14	Songs About Nothing	_	_	_	_	_	_	_	_
 12	Songs	Songs	X	foreign	_	11	flat:foreign	_	tag=foreign
-13	About	About	X	foreign	_	12	fixed	_	tag=foreign
-14	Nothing	Nothing	X	foreign	_	13	fixed	_	tag=foreign
+13	About	About	X	foreign	_	12	flat:foreign	_	tag=foreign
+14	Nothing	Nothing	X	foreign	_	13	flat:foreign	_	tag=foreign
 15	þar	þar	ADV	ao	_	10	advmod	_	tag=ao
 16	sem	sem	SCONJ	stt	_	19	mark	_	tag=stt
 17	Ekkert	ekkert	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	tag=fn_et_nf_hk
@@ -217,7 +217,7 @@
 2	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 3-4	Helga Hauksdóttir	_	_	_	_	_	_	_	_
 3	Helga	Helga	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-4	Hauksdóttir	Hauksdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+4	Hauksdóttir	Hauksdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	_	_	SpaceAfter=No|tag=person_nf_kvk
 5	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 6	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 7	nú	nú	ADV	ao	_	9	advmod	_	tag=ao
@@ -225,8 +225,8 @@
 9	skrifstofustjóri	skrifstofustjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	acl:relcl	_	tag=no_et_nf_kk
 10-12	laga- og stjórnsýsluskrifstofu	_	_	_	_	_	_	_	_
 10	laga-	laga-	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kvk
-11	og	og	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	fixed	_	tag=no_et_ef_kvk
-12	stjórnsýsluskrifstofu	stjórnsýsluskrifstofa	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	11	fixed	_	tag=no_et_ef_kvk
+11	og	og	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	_	_	tag=no_et_ef_kvk
+12	stjórnsýsluskrifstofu	stjórnsýsluskrifstofa	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	11	_	_	tag=no_et_ef_kvk
 13	utanríkisráðuneytisins	utanríkisráðuneyti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
 15	sendiherra	sendiherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk
@@ -235,8 +235,8 @@
 18	og	og	CCONJ	st	_	2	cc	_	tag=st
 19-21	María Erla Marelsdóttir	_	_	_	_	_	_	_	_
 19	María	María	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	28	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-20	Erla	Erla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	19	fixed	_	SpaceAfter=No|tag=person_nf_kvk
-21	Marelsdóttir	Marelsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	20	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+20	Erla	Erla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	19	_	_	SpaceAfter=No|tag=person_nf_kvk
+21	Marelsdóttir	Marelsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	20	_	_	SpaceAfter=No|tag=person_nf_kvk
 22	,	,	PUNCT	grm	_	21	punct	_	tag=grm
 23	skrifstofustjóri	skrifstofustjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_nf_kk
 24	þróunarsamvinnuskrifstofu	þróunar-samvinnu-skrifstofa	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	23	nmod:poss	_	tag=no_et_ef_kvk
@@ -272,7 +272,7 @@
 20	úrslit	úrslit	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	19	conj	_	tag=no_ft_þf_hk
 21-22	Coca Cola-bikarsins	_	_	_	_	_	_	_	_
 21	Coca	Coca	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
-22	Cola-bikarsins	Cola-bikar	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	fixed	_	SpaceAfter=No|tag=no_et_ef_kk_gr
+22	Cola-bikarsins	Cola-bikar	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	_	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 23	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 1	Þá	þá	ADV	ao	_	4	advmod	_	tag=ao

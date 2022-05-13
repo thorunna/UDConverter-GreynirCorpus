@@ -205,7 +205,7 @@
 # text = Jim White er á því að þetta sýni hversu frábæran liðsanda og samkennd Jürgen Klopp hefur tekist að búa til á Anfield.
 1-2	Jim White	_	_	_	_	_	_	_	_
 1	Jim	JimWhite	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
-2	White	JimWhite	PROPN	sérnafn	_	1	fixed	_	tag=sérnafn
+2	White	JimWhite	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
 3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
@@ -219,7 +219,7 @@
 13	samkennd	samkennd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_nf_kvk
 14-15	Jürgen Klopp	_	_	_	_	_	_	_	_
 14	Jürgen	Jürgen	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	nsubj	_	tag=person_ef_kk
-15	Klopp	Klopp	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	fixed	_	tag=person_ef_kk
+15	Klopp	Klopp	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	_	_	tag=person_ef_kk
 16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_fh_p3_et_nt_gm
 17	tekist	taka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	8	obj	_	tag=so_0_sagnb_mm
 18	að	að	PART	nhm	_	19	mark	_	tag=nhm
@@ -233,7 +233,7 @@
 # text = Bjarni Benediktsson fjármálaráðherra skýtur föstum skotum á Twitter í kvöld á gagnrýni Ólafs Ragnars Grímssonar forseta Íslands varðandi fátækt í íslensku samfélagi.
 1-2	Bjarni Benediktsson	_	_	_	_	_	_	_	_
 1	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	fjármálaráðherra	fjármálaráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_ef_kk
 4	skýtur	skjóta	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 5	föstum	fastur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	6	amod	_	tag=lo_ft_þgf_hk_sb
@@ -247,8 +247,8 @@
 12	gagnrýni	gagnrýni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk
 13-15	Ólafs Ragnars Grímssonar	_	_	_	_	_	_	_	_
 13	Ólafs	Ólafur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	nmod:poss	_	tag=person_ef_kk
-14	Ragnars	Ragnar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	fixed	_	tag=person_ef_kk
-15	Grímssonar	Grímsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	fixed	_	tag=person_ef_kk
+14	Ragnars	Ragnar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	_	_	tag=person_ef_kk
+15	Grímssonar	Grímsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	_	_	tag=person_ef_kk
 16	forseta	forseti	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	nmod:poss	_	tag=no_et_ef_kk
 17	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	nmod:poss	_	tag=no_et_ef_hk
 18	varðandi	varða	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf

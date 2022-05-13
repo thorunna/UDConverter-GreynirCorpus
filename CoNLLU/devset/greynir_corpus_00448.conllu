@@ -6,7 +6,7 @@
 4	gengið	ganga	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 5-6	á milli	_	_	_	_	_	_	_	_
 5	á	á	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-6	milli	milli	ADP	fs_ef	Case=Gen	5	fixed	_	tag=fs_ef
+6	milli	milli	ADP	fs_ef	Case=Gen	5	_	_	tag=fs_ef
 7	Demókrata	demókrati	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_ef_kk
 8	og	og	CCONJ	st	_	9	cc	_	tag=st
 9	Repúblikana	repúblikani	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_ef_kk
@@ -31,7 +31,7 @@
 1	Talsmaður	talsmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
 2-3	Virgin Airlines	_	_	_	_	_	_	_	_
 2	Virgin	Virgin	PROPN	fyrirtæki	_	1	nmod:poss	_	tag=fyrirtæki
-3	Airlines	Airlines	PROPN	fyrirtæki	_	2	fixed	_	tag=fyrirtæki
+3	Airlines	Airlines	PROPN	fyrirtæki	_	2	flat	_	tag=fyrirtæki
 4	vildi	vildur	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 5	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
 6	gefa	gefa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	ccomp	_	tag=so_1_þf_nh_gm
@@ -117,7 +117,7 @@
 7-9	á þeim tíma	_	_	_	_	_	_	_	_
 7	á	á	ADV	ao	_	2	advmod	_	tag=ao
 8	þeim	þeim	ADV	ao	_	7	fixed	_	tag=ao
-9	tíma	tíma	ADV	ao	_	8	fixed	_	tag=ao
+9	tíma	tíma	ADV	ao	_	7	fixed	_	tag=ao
 10	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 11	gefinn	gefa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	xcomp	_	tag=so_0_lhþt_et
 12	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	tag=so_0_fh_p3_et_þt_gm
@@ -144,7 +144,7 @@
 5-7	þar af leiðandi	_	_	_	_	_	_	_	_
 5	þar	þar	ADV	eo	_	8	advmod	_	tag=eo
 6	af	af	ADV	eo	_	5	fixed	_	tag=eo
-7	leiðandi	leiðandi	ADV	eo	_	6	fixed	_	tag=eo
+7	leiðandi	leiðandi	ADV	eo	_	5	fixed	_	tag=eo
 8	lífslíkur	lífs-líkur	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_nf_kvk
 9	og	og	CCONJ	st	_	10	cc	_	tag=st
 10	lífsgæði	lífsgæði	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	8	conj	_	tag=no_ft_nf_hk
@@ -152,7 +152,7 @@
 12-14	jafnt og þétt	_	_	_	_	_	_	_	_
 12	jafnt	jafnt	ADV	ao	_	11	advmod	_	tag=ao
 13	og	og	ADV	ao	_	12	fixed	_	tag=ao
-14	þétt	þétt	ADV	ao	_	13	fixed	_	tag=ao
+14	þétt	þétt	ADV	ao	_	12	fixed	_	tag=ao
 15	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
 16	batnaðar	batna	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_ef_kk
 17	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -190,11 +190,11 @@
 20	verið	verið	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	21	conj	_	tag=so_1_nf_sagnb_gm
 21-23	708 þúsund krónur	_	_	_	_	_	_	_	_
 21	708	708	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_nf_kvk
-22	þúsund	þúsund	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	21	fixed	_	tag=no_ft_nf_kvk
-23	krónur	krónur	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	22	fixed	_	tag=no_ft_nf_kvk
+22	þúsund	þúsund	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	21	_	_	tag=no_ft_nf_kvk
+23	krónur	krónur	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	22	_	_	tag=no_ft_nf_kvk
 24-25	árið 2016	_	_	_	_	_	_	_	_
 24	árið	árið	ADV	ártal	_	21	advmod	_	SpaceAfter=No|tag=ártal
-25	2016	2016	NUM	ártal	_	24	fixed	_	SpaceAfter=No|tag=ártal
+25	2016	2016	NUM	ártal	_	24	flat	_	SpaceAfter=No|tag=ártal
 26	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00448,.8
@@ -238,8 +238,8 @@
 11	við	við	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12-14	Gunnar Braga Sveinsson	_	_	_	_	_	_	_	_
 12	Gunnar	Gunnar	PROPN	person_þf_kk	Case=Acc|Gender=Masc	10	obl	_	tag=person_þf_kk
-13	Braga	Braga	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	fixed	_	tag=person_þf_kk
-14	Sveinsson	Sveinsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	fixed	_	tag=person_þf_kk
+13	Braga	Braga	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	_	_	tag=person_þf_kk
+14	Sveinsson	Sveinsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	_	_	tag=person_þf_kk
 15	þegar	þegar	SCONJ	st	_	17	mark	_	tag=st
 16	þingmaðurinn	þingmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	tag=no_et_nf_kk_gr
 17	sneri	snúa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	advcl	_	tag=so_0_fh_p3_et_þt_gm

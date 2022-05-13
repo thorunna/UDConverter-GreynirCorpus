@@ -2,7 +2,7 @@
 # text = Manchester United hefur hins vegar gengið mun verr en Manchester United að koma í veg fyrir mörk andstæðinga sinna.
 1-2	Manchester United	_	_	_	_	_	_	_	_
 1	Manchester	Manchester	PROPN	fyrirtæki	_	7	nsubj	_	tag=fyrirtæki
-2	United	United	PROPN	fyrirtæki	_	1	fixed	_	tag=fyrirtæki
+2	United	United	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
 4-5	hins vegar	_	_	_	_	_	_	_	_
 4	hins	hins	ADV	ao	_	7	advmod	_	tag=ao
@@ -13,7 +13,7 @@
 9	en	en	CCONJ	st	_	7	advcl	_	tag=st
 10-11	Manchester United	_	_	_	_	_	_	_	_
 10	Manchester	Manchester	PROPN	fyrirtæki	_	13	nsubj	_	tag=fyrirtæki
-11	United	United	PROPN	fyrirtæki	_	10	fixed	_	tag=fyrirtæki
+11	United	United	PROPN	fyrirtæki	_	10	flat	_	tag=fyrirtæki
 12	að	að	PART	nhm	_	13	mark	_	tag=nhm
 13	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_0_nh_gm
 14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
@@ -75,8 +75,8 @@
 2	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3-5	Ingvar J. Rögnvaldsson	_	_	_	_	_	_	_	_
 3	Ingvar	Ingvar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-4	J.	J.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	fixed	_	tag=person_nf_kk
-5	Rögnvaldsson	Rögnvaldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	tag=person_nf_kk
+4	J.	J.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	_	_	tag=person_nf_kk
+5	Rögnvaldsson	Rögnvaldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
 6	vararíkissaksóknara	vararíkissaksóknari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kk
 7	við	við	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	embættinu	embætti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk_gr

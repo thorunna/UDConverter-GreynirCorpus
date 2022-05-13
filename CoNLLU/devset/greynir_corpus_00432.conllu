@@ -11,7 +11,7 @@
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10-11	Polar Nanoq	_	_	_	_	_	_	_	_
 10	Polar	Polar	PROPN	entity	_	8	obl	_	tag=entity
-11	Nanoq	Nanoq	PROPN	entity	_	10	fixed	_	tag=entity
+11	Nanoq	Nanoq	PROPN	entity	_	10	flat	_	tag=entity
 12	en	en	CCONJ	st	_	4	cc	_	tag=st
 13	hinn	hinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=fn_et_nf_kk
 14	ekur	aka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
@@ -36,7 +36,7 @@
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10-11	5,2 prósent	_	_	_	_	_	_	_	_
 10	5,2	5,2	?	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	tag=prósenta_ft_þf_hk
-11	prósent	prósent	?	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	fixed	_	tag=prósenta_ft_þf_hk
+11	prósent	prósent	?	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	_	_	tag=prósenta_ft_þf_hk
 12	á	eiga	ADV	fs_þgf	Case=Dat	8	advmod	_	tag=fs_þgf
 13	árinu	ár	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk_gr
 14	og	og	CCONJ	st	_	8	cc	_	tag=st
@@ -111,7 +111,7 @@
 13	sérstaklega	sérstaklega	ADV	ao	_	9	advmod	_	tag=ao
 14-15	á meðan	_	_	_	_	_	_	_	_
 14	á	á	SCONJ	st	_	17	mark	_	tag=st
-15	meðan	meðan	SCONJ	st	_	14	fixed	_	tag=st
+15	meðan	meðan	SCONJ	st	_	14	_	_	tag=st
 16	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_p1
 17	var	var	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	9	advcl	_	tag=so_1_nf_fh_p1_et_þt_gm
 18	enn	enn	ADV	ao	_	17	advmod	_	tag=ao
@@ -159,12 +159,12 @@
 13	(	_	PUNCT	grm	_	12	punct	_	tag=grm
 14-18	Team of Refugee Olympic Athletes	_	_	_	_	_	_	_	_
 14	Team	Team	X	foreign	_	11	obl	_	SpaceAfter=No|tag=foreign
-15	of	of	X	foreign	_	14	fixed	_	SpaceAfter=No|tag=foreign
-16	Refugee	Refugee	X	foreign	_	15	fixed	_	SpaceAfter=No|tag=foreign
-17	Olympic	Olympic	X	foreign	_	16	fixed	_	SpaceAfter=No|tag=foreign
-18	Athletes	Athletes	X	foreign	_	17	fixed	_	SpaceAfter=No|tag=foreign
+15	of	of	X	foreign	_	14	flat:foreign	_	SpaceAfter=No|tag=foreign
+16	Refugee	Refugee	X	foreign	_	15	flat:foreign	_	SpaceAfter=No|tag=foreign
+17	Olympic	Olympic	X	foreign	_	16	flat:foreign	_	SpaceAfter=No|tag=foreign
+18	Athletes	Athletes	X	foreign	_	17	flat:foreign	_	SpaceAfter=No|tag=foreign
 19	-	-	PUNCT	grm	_	14	punct	_	tag=grm
-20	ROA	ROA	NOUN	abbrev	_	14	flat:name	_	SpaceAfter=No|tag=abbrev
+20	ROA	ROA	NOUN	abbrev	_	14	flat	_	SpaceAfter=No|tag=abbrev
 21	)	_	PUNCT	grm	_	20	punct	_	SpaceAfter=No|tag=grm
 22	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
@@ -200,7 +200,7 @@
 3	að	að	SCONJ	st	_	7	mark	_	tag=st
 4-5	British Airways	_	_	_	_	_	_	_	_
 4	British	British	PROPN	fyrirtæki	_	7	nsubj	_	tag=fyrirtæki
-5	Airways	Airways	PROPN	fyrirtæki	_	4	fixed	_	tag=fyrirtæki
+5	Airways	Airways	PROPN	fyrirtæki	_	4	flat	_	tag=fyrirtæki
 6	gæti	geta	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_þt_gm
 7	þurft	þurfa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	obj	_	tag=so_0_sagnb_gm
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
@@ -209,16 +209,16 @@
 11	að	að	ADV	ao	_	12	advmod	_	tag=ao
 12-14	150 milljónir punda	_	_	_	_	_	_	_	_
 12	150	150	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	tag=no_ft_þf_kvk
-13	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	fixed	_	tag=no_ft_þf_kvk
-14	punda	punda	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	fixed	_	tag=no_ft_þf_kvk
+13	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	_	_	tag=no_ft_þf_kvk
+14	punda	punda	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	_	_	tag=no_ft_þf_kvk
 15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	bætur	bót	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 18	um	um	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 19-21	19 milljarða króna	_	_	_	_	_	_	_	_
 19	19	19	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
-20	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	fixed	_	SpaceAfter=No|tag=no_ft_þf_kk
-21	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	20	fixed	_	SpaceAfter=No|tag=no_ft_þf_kk
+20	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	_	_	SpaceAfter=No|tag=no_ft_þf_kk
+21	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	20	_	_	SpaceAfter=No|tag=no_ft_þf_kk
 22	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 23	vegna	vega	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
 24	tölvubilunarinnar	tölvubilun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_ef_kvk_gr

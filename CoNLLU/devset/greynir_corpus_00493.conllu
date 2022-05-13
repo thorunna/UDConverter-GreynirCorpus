@@ -6,7 +6,7 @@
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5-6	Sri Lanka	_	_	_	_	_	_	_	_
 5	Sri	Sri	PROPN	sérnafn_þgf	Case=Dat	3	obl	_	tag=sérnafn_þgf
-6	Lanka	Lanka	PROPN	sérnafn_þgf	Case=Dat	5	fixed	_	tag=sérnafn_þgf
+6	Lanka	Lanka	PROPN	sérnafn_þgf	Case=Dat	5	_	_	tag=sérnafn_þgf
 7	fram	fram	ADV	ao	_	11	advmod	_	tag=ao
 8	til	til	ADP	fs_ef	Case=Gen	11	case	_	tag=fs_ef
 9	átján	átján	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	10	nummod	_	tag=töl_ft_ef_hk
@@ -23,7 +23,7 @@
 20	átökum	átök	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	18	obl	_	tag=no_ft_þgf_hk
 21-22	á milli	_	_	_	_	_	_	_	_
 21	á	á	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
-22	milli	milli	ADP	fs_ef	Case=Gen	21	fixed	_	tag=fs_ef
+22	milli	milli	ADP	fs_ef	Case=Gen	21	_	_	tag=fs_ef
 23	mismunandi	mismunandi	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	24	amod	_	tag=lo_ft_ef_kk_sb
 24	hópa	hópur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	20	obl	_	tag=no_ft_ef_kk
 25	íbúa	íbúi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	24	nmod:poss	_	tag=no_et_ef_kk
@@ -32,7 +32,7 @@
 28	en	en	CCONJ	st	_	3	cc	_	tag=st
 29-30	árið 2009	_	_	_	_	_	_	_	_
 29	árið	árið	ADV	ártal	_	32	advmod	_	tag=ártal
-30	2009	2009	NUM	ártal	_	29	fixed	_	tag=ártal
+30	2009	2009	NUM	ártal	_	29	flat	_	tag=ártal
 31	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	32	cop	_	tag=so_0_fh_p3_et_þt_gm
 32	samið	semja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
 33	um	um	ADP	fs_þf	Case=Acc	34	case	_	tag=fs_þf
@@ -109,7 +109,7 @@
 16	að	að	ADV	eo	_	19	advmod	_	tag=eo
 17-18	3,2 milljónum	_	_	_	_	_	_	_	_
 17	3,2	3,2	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	19	nummod	_	tag=töl_ft_þgf_kvk
-18	milljónum	milljónum	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	fixed	_	tag=töl_ft_þgf_kvk
+18	milljónum	milljónum	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	_	_	tag=töl_ft_þgf_kvk
 19	hluta	hluta	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	13	obl	_	tag=no_ft_ef_kk
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	félaginu	félag	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_þgf_hk_gr
@@ -117,7 +117,7 @@
 23	grunnverðinu	grunnverð	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þgf_hk_gr
 24-25	2,779 evrur	_	_	_	_	_	_	_	_
 24	2,779	2,779	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	23	obl	_	tag=no_ft_nf_kvk
-25	evrur	evrur	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	24	fixed	_	tag=no_ft_nf_kvk
+25	evrur	evrur	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	24	_	_	tag=no_ft_nf_kvk
 26	á	á	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
 27	hlut	hlutur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 28	,	,	PUNCT	grm	_	27	punct	_	tag=grm
@@ -195,8 +195,8 @@
 16	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 17-19	Guðlaugur Þór Þórðarson	_	_	_	_	_	_	_	_
 17	Guðlaugur	Guðlaugur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	nsubj	_	tag=person_nf_kk
-18	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	fixed	_	tag=person_nf_kk
-19	Þórðarson	Þórðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	fixed	_	tag=person_nf_kk
+18	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	_	_	tag=person_nf_kk
+19	Þórðarson	Þórðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	_	_	tag=person_nf_kk
 20	utanríkisráðherra	utanríkisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_nf_kk
 21	á	á	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 22	fjölmennum	fjölmennur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	24	amod	_	tag=lo_et_þgf_kk_sb
@@ -308,8 +308,8 @@
 # text = Sigmundur Davíð Gunnlaugsson formaður Framsóknarflokksins reyndi að leita sátta er komið var aftan að honum með tilllögu frá Eygló Harðardóttur ritara flokksins um að fresta ætti ræðu formanns og setja hana aftast í dagskrá flokksþingsins sem stendur nú yfir í Háskólabíó.
 1-3	Sigmundur Davíð Gunnlaugsson	_	_	_	_	_	_	_	_
 1	Sigmundur	Sigmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-2	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
-3	Gunnlaugsson	Gunnlaugsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+2	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+3	Gunnlaugsson	Gunnlaugsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
 4	formaður	forma	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Framsóknarflokksins	Framsóknarflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_kk_gr
 6	reyndi	reyna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
@@ -327,7 +327,7 @@
 18	frá	frá	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19-20	Eygló Harðardóttur	_	_	_	_	_	_	_	_
 19	Eygló	Eygló	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	17	obl	_	tag=person_þgf_kvk
-20	Harðardóttur	Harðardóttir	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	19	fixed	_	tag=person_þgf_kvk
+20	Harðardóttur	Harðardóttir	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	19	_	_	tag=person_þgf_kvk
 21	ritara	ritari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_ef_kk
 22	flokksins	flokkur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod:poss	_	tag=no_et_ef_kk_gr
 23	um	um	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
@@ -391,8 +391,8 @@
 # text = Kristján L. Möller, þingmaður Samfylkingarinnar, segir nútímabarnsrán í uppsiglingu hér á landi og á þar við mál fimm ára íslensks drengs sem taka á af móður sinni og ömmu og senda til Noregs vegna áfengisvanda móðurinnar þegar fjölskyldan bjó í Noregi.
 1-3	Kristján L. Möller	_	_	_	_	_	_	_	_
 1	Kristján	Kristján	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	L.	L.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
-3	Möller	Möller	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	L.	L.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+3	Möller	Möller	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	SpaceAfter=No|tag=person_nf_kk
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 5	þingmaður	þingmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	Samfylkingarinnar	Samfylkingin	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk_gr
@@ -404,7 +404,7 @@
 12-14	hér á landi	_	_	_	_	_	_	_	_
 12	hér	hér	ADV	ao	_	8	advmod	_	tag=ao
 13	á	á	ADV	ao	_	12	fixed	_	tag=ao
-14	landi	landi	ADV	ao	_	13	fixed	_	tag=ao
+14	landi	landi	ADV	ao	_	12	fixed	_	tag=ao
 15	og	og	CCONJ	st	_	8	cc	_	tag=st
 16	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_nt_gm
 17	þar	þar	ADV	ao	_	16	advmod	_	tag=ao

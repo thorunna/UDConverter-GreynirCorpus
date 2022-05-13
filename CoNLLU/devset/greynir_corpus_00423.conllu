@@ -45,7 +45,7 @@
 1	Um	um	ADV	eo	_	4	advmod	_	tag=eo
 2-3	17 milljónir	_	_	_	_	_	_	_	_
 2	17	17	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	nummod	_	tag=töl_ft_nf_kvk
-3	milljónir	milljónir	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	fixed	_	tag=töl_ft_nf_kvk
+3	milljónir	milljónir	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	_	_	tag=töl_ft_nf_kvk
 4	Jemena	Jemeni	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_ef_kk
 5	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 6	án	án	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
@@ -63,7 +63,7 @@
 18	um	um	ADV	ao	_	16	obl	_	tag=ao
 19-20	sjö milljóna	_	_	_	_	_	_	_	_
 19	sjö	sjö	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	18	nummod	_	SpaceAfter=No|tag=töl_ft_ef_kvk
-20	milljóna	milljónir	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	19	fixed	_	SpaceAfter=No|tag=töl_ft_ef_kvk
+20	milljóna	milljónir	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	19	_	_	SpaceAfter=No|tag=töl_ft_ef_kvk
 21	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00423,.4
@@ -82,7 +82,7 @@
 12	af	af	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 13-14	Michael Jackson	_	_	_	_	_	_	_	_
 13	Michael	Michael	PROPN	person_ef_kk	Case=Gen|Gender=Masc	15	nmod:poss	_	tag=person_ef_kk
-14	Jackson	Jackson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	fixed	_	tag=person_ef_kk
+14	Jackson	Jackson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	_	_	tag=person_ef_kk
 15	búningi	búningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þgf_kk
 16	sama	sama	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	tag=fn_et_þf_hk
 17	ár	á	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
@@ -152,7 +152,7 @@
 13	miðvikudaginn	miðvikudagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þf_kk_gr
 14-15	30. janúar	_	_	_	_	_	_	_	_
 14	30.	30.	ADV	dagsafs	_	11	advmod	_	tag=dagsafs
-15	janúar	janúar	NUM?	dagsafs	_	14	fixed	_	tag=dagsafs
+15	janúar	janúar	NUM?	dagsafs	_	14	flat	_	tag=dagsafs
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	Háskólanum	háskóli	PROPN	fyrirtæki_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	tag=fyrirtæki_et_þgf_kk_gr
 18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
@@ -190,7 +190,7 @@
 5	henni	hún	PRON	pfn_et_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þgf_kvk_p3
 6-7	á meðan	_	_	_	_	_	_	_	_
 6	á	á	SCONJ	st	_	9	mark	_	tag=st
-7	meðan	meðan	SCONJ	st	_	6	fixed	_	tag=st
+7	meðan	meðan	SCONJ	st	_	6	_	_	tag=st
 8	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_p1
 9	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	advcl	_	tag=so_0_fh_p1_et_nt_gm
 10	hér	hér	ADV	ao	_	9	advmod	_	tag=ao
@@ -206,8 +206,8 @@
 
 1-3	Eygló Ósk Gústafsdóttir	_	_	_	_	_	_	_	_
 1	Eygló	Eygló	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
-2	Ósk	Ósk	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	tag=person_nf_kvk
-3	Gústafsdóttir	Gústafsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	fixed	_	tag=person_nf_kvk
+2	Ósk	Ósk	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
+3	Gústafsdóttir	Gústafsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	_	_	tag=person_nf_kvk
 4	vann	vinna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 5	til	til	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
 6	silfurverðlauna	silfur-verðlaun	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_ef_hk
@@ -220,7 +220,7 @@
 13	ungverska	ungverska	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_nf_kvk_vb
 14-15	Katinka Hoszu	_	_	_	_	_	_	_	_
 14	Katinka	Katinka	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	16	nsubj	_	tag=person_nf_kvk
-15	Hoszu	Hoszu	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	fixed	_	tag=person_nf_kvk
+15	Hoszu	Hoszu	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	_	_	tag=person_nf_kvk
 16	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 17	gull	gull	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=no_et_þf_hk
 18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf

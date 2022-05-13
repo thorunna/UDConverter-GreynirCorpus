@@ -140,7 +140,7 @@
 7	hjá	hjá	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8-9	Kristjáni Árnasyni	_	_	_	_	_	_	_	_
 8	Kristjáni	Kristján	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	6	obl	_	tag=person_þgf_kk
-9	Árnasyni	Árnason	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	8	fixed	_	tag=person_þgf_kk
+9	Árnasyni	Árnason	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	8	_	_	tag=person_þgf_kk
 10	spurður	spyrja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 11	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 12	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	tag=fn_et_þf_kk
@@ -323,7 +323,7 @@
 10	að	að	SCONJ	st	_	13	mark	_	tag=st
 11-12	árið 2016	_	_	_	_	_	_	_	_
 11	árið	árið	ADV	ártal	_	13	advmod	_	tag=ártal
-12	2016	2016	NUM	ártal	_	11	fixed	_	tag=ártal
+12	2016	2016	NUM	ártal	_	11	flat	_	tag=ártal
 13	hafi	hafa	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	ccomp	_	tag=so_1_þf_vh_p3_et_nt_gm
 14	útvarpsstjóri	útvarpsstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=no_et_nf_kk
 15	tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	13	conj	_	tag=so_1_þf_sagnb_gm
@@ -341,7 +341,7 @@
 27	samanburður	samanburður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	tag=no_et_nf_kk
 28-29	á milli	_	_	_	_	_	_	_	_
 28	á	á	ADP	fs_ef	Case=Gen	30	case	_	tag=fs_ef
-29	milli	milli	ADP	fs_ef	Case=Gen	28	fixed	_	tag=fs_ef
+29	milli	milli	ADP	fs_ef	Case=Gen	28	_	_	tag=fs_ef
 30	launa	laun	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	27	obl	_	tag=no_ft_ef_hk
 31	á	á	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
 32	árunum	ár	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	30	obl	_	tag=no_ft_þgf_hk_gr
@@ -379,13 +379,13 @@
 19	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 20-22	270 þúsund krónur	_	_	_	_	_	_	_	_
 20	270	270	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	16	obl	_	tag=no_ft_þf_kvk
-21	þúsund	þúsund	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	20	fixed	_	tag=no_ft_þf_kvk
-22	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	21	fixed	_	tag=no_ft_þf_kvk
+21	þúsund	þúsund	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	20	_	_	tag=no_ft_þf_kvk
+22	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	21	_	_	tag=no_ft_þf_kvk
 23	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	24	nmod	_	tag=fn_et_þf_kk
 24-26	1. maí 2018	_	_	_	_	_	_	_	_
 24	1.	1.	ADV	dagsföst	_	16	advmod	_	tag=dagsföst
-25	maí	maí	?	dagsföst	_	24	fixed	_	tag=dagsföst
-26	2018	2018	?	dagsföst	_	25	fixed	_	tag=dagsföst
+25	maí	maí	?	dagsföst	_	24	flat	_	tag=dagsföst
+26	2018	2018	?	dagsföst	_	24	flat	_	tag=dagsföst
 27	og	og	CCONJ	st	_	4	cc	_	tag=st
 28	hámarksgreiðslur	hámarksgreiðsla	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	31	nsubj	_	tag=no_ft_nf_kvk
 29	úr	úr	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
@@ -396,13 +396,13 @@
 34	í	í	ADP	fs_þf	Case=Acc	35	case	_	tag=fs_þf
 35-37	633 þúsund krónur	_	_	_	_	_	_	_	_
 35	633	633	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	31	obl	_	tag=no_ft_þf_kvk
-36	þúsund	þúsund	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	35	fixed	_	tag=no_ft_þf_kvk
-37	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	36	fixed	_	tag=no_ft_þf_kvk
+36	þúsund	þúsund	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	35	_	_	tag=no_ft_þf_kvk
+37	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	36	_	_	tag=no_ft_þf_kvk
 38	frá	frá	ADP	fs_þgf	Case=Dat	39	case	_	tag=fs_þgf
 39-41	1. júlí 2018	_	_	_	_	_	_	_	_
 39	1.	1.	ADV	dagsföst	_	31	advmod	_	SpaceAfter=No|tag=dagsföst
-40	júlí	júlí	?	dagsföst	_	39	fixed	_	SpaceAfter=No|tag=dagsföst
-41	2018	2018	?	dagsföst	_	40	fixed	_	SpaceAfter=No|tag=dagsföst
+40	júlí	júlí	?	dagsföst	_	39	flat	_	SpaceAfter=No|tag=dagsföst
+41	2018	2018	?	dagsföst	_	39	flat	_	SpaceAfter=No|tag=dagsföst
 42	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00196,.10
@@ -412,7 +412,7 @@
 3	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_ft_nt_gm
 4-5	Hreiðar Már	_	_	_	_	_	_	_	_
 4	Hreiðar	Hreiðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-5	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	SpaceAfter=No|tag=person_nf_kk
+5	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	SpaceAfter=No|tag=person_nf_kk
 6	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 7	Sigurður	Sigurður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	conj	_	tag=person_nf_kk
 8	og	og	CCONJ	st	_	4	cc	_	tag=st
@@ -423,14 +423,14 @@
 13	til	til	ADP	fs_ef	Case=Gen	23	case	_	tag=fs_ef
 14-16	Chesterfield United Inc.	_	_	_	_	_	_	_	_
 14	Chesterfield	Chesterfield	PROPN	fyrirtæki	_	23	VANTAR_LIÐ-obl?	_	SpaceAfter=No|tag=fyrirtæki
-15	United	United	PROPN	fyrirtæki	_	14	fixed	_	SpaceAfter=No|tag=fyrirtæki
-16	Inc.	Inc.	PROPN	fyrirtæki	_	15	fixed	_	SpaceAfter=No|tag=fyrirtæki
+15	United	United	PROPN	fyrirtæki	_	14	flat	_	SpaceAfter=No|tag=fyrirtæki
+16	Inc.	Inc.	PROPN	fyrirtæki	_	14	flat	_	SpaceAfter=No|tag=fyrirtæki
 17	,	_	PUNCT	grm	_	23	punct	_	tag=grm
 18-21	Partride Management Group S.A.	_	_	_	_	_	_	_	_
 18	Partride	Partride	PROPN	fyrirtæki	_	23	VANTAR_LIÐ-obl?	_	tag=fyrirtæki
-19	Management	Management	PROPN	fyrirtæki	_	18	fixed	_	tag=fyrirtæki
-20	Group	Group	PROPN	fyrirtæki	_	19	fixed	_	tag=fyrirtæki
-21	S.A.	S.A.	PROPN	fyrirtæki	_	20	fixed	_	tag=fyrirtæki
+19	Management	Management	PROPN	fyrirtæki	_	18	flat	_	tag=fyrirtæki
+20	Group	Group	PROPN	fyrirtæki	_	18	flat	_	tag=fyrirtæki
+21	S.A.	S.A.	PROPN	fyrirtæki	_	18	flat	_	tag=fyrirtæki
 22	og	og	CCONJ	st	_	23	cc	_	tag=st
 23	eignarhaldsfélaga	eignarhaldsfélag	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_ef_hk
 24	þeirra	hann	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	23	nmod:poss	_	SpaceAfter=No|tag=pfn_ft_ef_hk_p3
@@ -439,8 +439,8 @@
 27	um	um	ADP	fs_þf	Case=Acc	28	case	_	tag=fs_þf
 28-30	510 milljónir evra	_	_	_	_	_	_	_	_
 28	510	510	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
-29	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	28	fixed	_	SpaceAfter=No|tag=no_ft_þf_kvk
-30	evra	evra	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	29	fixed	_	SpaceAfter=No|tag=no_ft_þf_kvk
+29	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	28	_	_	SpaceAfter=No|tag=no_ft_þf_kvk
+30	evra	evra	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	29	_	_	SpaceAfter=No|tag=no_ft_þf_kvk
 31	,	_	PUNCT	grm	_	28	punct	_	tag=grm
 32	eða	eða	CCONJ	st	_	28	cc	_	tag=st
 33	sem	sem	SCONJ	stt	_	34	mark	_	tag=stt
@@ -448,8 +448,8 @@
 35	um	um	ADV	eo	_	36	advmod	_	tag=eo
 36-38	64 milljörðum króna	_	_	_	_	_	_	_	_
 36	64	64	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	34	obj	_	tag=no_ft_þgf_kk
-37	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	36	fixed	_	tag=no_ft_þgf_kk
-38	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	37	fixed	_	tag=no_ft_þgf_kk
+37	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	36	_	_	tag=no_ft_þgf_kk
+38	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	37	_	_	tag=no_ft_þgf_kk
 39	á	á	ADP	fs_þf	Case=Acc	41	case	_	tag=fs_þf
 40	núverandi	núverandi	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	41	amod	_	tag=lo_et_þgf_hk_sb
 41	gengi	gengi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	34	obl	_	SpaceAfter=No|tag=no_et_þgf_hk

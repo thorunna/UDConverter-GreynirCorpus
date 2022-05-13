@@ -111,8 +111,8 @@
 18	í	í	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 19-21	heilbrigðis- og menntamálin	_	_	_	_	_	_	_	_
 19	heilbrigðis-	heilbrigðis-	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	17	obl	_	tag=no_ft_þf_hk_gr
-20	og	og	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	19	fixed	_	tag=no_ft_þf_hk_gr
-21	menntamálin	menntamál	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	20	fixed	_	tag=no_ft_þf_hk_gr
+20	og	og	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	19	_	_	tag=no_ft_þf_hk_gr
+21	menntamálin	menntamál	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	20	_	_	tag=no_ft_þf_hk_gr
 22	og	og	CCONJ	st	_	5	cc	_	tag=st
 23	ekki	ekki	ADV	ao	_	5	cop	_	tag=ao
 24	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_vh_p3_et_þt_gm
@@ -211,7 +211,7 @@
 21	fólksins	fólk	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	20	nmod:poss	_	tag=no_et_ef_hk_gr
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	september	september	ADV	dagsafs	_	17	advmod	_	tag=dagsafs
-24	s.l.	s.l.	NOUN	abbrev	_	23	flat:name	_	tag=abbrev
+24	s.l.	s.l.	NOUN	abbrev	_	23	flat	_	tag=abbrev
 25	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	ccomp	_	tag=so_0_fh_p3_et_þt_gm
 26	fram	fram	ADV	ao	_	25	advmod	_	tag=ao
 27	skýr	skýr	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	28	amod	_	tag=lo_et_nf_kk_sb
@@ -288,7 +288,7 @@
 # text = Árið 1968 rættist draumur margra um að eignast plötu með lögum eftir Oddgeir Kristjánsson þegar út kom stór plata með 14 lögum eftir tónskáldið með textum eftir vini hans Ása í Bæ, Árna úr Eyjum og Loft Guðmundsson sem gerði texta við þrjú lög.
 1-2	Árið 1968	_	_	_	_	_	_	_	_
 1	Árið	Árið	ADV	ártal	_	3	advmod	_	tag=ártal
-2	1968	1968	NUM	ártal	_	1	fixed	_	tag=ártal
+2	1968	1968	NUM	ártal	_	1	flat	_	tag=ártal
 3	rættist	ræta	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 4	draumur	draumur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 5	margra	margur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	4	nmod:poss	_	tag=lo_ft_ef_kk_sb
@@ -301,7 +301,7 @@
 12	eftir	eftir	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 13-14	Oddgeir Kristjánsson	_	_	_	_	_	_	_	_
 13	Oddgeir	Oddgeir	PROPN	person_þf_kk	Case=Acc|Gender=Masc	11	obl	_	tag=person_þf_kk
-14	Kristjánsson	Kristjánsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	fixed	_	tag=person_þf_kk
+14	Kristjánsson	Kristjánsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	_	_	tag=person_þf_kk
 15	þegar	þegar	SCONJ	st	_	17	mark	_	tag=st
 16	út	út	ADV	ao	_	17	advmod	_	tag=ao
 17	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	advcl	_	tag=so_0_fh_p3_et_þt_gm
@@ -327,7 +327,7 @@
 37	og	og	CCONJ	st	_	28	cc	_	tag=st
 38-39	Loft Guðmundsson	_	_	_	_	_	_	_	_
 38	Loft	Loft	PROPN	person_þf_kk	Case=Acc|Gender=Masc	28	obl	_	tag=person_þf_kk
-39	Guðmundsson	Guðmundsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	38	fixed	_	tag=person_þf_kk
+39	Guðmundsson	Guðmundsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	38	_	_	tag=person_þf_kk
 40	sem	sem	SCONJ	stt	_	41	mark	_	tag=stt
 41	gerði	gera	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	38	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 42	texta	texta	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	41	obj	_	tag=no_et_þf_kk
@@ -356,8 +356,8 @@
 16	og	og	CCONJ	st	_	17	cc	_	tag=st
 17-19	Tesla Model 3	_	_	_	_	_	_	_	_
 17	Tesla	Tesla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	15	advcl	_	tag=person_nf_kvk
-18	Model	Model	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	17	fixed	_	tag=person_nf_kvk
-19	3	3	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	18	fixed	_	tag=person_nf_kvk
+18	Model	Model	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	17	_	_	tag=person_nf_kvk
+19	3	3	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	18	_	_	tag=person_nf_kvk
 20	bíllinn	bíllinn	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	conj	_	tag=no_et_nf_kk_gr
 21	svo	svo	SCONJ	st	_	23	mark	_	tag=st
 22	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	tag=pfn_et_nf_kk_p3
@@ -370,8 +370,8 @@
 29	en	en	CCONJ	st	_	1	cc	_	tag=st
 30-32	Tesla Model S	_	_	_	_	_	_	_	_
 30	Tesla	Tesla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	34	nsubj	_	tag=person_nf_kvk
-31	Model	Model	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	30	fixed	_	tag=person_nf_kvk
-32	S	S	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	31	fixed	_	tag=person_nf_kvk
+31	Model	Model	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	30	_	_	tag=person_nf_kvk
+32	S	S	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	31	_	_	tag=person_nf_kvk
 33	bíllinn	bíllinn	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	conj	_	tag=no_et_nf_kk_gr
 34	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
 35	að	að	PART	nhm	_	36	mark	_	tag=nhm
@@ -379,7 +379,7 @@
 37	um	um	ADP	fs_þf	Case=Acc	38	case	_	tag=fs_þf
 38-39	35.000 dollara	_	_	_	_	_	_	_	_
 38	35.000	35.000	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	36	obl	_	tag=no_ft_þf_kk
-39	dollara	dollara	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	38	fixed	_	tag=no_ft_þf_kk
+39	dollara	dollara	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	38	_	_	tag=no_ft_þf_kk
 40	í	í	ADP	fs_þgf	Case=Dat	43	case	_	tag=fs_þgf
 41	sinni	sinni	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	43	nmod	_	tag=fn_et_þgf_kvk
 42	ódýrustu	ódýrustu	ADJ	lo_et_þgf_kvk_evb	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	43	amod	_	tag=lo_et_þgf_kvk_evb

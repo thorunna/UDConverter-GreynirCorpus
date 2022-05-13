@@ -90,7 +90,7 @@
 19	nýrra	nýr	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	20	amod	_	tag=lo_et_ef_kvk_sb
 20-21	Boeing MAX	_	_	_	_	_	_	_	_
 20	Boeing	Boeing	PROPN	entity_et	Number=Sing	18	nmod:poss	_	tag=entity_et
-21	MAX	MAX	PROPN	entity_et	Number=Sing	20	fixed	_	tag=entity_et
+21	MAX	MAX	PROPN	entity_et	Number=Sing	20	_	_	tag=entity_et
 22	þota	þota	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	20	conj	_	tag=no_et_ef_kvk
 23	sem	sem	SCONJ	stt	_	25	mark	_	tag=stt
 24	félagið	félag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	25	obl	_	tag=no_et_nf_hk_gr
@@ -109,7 +109,7 @@
 3	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nmod	_	tag=pfn_ft_nf_kk_p3
 4-5	Nosiviwe Maphisa-Nqakula	_	_	_	_	_	_	_	_
 4	Nosiviwe	Nosiviwe	PROPN	sérnafn	_	2	nsubj	_	SpaceAfter=No|tag=sérnafn
-5	Maphisa-Nqakula	Maphisa-Nqakula	PROPN	sérnafn	_	4	fixed	_	SpaceAfter=No|tag=sérnafn
+5	Maphisa-Nqakula	Maphisa-Nqakula	PROPN	sérnafn	_	4	flat	_	SpaceAfter=No|tag=sérnafn
 6	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 7	varnarmálaráðherra	varnarmálaráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 8	Suður-Afríku	Suður-Afríka	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|tag=no_et_ef_kvk
@@ -117,7 +117,7 @@
 10	og	og	CCONJ	st	_	4	cc	_	tag=st
 11-12	Bongani Bongo	_	_	_	_	_	_	_	_
 11	Bongani	Bongani	PROPN	sérnafn	_	4	conj	_	SpaceAfter=No|tag=sérnafn
-12	Bongo	Bongo	PROPN	sérnafn	_	11	fixed	_	SpaceAfter=No|tag=sérnafn
+12	Bongo	Bongo	PROPN	sérnafn	_	11	flat	_	SpaceAfter=No|tag=sérnafn
 13	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 14	ráðherra	ráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_ef_kk
 15	öryggismála	öryggismál	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	nmod:poss	_	tag=no_ft_ef_hk
@@ -151,8 +151,8 @@
 11	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 12-14	Guðni Albert Einarsson	_	_	_	_	_	_	_	_
 12	Guðni	Guðni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	obl	_	SpaceAfter=No|tag=person_nf_kk
-13	Albert	Albert	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	SpaceAfter=No|tag=person_nf_kk
-14	Einarsson	Einarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	fixed	_	SpaceAfter=No|tag=person_nf_kk
+13	Albert	Albert	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	_	_	SpaceAfter=No|tag=person_nf_kk
+14	Einarsson	Einarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	_	_	SpaceAfter=No|tag=person_nf_kk
 15	,	_	PUNCT	grm	_	14	punct	_	tag=grm
 16	forstjóri	forstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_nf_kk
 17	Klofnings	Klofningur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
@@ -242,7 +242,7 @@
 2	rokkhundurinn	rokkhundur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk_gr
 3-4	Steven Tyler	_	_	_	_	_	_	_	_
 3	Steven	Steven	PROPN	sérnafn	_	2	conj	_	tag=sérnafn
-4	Tyler	Tyler	PROPN	sérnafn	_	3	fixed	_	tag=sérnafn
+4	Tyler	Tyler	PROPN	sérnafn	_	3	flat	_	tag=sérnafn
 5	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
 6	gefið	gefa	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
 7	frá	frá	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf

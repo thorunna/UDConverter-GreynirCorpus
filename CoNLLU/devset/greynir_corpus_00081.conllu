@@ -26,7 +26,7 @@
 5-7	hér á landi	_	_	_	_	_	_	_	_
 5	hér	hér	ADV	ao	_	13	advmod	_	tag=ao
 6	á	á	ADV	ao	_	5	fixed	_	tag=ao
-7	landi	landi	ADV	ao	_	6	fixed	_	tag=ao
+7	landi	landi	ADV	ao	_	5	fixed	_	tag=ao
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
 9	víðar	víða	ADV	ao_mst	Degree=Cmp	5	advmod	_	tag=ao_mst
 10	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_ft_nt_gm
@@ -71,14 +71,14 @@
 13	mánudaginn	mánudagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þf_kk_gr
 14-15	12. febrúar	_	_	_	_	_	_	_	_
 14	12.	12.	ADV	dagsafs	_	8	advmod	_	SpaceAfter=No|tag=dagsafs
-15	febrúar	febrúar	NUM?	dagsafs	_	14	fixed	_	SpaceAfter=No|tag=dagsafs
+15	febrúar	febrúar	NUM?	dagsafs	_	14	flat	_	SpaceAfter=No|tag=dagsafs
 16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00081,.5
 # text = Þvert á tímann er heimildarmynd en tekin eftir handriti og Matthías leikur sjálfan sig.
 1-2	Þvert á	_	_	_	_	_	_	_	_
 1	Þvert	þvert	PROPN	sérnafn	_	5	nsubj	_	tag=sérnafn
-2	á	á	PROPN	sérnafn	_	1	fixed	_	tag=sérnafn
+2	á	á	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
 3	tímann	tími	PROPN	sérnafn_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	tag=sérnafn_et_þf_kk_gr
 4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	heimildarmynd	heimildarmynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
@@ -162,7 +162,7 @@
 8	fundar	fundur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_ef_kk
 9-10	klukkan 14.00	_	_	_	_	_	_	_	_
 9	klukkan	klukkan	ADV	tími	_	3	advmod	_	tag=tími
-10	14.00	14.00	?	tími	_	9	fixed	_	tag=tími
+10	14.00	14.00	NUM	tími	_	9	flat	_	tag=tími
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	Ráðhúsi	Ráðhús	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_hk
 13	Reykjavíkur	Reykjavík	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	12	flat:name	_	tag=sérnafn_et_ef_kvk

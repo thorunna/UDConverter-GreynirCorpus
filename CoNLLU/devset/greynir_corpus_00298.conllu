@@ -21,7 +21,7 @@
 19	um	um	ADV	eo	_	20	advmod	_	tag=eo
 20-21	klukkan fjögur	_	_	_	_	_	_	_	_
 20	klukkan	klukkan	ADV	tími	_	18	advmod	_	tag=tími
-21	fjögur	fjögur	?	tími	_	20	fixed	_	tag=tími
+21	fjögur	fjögur	NUM	tími	_	20	flat	_	tag=tími
 22	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 23	nótt	nótt	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 24	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -48,11 +48,11 @@
 18	og	og	CCONJ	st	_	15	cc	_	tag=st
 19-20	Blake Lively	_	_	_	_	_	_	_	_
 19	Blake	Blake	PROPN	sérnafn_þgf_kvk	Case=Dat|Gender=Fem	15	conj	_	tag=sérnafn_þgf_kvk
-20	Lively	Lively	PROPN	sérnafn_þgf_kvk	Case=Dat|Gender=Fem	19	fixed	_	tag=sérnafn_þgf_kvk
+20	Lively	Lively	PROPN	sérnafn_þgf_kvk	Case=Dat|Gender=Fem	19	_	_	tag=sérnafn_þgf_kvk
 21	og	og	CCONJ	st	_	15	cc	_	tag=st
 22-23	Ryan Reynolds	_	_	_	_	_	_	_	_
 22	Ryan	Ryan	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	15	conj	_	SpaceAfter=No|tag=sérnafn_þgf_kk
-23	Reynolds	Reynolds	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	22	fixed	_	SpaceAfter=No|tag=sérnafn_þgf_kk
+23	Reynolds	Reynolds	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	22	_	_	SpaceAfter=No|tag=sérnafn_þgf_kk
 24	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00298,.3
@@ -113,8 +113,8 @@
 # text = Óli Ingi Ólason, saksóknari hjá embætti Ríkissaksóknara, segir við mbl.is að vonir standi til þess að ljúka aðalmeðferð málsins 26. apríl.
 1-3	Óli Ingi Ólason	_	_	_	_	_	_	_	_
 1	Óli	Óli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
-3	Ólason	Ólason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+3	Ólason	Ólason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	SpaceAfter=No|tag=person_nf_kk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	saksóknari	saksóknari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	hjá	hjá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -135,7 +135,7 @@
 21	málsins	mál	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	20	nmod:poss	_	tag=no_et_ef_hk_gr
 22-23	26. apríl	_	_	_	_	_	_	_	_
 22	26.	26.	ADV	dagsafs	_	19	advmod	_	SpaceAfter=No|tag=dagsafs
-23	apríl	apríl	NUM?	dagsafs	_	22	fixed	_	SpaceAfter=No|tag=dagsafs
+23	apríl	apríl	NUM?	dagsafs	_	22	flat	_	SpaceAfter=No|tag=dagsafs
 24	.	.	PUNCT	grm	_	10	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00298,.6
@@ -215,7 +215,7 @@
 20	dagana	dagur	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	17	advmod	_	tag=no_ft_þf_kk
 21-22	í kringum	_	_	_	_	_	_	_	_
 21	í	í	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
-22	kringum	kringum	ADP	fs_þf	Case=Acc	21	fixed	_	tag=fs_þf
+22	kringum	kringum	ADP	fs_þf	Case=Acc	21	_	_	tag=fs_þf
 23	kosningarnar	kosning	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk_gr
 24	.	_	PUNCT	grm	_	13	punct	_	tag=grm
 
@@ -260,7 +260,7 @@
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13-14	WOW air	_	_	_	_	_	_	_	_
 13	WOW	WOW	PROPN	fyrirtæki	_	10	obl	_	tag=fyrirtæki
-14	air	air	PROPN	fyrirtæki	_	13	fixed	_	tag=fyrirtæki
+14	air	air	PROPN	fyrirtæki	_	13	flat	_	tag=fyrirtæki
 15	brá	bregða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 16	fyrirtækið	fyrirtæki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	tag=no_et_nf_hk_gr
 17	á	á	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf

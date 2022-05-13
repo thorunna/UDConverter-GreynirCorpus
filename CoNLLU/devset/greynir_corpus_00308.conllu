@@ -6,7 +6,7 @@
 4	fram	fram	ADV	ao	_	2	advmod	_	tag=ao
 5-6	22. mars	_	_	_	_	_	_	_	_
 5	22.	22.	ADV	dagsafs	_	2	advmod	_	tag=dagsafs
-6	mars	mars	NUM?	dagsafs	_	5	fixed	_	tag=dagsafs
+6	mars	mars	NUM?	dagsafs	_	5	flat	_	tag=dagsafs
 7	en	en	CCONJ	st	_	2	cc	_	tag=st
 8	vegna	vegna	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
 9	mikilla	mikill	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	10	amod	_	tag=lo_ft_ef_kvk_sb
@@ -22,7 +22,7 @@
 19	þann	sá	ADV	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	advmod	_	tag=fn_et_þf_kk
 20-21	27. júlí	_	_	_	_	_	_	_	_
 20	27.	27.	NUM?	dagsafs	_	19	('HALLÓ_dagsafs', None, 'NP', None)	_	tag=dagsafs
-21	júlí	júlí	NUM?	dagsafs	_	20	fixed	_	tag=dagsafs
+21	júlí	júlí	NUM?	dagsafs	_	20	flat	_	tag=dagsafs
 22	þegar	þegar	SCONJ	st	_	25	mark	_	tag=st
 23	sumarleyfi	sumarleyfi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	tag=no_et_nf_hk
 24	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nmod:poss	_	tag=pfn_et_ef_kk_p3
@@ -123,8 +123,8 @@
 6-9	eins og áður segir	_	_	_	_	_	_	_	_
 6	eins	eins	ADV	ao	_	5	advmod	_	tag=ao
 7	og	og	ADV	ao	_	6	fixed	_	tag=ao
-8	áður	áður	ADV	ao	_	7	fixed	_	tag=ao
-9	segir	segir	ADV	ao	_	8	fixed	_	tag=ao
+8	áður	áður	ADV	ao	_	6	fixed	_	tag=ao
+9	segir	segir	ADV	ao	_	6	fixed	_	tag=ao
 10	og	og	CCONJ	st	_	5	cc	_	tag=st
 11	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	fyrri	fyrri	ADJ	lo_et_þgf_kk_mst	Case=Dat|Degree=Cmp|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_þgf_kk_mst
@@ -239,7 +239,7 @@
 5	Þjóðhátíð	þjóðhátíð	PROPN	sérnafn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=sérnafn_et_þf_kvk
 6-7	árið 2003	_	_	_	_	_	_	_	_
 6	árið	árið	ADV	ártal	_	2	advmod	_	SpaceAfter=No|tag=ártal
-7	2003	2003	NUM	ártal	_	6	fixed	_	SpaceAfter=No|tag=ártal
+7	2003	2003	NUM	ártal	_	6	flat	_	SpaceAfter=No|tag=ártal
 8	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 9	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	félögunum	félag	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk_gr
@@ -281,7 +281,7 @@
 18	og	og	CCONJ	st	_	19	cc	_	tag=st
 19-20	Nunatta Qitornai	_	_	_	_	_	_	_	_
 19	Nunatta	Nunatta	PROPN	fyrirtæki	_	17	conj	_	SpaceAfter=No|tag=fyrirtæki
-20	Qitornai	Qitornai	PROPN	fyrirtæki	_	19	fixed	_	SpaceAfter=No|tag=fyrirtæki
+20	Qitornai	Qitornai	PROPN	fyrirtæki	_	19	flat	_	SpaceAfter=No|tag=fyrirtæki
 21	,	_	PUNCT	grm	_	22	punct	_	tag=grm
 22	hafa	hafa	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
 23	samtals	samtals	ADV	ao	_	22	advmod	_	tag=ao

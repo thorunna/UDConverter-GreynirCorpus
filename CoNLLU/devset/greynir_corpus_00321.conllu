@@ -28,7 +28,7 @@
 26	um	um	ADP	fs_þf	Case=Acc	29	case	_	tag=fs_þf
 27-28	tvö þúsund	_	_	_	_	_	_	_	_
 27	tvö	tvö	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	29	nummod	_	tag=töl_ft_þf_kvk
-28	þúsund	þúsund	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	27	fixed	_	tag=töl_ft_þf_kvk
+28	þúsund	þúsund	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	27	_	_	tag=töl_ft_þf_kvk
 29	íbúðir	íbúð	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	25	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 30	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
@@ -36,7 +36,7 @@
 # text = L.A. Times tók saman sögur sex kvenna, þar á meðal leikkvennanna Olivia Munn og Natasha Henstridge, sem sökuðu leikstjórann um ágenga, hrottalega og óæskilega kynferðislega hegðun.
 1-2	L.A. Times	_	_	_	_	_	_	_	_
 1	L.A.	L.A.	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
-2	Times	Times	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	fixed	_	tag=no_et_nf_hk
+2	Times	Times	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	_	_	tag=no_et_nf_hk
 3	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	saman	saman	ADV	eo	_	5	advmod	_	tag=eo
 5	sögur	saga	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	tag=no_ft_þf_kvk
@@ -49,11 +49,11 @@
 12	leikkvennanna	leikkona	NOUN	no_ft_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	tag=no_ft_ef_kvk_gr
 13-14	Olivia Munn	_	_	_	_	_	_	_	_
 13	Olivia	Olivia	PROPN	person	_	12	conj	_	tag=person
-14	Munn	Munn	PROPN	person	_	13	fixed	_	tag=person
+14	Munn	Munn	PROPN	person	_	13	flat	_	tag=person
 15	og	og	CCONJ	st	_	12	cc	_	tag=st
 16-17	Natasha Henstridge	_	_	_	_	_	_	_	_
 16	Natasha	Natasha	PROPN	person	_	12	conj	_	SpaceAfter=No|tag=person
-17	Henstridge	Henstridge	PROPN	person	_	16	fixed	_	SpaceAfter=No|tag=person
+17	Henstridge	Henstridge	PROPN	person	_	16	flat	_	SpaceAfter=No|tag=person
 18	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 19	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
 20	sökuðu	saka	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	tag=so_1_þf_fh_p3_ft_þt_gm
@@ -82,7 +82,7 @@
 10	með	með	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 11-12	98 prósenta	_	_	_	_	_	_	_	_
 11	98	98	?	prósenta	_	13	nmod:poss	_	tag=prósenta
-12	prósenta	prósenta	?	prósenta	_	11	fixed	_	tag=prósenta
+12	prósenta	prósenta	?	prósenta	_	11	_	_	tag=prósenta
 13	markaðshlutdeild	markaðshlutdeild	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 14	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 15	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_0_fh_p3_et_nt_gm
@@ -220,12 +220,12 @@
 17	mundir	mund	ADV	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	advmod	_	tag=no_ft_þf_kvk
 18-19	43 prósenta	_	_	_	_	_	_	_	_
 18	43	43	?	prósenta	_	20	nmod:poss	_	tag=prósenta
-19	prósenta	prósenta	?	prósenta	_	18	fixed	_	tag=prósenta
+19	prósenta	prósenta	?	prósenta	_	18	_	_	tag=prósenta
 20	fylgis	fylgi	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	13	obj	_	tag=no_et_ef_hk
 21	en	en	CCONJ	st	_	4	cc	_	tag=st
 22-23	47 prósent	_	_	_	_	_	_	_	_
 22	47	47	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	25	nsubj	_	tag=no_ft_nf_hk
-23	prósent	prósent	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	22	fixed	_	tag=no_ft_nf_hk
+23	prósent	prósent	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	22	_	_	tag=no_ft_nf_hk
 24	aðspurðra	aðspurður	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	22	nmod:poss	_	tag=lo_ft_ef_kvk_sb
 25	segjast	segja	VERB	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	4	conj	_	tag=so_0_fh_p3_ft_nt_mm
 26	ætla	ætla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	25	conj	_	tag=so_0_nh_gm

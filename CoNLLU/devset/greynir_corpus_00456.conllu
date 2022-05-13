@@ -77,7 +77,7 @@
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20-21	Háskóla Íslands	_	_	_	_	_	_	_	_
 20	Háskóla	Háskóli	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þgf_kk
-21	Íslands	Íslands	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	fixed	_	tag=no_et_þgf_kk
+21	Íslands	Íslands	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	_	_	tag=no_et_þgf_kk
 22	fyrir	fyrir	ADV	ao	_	15	advmod	_	tag=ao
 23	skömmu	skammur	ADV	ao	_	22	advmod	_	SpaceAfter=No|tag=ao
 24	.	.	PUNCT	grm	_	11	punct	_	tag=grm
@@ -86,7 +86,7 @@
 # text = Donald Trump, Bandaríkjaforseti, fagnar ákvörðun Kims Jong-Un og stjórnvalda í Pjong Jang, um að láta af frekari tilraunum með kjarnorkuvopn og eldflaugar.
 1-2	Donald Trump	_	_	_	_	_	_	_	_
 1	Donald	Donald	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	Bandaríkjaforseti	Bandaríkjaforseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
@@ -94,13 +94,13 @@
 7	ákvörðun	ákvörðun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þgf_kvk
 8-9	Kims Jong-Un	_	_	_	_	_	_	_	_
 8	Kims	Kim	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	nmod:poss	_	tag=person_ef_kk
-9	Jong-Un	Jong-Un	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	fixed	_	tag=person_ef_kk
+9	Jong-Un	Jong-Un	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	_	_	tag=person_ef_kk
 10	og	og	CCONJ	st	_	8	cc	_	tag=st
 11	stjórnvalda	stjórnvald	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_ef_hk
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13-14	Pjong Jang	_	_	_	_	_	_	_	_
 13	Pjong	Pjong	PROPN	sérnafn_þgf	Case=Dat	11	obl	_	SpaceAfter=No|tag=sérnafn_þgf
-14	Jang	Jang	PROPN	sérnafn_þgf	Case=Dat	13	fixed	_	SpaceAfter=No|tag=sérnafn_þgf
+14	Jang	Jang	PROPN	sérnafn_þgf	Case=Dat	13	_	_	SpaceAfter=No|tag=sérnafn_þgf
 15	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 16	um	um	ADP	fs_nh	VerbForm=Inf	18	case	_	tag=fs_nh
 17	að	að	PART	nhm	_	18	mark	_	tag=nhm
@@ -185,7 +185,7 @@
 9	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_þgf_hk_evb
 10	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	advmod	_	tag=no_et_þgf_hk
 11	þegar	þegar	SCONJ	st	_	15	mark	_	tag=st
-12	A	A	NOUN	abbrev	_	13	flat:name	_	tag=abbrev
+12	A	A	NOUN	abbrev	_	13	flat	_	tag=abbrev
 13	landslið	landslið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	tag=no_et_nf_hk
 14	kvenna	kona	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	13	nmod:poss	_	tag=no_ft_ef_kvk
 15	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	tag=so_0_fh_p3_et_þt_gm
@@ -203,7 +203,7 @@
 # text = Sólveig Anna segist vera afar ósátt við viðbrögð Samtaka atvinnulífsins og bendir á að enn sé verið að tala um lægst launaða fólkið í samfélaginu.
 1-2	Sólveig Anna	_	_	_	_	_	_	_	_
 1	Sólveig	Sólveig	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
-2	Anna	Anna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	tag=person_nf_kvk
+2	Anna	Anna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
 3	segist	segja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 4	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	cop	_	tag=so_1_nf_nh_gm
 5	afar	afar	ADV	eo	_	6	advmod	_	tag=eo
@@ -246,7 +246,7 @@
 13	á	eiga	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14-15	árinu 2019	_	_	_	_	_	_	_	_
 14	árinu	árinu	ADV	ártal	_	3	advmod	_	SpaceAfter=No|tag=ártal
-15	2019	2019	NUM	ártal	_	14	fixed	_	SpaceAfter=No|tag=ártal
+15	2019	2019	NUM	ártal	_	14	flat	_	SpaceAfter=No|tag=ártal
 16	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 17	en	en	CCONJ	st	_	3	cc	_	tag=st
 18	sambærileg	sambærilegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	19	amod	_	tag=lo_et_nf_kvk_sb

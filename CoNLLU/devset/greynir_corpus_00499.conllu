@@ -91,8 +91,8 @@
 35	miðvikudagsins	miðvikudagur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	34	nmod:poss	_	tag=no_et_ef_kk_gr
 36-38	4. janúar 2017	_	_	_	_	_	_	_	_
 36	4.	4.	ADV	dagsföst	_	35	advmod	_	tag=dagsföst
-37	janúar	janúar	?	dagsföst	_	36	fixed	_	tag=dagsföst
-38	2017	2017	?	dagsföst	_	37	fixed	_	tag=dagsföst
+37	janúar	janúar	?	dagsföst	_	36	flat	_	tag=dagsföst
+38	2017	2017	?	dagsföst	_	36	flat	_	tag=dagsföst
 39	og	og	CCONJ	st	_	34	cc	_	tag=st
 40	fram	fram	ADV	ao	_	42	advmod	_	tag=ao
 41	á	á	ADP	fs_þgf	Case=Dat	42	case	_	tag=fs_þgf
@@ -100,8 +100,8 @@
 43	fimmtudagsins	fimmtudagur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	42	nmod:poss	_	tag=no_et_ef_kk_gr
 44-46	5. janúar 2017	_	_	_	_	_	_	_	_
 44	5.	5.	ADV	dagsföst	_	43	advmod	_	tag=dagsföst
-45	janúar	janúar	?	dagsföst	_	44	fixed	_	tag=dagsföst
-46	2017	2017	?	dagsföst	_	45	fixed	_	tag=dagsföst
+45	janúar	janúar	?	dagsföst	_	44	flat	_	tag=dagsföst
+46	2017	2017	?	dagsföst	_	44	flat	_	tag=dagsföst
 47	á	á	ADP	fs_þgf	Case=Dat	48	case	_	tag=fs_þgf
 48	heimili	heimili	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_nf_hk
 49	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	48	nmod:poss	_	tag=pfn_ft_ef_hk_p3
@@ -140,13 +140,13 @@
 27-29	að svo stöddu	_	_	_	_	_	_	_	_
 27	að	að	ADV	ao	_	24	advmod	_	SpaceAfter=No|tag=ao
 28	svo	svo	ADV	ao	_	27	fixed	_	SpaceAfter=No|tag=ao
-29	stöddu	stöddu	ADV	ao	_	28	fixed	_	SpaceAfter=No|tag=ao
+29	stöddu	stöddu	ADV	ao	_	27	fixed	_	SpaceAfter=No|tag=ao
 30	,	,	PUNCT	grm	_	29	punct	_	tag=grm
 31	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 32-34	Davíð Páll Viðarsson	_	_	_	_	_	_	_	_
 32	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	31	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-33	Páll	Páll	PROPN	person_nf_kk	Case=Nom|Gender=Masc	32	fixed	_	SpaceAfter=No|tag=person_nf_kk
-34	Viðarsson	Viðarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	33	fixed	_	SpaceAfter=No|tag=person_nf_kk
+33	Páll	Páll	PROPN	person_nf_kk	Case=Nom|Gender=Masc	32	_	_	SpaceAfter=No|tag=person_nf_kk
+34	Viðarsson	Viðarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	33	_	_	SpaceAfter=No|tag=person_nf_kk
 35	,	,	PUNCT	grm	_	34	punct	_	tag=grm
 36	stjórnarformaður	stjórnarformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	32	obl	_	tag=no_et_nf_kk
 37	Reykjaneshafnar	Reykjaneshöfn	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	36	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
@@ -162,7 +162,7 @@
 47	gjalddaga	gjalddagi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	43	obj	_	tag=no_et_þgf_kk
 48-49	Thorsil ehf.	_	_	_	_	_	_	_	_
 48	Thorsil	Thorsil	PROPN	fyrirtæki	_	47	nmod:poss	_	tag=fyrirtæki
-49	ehf.	ehf.	PROPN	fyrirtæki	_	48	fixed	_	tag=fyrirtæki
+49	ehf.	ehf.	PROPN	fyrirtæki	_	48	flat	_	tag=fyrirtæki
 50	á	á	ADP	fs_þgf	Case=Dat	51	case	_	tag=fs_þgf
 51	gatnagerðargjöldum	gatnagerðargjald	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	47	obl	_	tag=no_ft_þgf_hk
 52	vegna	vegna	ADP	fs_ef	Case=Gen	53	case	_	tag=fs_ef
@@ -377,7 +377,7 @@
 34	umfjöllun	umfjöllun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=no_et_nf_kvk
 35-36	Cambridge Analytica	_	_	_	_	_	_	_	_
 35	Cambridge	Cambridge	PROPN	fyrirtæki	_	34	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
-36	Analytica	Analytica	PROPN	fyrirtæki	_	35	fixed	_	SpaceAfter=No|tag=fyrirtæki
+36	Analytica	Analytica	PROPN	fyrirtæki	_	35	flat	_	SpaceAfter=No|tag=fyrirtæki
 37	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 38	en	en	CCONJ	st	_	2	cc	_	tag=st
 39	fyrirtækið	fyrirtæki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	43	nsubj	_	tag=no_et_nf_hk_gr
@@ -390,7 +390,7 @@
 45	framboði	framboð	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	43	obl	_	tag=no_et_þgf_hk
 46-47	Donalds Trumps	_	_	_	_	_	_	_	_
 46	Donalds	Donalds	PROPN	person_ef_kk	Case=Gen|Gender=Masc	45	nmod:poss	_	tag=person_ef_kk
-47	Trumps	Trumps	PROPN	person_ef_kk	Case=Gen|Gender=Masc	46	fixed	_	tag=person_ef_kk
+47	Trumps	Trumps	PROPN	person_ef_kk	Case=Gen|Gender=Masc	46	_	_	tag=person_ef_kk
 48	í	í	ADP	fs_þgf	Case=Dat	49	case	_	tag=fs_þgf
 49	Bandaríkjunum	Bandaríkin	PROPN	sérnafn_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	45	obl	_	tag=sérnafn_ft_þgf_hk_gr
 50	og	og	CCONJ	st	_	45	cc	_	tag=st
@@ -403,7 +403,7 @@
 # text = Metin Gurcan, sérfræðingur í skipulagi tyrkneska hersins, skrifar á miðilinn Al-Monitor, og segir aðstöðumun herjanna í aðgengi að vopnum hugsanlega lykilástæðu : Tyrklandsher hafi stutt við landgönguliða í innrásinni úr lofti með F-16 orrustuþotum, T129 árásarþyrlum og drónum, auk fjölda skriðdreka á landi.
 1-2	Metin Gurcan	_	_	_	_	_	_	_	_
 1	Metin	Metin	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Gurcan	Gurcan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Gurcan	Gurcan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 4	sérfræðingur	sérfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -492,7 +492,7 @@
 35-37	engu að síður	_	_	_	_	_	_	_	_
 35	engu	engu	ADV	eo	_	38	advmod	_	tag=eo
 36	að	að	ADV	eo	_	35	fixed	_	tag=eo
-37	síður	síður	ADV	eo	_	36	fixed	_	tag=eo
+37	síður	síður	ADV	eo	_	35	fixed	_	tag=eo
 38	óásættanlegt	óásættanlegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	14	ccomp	_	tag=lo_et_nf_hk_sb
 39	að	að	SCONJ	st	_	44	mark	_	tag=st
 40	svo	svo	ADV	eo	_	42	advmod	_	tag=eo

@@ -111,7 +111,7 @@
 30	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 31-32	Jón Gerald	_	_	_	_	_	_	_	_
 31	Jón	Jón	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	tag=person_et_nf_kk
-32	Gerald	Gerald	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	31	fixed	_	tag=person_et_nf_kk
+32	Gerald	Gerald	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	31	_	_	tag=person_et_nf_kk
 33	í	í	ADP	fs_þgf	Case=Dat	34	case	_	tag=fs_þgf
 34	tilkynningunni	tilkynning	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
 35	.	_	PUNCT	grm	_	1	punct	_	tag=grm
@@ -120,7 +120,7 @@
 # text = Mauricio Pochettino, knattspyrnustjóri Tottenham, var í dag dæmdur í tveggja leikja bann af enska knattspyrnusambandinu eftir að hafa misst stjórn á skapinu og hraunað yfir dómara leiksins eftir leik Spurs og Burnley á dögunum.
 1-2	Mauricio Pochettino	_	_	_	_	_	_	_	_
 1	Mauricio	Mauricio	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-2	Pochettino	Pochettino	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No|tag=person_et_nf_kk
+2	Pochettino	Pochettino	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	_	_	SpaceAfter=No|tag=person_et_nf_kk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	knattspyrnustjóri	knattspyrnustjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Tottenham	Tottenham	PROPN	fyrirtæki	_	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
@@ -208,11 +208,11 @@
 5	:	_	PUNCT	grm	_	4	punct	_	tag=grm
 6-11	The Story of the Vivian Girls	_	_	_	_	_	_	_	_
 6	The	The	X	foreign	_	0	root	_	SpaceAfter=No|tag=foreign
-7	Story	Story	X	foreign	_	6	fixed	_	SpaceAfter=No|tag=foreign
-8	of	of	X	foreign	_	7	fixed	_	SpaceAfter=No|tag=foreign
-9	the	the	X	foreign	_	8	fixed	_	SpaceAfter=No|tag=foreign
-10	Vivian	Vivian	X	foreign	_	9	fixed	_	SpaceAfter=No|tag=foreign
-11	Girls	Girls	X	foreign	_	10	fixed	_	SpaceAfter=No|tag=foreign
+7	Story	Story	X	foreign	_	6	flat:foreign	_	SpaceAfter=No|tag=foreign
+8	of	of	X	foreign	_	7	flat:foreign	_	SpaceAfter=No|tag=foreign
+9	the	the	X	foreign	_	8	flat:foreign	_	SpaceAfter=No|tag=foreign
+10	Vivian	Vivian	X	foreign	_	9	flat:foreign	_	SpaceAfter=No|tag=foreign
+11	Girls	Girls	X	foreign	_	10	flat:foreign	_	SpaceAfter=No|tag=foreign
 12	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 13	in	in	X	foreign	_	6	flat:foreign	_	tag=foreign
 14	What	What	X	foreign	_	6	flat:foreign	_	tag=foreign
@@ -222,24 +222,24 @@
 18	the	the	X	foreign	_	6	flat:foreign	_	tag=foreign
 19-22	Realms of the Unreal	_	_	_	_	_	_	_	_
 19	Realms	Realms	X	foreign	_	6	flat:foreign	_	SpaceAfter=No|tag=foreign
-20	of	of	X	foreign	_	19	fixed	_	SpaceAfter=No|tag=foreign
-21	the	the	X	foreign	_	20	fixed	_	SpaceAfter=No|tag=foreign
-22	Unreal	Unreal	X	foreign	_	21	fixed	_	SpaceAfter=No|tag=foreign
+20	of	of	X	foreign	_	19	flat:foreign	_	SpaceAfter=No|tag=foreign
+21	the	the	X	foreign	_	20	flat:foreign	_	SpaceAfter=No|tag=foreign
+22	Unreal	Unreal	X	foreign	_	21	flat:foreign	_	SpaceAfter=No|tag=foreign
 23	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 24	of	of	X	foreign	_	6	flat:foreign	_	tag=foreign
 25	the	the	X	foreign	_	6	flat:foreign	_	tag=foreign
 26-28	Glandeco-Angelinian War Storm	_	_	_	_	_	_	_	_
 26	Glandeco-Angelinian	Glandeco-Angelinian	X	foreign	_	6	flat:foreign	_	SpaceAfter=No|tag=foreign
-27	War	War	X	foreign	_	26	fixed	_	SpaceAfter=No|tag=foreign
-28	Storm	Storm	X	foreign	_	27	fixed	_	SpaceAfter=No|tag=foreign
+27	War	War	X	foreign	_	26	flat:foreign	_	SpaceAfter=No|tag=foreign
+28	Storm	Storm	X	foreign	_	27	flat:foreign	_	SpaceAfter=No|tag=foreign
 29	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 30	Caused	Caused	X	foreign	_	6	flat:foreign	_	tag=foreign
 31	by	by	X	foreign	_	6	flat:foreign	_	tag=foreign
 32	the	the	X	foreign	_	6	flat:foreign	_	tag=foreign
 33-35	Child Slave Rebellion	_	_	_	_	_	_	_	_
 33	Child	Child	X	foreign	_	6	flat:foreign	_	SpaceAfter=No|tag=foreign
-34	Slave	Slave	X	foreign	_	33	fixed	_	SpaceAfter=No|tag=foreign
-35	Rebellion	Rebellion	X	foreign	_	34	fixed	_	SpaceAfter=No|tag=foreign
+34	Slave	Slave	X	foreign	_	33	flat:foreign	_	SpaceAfter=No|tag=foreign
+35	Rebellion	Rebellion	X	foreign	_	34	flat:foreign	_	SpaceAfter=No|tag=foreign
 36	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00192,.7
@@ -351,7 +351,7 @@
 21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22-23	Vestmannaeyjum hf.	_	_	_	_	_	_	_	_
 22	Vestmannaeyjum	Vestmannaeyjar	PROPN	fyrirtæki_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	20	obl	_	tag=fyrirtæki_ft_þgf_hk
-23	hf.	hf.	PROPN	fyrirtæki_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	22	fixed	_	tag=fyrirtæki_ft_þgf_hk
+23	hf.	hf.	PROPN	fyrirtæki_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	22	_	_	tag=fyrirtæki_ft_þgf_hk
 24	og	og	CCONJ	st	_	18	cc	_	tag=st
 25	varaformaður	varaformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	tag=no_et_nf_kk
 26	stjórnar	stjórn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	18	nmod:poss	_	tag=no_et_ef_kvk
@@ -365,8 +365,8 @@
 34	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 35-37	Einar Þór Sverrisson	_	_	_	_	_	_	_	_
 35	Einar	Einar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|tag=person_et_nf_kk
-36	Þór	Þór	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	35	fixed	_	SpaceAfter=No|tag=person_et_nf_kk
-37	Sverrisson	Sverrisson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	36	fixed	_	SpaceAfter=No|tag=person_et_nf_kk
+36	Þór	Þór	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	35	_	_	SpaceAfter=No|tag=person_et_nf_kk
+37	Sverrisson	Sverrisson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	36	_	_	SpaceAfter=No|tag=person_et_nf_kk
 38	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00192,.10

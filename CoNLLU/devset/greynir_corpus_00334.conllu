@@ -20,7 +20,7 @@
 18	Sportrásum	sportrás	PROPN	sérnafn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	obl	_	tag=sérnafn_ft_þgf_kvk
 19-20	Stöðvar 2	_	_	_	_	_	_	_	_
 19	Stöðvar	Stöð	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	18	flat:name	_	tag=fyrirtæki_et_ef_kvk
-20	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	19	fixed	_	tag=fyrirtæki_et_ef_kvk
+20	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	19	_	_	tag=fyrirtæki_et_ef_kvk
 21	en	en	CCONJ	st	_	13	cc	_	tag=st
 22	öllum	allur	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	23	nmod	_	tag=fn_ft_þgf_kk
 23	leikjum	leikur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	26	iobj	_	tag=no_ft_þgf_kk
@@ -32,11 +32,11 @@
 29	Pepsi-mörkunum	Pepsi-mörk	PROPN	fyrirtæki_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	26	obl	_	tag=fyrirtæki_ft_þgf_kvk_gr
 30-31	klukkan 22.00	_	_	_	_	_	_	_	_
 30	klukkan	klukkan	ADV	tími	_	26	advmod	_	tag=tími
-31	22.00	22.00	?	tími	_	30	fixed	_	tag=tími
+31	22.00	22.00	NUM	tími	_	30	flat	_	tag=tími
 32	á	á	ADP	fs_þgf	Case=Dat	33	case	_	tag=fs_þgf
 33-34	Stöð 2	_	_	_	_	_	_	_	_
 33	Stöð	Stöð	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	26	obl	_	tag=fyrirtæki_et_þgf_kvk
-34	2	2	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	33	fixed	_	tag=fyrirtæki_et_þgf_kvk
+34	2	2	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	33	_	_	tag=fyrirtæki_et_þgf_kvk
 35	Sport	sport	PROPN	fyrirtæki	_	33	conj	_	tag=fyrirtæki
 36	HD	HD	PROPN	fyrirtæki	_	33	conj	_	SpaceAfter=No|tag=fyrirtæki
 37	.	_	PUNCT	grm	_	13	punct	_	tag=grm
@@ -90,7 +90,7 @@
 3-5	í fyrsta sinn	_	_	_	_	_	_	_	_
 3	í	í	ADV	ao	_	2	advmod	_	tag=ao
 4	fyrsta	fyrsta	ADV	ao	_	3	fixed	_	tag=ao
-5	sinn	sinn	ADV	ao	_	4	fixed	_	tag=ao
+5	sinn	sinn	ADV	ao	_	3	fixed	_	tag=ao
 6	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 7	knattspyrnumenn	knattspyrnumaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	tag=no_ft_nf_kk
 8	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_ft_nt_gm
@@ -172,7 +172,7 @@
 3	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	4	nmod	_	tag=pfn_ft_nf_hk_p3
 4-5	Almar Guðmundsson	_	_	_	_	_	_	_	_
 4	Almar	Almar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-5	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	SpaceAfter=No|tag=person_nf_kk
+5	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	SpaceAfter=No|tag=person_nf_kk
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	stjórnarformaður	stjórnarformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 8	Nýsköpunarsjóðs	Nýsköpunarsjóður	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=fyrirtæki_et_ef_kk
@@ -180,32 +180,32 @@
 10	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 11-12	Guðrún Ögmundsdóttir	_	_	_	_	_	_	_	_
 11	Guðrún	Guðrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	SpaceAfter=No|tag=person_nf_kvk
-12	Ögmundsdóttir	Ögmundsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	11	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+12	Ögmundsdóttir	Ögmundsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	11	_	_	SpaceAfter=No|tag=person_nf_kvk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	sérfræðingur	sérfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16-18	fjármála- og efnahagsráðuneytinu	_	_	_	_	_	_	_	_
 16	fjármála-	fjármála-	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-17	og	og	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	16	fixed	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-18	efnahagsráðuneytinu	efnahagsráðuneyti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	17	fixed	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+17	og	og	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	16	_	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+18	efnahagsráðuneytinu	efnahagsráðuneyti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	17	_	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 19	,	_	PUNCT	grm	_	20	punct	_	tag=grm
 20-21	Tryggvi Hjaltason	_	_	_	_	_	_	_	_
 20	Tryggvi	Tryggvi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	conj	_	tag=person_nf_kk
-21	Hjaltason	Hjaltason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	fixed	_	tag=person_nf_kk
+21	Hjaltason	Hjaltason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	_	_	tag=person_nf_kk
 22	framleiðandi	framleiðandi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 23	hjá	hjá	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24	CCP	CCP	PROPN	fyrirtæki	_	22	obl	_	tag=fyrirtæki
 25	og	og	CCONJ	st	_	4	cc	_	tag=st
 26-27	Guðrún Gísladóttir	_	_	_	_	_	_	_	_
 26	Guðrún	Guðrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	SpaceAfter=No|tag=person_nf_kvk
-27	Gísladóttir	Gísladóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	26	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+27	Gísladóttir	Gísladóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	26	_	_	SpaceAfter=No|tag=person_nf_kvk
 28	,	_	PUNCT	grm	_	27	punct	_	tag=grm
 29	skrifstofustjóri	skrifstofustjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 30	í	í	ADP	fs_þgf	Case=Dat	31	case	_	tag=fs_þgf
 31-33	atvinnuvega- og nýsköpunarráðuneytinu	_	_	_	_	_	_	_	_
 31	atvinnuvega-	atvinnuvega-	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	29	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-32	og	og	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	31	fixed	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-33	nýsköpunarráðuneytinu	nýsköpunarráðuneyti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	32	fixed	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+32	og	og	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	31	_	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+33	nýsköpunarráðuneytinu	nýsköpunarráðuneyti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	32	_	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 34	,	_	PUNCT	grm	_	29	punct	_	tag=grm
 35	sem	sem	SCONJ	stt	_	36	mark	_	tag=stt
 36	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -221,7 +221,7 @@
 4	þingmaðurinn	þingmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_nf_kk_gr
 5-6	Justin Humphrey	_	_	_	_	_	_	_	_
 5	Justin	Justin	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-6	Humphrey	Humphrey	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	fixed	_	SpaceAfter=No|tag=person_nf_kk
+6	Humphrey	Humphrey	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	_	_	SpaceAfter=No|tag=person_nf_kk
 7	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
 9	kallað	kalla	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
@@ -254,11 +254,11 @@
 # text = 27. október var Robert Bowers ákærður fyrir að hafa drepið 11 manns í bænahúsi gyðinga í Pittsburg en hann æpti : Allir gyðingar eiga að deyja, áður en hann hóf skothríð á gesti í bænahúsinu.
 1-2	27. október	_	_	_	_	_	_	_	_
 1	27.	27.	ADV	dagsafs	_	6	advmod	_	tag=dagsafs
-2	október	október	NUM?	dagsafs	_	1	fixed	_	tag=dagsafs
+2	október	október	NUM?	dagsafs	_	1	flat	_	tag=dagsafs
 3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 4-5	Robert Bowers	_	_	_	_	_	_	_	_
 4	Robert	Robert	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-5	Bowers	Bowers	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	tag=person_nf_kk
+5	Bowers	Bowers	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
 6	ákærður	ákæra	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 7	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	12	case	_	tag=fs_nh
 8	að	að	PART	nhm	_	12	mark	_	tag=nhm
@@ -306,7 +306,7 @@
 10	hvort	hvort	CCONJ	st	_	13	cc	_	tag=st
 11-12	Caster Semenya	_	_	_	_	_	_	_	_
 11	Caster	Caster	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	13	nsubj	_	tag=sérnafn_nf_kvk
-12	Semenya	Semenya	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	11	fixed	_	tag=sérnafn_nf_kvk
+12	Semenya	Semenya	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	11	_	_	tag=sérnafn_nf_kvk
 13	fái	fá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	nsubj	_	tag=so_0_vh_p3_et_nt_gm
 14	að	að	PART	nhm	_	15	mark	_	tag=nhm
 15	reyna	reyna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_0_nh_gm
@@ -317,7 +317,7 @@
 20	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 21-22	800 m	_	_	_	_	_	_	_	_
 21	800	800	?	mælieining	_	23	obl	_	tag=mælieining
-22	m	m	?	mælieining	_	21	fixed	_	tag=mælieining
+22	m	m	?	mælieining	_	21	_	_	tag=mælieining
 23	hlaupi	hlaup	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	tag=no_et_þgf_hk
 24	kvenna	kona	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	23	nmod:poss	_	tag=no_ft_ef_kvk
 25	á	á	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
@@ -334,7 +334,7 @@
 36	Katar	Katar	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	34	obl	_	tag=sérnafn_et_þgf_hk
 37-38	27. september	_	_	_	_	_	_	_	_
 37	27.	27.	ADV	dagsafs	_	32	advmod	_	SpaceAfter=No|tag=dagsafs
-38	september	september	NUM?	dagsafs	_	37	fixed	_	SpaceAfter=No|tag=dagsafs
+38	september	september	NUM?	dagsafs	_	37	flat	_	SpaceAfter=No|tag=dagsafs
 39	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00334,.9
@@ -348,7 +348,7 @@
 7	að	að	SCONJ	st	_	11	mark	_	tag=st
 8-9	Kim Jong-Un	_	_	_	_	_	_	_	_
 8	Kim	Kim	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-9	Jong-Un	Jong-Un	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	fixed	_	tag=person_nf_kk
+9	Jong-Un	Jong-Un	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	_	_	tag=person_nf_kk
 10	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_vh_p3_et_þt_gm
 11	búinn	búinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=lo_et_nf_kk_sb
 12	að	að	PART	nhm	_	13	mark	_	tag=nhm
@@ -379,8 +379,8 @@
 1	Fjöllistakonan	fjöllistakona	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_nf_kvk_gr
 2-4	Margrét Erla Maack	_	_	_	_	_	_	_	_
 2	Margrét	Margrét	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	nsubj	_	tag=person_nf_kvk
-3	Erla	Erla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	fixed	_	tag=person_nf_kvk
-4	Maack	Maack	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	fixed	_	tag=person_nf_kvk
+3	Erla	Erla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	_	_	tag=person_nf_kvk
+4	Maack	Maack	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	_	_	tag=person_nf_kvk
 5	birti	birta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 6	pistil	pistill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	tag=no_et_þf_kk
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf

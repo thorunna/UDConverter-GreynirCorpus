@@ -3,23 +3,23 @@
 1-4	Eins og kunnugt er	_	_	_	_	_	_	_	_
 1	Eins	eins	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
 2	og	og	ADV	ao	_	1	fixed	_	SpaceAfter=No|tag=ao
-3	kunnugt	kunnugt	ADV	ao	_	2	fixed	_	SpaceAfter=No|tag=ao
-4	er	er	ADV	ao	_	3	fixed	_	SpaceAfter=No|tag=ao
+3	kunnugt	kunnugt	ADV	ao	_	1	fixed	_	SpaceAfter=No|tag=ao
+4	er	er	ADV	ao	_	1	fixed	_	SpaceAfter=No|tag=ao
 5	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 6	þá	þá	ADV	ao	_	7	advmod	_	tag=ao
 7	óskaði	óska	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 8-10	Sigmundur Davíð Gunnlaugsson	_	_	_	_	_	_	_	_
 8	Sigmundur	Sigmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
-9	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	fixed	_	tag=person_nf_kk
-10	Gunnlaugsson	Gunnlaugsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	fixed	_	tag=person_nf_kk
+9	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	_	_	tag=person_nf_kk
+10	Gunnlaugsson	Gunnlaugsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	_	_	tag=person_nf_kk
 11	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	tag=no_et_nf_kk
 12	eftir	eftir	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	tag=pfn_et_þgf_hk_p3
 14	við	við	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15-17	Ólaf Ragnar Grímsson	_	_	_	_	_	_	_	_
 15	Ólaf	Ólafur	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	obl	_	SpaceAfter=No|tag=person_þf_kk
-16	Ragnar	Ragnar	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	fixed	_	SpaceAfter=No|tag=person_þf_kk
-17	Grímsson	Grímsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	16	fixed	_	SpaceAfter=No|tag=person_þf_kk
+16	Ragnar	Ragnar	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	_	_	SpaceAfter=No|tag=person_þf_kk
+17	Grímsson	Grímsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	16	_	_	SpaceAfter=No|tag=person_þf_kk
 18	,	_	PUNCT	grm	_	19	punct	_	tag=grm
 19	forseta	forseti	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	conj	_	tag=no_et_þf_kk
 20	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	15	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
@@ -100,8 +100,8 @@
 27	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
 28-30	31. ágúst 2017	_	_	_	_	_	_	_	_
 28	31.	31.	ADV	dagsföst	_	27	advmod	_	SpaceAfter=No|tag=dagsföst
-29	ágúst	ágúst	?	dagsföst	_	28	fixed	_	SpaceAfter=No|tag=dagsföst
-30	2017	2017	?	dagsföst	_	29	fixed	_	SpaceAfter=No|tag=dagsföst
+29	ágúst	ágúst	?	dagsföst	_	28	flat	_	SpaceAfter=No|tag=dagsföst
+30	2017	2017	?	dagsföst	_	28	flat	_	SpaceAfter=No|tag=dagsföst
 31	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00178,.4
@@ -142,7 +142,7 @@
 # text = Mike Pompeo, utanríkisráðherra Bandaríkjanna, sagði frá því í fyrrinótt að enn væru nokkrar vikur í að viðskiptaþvinganir gegn Sádi-Aröbum vegna máls Khashoggis myndu líta dagsins ljós.
 1-2	Mike Pompeo	_	_	_	_	_	_	_	_
 1	Mike	Mike	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Pompeo	Pompeo	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Pompeo	Pompeo	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 4	utanríkisráðherra	utanríkisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
 5	Bandaríkjanna	Bandaríkin	PROPN	sérnafn_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	1	nmod:poss	_	SpaceAfter=No|tag=sérnafn_ft_ef_hk_gr
@@ -214,8 +214,8 @@
 5	niðurstöðu	niðurstaða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 6-8	15. september 2017	_	_	_	_	_	_	_	_
 6	15.	15.	ADV	dagsföst	_	5	advmod	_	SpaceAfter=No|tag=dagsföst
-7	september	september	?	dagsföst	_	6	fixed	_	SpaceAfter=No|tag=dagsföst
-8	2017	2017	?	dagsföst	_	7	fixed	_	SpaceAfter=No|tag=dagsföst
+7	september	september	?	dagsföst	_	6	flat	_	SpaceAfter=No|tag=dagsföst
+8	2017	2017	?	dagsföst	_	6	flat	_	SpaceAfter=No|tag=dagsföst
 9	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 10	sama	sami	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	tag=fn_et_þf_kk
 11	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þf_kk
@@ -232,7 +232,7 @@
 22	að	að	SCONJ	st	_	26	mark	_	tag=st
 23-24	Sigríður Andersen	_	_	_	_	_	_	_	_
 23	Sigríður	Sigríður	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	tag=person_et_nf_kvk
-24	Andersen	Andersen	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	23	fixed	_	tag=person_et_nf_kvk
+24	Andersen	Andersen	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	23	_	_	tag=person_et_nf_kvk
 25	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	26	aux	_	tag=so_0_vh_p3_et_nt_gm
 26	brotið	brjóta	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	5	ccomp	_	tag=so_1_þf_sagnb_gm
 27	lög	lög	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	26	obj	_	tag=no_ft_þf_hk
@@ -314,13 +314,13 @@
 # text = Ásmundur Einar Daðason, félags- og jafnréttismálaráðherra, vill gera almenningssamgöngur aðgengilegri fólki með fötlun til þess að fylgja eftir nýjum lögum um þjónustu við fatlað fólk með langvarandi stuðningsþarfir.
 1-3	Ásmundur Einar Daðason	_	_	_	_	_	_	_	_
 1	Ásmundur	Ásmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Einar	Einar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
-3	Daðason	Daðason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Einar	Einar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+3	Daðason	Daðason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	SpaceAfter=No|tag=person_nf_kk
 4	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 5-7	félags- og jafnréttismálaráðherra	_	_	_	_	_	_	_	_
 5	félags-	jafnréttismála-ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|tag=no_et_nf_kk
-6	og	jafnréttismála-ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	fixed	_	SpaceAfter=No|tag=no_et_nf_kk
-7	jafnréttismálaráðherra	jafnréttismála-ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	fixed	_	SpaceAfter=No|tag=no_et_nf_kk
+6	og	jafnréttismála-ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	_	_	SpaceAfter=No|tag=no_et_nf_kk
+7	jafnréttismálaráðherra	jafnréttismála-ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	_	_	SpaceAfter=No|tag=no_et_nf_kk
 8	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 9	vill	vilja	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
 10	gera	gera	VERB	so_2_þf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_2_þf_þf_nh_gm

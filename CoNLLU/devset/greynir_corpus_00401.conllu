@@ -41,7 +41,7 @@
 1-3	Á sama tíma	_	_	_	_	_	_	_	_
 1	Á	á	ADV	ao	_	8	advmod	_	tag=ao
 2	sama	sama	ADV	ao	_	1	fixed	_	tag=ao
-3	tíma	tíma	ADV	ao	_	2	fixed	_	tag=ao
+3	tíma	tíma	ADV	ao	_	1	fixed	_	tag=ao
 4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	8	advmod	_	tag=lo_et_þf_hk_mst
 6	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_þt_gm
@@ -49,7 +49,7 @@
 8	um	um	ADV	eo	_	0	root	_	tag=eo
 9-10	4,6 prósent	_	_	_	_	_	_	_	_
 9	4,6	4,6	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	8	nummod	_	tag=prósenta_ft_nf_hk
-10	prósent	prósent	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	9	fixed	_	tag=prósenta_ft_nf_hk
+10	prósent	prósent	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	9	_	_	tag=prósenta_ft_nf_hk
 11	og	og	CCONJ	st	_	8	cc	_	tag=st
 12	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_et_nt_gm
 13	því	því	ADV	ao	_	14	advmod	_	tag=ao
@@ -86,11 +86,11 @@
 3	vinkonurnar	vinkona	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_nf_kvk_gr
 4-5	Solla Eiríks	_	_	_	_	_	_	_	_
 4	Solla	Solla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-5	Eiríks	Eiríks	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+5	Eiríks	Eiríks	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	_	_	SpaceAfter=No|tag=person_nf_kvk
 6	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 7-8	Vala Matt	_	_	_	_	_	_	_	_
 7	Vala	Vala	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	tag=person_nf_kvk
-8	Matt	Matt	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	fixed	_	tag=person_nf_kvk
+8	Matt	Matt	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	_	_	tag=person_nf_kvk
 9	og	og	CCONJ	st	_	4	cc	_	tag=st
 10	Ásdís	Ásdís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	tag=person_nf_kvk
 11	grasalæknir	grasalæknir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
@@ -128,8 +128,8 @@
 3	myndbandablogghópsins	myndbanda-blogg-hópur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_ef_kk_gr
 4-6	High on Life	_	_	_	_	_	_	_	_
 4	High	High	PROPN	entity	_	2	nmod:poss	_	tag=entity
-5	on	on	PROPN	entity	_	4	fixed	_	tag=entity
-6	Life	Life	PROPN	entity	_	5	fixed	_	tag=entity
+5	on	on	PROPN	entity	_	4	flat	_	tag=entity
+6	Life	Life	PROPN	entity	_	4	flat	_	tag=entity
 7	hröpuðu	hrapa	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 8	30	30	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	9	nummod	_	tag=tala_ft_þf_kk
 9	metra	metri	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	obl	_	tag=no_ft_þf_kk
@@ -146,24 +146,24 @@
 1	Leikkonurnar	leikkona	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_nf_kvk_gr
 2-4	Aldís Amah Hamilton	_	_	_	_	_	_	_	_
 2	Aldís	Aldís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-3	Amah	Amah	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	fixed	_	SpaceAfter=No|tag=person_nf_kvk
-4	Hamilton	Hamilton	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+3	Amah	Amah	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	_	_	SpaceAfter=No|tag=person_nf_kvk
+4	Hamilton	Hamilton	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	_	_	SpaceAfter=No|tag=person_nf_kvk
 5	,	,	PUNCT	grm	_	6	punct	_	tag=grm
 6-7	Ragnheiður Steindórsdóttir	_	_	_	_	_	_	_	_
 6	Ragnheiður	Ragnheiður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	conj	_	tag=person_nf_kvk
-7	Steindórsdóttir	Steindórsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	fixed	_	tag=person_nf_kvk
+7	Steindórsdóttir	Steindórsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	_	_	tag=person_nf_kvk
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
 9-11	Esther Talía Casey	_	_	_	_	_	_	_	_
 9	Esther	Esther	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	conj	_	tag=person_nf_kvk
-10	Talía	Talía	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	fixed	_	tag=person_nf_kvk
-11	Casey	Casey	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	fixed	_	tag=person_nf_kvk
+10	Talía	Talía	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	_	_	tag=person_nf_kvk
+11	Casey	Casey	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	_	_	tag=person_nf_kvk
 12	fluttu	flytja	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 13	örverk	ör-verk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	tag=no_et_þf_hk
 14	eftir	eftir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15-17	Yrsu Þöll Gylfadóttur	_	_	_	_	_	_	_	_
 15	Yrsu	Yrsa	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	13	obl	_	tag=person_þf_kvk
-16	Þöll	Þöll	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	fixed	_	tag=person_þf_kvk
-17	Gylfadóttur	Gylfadóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	16	fixed	_	tag=person_þf_kvk
+16	Þöll	Þöll	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	_	_	tag=person_þf_kvk
+17	Gylfadóttur	Gylfadóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	16	_	_	tag=person_þf_kvk
 18	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19	samstöðufundi	samstöðu-fundur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þgf_kk
 20	kvenna	kona	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	19	nmod:poss	_	tag=no_ft_ef_kvk
@@ -183,7 +183,7 @@
 8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 9-10	þrátt fyrir	_	_	_	_	_	_	_	_
 9	þrátt	þrátt	SCONJ	st	_	15	mark	_	tag=st
-10	fyrir	fyrir	SCONJ	st	_	9	fixed	_	tag=st
+10	fyrir	fyrir	SCONJ	st	_	9	_	_	tag=st
 11	að	að	SCONJ	st	_	9	cc	_	tag=st
 12	stjórnarskrárréttur	stjórnarskrár-réttur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	tag=no_et_nf_kk
 13	Spánar	Spánn	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	nmod:poss	_	tag=sérnafn_et_ef_kk

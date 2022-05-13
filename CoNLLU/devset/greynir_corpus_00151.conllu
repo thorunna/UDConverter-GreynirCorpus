@@ -14,7 +14,7 @@
 12	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13-14	árinu 2012	_	_	_	_	_	_	_	_
 13	árinu	árinu	ADV	ártal	_	10	advmod	_	tag=ártal
-14	2012	2012	NUM	ártal	_	13	fixed	_	tag=ártal
+14	2012	2012	NUM	ártal	_	13	flat	_	tag=ártal
 15	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	grundvallarskilgreiningar	grundvallarskilgreining	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	tag=no_ft_þf_kvk
 17	löggæslu	löggæsla	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	tag=no_et_ef_kvk
@@ -99,7 +99,7 @@
 12	jafnvægið	jafnvægi	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þf_hk_gr
 13-14	á milli	_	_	_	_	_	_	_	_
 13	á	á	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
-14	milli	milli	ADP	fs_ef	Case=Gen	13	fixed	_	tag=fs_ef
+14	milli	milli	ADP	fs_ef	Case=Gen	13	_	_	tag=fs_ef
 15	jákvæðra	jákvæður	ADJ	lo_ft_ef_hk_fst_sb	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	tag=lo_ft_ef_hk_fst_sb
 16	áhrifa	áhrif	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_ef_hk
 17	ferðaþjónustu	ferðaþjónusta	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	tag=no_et_ef_kvk
@@ -157,7 +157,7 @@
 11	gengur	ganga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 12-13	í gegnum	_	_	_	_	_	_	_	_
 12	í	í	ADP	fs_þf	Case=Acc	11	obl	_	tag=fs_þf
-13	gegnum	gegnum	ADP	fs_þf	Case=Acc	12	fixed	_	tag=fs_þf
+13	gegnum	gegnum	ADP	fs_þf	Case=Acc	12	_	_	tag=fs_þf
 14	til	til	ADP	fs_nh	VerbForm=Inf	18	case	_	tag=fs_nh
 15	að	að	PART	nhm	_	18	mark	_	tag=nhm
 16	verða	verða	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	18	cop	_	tag=so_1_nf_nh_gm
@@ -211,7 +211,7 @@
 6	með	með	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7-8	11,7 prósent	_	_	_	_	_	_	_	_
 7	11,7	11,7	?	prósenta	_	4	obl	_	tag=prósenta
-8	prósent	prósent	?	prósenta	_	7	fixed	_	tag=prósenta
+8	prósent	prósent	?	prósenta	_	7	_	_	tag=prósenta
 9	fylgi	fylgi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	tag=no_et_þf_hk
 10	og	og	CCONJ	st	_	4	cc	_	tag=st
 11	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -228,7 +228,7 @@
 22	með	með	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23-24	8,6 prósent	_	_	_	_	_	_	_	_
 23	8,6	8,6	?	prósenta	_	21	obl	_	tag=prósenta
-24	prósent	prósent	?	prósenta	_	23	fixed	_	tag=prósenta
+24	prósent	prósent	?	prósenta	_	23	_	_	tag=prósenta
 25	fylgi	fylgi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	conj	_	SpaceAfter=No|tag=no_et_þgf_hk
 26	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
@@ -277,18 +277,18 @@
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15-16	Christinu Pluhar	_	_	_	_	_	_	_	_
 15	Christinu	Christina	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	13	obl	_	tag=person_þf_kvk
-16	Pluhar	Pluhar	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	fixed	_	tag=person_þf_kvk
+16	Pluhar	Pluhar	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	_	_	tag=person_þf_kvk
 17	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 18-19	Chano Dominguez	_	_	_	_	_	_	_	_
 18	Chano	Chano	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	obl	_	tag=person_þf_kk
-19	Dominguez	Dominguez	PROPN	person_þf_kk	Case=Acc|Gender=Masc	18	fixed	_	tag=person_þf_kk
+19	Dominguez	Dominguez	PROPN	person_þf_kk	Case=Acc|Gender=Masc	18	_	_	tag=person_þf_kk
 20	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 21-22	Pepe Habichuela	_	_	_	_	_	_	_	_
 21	Pepe	Pepe	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	obl	_	tag=person_þf_kk
-22	Habichuela	Habichuela	PROPN	person_þf_kk	Case=Acc|Gender=Masc	21	fixed	_	tag=person_þf_kk
+22	Habichuela	Habichuela	PROPN	person_þf_kk	Case=Acc|Gender=Masc	21	_	_	tag=person_þf_kk
 23	og	og	CCONJ	st	_	13	cc	_	tag=st
 24-25	La Folata	_	_	_	_	_	_	_	_
 24	La	La	PROPN	fyrirtæki_þf	Case=Acc	13	VANTAR_LIÐ-obl?	_	tag=fyrirtæki_þf
-25	Folata	Folata	PROPN	fyrirtæki_þf	Case=Acc	24	fixed	_	tag=fyrirtæki_þf
+25	Folata	Folata	PROPN	fyrirtæki_þf	Case=Acc	24	_	_	tag=fyrirtæki_þf
 26	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

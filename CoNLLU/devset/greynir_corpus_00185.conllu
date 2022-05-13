@@ -23,7 +23,7 @@
 21-23	að svo stöddu	_	_	_	_	_	_	_	_
 21	að	að	ADV	ao	_	18	advmod	_	tag=ao
 22	svo	svo	ADV	ao	_	21	fixed	_	tag=ao
-23	stöddu	stöddu	ADV	ao	_	22	fixed	_	tag=ao
+23	stöddu	stöddu	ADV	ao	_	21	fixed	_	tag=ao
 24	að	að	PART	nhm	_	25	mark	_	tag=nhm
 25	fara	fara	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	nsubj	_	tag=so_0_fh_p3_ft_nt_gm
 26	í	í	ADP	fs_þf	Case=Acc	28	case	_	tag=fs_þf
@@ -42,16 +42,16 @@
 4	utanvegahlauparinn	utanvegahlaupari	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_nf_kk_gr
 5-7	Þorbergur Ingi Jónsson	_	_	_	_	_	_	_	_
 5	Þorbergur	Þorbergur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-6	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	fixed	_	tag=person_nf_kk
-7	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	fixed	_	tag=person_nf_kk
+6	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	_	_	tag=person_nf_kk
+7	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	_	_	tag=person_nf_kk
 8	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 9	setti	setja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 10	met	met	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	tag=no_et_þf_hk
 11	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-12	Mt.	Mt.	NOUN	abbrev	_	13	flat:name	_	tag=abbrev
+12	Mt.	Mt.	NOUN	abbrev	_	13	flat	_	tag=abbrev
 13-14	Esja Ultra-hlaupinu	_	_	_	_	_	_	_	_
 13	Esja	Esja	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk_gr
-14	Ultra-hlaupinu	Ultra-hlaup	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	13	fixed	_	tag=no_et_þgf_hk_gr
+14	Ultra-hlaupinu	Ultra-hlaup	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	13	_	_	tag=no_et_þgf_hk_gr
 15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	13	advmod	_	tag=lo_et_þf_hk_mst
 17	þegar	þegar	SCONJ	st	_	19	mark	_	tag=st
@@ -116,7 +116,7 @@
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7-8	nóvember 2013	_	_	_	_	_	_	_	_
 7	nóvember	nóvember	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
-8	2013	2013	NUM?	dagsafs	_	7	fixed	_	tag=dagsafs
+8	2013	2013	NUM?	dagsafs	_	7	flat	_	tag=dagsafs
 9	og	og	CCONJ	st	_	13	cc	_	tag=st
 10	lengst	langt	ADV	ao_est	Degree=Sup	13	advmod	_	tag=ao_est
 11	af	af	ADV	ao	_	10	advmod	_	tag=ao
@@ -124,8 +124,8 @@
 13	ritstjórn	ritstjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	conj	_	tag=no_et_þgf_kvk
 14-16	Steinunnar Ólínu Þorsteinsdóttur	_	_	_	_	_	_	_	_
 14	Steinunnar	Steinunn	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	13	nmod:poss	_	tag=person_ef_kvk
-15	Ólínu	Ólína	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	14	fixed	_	tag=person_ef_kvk
-16	Þorsteinsdóttur	Þorsteinsdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	15	fixed	_	tag=person_ef_kvk
+15	Ólínu	Ólína	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	14	_	_	tag=person_ef_kvk
+16	Þorsteinsdóttur	Þorsteinsdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	15	_	_	tag=person_ef_kvk
 17	en	en	CCONJ	st	_	19	cc	_	tag=st
 18	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kvk_p3
 19	endurvakti	endurvekja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
@@ -135,11 +135,11 @@
 23	hennar	hún	PRON	pfn_et_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	tag=pfn_et_ef_kvk_p3
 24-25	Bríet Bjarnhéðinsdóttir	_	_	_	_	_	_	_	_
 24	Bríet	Bríet	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	22	obl	_	tag=person_nf_kvk
-25	Bjarnhéðinsdóttir	Bjarnhéðinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	24	fixed	_	tag=person_nf_kvk
+25	Bjarnhéðinsdóttir	Bjarnhéðinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	24	_	_	tag=person_nf_kvk
 26	stofnaði	stofna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 27-28	árið 1885	_	_	_	_	_	_	_	_
 27	árið	árið	ADV	ártal	_	26	advmod	_	tag=ártal
-28	1885	1885	NUM	ártal	_	27	fixed	_	tag=ártal
+28	1885	1885	NUM	ártal	_	27	flat	_	tag=ártal
 29	og	og	CCONJ	st	_	26	cc	_	tag=st
 30	ritstýrði	ritstýra	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	26	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 31	í	í	ADP	fs_þf	Case=Acc	33	case	_	tag=fs_þf
@@ -216,7 +216,7 @@
 28	,	_	PUNCT	grm	_	27	punct	_	tag=grm
 29	svo	svo	ADV	eo	_	33	advmod	_	tag=eo
 30	nefndum	nefndur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	33	amod	_	tag=lo_et_þgf_kk_sb
-31	PTC	PTC	NOUN	abbrev	_	33	flat:name	_	SpaceAfter=No|tag=abbrev
+31	PTC	PTC	NOUN	abbrev	_	33	flat	_	SpaceAfter=No|tag=abbrev
 32	-	_	PUNCT	grm	_	31	punct	_	tag=grm
 33	búnaði	búnaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 34	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -239,7 +239,7 @@
 14-16	að minnsta kosti	_	_	_	_	_	_	_	_
 14	að	að	ADV	ao	_	13	advmod	_	tag=ao
 15	minnsta	minnsta	ADV	ao	_	14	fixed	_	tag=ao
-16	kosti	kosti	ADV	ao	_	15	fixed	_	tag=ao
+16	kosti	kosti	ADV	ao	_	14	fixed	_	tag=ao
 17	fram	fram	ADV	ao	_	20	advmod	_	tag=ao
 18	á	á	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 19	á	á	X	x		18	dep	_	tag=x
@@ -255,8 +255,8 @@
 29	um	um	ADP	fs_þf	Case=Acc	33	case	_	tag=fs_þf
 30-32	sunnan- og vestanvert	_	_	_	_	_	_	_	_
 30	sunnan-	sunnan-	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	tag=lo_et_þf_hk_fst_sb
-31	og	og	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	30	fixed	_	tag=lo_et_þf_hk_fst_sb
-32	vestanvert	vestanverður	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	31	fixed	_	tag=lo_et_þf_hk_fst_sb
+31	og	og	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	30	_	_	tag=lo_et_þf_hk_fst_sb
+32	vestanvert	vestanverður	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	31	_	_	tag=lo_et_þf_hk_fst_sb
 33	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	26	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 34	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 

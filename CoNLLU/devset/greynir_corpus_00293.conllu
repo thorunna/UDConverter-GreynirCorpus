@@ -4,7 +4,7 @@
 2	ferill	ferill	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk
 3-4	Billy Joel	_	_	_	_	_	_	_	_
 3	Billy	Billy	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	nmod:poss	_	tag=person_ef_kk
-4	Joel	Joel	PROPN	person_ef_kk	Case=Gen|Gender=Masc	3	fixed	_	tag=person_ef_kk
+4	Joel	Joel	PROPN	person_ef_kk	Case=Gen|Gender=Masc	3	_	_	tag=person_ef_kk
 5	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
 6	litast	lita	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	0	root	_	tag=so_0_sagnb_mm
 7	af	af	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -59,8 +59,8 @@
 4	dæmt	dæma	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 5-7	Ingibjörgu Evu Löve	_	_	_	_	_	_	_	_
 5	Ingibjörgu	Ingibjörg	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	4	obj	_	tag=person_þf_kvk
-6	Evu	Eva	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	5	fixed	_	tag=person_þf_kvk
-7	Löve	Löve	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	6	fixed	_	tag=person_þf_kvk
+6	Evu	Eva	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	5	_	_	tag=person_þf_kvk
+7	Löve	Löve	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	6	_	_	tag=person_þf_kvk
 8	til	til	ADP	fs_ef	Case=Gen	11	case	_	tag=fs_ef
 9	fimm	fimm	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	obl	_	tag=töl_ft_ef_hk
 10	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	9	conj	_	tag=no_ft_ef_hk
@@ -128,7 +128,7 @@
 20-22	engu að síður	_	_	_	_	_	_	_	_
 20	engu	engu	ADV	ao	_	19	advmod	_	SpaceAfter=No|tag=ao
 21	að	að	ADV	ao	_	20	fixed	_	SpaceAfter=No|tag=ao
-22	síður	síður	ADV	ao	_	21	fixed	_	SpaceAfter=No|tag=ao
+22	síður	síður	ADV	ao	_	20	fixed	_	SpaceAfter=No|tag=ao
 23	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00293,.6
@@ -163,11 +163,11 @@
 3-5	í fyrsta sinn	_	_	_	_	_	_	_	_
 3	í	í	ADV	ao	_	2	advmod	_	tag=ao
 4	fyrsta	fyrsta	ADV	ao	_	3	fixed	_	tag=ao
-5	sinn	sinn	ADV	ao	_	4	fixed	_	tag=ao
+5	sinn	sinn	ADV	ao	_	3	fixed	_	tag=ao
 6	síðan	síðan	SCONJ	st	_	3	advcl	_	tag=st
 7-8	árið 1979	_	_	_	_	_	_	_	_
 7	árið	árið	NUM	ártal	_	6	nsubj	_	tag=ártal
-8	1979	1979	NUM	ártal	_	7	fixed	_	tag=ártal
+8	1979	1979	NUM	ártal	_	7	flat	_	tag=ártal
 9	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 10	oddaleik	oddaleikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	tag=no_et_þf_kk
 11	þarf	þurfa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -208,7 +208,7 @@
 20	sauðfjárbænda	sauðfjárbóndi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	18	obl	_	tag=no_ft_ef_kk
 21-22	20. nóvember	_	_	_	_	_	_	_	_
 21	20.	20.	ADV	dagsafs	_	18	advmod	_	SpaceAfter=No|tag=dagsafs
-22	nóvember	nóvember	NUM?	dagsafs	_	21	fixed	_	SpaceAfter=No|tag=dagsafs
+22	nóvember	nóvember	NUM?	dagsafs	_	21	flat	_	SpaceAfter=No|tag=dagsafs
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00293,.9

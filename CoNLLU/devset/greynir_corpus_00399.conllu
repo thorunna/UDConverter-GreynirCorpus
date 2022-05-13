@@ -6,7 +6,7 @@
 4	falleg	fallegur	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_fst_sb
 5-6	þrátt fyrir	_	_	_	_	_	_	_	_
 5	þrátt	þrátt	ADP	fs_nh	VerbForm=Inf	10	case	_	tag=fs_nh
-6	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	5	fixed	_	tag=fs_nh
+6	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	5	_	_	tag=fs_nh
 7	að	að	PART	nhm	_	10	mark	_	tag=nhm
 8	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	aux	_	tag=so_0_nh_gm
 9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	cop	_	tag=so_0_sagnb_gm
@@ -43,8 +43,8 @@
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4-6	peninga- og gjaldmiðlamálum	_	_	_	_	_	_	_	_
 4	peninga-	peninga-	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
-5	og	og	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	fixed	_	tag=no_ft_þgf_hk
-6	gjaldmiðlamálum	gjaldmiðla-mál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	5	fixed	_	tag=no_ft_þgf_hk
+5	og	og	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	_	_	tag=no_ft_þgf_hk
+6	gjaldmiðlamálum	gjaldmiðla-mál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	5	_	_	tag=no_ft_þgf_hk
 7	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	fullkomin	fullkominn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 9	heldur	heldur	CCONJ	st	_	10	cc	_	tag=st
@@ -68,7 +68,7 @@
 6	samtals	samtals	ADV	eo	_	9	advmod	_	tag=eo
 7-8	tvö hundruð	_	_	_	_	_	_	_	_
 7	tvö	tvö	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	9	nummod	_	tag=tala_ft_þgf_hk
-8	hundruð	hundruð	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	7	fixed	_	tag=tala_ft_þgf_hk
+8	hundruð	hundruð	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	7	_	_	tag=tala_ft_þgf_hk
 9	tonnum	tonn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þgf_hk
 10	af	af	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	sandi	sanda	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þgf_kk
@@ -83,14 +83,14 @@
 # text = Sólveig Ólafsdóttir sagnfræðingur sem ritar for- og eftirmála bókarinnar hefur sjálf grúskað í sögu garðsins og Guðrúnar vökukonu.
 1-2	Sólveig Ólafsdóttir	_	_	_	_	_	_	_	_
 1	Sólveig	Sólveig	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	nsubj	_	tag=person_nf_kvk
-2	Ólafsdóttir	Ólafsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	tag=person_nf_kvk
+2	Ólafsdóttir	Ólafsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
 3	sagnfræðingur	sagnfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	ritar	rita	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 6-8	for- og eftirmála	_	_	_	_	_	_	_	_
 6	for-	for-	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	tag=no_et_þf_kk
-7	og	og	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	fixed	_	tag=no_et_þf_kk
-8	eftirmála	eftirmáli	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	fixed	_	tag=no_et_þf_kk
+7	og	og	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	_	_	tag=no_et_þf_kk
+8	eftirmála	eftirmáli	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	_	_	tag=no_et_þf_kk
 9	bókarinnar	bók	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=no_et_ef_kvk_gr
 10	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_et_nt_gm
 11	sjálf	sjálfur	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	tag=fn_et_nf_kvk
@@ -116,7 +116,7 @@
 9-11	að minnsta kosti	_	_	_	_	_	_	_	_
 9	að	að	ADV	ao	_	14	advmod	_	tag=ao
 10	minnsta	minnsta	ADV	ao	_	9	fixed	_	tag=ao
-11	kosti	kosti	ADV	ao	_	10	fixed	_	tag=ao
+11	kosti	kosti	ADV	ao	_	9	fixed	_	tag=ao
 12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 13	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_hk_p3
 14	ætlun	ætlun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=no_et_nf_kvk

@@ -87,8 +87,8 @@
 34	sem	sem	SCONJ	stt	_	39	mark	_	tag=stt
 35-37	Guðni Th. Jóhannesson	_	_	_	_	_	_	_	_
 35	Guðni	Guðni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	39	nsubj	_	tag=person_nf_kk
-36	Th.	Th.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	35	fixed	_	tag=person_nf_kk
-37	Jóhannesson	Jóhannesson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	36	fixed	_	tag=person_nf_kk
+36	Th.	Th.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	35	_	_	tag=person_nf_kk
+37	Jóhannesson	Jóhannesson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	36	_	_	tag=person_nf_kk
 38	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	39	cop	_	tag=so_0_fh_p3_et_nt_gm
 39	svarinn	sverja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	33	advcl	_	tag=so_0_lhþt_et
 40	í	í	ADP	fs_þf	Case=Acc	41	case	_	tag=fs_þf
@@ -116,7 +116,7 @@
 13-15	að minnsta kosti	_	_	_	_	_	_	_	_
 13	að	að	ADV	ao	_	18	advmod	_	tag=ao
 14	minnsta	minnsta	ADV	ao	_	13	fixed	_	tag=ao
-15	kosti	kosti	ADV	ao	_	14	fixed	_	tag=ao
+15	kosti	kosti	ADV	ao	_	13	fixed	_	tag=ao
 16	fjórðungur	fjórðungur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	tag=no_et_nf_kk
 17	nefndarmenna	nefndarmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	16	nmod:poss	_	tag=no_ft_ef_kk
 18	krefjist	krefja	VERB	so_1_ef_vh_p3_et_nt_mm	Case=Gen|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Mid	34	advcl	_	tag=so_1_ef_vh_p3_et_nt_mm
@@ -191,7 +191,7 @@
 38	2017	2017	NUM	ártal	_	37	nummod	_	tag=ártal
 39-40	í kringum	_	_	_	_	_	_	_	_
 39	í	í	ADP	fs_þf	Case=Acc	41	case	_	tag=fs_þf
-40	kringum	kringum	ADP	fs_þf	Case=Acc	39	fixed	_	tag=fs_þf
+40	kringum	kringum	ADP	fs_þf	Case=Acc	39	_	_	tag=fs_þf
 41	sjálfstæðisatkvæðagreiðslu	sjálfstæðisatkvæðagreiðsla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	36	obl	_	tag=no_et_þf_kvk
 42	og	og	CCONJ	st	_	43	cc	_	tag=st
 43	-yfirlýsingu	yfirlýsing	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	41	conj	_	tag=no_et_þf_kvk
@@ -204,7 +204,7 @@
 2	frétt	frétt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk
 3-4	Washington Post	_	_	_	_	_	_	_	_
 3	Washington	Washington	PROPN	fyrirtæki	_	2	nmod:poss	_	tag=fyrirtæki
-4	Post	Post	PROPN	fyrirtæki	_	3	fixed	_	tag=fyrirtæki
+4	Post	Post	PROPN	fyrirtæki	_	3	flat	_	tag=fyrirtæki
 5	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 6	að	að	SCONJ	st	_	21	mark	_	tag=st
 7	greiðslur	greiðsla	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	tag=no_ft_nf_kvk
@@ -213,7 +213,7 @@
 10	barna	barn	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_ef_hk
 11-12	Jamals Khashoggi	_	_	_	_	_	_	_	_
 11	Jamals	Jamal	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=person_et_ef_kk
-12	Khashoggi	Khashoggi	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	11	fixed	_	SpaceAfter=No|tag=person_et_ef_kk
+12	Khashoggi	Khashoggi	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	11	_	_	SpaceAfter=No|tag=person_et_ef_kk
 13	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 14	tveggja	tveir	NUM	to_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	15	nummod	_	tag=to_ft_ef_kk
 15	sona	sonur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	10	obl	_	tag=no_ft_ef_kk
@@ -356,8 +356,8 @@
 14	sagnfræðinginn	sagnfræðingur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þf_kk
 15-17	Guðna Th. Jóhannesson	_	_	_	_	_	_	_	_
 15	Guðna	Guðni	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=person_et_þf_kk
-16	Th.	Th.	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	fixed	_	SpaceAfter=No|tag=person_et_þf_kk
-17	Jóhannesson	Jóhannesson	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	fixed	_	SpaceAfter=No|tag=person_et_þf_kk
+16	Th.	Th.	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	_	_	SpaceAfter=No|tag=person_et_þf_kk
+17	Jóhannesson	Jóhannesson	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	_	_	SpaceAfter=No|tag=person_et_þf_kk
 18	,	,	PUNCT	grm	_	14	punct	_	tag=grm
 19	sem	sem	SCONJ	stt	_	21	mark	_	tag=stt
 20	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	aux	_	tag=so_0_vh_p3_et_nt_gm
@@ -437,12 +437,12 @@
 44	vef	vefur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	42	obl	_	tag=no_et_þgf_kk
 45-46	Al Jazeera	_	_	_	_	_	_	_	_
 45	Al	Al	PROPN	fyrirtæki	_	44	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
-46	Jazeera	Jazeera	PROPN	fyrirtæki	_	45	fixed	_	SpaceAfter=No|tag=fyrirtæki
+46	Jazeera	Jazeera	PROPN	fyrirtæki	_	45	flat	_	SpaceAfter=No|tag=fyrirtæki
 47	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 1-2	Thure Barsøe	_	_	_	_	_	_	_	_
 1	Thure	Thure	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_et_nf_kk
-2	Barsøe	Barsøe	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	fixed	_	tag=person_et_nf_kk
+2	Barsøe	Barsøe	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	_	_	tag=person_et_nf_kk
 3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
 5	maður	maður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -459,7 +459,7 @@
 16	og	og	CCONJ	st	_	5	cc	_	tag=st
 17-18	árið 1982	_	_	_	_	_	_	_	_
 17	árið	árið	ADV	ártal	_	19	advmod	_	tag=ártal
-18	1982	1982	NUM	ártal	_	17	fixed	_	tag=ártal
+18	1982	1982	NUM	ártal	_	17	flat	_	tag=ártal
 19	réð	ráða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 20	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kk_p3
 21	fjóra	fjórir	NUM	to_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	22	nummod	_	tag=to_ft_þf_kk

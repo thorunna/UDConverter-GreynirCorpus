@@ -128,7 +128,7 @@
 1	Dr.	Dr.	NOUN	abbrev	_	8	nsubj	_	tag=abbrev
 2-3	Tabasum Mir	_	_	_	_	_	_	_	_
 2	Tabasum	Tabasum	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kvk
-3	Mir	Mir	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	fixed	_	SpaceAfter=No|tag=no_et_nf_kvk
+3	Mir	Mir	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	_	_	SpaceAfter=No|tag=no_et_nf_kvk
 4	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 5	húðsjúkdómalæknir	húðsjúkdómalæknir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	stjarnanna	stjarna	NOUN	no_ft_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kvk_gr
@@ -140,7 +140,7 @@
 12	raunveruleikastjarnan	raunveruleikastjarna	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	tag=no_et_nf_kvk_gr
 13-14	Kim Kardashian	_	_	_	_	_	_	_	_
 13	Kim	Kim	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	obl	_	tag=person_nf_kvk
-14	Kardashian	Kardashian	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	13	fixed	_	tag=person_nf_kvk
+14	Kardashian	Kardashian	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	13	_	_	tag=person_nf_kvk
 15	hafa	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_vh_p3_et_nt_gm
 16	gengist	ganga	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	9	ccomp	_	tag=so_0_sagnb_mm
 17	undir	undir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
@@ -169,7 +169,7 @@
 9	fullyrðingar	fullyrðing	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þf_kvk
 10-11	Michaels Flynn	_	_	_	_	_	_	_	_
 10	Michaels	Michael	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	tag=person_ef_kk
-11	Flynn	Flynn	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	fixed	_	tag=person_ef_kk
+11	Flynn	Flynn	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	_	_	tag=person_ef_kk
 12	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
 13	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	tag=person_nf_kk
 14	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -223,8 +223,8 @@
 # text = Þórður Snær Júlíusson, ritstjóri Kjarnans sem vann umrædda kynjaúttekt segir að laga þurfi ýmislegt sem farið hafi halloka á undanförnum árum til dæmis fæðingarorlof fyrir feður.
 1-3	Þórður Snær Júlíusson	_	_	_	_	_	_	_	_
 1	Þórður	Þórður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Snær	Snær	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
-3	Júlíusson	Júlíusson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Snær	Snær	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+3	Júlíusson	Júlíusson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	SpaceAfter=No|tag=person_nf_kk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	ritstjóri	ritstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	Kjarnans	Kjarninn	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=fyrirtæki_et_ef_kk_gr
@@ -294,8 +294,8 @@
 9	nema	nema	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
 10-12	122 milljörðum punda	_	_	_	_	_	_	_	_
 10	122	122	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obj	_	tag=no_ft_þgf_kk
-11	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	10	fixed	_	tag=no_ft_þgf_kk
-12	punda	punda	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	fixed	_	tag=no_ft_þgf_kk
+11	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	10	_	_	tag=no_ft_þgf_kk
+12	punda	punda	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	_	_	tag=no_ft_þgf_kk
 13	meira	mikill	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_þgf_kvk_mst
 14	en	en	CCONJ	st	_	16	cc	_	tag=st
 15	gert	gera	VERB	so_0_lhþt_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	16	xcomp	_	tag=so_0_lhþt_et_nf_hk

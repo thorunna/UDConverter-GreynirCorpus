@@ -34,7 +34,7 @@
 # text = Þórdís Lóa segir stjórn Orkuveitunnar og stjórn Orku náttúrunnar stýra og bera ábyrgð á uppsögnunum en að borgarráð muni senda skýr skilaboð varðandi hvernig verður tekið á málinu.
 1-2	Þórdís Lóa	_	_	_	_	_	_	_	_
 1	Þórdís	Þórdís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
-2	Lóa	Lóa	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	tag=person_nf_kvk
+2	Lóa	Lóa	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
 3	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 4	stjórn	stjórn	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	nsubj	_	tag=no_et_þf_kvk
 5	Orkuveitunnar	orkuveita	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kvk_gr
@@ -90,7 +90,7 @@
 22	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 23-24	Helgi Arnarson	_	_	_	_	_	_	_	_
 23	Helgi	Helgi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	nsubj	_	tag=person_nf_kk
-24	Arnarson	Arnarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	23	fixed	_	tag=person_nf_kk
+24	Arnarson	Arnarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	23	_	_	tag=person_nf_kk
 25	sviðsstjóri	sviðsstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	23	obl	_	tag=no_et_nf_kk
 26	fræðslusviðs	fræðslusvið	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	23	nmod:poss	_	tag=no_et_ef_hk
 27	Reykjanesbæjar	Reykjanesbær	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	26	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
@@ -165,14 +165,14 @@
 1	Kvikmyndagerðarmaðurinn	kvikmyndagerðarmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk_gr
 2-3	Charlie Kessler	_	_	_	_	_	_	_	_
 2	Charlie	Charlie	PROPN	sérnafn	_	1	conj	_	tag=sérnafn
-3	Kessler	Kessler	PROPN	sérnafn	_	2	fixed	_	tag=sérnafn
+3	Kessler	Kessler	PROPN	sérnafn	_	2	flat	_	tag=sérnafn
 4	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
 5	sakað	saka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 6	höfunda	höfundur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	tag=no_ft_þf_kk
 7	sjónvarpsþáttanna	sjónvarpsþáttur	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	nmod:poss	_	tag=no_ft_ef_kk_gr
 8-9	Stranger Things	_	_	_	_	_	_	_	_
 8	Stranger	Stranger	X	foreign	_	7	obl	_	SpaceAfter=No|tag=foreign
-9	Things	Things	X	foreign	_	8	fixed	_	SpaceAfter=No|tag=foreign
+9	Things	Things	X	foreign	_	8	flat:foreign	_	SpaceAfter=No|tag=foreign
 10	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 12	Netflix	Netflix	PROPN	entity	_	6	acl:relcl	_	tag=entity
@@ -192,7 +192,7 @@
 26	gerði	gera	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 27-28	árið 2012	_	_	_	_	_	_	_	_
 27	árið	árið	ADV	ártal	_	26	advmod	_	SpaceAfter=No|tag=ártal
-28	2012	2012	NUM	ártal	_	27	fixed	_	SpaceAfter=No|tag=ártal
+28	2012	2012	NUM	ártal	_	27	flat	_	SpaceAfter=No|tag=ártal
 29	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00171,.7
@@ -209,7 +209,7 @@
 10	–	_	PUNCT	grm	_	9	punct	_	tag=grm
 11-12	10 m	_	_	_	_	_	_	_	_
 11	10	10	?	mælieining	_	9	obl	_	tag=mælieining
-12	m	m	?	mælieining	_	11	fixed	_	tag=mælieining
+12	m	m	?	mælieining	_	11	_	_	tag=mælieining
 13	s	s	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No|tag=no_et_þf_hk
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	en	en	CCONJ	st	_	16	cc	_	tag=st

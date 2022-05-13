@@ -23,13 +23,13 @@
 21	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 22-24	Silja Mist Sigurkarlsdóttir	_	_	_	_	_	_	_	_
 22	Silja	Silja	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	21	nsubj	_	tag=person_nf_kvk
-23	Mist	Mist	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	22	fixed	_	tag=person_nf_kvk
-24	Sigurkarlsdóttir	Sigurkarlsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	23	fixed	_	tag=person_nf_kvk
+23	Mist	Mist	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	22	_	_	tag=person_nf_kvk
+24	Sigurkarlsdóttir	Sigurkarlsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	23	_	_	tag=person_nf_kvk
 25	vörumerkjastjóri	vörumerkjastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	22	obl	_	tag=no_et_nf_kk
 26	hjá	hjá	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27-28	Nóa Síríus	_	_	_	_	_	_	_	_
 27	Nóa	Nói	PROPN	fyrirtæki_þgf_kk	Case=Dat|Gender=Masc	25	obl	_	SpaceAfter=No|tag=fyrirtæki_þgf_kk
-28	Síríus	Síríus	PROPN	fyrirtæki_þgf_kk	Case=Dat|Gender=Masc	27	fixed	_	SpaceAfter=No|tag=fyrirtæki_þgf_kk
+28	Síríus	Síríus	PROPN	fyrirtæki_þgf_kk	Case=Dat|Gender=Masc	27	_	_	SpaceAfter=No|tag=fyrirtæki_þgf_kk
 29	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00323,.2
@@ -94,7 +94,7 @@
 24	þá	hann	PRON	pfn_ft_þf_kk_p3	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	obl	_	tag=pfn_ft_þf_kk_p3
 25-26	á meðan	_	_	_	_	_	_	_	_
 25	á	á	SCONJ	st	_	28	mark	_	tag=st
-26	meðan	meðan	SCONJ	st	_	25	fixed	_	tag=st
+26	meðan	meðan	SCONJ	st	_	25	_	_	tag=st
 27	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	tag=pfn_ft_nf_kk_p3
 28	bíða	bíða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	advcl	_	tag=so_0_fh_p3_ft_nt_gm
 29	eftir	eftir	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
@@ -128,7 +128,7 @@
 23	að	að	SCONJ	st	_	28	mark	_	tag=st
 24-25	11. október	_	_	_	_	_	_	_	_
 24	11.	11.	NUM?	dagsafs	_	28	nsubj	_	tag=dagsafs
-25	október	október	NUM?	dagsafs	_	24	fixed	_	tag=dagsafs
+25	október	október	NUM?	dagsafs	_	24	flat	_	tag=dagsafs
 26	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	cop	_	tag=so_0_vh_p3_et_nt_gm
 27	almennur	almennur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	28	amod	_	tag=lo_et_nf_kk_sb
 28	frídagur	frídagur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	22	ccomp	_	SpaceAfter=No|tag=no_et_nf_kk
@@ -173,7 +173,7 @@
 1	Í	í	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2-3	janúar 2017	_	_	_	_	_	_	_	_
 2	janúar	janúar	ADV	dagsafs	_	9	advmod	_	tag=dagsafs
-3	2017	2017	NUM?	dagsafs	_	2	fixed	_	tag=dagsafs
+3	2017	2017	NUM?	dagsafs	_	2	flat	_	tag=dagsafs
 4	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_vh_p3_et_nt_gm
 5	fyrstu	fyrstur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_þgf_kvk_vb
 6	efnisgrein	efnisgrein	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_þgf_kvk
@@ -207,7 +207,7 @@
 # text = Andre Marriner, dómari leiksins, notaði myndbandstæknina þó ekki í leiknum, að minnsta kosti ekki í þeim formlega hætti með að stoppa leikinn og fá að skoða atvikið.
 1-2	Andre Marriner	_	_	_	_	_	_	_	_
 1	Andre	Andre	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Marriner	Marriner	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Marriner	Marriner	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	dómari	dómari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	leiksins	leikur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
@@ -222,7 +222,7 @@
 14-16	að minnsta kosti	_	_	_	_	_	_	_	_
 14	að	að	ADV	ao	_	7	advmod	_	tag=ao
 15	minnsta	minnsta	ADV	ao	_	14	fixed	_	tag=ao
-16	kosti	kosti	ADV	ao	_	15	fixed	_	tag=ao
+16	kosti	kosti	ADV	ao	_	14	fixed	_	tag=ao
 17	ekki	ekki	ADV	ao	_	7	advmod	_	tag=ao
 18	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 19	þeim	sá	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	21	nmod	_	tag=fn_et_þgf_kk
@@ -261,7 +261,7 @@
 18	&#40;	&#40;	PUNCT	grm	_	17	punct	_	tag=grm
 19-20	Economic and	_	_	_	_	_	_	_	_
 19	Economic	Economic	X	foreign	_	18	flat:foreign	_	tag=foreign
-20	and	and	X	foreign	_	19	fixed	_	tag=foreign
+20	and	and	X	foreign	_	19	flat:foreign	_	tag=foreign
 21	environmental	environmental	X	foreign	_	18	flat:foreign	_	tag=foreign
 22	threats	threats	X	foreign	_	18	flat:foreign	_	tag=foreign
 23	of	of	X	foreign	_	18	flat:foreign	_	tag=foreign
@@ -295,8 +295,8 @@
 17	fjölbreyttu	fjölbreyttur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_þgf_hk_sb
 18-20	frístunda- og tómstundastarfi	_	_	_	_	_	_	_	_
 18	frístunda-	frístunda-	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þgf_hk
-19	og	og	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	fixed	_	tag=no_et_þgf_hk
-20	tómstundastarfi	tómstundastarf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	fixed	_	tag=no_et_þgf_hk
+19	og	og	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	_	_	tag=no_et_þgf_hk
+20	tómstundastarfi	tómstundastarf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	_	_	tag=no_et_þgf_hk
 21	með	með	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
 22	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	tag=pfn_et_þf_hk_p3
 23	að	að	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf

@@ -136,10 +136,10 @@
 20	á	á	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 21-25	The Bill Cosby Christmas Special	_	_	_	_	_	_	_	_
 21	The	The	X	foreign	_	19	obl	_	SpaceAfter=No|tag=foreign
-22	Bill	Bill	X	foreign	_	21	fixed	_	SpaceAfter=No|tag=foreign
-23	Cosby	Cosby	X	foreign	_	22	fixed	_	SpaceAfter=No|tag=foreign
-24	Christmas	Christmas	X	foreign	_	23	fixed	_	SpaceAfter=No|tag=foreign
-25	Special	Special	X	foreign	_	24	fixed	_	SpaceAfter=No|tag=foreign
+22	Bill	Bill	X	foreign	_	21	flat:foreign	_	SpaceAfter=No|tag=foreign
+23	Cosby	Cosby	X	foreign	_	22	flat:foreign	_	SpaceAfter=No|tag=foreign
+24	Christmas	Christmas	X	foreign	_	23	flat:foreign	_	SpaceAfter=No|tag=foreign
+25	Special	Special	X	foreign	_	24	flat:foreign	_	SpaceAfter=No|tag=foreign
 26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00152,.6
@@ -167,7 +167,7 @@
 21	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 22-23	Björn Leví	_	_	_	_	_	_	_	_
 22	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-23	Leví	Leví	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	fixed	_	SpaceAfter=No|tag=person_nf_kk
+23	Leví	Leví	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	_	_	SpaceAfter=No|tag=person_nf_kk
 24	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00152,.7
@@ -184,24 +184,24 @@
 10	nefna	nefna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_1_þf_nh_gm
 11-12	Nicole Kidman	_	_	_	_	_	_	_	_
 11	Nicole	Nicole	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	10	obj	_	SpaceAfter=No|tag=person_þf_kvk
-12	Kidman	Kidman	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	fixed	_	SpaceAfter=No|tag=person_þf_kvk
+12	Kidman	Kidman	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	_	_	SpaceAfter=No|tag=person_þf_kvk
 13	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 14-15	Keira Knightley	_	_	_	_	_	_	_	_
 14	Keira	Keira	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	obl	_	SpaceAfter=No|tag=person_þf_kvk
-15	Knightley	Knightley	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	14	fixed	_	SpaceAfter=No|tag=person_þf_kvk
+15	Knightley	Knightley	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	14	_	_	SpaceAfter=No|tag=person_þf_kvk
 16	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 17-18	Kristen Stewart	_	_	_	_	_	_	_	_
 17	Kristen	Kristen	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	obl	_	SpaceAfter=No|tag=person_þf_kvk
-18	Stewart	Stewart	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	17	fixed	_	SpaceAfter=No|tag=person_þf_kvk
+18	Stewart	Stewart	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	17	_	_	SpaceAfter=No|tag=person_þf_kvk
 19	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 20-21	Cara Delevigne	_	_	_	_	_	_	_	_
 20	Cara	Cara	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	obl	_	tag=person_þf_kvk
-21	Delevigne	Delevigne	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	20	fixed	_	tag=person_þf_kvk
+21	Delevigne	Delevigne	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	20	_	_	tag=person_þf_kvk
 22	og	og	CCONJ	st	_	11	cc	_	tag=st
 23	sjálfa	sjálfur	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	tag=fn_et_þf_kvk
 24-25	Marilyn Monroe	_	_	_	_	_	_	_	_
 24	Marilyn	Marilyn	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	23	conj	_	SpaceAfter=No|tag=person_þf_kvk
-25	Monroe	Monroe	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	24	fixed	_	SpaceAfter=No|tag=person_þf_kvk
+25	Monroe	Monroe	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	24	_	_	SpaceAfter=No|tag=person_þf_kvk
 26	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00152,.8
@@ -209,7 +209,7 @@
 1	Tími	tími	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk
 2-3	Elínar Eddu	_	_	_	_	_	_	_	_
 2	Elínar	Elín	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	1	nmod:poss	_	tag=person_ef_kvk
-3	Eddu	Edda	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	fixed	_	tag=person_ef_kvk
+3	Eddu	Edda	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	_	_	tag=person_ef_kvk
 4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	níundi	níundi	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk
 6	besti	góður	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_evb

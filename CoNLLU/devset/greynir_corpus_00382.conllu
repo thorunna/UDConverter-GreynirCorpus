@@ -28,8 +28,8 @@
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10-12	eina einustu krónu	_	_	_	_	_	_	_	_
 10	eina	eina	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|tag=fn_et_þf_kvk
-11	einustu	einustu	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	fixed	_	SpaceAfter=No|tag=fn_et_þf_kvk
-12	krónu	krónu	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	fixed	_	SpaceAfter=No|tag=fn_et_þf_kvk
+11	einustu	einustu	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	_	_	SpaceAfter=No|tag=fn_et_þf_kvk
+12	krónu	krónu	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	_	_	SpaceAfter=No|tag=fn_et_þf_kvk
 13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00382,.3
@@ -61,8 +61,8 @@
 8	aflandsfélagsins	af-landsfélag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk_gr
 9-11	Dekhill Advisors Limited	_	_	_	_	_	_	_	_
 9	Dekhill	Dekhill	PROPN	fyrirtæki	_	8	obl	_	tag=fyrirtæki
-10	Advisors	Advisors	PROPN	fyrirtæki	_	9	fixed	_	tag=fyrirtæki
-11	Limited	Limited	PROPN	fyrirtæki	_	10	fixed	_	tag=fyrirtæki
+10	Advisors	Advisors	PROPN	fyrirtæki	_	9	flat	_	tag=fyrirtæki
+11	Limited	Limited	PROPN	fyrirtæki	_	9	flat	_	tag=fyrirtæki
 12	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	obl	_	tag=so_0_vh_p3_et_nt_gm
 13	frá	frá	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 14	svissneskum	svissneskur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	15	amod	_	tag=lo_ft_þgf_hk_sb
@@ -100,7 +100,7 @@
 11-13	meira að segja	_	_	_	_	_	_	_	_
 11	meira	meira	ADV	ao	_	8	advmod	_	tag=ao
 12	að	að	ADV	ao	_	11	fixed	_	tag=ao
-13	segja	segja	ADV	ao	_	12	fixed	_	tag=ao
+13	segja	segja	ADV	ao	_	11	fixed	_	tag=ao
 14	á	eiga	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	regntímabilinu	regn-tímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 16	.	.	PUNCT	grm	_	3	punct	_	tag=grm
@@ -158,8 +158,8 @@
 11	sögn	sögn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk
 12-14	Borgars Þórs Einarssonar	_	_	_	_	_	_	_	_
 12	Borgars	Borgars	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-13	Þórs	Þórs	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	fixed	_	SpaceAfter=No|tag=person_ef_kk
-14	Einarssonar	Einarssonar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	fixed	_	SpaceAfter=No|tag=person_ef_kk
+13	Þórs	Þórs	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	_	_	SpaceAfter=No|tag=person_ef_kk
+14	Einarssonar	Einarssonar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	_	_	SpaceAfter=No|tag=person_ef_kk
 15	,	,	PUNCT	grm	_	12	punct	_	tag=grm
 16	aðstoðarmanns	aðstoðarmaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_ef_kk
 17	utanríkisráðherra	utanríkisráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk

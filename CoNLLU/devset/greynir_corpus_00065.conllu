@@ -31,14 +31,14 @@
 11	Laugardalsvelli	Laugardalsvöllur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_kk
 12-13	11. júní	_	_	_	_	_	_	_	_
 12	11.	11.	ADV	dagsafs	_	3	advmod	_	SpaceAfter=No|tag=dagsafs
-13	júní	júní	NUM?	dagsafs	_	12	fixed	_	SpaceAfter=No|tag=dagsafs
+13	júní	júní	NUM?	dagsafs	_	12	flat	_	SpaceAfter=No|tag=dagsafs
 14	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00065,.3
 # text = Björn Róbert er svo nýkominn til þeirra og er að styrkja liðið heilmikið.
 1-2	Björn Róbert	_	_	_	_	_	_	_	_
 1	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	Róbert	Róbert	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Róbert	Róbert	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	svo	svo	ADV	eo	_	5	advmod	_	tag=eo
 5	nýkominn	nýkominn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
@@ -75,7 +75,7 @@
 2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3-4	árið 2011	_	_	_	_	_	_	_	_
 3	árið	árið	ADV	ártal	_	5	advmod	_	tag=ártal
-4	2011	2011	NUM	ártal	_	3	fixed	_	tag=ártal
+4	2011	2011	NUM	ártal	_	3	flat	_	tag=ártal
 5	kosinn	kosinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 6	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_nf_kk
 7	Landverndar	Landvernd	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
@@ -91,8 +91,8 @@
 # text = Sigurður Gunnar Þorsteinsson er svo í hópnum í dag í stað Axels Kárasonar.
 1-3	Sigurður Gunnar Þorsteinsson	_	_	_	_	_	_	_	_
 1	Sigurður	Sigurður	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=person_et_nf_kk
-2	Gunnar	Gunnar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	fixed	_	tag=person_et_nf_kk
-3	Þorsteinsson	Þorsteinsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	fixed	_	tag=person_et_nf_kk
+2	Gunnar	Gunnar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	_	_	tag=person_et_nf_kk
+3	Þorsteinsson	Þorsteinsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	_	_	tag=person_et_nf_kk
 4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	svo	svo	ADV	ao	_	4	advmod	_	tag=ao
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -103,7 +103,7 @@
 11	stað	staður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
 12-13	Axels Kárasonar	_	_	_	_	_	_	_	_
 12	Axels	Axel	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	11	nmod:poss	_	SpaceAfter=No|tag=person_et_ef_kk
-13	Kárasonar	Kárason	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	fixed	_	SpaceAfter=No|tag=person_et_ef_kk
+13	Kárasonar	Kárason	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	_	_	SpaceAfter=No|tag=person_et_ef_kk
 14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00065,.7
@@ -151,7 +151,7 @@
 9	hátíðardagskrá	hátíðardagskrá	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk
 10-11	klukkan 13	_	_	_	_	_	_	_	_
 10	klukkan	klukkan	ADV	tími	_	8	advmod	_	tag=tími
-11	13	13	?	tími	_	10	fixed	_	tag=tími
+11	13	13	NUM	tími	_	10	flat	_	tag=tími
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Lystigarðinum	Lystigarðurinn	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk_gr
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -160,7 +160,7 @@
 # text = Elliði Vignisson bæjarstjóri segir forsvarsmenn fyrirtækjanna hafa lýst yfir þungum áhyggjum af stöðunni.
 1-2	Elliði Vignisson	_	_	_	_	_	_	_	_
 1	Elliði	Elliði	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=person_et_nf_kk
-2	Vignisson	Vignisson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	fixed	_	tag=person_et_nf_kk
+2	Vignisson	Vignisson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	_	_	tag=person_et_nf_kk
 3	bæjarstjóri	bæjarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 4	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 5	forsvarsmenn	forsvarsmaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	tag=no_ft_þf_kk

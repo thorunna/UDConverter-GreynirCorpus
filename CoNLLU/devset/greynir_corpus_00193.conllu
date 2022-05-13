@@ -2,7 +2,7 @@
 # text = Hrafn Kristjánsson þjálfari Stjörnunnar var ánægður með þær framfarir sem liðið sýndi frá því í síðustu leikjum og sagði að þrátt fyrir slakan varnarleik í fyrri hálfleik hefði hann lagast mikið eftir því sem leið á leikinn.
 1-2	Hrafn Kristjánsson	_	_	_	_	_	_	_	_
 1	Hrafn	Hrafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-2	Kristjánsson	Kristjánsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Kristjánsson	Kristjánsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	þjálfari	þjálfari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 4	Stjörnunnar	Stjarnan	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
 5	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
@@ -23,7 +23,7 @@
 20	að	að	SCONJ	st	_	30	mark	_	tag=st
 21-22	þrátt fyrir	_	_	_	_	_	_	_	_
 21	þrátt	þrátt	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
-22	fyrir	fyrir	ADP	fs_þf	Case=Acc	21	fixed	_	tag=fs_þf
+22	fyrir	fyrir	ADP	fs_þf	Case=Acc	21	_	_	tag=fs_þf
 23	slakan	slakur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	24	amod	_	tag=lo_et_þf_kk_sb
 24	varnarleik	varnarleikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	30	obl	_	tag=no_et_þf_kk
 25	í	í	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
@@ -326,12 +326,12 @@
 32	frá	frá	ADP	fs_þgf	Case=Dat	33	case	_	tag=fs_þgf
 33-34	1. júní	_	_	_	_	_	_	_	_
 33	1.	1.	ADV	dagsafs	_	29	advmod	_	tag=dagsafs
-34	júní	júní	NUM?	dagsafs	_	33	fixed	_	tag=dagsafs
+34	júní	júní	NUM?	dagsafs	_	33	flat	_	tag=dagsafs
 35	til	til	ADP	fs_ef	Case=Gen	33	case	_	tag=fs_ef
 36-38	7. september 2016	_	_	_	_	_	_	_	_
 36	7.	7.	ADV	dagsföst	_	33	advmod	_	SpaceAfter=No|tag=dagsföst
-37	september	september	?	dagsföst	_	36	fixed	_	SpaceAfter=No|tag=dagsföst
-38	2016	2016	?	dagsföst	_	37	fixed	_	SpaceAfter=No|tag=dagsföst
+37	september	september	?	dagsföst	_	36	flat	_	SpaceAfter=No|tag=dagsföst
+38	2016	2016	?	dagsföst	_	36	flat	_	SpaceAfter=No|tag=dagsföst
 39	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00193,.9
@@ -380,8 +380,8 @@
 4	leikarinn	leikari	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk_gr
 5-7	Björn Hlynur Haraldsson	_	_	_	_	_	_	_	_
 5	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	obl	_	tag=person_nf_kk
-6	Hlynur	Hlynur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	fixed	_	tag=person_nf_kk
-7	Haraldsson	Haraldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	fixed	_	tag=person_nf_kk
+6	Hlynur	Hlynur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	_	_	tag=person_nf_kk
+7	Haraldsson	Haraldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	_	_	tag=person_nf_kk
 8	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 9	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 10	leikur	leika	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -397,7 +397,7 @@
 20	leikonunni	leikkona	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_þgf_kvk
 21-22	Sofie Gråböl	_	_	_	_	_	_	_	_
 21	Sofie	Sofie	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	20	obl	_	tag=person_ef_kvk
-22	Gråböl	Gråböl	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	21	fixed	_	tag=person_ef_kvk
+22	Gråböl	Gråböl	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	21	_	_	tag=person_ef_kvk
 23	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 24	ráð	ráð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
 25	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	33	case	_	tag=fs_nh

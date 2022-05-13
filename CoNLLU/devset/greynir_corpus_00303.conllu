@@ -154,12 +154,12 @@
 13	á	á	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14-15	Rás 1	_	_	_	_	_	_	_	_
 14	Rás	Rás	PROPN	entity_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	tag=entity_et_þgf_kvk
-15	1	1	PROPN	entity_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	fixed	_	tag=entity_et_þgf_kvk
+15	1	1	PROPN	entity_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	_	_	tag=entity_et_þgf_kvk
 16	rekur	reka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 17-19	að þessu sinni	_	_	_	_	_	_	_	_
 17	að	að	ADV	eo	_	16	advmod	_	tag=eo
 18	þessu	þessu	ADV	eo	_	17	fixed	_	tag=eo
-19	sinni	sinni	ADV	eo	_	18	fixed	_	tag=eo
+19	sinni	sinni	ADV	eo	_	17	fixed	_	tag=eo
 20	langa	langi	ADJ	lo_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	23	amod	_	tag=lo_et_ef_kk
 21	og	og	CCONJ	st	_	23	cc	_	tag=st
 22	merka	merkur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	23	amod	_	tag=lo_et_þf_kvk_sb
@@ -176,7 +176,7 @@
 5	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 6-7	Vilhjálmur Finsen	_	_	_	_	_	_	_	_
 6	Vilhjálmur	Vilhjálmur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No|tag=person_nf_kk
-7	Finsen	Finsen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	fixed	_	SpaceAfter=No|tag=person_nf_kk
+7	Finsen	Finsen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	_	_	SpaceAfter=No|tag=person_nf_kk
 8	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 9	en	en	CCONJ	st	_	6	cc	_	tag=st
 10	vinur	vinur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	tag=no_et_nf_kk
@@ -186,7 +186,7 @@
 14	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 15-16	Ólafur Björnsson	_	_	_	_	_	_	_	_
 15	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	conj	_	SpaceAfter=No|tag=person_nf_kk
-16	Björnsson	Björnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	fixed	_	SpaceAfter=No|tag=person_nf_kk
+16	Björnsson	Björnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	_	_	SpaceAfter=No|tag=person_nf_kk
 17	,	_	PUNCT	grm	_	18	punct	_	tag=grm
 18	lagði	lagða	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_þf_vh_p3_ft_nt_gm
 19	til	til	ADV	ao	_	18	compound:prt	_	tag=ao
@@ -248,12 +248,12 @@
 20	gang	gang	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	tag=no_et_þf_kk
 21-22	klukkan 5	_	_	_	_	_	_	_	_
 21	klukkan	klukkan	ADV	tímapunktur	_	20	advmod	_	SpaceAfter=No|tag=tímapunktur
-22	5	5	?	tímapunktur	_	21	fixed	_	SpaceAfter=No|tag=tímapunktur
+22	5	5	?	tímapunktur	_	21	flat	_	SpaceAfter=No|tag=tímapunktur
 23	:	:	PUNCT	grm	_	21	punct	_	tag=grm
 24	01	01	NUM	tala	NumType=Card	21	nummod	_	tag=tala
 25-26	í morgun	_	_	_	_	_	_	_	_
 25	í	í	ADV	tímapunktur	_	20	advmod	_	SpaceAfter=No|tag=tímapunktur
-26	morgun	morgun	?	tímapunktur	_	25	fixed	_	SpaceAfter=No|tag=tímapunktur
+26	morgun	morgun	?	tímapunktur	_	25	flat	_	SpaceAfter=No|tag=tímapunktur
 27	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00303,.10

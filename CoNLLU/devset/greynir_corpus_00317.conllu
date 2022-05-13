@@ -5,9 +5,9 @@
 3	nefnist	nefna	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	4	conj	_	tag=so_1_nf_fh_p3_et_nt_mm
 4-7	South of the Circle	_	_	_	_	_	_	_	_
 4	South	South	X	foreign	_	0	root	_	tag=foreign
-5	of	of	X	foreign	_	4	fixed	_	tag=foreign
-6	the	the	X	foreign	_	5	fixed	_	tag=foreign
-7	Circle	Circle	X	foreign	_	6	fixed	_	tag=foreign
+5	of	of	X	foreign	_	4	flat:foreign	_	tag=foreign
+6	the	the	X	foreign	_	5	flat:foreign	_	tag=foreign
+7	Circle	Circle	X	foreign	_	6	flat:foreign	_	tag=foreign
 8	en	en	CCONJ	st	_	4	cc	_	tag=st
 9	þar	þar	ADV	ao	_	10	advmod	_	tag=ao
 10	flytur	flytja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -16,24 +16,24 @@
 13	eftir	eftir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14-15	Daníel Bjarnason	_	_	_	_	_	_	_	_
 14	Daníel	Daníel	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	obl	_	SpaceAfter=No|tag=person_þf_kk
-15	Bjarnason	Bjarnason	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	fixed	_	SpaceAfter=No|tag=person_þf_kk
+15	Bjarnason	Bjarnason	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	_	_	SpaceAfter=No|tag=person_þf_kk
 16	,	_	PUNCT	grm	_	17	punct	_	tag=grm
 17-18	Unu Sveinbjarnardóttur	_	_	_	_	_	_	_	_
 17	Unu	Una	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	14	conj	_	SpaceAfter=No|tag=person_þf_kvk
-18	Sveinbjarnardóttur	Sveinbjarnardóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	17	fixed	_	SpaceAfter=No|tag=person_þf_kvk
+18	Sveinbjarnardóttur	Sveinbjarnardóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	17	_	_	SpaceAfter=No|tag=person_þf_kvk
 19	,	_	PUNCT	grm	_	20	punct	_	tag=grm
 20-21	Valgeir Sigurðsson	_	_	_	_	_	_	_	_
 20	Valgeir	Valgeir	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	conj	_	SpaceAfter=No|tag=person_þf_kk
-21	Sigurðsson	Sigurðsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	20	fixed	_	SpaceAfter=No|tag=person_þf_kk
+21	Sigurðsson	Sigurðsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	20	_	_	SpaceAfter=No|tag=person_þf_kk
 22	,	_	PUNCT	grm	_	23	punct	_	tag=grm
 23-25	Mamíkó Dís Ragnarsdóttur	_	_	_	_	_	_	_	_
 23	Mamíkó	Mamíkó	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	14	conj	_	tag=person_þf_kvk
-24	Dís	Dís	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	23	fixed	_	tag=person_þf_kvk
-25	Ragnarsdóttur	Ragnarsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	24	fixed	_	tag=person_þf_kvk
+24	Dís	Dís	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	23	_	_	tag=person_þf_kvk
+25	Ragnarsdóttur	Ragnarsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	24	_	_	tag=person_þf_kvk
 26	og	og	CCONJ	st	_	14	cc	_	tag=st
 27-28	Hauk Tómasson	_	_	_	_	_	_	_	_
 27	Hauk	Haukur	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	conj	_	SpaceAfter=No|tag=person_þf_kk
-28	Tómasson	Tómasson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	27	fixed	_	SpaceAfter=No|tag=person_þf_kk
+28	Tómasson	Tómasson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	27	_	_	SpaceAfter=No|tag=person_þf_kk
 29	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00317,.2
@@ -105,7 +105,7 @@
 # text = Peter Dutton, innanríkisráðherra Ástralíu, segist vilja veita vegabréfsáritunum suður-afrískra bænda forgang svo þeir geti flúið hryllilegar aðstæður í heimalandinu og komið til siðmenntaðs lands.
 1-2	Peter Dutton	_	_	_	_	_	_	_	_
 1	Peter	Peter	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Dutton	Dutton	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Dutton	Dutton	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	innanríkisráðherra	innanríkisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Ástralíu	Ástralía	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kvk
@@ -150,21 +150,21 @@
 14	þá	sá	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	tag=fn_ft_þf_kk
 15-16	Kylian Mbappe	_	_	_	_	_	_	_	_
 15	Kylian	Kylian	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	obj	_	SpaceAfter=No|tag=person_þf_kk
-16	Mbappe	Mbappe	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	fixed	_	SpaceAfter=No|tag=person_þf_kk
+16	Mbappe	Mbappe	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	_	_	SpaceAfter=No|tag=person_þf_kk
 17	,	_	PUNCT	grm	_	18	punct	_	tag=grm
 18	Neymar	Neymar	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	conj	_	SpaceAfter=No|tag=person_þf_kk
 19	,	_	PUNCT	grm	_	20	punct	_	tag=grm
 20-21	Eden Hazard	_	_	_	_	_	_	_	_
 20	Eden	Eden	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No|tag=person_et_þf_kk
-21	Hazard	Hazard	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	fixed	_	SpaceAfter=No|tag=person_et_þf_kk
+21	Hazard	Hazard	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	_	_	SpaceAfter=No|tag=person_et_þf_kk
 22	,	_	PUNCT	grm	_	23	punct	_	tag=grm
 23-24	Luis Suarez	_	_	_	_	_	_	_	_
 23	Luis	Luis	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	conj	_	tag=person_þf_kk
-24	Suarez	Suarez	PROPN	person_þf_kk	Case=Acc|Gender=Masc	23	fixed	_	tag=person_þf_kk
+24	Suarez	Suarez	PROPN	person_þf_kk	Case=Acc|Gender=Masc	23	_	_	tag=person_þf_kk
 25	og	og	CCONJ	st	_	15	cc	_	tag=st
 26-27	Sergio Aguero	_	_	_	_	_	_	_	_
 26	Sergio	Sergio	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	conj	_	tag=person_þf_kk
-27	Aguero	Aguero	PROPN	person_þf_kk	Case=Acc|Gender=Masc	26	fixed	_	tag=person_þf_kk
+27	Aguero	Aguero	PROPN	person_þf_kk	Case=Acc|Gender=Masc	26	_	_	tag=person_þf_kk
 28	besta	bestur	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=lo_ft_þf_kk_sb
 29	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

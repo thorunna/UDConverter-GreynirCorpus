@@ -37,12 +37,12 @@
 6	kæra	kæra	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_1_þf_nh_gm
 7-8	Sergio Agüero	_	_	_	_	_	_	_	_
 7	Sergio	Sergio	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	obj	_	SpaceAfter=No|tag=person_þf_kk
-8	Agüero	Agüero	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	fixed	_	SpaceAfter=No|tag=person_þf_kk
+8	Agüero	Agüero	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	_	_	SpaceAfter=No|tag=person_þf_kk
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 10	framherja	framherji	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þf_kk
 11-12	Manchester City	_	_	_	_	_	_	_	_
 11	Manchester	Manchester	PROPN	fyrirtæki	_	10	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
-12	City	City	PROPN	fyrirtæki	_	11	fixed	_	SpaceAfter=No|tag=fyrirtæki
+12	City	City	PROPN	fyrirtæki	_	11	flat	_	SpaceAfter=No|tag=fyrirtæki
 13	,	,	PUNCT	grm	_	10	punct	_	tag=grm
 14	fyrir	fyrir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	atvik	atvik	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk
@@ -56,8 +56,8 @@
 23	og	og	CCONJ	st	_	24	cc	_	tag=st
 24-26	West Ham United	_	_	_	_	_	_	_	_
 24	West	West	PROPN	fyrirtæki	_	22	conj	_	tag=fyrirtæki
-25	Ham	Ham	PROPN	fyrirtæki	_	24	fixed	_	tag=fyrirtæki
-26	United	United	PROPN	fyrirtæki	_	25	fixed	_	tag=fyrirtæki
+25	Ham	Ham	PROPN	fyrirtæki	_	24	flat	_	tag=fyrirtæki
+26	United	United	PROPN	fyrirtæki	_	24	flat	_	tag=fyrirtæki
 27	á	á	ADP	fs_þf	Case=Acc	28	case	_	tag=fs_þf
 28	sunnudaginn	sunnudagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	advmod	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 29	.	.	PUNCT	grm	_	4	punct	_	tag=grm
@@ -66,7 +66,7 @@
 # text = Matthildur Ásmundardóttir, bæjarstjóri Sveitarfélagsins Hornafjarðar segir íbúa á nálum yfir lélegu vegakerfi í gegnum sveitarfélagið og á þjóðvegi eitt þar sem alvarlegt rútuslys varð á fimmtudaginn.
 1-2	Matthildur Ásmundardóttir	_	_	_	_	_	_	_	_
 1	Matthildur	Matthildur	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	Ásmundardóttir	Ásmundardóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+2	Ásmundardóttir	Ásmundardóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	SpaceAfter=No|tag=person_nf_kvk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	bæjarstjóri	bæjarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Sveitarfélagsins	sveitarfélag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_ef_hk_gr
@@ -80,7 +80,7 @@
 13	vegakerfi	vegakerfi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
 14-15	í gegnum	_	_	_	_	_	_	_	_
 14	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-15	gegnum	gegnum	ADP	fs_þf	Case=Acc	14	fixed	_	tag=fs_þf
+15	gegnum	gegnum	ADP	fs_þf	Case=Acc	14	_	_	tag=fs_þf
 16	sveitarfélagið	sveitarfélag	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þf_hk_gr
 17	og	og	CCONJ	st	_	16	cc	_	tag=st
 18	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
@@ -161,7 +161,7 @@
 4	femínistinn	femínisti	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk_gr
 5-6	Margaret Atwood	_	_	_	_	_	_	_	_
 5	Margaret	Margaret	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	tag=person_nf_kvk
-6	Atwood	Atwood	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	fixed	_	tag=person_nf_kvk
+6	Atwood	Atwood	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	_	_	tag=person_nf_kvk
 7	telur	telja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 8	rétt	réttur	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	iobj	_	tag=lo_et_þf_hk_fst_sb
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
@@ -181,7 +181,7 @@
 23	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	22	obj	_	tag=abfn_þgf
 24-25	í kringum	_	_	_	_	_	_	_	_
 24	í	í	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
-25	kringum	kringum	ADP	fs_þf	Case=Acc	24	fixed	_	tag=fs_þf
+25	kringum	kringum	ADP	fs_þf	Case=Acc	24	_	_	tag=fs_þf
 26	konur	kona	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 27	.	kona	PUNCT	grm	_	7	punct	_	tag=grm
 
@@ -257,8 +257,8 @@
 11	og	og	CCONJ	st	_	8	cc	_	tag=st
 12-14	atvinnu- og byggðasjónarmiða	_	_	_	_	_	_	_	_
 12	atvinnu-	atvinnu-	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	conj	_	tag=no_ft_ef_hk
-13	og	og	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	fixed	_	tag=no_ft_ef_hk
-14	byggðasjónarmiða	byggðasjónarmið	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	13	fixed	_	tag=no_ft_ef_hk
+13	og	og	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	_	_	tag=no_ft_ef_hk
+14	byggðasjónarmiða	byggðasjónarmið	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	13	_	_	tag=no_ft_ef_hk
 15-16	hins vegar	_	_	_	_	_	_	_	_
 15	hins	hins	ADV	eo	_	8	advmod	_	tag=eo
 16	vegar	vegar	ADV	eo	_	15	fixed	_	tag=eo
@@ -293,7 +293,7 @@
 14	fljúga	fljúga	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
 15-16	á milli	_	_	_	_	_	_	_	_
 15	á	á	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
-16	milli	milli	ADP	fs_ef	Case=Gen	15	fixed	_	tag=fs_ef
+16	milli	milli	ADP	fs_ef	Case=Gen	15	_	_	tag=fs_ef
 17	Bandaríkjanna	Bandaríkin	PROPN	sérnafn_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	14	obl	_	tag=sérnafn_ft_ef_hk_gr
 18	og	og	CCONJ	st	_	19	cc	_	tag=st
 19	Evrópu	Evrópa	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	17	conj	_	tag=sérnafn_et_ef_kvk

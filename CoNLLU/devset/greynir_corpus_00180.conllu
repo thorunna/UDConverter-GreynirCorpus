@@ -31,7 +31,7 @@
 29-31	aftur og aftur	_	_	_	_	_	_	_	_
 29	aftur	aftur	ADV	ao	_	27	advmod	_	SpaceAfter=No|tag=ao
 30	og	og	ADV	ao	_	29	fixed	_	SpaceAfter=No|tag=ao
-31	aftur	aftur	ADV	ao	_	30	fixed	_	SpaceAfter=No|tag=ao
+31	aftur	aftur	ADV	ao	_	29	fixed	_	SpaceAfter=No|tag=ao
 32	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00180,.2
@@ -92,7 +92,7 @@
 19-21	hér á landi	_	_	_	_	_	_	_	_
 19	hér	hér	ADV	ao	_	17	advmod	_	tag=ao
 20	á	á	ADV	ao	_	19	fixed	_	tag=ao
-21	landi	landi	ADV	ao	_	20	fixed	_	tag=ao
+21	landi	landi	ADV	ao	_	19	fixed	_	tag=ao
 22	eftir	eftir	ADV	ao	_	25	advmod	_	tag=ao
 23	að	að	SCONJ	st	_	25	mark	_	tag=st
 24	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	tag=pfn_et_þf_kk_p3
@@ -103,7 +103,7 @@
 29	atvinnumennsku	atvinnumennska	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	tag=no_et_þf_kvk
 30-31	árið 2002	_	_	_	_	_	_	_	_
 30	árið	árið	NUM	ártal	_	3	obj	_	SpaceAfter=No|tag=ártal
-31	2002	2002	NUM	ártal	_	30	fixed	_	SpaceAfter=No|tag=ártal
+31	2002	2002	NUM	ártal	_	30	flat	_	SpaceAfter=No|tag=ártal
 32	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00180,.4
@@ -143,12 +143,12 @@
 # text = Skúli Mogensen, forstjóri WOW air, segir að til greina komi að skrá félagið á markað þegar það nái þeim áfanga að hala inn millljarði Bandaríkjadala í tekjur árið 2019.
 1-2	Skúli Mogensen	_	_	_	_	_	_	_	_
 1	Skúli	Skúli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Mogensen	Mogensen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Mogensen	Mogensen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	forstjóri	forstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5-6	WOW air	_	_	_	_	_	_	_	_
 5	WOW	WOW	PROPN	fyrirtæki	_	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
-6	air	air	PROPN	fyrirtæki	_	5	fixed	_	SpaceAfter=No|tag=fyrirtæki
+6	air	air	PROPN	fyrirtæki	_	5	flat	_	SpaceAfter=No|tag=fyrirtæki
 7	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 8	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 9	að	að	SCONJ	st	_	12	mark	_	tag=st
@@ -174,7 +174,7 @@
 29	tekjur	tekja	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	24	obl	_	tag=no_ft_þf_kvk
 30-31	árið 2019	_	_	_	_	_	_	_	_
 30	árið	árið	ADV	ártal	_	24	advmod	_	SpaceAfter=No|tag=ártal
-31	2019	2019	NUM	ártal	_	30	fixed	_	SpaceAfter=No|tag=ártal
+31	2019	2019	NUM	ártal	_	30	flat	_	SpaceAfter=No|tag=ártal
 32	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00180,.6
@@ -197,7 +197,7 @@
 16	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 17-18	Níels Árni	_	_	_	_	_	_	_	_
 17	Níels	Níels	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	nsubj	_	tag=person_nf_kk
-18	Árni	Árni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	fixed	_	tag=person_nf_kk
+18	Árni	Árni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	_	_	tag=person_nf_kk
 19	og	og	CCONJ	st	_	16	cc	_	tag=st
 20	kveðst	kveða	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	16	conj	_	tag=so_0_fh_p3_et_nt_mm
 21	sannfærður	sannfæra	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	20	conj	_	tag=so_0_lhþt_et
@@ -257,7 +257,7 @@
 8	eignarhaldsfélagsins	eignarhaldsfélag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk_gr
 9-10	Porcellus Property	_	_	_	_	_	_	_	_
 9	Porcellus	Porcellus	PROPN	fyrirtæki	_	8	conj	_	tag=fyrirtæki
-10	Property	Property	PROPN	fyrirtæki	_	9	fixed	_	tag=fyrirtæki
+10	Property	Property	PROPN	fyrirtæki	_	9	flat	_	tag=fyrirtæki
 11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 12	leigir	leigja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 13	allar	allur	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	nmod	_	tag=fn_ft_þf_kvk
@@ -273,7 +273,7 @@
 23	kallað	kallaður	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	22	amod	_	tag=lo_et_þf_hk_sb
 24-25	Puffins etc.	_	_	_	_	_	_	_	_
 24	Puffins	Puffins	PROPN	sérnafn	_	22	conj	_	tag=sérnafn
-25	etc.	etc.	PROPN	sérnafn	_	24	fixed	_	tag=sérnafn
+25	etc.	etc.	PROPN	sérnafn	_	24	flat	_	tag=sérnafn
 26	en	en	CCONJ	st	_	20	cc	_	tag=st
 27	Lýdía	Lýdía	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	30	nsubj	_	tag=person_nf_kvk
 28	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
@@ -299,7 +299,7 @@
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15-16	þrátt fyrir	_	_	_	_	_	_	_	_
 15	þrátt	þrátt	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-16	fyrir	fyrir	ADP	fs_þf	Case=Acc	15	fixed	_	tag=fs_þf
+16	fyrir	fyrir	ADP	fs_þf	Case=Acc	15	_	_	tag=fs_þf
 17	síaukna	síaukinn	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	18	amod	_	tag=lo_et_þf_kvk_sb
 18	sókn	sókn	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þf_kvk
 19	annarra	annar	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	tag=fn_ft_ef_kvk

@@ -76,7 +76,7 @@
 1	Matarbloggarinn	Matarbloggarinn	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk_gr
 2-3	Þorbjörg Snorradóttir	_	_	_	_	_	_	_	_
 2	Þorbjörg	Þorbjörg	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	tag=person_nf_kvk
-3	Snorradóttir	Snorradóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	fixed	_	tag=person_nf_kvk
+3	Snorradóttir	Snorradóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	_	_	tag=person_nf_kvk
 4	ólst	ala	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 5	upp	upp	ADV	ao	_	4	advmod	_	tag=ao
 6	við	við	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
@@ -102,13 +102,13 @@
 7	meðaltali	meðaltal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
 8-10	730 þúsund krónur	_	_	_	_	_	_	_	_
 8	730	730	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk
-9	þúsund	þúsund	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	8	fixed	_	tag=no_ft_nf_kvk
-10	krónur	krónur	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	9	fixed	_	tag=no_ft_nf_kvk
+9	þúsund	þúsund	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	8	_	_	tag=no_ft_nf_kvk
+10	krónur	krónur	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	9	_	_	tag=no_ft_nf_kvk
 11	á	eiga	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	mánuði	mánuður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk
 13-14	árið 2017	_	_	_	_	_	_	_	_
 13	árið	árið	ADV	ártal	_	8	advmod	_	tag=ártal
-14	2017	2017	NUM	ártal	_	13	fixed	_	tag=ártal
+14	2017	2017	NUM	ártal	_	13	flat	_	tag=ártal
 15	hjá	hjá	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 16	fullvinnandi	fullvinna	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	17	amod	_	tag=lo_ft_þgf_kk_sb
 17	starfsmönnum	starfsmaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
@@ -121,7 +121,7 @@
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
 4-5	eitt einasta	_	_	_	_	_	_	_	_
 4	eitt	eitt	NUM	to_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	nummod	_	tag=to_et_þf_hk
-5	einasta	einasta	NUM	to_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	fixed	_	tag=to_et_þf_hk
+5	einasta	einasta	NUM	to_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	_	_	tag=to_et_þf_hk
 6	bindi	einasta	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
 8	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_p1
@@ -166,8 +166,8 @@
 12-15	eins og áður sagði	_	_	_	_	_	_	_	_
 12	eins	eins	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
 13	og	og	ADV	ao	_	12	fixed	_	SpaceAfter=No|tag=ao
-14	áður	áður	ADV	ao	_	13	fixed	_	SpaceAfter=No|tag=ao
-15	sagði	sagði	ADV	ao	_	14	fixed	_	SpaceAfter=No|tag=ao
+14	áður	áður	ADV	ao	_	12	fixed	_	SpaceAfter=No|tag=ao
+15	sagði	sagði	ADV	ao	_	12	fixed	_	SpaceAfter=No|tag=ao
 16	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00392,.10

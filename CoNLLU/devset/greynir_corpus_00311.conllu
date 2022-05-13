@@ -196,7 +196,7 @@
 18	sambandið	samband	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	tag=no_et_nf_hk_gr
 19-20	1,1 milljarð	_	_	_	_	_	_	_	_
 19	1,1	1,1	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	tag=töl_ft_þf_hk
-20	milljarð	milljarð	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	19	fixed	_	tag=töl_ft_þf_hk
+20	milljarð	milljarð	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	19	_	_	tag=töl_ft_þf_hk
 21	frá	frá	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	UEFA	UEFA	PROPN	fyrirtæki	_	17	obl	_	tag=fyrirtæki
 23	vegna	vegna	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
@@ -209,12 +209,12 @@
 # text = Björgólfur Jóhannsson, forstjóri Icelandair Group, sagði íkvöldfréttum RÚV í gær að hann hefði áhyggjur af stöðunni og þess vegna hefði afkomuviðvörunin verið send út.
 1-2	Björgólfur Jóhannsson	_	_	_	_	_	_	_	_
 1	Björgólfur	Björgólfur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Jóhannsson	Jóhannsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Jóhannsson	Jóhannsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	forstjóri	forstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5-6	Icelandair Group	_	_	_	_	_	_	_	_
 5	Icelandair	Icelandair	PROPN	fyrirtæki	_	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
-6	Group	Group	PROPN	fyrirtæki	_	5	fixed	_	SpaceAfter=No|tag=fyrirtæki
+6	Group	Group	PROPN	fyrirtæki	_	5	flat	_	SpaceAfter=No|tag=fyrirtæki
 7	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 8	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 9	íkvöldfréttum	íkvöldfrétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	tag=no_ft_þgf_kvk

@@ -34,7 +34,7 @@
 # text = Paige Spiranac, 23 ára kylfingur frá Bandaríkjunum, greindi til að mynda frá einelti sem hún fékk í netheimum vegna þátttöku hennar á sterku móti í fyrra.
 1-2	Paige Spiranac	_	_	_	_	_	_	_	_
 1	Paige	Paige	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	10	nsubj	_	SpaceAfter=No|tag=sérnafn_nf_kvk
-2	Spiranac	Spiranac	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	SpaceAfter=No|tag=sérnafn_nf_kvk
+2	Spiranac	Spiranac	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	1	_	_	SpaceAfter=No|tag=sérnafn_nf_kvk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	23	23	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_ef_hk
 5	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_ef_hk
@@ -107,9 +107,9 @@
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 10-13	London School of Economics	_	_	_	_	_	_	_	_
 10	London	London	PROPN	fyrirtæki	_	6	obl	_	tag=fyrirtæki
-11	School	School	PROPN	fyrirtæki	_	10	fixed	_	tag=fyrirtæki
-12	of	of	PROPN	fyrirtæki	_	11	fixed	_	tag=fyrirtæki
-13	Economics	Economics	PROPN	fyrirtæki	_	12	fixed	_	tag=fyrirtæki
+11	School	School	PROPN	fyrirtæki	_	10	flat	_	tag=fyrirtæki
+12	of	of	PROPN	fyrirtæki	_	10	flat	_	tag=fyrirtæki
+13	Economics	Economics	PROPN	fyrirtæki	_	10	flat	_	tag=fyrirtæki
 14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	London	London	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=sérnafn_et_þgf_kvk
 16	og	og	CCONJ	st	_	6	cc	_	tag=st
@@ -117,7 +117,7 @@
 18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19-20	New York	_	_	_	_	_	_	_	_
 19	New	New	PROPN	sérnafn	_	17	obl	_	tag=sérnafn
-20	York	York	PROPN	sérnafn	_	19	fixed	_	tag=sérnafn
+20	York	York	PROPN	sérnafn	_	19	flat	_	tag=sérnafn
 21	þar	þar	ADV	ao	_	3	advmod	_	tag=ao
 22	sem	sem	SCONJ	stt	_	24	mark	_	tag=stt
 23	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	tag=pfn_et_nf_kvk_p3
@@ -154,7 +154,7 @@
 25	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 26-27	Kristján Skúli	_	_	_	_	_	_	_	_
 26	Kristján	Kristján	PROPN	person_nf_kk	Case=Nom|Gender=Masc	25	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-27	Skúli	Skúli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	26	fixed	_	SpaceAfter=No|tag=person_nf_kk
+27	Skúli	Skúli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	26	_	_	SpaceAfter=No|tag=person_nf_kk
 28	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00320,.6
@@ -176,7 +176,7 @@
 15	út	út	ADV	ao	_	14	advmod	_	tag=ao
 16-17	25. febrúar	_	_	_	_	_	_	_	_
 16	25.	25.	ADV	dagsafs	_	14	advmod	_	tag=dagsafs
-17	febrúar	febrúar	NUM?	dagsafs	_	16	fixed	_	tag=dagsafs
+17	febrúar	febrúar	NUM?	dagsafs	_	16	flat	_	tag=dagsafs
 18	og	og	CCONJ	st	_	14	cc	_	tag=st
 19	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 20	þá	þá	ADV	ao	_	14	advmod	_	tag=ao
@@ -248,7 +248,7 @@
 20	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 21-22	Bjarni Sigurðsson	_	_	_	_	_	_	_	_
 21	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-22	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	fixed	_	SpaceAfter=No|tag=person_nf_kk
+22	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	_	_	SpaceAfter=No|tag=person_nf_kk
 23	,	_	PUNCT	grm	_	22	punct	_	tag=grm
 24	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	21	obl	_	tag=no_et_nf_kk
 25	fasteignasölunnar	fasteignasala	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod:poss	_	tag=no_et_ef_kvk_gr
@@ -277,7 +277,7 @@
 16	hverfur	hverfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_nt_gm
 17-18	Haraldur Leifsson	_	_	_	_	_	_	_	_
 17	Haraldur	Haraldur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	nsubj	_	tag=person_nf_kk
-18	Leifsson	Leifsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	fixed	_	tag=person_nf_kk
+18	Leifsson	Leifsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	_	_	tag=person_nf_kk
 19	úr	úr	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	sæti	sæti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	tag=no_et_þgf_hk
 21	stjórnarformanns	stjórnarformaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	20	nmod:poss	_	tag=no_et_ef_kk
@@ -288,8 +288,8 @@
 26	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_nt_gm
 27-29	Emil Helgi Lárusson	_	_	_	_	_	_	_	_
 27	Emil	Emil	PROPN	person_nf_kk	Case=Nom|Gender=Masc	26	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-28	Helgi	Helgi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	27	fixed	_	SpaceAfter=No|tag=person_nf_kk
-29	Lárusson	Lárusson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	28	fixed	_	SpaceAfter=No|tag=person_nf_kk
+28	Helgi	Helgi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	27	_	_	SpaceAfter=No|tag=person_nf_kk
+29	Lárusson	Lárusson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	28	_	_	SpaceAfter=No|tag=person_nf_kk
 30	.	_	PUNCT	grm	_	11	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00320,.10

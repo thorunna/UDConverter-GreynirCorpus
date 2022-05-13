@@ -68,12 +68,12 @@
 4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5-7	Snorra Páls Jónssonar	_	_	_	_	_	_	_	_
 5	Snorra	Snorri	PROPN	person_ef_kk	Case=Gen|Gender=Masc	3	obl	_	tag=person_ef_kk
-6	Páls	Páll	PROPN	person_ef_kk	Case=Gen|Gender=Masc	5	fixed	_	tag=person_ef_kk
-7	Jónssonar	Jónsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	fixed	_	tag=person_ef_kk
+6	Páls	Páll	PROPN	person_ef_kk	Case=Gen|Gender=Masc	5	_	_	tag=person_ef_kk
+7	Jónssonar	Jónsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	_	_	tag=person_ef_kk
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
 9-10	Steinunnar Gunnlaugsdóttur	_	_	_	_	_	_	_	_
 9	Steinunnar	Steinunn	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	5	conj	_	tag=person_ef_kvk
-10	Gunnlaugsdóttur	Gunnlaugsdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	9	fixed	_	tag=person_ef_kvk
+10	Gunnlaugsdóttur	Gunnlaugsdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	9	_	_	tag=person_ef_kvk
 11	vegna	vegna	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
 12	viðkvæmra	viðkvæmur	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	13	amod	_	tag=lo_ft_ef_kvk_sb
 13	persónuupplýsinga	persónuupplýsingar	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_ef_kvk
@@ -154,7 +154,7 @@
 1-3	Á þessum tíma	_	_	_	_	_	_	_	_
 1	Á	á	ADV	ao	_	4	advmod	_	tag=ao
 2	þessum	þessum	ADV	ao	_	1	fixed	_	tag=ao
-3	tíma	tíma	ADV	ao	_	2	fixed	_	tag=ao
+3	tíma	tíma	ADV	ao	_	1	fixed	_	tag=ao
 4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	talsverður	talsverður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_sb
 6	fjöldi	fjöldi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
@@ -190,10 +190,10 @@
 13	fyrir	fyrir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14-15	West Ham	_	_	_	_	_	_	_	_
 14	West	West	PROPN	fyrirtæki	_	9	obl	_	tag=fyrirtæki
-15	Ham	Ham	PROPN	fyrirtæki	_	14	fixed	_	tag=fyrirtæki
+15	Ham	Ham	PROPN	fyrirtæki	_	14	flat	_	tag=fyrirtæki
 16-17	þrátt fyrir	_	_	_	_	_	_	_	_
 16	þrátt	þrátt	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-17	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	fixed	_	tag=fs_þf
+17	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	_	_	tag=fs_þf
 18	mikil	mikill	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	19	amod	_	tag=lo_ft_þf_hk_sb
 19	meiðsli	meiðsla	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
 20	.	.	PUNCT	grm	_	7	punct	_	tag=grm

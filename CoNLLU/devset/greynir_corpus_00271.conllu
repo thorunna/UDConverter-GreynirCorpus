@@ -55,7 +55,7 @@
 9	vef	vefur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
 10-11	S P	_	_	_	_	_	_	_	_
 10	S	S	PROPN	sérnafn	_	9	nmod:poss	_	tag=sérnafn
-11	P	P	PROPN	sérnafn	_	10	fixed	_	tag=sérnafn
+11	P	P	PROPN	sérnafn	_	10	flat	_	tag=sérnafn
 12	við	við	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 13	lokun	lokun	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	advmod	_	tag=no_et_þf_kvk
 14	markaða	markaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	13	nmod:poss	_	tag=no_ft_ef_kk
@@ -116,8 +116,8 @@
 5	rúmlega	rúmlega	ADV	eo	_	6	advmod	_	tag=eo
 6-8	fjórar milljónir króna	_	_	_	_	_	_	_	_
 6	fjórar	fjórar	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	tag=no_ft_þf_kvk
-7	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	fixed	_	tag=no_ft_þf_kvk
-8	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	fixed	_	tag=no_ft_þf_kvk
+7	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	_	_	tag=no_ft_þf_kvk
+8	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	_	_	tag=no_ft_þf_kvk
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	stimpilgjald	stimpilgjald	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk
 11-12	þrátt fyrir	_	_	_	_	_	_	_	_
@@ -138,7 +138,7 @@
 3	nafni	nafn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 4-5	Anthony Trapp	_	_	_	_	_	_	_	_
 4	Anthony	Anthony	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	obl	_	tag=person_nf_kk
-5	Trapp	Trapp	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	tag=person_nf_kk
+5	Trapp	Trapp	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
 6	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 7	Spacey	Spacey	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	nsubj	_	tag=person_et_þf_kk
 8	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	aux	_	tag=so_0_nh_gm
@@ -165,7 +165,7 @@
 7	togarans	togari	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kk_gr
 8-9	Polar Nanoq	_	_	_	_	_	_	_	_
 8	Polar	Polar	PROPN	entity	_	7	conj	_	tag=entity
-9	Nanoq	Nanoq	PROPN	entity	_	8	fixed	_	tag=entity
+9	Nanoq	Nanoq	PROPN	entity	_	8	flat	_	tag=entity
 10	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 11	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
@@ -187,7 +187,7 @@
 5	til	til	ADV	ao	_	4	advmod	_	tag=ao
 6-7	árið 2012	_	_	_	_	_	_	_	_
 6	árið	árið	ADV	ártal	_	4	advmod	_	tag=ártal
-7	2012	2012	NUM	ártal	_	6	fixed	_	tag=ártal
+7	2012	2012	NUM	ártal	_	6	flat	_	tag=ártal
 8	að	að	SCONJ	st	_	13	mark	_	tag=st
 9	rekstur	rekstur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=no_et_nf_kk
 10	heimilisins	heimili	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_ef_hk_gr
@@ -196,7 +196,7 @@
 13	færður	færa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	obj	_	tag=so_0_lhþt_et
 14-15	á hendur	_	_	_	_	_	_	_	_
 14	á	á	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
-15	hendur	hendur	ADP	fs_ef	Case=Gen	14	fixed	_	tag=fs_ef
+15	hendur	hendur	ADP	fs_ef	Case=Gen	14	_	_	tag=fs_ef
 16	Reykjavíkurborgar	Reykjavíkurborg	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	tag=sérnafn_et_ef_kvk
 17	og	og	CCONJ	st	_	18	cc	_	tag=st
 18	Seltjarnarness	Seltjarnarnes	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No|tag=sérnafn_et_ef_hk

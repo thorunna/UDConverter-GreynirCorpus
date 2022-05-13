@@ -162,7 +162,7 @@
 10-12	á sama tíma	_	_	_	_	_	_	_	_
 10	á	á	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
 11	sama	sama	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
-12	tíma	tíma	ADV	ao	_	11	fixed	_	SpaceAfter=No|tag=ao
+12	tíma	tíma	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
 13	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 14	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_kvk_p3
 15	fjallar	fjalla	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
@@ -251,13 +251,13 @@
 # text = Jón Viðar Sigurðsson jarðfræðingur sagði í samtali við mbl.is í dag, að skjálftinn hefði átt upptök einhverja 30 kílómetra norðan við þorpið og ekki væri komið á hreint hvort að þetta hefði verið jarðskjálfti eða hvort að þetta væri berghlaup sem hefði fallið niður í sjó.
 1-3	Jón Viðar Sigurðsson	_	_	_	_	_	_	_	_
 1	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	Viðar	Viðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
-3	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+2	Viðar	Viðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+3	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
 4	jarðfræðingur	jarðfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
-8	við	við	ADP	fs_þf	Case=Acc	9	dep	_	tag=fs_þf
+8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	mbl.is	mbl.is	X	lén_þf	Case=Acc	7	obl	_	tag=lén_þf
 10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
@@ -314,16 +314,16 @@
 11	við	við	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12-13	Albert Guðmundsson	_	_	_	_	_	_	_	_
 12	Albert	Albert	PROPN	person_þf_kk	Case=Acc|Gender=Masc	10	obl	_	SpaceAfter=No|tag=person_þf_kk
-13	Guðmundsson	Guðmundsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	fixed	_	SpaceAfter=No|tag=person_þf_kk
+13	Guðmundsson	Guðmundsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	_	_	SpaceAfter=No|tag=person_þf_kk
 14	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 15-16	Arnór Sigurðsson	_	_	_	_	_	_	_	_
 15	Arnór	Arnór	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	conj	_	tag=person_þf_kk
-16	Sigurðsson	Sigurðsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	fixed	_	tag=person_þf_kk
+16	Sigurðsson	Sigurðsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	_	_	tag=person_þf_kk
 17	og	og	CCONJ	st	_	12	cc	_	tag=st
 18-20	Jón Dag Þorsteinsson	_	_	_	_	_	_	_	_
 18	Jón	Jón	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	conj	_	tag=person_þf_kk
-19	Dag	Dagur	PROPN	person_þf_kk	Case=Acc|Gender=Masc	18	fixed	_	tag=person_þf_kk
-20	Þorsteinsson	Þorsteinsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	19	fixed	_	tag=person_þf_kk
+19	Dag	Dagur	PROPN	person_þf_kk	Case=Acc|Gender=Masc	18	_	_	tag=person_þf_kk
+20	Þorsteinsson	Þorsteinsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	19	_	_	tag=person_þf_kk
 21	en	en	CCONJ	st	_	5	cc	_	tag=st
 22	Albert	Albert Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	35	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 23	,	_	PUNCT	grm	_	22	punct	_	tag=grm
@@ -337,7 +337,7 @@
 31	félagi	félag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	tag=no_et_þgf_hk
 32-33	AZ Alkmaar	_	_	_	_	_	_	_	_
 32	AZ	AZ	PROPN	fyrirtæki_þgf	Case=Dat	31	conj	_	SpaceAfter=No|tag=fyrirtæki_þgf
-33	Alkmaar	Alkmaar	PROPN	fyrirtæki_þgf	Case=Dat	32	fixed	_	SpaceAfter=No|tag=fyrirtæki_þgf
+33	Alkmaar	Alkmaar	PROPN	fyrirtæki_þgf	Case=Dat	32	_	_	SpaceAfter=No|tag=fyrirtæki_þgf
 34	,	_	PUNCT	grm	_	35	punct	_	tag=grm
 35	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
 36	ekki	ekki	ADV	ao	_	35	advmod	_	tag=ao
@@ -346,7 +346,7 @@
 39	síðast	síðar	ADV	ao_est	Degree=Sup	35	advmod	_	tag=ao_est
 40-41	þrátt fyrir	_	_	_	_	_	_	_	_
 40	þrátt	þrátt	ADP	fs_nh	VerbForm=Inf	44	case	_	tag=fs_nh
-41	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	40	fixed	_	tag=fs_nh
+41	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	40	_	_	tag=fs_nh
 42	að	að	PART	nhm	_	44	mark	_	tag=nhm
 43	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	44	aux	_	tag=so_0_nh_gm
 44	farið	fara	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	35	obl	_	tag=so_0_sagnb_gm
@@ -388,7 +388,7 @@
 28	frá	frá	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
 29-30	árinu 1963	_	_	_	_	_	_	_	_
 29	árinu	árinu	NUM	ártal	_	21	obl	_	SpaceAfter=No|tag=ártal
-30	1963	1963	NUM	ártal	_	29	fixed	_	SpaceAfter=No|tag=ártal
+30	1963	1963	NUM	ártal	_	29	flat	_	SpaceAfter=No|tag=ártal
 31	,	_	PUNCT	grm	_	32	punct	_	tag=grm
 32	svítuna	svíta	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	conj	_	tag=no_et_þf_kvk_gr
 33	Þjóðlífsþætti	þjóðlífsþáttur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	21	conj	_	tag=no_ft_þf_kk
@@ -507,7 +507,7 @@
 46	um	um	ADV	eo	_	49	advmod	_	tag=eo
 47-48	200 þúsund	_	_	_	_	_	_	_	_
 47	200	200	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	49	nummod	_	tag=töl_ft_ef_kk
-48	þúsund	þúsund	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	47	fixed	_	tag=töl_ft_ef_kk
+48	þúsund	þúsund	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	47	_	_	tag=töl_ft_ef_kk
 49	manna	maður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	50	nmod:poss	_	tag=no_ft_ef_kk
 50	vinnumarkaði	vinnumarkaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	41	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 51	.	_	PUNCT	grm	_	2	punct	_	tag=grm

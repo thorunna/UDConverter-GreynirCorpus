@@ -7,7 +7,7 @@
 5-7	á sínum tíma	_	_	_	_	_	_	_	_
 5	á	á	ADV	ao	_	3	advmod	_	tag=ao
 6	sínum	sínum	ADV	ao	_	5	fixed	_	tag=ao
-7	tíma	tíma	ADV	ao	_	6	fixed	_	tag=ao
+7	tíma	tíma	ADV	ao	_	5	fixed	_	tag=ao
 8	sem	sem	SCONJ	st	_	10	mark	_	tag=st
 9	miklu	mikill	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_þgf_hk_sb
 10	stuðlagi	stuð-lag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	advcl	_	tag=no_et_þgf_hk
@@ -94,7 +94,7 @@
 6-8	í sjálfu sér	_	_	_	_	_	_	_	_
 6	í	í	ADV	eo	_	5	advmod	_	tag=eo
 7	sjálfu	sjálfu	ADV	eo	_	6	fixed	_	tag=eo
-8	sér	sér	ADV	eo	_	7	fixed	_	tag=eo
+8	sér	sér	ADV	eo	_	6	fixed	_	tag=eo
 9	og	og	CCONJ	st	_	5	cc	_	tag=st
 10	mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	11	amod	_	tag=lo_et_nf_kvk_sb
 11	hreyfing	hreyfing	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	tag=no_et_nf_kvk
@@ -227,7 +227,7 @@
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17-18	Tel Aviv	_	_	_	_	_	_	_	_
 17	Tel	Tel	PROPN	sérnafn	_	15	obl	_	tag=sérnafn
-18	Aviv	Aviv	PROPN	sérnafn	_	17	fixed	_	tag=sérnafn
+18	Aviv	Aviv	PROPN	sérnafn	_	17	flat	_	tag=sérnafn
 19	þar	þar	ADV	ao	_	15	advmod	_	tag=ao
 20	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
 21	Eurovision	Eurovision	PROPN	entity	_	22	nsubj	_	tag=entity
@@ -243,8 +243,8 @@
 31	innan	inna	ADP	fs_ef	Case=Gen	32	case	_	tag=fs_ef
 32-34	fjölmiðla- og íþróttaheimsins	_	_	_	_	_	_	_	_
 32	fjölmiðla-	fjölmiðla-	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No|tag=no_et_ef_kk_gr
-33	og	og	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	fixed	_	SpaceAfter=No|tag=no_et_ef_kk_gr
-34	íþróttaheimsins	íþróttaheimur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	fixed	_	SpaceAfter=No|tag=no_et_ef_kk_gr
+33	og	og	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	32	_	_	SpaceAfter=No|tag=no_et_ef_kk_gr
+34	íþróttaheimsins	íþróttaheimur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	_	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 35	,	,	PUNCT	grm	_	27	punct	_	tag=grm
 36	þar	þar	ADV	ao	_	27	advmod	_	tag=ao
 37	á	á	ADP	fs_ef	Case=Gen	39	case	_	tag=fs_ef
@@ -258,7 +258,7 @@
 45	,	,	PUNCT	grm	_	44	punct	_	tag=grm
 46-47	þrátt fyrir	_	_	_	_	_	_	_	_
 46	þrátt	þrátt	ADP	fs_þf	Case=Acc	49	case	_	tag=fs_þf
-47	fyrir	fyrir	ADP	fs_þf	Case=Acc	46	fixed	_	tag=fs_þf
+47	fyrir	fyrir	ADP	fs_þf	Case=Acc	46	_	_	tag=fs_þf
 48	skýr	skýr	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	49	amod	_	tag=lo_ft_þf_hk_sb
 49	fyrirmæli	fyrirmæli	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	27	obl	_	tag=no_ft_þf_hk
 50	KAN	kan	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	49	nmod:poss	_	tag=fyrirtæki_et_ef_kk_gr
@@ -369,7 +369,7 @@
 28	erindi	erinda	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	26	obj	_	tag=no_et_þf_hk
 29-30	þess efnis	_	_	_	_	_	_	_	_
 29	þess	þess	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	28	nmod:poss	_	tag=fn_et_ef_hk
-30	efnis	efnis	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	29	fixed	_	tag=fn_et_ef_hk
+30	efnis	efnis	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	29	_	_	tag=fn_et_ef_hk
 31	að	að	SCONJ	st	_	34	mark	_	tag=st
 32	þarna	þarna	ADV	ao	_	34	advmod	_	tag=ao
 33	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	34	aux	_	tag=so_1_nf_sagnb_gm
@@ -398,8 +398,8 @@
 56	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
 57-59	Ólafur Áki Ragnarsson	_	_	_	_	_	_	_	_
 57	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	56	nsubj	_	tag=person_nf_kk
-58	Áki	Áki	PROPN	person_nf_kk	Case=Nom|Gender=Masc	57	fixed	_	tag=person_nf_kk
-59	Ragnarsson	Ragnarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	58	fixed	_	tag=person_nf_kk
+58	Áki	Áki	PROPN	person_nf_kk	Case=Nom|Gender=Masc	57	_	_	tag=person_nf_kk
+59	Ragnarsson	Ragnarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	58	_	_	tag=person_nf_kk
 60	sveitarstjóri	sveitarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	57	obl	_	tag=no_et_nf_kk
 61	á	á	ADP	fs_þgf	Case=Dat	62	case	_	tag=fs_þgf
 62	Vopnafirði	Vopnafirði	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	60	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk
@@ -441,8 +441,8 @@
 32-35	í raun og veru	_	_	_	_	_	_	_	_
 32	í	í	ADV	eo	_	31	advmod	_	tag=eo
 33	raun	raun	ADV	eo	_	32	fixed	_	tag=eo
-34	og	og	ADV	eo	_	33	fixed	_	tag=eo
-35	veru	veru	ADV	eo	_	34	fixed	_	tag=eo
+34	og	og	ADV	eo	_	32	fixed	_	tag=eo
+35	veru	veru	ADV	eo	_	32	fixed	_	tag=eo
 36	mögulegt	mögulegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	31	xcomp	_	tag=lo_et_nf_hk_sb
 37	að	að	SCONJ	st	_	42	mark	_	tag=st
 38	fyrrverandi	fyrrverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	39	amod	_	tag=lo_et_nf_kk_sb
@@ -477,12 +477,12 @@
 67-69	á þessum tíma	_	_	_	_	_	_	_	_
 67	á	á	ADV	ao	_	59	advmod	_	SpaceAfter=No|tag=ao
 68	þessum	þessum	ADV	ao	_	67	fixed	_	SpaceAfter=No|tag=ao
-69	tíma	tíma	ADV	ao	_	68	fixed	_	SpaceAfter=No|tag=ao
+69	tíma	tíma	ADV	ao	_	67	fixed	_	SpaceAfter=No|tag=ao
 70	,	,	PUNCT	grm	_	71	punct	_	tag=grm
 71	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_0_fh_p3_et_nt_gm
 72-73	Björn Valur	_	_	_	_	_	_	_	_
 72	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	71	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-73	Valur	Valur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	72	fixed	_	SpaceAfter=No|tag=person_nf_kk
+73	Valur	Valur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	72	_	_	SpaceAfter=No|tag=person_nf_kk
 74	.	.	PUNCT	grm	_	15	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00500,.9
@@ -547,7 +547,7 @@
 58	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	conj	_	tag=so_0_fh_p3_et_nt_gm
 59-60	Linda Baldvinsdóttir	_	_	_	_	_	_	_	_
 59	Linda	Linda	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	58	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-60	Baldvinsdóttir	Baldvinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	59	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+60	Baldvinsdóttir	Baldvinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	59	_	_	SpaceAfter=No|tag=person_nf_kvk
 61	,	,	PUNCT	grm	_	59	punct	_	tag=grm
 62	samskiptaráðgjafi	samskipta-ráðgjafi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	59	obl	_	tag=no_et_nf_kk
 63	og	og	CCONJ	st	_	64	cc	_	tag=st
@@ -615,7 +615,7 @@
 50	fiskeldi	fiskeldi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	47	obl	_	tag=no_et_þgf_hk
 51-52	í gegnum	_	_	_	_	_	_	_	_
 51	í	í	ADP	fs_þf	Case=Acc	53	case	_	tag=fs_þf
-52	gegnum	gegnum	ADP	fs_þf	Case=Acc	51	fixed	_	tag=fs_þf
+52	gegnum	gegnum	ADP	fs_þf	Case=Acc	51	_	_	tag=fs_þf
 53	árin	ár	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	47	advmod	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
 54	—	—	PUNCT	grm	_	53	punct	_	tag=grm
 55	þá	hann	ADV	ao	_	56	advmod	_	tag=ao

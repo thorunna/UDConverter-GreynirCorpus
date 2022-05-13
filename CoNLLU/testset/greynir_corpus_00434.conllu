@@ -141,7 +141,7 @@
 19-21	hér á landi	_	_	_	_	_	_	_	_
 19	hér	hér	ADV	ao	_	13	advmod	_	SpaceAfter=No|tag=ao
 20	á	á	ADV	ao	_	19	fixed	_	SpaceAfter=No|tag=ao
-21	landi	landi	ADV	ao	_	20	fixed	_	SpaceAfter=No|tag=ao
+21	landi	landi	ADV	ao	_	19	fixed	_	SpaceAfter=No|tag=ao
 22	.	.	PUNCT	grm	_	2	punct	_	SpaceAfter=No|tag=grm
 23	“	“	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -149,7 +149,7 @@
 # text = Paul Newman með úrið fræga, Rolex-armbandsúr, sem hann síðar gaf þáverandi tengdasyni sínum, James Cox, árið 1969.
 1-2	Paul Newman	_	_	_	_	_	_	_	_
 1	Paul	Paul	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	tag=person_nf_kk
-2	Newman	Newman	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Newman	Newman	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	með	með	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	úrið	úr	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þf_hk_gr
 5	fræga	frægur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No|tag=lo_et_þf_hk_vb
@@ -166,11 +166,11 @@
 16	,	,	PUNCT	grm	_	17	punct	_	tag=grm
 17-18	James Cox	_	_	_	_	_	_	_	_
 17	James	James	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	conj	_	SpaceAfter=No|tag=person_þf_kk
-18	Cox	Cox	PROPN	person_þf_kk	Case=Acc|Gender=Masc	17	fixed	_	SpaceAfter=No|tag=person_þf_kk
+18	Cox	Cox	PROPN	person_þf_kk	Case=Acc|Gender=Masc	17	_	_	SpaceAfter=No|tag=person_þf_kk
 19	,	,	PUNCT	grm	_	14	punct	_	tag=grm
 20-21	árið 1969	_	_	_	_	_	_	_	_
 20	árið	árið	ADV	ártal	_	12	advmod	_	SpaceAfter=No|tag=ártal
-21	1969	1969	NUM	ártal	_	20	fixed	_	SpaceAfter=No|tag=ártal
+21	1969	1969	NUM	ártal	_	20	flat	_	SpaceAfter=No|tag=ártal
 22	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00434,.8
@@ -223,35 +223,35 @@
 
 1-2	2,3 milljarða	_	_	_	_	_	_	_	_
 1	2,3	2,3	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nummod	_	tag=töl_ft_ef_kk
-2	milljarða	milljarða	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	1	fixed	_	tag=töl_ft_ef_kk
+2	milljarða	milljarða	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	1	_	_	tag=töl_ft_ef_kk
 3	skaðabótakröfu	skaðabótakrafa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	26	nsubj	_	tag=no_et_þgf_kvk
 4	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk_gr
 5-6	Lyfjablóms ehf.	_	_	_	_	_	_	_	_
 5	Lyfjablóms	Lyfjablóms	PROPN	fyrirtæki	_	4	conj	_	tag=fyrirtæki
-6	ehf.	ehf.	PROPN	fyrirtæki	_	5	fixed	_	tag=fyrirtæki
+6	ehf.	ehf.	PROPN	fyrirtæki	_	5	flat	_	tag=fyrirtæki
 7	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 8	hendur	hönd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þf_kvk
 9-11	Þórði Má Jóhannessyni	_	_	_	_	_	_	_	_
 9	Þórði	Þórði	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	3	obl	_	tag=person_þgf_kk
-10	Má	Má	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	fixed	_	tag=person_þgf_kk
-11	Jóhannessyni	Jóhannessyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	10	fixed	_	tag=person_þgf_kk
+10	Má	Má	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	_	_	tag=person_þgf_kk
+11	Jóhannessyni	Jóhannessyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	10	_	_	tag=person_þgf_kk
 12	,	,	PUNCT	grm	_	13	punct	_	tag=grm
 13-14	Magnúsi Kristinssyni	_	_	_	_	_	_	_	_
 13	Magnúsi	Magnúsi	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	conj	_	tag=person_þgf_kk
-14	Kristinssyni	Kristinssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	13	fixed	_	tag=person_þgf_kk
+14	Kristinssyni	Kristinssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	13	_	_	tag=person_þgf_kk
 15	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 16-17	Sólveigu Pétursdóttur	_	_	_	_	_	_	_	_
 16	Sólveigu	Sólveigu	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	9	conj	_	tag=person_þgf_kvk
-17	Pétursdóttur	Pétursdóttur	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	16	fixed	_	tag=person_þgf_kvk
+17	Pétursdóttur	Pétursdóttur	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	16	_	_	tag=person_þgf_kvk
 18	,	,	PUNCT	grm	_	19	punct	_	tag=grm
 19-21	Helga Friðjóni Arnarssyni	_	_	_	_	_	_	_	_
 19	Helga	Helga	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	conj	_	tag=person_þgf_kk
-20	Friðjóni	Friðjóni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	19	fixed	_	tag=person_þgf_kk
-21	Arnarssyni	Arnarssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	20	fixed	_	tag=person_þgf_kk
+20	Friðjóni	Friðjóni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	19	_	_	tag=person_þgf_kk
+21	Arnarssyni	Arnarssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	20	_	_	tag=person_þgf_kk
 22	og	og	CCONJ	st	_	9	cc	_	tag=st
 23-24	KPMG ehf.	_	_	_	_	_	_	_	_
 23	KPMG	KPMG	PROPN	fyrirtæki	_	9	conj	_	tag=fyrirtæki
-24	ehf.	ehf.	PROPN	fyrirtæki	_	23	fixed	_	tag=fyrirtæki
+24	ehf.	ehf.	PROPN	fyrirtæki	_	23	flat	_	tag=fyrirtæki
 25	var	var	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	26	aux	_	tag=so_0_fh_p3_et_þt_gm
 26	vísað	vísa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 27	frá	frá	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf

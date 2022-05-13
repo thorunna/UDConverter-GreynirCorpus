@@ -64,8 +64,8 @@
 22	á	á	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23-25	Suður- og Suðausturlandi	_	_	_	_	_	_	_	_
 23	Suður-	Suður-	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	tag=sérnafn_et_þgf_hk
-24	og	og	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	fixed	_	tag=sérnafn_et_þgf_hk
-25	Suðausturlandi	Suðausturland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	fixed	_	tag=sérnafn_et_þgf_hk
+24	og	og	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	_	_	tag=sérnafn_et_þgf_hk
+25	Suðausturlandi	Suðausturland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	_	_	tag=sérnafn_et_þgf_hk
 26	í	í	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
 27	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	21	advmod	_	tag=no_et_þf_kk
 28	og	og	CCONJ	st	_	21	cc	_	tag=st
@@ -102,10 +102,10 @@
 20	sekúndu	sekúnda	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	tag=no_et_þgf_kvk
 21-22	á undan	_	_	_	_	_	_	_	_
 21	á	á	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-22	undan	undan	ADP	fs_þgf	Case=Dat	21	fixed	_	tag=fs_þgf
+22	undan	undan	ADP	fs_þgf	Case=Dat	21	_	_	tag=fs_þgf
 23-24	Önnu Veith	_	_	_	_	_	_	_	_
 23	Önnu	Anna	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	17	obl	_	tag=person_þgf_kvk
-24	Veith	Veith	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	23	fixed	_	tag=person_þgf_kvk
+24	Veith	Veith	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	23	_	_	tag=person_þgf_kvk
 25	í	í	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
 26	mark	mark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	23	obl	_	tag=no_et_þf_hk
 27	en	en	CCONJ	st	_	5	cc	_	tag=st
@@ -161,35 +161,35 @@
 # text = Sif Konráðsdóttir og Orri Páll Jóhannsson voru ráðin aðstoðarmenn Guðmundar Inga Guðbrandssonar, umhverfis- og auðlindaráðherra, þann 14. desember síðastliðinn en þann 16. febrúar ákvað ráðherra að Sif myndi hætta störfum í ráðuneytinu.
 1-2	Sif Konráðsdóttir	_	_	_	_	_	_	_	_
 1	Sif	Sif	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	nsubj	_	tag=person_nf_kvk
-2	Konráðsdóttir	Konráðsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	tag=person_nf_kvk
+2	Konráðsdóttir	Konráðsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
 4-6	Orri Páll Jóhannsson	_	_	_	_	_	_	_	_
 4	Orri	Orri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-5	Páll	Páll	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	tag=person_nf_kk
-6	Jóhannsson	Jóhannsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	fixed	_	tag=person_nf_kk
+5	Páll	Páll	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
+6	Jóhannsson	Jóhannsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	_	_	tag=person_nf_kk
 7	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	aux	_	tag=so_0_fh_p3_ft_þt_gm
 8	ráðin	ráða	VERB	so_1_nf_lhþt_ft	Case=Nom|Number=Plur|VerbForm=Part	9	conj	_	tag=so_1_nf_lhþt_ft
 9	aðstoðarmenn	aðstoðarmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
 10-12	Guðmundar Inga Guðbrandssonar	_	_	_	_	_	_	_	_
 10	Guðmundar	Guðmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-11	Inga	Ingi	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	fixed	_	SpaceAfter=No|tag=person_ef_kk
-12	Guðbrandssonar	Guðbrandsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	fixed	_	SpaceAfter=No|tag=person_ef_kk
+11	Inga	Ingi	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	_	_	SpaceAfter=No|tag=person_ef_kk
+12	Guðbrandssonar	Guðbrandsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	_	_	SpaceAfter=No|tag=person_ef_kk
 13	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 14-16	umhverfis- og auðlindaráðherra	_	_	_	_	_	_	_	_
 14	umhverfis-	umhverfis-	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_ef_kk
-15	og	og	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	fixed	_	SpaceAfter=No|tag=no_et_ef_kk
-16	auðlindaráðherra	auðlindaráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	fixed	_	SpaceAfter=No|tag=no_et_ef_kk
+15	og	og	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	_	_	SpaceAfter=No|tag=no_et_ef_kk
+16	auðlindaráðherra	auðlindaráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	_	_	SpaceAfter=No|tag=no_et_ef_kk
 17	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 18	þann	sá	ADV	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	advmod	_	tag=fn_et_þf_kk
 19-20	14. desember	_	_	_	_	_	_	_	_
 19	14.	14.	NUM?	dagsafs	_	18	('HALLÓ_dagsafs', None, 'NP', None)	_	tag=dagsafs
-20	desember	desember	NUM?	dagsafs	_	19	fixed	_	tag=dagsafs
+20	desember	desember	NUM?	dagsafs	_	19	flat	_	tag=dagsafs
 21	síðastliðinn	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	18	amod	_	tag=lo_et_þf_kk_sb
 22	en	en	CCONJ	st	_	9	cc	_	tag=st
 23	þann	sá	ADV	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	26	advmod	_	tag=fn_et_þf_kk
 24-25	16. febrúar	_	_	_	_	_	_	_	_
 24	16.	16.	NUM?	dagsafs	_	23	('HALLÓ_dagsafs', None, 'NP', None)	_	tag=dagsafs
-25	febrúar	febrúar	NUM?	dagsafs	_	24	fixed	_	tag=dagsafs
+25	febrúar	febrúar	NUM?	dagsafs	_	24	flat	_	tag=dagsafs
 26	ákvað	ákveða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 27	ráðherra	ráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	tag=no_et_nf_kk
 28	að	að	SCONJ	st	_	31	mark	_	tag=st
@@ -205,12 +205,12 @@
 # text = Svanhvít Friðriksdóttir, upplýsingafulltrúi Wow air, segir félagið hafa verið á höttunum eftir flugmönnum frá því í ársbyrjun og að tugir umsókna um stöður flugmanna hafi borist félaginu í dag og í gær.
 1-2	Svanhvít Friðriksdóttir	_	_	_	_	_	_	_	_
 1	Svanhvít	Svanhvít	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	Friðriksdóttir	Friðriksdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+2	Friðriksdóttir	Friðriksdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	SpaceAfter=No|tag=person_nf_kvk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	upplýsingafulltrúi	upplýsingafulltrúi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5-6	Wow air	_	_	_	_	_	_	_	_
 5	Wow	Wow	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ef_hk
-6	air	air	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	5	fixed	_	SpaceAfter=No|tag=fyrirtæki_ef_hk
+6	air	air	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	5	_	_	SpaceAfter=No|tag=fyrirtæki_ef_hk
 7	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 8	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 9	félagið	félag	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þf_hk_gr
@@ -294,7 +294,7 @@
 11	borga	borga	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_1_þf_nh_gm
 12-13	hundruð þúsunda	_	_	_	_	_	_	_	_
 12	hundruð	hundruð	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	tag=töl_ft_þf_hk
-13	þúsunda	þúsunda	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	fixed	_	tag=töl_ft_þf_hk
+13	þúsunda	þúsunda	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	_	_	tag=töl_ft_þf_hk
 14	fyrir	fyrir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	Rolex	Rolex	PROPN	fyrirtæki	_	11	obl	_	tag=fyrirtæki
 16	úr	úr	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	conj	_	tag=no_ft_þf_hk
@@ -327,7 +327,7 @@
 4-6	í fyrsta sinn	_	_	_	_	_	_	_	_
 4	í	í	ADV	ao	_	2	advmod	_	tag=ao
 5	fyrsta	fyrsta	ADV	ao	_	4	fixed	_	tag=ao
-6	sinn	sinn	ADV	ao	_	5	fixed	_	tag=ao
+6	sinn	sinn	ADV	ao	_	4	fixed	_	tag=ao
 7	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 8	að	að	SCONJ	st	_	7	cc	_	tag=st
 9	Eurovision-stjarna	Eurovision-stjarna	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	tag=no_et_nf_kvk
@@ -343,22 +343,22 @@
 19	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nmod	_	tag=pfn_ft_nf_kk_p3
 20-21	Måns Zelmerlöw	_	_	_	_	_	_	_	_
 20	Måns	Måns	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	nsubj	_	tag=person_nf_kk
-21	Zelmerlöw	Zelmerlöw	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	fixed	_	tag=person_nf_kk
+21	Zelmerlöw	Zelmerlöw	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	_	_	tag=person_nf_kk
 22	og	og	CCONJ	st	_	20	cc	_	tag=st
 23-24	Alexander Rybak	_	_	_	_	_	_	_	_
 23	Alexander	Alexander	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	conj	_	tag=person_nf_kk
-24	Rybak	Rybak	PROPN	person_nf_kk	Case=Nom|Gender=Masc	23	fixed	_	tag=person_nf_kk
+24	Rybak	Rybak	PROPN	person_nf_kk	Case=Nom|Gender=Masc	23	_	_	tag=person_nf_kk
 25	fram	fram	ADV	ao	_	18	compound:prt	_	tag=ao
 26	og	og	CCONJ	st	_	18	cc	_	tag=st
 27-28	árið 2016	_	_	_	_	_	_	_	_
 27	árið	árið	ADV	ártal	_	18	advmod	_	tag=ártal
-28	2016	2016	NUM	ártal	_	27	fixed	_	tag=ártal
+28	2016	2016	NUM	ártal	_	27	flat	_	tag=ártal
 29	þær	hún	PRON	pfn_et_nf	Case=Nom|Number=Sing|PronType=Prs	30	nmod	_	tag=pfn_et_nf
 30	Loreen	Loreen	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	18	obl	_	tag=person_nf_kvk
 31	og	og	CCONJ	st	_	32	cc	_	tag=st
 32-33	Sandra Kim	_	_	_	_	_	_	_	_
 32	Sandra	Sandra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	30	conj	_	SpaceAfter=No|tag=person_nf_kvk
-33	Kim	Kim	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	32	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+33	Kim	Kim	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	32	_	_	SpaceAfter=No|tag=person_nf_kvk
 34	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00188,.10
@@ -366,7 +366,7 @@
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2-3	mars 2012	_	_	_	_	_	_	_	_
 2	mars	mars	NUM?	dagsafs	_	5	obl	_	SpaceAfter=No|tag=dagsafs
-3	2012	2012	NUM?	dagsafs	_	2	fixed	_	SpaceAfter=No|tag=dagsafs
+3	2012	2012	NUM?	dagsafs	_	2	flat	_	SpaceAfter=No|tag=dagsafs
 4	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 5	mánuði	mánuður	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	advmod	_	tag=no_et_þgf_kk
 6	eftir	eftir	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
@@ -384,11 +384,11 @@
 18	kaupa	kaupa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_1_þf_nh_gm
 19-20	34 prósent	_	_	_	_	_	_	_	_
 19	34	34	NUM	prósenta	_	21	nummod	_	tag=prósenta
-20	prósent	prósent	?	prósenta	_	19	fixed	_	tag=prósenta
+20	prósent	prósent	?	prósenta	_	19	_	_	tag=prósenta
 21	hlut	hlutur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	tag=no_et_þf_kk
 22	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
-23	P	P	NOUN	abbrev	_	25	flat:name	_	tag=abbrev
-24	F	F	NOUN	abbrev	_	25	flat:name	_	tag=abbrev
+23	P	P	NOUN	abbrev	_	25	flat	_	tag=abbrev
+24	F	F	NOUN	abbrev	_	25	flat	_	tag=abbrev
 25	Magn	magn	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	tag=fyrirtæki_et_þgf_hk
 26	af	af	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27	Heddu	Hedda	PROPN	fyrirtæki_þgf_kvk	Case=Dat|Gender=Fem	17	obl	_	SpaceAfter=No|tag=fyrirtæki_þgf_kvk
@@ -397,7 +397,7 @@
 30	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	31	nmod	_	tag=pfn_ft_ef_hk_p3
 31-32	Svanhildar Nönnu	_	_	_	_	_	_	_	_
 31	Svanhildar	Svanhildur	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	29	nmod:poss	_	tag=person_ef_kvk
-32	Nönnu	Nanna	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	31	fixed	_	tag=person_ef_kvk
+32	Nönnu	Nanna	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	31	_	_	tag=person_ef_kvk
 33	og	og	CCONJ	st	_	31	cc	_	tag=st
 34	Guðmundar	Guðmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	31	conj	_	SpaceAfter=No|tag=person_ef_kk
 35	.	_	PUNCT	grm	_	17	punct	_	tag=grm

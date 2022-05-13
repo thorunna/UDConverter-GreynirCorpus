@@ -52,12 +52,12 @@
 7	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 8-9	Hlynur Bæringsson	_	_	_	_	_	_	_	_
 8	Hlynur	Hlynur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	conj	_	tag=person_nf_kk
-9	Bæringsson	Bæringsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	fixed	_	tag=person_nf_kk
+9	Bæringsson	Bæringsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	_	_	tag=person_nf_kk
 10	og	og	CCONJ	st	_	2	cc	_	tag=st
 11-13	Tómas Þórður Hilmarsson	_	_	_	_	_	_	_	_
 11	Tómas	Tómas	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	conj	_	tag=person_nf_kk
-12	Þórður	Þórður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	fixed	_	tag=person_nf_kk
-13	Hilmarsson	Hilmarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	tag=person_nf_kk
+12	Þórður	Þórður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	_	_	tag=person_nf_kk
+13	Hilmarsson	Hilmarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	_	_	tag=person_nf_kk
 14	framlengdu	framlengja	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 15	samninga	samningur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	tag=no_ft_þf_kk
 16	sína	sinn	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	tag=fn_ft_þf_kk
@@ -95,8 +95,8 @@
 4	Þróunarsamvinnunefndar	þróunarsamvinnunefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk
 5-7	Efnahags- og framfarastofnunarinnar	_	_	_	_	_	_	_	_
 5	Efnahags-	Efnahags-	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kvk_gr
-6	og	og	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	fixed	_	tag=no_et_ef_kvk_gr
-7	framfarastofnunarinnar	framfarastofnun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	fixed	_	tag=no_et_ef_kvk_gr
+6	og	og	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	_	_	tag=no_et_ef_kvk_gr
+7	framfarastofnunarinnar	framfarastofnun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	_	_	tag=no_et_ef_kvk_gr
 8	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	íslenskri	íslenskur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_þgf_kvk_sb
 10	þróunarsamvinnu	þróunarsamvinna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
@@ -138,7 +138,7 @@
 3	líka	líka	ADV	eo	_	4	advmod	_	tag=eo
 4-5	Egill Sigurgeirsson	_	_	_	_	_	_	_	_
 4	Egill	Egill	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-5	Sigurgeirsson	Sigurgeirsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	tag=person_nf_kk
+5	Sigurgeirsson	Sigurgeirsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
 6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
 7	sat	sitja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
@@ -187,7 +187,7 @@
 9	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	tag=fn_et_þf_kk
 10-11	13. ágúst	_	_	_	_	_	_	_	_
 10	13.	13.	ADV	dagsafs	_	4	advmod	_	tag=dagsafs
-11	ágúst	ágúst	NUM?	dagsafs	_	10	fixed	_	tag=dagsafs
+11	ágúst	ágúst	NUM?	dagsafs	_	10	flat	_	tag=dagsafs
 12	síðastliðinn	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_þf_kk_sb
 13	en	en	CCONJ	st	_	4	cc	_	tag=st
 14	dráttarvírarnir	dráttarvír	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	16	nsubj	_	tag=no_ft_nf_kk_gr

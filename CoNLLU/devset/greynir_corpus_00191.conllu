@@ -12,7 +12,7 @@
 10-12	að öðru leyti	_	_	_	_	_	_	_	_
 10	að	að	ADV	ao	_	4	advmod	_	tag=ao
 11	öðru	öðru	ADV	ao	_	10	fixed	_	tag=ao
-12	leyti	leyti	ADV	ao	_	11	fixed	_	tag=ao
+12	leyti	leyti	ADV	ao	_	10	fixed	_	tag=ao
 13	en	en	CCONJ	st	_	10	advcl	_	tag=st
 14	að	að	PART	nhm	_	15	mark	_	tag=nhm
 15	neita	neita	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_1_þgf_nh_gm
@@ -99,7 +99,7 @@
 16	sögðust	segja	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_ft_þt_mm
 17-18	20 prósent	_	_	_	_	_	_	_	_
 17	20	20	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	tag=prósenta_ft_nf_hk
-18	prósent	prósent	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	17	fixed	_	tag=prósenta_ft_nf_hk
+18	prósent	prósent	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	17	_	_	tag=prósenta_ft_nf_hk
 19	ætla	ætla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_0_nh_gm
 20	að	að	PART	nhm	_	21	mark	_	tag=nhm
 21	borða	borða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	19	xcomp	_	tag=so_1_þf_nh_gm
@@ -112,7 +112,7 @@
 28	við	við	ADP	fs_þf	Case=Acc	29	case	_	tag=fs_þf
 29-30	60 prósent	_	_	_	_	_	_	_	_
 29	60	60	?	prósenta_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	26	obl	_	tag=prósenta_et_þf_hk
-30	prósent	prósent	?	prósenta_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	29	fixed	_	tag=prósenta_et_þf_hk
+30	prósent	prósent	?	prósenta_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	29	_	_	tag=prósenta_et_þf_hk
 31	í	í	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
 32	aldurshópnum	aldurshópur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	29	obl	_	tag=no_et_þgf_kk_gr
 33	68	68	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	34	nummod	_	tag=tala_ft_þf_kk
@@ -127,7 +127,7 @@
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3-4	árið 1992	_	_	_	_	_	_	_	_
 3	árið	árið	NUM	ártal	_	1	nummod	_	SpaceAfter=No|tag=ártal
-4	1992	1992	NUM	ártal	_	3	fixed	_	SpaceAfter=No|tag=ártal
+4	1992	1992	NUM	ártal	_	3	flat	_	SpaceAfter=No|tag=ártal
 5	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 6	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 7-8	hins vegar	_	_	_	_	_	_	_	_
@@ -291,7 +291,7 @@
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7-8	Leo Murray	_	_	_	_	_	_	_	_
 7	Leo	Leo	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	obl	_	SpaceAfter=No|tag=person_nf_kk
-8	Murray	Murray	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	fixed	_	SpaceAfter=No|tag=person_nf_kk
+8	Murray	Murray	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	_	_	SpaceAfter=No|tag=person_nf_kk
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 10	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf

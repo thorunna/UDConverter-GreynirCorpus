@@ -62,8 +62,8 @@
 # text = Sigmundur Davíð Gunnlaugsson var þá forsætisráðherra og hafði um það að segja, skrifar Halldór.
 1-3	Sigmundur Davíð Gunnlaugsson	_	_	_	_	_	_	_	_
 1	Sigmundur	Sigmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	tag=person_nf_kk
-2	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
-3	Gunnlaugsson	Gunnlaugsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+2	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+3	Gunnlaugsson	Gunnlaugsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
 4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	þá	þá	ADV	ao	_	6	advmod	_	tag=ao
 6	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	tag=no_et_nf_kk
@@ -104,8 +104,8 @@
 # text = Den Norske Bank spáir háu verði á laxi næstu mánuði og misseri, allt til ársins 2020.
 1-3	Den Norske Bank	_	_	_	_	_	_	_	_
 1	Den	Den	PROPN	fyrirtæki	_	4	nsubj	_	tag=fyrirtæki
-2	Norske	Norske	PROPN	fyrirtæki	_	1	fixed	_	tag=fyrirtæki
-3	Bank	Bank	PROPN	fyrirtæki	_	2	fixed	_	tag=fyrirtæki
+2	Norske	Norske	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
+3	Bank	Bank	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
 4	spáir	spá	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 5	háu	hár	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þgf_hk_sb
 6	verði	verð	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þgf_hk
@@ -120,7 +120,7 @@
 15	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
 16-17	ársins 2020	_	_	_	_	_	_	_	_
 16	ársins	ársins	NUM	ártal	_	14	obl	_	SpaceAfter=No|tag=ártal
-17	2020	2020	NUM	ártal	_	16	fixed	_	SpaceAfter=No|tag=ártal
+17	2020	2020	NUM	ártal	_	16	flat	_	SpaceAfter=No|tag=ártal
 18	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00095,.7
@@ -193,7 +193,7 @@
 3	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 4-5	1,2 milljarðar	_	_	_	_	_	_	_	_
 4	1,2	1,2	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=töl_ft_nf_kk
-5	milljarðar	milljarðar	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	fixed	_	tag=töl_ft_nf_kk
+5	milljarðar	milljarðar	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	_	_	tag=töl_ft_nf_kk
 6	eftir	eftir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 7	6	6	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	8	nummod	_	tag=tala_ft_þf_kk
 8	mánuði	mánuður	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	advmod	_	tag=no_ft_þf_kk
@@ -206,6 +206,6 @@
 15	mánuði	mánuður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	tag=no_ft_þf_kk
 16-17	ársins 2017	_	_	_	_	_	_	_	_
 16	ársins	ársins	ADV	ártal	_	4	advmod	_	SpaceAfter=No|tag=ártal
-17	2017	2017	NUM	ártal	_	16	fixed	_	SpaceAfter=No|tag=ártal
+17	2017	2017	NUM	ártal	_	16	flat	_	SpaceAfter=No|tag=ártal
 18	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

@@ -92,7 +92,7 @@
 12	-	-	PUNCT	grm	_	11	punct	_	tag=grm
 13-14	13 m	_	_	_	_	_	_	_	_
 13	13	13	?	mælieining	_	10	('HALLÓ_mælieining', None, 'NP', None)	_	SpaceAfter=No|tag=mælieining
-14	m	m	?	mælieining	_	13	fixed	_	SpaceAfter=No|tag=mælieining
+14	m	m	?	mælieining	_	13	_	_	SpaceAfter=No|tag=mælieining
 15	/	/	PUNCT	grm	_	10	punct	_	tag=grm
 16	s	s	?	mælieining	_	10	('HALLÓ_mælieining', None, 'NP', None)	_	tag=mælieining
 17	með	með	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
@@ -100,7 +100,7 @@
 19-21	sunnan- og vestanlands	_	_	_	_	_	_	_	_
 19	sunnan-	sunnan-	ADV	ao	_	8	advmod	_	tag=ao
 20	og	og	ADV	ao	_	19	fixed	_	tag=ao
-21	vestanlands	vestanlands	ADV	ao	_	20	fixed	_	tag=ao
+21	vestanlands	vestanlands	ADV	ao	_	19	fixed	_	tag=ao
 22	síðdegis	síðdegis	ADV	ao	_	8	advmod	_	SpaceAfter=No|tag=ao
 23	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
@@ -134,7 +134,7 @@
 # text = Guðlaugur Þór er þó ekki sannfærður um að rétt sé að mannréttindaráðið sé einungis skipað ríkjum sem hafi hreinan skjöld í mannréttindamálum.
 1-2	Guðlaugur Þór	_	_	_	_	_	_	_	_
 1	Guðlaugur	Guðlaugur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-2	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	þó	þó	ADV	ao	_	6	advmod	_	tag=ao
 5	ekki	ekki	ADV	ao	_	6	advmod	_	tag=ao
@@ -239,7 +239,7 @@
 # text = H vort sem að gagnrýnisraddirnar höfðu úrslitaáhrif á valið á buxnadragtinni frá Altuzarra sem Meghan klæddist í gær skal þó látið ósagt.
 1-2	H vort	_	_	_	_	_	_	_	_
 1	H	hvort	SCONJ	st	_	6	mark	_	tag=st
-2	vort	hvort	SCONJ	st	_	1	fixed	_	tag=st
+2	vort	hvort	SCONJ	st	_	1	_	_	tag=st
 3	sem	sem	SCONJ	st	_	1	cc	_	tag=st
 4	að	að	SCONJ	st	_	1	cc	_	tag=st
 5	gagnrýnisraddirnar	gagnrýnisrödd	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	6	nsubj	_	tag=no_ft_nf_kvk_gr

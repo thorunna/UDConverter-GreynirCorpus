@@ -45,7 +45,7 @@
 10	nefna	nefna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	conj	_	tag=so_1_þf_nh_gm
 11-12	West Ham	_	_	_	_	_	_	_	_
 11	West	West	PROPN	fyrirtæki_þf	Case=Acc	10	obj	_	SpaceAfter=No|tag=fyrirtæki_þf
-12	Ham	Ham	PROPN	fyrirtæki_þf	Case=Acc	11	fixed	_	SpaceAfter=No|tag=fyrirtæki_þf
+12	Ham	Ham	PROPN	fyrirtæki_þf	Case=Acc	11	_	_	SpaceAfter=No|tag=fyrirtæki_þf
 13	,	_	PUNCT	grm	_	14	punct	_	tag=grm
 14	Bolton	Bolton	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	conj	_	tag=no_et_þf_hk
 15	og	og	CCONJ	st	_	11	cc	_	tag=st
@@ -112,8 +112,8 @@
 12	úthlutun	úthlutun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk
 13-15	samgöngu- og sveitarstjórnarráðherra	_	_	_	_	_	_	_	_
 13	samgöngu-	samgöngu-	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	nmod:poss	_	tag=no_et_ef_kk
-14	og	og	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	fixed	_	tag=no_et_ef_kk
-15	sveitarstjórnarráðherra	sveitarstjórnarráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	fixed	_	tag=no_et_ef_kk
+14	og	og	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	_	_	tag=no_et_ef_kk
+15	sveitarstjórnarráðherra	sveitarstjórnarráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	_	_	tag=no_et_ef_kk
 16	á	á	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	framlögum	framlag	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_þgf_hk
 18	sem	sem	SCONJ	stt	_	19	mark	_	tag=stt
@@ -136,7 +136,7 @@
 2	lagði	leggja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3-4	Guðlaugur Þór	_	_	_	_	_	_	_	_
 3	Guðlaugur	Guðlaugur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-4	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	fixed	_	tag=person_nf_kk
+4	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	_	_	tag=person_nf_kk
 5	áherslu	áhersla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
 6	á	á	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	hve	hve	ADV	eo	_	5	obl	_	tag=eo
@@ -168,8 +168,8 @@
 # text = Jón Þór Ólafsson, þingmaður Pírata, skilaði séráliti í forsætisnefnd en hann vildi að málinu yrði vísað aftur til siðanefndar þar sem sannleiksgildi ummæla Þórhildar Sunnu yrði rannsakað.
 1-3	Jón Þór Ólafsson	_	_	_	_	_	_	_	_
 1	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
-3	Ólafsson	Ólafsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+3	Ólafsson	Ólafsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	SpaceAfter=No|tag=person_nf_kk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	þingmaður	þingmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	Pírata	Pírati	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
@@ -194,7 +194,7 @@
 25	ummæla	ummæli	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	24	nmod:poss	_	tag=no_ft_ef_hk
 26-27	Þórhildar Sunnu	_	_	_	_	_	_	_	_
 26	Þórhildar	Þórhildur	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	25	nmod:poss	_	tag=person_ef_kvk
-27	Sunnu	Sunna	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	26	fixed	_	tag=person_ef_kvk
+27	Sunnu	Sunna	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	26	_	_	tag=person_ef_kvk
 28	yrði	verða	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	29	aux	_	tag=so_0_vh_p3_et_þt_gm
 29	rannsakað	rannsaka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	14	advcl	_	SpaceAfter=No|tag=so_0_lhþt_et
 30	.	_	PUNCT	grm	_	8	punct	_	tag=grm
@@ -305,7 +305,7 @@
 4-6	í sjálfu sér	_	_	_	_	_	_	_	_
 4	í	í	ADV	ao	_	8	advmod	_	tag=ao
 5	sjálfu	sjálfu	ADV	ao	_	4	fixed	_	tag=ao
-6	sér	sér	ADV	ao	_	5	fixed	_	tag=ao
+6	sér	sér	ADV	ao	_	4	fixed	_	tag=ao
 7	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
 8	koma	koma	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	obj	_	tag=so_1_þf_nh_gm
 9	á	á	ADV	ao	_	8	compound:prt	_	tag=ao

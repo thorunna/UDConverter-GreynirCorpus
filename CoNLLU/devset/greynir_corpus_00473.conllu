@@ -11,7 +11,7 @@
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 10-11	HB Granda	_	_	_	_	_	_	_	_
 10	HB	HB	PROPN	fyrirtæki	_	7	obl	_	SpaceAfter=No|tag=fyrirtæki
-11	Granda	Grandi	PROPN	fyrirtæki	_	10	fixed	_	SpaceAfter=No|tag=fyrirtæki
+11	Granda	Grandi	PROPN	fyrirtæki	_	10	flat	_	SpaceAfter=No|tag=fyrirtæki
 12	,	,	PUNCT	grm	_	13	punct	_	tag=grm
 13	Brim	Brim	PROPN	fyrirtæki	_	10	conj	_	SpaceAfter=No|tag=fyrirtæki
 14	,	,	PUNCT	grm	_	15	punct	_	tag=grm
@@ -23,7 +23,7 @@
 20	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	tag=so_0_fh_p3_et_nt_gm
 21-22	HB Grandi	_	_	_	_	_	_	_	_
 21	HB	HB	PROPN	fyrirtæki	_	23	nsubj	_	tag=fyrirtæki
-22	Grandi	Grandi	PROPN	fyrirtæki	_	21	fixed	_	tag=fyrirtæki
+22	Grandi	Grandi	PROPN	fyrirtæki	_	21	flat	_	tag=fyrirtæki
 23	greitt	greiða	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 24	út	út	ADV	ao	_	23	compound:prt	_	tag=ao
 25	mestan	mikill	ADJ	lo_et_þf_kk_esb	Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	26	amod	_	tag=lo_et_þf_kk_esb
@@ -67,7 +67,7 @@
 # text = Gylfi Arnbjörnsson, forseti Alþýðusambands Íslands, tilkynnti á miðstjórnarfundi sambandsins í dag að hann hygðist ekki bjóða sig fram til endurkjörs á 43. þingi ASÍ í október.
 1-2	Gylfi Arnbjörnsson	_	_	_	_	_	_	_	_
 1	Gylfi	Gylfi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Arnbjörnsson	Arnbjörnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Arnbjörnsson	Arnbjörnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Alþýðusambands	Alþýðusamband	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_hk
@@ -100,7 +100,7 @@
 # text = Þrátt fyrir svekkjandi lokamínútur í leik Íslands og Ungverjalands í dag hefur Gylfi Þór Sigurðsson enn fulla trú á að Ísland komist áfram upp úr riðlinum og í sextán liða úrslit.
 1-2	Þrátt fyrir	_	_	_	_	_	_	_	_
 1	Þrátt	þrátt	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
-2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	fixed	_	tag=fs_þf
+2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	_	_	tag=fs_þf
 3	svekkjandi	svekkjandi	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	4	amod	_	tag=lo_ft_þf_kvk_sb
 4	lokamínútur	loka-mínúta	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þf_kvk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -113,8 +113,8 @@
 12	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 13-15	Gylfi Þór Sigurðsson	_	_	_	_	_	_	_	_
 13	Gylfi	Gylfi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
-14	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	fixed	_	tag=person_nf_kk
-15	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	fixed	_	tag=person_nf_kk
+14	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	_	_	tag=person_nf_kk
+15	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	_	_	tag=person_nf_kk
 16	enn	enn	ADV	ao	_	12	advmod	_	tag=ao
 17	fulla	full	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	18	amod	_	tag=lo_et_þf_kvk_sb
 18	trú	trú	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	tag=no_et_þf_kvk
@@ -125,7 +125,7 @@
 23	áfram	áfram	ADV	ao	_	22	advmod	_	tag=ao
 24-25	upp úr	_	_	_	_	_	_	_	_
 24	upp	upp	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
-25	úr	úr	ADP	fs_þgf	Case=Dat	24	fixed	_	tag=fs_þgf
+25	úr	úr	ADP	fs_þgf	Case=Dat	24	_	_	tag=fs_þgf
 26	riðlinum	riðill	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	tag=no_et_þgf_kk_gr
 27	og	og	CCONJ	st	_	26	cc	_	tag=st
 28	í	í	ADP	fs_þf	Case=Acc	31	case	_	tag=fs_þf
@@ -140,8 +140,8 @@
 2	með	með	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3-5	40 þúsund krónum	_	_	_	_	_	_	_	_
 3	40	40	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	tag=no_ft_þgf_kvk
-4	þúsund	þúsund	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	fixed	_	tag=no_ft_þgf_kvk
-5	krónum	krónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	fixed	_	tag=no_ft_þgf_kvk
+4	þúsund	þúsund	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	_	_	tag=no_ft_þgf_kvk
+5	krónum	krónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	_	_	tag=no_ft_þgf_kvk
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	reiðufé	reiðufé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
 8	komst	koma	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
@@ -176,8 +176,8 @@
 3	sátu	sitja	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
 4-6	S. Björn Blöndal	_	_	_	_	_	_	_	_
 4	S.	S.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-5	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	SpaceAfter=No|tag=person_nf_kk
-6	Blöndal	Blöndal	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	fixed	_	SpaceAfter=No|tag=person_nf_kk
+5	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	SpaceAfter=No|tag=person_nf_kk
+6	Blöndal	Blöndal	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	_	_	SpaceAfter=No|tag=person_nf_kk
 7	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 8	borgarfulltrúi	borgarfulltrúi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 9	og	og	CCONJ	st	_	10	cc	_	tag=st
@@ -186,8 +186,8 @@
 12	,	,	PUNCT	grm	_	13	punct	_	tag=grm
 13-15	Jóhanna Harpa Árnadóttir	_	_	_	_	_	_	_	_
 13	Jóhanna	Jóhanna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	tag=person_nf_kvk
-14	Harpa	Harpa	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	13	fixed	_	tag=person_nf_kvk
-15	Árnadóttir	Árnadóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	fixed	_	tag=person_nf_kvk
+14	Harpa	Harpa	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	13	_	_	tag=person_nf_kvk
+15	Árnadóttir	Árnadóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	_	_	tag=person_nf_kvk
 16	verkefnisstjóri	verkefnisstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 17	samfélagsábyrgðar	samfélagsábyrgð	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	tag=no_et_ef_kvk
 18	hjá	hjá	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
@@ -199,8 +199,8 @@
 24	Festuog	Festuog	SCONJ	st	_	4	mark	_	tag=st
 25-26	Lára Jóhannsdóttir	_	_	_	_	_	_	_	_
 25	Lára	Lára	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	tag=person_nf_kvk
-26	Jóhannsdóttir	Jóhannsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	25	fixed	_	tag=person_nf_kvk
-27	PhD	PhD	NOUN	abbrev	_	29	flat:name	_	tag=abbrev
+26	Jóhannsdóttir	Jóhannsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	25	_	_	tag=person_nf_kvk
+27	PhD	PhD	NOUN	abbrev	_	29	flat	_	tag=abbrev
 28	og	og	CCONJ	st	_	29	cc	_	tag=st
 29	dósent	dósent	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 30	við	við	ADP	fs_þf	Case=Acc	31	case	_	tag=fs_þf
@@ -309,7 +309,7 @@
 1	Lík	lík	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
 2-3	Courtney Herron	_	_	_	_	_	_	_	_
 2	Courtney	Courtney	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	1	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
-3	Herron	Herron	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	fixed	_	SpaceAfter=No|tag=person_ef_kvk
+3	Herron	Herron	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	_	_	SpaceAfter=No|tag=person_ef_kvk
 4	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 5	25	25	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_ef_hk
 6	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
@@ -330,7 +330,7 @@
 21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
 22-23	Andrew Stamper	_	_	_	_	_	_	_	_
 22	Andrew	Andrew	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-23	Stamper	Stamper	PROPN	person_ef_kk	Case=Gen|Gender=Masc	22	fixed	_	SpaceAfter=No|tag=person_ef_kk
+23	Stamper	Stamper	PROPN	person_ef_kk	Case=Gen|Gender=Masc	22	_	_	SpaceAfter=No|tag=person_ef_kk
 24	,	,	PUNCT	grm	_	22	punct	_	tag=grm
 25	hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	28	aux	_	tag=so_0_fh_p3_et_þt_gm
 26	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	tag=pfn_et_nf_kvk_p3

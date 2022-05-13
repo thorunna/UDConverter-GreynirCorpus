@@ -2,15 +2,15 @@
 # text = Sturla Snær Snorrason varð Hermannsmeistari og Hólmfríður Dóra Friðgeirsdóttir varð Helgumeistari, bæði koma þau frá Reykjavík.
 1-3	Sturla Snær Snorrason	_	_	_	_	_	_	_	_
 1	Sturla	Sturla	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	Snær	Snær	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
-3	Snorrason	Snorrason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+2	Snær	Snær	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+3	Snorrason	Snorrason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
 4	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	Hermannsmeistari	Hermanns-meistari	PROPN	sérnafn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=sérnafn_et_nf_kk
 6	og	og	CCONJ	st	_	5	cc	_	tag=st
 7-9	Hólmfríður Dóra Friðgeirsdóttir	_	_	_	_	_	_	_	_
 7	Hólmfríður	Hólmfríður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	11	nsubj	_	tag=person_nf_kvk
-8	Dóra	Dóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	fixed	_	tag=person_nf_kvk
-9	Friðgeirsdóttir	Friðgeirsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	fixed	_	tag=person_nf_kvk
+8	Dóra	Dóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	_	_	tag=person_nf_kvk
+9	Friðgeirsdóttir	Friðgeirsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	_	_	tag=person_nf_kvk
 10	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 11	Helgumeistari	Helgu-meistari	PROPN	sérnafn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|tag=sérnafn_et_nf_kk
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
@@ -44,7 +44,7 @@
 3	að	að	SCONJ	st	_	8	mark	_	tag=st
 4-5	árið 2025	_	_	_	_	_	_	_	_
 4	árið	árið	ADV	ártal	_	8	advmod	_	tag=ártal
-5	2025	2025	NUM	ártal	_	4	fixed	_	tag=ártal
+5	2025	2025	NUM	ártal	_	4	flat	_	tag=ártal
 6	muni	muna	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_vh_p3_et_nt_gm
 7	fyrirtækið	fyrirtæki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk_gr
 8	selja	selja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	obj	_	tag=so_1_þf_nh_gm
@@ -55,7 +55,7 @@
 12	–	–	PUNCT	grm	_	11	punct	_	tag=grm
 13-14	3 milljónir	_	_	_	_	_	_	_	_
 13	3	3	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	15	nummod	_	tag=tala_ft_þf_kvk
-14	milljónir	milljónir	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	13	fixed	_	tag=tala_ft_þf_kvk
+14	milljónir	milljónir	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	13	_	_	tag=tala_ft_þf_kvk
 15	rafmagnsbíla	rafmagnsbíll	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	8	obj	_	tag=no_ft_ef_kk
 16-17	ár hvert	_	_	_	_	_	_	_	_
 16	ár	ár	ADV	ao	_	8	advmod	_	SpaceAfter=No|tag=ao
@@ -87,7 +87,7 @@
 4-6	á þessum tíma	_	_	_	_	_	_	_	_
 4	á	á	ADV	ao	_	7	advmod	_	tag=ao
 5	þessum	þessum	ADV	ao	_	4	fixed	_	tag=ao
-6	tíma	tíma	ADV	ao	_	5	fixed	_	tag=ao
+6	tíma	tíma	ADV	ao	_	4	fixed	_	tag=ao
 7	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
 8	svona	svona	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	9	amod	_	tag=lo_ft_þf_hk_sb
 9	skírteini	skírteini	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þf_hk

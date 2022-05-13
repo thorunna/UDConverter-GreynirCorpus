@@ -124,25 +124,25 @@
 13	um	um	ADP	fs	_	17	case	_	tag=fs
 14-15	50 km	_	_	_	_	_	_	_	_
 14	50	50	?	mælieining	_	17	obl	_	SpaceAfter=No|tag=mælieining
-15	km	km	?	mælieining	_	14	fixed	_	SpaceAfter=No|tag=mælieining
+15	km	km	?	mælieining	_	14	_	_	SpaceAfter=No|tag=mælieining
 16	(	_	PUNCT	grm	_	15	punct	_	tag=grm
 17	Dýrafjarðargöng	Dýrafjarðargöng	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_þf_hk
 18-19	27,3 km	_	_	_	_	_	_	_	_
 18	27,3	27,3	?	mælieining	_	17	obl	_	SpaceAfter=No|tag=mælieining
-19	km	km	?	mælieining	_	18	fixed	_	SpaceAfter=No|tag=mælieining
+19	km	km	?	mælieining	_	18	_	_	SpaceAfter=No|tag=mælieining
 20	,	_	PUNCT	grm	_	21	punct	_	tag=grm
 21	Dynjandisheiði	Dynjandisheiði	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	17	conj	_	tag=no_et_þf_kvk
 22	2	2	NUM	tala	NumType=Card	24	nummod	_	SpaceAfter=No|tag=tala
 23	–	_	PUNCT	grm	_	22	punct	_	tag=grm
 24-25	3 km	_	_	_	_	_	_	_	_
 24	3	3	?	mælieining	_	17	obl	_	SpaceAfter=No|tag=mælieining
-25	km	km	?	mælieining	_	24	fixed	_	SpaceAfter=No|tag=mælieining
+25	km	km	?	mælieining	_	24	_	_	SpaceAfter=No|tag=mælieining
 26	,	_	PUNCT	grm	_	27	punct	_	tag=grm
 27	leið	leið	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	24	conj	_	tag=no_et_nf_kvk
-28	Þ-H	Þ-H	NOUN	abbrev	_	17	flat:name	_	tag=abbrev
+28	Þ-H	Þ-H	NOUN	abbrev	_	17	flat	_	tag=abbrev
 29-30	21,6 km	_	_	_	_	_	_	_	_
 29	21,6	21,6	?	mælieining	_	17	obl	_	SpaceAfter=No|tag=mælieining
-30	km	km	?	mælieining	_	29	fixed	_	SpaceAfter=No|tag=mælieining
+30	km	km	?	mælieining	_	29	_	_	SpaceAfter=No|tag=mælieining
 31	)	_	PUNCT	grm	_	17	punct	_	SpaceAfter=No|tag=grm
 32	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -150,8 +150,8 @@
 # text = Jón Þór Ólafsson, þingmaður Pírata, hefur ákveðið að flytja úr íbúð fjölskyldunnar á Stúdentagörðum og segist þannig vilja víkja fyrir annarri fjölskyldu sem ekki sé í jafn góðri stöðu og þau.
 1-3	Jón Þór Ólafsson	_	_	_	_	_	_	_	_
 1	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
-3	Ólafsson	Ólafsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+3	Ólafsson	Ólafsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	SpaceAfter=No|tag=person_nf_kk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	þingmaður	þingmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	Pírata	Pírata	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
@@ -188,7 +188,7 @@
 # text = Donald Tusk, forseti Evrópuráðsins, lagði til við May á fundi sama dag að May byggði fyrst upp stuðning við tiltekna lausn heima fyrir áður en hún bæri hana fyrir evrópska ráðamenn.
 1-2	Donald Tusk	_	_	_	_	_	_	_	_
 1	Donald	Donald	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Tusk	Tusk	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Tusk	Tusk	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Evrópuráðsins	Evrópuráðið	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
@@ -245,7 +245,7 @@
 19	og	og	CCONJ	st	_	16	cc	_	tag=st
 20-21	El Salvador	_	_	_	_	_	_	_	_
 20	El	El	PROPN	entity	_	16	conj	_	tag=entity
-21	Salvador	Salvador	PROPN	entity	_	20	fixed	_	tag=entity
+21	Salvador	Salvador	PROPN	entity	_	20	flat	_	tag=entity
 22	til	til	ADP	fs_ef	Case=Gen	23	case	_	tag=fs_ef
 23	Bandaríkjanna	Bandaríkjanna	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_ef_hk_gr
 24	og	og	CCONJ	st	_	9	cc	_	tag=st
@@ -306,7 +306,7 @@
 8-10	að öllu leyti	_	_	_	_	_	_	_	_
 8	að	að	ADV	ao	_	7	advmod	_	tag=ao
 9	öllu	öllu	ADV	ao	_	8	fixed	_	tag=ao
-10	leyti	leyti	ADV	ao	_	9	fixed	_	tag=ao
+10	leyti	leyti	ADV	ao	_	8	fixed	_	tag=ao
 11	á	á	ADV	ao	_	8	advmod	_	tag=ao
 12	óvart	óvart	ADV	ao	_	8	advmod	_	tag=ao
 13	vegna	vegna	ADP	fs	_	23	mark	_	tag=fs

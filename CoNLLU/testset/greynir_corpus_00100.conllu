@@ -71,11 +71,11 @@
 9	eftir	eftir	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10-11	Tove Jansson	_	_	_	_	_	_	_	_
 10	Tove	Tove	PROPN	person_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=person_et_þf_kvk
-11	Jansson	Jansson	PROPN	person_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	fixed	_	tag=person_et_þf_kvk
+11	Jansson	Jansson	PROPN	person_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	_	_	tag=person_et_þf_kvk
 12	frá	frá	ADP	fs	_	13	case	_	tag=fs
 13-14	árinu 1948	_	_	_	_	_	_	_	_
 13	árinu	ár	ADV	ártal	_	2	advmod	_	SpaceAfter=No|tag=ártal
-14	1948	1948	NUM	ártal	_	13	fixed	_	SpaceAfter=No|tag=ártal
+14	1948	1948	NUM	ártal	_	13	flat	_	SpaceAfter=No|tag=ártal
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00100,.5
@@ -127,15 +127,15 @@
 2	segir	segja	VERB	so_0	_	0	root	_	tag=so_0
 3-5	Erna Kristín Blöndal	_	_	_	_	_	_	_	_
 3	Erna	Erna	PROPN	person	_	7	conj	_	SpaceAfter=No|tag=person
-4	Kristín	Kristín	PROPN	person	_	3	fixed	_	SpaceAfter=No|tag=person
-5	Blöndal	Blöndal	PROPN	person	_	4	fixed	_	SpaceAfter=No|tag=person
+4	Kristín	Kristín	PROPN	person	_	3	flat	_	SpaceAfter=No|tag=person
+5	Blöndal	Blöndal	PROPN	person	_	3	flat	_	SpaceAfter=No|tag=person
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
 8-11	Nordic Institute for Migration	_	_	_	_	_	_	_	_
 8	Nordic	Nordic	PROPN	fyrirtæki	_	7	nmod:poss	_	tag=fyrirtæki
-9	Institute	Institute	PROPN	fyrirtæki	_	8	fixed	_	tag=fyrirtæki
-10	for	for	PROPN	fyrirtæki	_	9	fixed	_	tag=fyrirtæki
-11	Migration	Migration	PROPN	fyrirtæki	_	10	fixed	_	tag=fyrirtæki
+9	Institute	Institute	PROPN	fyrirtæki	_	8	flat	_	tag=fyrirtæki
+10	for	for	PROPN	fyrirtæki	_	8	flat	_	tag=fyrirtæki
+11	Migration	Migration	PROPN	fyrirtæki	_	8	flat	_	tag=fyrirtæki
 12	og	og	CCONJ	st	_	7	cc	_	tag=st
 13	stjórnarmaður	stjórnarmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_nf_kk
 14	hjá	hjá	ADP	fs	_	15	case	_	tag=fs

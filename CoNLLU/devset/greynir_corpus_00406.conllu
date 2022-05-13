@@ -100,7 +100,7 @@
 # text = British Airways átti að fara í 143 ferðir frá Heathrow og Gatwick milli klukkan 6 og 11 í morgun.
 1-2	British Airways	_	_	_	_	_	_	_	_
 1	British	British	PROPN	fyrirtæki	_	3	nsubj	_	tag=fyrirtæki
-2	Airways	Airways	PROPN	fyrirtæki	_	1	fixed	_	tag=fyrirtæki
+2	Airways	Airways	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
 3	átti	eiga	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	fara	far	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
@@ -114,7 +114,7 @@
 13	milli	mill	ADP	fs_ef	Case=Gen	14	case	_	tag=fs_ef
 14-15	klukkan 6	_	_	_	_	_	_	_	_
 14	klukkan	klukkan	ADV	tími	_	5	advmod	_	tag=tími
-15	6	6	?	tími	_	14	fixed	_	tag=tími
+15	6	6	NUM	tími	_	14	flat	_	tag=tími
 16	og	og	CCONJ	st	_	14	cc	_	tag=st
 17	11	11	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	14	nummod	_	tag=tala_ft_nf_kvk
 18-19	í morgun	_	_	_	_	_	_	_	_
@@ -126,7 +126,7 @@
 # text = Sóley Guðmundsdóttir er fyrirliði kvennaliðsins og hún segir að draumurinn sé að koma heim með báða bikarana.
 1-2	Sóley Guðmundsdóttir	_	_	_	_	_	_	_	_
 1	Sóley	Sóley	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
-2	Guðmundsdóttir	Guðmundsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	tag=person_nf_kvk
+2	Guðmundsdóttir	Guðmundsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
 3	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	fyrirliði	fyrirliði	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	kvennaliðsins	kvennalið	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk_gr
@@ -156,8 +156,8 @@
 8-11	enn sem komið er	_	_	_	_	_	_	_	_
 8	enn	enn	ADV	ao	_	4	advmod	_	tag=ao
 9	sem	sem	ADV	ao	_	8	fixed	_	tag=ao
-10	komið	komið	ADV	ao	_	9	fixed	_	tag=ao
-11	er	er	ADV	ao	_	10	fixed	_	tag=ao
+10	komið	komið	ADV	ao	_	8	fixed	_	tag=ao
+11	er	er	ADV	ao	_	8	fixed	_	tag=ao
 12	og	og	CCONJ	st	_	4	cc	_	tag=st
 13	lítið	líta	ADV	eo	_	14	advmod	_	tag=eo
 14	vitað	vita	VERB	so_0_sagnb	VerbForm=Sup	4	conj	_	tag=so_0_sagnb

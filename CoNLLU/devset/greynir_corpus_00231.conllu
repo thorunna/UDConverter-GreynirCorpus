@@ -83,9 +83,9 @@
 6	vef	vefur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
 7-10	South China Morning Post	_	_	_	_	_	_	_	_
 7	South	South	PROPN	entity	_	6	nmod:poss	_	tag=entity
-8	China	China	PROPN	entity	_	7	fixed	_	tag=entity
-9	Morning	Morning	PROPN	entity	_	8	fixed	_	tag=entity
-10	Post	Post	PROPN	entity	_	9	fixed	_	tag=entity
+8	China	China	PROPN	entity	_	7	flat	_	tag=entity
+9	Morning	Morning	PROPN	entity	_	7	flat	_	tag=entity
+10	Post	Post	PROPN	entity	_	7	flat	_	tag=entity
 11	hér	hér	ADV	ao	_	1	advmod	_	SpaceAfter=No|tag=ao
 12	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
@@ -122,7 +122,7 @@
 # text = Erla Kolbrún reyndi að taka eigið líf þann 11. ágúst síðastliðinn.
 1-2	Erla Kolbrún	_	_	_	_	_	_	_	_
 1	Erla	Erla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
-2	Kolbrún	Kolbrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	tag=person_nf_kvk
+2	Kolbrún	Kolbrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
 3	reyndi	reyna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
@@ -131,7 +131,7 @@
 8	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	tag=fn_et_þf_kk
 9-10	11. ágúst	_	_	_	_	_	_	_	_
 9	11.	11.	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
-10	ágúst	ágúst	NUM?	dagsafs	_	9	fixed	_	tag=dagsafs
+10	ágúst	ágúst	NUM?	dagsafs	_	9	flat	_	tag=dagsafs
 11	síðastliðinn	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No|tag=lo_et_þf_kk_sb
 12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

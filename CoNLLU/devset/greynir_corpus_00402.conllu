@@ -27,15 +27,15 @@
 6	bréfi	bréf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 7-8	Sveins Björnssonar	_	_	_	_	_	_	_	_
 7	Sveins	Sveins	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	nmod:poss	_	tag=person_ef_kk
-8	Björnssonar	Björnssonar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	fixed	_	tag=person_ef_kk
+8	Björnssonar	Björnssonar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	_	_	tag=person_ef_kk
 9	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_0_fh_p3_et_þt_gm
 10-11	Galeazzo Ciano	_	_	_	_	_	_	_	_
 10	Galeazzo	Galeazzo	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
-11	Ciano	Ciano	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	fixed	_	tag=person_nf_kk
+11	Ciano	Ciano	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	_	_	tag=person_nf_kk
 12	tengdasonur	tengdasonur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 13-14	Benito Mussolinis	_	_	_	_	_	_	_	_
 13	Benito	Benito	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	nmod:poss	_	tag=person_ef_kk
-14	Mussolinis	Mussolinis	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	fixed	_	tag=person_ef_kk
+14	Mussolinis	Mussolinis	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	_	_	tag=person_ef_kk
 15	einræðisherra	einræðisherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_ef_kk
 16	og	og	CCONJ	st	_	17	cc	_	tag=st
 17	fasistaleiðtoga	fasista-leiðtogi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	conj	_	tag=no_et_ef_kk
@@ -50,7 +50,7 @@
 4	fréttavef	frétta-vefa	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
 5-6	Daily Telegraph	_	_	_	_	_	_	_	_
 5	Daily	Daily	PROPN	fyrirtæki	_	4	nmod:poss	_	tag=fyrirtæki
-6	Telegraph	Telegraph	PROPN	fyrirtæki	_	5	fixed	_	tag=fyrirtæki
+6	Telegraph	Telegraph	PROPN	fyrirtæki	_	5	flat	_	tag=fyrirtæki
 7	að	að	SCONJ	st	_	9	mark	_	tag=st
 8	bifreiðin	bifreið	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk_gr
 9	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	nsubj	_	tag=so_0_vh_p3_et_nt_gm
@@ -77,7 +77,7 @@
 10-12	engu að síður	_	_	_	_	_	_	_	_
 10	engu	engu	ADV	ao	_	8	advmod	_	tag=ao
 11	að	að	ADV	ao	_	10	fixed	_	tag=ao
-12	síður	síður	ADV	ao	_	11	fixed	_	tag=ao
+12	síður	síður	ADV	ao	_	10	fixed	_	tag=ao
 13	á	eiga	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	loft	loft	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
 15	á	eiga	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
@@ -191,14 +191,14 @@
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 10-12	með tilliti til	_	_	_	_	_	_	_	_
 10	með	með	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
-11	tilliti	tilliti	ADP	fs_ef	Case=Gen	10	fixed	_	tag=fs_ef
-12	til	til	ADP	fs_ef	Case=Gen	11	fixed	_	tag=fs_ef
+11	tilliti	tilliti	ADP	fs_ef	Case=Gen	10	_	_	tag=fs_ef
+12	til	til	ADP	fs_ef	Case=Gen	11	_	_	tag=fs_ef
 13	verðlækkana	verðlækkun	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_ef_kvk
 14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
 15	fyrir	fyrir	ADV	fs_þf	Case=Acc	7	advmod	_	tag=fs_þf
 16-17	1. júní	_	_	_	_	_	_	_	_
 16	1.	1.	NUM?	dagsafs	_	15	('HALLÓ_dagsafs', None, 'ADVP', 'DUR-REL')	_	tag=dagsafs
-17	júní	júní	NUM?	dagsafs	_	16	fixed	_	tag=dagsafs
+17	júní	júní	NUM?	dagsafs	_	16	flat	_	tag=dagsafs
 18	næstkomandi	næstkomandi	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	15	amod	_	tag=lo_et_þf_kk_sb
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

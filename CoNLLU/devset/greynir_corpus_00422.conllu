@@ -24,7 +24,7 @@
 1	Útsending	útsending	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 2-3	Rásar 2	_	_	_	_	_	_	_	_
 2	Rásar	Rásar	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
-3	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	2	fixed	_	tag=fyrirtæki_et_ef_kvk
+3	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	2	_	_	tag=fyrirtæki_et_ef_kvk
 4	liggur	liggja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	niðri	niðra	ADV	ao	_	7	advmod	_	tag=ao
 6	á	eiga	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -139,8 +139,8 @@
 4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5-7	Videntifier Technologies ehf.	_	_	_	_	_	_	_	_
 5	Videntifier	Videntifier	PROPN	fyrirtæki_þgf	Case=Dat	2	obl	_	SpaceAfter=No|tag=fyrirtæki_þgf
-6	Technologies	Technologies	PROPN	fyrirtæki_þgf	Case=Dat	5	fixed	_	SpaceAfter=No|tag=fyrirtæki_þgf
-7	ehf.	ehf.	PROPN	fyrirtæki_þgf	Case=Dat	6	fixed	_	SpaceAfter=No|tag=fyrirtæki_þgf
+6	Technologies	Technologies	PROPN	fyrirtæki_þgf	Case=Dat	5	_	_	SpaceAfter=No|tag=fyrirtæki_þgf
+7	ehf.	ehf.	PROPN	fyrirtæki_þgf	Case=Dat	6	_	_	SpaceAfter=No|tag=fyrirtæki_þgf
 8	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 9	fyrst	fyrst	ADV	ao_est	Degree=Sup	2	advmod	_	tag=ao_est
 10	sem	sem	ADP	fs_nf	Case=Nom	11	case	_	tag=fs_nf
@@ -152,7 +152,7 @@
 16	yfirmaður	yfirmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_nf_kk
 17	viðskipta	viðskipti	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	16	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
 18	&#40;	_	PUNCT	grm	_	17	punct	_	tag=grm
-19	CCO	CCO	NOUN	abbrev	_	17	flat:name	_	SpaceAfter=No|tag=abbrev
+19	CCO	CCO	NOUN	abbrev	_	17	flat	_	SpaceAfter=No|tag=abbrev
 20	&#41;	_	PUNCT	grm	_	19	punct	_	SpaceAfter=No|tag=grm
 21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -190,24 +190,24 @@
 7-9	að minnsta kosti	_	_	_	_	_	_	_	_
 7	að	að	ADV	ao	_	11	advmod	_	tag=ao
 8	minnsta	minnsta	ADV	ao	_	7	fixed	_	tag=ao
-9	kosti	kosti	ADV	ao	_	8	fixed	_	tag=ao
+9	kosti	kosti	ADV	ao	_	7	fixed	_	tag=ao
 10	fimm	fimm	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	11	nummod	_	tag=töl_ft_nf_hk
 11	trampólínslys	trampólín-slys	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	SpaceAfter=No|tag=no_ft_nf_hk
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
 13-14	samanborið við	_	_	_	_	_	_	_	_
 13	samanborið	samanborið	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-14	við	við	ADP	fs_þf	Case=Acc	13	fixed	_	tag=fs_þf
+14	við	við	ADP	fs_þf	Case=Acc	13	_	_	tag=fs_þf
 15	tvö	tveir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	tag=to_ft_þf_hk
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17-18	janúar 2017	_	_	_	_	_	_	_	_
 17	janúar	janúar	ADV	dagsafs	_	15	advmod	_	tag=dagsafs
-18	2017	2017	NUM?	dagsafs	_	17	fixed	_	tag=dagsafs
+18	2017	2017	NUM?	dagsafs	_	17	flat	_	tag=dagsafs
 19	og	og	CCONJ	st	_	15	cc	_	tag=st
 20	eitt	einn	NUM	to_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	nsubj	_	tag=to_et_þf_hk
 21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22-23	janúar 2016	_	_	_	_	_	_	_	_
 22	janúar	janúar	ADV	dagsafs	_	20	advmod	_	SpaceAfter=No|tag=dagsafs
-23	2016	2016	NUM?	dagsafs	_	22	fixed	_	SpaceAfter=No|tag=dagsafs
+23	2016	2016	NUM?	dagsafs	_	22	flat	_	SpaceAfter=No|tag=dagsafs
 24	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 1	Aukin	auka	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_sb

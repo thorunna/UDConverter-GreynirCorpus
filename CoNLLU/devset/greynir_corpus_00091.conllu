@@ -24,7 +24,7 @@
 2	vef	vefur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
 3-4	Wow air	_	_	_	_	_	_	_	_
 3	Wow	Wow	PROPN	fyrirtæki	_	2	nmod:poss	_	tag=fyrirtæki
-4	air	air	PROPN	fyrirtæki	_	3	fixed	_	tag=fyrirtæki
+4	air	air	PROPN	fyrirtæki	_	3	flat	_	tag=fyrirtæki
 5	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 6	að	að	SCONJ	st	_	8	mark	_	tag=st
 7	flugfélagið	flugfélag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk_gr
@@ -49,8 +49,8 @@
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7-9	200 milljarða króna	_	_	_	_	_	_	_	_
 7	200	200	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
-8	milljarða	milljarður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	fixed	_	SpaceAfter=No|tag=no_ft_þf_kk
-9	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	8	fixed	_	SpaceAfter=No|tag=no_ft_þf_kk
+8	milljarða	milljarður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	_	_	SpaceAfter=No|tag=no_ft_þf_kk
+9	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	8	_	_	SpaceAfter=No|tag=no_ft_þf_kk
 10	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 11	og	og	CCONJ	st	_	2	cc	_	tag=st
 12	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
@@ -115,8 +115,8 @@
 11	bardagasamband	bardagasamband	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
 12-14	Invicta Fighting Championships	_	_	_	_	_	_	_	_
 12	Invicta	Invicta	X	foreign	_	11	flat:foreign	_	tag=foreign
-13	Fighting	Fighting	X	foreign	_	12	fixed	_	tag=foreign
-14	Championships	Championships	X	foreign	_	13	fixed	_	tag=foreign
+13	Fighting	Fighting	X	foreign	_	12	flat:foreign	_	tag=foreign
+14	Championships	Championships	X	foreign	_	13	flat:foreign	_	tag=foreign
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	Bandaríkjunum	Bandaríkin	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk_gr
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -146,7 +146,7 @@
 1	Leikstjórn	leikstjórn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 2-3	Oriol Tomas	_	_	_	_	_	_	_	_
 2	Oriol	Oriol	PROPN	person_ef_kk	Case=Gen|Gender=Masc	1	nmod:poss	_	tag=person_ef_kk
-3	Tomas	Tomas	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	fixed	_	tag=person_ef_kk
+3	Tomas	Tomas	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	_	_	tag=person_ef_kk
 4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	lifandi	lifandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 6	;	_	PUNCT	grm	_	5	punct	_	tag=grm
@@ -187,11 +187,11 @@
 # text = Jonathan Franks og Jonathan Glenn tryggðu ÍBV farseðilinn í næstu umferð en þeir gerðu mörk liðsins.
 1-2	Jonathan Franks	_	_	_	_	_	_	_	_
 1	Jonathan	Jonathan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-2	Franks	Franks	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Franks	Franks	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
 4-5	Jonathan Glenn	_	_	_	_	_	_	_	_
 4	Jonathan	Jonathan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-5	Glenn	Glenn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	tag=person_nf_kk
+5	Glenn	Glenn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
 6	tryggðu	tryggja	VERB	so_2_þgf_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p3_ft_þt_gm
 7	ÍBV	ÍBV	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	6	iobj	_	tag=sérnafn_þgf_hk
 8	farseðilinn	farseðill	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	tag=no_et_þf_kk_gr

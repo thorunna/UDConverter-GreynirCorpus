@@ -10,7 +10,7 @@
 8	fyrirtækisins	fyrirtæki	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk_gr
 9-10	Cambridge Analytica	_	_	_	_	_	_	_	_
 9	Cambridge	Cambridge	PROPN	fyrirtæki	_	8	obl	_	SpaceAfter=No|tag=fyrirtæki
-10	Analytica	Analytica	PROPN	fyrirtæki	_	9	fixed	_	SpaceAfter=No|tag=fyrirtæki
+10	Analytica	Analytica	PROPN	fyrirtæki	_	9	flat	_	SpaceAfter=No|tag=fyrirtæki
 11	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	eigu	eiga	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
@@ -116,7 +116,7 @@
 16	úr	úr	ADV	ao	_	15	fixed	_	tag=ao
 17-18	klukkan fjögur	_	_	_	_	_	_	_	_
 17	klukkan	klukkan	ADV	tími	_	7	advmod	_	tag=tími
-18	fjögur	fjögur	?	tími	_	17	fixed	_	tag=tími
+18	fjögur	fjögur	NUM	tími	_	17	flat	_	tag=tími
 19	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 20	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 21	.	_	PUNCT	grm	_	7	punct	_	tag=grm
@@ -132,7 +132,7 @@
 7	en	en	CCONJ	st	_	2	cc	_	tag=st
 8-9	Vilhjálmur Birgisson	_	_	_	_	_	_	_	_
 8	Vilhjálmur	Vilhjálmur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
-9	Birgisson	Birgisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	fixed	_	tag=person_nf_kk
+9	Birgisson	Birgisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	_	_	tag=person_nf_kk
 10	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_nf_kk
 11	VLFA	VLFA	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=no_et_ef_hk
 12	staðfesti	staðfesta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
@@ -175,7 +175,7 @@
 # text = Mark Robins, sem á að hafa bjargað starfi Sir Alex Ferguson hjá Manchester United, skoraði tvívegis fyrir Kanarífuglana.
 1-2	Mark Robins	_	_	_	_	_	_	_	_
 1	Mark	Mark	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-2	Robins	Robins	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No|tag=person_et_nf_kk
+2	Robins	Robins	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	_	_	SpaceAfter=No|tag=person_et_nf_kk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -185,12 +185,12 @@
 9	starfi	starf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þgf_hk
 10-12	Sir Alex Ferguson	_	_	_	_	_	_	_	_
 10	Sir	Sir	PROPN	person	_	9	nmod:poss	_	tag=person
-11	Alex	Alex	PROPN	person	_	10	fixed	_	tag=person
-12	Ferguson	Ferguson	PROPN	person	_	11	fixed	_	tag=person
+11	Alex	Alex	PROPN	person	_	10	flat	_	tag=person
+12	Ferguson	Ferguson	PROPN	person	_	10	flat	_	tag=person
 13	hjá	hjá	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14-15	Manchester United	_	_	_	_	_	_	_	_
 14	Manchester	Manchester	PROPN	fyrirtæki	_	9	obl	_	SpaceAfter=No|tag=fyrirtæki
-15	United	United	PROPN	fyrirtæki	_	14	fixed	_	SpaceAfter=No|tag=fyrirtæki
+15	United	United	PROPN	fyrirtæki	_	14	flat	_	SpaceAfter=No|tag=fyrirtæki
 16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 17	skoraði	skora	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 18	tvívegis	tvívegis	ADV	ao	_	17	advmod	_	tag=ao
@@ -213,7 +213,7 @@
 11	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 12-13	Ari Alexander	_	_	_	_	_	_	_	_
 12	Ari	Ari	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-13	Alexander	Alexander	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	tag=person_nf_kk
+13	Alexander	Alexander	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	_	_	tag=person_nf_kk
 14	af	af	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	stað	staður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þgf_kk
 16	til	til	ADP	fs_nh	VerbForm=Inf	18	case	_	tag=fs_nh

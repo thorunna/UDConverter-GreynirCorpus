@@ -48,7 +48,7 @@
 # text = Sigurður Hannesson framkvæmdastjóri Samtaka iðnaðarins stýrði umræðum um húsnæðismál á fundinum og spurði oddvitana út í þeirra áherslur í þeim efnum.
 1-2	Sigurður Hannesson	_	_	_	_	_	_	_	_
 1	Sigurður	Sigurður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-2	Hannesson	Hannesson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Hannesson	Hannesson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 4	Samtaka	samtak	PROPN	fyrirtæki_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	nmod:poss	_	tag=fyrirtæki_ft_ef_hk
 5	iðnaðarins	iðnaður	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	flat:name	_	tag=fyrirtæki_et_ef_kk_gr
@@ -80,11 +80,11 @@
 6	heimsmeistaraeinvígi	heimsmeistaraeinvígi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 7-8	Magnusar Carlsen	_	_	_	_	_	_	_	_
 7	Magnusar	Magnusar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	nmod:poss	_	tag=person_ef_kk
-8	Carlsen	Carlsen	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	fixed	_	tag=person_ef_kk
+8	Carlsen	Carlsen	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	_	_	tag=person_ef_kk
 9	við	við	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10-11	Fabiano Caruana	_	_	_	_	_	_	_	_
 10	Fabiano	Fabiano	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	obl	_	tag=person_þf_kk
-11	Caruana	Caruana	PROPN	person_þf_kk	Case=Acc|Gender=Masc	10	fixed	_	tag=person_þf_kk
+11	Caruana	Caruana	PROPN	person_þf_kk	Case=Acc|Gender=Masc	10	_	_	tag=person_þf_kk
 12	þar	þar	ADV	ao	_	4	advmod	_	tag=ao
 13	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
 14	Carlsen	Carlsen	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	tag=person_et_nf_kk
@@ -205,7 +205,7 @@
 9	af	af	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10-11	Wagner Group	_	_	_	_	_	_	_	_
 10	Wagner	Wagner	PROPN	fyrirtæki	_	7	obl	_	SpaceAfter=No|tag=fyrirtæki
-11	Group	Group	PROPN	fyrirtæki	_	10	fixed	_	SpaceAfter=No|tag=fyrirtæki
+11	Group	Group	PROPN	fyrirtæki	_	10	flat	_	SpaceAfter=No|tag=fyrirtæki
 12	,	,	PUNCT	grm	_	10	punct	_	tag=grm
 13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
 14	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_gm
@@ -234,8 +234,8 @@
 12-15	eftir á að hyggja	_	_	_	_	_	_	_	_
 12	eftir	eftir	ADV	ao	_	18	advmod	_	tag=ao
 13	á	á	ADV	ao	_	12	fixed	_	tag=ao
-14	að	að	ADV	ao	_	13	fixed	_	tag=ao
-15	hyggja	hyggja	ADV	ao	_	14	fixed	_	tag=ao
+14	að	að	ADV	ao	_	12	fixed	_	tag=ao
+15	hyggja	hyggja	ADV	ao	_	12	fixed	_	tag=ao
 16	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	18	aux	_	tag=so_0_vh_p3_et_þt_gm
 17	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_et_nf_kk_p3
 18	viljað	vilja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	conj	_	tag=so_0_sagnb_gm

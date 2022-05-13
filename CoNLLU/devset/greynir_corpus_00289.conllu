@@ -52,7 +52,7 @@
 # text = Páll Erlingsson, formaður Kennarafélags Reykjaness, segir í samtali við Morgunblaðið í morgun að kennarar séu farnir að íhuga aðgerðir.
 1-2	Páll Erlingsson	_	_	_	_	_	_	_	_
 1	Páll	Páll	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Erlingsson	Erlingsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Erlingsson	Erlingsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Kennarafélags	kennarafélag	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_hk
@@ -98,7 +98,7 @@
 19	frá	frá	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20-21	árinu 2010	_	_	_	_	_	_	_	_
 20	árinu	árinu	ADV	ártal	_	18	advmod	_	SpaceAfter=No|tag=ártal
-21	2010	2010	NUM	ártal	_	20	fixed	_	SpaceAfter=No|tag=ártal
+21	2010	2010	NUM	ártal	_	20	flat	_	SpaceAfter=No|tag=ártal
 22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00289,.5
@@ -120,7 +120,7 @@
 15	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 16-17	Ólafur Stephensen	_	_	_	_	_	_	_	_
 16	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-17	Stephensen	Stephensen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	fixed	_	SpaceAfter=No|tag=person_nf_kk
+17	Stephensen	Stephensen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	_	_	SpaceAfter=No|tag=person_nf_kk
 18	,	_	PUNCT	grm	_	17	punct	_	tag=grm
 19	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_nf_kk
 20	FA	FA	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
@@ -168,7 +168,7 @@
 14	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 15-16	Marzelíus Sveinbjörnsson	_	_	_	_	_	_	_	_
 15	Marzelíus	Marzelíus	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	tag=person_nf_kk
-16	Sveinbjörnsson	Sveinbjörnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	fixed	_	tag=person_nf_kk
+16	Sveinbjörnsson	Sveinbjörnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	_	_	tag=person_nf_kk
 17	oddviti	oddviti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_nf_kk
 18	Framsóknarflokks	Framsóknarflokkur	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	17	nmod:poss	_	tag=fyrirtæki_et_ef_kk
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
@@ -209,8 +209,8 @@
 4	yfir	yfir	ADV	eo	_	5	advmod	_	tag=eo
 5-7	100 milljarða króna	_	_	_	_	_	_	_	_
 5	100	100	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	tag=no_ft_þf_kk
-6	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	fixed	_	tag=no_ft_þf_kk
-7	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	fixed	_	tag=no_ft_þf_kk
+6	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	_	_	tag=no_ft_þf_kk
+7	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	_	_	tag=no_ft_þf_kk
 8	til	til	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
 9	íslenskra	íslenskur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	10	amod	_	tag=lo_ft_ef_kk_sb
 10	banka	banki	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	obl	_	tag=no_ft_ef_kk
@@ -221,7 +221,7 @@
 15-17	meira að segja	_	_	_	_	_	_	_	_
 15	meira	meira	ADV	ao	_	20	advmod	_	tag=ao
 16	að	að	ADV	ao	_	15	fixed	_	tag=ao
-17	segja	segja	ADV	ao	_	16	fixed	_	tag=ao
+17	segja	segja	ADV	ao	_	15	fixed	_	tag=ao
 18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	erlendri	erlendur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	20	amod	_	tag=lo_et_þgf_kvk_sb
 20	mynt	mynt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
@@ -232,7 +232,7 @@
 1	Skýrsla	skýrsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk
 2-3	Copenhagen Economics	_	_	_	_	_	_	_	_
 2	Copenhagen	Copenhagen	PROPN	fyrirtæki	_	1	nmod:poss	_	tag=fyrirtæki
-3	Economics	Economics	PROPN	fyrirtæki	_	2	fixed	_	tag=fyrirtæki
+3	Economics	Economics	PROPN	fyrirtæki	_	2	flat	_	tag=fyrirtæki
 4	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 5	gerð	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	xcomp	_	tag=so_0_lhþt_et
 6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm

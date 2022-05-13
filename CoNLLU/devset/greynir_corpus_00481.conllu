@@ -87,7 +87,7 @@
 20-22	að svo stöddu	_	_	_	_	_	_	_	_
 20	að	að	ADV	ao	_	15	advmod	_	tag=ao
 21	svo	svo	ADV	ao	_	20	fixed	_	tag=ao
-22	stöddu	stöddu	ADV	ao	_	21	fixed	_	tag=ao
+22	stöddu	stöddu	ADV	ao	_	20	fixed	_	tag=ao
 23	en	en	CCONJ	st	_	2	cc	_	tag=st
 24	bendir	benda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 25	á	á	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
@@ -99,7 +99,7 @@
 31-33	þar á milli	_	_	_	_	_	_	_	_
 31	þar	þar	ADV	ao	_	29	advmod	_	tag=ao
 32	á	á	ADV	ao	_	31	fixed	_	tag=ao
-33	milli	milli	ADV	ao	_	32	fixed	_	tag=ao
+33	milli	milli	ADV	ao	_	31	fixed	_	tag=ao
 34	frekar	frekar	ADV	ao_mst	Degree=Cmp	29	advmod	_	SpaceAfter=No|tag=ao_mst
 35	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -112,8 +112,8 @@
 5	af	af	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6-8	Trice Angie Christiansen	_	_	_	_	_	_	_	_
 6	Trice	Trice	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	3	obl	_	tag=person_þgf_kvk
-7	Angie	Angie	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	6	fixed	_	tag=person_þgf_kvk
-8	Christiansen	Christiansen	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	7	fixed	_	tag=person_þgf_kvk
+7	Angie	Angie	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	6	_	_	tag=person_þgf_kvk
+8	Christiansen	Christiansen	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	7	_	_	tag=person_þgf_kvk
 9	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 10	gafst	gefa	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	6	acl:relcl	_	tag=so_0_fh_p3_et_þt_mm
 11	upp	upp	ADV	ao	_	10	advmod	_	tag=ao
@@ -168,7 +168,7 @@
 24	ræðu	ræða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þgf_kvk
 25-26	Sigurðar Inga	_	_	_	_	_	_	_	_
 25	Sigurðar	Sigurður	PROPN	person_ef_kk	Case=Gen|Gender=Masc	24	nmod:poss	_	tag=person_ef_kk
-26	Inga	Ingi	PROPN	person_ef_kk	Case=Gen|Gender=Masc	25	fixed	_	tag=person_ef_kk
+26	Inga	Ingi	PROPN	person_ef_kk	Case=Gen|Gender=Masc	25	_	_	tag=person_ef_kk
 27	daginn	dagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	advmod	_	tag=no_et_þf_kk_gr
 28	áður	áður	ADV	ao	_	27	advmod	_	tag=ao
 29	hjálpuðu	hjálpa	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	nsubj	_	tag=so_1_þgf_fh_p3_ft_þt_gm
@@ -282,7 +282,7 @@
 # text = Hafberg Þórisson, framkvæmdastjóri Laufskála fasteignafélags og eigandi Lambhaga, segir starfsmenn sína orðna langþreytta á þeirri hættu sem stafi af fljúgandi golfkúlum yfir á jörð félagsins í Lundi í Mosfellsdal.
 1-2	Hafberg Þórisson	_	_	_	_	_	_	_	_
 1	Hafberg	Hafberg	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Þórisson	Þórisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Þórisson	Þórisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Laufskála	Laufskálar	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_kk
@@ -337,7 +337,7 @@
 19	upp	upp	ADV	ao	_	18	advmod	_	tag=ao
 20-21	á milli	_	_	_	_	_	_	_	_
 20	á	á	ADP	fs_ef	Case=Gen	22	case	_	tag=fs_ef
-21	milli	milli	ADP	fs_ef	Case=Gen	20	fixed	_	tag=fs_ef
+21	milli	milli	ADP	fs_ef	Case=Gen	20	_	_	tag=fs_ef
 22	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	18	obl	_	tag=pfn_ft_ef_hk_p3
 23	rétt	rétt	ADV	ao	_	25	advmod	_	tag=ao
 24	fyrir	fyrir	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf

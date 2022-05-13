@@ -7,7 +7,7 @@
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6-7	60 prósentum	_	_	_	_	_	_	_	_
 6	60	60	?	prósenta_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=prósenta_et_þgf_hk
-7	prósentum	prósentum	?	prósenta_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	fixed	_	SpaceAfter=No|tag=prósenta_et_þgf_hk
+7	prósentum	prósentum	?	prósenta_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	_	_	SpaceAfter=No|tag=prósenta_et_þgf_hk
 8	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 9	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=fn_et_nf_hk
 10	heldur	halda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	('HALLÓ_S', 'QUOTE', 'S0', None)	_	tag=so_0_fh_p3_et_nt_gm
@@ -98,10 +98,10 @@
 25-27	hér á landi	_	_	_	_	_	_	_	_
 25	hér	hér	ADV	ao	_	24	advmod	_	tag=ao
 26	á	á	ADV	ao	_	25	fixed	_	tag=ao
-27	landi	landi	ADV	ao	_	26	fixed	_	tag=ao
+27	landi	landi	ADV	ao	_	25	fixed	_	tag=ao
 28-29	í kringum	_	_	_	_	_	_	_	_
 28	í	í	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
-29	kringum	kringum	ADP	fs_þf	Case=Acc	28	fixed	_	tag=fs_þf
+29	kringum	kringum	ADP	fs_þf	Case=Acc	28	_	_	tag=fs_þf
 30	EES	EES	PROPN	entity	_	24	obl	_	tag=entity
 31	samninginn	samningur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 32	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -110,26 +110,26 @@
 # text = Már Guðmundsson, Gylfi Zoëga og Katrín Ólafsdóttir studdu tillöguna en Arnór Sighvatsson og Þórarinn G. Pétursson greiddu atkvæði gegn henni og kusu heldur að vextir yrðu lækkaðir um 0,25 prósentur.
 1-2	Már Guðmundsson	_	_	_	_	_	_	_	_
 1	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 4-5	Gylfi Zoëga	_	_	_	_	_	_	_	_
 4	Gylfi	Gylfi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-5	Zoëga	Zoëga	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	tag=person_nf_kk
+5	Zoëga	Zoëga	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
 6	og	og	CCONJ	st	_	1	cc	_	tag=st
 7-8	Katrín Ólafsdóttir	_	_	_	_	_	_	_	_
 7	Katrín	Katrín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
-8	Ólafsdóttir	Ólafsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	fixed	_	tag=person_nf_kvk
+8	Ólafsdóttir	Ólafsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	_	_	tag=person_nf_kvk
 9	studdu	styðja	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 10	tillöguna	tillaga	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	tag=no_et_þf_kvk_gr
 11	en	en	CCONJ	st	_	9	cc	_	tag=st
 12-13	Arnór Sighvatsson	_	_	_	_	_	_	_	_
 12	Arnór	Arnór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	nsubj	_	tag=person_nf_kk
-13	Sighvatsson	Sighvatsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	tag=person_nf_kk
+13	Sighvatsson	Sighvatsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	_	_	tag=person_nf_kk
 14	og	og	CCONJ	st	_	12	cc	_	tag=st
 15-17	Þórarinn G. Pétursson	_	_	_	_	_	_	_	_
 15	Þórarinn	Þórarinn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	conj	_	tag=person_nf_kk
-16	G.	G.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	fixed	_	tag=person_nf_kk
-17	Pétursson	Pétursson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	fixed	_	tag=person_nf_kk
+16	G.	G.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	_	_	tag=person_nf_kk
+17	Pétursson	Pétursson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	_	_	tag=person_nf_kk
 18	greiddu	greiða	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	conj	_	tag=so_1_þgf_fh_p3_ft_þt_gm
 19	atkvæði	atkvæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obj	_	tag=no_et_þgf_hk
 20	gegn	gegn	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
@@ -144,7 +144,7 @@
 29	um	um	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
 30-31	0,25 prósentur	_	_	_	_	_	_	_	_
 30	0,25	0,25	?	prósenta_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No|tag=prósenta_et_þf_kvk
-31	prósentur	prósentur	?	prósenta_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	30	fixed	_	SpaceAfter=No|tag=prósenta_et_þf_kvk
+31	prósentur	prósentur	?	prósenta_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	30	_	_	SpaceAfter=No|tag=prósenta_et_þf_kvk
 32	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00181,.5
@@ -346,6 +346,6 @@
 29	yfir	yfir	ADV	eo	_	27	conj	_	tag=eo
 30-31	20 pund	_	_	_	_	_	_	_	_
 30	20	20	?	mælieining	_	27	('HALLÓ_mælieining', None, 'NP', 'PRD')	_	tag=mælieining
-31	pund	pund	?	mælieining	_	30	fixed	_	tag=mælieining
+31	pund	pund	?	mælieining	_	30	_	_	tag=mælieining
 32	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

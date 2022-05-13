@@ -57,7 +57,7 @@
 26	frá	frá	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27-28	árinu 1942	_	_	_	_	_	_	_	_
 27	árinu	árinu	ADV	ártal	_	24	advmod	_	SpaceAfter=No|tag=ártal
-28	1942	1942	NUM	ártal	_	27	fixed	_	SpaceAfter=No|tag=ártal
+28	1942	1942	NUM	ártal	_	27	flat	_	SpaceAfter=No|tag=ártal
 29	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00470,.3
@@ -95,7 +95,7 @@
 # text = Sadio Mané var aðgangsharðastur hjá Liverpool en skot Joël Matip varnrarmanns Liverpool í átt að eigin marki sem Alisson Becker varði glæsilega komst næst því að tryggja Bayern München mikilvægt útivallarmark.
 1-2	Sadio Mané	_	_	_	_	_	_	_	_
 1	Sadio	Sadio	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Mané	Mané	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Mané	Mané	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	var	var	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
 4	aðgangsharðastur	aðgangsharður	ADJ	lo_et_nf_kk_esb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_esb
 5	hjá	hjá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -104,7 +104,7 @@
 8	skot	skot	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	tag=no_et_nf_hk
 9-10	Joël Matip	_	_	_	_	_	_	_	_
 9	Joël	Joël	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	nmod:poss	_	tag=person_ef_kk
-10	Matip	Matip	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	fixed	_	tag=person_ef_kk
+10	Matip	Matip	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	_	_	tag=person_ef_kk
 11	varnrarmanns	varnarmaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	tag=no_et_ef_kk
 12	Liverpool	Liverpool	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	8	nmod:poss	_	tag=fyrirtæki_ef_hk
 13	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
@@ -115,7 +115,7 @@
 18	sem	sem	SCONJ	stt	_	21	mark	_	tag=stt
 19-20	Alisson Becker	_	_	_	_	_	_	_	_
 19	Alisson	Alisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	('HALLÓ_person', 'nf_kk', 'IP', None)	_	tag=person_nf_kk
-20	Becker	Becker	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	fixed	_	tag=person_nf_kk
+20	Becker	Becker	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	_	_	tag=person_nf_kk
 21	varði	vara	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 22	glæsilega	glæsilega	ADV	ao	_	21	advmod	_	tag=ao
 23	komst	koma	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	4	conj	_	tag=so_0_fh_p3_et_þt_mm
@@ -125,7 +125,7 @@
 27	tryggja	tryggja	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	25	xcomp	_	tag=so_2_þgf_þf_nh_gm
 28-29	Bayern München	_	_	_	_	_	_	_	_
 28	Bayern	Bayern	PROPN	fyrirtæki	_	27	iobj	_	tag=fyrirtæki
-29	München	München	PROPN	fyrirtæki	_	28	fixed	_	tag=fyrirtæki
+29	München	München	PROPN	fyrirtæki	_	28	flat	_	tag=fyrirtæki
 30	mikilvægt	mikilvægur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	31	amod	_	tag=lo_et_þf_hk_sb
 31	útivallarmark	útivallar-mark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	27	obj	_	SpaceAfter=No|tag=no_et_þf_hk
 32	.	.	PUNCT	grm	_	4	punct	_	tag=grm
@@ -182,7 +182,7 @@
 17	stigi	stigi	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	14	obl	_	tag=so_0_vh_p3_et_þt_gm
 18-19	á undan	_	_	_	_	_	_	_	_
 18	á	á	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-19	undan	undan	ADP	fs_þgf	Case=Dat	18	fixed	_	tag=fs_þgf
+19	undan	undan	ADP	fs_þgf	Case=Dat	18	_	_	tag=fs_þgf
 20	KR	KR	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	tag=fyrirtæki_et_þgf_hk
 21	og	og	CCONJ	st	_	22	cc	_	tag=st
 22	Val	Val	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	20	conj	_	tag=person_þgf_kk
@@ -304,7 +304,7 @@
 13	að	að	ADV	ao	_	12	advmod	_	tag=ao
 14-15	220 þúsund	_	_	_	_	_	_	_	_
 14	220	220	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	nummod	_	tag=töl_ft_þf_hk
-15	þúsund	þúsund	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	fixed	_	tag=töl_ft_þf_hk
+15	þúsund	þúsund	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	_	_	tag=töl_ft_þf_hk
 16	á	eiga	ADV	fs_þf	Case=Acc	12	advmod	_	tag=fs_þf
 17	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 18	,	,	PUNCT	grm	_	17	punct	_	tag=grm

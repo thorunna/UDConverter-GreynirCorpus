@@ -74,7 +74,7 @@
 20	litlar	lítill	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	tag=lo_ft_nf_kvk_sb
 21-22	150 milljónir	_	_	_	_	_	_	_	_
 21	150	150	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	20	nummod	_	SpaceAfter=No|tag=töl_ft_nf_kvk
-22	milljónir	milljónir	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	21	fixed	_	SpaceAfter=No|tag=töl_ft_nf_kvk
+22	milljónir	milljónir	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	21	_	_	SpaceAfter=No|tag=töl_ft_nf_kvk
 23	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00294,.4
@@ -166,7 +166,7 @@
 15-17	að minnsta kosti	_	_	_	_	_	_	_	_
 15	að	að	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
 16	minnsta	minnsta	ADV	ao	_	15	fixed	_	SpaceAfter=No|tag=ao
-17	kosti	kosti	ADV	ao	_	16	fixed	_	SpaceAfter=No|tag=ao
+17	kosti	kosti	ADV	ao	_	15	fixed	_	SpaceAfter=No|tag=ao
 18	,	_	PUNCT	grm	_	17	punct	_	tag=grm
 19	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 20	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No|tag=pfn_et_nf_kk_p3
@@ -227,23 +227,23 @@
 # text = Árið 2012 smíðaði Reynir Jóhannsson nýja krossa að frumkvæði Gunnars Olsen og Jóns Hákons Magnússonar með stuðningi frá breska sendiráðinu á Íslandi.
 1-2	Árið 2012	_	_	_	_	_	_	_	_
 1	Árið	Árið	ADV	ártal	_	3	advmod	_	tag=ártal
-2	2012	2012	NUM	ártal	_	1	fixed	_	tag=ártal
+2	2012	2012	NUM	ártal	_	1	flat	_	tag=ártal
 3	smíðaði	smíða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4-5	Reynir Jóhannsson	_	_	_	_	_	_	_	_
 4	Reynir	Reynir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-5	Jóhannsson	Jóhannsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	fixed	_	tag=person_nf_kk
+5	Jóhannsson	Jóhannsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	_	_	tag=person_nf_kk
 6	nýja	nýr	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	7	amod	_	tag=lo_ft_þf_kk_sb
 7	krossa	kross	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	tag=no_ft_þf_kk
 8	að	að	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	frumkvæði	frumkvæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
 10-11	Gunnars Olsen	_	_	_	_	_	_	_	_
 10	Gunnars	Gunnar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	tag=person_ef_kk
-11	Olsen	Olsen	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	fixed	_	tag=person_ef_kk
+11	Olsen	Olsen	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	_	_	tag=person_ef_kk
 12	og	og	CCONJ	st	_	10	cc	_	tag=st
 13-15	Jóns Hákons Magnússonar	_	_	_	_	_	_	_	_
 13	Jóns	Jón	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	conj	_	tag=person_ef_kk
-14	Hákons	Hákons	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	fixed	_	tag=person_ef_kk
-15	Magnússonar	Magnússon	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	fixed	_	tag=person_ef_kk
+14	Hákons	Hákons	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	_	_	tag=person_ef_kk
+15	Magnússonar	Magnússon	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	_	_	tag=person_ef_kk
 16	með	með	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	stuðningi	stuðningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
 18	frá	frá	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf

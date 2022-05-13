@@ -54,8 +54,8 @@
 # text = Halldór Auðar Svansson greinir jafnframt frá því að hann hafi verið starfsmaður netdeildar Kaupþings meðan allt lék í lyndi, fyrir hrun.
 1-3	Halldór Auðar Svansson	_	_	_	_	_	_	_	_
 1	Halldór	Halldór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Auðar	Auðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
-3	Svansson	Svansson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	tag=person_nf_kk
+2	Auðar	Auðar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
+3	Svansson	Svansson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	tag=person_nf_kk
 4	greinir	greina	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	jafnframt	jafnframt	ADV	ao	_	4	advmod	_	tag=ao
 6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -135,7 +135,7 @@
 4	og	og	CCONJ	st	_	3	cc	_	tag=st
 5-6	Sindri Þór	_	_	_	_	_	_	_	_
 5	Sindri	Sindri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	advcl	_	tag=person_nf_kk
-6	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	fixed	_	tag=person_nf_kk
+6	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	_	_	tag=person_nf_kk
 7	langan	langur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_þf_kk_sb
 8	brotaferil	brotaferill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk
 9	að	að	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
@@ -152,7 +152,7 @@
 20	frá	frá	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21-22	árinu 2002	_	_	_	_	_	_	_	_
 21	árinu	árið	NUM	ártal	_	19	obl	_	SpaceAfter=No|tag=ártal
-22	2002	2002	NUM	ártal	_	21	fixed	_	SpaceAfter=No|tag=ártal
+22	2002	2002	NUM	ártal	_	21	flat	_	SpaceAfter=No|tag=ártal
 23	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00295,.7
@@ -201,7 +201,7 @@
 17	hefst	hefja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	2	conj	_	tag=so_0_fh_p3_et_nt_mm
 18-19	klukkan 07,30	_	_	_	_	_	_	_	_
 18	klukkan	klukkan	ADV	tími	_	17	advmod	_	tag=tími
-19	07,30	07,30	?	tími	_	18	fixed	_	tag=tími
+19	07,30	07,30	NUM	tími	_	18	flat	_	tag=tími
 20	að	að	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 21	íslenskum	íslenskur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	22	amod	_	tag=lo_et_þgf_kk_sb
 22	tíma	tími	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þgf_kk

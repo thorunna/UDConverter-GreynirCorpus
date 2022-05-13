@@ -29,7 +29,7 @@
 # text = Sindri Viborg, sem var kjörinn formaður framkvæmdaráðs Pírata á aðalfundi flokksins fyrir rúmum tveimur vikum, hefur sagt sig úr ráðinu sem og flokknum.
 1-2	Sindri Viborg	_	_	_	_	_	_	_	_
 1	Sindri	Sindri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Viborg	Viborg	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Viborg	Viborg	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_1_nf_fh_p3_et_þt_gm
@@ -62,15 +62,15 @@
 3	verða	verða	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4-7	3,5 milljarðar íslenskra króna	_	_	_	_	_	_	_	_
 4	3,5	3,5	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	tag=no_ft_nf_kk
-5	milljarðar	milljarðar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	fixed	_	tag=no_ft_nf_kk
-6	íslenskra	íslenskra	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	fixed	_	tag=no_ft_nf_kk
-7	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	fixed	_	tag=no_ft_nf_kk
+5	milljarðar	milljarðar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	_	_	tag=no_ft_nf_kk
+6	íslenskra	íslenskra	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	_	_	tag=no_ft_nf_kk
+7	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	_	_	tag=no_ft_nf_kk
 8	greiddar	greiddur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=lo_ft_nf_kvk_sb
 9	út	út	ADV	eo	_	8	advmod	_	tag=eo
 10	og	og	CCONJ	st	_	8	cc	_	tag=st
 11-12	5,9 milljarða	_	_	_	_	_	_	_	_
 11	5,9	5,9	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	8	conj	_	tag=töl_ft_ef_kvk
-12	milljarða	milljarða	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	11	fixed	_	tag=töl_ft_ef_kvk
+12	milljarða	milljarða	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	11	_	_	tag=töl_ft_ef_kvk
 13	fær	fá	VERB	so_0	_	_	conj	_	tag=so_0
 14	Norvik	Norvik	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	tag=no_et_nf_hk
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
@@ -79,7 +79,7 @@
 18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19-20	Bergs Timber	_	_	_	_	_	_	_	_
 19	Bergs	Berg	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	obl	_	tag=person_ef_kk
-20	Timber	Timber	PROPN	person_ef_kk	Case=Gen|Gender=Masc	19	fixed	_	tag=person_ef_kk
+20	Timber	Timber	PROPN	person_ef_kk	Case=Gen|Gender=Masc	19	_	_	tag=person_ef_kk
 21	sé	sé	VERB	so_0	_	13	advcl	_	tag=so_0
 22	miðað	miðað	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
 23	við	við	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
@@ -178,7 +178,7 @@
 2	í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3-4	New York	_	_	_	_	_	_	_	_
 3	New	New	PROPN	entity	_	1	obl	_	tag=entity
-4	York	York	PROPN	entity	_	3	fixed	_	tag=entity
+4	York	York	PROPN	entity	_	3	flat	_	tag=entity
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Bandaríkjunum	Bandaríkin	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk_gr
 7	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -186,7 +186,7 @@
 9	kvikmyndaframleiðandann	kvikmyndaframleiðandi	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	tag=no_et_þf_kk_gr
 10-11	Harvey Weinstein	_	_	_	_	_	_	_	_
 10	Harvey	Harvey	PROPN	sérnafn	_	9	conj	_	tag=sérnafn
-11	Weinstein	Weinstein	PROPN	sérnafn	_	10	fixed	_	tag=sérnafn
+11	Weinstein	Weinstein	PROPN	sérnafn	_	10	flat	_	tag=sérnafn
 12	fyrir	fyrir	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 13	kynferðisbrot	kynferðisbrot	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
 14	gegn	gegn	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
@@ -201,7 +201,7 @@
 23	til	til	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
 24-25	ársins 2006	_	_	_	_	_	_	_	_
 24	ársins	ársins	ADV	ártal	_	20	advmod	_	SpaceAfter=No|tag=ártal
-25	2006	2006	NUM	ártal	_	24	fixed	_	SpaceAfter=No|tag=ártal
+25	2006	2006	NUM	ártal	_	24	flat	_	SpaceAfter=No|tag=ártal
 26	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00307,.8
@@ -242,7 +242,7 @@
 5	stuðningshópa	stuðningshópur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_ef_kk
 6-7	Jeremy Corbyn	_	_	_	_	_	_	_	_
 6	Jeremy	Jeremy	PROPN	sérnafn	_	5	nmod:poss	_	tag=sérnafn
-7	Corbyn	Corbyn	PROPN	sérnafn	_	6	fixed	_	tag=sérnafn
+7	Corbyn	Corbyn	PROPN	sérnafn	_	6	flat	_	tag=sérnafn
 8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	Facebook	Facebook	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
 10	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm

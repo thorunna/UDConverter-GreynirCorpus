@@ -24,8 +24,8 @@
 7	með	með	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8-10	landbúnaðar- og sjávarútvegsafurðir	_	_	_	_	_	_	_	_
 8	landbúnaðar-	landbúnaðar-	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_þf_kvk
-9	og	og	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	fixed	_	tag=no_ft_þf_kvk
-10	sjávarútvegsafurðir	sjávarútvegsafurð	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	fixed	_	tag=no_ft_þf_kvk
+9	og	og	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	_	_	tag=no_ft_þf_kvk
+10	sjávarútvegsafurðir	sjávarútvegsafurð	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	_	_	tag=no_ft_þf_kvk
 11	einnig	einnig	ADV	eo	_	12	advmod	_	tag=eo
 12	óbreyttir	óbreyttur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
 13	.	_	PUNCT	grm	_	12	punct	_	tag=grm
@@ -77,14 +77,14 @@
 11	3,6%	3,6%	?	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=prósenta_et_nf_hk
 12-13	árið 2015	_	_	_	_	_	_	_	_
 12	árið	árið	ADV	ártal	_	11	advmod	_	SpaceAfter=No|tag=ártal
-13	2015	2015	NUM	ártal	_	12	fixed	_	SpaceAfter=No|tag=ártal
+13	2015	2015	NUM	ártal	_	12	flat	_	SpaceAfter=No|tag=ártal
 14	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00064,.6
 # text = Simon Cowell missti kjálkann í gólfið þegar þessi 32 ára Ástrali byrjaði að syngja
 1-2	Simon Cowell	_	_	_	_	_	_	_	_
 1	Simon	Simon	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
-2	Cowell	Cowell	PROPN	sérnafn	_	1	fixed	_	tag=sérnafn
+2	Cowell	Cowell	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
 3	missti	missa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	kjálkann	kjálki	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk_gr
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -124,14 +124,14 @@
 5	grínistanum	grínisti	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk_gr
 6-7	Jonathan Duffy	_	_	_	_	_	_	_	_
 6	Jonathan	Jonathan	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	5	conj	_	tag=person_þgf_kk
-7	Duffy	Duffy	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	6	fixed	_	tag=person_þgf_kk
+7	Duffy	Duffy	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	6	_	_	tag=person_þgf_kk
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
 9	umboðsmanni	umboðsmaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	conj	_	tag=no_et_þgf_kk
 10	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kk
 11	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 12-13	Rakel Sævarsdóttur	_	_	_	_	_	_	_	_
 12	Rakel	Rakel	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	5	conj	_	SpaceAfter=No|tag=person_þf_kvk
-13	Sævarsdóttur	Sævarsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	12	fixed	_	SpaceAfter=No|tag=person_þf_kvk
+13	Sævarsdóttur	Sævarsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	12	_	_	SpaceAfter=No|tag=person_þf_kvk
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00064,.9
@@ -155,7 +155,7 @@
 # text = Árið 1990 voru sveitarstjórnarmenn alls 1.116 talsins og konur 21,8% eða 243 talsins.
 1-2	Árið 1990	_	_	_	_	_	_	_	_
 1	Árið	Árið	ADV	ártal	_	5	advmod	_	tag=ártal
-2	1990	1990	NUM	ártal	_	1	fixed	_	tag=ártal
+2	1990	1990	NUM	ártal	_	1	flat	_	tag=ártal
 3	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 4	sveitarstjórnarmenn	sveitarstjórnarmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_nf_kk
 5	alls	allur	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_ef_hk

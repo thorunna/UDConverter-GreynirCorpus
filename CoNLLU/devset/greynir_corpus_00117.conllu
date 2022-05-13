@@ -48,7 +48,7 @@
 # text = Nargiza Salimova kom til landsins fyrir rúmum átta mánuðum síðan eftir að hafa ferðast langa leið frá heimalandinu Kirgistan.
 1-2	Nargiza Salimova	_	_	_	_	_	_	_	_
 1	Nargiza	Nargiza	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
-2	Salimova	Salimova	PROPN	sérnafn	_	1	fixed	_	tag=sérnafn
+2	Salimova	Salimova	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
 3	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_ef_hk_gr
@@ -74,7 +74,7 @@
 2	fara	fara	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 3-4	150 milljónir	_	_	_	_	_	_	_	_
 3	150	150	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	tag=töl_ft_nf_hk
-4	milljónir	milljónir	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	fixed	_	tag=töl_ft_nf_hk
+4	milljónir	milljónir	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	_	_	tag=töl_ft_nf_hk
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	torg	torg	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -82,7 +82,7 @@
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 10-11	150 milljónir	_	_	_	_	_	_	_	_
 10	150	150	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	nummod	_	tag=töl_ft_þf_hk
-11	milljónir	milljónir	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	fixed	_	tag=töl_ft_þf_hk
+11	milljónir	milljónir	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	_	_	tag=töl_ft_þf_hk
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	endurgerð	endurgerð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
 14	Tryggvagötu	Tryggvagötu	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
@@ -160,7 +160,7 @@
 16	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 17-18	Margrét Pála	_	_	_	_	_	_	_	_
 17	Margrét	Margrét	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	16	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-18	Pála	Pála	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	17	fixed	_	SpaceAfter=No|tag=person_nf_kvk
+18	Pála	Pála	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	17	_	_	SpaceAfter=No|tag=person_nf_kvk
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00117,.8
@@ -174,7 +174,7 @@
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8-9	Guðmundur Jónsson	_	_	_	_	_	_	_	_
 8	Guðmundur	Guðmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-9	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	fixed	_	SpaceAfter=No|tag=person_nf_kk
+9	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	_	_	SpaceAfter=No|tag=person_nf_kk
 10	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 11	af	af	ADV	eo	_	2	compound:prt	_	tag=eo
 12	Kaffibrúsakarlana	kaffibrúsakarl	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
@@ -182,11 +182,11 @@
 14	þá	þeir	PRON	fn_et_þf	Case=Acc|Number=Sing	15	nmod	_	tag=fn_et_þf
 15-16	Gísla Rúnar	_	_	_	_	_	_	_	_
 15	Gísla	Gísli	PROPN	person_þf_kk	Case=Acc|Gender=Masc	2	obj	_	tag=person_þf_kk
-16	Rúnar	Rúnar	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	fixed	_	tag=person_þf_kk
+16	Rúnar	Rúnar	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	_	_	tag=person_þf_kk
 17	og	og	CCONJ	st	_	15	cc	_	tag=st
 18-19	Júlíus Brjánsson	_	_	_	_	_	_	_	_
 18	Júlíus	Júlíus	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	conj	_	SpaceAfter=No|tag=person_þf_kk
-19	Brjánsson	Brjánsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	18	fixed	_	SpaceAfter=No|tag=person_þf_kk
+19	Brjánsson	Brjánsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	18	_	_	SpaceAfter=No|tag=person_þf_kk
 20	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00117,.9

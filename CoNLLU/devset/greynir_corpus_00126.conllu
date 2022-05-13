@@ -32,7 +32,7 @@
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	borgum	borg	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
-10	þ.e.a.s.	þ.e.a.s.	NOUN	abbrev	_	6	flat:name	_	tag=abbrev
+10	þ.e.a.s.	þ.e.a.s.	NOUN	abbrev	_	6	flat	_	tag=abbrev
 11	notkun	notkun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	tag=no_et_þf_kvk
 12	náttúrulegra	náttúrulegur	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	13	amod	_	tag=lo_ft_ef_kvk_sb
 13	svæða	svæða	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	6	nmod:poss	_	tag=no_ft_ef_kvk
@@ -52,7 +52,7 @@
 5-7	fyrst og fremst	_	_	_	_	_	_	_	_
 5	fyrst	fyrst	ADV	ao	_	3	advmod	_	tag=ao
 6	og	og	ADV	ao	_	5	fixed	_	tag=ao
-7	fremst	fremst	ADV	ao	_	6	fixed	_	tag=ao
+7	fremst	fremst	ADV	ao	_	5	fixed	_	tag=ao
 8	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
 9	til	til	ADP	fs_nh	VerbForm=Inf	11	case	_	tag=fs_nh
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
@@ -105,7 +105,7 @@
 9	smiðju	smiðja	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	0	root	_	tag=no_et_þgf_kvk
 10-11	Maríu Gomez	_	_	_	_	_	_	_	_
 10	Maríu	María	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	tag=person_et_ef_kvk
-11	Gomez	Gomez	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	fixed	_	tag=person_et_ef_kvk
+11	Gomez	Gomez	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	_	_	tag=person_et_ef_kvk
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Paz.is	Paz.is	X	lén	_	10	obl	_	tag=lén
 14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
@@ -139,7 +139,7 @@
 17	og	og	CCONJ	st	_	12	cc	_	tag=st
 18	varði	vara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_0_fh_p3_et_þt_gm
 19	í	í	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-20	u.þ.b.	u.þ.b.	NOUN	abbrev	_	21	flat:name	_	tag=abbrev
+20	u.þ.b.	u.þ.b.	NOUN	abbrev	_	21	flat	_	tag=abbrev
 21	klukkustund	klukkustund	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	18	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk
 22	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
@@ -208,7 +208,7 @@
 11	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_þt_gm
 12-13	Tryggvi Hrafn	_	_	_	_	_	_	_	_
 12	Tryggvi	Tryggvi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-13	Hrafn	Hrafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	fixed	_	tag=person_nf_kk
+13	Hrafn	Hrafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	_	_	tag=person_nf_kk
 14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
 15	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 16	einungis	einungis	ADV	eo	_	18	advmod	_	tag=eo
@@ -223,7 +223,7 @@
 1	Ganamaðurinn	Ganamaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
 2-3	Kofi Annan	_	_	_	_	_	_	_	_
 2	Kofi	Kofi	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=person_et_nf_kk
-3	Annan	Annan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	fixed	_	tag=person_et_nf_kk
+3	Annan	Annan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	_	_	tag=person_et_nf_kk
 4	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 5	við	við	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	embættinu	embætti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk_gr

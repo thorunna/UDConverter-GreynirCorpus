@@ -37,7 +37,7 @@
 35	,	,	PUNCT	grm	_	34	punct	_	tag=grm
 36-37	á meðan	_	_	_	_	_	_	_	_
 36	á	á	SCONJ	st	_	40	mark	_	tag=st
-37	meðan	meðan	SCONJ	st	_	36	fixed	_	tag=st
+37	meðan	meðan	SCONJ	st	_	36	_	_	tag=st
 38	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	tag=pfn_et_nf_hk_p3
 39	sama	sama	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	38	nmod	_	tag=fn_et_nf_hk
 40	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	27	advcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -299,11 +299,11 @@
 37	viðtal	viðtal	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	34	obj	_	tag=no_et_þf_hk
 38-39	Auðar Jónsdóttur	_	_	_	_	_	_	_	_
 38	Auðar	Auðar	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	37	nmod:poss	_	tag=person_ef_kvk
-39	Jónsdóttur	Jónsdóttur	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	38	fixed	_	tag=person_ef_kvk
+39	Jónsdóttur	Jónsdóttur	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	38	_	_	tag=person_ef_kvk
 40	við	við	ADP	fs_þf	Case=Acc	41	case	_	tag=fs_þf
 41-42	Kára Stefánsson	_	_	_	_	_	_	_	_
 41	Kára	Kára	PROPN	person_þf_kk	Case=Acc|Gender=Masc	37	obl	_	SpaceAfter=No|tag=person_þf_kk
-42	Stefánsson	Stefánsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	41	fixed	_	SpaceAfter=No|tag=person_þf_kk
+42	Stefánsson	Stefánsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	41	_	_	SpaceAfter=No|tag=person_þf_kk
 43	,	,	PUNCT	grm	_	42	punct	_	tag=grm
 44	forstjóra	forstjóri	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	41	obl	_	tag=no_et_þf_kk
 45	Íslenskrar	íslenskur	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	46	amod	_	tag=lo_et_ef_kvk_sb
@@ -340,7 +340,7 @@
 23	umsýsla	umsýsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	18	conj	_	tag=no_et_nf_kvk
 24-25	í kringum	_	_	_	_	_	_	_	_
 24	í	í	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
-25	kringum	kringum	ADP	fs_þf	Case=Acc	24	fixed	_	tag=fs_þf
+25	kringum	kringum	ADP	fs_þf	Case=Acc	24	_	_	tag=fs_þf
 26	leitina	leit	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_þf_kvk_gr
 27	að	að	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
 28	lögunum	lag	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	26	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk_gr
@@ -348,7 +348,7 @@
 30	framkvæmdin	framkvæmd	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	conj	_	tag=no_et_nf_kvk_gr
 31-32	í kringum	_	_	_	_	_	_	_	_
 31	í	í	ADP	fs_þf	Case=Acc	33	case	_	tag=fs_þf
-32	kringum	kringum	ADP	fs_þf	Case=Acc	31	fixed	_	tag=fs_þf
+32	kringum	kringum	ADP	fs_þf	Case=Acc	31	_	_	tag=fs_þf
 33	þau	sá	PRON	pfn_ft_þf_hk_p3	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No|tag=pfn_ft_þf_hk_p3
 34	,	,	PUNCT	grm	_	35	punct	_	tag=grm
 35	verðlaunafé	verðlaunafé	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	conj	_	tag=no_et_nf_hk
@@ -417,7 +417,7 @@
 45	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 46-47	Jürgen Keller	_	_	_	_	_	_	_	_
 46	Jürgen	Jürgen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	45	nsubj	_	tag=person_nf_kk
-47	Keller	Keller	PROPN	person_nf_kk	Case=Nom|Gender=Masc	46	fixed	_	tag=person_nf_kk
+47	Keller	Keller	PROPN	person_nf_kk	Case=Nom|Gender=Masc	46	_	_	tag=person_nf_kk
 48	frá	frá	ADP	fs_þgf	Case=Dat	49	case	_	tag=fs_þgf
 49	Opel	Opel	PROPN	fyrirtæki_þgf	Case=Dat	46	obl	_	SpaceAfter=No|tag=fyrirtæki_þgf
 50	.	.	PUNCT	grm	_	1	punct	_	tag=grm
@@ -450,7 +450,7 @@
 23	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 24-25	Illugi Jökulsson	_	_	_	_	_	_	_	_
 24	Illugi	Illugi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	23	nsubj	_	tag=person_nf_kk
-25	Jökulsson	Jökulsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	24	fixed	_	tag=person_nf_kk
+25	Jökulsson	Jökulsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	24	_	_	tag=person_nf_kk
 26	þegar	þegar	SCONJ	st	_	29	mark	_	tag=st
 27	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	tag=pfn_et_nf_kk_p3
 28	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	cop	_	tag=so_0_fh_p3_et_nt_gm
@@ -487,7 +487,7 @@
 5-7	ef til vill	_	_	_	_	_	_	_	_
 5	ef	ef	ADV	ao	_	9	advmod	_	tag=ao
 6	til	til	ADV	ao	_	5	fixed	_	tag=ao
-7	vill	vill	ADV	ao	_	6	fixed	_	tag=ao
+7	vill	vill	ADV	ao	_	5	fixed	_	tag=ao
 8	þótt	þykja	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	9	cop	_	tag=so_1_nf_sagnb_gm
 9	viðeigandi	viðeigandi	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
@@ -516,7 +516,7 @@
 33	virðist	virða	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	27	ccomp	_	tag=so_0_fh_p3_et_nt_mm
 34-35	Katrín Jakobsdóttir	_	_	_	_	_	_	_	_
 34	Katrín	Katrín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	33	nsubj	_	tag=person_nf_kvk
-35	Jakobsdóttir	Jakobsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	34	fixed	_	tag=person_nf_kvk
+35	Jakobsdóttir	Jakobsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	34	_	_	tag=person_nf_kvk
 36	jafnvel	jafnvel	ADV	ao	_	33	advmod	_	tag=ao
 37	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	33	cop	_	tag=so_0_nh_gm
 38	að	að	PART	nhm	_	39	mark	_	tag=nhm
@@ -534,7 +534,7 @@
 50	metrum	metra	ADV	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	46	advmod	_	tag=no_ft_þgf_kk
 51-52	fyrir framan	_	_	_	_	_	_	_	_
 51	fyrir	fyrir	ADP	fs_þf	Case=Acc	53	case	_	tag=fs_þf
-52	framan	framan	ADP	fs_þf	Case=Acc	51	fixed	_	tag=fs_þf
+52	framan	framan	ADP	fs_þf	Case=Acc	51	_	_	tag=fs_þf
 53	hana	hana	PRON	pfn_et_þf_kvk_p3	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	50	obl	_	SpaceAfter=No|tag=pfn_et_þf_kvk_p3
 54	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 

@@ -2,7 +2,7 @@
 # text = Eyþór Árnason, ljósmyndari Vísi og Fréttablaðsins, mætti í DHL-höllina í kvöld og náði þessum skemmtilegum myndum hér fyrir ofan.
 1-2	Eyþór Árnason	_	_	_	_	_	_	_	_
 1	Eyþór	Eyþór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Árnason	Árnason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Árnason	Árnason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	ljósmyndari	ljósmyndari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Vísi	Vísi	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_kk
@@ -79,8 +79,8 @@
 5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6-8	New York Times	_	_	_	_	_	_	_	_
 6	New	New	PROPN	fyrirtæki	_	4	obl	_	tag=fyrirtæki
-7	York	York	PROPN	fyrirtæki	_	6	fixed	_	tag=fyrirtæki
-8	Times	Times	PROPN	fyrirtæki	_	7	fixed	_	tag=fyrirtæki
+7	York	York	PROPN	fyrirtæki	_	6	flat	_	tag=fyrirtæki
+8	Times	Times	PROPN	fyrirtæki	_	6	flat	_	tag=fyrirtæki
 9	að	að	SCONJ	st	_	11	mark	_	tag=st
 10	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_ft_nf_kk_p3
 11	fái	fá	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	obj	_	tag=so_0_vh_p3_ft_nt_gm
@@ -176,7 +176,7 @@
 9	um	um	ADV	eo	_	10	advmod	_	tag=eo
 10-11	fimm prósent	_	_	_	_	_	_	_	_
 10	fimm	fimm	?	prósenta_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	tag=prósenta_ft_nf_kvk
-11	prósent	prósent	?	prósenta_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	10	fixed	_	tag=prósenta_ft_nf_kvk
+11	prósent	prósent	?	prósenta_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	10	_	_	tag=prósenta_ft_nf_kvk
 12	þeirra	hann	PRON	pfn_ft_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	nmod:poss	_	tag=pfn_ft_ef_kvk_p3
 13	fengu	fá	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_ft_þt_gm
 14	brautargengi	brautargengi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No|tag=no_et_þf_hk

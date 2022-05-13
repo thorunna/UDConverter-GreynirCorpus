@@ -39,14 +39,14 @@
 16	lyfjafyrirtæki	lyfjafyrirtæki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_þgf_hk
 17-18	árið 1912	_	_	_	_	_	_	_	_
 17	árið	árið	ADV	ártal	_	13	advmod	_	SpaceAfter=No|tag=ártal
-18	1912	1912	NUM	ártal	_	17	fixed	_	SpaceAfter=No|tag=ártal
+18	1912	1912	NUM	ártal	_	17	flat	_	SpaceAfter=No|tag=ártal
 19	.	.	PUNCT	grm	_	10	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00414,.3
 # text = Lauren Auder er nítján ára gamall söngvari og tónlistarmaður, sem búsettur er í Lundúnaborg nú um stundir.
 1-2	Lauren Auder	_	_	_	_	_	_	_	_
 1	Lauren	Lauren	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	Auder	Auder	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Auder	Auder	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	nítján	nítján	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	nummod	_	tag=töl_ft_ef_hk
 5	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_ef_hk
@@ -90,8 +90,8 @@
 # text = Umhverfis- og samgönguráð Reykjavíkurborgar er ósátt við að rútubílstjórar skuli hunsa tilmæli borgarinnar um einstefnuumferð slíkra bíla á Njarðargötu.
 1-3	Umhverfis- og samgönguráð	_	_	_	_	_	_	_	_
 1	Umhverfis-	Umhverfis-	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
-2	og	og	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	fixed	_	tag=no_et_nf_hk
-3	samgönguráð	samgöngu-ráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	fixed	_	tag=no_et_nf_hk
+2	og	og	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	_	_	tag=no_et_nf_hk
+3	samgönguráð	samgöngu-ráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	_	_	tag=no_et_nf_hk
 4	Reykjavíkurborgar	Reykjavíkurborg	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=sérnafn_et_ef_kvk
 5	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 6	ósátt	ósátt	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
@@ -114,7 +114,7 @@
 # text = Margrét Sanders formaður Samtaka verslunar og þjónustu (SVÞ) segir að jólaverslun hér á landi hafi verið mjög góð.
 1-2	Margrét Sanders	_	_	_	_	_	_	_	_
 1	Margrét	Margrét	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	11	nsubj	_	tag=person_nf_kvk
-2	Sanders	Sanders	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	fixed	_	tag=person_nf_kvk
+2	Sanders	Sanders	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	_	_	tag=person_nf_kvk
 3	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 4	Samtaka	Samtaka	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	nmod:poss	_	tag=no_ft_ef_hk
 5	verslunar	verslunar	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kvk
@@ -129,7 +129,7 @@
 14-16	hér á landi	_	_	_	_	_	_	_	_
 14	hér	hér	ADV	eo	_	13	advmod	_	tag=eo
 15	á	á	ADV	eo	_	14	fixed	_	tag=eo
-16	landi	landi	ADV	eo	_	15	fixed	_	tag=eo
+16	landi	landi	ADV	eo	_	14	fixed	_	tag=eo
 17	hafi	hafi	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	tag=so_0_vh_p3_et_nt_gm
 18	verið	verið	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	20	conj	_	tag=so_0_sagnb_gm
 19	mjög	mjög	ADV	eo	_	20	advmod	_	tag=eo
@@ -172,7 +172,7 @@
 11	loftárásum	loftárás	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	obj	_	tag=no_ft_þgf_kvk
 12-13	á meðan	_	_	_	_	_	_	_	_
 12	á	á	SCONJ	st	_	15	mark	_	tag=st
-13	meðan	meðan	SCONJ	st	_	12	fixed	_	tag=st
+13	meðan	meðan	SCONJ	st	_	12	_	_	tag=st
 14	mannfall	mannfall	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	tag=no_et_nf_hk
 15	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	advcl	_	tag=so_0_fh_p3_et_nt_gm
 16	meðal	meðal	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef

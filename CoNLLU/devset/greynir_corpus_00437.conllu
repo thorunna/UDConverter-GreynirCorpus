@@ -29,8 +29,8 @@
 3	hjá	hjá	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4-6	VW Red Bull	_	_	_	_	_	_	_	_
 4	VW	VW	PROPN	fyrirtæki	_	2	obl	_	tag=fyrirtæki
-5	Red	Red	PROPN	fyrirtæki	_	4	fixed	_	tag=fyrirtæki
-6	Bull	Bull	PROPN	fyrirtæki	_	5	fixed	_	tag=fyrirtæki
+5	Red	Red	PROPN	fyrirtæki	_	4	flat	_	tag=fyrirtæki
+6	Bull	Bull	PROPN	fyrirtæki	_	4	flat	_	tag=fyrirtæki
 7	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p3_ft_þt_gm
 8	svo	svo	ADV	eo	_	10	advmod	_	tag=eo
 9	sannarlega	sannarlega	ADV	ao	_	8	advmod	_	tag=ao
@@ -91,7 +91,7 @@
 15	stórlaxinum	stórlax	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þgf_kk_gr
 16-17	á fætur	_	_	_	_	_	_	_	_
 16	á	á	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-17	fætur	fætur	ADP	fs_þgf	Case=Dat	16	fixed	_	tag=fs_þgf
+17	fætur	fætur	ADP	fs_þgf	Case=Dat	16	_	_	tag=fs_þgf
 18	öðrum	annar	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	tag=fn_ft_þgf_kk
 19	víða	víða	ADV	ao	_	10	advmod	_	tag=ao
 20	um	um	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
@@ -153,7 +153,7 @@
 3-5	að öðru leyti	_	_	_	_	_	_	_	_
 3	að	að	ADV	eo	_	6	advmod	_	tag=eo
 4	öðru	öðru	ADV	eo	_	3	fixed	_	tag=eo
-5	leyti	leyti	ADV	eo	_	4	fixed	_	tag=eo
+5	leyti	leyti	ADV	eo	_	3	fixed	_	tag=eo
 6	lýðræðislegt	lýðræðislegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 7	og	og	CCONJ	st	_	6	cc	_	tag=st
 8	án	án	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
@@ -177,8 +177,8 @@
 # text = Willum Þór Þórsson, formaður, formaður fjárlaganefndar, sagði í hádegisfréttum, að í skýrslunni væri góð samantekt á vanda Íslandspósts.
 1-3	Willum Þór Þórsson	_	_	_	_	_	_	_	_
 1	Willum	Willum	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
-3	Þórsson	Þórsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
+3	Þórsson	Þórsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	_	_	SpaceAfter=No|tag=person_nf_kk
 4	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 5	formaður	formaður	X	x		7	dep	_	SpaceAfter=No|tag=x
 6	,	,	PUNCT	grm	_	5	punct	_	tag=grm

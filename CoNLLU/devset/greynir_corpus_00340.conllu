@@ -38,7 +38,7 @@
 36	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
 37-38	á milli	_	_	_	_	_	_	_	_
 37	á	á	ADP	fs_ef	Case=Gen	42	case	_	tag=fs_ef
-38	milli	milli	ADP	fs_ef	Case=Gen	37	fixed	_	tag=fs_ef
+38	milli	milli	ADP	fs_ef	Case=Gen	37	_	_	tag=fs_ef
 39	minni	lítill	ADJ	lo_ft_ef_kk_mst	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	42	amod	_	tag=lo_ft_ef_kk_mst
 40	og	og	CCONJ	st	_	41	cc	_	tag=st
 41	stærri	stór	ADJ	lo_ft_ef_kk_mst	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	39	conj	_	tag=lo_ft_ef_kk_mst
@@ -49,7 +49,7 @@
 46	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 47-48	Lilja Rafney	_	_	_	_	_	_	_	_
 47	Lilja	Lilja	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	46	nsubj	_	tag=person_nf_kvk
-48	Rafney	Rafney	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	47	fixed	_	tag=person_nf_kvk
+48	Rafney	Rafney	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	47	_	_	tag=person_nf_kvk
 49	í	í	ADP	fs_þgf	Case=Dat	50	case	_	tag=fs_þgf
 50	grein	grein	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	46	obl	_	tag=no_et_þgf_kvk
 51	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	50	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kvk
@@ -231,7 +231,7 @@
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3-4	Ólafur Már	_	_	_	_	_	_	_	_
 3	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-4	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	fixed	_	tag=person_nf_kk
+4	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	_	_	tag=person_nf_kk
 5	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_ft_nt_gm
 6	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	cop	_	tag=so_0_sagnb_gm
 7	óþreytandi	óþreytandi	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
@@ -314,16 +314,16 @@
 23	,	,	PUNCT	grm	_	22	punct	_	tag=grm
 24-25	Good Vibrations	_	_	_	_	_	_	_	_
 24	Good	Good	PROPN	entity	_	35	nsubj	_	tag=entity
-25	Vibrations	Vibrations	PROPN	entity	_	24	fixed	_	tag=entity
+25	Vibrations	Vibrations	PROPN	entity	_	24	flat	_	tag=entity
 26	með	með	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27-28	Beach Boys	_	_	_	_	_	_	_	_
 27	Beach	Beach	PROPN	fyrirtæki	_	24	obl	_	tag=fyrirtæki
-28	Boys	Boys	PROPN	fyrirtæki	_	27	fixed	_	tag=fyrirtæki
+28	Boys	Boys	PROPN	fyrirtæki	_	27	flat	_	tag=fyrirtæki
 29	og	og	CCONJ	st	_	24	cc	_	tag=st
 30-32	Fuck Tha Police	_	_	_	_	_	_	_	_
 30	Fuck	Fuck	PROPN	entity	_	24	conj	_	tag=entity
-31	Tha	Tha	PROPN	entity	_	30	fixed	_	tag=entity
-32	Police	Police	PROPN	entity	_	31	fixed	_	tag=entity
+31	Tha	Tha	PROPN	entity	_	30	flat	_	tag=entity
+32	Police	Police	PROPN	entity	_	30	flat	_	tag=entity
 33	með	með	ADP	fs_þgf	Case=Dat	34	case	_	tag=fs_þgf
 34	N.W.A	N.W.A	PROPN	fyrirtæki	_	24	obl	_	tag=fyrirtæki
 35	skapa	skapa	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
@@ -420,7 +420,7 @@
 60-62	hér fyrir ofan	_	_	_	_	_	_	_	_
 60	hér	hér	ADV	ao	_	58	advmod	_	SpaceAfter=No|tag=ao
 61	fyrir	fyrir	ADV	ao	_	60	fixed	_	SpaceAfter=No|tag=ao
-62	ofan	ofan	ADV	ao	_	61	fixed	_	SpaceAfter=No|tag=ao
+62	ofan	ofan	ADV	ao	_	60	fixed	_	SpaceAfter=No|tag=ao
 63	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00340,.8

@@ -8,8 +8,8 @@
 6	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 7-9	Guðrún Elísa Högnadóttir	_	_	_	_	_	_	_	_
 7	Guðrún	Guðrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	nsubj	_	tag=person_nf_kvk
-8	Elísa	Elísa	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	fixed	_	tag=person_nf_kvk
-9	Högnadóttir	Högnadóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	fixed	_	tag=person_nf_kvk
+8	Elísa	Elísa	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	_	_	tag=person_nf_kvk
+9	Högnadóttir	Högnadóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	_	_	tag=person_nf_kvk
 10	deildi	deila	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	tag=so_1_þgf_fh_p3_et_þt_gm
 11	af	af	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	hádegisverði	hádegisverður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þgf_kk
@@ -34,7 +34,7 @@
 30-32	vítt og breitt	_	_	_	_	_	_	_	_
 30	vítt	vítt	ADV	ao	_	29	obl	_	tag=ao
 31	og	og	ADV	ao	_	30	fixed	_	tag=ao
-32	breitt	breitt	ADV	ao	_	31	fixed	_	tag=ao
+32	breitt	breitt	ADV	ao	_	30	fixed	_	tag=ao
 33	um	um	ADP	fs_þf	Case=Acc	34	case	_	tag=fs_þf
 34	netheima	netheimar	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	30	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
 35	.	.	PUNCT	grm	_	29	punct	_	tag=grm
@@ -81,7 +81,7 @@
 5	klárt	klár	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6-7	á milli	_	_	_	_	_	_	_	_
 6	á	á	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
-7	milli	milli	ADP	fs_ef	Case=Gen	6	fixed	_	tag=fs_ef
+7	milli	milli	ADP	fs_ef	Case=Gen	6	_	_	tag=fs_ef
 8	félaganna	félag	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_ef_kk_gr
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 10	samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
@@ -166,7 +166,7 @@
 18	,	,	PUNCT	grm	_	17	punct	_	tag=grm
 19-20	Canon EOS	_	_	_	_	_	_	_	_
 19	Canon	Canon	PROPN	entity	_	14	obl	_	SpaceAfter=No|tag=entity
-20	EOS	EOS	PROPN	entity	_	19	fixed	_	SpaceAfter=No|tag=entity
+20	EOS	EOS	PROPN	entity	_	19	flat	_	SpaceAfter=No|tag=entity
 21	,	,	PUNCT	grm	_	14	punct	_	tag=grm
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	Beco	Beco	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=fyrirtæki_et_þgf_hk
@@ -175,8 +175,8 @@
 26	fyrir	fyrir	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
 27-29	50 þúsund krónur	_	_	_	_	_	_	_	_
 27	50	50	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
-28	þúsund	þúsund	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	27	fixed	_	SpaceAfter=No|tag=no_ft_þf_kvk
-29	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	28	fixed	_	SpaceAfter=No|tag=no_ft_þf_kvk
+28	þúsund	þúsund	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	27	_	_	SpaceAfter=No|tag=no_ft_þf_kvk
+29	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	28	_	_	SpaceAfter=No|tag=no_ft_þf_kvk
 30	,	,	PUNCT	grm	_	31	punct	_	tag=grm
 31	rifjar	rifja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 32	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	tag=pfn_et_nf_kvk_p3
@@ -215,7 +215,7 @@
 28	aftur	aftur	ADV	ao	_	25	advmod	_	tag=ao
 29-30	í gegnum	_	_	_	_	_	_	_	_
 29	í	í	ADP	fs_þf	Case=Acc	32	case	_	tag=fs_þf
-30	gegnum	gegnum	ADP	fs_þf	Case=Acc	29	fixed	_	tag=fs_þf
+30	gegnum	gegnum	ADP	fs_þf	Case=Acc	29	_	_	tag=fs_þf
 31	báðar	báðir	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	32	nmod	_	tag=fn_ft_þf_kvk
 32	deildir	deila	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	25	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 33	.	.	PUNCT	grm	_	3	punct	_	tag=grm
@@ -232,7 +232,7 @@
 8	fleiri	margur	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	11	amod	_	tag=lo_ft_nf_kk_mst
 9-10	Alpine A110	_	_	_	_	_	_	_	_
 9	Alpine	Alpine	PROPN	entity	_	11	obl	_	tag=entity
-10	A110	A110	PROPN	entity	_	9	fixed	_	tag=entity
+10	A110	A110	PROPN	entity	_	9	flat	_	tag=entity
 11	bílar	bíla	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	tag=no_ft_nf_kk
 12	verði	verja	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_vh_p3_ft_nt_gm
 13	seldir	seldur	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	7	obl	_	tag=so_0_lhþt_ft
@@ -254,7 +254,7 @@
 28	að	að	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
 29	smíði	smíð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	tag=no_et_þgf_kvk
 30	Alpine	Alpine	PROPN	entity_ef	Case=Gen	29	nmod:poss	_	tag=entity_ef
-31	A	A	NOUN	abbrev	_	30	flat:name	_	tag=abbrev
+31	A	A	NOUN	abbrev	_	30	flat	_	tag=abbrev
 32	110	110	NUM	tala	NumType=Card	30	nummod	_	SpaceAfter=No|tag=tala
 33	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
@@ -263,14 +263,14 @@
 1	Þótt	þykja	SCONJ	st	_	6	mark	_	tag=st
 2-3	Bergrún Íris	_	_	_	_	_	_	_	_
 2	Bergrún	Bergrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	nsubj	_	tag=person_nf_kvk
-3	Íris	Íris	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	fixed	_	tag=person_nf_kvk
+3	Íris	Íris	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	_	_	tag=person_nf_kvk
 4	geti	geta	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_vh_p3_et_nt_gm
 5	ómögulega	ómögulega	ADV	ao	_	6	advmod	_	tag=ao
 6	gert	gera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	27	advcl	_	tag=so_0_sagnb_gm
 7	upp	upp	ADV	ao	_	6	advmod	_	tag=ao
 8-9	á milli	_	_	_	_	_	_	_	_
 8	á	á	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
-9	milli	milli	ADP	fs_ef	Case=Gen	8	fixed	_	tag=fs_ef
+9	milli	milli	ADP	fs_ef	Case=Gen	8	_	_	tag=fs_ef
 10	bókanna	bók	NOUN	no_ft_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_ef_kvk_gr
 11	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
 12	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_kvk_p3

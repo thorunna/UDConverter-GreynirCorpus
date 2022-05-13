@@ -39,7 +39,7 @@
 8	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
 9-10	klukkan tíu	_	_	_	_	_	_	_	_
 9	klukkan	klukkan	ADV	tími	_	2	advmod	_	tag=tími
-10	tíu	tíu	?	tími	_	9	fixed	_	tag=tími
+10	tíu	tíu	NUM	tími	_	9	flat	_	tag=tími
 11-12	í kvöld	_	_	_	_	_	_	_	_
 11	í	í	ADV	ao	_	9	advmod	_	tag=ao
 12	kvöld	kvöld	ADV	ao	_	11	fixed	_	tag=ao
@@ -210,8 +210,8 @@
 6	um	um	ADV	eo	_	7	advmod	_	tag=eo
 7-9	700 milljónir króna	_	_	_	_	_	_	_	_
 7	700	700	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	tag=no_ft_þf_kvk
-8	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	fixed	_	tag=no_ft_þf_kvk
-9	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	fixed	_	tag=no_ft_þf_kvk
+8	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	_	_	tag=no_ft_þf_kvk
+9	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	_	_	tag=no_ft_þf_kvk
 10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	sýningarréttinn	sýningarréttur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk_gr
 12	og	og	CCONJ	st	_	3	cc	_	tag=st
@@ -227,7 +227,7 @@
 22	í	í	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
 23-24	1200 milljónir	_	_	_	_	_	_	_	_
 23	1200	1200	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	19	obl	_	SpaceAfter=No|tag=töl_ft_þf_hk
-24	milljónir	milljónir	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	23	fixed	_	SpaceAfter=No|tag=töl_ft_þf_hk
+24	milljónir	milljónir	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	23	_	_	SpaceAfter=No|tag=töl_ft_þf_hk
 25	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00148,.9
@@ -250,7 +250,7 @@
 16	um	um	ADV	eo	_	19	advmod	_	tag=eo
 17-18	700 þúsund	_	_	_	_	_	_	_	_
 17	700	700	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	19	nummod	_	tag=tala_ft_nf_kk
-18	þúsund	þúsund	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	17	fixed	_	tag=tala_ft_nf_kk
+18	þúsund	þúsund	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	17	_	_	tag=tala_ft_nf_kk
 19	manns	maður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	20	nsubj	_	tag=no_et_ef_kk
 20	deyi	deyja	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	nsubj	_	tag=so_0_vh_p3_ft_nt_gm
 21	árlega	árlega	ADV	ao	_	20	advmod	_	tag=ao

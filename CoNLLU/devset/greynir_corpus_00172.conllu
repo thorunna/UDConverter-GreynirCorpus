@@ -2,7 +2,7 @@
 # text = Huw Jenkins, stjórnarformaður Swansea, hefur áhuga á að fá Giggs til starfa á meðan bandarískir eigendur félagsins vilja gefa Guidolin meiri tíma, enda tímabilið nýhafið.
 1-2	Huw Jenkins	_	_	_	_	_	_	_	_
 1	Huw	Huw	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Jenkins	Jenkins	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	SpaceAfter=No|tag=person_nf_kk
+2	Jenkins	Jenkins	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	stjórnarformaður	stjórnarformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Swansea	Swansea	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef
@@ -52,7 +52,7 @@
 16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 17-18	í gegnum	_	_	_	_	_	_	_	_
 17	í	í	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-18	gegnum	gegnum	ADP	fs_þf	Case=Acc	17	fixed	_	tag=fs_þf
+18	gegnum	gegnum	ADP	fs_þf	Case=Acc	17	_	_	tag=fs_þf
 19	framleiðsluferilinn	framleiðsluferill	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 20	,	_	PUNCT	grm	_	19	punct	_	tag=grm
 21	með	með	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
@@ -122,7 +122,7 @@
 20	snjókomunni	snjókoma	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_þgf_kvk_gr
 21-22	þrátt fyrir	_	_	_	_	_	_	_	_
 21	þrátt	þrátt	ADP	fs_nh	VerbForm=Inf	25	case	_	tag=fs_nh
-22	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	21	fixed	_	tag=fs_nh
+22	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	21	_	_	tag=fs_nh
 23	að	að	PART	nhm	_	25	mark	_	tag=nhm
 24	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	25	aux	_	tag=so_0_nh_gm
 25	fengið	fá	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	17	obl	_	tag=so_1_þgf_sagnb_gm
@@ -158,8 +158,8 @@
 23	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 24-26	Le Thi The	_	_	_	_	_	_	_	_
 24	Le	Le	PROPN	person_nf	Case=Nom	23	nsubj	_	SpaceAfter=No|tag=person_nf
-25	Thi	Thi	PROPN	person_nf	Case=Nom	24	fixed	_	SpaceAfter=No|tag=person_nf
-26	The	The	PROPN	person_nf	Case=Nom	25	fixed	_	SpaceAfter=No|tag=person_nf
+25	Thi	Thi	PROPN	person_nf	Case=Nom	24	_	_	SpaceAfter=No|tag=person_nf
+26	The	The	PROPN	person_nf	Case=Nom	25	_	_	SpaceAfter=No|tag=person_nf
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00172,.6
@@ -178,7 +178,7 @@
 12	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	tag=fn_et_þf_hk
 13-14	árið 2013	_	_	_	_	_	_	_	_
 13	árið	árið	ADV	ártal	_	9	advmod	_	SpaceAfter=No|tag=ártal
-14	2013	2013	NUM	ártal	_	13	fixed	_	SpaceAfter=No|tag=ártal
+14	2013	2013	NUM	ártal	_	13	flat	_	SpaceAfter=No|tag=ártal
 15	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 16	þegar	þegar	SCONJ	st	_	19	mark	_	tag=st
 17	hvalveiðar	hvalveiði	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	tag=no_ft_nf_kvk
@@ -224,11 +224,11 @@
 24	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obl	_	tag=pfn_ft_ef_kk_p3
 25-26	Stanislas Dehaene	_	_	_	_	_	_	_	_
 25	Stanislas	Stanislas	PROPN	person_ef	Case=Gen	24	obl	_	tag=person_ef
-26	Dehaene	Dehaene	PROPN	person_ef	Case=Gen	25	fixed	_	tag=person_ef
+26	Dehaene	Dehaene	PROPN	person_ef	Case=Gen	25	_	_	tag=person_ef
 27	og	og	CCONJ	st	_	24	cc	_	tag=st
 28-29	Joels Talcott	_	_	_	_	_	_	_	_
 28	Joels	Joels	PROPN	person_ef	Case=Gen	24	obl	_	SpaceAfter=No|tag=person_ef
-29	Talcott	Talcott	PROPN	person_ef	Case=Gen	28	fixed	_	SpaceAfter=No|tag=person_ef
+29	Talcott	Talcott	PROPN	person_ef	Case=Gen	28	_	_	SpaceAfter=No|tag=person_ef
 30	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00172,.8
@@ -248,14 +248,14 @@
 13	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
 14-15	Ólafur Sturla	_	_	_	_	_	_	_	_
 14	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	tag=person_nf_kk
-15	Sturla	Sturla	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	fixed	_	tag=person_nf_kk
+15	Sturla	Sturla	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	_	_	tag=person_nf_kk
 16	og	og	CCONJ	st	_	5	cc	_	tag=st
 17	bendir	benda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
 18	á	á	ADP	fs_nh	VerbForm=Inf	25	case	_	tag=fs_nh
 19	að	að	SCONJ	st	_	25	mark	_	tag=st
 20-21	Blomkvist Planteskole	_	_	_	_	_	_	_	_
 20	Blomkvist	Blomkvist	PROPN	fyrirtæki_nf	Case=Nom	25	nsubj	_	tag=fyrirtæki_nf
-21	Planteskole	Planteskole	PROPN	fyrirtæki_nf	Case=Nom	20	fixed	_	tag=fyrirtæki_nf
+21	Planteskole	Planteskole	PROPN	fyrirtæki_nf	Case=Nom	20	_	_	tag=fyrirtæki_nf
 22	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_0_vh_p3_et_nt_gm
 23	á	á	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
 24	sömu	sami	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	tag=fn_et_þgf_kvk
@@ -306,7 +306,7 @@
 6	tónlistarmaðurinn	tónlistarmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk_gr
 7-8	John Legend	_	_	_	_	_	_	_	_
 7	John	John	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	obl	_	tag=person_nf_kk
-8	Legend	Legend	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	fixed	_	tag=person_nf_kk
+8	Legend	Legend	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	_	_	tag=person_nf_kk
 9	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 10	eignuðust	eigna	VERB	so_1_þf_fh_p3_ft_þt_mm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_1_þf_fh_p3_ft_þt_mm
 11	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	tag=fn_et_þf_hk

@@ -14,12 +14,12 @@
 12	umfjöllun	umfjöllun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	tag=no_et_þf_kvk
 13-14	í kringum	_	_	_	_	_	_	_	_
 13	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-14	kringum	kringum	ADP	fs_þf	Case=Acc	13	fixed	_	tag=fs_þf
+14	kringum	kringum	ADP	fs_þf	Case=Acc	13	_	_	tag=fs_þf
 15	komandi	komandi	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þf_hk_sb
 16	heimsmeistaramót	heimsmeistaramót	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
 17-18	árið 2022	_	_	_	_	_	_	_	_
 17	árið	árið	ADV	ártal	_	16	advmod	_	SpaceAfter=No|tag=ártal
-18	2022	2022	NUM	ártal	_	17	fixed	_	SpaceAfter=No|tag=ártal
+18	2022	2022	NUM	ártal	_	17	flat	_	SpaceAfter=No|tag=ártal
 19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00106,.2
@@ -41,8 +41,8 @@
 15	mánudagsins	mánudagur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod:poss	_	tag=no_et_ef_kk_gr
 16-18	7. júlí 2014	_	_	_	_	_	_	_	_
 16	7.	7.	?	dagsföst	_	15	('HALLÓ_dagsföst', None, 'NP', 'POSS')	_	SpaceAfter=No|tag=dagsföst
-17	júlí	júlí	?	dagsföst	_	16	fixed	_	SpaceAfter=No|tag=dagsföst
-18	2014	2014	?	dagsföst	_	17	fixed	_	SpaceAfter=No|tag=dagsföst
+17	júlí	júlí	?	dagsföst	_	16	flat	_	SpaceAfter=No|tag=dagsföst
+18	2014	2014	?	dagsföst	_	16	flat	_	SpaceAfter=No|tag=dagsföst
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00106,.3
@@ -63,7 +63,7 @@
 14	fréttum	frétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þgf_kvk
 15-16	Stöðvar 2	_	_	_	_	_	_	_	_
 15	Stöðvar	Stöðvar	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	14	nmod:poss	_	tag=fyrirtæki_et_ef
-16	2	2	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	15	fixed	_	tag=fyrirtæki_et_ef
+16	2	2	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	15	_	_	tag=fyrirtæki_et_ef
 17-18	í kvöld	_	_	_	_	_	_	_	_
 17	í	í	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
 18	kvöld	kvöld	ADV	ao	_	17	fixed	_	SpaceAfter=No|tag=ao
@@ -95,7 +95,7 @@
 # text = Emil Lyng skoraði þrennu fyrir KA í kvöld en þessi dani kom til félagsins núna rétt fyrir mót.
 1-2	Emil Lyng	_	_	_	_	_	_	_	_
 1	Emil	Emil	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Lyng	Lyng	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Lyng	Lyng	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	þrennu	þrenna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þf_kvk
 5	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -173,7 +173,7 @@
 10	um	um	ADV	eo	_	13	advmod	_	tag=eo
 11-12	fjórar milljónir	_	_	_	_	_	_	_	_
 11	fjórar	fjórar	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	13	nummod	_	tag=töl_ft_nf_kvk
-12	milljónir	milljónir	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	11	fixed	_	tag=töl_ft_nf_kvk
+12	milljónir	milljónir	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	11	_	_	tag=töl_ft_nf_kvk
 13	íbúa	íbúi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	tag=no_ft_ef_kk
 14	hafa	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_fh_p3_et_nt_gm
 15	nú	nú	ADV	ao	_	16	advmod	_	tag=ao

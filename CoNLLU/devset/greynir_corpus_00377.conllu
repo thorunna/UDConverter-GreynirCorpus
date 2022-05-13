@@ -17,7 +17,7 @@
 # text = Þrátt fyrir frábæran leik Stjörnunnar í dag þá var leikur KA alls ekki góður.
 1-2	Þrátt fyrir	_	_	_	_	_	_	_	_
 1	Þrátt	þrátt	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
-2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	fixed	_	tag=fs_þf
+2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	_	_	tag=fs_þf
 3	frábæran	frábær	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_þf_kk_sb
 4	leik	leika	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þf_kk
 5	Stjörnunnar	Stjarnan	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
@@ -38,7 +38,7 @@
 1	Leit	leit	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 2-3	Ocean Infinity	_	_	_	_	_	_	_	_
 2	Ocean	Ocean	PROPN	entity	_	1	nmod:poss	_	tag=entity
-3	Infinity	Infinity	PROPN	entity	_	2	fixed	_	tag=entity
+3	Infinity	Infinity	PROPN	entity	_	2	flat	_	tag=entity
 4	hefst	hefja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 5	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 6	miðjan	miðja	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_þf_kk_sb
@@ -61,7 +61,7 @@
 6	bókum	bók	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_þgf_kvk
 7-8	árið 2002	_	_	_	_	_	_	_	_
 7	árið	árið	ADV	ártal	_	3	advmod	_	tag=ártal
-8	2002	2002	NUM	ártal	_	7	fixed	_	tag=ártal
+8	2002	2002	NUM	ártal	_	7	flat	_	tag=ártal
 9	úr	úr	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	25%	25%	?	prósenta_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=prósenta_ft_þgf_hk
 11	niður	niður	ADV	ao	_	13	advmod	_	tag=ao
@@ -110,26 +110,26 @@
 5	rúma	rúmur	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_þf_kk_sb
 6-8	1,6 milljarða króna	_	_	_	_	_	_	_	_
 6	1,6	1,6	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_þf_kk
-7	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	fixed	_	tag=no_ft_þf_kk
-8	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	fixed	_	tag=no_ft_þf_kk
+7	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	_	_	tag=no_ft_þf_kk
+8	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	_	_	tag=no_ft_þf_kk
 9	milli	mill	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
 10	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_ef_hk
 11	og	og	CCONJ	st	_	3	cc	_	tag=st
 12	námu	nema	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þgf_fh_p3_ft_þt_gm
 13-15	36,3 milljörðum króna	_	_	_	_	_	_	_	_
 13	36,3	36,3	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	12	obj	_	tag=no_ft_þgf_kk
-14	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	fixed	_	tag=no_ft_þgf_kk
-15	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	14	fixed	_	tag=no_ft_þgf_kk
+14	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	_	_	tag=no_ft_þgf_kk
+15	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	14	_	_	tag=no_ft_þgf_kk
 16-17	árið 2017	_	_	_	_	_	_	_	_
 16	árið	árið	ADV	ártal	_	12	advmod	_	SpaceAfter=No|tag=ártal
-17	2017	2017	NUM	ártal	_	16	fixed	_	SpaceAfter=No|tag=ártal
+17	2017	2017	NUM	ártal	_	16	flat	_	SpaceAfter=No|tag=ártal
 18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00377,.8
 # text = The Gate er fyrsta lagið af næstu plötu Bjarkar sem væntanleg er á næstunni.
 1-2	The Gate	_	_	_	_	_	_	_	_
 1	The	The	PROPN	entity	_	5	nsubj	_	tag=entity
-2	Gate	Gate	PROPN	entity	_	1	fixed	_	tag=entity
+2	Gate	Gate	PROPN	entity	_	1	flat	_	tag=entity
 3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	fyrsta	fyrstur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_nf_hk_vb
 5	lagið	lag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk_gr

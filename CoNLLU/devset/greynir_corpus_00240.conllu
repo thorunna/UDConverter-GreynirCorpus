@@ -41,20 +41,20 @@
 6	lífvarða	lífvörður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nmod:poss	_	tag=no_ft_ef_kk
 7-8	fyrir utan	_	_	_	_	_	_	_	_
 7	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-8	utan	utan	ADP	fs_þf	Case=Acc	7	fixed	_	tag=fs_þf
+8	utan	utan	ADP	fs_þf	Case=Acc	7	_	_	tag=fs_þf
 9	höllina	höll	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk_gr
 10	á	á	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	mánudag	mánudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
 12-13	klukkan 11	_	_	_	_	_	_	_	_
 12	klukkan	klukkan	ADV	tími	_	2	advmod	_	SpaceAfter=No|tag=tími
-13	11	11	?	tími	_	12	fixed	_	SpaceAfter=No|tag=tími
+13	11	11	NUM	tími	_	12	flat	_	SpaceAfter=No|tag=tími
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00240,.4
 # text = Arnar Freyr er línumaður, uppalinn Framari og er samningsbundinn liðinu til 2018.
 1-2	Arnar Freyr	_	_	_	_	_	_	_	_
 1	Arnar	Arnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Freyr	Freyr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Freyr	Freyr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	línumaður	línumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
 5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
@@ -79,7 +79,7 @@
 7	geira	geiri	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	tag=no_ft_þf_kk
 8	atvinnulífsins	atvinnulíf	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
-10	s.s.	s.s.	NOUN	abbrev	_	11	flat:name	_	tag=abbrev
+10	s.s.	s.s.	NOUN	abbrev	_	11	flat	_	tag=abbrev
 11	stáliðnað	stáliðnað	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þf_kk
 12	og	og	CCONJ	st	_	13	cc	_	tag=st
 13	sementsframleiðslu	sementsframleiðslu	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No|tag=no_et_þf_kvk
@@ -124,7 +124,7 @@
 # text = Jón Gunnarsson tók undir það í ávarpi sínu og sagði verkið einstaklega mikilvægt.
 1-2	Jón Gunnarsson	_	_	_	_	_	_	_	_
 1	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Gunnarsson	Gunnarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	fixed	_	tag=person_nf_kk
+2	Gunnarsson	Gunnarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	_	_	tag=person_nf_kk
 3	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	undir	undir	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þf_hk_p3
@@ -163,7 +163,7 @@
 6	tekin	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	('HALLÓ_so', '0_lhþt_et', 'NP', 'PRD')	_	tag=so_0_lhþt_et
 7-8	árið 2015	_	_	_	_	_	_	_	_
 7	árið	árið	ADV	ártal	_	10	advmod	_	tag=ártal
-8	2015	2015	NUM	ártal	_	7	fixed	_	tag=ártal
+8	2015	2015	NUM	ártal	_	7	flat	_	tag=ártal
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 10	m.a.	m.a.	NOUN	abbrev	_	0	root	_	tag=abbrev
 11	að	að	ADP	fs	_	12	case	_	tag=fs

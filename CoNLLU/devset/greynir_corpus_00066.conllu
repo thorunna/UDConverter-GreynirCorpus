@@ -26,7 +26,7 @@
 7-9	suðaustan- og austanlands	_	_	_	_	_	_	_	_
 7	suðaustan-	austan-lands	ADV	ao	_	11	advmod	_	tag=ao
 8	og	austan-lands	ADV	ao	_	7	fixed	_	tag=ao
-9	austanlands	austan-lands	ADV	ao	_	8	fixed	_	tag=ao
+9	austanlands	austan-lands	ADV	ao	_	7	fixed	_	tag=ao
 10	samkvæmt	samkvæmur	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	spá	spá	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	conj	_	tag=no_et_þgf_kvk
 12	Veðurstofu	veðurstofa	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	11	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
@@ -80,7 +80,7 @@
 11	smábæjarins	smábær	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_ef_kk_gr
 12-13	Belúsja Gúba	_	_	_	_	_	_	_	_
 12	Belúsja	Belúsja	PROPN	sérnafn	_	10	nmod:poss	_	SpaceAfter=No|tag=sérnafn
-13	Gúba	Gúba	PROPN	sérnafn	_	12	fixed	_	SpaceAfter=No|tag=sérnafn
+13	Gúba	Gúba	PROPN	sérnafn	_	12	flat	_	SpaceAfter=No|tag=sérnafn
 14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00066,.6
@@ -123,12 +123,12 @@
 2	mæta	mæta	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 3-4	Oddný Harðardóttir	_	_	_	_	_	_	_	_
 3	Oddný	Oddný	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=person_et_nf_kvk
-4	Harðardóttir	Harðardóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	fixed	_	tag=person_et_nf_kvk
+4	Harðardóttir	Harðardóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	_	_	tag=person_et_nf_kvk
 5	og	og	CCONJ	st	_	3	cc	_	tag=st
 6-8	Óli Björn Kárason	_	_	_	_	_	_	_	_
 6	Óli	Óli	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|tag=person_et_nf_kk
-7	Björn	Björn	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	fixed	_	SpaceAfter=No|tag=person_et_nf_kk
-8	Kárason	Kárason	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	fixed	_	SpaceAfter=No|tag=person_et_nf_kk
+7	Björn	Björn	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	_	_	SpaceAfter=No|tag=person_et_nf_kk
+8	Kárason	Kárason	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	_	_	SpaceAfter=No|tag=person_et_nf_kk
 9	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 10	þingmenn	þingmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	tag=no_ft_nf_kk
 11	Samfylkingarinar	Samfylking	PROPN	sérnafn_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=sérnafn_et_ef_hk_gr
@@ -149,7 +149,7 @@
 9	höfuðstöðvum	höfuðstöðvar	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þgf_kvk
 10-11	Airport Associates	_	_	_	_	_	_	_	_
 10	Airport	Airport	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=fyrirtæki_et_ef_hk
-11	Associates	Associates	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	fixed	_	tag=fyrirtæki_et_ef_hk
+11	Associates	Associates	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	_	_	tag=fyrirtæki_et_ef_hk
 12-13	nú síðdegis	_	_	_	_	_	_	_	_
 12	nú	nú	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
 13	síðdegis	síðdegis	ADV	ao	_	12	fixed	_	SpaceAfter=No|tag=ao
@@ -163,7 +163,7 @@
 4	skuldar	skulda	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 5-6	5,7 milljónir	_	_	_	_	_	_	_	_
 5	5,7	5,7	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	4	obj	_	tag=tala_ft_þf_kvk
-6	milljónir	milljónir	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	5	fixed	_	tag=tala_ft_þf_kvk
+6	milljónir	milljónir	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	5	_	_	tag=tala_ft_þf_kvk
 7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	fasteignagjöld	fasteignagjald	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þf_hk
 9	fyrir	fyrir	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
