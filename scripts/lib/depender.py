@@ -1887,7 +1887,9 @@ class Converter:
                 }:
                     self.dg.get_by_address(address).update({"head": address - 6})
 
-                if node["tag"] in {
+                orig_tag = node["tag"].split("_")[0]
+
+                if orig_tag in {
                     "ártal",
                     "dagsafs",
                     "dagsföst",
@@ -1899,11 +1901,12 @@ class Converter:
                     "entity",
                     "fyrirtæki",
                     "gata",
+                    "no",
                 }:
                     self.dg.get_by_address(address).update({"rel": "flat"})
-                elif node["tag"] == "foreign":
+                elif orig_tag == "foreign":
                     self.dg.get_by_address(address).update({"rel": "flat:foreign"})
-                elif node["tag"] in {"ao", "eo", "fs", "fn", "pfn", "abfn"}:
+                elif orig_tag in {"ao", "eo", "fs", "fn", "pfn", "abfn"}:
                     self.dg.get_by_address(address).update({"rel": "fixed"})
 
     def create_dependency_graph(self, tree):
