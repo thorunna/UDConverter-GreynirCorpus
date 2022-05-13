@@ -500,7 +500,6 @@ class Converter:
                         # print("Main clause: ", main_clause)
                         id = "_"
                         label = "_"
-                        print("Child not tree: ", child)
                     else:
                         id = child.id()
                         label = child.label()
