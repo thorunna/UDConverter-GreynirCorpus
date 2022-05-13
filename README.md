@@ -3,7 +3,7 @@ Version 1.0
 
 A Python module for converting the [GreynirCorpus](https://github.com/mideind/GreynirCorpus) treebank to the [Universal Dependencies](https://universaldependencies.org/) framework. The module has been adapted from [UDConverter](https://github.com/thorunna/UDConverter).
 
-The resulting UD treebank will be included in UD version 2.10.
+The resulting UD treebank will be included in UD version 2.11.
 
 ## Setup
 
