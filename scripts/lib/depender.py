@@ -1840,11 +1840,67 @@ class Converter:
 
         for address, node in self.dg.nodes.items():
             if type(address) is int and node["rel"] == "_" and node["head"] == "_":
-                self.dg.get_by_address(address).update({"rel": "fixed"})
-                if self.dg.get_by_address(address - 1)["head"] != "_":
+                if self.dg.get_by_address(address - 1)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 1)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
                     self.dg.get_by_address(address).update({"head": address - 1})
-                elif self.dg.get_by_address(address - 2)["head"] != "_":
+                elif self.dg.get_by_address(address - 2)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 2)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
                     self.dg.get_by_address(address).update({"head": address - 2})
+                elif self.dg.get_by_address(address - 3)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 3)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
+                    self.dg.get_by_address(address).update({"head": address - 3})
+                elif self.dg.get_by_address(address - 4)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 4)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
+                    self.dg.get_by_address(address).update({"head": address - 4})
+                elif self.dg.get_by_address(address - 5)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 5)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
+                    self.dg.get_by_address(address).update({"head": address - 5})
+                elif self.dg.get_by_address(address - 6)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 6)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
+                    self.dg.get_by_address(address).update({"head": address - 6})
+
+                if node["tag"] in {
+                    "ártal",
+                    "dagsafs",
+                    "dagsföst",
+                    "tímapunktur",
+                    "tími",
+                    "tímapunkturafs",
+                    "person",
+                    "sérnafn",
+                    "entity",
+                    "fyrirtæki",
+                    "gata",
+                }:
+                    self.dg.get_by_address(address).update({"rel": "flat"})
+                elif node["tag"] == "foreign":
+                    self.dg.get_by_address(address).update({"rel": "flat:foreign"})
+                elif node["tag"] in {"ao", "eo", "fs", "fn", "pfn", "abfn"}:
+                    self.dg.get_by_address(address).update({"rel": "fixed"})
 
     def create_dependency_graph(self, tree):
         """Create a dependency graph from a phrase structure tree.
@@ -2185,7 +2241,7 @@ class Converter:
                             ):  # todo root phrase types from config
                                 self.dg.get_by_address(mod_nr).update(
                                     {"head": 0, "rel": "root"}
-                                )  # todo copula not a head
+                                )
                                 self.dg.root = self.dg.get_by_address(mod_nr)
                             else:
                                 # Unknown dependency relation (things to fix)

@@ -183,7 +183,14 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         return "mark"
     elif mod_tag in {"stt", "nhm"}:
         return "mark"
-    elif mod_tag in {"to", "töl", "tala", "tími", "ártal", "prósenta"}:
+    elif mod_tag in {
+        "to",
+        "töl",
+        "tala",
+        "tími",
+        "ártal",
+        "prósenta",
+    }:  # TODO: tímapunktur?
         return "nummod"
     elif mod_tag in string.punctuation or mod_tag == "grm":
         return "punct"
@@ -193,7 +200,7 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         or head_tag == "CP"
         and head_func == "EXPLAIN"
     ):
-        return "flat:name"
+        return "flat"
     elif mod_tag in {"foreign", "FOREIGN"} or head_tag == "foreign":
         return "flat:foreign"
     elif mod_tag == "uh":

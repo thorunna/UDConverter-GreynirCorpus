@@ -40,7 +40,6 @@ GC_UD_map = {
     "ártal": "NUM",
     "dagsafs": "NUM?",  # TODO
     "dagsföst": "?",  # TODO
-    "tími": "?",  # TODO
     "tímapunktur": "?",  # TODO
     "tímapunkturafs": "?",  # TODO
     "mælieining": "?",  # TODO
