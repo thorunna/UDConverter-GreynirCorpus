@@ -41,15 +41,16 @@ GC_UD_map = {
     "símanúmer": "SYM",
     "tölvupóstfang": "SYM",
     "lén": "SYM",
-    "dagsafs": "NUM?",  # TODO
-    "dagsföst": "?",  # TODO
-    "tímapunktur": "?",  # TODO
-    "tímapunkturafs": "?",  # TODO
-    "mælieining": "?",  # TODO
-    "prósenta": "?",  # TODO
-    "raðnr": "ADJ",
+    "dagsafs": "NOUN",
+    "dagsföst": "NOUN",
+    "tímapunktur": "NOUN",
+    "tímapunkturafs": "NOUN",
+    "mælieining": "NUM",
+    "prósenta": "NUM",
+    "raðnr": "NUM",
     "grm": "PUNCT",
     "foreign": "X",
+    "amount": "NUM",
 }
 
 Greynir_map = {
@@ -143,7 +144,7 @@ head_rules = {
         "rules": [
             # "CP-FRL",
             (
-                "no(_(et|ft))?_nf.*|person(_(et|ft))?_nf.*|entity(_(et|ft))?_nf.*|fyrirtæki(_(et|ft))?_nf.*|gata(_(et|ft))?_nf.*"
+                "no(_(et|ft))?_nf.*|person(_(et|ft))?_nf.*|entity(_(et|ft))?_nf.*|fyrirtæki(_(et|ft))?_nf.*|gata(_(et|ft))?_nf.*|dagsafs"
             ),
             ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*|prósenta.*"),
             ("fn(_(et|ft))?_nf.*|pfn(_(et|ft))?_nf.*|abfn(_(et|ft))?_nf.*"),

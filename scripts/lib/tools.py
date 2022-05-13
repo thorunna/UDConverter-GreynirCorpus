@@ -51,7 +51,15 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         return "det"
     elif mod_tag in {"ADJP", "lo", "raðnr"}:
         return "amod"
-    elif mod_tag in {"PP", "no"}:
+    elif mod_tag in {
+        "PP",
+        "no",
+        "dagsafs",
+        "lén",
+        "dagsföst",
+        "tölvupóstfang",
+        "tímapunktur",
+    }:
         # -DIR, -LOC
         return "obl"  # NP sem er haus PP fær obl nominal  #TODO: haus CP-ADV (sem er PP) á að vera merktur advcl
     elif mod_tag in {"P", "fs"}:
@@ -190,6 +198,8 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         "tími",
         "ártal",
         "prósenta",
+        "mælieining",
+        "amount",
     }:  # TODO: tímapunktur?
         return "nummod"
     elif mod_tag in string.punctuation or mod_tag == "grm":
@@ -205,10 +215,13 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         return "flat:foreign"
     elif mod_tag == "uh":
         return "discourse"
+    elif mod_tag == "person":
+        return "nsubj"
     elif mod_tag == "x":
         return "dep"  # the token could not be analyzed, leads to unknown dependency
 
-    return "HALLÓ_" + mod_tag, mod_func, head_tag, head_func  # "VANTAR_LIÐ"
+    return "dep"
+    # return "HALLÓ_" + mod_tag, mod_func, head_tag, head_func  # "VANTAR_LIÐ"
 
 
 def decode_escaped(string, lemma=False):
