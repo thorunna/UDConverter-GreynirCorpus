@@ -10,8 +10,10 @@
 8	sameiningu	sameining	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk
 9	sveitarfélaganna	sveitarfélag	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	8	nmod:poss	_	tag=no_ft_ef_hk_gr
 10	laugardaginn	laugardagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þf_kk_gr
-11	11. nóvember	11. nóvember	ADV	dagsafs	_	6	advmod	_	SpaceAfter=No|tag=dagsafs
-12	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+11-12	11. nóvember	_	_	_	_	_	_	_	_
+11	11.	11.	ADV	dagsafs	_	6	advmod	_	SpaceAfter=No|tag=dagsafs
+12	nóvember	nóvember	NUM?	dagsafs	_	11	flat	_	SpaceAfter=No|tag=dagsafs
+13	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00237,.2
 # text = Íslenska heilbrigðiskerfið sé alls óviðbúið því að takast á við slíka þróun.
@@ -31,32 +33,38 @@
 
 # sent_id = GREYNIR_CORPUS_00237,.3
 # text = McGregor Promotions tók þátt í að auglýsa bardaga Conors og Floyd Mayweather.
-1	McGregor Promotions	McGregor Promotions	PROPN	sérnafn	_	2	nsubj	_	tag=sérnafn
-2	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk
-4	í	í	ADP	fs_nh	VerbForm=Inf	6	case	_	tag=fs_nh
-5	að	að	PART	nhm	_	6	mark	_	tag=nhm
-6	auglýsa	auglýsa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	obl	_	tag=so_1_þf_nh_gm
-7	bardaga	bardagi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	tag=no_et_þf_kk
-8	Conors	Conors	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk
-9	og	og	CCONJ	st	_	10	cc	_	tag=st
-10	Floyd Mayweather	Floyd Mayweather	PROPN	sérnafn	_	8	conj	_	SpaceAfter=No|tag=sérnafn
-11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	McGregor Promotions	_	_	_	_	_	_	_	_
+1	McGregor	McGregor	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
+2	Promotions	Promotions	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
+3	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+4	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk
+5	í	í	ADP	fs_nh	VerbForm=Inf	7	case	_	tag=fs_nh
+6	að	að	PART	nhm	_	7	mark	_	tag=nhm
+7	auglýsa	auglýsa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	obl	_	tag=so_1_þf_nh_gm
+8	bardaga	bardagi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	tag=no_et_þf_kk
+9	Conors	Conors	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod:poss	_	tag=no_et_ef_hk
+10	og	og	CCONJ	st	_	11	cc	_	tag=st
+11-12	Floyd Mayweather	_	_	_	_	_	_	_	_
+11	Floyd	Floyd	PROPN	sérnafn	_	9	conj	_	SpaceAfter=No|tag=sérnafn
+12	Mayweather	Mayweather	PROPN	sérnafn	_	11	flat	_	SpaceAfter=No|tag=sérnafn
+13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00237,.4
 # text = Fyrrverandi forsætisráðherra Frakklands, Manuel Valls, hefur sagt skilið við Sósíalistaflokkinn.
 1	Fyrrverandi	fyrrverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_sb
-2	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
+2	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	tag=no_et_nf_kk
 3	Frakklands	Frakkland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
 4	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-5	Manuel Valls	Manuel Valls	PROPN	sérnafn	_	2	conj	_	SpaceAfter=No|tag=sérnafn
-6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-7	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
-8	sagt	segja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
-9	skilið	skilinn	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	tag=lo_et_þf_hk_sb
-10	við	við	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-11	Sósíalistaflokkinn	sósíalistaflokkur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-12	.	_	PUNCT	grm	_	8	punct	_	tag=grm
+5-6	Manuel Valls	_	_	_	_	_	_	_	_
+5	Manuel	Manuel	PROPN	sérnafn	_	2	conj	_	SpaceAfter=No|tag=sérnafn
+6	Valls	Valls	PROPN	sérnafn	_	5	flat	_	SpaceAfter=No|tag=sérnafn
+7	,	_	PUNCT	grm	_	2	punct	_	tag=grm
+8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
+9	sagt	segja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
+10	skilið	skilinn	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	tag=lo_et_þf_hk_sb
+11	við	við	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	Sósíalistaflokkinn	sósíalistaflokkur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
+13	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00237,.5
 # text = Svo er að koma ljósleiðari og hann kostar 300 þúsund á býli.
@@ -68,10 +76,12 @@
 6	og	og	CCONJ	st	_	2	cc	_	tag=st
 7	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kk_p3
 8	kostar	kostar	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
-9	300 þúsund	300 þúsund	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	obj	_	tag=töl_ft_ef_hk
-10	á	á	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	case	_	tag=no_et_þgf_kvk
-11	býli	býli	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+9-10	300 þúsund	_	_	_	_	_	_	_	_
+9	300	300	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	obj	_	tag=töl_ft_ef_hk
+10	þúsund	þúsund	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	9	_	_	tag=töl_ft_ef_hk
+11	á	á	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	case	_	tag=no_et_þgf_kvk
+12	býli	býli	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00237,.6
 # text = Dauðarefsing er við smygli á svo miklu magni af kannabisefnum í Indónesíu.
@@ -122,7 +132,7 @@
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00237,.9
-# text = Romero fékk hægan dauðdaga í faðmi fjölskyldu sinnar ; konu og dóttur.
+# text = Romero fékk hægan dauðdaga í faðmi fjölskyldu sinnar; konu og dóttur.
 1	Romero	Romero	PROPN	sérnafn	_	2	nsubj	_	tag=sérnafn
 2	fékk	fá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	hægan	hægur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_þf_kk_sb

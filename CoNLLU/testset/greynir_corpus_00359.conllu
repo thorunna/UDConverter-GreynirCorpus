@@ -1,5 +1,5 @@
 # sent_id = GREYNIR_CORPUS_00359,.1
-# text = „ Hann talar um Repúblikana á þingi í þriðju persónu.
+# text = „Hann talar um Repúblikana á þingi í þriðju persónu.
 1	„	„	PUNCT	grm	_	3	punct	_	tag=grm
 2	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
 3	talar	tala	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -55,18 +55,20 @@
 11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00359,.5
-# text = Þetta voru yfir 60 símtöl í gærkvöldi, “ segir Júlíus.
+# text = Þetta voru yfir 60 símtöl í gærkvöldi,“ segir Júlíus.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
 2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 3	yfir	yfir	ADV	eo	_	5	advmod	_	tag=eo
 4	60	60	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_nf_hk
 5	símtöl	símtal	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	1	xcomp	_	tag=no_ft_nf_hk
-6	í gærkvöldi	í gærkvöldi	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
-7	,	,	PUNCT	grm	_	9	punct	_	SpaceAfter=No|tag=grm
-8	“	“	PUNCT	grm	_	7	punct	_	tag=grm
-9	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-10	Júlíus	Júlíus	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-11	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+6-7	í gærkvöldi	_	_	_	_	_	_	_	_
+6	í	í	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
+7	gærkvöldi	gærkvöldi	ADV	ao	_	6	fixed	_	SpaceAfter=No|tag=ao
+8	,	,	PUNCT	grm	_	10	punct	_	SpaceAfter=No|tag=grm
+9	“	“	PUNCT	grm	_	8	punct	_	tag=grm
+10	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
+11	Júlíus	Júlíus	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+12	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00359,.6
 # text = Hvorki forsætisráðherra né forseti virðast hafa verið viðstödd setningu hennar.
@@ -99,19 +101,21 @@
 # sent_id = GREYNIR_CORPUS_00359,.8
 # text = Í janúar 2015 hlaut hún sjö mánaða dóm fyrir sama brot.
 1	Í	í	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
-2	janúar 2015	janúar 2015	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
-3	hlaut	hljóta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-4	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kvk_p3
-5	sjö	sjö	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	7	obl	_	tag=töl_ft_ef_kk
-6	mánaða	mánuður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	conj	_	tag=no_ft_ef_kk
-7	dóm	dómur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk
-8	fyrir	fyrir	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-9	sama	sami	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	tag=fn_et_þf_hk
-10	brot	brot	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+2-3	janúar 2015	_	_	_	_	_	_	_	_
+2	janúar	janúar	ADV	dagsafs	_	4	advmod	_	tag=dagsafs
+3	2015	2015	NUM?	dagsafs	_	2	flat	_	tag=dagsafs
+4	hlaut	hljóta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+5	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kvk_p3
+6	sjö	sjö	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	8	obl	_	tag=töl_ft_ef_kk
+7	mánaða	mánuður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	6	conj	_	tag=no_ft_ef_kk
+8	dóm	dómur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	tag=no_et_þf_kk
+9	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+10	sama	sami	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	tag=fn_et_þf_hk
+11	brot	brot	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_hk
+12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00359,.9
-# text = Þá unnu Haukar stórsigur á Aftureldingu, 27 : 14.
+# text = Þá unnu Haukar stórsigur á Aftureldingu, 27: 14.
 1	Þá	þá	ADV	ao	_	2	advmod	_	tag=ao
 2	unnu	vinna	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 3	Haukar	Haukar	PROPN	fyrirtæki_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	tag=fyrirtæki_ft_nf_hk

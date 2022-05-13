@@ -28,7 +28,9 @@
 4	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	nýrri	nýr	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_þgf_kvk_sb
 6	stuttmynd	stuttmynd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
-7	Ísoldar Braga	Ísold Braga	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=person_et_ef_kvk
+7-8	Ísoldar Braga	_	_	_	_	_	_	_	_
+7	Ísoldar	Ísold	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=person_et_ef_kvk
+8	Braga	Braga	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	flat	_	tag=person_et_ef_kvk
 
 # sent_id = GREYNIR_CORPUS_00022,.4
 # text = Steinunn lýsir hrottalegu ofbeldi af hendi barnsföður síns
@@ -84,8 +86,7 @@
 8	varasöm	varasamur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 
 # sent_id = GREYNIR_CORPUS_00022,.9
-# text = Heimir : Við viljum enda eins og Leicester
--1	None	_	None	None	_	_	None	_	_
+# text = Heimir: Við viljum enda eins og Leicester
 1	Heimir	Heimir	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
 2	:	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	Við	við	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk

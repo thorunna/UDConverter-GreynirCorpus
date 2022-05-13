@@ -41,8 +41,10 @@
 4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Matvælastofnun	Matvælastofnun	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=sérnafn_et_þgf_kvk
 6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-7	Gísli Jónsson	Gísli Jónsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
-8	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+7-8	Gísli Jónsson	_	_	_	_	_	_	_	_
+7	Gísli	Gísli	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
+8	Jónsson	Jónsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No|tag=person_et_nf_kk
+9	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00030,.5
 # text = Aðeins ríkasta 20% hefur notið ávinning skattabreytinga ríkisstjórnarinnar.
@@ -64,8 +66,10 @@
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	þingi	þing	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
 6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	árinu 1994	árið 1994	ADV	ártal	_	3	advmod	_	SpaceAfter=No|tag=ártal
-8	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+7-8	árinu 1994	_	_	_	_	_	_	_	_
+7	árinu	árið	ADV	ártal	_	3	advmod	_	SpaceAfter=No|tag=ártal
+8	1994	1994	NUM	ártal	_	7	flat	_	SpaceAfter=No|tag=ártal
+9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00030,.7
 # text = Áætlaður heildarávinningur ríkisins metinn á ríflega 150 milljarða króna
@@ -75,29 +79,36 @@
 4	metinn	meta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	á	á	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 6	ríflega	ríflegur	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	7	amod	_	tag=lo_ft_þf_kk_sb
-7	150 milljarða króna	150 milljarðar króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_þf_kk
+7-9	150 milljarða króna	_	_	_	_	_	_	_	_
+7	150	150	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_þf_kk
+8	milljarða	milljarðar	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	flat	_	tag=no_ft_þf_kk
+9	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	flat	_	tag=no_ft_þf_kk
 
 # sent_id = GREYNIR_CORPUS_00030,.8
 # text = Jamie Vardy skorar af miklu öryggi úr vítaspyrnunni.
-1	Jamie Vardy	Jamie Vardy	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
-2	skorar	skora	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	af	af	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-4	miklu	mikill	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þgf_hk_sb
-5	öryggi	öryggi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
-6	úr	úr	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	vítaspyrnunni	vítaspyrna	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
-8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Jamie Vardy	_	_	_	_	_	_	_	_
+1	Jamie	Jamie	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
+2	Vardy	Vardy	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+3	skorar	skora	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+4	af	af	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
+5	miklu	mikill	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þgf_hk_sb
+6	öryggi	öryggi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
+7	úr	úr	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	vítaspyrnunni	vítaspyrna	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
+9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00030,.9
 # text = Íþróttafélög fá til dæmis bakkelsi sem er óselt.
 1	Íþróttafélög	íþróttafélag	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	tag=no_ft_nf_hk
 2	fá	fá	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
-3	til dæmis	til dæmis	ADV	eo	_	4	advmod	_	tag=eo
-4	bakkelsi	bakkelsi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
-5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
-6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_gm
-7	óselt	óseldur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	6	acl:relcl	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
-8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	til dæmis	_	_	_	_	_	_	_	_
+3	til	til	ADV	eo	_	5	advmod	_	tag=eo
+4	dæmis	dæmis	ADV	eo	_	3	fixed	_	tag=eo
+5	bakkelsi	bakkelsi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
+6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
+7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	óselt	óseldur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	7	acl:relcl	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
+9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00030,.10
 # text = Líf okkar líður hjá og aðrir taka við.

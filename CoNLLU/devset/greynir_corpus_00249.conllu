@@ -6,13 +6,17 @@
 4	með	með	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	vinum	vinur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_þgf_kk
 6	sínum	sinn	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	tag=fn_ft_þgf_kk
-7	í gegnum	í gegnum	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	söguna	saga	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þf_kvk_gr
-9	eða	eða	CCONJ	st	_	3	cc	_	tag=st
-10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	svokölluðu	svokallaður	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=lo_et_þgf_hk_sb
-12	Arcade Mode	Arcade Mode	X	foreign	_	11	flat:foreign	_	SpaceAfter=No|tag=foreign
-13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+7-8	í gegnum	_	_	_	_	_	_	_	_
+7	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+8	gegnum	gegnum	ADP	fs_þf	Case=Acc	7	fixed	_	tag=fs_þf
+9	söguna	saga	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þf_kvk_gr
+10	eða	eða	CCONJ	st	_	3	cc	_	tag=st
+11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	svokölluðu	svokallaður	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=lo_et_þgf_hk_sb
+13-14	Arcade Mode	_	_	_	_	_	_	_	_
+13	Arcade	Arcade	X	foreign	_	12	flat:foreign	_	SpaceAfter=No|tag=foreign
+14	Mode	Mode	X	foreign	_	13	flat:foreign	_	SpaceAfter=No|tag=foreign
+15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00249,.2
 # text = Mikil hátíðahöld eru í Vestmannaeyjum og gefst heimafólki kostur á að skoða ferjuna síðdegis.
@@ -88,28 +92,30 @@
 
 # sent_id = GREYNIR_CORPUS_00249,.6
 # text = Sigurbergur Sveinsson átti afbragðsfínan leik fyrir ÍBV í dag ásamt í raun öllu liðinu.
-1	Sigurbergur Sveinsson	Sigurbergur Sveinsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
-2	átti	átti	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-3	afbragðsfínan	afbragðsfínan	ADJ	lo_et_þf_kk_fst_sb	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_þf_kk_fst_sb
-4	leik	leik	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk
-5	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	ÍBV	ÍBV	PROPN	entity_et_þf	Case=Acc|Number=Sing	2	obl	_	tag=entity_et_þf
-7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	dag	dag	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
-9	ásamt	ásamt	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	raun	raun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þgf_kvk
-12	öllu	öllu	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	13	amod	_	tag=lo_et_þgf_hk_vb
-13	liðinu	liðinu	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Sigurbergur Sveinsson	_	_	_	_	_	_	_	_
+1	Sigurbergur	Sigurbergur	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
+2	Sveinsson	Sveinsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+3	átti	átti	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+4	afbragðsfínan	afbragðsfínan	ADJ	lo_et_þf_kk_fst_sb	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_þf_kk_fst_sb
+5	leik	leik	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk
+6	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+7	ÍBV	ÍBV	PROPN	entity_et_þf	Case=Acc|Number=Sing	3	obl	_	tag=entity_et_þf
+8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+9	dag	dag	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	tag=no_et_þf_kk
+10	ásamt	ásamt	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	raun	raun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þgf_kvk
+13	öllu	öllu	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_þgf_hk_vb
+14	liðinu	liðinu	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00249,.7
 # text = Þetta hefði manni ekki dottið í hug að myndi gerast í vestrænum tónlistarheimi.
-1	Þetta	þetta	ADV	ao	_	0	root	_	tag=ao
+1	Þetta	þetta	ADV	ao	_	5	obj	_	tag=ao
 2	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_vh_p3_et_þt_gm
 3	manni	manni	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
 4	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
-5	dottið	detta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	conj	_	tag=so_0_sagnb_gm
+5	dottið	detta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	hug	hugur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
 8	að	að	SCONJ	st	_	9	mark	_	tag=st
@@ -118,7 +124,7 @@
 11	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	vestrænum	vestrænn	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_þgf_kk_sb
 13	tónlistarheimi	tónlistarheimur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
-14	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00249,.8
 # text = Þetta var þriðji sigur Holstebro í röð en liðið er í 3. sæti deildarinnar.

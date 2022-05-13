@@ -15,35 +15,41 @@
 
 # sent_id = GREYNIR_CORPUS_00377,.2
 # text = Þrátt fyrir frábæran leik Stjörnunnar í dag þá var leikur KA alls ekki góður.
-1	Þrátt fyrir	þrátt fyrir	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
-2	frábæran	frábær	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	tag=lo_et_þf_kk_sb
-3	leik	leika	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þf_kk
-4	Stjörnunnar	Stjarnan	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
-5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	advmod	_	tag=no_et_þf_kk
-7	þá	þá	ADV	ao	_	12	advmod	_	tag=ao
-8	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_þt_gm
-9	leikur	leikur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=no_et_nf_kk
-10	KA	KA	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	9	nmod:poss	_	tag=fyrirtæki_ef_hk
-11	alls ekki	alls ekki	ADV	eo	_	12	advmod	_	tag=eo
-12	góður	góður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
-13	.	.	PUNCT	grm	_	12	punct	_	tag=grm
+1-2	Þrátt fyrir	_	_	_	_	_	_	_	_
+1	Þrátt	þrátt	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
+2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	fixed	_	tag=fs_þf
+3	frábæran	frábær	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_þf_kk_sb
+4	leik	leika	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þf_kk
+5	Stjörnunnar	Stjarnan	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
+6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+7	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	advmod	_	tag=no_et_þf_kk
+8	þá	þá	ADV	ao	_	14	advmod	_	tag=ao
+9	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_þt_gm
+10	leikur	leikur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk
+11	KA	KA	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	10	nmod:poss	_	tag=fyrirtæki_ef_hk
+12-13	alls ekki	_	_	_	_	_	_	_	_
+12	alls	alls	ADV	eo	_	14	advmod	_	tag=eo
+13	ekki	ekki	ADV	eo	_	12	fixed	_	tag=eo
+14	góður	góður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
+15	.	.	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00377,.3
 # text = Leit Ocean Infinity hefst um miðjan mánuðinn og mun standa í níutíu daga.
-1	Leit	leit	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
-2	Ocean Infinity	Ocean Infinity	PROPN	entity	_	1	nmod:poss	_	tag=entity
-3	hefst	hefja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
-4	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-5	miðjan	miðja	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_þf_kk_sb
-6	mánuðinn	mánuður	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	advmod	_	tag=no_et_þf_kk_gr
-7	og	og	CCONJ	st	_	3	cc	_	tag=st
-8	mun	muna	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
-9	standa	stand	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	conj	_	tag=so_0_nh_gm
-10	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-11	níutíu	níutíu	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	12	nummod	_	tag=töl_ft_þf_kk
-12	daga	daga	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	9	advmod	_	SpaceAfter=No|tag=no_ft_þf_kk
-13	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+1	Leit	leit	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
+2-3	Ocean Infinity	_	_	_	_	_	_	_	_
+2	Ocean	Ocean	PROPN	entity	_	1	nmod:poss	_	tag=entity
+3	Infinity	Infinity	PROPN	entity	_	2	flat	_	tag=entity
+4	hefst	hefja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
+5	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+6	miðjan	miðja	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_þf_kk_sb
+7	mánuðinn	mánuður	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	advmod	_	tag=no_et_þf_kk_gr
+8	og	og	CCONJ	st	_	4	cc	_	tag=st
+9	mun	muna	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
+10	standa	stand	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	conj	_	tag=so_0_nh_gm
+11	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+12	níutíu	níutíu	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	13	nummod	_	tag=töl_ft_þf_kk
+13	daga	daga	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	10	advmod	_	SpaceAfter=No|tag=no_ft_þf_kk
+14	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00377,.4
 # text = Sænsk stjórnvöld lækkuðu virðisaukaskatt á bókum árið 2002 úr 25% niður í 6%.
@@ -53,13 +59,15 @@
 4	virðisaukaskatt	virðisaukaskattur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	bókum	bók	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_þgf_kvk
-7	árið 2002	árið 2002	ADV	ártal	_	3	advmod	_	tag=ártal
-8	úr	úr	ADP	fs_þgf	Case=Dat	9	dep	_	tag=fs_þgf
-9	25%	25%	X	prósenta_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=prósenta_ft_þgf_hk
-10	niður	niður	ADV	ao	_	12	advmod	_	tag=ao
-11	í	í	ADP	fs_þf	Case=Acc	12	dep	_	tag=fs_þf
-12	6%	6%	X	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|tag=prósenta_ft_þf_hk
-13	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+7-8	árið 2002	_	_	_	_	_	_	_	_
+7	árið	árið	ADV	ártal	_	3	advmod	_	tag=ártal
+8	2002	2002	NUM	ártal	_	7	flat	_	tag=ártal
+9	úr	úr	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+10	25%	25%	?	prósenta_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=prósenta_ft_þgf_hk
+11	niður	niður	ADV	ao	_	13	advmod	_	tag=ao
+12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+13	6%	6%	?	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|tag=prósenta_ft_þf_hk
+14	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00377,.5
 # text = Á staðnum er hægt að fá ýmsar nýstárlegar útgáfur af klassíska morgunkorninu.
@@ -100,30 +108,42 @@
 3	jukust	auka	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_ft_þt_mm
 4	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 5	rúma	rúmur	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_þf_kk_sb
-6	1,6 milljarða króna	1,6 milljarða króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_þf_kk
-7	milli	mill	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
-8	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_ef_hk
-9	og	og	CCONJ	st	_	3	cc	_	tag=st
-10	námu	nema	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þgf_fh_p3_ft_þt_gm
-11	36,3 milljörðum króna	36,3 milljörðum króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	10	obj	_	tag=no_ft_þgf_kk
-12	árið 2017	árið 2017	ADV	ártal	_	10	advmod	_	SpaceAfter=No|tag=ártal
-13	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+6-8	1,6 milljarða króna	_	_	_	_	_	_	_	_
+6	1,6	1,6	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_þf_kk
+7	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	flat	_	tag=no_ft_þf_kk
+8	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	flat	_	tag=no_ft_þf_kk
+9	milli	mill	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
+10	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_ef_hk
+11	og	og	CCONJ	st	_	3	cc	_	tag=st
+12	námu	nema	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þgf_fh_p3_ft_þt_gm
+13-15	36,3 milljörðum króna	_	_	_	_	_	_	_	_
+13	36,3	36,3	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	12	obj	_	tag=no_ft_þgf_kk
+14	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	flat	_	tag=no_ft_þgf_kk
+15	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	flat	_	tag=no_ft_þgf_kk
+16-17	árið 2017	_	_	_	_	_	_	_	_
+16	árið	árið	ADV	ártal	_	12	advmod	_	SpaceAfter=No|tag=ártal
+17	2017	2017	NUM	ártal	_	16	flat	_	SpaceAfter=No|tag=ártal
+18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00377,.8
 # text = The Gate er fyrsta lagið af næstu plötu Bjarkar sem væntanleg er á næstunni.
-1	The Gate	The Gate	PROPN	entity	_	4	nsubj	_	tag=entity
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-3	fyrsta	fyrstur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_nf_hk_vb
-4	lagið	lag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk_gr
-5	af	af	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-6	næstu	næstur	ADJ	lo_et_þgf_kvk_evb	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	7	amod	_	tag=lo_et_þgf_kvk_evb
-7	plötu	plata	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk
-8	Bjarkar	Bjarkar	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	7	nmod:poss	_	tag=person_ef_kvk
-9	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
-10	væntanleg	væntanlegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	11	xcomp	_	tag=lo_et_nf_kvk_sb
-11	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-12	á næstunni	á næstunni	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
-13	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+1-2	The Gate	_	_	_	_	_	_	_	_
+1	The	The	PROPN	entity	_	5	nsubj	_	tag=entity
+2	Gate	Gate	PROPN	entity	_	1	flat	_	tag=entity
+3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	fyrsta	fyrstur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_nf_hk_vb
+5	lagið	lag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk_gr
+6	af	af	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+7	næstu	næstur	ADJ	lo_et_þgf_kvk_evb	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	8	amod	_	tag=lo_et_þgf_kvk_evb
+8	plötu	plata	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk
+9	Bjarkar	Bjarkar	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	8	nmod:poss	_	tag=person_ef_kvk
+10	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
+11	væntanleg	væntanlegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	12	xcomp	_	tag=lo_et_nf_kvk_sb
+12	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+13-14	á næstunni	_	_	_	_	_	_	_	_
+13	á	á	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
+14	næstunni	næstunni	ADV	ao	_	13	fixed	_	SpaceAfter=No|tag=ao
+15	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00377,.9
 # text = Sigurlás lætur eftir sig eiginkonu, fimm uppkomin börn og fjögur barnabörn.
@@ -141,8 +161,6 @@
 12	barnabörn	barnabarn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	conj	_	SpaceAfter=No|tag=no_ft_þf_hk
 13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00377,.10
-# text = Önnur brot hafa varðað harkalegra meðferð og í einu tilviki meintan þjófnað.
 1	Önnur	annar	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	nmod	_	tag=fn_ft_nf_hk
 2	brot	brot	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
 3	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_ft_nt_gm
@@ -154,6 +172,6 @@
 9	einu	einn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	tag=fn_et_þgf_hk
 10	tilviki	tilvik	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
 11	meintan	meintur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_þf_kk_sb
-12	þjófnað	þjófnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|tag=no_et_þf_kk
+12	þjófnað	þjófnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	tag=no_et_þf_kk
 13	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 

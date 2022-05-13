@@ -1,17 +1,21 @@
 # sent_id = GREYNIR_CORPUS_00393,.1
-# text = Tekjur Íslendinga : Meðlimir Of Monsters and Men raða sér í efstu sæti tekjuhæstu listamannanna
-1	Tekjur	tekja	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	tag=no_ft_nf_kvk
+# text = Tekjur Íslendinga: Meðlimir Of Monsters and Men raða sér í efstu sæti tekjuhæstu listamannanna
+1	Tekjur	tekja	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	9	conj	_	tag=no_ft_nf_kvk
 2	Íslendinga	Íslendingur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	1	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
 3	:	:	PUNCT	grm	_	2	punct	_	tag=grm
-4	Meðlimir	meðlimur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	tag=no_ft_nf_kk
-5	Of Monsters and Men	Of Monsters and Men	PROPN	fyrirtæki	_	4	nmod:poss	_	tag=fyrirtæki
-6	raða	raða	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_ft_nt_gm
-7	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	6	obj	_	tag=abfn_þgf
-8	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-9	efstu	efri	ADJ	lo_ft_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur	10	amod	_	tag=lo_ft_þf_hk_evb
-10	sæti	sæti	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_þf_hk
-11	tekjuhæstu	tekjuhár	ADJ	lo_ft_ef_kk_evb	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	12	amod	_	tag=lo_ft_ef_kk_evb
-12	listamannanna	listamaður	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	nmod:poss	_	tag=no_ft_ef_kk_gr
+4	Meðlimir	meðlimur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	tag=no_ft_nf_kk
+5-8	Of Monsters and Men	_	_	_	_	_	_	_	_
+5	Of	Of	PROPN	fyrirtæki	_	4	nmod:poss	_	tag=fyrirtæki
+6	Monsters	Monsters	PROPN	fyrirtæki	_	5	flat	_	tag=fyrirtæki
+7	and	and	PROPN	fyrirtæki	_	5	flat	_	tag=fyrirtæki
+8	Men	Men	PROPN	fyrirtæki	_	5	flat	_	tag=fyrirtæki
+9	raða	raða	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_ft_nt_gm
+10	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	9	obj	_	tag=abfn_þgf
+11	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+12	efstu	efri	ADJ	lo_ft_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur	13	amod	_	tag=lo_ft_þf_hk_evb
+13	sæti	sæti	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_þf_hk
+14	tekjuhæstu	tekjuhár	ADJ	lo_ft_ef_kk_evb	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	15	amod	_	tag=lo_ft_ef_kk_evb
+15	listamannanna	listamaður	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	13	nmod:poss	_	tag=no_ft_ef_kk_gr
 
 # sent_id = GREYNIR_CORPUS_00393,.2
 # text = Nyrsti þriðjungur eyjarinnar er byggður fólki af tyrkneskum uppruna en syðri hlutinn grískumælandi fólki.
@@ -86,19 +90,22 @@
 
 # sent_id = GREYNIR_CORPUS_00393,.6
 # text = Hafa mannréttindasamtökin Human Rights Watch sakað lögreglu um að beita óhóflegu valdi gegn mótmælendum.
-1	Hafa	hafa	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
+1	Hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_ft_nt_gm
 2	mannréttindasamtökin	mannréttinda-samtök	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_nf_hk_gr
-3	Human Rights Watch	Human Rights Watch	PROPN	fyrirtæki	_	4	nsubj	_	tag=fyrirtæki
-4	sakað	saka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	1	conj	_	tag=so_1_þf_sagnb_gm
-5	lögreglu	lögregla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	tag=no_et_þf_kvk
-6	um	um	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
-7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	beita	beita	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	4	obl	_	tag=so_1_þgf_nh_gm
-9	óhóflegu	óhóflegur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_þgf_hk_sb
-10	valdi	vald	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þgf_hk
-11	gegn	gegn	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	mótmælendum	mótmælandi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
-13	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+3-5	Human Rights Watch	_	_	_	_	_	_	_	_
+3	Human	Human	PROPN	fyrirtæki	_	6	nsubj	_	tag=fyrirtæki
+4	Rights	Rights	PROPN	fyrirtæki	_	3	flat	_	tag=fyrirtæki
+5	Watch	Watch	PROPN	fyrirtæki	_	3	flat	_	tag=fyrirtæki
+6	sakað	saka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
+7	lögreglu	lögregla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þf_kvk
+8	um	um	ADP	fs_nh	VerbForm=Inf	10	case	_	tag=fs_nh
+9	að	að	PART	nhm	_	10	mark	_	tag=nhm
+10	beita	beita	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	6	obl	_	tag=so_1_þgf_nh_gm
+11	óhóflegu	óhóflegur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_þgf_hk_sb
+12	valdi	vald	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obj	_	tag=no_et_þgf_hk
+13	gegn	gegn	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	mótmælendum	mótmælandi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
+15	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00393,.7
 # text = Þá hafi sakborningar ekki notið þess réttar sem þeim hafi borið samkvæmt meginreglum réttarríkisins.
@@ -152,8 +159,6 @@
 14	víst	vís	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=lo_et_þf_hk_sb
 15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00393,.10
-# text = Það er verið að athuga hvað er hægt að gera með það traust.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
 2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
@@ -166,6 +171,6 @@
 10	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
 11	með	með	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 12	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	tag=fn_et_þf_hk
-13	traust	traust	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þf_hk
+13	traust	traust	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þf_hk
 14	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

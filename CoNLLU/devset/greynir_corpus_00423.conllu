@@ -42,25 +42,29 @@
 
 # sent_id = GREYNIR_CORPUS_00423,.3
 # text = Um 17 milljónir Jemena eru án matar, þar af er hætta á að hungursneyð nái til um sjö milljóna.
-1	Um	um	ADV	eo	_	3	advmod	_	tag=eo
-2	17 milljónir	17 milljónir	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	nummod	_	tag=töl_ft_nf_kvk
-3	Jemena	Jemeni	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_ef_kk
-4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
-5	án	án	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
-6	matar	matur	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_ef_hk
-7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	þar	þar	ADV	ao	_	10	advmod	_	tag=ao
-9	af	af	ADV	ao	_	8	advmod	_	tag=ao
-10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
-11	hætta	hætta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	tag=no_et_nf_kvk
-12	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	að	að	SCONJ	st	_	10	obl	_	tag=st
-14	hungursneyð	hungursneyð	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	tag=no_et_nf_kvk
-15	nái	ná	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	obl	_	tag=so_0_vh_p3_et_nt_gm
-16	til	til	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
-17	um	um	ADV	ao	_	15	obl	_	tag=ao
-18	sjö milljóna	sjö milljónir	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	17	nummod	_	SpaceAfter=No|tag=töl_ft_ef_kvk
-19	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+1	Um	um	ADV	eo	_	4	advmod	_	tag=eo
+2-3	17 milljónir	_	_	_	_	_	_	_	_
+2	17	17	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	nummod	_	tag=töl_ft_nf_kvk
+3	milljónir	milljónir	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	_	_	tag=töl_ft_nf_kvk
+4	Jemena	Jemeni	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_ef_kk
+5	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
+6	án	án	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
+7	matar	matur	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_ef_hk
+8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
+9	þar	þar	ADV	ao	_	11	advmod	_	tag=ao
+10	af	af	ADV	ao	_	9	advmod	_	tag=ao
+11	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+12	hætta	hætta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_nf_kvk
+13	á	á	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+14	að	að	SCONJ	st	_	11	obl	_	tag=st
+15	hungursneyð	hungursneyð	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	tag=no_et_nf_kvk
+16	nái	ná	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	obl	_	tag=so_0_vh_p3_et_nt_gm
+17	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
+18	um	um	ADV	ao	_	16	obl	_	tag=ao
+19-20	sjö milljóna	_	_	_	_	_	_	_	_
+19	sjö	sjö	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	18	nummod	_	SpaceAfter=No|tag=töl_ft_ef_kvk
+20	milljóna	milljónir	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	19	_	_	SpaceAfter=No|tag=töl_ft_ef_kvk
+21	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00423,.4
 # text = Þá viðurkenndi hann að hafa verið með svokallað blackface sem hluti af Michael Jackson búningi sama ár.
@@ -75,12 +79,14 @@
 9	blackface	blackface	X	foreign	_	8	flat:foreign	_	tag=foreign
 10	sem	sem	SCONJ	st	_	11	mark	_	tag=st
 11	hluti	hluti	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	advcl	_	tag=no_et_þf_kk
-12	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-13	Michael Jackson	Michael Jackson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	nmod:poss	_	tag=person_ef_kk
-14	búningi	búningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þgf_kk
-15	sama	sama	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	tag=fn_et_þf_hk
-16	ár	á	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
-17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+12	af	af	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+13-14	Michael Jackson	_	_	_	_	_	_	_	_
+13	Michael	Michael	PROPN	person_ef_kk	Case=Gen|Gender=Masc	15	nmod:poss	_	tag=person_ef_kk
+14	Jackson	Jackson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	flat	_	tag=person_ef_kk
+15	búningi	búningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þgf_kk
+16	sama	sama	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	tag=fn_et_þf_hk
+17	ár	á	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
+18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00423,.5
 # text = Lögreglan í Borgarnesi hefur engar upplýsingar geta veitt um málið þar sem verið er að vinna á vettvangi.
@@ -113,19 +119,21 @@
 5	sæti	sitja	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 6	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	leikinn	leikur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk_gr
-8	í kvöld	í kvöld	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
-10	þremur	þrír	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	nummod	_	tag=to_ft_þgf_kk
-11	stigum	stig	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_þgf_kk
-12	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-13	eftir	eftir	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-14	Fram	Fram	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_hk
-15	,	,	PUNCT	grm	_	14	punct	_	tag=grm
-16	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
-17	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-18	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19	toppnum	toppur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
-20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+8-9	í kvöld	_	_	_	_	_	_	_	_
+8	í	í	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
+9	kvöld	kvöld	ADV	ao	_	8	fixed	_	SpaceAfter=No|tag=ao
+10	,	,	PUNCT	grm	_	2	punct	_	tag=grm
+11	þremur	þrír	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	12	nummod	_	tag=to_ft_þgf_kk
+12	stigum	stig	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_þgf_kk
+13	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+14	eftir	eftir	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+15	Fram	Fram	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_hk
+16	,	,	PUNCT	grm	_	15	punct	_	tag=grm
+17	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
+18	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+19	á	á	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+20	toppnum	toppur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
+21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00423,.7
 # text = Íþróttabandalag Reykjavíkur stendur ásamt öðrum fyrir ráðstefnunni, en hún fer fram miðvikudaginn 30. janúar í Háskólanum í Reykjavík.
@@ -142,12 +150,14 @@
 11	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 12	fram	fram	ADV	ao	_	11	advmod	_	tag=ao
 13	miðvikudaginn	miðvikudagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þf_kk_gr
-14	30. janúar	30. janúar	ADV	dagsafs	_	11	advmod	_	tag=dagsafs
-15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	Háskólanum	háskóli	PROPN	fyrirtæki_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	tag=fyrirtæki_et_þgf_kk_gr
-17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18	Reykjavík	Reykjavík	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
-19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+14-15	30. janúar	_	_	_	_	_	_	_	_
+14	30.	30.	ADV	dagsafs	_	11	advmod	_	tag=dagsafs
+15	janúar	janúar	NUM?	dagsafs	_	14	flat	_	tag=dagsafs
+16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	Háskólanum	háskóli	PROPN	fyrirtæki_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	tag=fyrirtæki_et_þgf_kk_gr
+18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+19	Reykjavík	Reykjavík	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
+20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00423,.8
 # text = Þá sagði hún þau Mnuchin leggja meira til samfélagsins en Miller, þar sem að þau væru efnaðri.
@@ -178,39 +188,44 @@
 3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	með	með	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	henni	hún	PRON	pfn_et_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þgf_kvk_p3
-6	á meðan	á meðan	SCONJ	st	_	8	mark	_	tag=st
-7	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_p1
-8	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	advcl	_	tag=so_0_fh_p1_et_nt_gm
-9	hér	hér	ADV	ao	_	8	advmod	_	tag=ao
-10	að	að	PART	nhm	_	11	mark	_	tag=nhm
-11	reyna	reyna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
-12	að	að	PART	nhm	_	13	mark	_	tag=nhm
-13	vekja	vekja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	xcomp	_	tag=so_1_þf_nh_gm
-14	athygli	athygli	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	tag=no_et_þf_kvk
-15	á	á	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-16	góðum	góði	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	17	amod	_	tag=lo_et_þgf_kk_sb
-17	málstað	málstaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
-18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+6-7	á meðan	_	_	_	_	_	_	_	_
+6	á	á	SCONJ	st	_	9	mark	_	tag=st
+7	meðan	meðan	SCONJ	st	_	6	_	_	tag=st
+8	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_p1
+9	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	advcl	_	tag=so_0_fh_p1_et_nt_gm
+10	hér	hér	ADV	ao	_	9	advmod	_	tag=ao
+11	að	að	PART	nhm	_	12	mark	_	tag=nhm
+12	reyna	reyna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_0_nh_gm
+13	að	að	PART	nhm	_	14	mark	_	tag=nhm
+14	vekja	vekja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_1_þf_nh_gm
+15	athygli	athygli	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	tag=no_et_þf_kvk
+16	á	á	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+17	góðum	góði	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	18	amod	_	tag=lo_et_þgf_kk_sb
+18	málstað	málstaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
+19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00423,.10
-# text = Eygló Ósk Gústafsdóttir vann til silfurverðlauna í öllum baksundsgreinunum, en hin ungverska Katinka Hoszu vann gull í öllum greinunum þremur.
-1	Eygló Ósk Gústafsdóttir	Eygló Ósk Gústafsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
-2	vann	vinna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-3	til	til	ADP	fs_ef	Case=Gen	4	case	_	tag=fs_ef
-4	silfurverðlauna	silfur-verðlaun	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_ef_hk
-5	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-6	öllum	allur	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	tag=fn_ft_þgf_kvk
-7	baksundsgreinunum	baksunds-grein	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk_gr
-8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	en	en	CCONJ	st	_	2	cc	_	tag=st
-10	hin	hinn	DET	gr_et_nf_kvk	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	det	_	tag=gr_et_nf_kvk
-11	ungverska	ungverska	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	tag=lo_et_nf_kvk_vb
-12	Katinka Hoszu	Katinka Hoszu	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	13	nsubj	_	tag=person_nf_kvk
-13	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-14	gull	gull	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	tag=no_et_þf_hk
-15	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-16	öllum	allur	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	nmod	_	tag=fn_ft_þgf_kvk
-17	greinunum	grein	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	14	obl	_	tag=no_ft_þgf_kvk_gr
-18	þremur	þrír	NUM	to_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	nummod	_	SpaceAfter=No|tag=to_ft_þgf_kvk
-19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Eygló Ósk Gústafsdóttir	_	_	_	_	_	_	_	_
+1	Eygló	Eygló	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
+2	Ósk	Ósk	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+3	Gústafsdóttir	Gústafsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+4	vann	vinna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+5	til	til	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
+6	silfurverðlauna	silfur-verðlaun	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_ef_hk
+7	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+8	öllum	allur	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	tag=fn_ft_þgf_kvk
+9	baksundsgreinunum	baksunds-grein	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_þgf_kvk_gr
+10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
+11	en	en	CCONJ	st	_	4	cc	_	tag=st
+12	hin	hinn	DET	gr_et_nf_kvk	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	det	_	tag=gr_et_nf_kvk
+13	ungverska	ungverska	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_nf_kvk_vb
+14-15	Katinka Hoszu	_	_	_	_	_	_	_	_
+14	Katinka	Katinka	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	16	nsubj	_	tag=person_nf_kvk
+15	Hoszu	Hoszu	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	flat	_	tag=person_nf_kvk
+16	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+17	gull	gull	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=no_et_þf_hk
+18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+19	öllum	allur	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	20	nmod	_	tag=fn_ft_þgf_kvk
+20	greinunum	grein	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	17	obl	_	tag=no_ft_þgf_kvk_gr
+21	þremur	þrír	NUM	to_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	20	nummod	_	tag=to_ft_þgf_kvk
+22	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 

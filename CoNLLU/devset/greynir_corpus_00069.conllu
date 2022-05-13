@@ -26,25 +26,30 @@
 7	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
 8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	Reykjanesbraut	Reykjanesbraut	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_kvk
-10	á móts við	á móts við	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-11	kirkjugarðinn	kirkjugarður	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+10-12	á móts við	_	_	_	_	_	_	_	_
+10	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+11	móts	móts	ADP	fs_þf	Case=Acc	10	fixed	_	tag=fs_þf
+12	við	við	ADP	fs_þf	Case=Acc	10	fixed	_	tag=fs_þf
+13	kirkjugarðinn	kirkjugarður	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
+14	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00069,.3
 # text = Nú lýsir Erdogan hins vegar leiðtogum í Þýskalandi og Hollandi sem vinum sínum.
 1	Nú	nú	ADV	ao	_	2	advmod	_	tag=ao
 2	lýsir	lýsa	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 3	Erdogan	Erdogan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
-4	hins vegar	hins vegar	ADV	ao	_	2	advmod	_	tag=ao
-5	leiðtogum	leiðtogi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obj	_	tag=no_ft_þgf_kk
-6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	Þýskalandi	Þýskaland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_hk
-8	og	og	CCONJ	st	_	9	cc	_	tag=st
-9	Hollandi	Holland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	conj	_	tag=sérnafn_et_þgf_hk
-10	sem	sem	SCONJ	st	_	11	mark	_	tag=st
-11	vinum	vinur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	advcl	_	tag=no_ft_þgf_kk
-12	sínum	sinn	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No|tag=fn_ft_þgf_kk
-13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+4-5	hins vegar	_	_	_	_	_	_	_	_
+4	hins	hins	ADV	ao	_	2	advmod	_	tag=ao
+5	vegar	vegar	ADV	ao	_	4	fixed	_	tag=ao
+6	leiðtogum	leiðtogi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obj	_	tag=no_ft_þgf_kk
+7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	Þýskalandi	Þýskaland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=sérnafn_et_þgf_hk
+9	og	og	CCONJ	st	_	10	cc	_	tag=st
+10	Hollandi	Holland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	conj	_	tag=sérnafn_et_þgf_hk
+11	sem	sem	SCONJ	st	_	12	mark	_	tag=st
+12	vinum	vinur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	advcl	_	tag=no_ft_þgf_kk
+13	sínum	sinn	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No|tag=fn_ft_þgf_kk
+14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00069,.4
 # text = Þar eru sjónarmið uppi og fólk vill taka umræðuna upp úr skotgröfunum.
@@ -57,9 +62,11 @@
 7	vill	vilja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 8	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	conj	_	tag=so_1_þf_nh_gm
 9	umræðuna	umræða	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	tag=no_et_þf_kvk_gr
-10	upp úr	upp úr	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	skotgröfunum	skotgröf	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk_gr
-12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+10-11	upp úr	_	_	_	_	_	_	_	_
+10	upp	upp	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+11	úr	úr	ADP	fs_þgf	Case=Dat	10	fixed	_	tag=fs_þgf
+12	skotgröfunum	skotgröf	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk_gr
+13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00069,.5
 # text = Einhverjir unni líka rauða dregilinn þar sem fataval gesta var fjölbreytt að venju.
@@ -114,18 +121,22 @@
 
 # sent_id = GREYNIR_CORPUS_00069,.8
 # text = Norðfjarðargöng eru 7,5 km löng og vegskálar beggja megin eru alls 342 m.
-1	Norðfjarðargöng	Norðfjarðargöng	PROPN	sérnafn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=sérnafn_ft_nf_hk
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
-3	7,5 km	7,5 km	X	mælieining	_	4	dep	_	tag=mælieining
-4	löng	langur	ADJ	lo_ft_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_fst_sb
-5	og	og	CCONJ	st	_	4	cc	_	tag=st
-6	vegskálar	vegskáli	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	tag=no_ft_nf_kk
-7	beggja	báðir	PRON	fn_ft_ef	Case=Gen|Number=Plur	8	nmod	_	tag=fn_ft_ef
-8	megin	megin	ADV	ao	_	10	advmod	_	tag=ao
-9	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_ft_nt_gm
-10	alls	alls	ADV	eo	_	4	conj	_	tag=eo
-11	342 m	342 m	X	mælieining	_	10	('HALLÓ_mælieining', None, 'NP', 'PRD')	_	SpaceAfter=No|tag=mælieining
-12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+1	Norðfjarðargöng	Norðfjarðargöng	PROPN	sérnafn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	tag=sérnafn_ft_nf_hk
+2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_nt_gm
+3-4	7,5 km	_	_	_	_	_	_	_	_
+3	7,5	7,5	?	mælieining	_	5	obl	_	tag=mælieining
+4	km	km	?	mælieining	_	3	_	_	tag=mælieining
+5	löng	langur	ADJ	lo_ft_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_fst_sb
+6	og	og	CCONJ	st	_	5	cc	_	tag=st
+7	vegskálar	vegskáli	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	tag=no_ft_nf_kk
+8	beggja	báðir	PRON	fn_ft_ef	Case=Gen|Number=Plur	9	nmod	_	tag=fn_ft_ef
+9	megin	megin	ADV	ao	_	11	advmod	_	tag=ao
+10	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_ft_nt_gm
+11	alls	alls	ADV	eo	_	5	conj	_	tag=eo
+12-13	342 m	_	_	_	_	_	_	_	_
+12	342	342	?	mælieining	_	11	('HALLÓ_mælieining', None, 'NP', 'PRD')	_	SpaceAfter=No|tag=mælieining
+13	m	m	?	mælieining	_	12	_	_	SpaceAfter=No|tag=mælieining
+14	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00069,.9
 # text = Birkir er í rauninni fyrsti Íslendingurinn sem ég hef fengið að kynnast vel.

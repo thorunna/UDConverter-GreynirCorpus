@@ -1,29 +1,34 @@
 # sent_id = GREYNIR_CORPUS_00312,.1
 # text = DiGenova þessi hefur meðal annars sakað FBI og dómsmálaráðuneytið um að hafa komið sök á Trump, að því er segir í frétt New York Times.
-1	DiGenova	DiGenova	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_et_nf_kk
+1	DiGenova	DiGenova	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=person_et_nf_kk
 2	þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	tag=fn_et_nf_kk
-3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-4	meðal annars	meðal annars	ADV	ao	_	5	advmod	_	tag=ao
-5	sakað	saka	VERB	so_0_sagnb	VerbForm=Sup	0	root	_	tag=so_0_sagnb
-6	FBI	FBI	PROPN	entity_et_þf	Case=Acc|Number=Sing	5	obj	_	tag=entity_et_þf
-7	og	og	CCONJ	st	_	8	cc	_	tag=st
-8	dómsmálaráðuneytið	dómsmálaráðuneyti	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	conj	_	tag=no_et_þf_hk_gr
-9	um	um	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-10	að	að	PART	nhm	_	12	mark	_	tag=nhm
-11	hafa	hafa	AUX	so_0_nh	VerbForm=Inf	12	aux	_	tag=so_0_nh
-12	komið	komið	VERB	so_0_sagnb	VerbForm=Sup	5	obl	_	tag=so_0_sagnb
-13	sök	sök	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk
-14	á	á	ADP	fs	_	15	case	_	tag=fs
-15	Trump	Trump	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|tag=person_et_þf_kk
-16	,	,	PUNCT	grm	_	15	punct	_	tag=grm
-17	að	að	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18	því	því	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
-19	er	er	SCONJ	stt	_	20	mark	_	tag=stt
-20	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-22	frétt	frétt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þgf_kvk
-23	New York Times	New York Times	PROPN	entity_et_ef	Case=Gen|Number=Sing	22	nmod:poss	_	SpaceAfter=No|tag=entity_et_ef
-24	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
+4-5	meðal annars	_	_	_	_	_	_	_	_
+4	meðal	meðal	ADV	ao	_	6	advmod	_	tag=ao
+5	annars	annars	ADV	ao	_	4	fixed	_	tag=ao
+6	sakað	saka	VERB	so_0_sagnb	VerbForm=Sup	0	root	_	tag=so_0_sagnb
+7	FBI	FBI	PROPN	entity_et_þf	Case=Acc|Number=Sing	6	obj	_	tag=entity_et_þf
+8	og	og	CCONJ	st	_	9	cc	_	tag=st
+9	dómsmálaráðuneytið	dómsmálaráðuneyti	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	7	conj	_	tag=no_et_þf_hk_gr
+10	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+11	að	að	PART	nhm	_	13	mark	_	tag=nhm
+12	hafa	hafa	AUX	so_0_nh	VerbForm=Inf	13	aux	_	tag=so_0_nh
+13	komið	komið	VERB	so_0_sagnb	VerbForm=Sup	6	obl	_	tag=so_0_sagnb
+14	sök	sök	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þgf_kvk
+15	á	á	ADP	fs	_	16	case	_	tag=fs
+16	Trump	Trump	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=person_et_þf_kk
+17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
+18	að	að	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+19	því	því	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
+20	er	er	SCONJ	stt	_	21	mark	_	tag=stt
+21	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
+23	frétt	frétt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	tag=no_et_þgf_kvk
+24-26	New York Times	_	_	_	_	_	_	_	_
+24	New	New	PROPN	entity_et_ef	Case=Gen|Number=Sing	23	nmod:poss	_	SpaceAfter=No|tag=entity_et_ef
+25	York	York	PROPN	entity_et_ef	Case=Gen|Number=Sing	24	flat	_	SpaceAfter=No|tag=entity_et_ef
+26	Times	Times	PROPN	entity_et_ef	Case=Gen|Number=Sing	24	flat	_	SpaceAfter=No|tag=entity_et_ef
+27	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00312,.2
 # text = Búast má við hviðum allt að 40 m s undir Eyjafjöllum annað kvöld, að því er fram kemur í athugasemd vakthafandi veðurfræðings Veðurstofu Íslands.
@@ -33,28 +38,30 @@
 4	hviðum	hviða	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	tag=no_ft_þgf_kvk
 5	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nmod	_	tag=fn_et_nf_hk
 6	að	að	ADV	ao	_	7	advmod	_	tag=ao
-7	40 m	40 m	X	mælieining	_	4	obl	_	tag=mælieining
-8	s	s	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	conj	_	tag=no_et_ef_hk
-9	undir	undir	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	Eyjafjöllum	Eyjafjöll	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þgf_hk
-11	annað	annar	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	tag=fn_et_þf_hk
-12	kvöld	kvöld	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	1	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
-13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
-14	að	að	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=fn_et_þgf_hk
-16	er	er	SCONJ	stt	_	18	mark	_	tag=stt
-17	fram	fram	ADV	ao	_	18	advmod	_	tag=ao
-18	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-19	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	athugasemd	athugasemd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_þf_kvk
-21	vakthafandi	vakthafandi	ADJ	lo_et_ef_kk_sb	Case=Gen|Gender=Masc|Number=Sing	22	amod	_	tag=lo_et_ef_kk_sb
-22	veðurfræðings	veðurfræðingur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	20	nmod:poss	_	tag=no_et_ef_kk
-23	Veðurstofu	veðurstofa	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	22	nmod:poss	_	tag=no_et_ef_kvk
-24	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	23	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
-25	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+7-8	40 m	_	_	_	_	_	_	_	_
+7	40	40	?	mælieining	_	4	obl	_	tag=mælieining
+8	m	m	?	mælieining	_	7	_	_	tag=mælieining
+9	s	s	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	conj	_	tag=no_et_ef_hk
+10	undir	undir	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	Eyjafjöllum	Eyjafjöll	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þgf_hk
+12	annað	annar	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	tag=fn_et_þf_hk
+13	kvöld	kvöld	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	1	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
+14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
+15	að	að	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+16	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=fn_et_þgf_hk
+17	er	er	SCONJ	stt	_	19	mark	_	tag=stt
+18	fram	fram	ADV	ao	_	19	advmod	_	tag=ao
+19	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+20	í	í	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
+21	athugasemd	athugasemd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þf_kvk
+22	vakthafandi	vakthafandi	ADJ	lo_et_ef_kk_sb	Case=Gen|Gender=Masc|Number=Sing	23	amod	_	tag=lo_et_ef_kk_sb
+23	veðurfræðings	veðurfræðingur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	21	nmod:poss	_	tag=no_et_ef_kk
+24	Veðurstofu	veðurstofa	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	23	nmod:poss	_	tag=no_et_ef_kvk
+25	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	24	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
+26	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00312,.3
-# text = Nýju kremaugnskuggarnir Paperlight eru sérlega léttir, mjúkir og langvarandi og standa tveir litir upp úr að mínu mati : Sango Coral og Usuzumi Beige Grey.
+# text = Nýju kremaugnskuggarnir Paperlight eru sérlega léttir, mjúkir og langvarandi og standa tveir litir upp úr að mínu mati: Sango Coral og Usuzumi Beige Grey.
 1	Nýju	Nýju	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_vb
 2	kremaugnskuggarnir	kremaugnskuggarnir	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_nf_kk_gr
 3	Paperlight	Paperlight	PROPN	entity_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=entity_et_nf_kk
@@ -69,42 +76,54 @@
 12	standa	standa	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_nt_gm
 13	tveir	tveir	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	14	amod	_	tag=lo_ft_nf_kk_sb
 14	litir	litir	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	tag=no_ft_nf_kk
-15	upp úr	upp úr	ADV	ao	_	12	advmod	_	tag=ao
-16	að	að	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-17	mínu	mínu	PRON	fn_et_þf	Case=Acc|Number=Sing	18	nmod	_	tag=fn_et_þf
-18	mati	mati	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-19	:	:	PUNCT	grm	_	18	punct	_	tag=grm
-20	Sango Coral	Sango Coral	PROPN	entity_et_nf	Case=Nom|Number=Sing	12	obl	_	tag=entity_et_nf
-21	og	og	CCONJ	st	_	22	cc	_	tag=st
-22	Usuzumi Beige Grey	Usuzumi Beige Grey	PROPN	entity_et_nf	Case=Nom|Number=Sing	20	conj	_	SpaceAfter=No|tag=entity_et_nf
-23	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+15-16	upp úr	_	_	_	_	_	_	_	_
+15	upp	upp	ADV	ao	_	12	advmod	_	tag=ao
+16	úr	úr	ADV	ao	_	15	fixed	_	tag=ao
+17	að	að	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+18	mínu	mínu	PRON	fn_et_þf	Case=Acc|Number=Sing	19	nmod	_	tag=fn_et_þf
+19	mati	mati	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þf_hk
+20	:	:	PUNCT	grm	_	19	punct	_	tag=grm
+21-22	Sango Coral	_	_	_	_	_	_	_	_
+21	Sango	Sango	PROPN	entity_et_nf	Case=Nom|Number=Sing	12	obl	_	tag=entity_et_nf
+22	Coral	Coral	PROPN	entity_et_nf	Case=Nom|Number=Sing	21	flat	_	tag=entity_et_nf
+23	og	og	CCONJ	st	_	21	cc	_	tag=st
+24-26	Usuzumi Beige Grey	_	_	_	_	_	_	_	_
+24	Usuzumi	Usuzumi	PROPN	entity_et_nf	Case=Nom|Number=Sing	21	conj	_	SpaceAfter=No|tag=entity_et_nf
+25	Beige	Beige	PROPN	entity_et_nf	Case=Nom|Number=Sing	24	flat	_	SpaceAfter=No|tag=entity_et_nf
+26	Grey	Grey	PROPN	entity_et_nf	Case=Nom|Number=Sing	24	flat	_	SpaceAfter=No|tag=entity_et_nf
+27	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00312,.4
 # text = Þessi lýsing E. Jean Carroll, bandarísks rithöfundar og blaðamanns, á kynnum sínum af Donald Trump Bandaríkjaforseta hefur að vonum vakið mikla athygli og reiði.
 1	Þessi	þessi	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	tag=fn_et_nf_kvk
-2	lýsing	lýsing	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	tag=no_et_nf_kvk
-3	E. Jean Carroll	E. Jean Carroll	PROPN	person	_	2	nmod:poss	_	SpaceAfter=No|tag=person
-4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-5	bandarísks	bandarískur	ADJ	lo_et_ef_kk_sb	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	tag=lo_et_ef_kk_sb
-6	rithöfundar	rithöfundur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_ef_kk
-7	og	og	CCONJ	st	_	3	cc	_	tag=st
-8	blaðamanns	blaðamaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|tag=no_et_ef_kk
-9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
-10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	kynnum	kynni	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
-12	sínum	sinn	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	nmod	_	tag=fn_ft_þgf_hk
-13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	Donald Trump	Donald Trump	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	11	obl	_	tag=person_þgf_kk
-15	Bandaríkjaforseta	Bandaríkjaforseti	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_ef_kk
-16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_fh_p3_et_nt_gm
-17	að	að	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18	vonum	von	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	tag=no_ft_þgf_kvk
-19	vakið	vekja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
-20	mikla	mikill	ADJ	lo_et_þf_kk_vb	Case=Acc|Gender=Masc|Number=Sing	21	amod	_	tag=lo_et_þf_kk_vb
-21	athygli	athygli	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	tag=no_et_þf_kk
-22	og	og	CCONJ	st	_	19	cc	_	tag=st
-23	reiði	reiði	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
-24	.	_	PUNCT	grm	_	19	punct	_	tag=grm
+2	lýsing	lýsing	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	tag=no_et_nf_kvk
+3-5	E. Jean Carroll	_	_	_	_	_	_	_	_
+3	E.	E.	PROPN	person	_	2	nmod:poss	_	SpaceAfter=No|tag=person
+4	Jean	Jean	PROPN	person	_	3	flat	_	SpaceAfter=No|tag=person
+5	Carroll	Carroll	PROPN	person	_	3	flat	_	SpaceAfter=No|tag=person
+6	,	_	PUNCT	grm	_	3	punct	_	tag=grm
+7	bandarísks	bandarískur	ADJ	lo_et_ef_kk_sb	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	tag=lo_et_ef_kk_sb
+8	rithöfundar	rithöfundur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_ef_kk
+9	og	og	CCONJ	st	_	3	cc	_	tag=st
+10	blaðamanns	blaðamaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|tag=no_et_ef_kk
+11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
+12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	kynnum	kynni	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
+14	sínum	sinn	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	nmod	_	tag=fn_ft_þgf_hk
+15	af	af	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+16-17	Donald Trump	_	_	_	_	_	_	_	_
+16	Donald	Donald	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	13	obl	_	tag=person_þgf_kk
+17	Trump	Trump	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	16	flat	_	tag=person_þgf_kk
+18	Bandaríkjaforseta	Bandaríkjaforseti	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_ef_kk
+19	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_fh_p3_et_nt_gm
+20	að	að	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+21	vonum	von	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	22	obl	_	tag=no_ft_þgf_kvk
+22	vakið	vekja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
+23	mikla	mikill	ADJ	lo_et_þf_kk_vb	Case=Acc|Gender=Masc|Number=Sing	24	amod	_	tag=lo_et_þf_kk_vb
+24	athygli	athygli	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	tag=no_et_þf_kk
+25	og	og	CCONJ	st	_	22	cc	_	tag=st
+26	reiði	reiði	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
+27	.	_	PUNCT	grm	_	22	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00312,.5
 # text = Við ættum frekar að beita okkur fyrir miðlægum breytingum og leggja áherslu á frekari samvinnu til að ná enn betri árangri, segir hann.
@@ -187,37 +206,47 @@
 19	stækkunargler	stækkunargler	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	16	advcl	_	SpaceAfter=No|tag=no_et_nf_hk
 20	,	_	PUNCT	grm	_	19	punct	_	tag=grm
 21	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-22	Herdís Storgaard	Herdís Storgaard	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	21	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-23	,	_	PUNCT	grm	_	22	punct	_	tag=grm
-24	forvarnarfulltrúi	forvarnarfulltrúi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	22	obl	_	tag=no_et_nf_kk
-25	Sjóvár	sjóvá	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	24	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
-26	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+22-23	Herdís Storgaard	_	_	_	_	_	_	_	_
+22	Herdís	Herdís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	21	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+23	Storgaard	Storgaard	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	22	flat	_	SpaceAfter=No|tag=person_nf_kvk
+24	,	_	PUNCT	grm	_	23	punct	_	tag=grm
+25	forvarnarfulltrúi	forvarnarfulltrúi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	22	obl	_	tag=no_et_nf_kk
+26	Sjóvár	sjóvá	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	25	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
+27	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00312,.8
 # text = Áður voru André Silva, Ricardo Rodríguez, Mateo Musacchio og Franck Kessié komnir til Milan sem endaði í 6. sæti ítölsku úrvalsdeildarinnar á síðasta tímabili.
-1	Áður	áður	ADV	ao	_	10	advmod	_	tag=ao
-2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
-3	André Silva	André Silva	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-4	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-5	Ricardo Rodríguez	Ricardo Rodríguez	PROPN	sérnafn	_	3	conj	_	SpaceAfter=No|tag=sérnafn
-6	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-7	Mateo Musacchio	Mateo Musacchio	PROPN	sérnafn	_	3	conj	_	tag=sérnafn
-8	og	og	CCONJ	st	_	3	cc	_	tag=st
-9	Franck Kessié	Franck Kessié	PROPN	sérnafn	_	3	conj	_	tag=sérnafn
-10	komnir	kominn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
-11	til	til	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
-12	Milan	Milan	PROPN	entity	_	10	obl	_	tag=entity
-13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
-14	endaði	enda	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-15	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-16	6.	6.	ADJ	raðnr_þgf_hk	Case=Dat|Gender=Neut|NumType=Ord	17	amod	_	tag=raðnr_þgf_hk
-17	sæti	sæti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þgf_hk
-18	ítölsku	ítalskur	ADJ	lo_et_ef_kvk_vb	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	tag=lo_et_ef_kvk_vb
-19	úrvalsdeildarinnar	úrvalsdeild	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod:poss	_	tag=no_et_ef_kvk_gr
-20	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-21	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	22	amod	_	tag=lo_et_þgf_hk_evb
-22	tímabili	tímabil	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-23	.	_	PUNCT	grm	_	10	punct	_	tag=grm
+1	Áður	áður	ADV	ao	_	14	advmod	_	tag=ao
+2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
+3-4	André Silva	_	_	_	_	_	_	_	_
+3	André	André	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+4	Silva	Silva	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	flat	_	SpaceAfter=No|tag=person_nf_kvk
+5	,	_	PUNCT	grm	_	6	punct	_	tag=grm
+6-7	Ricardo Rodríguez	_	_	_	_	_	_	_	_
+6	Ricardo	Ricardo	PROPN	sérnafn	_	3	conj	_	SpaceAfter=No|tag=sérnafn
+7	Rodríguez	Rodríguez	PROPN	sérnafn	_	6	flat	_	SpaceAfter=No|tag=sérnafn
+8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
+9-10	Mateo Musacchio	_	_	_	_	_	_	_	_
+9	Mateo	Mateo	PROPN	sérnafn	_	3	conj	_	tag=sérnafn
+10	Musacchio	Musacchio	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
+11	og	og	CCONJ	st	_	3	cc	_	tag=st
+12-13	Franck Kessié	_	_	_	_	_	_	_	_
+12	Franck	Franck	PROPN	sérnafn	_	3	conj	_	tag=sérnafn
+13	Kessié	Kessié	PROPN	sérnafn	_	12	flat	_	tag=sérnafn
+14	komnir	kominn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
+15	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
+16	Milan	Milan	PROPN	entity	_	14	obl	_	tag=entity
+17	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
+18	endaði	enda	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
+19	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+20	6.	6.	ADJ	raðnr_þgf_hk	Case=Dat|Gender=Neut|NumType=Ord	21	amod	_	tag=raðnr_þgf_hk
+21	sæti	sæti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	tag=no_et_þgf_hk
+22	ítölsku	ítalskur	ADJ	lo_et_ef_kvk_vb	Case=Gen|Gender=Fem|Number=Sing	23	amod	_	tag=lo_et_ef_kvk_vb
+23	úrvalsdeildarinnar	úrvalsdeild	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod:poss	_	tag=no_et_ef_kvk_gr
+24	á	á	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
+25	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	26	amod	_	tag=lo_et_þgf_hk_evb
+26	tímabili	tímabil	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+27	.	_	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00312,.9
 # text = Hellið vatninu af og bætið rjóma, smjöri og nýrifnum parmesanosti saman við og stappið með kartöflustöppu þar til þið náið þeirri áferð sem þið kjósið.
@@ -249,32 +278,32 @@
 26	kjósið	kjósa	VERB	so_0_fh_p2_ft_nt_gm	Mood=Ind|Number=Plur|Person=2|Tense=Pres|Voice=Act	23	acl:relcl	_	SpaceAfter=No|tag=so_0_fh_p2_ft_nt_gm
 27	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00312,.10
-# text = Vitnastefnan á hendur Bannon er þó ennþá í gildi og má hann því gera ráð fyrir að vera aftur kallaður fyrir nefndina í ljósi þagmælsku sinnar.
-1	Vitnastefnan	vitnastefna	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
-2	á hendur	á hendur	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
-3	Bannon	Bannon	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk
-4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-5	þó	þó	ADV	ao	_	4	advmod	_	tag=ao
-6	ennþá	ennþá	ADV	ao	_	4	advmod	_	tag=ao
-7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	gildi	gildir	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
-9	og	og	CCONJ	st	_	4	cc	_	tag=st
-10	má	mega	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-11	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_þf_kk_p3
-12	því	því	ADV	ao	_	10	advmod	_	tag=ao
-13	gera	gera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_ft_nt_gm
-14	ráð	ráð	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	tag=no_ft_nf_hk
-15	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	19	case	_	tag=fs_nh
-16	að	að	PART	nhm	_	19	mark	_	tag=nhm
-17	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	19	cop	_	tag=so_0_nh_gm
-18	aftur	aftur	ADV	eo	_	19	advmod	_	tag=eo
-19	kallaður	kallaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	tag=lo_et_nf_kk_sb
-20	fyrir	fyrir	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	nefndina	nefnd	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þf_kvk_gr
-22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	ljósi	ljós	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_þgf_hk
-24	þagmælsku	þagmælska	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	23	nmod:poss	_	tag=no_et_ef_kvk
-25	sinnar	sinn	PRON	fn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No|tag=fn_et_ef_kvk
-26	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+1	Vitnastefnan	vitnastefna	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
+2-3	á hendur	_	_	_	_	_	_	_	_
+2	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
+3	hendur	hendur	ADP	fs_þgf	Case=Dat	2	fixed	_	tag=fs_þgf
+4	Bannon	Bannon	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk
+5	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+6	þó	þó	ADV	ao	_	5	advmod	_	tag=ao
+7	ennþá	ennþá	ADV	ao	_	5	advmod	_	tag=ao
+8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	gildi	gildir	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
+10	og	og	CCONJ	st	_	5	cc	_	tag=st
+11	má	mega	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+12	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_þf_kk_p3
+13	því	því	ADV	ao	_	11	advmod	_	tag=ao
+14	gera	gera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_ft_nt_gm
+15	ráð	ráð	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	tag=no_ft_nf_hk
+16	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	20	case	_	tag=fs_nh
+17	að	að	PART	nhm	_	20	mark	_	tag=nhm
+18	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	cop	_	tag=so_0_nh_gm
+19	aftur	aftur	ADV	eo	_	20	advmod	_	tag=eo
+20	kallaður	kallaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	tag=lo_et_nf_kk_sb
+21	fyrir	fyrir	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+22	nefndina	nefnd	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þf_kvk_gr
+23	í	í	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
+24	ljósi	ljós	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	tag=no_et_þgf_hk
+25	þagmælsku	þagmælska	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	24	nmod:poss	_	tag=no_et_ef_kvk
+26	sinnar	sinn	PRON	fn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	tag=fn_et_ef_kvk
+27	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

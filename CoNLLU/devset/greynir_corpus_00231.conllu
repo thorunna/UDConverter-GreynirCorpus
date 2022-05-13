@@ -81,9 +81,13 @@
 4	Datous	Datous	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	vef	vefur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
-7	South China Morning Post	South China Morning Post	PROPN	entity	_	6	nmod:poss	_	tag=entity
-8	hér	hér	ADV	ao	_	1	advmod	_	SpaceAfter=No|tag=ao
-9	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+7-10	South China Morning Post	_	_	_	_	_	_	_	_
+7	South	South	PROPN	entity	_	6	nmod:poss	_	tag=entity
+8	China	China	PROPN	entity	_	7	flat	_	tag=entity
+9	Morning	Morning	PROPN	entity	_	7	flat	_	tag=entity
+10	Post	Post	PROPN	entity	_	7	flat	_	tag=entity
+11	hér	hér	ADV	ao	_	1	advmod	_	SpaceAfter=No|tag=ao
+12	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00231,.7
 # text = Flokkurinn hefur helst sótt fylgi sitt til opinberra starfsmanna og innflytjenda.
@@ -116,19 +120,21 @@
 
 # sent_id = GREYNIR_CORPUS_00231,.9
 # text = Erla Kolbrún reyndi að taka eigið líf þann 11. ágúst síðastliðinn.
-1	Erla Kolbrún	Erla Kolbrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
-2	reyndi	reyna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-3	að	að	PART	nhm	_	4	mark	_	tag=nhm
-4	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
-5	eigið	eigin	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þf_hk_sb
-6	líf	líf	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þf_hk
-7	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	tag=fn_et_þf_kk
-8	11. ágúst	11. ágúst	ADV	dagsafs	_	2	advmod	_	tag=dagsafs
-9	síðastliðinn	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No|tag=lo_et_þf_kk_sb
-10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Erla Kolbrún	_	_	_	_	_	_	_	_
+1	Erla	Erla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
+2	Kolbrún	Kolbrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+3	reyndi	reyna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+4	að	að	PART	nhm	_	5	mark	_	tag=nhm
+5	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
+6	eigið	eigin	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þf_hk_sb
+7	líf	líf	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	tag=no_et_þf_hk
+8	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	tag=fn_et_þf_kk
+9-10	11. ágúst	_	_	_	_	_	_	_	_
+9	11.	11.	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
+10	ágúst	ágúst	NUM?	dagsafs	_	9	flat	_	tag=dagsafs
+11	síðastliðinn	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No|tag=lo_et_þf_kk_sb
+12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00231,.10
-# text = Og þegar ég segi ráða öllu þá meina ég bókstaflega öllu.
 1	Og	og	SCONJ	st	_	8	cc	_	tag=st
 2	þegar	þegar	SCONJ	st	_	4	mark	_	tag=st
 3	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
@@ -139,6 +145,6 @@
 8	meina	meina	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_et_nt_gm
 9	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_p1
 10	bókstaflega	bókstaflega	ADV	ao	_	8	iobj	_	tag=ao
-11	öllu	öllu	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
+11	öllu	öllu	ADV	ao	_	10	advmod	_	tag=ao
 12	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 

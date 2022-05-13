@@ -36,8 +36,10 @@
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	Silverstone	Silverstone	PROPN	entity	_	2	obl	_	tag=entity
 8	brautinni	braut	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þgf_kvk_gr
-9	árið 2017	árið 2017	ADV	ártal	_	2	advmod	_	SpaceAfter=No|tag=ártal
-10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+9-10	árið 2017	_	_	_	_	_	_	_	_
+9	árið	árið	ADV	ártal	_	2	advmod	_	SpaceAfter=No|tag=ártal
+10	2017	2017	NUM	ártal	_	9	flat	_	SpaceAfter=No|tag=ártal
+11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00227,.4
 # text = Venjulega fjölgar umsóknum snemma á haustin en svo hægist um.
@@ -77,8 +79,10 @@
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	horfa	horfa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_0_nh_gm
 8	á	á	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	Dwyane Wade	Dwyane Wade	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	obl	_	SpaceAfter=No|tag=person_þf_kk
-10	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+9-10	Dwyane Wade	_	_	_	_	_	_	_	_
+9	Dwyane	Dwyane	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	obl	_	SpaceAfter=No|tag=person_þf_kk
+10	Wade	Wade	PROPN	person_þf_kk	Case=Acc|Gender=Masc	9	flat	_	SpaceAfter=No|tag=person_þf_kk
+11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00227,.7
 # text = Tungumálakunnátta auk íslensku er að lágmarki enska og eitt Norðurlandamál.
@@ -122,8 +126,6 @@
 10	jafnrétti	jafnrétti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No|tag=no_et_þf_hk
 11	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00227,.10
-# text = 7% ferða eru farnar á reiðhjóli og 4% með strætisvögnum.
 1	7%	7%	NUM	prósenta	_	2	nummod	_	tag=prósenta
 2	ferða	ferð	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	4	nsubj	_	tag=no_ft_ef_kvk
 3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
@@ -131,8 +133,8 @@
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	reiðhjóli	reiðhjól	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 7	og	og	CCONJ	st	_	4	cc	_	tag=st
-8	4%	4%	X	prósenta	_	10	dep	_	tag=prósenta
+8	4%	4%	?	prósenta	_	10	nsubj	_	tag=prósenta
 9	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	strætisvögnum	strætisvagn	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No|tag=no_ft_þgf_kk
+10	strætisvögnum	strætisvagn	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	conj	_	tag=no_ft_þgf_kk
 11	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

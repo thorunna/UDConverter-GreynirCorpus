@@ -23,34 +23,41 @@
 21	Landsrétti	Landsréttur	PROPN	fyrirtæki_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_kk
 22	,	,	PUNCT	grm	_	21	punct	_	tag=grm
 23	alls	alls	ADV	eo	_	24	advmod	_	tag=eo
-24	1,2 milljónir króna	1,2 milljónir króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
-25	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+24-26	1,2 milljónir króna	_	_	_	_	_	_	_	_
+24	1,2	1,2	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
+25	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	24	flat	_	SpaceAfter=No|tag=no_ft_þf_kvk
+26	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	24	flat	_	SpaceAfter=No|tag=no_ft_þf_kvk
+27	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00457,.2
 # text = Breanna Stewart varð fjórum sinnum bandarískur háskólameistari með liði Uconn áður en hún kom í WNBA-deildina og þekkir því fátt annað en að vinna.
-1	Breanna Stewart	Breanna Stewart	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	nsubj	_	tag=person_nf_kvk
-2	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
-3	fjórum sinnum	fjórum sinnum	ADV	ao	_	5	advmod	_	tag=ao
-4	bandarískur	bandarískur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_sb
-5	háskólameistari	háskóla-meistari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
-6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	liði	lið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
-8	Uconn	Uconn	PROPN	fyrirtæki	_	7	nmod:poss	_	tag=fyrirtæki
-9	áður	áður	ADV	ao	_	12	cc	_	tag=ao
-10	en	en	CCONJ	st	_	9	cc	_	tag=st
-11	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_kvk_p3
-12	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	advcl	_	tag=so_0_fh_p3_et_þt_gm
-13	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14	WNBA-deildina	WNBA-deild	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þf_kvk_gr
-15	og	og	CCONJ	st	_	5	cc	_	tag=st
-16	þekkir	þekkja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-17	því	því	ADV	ao	_	16	advmod	_	tag=ao
-18	fátt	fár	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	19	amod	_	tag=lo_et_þf_hk_sb
-19	annað	annar	PRON	fn_et_þf	Case=Acc|Number=Sing	16	obj	_	tag=fn_et_þf
-20	en	en	CCONJ	st	_	19	advcl	_	tag=st
-21	að	að	PART	nhm	_	22	mark	_	tag=nhm
-22	vinna	vinna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
-23	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+1-2	Breanna Stewart	_	_	_	_	_	_	_	_
+1	Breanna	Breanna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	tag=person_nf_kvk
+2	Stewart	Stewart	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+3	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+4-5	fjórum sinnum	_	_	_	_	_	_	_	_
+4	fjórum	fjórum	ADV	ao	_	7	advmod	_	tag=ao
+5	sinnum	sinnum	ADV	ao	_	4	fixed	_	tag=ao
+6	bandarískur	bandarískur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_sb
+7	háskólameistari	háskóla-meistari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
+8	með	með	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	liði	lið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
+10	Uconn	Uconn	PROPN	fyrirtæki	_	9	nmod:poss	_	tag=fyrirtæki
+11	áður	áður	ADV	ao	_	14	cc	_	tag=ao
+12	en	en	CCONJ	st	_	11	cc	_	tag=st
+13	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_kvk_p3
+14	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	tag=so_0_fh_p3_et_þt_gm
+15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+16	WNBA-deildina	WNBA-deild	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þf_kvk_gr
+17	og	og	CCONJ	st	_	7	cc	_	tag=st
+18	þekkir	þekkja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+19	því	því	ADV	ao	_	18	advmod	_	tag=ao
+20	fátt	fár	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	21	amod	_	tag=lo_et_þf_hk_sb
+21	annað	annar	PRON	fn_et_þf	Case=Acc|Number=Sing	18	obj	_	tag=fn_et_þf
+22	en	en	CCONJ	st	_	21	advcl	_	tag=st
+23	að	að	PART	nhm	_	24	mark	_	tag=nhm
+24	vinna	vinna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	22	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
+25	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00457,.3
 # text = Ástæðan er sú að unnusta Martial er við það að eiga þeirra annað barn og United gefið honum grænt ljós að vera viðstæddur fæðinguna.
@@ -97,9 +104,9 @@
 13	að	að	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	Steini	Steinn	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	11	obl	_	tag=sérnafn_þgf_kk
 15	og	og	CCONJ	st	_	8	cc	_	tag=st
-16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 17	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_et_nf_hk_p3
-18	leiðin	leið	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	xcomp	_	tag=no_et_nf_kvk_gr
+18	leiðin	leið	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	conj	_	tag=no_et_nf_kvk_gr
 19	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
 20	keppendur	keppandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	tag=no_ft_nf_kk
 21	munu	munu	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_fh_p3_ft_nt_gm
@@ -138,31 +145,33 @@
 
 # sent_id = GREYNIR_CORPUS_00457,.6
 # text = Daníel Helgason, rekstrarstjóri Tölvuteks, segir í samtali við mbl.is að 40 starfsmenn hafi misst vinunna þegar rekstri verslana Tölvuteks var hætt í dag.
-1	Daníel Helgason	Daníel Helgason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	rekstrarstjóri	rekstrarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	Tölvuteks	Tölvutek	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
-5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-6	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
-9	við	við	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	mbl.is	mbl.is	SYM	lén_þf	Case=Acc	8	obl	_	tag=lén_þf
-11	að	að	SCONJ	st	_	15	mark	_	tag=st
-12	40	40	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	13	nummod	_	tag=tala_ft_nf_kk
-13	starfsmenn	starfsmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	tag=no_ft_nf_kk
-14	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_vh_p3_ft_nt_gm
-15	misst	missa	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	6	obj	_	tag=so_1_þf_sagnb_gm
-16	vinunna	vinna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	tag=no_et_þf_kvk
-17	þegar	þegar	SCONJ	st	_	22	mark	_	tag=st
-18	rekstri	rekstur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	22	nsubj	_	tag=no_et_þgf_kk
-19	verslana	verslun	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	18	nmod:poss	_	tag=no_ft_ef_kvk
-20	Tölvuteks	Tölvutek	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	nmod:poss	_	tag=fyrirtæki_et_ef_hk
-21	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	cop	_	tag=so_0_fh_p3_et_þt_gm
-22	hætt	hætta	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	15	advcl	_	tag=so_1_þgf_sagnb_gm
-23	í	í	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
-24	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	22	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-25	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+1-2	Daníel Helgason	_	_	_	_	_	_	_	_
+1	Daníel	Daníel	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	Helgason	Helgason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
+4	rekstrarstjóri	rekstrarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+5	Tölvuteks	Tölvutek	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
+6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
+7	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
+10	við	við	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	mbl.is	mbl.is	SYM	lén_þf	Case=Acc	9	obl	_	tag=lén_þf
+12	að	að	SCONJ	st	_	16	mark	_	tag=st
+13	40	40	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	14	nummod	_	tag=tala_ft_nf_kk
+14	starfsmenn	starfsmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	tag=no_ft_nf_kk
+15	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_vh_p3_ft_nt_gm
+16	misst	missa	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	7	obj	_	tag=so_1_þf_sagnb_gm
+17	vinunna	vinna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	tag=no_et_þf_kvk
+18	þegar	þegar	SCONJ	st	_	23	mark	_	tag=st
+19	rekstri	rekstur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	23	nsubj	_	tag=no_et_þgf_kk
+20	verslana	verslun	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	19	nmod:poss	_	tag=no_ft_ef_kvk
+21	Tölvuteks	Tölvutek	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	20	nmod:poss	_	tag=fyrirtæki_et_ef_hk
+22	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	cop	_	tag=so_0_fh_p3_et_þt_gm
+23	hætt	hætta	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	16	advcl	_	tag=so_1_þgf_sagnb_gm
+24	í	í	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
+25	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	23	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+26	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00457,.7
 # text = Gerist það á HM er voðinn vís en auðvitað er ekki hægt að bera saman æfingalek gegn Barein í Laugardalshöll við HM í München.
@@ -250,29 +259,31 @@
 
 # sent_id = GREYNIR_CORPUS_00457,.10
 # text = Þrátt fyrir að sautján mánuðir séu liðnir frá síðasta bardaga virtist Gunnar hinn rólegasti þegar Fréttablaðið fékk að slá á þráðinn til hans í Toronto.
-1	Þrátt fyrir	þrátt fyrir	ADV	ao	_	6	mark	_	tag=ao
-2	að	að	SCONJ	st	_	1	cc	_	tag=st
-3	sautján	sautján	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nummod	_	tag=töl_ft_nf_kk
-4	mánuðir	mánuður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	tag=no_ft_nf_kk
-5	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_ft_nt_gm
-6	liðnir	liðinn	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	12	advcl	_	tag=so_0_lhþt_ft
-7	frá	frá	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-8	síðasta	síðari	ADJ	lo_et_þgf_kk_evb	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_þgf_kk_evb
-9	bardaga	bardagi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
-10	virtist	virða	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	conj	_	tag=so_1_nf_fh_p3_et_þt_mm
-11	Gunnar	Gunnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
-12	hinn	hinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=fn_et_nf_kk
-13	rólegasti	rólegur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_nf_kk_evb
-14	þegar	þegar	SCONJ	st	_	16	mark	_	tag=st
-15	Fréttablaðið	Fréttablaðið	PROPN	fyrirtæki_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	16	nsubj	_	tag=fyrirtæki_et_nf_hk_gr
-16	fékk	fá	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	advcl	_	tag=so_0_fh_p3_et_þt_gm
-17	að	að	PART	nhm	_	18	mark	_	tag=nhm
-18	slá	slá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_0_nh_gm
-19	á	á	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	þráðinn	þráður	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	tag=no_et_þf_kk_gr
-21	til	til	ADP	fs_ef	Case=Gen	22	case	_	tag=fs_ef
-22	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	tag=pfn_et_ef_kk_p3
-23	í	í	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	Toronto	Toronto	PROPN	sérnafn	_	22	obl	_	SpaceAfter=No|tag=sérnafn
-25	.	.	PUNCT	grm	_	12	punct	_	tag=grm
+1-2	Þrátt fyrir	_	_	_	_	_	_	_	_
+1	Þrátt	þrátt	ADV	ao	_	7	mark	_	tag=ao
+2	fyrir	fyrir	ADV	ao	_	1	fixed	_	tag=ao
+3	að	að	SCONJ	st	_	1	cc	_	tag=st
+4	sautján	sautján	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nummod	_	tag=töl_ft_nf_kk
+5	mánuðir	mánuður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	tag=no_ft_nf_kk
+6	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_vh_p3_ft_nt_gm
+7	liðnir	liðinn	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	13	advcl	_	tag=so_0_lhþt_ft
+8	frá	frá	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+9	síðasta	síðari	ADJ	lo_et_þgf_kk_evb	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_þgf_kk_evb
+10	bardaga	bardagi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
+11	virtist	virða	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	13	conj	_	tag=so_1_nf_fh_p3_et_þt_mm
+12	Gunnar	Gunnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	tag=person_nf_kk
+13	hinn	hinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=fn_et_nf_kk
+14	rólegasti	rólegur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_nf_kk_evb
+15	þegar	þegar	SCONJ	st	_	17	mark	_	tag=st
+16	Fréttablaðið	Fréttablaðið	PROPN	fyrirtæki_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	tag=fyrirtæki_et_nf_hk_gr
+17	fékk	fá	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	advcl	_	tag=so_0_fh_p3_et_þt_gm
+18	að	að	PART	nhm	_	19	mark	_	tag=nhm
+19	slá	slá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_0_nh_gm
+20	á	á	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
+21	þráðinn	þráður	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_þf_kk_gr
+22	til	til	ADP	fs_ef	Case=Gen	23	case	_	tag=fs_ef
+23	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	tag=pfn_et_ef_kk_p3
+24	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
+25	Toronto	Toronto	PROPN	sérnafn	_	23	obl	_	SpaceAfter=No|tag=sérnafn
+26	.	.	PUNCT	grm	_	13	punct	_	tag=grm
 

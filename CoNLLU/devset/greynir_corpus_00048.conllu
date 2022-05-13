@@ -2,13 +2,17 @@
 # text = Svo fór að Ólafur Ragnar dró framboð sitt til baka.
 1	Svo	svo	ADV	ao	_	2	advmod	_	tag=ao
 2	fór	fara	VERB	so_0_op_es_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_op_es_fh_p3_et_þt_gm
-3	að	að	SCONJ	st	_	5	mark	_	tag=st
-4	Ólafur Ragnar	Ólafur Ragnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-5	dró	draga	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	tag=so_1_þf_fh_p3_et_þt_gm
-6	framboð	framboð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	tag=no_et_þf_hk
-7	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	tag=fn_et_þf_hk
-8	til baka	til baka	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
-9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+3	að	að	SCONJ	st	_	6	mark	_	tag=st
+4-5	Ólafur Ragnar	_	_	_	_	_	_	_	_
+4	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
+5	Ragnar	Ragnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
+6	dró	draga	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	tag=so_1_þf_fh_p3_et_þt_gm
+7	framboð	framboð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	tag=no_et_þf_hk
+8	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	tag=fn_et_þf_hk
+9-10	til baka	_	_	_	_	_	_	_	_
+9	til	til	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
+10	baka	baka	ADV	ao	_	9	fixed	_	SpaceAfter=No|tag=ao
+11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00048,.2
 # text = Madrid aðeisn stigi á eftir Valencia í þriðja sæti deildarinnar.
@@ -45,11 +49,13 @@
 3	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 4	—	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	Tjaldaði	tjalda	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
-6	9 m	9 m	X	mælieining	_	8	dep	_	tag=mælieining
-7	2	2	NUM	tala	NumType=Card	6	nummod	_	tag=tala
-8	gestaherbergi	gestaherbergi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obj	_	tag=no_et_þgf_hk
-9	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	stofunni	stofa	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk_gr
+6-7	9 m	_	_	_	_	_	_	_	_
+6	9	9	?	mælieining	_	9	obl	_	tag=mælieining
+7	m	m	?	mælieining	_	6	_	_	tag=mælieining
+8	2	2	NUM	tala	NumType=Card	6	nummod	_	tag=tala
+9	gestaherbergi	gestaherbergi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obj	_	tag=no_et_þgf_hk
+10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	stofunni	stofa	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk_gr
 
 # sent_id = GREYNIR_CORPUS_00048,.5
 # text = Ég stjórnaði þessu með hreinu, hollu og sykurlausu mataræði.
@@ -73,26 +79,33 @@
 4	á	á	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	flugvöllinn	flugvöllur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk_gr
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	Ciudad Juarez	Ciudad Juarez	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_hk
-8	snemma	snemma	ADV	ao	_	3	advmod	_	tag=ao
-9	í morgun	í morgun	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
-10	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+7-8	Ciudad Juarez	_	_	_	_	_	_	_	_
+7	Ciudad	Ciudad	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_hk
+8	Juarez	Juarez	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	flat	_	tag=sérnafn_et_þgf_hk
+9	snemma	snemma	ADV	ao	_	3	advmod	_	tag=ao
+10-11	í morgun	_	_	_	_	_	_	_	_
+10	í	í	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
+11	morgun	morgun	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
+12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00048,.7
 # text = Sigurður Már Jónsson er f jölmiðlafulltrúi ríkisstjórnarinnar og starfar í forsætisráðuneytinu.
-1	Sigurður Már Jónsson	Sigurður Már Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-3	f	f	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
-4	jölmiðlafulltrúi	jölmiðlafulltrúi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_nf_kk
-5	ríkisstjórnarinnar	ríkisstjórn	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk_gr
-6	og	og	CCONJ	st	_	3	cc	_	tag=st
-7	starfar	starfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
-8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	forsætisráðuneytinu	forsætisráðuneyti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-10	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1-3	Sigurður Már Jónsson	_	_	_	_	_	_	_	_
+1	Sigurður	Sigurður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
+2	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+5	f	f	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
+6	jölmiðlafulltrúi	jölmiðlafulltrúi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	tag=no_et_nf_kk
+7	ríkisstjórnarinnar	ríkisstjórn	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kvk_gr
+8	og	og	CCONJ	st	_	5	cc	_	tag=st
+9	starfar	starfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
+10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	forsætisráðuneytinu	forsætisráðuneyti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+12	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00048,.8
-# text = Hver hefði trúað því að knús, og faðmlög væru bólgueyðandi ?
+# text = Hver hefði trúað því að knús, og faðmlög væru bólgueyðandi?
 1	Hver	hver	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	tag=fn_et_nf_kk
 2	hefði	hafa	VERB	so_0_vh_p1_et_þt_gm	Mood=Sub|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_0_vh_p1_et_þt_gm
 3	trúað	trúa	VERB	so_1_þgf_gm	Case=Dat|Voice=Act	2	VANTAR_LIÐ_IP_None	_	tag=so_1_þgf_gm
@@ -122,14 +135,18 @@
 
 # sent_id = GREYNIR_CORPUS_00048,.10
 # text = Gunnar Þorsteinsson heldur uppá heimkomuna með skallamarki eftir fyrirgjöf Magnúsar Björgvinssonar.
-1	Gunnar Þorsteinsson	Gunnar Þorsteinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	heldur	halda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	uppá	uppá	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
-4	heimkomuna	heimkoma	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk_gr
-5	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	skallamarki	skallamark	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
-7	eftir	eftir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	fyrirgjöf	fyrirgjöf	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk
-9	Magnúsar Björgvinssonar	Magnús Björgvinsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Gunnar Þorsteinsson	_	_	_	_	_	_	_	_
+1	Gunnar	Gunnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
+2	Þorsteinsson	Þorsteinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	heldur	halda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+4	uppá	uppá	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
+5	heimkomuna	heimkoma	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk_gr
+6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	skallamarki	skallamark	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
+8	eftir	eftir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+9	fyrirgjöf	fyrirgjöf	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk
+10-11	Magnúsar Björgvinssonar	_	_	_	_	_	_	_	_
+10	Magnúsar	Magnús	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
+11	Björgvinssonar	Björgvinsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	flat	_	SpaceAfter=No|tag=person_ef_kk
+12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

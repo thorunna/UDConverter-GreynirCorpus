@@ -24,35 +24,43 @@
 
 # sent_id = GREYNIR_CORPUS_00028,.3
 # text = Meðal annars við Þórshöfn og á Borgarfirði eystra.
-1	Meðal annars	meðal annars	ADV	ao	_	3	advmod	_	tag=ao
-2	við	við	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
-3	Þórshöfn	Þórshöfn	PROPN	sérnafn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	0	root	_	tag=sérnafn_et_þf_kvk
-4	og	og	CCONJ	st	_	3	cc	_	tag=st
-5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	Borgarfirði	Borgarfjörður	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_kk
-7	eystra	eystri	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No|tag=lo_et_þgf_kk_sb
-8	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1-2	Meðal annars	_	_	_	_	_	_	_	_
+1	Meðal	meðal	ADV	ao	_	4	advmod	_	tag=ao
+2	annars	annars	ADV	ao	_	1	fixed	_	tag=ao
+3	við	við	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
+4	Þórshöfn	Þórshöfn	PROPN	sérnafn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	0	root	_	tag=sérnafn_et_þf_kvk
+5	og	og	CCONJ	st	_	4	cc	_	tag=st
+6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	Borgarfirði	Borgarfjörður	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_kk
+8	eystra	eystri	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No|tag=lo_et_þgf_kk_sb
+9	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00028,.4
 # text = Aðalpersóna Oscar Wildes verður kona í meðförum St. Vincent
-1	Aðalpersóna	Aðalpersóna	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
-2	Oscar Wildes	Oscar Wilde	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=person_et_ef_kk
-3	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-4	kona	kona	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
-5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	meðförum	meðfarir	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_þgf_kvk
-7	St. Vincent	St. Vincent	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=person_et_ef_kvk
+1	Aðalpersóna	Aðalpersóna	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
+2-3	Oscar Wildes	_	_	_	_	_	_	_	_
+2	Oscar	Oscar	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=person_et_ef_kk
+3	Wildes	Wilde	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	flat	_	tag=person_et_ef_kk
+4	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+5	kona	kona	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
+6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	meðförum	meðfarir	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_þgf_kvk
+8-9	St. Vincent	_	_	_	_	_	_	_	_
+8	St.	St.	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	nmod:poss	_	tag=person_et_ef_kvk
+9	Vincent	Vincent	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	flat	_	tag=person_et_ef_kvk
 
 # sent_id = GREYNIR_CORPUS_00028,.5
 # text = Ólympíufarinn Irina Sazanova varði Íslandsmeistaratitil sinn í fjölþraut.
-1	Ólympíufarinn	ólympíufari	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
-2	Irina Sazanova	Irina Sazanova	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	tag=person_et_nf_kvk
-3	varði	verja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-4	Íslandsmeistaratitil	Íslandsmeistaratitill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk
-5	sinn	sinn	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	tag=fn_et_þf_kk
-6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	fjölþraut	fjölþraut	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-8	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1	Ólympíufarinn	ólympíufari	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk_gr
+2-3	Irina Sazanova	_	_	_	_	_	_	_	_
+2	Irina	Irina	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	tag=person_et_nf_kvk
+3	Sazanova	Sazanova	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	tag=person_et_nf_kvk
+4	varði	verja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+5	Íslandsmeistaratitil	Íslandsmeistaratitill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	tag=no_et_þf_kk
+6	sinn	sinn	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	tag=fn_et_þf_kk
+7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	fjölþraut	fjölþraut	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+9	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00028,.6
 # text = Það þarf að finna lausn á þessu.
@@ -67,43 +75,55 @@
 
 # sent_id = GREYNIR_CORPUS_00028,.7
 # text = Hjalti Egilsson tók upp fyrstu kartöflurnar sl. mánudag.
-1	Hjalti Egilsson	Hjalti Egilsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
-2	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	upp	upp	ADV	ao	_	2	compound:prt	_	tag=ao
-4	fyrstu	fyrstur	ADJ	lo_ft_þf_kvk_vb	Case=Acc|Gender=Fem|Number=Plur	5	amod	_	tag=lo_ft_þf_kvk_vb
-5	kartöflurnar	kartafla	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	tag=no_ft_þf_kvk_gr
-6	sl.	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_þf_kk_sb
-7	mánudag	mánudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Hjalti Egilsson	_	_	_	_	_	_	_	_
+1	Hjalti	Hjalti	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
+2	Egilsson	Egilsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+3	tók	taka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+4	upp	upp	ADV	ao	_	3	compound:prt	_	tag=ao
+5	fyrstu	fyrstur	ADJ	lo_ft_þf_kvk_vb	Case=Acc|Gender=Fem|Number=Plur	6	amod	_	tag=lo_ft_þf_kvk_vb
+6	kartöflurnar	kartafla	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	3	obj	_	tag=no_ft_þf_kvk_gr
+7	sl.	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_þf_kk_sb
+8	mánudag	mánudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00028,.8
-# text = Björgvin Páll skrifaði eftirfarandi á Twitter í gærkvöldi :
-1	Björgvin Páll	Björgvin Páll	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
-2	skrifaði	skrifa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	eftirfarandi	eftirfarandi	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=lo_et_þf_hk_sb
-4	á	á	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	Twitter	Twitter	PROPN	entity_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=entity_et_þf_hk
-6	í gærkvöldi	í gærkvöldi	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
-7	:	_	PUNCT	grm	_	2	punct	_	tag=grm
+# text = Björgvin Páll skrifaði eftirfarandi á Twitter í gærkvöldi:
+1-2	Björgvin Páll	_	_	_	_	_	_	_	_
+1	Björgvin	Björgvin	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
+2	Páll	Páll	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+3	skrifaði	skrifa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+4	eftirfarandi	eftirfarandi	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	tag=lo_et_þf_hk_sb
+5	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
+6	Twitter	Twitter	PROPN	entity_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=entity_et_þf_hk
+7-8	í gærkvöldi	_	_	_	_	_	_	_	_
+7	í	í	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
+8	gærkvöldi	gærkvöldi	ADV	ao	_	7	fixed	_	SpaceAfter=No|tag=ao
+9	:	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00028,.9
-# text = Tískan á Secret Solstice : Brosið er besti fylgihluturinn
-1	Tískan	tíska	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	VANTAR_LIÐ_S_PREFIX	_	tag=no_et_nf_kvk_gr
+# text = Tískan á Secret Solstice: Brosið er besti fylgihluturinn
+1	Tískan	tíska	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	VANTAR_LIÐ_S_PREFIX	_	tag=no_et_nf_kvk_gr
 2	á	á	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
-3	Secret Solstice	Secret Solstice	PROPN	entity_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No|tag=entity_et_þgf_hk
-4	:	_	PUNCT	grm	_	3	punct	_	tag=grm
-5	Brosið	bros	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk_gr
-6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-7	besti	góður	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_nf_kk_evb
-8	fylgihluturinn	fylgihlutur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk_gr
+3-4	Secret Solstice	_	_	_	_	_	_	_	_
+3	Secret	Secret	PROPN	entity_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No|tag=entity_et_þgf_hk
+4	Solstice	Solstice	PROPN	entity_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	flat	_	SpaceAfter=No|tag=entity_et_þgf_hk
+5	:	_	PUNCT	grm	_	1	punct	_	tag=grm
+6	Brosið	bros	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk_gr
+7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	besti	góður	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_nf_kk_evb
+9	fylgihluturinn	fylgihlutur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk_gr
 
 # sent_id = GREYNIR_CORPUS_00028,.10
 # text = Robert Mugabe sagði af sér forsetaembætti í gær.
-1	Robert Mugabe	Robert Mugabe	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
-2	sagði	segja	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
-3	af	af	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
-4	sér	sig	PRON	abfn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	2	obl	_	tag=abfn_et_þgf_hk
-5	forsetaembætti	forsetaembætti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þgf_hk
-6	í gær	í gær	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
-7	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Robert Mugabe	_	_	_	_	_	_	_	_
+1	Robert	Robert	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
+2	Mugabe	Mugabe	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+3	sagði	segja	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
+4	af	af	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+5	sér	sig	PRON	abfn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	3	obl	_	tag=abfn_et_þgf_hk
+6	forsetaembætti	forsetaembætti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þgf_hk
+7-8	í gær	_	_	_	_	_	_	_	_
+7	í	í	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
+8	gær	gær	ADV	ao	_	7	fixed	_	SpaceAfter=No|tag=ao
+9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

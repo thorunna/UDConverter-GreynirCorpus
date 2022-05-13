@@ -42,19 +42,21 @@
 
 # sent_id = GREYNIR_CORPUS_00042,.4
 # text = Ásta Dóra hefur leikið á píanó frá fjögurra ára aldri.
-1	Ásta Dóra	Ásta Dóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
-2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	leikið	leika	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
-4	á	á	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	píanó	píanó	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
-6	frá	frá	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-7	fjögurra	fjórir	NUM	to_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	8	nummod	_	tag=to_ft_ef_kk
-8	ára	ár	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kk
-9	aldri	aldur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
-10	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1-2	Ásta Dóra	_	_	_	_	_	_	_	_
+1	Ásta	Ásta	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
+2	Dóra	Dóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
+4	leikið	leika	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
+5	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
+6	píanó	píanó	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þf_hk
+7	frá	frá	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+8	fjögurra	fjórir	NUM	to_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	9	nummod	_	tag=to_ft_ef_kk
+9	ára	ár	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	nmod:poss	_	tag=no_et_ef_kk
+10	aldri	aldur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
+11	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00042,.5
-# text = Button : Hamilton er að njóta lukkunnar sem skorti í fyrra
+# text = Button: Hamilton er að njóta lukkunnar sem skorti í fyrra
 1	Button	Button	PROPN	person	_	6	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=person
 2	:	:	PUNCT	grm	_	1	punct	_	tag=grm
 3	Hamilton	Hamilton	PROPN	person	_	6	nsubj	_	tag=person
@@ -83,17 +85,17 @@
 
 # sent_id = GREYNIR_CORPUS_00042,.7
 # text = Hefði að ósekju mátt koma fyrr inn og spila meira.
-1	Hefði	hafa	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_vh_p3_et_þt_gm
+1	Hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_vh_p3_et_þt_gm
 2	að	að	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	ósekju	ósekja	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
-4	mátt	mega	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	aux	_	tag=so_0_sagnb_gm
-5	koma	koma	VERB	so_0	_	1	conj	_	tag=so_0
+4	mátt	mega	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	aux	_	tag=so_0_sagnb_gm
+5	koma	koma	VERB	so_0	_	0	root	_	tag=so_0
 6	fyrr	snemma	ADV	ao	_	5	advmod	_	tag=ao
 7	inn	inn	ADV	ao	_	5	advmod	_	tag=ao
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
 9	spila	spila	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	conj	_	tag=so_0_nh_gm
 10	meira	mikið	ADV	ao_mst	Degree=Cmp	9	advmod	_	SpaceAfter=No|tag=ao_mst
-11	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+11	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00042,.8
 # text = Ég hef sjálfur verið í dálitlu veseni með bakið.
@@ -123,13 +125,17 @@
 
 # sent_id = GREYNIR_CORPUS_00042,.10
 # text = Alexis Sanchez fer af velli og Francis Coquelin kemur inná.
-1	Alexis Sanchez	Alexis Sanchez	PROPN	sérnafn	_	2	nsubj	_	tag=sérnafn
-2	fer	fer	VERB	so_0	_	0	root	_	tag=so_0
-3	af	af	ADP	fs	_	4	case	_	tag=fs
-4	velli	velli	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
-5	og	og	CCONJ	st	_	2	cc	_	tag=st
-6	Francis Coquelin	Francis Coquelin	PROPN	sérnafn	_	7	nsubj	_	tag=sérnafn
-7	kemur	kemur	VERB	so_0	_	2	conj	_	tag=so_0
-8	inná	inná	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-9	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Alexis Sanchez	_	_	_	_	_	_	_	_
+1	Alexis	Alexis	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
+2	Sanchez	Sanchez	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
+3	fer	fer	VERB	so_0	_	0	root	_	tag=so_0
+4	af	af	ADP	fs	_	5	case	_	tag=fs
+5	velli	velli	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
+6	og	og	CCONJ	st	_	3	cc	_	tag=st
+7-8	Francis Coquelin	_	_	_	_	_	_	_	_
+7	Francis	Francis	PROPN	sérnafn	_	9	nsubj	_	tag=sérnafn
+8	Coquelin	Coquelin	PROPN	sérnafn	_	7	flat	_	tag=sérnafn
+9	kemur	kemur	VERB	so_0	_	3	conj	_	tag=so_0
+10	inná	inná	ADV	ao	_	9	advmod	_	SpaceAfter=No|tag=ao
+11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

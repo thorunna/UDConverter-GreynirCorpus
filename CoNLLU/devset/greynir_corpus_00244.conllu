@@ -36,15 +36,18 @@
 1	Þessu	þessi	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	nmod	_	tag=fn_ft_nf_kvk
 2	ummæli	ummæli	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk
 3	komu	koma	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
-4	Birni Val Gíslasyni	Björn Valur Gíslason	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	3	obl	_	SpaceAfter=No|tag=person_þgf_kk
-5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-6	varaformanni	varaformaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
-7	VG	VG	PROPN	fyrirtæki_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	6	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ft_ef_hk
-8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	nokkuð	nokkuð	ADV	eo	_	11	advmod	_	tag=eo
-10	á	á	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-11	óvart	óvar	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=lo_et_þf_hk_sb
-12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+4-6	Birni Val Gíslasyni	_	_	_	_	_	_	_	_
+4	Birni	Björn	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	3	obl	_	SpaceAfter=No|tag=person_þgf_kk
+5	Val	Valur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	4	flat	_	SpaceAfter=No|tag=person_þgf_kk
+6	Gíslasyni	Gíslason	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	4	flat	_	SpaceAfter=No|tag=person_þgf_kk
+7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
+8	varaformanni	varaformaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
+9	VG	VG	PROPN	fyrirtæki_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ft_ef_hk
+10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
+11	nokkuð	nokkuð	ADV	eo	_	13	advmod	_	tag=eo
+12	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+13	óvart	óvar	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=lo_et_þf_hk_sb
+14	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00244,.4
 # text = Ársfundur Sjúkrahússins á Akureyri var haldinn í dag og var ný ársskýrsla kynnt.
@@ -57,14 +60,14 @@
 7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	advmod	_	tag=no_et_þf_kk
 9	og	og	CCONJ	st	_	6	cc	_	tag=st
-10	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+10	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	aux	_	tag=so_1_nf_fh_p3_et_þt_gm
 11	ný	nýr	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	tag=lo_et_nf_kvk_sb
 12	ársskýrsla	ársskýrsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	tag=no_et_nf_kvk
-13	kynnt	kynna	VERB	so_0_lhþt_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part	10	conj	_	SpaceAfter=No|tag=so_0_lhþt_et_nf_kvk_sb
+13	kynnt	kynna	VERB	so_0_lhþt_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part	6	conj	_	SpaceAfter=No|tag=so_0_lhþt_et_nf_kvk_sb
 14	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00244,.5
-# text = Finnur þú fyrir því að fólk er að sækjast meira í þetta nám ?
+# text = Finnur þú fyrir því að fólk er að sækjast meira í þetta nám?
 1	Finnur	finna	VERB	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p2_et_nt_gm
 2	þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	tag=pfn_et_nf_p2
 3	fyrir	fyrir	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
@@ -116,19 +119,21 @@
 
 # sent_id = GREYNIR_CORPUS_00244,.8
 # text = Þingkonan, Laetitia Avia, hefur lagt fram kæru hjá lögreglunni í París.
-1	Þingkonan	þingkona	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No|tag=no_et_nf_kvk_gr
+1	Þingkonan	þingkona	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No|tag=no_et_nf_kvk_gr
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	Laetitia Avia	Laetitia Avia	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	SpaceAfter=No|tag=person_nf_kvk
-4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-5	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
-6	lagt	leggja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
-7	fram	fram	ADV	ao	_	6	compound:prt	_	tag=ao
-8	kæru	kæra	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þf_kvk
-9	hjá	hjá	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	lögreglunni	lögregla	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk_gr
-11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	París	París	PROPN	sérnafn_þgf_kvk	Case=Dat|Gender=Fem	10	obl	_	SpaceAfter=No|tag=sérnafn_þgf_kvk
-13	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+3-4	Laetitia Avia	_	_	_	_	_	_	_	_
+3	Laetitia	Laetitia	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	SpaceAfter=No|tag=person_nf_kvk
+4	Avia	Avia	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	flat	_	SpaceAfter=No|tag=person_nf_kvk
+5	,	_	PUNCT	grm	_	1	punct	_	tag=grm
+6	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
+7	lagt	leggja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
+8	fram	fram	ADV	ao	_	7	compound:prt	_	tag=ao
+9	kæru	kæra	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	tag=no_et_þf_kvk
+10	hjá	hjá	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	lögreglunni	lögregla	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þgf_kvk_gr
+12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	París	París	PROPN	sérnafn_þgf_kvk	Case=Dat|Gender=Fem	11	obl	_	SpaceAfter=No|tag=sérnafn_þgf_kvk
+14	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00244,.9
 # text = Gjaldskýli eins og við Hvalfjarðargöng verða ekki sett upp til að innheimta veggjöldin.
@@ -147,8 +152,6 @@
 13	veggjöldin	veggjald	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	12	obj	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
 14	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00244,.10
-# text = Ég er góður sem læknir og borgarstjóri en er alls enginn tónlistarmaður.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
 2	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p1_et_nt_gm
 3	góður	góður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
@@ -160,6 +163,6 @@
 9	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p1_et_nt_gm
 10	alls	alls	ADV	eo	_	3	advmod	_	tag=eo
 11	enginn	enginn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_nf_kk
-12	tónlistarmaður	tónlistarmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	cop	_	SpaceAfter=No|tag=no_et_nf_kk
+12	tónlistarmaður	tónlistarmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	cop	_	tag=no_et_nf_kk
 13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

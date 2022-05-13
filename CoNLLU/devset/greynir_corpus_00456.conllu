@@ -75,36 +75,44 @@
 17	um	um	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 18	þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	tag=fn_et_þf_hk
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20	Háskóla Íslands	Háskóli Íslands	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þgf_kk
-21	fyrir	fyrir	ADV	ao	_	15	advmod	_	tag=ao
-22	skömmu	skammur	ADV	ao	_	21	advmod	_	SpaceAfter=No|tag=ao
-23	.	.	PUNCT	grm	_	11	punct	_	tag=grm
+20-21	Háskóla Íslands	_	_	_	_	_	_	_	_
+20	Háskóla	Háskóli	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þgf_kk
+21	Íslands	Íslands	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	flat	_	tag=no_et_þgf_kk
+22	fyrir	fyrir	ADV	ao	_	15	advmod	_	tag=ao
+23	skömmu	skammur	ADV	ao	_	22	advmod	_	SpaceAfter=No|tag=ao
+24	.	.	PUNCT	grm	_	11	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00456,.4
 # text = Donald Trump, Bandaríkjaforseti, fagnar ákvörðun Kims Jong-Un og stjórnvalda í Pjong Jang, um að láta af frekari tilraunum með kjarnorkuvopn og eldflaugar.
-1	Donald Trump	Donald Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	Bandaríkjaforseti	Bandaríkjaforseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
-4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
-5	fagnar	fagna	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
-6	ákvörðun	ákvörðun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obj	_	tag=no_et_þgf_kvk
-7	Kims Jong-Un	Kim Jong-Un	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	nmod:poss	_	tag=person_ef_kk
-8	og	og	CCONJ	st	_	9	cc	_	tag=st
-9	stjórnvalda	stjórnvald	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	7	conj	_	tag=no_ft_ef_hk
-10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	Pjong Jang	Pjong Jang	PROPN	sérnafn_þgf	Case=Dat	9	obl	_	SpaceAfter=No|tag=sérnafn_þgf
-12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
-13	um	um	ADP	fs_nh	VerbForm=Inf	15	case	_	tag=fs_nh
-14	að	að	PART	nhm	_	15	mark	_	tag=nhm
-15	láta	láta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	obl	_	tag=so_0_nh_gm
-16	af	af	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-17	frekari	frekur	ADJ	lo_ft_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Plur	18	amod	_	tag=lo_ft_þgf_kvk_mst
-18	tilraunum	tilraun	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	tag=no_ft_þgf_kvk
-19	með	með	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	kjarnorkuvopn	kjarnorkuvopn	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	tag=no_et_þf_hk
-21	og	og	CCONJ	st	_	22	cc	_	tag=st
-22	eldflaugar	eldflaug	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No|tag=no_ft_þf_kvk
-23	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+1-2	Donald Trump	_	_	_	_	_	_	_	_
+1	Donald	Donald	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
+4	Bandaríkjaforseti	Bandaríkjaforseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
+5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
+6	fagnar	fagna	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
+7	ákvörðun	ákvörðun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þgf_kvk
+8-9	Kims Jong-Un	_	_	_	_	_	_	_	_
+8	Kims	Kim	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	nmod:poss	_	tag=person_ef_kk
+9	Jong-Un	Jong-Un	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	flat	_	tag=person_ef_kk
+10	og	og	CCONJ	st	_	8	cc	_	tag=st
+11	stjórnvalda	stjórnvald	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_ef_hk
+12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13-14	Pjong Jang	_	_	_	_	_	_	_	_
+13	Pjong	Pjong	PROPN	sérnafn_þgf	Case=Dat	11	obl	_	SpaceAfter=No|tag=sérnafn_þgf
+14	Jang	Jang	PROPN	sérnafn_þgf	Case=Dat	13	flat	_	SpaceAfter=No|tag=sérnafn_þgf
+15	,	,	PUNCT	grm	_	8	punct	_	tag=grm
+16	um	um	ADP	fs_nh	VerbForm=Inf	18	case	_	tag=fs_nh
+17	að	að	PART	nhm	_	18	mark	_	tag=nhm
+18	láta	láta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	obl	_	tag=so_0_nh_gm
+19	af	af	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+20	frekari	frekur	ADJ	lo_ft_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Plur	21	amod	_	tag=lo_ft_þgf_kvk_mst
+21	tilraunum	tilraun	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	tag=no_ft_þgf_kvk
+22	með	með	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+23	kjarnorkuvopn	kjarnorkuvopn	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	tag=no_et_þf_hk
+24	og	og	CCONJ	st	_	25	cc	_	tag=st
+25	eldflaugar	eldflaug	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No|tag=no_ft_þf_kvk
+26	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00456,.5
 # text = Með fyrirvara um gæði gagna að þá raðast Ísland í töflunni í þriðja sæti landa sem hafa ójafnasta eignaskiptingu út frá hlutdeild ríkustu 10%.
@@ -131,36 +139,38 @@
 21	frá	frá	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	hlutdeild	hlutdeild	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_þgf_kvk
 23	ríkustu	ríkur	ADJ	lo_ft_ef_hk_evb	Case=Gen|Degree=Sup|Gender=Neut|Number=Plur	24	amod	_	tag=lo_ft_ef_hk_evb
-24	10%	10%	X	prósenta_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	22	nmod:poss	_	SpaceAfter=No|tag=prósenta_ft_ef_hk
+24	10%	10%	?	prósenta_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	22	nmod:poss	_	SpaceAfter=No|tag=prósenta_ft_ef_hk
 25	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00456,.6
 # text = Í kvöld hafði Noregur betur gegn Spánverjum, 27 – 24, eftir að verið með eins marks forystu í hálfleik, 11 – 10.
-1	Í kvöld	í kvöld	ADV	ao	_	2	advmod	_	tag=ao
-2	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-3	Noregur	Noregur	PROPN	sérnafn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=sérnafn_et_nf_kk
-4	betur	betra	ADV	ao_mst	Degree=Cmp	2	advmod	_	tag=ao_mst
-5	gegn	gegn	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	Spánverjum	Spánverji	PROPN	sérnafn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_kk
-7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	27	27	NUM	tala	NumType=Card	2	obl	_	SpaceAfter=No|tag=tala
-9	–	–	PUNCT	grm	_	8	punct	_	tag=grm
-10	24	24	NUM	tala	NumType=Card	8	nummod	_	SpaceAfter=No|tag=tala
-11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
-12	eftir	eftir	ADP	fs_nh	VerbForm=Inf	14	case	_	tag=fs_nh
-13	að	að	PART	nhm	_	14	mark	_	tag=nhm
-14	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	obl	_	tag=so_0_sagnb_gm
-15	með	með	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-16	eins	einn	NUM	to_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	17	nummod	_	tag=to_et_ef_hk
-17	marks	mark	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	18	nmod:poss	_	tag=no_et_ef_hk
-18	forystu	forysta	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þf_kvk
-19	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	hálfleik	hálfleikur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	14	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
-22	11	11	NUM	tala	NumType=Card	14	obl	_	SpaceAfter=No|tag=tala
-23	–	–	PUNCT	grm	_	22	punct	_	tag=grm
-24	10	10	NUM	tala	NumType=Card	22	nummod	_	SpaceAfter=No|tag=tala
-25	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Í kvöld	_	_	_	_	_	_	_	_
+1	Í	í	ADV	ao	_	3	advmod	_	tag=ao
+2	kvöld	kvöld	ADV	ao	_	1	fixed	_	tag=ao
+3	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+4	Noregur	Noregur	PROPN	sérnafn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=sérnafn_et_nf_kk
+5	betur	betra	ADV	ao_mst	Degree=Cmp	3	advmod	_	tag=ao_mst
+6	gegn	gegn	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	Spánverjum	Spánverji	PROPN	sérnafn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_kk
+8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
+9	27	27	NUM	tala	NumType=Card	3	obl	_	SpaceAfter=No|tag=tala
+10	–	–	PUNCT	grm	_	9	punct	_	tag=grm
+11	24	24	NUM	tala	NumType=Card	9	nummod	_	SpaceAfter=No|tag=tala
+12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
+13	eftir	eftir	ADP	fs_nh	VerbForm=Inf	15	case	_	tag=fs_nh
+14	að	að	PART	nhm	_	15	mark	_	tag=nhm
+15	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	3	obl	_	tag=so_0_sagnb_gm
+16	með	með	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
+17	eins	einn	NUM	to_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	18	nummod	_	tag=to_et_ef_hk
+18	marks	mark	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	nmod:poss	_	tag=no_et_ef_hk
+19	forystu	forysta	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_þf_kvk
+20	í	í	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
+21	hálfleik	hálfleikur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+22	,	,	PUNCT	grm	_	21	punct	_	tag=grm
+23	11	11	NUM	tala	NumType=Card	15	obl	_	SpaceAfter=No|tag=tala
+24	–	–	PUNCT	grm	_	23	punct	_	tag=grm
+25	10	10	NUM	tala	NumType=Card	23	nummod	_	SpaceAfter=No|tag=tala
+26	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00456,.7
 # text = Um er að ræða samskonar ferð og á síðasta ári þegar A landslið kvenna fór til til Ítalíu ásamt U18 ára liði kvenna.
@@ -191,31 +201,33 @@
 
 # sent_id = GREYNIR_CORPUS_00456,.8
 # text = Sólveig Anna segist vera afar ósátt við viðbrögð Samtaka atvinnulífsins og bendir á að enn sé verið að tala um lægst launaða fólkið í samfélaginu.
-1	Sólveig Anna	Sólveig Anna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
-2	segist	segja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
-3	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	5	cop	_	tag=so_1_nf_nh_gm
-4	afar	afar	ADV	eo	_	5	advmod	_	tag=eo
-5	ósátt	ósátt	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	xcomp	_	tag=lo_et_nf_kvk_sb
-6	við	við	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	viðbrögð	viðbragð	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_þf_hk
-8	Samtaka	samtak	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	7	nmod:poss	_	tag=no_ft_ef_hk
-9	atvinnulífsins	atvinnulíf	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	8	nmod:poss	_	tag=no_et_ef_hk_gr
-10	og	og	CCONJ	st	_	2	cc	_	tag=st
-11	bendir	benda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_fh_p3_et_nt_gm
-12	á	eiga	ADP	fs_nh	VerbForm=Inf	13	case	_	tag=fs_nh
-13	að	að	SCONJ	st	_	2	obl	_	tag=st
-14	enn	enn	ADV	ao	_	15	advmod	_	tag=ao
-15	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	obl	_	tag=so_0_vh_p3_et_nt_gm
-16	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	15	cop	_	tag=so_0_sagnb_gm
-17	að	að	PART	nhm	_	18	mark	_	tag=nhm
-18	tala	tala	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_0_nh_gm
-19	um	um	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
-20	lægst	lágt	ADJ	lo_et_þf_hk_esb	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	22	amod	_	tag=lo_et_þf_hk_esb
-21	launaða	launa	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	22	amod	_	tag=lo_et_þf_hk_vb
-22	fólkið	fólk	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	18	obl	_	tag=no_et_þf_hk_gr
-23	í	í	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	samfélaginu	samfélag	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-25	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Sólveig Anna	_	_	_	_	_	_	_	_
+1	Sólveig	Sólveig	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
+2	Anna	Anna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+3	segist	segja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
+4	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	cop	_	tag=so_1_nf_nh_gm
+5	afar	afar	ADV	eo	_	6	advmod	_	tag=eo
+6	ósátt	ósátt	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	3	xcomp	_	tag=lo_et_nf_kvk_sb
+7	við	við	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
+8	viðbrögð	viðbragð	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_þf_hk
+9	Samtaka	samtak	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	nmod:poss	_	tag=no_ft_ef_hk
+10	atvinnulífsins	atvinnulíf	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=no_et_ef_hk_gr
+11	og	og	CCONJ	st	_	3	cc	_	tag=st
+12	bendir	benda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+13	á	eiga	ADP	fs_nh	VerbForm=Inf	14	case	_	tag=fs_nh
+14	að	að	SCONJ	st	_	3	obl	_	tag=st
+15	enn	enn	ADV	ao	_	16	advmod	_	tag=ao
+16	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	obl	_	tag=so_0_vh_p3_et_nt_gm
+17	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	16	cop	_	tag=so_0_sagnb_gm
+18	að	að	PART	nhm	_	19	mark	_	tag=nhm
+19	tala	tala	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_0_nh_gm
+20	um	um	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+21	lægst	lágt	ADJ	lo_et_þf_hk_esb	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	23	amod	_	tag=lo_et_þf_hk_esb
+22	launaða	launa	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	23	amod	_	tag=lo_et_þf_hk_vb
+23	fólkið	fólk	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_þf_hk_gr
+24	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
+25	samfélaginu	samfélag	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+26	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00456,.9
 # text = Þetta eru niðurstöður nýrrar könnunar Ferðamálastofu um ferðalög Íslendinga 2018 og ferðaáform á árinu 2019, en sambærileg könnun hefur verið framkvæmd árlega frá 2009.
@@ -232,18 +244,20 @@
 11	og	og	CCONJ	st	_	8	cc	_	tag=st
 12	ferðaáform	ferða-áform	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	conj	_	tag=no_ft_þf_hk
 13	á	eiga	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	árinu 2019	árinu 2019	ADV	ártal	_	3	advmod	_	SpaceAfter=No|tag=ártal
-15	,	,	PUNCT	grm	_	14	punct	_	tag=grm
-16	en	en	CCONJ	st	_	3	cc	_	tag=st
-17	sambærileg	sambærilegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	18	amod	_	tag=lo_et_nf_kvk_sb
-18	könnun	könnun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	tag=no_et_nf_kvk
-19	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
-20	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	21	cop	_	tag=so_0_sagnb_gm
-21	framkvæmd	framkvæma	AUX	so_0_lhþt_et	Number=Sing|VerbForm=Part	19	aux	_	tag=so_0_lhþt_et
-22	árlega	árlega	ADV	ao	_	21	advmod	_	tag=ao
-23	frá	frá	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	2009	2009	ADV	ártal	_	21	advmod	_	SpaceAfter=No|tag=ártal
-25	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+14-15	árinu 2019	_	_	_	_	_	_	_	_
+14	árinu	árinu	ADV	ártal	_	3	advmod	_	SpaceAfter=No|tag=ártal
+15	2019	2019	NUM	ártal	_	14	flat	_	SpaceAfter=No|tag=ártal
+16	,	,	PUNCT	grm	_	3	punct	_	tag=grm
+17	en	en	CCONJ	st	_	3	cc	_	tag=st
+18	sambærileg	sambærilegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	19	amod	_	tag=lo_et_nf_kvk_sb
+19	könnun	könnun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	tag=no_et_nf_kvk
+20	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+21	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	22	cop	_	tag=so_0_sagnb_gm
+22	framkvæmd	framkvæma	AUX	so_0_lhþt_et	Number=Sing|VerbForm=Part	20	aux	_	tag=so_0_lhþt_et
+23	árlega	árlega	ADV	ao	_	22	advmod	_	tag=ao
+24	frá	frá	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
+25	2009	2009	ADV	ártal	_	22	advmod	_	SpaceAfter=No|tag=ártal
+26	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00456,.10
 # text = Fyrirtækið var með það að markmiði að útfæra íslenska þekkingu á nýtingu jarðhita og hefur hingað til verið með helstu áherslurnar á kínverskum markaði.

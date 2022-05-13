@@ -33,8 +33,12 @@
 4	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 5	frekari	frekur	ADJ	lo_ft_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	6	amod	_	tag=lo_ft_þf_kvk_mst
 6	skemmdir	skemmd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þf_kvk
-7	að svo komnu máli	að svo komnu máli	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
-8	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+7-10	að svo komnu máli	_	_	_	_	_	_	_	_
+7	að	að	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
+8	svo	svo	ADV	ao	_	7	fixed	_	SpaceAfter=No|tag=ao
+9	komnu	komnu	ADV	ao	_	7	fixed	_	SpaceAfter=No|tag=ao
+10	máli	máli	ADV	ao	_	7	fixed	_	SpaceAfter=No|tag=ao
+11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00047,.4
 # text = Kozacik varði meistaralega í marki Slóvaka og bjargaði í horn.
@@ -102,8 +106,10 @@
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	eiga	eiga	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
 8	barn	barn	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	tag=no_et_þf_hk
-9	á morgun	á morgun	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+9-10	á morgun	_	_	_	_	_	_	_	_
+9	á	á	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
+10	morgun	morgun	ADV	ao	_	9	fixed	_	SpaceAfter=No|tag=ao
+11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00047,.9
 # text = Stjörnumenn hófu seinni hálfleikinn eins og þeir enduðu þann fyrri.

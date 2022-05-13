@@ -12,15 +12,19 @@
 
 # sent_id = GREYNIR_CORPUS_00353,.2
 # text = Árið 2016 fækkaði hluthöfum í skráðum félögum um 6 prósent.
-1	Árið 2016	Árið 2016	ADV	ártal	_	2	advmod	_	tag=ártal
-2	fækkaði	fækka	VERB	so_0_op_subj_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_op_subj_þgf_fh_p3_et_þt_gm
-3	hluthöfum	hluthafi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_þgf_kk
-4	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-5	skráðum	skrá	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_þgf_kk_sb
-6	félögum	félag	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_þgf_kk
-7	um	um	ADP	fs_þf	Case=Acc	8	dep	_	tag=fs_þf
-8	6 prósent	6 prósent	X	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|tag=prósenta_ft_þf_hk
-9	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Árið 2016	_	_	_	_	_	_	_	_
+1	Árið	Árið	ADV	ártal	_	3	advmod	_	tag=ártal
+2	2016	2016	NUM	ártal	_	1	flat	_	tag=ártal
+3	fækkaði	fækka	VERB	so_0_op_subj_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_op_subj_þgf_fh_p3_et_þt_gm
+4	hluthöfum	hluthafi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	nsubj	_	tag=no_ft_þgf_kk
+5	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+6	skráðum	skrá	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	7	amod	_	tag=lo_ft_þgf_kk_sb
+7	félögum	félag	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_þgf_kk
+8	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+9-10	6 prósent	_	_	_	_	_	_	_	_
+9	6	6	?	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|tag=prósenta_ft_þf_hk
+10	prósent	prósent	?	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	_	_	SpaceAfter=No|tag=prósenta_ft_þf_hk
+11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00353,.3
 # text = Morrison á varla náðuga daga framundan í forsætisráðuneytinu.
@@ -36,29 +40,36 @@
 
 # sent_id = GREYNIR_CORPUS_00353,.4
 # text = Árið 1980 stýrði Sigrún Stefánsdóttir fréttakona sjónvarpsþætti sem nefnist Þjóðlíf.
-1	Árið 1980	Árið 1980	ADV	ártal	_	2	advmod	_	tag=ártal
-2	stýrði	stýra	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
-3	Sigrún Stefánsdóttir	Sigrún Stefánsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
-4	fréttakona	frétta-kona	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_nf_kvk
-5	sjónvarpsþætti	sjónvarpsþáttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þgf_kk
-6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
-7	nefnist	nefna	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	5	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_mm
-8	Þjóðlíf	þjóðlíf	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	acl:relcl	_	SpaceAfter=No|tag=sérnafn_et_nf_hk
-9	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Árið 1980	_	_	_	_	_	_	_	_
+1	Árið	Árið	ADV	ártal	_	3	advmod	_	tag=ártal
+2	1980	1980	NUM	ártal	_	1	flat	_	tag=ártal
+3	stýrði	stýra	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
+4-5	Sigrún Stefánsdóttir	_	_	_	_	_	_	_	_
+4	Sigrún	Sigrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
+5	Stefánsdóttir	Stefánsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	flat	_	tag=person_nf_kvk
+6	fréttakona	frétta-kona	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_nf_kvk
+7	sjónvarpsþætti	sjónvarpsþáttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þgf_kk
+8	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
+9	nefnist	nefna	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	7	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_mm
+10	Þjóðlíf	þjóðlíf	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	acl:relcl	_	SpaceAfter=No|tag=sérnafn_et_nf_hk
+11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00353,.5
 # text = Þetta var stundað frá árinu 2011 til 2016, hið minnsta.
--4	None	_	None	None	_	_	None	_	_
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fn_et_nf_hk
 2	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
 3	stundað	stunda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	frá	frá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	árinu 2011	árinu 2011	ADV	ártal	_	3	advmod	_	tag=ártal
-6	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-7	2016	2016	NUM	ártal	_	5	obl	_	SpaceAfter=No|tag=ártal
-8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	hið minnsta	hið minnsta	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
-10	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+5-6	árinu 2011	_	_	_	_	_	_	_	_
+5	árinu	árinu	ADV	ártal	_	3	advmod	_	tag=ártal
+6	2011	2011	NUM	ártal	_	5	flat	_	tag=ártal
+7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
+8	2016	2016	NUM	ártal	_	5	obl	_	SpaceAfter=No|tag=ártal
+9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
+10-11	hið minnsta	_	_	_	_	_	_	_	_
+10	hið	hið	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
+11	minnsta	minnsta	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
+12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00353,.6
 # text = Liðið er á lokaspretti í sínum 18 mánaða undirbúningi.
@@ -81,8 +92,10 @@
 4	Nýja-Sjálandi	Nýja-Sjáland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obj	_	tag=sérnafn_et_þgf_hk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	E-riðli	E-riðill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
-7	klukkan 19:00	klukkan 19:00	ADV	tími	_	2	advmod	_	SpaceAfter=No|tag=tími
-8	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+7-8	klukkan 19:00	_	_	_	_	_	_	_	_
+7	klukkan	klukkan	ADV	tími	_	2	advmod	_	SpaceAfter=No|tag=tími
+8	19:00	19:00	NUM	tími	_	7	flat	_	SpaceAfter=No|tag=tími
+9	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00353,.8
 # text = Næsta mál á dagskrá voru sveitarstjórnarkosningar í lok maí 2018.
@@ -94,8 +107,10 @@
 6	sveitarstjórnarkosningar	sveitar-stjórnarkosning	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_nf_kvk
 7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	lok	lok	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	advmod	_	tag=no_ft_þf_hk
-9	maí 2018	maí 2018	NUM?	dagsafs	_	8	nmod:poss	_	SpaceAfter=No|tag=dagsafs
-10	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+9-10	maí 2018	_	_	_	_	_	_	_	_
+9	maí	maí	NUM?	dagsafs	_	8	nmod:poss	_	SpaceAfter=No|tag=dagsafs
+10	2018	2018	NUM?	dagsafs	_	9	flat	_	SpaceAfter=No|tag=dagsafs
+11	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00353,.9
 # text = Skaðsemi þáttanna nær langt út fyrir þessa þætti.
@@ -109,8 +124,6 @@
 8	þætti	þáttur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
 9	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00353,.10
-# text = Hann að segja megi að hver fangagangur sé sjálfbær.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	tag=pfn_et_nf_kk_p3
 2	að	að	SCONJ	st	_	3	mark	_	tag=st
 3	segja	segja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	obj	_	tag=so_1_þf_nh_gm
@@ -119,6 +132,6 @@
 6	hver	hver	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	tag=fn_et_nf_kk
 7	fangagangur	fanga-gangur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	tag=no_et_nf_kk
 8	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_vh_p3_et_nt_gm
-9	sjálfbær	sjálfbær	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
+9	sjálfbær	sjálfbær	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	tag=lo_et_nf_kk_sb
 10	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

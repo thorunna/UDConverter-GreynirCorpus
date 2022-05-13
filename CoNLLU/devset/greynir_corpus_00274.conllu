@@ -36,9 +36,13 @@
 12	heimamanna	heimamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	11	nmod:poss	_	tag=no_ft_ef_kk
 13	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_þt_gm
 14	nöguð	naga	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
-15	til baka	til baka	ADV	ao	_	14	advmod	_	tag=ao
-16	í sífellu	í sífellu	ADV	ao	_	14	advmod	_	SpaceAfter=No|tag=ao
-17	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+15-16	til baka	_	_	_	_	_	_	_	_
+15	til	til	ADV	ao	_	14	advmod	_	tag=ao
+16	baka	baka	ADV	ao	_	15	fixed	_	tag=ao
+17-18	í sífellu	_	_	_	_	_	_	_	_
+17	í	í	ADV	ao	_	14	advmod	_	SpaceAfter=No|tag=ao
+18	sífellu	sífellu	ADV	ao	_	17	fixed	_	SpaceAfter=No|tag=ao
+19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00274,.3
 # text = Hér má nefna ljóð eftir Paul Éluard og Jacques Prévert og nú síðast skáldsögu franska Nóbelsverðlaunahafans Patricks Modiano.
@@ -47,17 +51,23 @@
 3	nefna	nefna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 4	ljóð	ljóð	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	tag=no_ft_þf_hk
 5	eftir	eftir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	Paul Éluard	Paul Éluard	PROPN	person_þf_kk	Case=Acc|Gender=Masc	4	obl	_	tag=person_þf_kk
-7	og	og	CCONJ	st	_	8	cc	_	tag=st
-8	Jacques Prévert	Jacques Prévert	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	conj	_	tag=person_þf_kk
-9	og	og	CCONJ	st	_	4	cc	_	tag=st
-10	nú	nú	ADV	eo	_	4	advmod	_	tag=eo
-11	síðast	síðar	ADV	eo_est	Degree=Sup	4	advmod	_	tag=eo_est
-12	skáldsögu	skáldsaga	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	tag=no_et_þf_kvk
-13	franska	franskur	ADJ	lo_et_ef_kk_vb	Case=Gen|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_ef_kk_vb
-14	Nóbelsverðlaunahafans	nóbelsverðlaunahafi	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_ef_kk_gr
-15	Patricks Modiano	Patrick Modiano	PROPN	person_ef_kk	Case=Gen|Gender=Masc	4	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+6-7	Paul Éluard	_	_	_	_	_	_	_	_
+6	Paul	Paul	PROPN	person_þf_kk	Case=Acc|Gender=Masc	4	obl	_	tag=person_þf_kk
+7	Éluard	Éluard	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	flat	_	tag=person_þf_kk
+8	og	og	CCONJ	st	_	6	cc	_	tag=st
+9-10	Jacques Prévert	_	_	_	_	_	_	_	_
+9	Jacques	Jacques	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	conj	_	tag=person_þf_kk
+10	Prévert	Prévert	PROPN	person_þf_kk	Case=Acc|Gender=Masc	9	flat	_	tag=person_þf_kk
+11	og	og	CCONJ	st	_	4	cc	_	tag=st
+12	nú	nú	ADV	eo	_	4	advmod	_	tag=eo
+13	síðast	síðar	ADV	eo_est	Degree=Sup	4	advmod	_	tag=eo_est
+14	skáldsögu	skáldsaga	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	tag=no_et_þf_kvk
+15	franska	franskur	ADJ	lo_et_ef_kk_vb	Case=Gen|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_ef_kk_vb
+16	Nóbelsverðlaunahafans	nóbelsverðlaunahafi	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_ef_kk_gr
+17-18	Patricks Modiano	_	_	_	_	_	_	_	_
+17	Patricks	Patrick	PROPN	person_ef_kk	Case=Gen|Gender=Masc	4	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
+18	Modiano	Modiano	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	flat	_	SpaceAfter=No|tag=person_ef_kk
+19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00274,.4
 # text = Þessi ímynd og hvernig henni er tekið á samfélagsmiðlum er orðinn hinn nýi gjaldmiðill fyrir hamingju í samtímanum.
@@ -172,39 +182,41 @@
 2	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	BBC	BBC	PROPN	fyrirtæki	_	2	obl	_	tag=fyrirtæki
-5	að	að	SCONJ	st	_	11	mark	_	tag=st
-6	Vladimir Putin	Vladimir Putin	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
-8	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_nf_kk
-9	Rússlands	Rússland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
-10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-11	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	2	obj	_	tag=so_0_vh_p3_et_þt_gm
-12	að	að	PART	nhm	_	13	mark	_	tag=nhm
-13	reyna	reyna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	xcomp	_	tag=so_0_nh_gm
-14	að	að	PART	nhm	_	15	mark	_	tag=nhm
-15	sundra	sundra	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_1_þgf_nh_gm
-16	ríkjum	ríki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	15	obj	_	tag=no_ft_þgf_hk
-17	Atlantshafsbandalagsins	Atlantshafsbandalag	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk_gr
-18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+5	að	að	SCONJ	st	_	12	mark	_	tag=st
+6-7	Vladimir Putin	_	_	_	_	_	_	_	_
+6	Vladimir	Vladimir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+7	Putin	Putin	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	flat	_	SpaceAfter=No|tag=person_nf_kk
+8	,	_	PUNCT	grm	_	6	punct	_	tag=grm
+9	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_nf_kk
+10	Rússlands	Rússland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
+11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
+12	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	2	obj	_	tag=so_0_vh_p3_et_þt_gm
+13	að	að	PART	nhm	_	14	mark	_	tag=nhm
+14	reyna	reyna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_0_nh_gm
+15	að	að	PART	nhm	_	16	mark	_	tag=nhm
+16	sundra	sundra	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	14	xcomp	_	tag=so_1_þgf_nh_gm
+17	ríkjum	ríki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	16	obj	_	tag=no_ft_þgf_hk
+18	Atlantshafsbandalagsins	Atlantshafsbandalag	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	17	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk_gr
+19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00274,.10
-# text = Rapid Vín hefur undanfarna mánuði sýnt Arnóri mikinn áhuga og komu með tilboð í leikmanninn í lok apríl.
-1	Rapid Vín	Rapid Vín	PROPN	fyrirtæki	_	5	nsubj	_	tag=fyrirtæki
-2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	undanfarna	undanfarinn	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	tag=lo_ft_þf_kk_sb
-4	mánuði	mánuður	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	advmod	_	tag=no_ft_þf_kk
-5	sýnt	sýna	VERB	so_2_þgf_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_2_þgf_þf_sagnb_gm
-6	Arnóri	Arnór	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	5	iobj	_	tag=person_þgf_kk
-7	mikinn	mikill	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_þf_kk_sb
-8	áhuga	áhugi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	tag=no_et_þf_kk
-9	og	og	CCONJ	st	_	5	cc	_	tag=st
-10	komu	koma	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_ft_þt_gm
-11	með	með	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-12	tilboð	tilboð	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	tag=no_ft_þf_hk
-13	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14	leikmanninn	leikmaður	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þf_kk_gr
-15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	lok	lok	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	advmod	_	tag=no_et_þf_hk
-17	apríl	apríl	NUM?	dagsafs	_	16	nmod:poss	_	SpaceAfter=No|tag=dagsafs
-18	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+1-2	Rapid Vín	_	_	_	_	_	_	_	_
+1	Rapid	Rapid	PROPN	fyrirtæki	_	6	nsubj	_	tag=fyrirtæki
+2	Vín	Vín	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
+3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
+4	undanfarna	undanfarinn	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	5	amod	_	tag=lo_ft_þf_kk_sb
+5	mánuði	mánuður	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	advmod	_	tag=no_ft_þf_kk
+6	sýnt	sýna	VERB	so_2_þgf_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_2_þgf_þf_sagnb_gm
+7	Arnóri	Arnór	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	6	iobj	_	tag=person_þgf_kk
+8	mikinn	mikill	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_þf_kk_sb
+9	áhuga	áhugi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	tag=no_et_þf_kk
+10	og	og	CCONJ	st	_	6	cc	_	tag=st
+11	komu	koma	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_þt_gm
+12	með	með	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+13	tilboð	tilboð	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þf_hk
+14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+15	leikmanninn	leikmaður	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þf_kk_gr
+16	í	í	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
+17	lok	lok	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	advmod	_	tag=no_et_þf_hk
+18	apríl	apríl	NUM?	dagsafs	_	17	nmod:poss	_	tag=dagsafs
+19	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

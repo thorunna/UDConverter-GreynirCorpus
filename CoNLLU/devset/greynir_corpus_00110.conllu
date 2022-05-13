@@ -49,18 +49,20 @@
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 5	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nmod	_	tag=pfn_et_nf_p1
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
-7	Guðmundur Kjærnested	Guðmundur Kjærnested	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	obl	_	tag=person_nf_kk
-8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	félagi	félag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
-10	við	við	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-11	tvo	tveir	NUM	to_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	12	nummod	_	tag=to_ft_þf_kk
-12	aðra	annar	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|tag=fn_ft_þf_kk
-13	,	,	PUNCT	grm	_	12	punct	_	tag=grm
-14	slóðann	slóði	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk_gr
-15	út	út	ADV	ao	_	17	advmod	_	tag=ao
-16	á	á	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	Reykjanes	Reykjanes	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
-18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+7-8	Guðmundur Kjærnested	_	_	_	_	_	_	_	_
+7	Guðmundur	Guðmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	obl	_	tag=person_nf_kk
+8	Kjærnested	Kjærnested	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	tag=person_nf_kk
+9	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+10	félagi	félag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
+11	við	við	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+12	tvo	tveir	NUM	to_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	13	nummod	_	tag=to_ft_þf_kk
+13	aðra	annar	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No|tag=fn_ft_þf_kk
+14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
+15	slóðann	slóði	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk_gr
+16	út	út	ADV	ao	_	18	advmod	_	tag=ao
+17	á	á	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
+18	Reykjanes	Reykjanes	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
+19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00110,.4
 # text = Ef fólk telur sig óöruggt heima hjá sér er það hvatt til þess að forða sér í skjól.
@@ -86,23 +88,26 @@
 
 # sent_id = GREYNIR_CORPUS_00110,.5
 # text = Leikurinn var hreint út sagt ótrúlegur frá upphafi til enda og eftir tvær framlengingar réðust úrslitin í vítakeppni.
-1	Leikurinn	leikur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk_gr
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
-3	hreint út sagt	hreint út sagt	ADV	eo	_	4	advmod	_	tag=eo
-4	ótrúlegur	ótrúlegur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
-5	frá	frá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	upphafi	upphaf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
-7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
-8	enda	endi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_ef_kk
-9	og	og	CCONJ	st	_	4	cc	_	tag=st
-10	eftir	eftir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-11	tvær	tveir	NUM	to_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	nummod	_	tag=to_ft_þf_kvk
-12	framlengingar	framlenging	ADV	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	advmod	_	tag=no_ft_þf_kvk
-13	réðust	ráða	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	4	conj	_	tag=so_0_fh_p3_ft_þt_mm
-14	úrslitin	úrslit	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	13	nsubj	_	tag=no_ft_nf_hk_gr
-15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	vítakeppni	vítakeppni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-17	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+1	Leikurinn	leikur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk_gr
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+3-5	hreint út sagt	_	_	_	_	_	_	_	_
+3	hreint	hreint	ADV	eo	_	6	advmod	_	tag=eo
+4	út	út	ADV	eo	_	3	fixed	_	tag=eo
+5	sagt	sagt	ADV	eo	_	3	fixed	_	tag=eo
+6	ótrúlegur	ótrúlegur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
+7	frá	frá	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	upphafi	upphaf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
+9	til	til	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
+10	enda	endi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_ef_kk
+11	og	og	CCONJ	st	_	6	cc	_	tag=st
+12	eftir	eftir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+13	tvær	tveir	NUM	to_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	nummod	_	tag=to_ft_þf_kvk
+14	framlengingar	framlenging	ADV	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	15	advmod	_	tag=no_ft_þf_kvk
+15	réðust	ráða	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	6	conj	_	tag=so_0_fh_p3_ft_þt_mm
+16	úrslitin	úrslit	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	15	nsubj	_	tag=no_ft_nf_hk_gr
+17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+18	vítakeppni	vítakeppni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+19	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00110,.6
 # text = Að forminu til er þetta svipað málum Tony Omos (lekamálið) og Paul Ramses (flugvallarmálið).
@@ -113,16 +118,20 @@
 5	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=fn_et_nf_hk
 6	svipað	svipaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 7	málum	mál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_þgf_hk
-8	Tony Omos	Tony Omos	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-9	(	_	PUNCT	grm	_	8	punct	_	tag=grm
-10	lekamálið	lekamál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_nf_hk_gr
-11	)	_	PUNCT	grm	_	10	punct	_	tag=grm
-12	og	og	CCONJ	st	_	8	cc	_	tag=st
-13	Paul Ramses	Paul Ramses	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	conj	_	SpaceAfter=No|tag=person_ef_kk
-14	(	_	PUNCT	grm	_	13	punct	_	tag=grm
-15	flugvallarmálið	flugvallarmál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_nf_hk_gr
-16	)	_	PUNCT	grm	_	15	punct	_	SpaceAfter=No|tag=grm
-17	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+8-9	Tony Omos	_	_	_	_	_	_	_	_
+8	Tony	Tony	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
+9	Omos	Omos	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	flat	_	SpaceAfter=No|tag=person_ef_kk
+10	(	_	PUNCT	grm	_	9	punct	_	tag=grm
+11	lekamálið	lekamál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_nf_hk_gr
+12	)	_	PUNCT	grm	_	11	punct	_	tag=grm
+13	og	og	CCONJ	st	_	8	cc	_	tag=st
+14-15	Paul Ramses	_	_	_	_	_	_	_	_
+14	Paul	Paul	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	conj	_	SpaceAfter=No|tag=person_ef_kk
+15	Ramses	Ramses	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	flat	_	SpaceAfter=No|tag=person_ef_kk
+16	(	_	PUNCT	grm	_	15	punct	_	tag=grm
+17	flugvallarmálið	flugvallarmál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_nf_hk_gr
+18	)	_	PUNCT	grm	_	17	punct	_	SpaceAfter=No|tag=grm
+19	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00110,.7
 # text = Nokkur umræða hefur spunnist um fréttir þess efnis að lögregla útiloki ekki að um gáleysisbrot sé að ræða.
@@ -157,13 +166,18 @@
 7	örgjörvaframleiðandans	örgjörvaframleiðandi	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kk_gr
 8	Intel	Intel	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	tag=fyrirtæki_et_ef_hk
 9	frá	frá	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	árinu 2009	árinu 2009	ADV	ártal	_	3	advmod	_	tag=ártal
-11	og	og	CCONJ	st	_	3	cc	_	tag=st
-12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-13	upp	upp	ADV	ao	_	15	case	_	tag=ao
-14	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-15	1,06 milljarða evra	1,06 milljarða evra	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
-16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+10-11	árinu 2009	_	_	_	_	_	_	_	_
+10	árinu	árinu	ADV	ártal	_	3	advmod	_	tag=ártal
+11	2009	2009	NUM	ártal	_	10	flat	_	tag=ártal
+12	og	og	CCONJ	st	_	3	cc	_	tag=st
+13	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+14	upp	upp	ADV	ao	_	16	case	_	tag=ao
+15	á	á	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+16-18	1,06 milljarða evra	_	_	_	_	_	_	_	_
+16	1,06	1,06	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
+17	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
+18	evra	evra	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
+19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00110,.9
 # text = Katrín er á batavegi og hefur náð miklum framförum en í rúmt ár hefur hún bloggað um bataferlið.
@@ -198,10 +212,10 @@
 7	regnbogans	regnbogi	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod:poss	_	tag=no_et_ef_kk_gr
 8	litum	litur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_þgf_kk
 9	og	og	CCONJ	st	_	3	cc	_	tag=st
-10	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+10	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 11	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=fn_et_nf_kk
 12	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nmod:poss	_	tag=pfn_ft_ef_kk_p3
-13	bleikur	bleikur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	10	xcomp	_	tag=lo_et_nf_kk_sb
+13	bleikur	bleikur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	tag=lo_et_nf_kk_sb
 14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	stíl	stíll	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þgf_kk
 16	við	við	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf

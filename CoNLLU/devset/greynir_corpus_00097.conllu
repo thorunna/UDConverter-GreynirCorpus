@@ -42,22 +42,26 @@
 
 # sent_id = GREYNIR_CORPUS_00097,.3
 # text = Donald Trump útnefndi Jefferson Sessions, fyrrverandi dómsmálaráðherra Alabama ríkis, til að verða næsti dómsmálaráðherra Bandaríkjanna.
-1	Donald Trump	Donald Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	útnefndi	útnefna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	Jefferson Sessions	Jefferson Sessions	PROPN	person_þf_kk	Case=Acc|Gender=Masc	2	obj	_	SpaceAfter=No|tag=person_þf_kk
-4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-5	fyrrverandi	fyrrverandi	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	tag=lo_et_þf_kk_sb
-6	dómsmálaráðherra	dómsmálaráðherra	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_þf_kk
-7	Alabama	Alabama	PROPN	sérnafn_ef_hk	Case=Gen|Gender=Neut	3	nmod:poss	_	tag=sérnafn_ef_hk
-8	ríkis	ríki	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|tag=no_et_ef_hk
-9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
-10	til	til	ADP	fs_ef	Case=Gen	14	case	_	tag=fs_ef
-11	að	að	PART	nhm	_	14	mark	_	tag=nhm
-12	verða	verða	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	14	cop	_	tag=so_1_nf_nh_gm
-13	næsti	næstur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_nf_kk_evb
-14	dómsmálaráðherra	dómsmálaráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk
-15	Bandaríkjanna	Bandaríkin	PROPN	sérnafn_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	14	nmod:poss	_	SpaceAfter=No|tag=sérnafn_ft_ef_hk_gr
-16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Donald Trump	_	_	_	_	_	_	_	_
+1	Donald	Donald	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
+2	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	útnefndi	útnefna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+4-5	Jefferson Sessions	_	_	_	_	_	_	_	_
+4	Jefferson	Jefferson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	3	obj	_	SpaceAfter=No|tag=person_þf_kk
+5	Sessions	Sessions	PROPN	person_þf_kk	Case=Acc|Gender=Masc	4	flat	_	SpaceAfter=No|tag=person_þf_kk
+6	,	_	PUNCT	grm	_	4	punct	_	tag=grm
+7	fyrrverandi	fyrrverandi	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_þf_kk_sb
+8	dómsmálaráðherra	dómsmálaráðherra	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	tag=no_et_þf_kk
+9	Alabama	Alabama	PROPN	sérnafn_ef_hk	Case=Gen|Gender=Neut	4	nmod:poss	_	tag=sérnafn_ef_hk
+10	ríkis	ríki	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No|tag=no_et_ef_hk
+11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
+12	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
+13	að	að	PART	nhm	_	16	mark	_	tag=nhm
+14	verða	verða	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	16	cop	_	tag=so_1_nf_nh_gm
+15	næsti	næstur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_nf_kk_evb
+16	dómsmálaráðherra	dómsmálaráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk
+17	Bandaríkjanna	Bandaríkin	PROPN	sérnafn_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	16	nmod:poss	_	SpaceAfter=No|tag=sérnafn_ft_ef_hk_gr
+18	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00097,.4
 # text = Taugar FH-inga reyndust síðan sterkari á lokamínútunum og náðu Hafnfirðingar að kreista fram sigur á lokamínútum leiksins.
@@ -201,6 +205,8 @@
 13	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	ccomp	_	tag=so_0_lhþt_et
 14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	blaði	blað	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þgf_hk
-16	árið 1963	árið 1963	ADV	ártal	_	13	advmod	_	SpaceAfter=No|tag=ártal
-17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+16-17	árið 1963	_	_	_	_	_	_	_	_
+16	árið	árið	ADV	ártal	_	13	advmod	_	SpaceAfter=No|tag=ártal
+17	1963	1963	NUM	ártal	_	16	flat	_	SpaceAfter=No|tag=ártal
+18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

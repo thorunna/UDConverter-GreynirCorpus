@@ -119,7 +119,7 @@
 21	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00434,.6
-# text = Það er til mikils að vinna að efla þekkingu á því og stuðla þannig að minni plastneyslu ferðamanna hér á landi. “
+# text = Það er til mikils að vinna að efla þekkingu á því og stuðla þannig að minni plastneyslu ferðamanna hér á landi.“
 1	Það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_hk_p3
 2	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	til	til	ADP	fs_ef	Case=Gen	4	case	_	tag=fs_ef
@@ -138,34 +138,43 @@
 16	minni	lítill	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	17	amod	_	tag=lo_et_þgf_kvk_mst
 17	plastneyslu	plast-neysla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þgf_kvk
 18	ferðamanna	ferðamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	17	nmod:poss	_	tag=no_ft_ef_kk
-19	hér á landi	hér á landi	ADV	ao	_	13	advmod	_	SpaceAfter=No|tag=ao
-20	.	.	PUNCT	grm	_	19	punct	_	SpaceAfter=No|tag=grm
-21	“	“	PUNCT	grm	_	2	punct	_	tag=grm
+19-21	hér á landi	_	_	_	_	_	_	_	_
+19	hér	hér	ADV	ao	_	13	advmod	_	SpaceAfter=No|tag=ao
+20	á	á	ADV	ao	_	19	fixed	_	SpaceAfter=No|tag=ao
+21	landi	landi	ADV	ao	_	19	fixed	_	SpaceAfter=No|tag=ao
+22	.	.	PUNCT	grm	_	2	punct	_	SpaceAfter=No|tag=grm
+23	“	“	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00434,.7
 # text = Paul Newman með úrið fræga, Rolex-armbandsúr, sem hann síðar gaf þáverandi tengdasyni sínum, James Cox, árið 1969.
-1	Paul Newman	Paul Newman	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	tag=person_nf_kk
-2	með	með	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
-3	úrið	úr	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þf_hk_gr
-4	fræga	frægur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	3	amod	_	SpaceAfter=No|tag=lo_et_þf_hk_vb
-5	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-6	Rolex-armbandsúr	Rolex-armbandsúr	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|tag=no_et_þf_hk
-7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
-9	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kk_p3
-10	síðar	síðar	ADV	ao_mst	Degree=Cmp	11	advmod	_	tag=ao_mst
-11	gaf	gefa	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
-12	þáverandi	þáverandi	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_þgf_kk_sb
-13	tengdasyni	tengdasonur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obj	_	tag=no_et_þgf_kk
-14	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kk
-15	,	,	PUNCT	grm	_	16	punct	_	tag=grm
-16	James Cox	James Cox	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	conj	_	SpaceAfter=No|tag=person_þf_kk
-17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
-18	árið 1969	árið 1969	ADV	ártal	_	11	advmod	_	SpaceAfter=No|tag=ártal
-19	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+1-2	Paul Newman	_	_	_	_	_	_	_	_
+1	Paul	Paul	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	tag=person_nf_kk
+2	Newman	Newman	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	með	með	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
+4	úrið	úr	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þf_hk_gr
+5	fræga	frægur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No|tag=lo_et_þf_hk_vb
+6	,	,	PUNCT	grm	_	7	punct	_	tag=grm
+7	Rolex-armbandsúr	Rolex-armbandsúr	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No|tag=no_et_þf_hk
+8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
+9	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
+10	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_kk_p3
+11	síðar	síðar	ADV	ao_mst	Degree=Cmp	12	advmod	_	tag=ao_mst
+12	gaf	gefa	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
+13	þáverandi	þáverandi	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_þgf_kk_sb
+14	tengdasyni	tengdasonur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obj	_	tag=no_et_þgf_kk
+15	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kk
+16	,	,	PUNCT	grm	_	17	punct	_	tag=grm
+17-18	James Cox	_	_	_	_	_	_	_	_
+17	James	James	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	conj	_	SpaceAfter=No|tag=person_þf_kk
+18	Cox	Cox	PROPN	person_þf_kk	Case=Acc|Gender=Masc	17	flat	_	SpaceAfter=No|tag=person_þf_kk
+19	,	,	PUNCT	grm	_	14	punct	_	tag=grm
+20-21	árið 1969	_	_	_	_	_	_	_	_
+20	árið	árið	ADV	ártal	_	12	advmod	_	SpaceAfter=No|tag=ártal
+21	1969	1969	NUM	ártal	_	20	flat	_	SpaceAfter=No|tag=ártal
+22	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00434,.8
-# text = Mjög sjaldgæft er að banaslysin verði af eintómum klaufaskap heldur eru þau jafnan afleiðing af röð margra rangra ákvarðana. “
+# text = Mjög sjaldgæft er að banaslysin verði af eintómum klaufaskap heldur eru þau jafnan afleiðing af röð margra rangra ákvarðana.“
 1	Mjög	mjög	ADV	eo	_	2	advmod	_	tag=eo
 2	sjaldgæft	sjaldgæfur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=lo_et_nf_hk_sb
 3	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -176,10 +185,10 @@
 8	eintómum	eintómur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_þgf_kk_sb
 9	klaufaskap	klaufaskapur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
 10	heldur	gjarna	CCONJ	st	_	3	mark	_	tag=st
-11	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
+11	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 12	þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_ft_nf_hk_p3
 13	jafnan	jafn	ADV	ao	_	14	advmod	_	tag=ao
-14	afleiðing	afleiðing	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	xcomp	_	tag=no_et_nf_kvk
+14	afleiðing	afleiðing	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	tag=no_et_nf_kvk
 15	af	af	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	röð	röð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þgf_kvk
 17	margra	margur	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	19	amod	_	tag=lo_ft_ef_kvk_sb
@@ -212,26 +221,44 @@
 20	fornleifakjallara	fornleifa-kjallari	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|tag=no_et_þf_kk
 21	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
-1	2,3 milljarða	2,3 milljarða	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	2	nummod	_	tag=töl_ft_ef_kk
-2	skaðabótakröfu	skaðabótakrafa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	nsubj	_	tag=no_et_þgf_kvk
-3	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod:poss	_	tag=no_et_ef_hk_gr
-4	Lyfjablóms ehf.	Lyfjablóms ehf.	PROPN	fyrirtæki	_	3	conj	_	tag=fyrirtæki
-5	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-6	hendur	hönd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_þf_kvk
-7	Þórði Má Jóhannessyni	Þórði Má Jóhannessyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	2	obl	_	tag=person_þgf_kk
-8	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-9	Magnúsi Kristinssyni	Magnúsi Kristinssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	7	conj	_	tag=person_þgf_kk
-10	,	,	PUNCT	grm	_	11	punct	_	tag=grm
-11	Sólveigu Pétursdóttur	Sólveigu Pétursdóttur	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	7	conj	_	tag=person_þgf_kvk
+1-2	2,3 milljarða	_	_	_	_	_	_	_	_
+1	2,3	2,3	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nummod	_	tag=töl_ft_ef_kk
+2	milljarða	milljarða	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	1	_	_	tag=töl_ft_ef_kk
+3	skaðabótakröfu	skaðabótakrafa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	26	nsubj	_	tag=no_et_þgf_kvk
+4	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk_gr
+5-6	Lyfjablóms ehf.	_	_	_	_	_	_	_	_
+5	Lyfjablóms	Lyfjablóms	PROPN	fyrirtæki	_	4	conj	_	tag=fyrirtæki
+6	ehf.	ehf.	PROPN	fyrirtæki	_	5	flat	_	tag=fyrirtæki
+7	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+8	hendur	hönd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þf_kvk
+9-11	Þórði Má Jóhannessyni	_	_	_	_	_	_	_	_
+9	Þórði	Þórði	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	3	obl	_	tag=person_þgf_kk
+10	Má	Má	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	flat	_	tag=person_þgf_kk
+11	Jóhannessyni	Jóhannessyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	flat	_	tag=person_þgf_kk
 12	,	,	PUNCT	grm	_	13	punct	_	tag=grm
-13	Helga Friðjóni Arnarssyni	Helga Friðjóni Arnarssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	7	conj	_	tag=person_þgf_kk
-14	og	og	CCONJ	st	_	7	cc	_	tag=st
-15	KPMG ehf.	KPMG ehf.	PROPN	fyrirtæki	_	7	conj	_	tag=fyrirtæki
-16	var	var	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	aux	_	tag=so_0_fh_p3_et_þt_gm
-17	vísað	vísa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-18	frá	frá	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19	Héraðsdómi	héraðsdómur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þgf_kk
-20	Reykjavíkur	Reykjavík	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	19	nmod:poss	_	tag=no_et_ef_kvk
-21	í gær	í gær	ADV	ao	_	17	advmod	_	tag=ao
-22	.	.	PUNCT	grm	_	17	punct	_	tag=grm
+13-14	Magnúsi Kristinssyni	_	_	_	_	_	_	_	_
+13	Magnúsi	Magnúsi	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	conj	_	tag=person_þgf_kk
+14	Kristinssyni	Kristinssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	13	flat	_	tag=person_þgf_kk
+15	,	,	PUNCT	grm	_	16	punct	_	tag=grm
+16-17	Sólveigu Pétursdóttur	_	_	_	_	_	_	_	_
+16	Sólveigu	Sólveigu	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	9	conj	_	tag=person_þgf_kvk
+17	Pétursdóttur	Pétursdóttur	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	16	flat	_	tag=person_þgf_kvk
+18	,	,	PUNCT	grm	_	19	punct	_	tag=grm
+19-21	Helga Friðjóni Arnarssyni	_	_	_	_	_	_	_	_
+19	Helga	Helga	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	conj	_	tag=person_þgf_kk
+20	Friðjóni	Friðjóni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	19	flat	_	tag=person_þgf_kk
+21	Arnarssyni	Arnarssyni	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	19	flat	_	tag=person_þgf_kk
+22	og	og	CCONJ	st	_	9	cc	_	tag=st
+23-24	KPMG ehf.	_	_	_	_	_	_	_	_
+23	KPMG	KPMG	PROPN	fyrirtæki	_	9	conj	_	tag=fyrirtæki
+24	ehf.	ehf.	PROPN	fyrirtæki	_	23	flat	_	tag=fyrirtæki
+25	var	var	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	26	aux	_	tag=so_0_fh_p3_et_þt_gm
+26	vísað	vísa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
+27	frá	frá	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
+28	Héraðsdómi	héraðsdómur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	26	obl	_	tag=no_et_þgf_kk
+29	Reykjavíkur	Reykjavík	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	28	nmod:poss	_	tag=no_et_ef_kvk
+30-31	í gær	_	_	_	_	_	_	_	_
+30	í	í	ADV	ao	_	26	advmod	_	tag=ao
+31	gær	gær	ADV	ao	_	30	fixed	_	tag=ao
+32	.	.	PUNCT	grm	_	26	punct	_	tag=grm
 

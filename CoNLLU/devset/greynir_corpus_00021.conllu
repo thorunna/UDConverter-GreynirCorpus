@@ -1,5 +1,5 @@
 # sent_id = GREYNIR_CORPUS_00021,.1
-# text = Hvað er hægt að biðja frekar um ?
+# text = Hvað er hægt að biðja frekar um?
 1	Hvað	hver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_nf_hk
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=lo_et_nf_hk_sb
@@ -88,21 +88,25 @@
 
 # sent_id = GREYNIR_CORPUS_00021,.9
 # text = Er ársframleiðsla verksmiðjunnar rúmlega 23 þúsund tonn.
-1	Er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
-2	ársframleiðsla	ársframleiðsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
+1	Er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	ársframleiðsla	ársframleiðsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk
 3	verksmiðjunnar	verksmiðja	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	tag=no_et_ef_kvk_gr
-4	rúmlega	rúmlega	ADV	eo	_	6	advmod	_	tag=eo
-5	23 þúsund	23 þúsund	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nummod	_	tag=töl_ft_nf_hk
-6	tonn	tonn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	xcomp	_	SpaceAfter=No|tag=no_ft_nf_hk
-7	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+4	rúmlega	rúmlega	ADV	eo	_	7	advmod	_	tag=eo
+5-6	23 þúsund	_	_	_	_	_	_	_	_
+5	23	23	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	7	nummod	_	tag=töl_ft_nf_hk
+6	þúsund	þúsund	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	_	_	tag=töl_ft_nf_hk
+7	tonn	tonn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|tag=no_ft_nf_hk
+8	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00021,.10
-# text = Frétt mbl.is : Segir mál Atla Helgasonar sérstakt
+# text = Frétt mbl.is: Segir mál Atla Helgasonar sérstakt
 1	Frétt	frétt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 2	mbl.is	mbl.is	PROPN	entity_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	SpaceAfter=No|tag=entity_et_ef_hk
 3	:	:	PUNCT	grm	_	4	punct	_	tag=grm
 4	Segir	segja	VERB	so_1_þf	Case=Acc	1	conj	_	tag=so_1_þf
 5	mál	mál	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	iobj	_	tag=no_et_þf_hk
-6	Atla Helgasonar	Atli Helgason	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=person_et_ef_kk
-7	sérstakt	sérstakur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	tag=lo_et_þf_hk_sb
+6-7	Atla Helgasonar	_	_	_	_	_	_	_	_
+6	Atla	Atli	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=person_et_ef_kk
+7	Helgasonar	Helgason	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	flat	_	tag=person_et_ef_kk
+8	sérstakt	sérstakur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	tag=lo_et_þf_hk_sb
 

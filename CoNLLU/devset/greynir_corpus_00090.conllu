@@ -108,12 +108,14 @@
 8	Haukar	Haukar	PROPN	sérnafn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	tag=sérnafn_ft_nf_kk
 9	sjö	sjö	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	nummod	_	tag=töl_ft_þf_hk
 10	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	tag=no_ft_þf_hk
-11	á meðan	á meðan	SCONJ	st	_	13	mark	_	tag=st
-12	Grótta	Grótta	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	tag=sérnafn_et_nf_kvk
-13	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-14	aðeins	aðeins	ADV	eo	_	13	obj	_	tag=eo
-15	tvö	tveir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	nummod	_	SpaceAfter=No|tag=to_ft_þf_hk
-16	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+11-12	á meðan	_	_	_	_	_	_	_	_
+11	á	á	SCONJ	st	_	14	mark	_	tag=st
+12	meðan	meðan	SCONJ	st	_	11	_	_	tag=st
+13	Grótta	Grótta	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	tag=sérnafn_et_nf_kvk
+14	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	tag=so_1_þf_fh_p3_et_þt_gm
+15	aðeins	aðeins	ADV	eo	_	14	obj	_	tag=eo
+16	tvö	tveir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	nummod	_	SpaceAfter=No|tag=to_ft_þf_hk
+17	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00090,.7
 # text = Sóli tók íbúðina í nefnið fyrir ekki svo löngu og sýndi vel frá því á Snapchat.
@@ -142,17 +144,19 @@
 3	slökktu	slökkva	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
 4	kristnir	kristinn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	tag=lo_ft_nf_kk_sb
 5	bæjarbúar	bæjarbúi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	tag=no_ft_nf_kk
-6	í gærkvöld	í gærkvöld	ADV	ao	_	3	advmod	_	tag=ao
-7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	mótmælaskyni	mótmælaskyn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
-9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	ljósum	ljós	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk
-11	jólatrés	jólatré	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=no_et_ef_hk
-12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	torgunu	torg	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
-14	við	við	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	fæðingarkirkju	fæðingarkirkja	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þf_kvk
-16	Krists	Kristur	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	nmod:poss	_	tag=person_et_ef_kk
+6-7	í gærkvöld	_	_	_	_	_	_	_	_
+6	í	í	ADV	ao	_	3	advmod	_	tag=ao
+7	gærkvöld	gærkvöld	ADV	ao	_	6	fixed	_	tag=ao
+8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	mótmælaskyni	mótmælaskyn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
+10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	ljósum	ljós	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk
+12	jólatrés	jólatré	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	nmod:poss	_	tag=no_et_ef_hk
+13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	torgunu	torg	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk
+15	við	við	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+16	fæðingarkirkju	fæðingarkirkja	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þf_kvk
+17	Krists	Kristur	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	16	nmod:poss	_	tag=person_et_ef_kk
 
 # sent_id = GREYNIR_CORPUS_00090,.9
 # text = Ég leyfi mér að vera vongóður, segir Haraldur L. Haraldsson, bæjarstjóri Hafnarfjarðarbæjar.
@@ -164,17 +168,20 @@
 6	vongóður	vongóður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-9	Haraldur L. Haraldsson	Haraldur L. Haraldsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-10	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-11	bæjarstjóri	bæjarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	tag=no_et_nf_kk
-12	Hafnarfjarðarbæjar	Hafnarfjarðarbær	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk
-13	.	_	PUNCT	grm	_	8	punct	_	tag=grm
+9-11	Haraldur L. Haraldsson	_	_	_	_	_	_	_	_
+9	Haraldur	Haraldur	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
+10	L.	L.	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No|tag=person_et_nf_kk
+11	Haraldsson	Haraldsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No|tag=person_et_nf_kk
+12	,	_	PUNCT	grm	_	13	punct	_	tag=grm
+13	bæjarstjóri	bæjarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	tag=no_et_nf_kk
+14	Hafnarfjarðarbæjar	Hafnarfjarðarbær	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk
+15	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00090,.10
-# text = Fyrir leik : Þessi ljómandi hamborgarailmur tekur á móti gestum við innkomuna í FH-húsið.
-1	Fyrir	fyrir	ADP	fs_þf	Case=Acc	7	VANTAR_LIÐ_S_PREFIX	_	tag=fs_þf
-2	leik	leikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þf_kk
-3	:	:	PUNCT	grm	_	7	punct	_	tag=grm
+# text = Fyrir leik: Þessi ljómandi hamborgarailmur tekur á móti gestum við innkomuna í FH-húsið.
+1	Fyrir	fyrir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
+2	leik	leikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=no_et_þf_kk
+3	:	:	PUNCT	grm	_	2	punct	_	tag=grm
 4	Þessi	Þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	tag=fn_et_nf_kk
 5	ljómandi	ljómandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_sb
 6	hamborgarailmur	hamborgarailmur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_nf_kk

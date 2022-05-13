@@ -51,17 +51,19 @@
 2	dapra	dapur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	tag=lo_et_nf_kvk_vb
 3	sviðsmynd	sviðsmynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 4	þarf	þurfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-5	hins vegar	hins vegar	ADV	ao	_	4	advmod	_	tag=ao
-6	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
-7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_0_nh_gm
-9	aftur	aftur	ADV	ao	_	8	advmod	_	tag=ao
-10	að	að	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	veruleika	veruleiki	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
-12	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+5-6	hins vegar	_	_	_	_	_	_	_	_
+5	hins	hins	ADV	ao	_	4	advmod	_	tag=ao
+6	vegar	vegar	ADV	ao	_	5	fixed	_	tag=ao
+7	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
+8	að	að	PART	nhm	_	9	mark	_	tag=nhm
+9	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_0_nh_gm
+10	aftur	aftur	ADV	ao	_	9	advmod	_	tag=ao
+11	að	að	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	veruleika	veruleiki	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
+13	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00063,.5
-# text = Ég meina, hvaða skynsemi er í að halda öðru fram ?
+# text = Ég meina, hvaða skynsemi er í að halda öðru fram?
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	meina	meina	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=so_0_fh_p1_et_nt_gm
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -87,8 +89,10 @@
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	Úkraínu	Úkraína	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	tag=sérnafn_et_þgf_kvk
 10	fimmtudagskvöldið	fimmtudagskvöld	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þf_hk_gr
-11	24. maí	24. maí	ADV	dagsafs	_	5	advmod	_	SpaceAfter=No|tag=dagsafs
-12	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+11-12	24. maí	_	_	_	_	_	_	_	_
+11	24.	24.	ADV	dagsafs	_	5	advmod	_	SpaceAfter=No|tag=dagsafs
+12	maí	maí	NUM?	dagsafs	_	11	flat	_	SpaceAfter=No|tag=dagsafs
+13	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00063,.7
 # text = Stríðið dróst á langinn án þess að víglínan færðist mikið úr stað.
@@ -108,18 +112,20 @@
 
 # sent_id = GREYNIR_CORPUS_00063,.8
 # text = Að lokum skaltu muna að slaka á, allt mun fara vel.
-1	Að lokum	Að lokum	ADV	ao	_	3	advmod	_	tag=ao
-2	skaltu	skulu	AUX	so_0_fh_p2_et_nt_gm_sn	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p2_et_nt_gm_sn
-3	muna	muna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
-4	að	að	PART	nhm	_	5	mark	_	tag=nhm
-5	slaka	slaka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
-6	á	á	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
-7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=fn_et_nf_hk
-9	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
-10	fara	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	conj	_	tag=so_0_nh_gm
-11	vel	vel	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
-12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+1-2	Að lokum	_	_	_	_	_	_	_	_
+1	Að	Að	ADV	ao	_	4	advmod	_	tag=ao
+2	lokum	lokum	ADV	ao	_	1	fixed	_	tag=ao
+3	skaltu	skulu	AUX	so_0_fh_p2_et_nt_gm_sn	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p2_et_nt_gm_sn
+4	muna	muna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
+5	að	að	PART	nhm	_	6	mark	_	tag=nhm
+6	slaka	slaka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_0_nh_gm
+7	á	á	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
+8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
+9	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=fn_et_nf_hk
+10	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
+11	fara	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	conj	_	tag=so_0_nh_gm
+12	vel	vel	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
+13	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00063,.9
 # text = Rannsóknin greinir þjóðernishyggju á Norðurlöndum og uppgang þjóðernispopúlískra flokka í löndunum fimm.

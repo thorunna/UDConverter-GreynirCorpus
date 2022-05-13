@@ -41,16 +41,18 @@
 15	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kvk_p3
 16	tilnefnd	tilnefna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
 17	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
-18	Krzysztof Kieslowski	Krzysztof Kieslowski	PROPN	person_ef_kk	Case=Gen|Gender=Masc	16	obl	_	tag=person_ef_kk
-19	verðlaunanna	verðlaun	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	18	conj	_	SpaceAfter=No|tag=no_ft_ef_hk_gr
-20	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+18-19	Krzysztof Kieslowski	_	_	_	_	_	_	_	_
+18	Krzysztof	Krzysztof	PROPN	person_ef_kk	Case=Gen|Gender=Masc	16	obl	_	tag=person_ef_kk
+19	Kieslowski	Kieslowski	PROPN	person_ef_kk	Case=Gen|Gender=Masc	18	flat	_	tag=person_ef_kk
+20	verðlaunanna	verðlaun	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	18	conj	_	SpaceAfter=No|tag=no_ft_ef_hk_gr
+21	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00118,.3
 # text = Fylgi Vinstri-grænna mældist 13,2% og hefur verið svotil stöðugt síðan í seinnihluta júlí þegar fylgi flokksins mældist 12,9%.
 1	Fylgi	fylgi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 2	Vinstri-grænna	Vinstri-grænn	ADJ	lo_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	1	nmod:poss	_	tag=lo_ft_ef_hk
 3	mældist	mæla	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	4	cop	_	tag=so_1_nf_fh_p3_et_þt_mm
-4	13,2%	13,2%	X	prósenta	_	0	root	_	tag=prósenta
+4	13,2%	13,2%	?	prósenta	_	0	root	_	tag=prósenta
 5	og	og	CCONJ	st	_	6	cc	_	tag=st
 6	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
 7	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
@@ -64,7 +66,7 @@
 15	fylgi	fylgi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	tag=no_et_nf_hk
 16	flokksins	flokkur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod:poss	_	tag=no_et_ef_kk_gr
 17	mældist	mæla	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	18	cop	_	tag=so_1_nf_fh_p3_et_þt_mm
-18	12,9%	12,9%	X	prósenta	_	10	advcl	_	SpaceAfter=No|tag=prósenta
+18	12,9%	12,9%	?	prósenta	_	10	advcl	_	SpaceAfter=No|tag=prósenta
 19	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00118,.4
@@ -93,26 +95,28 @@
 
 # sent_id = GREYNIR_CORPUS_00118,.5
 # text = Í kjölfarið mótmæltu margir leikmenn NFL með því að fara niður á hnéið og aðrir læstu höndum saman í sameiningu.
-1	Í kjölfarið	í kjölfarið	ADV	ao	_	2	advmod	_	tag=ao
-2	mótmæltu	mótmæla	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
-3	margir	margur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	tag=lo_ft_nf_kk_sb
-4	leikmenn	leikmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_nf_kk
-5	NFL	NFL	PROPN	entity	_	4	nmod:poss	_	tag=entity
-6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	tag=pfn_et_þgf_hk_p3
-8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	fara	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_0_nh_gm
-10	niður	niður	ADV	ao	_	12	advmod	_	tag=ao
-11	á	á	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-12	hnéið	hné	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þf_hk_gr
-13	og	og	CCONJ	st	_	2	cc	_	tag=st
-14	aðrir	annar	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	tag=fn_ft_nf_kk
-15	læstu	læsa	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þgf_fh_p3_ft_þt_gm
-16	höndum	hönd	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	obj	_	tag=no_ft_þgf_kvk
-17	saman	saman	ADV	ao	_	15	compound:prt	_	tag=ao
-18	í	í	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19	sameiningu	sameining	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
-20	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Í kjölfarið	_	_	_	_	_	_	_	_
+1	Í	í	ADV	ao	_	3	advmod	_	tag=ao
+2	kjölfarið	kjölfarið	ADV	ao	_	1	fixed	_	tag=ao
+3	mótmæltu	mótmæla	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
+4	margir	margur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	tag=lo_ft_nf_kk_sb
+5	leikmenn	leikmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	tag=no_ft_nf_kk
+6	NFL	NFL	PROPN	entity	_	5	nmod:poss	_	tag=entity
+7	með	með	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þgf_hk_p3
+9	að	að	PART	nhm	_	10	mark	_	tag=nhm
+10	fara	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
+11	niður	niður	ADV	ao	_	13	advmod	_	tag=ao
+12	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+13	hnéið	hné	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þf_hk_gr
+14	og	og	CCONJ	st	_	3	cc	_	tag=st
+15	aðrir	annar	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	tag=fn_ft_nf_kk
+16	læstu	læsa	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þgf_fh_p3_ft_þt_gm
+17	höndum	hönd	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	obj	_	tag=no_ft_þgf_kvk
+18	saman	saman	ADV	ao	_	16	compound:prt	_	tag=ao
+19	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
+20	sameiningu	sameining	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
+21	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00118,.6
 # text = Næst stærstur er Sjálfstæðisflokkurinn með Önnu Alexandersdóttur í broddi fylkingar en hann hlaut 26,7% atkvæða og fékk 3 menn kjörna.
@@ -121,21 +125,23 @@
 3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
 5	með	með	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	Önnu Alexandersdóttur	Anna Alexandersdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	3	obl	_	tag=person_þf_kvk
-7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	broddi	broddur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
-9	fylkingar	fylking	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	_	tag=no_et_ef_kvk
-10	en	en	CCONJ	st	_	3	cc	_	tag=st
-11	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_kk_p3
-12	hlaut	hljóta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-13	26,7%	26,7%	NUM	prósenta	_	14	nummod	_	tag=prósenta
-14	atkvæða	atkvæði	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	obj	_	tag=no_ft_ef_hk
-15	og	og	CCONJ	st	_	12	cc	_	tag=st
-16	fékk	fá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-17	3	3	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	18	nummod	_	tag=tala_ft_þf_kk
-18	menn	maður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	tag=no_ft_þf_kk
-19	kjörna	kjósa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	16	conj	_	SpaceAfter=No|tag=so_0_lhþt_ft
-20	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+6-7	Önnu Alexandersdóttur	_	_	_	_	_	_	_	_
+6	Önnu	Anna	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	3	obl	_	tag=person_þf_kvk
+7	Alexandersdóttur	Alexandersdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	6	flat	_	tag=person_þf_kvk
+8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	broddi	broddur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
+10	fylkingar	fylking	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kvk
+11	en	en	CCONJ	st	_	3	cc	_	tag=st
+12	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	tag=pfn_et_nf_kk_p3
+13	hlaut	hljóta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+14	26,7%	26,7%	NUM	prósenta	_	15	nummod	_	tag=prósenta
+15	atkvæða	atkvæði	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	13	obj	_	tag=no_ft_ef_hk
+16	og	og	CCONJ	st	_	13	cc	_	tag=st
+17	fékk	fá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+18	3	3	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	19	nummod	_	tag=tala_ft_þf_kk
+19	menn	maður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	tag=no_ft_þf_kk
+20	kjörna	kjósa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	17	conj	_	SpaceAfter=No|tag=so_0_lhþt_ft
+21	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00118,.7
 # text = Boeing hefur vegna þessa gefið út sérstaka tilkynningu til flugfélaga um hvernig eigi að bregðast við í aðstæðum sem þessum.
@@ -170,11 +176,11 @@
 5	tvær	tveir	NUM	to_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	nummod	_	tag=to_ft_þf_kvk
 6	vikurnar	vika	ADV	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	advmod	_	tag=no_ft_þf_kvk_gr
 7	enda	enda	CCONJ	st	_	2	cc	_	tag=st
-8	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
-9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	cop	_	tag=so_0_sagnb_gm
+8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
+9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	conj	_	tag=so_0_sagnb_gm
 10	afar	afar	ADV	eo	_	12	advmod	_	tag=eo
 11	gott	góður	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_nf_hk_fst_sb
-12	veður	veður	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
+12	veður	veður	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	landinu	land	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk_gr
 15	sem	sem	SCONJ	stt	_	16	mark	_	tag=stt
@@ -188,23 +194,28 @@
 # sent_id = GREYNIR_CORPUS_00118,.9
 # text = Í ljósi sögunnar á Rás 1 fjallaði að þessu sinni um skiptingu breska Indlands í sjálfstæðu ríkin Indland og Pakistan.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	ljósi	ljós	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
+2	ljósi	ljós	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
 3	sögunnar	saga	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	tag=no_et_ef_kvk_gr
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	Rás 1	Rás 1	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=fyrirtæki_et_þgf_kvk
-6	fjallaði	fjalla	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-7	að þessu sinni	að þessu sinni	ADV	ao	_	6	advmod	_	tag=ao
-8	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	skiptingu	skipting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk
-10	breska	breskur	ADJ	lo_et_ef_hk_vb	Case=Gen|Gender=Neut|Number=Sing	11	amod	_	tag=lo_et_ef_hk_vb
-11	Indlands	Indland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=sérnafn_et_ef_hk
-12	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-13	sjálfstæðu	sjálfstæður	ADJ	lo_ft_þf_hk_fst_vb	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	tag=lo_ft_þf_hk_fst_vb
-14	ríkin	ríki	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_þf_hk_gr
-15	Indland	Indland	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	tag=sérnafn_et_þf_hk
-16	og	og	CCONJ	st	_	17	cc	_	tag=st
-17	Pakistan	Pakistan	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	conj	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
-18	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+5-6	Rás 1	_	_	_	_	_	_	_	_
+5	Rás	Rás	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	tag=fyrirtæki_et_þgf_kvk
+6	1	1	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	flat	_	tag=fyrirtæki_et_þgf_kvk
+7	fjallaði	fjalla	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+8-10	að þessu sinni	_	_	_	_	_	_	_	_
+8	að	að	ADV	ao	_	7	advmod	_	tag=ao
+9	þessu	þessu	ADV	ao	_	8	fixed	_	tag=ao
+10	sinni	sinni	ADV	ao	_	8	fixed	_	tag=ao
+11	um	um	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	skiptingu	skipting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk
+13	breska	breskur	ADJ	lo_et_ef_hk_vb	Case=Gen|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_ef_hk_vb
+14	Indlands	Indland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	nmod:poss	_	tag=sérnafn_et_ef_hk
+15	í	í	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
+16	sjálfstæðu	sjálfstæður	ADJ	lo_ft_þf_hk_fst_vb	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	17	amod	_	tag=lo_ft_þf_hk_fst_vb
+17	ríkin	ríki	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_þf_hk_gr
+18	Indland	Indland	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	tag=sérnafn_et_þf_hk
+19	og	og	CCONJ	st	_	20	cc	_	tag=st
+20	Pakistan	Pakistan	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	conj	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
+21	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00118,.10
 # text = Munurinn á gjaldtökunni við Seljalandsfoss og við Hraunfossa er skýr lagaleg heimild að sögn Kristínu Lindar Árnadóttur, forstjóra Umhverfisstofnunar.
@@ -222,9 +233,12 @@
 12	heimild	heimild	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 13	að	að	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	sögn	sögn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk
-15	Kristínu Lindar Árnadóttur	Kristín Lind Árnadóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	14	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
-16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
-17	forstjóra	forstjóri	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_ef_kk
-18	Umhverfisstofnunar	Umhverfisstofnun	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	17	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
-19	.	_	PUNCT	grm	_	12	punct	_	tag=grm
+15-17	Kristínu Lindar Árnadóttur	_	_	_	_	_	_	_	_
+15	Kristínu	Kristín	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	14	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
+16	Lindar	Lind	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	15	flat	_	SpaceAfter=No|tag=person_ef_kvk
+17	Árnadóttur	Árnadóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	15	flat	_	SpaceAfter=No|tag=person_ef_kvk
+18	,	_	PUNCT	grm	_	15	punct	_	tag=grm
+19	forstjóra	forstjóri	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_ef_kk
+20	Umhverfisstofnunar	Umhverfisstofnun	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	19	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
+21	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 

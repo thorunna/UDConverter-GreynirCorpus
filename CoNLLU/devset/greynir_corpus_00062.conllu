@@ -82,12 +82,14 @@
 4	valinn	velja	VERB	so_2_þf_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	6	advcl	_	tag=so_2_þf_þf_lhþt_et
 5	staður	staður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
 6	þarf	þurfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-7	meðal annars	meðal annars	ADV	ao	_	6	advmod	_	tag=ao
-8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	horfa	horfa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
-10	á	á	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-11	eftirfarandi	eftirfarandi	ADJ	lo_et_þf_sb	Case=Acc|Number=Sing	9	obl	_	SpaceAfter=No|tag=lo_et_þf_sb
-12	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+7-8	meðal annars	_	_	_	_	_	_	_	_
+7	meðal	meðal	ADV	ao	_	6	advmod	_	tag=ao
+8	annars	annars	ADV	ao	_	7	fixed	_	tag=ao
+9	að	að	PART	nhm	_	10	mark	_	tag=nhm
+10	horfa	horfa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
+11	á	á	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	eftirfarandi	eftirfarandi	ADJ	lo_et_þf_sb	Case=Acc|Number=Sing	10	obl	_	SpaceAfter=No|tag=lo_et_þf_sb
+13	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00062,.7
 # text = Fastagestir á HM, aldrei tryggt sér sæti þar jafnsnemma og nú.
@@ -107,18 +109,20 @@
 
 # sent_id = GREYNIR_CORPUS_00062,.8
 # text = En Hany Mukhtar jafnaði metin á ögurstundu og því þurfti að framlengja.
-1	En	en	SCONJ	st	_	3	cc	_	tag=st
-2	Hany Mukhtar	Hany Mukhtar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-3	jafnaði	jafna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-4	metin	met	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	3	obj	_	tag=no_ft_þf_hk_gr
-5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	ögurstundu	ögurstund	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
-7	og	og	CCONJ	st	_	3	cc	_	tag=st
-8	því	því	ADV	ao	_	9	advmod	_	tag=ao
-9	þurfti	þurfa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
-10	að	að	PART	nhm	_	11	mark	_	tag=nhm
-11	framlengja	framlengja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
-12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1	En	en	SCONJ	st	_	4	cc	_	tag=st
+2-3	Hany Mukhtar	_	_	_	_	_	_	_	_
+2	Hany	Hany	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=person_et_nf_kk
+3	Mukhtar	Mukhtar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	tag=person_et_nf_kk
+4	jafnaði	jafna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+5	metin	met	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	4	obj	_	tag=no_ft_þf_hk_gr
+6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	ögurstundu	ögurstund	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk
+8	og	og	CCONJ	st	_	4	cc	_	tag=st
+9	því	því	ADV	ao	_	10	advmod	_	tag=ao
+10	þurfti	þurfa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+11	að	að	PART	nhm	_	12	mark	_	tag=nhm
+12	framlengja	framlengja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
+13	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00062,.9
 # text = Þetta er allt saman hægt og það er eftir miklu að sækjast.
@@ -138,16 +142,18 @@
 
 # sent_id = GREYNIR_CORPUS_00062,.10
 # text = Auk þess sáu hálfberrassaðir karlar og konur um að halda uppi fjörinu.
-1	Auk þess	auk þess	ADV	ao	_	2	advmod	_	tag=ao
-2	sáu	sjá	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
-3	hálfberrassaðir	hálfberrassaður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	tag=lo_ft_nf_kk_sb
-4	karlar	karl	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_nf_kk
-5	og	og	CCONJ	st	_	6	cc	_	tag=st
-6	konur	kona	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	conj	_	tag=no_ft_nf_kvk
-7	um	um	ADP	fs_nh	VerbForm=Inf	9	case	_	tag=fs_nh
-8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	halda	halda	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	2	obl	_	tag=so_1_þgf_nh_gm
-10	uppi	uppi	ADV	ao	_	9	compound:prt	_	tag=ao
-11	fjörinu	fjör	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Auk þess	_	_	_	_	_	_	_	_
+1	Auk	auk	ADV	ao	_	3	advmod	_	tag=ao
+2	þess	þess	ADV	ao	_	1	fixed	_	tag=ao
+3	sáu	sjá	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
+4	hálfberrassaðir	hálfberrassaður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	tag=lo_ft_nf_kk_sb
+5	karlar	karl	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	tag=no_ft_nf_kk
+6	og	og	CCONJ	st	_	7	cc	_	tag=st
+7	konur	kona	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	tag=no_ft_nf_kvk
+8	um	um	ADP	fs_nh	VerbForm=Inf	10	case	_	tag=fs_nh
+9	að	að	PART	nhm	_	10	mark	_	tag=nhm
+10	halda	halda	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	3	obl	_	tag=so_1_þgf_nh_gm
+11	uppi	uppi	ADV	ao	_	10	compound:prt	_	tag=ao
+12	fjörinu	fjör	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

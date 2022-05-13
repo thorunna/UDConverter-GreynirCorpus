@@ -23,8 +23,10 @@
 21	María	María	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	22	nsubj	_	tag=sérnafn_nf_kvk
 22	reið	ríða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	obl	_	tag=so_0_fh_p3_et_þt_gm
 23	yfir	yfir	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
-24	Púertó Ríkó	Púertó Ríkó	PROPN	sérnafn	_	22	obl	_	SpaceAfter=No|tag=sérnafn
-25	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+24-25	Púertó Ríkó	_	_	_	_	_	_	_	_
+24	Púertó	Púertó	PROPN	sérnafn	_	22	obl	_	SpaceAfter=No|tag=sérnafn
+25	Ríkó	Ríkó	PROPN	sérnafn	_	24	flat	_	SpaceAfter=No|tag=sérnafn
+26	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00154,.2
 # text = Með því að velja Héraðsdóm Vesturlands var Embætti sérstaks saksóknara ekki einungis að velja sér dómstól heldur í raun einnig að velja sér dómara.
@@ -59,27 +61,31 @@
 1	Hjá	hjá	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	ÍBV	ÍBV	PROPN	fyrirtæki_þgf	Case=Dat	3	obl	_	tag=fyrirtæki_þgf
 3	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-4	Ester Óskarsdóttir	Ester Óskarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
-5	fyrir	fyrir	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-6	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	tag=fn_et_þgf_hk
-7	liði	lið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
-8	og	og	CCONJ	st	_	3	cc	_	tag=st
-9	gerði	gera	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-10	9	9	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	11	nummod	_	tag=tala_ft_þf_hk
-11	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	tag=no_ft_þf_hk
-12	en	en	CCONJ	st	_	3	cc	_	tag=st
-13	Ragnheiður Júlíusdóttir	Ragnheiður Júlíusdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	16	nsubj	_	tag=person_nf_kvk
-14	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_0_fh_p3_et_þt_gm
-15	einnig	einnig	ADV	ao	_	16	advmod	_	tag=ao
-16	frábær	frábær	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	tag=lo_et_nf_kvk_fst_sb
-17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	sókn	sókn	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þf_kvk
-19	Fram	Fram	PROPN	fyrirtæki_ef	Case=Gen	18	nmod:poss	_	tag=fyrirtæki_ef
-20	og	og	CCONJ	st	_	16	cc	_	tag=st
-21	gerði	gera	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-22	10	10	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	23	nummod	_	tag=tala_ft_þf_hk
-23	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	21	obj	_	SpaceAfter=No|tag=no_ft_þf_hk
-24	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+4-5	Ester Óskarsdóttir	_	_	_	_	_	_	_	_
+4	Ester	Ester	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
+5	Óskarsdóttir	Óskarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	flat	_	tag=person_nf_kvk
+6	fyrir	fyrir	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+7	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	tag=fn_et_þgf_hk
+8	liði	lið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
+9	og	og	CCONJ	st	_	3	cc	_	tag=st
+10	gerði	gera	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+11	9	9	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	12	nummod	_	tag=tala_ft_þf_hk
+12	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	tag=no_ft_þf_hk
+13	en	en	CCONJ	st	_	3	cc	_	tag=st
+14-15	Ragnheiður Júlíusdóttir	_	_	_	_	_	_	_	_
+14	Ragnheiður	Ragnheiður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	18	nsubj	_	tag=person_nf_kvk
+15	Júlíusdóttir	Júlíusdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	flat	_	tag=person_nf_kvk
+16	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_0_fh_p3_et_þt_gm
+17	einnig	einnig	ADV	ao	_	18	advmod	_	tag=ao
+18	frábær	frábær	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	tag=lo_et_nf_kvk_fst_sb
+19	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
+20	sókn	sókn	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_þf_kvk
+21	Fram	Fram	PROPN	fyrirtæki_ef	Case=Gen	20	nmod:poss	_	tag=fyrirtæki_ef
+22	og	og	CCONJ	st	_	18	cc	_	tag=st
+23	gerði	gera	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+24	10	10	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	25	nummod	_	tag=tala_ft_þf_hk
+25	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	23	obj	_	SpaceAfter=No|tag=no_ft_þf_hk
+26	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00154,.4
 # text = Það hefði verið óskandi að geta með bréfi þessu látið nægja að óska þér til hamingju með kjörið og bera fram óskir um gott samstarf.
@@ -112,25 +118,34 @@
 
 # sent_id = GREYNIR_CORPUS_00154,.5
 # text = Gylfi Þór Sigurðsson lagði upp fyrsta mark Swansea City fyrir Andre Ayew í 3:1 sigr liðsins gegn Liverpool á Liberty Stadium í dag.
-1	Gylfi Þór Sigurðsson	Gylfi Þór Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	lagði	leggja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	upp	upp	ADV	ao	_	2	compound:prt	_	tag=ao
-4	fyrsta	fyrstur	ADJ	lo_et_þf_hk_fst_vb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þf_hk_fst_vb
-5	mark	mark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
-6	Swansea City	Swansea City	PROPN	fyrirtæki	_	5	nmod:poss	_	tag=fyrirtæki
-7	fyrir	fyrir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	Andre Ayew	Andre Ayew	PROPN	person_þf	Case=Acc	2	obl	_	tag=person_þf
-9	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-10	3:1	3:1	NUM	tala	NumType=Card	11	nmod:poss	_	tag=tala
-11	sigr	sigur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
-12	liðsins	liður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod:poss	_	tag=no_et_ef_kk_gr
-13	gegn	gegn	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	Liverpool	Liverpool	PROPN	fyrirtæki_þgf	Case=Dat	11	obl	_	tag=fyrirtæki_þgf
-15	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	Liberty Stadium	Liberty Stadium	PROPN	sérnafn_þgf	Case=Dat	11	obl	_	tag=sérnafn_þgf
-17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Gylfi Þór Sigurðsson	_	_	_	_	_	_	_	_
+1	Gylfi	Gylfi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
+2	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+4	lagði	leggja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+5	upp	upp	ADV	ao	_	4	compound:prt	_	tag=ao
+6	fyrsta	fyrstur	ADJ	lo_et_þf_hk_fst_vb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þf_hk_fst_vb
+7	mark	mark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þf_hk
+8-9	Swansea City	_	_	_	_	_	_	_	_
+8	Swansea	Swansea	PROPN	fyrirtæki	_	7	nmod:poss	_	tag=fyrirtæki
+9	City	City	PROPN	fyrirtæki	_	8	flat	_	tag=fyrirtæki
+10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11-12	Andre Ayew	_	_	_	_	_	_	_	_
+11	Andre	Andre	PROPN	person_þf	Case=Acc	4	obl	_	tag=person_þf
+12	Ayew	Ayew	PROPN	person_þf	Case=Acc	11	flat	_	tag=person_þf
+13	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+14	3:1	3:1	NUM	tala	NumType=Card	15	nmod:poss	_	tag=tala
+15	sigr	sigur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
+16	liðsins	liður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod:poss	_	tag=no_et_ef_kk_gr
+17	gegn	gegn	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+18	Liverpool	Liverpool	PROPN	fyrirtæki_þgf	Case=Dat	15	obl	_	tag=fyrirtæki_þgf
+19	á	á	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+20-21	Liberty Stadium	_	_	_	_	_	_	_	_
+20	Liberty	Liberty	PROPN	sérnafn_þgf	Case=Dat	15	obl	_	tag=sérnafn_þgf
+21	Stadium	Stadium	PROPN	sérnafn_þgf	Case=Dat	20	flat	_	tag=sérnafn_þgf
+22	í	í	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+23	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+24	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00154,.6
 # text = Við höfum áhyggjur af því að það sé ekki nægilega verið að horfa á réttindi barna þegar teknar eru ákvarðanir um hæli og dvalarleyfi.
@@ -162,29 +177,31 @@
 
 # sent_id = GREYNIR_CORPUS_00154,.7
 # text = Umfjöllun um málefnið er hins vegar fagnað, enda eigum við ávallt að leita leiða til að bæta enn umgengni um auðlindir sjávar.
-1	Umfjöllun	umfjöllun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þgf_kvk
+1	Umfjöllun	umfjöllun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obj	_	tag=no_et_þgf_kvk
 2	um	um	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
 3	málefnið	málefni	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þf_hk_gr
-4	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
-5	hins vegar	hins vegar	ADV	ao	_	6	advmod	_	tag=ao
-6	fagnað	fagna	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_1_þgf_lhþt_et
-7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
-8	enda	enda	CCONJ	st	_	6	cc	_	tag=st
-9	eigum	eiga	VERB	so_1_ef_fh_p1_ft_nt_gm	Case=Gen|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_ef_fh_p1_ft_nt_gm
-10	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	tag=pfn_ft_nf_p1
-11	ávallt	ávallt	ADV	ao	_	9	advmod	_	tag=ao
-12	að	að	PART	nhm	_	13	mark	_	tag=nhm
-13	leita	leita	VERB	so_1_ef_nh_gm	Case=Gen|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_ef_nh_gm
-14	leiða	leið	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	13	obj	_	tag=no_ft_ef_kk
-15	til	til	ADP	fs_nh	VerbForm=Inf	17	case	_	tag=fs_nh
-16	að	að	PART	nhm	_	17	mark	_	tag=nhm
-17	bæta	bæta	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	14	obl	_	tag=so_1_þgf_nh_gm
-18	enn	enn	ADV	ao	_	17	advmod	_	tag=ao
-19	umgengni	umgengni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obj	_	tag=no_et_þgf_kvk
-20	um	um	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	auðlindir	auðlind	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	tag=no_ft_þf_kvk
-22	sjávar	sjór	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	21	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
-23	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+4	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
+5-6	hins vegar	_	_	_	_	_	_	_	_
+5	hins	hins	ADV	ao	_	7	advmod	_	tag=ao
+6	vegar	vegar	ADV	ao	_	5	fixed	_	tag=ao
+7	fagnað	fagna	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_1_þgf_lhþt_et
+8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
+9	enda	enda	CCONJ	st	_	7	cc	_	tag=st
+10	eigum	eiga	VERB	so_1_ef_fh_p1_ft_nt_gm	Case=Gen|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_ef_fh_p1_ft_nt_gm
+11	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	tag=pfn_ft_nf_p1
+12	ávallt	ávallt	ADV	ao	_	10	advmod	_	tag=ao
+13	að	að	PART	nhm	_	14	mark	_	tag=nhm
+14	leita	leita	VERB	so_1_ef_nh_gm	Case=Gen|VerbForm=Inf|Voice=Act	10	xcomp	_	tag=so_1_ef_nh_gm
+15	leiða	leið	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	14	obj	_	tag=no_ft_ef_kk
+16	til	til	ADP	fs_nh	VerbForm=Inf	18	case	_	tag=fs_nh
+17	að	að	PART	nhm	_	18	mark	_	tag=nhm
+18	bæta	bæta	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	15	obl	_	tag=so_1_þgf_nh_gm
+19	enn	enn	ADV	ao	_	18	advmod	_	tag=ao
+20	umgengni	umgengni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	18	obj	_	tag=no_et_þgf_kvk
+21	um	um	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+22	auðlindir	auðlind	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	20	obl	_	tag=no_ft_þf_kvk
+23	sjávar	sjór	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	22	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
+24	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00154,.8
 # text = Með þessari bylgju af konum og mönnum að segja frá reynslu sinni sannast enn og aftur hversu stórt samfélagsvandamál kynferðisofbeldi er, segir Lilja.
@@ -243,29 +260,31 @@
 
 # sent_id = GREYNIR_CORPUS_00154,.10
 # text = Andrea Agnelli forseti Ítalíumeistara Juventus hefur verið dæmdur í eins árs bann frá störfum af ítalska knattspyrnusambandinu fyrir þátt hans í ólöglegri sölu á aðgöngumiðum.
-1	Andrea Agnelli	Andrea Agnelli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
-2	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-3	Ítalíumeistara	Ítalíumeistari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	nmod:poss	_	tag=no_et_ef_kk
-4	Juventus	Juventus	PROPN	fyrirtæki	_	3	obl	_	tag=fyrirtæki
-5	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
-6	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	aux	_	tag=so_0_sagnb_gm
-7	dæmdur	dæma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-8	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-9	eins	einn	NUM	to_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nummod	_	tag=to_et_ef_hk
-10	árs	ár	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	nmod:poss	_	tag=no_et_ef_hk
-11	bann	bann	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
-12	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	störfum	starf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þgf_hk
-14	af	af	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-15	ítalska	ítalskur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þgf_hk_vb
-16	knattspyrnusambandinu	knattspyrnusamband	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk_gr
-17	fyrir	fyrir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þf_kk
-19	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	tag=pfn_et_ef_kk_p3
-20	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-21	ólöglegri	ólöglegur	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	22	amod	_	tag=lo_et_þgf_kvk_mst
-22	sölu	sala	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_þgf_kvk
-23	á	á	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	aðgöngumiðum	aðgöngumiði	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
-25	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+1-2	Andrea Agnelli	_	_	_	_	_	_	_	_
+1	Andrea	Andrea	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
+2	Agnelli	Agnelli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+4	Ítalíumeistara	Ítalíumeistari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kk
+5	Juventus	Juventus	PROPN	fyrirtæki	_	4	obl	_	tag=fyrirtæki
+6	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
+7	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	aux	_	tag=so_0_sagnb_gm
+8	dæmdur	dæma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+9	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+10	eins	einn	NUM	to_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	nummod	_	tag=to_et_ef_hk
+11	árs	ár	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	nmod:poss	_	tag=no_et_ef_hk
+12	bann	bann	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
+13	frá	frá	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	störfum	starf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_þgf_hk
+15	af	af	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+16	ítalska	ítalskur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	17	amod	_	tag=lo_et_þgf_hk_vb
+17	knattspyrnusambandinu	knattspyrnusamband	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk_gr
+18	fyrir	fyrir	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
+19	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þf_kk
+20	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nmod:poss	_	tag=pfn_et_ef_kk_p3
+21	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
+22	ólöglegri	ólöglegur	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	23	amod	_	tag=lo_et_þgf_kvk_mst
+23	sölu	sala	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þgf_kvk
+24	á	á	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
+25	aðgöngumiðum	aðgöngumiði	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
+26	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 

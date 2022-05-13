@@ -66,8 +66,10 @@
 1	Sögulegur	sögulegur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_sb
 2	viðburður	viðburður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 3	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-4	19. júlí	19. júlí	ADV	dagsafs	_	3	advmod	_	SpaceAfter=No|tag=dagsafs
-5	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+4-5	19. júlí	_	_	_	_	_	_	_	_
+4	19.	19.	ADV	dagsafs	_	3	advmod	_	SpaceAfter=No|tag=dagsafs
+5	júlí	júlí	NUM?	dagsafs	_	4	flat	_	SpaceAfter=No|tag=dagsafs
+6	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00206,.9
 # text = En utar er brimgarðurinn hvítbrosandi.
@@ -78,12 +80,10 @@
 5	hvítbrosandi	hvítbrosandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 6	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00206,.10
-# text = Börn og barneignir er annað.
 1	Börn	barn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	barneignir	barneign	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	tag=no_ft_nf_kvk
 4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-5	annað	annar	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=fn_et_nf_hk
+5	annað	annar	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
 6	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

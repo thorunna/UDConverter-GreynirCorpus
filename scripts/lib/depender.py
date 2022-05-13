@@ -21,6 +21,7 @@ from nltk.parse import DependencyGraph
 from sys import argv, stdin, stdout
 import getopt
 from collections import defaultdict
+from collections import OrderedDict
 import re
 import string
 
@@ -103,13 +104,14 @@ class UniversalDependencyGraph(DependencyGraph):
                         If dict is None returns '_'
 
         """
+
         return (
             "|".join(
                 f"{pair[0]}={pair[1]}"
                 for pair in sorted(dict.items(), key=lambda s: s[0].lower())
                 if pair[1] is not None
             )
-            if dict and len(dict) != 0
+            if dict and len(dict) != 0 and dict != "_"
             else "_"
         )
 
@@ -275,14 +277,69 @@ class UniversalDependencyGraph(DependencyGraph):
                         feats_str=self._dict_to_string(node["feats"]),
                         misc_str=self._dict_to_string(node["misc"]),
                     )
-                    for i, node in sorted(self.nodes.items())
-                    if node["tag"] != "TOP"
+                    for i, node in self.nodes.items()  # sorted(self.nodes.items())
+                    if node["tag"] != "TOP" and node["word"] is not None
                 )
                 + "\n"
             )
         except TypeError:
+            print(self.nodes.keys())
             print(self.nodes.items())
             raise
+
+        ## Reyna að breyta hausum í MWEs:
+        # for i, node in self.nodes.items():
+        #    if node["tag"] != "TOP" and node["word"] is not None:
+
+        #        if node["head"] == "_":
+        #            node["head"] = node["i"] - 1
+        #            node["rel"] = "dep"
+
+        #        return self.join_output_nodes(
+        #            "".join(
+        #                template.format(
+        #                    i=i,
+        #                    **node,
+        #                    lemma_str=node["lemma"] if node["lemma"] else "_",
+        #                    deps_str=self._deps_str(node["deps"]),
+        #                    feats_str=self._dict_to_string(node["feats"]),
+        #                    misc_str=self._dict_to_string(node["misc"]),
+        #                )
+        #            )
+        #            + "\n"
+
+        # if [type(key) != str for key in self.nodes.keys()]:
+        # for i, node in self.nodes.items():
+        # print("i: ", i)
+        #    print(node)
+        #    if type(i) == str:
+        #        print("halló strengur", i)
+        #    print("EKKI MWE", self.nodes.items())
+        # int_nodes = [x, node for x, node in self.nodes.items() if type(x) is int]
+
+        #    if type(i) is str:
+        #        print("i: ", i)
+        #    else:
+
+        #        return self.join_output_nodes(
+        #            "".join(
+        #                template.format(
+        #                    i=i,
+        #                    **node,
+        #                    lemma_str=node["lemma"] if node["lemma"] else "_",
+        #                    deps_str=self._deps_str(node["deps"]),
+        #                    feats_str=self._dict_to_string(node["feats"]),
+        #                    misc_str=self._dict_to_string(node["misc"]),
+        #                )
+        #                for i, node in sorted(self.nodes.items())
+        #                if node["tag"] != "TOP" and node["word"] is not None
+        #            )
+        #            + "\n"
+        #        )
+        # except TypeError:
+        #    print(self.nodes.keys())
+        #    print(self.nodes.items())
+        #    raise
 
     def plain_text(self):
         """09.03.20
@@ -298,12 +355,13 @@ class UniversalDependencyGraph(DependencyGraph):
 
         text = []
         for address, node in self.nodes.items():
-            if node["word"] == None:
-                continue
-            elif "SpaceAfter" in node["misc"] or address == len(self.nodes):
-                text.append(decode_escaped(node["word"]))
-            else:
-                text.append(decode_escaped(node["word"] + " "))
+            if type(address) != str:
+                if node["word"] == None:
+                    continue
+                elif "SpaceAfter" in node["misc"] or address == len(self.nodes):
+                    text.append(decode_escaped(node["word"]))
+                else:
+                    text.append(decode_escaped(node["word"] + " "))
         text = "".join(text)
         text = re.sub(r"(?<=\S)\$(?=\S)", "", text)
         text = re.sub(r"\$ \$", "", text)
@@ -315,6 +373,12 @@ class UniversalDependencyGraph(DependencyGraph):
         text = re.sub(r" \.", ".", text)
         text = re.sub(r"\( ", "(", text)
         text = re.sub(r" \)", ")", text)
+        text = re.sub(r" \?", "?", text)
+        text = re.sub(r" ;", ";", text)
+        text = re.sub(r" :", ":", text)
+        text = re.sub(r"„ ", "„", text)
+        text = re.sub(r" “", "“", text)
+
         return "# text = " + text
 
     def original_ID_plain_text(self, **kwargs):
@@ -503,6 +567,8 @@ class Converter:
         :return: str
         """
 
+        # return mod_tag, head_tag
+
         if "-" in mod_tag:
             mod_tag, mod_func = mod_tag.split("-", 1)
         elif "_" in mod_tag:
@@ -561,33 +627,32 @@ class Converter:
 
                 # print('No root relation found in sentence.')
                 for address, node in self.dg.nodes.items():
-                    # print(address, node['head'])
-                    # print("ADDRESS: ", type(address), address)
-                    if address == node["head"]:
+                    if type(address) != str:
+                        if address == node["head"]:
 
-                        # # DEBUG:
-                        # print('Node to fix:')
-                        # print(self.dg.get_by_address(address))
-                        # print()
+                            # # DEBUG:
+                            # print('Node to fix:')
+                            # print(self.dg.get_by_address(address))
+                            # print()
 
-                        self.dg.get_by_address(address).update(
-                            {"head": 0, "rel": "root"}
-                        )
-                    elif (
-                        node["head"] == address - 1
-                        and self.dg.get_by_address(address - 1)["head"] == address
-                    ):
-                        self.dg.get_by_address(address).update(
-                            {"head": 0, "rel": "root"}
-                        )
+                            self.dg.get_by_address(address).update(
+                                {"head": 0, "rel": "root"}
+                            )
+                        elif (
+                            node["head"] == address - 1
+                            and self.dg.get_by_address(address - 1)["head"] == address
+                        ):
+                            self.dg.get_by_address(address).update(
+                                {"head": 0, "rel": "root"}
+                            )
 
-                    elif (
-                        node["head"] == address - 3
-                        and self.dg.get_by_address(address - 3)["head"] == address
-                    ):
-                        self.dg.get_by_address(address).update(
-                            {"head": 0, "rel": "root"}
-                        )
+                        elif (
+                            node["head"] == address - 3
+                            and self.dg.get_by_address(address - 3)["head"] == address
+                        ):
+                            self.dg.get_by_address(address).update(
+                                {"head": 0, "rel": "root"}
+                            )
 
             # NOTE: when one verb in sent but no root
             elif self.dg.num_verbs() == 1:
@@ -847,6 +912,7 @@ class Converter:
                         elif (
                             address - 1 in self.dg.nodes
                             and self.dg.get_by_address(address - 1)["rel"] == "conj"
+                            and type(self.dg.get_by_address(address - 1)["head"]) == int
                             and node["head"]
                             > self.dg.get_by_address(address - 1)["head"]
                         ):
@@ -1771,6 +1837,78 @@ class Converter:
                     self.dg.get_by_address(address + 1).update({"rel": "fixed"})
                     self.dg.get_by_address(address + 2).update({"rel": "fixed"})
 
+    def _fix_mwe(self):
+        """
+        Fixes nodes within MWEs which don't have a dependency
+        """
+
+        for address, node in self.dg.nodes.items():
+            if type(address) is int and node["rel"] == "_" and node["head"] == "_":
+                if self.dg.get_by_address(address - 1)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 1)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
+                    self.dg.get_by_address(address).update({"head": address - 1})
+                elif self.dg.get_by_address(address - 2)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 2)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
+                    self.dg.get_by_address(address).update({"head": address - 2})
+                elif self.dg.get_by_address(address - 3)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 3)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
+                    self.dg.get_by_address(address).update({"head": address - 3})
+                elif self.dg.get_by_address(address - 4)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 4)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
+                    self.dg.get_by_address(address).update({"head": address - 4})
+                elif self.dg.get_by_address(address - 5)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 5)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
+                    self.dg.get_by_address(address).update({"head": address - 5})
+                elif self.dg.get_by_address(address - 6)[
+                    "head"
+                ] != "_" and self.dg.get_by_address(address - 6)["rel"] not in {
+                    "fixed",
+                    "flat",
+                }:
+                    self.dg.get_by_address(address).update({"head": address - 6})
+
+                orig_tag = node["tag"].split("_")[0]
+
+                if orig_tag in {
+                    "ártal",
+                    "dagsafs",
+                    "dagsföst",
+                    "tímapunktur",
+                    "tími",
+                    "tímapunkturafs",
+                    "person",
+                    "sérnafn",
+                    "entity",
+                    "fyrirtæki",
+                    "gata",
+                    "no",
+                }:
+                    self.dg.get_by_address(address).update({"rel": "flat"})
+                elif orig_tag == "foreign":
+                    self.dg.get_by_address(address).update({"rel": "flat:foreign"})
+                elif orig_tag in {"ao", "eo", "fs", "fn", "pfn", "abfn"}:
+                    self.dg.get_by_address(address).update({"rel": "fixed"})
+
     def create_dependency_graph(self, tree):
         """Create a dependency graph from a phrase structure tree.
 
@@ -1821,6 +1959,7 @@ class Converter:
             self.dg = UniversalDependencyGraph()
 
             for i in t.treepositions():
+
                 if isinstance(t[i], Tree):
 
                     if len(t[i]) == 1:
@@ -1829,14 +1968,10 @@ class Converter:
                         tag_list[nr] = t[i].label()
                         t[i].set_id(nr)
                     elif len(t[i]) in {2, 3, 4, 5, 6} and t[i].height() == 2:
-                        # print("long t[i]: ", t[i])
-                        # print("halló")
-                        # If terminal node with multiword expression/phrase
+                        # If terminal node with multiword expression/phrase with up to 6 tokens
                         tag_list[nr] = t[i].label()
                         t[i].set_id(nr)
                         t[i].multiword_expression()
-                        # print("long t[i] after: ", t[i])
-                        # print("halló")
 
                     else:
                         # If constituent / complex phrase
@@ -1845,7 +1980,23 @@ class Converter:
                         const.append(i)
 
                 else:
-                    # print(t[i])
+                    # temp_form = t[i]
+                    # temp_lemma = None
+                    # if "+lemma+" in t[i]:
+                    #    temp_form, temp_lemma = t[i].split("+lemma+")
+                    # if (
+                    #    (
+                    #        (temp_form in string.punctuation or temp_form in "„“")
+                    #        and temp_lemma is None
+                    #    )
+                    #    or ("+" in temp_form and "+" in temp_lemma)
+                    #    or (
+                    #        "+" not in temp_form
+                    #        and temp_lemma is not None
+                    #        and "+" not in temp_lemma
+                    #    )
+                    #    or ("+" in temp_form and "+" not in temp_lemma)
+                    # ):
                     if t[i] == "\\":
                         print(
                             "The token is a backslash, which most likely precedes a bracket. Please exchange the '\(' for *opening_bracket* and the '\)' for *closing_bracket*"
@@ -1854,7 +2005,8 @@ class Converter:
                         try:
                             tag = tag_list[nr]
                         except KeyError:
-                            nr -= 1
+                            form = t[i].split("+lemma+")[0]
+                            nr -= len(FORM.split(" "))
                             tag = tag_list[nr]
                     else:
                         tag = None
@@ -1882,7 +2034,7 @@ class Converter:
                         LEMMA = LEMMA.replace("++", " ")
                         LEMMA = LEMMA.replace("+", " ")
 
-                    # Original brackets were \( or \), which cannot be used due to bracket parsing
+                        # Original brackets were \( or \), which cannot be used due to bracket parsing
                     if FORM == "*opening_bracket*":
                         FORM = "("
                     elif FORM == "*closing_bracket*":
@@ -1892,27 +2044,109 @@ class Converter:
                     elif LEMMA == "*closing_bracket*":
                         LEMMA = ")"
 
-                    XPOS = tag
-                    MISC = defaultdict(lambda: None)
-                    # Feature Classes called here
-                    UPOS = G_Features(tag, FORM).get_UD_tag()
-                    FEATS = G_Features(tag).get_features()
-                    MISC = defaultdict(lambda: None, {"tag": tag})
-                    if FORM not in {"None", None}:
+                        #        XPOS = tag
+                        #        MISC = defaultdict(lambda: None)
+                        # Feature Classes called here
+                        #        UPOS = G_Features(tag, FORM).get_UD_tag()
+                        #        FEATS = G_Features(tag).get_features()
+                        #        MISC = defaultdict(lambda: None, {"tag": tag})
+
+                    count = 0
+                    new_nr = 0
+                    # if " " in FORM:
+                    if " " in FORM:
+                        FORMS = FORM.split(" ")
+                        if LEMMA is not None:
+                            LEMMAS = LEMMA.split(" ")
+                        else:
+                            LEMMAS = []
+                        XPOS = tag
+                        UPOS = G_Features(tag, FORM).get_UD_tag()
+                        FEATS = G_Features(tag).get_features()
+                        MISC = defaultdict(lambda: None, {"tag": tag})
+                        mwe_end = nr + len(FORMS) - 1
+                        mwe_nr = str(nr) + "-" + str(mwe_end)
                         self.dg.add_node(
                             {
-                                "address": nr,
+                                "address": mwe_nr,
                                 "word": FORM,
-                                "lemma": LEMMA,
-                                "ctag": UPOS,  # upostag
-                                "tag": XPOS,  # xpostag
-                                "feats": FEATS,
-                                "deps": defaultdict(list),
+                                "lemma": "_",
+                                "ctag": "_",  # upostag
+                                "tag": "_",  # xpostag
+                                "feats": "_",
+                                "deps": "_",
                                 "rel": "_",
-                                "misc": MISC,
+                                "misc": "_",
                             }
                         )
-                        nr += 1
+                        for FORM in FORMS:
+                            if len(LEMMAS) > 1:
+                                LEMMA = LEMMAS[count]
+                            self.dg.add_node(
+                                {
+                                    "address": nr,
+                                    "word": FORM,
+                                    "lemma": LEMMA,
+                                    "ctag": UPOS,  # upostag
+                                    "tag": XPOS,  # xpostag
+                                    "feats": FEATS,
+                                    "deps": defaultdict(list),
+                                    "rel": "_",
+                                    "misc": MISC,
+                                }
+                            )
+                            nr += 1
+                            count += 1
+                        new_nr = nr
+
+                    else:
+
+                        if new_nr != 0:
+                            XPOS = tag
+                            MISC = defaultdict(lambda: None)
+                            # Feature Classes called here
+                            UPOS = G_Features(tag, FORM).get_UD_tag()
+                            FEATS = G_Features(tag).get_features()
+                            MISC = defaultdict(lambda: None, {"tag": tag})
+                            if FORM not in {"None", None}:
+                                self.dg.add_node(
+                                    {
+                                        "address": new_nr,  # new_nr,
+                                        "word": FORM,
+                                        "lemma": LEMMA,
+                                        "ctag": UPOS,  # upostag
+                                        "tag": XPOS,  # xpostag
+                                        "feats": FEATS,
+                                        "deps": defaultdict(list),
+                                        "rel": "_",
+                                        "misc": MISC,
+                                    }
+                                )
+                                nr += 1
+                            # new_nr += 1
+                        else:
+                            XPOS = tag
+                            MISC = defaultdict(lambda: None)
+                            # Feature Classes called here
+                            UPOS = G_Features(tag, FORM).get_UD_tag()
+                            FEATS = G_Features(tag).get_features()
+                            MISC = defaultdict(lambda: None, {"tag": tag})
+                            if FORM not in {"None", None}:
+                                self.dg.add_node(
+                                    {
+                                        "address": nr,  # new_nr,
+                                        "word": FORM,
+                                        "lemma": LEMMA,
+                                        "ctag": UPOS,  # upostag
+                                        "tag": XPOS,  # xpostag
+                                        "feats": FEATS,
+                                        "deps": defaultdict(list),
+                                        "rel": "_",
+                                        "misc": MISC,
+                                    }
+                                )
+                                nr += 1
+                            # new_nr += 1
 
             # # DEBUG:
             # print(tag_list)
@@ -1949,6 +2183,31 @@ class Converter:
                                 t[i].set_id(t[j].id())
                             else:
                                 self._select_head(t[i], main_clause=t[j])
+
+                else:
+                    self._select_head(t[i])
+
+            # fixes subtrees with 1 child but wrong id
+            for i in singles:
+                if isinstance(t[i][0], Tree) and t[i].id() != t[i][0].id():
+
+                    # # DEBUG:
+                    # print()
+                    # print('Tree ID:', t[i].id(), 'Child ID:', t[i][0].id())
+                    # print('Tree:', t[i])
+                    # # print()
+                    # print('Child:', t[i][0])
+
+                    if re.match("=\d", t[i].label()[-2:]):
+                        # print('\nMain Clause indicated\n')
+                        clause_index = t[i].label()[-1]
+                        # re.match('\d', t[i].label()[-2:])
+                        for j in const:
+                            if re.match(f"-{clause_index}", t[j].label()[-2:]):
+                                self._select_head(t[i][0], main_clause=t[j])
+                    # else
+                    else:
+                        t[i].set_id(t[i][0].id())
 
                 else:
                     self._select_head(t[i])
@@ -2017,7 +2276,7 @@ class Converter:
                             ):  # todo root phrase types from config
                                 self.dg.get_by_address(mod_nr).update(
                                     {"head": 0, "rel": "root"}
-                                )  # todo copula not a head
+                                )
                                 self.dg.root = self.dg.get_by_address(mod_nr)
                             else:
                                 # Unknown dependency relation (things to fix)
@@ -2044,9 +2303,9 @@ class Converter:
                                 }
                             )
 
-                            # # DEBUG:
-                            # print(self.dg.get_by_address(mod_nr))
-                            # input()
+                        # # DEBUG:
+                        # print(self.dg.get_by_address(mod_nr))
+                        # input()
 
                         if head_nr != mod_nr:
                             self.dg.add_arc(head_nr, mod_nr)
@@ -2092,8 +2351,8 @@ class Converter:
             if ctag_counts["AUX"] > 0:
                 self._fix_root_tag()
             self._fix_head_id_same()
-            if ctag_counts["X"] > 0:
-                self._fix_flat_foreign()
+            # if ctag_counts["X"] > 0:
+            #    self._fix_flat_foreign()
             if ctag_counts["CCONJ"] > 0:
                 self._fix_cconj_rel()
             if rel_counts["cop"] > 0:
@@ -2114,6 +2373,8 @@ class Converter:
                 self._fix_punct_heads()
             if rel_counts["dep"] > 0:
                 self._fix_dep_rel()
+            if rel_counts["_"] > 0:
+                self._fix_mwe()
             # if rel_counts["case"] > 0:
             #    self._fix_case_rel()
             self._fix_cc_rel()
@@ -2196,19 +2457,20 @@ class Converter:
         """
 
         for address in dgraph.addresses():
-            id_to_fix = int(address) - 1
-            if dgraph.get_by_address(address)["ctag"] == "PUNCT":
-                if id_to_fix < 0:
-                    continue
-                elif dgraph.get_by_address(address)["ctag"] == "„":
-                    dgraph.get_by_address(address)["misc"]["SpaceAfter"] = "No"
-                elif (
-                    dgraph.get_by_address(id_to_fix)["lemma"] in {"„", ":", "|"}
-                    or address == "1"
-                ):
-                    continue
-                else:
-                    dgraph.get_by_address(id_to_fix)["misc"]["SpaceAfter"] = "No"
+            if type(address) != str:
+                id_to_fix = int(address) - 1
+                if dgraph.get_by_address(address)["ctag"] == "PUNCT":
+                    if id_to_fix < 0:
+                        continue
+                    elif dgraph.get_by_address(address)["ctag"] == "„":
+                        dgraph.get_by_address(address)["misc"]["SpaceAfter"] = "No"
+                    elif (
+                        dgraph.get_by_address(id_to_fix)["lemma"] in {"„", ":", "|"}
+                        or address == "1"
+                    ):
+                        continue
+                    else:
+                        dgraph.get_by_address(id_to_fix)["misc"]["SpaceAfter"] = "No"
             # adding space after word ending in $. Needs better fix
             elif dgraph.get_by_address(address)["word"].endswith(
                 "$"

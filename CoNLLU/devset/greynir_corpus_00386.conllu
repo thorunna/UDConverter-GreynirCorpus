@@ -9,11 +9,13 @@
 7	litið	lita	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	obj	_	tag=so_0_lhþt_et
 8	framhjá	framhjá	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	yfirburðarreynslu	yfirburðar-reynsla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þgf_kvk
-10	Jóns Ásgeirs	Jóns Ásgeirs	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	tag=person_ef_kk
-11	af	af	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-12	fjölbreyttum	fjölbreyttur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_þgf_kk_sb
-13	smásölurekstri	smásölu-rekstur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
-14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+10-11	Jóns Ásgeirs	_	_	_	_	_	_	_	_
+10	Jóns	Jóns	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	tag=person_ef_kk
+11	Ásgeirs	Ásgeirs	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	flat	_	tag=person_ef_kk
+12	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+13	fjölbreyttum	fjölbreyttur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_þgf_kk_sb
+14	smásölurekstri	smásölu-rekstur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
+15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00386,.2
 # text = Hræið af hvalnum fannst í flæðamálinu á Kapota eyju í Wakatobi þjóðgarðinum í gær.
@@ -29,13 +31,15 @@
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	Wakatobi	Wakatobi	PROPN	sérnafn	_	8	obl	_	tag=sérnafn
 12	þjóðgarðinum	þjóðgarður	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	11	conj	_	tag=no_et_þgf_kk_gr
-13	í gær	í gær	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
-14	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+13-14	í gær	_	_	_	_	_	_	_	_
+13	í	í	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
+14	gær	gær	ADV	ao	_	13	fixed	_	SpaceAfter=No|tag=ao
+15	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00386,.3
 # text = Þetta sagði ég vera fráleitt skilyrði sem ekki kæmi til greina að samþykkja.
-1	Þetta	þetta	ADV	ao	_	0	root	_	tag=ao
-2	sagði	segja	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	conj	_	tag=so_1_þf_fh_p1_et_þt_gm
+1	Þetta	þetta	ADV	ao	_	2	obj	_	tag=ao
+2	sagði	segja	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_þt_gm
 3	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 4	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	cop	_	tag=so_1_nf_nh_gm
 5	fráleitt	fráleitur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_nf_hk_sb
@@ -47,7 +51,7 @@
 11	greina	greinir	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	tag=no_ft_ef_kvk
 12	að	að	PART	nhm	_	13	mark	_	tag=nhm
 13	samþykkja	samþykkja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
-14	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00386,.4
 # text = Hjá mörgum sveitarfélögum sé þetta betri niðurstaða en undanfarin 10 til 15 ár.
@@ -68,20 +72,22 @@
 
 # sent_id = GREYNIR_CORPUS_00386,.5
 # text = Anna Björk starfaði hjá Símanum í átta ár, þar af fimm í framkvæmdastjórn.
-1	Anna Björk	Anna Björk	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
-2	starfaði	starfa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-3	hjá	hjá	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
-4	Símanum	sími	PROPN	fyrirtæki_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=fyrirtæki_et_þgf_kk_gr
-5	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-6	átta	átta	NUM	tala_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	7	nummod	_	tag=tala_et_þf_hk
-7	ár	ár	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
-8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	þar	þar	ADV	ao	_	11	advmod	_	tag=ao
-10	af	af	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	fimm	fimm	NUM	töl_ft_þgf	Case=Dat|Number=Plur	2	obl	_	tag=töl_ft_þgf
-12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	framkvæmdastjórn	framkvæmdastjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Anna Björk	_	_	_	_	_	_	_	_
+1	Anna	Anna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
+2	Björk	Björk	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+3	starfaði	starfa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+5	Símanum	sími	PROPN	fyrirtæki_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	tag=fyrirtæki_et_þgf_kk_gr
+6	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
+7	átta	átta	NUM	tala_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	8	nummod	_	tag=tala_et_þf_hk
+8	ár	ár	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
+9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
+10	þar	þar	ADV	ao	_	12	advmod	_	tag=ao
+11	af	af	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	fimm	fimm	NUM	töl_ft_þgf	Case=Dat|Number=Plur	3	obl	_	tag=töl_ft_þgf
+13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	framkvæmdastjórn	framkvæmdastjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00386,.6
 # text = Sú fjármálastefna sem ríkisstjórnin hefur nú lagt fram er fjármálastefna 2017 – 2022.
@@ -122,15 +128,17 @@
 2	gætu	geta	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	4	aux	_	tag=so_0_vh_p3_ft_þt_gm
 3	þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_ft_nf_hk_p3
 4	keppt	keppa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-5	alls staðar	alls staðar	ADV	ao	_	4	advmod	_	tag=ao
-6	eins	einn	ADV	ao	_	4	advcl	_	tag=ao
-7	og	og	CCONJ	st	_	6	cc	_	tag=st
-8	önnur	annar	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	9	nmod	_	tag=fn_ft_nf_hk
-9	íþróttafélög	íþróttafélag	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
-10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-12	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-13	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+5-6	alls staðar	_	_	_	_	_	_	_	_
+5	alls	alls	ADV	ao	_	4	advmod	_	tag=ao
+6	staðar	staðar	ADV	ao	_	5	fixed	_	tag=ao
+7	eins	einn	ADV	ao	_	4	advcl	_	tag=ao
+8	og	og	CCONJ	st	_	7	cc	_	tag=st
+9	önnur	annar	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	10	nmod	_	tag=fn_ft_nf_hk
+10	íþróttafélög	íþróttafélag	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
+11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
+12	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_0_fh_p3_et_nt_gm
+13	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+14	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00386,.9
 # text = Ekki er sérstök hefð fyrir því að málaðar séu myndir af fyrrverandi skólameisturum.
@@ -149,20 +157,22 @@
 13	skólameisturum	skólameistari	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00386,.10
-# text = Svala Björgvins kom, sá og sigraði í Söngvakeppninni árið 2017 með lag sitt Paper.
-1	Svala Björgvins	Svala Björgvins	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=person_et_nf_kvk
-2	kom	kom	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
-3	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-4	sá	sá	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
-5	og	og	CCONJ	st	_	2	cc	_	tag=st
-6	sigraði	sigraði	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	Söngvakeppninni	Söngvakeppninni	PROPN	sérnafn_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=sérnafn_et_þgf_kvk_gr
-9	árið 2017	árið 2017	ADV	ártal	_	6	advmod	_	tag=ártal
-10	með	með	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-11	lag	lag	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk
-12	sitt	sitt	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	tag=fn_et_þf_hk
-13	Paper	Paper	X	foreign	_	11	obl	_	SpaceAfter=No|tag=foreign
-14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Svala Björgvins	_	_	_	_	_	_	_	_
+1	Svala	Svala	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=person_et_nf_kvk
+2	Björgvins	Björgvins	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	tag=person_et_nf_kvk
+3	kom	kom	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+4	,	,	PUNCT	grm	_	5	punct	_	tag=grm
+5	sá	sá	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+6	og	og	CCONJ	st	_	3	cc	_	tag=st
+7	sigraði	sigraði	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	Söngvakeppninni	Söngvakeppninni	PROPN	sérnafn_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=sérnafn_et_þgf_kvk_gr
+10-11	árið 2017	_	_	_	_	_	_	_	_
+10	árið	árið	ADV	ártal	_	7	advmod	_	tag=ártal
+11	2017	2017	NUM	ártal	_	10	flat	_	tag=ártal
+12	með	með	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+13	lag	lag	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
+14	sitt	sitt	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	tag=fn_et_þf_hk
+15	Paper	Paper	X	foreign	_	13	obl	_	tag=foreign
+16	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

@@ -76,15 +76,19 @@
 # sent_id = GREYNIR_CORPUS_00057,.6
 # text = SLÓ Í GEGN Á RED BULL ACADEMY OG HELDUR PARTÝ Í KVÖLD
 1	SLÓ	slá	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-2	Í GEGN	í gegn	ADV	ao	_	1	advmod	_	tag=ao
-3	Á	Á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
-4	RED	RED	PROPN	entity	_	1	obl	_	tag=entity
-5	BULL	bull	PROPN	entity	_	4	flat:name	_	tag=entity
-6	ACADEMY	ACADEMY	PROPN	entity	_	4	conj	_	tag=entity
-7	OG	og	SCONJ	st	_	1	mark	_	tag=st
-8	HELDUR	halda	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-9	PARTÝ	partý	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þf_hk
-10	Í KVÖLD	í kvöld	ADV	ao	_	8	advmod	_	tag=ao
+2-3	Í GEGN	_	_	_	_	_	_	_	_
+2	Í	í	ADV	ao	_	1	advmod	_	tag=ao
+3	GEGN	gegn	ADV	ao	_	2	fixed	_	tag=ao
+4	Á	Á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+5	RED	RED	PROPN	entity	_	1	obl	_	tag=entity
+6	BULL	bull	PROPN	entity	_	5	flat:name	_	tag=entity
+7	ACADEMY	ACADEMY	PROPN	entity	_	5	conj	_	tag=entity
+8	OG	og	SCONJ	st	_	1	mark	_	tag=st
+9	HELDUR	halda	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+10	PARTÝ	partý	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	tag=no_et_þf_hk
+11-12	Í KVÖLD	_	_	_	_	_	_	_	_
+11	Í	í	ADV	ao	_	9	advmod	_	tag=ao
+12	KVÖLD	kvöld	ADV	ao	_	11	fixed	_	tag=ao
 
 # sent_id = GREYNIR_CORPUS_00057,.7
 # text = Mér finnst virkilega erfitt að fylgjast með þróun mála í Helguvík.
@@ -137,11 +141,11 @@
 3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	ört	ört	ADV	eo	_	5	advmod	_	tag=eo
 5	vaxandi	vaxandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
-6	og	og	CCONJ	st	_	7	cc	_	tag=st
-7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+6	og	og	CCONJ	st	_	5	cc	_	tag=st
+7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 8	starfið	starf	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	tag=no_et_nf_hk_gr
 9	mjög	mjög	ADV	eo	_	10	advmod	_	tag=eo
-10	fjölbreytt	fjölbreyttur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	7	xcomp	_	tag=lo_et_nf_hk_sb
+10	fjölbreytt	fjölbreyttur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_nf_hk_sb
 11	og	og	CCONJ	st	_	12	cc	_	tag=st
 12	gefandi	gefandi	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 13	.	_	PUNCT	grm	_	5	punct	_	tag=grm

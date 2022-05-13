@@ -11,8 +11,10 @@
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	advmod	_	tag=no_et_þf_kk
 11	og	og	CCONJ	st	_	12	cc	_	tag=st
-12	á morgun	á morgun	ADV	ao	_	10	conj	_	SpaceAfter=No|tag=ao
-13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+12-13	á morgun	_	_	_	_	_	_	_	_
+12	á	á	ADV	ao	_	10	conj	_	SpaceAfter=No|tag=ao
+13	morgun	morgun	ADV	ao	_	12	fixed	_	SpaceAfter=No|tag=ao
+14	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00065,.2
 # text = Framundan er leikur gegn Slóveníu í undankeppni HM 2019 á Laugardalsvelli 11. júní.
@@ -27,24 +29,28 @@
 9	2019	2019	NUM	ártal	_	8	nummod	_	tag=ártal
 10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	Laugardalsvelli	Laugardalsvöllur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_kk
-12	11. júní	11. júní	ADV	dagsafs	_	3	advmod	_	SpaceAfter=No|tag=dagsafs
-13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+12-13	11. júní	_	_	_	_	_	_	_	_
+12	11.	11.	ADV	dagsafs	_	3	advmod	_	SpaceAfter=No|tag=dagsafs
+13	júní	júní	NUM?	dagsafs	_	12	flat	_	SpaceAfter=No|tag=dagsafs
+14	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00065,.3
 # text = Björn Róbert er svo nýkominn til þeirra og er að styrkja liðið heilmikið.
-1	Björn Róbert	Björn Róbert	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
-3	svo	svo	ADV	eo	_	4	advmod	_	tag=eo
-4	nýkominn	nýkominn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
-5	til	til	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
-6	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl	_	tag=pfn_ft_ef_kk_p3
-7	og	og	CCONJ	st	_	4	cc	_	tag=st
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
-9	að	að	PART	nhm	_	10	mark	_	tag=nhm
-10	styrkja	styrkja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_1_þf_nh_gm
-11	liðið	lið	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obj	_	tag=no_et_þf_hk_gr
-12	heilmikið	heilmikið	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
-13	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+1-2	Björn Róbert	_	_	_	_	_	_	_	_
+1	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
+2	Róbert	Róbert	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
+4	svo	svo	ADV	eo	_	5	advmod	_	tag=eo
+5	nýkominn	nýkominn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
+6	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
+7	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obl	_	tag=pfn_ft_ef_kk_p3
+8	og	og	CCONJ	st	_	5	cc	_	tag=st
+9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
+10	að	að	PART	nhm	_	11	mark	_	tag=nhm
+11	styrkja	styrkja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
+12	liðið	lið	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	11	obj	_	tag=no_et_þf_hk_gr
+13	heilmikið	heilmikið	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
+14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00065,.4
 # text = Bjarni sagðist litlar áhyggjur hafa, enda séu um þrjár kannanir í mánuði.
@@ -65,36 +71,43 @@
 
 # sent_id = GREYNIR_CORPUS_00065,.5
 # text = Guðmundur var árið 2011 kosinn formaður Landverndar og stýrði samtökunum í fjögur ár.
-1	Guðmundur	Guðmundur	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=person_et_nf_kk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
-3	árið 2011	árið 2011	ADV	ártal	_	4	advmod	_	tag=ártal
-4	kosinn	kosinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
-5	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
-6	Landverndar	Landvernd	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
-7	og	og	CCONJ	st	_	4	cc	_	tag=st
-8	stýrði	stýra	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þgf_fh_p3_et_þt_gm
-9	samtökunum	samtak	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	8	obj	_	tag=no_ft_þgf_hk_gr
-10	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-11	fjögur	fjórir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	nummod	_	tag=to_ft_þf_hk
-12	ár	ár	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	advmod	_	SpaceAfter=No|tag=no_ft_þf_hk
-13	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+1	Guðmundur	Guðmundur	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_et_nf_kk
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+3-4	árið 2011	_	_	_	_	_	_	_	_
+3	árið	árið	ADV	ártal	_	5	advmod	_	tag=ártal
+4	2011	2011	NUM	ártal	_	3	flat	_	tag=ártal
+5	kosinn	kosinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
+6	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_nf_kk
+7	Landverndar	Landvernd	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
+8	og	og	CCONJ	st	_	5	cc	_	tag=st
+9	stýrði	stýra	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_þgf_fh_p3_et_þt_gm
+10	samtökunum	samtak	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	9	obj	_	tag=no_ft_þgf_hk_gr
+11	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+12	fjögur	fjórir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	13	nummod	_	tag=to_ft_þf_hk
+13	ár	ár	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	advmod	_	SpaceAfter=No|tag=no_ft_þf_hk
+14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00065,.6
 # text = Sigurður Gunnar Þorsteinsson er svo í hópnum í dag í stað Axels Kárasonar.
-1	Sigurður Gunnar Þorsteinsson	Sigurður Gunnar Þorsteinsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	svo	svo	ADV	ao	_	2	advmod	_	tag=ao
-4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	hópnum	hópur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk_gr
-6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
-8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	stað	staður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
-10	Axels Kárasonar	Axel Kárason	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=person_et_ef_kk
-11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Sigurður Gunnar Þorsteinsson	_	_	_	_	_	_	_	_
+1	Sigurður	Sigurður	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=person_et_nf_kk
+2	Gunnar	Gunnar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+3	Þorsteinsson	Þorsteinsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+5	svo	svo	ADV	ao	_	4	advmod	_	tag=ao
+6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	hópnum	hópur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk_gr
+8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+9	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	advmod	_	tag=no_et_þf_kk
+10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	stað	staður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
+12-13	Axels Kárasonar	_	_	_	_	_	_	_	_
+12	Axels	Axel	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	11	nmod:poss	_	SpaceAfter=No|tag=person_et_ef_kk
+13	Kárasonar	Kárason	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	flat	_	SpaceAfter=No|tag=person_et_ef_kk
+14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00065,.7
-# text = Hún svaraði : Ég veit ekki hvað þú átt að gera.
+# text = Hún svaraði: Ég veit ekki hvað þú átt að gera.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p3
 2	svaraði	svara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
 3	:	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -136,24 +149,28 @@
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
 8	hefst	hefja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	2	conj	_	tag=so_0_fh_p3_et_nt_mm
 9	hátíðardagskrá	hátíðardagskrá	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk
-10	klukkan 13	klukkan 13	ADV	tími	_	8	advmod	_	tag=tími
-11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	Lystigarðinum	Lystigarðurinn	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk_gr
-13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+10-11	klukkan 13	_	_	_	_	_	_	_	_
+10	klukkan	klukkan	ADV	tími	_	8	advmod	_	tag=tími
+11	13	13	NUM	tími	_	10	flat	_	tag=tími
+12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	Lystigarðinum	Lystigarðurinn	PROPN	sérnafn_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk_gr
+14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00065,.10
 # text = Elliði Vignisson bæjarstjóri segir forsvarsmenn fyrirtækjanna hafa lýst yfir þungum áhyggjum af stöðunni.
-1	Elliði Vignisson	Elliði Vignisson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-2	bæjarstjóri	bæjarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-3	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-4	forsvarsmenn	forsvarsmaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	tag=no_ft_þf_kk
-5	fyrirtækjanna	fyrirtæki	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	4	nmod:poss	_	tag=no_ft_ef_hk_gr
-6	hafa	hafa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	iobj	_	tag=so_0_nh_gm
-7	lýst	lýsa	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	6	VANTAR_LIÐ_VP_None	_	tag=so_1_þgf_sagnb_gm
-8	yfir	yfir	ADV	ao	_	7	compound:prt	_	tag=ao
-9	þungum	þungur	ADJ	lo_ft_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Plur	10	amod	_	tag=lo_ft_þgf_kvk_sb
-10	áhyggjum	áhyggja	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þgf_kvk
-11	af	af	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	stöðunni	staða	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
-13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1-2	Elliði Vignisson	_	_	_	_	_	_	_	_
+1	Elliði	Elliði	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=person_et_nf_kk
+2	Vignisson	Vignisson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+3	bæjarstjóri	bæjarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+4	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+5	forsvarsmenn	forsvarsmaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	tag=no_ft_þf_kk
+6	fyrirtækjanna	fyrirtæki	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	5	nmod:poss	_	tag=no_ft_ef_hk_gr
+7	hafa	hafa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	iobj	_	tag=so_0_nh_gm
+8	lýst	lýsa	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	7	VANTAR_LIÐ_VP_None	_	tag=so_1_þgf_sagnb_gm
+9	yfir	yfir	ADV	ao	_	8	compound:prt	_	tag=ao
+10	þungum	þungur	ADJ	lo_ft_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Plur	11	amod	_	tag=lo_ft_þgf_kvk_sb
+11	áhyggjum	áhyggja	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	tag=no_ft_þgf_kvk
+12	af	af	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	stöðunni	staða	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
+14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

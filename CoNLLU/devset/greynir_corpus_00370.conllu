@@ -15,47 +15,56 @@
 
 # sent_id = GREYNIR_CORPUS_00370,.2
 # text = Fjölmiðlum gefst kostur á að senda fyrirspurnir fyrir klukkan 19.00 í kvöld 14.04.2019.
-1	Fjölmiðlum	fjölmiðill	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_þgf_kk
-2	gefst	gefa	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	conj	_	tag=so_0_fh_p3_et_nt_mm
+1	Fjölmiðlum	fjölmiðill	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	iobj	_	tag=no_ft_þgf_kk
+2	gefst	gefa	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 3	kostur	kostur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
 4	á	eiga	ADP	fs_nh	VerbForm=Inf	6	case	_	tag=fs_nh
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	senda	senda	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	obl	_	tag=so_1_þf_nh_gm
 7	fyrirspurnir	fyrirspurn	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	tag=no_ft_þf_kvk
 8	fyrir	fyrir	ADV	fs_þf	Case=Acc	6	advmod	_	tag=fs_þf
-9	klukkan 19.00	klukkan 19.00	ADV	tími	_	8	advmod	_	tag=tími
-10	í kvöld	í kvöld	ADV	ao	_	8	advmod	_	tag=ao
-11	14.04.2019	14.04.2019	ADV	tími	_	8	advmod	_	SpaceAfter=No|tag=tími
-12	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+9-10	klukkan 19.00	_	_	_	_	_	_	_	_
+9	klukkan	klukkan	ADV	tími	_	8	advmod	_	tag=tími
+10	19.00	19.00	NUM	tími	_	9	flat	_	tag=tími
+11-12	í kvöld	_	_	_	_	_	_	_	_
+11	í	í	ADV	ao	_	8	advmod	_	tag=ao
+12	kvöld	kvöld	ADV	ao	_	11	fixed	_	tag=ao
+13	14.04.2019	14.04.2019	ADV	tími	_	8	advmod	_	SpaceAfter=No|tag=tími
+14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00370,.3
 # text = Þorvaldur H. Þórðarson, framkvæmdastjóri markaðsstofu Marvælastofnunar segir hugsanlegt að þetta verði endurskoðað.
-1	Þorvaldur H. Þórðarson	Þorvaldur H. Þórðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	markaðsstofu	markaðs-stofa	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk
-5	Marvælastofnunar	Mar-væla-stofnun	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
-6	segir	segja	VERB	so_2_þf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þf_þf_fh_p3_et_nt_gm
-7	hugsanlegt	hugsanlegur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	6	iobj	_	tag=lo_et_þf_hk_sb
-8	að	að	SCONJ	st	_	6	obj	_	tag=st
-9	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=fn_et_nf_hk
-10	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_vh_p3_et_nt_gm
-11	endurskoðað	endurskoða	VERB	so_0_lhþt	VerbForm=Part	8	VANTAR_LIÐ_IP_None	_	SpaceAfter=No|tag=so_0_lhþt
-12	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+1-3	Þorvaldur H. Þórðarson	_	_	_	_	_	_	_	_
+1	Þorvaldur	Þorvaldur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+2	H.	H.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+3	Þórðarson	Þórðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+4	,	,	PUNCT	grm	_	1	punct	_	tag=grm
+5	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+6	markaðsstofu	markaðs-stofa	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kvk
+7	Marvælastofnunar	Mar-væla-stofnun	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
+8	segir	segja	VERB	so_2_þf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þf_þf_fh_p3_et_nt_gm
+9	hugsanlegt	hugsanlegur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	8	iobj	_	tag=lo_et_þf_hk_sb
+10	að	að	SCONJ	st	_	8	obj	_	tag=st
+11	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	tag=fn_et_nf_hk
+12	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_et_nt_gm
+13	endurskoðað	endurskoða	VERB	so_0_lhþt	VerbForm=Part	10	VANTAR_LIÐ_IP_None	_	SpaceAfter=No|tag=so_0_lhþt
+14	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00370,.4
 # text = Vandinn felst ekki síst í því að skera þarf niður námsefni.
 1	Vandinn	vandi	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk_gr
 2	felst	fela	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
-3	ekki síst	ekki síst	ADV	ao	_	2	advmod	_	tag=ao
-4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
-6	að	að	SCONJ	st	_	7	mark	_	tag=st
-7	skera	skera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	ccomp	_	tag=so_1_þf_nh_gm
-8	þarf	þurfa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
-9	niður	niður	ADV	ao	_	7	advmod	_	tag=ao
-10	námsefni	námsefni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No|tag=no_et_þf_hk
-11	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	ekki síst	_	_	_	_	_	_	_	_
+3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
+4	síst	síst	ADV	ao	_	3	fixed	_	tag=ao
+5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
+6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
+7	að	að	SCONJ	st	_	8	mark	_	tag=st
+8	skera	skera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	ccomp	_	tag=so_1_þf_nh_gm
+9	þarf	þurfa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
+10	niður	niður	ADV	ao	_	8	advmod	_	tag=ao
+11	námsefni	námsefni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No|tag=no_et_þf_hk
+12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00370,.5
 # text = Á níu árum hans hjá FH hefði aldrei komið upp krísa.
@@ -74,33 +83,38 @@
 
 # sent_id = GREYNIR_CORPUS_00370,.6
 # text = Þess í stað mun flokkurinn leggja áherslu á að umbreyta sambandinu innan frá.
-1	Þess í stað	þess í stað	ADV	ao	_	4	advmod	_	tag=ao
-2	mun	muna	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	flokkurinn	flokkur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk_gr
-4	leggja	legg	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
-5	áherslu	áhersla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	tag=no_et_þf_kvk
-6	á	eiga	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
-7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	umbreyta	umbreyta	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	5	obl	_	tag=so_1_þgf_nh_gm
-9	sambandinu	samband	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þgf_hk_gr
-10	innan	inna	ADV	ao	_	8	advmod	_	tag=ao
-11	frá	frá	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
-12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+1-3	Þess í stað	_	_	_	_	_	_	_	_
+1	Þess	þess	ADV	ao	_	6	advmod	_	tag=ao
+2	í	í	ADV	ao	_	1	fixed	_	tag=ao
+3	stað	stað	ADV	ao	_	1	fixed	_	tag=ao
+4	mun	muna	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
+5	flokkurinn	flokkur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk_gr
+6	leggja	legg	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
+7	áherslu	áhersla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þf_kvk
+8	á	eiga	ADP	fs_nh	VerbForm=Inf	10	case	_	tag=fs_nh
+9	að	að	PART	nhm	_	10	mark	_	tag=nhm
+10	umbreyta	umbreyta	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	7	obl	_	tag=so_1_þgf_nh_gm
+11	sambandinu	samband	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	10	obj	_	tag=no_et_þgf_hk_gr
+12	innan	inna	ADV	ao	_	10	advmod	_	tag=ao
+13	frá	frá	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
+14	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00370,.7
 # text = Því miður miða áform fjármálaráðherra ekki að þessum markmiðum nema síður sé.
-1	Því miður	því miður	ADV	ao	_	2	advmod	_	tag=ao
-2	miða	mið	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
-3	áform	áform	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	tag=no_ft_nf_hk
-4	fjármálaráðherra	fjármálaráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kk
-5	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
-6	að	að	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-7	þessum	þessi	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	8	nmod	_	tag=fn_ft_þgf_hk
-8	markmiðum	markmið	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
-9	nema	nema	SCONJ	st	_	11	mark	_	tag=st
-10	síður	síða	ADV	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	advmod	_	tag=no_et_nf_kvk
-11	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	SpaceAfter=No|tag=so_0_vh_p3_et_nt_gm
-12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Því miður	_	_	_	_	_	_	_	_
+1	Því	því	ADV	ao	_	3	advmod	_	tag=ao
+2	miður	miður	ADV	ao	_	1	fixed	_	tag=ao
+3	miða	mið	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
+4	áform	áform	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk
+5	fjármálaráðherra	fjármálaráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kk
+6	ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
+7	að	að	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+8	þessum	þessi	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	nmod	_	tag=fn_ft_þgf_hk
+9	markmiðum	markmið	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk
+10	nema	nema	SCONJ	st	_	12	mark	_	tag=st
+11	síður	síða	ADV	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	advmod	_	tag=no_et_nf_kvk
+12	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	SpaceAfter=No|tag=so_0_vh_p3_et_nt_gm
+13	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00370,.8
 # text = Hann hefur lagt fram 72 fyrirspurnir, eða fjórðung allra fyrirspurna.
@@ -133,18 +147,19 @@
 12	situr	sitja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
 13	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00370,.10
-# text = Ekki er vitað að svo stöddu hvað varð til þess að rútan valt.
 1	Ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
 2	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	vitað	vita	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
-4	að svo stöddu	að svo stöddu	ADV	eo	_	3	advmod	_	tag=eo
-5	hvað	hvað	ADV	ao	_	6	advmod	_	tag=ao
-6	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	xcomp	_	tag=so_0_fh_p3_et_þt_gm
-7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
-8	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_ef_hk
-9	að	að	SCONJ	st	_	11	mark	_	tag=st
-10	rútan	rúta	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_nf_kvk_gr
-11	valt	valdur	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	ccomp	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
-12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+4-6	að svo stöddu	_	_	_	_	_	_	_	_
+4	að	að	ADV	eo	_	3	advmod	_	tag=eo
+5	svo	svo	ADV	eo	_	4	fixed	_	tag=eo
+6	stöddu	stöddu	ADV	eo	_	4	fixed	_	tag=eo
+7	hvað	hvað	ADV	ao	_	8	advmod	_	tag=ao
+8	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	xcomp	_	tag=so_0_fh_p3_et_þt_gm
+9	til	til	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
+10	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	tag=fn_et_ef_hk
+11	að	að	SCONJ	st	_	13	mark	_	tag=st
+12	rútan	rúta	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	tag=no_et_nf_kvk_gr
+13	valt	valdur	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	ccomp	_	tag=so_0_fh_p3_et_þt_gm
+14	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

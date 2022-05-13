@@ -36,11 +36,13 @@
 4	rætt	ræða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	afstöðu	afstaða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
-7	Sigmundar Davíðs	Sigmundur Davíð	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	nmod:poss	_	tag=person_ef_kk
-8	og	og	CCONJ	st	_	9	cc	_	tag=st
-9	ráðherra	ráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_ef_kk
-10	Sjálfstæðisflokksins	Sjálfstæðisflokkur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
-11	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+7-8	Sigmundar Davíðs	_	_	_	_	_	_	_	_
+7	Sigmundar	Sigmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	nmod:poss	_	tag=person_ef_kk
+8	Davíðs	Davíð	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	flat	_	tag=person_ef_kk
+9	og	og	CCONJ	st	_	7	cc	_	tag=st
+10	ráðherra	ráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_ef_kk
+11	Sjálfstæðisflokksins	Sjálfstæðisflokkur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
+12	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00053,.4
 # text = Hann telur að ef eitthvað hafi aukist sé það neysla fíkniefna.
@@ -77,26 +79,33 @@
 1	MS	MS	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk
 2	greiddi	greiða	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 3	bændum	bóndi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obj	_	tag=no_ft_þgf_kk
-4	hins vegar	hins vegar	ADV	ao	_	6	advmod	_	tag=ao
-5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	193 milljónir króna	193 milljónir króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þf_kvk
-7	fyrir	fyrir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	mjólkina	mjólk	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
-9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+4-5	hins vegar	_	_	_	_	_	_	_	_
+4	hins	hins	ADV	ao	_	7	advmod	_	tag=ao
+5	vegar	vegar	ADV	ao	_	4	fixed	_	tag=ao
+6	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+7-9	193 milljónir króna	_	_	_	_	_	_	_	_
+7	193	193	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þf_kvk
+8	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	flat	_	tag=no_ft_þf_kvk
+9	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	flat	_	tag=no_ft_þf_kvk
+10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	mjólkina	mjólk	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
+12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00053,.7
 # text = Uppskriftina gaf Svavar Örn hárgreiðslumaður og hefur hann mikla þökk fyrir.
 1	Uppskriftina	uppskrift	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk_gr
 2	gaf	gefa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	Svavar Örn	Svavar Örn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-4	hárgreiðslumaður	hárgreiðslumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk
-5	og	og	CCONJ	st	_	2	cc	_	tag=st
-6	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-7	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_kk_p3
-8	mikla	mikill	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_þf_kvk_sb
-9	þökk	þökk	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þf_kvk
-10	fyrir	fyrir	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
-11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	Svavar Örn	_	_	_	_	_	_	_	_
+3	Svavar	Svavar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
+4	Örn	Örn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
+5	hárgreiðslumaður	hárgreiðslumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk
+6	og	og	CCONJ	st	_	2	cc	_	tag=st
+7	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+8	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_kk_p3
+9	mikla	mikill	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_þf_kvk_sb
+10	þökk	þökk	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	tag=no_et_þf_kvk
+11	fyrir	fyrir	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
+12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00053,.8
 # text = Svo segja þeir mér að þetta verði bara tekið af mér.
@@ -139,6 +148,8 @@
 7	upplýsingar	upplýsingar	NOUN	no_þf_kvk	Case=Acc|Gender=Fem	6	obj	_	tag=no_þf_kvk
 8	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	sprengjuhótunina	sprengjuhótunina	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk_gr
-10	klukkan 21:33	klukkan 21:33	ADV	tímapunkturafs	_	9	advmod	_	SpaceAfter=No|tag=tímapunkturafs
-11	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+10-11	klukkan 21:33	_	_	_	_	_	_	_	_
+10	klukkan	klukkan	ADV	tímapunkturafs	_	9	advmod	_	SpaceAfter=No|tag=tímapunkturafs
+11	21:33	21:33	?	tímapunkturafs	_	10	flat	_	SpaceAfter=No|tag=tímapunkturafs
+12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

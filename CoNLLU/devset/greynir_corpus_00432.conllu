@@ -2,24 +2,26 @@
 # text = Að því búnu fer annar skipverjanna um borð í Polar Nanoq en hinn ekur um hafnarsvæðið í góðar 40 mínútur.
 1	Að	að	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	því	sá	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	tag=pfn_et_þgf_hk_p3
-3	búnu	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	amod	_	tag=so_0_lhþt_et
+3	búnu	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	('HALLÓ_so', '0_lhþt_et', 'NP', None)	_	tag=so_0_lhþt_et
 4	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	annar	anna	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=fn_et_nf_kk
 6	skipverjanna	skipverji	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	5	nmod:poss	_	tag=no_ft_ef_kk_gr
 7	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	borð	borð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þf_hk
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	Polar Nanoq	Polar Nanoq	PROPN	entity	_	8	obl	_	tag=entity
-11	en	en	CCONJ	st	_	4	cc	_	tag=st
-12	hinn	hinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=fn_et_nf_kk
-13	ekur	aka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
-14	um	um	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	hafnarsvæðið	hafnarsvæði	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þf_hk_gr
-16	í	í	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-17	góðar	góði	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	19	amod	_	tag=lo_ft_þf_kvk_sb
-18	40	40	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	19	nummod	_	tag=tala_ft_þf_kvk
-19	mínútur	mínúta	ADV	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	advmod	_	SpaceAfter=No|tag=no_ft_þf_kvk
-20	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+10-11	Polar Nanoq	_	_	_	_	_	_	_	_
+10	Polar	Polar	PROPN	entity	_	8	obl	_	tag=entity
+11	Nanoq	Nanoq	PROPN	entity	_	10	flat	_	tag=entity
+12	en	en	CCONJ	st	_	4	cc	_	tag=st
+13	hinn	hinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=fn_et_nf_kk
+14	ekur	aka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
+15	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+16	hafnarsvæðið	hafnarsvæði	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þf_hk_gr
+17	í	í	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
+18	góðar	góði	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	20	amod	_	tag=lo_ft_þf_kvk_sb
+19	40	40	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	20	nummod	_	tag=tala_ft_þf_kvk
+20	mínútur	mínúta	ADV	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	advmod	_	SpaceAfter=No|tag=no_ft_þf_kvk
+21	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00432,.2
 # text = Er gert ráð fyrir að rekstrarkostnaður félagsins hækki um 5,2 prósent á árinu og verði áfram mikill áhættuþáttur í rekstrinum.
@@ -31,18 +33,20 @@
 6	rekstrarkostnaður	rekstrarkostnaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
 7	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk_gr
 8	hækki	hækka	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	obl	_	tag=so_0_vh_p3_et_nt_gm
-9	um	um	ADP	fs_þf	Case=Acc	10	dep	_	tag=fs_þf
-10	5,2 prósent	5,2 prósent	X	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	tag=prósenta_ft_þf_hk
-11	á	eiga	ADV	fs_þgf	Case=Dat	8	advmod	_	tag=fs_þgf
-12	árinu	ár	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk_gr
-13	og	og	CCONJ	st	_	8	cc	_	tag=st
-14	verði	verja	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
-15	áfram	áfram	ADV	ao	_	17	advmod	_	tag=ao
-16	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	17	amod	_	tag=lo_et_nf_kk_sb
-17	áhættuþáttur	áhættuþáttur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	tag=no_et_nf_kk
-18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19	rekstrinum	rekstur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
-20	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+10-11	5,2 prósent	_	_	_	_	_	_	_	_
+10	5,2	5,2	?	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	tag=prósenta_ft_þf_hk
+11	prósent	prósent	?	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	_	_	tag=prósenta_ft_þf_hk
+12	á	eiga	ADV	fs_þgf	Case=Dat	8	advmod	_	tag=fs_þgf
+13	árinu	ár	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk_gr
+14	og	og	CCONJ	st	_	8	cc	_	tag=st
+15	verði	verja	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+16	áfram	áfram	ADV	ao	_	18	advmod	_	tag=ao
+17	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	tag=lo_et_nf_kk_sb
+18	áhættuþáttur	áhættuþáttur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	tag=no_et_nf_kk
+19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+20	rekstrinum	rekstur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
+21	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00432,.3
 # text = Mér finnst framkvæmdastjóri Félags atvinnurekenda gera lítið úr þeim hörmungum sem íbúar Norður-Kóreu þurfa að þola með svona ummælum.
@@ -69,9 +73,9 @@
 
 # sent_id = GREYNIR_CORPUS_00432,.4
 # text = Talið er að minnst 250 þeirra hafi tekist að smygla sér til Evrópu frá árslokum 2014 til miðs 2016.
-1	Talið	telja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
+1	Talið	telja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	3	conj	_	tag=so_0_sagnb_gm
 2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	að	að	SCONJ	st	_	1	xcomp	_	tag=st
+3	að	að	SCONJ	st	_	0	root	_	tag=st
 4	minnst	lítið	ADV	eo_est	Degree=Sup	6	advmod	_	tag=eo_est
 5	250	250	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_nf_hk
 6	þeirra	sá	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_ft_ef_hk_p3
@@ -88,7 +92,7 @@
 17	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
 18	miðs	mið	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_ef_kk
 19	2016	2016	NUM	ártal	_	18	nmod:poss	_	SpaceAfter=No|tag=ártal
-20	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00432,.5
 # text = Ég veit ekki hve oft slík spurningaflóð hafa hrunið yfir mig, sérstaklega á meðan ég var enn í námi.
@@ -105,13 +109,15 @@
 11	mig	ég	PRON	pfn_et_þf_p1	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No|tag=pfn_et_þf_p1
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
 13	sérstaklega	sérstaklega	ADV	ao	_	9	advmod	_	tag=ao
-14	á meðan	á meðan	SCONJ	st	_	16	mark	_	tag=st
-15	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_p1
-16	var	var	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	9	advcl	_	tag=so_1_nf_fh_p1_et_þt_gm
-17	enn	enn	ADV	ao	_	16	advmod	_	tag=ao
-18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19	námi	nám	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+14-15	á meðan	_	_	_	_	_	_	_	_
+14	á	á	SCONJ	st	_	17	mark	_	tag=st
+15	meðan	meðan	SCONJ	st	_	14	_	_	tag=st
+16	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_p1
+17	var	var	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	9	advcl	_	tag=so_1_nf_fh_p1_et_þt_gm
+18	enn	enn	ADV	ao	_	17	advmod	_	tag=ao
+19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+20	námi	nám	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00432,.6
 # text = Brettin hafa notið gríðarlegra vinsælda erlendis og hafa nú hafið innreið sína á íslenskan markað og fengið frábærar viðtökur.
@@ -151,11 +157,16 @@
 11	Ólympíulið	ólympíulið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_nf_hk
 12	flóttamanna	flóttamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	11	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
 13	(	_	PUNCT	grm	_	12	punct	_	tag=grm
-14	Team of Refugee Olympic Athletes	Team of Refugee Olympic Athletes	X	foreign	_	11	obl	_	SpaceAfter=No|tag=foreign
-15	-	-	PUNCT	grm	_	14	punct	_	tag=grm
-16	ROA	ROA	ADV	abbrev	_	14	advmod	_	SpaceAfter=No|tag=abbrev
-17	)	_	PUNCT	grm	_	16	punct	_	SpaceAfter=No|tag=grm
-18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+14-18	Team of Refugee Olympic Athletes	_	_	_	_	_	_	_	_
+14	Team	Team	X	foreign	_	11	obl	_	SpaceAfter=No|tag=foreign
+15	of	of	X	foreign	_	14	flat:foreign	_	SpaceAfter=No|tag=foreign
+16	Refugee	Refugee	X	foreign	_	15	flat:foreign	_	SpaceAfter=No|tag=foreign
+17	Olympic	Olympic	X	foreign	_	16	flat:foreign	_	SpaceAfter=No|tag=foreign
+18	Athletes	Athletes	X	foreign	_	17	flat:foreign	_	SpaceAfter=No|tag=foreign
+19	-	-	PUNCT	grm	_	14	punct	_	tag=grm
+20	ROA	ROA	ADV	abbrev	_	14	advmod	_	SpaceAfter=No|tag=abbrev
+21	)	_	PUNCT	grm	_	20	punct	_	SpaceAfter=No|tag=grm
+22	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00432,.8
 # text = Munurinn á flokkunum tveimur, sem sögulega hafa verið turnarnir tveir í norskum stjórnmálum, er hins vegar innan skekkjumarka.
@@ -175,33 +186,43 @@
 14	stjórnmálum	stjórnmál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 15	,	,	PUNCT	grm	_	14	punct	_	tag=grm
 16	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-17	hins vegar	hins vegar	ADV	ao	_	16	advmod	_	tag=ao
-18	innan	inna	ADP	fs_ef	Case=Gen	19	case	_	tag=fs_ef
-19	skekkjumarka	skekkjumörk	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
-20	.	.	PUNCT	grm	_	16	punct	_	tag=grm
+17-18	hins vegar	_	_	_	_	_	_	_	_
+17	hins	hins	ADV	ao	_	16	advmod	_	tag=ao
+18	vegar	vegar	ADV	ao	_	17	fixed	_	tag=ao
+19	innan	inna	ADP	fs_ef	Case=Gen	20	case	_	tag=fs_ef
+20	skekkjumarka	skekkjumörk	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
+21	.	.	PUNCT	grm	_	16	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00432,.9
 # text = Sérfræðingar áætla að British Airways gæti þurft að greiða allt að 150 milljónir punda í bætur, um 19 milljarða króna, vegna tölvubilunarinnar.
 1	Sérfræðingar	sérfræðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_nf_kk
 2	áætla	áætla	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
-3	að	að	SCONJ	st	_	6	mark	_	tag=st
-4	British Airways	British Airways	PROPN	fyrirtæki	_	6	nsubj	_	tag=fyrirtæki
-5	gæti	geta	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_0_vh_p3_et_þt_gm
-6	þurft	þurfa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	obj	_	tag=so_0_sagnb_gm
-7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	greiða	greiða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_1_þf_nh_gm
-9	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nmod	_	tag=fn_et_nf_hk
-10	að	að	ADV	ao	_	11	advmod	_	tag=ao
-11	150 milljónir punda	150 milljónir punda	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	tag=no_ft_þf_kvk
-12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	bætur	bót	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
-14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
-15	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	19 milljarða króna	19 milljarða króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
+3	að	að	SCONJ	st	_	7	mark	_	tag=st
+4-5	British Airways	_	_	_	_	_	_	_	_
+4	British	British	PROPN	fyrirtæki	_	7	nsubj	_	tag=fyrirtæki
+5	Airways	Airways	PROPN	fyrirtæki	_	4	flat	_	tag=fyrirtæki
+6	gæti	geta	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_þt_gm
+7	þurft	þurfa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	obj	_	tag=so_0_sagnb_gm
+8	að	að	PART	nhm	_	9	mark	_	tag=nhm
+9	greiða	greiða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þf_nh_gm
+10	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nmod	_	tag=fn_et_nf_hk
+11	að	að	ADV	ao	_	12	advmod	_	tag=ao
+12-14	150 milljónir punda	_	_	_	_	_	_	_	_
+12	150	150	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	tag=no_ft_þf_kvk
+13	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	flat	_	tag=no_ft_þf_kvk
+14	punda	punda	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	flat	_	tag=no_ft_þf_kvk
+15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+16	bætur	bót	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
-18	vegna	vega	ADP	fs_ef	Case=Gen	19	case	_	tag=fs_ef
-19	tölvubilunarinnar	tölvubilun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
-20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+18	um	um	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
+19-21	19 milljarða króna	_	_	_	_	_	_	_	_
+19	19	19	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
+20	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
+21	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
+22	,	,	PUNCT	grm	_	16	punct	_	tag=grm
+23	vegna	vega	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
+24	tölvubilunarinnar	tölvubilun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
+25	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00432,.10
 # text = Á meginlandi Evrópu hefur hiti yfir þrjátíu gráðum verið viðvarandi undanfarnar vikur og það sama á við um aðrar heimsálfur.

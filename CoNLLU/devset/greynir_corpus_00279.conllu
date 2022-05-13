@@ -1,23 +1,28 @@
 # sent_id = GREYNIR_CORPUS_00279,.1
 # text = Manchester United hefur hins vegar gengið mun verr en Manchester United að koma í veg fyrir mörk andstæðinga sinna.
--2	None	_	None	None	_	_	None	_	_
-1	Manchester United	Manchester United	PROPN	fyrirtæki	_	5	nsubj	_	tag=fyrirtæki
-2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	hins vegar	hins vegar	ADV	ao	_	5	advmod	_	tag=ao
-4	gengið	ganga	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	conj	_	tag=so_0_sagnb_gm
-5	mun	munur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	0	root	_	tag=no_et_þgf_kk
-6	verr	illa	ADV	ao_mst	Degree=Cmp	5	advmod	_	tag=ao_mst
-7	en	en	CCONJ	st	_	5	advcl	_	tag=st
-8	Manchester United	Manchester United	PROPN	fyrirtæki	_	10	nsubj	_	tag=fyrirtæki
-9	að	að	PART	nhm	_	10	mark	_	tag=nhm
-10	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_0_nh_gm
-11	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-12	veg	vegur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þf_kk
-13	fyrir	fyrir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14	mörk	mörk	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þf_kvk
-15	andstæðinga	andstæðingur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	14	nmod:poss	_	tag=no_ft_ef_kk
-16	sinna	sinn	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No|tag=fn_ft_ef_kk
-17	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+1-2	Manchester United	_	_	_	_	_	_	_	_
+1	Manchester	Manchester	PROPN	fyrirtæki	_	7	nsubj	_	tag=fyrirtæki
+2	United	United	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
+3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
+4-5	hins vegar	_	_	_	_	_	_	_	_
+4	hins	hins	ADV	ao	_	7	advmod	_	tag=ao
+5	vegar	vegar	ADV	ao	_	4	fixed	_	tag=ao
+6	gengið	ganga	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	conj	_	tag=so_0_sagnb_gm
+7	mun	munur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	0	root	_	tag=no_et_þgf_kk
+8	verr	illa	ADV	ao_mst	Degree=Cmp	7	advmod	_	tag=ao_mst
+9	en	en	CCONJ	st	_	7	advcl	_	tag=st
+10-11	Manchester United	_	_	_	_	_	_	_	_
+10	Manchester	Manchester	PROPN	fyrirtæki	_	13	nsubj	_	tag=fyrirtæki
+11	United	United	PROPN	fyrirtæki	_	10	flat	_	tag=fyrirtæki
+12	að	að	PART	nhm	_	13	mark	_	tag=nhm
+13	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_0_nh_gm
+14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+15	veg	vegur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þf_kk
+16	fyrir	fyrir	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
+17	mörk	mörk	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_þf_kvk
+18	andstæðinga	andstæðingur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	17	nmod:poss	_	tag=no_ft_ef_kk
+19	sinna	sinn	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No|tag=fn_ft_ef_kk
+20	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00279,.2
 # text = Við getum bara gert við allt sem er á hjólum, — og rúmlega það, segir Gunnar.
@@ -68,22 +73,25 @@
 # text = Þá tók Ingvar J. Rögnvaldsson vararíkissaksóknara við embættinu og mun gegna því þar til Snorri tekur við í haust.
 1	Þá	þá	ADV	ao	_	2	advmod	_	tag=ao
 2	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-3	Ingvar J. Rögnvaldsson	Ingvar J. Rögnvaldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-4	vararíkissaksóknara	vararíkissaksóknari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kk
-5	við	við	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	embættinu	embætti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk_gr
-7	og	og	CCONJ	st	_	2	cc	_	tag=st
-8	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
-9	gegna	gegna	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	2	conj	_	tag=so_1_þgf_nh_gm
-10	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	tag=pfn_et_þgf_hk_p3
-11	þar	þar	ADV	ao	_	14	mark	_	tag=ao
-12	til	til	SCONJ	st	_	11	cc	_	tag=st
-13	Snorri	Snorri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	tag=person_nf_kk
-14	tekur	taka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	advcl	_	tag=so_0_fh_p3_et_nt_gm
-15	við	við	ADV	ao	_	14	compound:prt	_	tag=ao
-16	í	í	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	haust	haust	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
-18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+3-5	Ingvar J. Rögnvaldsson	_	_	_	_	_	_	_	_
+3	Ingvar	Ingvar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
+4	J.	J.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
+5	Rögnvaldsson	Rögnvaldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
+6	vararíkissaksóknara	vararíkissaksóknari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kk
+7	við	við	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	embættinu	embætti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk_gr
+9	og	og	CCONJ	st	_	2	cc	_	tag=st
+10	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
+11	gegna	gegna	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	2	conj	_	tag=so_1_þgf_nh_gm
+12	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	tag=pfn_et_þgf_hk_p3
+13	þar	þar	ADV	ao	_	16	mark	_	tag=ao
+14	til	til	SCONJ	st	_	13	cc	_	tag=st
+15	Snorri	Snorri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	nsubj	_	tag=person_nf_kk
+16	tekur	taka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	tag=so_0_fh_p3_et_nt_gm
+17	við	við	ADV	ao	_	16	compound:prt	_	tag=ao
+18	í	í	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
+19	haust	haust	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
+20	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00279,.5
 # text = Neyslurými sem þessi hafa verið starfrækt víða í Evrópu og í Bandaríkjunum og Kanada og hafa þau gefist vel.
@@ -102,7 +110,7 @@
 13	og	og	CCONJ	st	_	14	cc	_	tag=st
 14	Kanada	Kanada	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	conj	_	tag=no_et_þgf_hk
 15	og	og	CCONJ	st	_	6	cc	_	tag=st
-16	hafa	hafa	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_nt_gm
+16	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	aux	_	tag=so_0_fh_p3_ft_nt_gm
 17	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_ft_nf_hk_p3
 18	gefist	gefa	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	6	conj	_	tag=so_0_sagnb_mm
 19	vel	vel	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
@@ -175,7 +183,7 @@
 19	.	_	PUNCT	grm	_	13	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00279,.9
-# text = Getur einhver stjórnmálamaður upplýst mig hvaða fjandans steypa er hér í gangi ár eftir ár og áratugi eftir áratugi ?
+# text = Getur einhver stjórnmálamaður upplýst mig hvaða fjandans steypa er hér í gangi ár eftir ár og áratugi eftir áratugi?
 1	Getur	Getur	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 2	einhver	einhver	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_nf_kk
 3	stjórnmálamaður	stjórnmálamaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk

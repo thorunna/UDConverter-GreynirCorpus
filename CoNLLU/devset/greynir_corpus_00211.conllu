@@ -33,13 +33,15 @@
 
 # sent_id = GREYNIR_CORPUS_00211,.4
 # text = Kristrún var lengi vel framámanneskja í Samfylkingunni.
-1	Kristrún	Kristrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
-3	lengi vel	lengi vel	ADV	ao	_	4	advmod	_	tag=ao
-4	framámanneskja	framámanneskja	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
-5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	Samfylkingunni	Samfylkingin	PROPN	sérnafn_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk_gr
-7	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+1	Kristrún	Kristrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	nsubj	_	tag=person_nf_kvk
+2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+3-4	lengi vel	_	_	_	_	_	_	_	_
+3	lengi	lengi	ADV	ao	_	5	advmod	_	tag=ao
+4	vel	vel	ADV	ao	_	3	fixed	_	tag=ao
+5	framámanneskja	framámanneskja	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
+6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	Samfylkingunni	Samfylkingin	PROPN	sérnafn_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk_gr
+8	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00211,.5
 # text = Þingsályktunartillaga til fjögurra ára um áætlun í neytendamálum
@@ -65,13 +67,15 @@
 
 # sent_id = GREYNIR_CORPUS_00211,.7
 # text = Leifur Örn er meðal reyndustu leiðsögumanna Íslands.
-1	Leifur Örn	Leifur Örn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
-3	meðal	meðal	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
-4	reyndustu	reyndur	ADJ	lo_ft_ef_kk_evb	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	5	amod	_	tag=lo_ft_ef_kk_evb
-5	leiðsögumanna	leiðsögumaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_ef_kk
-6	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
-7	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+1-2	Leifur Örn	_	_	_	_	_	_	_	_
+1	Leifur	Leifur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
+2	Örn	Örn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
+4	meðal	meðal	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
+5	reyndustu	reyndur	ADJ	lo_ft_ef_kk_evb	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_ef_kk_evb
+6	leiðsögumanna	leiðsögumaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_ef_kk
+7	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
+8	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00211,.8
 # text = Oliver og Scott keyptu húsið í sumar.
@@ -94,13 +98,13 @@
 6	góðir	góður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
 7	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00211,.10
-# text = Á heimili Katrínar Bjarkar ríkir alþjóðleg stemning.
 1	Á	á	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	heimili	heimili	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
-3	Katrínar Bjarkar	Katrín Björk	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	nmod:poss	_	tag=person_ef_kvk
-4	ríkir	ríkja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-5	alþjóðleg	alþjóðlegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_sb
-6	stemning	stemning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No|tag=no_et_nf_kvk
-7	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+2	heimili	heimili	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
+3-4	Katrínar Bjarkar	_	_	_	_	_	_	_	_
+3	Katrínar	Katrín	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	nmod:poss	_	tag=person_ef_kvk
+4	Bjarkar	Björk	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	3	flat	_	tag=person_ef_kvk
+5	ríkir	ríkja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+6	alþjóðleg	alþjóðlegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	tag=lo_et_nf_kvk_sb
+7	stemning	stemning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
+8	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

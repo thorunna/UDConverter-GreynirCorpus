@@ -17,14 +17,20 @@
 1	Ferðakostnaðargreiðslan	ferðakostnaðar-greiðsla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	numið	nema	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
-4	84 þúsund krónum	84 þúsund krónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obj	_	tag=no_ft_þgf_kvk
-5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	mánuði	mánuður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
-7	en	en	CCONJ	st	_	3	cc	_	tag=st
-8	lækkar	lækka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
-9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	30 þúsund krónur	30 þúsund krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
-11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+4-6	84 þúsund krónum	_	_	_	_	_	_	_	_
+4	84	84	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obj	_	tag=no_ft_þgf_kvk
+5	þúsund	þúsund	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	flat	_	tag=no_ft_þgf_kvk
+6	krónum	krónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	flat	_	tag=no_ft_þgf_kvk
+7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	mánuði	mánuður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
+9	en	en	CCONJ	st	_	3	cc	_	tag=st
+10	lækkar	lækka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+11	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12-14	30 þúsund krónur	_	_	_	_	_	_	_	_
+12	30	30	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
+13	þúsund	þúsund	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	flat	_	SpaceAfter=No|tag=no_ft_þf_kvk
+14	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	flat	_	SpaceAfter=No|tag=no_ft_þf_kvk
+15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00363,.3
 # text = Missti af mikilvægum fundi því bókunin fannst ekki í kerfi WOW air
@@ -38,7 +44,9 @@
 8	ekki	ekki	ADV	ao	_	7	advmod	_	tag=ao
 9	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	kerfi	kerfa	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
-11	WOW air	WOW air	PROPN	fyrirtæki	_	10	nmod:poss	_	tag=fyrirtæki
+11-12	WOW air	_	_	_	_	_	_	_	_
+11	WOW	WOW	PROPN	fyrirtæki	_	10	nmod:poss	_	tag=fyrirtæki
+12	air	air	PROPN	fyrirtæki	_	11	flat	_	tag=fyrirtæki
 
 # sent_id = GREYNIR_CORPUS_00363,.4
 # text = Að sögn Cederbalk bjagar skattheimtan samkeppnisumhverfið og leiði til markaðsbrests.
@@ -109,7 +117,7 @@
 10	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00363,.9
-# text = Hvernig geta allir skólar verið fyrir öll börn og ungmenni ?
+# text = Hvernig geta allir skólar verið fyrir öll börn og ungmenni?
 1	Hvernig	hvernig	ADV	ao	_	2	advmod	_	tag=ao
 2	geta	geta	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 3	allir	allur	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nmod	_	tag=fn_ft_nf_kk
@@ -122,17 +130,15 @@
 10	ungmenni	ungmenni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No|tag=no_et_þf_hk
 11	?	?	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00363,.10
-# text = Metcalfe var heimilislaus, en var á biðlista eftir húsnæði.
 1	Metcalfe	Metcalfe	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
 2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
-3	heimilislaus	heimilislaus	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
+3	heimilislaus	heimilislaus	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 5	en	en	CCONJ	st	_	3	cc	_	tag=st
 6	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	biðlista	biðlisti	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
 9	eftir	eftir	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	húsnæði	húsnæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+10	húsnæði	húsnæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
 11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

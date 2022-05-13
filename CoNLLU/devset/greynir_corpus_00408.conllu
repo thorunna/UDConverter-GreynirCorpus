@@ -40,29 +40,36 @@
 
 # sent_id = GREYNIR_CORPUS_00408,.3
 # text = Með aðalhlutverk í þessum vinsælu grínþáttum fara þau Saga Garðarsdóttir, Steindi Jr., Auðunn Blöndal og Sverrir Þór Sverrisson.
-1	Með	með	ADP	fs_þf	Case=Acc	0	root	_	tag=fs_þf
+1	Með	með	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	aðalhlutverk	aðalhlutverk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
 3	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 4	þessum	þessi	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	tag=fn_ft_þgf_kk
 5	vinsælu	vinsæll	ADJ	lo_ft_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_þgf_kk_vb
 6	grínþáttum	grín-þátta	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_þgf_kk
-7	fara	fara	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_ft_nt_gm
+7	fara	fara	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 8	þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	9	nmod	_	tag=pfn_ft_nf_hk_p3
-9	Saga Garðarsdóttir	Saga Garðarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	Steindi	steindur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	tag=person_nf_kk
-12	Jr.	Jr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	flat:name	_	SpaceAfter=No|tag=person_nf_kk
-13	,	,	PUNCT	grm	_	14	punct	_	tag=grm
-14	Auðunn Blöndal	Auðunn Blöndal	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	conj	_	tag=person_nf_kk
-15	og	og	CCONJ	st	_	9	cc	_	tag=st
-16	Sverrir Þór Sverrisson	Sverrir Þór Sverrisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	SpaceAfter=No|tag=person_nf_kk
-17	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+9-10	Saga Garðarsdóttir	_	_	_	_	_	_	_	_
+9	Saga	Saga	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+10	Garðarsdóttir	Garðarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	SpaceAfter=No|tag=person_nf_kvk
+11	,	,	PUNCT	grm	_	9	punct	_	tag=grm
+12	Steindi	steindur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	tag=person_nf_kk
+13	Jr.	Jr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat:name	_	SpaceAfter=No|tag=person_nf_kk
+14	,	,	PUNCT	grm	_	15	punct	_	tag=grm
+15-16	Auðunn Blöndal	_	_	_	_	_	_	_	_
+15	Auðunn	Auðunn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	conj	_	tag=person_nf_kk
+16	Blöndal	Blöndal	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	tag=person_nf_kk
+17	og	og	CCONJ	st	_	9	cc	_	tag=st
+18-20	Sverrir Þór Sverrisson	_	_	_	_	_	_	_	_
+18	Sverrir	Sverrir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	SpaceAfter=No|tag=person_nf_kk
+19	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	SpaceAfter=No|tag=person_nf_kk
+20	Sverrisson	Sverrisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	SpaceAfter=No|tag=person_nf_kk
+21	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00408,.4
 # text = Líklega munu 40% nýrra starfsmanna í ferðaþjónustunni á þessu ári og því næsta koma erlendis frá.
 1	Líklega	líklega	ADV	ao	_	14	advmod	_	tag=ao
 2	munu	munu	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_ft_nt_gm
-3	40%	40%	X	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	14	dep	_	tag=prósenta_ft_nf_hk
+3	40%	40%	?	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	tag=prósenta_ft_nf_hk
 4	nýrra	nýr	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	5	amod	_	tag=lo_ft_ef_kk_sb
 5	starfsmanna	starfsmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nmod:poss	_	tag=no_ft_ef_kk
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -79,7 +86,7 @@
 17	.	.	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00408,.5
-# text = Hvernig á lítill strákur að bregðast við því að mamma hans verði aldrei aftur með honum ?
+# text = Hvernig á lítill strákur að bregðast við því að mamma hans verði aldrei aftur með honum?
 1	Hvernig	hvernig	ADV	ao	_	2	advmod	_	tag=ao
 2	á	eiga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	lítill	lítill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_sb
@@ -131,12 +138,14 @@
 9	tæp	tæpa	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	12	amod	_	tag=lo_ft_þf_hk_sb
 10	tuttugu	tuttugu	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	nummod	_	tag=töl_ft_þf_hk
 11	og	og	CCONJ	st	_	12	cc	_	tag=st
-12	þrjú prósent	þrjú prósent	ADV	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	advmod	_	tag=prósenta_ft_þf_hk
-13	á	eiga	ADV	fs_þgf	Case=Dat	12	advmod	_	tag=fs_þgf
-14	síðustu	síðari	ADJ	lo_ft_þgf_kk_evb	Case=Dat|Degree=Sup|Gender=Masc|Number=Plur	16	amod	_	tag=lo_ft_þgf_kk_evb
-15	tólf	tólf	NUM	töl_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	16	nummod	_	tag=töl_ft_þgf_kk
-16	mánuðum	mánuður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
-17	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+12-13	þrjú prósent	_	_	_	_	_	_	_	_
+12	þrjú	þrjú	ADV	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	advmod	_	tag=prósenta_ft_þf_hk
+13	prósent	prósent	?	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	_	_	tag=prósenta_ft_þf_hk
+14	á	eiga	ADV	fs_þgf	Case=Dat	12	advmod	_	tag=fs_þgf
+15	síðustu	síðari	ADJ	lo_ft_þgf_kk_evb	Case=Dat|Degree=Sup|Gender=Masc|Number=Plur	17	amod	_	tag=lo_ft_þgf_kk_evb
+16	tólf	tólf	NUM	töl_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	nummod	_	tag=töl_ft_þgf_kk
+17	mánuðum	mánuður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
+18	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00408,.8
 # text = Trump hótaði því að halda stofnununum lokuðum í mánuði eða ár fái hann ekki sínu framgengt.
@@ -151,32 +160,34 @@
 9	mánuði	mánuður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	tag=no_ft_þf_kk
 10	eða	eða	CCONJ	st	_	11	cc	_	tag=st
 11	ár	ár	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
-12	fái	fá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	tag=so_0_vh_p3_et_nt_gm
+12	fái	fá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	conj	_	tag=so_0_vh_p3_et_nt_gm
 13	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
 14	ekki	ekki	ADV	ao	_	16	advmod	_	tag=ao
 15	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obj	_	tag=fn_et_þgf_hk
-16	framgengt	framgengt	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	('HALLÓ_so', '0_lhþt_et', 'VP', None)	_	SpaceAfter=No|tag=so_0_lhþt_et
+16	framgengt	framgengt	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	advcl	_	SpaceAfter=No|tag=so_0_lhþt_et
 17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00408,.9
 # text = Hins vegar verður safnað fyrir barkaspeglunartæki sem auðveldar barkaþræðingu hjá mikið slösuðum og veikum sjúklingum á bráðamóttöku.
-1	Hins vegar	hins vegar	ADV	ao	_	3	advmod	_	tag=ao
-2	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	safnað	safna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-4	fyrir	fyrir	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	barkaspeglunartæki	barka-speglunartæki	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
-6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
-7	auðveldar	auðvelda	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
-8	barkaþræðingu	barka-þræðing	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	tag=no_et_þf_kvk
-9	hjá	hjá	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-10	mikið	mikill	ADV	eo	_	14	advmod	_	tag=eo
-11	slösuðum	slasa	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	14	amod	_	tag=lo_ft_þgf_kk_sb
-12	og	og	CCONJ	st	_	14	cc	_	tag=st
-13	veikum	veikur	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	14	amod	_	tag=lo_ft_þgf_kk_sb
-14	sjúklingum	sjúklingur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	tag=no_ft_þgf_kk
-15	á	eiga	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	bráðamóttöku	bráðamóttaka	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-17	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+1-2	Hins vegar	_	_	_	_	_	_	_	_
+1	Hins	hins	ADV	ao	_	4	advmod	_	tag=ao
+2	vegar	vegar	ADV	ao	_	1	fixed	_	tag=ao
+3	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
+4	safnað	safna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+5	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
+6	barkaspeglunartæki	barka-speglunartæki	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þf_hk
+7	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
+8	auðveldar	auðvelda	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
+9	barkaþræðingu	barka-þræðing	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	tag=no_et_þf_kvk
+10	hjá	hjá	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+11	mikið	mikill	ADV	eo	_	15	advmod	_	tag=eo
+12	slösuðum	slasa	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	15	amod	_	tag=lo_ft_þgf_kk_sb
+13	og	og	CCONJ	st	_	15	cc	_	tag=st
+14	veikum	veikur	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	15	amod	_	tag=lo_ft_þgf_kk_sb
+15	sjúklingum	sjúklingur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	tag=no_ft_þgf_kk
+16	á	eiga	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	bráðamóttöku	bráðamóttaka	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+18	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00408,.10
 # text = Fram kemur á vef Veðurstofunnar að stofnunin haldi úti sólarhringsvakt þar sem fylgst er með jarðskjálftamælum.

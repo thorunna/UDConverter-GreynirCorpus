@@ -69,7 +69,10 @@
 7	skorin	skera	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 8	niður	niður	ADV	ao	_	7	compound:prt	_	tag=ao
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	2,5 milljarða kr.	2,5 milljarða kr.	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	obl	_	tag=no_ft_þf_kk
+10-12	2,5 milljarða kr.	_	_	_	_	_	_	_	_
+10	2,5	2,5	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	obl	_	tag=no_ft_þf_kk
+11	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	10	flat	_	tag=no_ft_þf_kk
+12	kr.	kr.	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	10	flat	_	tag=no_ft_þf_kk
 
 # sent_id = GREYNIR_CORPUS_00367,.6
 # text = Hann segir að Malín hafi ekki hótað manninum vegna sáttagreiðslunnar svokölluðu.
@@ -90,16 +93,20 @@
 # text = Þar á Omar McLeod frá Jamaíku besta tímann í ár, 12,90 sekúndur.
 1	Þar	þar	ADV	ao	_	2	advmod	_	tag=ao
 2	á	eiga	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-3	Omar McLeod	Omar McLeod	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-4	frá	frá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	Jamaíku	Jamaíka	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_kvk
-6	besta	bestur	ADJ	lo_et_þf_kk_evb	Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_þf_kk_evb
-7	tímann	tími	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk_gr
-8	í ár	í ár	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
-9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
-10	12,90	12,90	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	11	nummod	_	tag=tala_ft_þf_kvk
-11	sekúndur	sekúnda	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
-12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	Omar McLeod	_	_	_	_	_	_	_	_
+3	Omar	Omar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
+4	McLeod	McLeod	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
+5	frá	frá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
+6	Jamaíku	Jamaíka	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_kvk
+7	besta	bestur	ADJ	lo_et_þf_kk_evb	Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_þf_kk_evb
+8	tímann	tími	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk_gr
+9-10	í ár	_	_	_	_	_	_	_	_
+9	í	í	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
+10	ár	ár	ADV	ao	_	9	fixed	_	SpaceAfter=No|tag=ao
+11	,	,	PUNCT	grm	_	2	punct	_	tag=grm
+12	12,90	12,90	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	13	nummod	_	tag=tala_ft_þf_kvk
+13	sekúndur	sekúnda	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
+14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00367,.8
 # text = Í Platinum-blautfóðri er kjöthlutfallið enn hærra, eða 83 prósent.
@@ -111,8 +118,10 @@
 6	hærra	hár	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_hk_mst
 7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
 8	eða	eða	CCONJ	st	_	6	cc	_	tag=st
-9	83 prósent	83 prósent	NUM	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nummod	_	SpaceAfter=No|tag=prósenta_et_nf_hk
-10	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+9-10	83 prósent	_	_	_	_	_	_	_	_
+9	83	83	NUM	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nummod	_	SpaceAfter=No|tag=prósenta_et_nf_hk
+10	prósent	prósent	?	prósenta_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	_	_	SpaceAfter=No|tag=prósenta_et_nf_hk
+11	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00367,.9
 # text = Ekki vera fórnarlömb, það leysir ekkert, veldur bara óhamingju.
@@ -129,8 +138,6 @@
 11	óhamingju	óhamingja	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|tag=no_et_þgf_kvk
 12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00367,.10
-# text = Í upphafi myndbandsins að hann hafi ekki rakað sig síðan 2012.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	upphafi	upphaf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	0	root	_	tag=no_et_þgf_hk
 3	myndbandsins	myndband	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod:poss	_	tag=no_et_ef_hk_gr
@@ -141,6 +148,6 @@
 8	rakað	raka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	nsubj	_	tag=so_1_þf_sagnb_gm
 9	sig	sig	PRON	abfn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	8	obj	_	tag=abfn_et_þf_hk
 10	síðan	síðan	SCONJ	st	_	8	advcl	_	tag=st
-11	2012	2012	ADV	ártal	_	10	advmod	_	SpaceAfter=No|tag=ártal
+11	2012	2012	ADV	ártal	_	10	advmod	_	tag=ártal
 12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

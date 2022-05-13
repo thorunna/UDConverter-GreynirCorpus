@@ -34,19 +34,21 @@
 
 # sent_id = GREYNIR_CORPUS_00068,.3
 # text = Var tilkynningin dregin til baka með hraði með nýrri tilkynningu þremur mínútum síðar.
-1	Var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
+1	Var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 2	tilkynningin	tilkynning	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-3	dregin	draga	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	xcomp	_	tag=so_0_lhþt_et
-4	til baka	til baka	ADV	ao	_	3	advmod	_	tag=ao
-5	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	hraði	hrað	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
-7	með	með	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-8	nýrri	nýr	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_þgf_kvk_mst
-9	tilkynningu	tilkynning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
-10	þremur	þrír	NUM	to_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	nummod	_	tag=to_ft_þgf_kvk
-11	mínútum	mínúta	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þgf_kvk
-12	síðar	síðar	ADV	ao_mst	Degree=Cmp	3	advmod	_	SpaceAfter=No|tag=ao_mst
-13	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+3	dregin	draga	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+4-5	til baka	_	_	_	_	_	_	_	_
+4	til	til	ADV	ao	_	3	advmod	_	tag=ao
+5	baka	baka	ADV	ao	_	4	fixed	_	tag=ao
+6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	hraði	hrað	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
+8	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+9	nýrri	nýr	ADJ	lo_et_þgf_kvk_mst	Case=Dat|Degree=Cmp|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_þgf_kvk_mst
+10	tilkynningu	tilkynning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
+11	þremur	þrír	NUM	to_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	nummod	_	tag=to_ft_þgf_kvk
+12	mínútum	mínúta	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	tag=no_ft_þgf_kvk
+13	síðar	síðar	ADV	ao_mst	Degree=Cmp	3	advmod	_	SpaceAfter=No|tag=ao_mst
+14	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00068,.4
 # text = Það var mikill fiskur um allt og þetta á bara eftir að aukast.
@@ -163,6 +165,8 @@
 9	höfuðstöðvum	höfuðstöðvar	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þgf_kvk
 10	Arion	Arion	PROPN	fyrirtæki	_	9	nmod:poss	_	tag=fyrirtæki
 11	banka	banki	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	conj	_	tag=no_et_ef_kk
-12	í morgun	í morgun	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
-13	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+12-13	í morgun	_	_	_	_	_	_	_	_
+12	í	í	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
+13	morgun	morgun	ADV	ao	_	12	fixed	_	SpaceAfter=No|tag=ao
+14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

@@ -18,8 +18,10 @@
 16	Stefán	Stefán	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	tag=person_nf_kk
 17	um	um	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 18	leikinn	leikur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_þf_kk_gr
-19	í gær	í gær	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
-20	.	_	PUNCT	grm	_	15	punct	_	tag=grm
+19-20	í gær	_	_	_	_	_	_	_	_
+19	í	í	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
+20	gær	gær	ADV	ao	_	19	fixed	_	SpaceAfter=No|tag=ao
+21	.	_	PUNCT	grm	_	15	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00127,.2
 # text = Þannig eru sigurvegararnir hvattir til að sleppa því að lesa upp langa lista og segja eitthvað sem mun hreyfa við áhorfendum.
@@ -64,10 +66,13 @@
 14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
 15	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	13	acl:relcl	_	tag=so_0_sagnb_gm
 16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_fh_p3_et_nt_gm
-17	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-18	sunnan- og vestanverðu	sunnan- og vestanverður	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	19	amod	_	tag=lo_et_þgf_hk_sb
-19	Íslandi	Ísland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-20	.	_	PUNCT	grm	_	9	punct	_	tag=grm
+17	á	á	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+18-20	sunnan- og vestanverðu	_	_	_	_	_	_	_	_
+18	sunnan-	sunnan-	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	21	amod	_	tag=lo_et_þgf_hk_sb
+19	og	og	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	18	_	_	tag=lo_et_þgf_hk_sb
+20	vestanverðu	vestanverður	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	19	_	_	tag=lo_et_þgf_hk_sb
+21	Íslandi	Ísland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+22	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00127,.4
 # text = Þetta er harður dómur yfir framferði íslensku fjármálastofnanna og fjármálamannanna sem voru mestir og bestir í heimi — fyrir hrun.
@@ -104,16 +109,18 @@
 7	Facebook-síðum	Facebook-síða	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þgf_kvk
 8	Páls	Páll	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	nmod:poss	_	tag=person_ef_kk
 9	og	og	CCONJ	st	_	10	cc	_	tag=st
-10	Ásmundar Friðrikssonar	Ásmundur Friðriksson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	conj	_	SpaceAfter=No|tag=person_ef_kk
-11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
-12	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
-13	skipaði	skipa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-14	annað	annar	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	tag=fn_et_þf_hk
-15	sætið	sæti	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	13	obj	_	tag=no_et_þf_hk_gr
-16	á	á	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	lista	listi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_þgf_kk
-18	flokksins	flokkur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
-19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+10-11	Ásmundar Friðrikssonar	_	_	_	_	_	_	_	_
+10	Ásmundar	Ásmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	conj	_	SpaceAfter=No|tag=person_ef_kk
+11	Friðrikssonar	Friðriksson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	flat	_	SpaceAfter=No|tag=person_ef_kk
+12	,	_	PUNCT	grm	_	8	punct	_	tag=grm
+13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
+14	skipaði	skipa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
+15	annað	annar	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	tag=fn_et_þf_hk
+16	sætið	sæti	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	14	obj	_	tag=no_et_þf_hk_gr
+17	á	á	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+18	lista	listi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þgf_kk
+19	flokksins	flokkur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
+20	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00127,.6
 # text = Ástæðan var ósætti í samningi vegna ímyndarréttar þeirra og launa vegna vinnu á vegum sambandsins í auglýsingum og fleiru þess háttar.
@@ -178,15 +185,17 @@
 10	nokkrum	nokkur	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	nmod	_	tag=fn_ft_þgf_kvk
 11	vígstöðvum	vígstöð	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-13	meðal annars	meðal annars	ADV	ao	_	11	advmod	_	tag=ao
-14	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-15	sýrlensku	sýrlenskur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	16	amod	_	tag=lo_et_þgf_kvk_vb
-16	borginni	borg	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk_gr
-17	Aleppo	Aleppo	PROPN	sérnafn	_	16	obl	_	tag=sérnafn
-18	og	og	CCONJ	st	_	11	cc	_	tag=st
-19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20	Úkraínu	Úkraína	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
-21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+13-14	meðal annars	_	_	_	_	_	_	_	_
+13	meðal	meðal	ADV	ao	_	11	advmod	_	tag=ao
+14	annars	annars	ADV	ao	_	13	fixed	_	tag=ao
+15	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+16	sýrlensku	sýrlenskur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	17	amod	_	tag=lo_et_þgf_kvk_vb
+17	borginni	borg	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk_gr
+18	Aleppo	Aleppo	PROPN	sérnafn	_	17	obl	_	tag=sérnafn
+19	og	og	CCONJ	st	_	11	cc	_	tag=st
+20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+21	Úkraínu	Úkraína	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
+22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00127,.9
 # text = Hann segir að á þeim sextíu árum sem hann hafi unnið að landgræðslu hafi fólk lært mikið að vinna með náttúrunni.
@@ -219,21 +228,23 @@
 2	sex	sex	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	tag=töl_ft_nf_hk
 3	létu	láta	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 4	lífið	líf	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þf_hk_gr
-5	í morgun	í morgun	ADV	ao	_	3	advmod	_	tag=ao
-6	og	og	CCONJ	st	_	3	cc	_	tag=st
-7	30	30	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	8	nsubj	_	tag=tala_ft_nf_hk
-8	særðust	særa	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	3	conj	_	tag=so_0_fh_p3_ft_þt_mm
-9	þegar	þegar	SCONJ	st	_	12	mark	_	tag=st
-10	loftárásir	loftárás	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	tag=no_ft_nf_kvk
-11	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	12	aux	_	tag=so_0_fh_p3_ft_þt_gm
-12	gerðar	gera	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	8	advcl	_	tag=so_0_lhþt_ft
-13	á	á	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14	skrifstofubyggingu	skrifstofubygging	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þf_kvk
-15	forsetaembættisins	forsetaembætti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=no_et_ef_hk_gr
-16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	Sanaa	Sanaa	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
-18	,	_	PUNCT	grm	_	17	punct	_	tag=grm
-19	höfuðborg	höfuðborg	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_þgf_kvk
-20	Jemen	Jemen	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
-21	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+5-6	í morgun	_	_	_	_	_	_	_	_
+5	í	í	ADV	ao	_	3	advmod	_	tag=ao
+6	morgun	morgun	ADV	ao	_	5	fixed	_	tag=ao
+7	og	og	CCONJ	st	_	3	cc	_	tag=st
+8	30	30	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	9	nsubj	_	tag=tala_ft_nf_hk
+9	særðust	særa	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	3	conj	_	tag=so_0_fh_p3_ft_þt_mm
+10	þegar	þegar	SCONJ	st	_	13	mark	_	tag=st
+11	loftárásir	loftárás	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	tag=no_ft_nf_kvk
+12	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	13	aux	_	tag=so_0_fh_p3_ft_þt_gm
+13	gerðar	gera	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	9	advcl	_	tag=so_0_lhþt_ft
+14	á	á	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+15	skrifstofubyggingu	skrifstofubygging	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þf_kvk
+16	forsetaembættisins	forsetaembætti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	15	nmod:poss	_	tag=no_et_ef_hk_gr
+17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+18	Sanaa	Sanaa	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
+19	,	_	PUNCT	grm	_	18	punct	_	tag=grm
+20	höfuðborg	höfuðborg	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_þgf_kvk
+21	Jemen	Jemen	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	20	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
+22	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

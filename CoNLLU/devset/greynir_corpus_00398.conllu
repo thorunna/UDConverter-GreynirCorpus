@@ -12,8 +12,10 @@
 10	hitt	hinn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=fn_et_nf_hk
 11	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
 12	&	&	PUNCT	grm	_	2	punct	_	tag=grm
-13	Other Stories	Other Stories	PROPN	fyrirtæki	_	12	xcomp	_	SpaceAfter=No|tag=fyrirtæki
-14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+13-14	Other Stories	_	_	_	_	_	_	_	_
+13	Other	Other	PROPN	fyrirtæki	_	12	xcomp	_	SpaceAfter=No|tag=fyrirtæki
+14	Stories	Stories	PROPN	fyrirtæki	_	13	flat	_	SpaceAfter=No|tag=fyrirtæki
+15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00398,.2
 # text = Þúsundir stuðningsmanna hans mótmæla nú spillingu í Rússlandi, eins og hann hafði hvatt til.
@@ -69,8 +71,10 @@
 12	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 13	eftir	eftir	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	lokun	lokun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
-15	Grandview Aquarium	Grandview Aquarium	PROPN	sérnafn	_	14	nmod:poss	_	SpaceAfter=No|tag=sérnafn
-16	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+15-16	Grandview Aquarium	_	_	_	_	_	_	_	_
+15	Grandview	Grandview	PROPN	sérnafn	_	14	nmod:poss	_	SpaceAfter=No|tag=sérnafn
+16	Aquarium	Aquarium	PROPN	sérnafn	_	15	flat	_	SpaceAfter=No|tag=sérnafn
+17	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00398,.5
 # text = Samkvæmt upplýsingum saksóknara gaf Ghosn upp tekjur sem nema um 4,9 milljörðum jena á síðustu fimm árum.
@@ -84,12 +88,15 @@
 8	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 9	nema	nema	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
 10	um	um	ADP	fs	_	11	case	_	tag=fs
-11	4,9 milljörðum jena	4,9 milljörðum jena	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	tag=no_ft_þgf_kk
-12	á	eiga	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-13	síðustu	síðari	ADJ	lo_ft_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Plur	15	amod	_	tag=lo_ft_þgf_hk_evb
-14	fimm	fimm	NUM	töl_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	15	nummod	_	tag=töl_ft_þgf_hk
-15	árum	ár	ADV	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	advmod	_	SpaceAfter=No|tag=no_ft_þgf_hk
-16	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+11-13	4,9 milljörðum jena	_	_	_	_	_	_	_	_
+11	4,9	4,9	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	tag=no_ft_þgf_kk
+12	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	flat	_	tag=no_ft_þgf_kk
+13	jena	jena	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	flat	_	tag=no_ft_þgf_kk
+14	á	eiga	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+15	síðustu	síðari	ADJ	lo_ft_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Plur	17	amod	_	tag=lo_ft_þgf_hk_evb
+16	fimm	fimm	NUM	töl_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	17	nummod	_	tag=töl_ft_þgf_hk
+17	árum	ár	ADV	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	advmod	_	SpaceAfter=No|tag=no_ft_þgf_hk
+18	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00398,.6
 # text = Viðmælendur Kjarnans úr þessum heimi segja að búið sé að skapa nokkurs konar sjálþjónandi eilífðarvél.
@@ -118,16 +125,18 @@
 4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5	gjafa	gjafi	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_ef_kvk
 6	og	og	CCONJ	st	_	2	cc	_	tag=st
-7	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_p1
-8	hef	hafa	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p1_et_nt_gm
-9	til dæmis	til dæmis	ADV	ao	_	10	advmod	_	tag=ao
-10	fengið	fenginn	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	conj	_	tag=so_1_þf_sagnb_gm
-11	mörg	margur	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	12	amod	_	tag=lo_ft_þf_hk_sb
-12	verkefni	verkefni	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	tag=no_ft_þf_hk
-13	núna	núa	ADV	ao	_	10	advmod	_	tag=ao
-14	fyrir	fyrir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	jólin	jól	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	10	advmod	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
-16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+7	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_p1
+8	hef	hafa	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p1_et_nt_gm
+9-10	til dæmis	_	_	_	_	_	_	_	_
+9	til	til	ADV	ao	_	11	advmod	_	tag=ao
+10	dæmis	dæmis	ADV	ao	_	9	fixed	_	tag=ao
+11	fengið	fenginn	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	conj	_	tag=so_1_þf_sagnb_gm
+12	mörg	margur	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	13	amod	_	tag=lo_ft_þf_hk_sb
+13	verkefni	verkefni	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	tag=no_ft_þf_hk
+14	núna	núa	ADV	ao	_	11	advmod	_	tag=ao
+15	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+16	jólin	jól	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	11	advmod	_	SpaceAfter=No|tag=no_ft_þf_hk_gr
+17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00398,.8
 # text = Að búa við stöðugan ótta um að missa þakið yfir höfuðið, heimilið, öryggið.
@@ -167,8 +176,6 @@
 15	bankanna	banki	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	14	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk_gr
 16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00398,.10
-# text = Romero hefur unnið alla átta bardaga sína í UFC og þar af sex með rothöggi.
 1	Romero	Romero	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	unnið	vinna	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
@@ -183,6 +190,6 @@
 12	af	af	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	sex	sex	NUM	töl_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	tag=töl_ft_þgf_kk
 14	með	með	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	rothöggi	rothögg	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+15	rothöggi	rothögg	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þgf_hk
 16	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

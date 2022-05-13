@@ -24,13 +24,17 @@
 
 # sent_id = GREYNIR_CORPUS_00214,.3
 # text = Árið 2007 kostaði hann um tíma 57 krónur.
-1	Árið 2007	Árið 2007	ADV	ártal	_	2	advmod	_	tag=ártal
-2	kostaði	kosta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
-4	um	um	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	tíma	tími	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
-6	57 krónur	57 krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
-7	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Árið 2007	_	_	_	_	_	_	_	_
+1	Árið	Árið	ADV	ártal	_	3	advmod	_	tag=ártal
+2	2007	2007	NUM	ártal	_	1	flat	_	tag=ártal
+3	kostaði	kosta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+4	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
+5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
+6	tíma	tími	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	tag=no_et_þf_kk
+7-8	57 krónur	_	_	_	_	_	_	_	_
+7	57	57	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
+8	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	flat	_	SpaceAfter=No|tag=no_ft_þf_kvk
+9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00214,.4
 # text = Harðbannað er að losa það skólp í sjó.
@@ -103,8 +107,6 @@
 8	saman	saman	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
 9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00214,.10
-# text = Markmiðið er að fá krakka til að lesa.
 1	Markmiðið	markmið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
 2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	að	að	PART	nhm	_	0	root	_	tag=nhm
@@ -112,6 +114,6 @@
 5	krakka	krakki	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	tag=no_et_þf_kk
 6	til	til	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	lesa	lesa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	obl	_	SpaceAfter=No|tag=so_0_nh_gm
+8	lesa	lesa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	obl	_	tag=so_0_nh_gm
 9	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

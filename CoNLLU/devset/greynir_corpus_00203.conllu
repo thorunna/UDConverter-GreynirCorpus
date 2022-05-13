@@ -29,7 +29,7 @@
 5	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00203,.5
-# text = Hvað með ábyrgð umhverfisráðuneytisins ?
+# text = Hvað með ábyrgð umhverfisráðuneytisins?
 1	Hvað	hver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
 2	með	með	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
 3	ábyrgð	ábyrgð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þf_kvk
@@ -40,7 +40,10 @@
 # text = Stefna um net- og upplýsingaöryggi
 1	Stefna	stefna	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 2	um	um	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
-3	net- og upplýsingaöryggi	net- og upplýsingaöryggi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þf_hk
+3-5	net- og upplýsingaöryggi	_	_	_	_	_	_	_	_
+3	net-	net-	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þf_hk
+4	og	og	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	flat	_	tag=no_et_þf_hk
+5	upplýsingaöryggi	upplýsingaöryggi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	flat	_	tag=no_et_þf_hk
 
 # sent_id = GREYNIR_CORPUS_00203,.7
 # text = Það er nokkuð ljóst.
@@ -51,7 +54,7 @@
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00203,.8
-# text = Hvaða verkfæri nota krakkarnir ?
+# text = Hvaða verkfæri nota krakkarnir?
 1	Hvaða	hvaða	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nmod	_	tag=fn_et_nf_hk
 2	verkfæri	verkfæri	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_nf_hk
 3	nota	nota	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
@@ -59,18 +62,17 @@
 5	?	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00203,.9
-# text = Hver er uppáhaldsmaturinn þinn ?
+# text = Hver er uppáhaldsmaturinn þinn?
 1	Hver	hver	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	tag=fn_et_nf_kk
 2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	uppáhaldsmaturinn	uppáhaldsmatur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	VANTAR_LIÐ_IP_None	_	tag=no_et_nf_kk_gr
 4	þinn	þinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|tag=fn_et_nf_kk
 5	?	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00203,.10
-# text = Árásarmaðurinn hét Anis Amri.
--4	None	_	None	None	_	_	None	_	_
 1	Árásarmaðurinn	árásarmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
 2	hét	heita	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
-3	Anis Amri	Anis Amri	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
-4	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+3-4	Anis Amri	_	_	_	_	_	_	_	_
+3	Anis	Anis	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=person_et_nf_kk
+4	Amri	Amri	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	tag=person_et_nf_kk
+5	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

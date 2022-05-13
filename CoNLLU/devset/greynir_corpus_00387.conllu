@@ -5,15 +5,19 @@
 3	ár	ár	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	advmod	_	tag=no_ft_þf_hk
 4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	áætlað	áætla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-6	að	að	SCONJ	st	_	11	mark	_	tag=st
-7	stærð	stærð	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_nf_kvk
+6	að	að	SCONJ	st	_	12	mark	_	tag=st
+7	stærð	stærð	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_nf_kvk
 8	sjóðsins	sjóður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=no_et_ef_kk_gr
-9	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
-10	á bilinu	á bilinu	ADV	eo	_	11	advmod	_	tag=eo
-11	250	250	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	5	nsubj	_	tag=tala_ft_nf_kk
-12	til	til	ADV	eo	_	11	advmod	_	tag=eo
-13	300 milljarðar	300 milljarðar	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	11	nummod	_	SpaceAfter=No|tag=töl_ft_nf_kk
-14	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+9	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+10-11	á bilinu	_	_	_	_	_	_	_	_
+10	á	á	ADV	eo	_	12	advmod	_	tag=eo
+11	bilinu	bilinu	ADV	eo	_	10	fixed	_	tag=eo
+12	250	250	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	5	nsubj	_	tag=tala_ft_nf_kk
+13	til	til	ADV	eo	_	12	advmod	_	tag=eo
+14-15	300 milljarðar	_	_	_	_	_	_	_	_
+14	300	300	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	12	nummod	_	SpaceAfter=No|tag=töl_ft_nf_kk
+15	milljarðar	milljarðar	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	_	_	SpaceAfter=No|tag=töl_ft_nf_kk
+16	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00387,.2
 # text = Ábendingin verður notuð til að bæta gæði þjónustu og upplýsinga á vef Stjórnarráðsins.
@@ -36,18 +40,21 @@
 # text = Trúðanótt fer að þessu sinni fram í Þjóðleikhúskjallaranum og segir Halldóra að allir séu velkomnir.
 1	Trúðanótt	trúða-nótt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk
 2	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	að þessu sinni	að þessu sinni	ADV	ao	_	2	advmod	_	tag=ao
-4	fram	fram	ADV	ao	_	2	advmod	_	tag=ao
-5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	Þjóðleikhúskjallaranum	þjóðleikhús-kjallari	PROPN	fyrirtæki_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=fyrirtæki_et_þgf_kk_gr
-7	og	og	CCONJ	st	_	2	cc	_	tag=st
-8	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-9	Halldóra	Halldóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	nsubj	_	tag=person_nf_kvk
-10	að	að	SCONJ	st	_	13	mark	_	tag=st
-11	allir	allur	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	tag=fn_ft_nf_kk
-12	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_ft_nt_gm
-13	velkomnir	velkominn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
-14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+3-5	að þessu sinni	_	_	_	_	_	_	_	_
+3	að	að	ADV	ao	_	2	advmod	_	tag=ao
+4	þessu	þessu	ADV	ao	_	3	fixed	_	tag=ao
+5	sinni	sinni	ADV	ao	_	3	fixed	_	tag=ao
+6	fram	fram	ADV	ao	_	2	advmod	_	tag=ao
+7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	Þjóðleikhúskjallaranum	þjóðleikhús-kjallari	PROPN	fyrirtæki_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=fyrirtæki_et_þgf_kk_gr
+9	og	og	CCONJ	st	_	2	cc	_	tag=st
+10	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+11	Halldóra	Halldóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	nsubj	_	tag=person_nf_kvk
+12	að	að	SCONJ	st	_	15	mark	_	tag=st
+13	allir	allur	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	tag=fn_ft_nf_kk
+14	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_vh_p3_ft_nt_gm
+15	velkomnir	velkominn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
+16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00387,.4
 # text = Í samræmi við áhættustefnu OR bauð fyrirtækið einnig út skuldabréf í íslenskum krónum á dögunum.
@@ -62,9 +69,13 @@
 9	út	út	ADV	ao	_	6	compound:prt	_	tag=ao
 10	skuldabréf	skuldabréf	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	tag=no_et_þf_hk
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	íslenskum krónum	íslenskum krónum	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
-13	á dögunum	á dögunum	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
-14	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+12-13	íslenskum krónum	_	_	_	_	_	_	_	_
+12	íslenskum	íslenskum	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
+13	krónum	krónum	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	flat	_	tag=no_et_þgf_kvk
+14-15	á dögunum	_	_	_	_	_	_	_	_
+14	á	á	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
+15	dögunum	dögunum	ADV	ao	_	14	fixed	_	SpaceAfter=No|tag=ao
+16	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00387,.5
 # text = Þau voru gríðarlega skelkuð og starfsmenn áhaldahússins hjá okkur komu þeim í skjól.
@@ -87,18 +98,20 @@
 # text = Þar kemur til dæmis fram að álag í starfi hjá starfsmönnum hafi verið metið.
 1	Þar	þar	ADV	ao	_	2	advmod	_	tag=ao
 2	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	til dæmis	til dæmis	ADV	ao	_	2	advmod	_	tag=ao
-4	fram	fram	ADV	ao	_	2	advmod	_	tag=ao
-5	að	að	SCONJ	st	_	13	mark	_	tag=st
-6	álag	álag	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	tag=no_et_nf_hk
-7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	starfi	starf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
-9	hjá	hjá	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	starfsmönnum	starfsmaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	tag=no_ft_þgf_kk
-11	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_vh_p3_et_nt_gm
-12	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	13	cop	_	tag=so_0_sagnb_gm
-13	metið	meta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	nsubj	_	SpaceAfter=No|tag=so_0_lhþt_et
-14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	til dæmis	_	_	_	_	_	_	_	_
+3	til	til	ADV	ao	_	2	advmod	_	tag=ao
+4	dæmis	dæmis	ADV	ao	_	3	fixed	_	tag=ao
+5	fram	fram	ADV	ao	_	2	advmod	_	tag=ao
+6	að	að	SCONJ	st	_	14	mark	_	tag=st
+7	álag	álag	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
+8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	starfi	starf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
+10	hjá	hjá	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	starfsmönnum	starfsmaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	tag=no_ft_þgf_kk
+12	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_vh_p3_et_nt_gm
+13	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	cop	_	tag=so_0_sagnb_gm
+14	metið	meta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	nsubj	_	SpaceAfter=No|tag=so_0_lhþt_et
+15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00387,.7
 # text = Tvær skoðanakannanir hafa birst undanfarnar vikur þar sem stuðningur við formannsframbjóðendurna er mældur.
@@ -126,33 +139,36 @@
 5	réttarbót	réttarbót	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk
 6	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	Portúgala	Portúgali	PROPN	sérnafn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	tag=sérnafn_et_þf_kk
-8	hér á landi	hér á landi	ADV	ao	_	2	advmod	_	tag=ao
-9	ef	ef	SCONJ	st	_	11	mark	_	tag=st
-10	hér	hér	ADV	ao	_	11	advmod	_	tag=ao
-11	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	tag=so_0_vh_p3_et_þt_gm
-12	starfandi	starfandi	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_nf_kk
-13	ræðismaður	ræðismaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No|tag=no_et_nf_kk
-14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+8-10	hér á landi	_	_	_	_	_	_	_	_
+8	hér	hér	ADV	ao	_	2	advmod	_	tag=ao
+9	á	á	ADV	ao	_	8	fixed	_	tag=ao
+10	landi	landi	ADV	ao	_	8	fixed	_	tag=ao
+11	ef	ef	SCONJ	st	_	13	mark	_	tag=st
+12	hér	hér	ADV	ao	_	13	advmod	_	tag=ao
+13	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	tag=so_0_vh_p3_et_þt_gm
+14	starfandi	starfandi	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	tag=lo_et_nf_kk
+15	ræðismaður	ræðismaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No|tag=no_et_nf_kk
+16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00387,.9
 # text = Öllum skólum á Prince Edward eyju í Kanada hefur verið lokað vegna mögulegrar ógnar.
 1	Öllum	allur	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	tag=fn_ft_þgf_kk
-2	skólum	skóla	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	10	nsubj	_	tag=no_ft_þgf_kk
+2	skólum	skóla	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	nsubj	_	tag=no_ft_þgf_kk
 3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
-4	Prince Edward	Prince Edward	PROPN	sérnafn_þgf	Case=Dat	2	obl	_	tag=sérnafn_þgf
-5	eyju	ey	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	conj	_	tag=no_et_þgf_kvk
-6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	Kanada	Kanada	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_hk
-8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
-9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	cop	_	tag=so_0_sagnb_gm
-10	lokað	loka	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
-11	vegna	vega	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
-12	mögulegrar	mögulegur	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	13	amod	_	tag=lo_et_ef_kvk_sb
-13	ógnar	ógn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_ef_kvk
-14	.	.	PUNCT	grm	_	10	punct	_	tag=grm
+4-5	Prince Edward	_	_	_	_	_	_	_	_
+4	Prince	Prince	PROPN	sérnafn_þgf	Case=Dat	2	obl	_	tag=sérnafn_þgf
+5	Edward	Edward	PROPN	sérnafn_þgf	Case=Dat	4	flat	_	tag=sérnafn_þgf
+6	eyju	ey	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	conj	_	tag=no_et_þgf_kvk
+7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	Kanada	Kanada	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_hk
+9	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
+10	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	11	cop	_	tag=so_0_sagnb_gm
+11	lokað	loka	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
+12	vegna	vega	ADP	fs_ef	Case=Gen	14	case	_	tag=fs_ef
+13	mögulegrar	mögulegur	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_ef_kvk_sb
+14	ógnar	ógn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_ef_kvk
+15	.	.	PUNCT	grm	_	11	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00387,.10
-# text = Varaforsætisráðherra Spánar ítrekaði í viðtali í dag að formlegri sjálfstæðisyfirlýsingu yrði mætt af hörku.
 1	Varaforsætisráðherra	varaforsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 2	Spánar	Spánn	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=sérnafn_et_ef_kk
 3	ítrekaði	ítreka	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
@@ -166,6 +182,6 @@
 11	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_þt_gm
 12	mætt	mæta	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	3	obj	_	tag=so_1_þgf_sagnb_gm
 13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	hörku	harka	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+14	hörku	harka	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk
 15	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

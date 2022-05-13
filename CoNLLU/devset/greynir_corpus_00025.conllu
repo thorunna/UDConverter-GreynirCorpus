@@ -22,12 +22,15 @@
 
 # sent_id = GREYNIR_CORPUS_00025,.3
 # text = Einhverra hluta vegna fermdist ég um haust.
-1	Einhverra hluta vegna	einhverra hluta vegna	ADV	ao	_	2	advmod	_	tag=ao
-2	fermdist	ferma	VERB	so_0_fh_p1_et_þt_mm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p1_et_þt_mm
-3	ég	ég	PRON	pfn_et_nf_hk_p1	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_hk_p1
-4	um	um	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	haust	haust	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-6	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Einhverra hluta vegna	_	_	_	_	_	_	_	_
+1	Einhverra	einhverra	ADV	ao	_	4	advmod	_	tag=ao
+2	hluta	hluta	ADV	ao	_	1	fixed	_	tag=ao
+3	vegna	vegna	ADV	ao	_	1	fixed	_	tag=ao
+4	fermdist	ferma	VERB	so_0_fh_p1_et_þt_mm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p1_et_þt_mm
+5	ég	ég	PRON	pfn_et_nf_hk_p1	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p1
+6	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+7	haust	haust	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_hk
+8	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00025,.4
 # text = Sjá símanúmer og kort með staðsetningu allra ráðuneyta
@@ -63,7 +66,7 @@
 8	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00025,.7
-# text = Er samfélagið fyrir alla eða bara suma ?
+# text = Er samfélagið fyrir alla eða bara suma?
 1	Er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 2	samfélagið	samfélag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	1	nsubj	_	tag=no_et_nf_hk_gr
 3	fyrir	fyrir	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf

@@ -6,10 +6,15 @@
 4	könnunina	könnun	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þf_kvk_gr
 5	á	eiga	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	tímabilinu	tímabil	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk_gr
-7	23. október	23. október	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
-8	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
-9	8. nóvember 2017	8. nóvember 2017	?	dagsföst	_	7	obl	_	SpaceAfter=No|tag=dagsföst
-10	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+7-8	23. október	_	_	_	_	_	_	_	_
+7	23.	23.	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
+8	október	október	NUM?	dagsafs	_	7	flat	_	tag=dagsafs
+9	til	til	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
+10-12	8. nóvember 2017	_	_	_	_	_	_	_	_
+10	8.	8.	?	dagsföst	_	7	obl	_	SpaceAfter=No|tag=dagsföst
+11	nóvember	nóvember	?	dagsföst	_	10	flat	_	SpaceAfter=No|tag=dagsföst
+12	2017	2017	?	dagsföst	_	10	flat	_	SpaceAfter=No|tag=dagsföst
+13	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00358,.2
 # text = Við fengum björgunarsveitarfólk frá Blönduósi og Skagaströnd með okkur.
@@ -39,7 +44,6 @@
 
 # sent_id = GREYNIR_CORPUS_00358,.4
 # text = Hann gerðist sjómaður á skipum sem sigldu um heiminn.
--4	None	_	None	None	_	_	None	_	_
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
 2	gerðist	gera	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	conj	_	tag=so_1_nf_fh_p3_et_þt_mm
 3	sjómaður	sjómaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -52,7 +56,7 @@
 10	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00358,.5
-# text = Mottóið okkar er Hvað langar þig að sjá ?
+# text = Mottóið okkar er Hvað langar þig að sjá?
 1	Mottóið	mottó	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
 2	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	1	nmod:poss	_	tag=pfn_ft_ef_p1
 3	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -118,17 +122,19 @@
 10	viðræðum	viðræða	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 11	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00358,.10
-# text = Síðasti þingfundur á Alþingi fyrir sveitarstjórnarkosningarnar 26. maí fer fram á morgun.
 1	Síðasti	síðari	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_evb
-2	þingfundur	þingfundur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
+2	þingfundur	þingfundur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	tag=no_et_nf_kk
 3	á	eiga	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	Alþingi	Alþingi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 5	fyrir	fyrir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 6	sveitarstjórnarkosningarnar	sveitar-stjórnarkosning	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_þf_kvk_gr
-7	26. maí	26. maí	ADV	dagsafs	_	6	advmod	_	tag=dagsafs
-8	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-9	fram	fram	ADV	ao	_	8	advmod	_	tag=ao
-10	á morgun	á morgun	ADV	ao	_	8	advmod	_	SpaceAfter=No|tag=ao
-11	.	.	PUNCT	grm	_	8	punct	_	tag=grm
+7-8	26. maí	_	_	_	_	_	_	_	_
+7	26.	26.	ADV	dagsafs	_	6	advmod	_	tag=dagsafs
+8	maí	maí	NUM?	dagsafs	_	7	flat	_	tag=dagsafs
+9	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+10	fram	fram	ADV	ao	_	9	advmod	_	tag=ao
+11-12	á morgun	_	_	_	_	_	_	_	_
+11	á	á	ADV	ao	_	9	advmod	_	tag=ao
+12	morgun	morgun	ADV	ao	_	11	fixed	_	tag=ao
+13	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 

@@ -88,15 +88,17 @@
 # sent_id = GREYNIR_CORPUS_00230,.7
 # text = Útgefnar bækur á hverja 1.000 íbúa árið 2015 voru 4,5.
 1	Útgefnar	útgefinn	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_nf_kvk_sb
-2	bækur	bók	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	tag=no_ft_nf_kvk
+2	bækur	bók	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	tag=no_ft_nf_kvk
 3	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 4	hverja	hver	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	tag=fn_ft_þf_kk
 5	1.000	1.000	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_þf_kk
 6	íbúa	íbúi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_þf_kk
-7	árið 2015	árið 2015	ADV	ártal	_	9	advmod	_	tag=ártal
-8	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_0_fh_p3_ft_þt_gm
-9	4,5	4,5	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	0	root	_	SpaceAfter=No|tag=tala_ft_nf_kvk
-10	.	_	PUNCT	grm	_	9	punct	_	tag=grm
+7-8	árið 2015	_	_	_	_	_	_	_	_
+7	árið	árið	ADV	ártal	_	10	advmod	_	tag=ártal
+8	2015	2015	NUM	ártal	_	7	flat	_	tag=ártal
+9	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p3_ft_þt_gm
+10	4,5	4,5	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	0	root	_	SpaceAfter=No|tag=tala_ft_nf_kvk
+11	.	_	PUNCT	grm	_	10	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00230,.8
 # text = Bylgjurnar urðu til við árekstur tveggja svarthola í órafjarlægð frá jörðu.
@@ -128,8 +130,6 @@
 11	vistaður	vista	VERB	so_0_lhþt_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	7	obj	_	SpaceAfter=No|tag=so_0_lhþt_et_nf_kk
 12	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00230,.10
-# text = Hún bendir á að þó standi Ísland almennt framarlega í jafnréttismálum.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p3
 2	bendir	benda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	á	á	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
@@ -140,6 +140,6 @@
 8	almennt	almennt	ADV	ao	_	6	advmod	_	tag=ao
 9	framarlega	framarlega	ADV	ao	_	6	advmod	_	tag=ao
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	jafnréttismálum	jafnréttismál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
+11	jafnréttismálum	jafnréttismál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_þgf_hk
 12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -49,22 +49,24 @@
 
 # sent_id = GREYNIR_CORPUS_00242,.4
 # text = Hins vegar hafi komið á daginn að það hafi ekki verið sniðug hugmynd.
-1	Hins vegar	hins vegar	ADV	ao	_	3	advmod	_	tag=ao
-2	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_vh_p3_et_nt_gm
-3	komið	koma	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-4	á	á	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	daginn	dagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk_gr
-6	að	að	SCONJ	st	_	12	mark	_	tag=st
-7	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_hk_p3
-8	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_nt_gm
-9	ekki	ekki	ADV	ao	_	12	advmod	_	tag=ao
-10	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	12	cop	_	tag=so_1_nf_sagnb_gm
-11	sniðug	sniðugur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	tag=lo_et_nf_kvk_sb
-12	hugmynd	hugmynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No|tag=no_et_nf_kvk
-13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1-2	Hins vegar	_	_	_	_	_	_	_	_
+1	Hins	hins	ADV	ao	_	4	advmod	_	tag=ao
+2	vegar	vegar	ADV	ao	_	1	fixed	_	tag=ao
+3	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_vh_p3_et_nt_gm
+4	komið	koma	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
+5	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
+6	daginn	dagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk_gr
+7	að	að	SCONJ	st	_	13	mark	_	tag=st
+8	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	tag=pfn_et_nf_hk_p3
+9	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_vh_p3_et_nt_gm
+10	ekki	ekki	ADV	ao	_	13	advmod	_	tag=ao
+11	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	13	cop	_	tag=so_1_nf_sagnb_gm
+12	sniðug	sniðugur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	tag=lo_et_nf_kvk_sb
+13	hugmynd	hugmynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No|tag=no_et_nf_kvk
+14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00242,.5
-# text = Ef munnmök eru nýi góða nótt kossinn er þá sleikur nýja handabandið ?
+# text = Ef munnmök eru nýi góða nótt kossinn er þá sleikur nýja handabandið?
 1	Ef	ef	SCONJ	st	_	6	mark	_	tag=st
 2	munnmök	munnmök	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	tag=no_ft_nf_hk
 3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_ft_nt_gm
@@ -135,13 +137,16 @@
 3	viðstaddra	viðstaddur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	4	amod	_	tag=lo_ft_ef_kk_sb
 4	björgunarsveitarmanna	björgunarsveitarmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	2	nmod:poss	_	tag=no_ft_ef_kk
 5	sést	sjá	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
-6	lítið sem ekkert	lítið sem ekkert	ADV	ao	_	5	advmod	_	tag=ao
-7	fram	fram	ADV	ao	_	9	advmod	_	tag=ao
-8	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	húddið	húdd	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk_gr
-10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	bílnum	bíll	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
-12	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+6-8	lítið sem ekkert	_	_	_	_	_	_	_	_
+6	lítið	lítið	ADV	ao	_	5	advmod	_	tag=ao
+7	sem	sem	ADV	ao	_	6	fixed	_	tag=ao
+8	ekkert	ekkert	ADV	ao	_	6	fixed	_	tag=ao
+9	fram	fram	ADV	ao	_	11	advmod	_	tag=ao
+10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	húddið	húdd	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk_gr
+12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	bílnum	bíll	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
+14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00242,.10
 # text = Fyrirhuguð er mikil uppbygging íbúðarhúsnæðis á Ártúnshöfða og við Elliðavog á næstu árum.

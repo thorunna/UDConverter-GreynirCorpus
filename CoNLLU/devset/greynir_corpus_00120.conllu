@@ -52,20 +52,22 @@
 3	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 4	stutta	stuttur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_þf_kvk_sb
 5	stund	stund	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	advmod	_	tag=no_et_þf_kvk
-6	á meðan	á meðan	SCONJ	st	_	8	mark	_	tag=st
-7	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_p1
-8	hljóp	hlaupa	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	2	advcl	_	SpaceAfter=No|tag=so_0_fh_p1_et_þt_gm
-9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
-10	en	en	CCONJ	st	_	2	cc	_	tag=st
-11	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	tag=pfn_et_nf_hk_p3
-12	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
-13	kælandi	kælandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_nf_kvk_sb
-14	rigning	rigning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_nf_kvk
-15	sem	sem	SCONJ	stt	_	16	mark	_	tag=stt
-16	veitti	veita	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	acl:relcl	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
-17	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	iobj	_	tag=pfn_et_þgf_p1
-18	vellíðan	vellíðan	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
-19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+6-7	á meðan	_	_	_	_	_	_	_	_
+6	á	á	SCONJ	st	_	9	mark	_	tag=st
+7	meðan	meðan	SCONJ	st	_	6	_	_	tag=st
+8	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_p1
+9	hljóp	hlaupa	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	2	advcl	_	SpaceAfter=No|tag=so_0_fh_p1_et_þt_gm
+10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
+11	en	en	CCONJ	st	_	2	cc	_	tag=st
+12	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	tag=pfn_et_nf_hk_p3
+13	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
+14	kælandi	kælandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	15	amod	_	tag=lo_et_nf_kvk_sb
+15	rigning	rigning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	tag=no_et_nf_kvk
+16	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
+17	veitti	veita	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
+18	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	17	iobj	_	tag=pfn_et_þgf_p1
+19	vellíðan	vellíðan	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
+20	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00120,.4
 # text = Í hálfleik var erfitt að vera hugrakkur en við vorum sammála um að við þyrftum að fara erfiðu leiðina.
@@ -92,26 +94,28 @@
 
 # sent_id = GREYNIR_CORPUS_00120,.5
 # text = Ásrún Hersteinsdóttir, móðir Ólafs, segir hann hafa verið mikinn aðdáanda Dimmu fyrir en nú sé hljómsveitin númer eitt.
-1	Ásrún Hersteinsdóttir	Ásrún Hersteinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	móðir	móðir	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_nf_kvk
-4	Ólafs	Ólafur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	3	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
-6	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-7	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	tag=pfn_et_þf_kk_p3
-8	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	aux	_	tag=so_0_nh_gm
-9	verið	vera	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	11	cop	_	tag=so_1_þf_sagnb_gm
-10	mikinn	mikill	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_þf_kk_sb
-11	aðdáanda	aðdáandi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	xcomp	_	tag=no_et_þf_kk
-12	Dimmu	Dimma	PROPN	entity_ef_kvk	Case=Gen|Gender=Fem	11	nmod:poss	_	tag=entity_ef_kvk
-13	fyrir	fyrir	ADV	ao	_	11	advmod	_	tag=ao
-14	en	en	CCONJ	st	_	6	cc	_	tag=st
-15	nú	nú	ADV	ao	_	18	advmod	_	tag=ao
-16	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
-17	hljómsveitin	hljómsveit	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	tag=no_et_nf_kvk_gr
-18	númer	númer	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	VANTAR_LIÐ_IP_None	_	tag=no_et_nf_hk
-19	eitt	einn	NUM	to_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	nummod	_	SpaceAfter=No|tag=to_et_nf_hk
-20	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+1-2	Ásrún Hersteinsdóttir	_	_	_	_	_	_	_	_
+1	Ásrún	Ásrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+2	Hersteinsdóttir	Hersteinsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
+3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
+4	móðir	móðir	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_nf_kvk
+5	Ólafs	Ólafur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	4	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
+6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
+7	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+8	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	tag=pfn_et_þf_kk_p3
+9	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	aux	_	tag=so_0_nh_gm
+10	verið	vera	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	12	cop	_	tag=so_1_þf_sagnb_gm
+11	mikinn	mikill	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_þf_kk_sb
+12	aðdáanda	aðdáandi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	xcomp	_	tag=no_et_þf_kk
+13	Dimmu	Dimma	PROPN	entity_ef_kvk	Case=Gen|Gender=Fem	12	nmod:poss	_	tag=entity_ef_kvk
+14	fyrir	fyrir	ADV	ao	_	12	advmod	_	tag=ao
+15	en	en	CCONJ	st	_	7	cc	_	tag=st
+16	nú	nú	ADV	ao	_	19	advmod	_	tag=ao
+17	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+18	hljómsveitin	hljómsveit	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	19	nsubj	_	tag=no_et_nf_kvk_gr
+19	númer	númer	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	VANTAR_LIÐ_IP_None	_	tag=no_et_nf_hk
+20	eitt	einn	NUM	to_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nummod	_	SpaceAfter=No|tag=to_et_nf_hk
+21	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00120,.6
 # text = Selfyssingar búnir að spila 11 mínútur í síðari hálfleik og skora jafn mörg mörk og þeir gerðu allan fyrri hálfleikinn.
@@ -163,24 +167,26 @@
 
 # sent_id = GREYNIR_CORPUS_00120,.8
 # text = Þessa stundina að leggja lokahönd á handrit í fullri lengd og er að undirbúa útskriftarmyndina mína úr skólanum.
-1	Þessa stundina	þessa stundina	ADV	ao	_	3	advmod	_	tag=ao
-2	að	að	PART	nhm	_	3	mark	_	tag=nhm
-3	leggja	leggur	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	conj	_	tag=so_1_þf_nh_gm
-4	lokahönd	lokahönd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þgf_kvk
-5	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	handrit	handrit	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
-7	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-8	fullri	fullur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_þgf_kvk_sb
-9	lengd	lengd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk
-10	og	og	CCONJ	st	_	11	cc	_	tag=st
-11	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-12	að	að	PART	nhm	_	13	mark	_	tag=nhm
-13	undirbúa	undirbúa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	xcomp	_	tag=so_1_þf_nh_gm
-14	útskriftarmyndina	útskriftarmynd	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	tag=no_et_þf_kvk_gr
-15	mína	minn	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	tag=fn_et_þf_kvk
-16	úr	úr	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	skólanum	skóli	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
-18	.	_	PUNCT	grm	_	11	punct	_	tag=grm
+1-2	Þessa stundina	_	_	_	_	_	_	_	_
+1	Þessa	þessa	ADV	ao	_	4	advmod	_	tag=ao
+2	stundina	stundina	ADV	ao	_	1	fixed	_	tag=ao
+3	að	að	PART	nhm	_	4	mark	_	tag=nhm
+4	leggja	leggur	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	12	conj	_	tag=so_1_þf_nh_gm
+5	lokahönd	lokahönd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	tag=no_et_þgf_kvk
+6	á	á	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+7	handrit	handrit	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þf_hk
+8	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+9	fullri	fullur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_þgf_kvk_sb
+10	lengd	lengd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þgf_kvk
+11	og	og	CCONJ	st	_	12	cc	_	tag=st
+12	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+13	að	að	PART	nhm	_	14	mark	_	tag=nhm
+14	undirbúa	undirbúa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_1_þf_nh_gm
+15	útskriftarmyndina	útskriftarmynd	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	tag=no_et_þf_kvk_gr
+16	mína	minn	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	tag=fn_et_þf_kvk
+17	úr	úr	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
+18	skólanum	skóli	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
+19	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00120,.9
 # text = Því telur Anna að það verði allt opið, þegar flokkarnir setjist niður og fara að ræða myndun nýs meirihluta.

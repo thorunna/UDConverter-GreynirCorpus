@@ -128,17 +128,22 @@
 6	tvo	tveir	NUM	to_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	nummod	_	tag=to_ft_þf_kk
 7	keppendur	keppandi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No|tag=no_ft_þf_kk
 8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-9	Oddnýju Þórarinsdóttur	Oddný Þórarinsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	conj	_	tag=person_þf_kvk
-10	og	og	CCONJ	st	_	7	cc	_	tag=st
-11	Eydísi Magneu Friðriksdóttur	Eydís Magnea Friðriksdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	conj	_	SpaceAfter=No|tag=person_þf_kvk
-12	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+9-10	Oddnýju Þórarinsdóttur	_	_	_	_	_	_	_	_
+9	Oddnýju	Oddný	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	conj	_	tag=person_þf_kvk
+10	Þórarinsdóttur	Þórarinsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	9	flat	_	tag=person_þf_kvk
+11	og	og	CCONJ	st	_	7	cc	_	tag=st
+12-14	Eydísi Magneu Friðriksdóttur	_	_	_	_	_	_	_	_
+12	Eydísi	Eydís	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	conj	_	SpaceAfter=No|tag=person_þf_kvk
+13	Magneu	Magnea	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	12	flat	_	SpaceAfter=No|tag=person_þf_kvk
+14	Friðriksdóttur	Friðriksdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	12	flat	_	SpaceAfter=No|tag=person_þf_kvk
+15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00072,.9
 # text = Í samtali við mbl.is segir Dagur að úrskurður kjararáðs hafi hleypt atburðarásinni af stað.
 1	Í	Í	ADP	fs	_	2	case	_	tag=fs
 2	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
-3	við	við	ADP	fs	_	4	dep	_	tag=fs
-4	mbl.is	mbl.is	X	lén	_	2	obl	_	tag=lén
+3	við	við	ADP	fs	_	4	case	_	tag=fs
+4	mbl.is	mbl.is	SYM	lén	_	2	obl	_	tag=lén
 5	segir	segja	VERB	so_0	_	0	root	_	tag=so_0
 6	Dagur	Dagur	PROPN	sérnafn	_	5	nsubj	_	tag=sérnafn
 7	að	að	SCONJ	st	_	11	mark	_	tag=st

@@ -55,28 +55,32 @@
 11	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00041,.5
-# text = Tilnefningar til viðurkenningarinnar borgarbíll ársins 2019 eru þessar :
-1	Tilnefningar	tilnefning	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	tag=no_ft_nf_kvk
+# text = Tilnefningar til viðurkenningarinnar borgarbíll ársins 2019 eru þessar:
+1	Tilnefningar	tilnefning	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	tag=no_ft_nf_kvk
 2	til	til	ADP	fs_ef	Case=Gen	4	case	_	tag=fs_ef
 3	viðurkenningarinnar	viðurkenning	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nummod	_	tag=no_et_ef_kvk_gr
 4	borgarbíll	borgarbíll	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-5	ársins 2019	ársins 2019	NUM	ártal	_	4	nmod:poss	_	tag=ártal
-6	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
-7	þessar	þessi	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|tag=fn_ft_nf_kvk
-8	:	_	PUNCT	grm	_	7	punct	_	tag=grm
+5-6	ársins 2019	_	_	_	_	_	_	_	_
+5	ársins	ársins	NUM	ártal	_	4	nmod:poss	_	tag=ártal
+6	2019	2019	NUM	ártal	_	5	flat	_	tag=ártal
+7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+8	þessar	þessi	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|tag=fn_ft_nf_kvk
+9	:	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00041,.6
 # text = Árið 1994 náðu þríburafæðingar á Íslandi hámarki með sex þríburafæðingum.
-1	Árið 1994	Árið 1994	ADV	ártal	_	2	advmod	_	tag=ártal
-2	náðu	ná	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_ft_þt_gm
-3	þríburafæðingar	þríburafæðing	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	tag=no_ft_nf_kvk
-4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	Íslandi	Ísland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_hk
-6	hámarki	hámark	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þgf_hk
-7	með	með	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-8	sex	sex	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	9	nummod	_	tag=töl_ft_þgf_kvk
-9	þríburafæðingum	þríburafæðing	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Árið 1994	_	_	_	_	_	_	_	_
+1	Árið	Árið	ADV	ártal	_	3	advmod	_	tag=ártal
+2	1994	1994	NUM	ártal	_	1	flat	_	tag=ártal
+3	náðu	ná	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_ft_þt_gm
+4	þríburafæðingar	þríburafæðing	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk
+5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
+6	Íslandi	Ísland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_hk
+7	hámarki	hámark	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þgf_hk
+8	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+9	sex	sex	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	nummod	_	tag=töl_ft_þgf_kvk
+10	þríburafæðingum	þríburafæðing	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00041,.7
 # text = Í aðstæðum sem þessum sé sjálfsásökun svo niðurbrjótandi og vond.

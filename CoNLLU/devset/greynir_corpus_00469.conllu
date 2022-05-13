@@ -50,13 +50,15 @@
 18	fara	fara	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	nsubj	_	tag=so_0_fh_p3_ft_nt_gm
 19	að	að	PART	nhm	_	20	mark	_	tag=nhm
 20	byggja	byggja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	18	xcomp	_	tag=so_0_nh_gm
-21	fyrir neðan	fyrir neðan	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
-22	línuna	lína	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þf_kvk_gr
-23	sem	sem	SCONJ	stt	_	26	mark	_	tag=stt
-24	síðasta	síðari	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	25	amod	_	tag=lo_et_nf_hk_evb
-25	flóð	flóð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	tag=no_et_nf_hk
-26	náði	ná	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	acl:relcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
-27	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+21-22	fyrir neðan	_	_	_	_	_	_	_	_
+21	fyrir	fyrir	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+22	neðan	neðan	ADP	fs_þf	Case=Acc	21	fixed	_	tag=fs_þf
+23	línuna	lína	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þf_kvk_gr
+24	sem	sem	SCONJ	stt	_	27	mark	_	tag=stt
+25	síðasta	síðari	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	26	amod	_	tag=lo_et_nf_hk_evb
+26	flóð	flóð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	tag=no_et_nf_hk
+27	náði	ná	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	acl:relcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
+28	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00469,.3
 # text = Í bréfi til Landspítala var m.a. óskað eftir öllum gögnum um málefni einstakra barna sem vistuð voru á Kópavogshæli á starfstíma þess &#40; 1952 ‒ 1993 &#41;.
@@ -90,7 +92,7 @@
 28	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00469,.4
-# text = Að baki liggja hagkvæmnisjónarmið : Það er nefnilega ódýrara fyrir borgina að bjóða út til að mynda ræstingu húsnæðis borgarinnar heldur en að borgin reki sjálf ræstingardeild.
+# text = Að baki liggja hagkvæmnisjónarmið: Það er nefnilega ódýrara fyrir borgina að bjóða út til að mynda ræstingu húsnæðis borgarinnar heldur en að borgin reki sjálf ræstingardeild.
 1	Að	að	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	baki	bak	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
 3	liggja	liggja	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
@@ -214,7 +216,7 @@
 28	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00469,.8
-# text = Leó sagði þessa mögnuðu setningu : Skáldskapurinn er sannur, en svonefndur sannleikur er helber uppspuni, og hafði hann þar nokkuð til síns máls.
+# text = Leó sagði þessa mögnuðu setningu: Skáldskapurinn er sannur, en svonefndur sannleikur er helber uppspuni, og hafði hann þar nokkuð til síns máls.
 1	Leó	Leó	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 2	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	þessa	þessi	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	tag=fn_et_þf_kvk
@@ -244,7 +246,7 @@
 
 # sent_id = GREYNIR_CORPUS_00469,.9
 # text = Einn af þeim sem skildu eftir athugasemd við stöðuuppfærslu Ólafs Rúnars sagðist í gegnum tíðina hafa fengið margar skýringar á töfum á flugi, en að áhafnarhvíld væri nýlunda.
-1	Einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	tag=fn_et_nf_kk
+1	Einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=fn_et_nf_kk
 2	af	af	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	þeim	sá	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	1	obl	_	tag=fn_ft_þgf_kk
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
@@ -253,51 +255,57 @@
 7	athugasemd	athugasemd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	tag=no_et_þf_kvk
 8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	stöðuuppfærslu	stöðu-uppfærsla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk
-10	Ólafs Rúnars	Ólafur Rúnar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	tag=person_ef_kk
-11	sagðist	segja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
-12	í gegnum	í gegnum	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	tíðina	tíð	ADV	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	advmod	_	tag=no_et_þf_kvk_gr
-14	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	aux	_	tag=so_0_nh_gm
-15	fengið	fá	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	11	xcomp	_	tag=so_1_þf_sagnb_gm
-16	margar	margur	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	17	amod	_	tag=lo_ft_þf_kvk_sb
-17	skýringar	skýring	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	tag=no_ft_þf_kvk
-18	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19	töfum	töf	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	tag=no_ft_þgf_kvk
+10-11	Ólafs Rúnars	_	_	_	_	_	_	_	_
+10	Ólafs	Ólafur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	tag=person_ef_kk
+11	Rúnars	Rúnar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	flat	_	tag=person_ef_kk
+12	sagðist	segja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
+13-14	í gegnum	_	_	_	_	_	_	_	_
+13	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+14	gegnum	gegnum	ADP	fs_þf	Case=Acc	13	fixed	_	tag=fs_þf
+15	tíðina	tíð	ADV	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	tag=no_et_þf_kvk_gr
+16	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	aux	_	tag=so_0_nh_gm
+17	fengið	fá	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	12	xcomp	_	tag=so_1_þf_sagnb_gm
+18	margar	margur	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	19	amod	_	tag=lo_ft_þf_kvk_sb
+19	skýringar	skýring	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	tag=no_ft_þf_kvk
 20	á	á	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-21	flugi	flug	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-22	,	,	PUNCT	grm	_	21	punct	_	tag=grm
-23	en	en	CCONJ	st	_	11	cc	_	tag=st
-24	að	að	SCONJ	st	_	27	mark	_	tag=st
-25	áhafnarhvíld	áhafnar-hvíla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	27	nsubj	_	tag=no_et_þgf_kvk
-26	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	27	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
-27	nýlunda	nýlunda	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No|tag=no_et_nf_kvk
-28	.	.	PUNCT	grm	_	11	punct	_	tag=grm
+21	töfum	töf	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	tag=no_ft_þgf_kvk
+22	á	á	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
+23	flugi	flug	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+24	,	,	PUNCT	grm	_	23	punct	_	tag=grm
+25	en	en	CCONJ	st	_	12	cc	_	tag=st
+26	að	að	SCONJ	st	_	29	mark	_	tag=st
+27	áhafnarhvíld	áhafnar-hvíla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	29	nsubj	_	tag=no_et_þgf_kvk
+28	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	29	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
+29	nýlunda	nýlunda	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No|tag=no_et_nf_kvk
+30	.	.	PUNCT	grm	_	12	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00469,.10
-# text = Fjölmargir stuðningsmenn Manchester United og sparkfræðingar vilja að fyrirliðinn Wayne Rooney verði settur á bekkinn en hann hefur þótt vera afar slakur með Manchester-liðinu á tímabilinu.
 1	Fjölmargir	fjölmargur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	tag=lo_ft_nf_kk_sb
-2	stuðningsmenn	stuðningsmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	tag=no_ft_nf_kk
-3	Manchester United	Manchester United	PROPN	fyrirtæki	_	2	nmod:poss	_	tag=fyrirtæki
-4	og	og	CCONJ	st	_	2	cc	_	tag=st
-5	sparkfræðingar	sparkfræðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	tag=no_ft_nf_kk
-6	vilja	vilja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
-7	að	að	SCONJ	st	_	11	mark	_	tag=st
-8	fyrirliðinn	fyrirliði	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_nf_kk_gr
-9	Wayne Rooney	Wayne Rooney	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-10	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_vh_p3_et_nt_gm
-11	settur	setja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	obj	_	tag=so_0_lhþt_et
-12	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	bekkinn	bekkur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þf_kk_gr
-14	en	en	CCONJ	st	_	6	cc	_	tag=st
-15	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kk_p3
-16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_fh_p3_et_nt_gm
-17	þótt	þykja	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	6	conj	_	tag=so_1_nf_sagnb_gm
-18	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	cop	_	tag=so_0_nh_gm
-19	afar	afar	ADV	eo	_	20	advmod	_	tag=eo
-20	slakur	slakur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	17	xcomp	_	tag=lo_et_nf_kk_sb
-21	með	með	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-22	Manchester-liðinu	Manchester-lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	20	obl	_	tag=no_et_þgf_hk_gr
-23	á	á	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	tímabilinu	tímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	20	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-25	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+2	stuðningsmenn	stuðningsmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	tag=no_ft_nf_kk
+3-4	Manchester United	_	_	_	_	_	_	_	_
+3	Manchester	Manchester	PROPN	fyrirtæki	_	2	nmod:poss	_	tag=fyrirtæki
+4	United	United	PROPN	fyrirtæki	_	3	flat	_	tag=fyrirtæki
+5	og	og	CCONJ	st	_	2	cc	_	tag=st
+6	sparkfræðingar	sparkfræðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	tag=no_ft_nf_kk
+7	vilja	vilja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
+8	að	að	SCONJ	st	_	13	mark	_	tag=st
+9	fyrirliðinn	fyrirliði	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_nf_kk_gr
+10-11	Wayne Rooney	_	_	_	_	_	_	_	_
+10	Wayne	Wayne	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	tag=person_nf_kk
+11	Rooney	Rooney	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	flat	_	tag=person_nf_kk
+12	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_et_nt_gm
+13	settur	setja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	obj	_	tag=so_0_lhþt_et
+14	á	á	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+15	bekkinn	bekkur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þf_kk_gr
+16	en	en	CCONJ	st	_	7	cc	_	tag=st
+17	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kk_p3
+18	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_fh_p3_et_nt_gm
+19	þótt	þykja	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	conj	_	tag=so_1_nf_sagnb_gm
+20	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	22	cop	_	tag=so_0_nh_gm
+21	afar	afar	ADV	eo	_	22	advmod	_	tag=eo
+22	slakur	slakur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	19	xcomp	_	tag=lo_et_nf_kk_sb
+23	með	með	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
+24	Manchester-liðinu	Manchester-lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	22	obl	_	tag=no_et_þgf_hk_gr
+25	á	á	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
+26	tímabilinu	tímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	22	advmod	_	tag=no_et_þgf_hk_gr
+27	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 

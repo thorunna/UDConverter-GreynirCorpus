@@ -1,8 +1,8 @@
 # sent_id = GREYNIR_CORPUS_00257,.1
 # text = Ég hrópaði Yo-chan, sagði Obata í samtali við sjónvarpsstöð.
-1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	tag=pfn_et_nf_p1
-2	hrópaði	hrópa	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	conj	_	tag=so_0_fh_p1_et_þt_gm
-3	Yo-chan	Yo-chan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No|tag=person_et_nf_kk
+1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
+2	hrópaði	hrópa	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p1_et_þt_gm
+3	Yo-chan	Yo-chan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	ccomp	_	SpaceAfter=No|tag=person_et_nf_kk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	ccomp	_	tag=so_0_fh_p3_et_þt_gm
 6	Obata	Obata	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_et_nf_kk
@@ -10,7 +10,7 @@
 8	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
 9	við	við	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	sjónvarpsstöð	sjónvarpsstöð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
-11	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00257,.2
 # text = Þessir ungu strákar þurfa samt líka að vera að spila reglulega og standa sig vel.
@@ -75,15 +75,20 @@
 2	Festar	Festar	PROPN	fyrirtæki	_	1	nmod:poss	_	tag=fyrirtæki
 3	námu	nema	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_ft_þt_gm
 4	rúmum	rúmur	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	5	amod	_	tag=lo_ft_þgf_kk_sb
-5	80,1 milljarði króna	80,1 milljarði króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obj	_	tag=no_ft_þgf_kk
-6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	lok	lok	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	advmod	_	tag=no_ft_þf_hk
-8	septembermánaðar	septembermánuður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=no_et_ef_kk
-9	og	og	CCONJ	st	_	3	cc	_	tag=st
-10	skuldirnar	skuld	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	11	nsubj	_	tag=no_ft_nf_kvk_gr
-11	nema	nema	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þgf_fh_p3_ft_nt_gm
-12	54,7 milljörðum	54,7 milljörðum	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	11	obj	_	SpaceAfter=No|tag=tala_ft_þgf_hk
-13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+5-7	80,1 milljarði króna	_	_	_	_	_	_	_	_
+5	80,1	80,1	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obj	_	tag=no_ft_þgf_kk
+6	milljarði	milljarði	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	flat	_	tag=no_ft_þgf_kk
+7	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	flat	_	tag=no_ft_þgf_kk
+8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
+9	lok	lok	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	advmod	_	tag=no_ft_þf_hk
+10	septembermánaðar	septembermánuður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kk
+11	og	og	CCONJ	st	_	3	cc	_	tag=st
+12	skuldirnar	skuld	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	tag=no_ft_nf_kvk_gr
+13	nema	nema	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þgf_fh_p3_ft_nt_gm
+14-15	54,7 milljörðum	_	_	_	_	_	_	_	_
+14	54,7	54,7	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	13	obj	_	SpaceAfter=No|tag=tala_ft_þgf_hk
+15	milljörðum	milljörðum	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	14	_	_	SpaceAfter=No|tag=tala_ft_þgf_hk
+16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00257,.6
 # text = Ég kaupi líka miklu minna af fatnaði en ég gerði áður og vanda valið vel.
@@ -123,10 +128,10 @@
 
 # sent_id = GREYNIR_CORPUS_00257,.8
 # text = Er þá einkum átt við úrslit forsetakjörs í Bandaríkjunum og væntanlega úrsögn Bretlands úr Evrópusambandinu.
-1	Er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+1	Er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 2	þá	þá	ADV	ao	_	4	advmod	_	tag=ao
 3	einkum	einkum	ADV	ao	_	4	advmod	_	tag=ao
-4	átt	eiga	VERB	so_0_lhþt_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	1	xcomp	_	tag=so_0_lhþt_et_nf_hk
+4	átt	eiga	VERB	so_0_lhþt_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_hk
 5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	úrslit	úrslit	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þf_hk
 7	forsetakjörs	forsetakjör	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk
@@ -138,7 +143,7 @@
 13	Bretlands	Bretland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	nmod:poss	_	tag=no_et_ef_hk
 14	úr	úr	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	Evrópusambandinu	Evrópusamband	PROPN	fyrirtæki_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_hk_gr
-16	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00257,.9
 # text = Bankastjórinn fékk ekki kaupauka fyrir árið 2018 þar sem hagnaður bankans dróst saman um tæpan helming.
@@ -147,32 +152,34 @@
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
 4	kaupauka	kaupauki	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk
 5	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	árið 2018	árið 2018	NUM	ártal	_	2	obl	_	tag=ártal
-7	þar	þar	ADV	ao	_	11	mark	_	tag=ao
-8	sem	sem	SCONJ	st	_	7	cc	_	tag=st
-9	hagnaður	hagnaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	tag=no_et_nf_kk
-10	bankans	banki	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kk_gr
-11	dróst	draga	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	advcl	_	tag=so_0_fh_p3_et_þt_mm
-12	saman	saman	ADV	ao	_	11	advmod	_	tag=ao
-13	um	um	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-14	tæpan	tæpur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	15	amod	_	tag=lo_et_þf_kk_sb
-15	helming	helmingur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þf_kk
-16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+6-7	árið 2018	_	_	_	_	_	_	_	_
+6	árið	árið	NUM	ártal	_	2	obl	_	tag=ártal
+7	2018	2018	NUM	ártal	_	6	flat	_	tag=ártal
+8	þar	þar	ADV	ao	_	12	mark	_	tag=ao
+9	sem	sem	SCONJ	st	_	8	cc	_	tag=st
+10	hagnaður	hagnaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=no_et_nf_kk
+11	bankans	banki	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod:poss	_	tag=no_et_ef_kk_gr
+12	dróst	draga	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	advcl	_	tag=so_0_fh_p3_et_þt_mm
+13	saman	saman	ADV	ao	_	12	advmod	_	tag=ao
+14	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+15	tæpan	tæpur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_þf_kk_sb
+16	helming	helmingur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þf_kk
+17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00257,.10
-# text = Namíb-eyðimörkin er talin elsta eyðimörk í heimi, allt að 80 milljón ára gömul.
 1	Namíb-eyðimörkin	Namíb-eyðimörk	PROPN	sérnafn_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=sérnafn_et_nf_kvk_gr
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	talin	telja	VERB	so_0_lhþt_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_kvk
 4	elsta	gamall	ADJ	lo_et_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_evb
 5	eyðimörk	eyðimörk	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	iobj	_	tag=no_et_nf_kvk
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	heimi	heimi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_hk
+7	heimi	heimi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-9	allt	allt	ADV	ao	_	12	advmod	_	tag=ao
-10	að	að	ADV	ao	_	12	advmod	_	tag=ao
-11	80 milljón	80 milljón	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	nummod	_	tag=töl_ft_ef_hk
-12	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_ef_hk
-13	gömul	gamall	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
-14	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+9	allt	allt	ADV	ao	_	13	advmod	_	tag=ao
+10	að	að	ADV	ao	_	13	advmod	_	tag=ao
+11-12	80 milljón	_	_	_	_	_	_	_	_
+11	80	80	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	13	nummod	_	tag=töl_ft_ef_hk
+12	milljón	milljón	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	_	_	tag=töl_ft_ef_hk
+13	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_ef_hk
+14	gömul	gamall	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	tag=lo_et_nf_kvk_sb
+15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

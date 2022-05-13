@@ -1,51 +1,61 @@
 # sent_id = GREYNIR_CORPUS_00144,.1
 # text = Frá og með árinu 2014 hefur markvisst verið unnið að því að minnka hámarkshraða á götum borgarinnar úr 50 km í 30 km.
-1	Frá	frá	ADV	fs_þgf	Case=Dat	8	advmod	_	tag=fs_þgf
+1	Frá	frá	ADV	fs_þgf	Case=Dat	9	advmod	_	tag=fs_þgf
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	með	með	ADP	fs_þgf	Case=Dat	1	conj	_	tag=fs_þgf
-4	árinu 2014	árinu 2014	ADV	ártal	_	1	advmod	_	tag=ártal
-5	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
-6	markvisst	markvisst	ADV	ao	_	5	advmod	_	tag=ao
-7	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	aux	_	tag=so_0_sagnb_gm
-8	unnið	vinna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-9	að	að	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=fn_et_þgf_hk
-11	að	að	PART	nhm	_	12	mark	_	tag=nhm
-12	minnka	minnka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	10	xcomp	_	tag=so_1_þf_nh_gm
-13	hámarkshraða	hámarkshraði	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	tag=no_et_þf_kk
-14	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	götum	gata	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þgf_kvk
-16	borgarinnar	borg	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod:poss	_	tag=no_et_ef_kvk_gr
-17	úr	úr	ADP	fs_þgf	Case=Dat	18	dep	_	tag=fs_þgf
-18	50 km	50 km	X	mælieining	_	12	obl	_	tag=mælieining
-19	í	í	ADP	fs_þf	Case=Acc	20	dep	_	tag=fs_þf
-20	30 km	30 km	X	mælieining	_	12	obl	_	SpaceAfter=No|tag=mælieining
-21	.	_	PUNCT	grm	_	8	punct	_	tag=grm
+4-5	árinu 2014	_	_	_	_	_	_	_	_
+4	árinu	árinu	ADV	ártal	_	1	advmod	_	tag=ártal
+5	2014	2014	NUM	ártal	_	4	flat	_	tag=ártal
+6	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
+7	markvisst	markvisst	ADV	ao	_	6	advmod	_	tag=ao
+8	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	aux	_	tag=so_0_sagnb_gm
+9	unnið	vinna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+10	að	að	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=fn_et_þgf_hk
+12	að	að	PART	nhm	_	13	mark	_	tag=nhm
+13	minnka	minnka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	xcomp	_	tag=so_1_þf_nh_gm
+14	hámarkshraða	hámarkshraði	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	tag=no_et_þf_kk
+15	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+16	götum	gata	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	tag=no_ft_þgf_kvk
+17	borgarinnar	borg	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod:poss	_	tag=no_et_ef_kvk_gr
+18	úr	úr	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+19-20	50 km	_	_	_	_	_	_	_	_
+19	50	50	?	mælieining	_	13	obl	_	tag=mælieining
+20	km	km	?	mælieining	_	19	_	_	tag=mælieining
+21	í	í	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+22-23	30 km	_	_	_	_	_	_	_	_
+22	30	30	?	mælieining	_	13	obl	_	SpaceAfter=No|tag=mælieining
+23	km	km	?	mælieining	_	22	_	_	SpaceAfter=No|tag=mælieining
+24	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00144,.2
 # text = Fidel Castro gagnrýndi Barack Obama, forseta Bandaríkjanna, fyrr í dag í grein sem hann skrifaði og birtist í ríkisreknum fjölmiðli landsins.
-1	Fidel Castro	Fidel Castro	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	gagnrýndi	gagnrýna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3	Barack Obama	Barack Obama	PROPN	person_þf_kk	Case=Acc|Gender=Masc	2	obj	_	SpaceAfter=No|tag=person_þf_kk
-4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-5	forseta	forseti	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
-6	Bandaríkjanna	Bandaríkin	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	5	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk_gr
-7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
-8	fyrr	snemma	ADV	ao_mst	Degree=Cmp	2	obl	_	tag=ao_mst
-9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	advmod	_	tag=no_et_þf_kk
-11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	grein	grein	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
-13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
-14	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	acl:relcl	_	tag=pfn_et_þf_kk_p3
-15	skrifaði	skrifa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-16	og	og	CCONJ	st	_	2	cc	_	tag=st
-17	birtist	birta	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	2	conj	_	tag=so_0_fh_p3_et_nt_mm
-18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-19	ríkisreknum	ríkisrekinn	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	20	amod	_	tag=lo_et_þgf_kk_sb
-20	fjölmiðli	fjölmiðill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
-21	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	20	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
-22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Fidel Castro	_	_	_	_	_	_	_	_
+1	Fidel	Fidel	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
+2	Castro	Castro	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	gagnrýndi	gagnrýna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+4-5	Barack Obama	_	_	_	_	_	_	_	_
+4	Barack	Barack	PROPN	person_þf_kk	Case=Acc|Gender=Masc	3	obj	_	SpaceAfter=No|tag=person_þf_kk
+5	Obama	Obama	PROPN	person_þf_kk	Case=Acc|Gender=Masc	4	flat	_	SpaceAfter=No|tag=person_þf_kk
+6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
+7	forseta	forseti	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
+8	Bandaríkjanna	Bandaríkin	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	7	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk_gr
+9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
+10	fyrr	snemma	ADV	ao_mst	Degree=Cmp	3	obl	_	tag=ao_mst
+11	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	advmod	_	tag=no_et_þf_kk
+13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+14	grein	grein	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
+15	sem	sem	SCONJ	stt	_	16	mark	_	tag=stt
+16	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	acl:relcl	_	tag=pfn_et_þf_kk_p3
+17	skrifaði	skrifa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
+18	og	og	CCONJ	st	_	3	cc	_	tag=st
+19	birtist	birta	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	3	conj	_	tag=so_0_fh_p3_et_nt_mm
+20	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+21	ríkisreknum	ríkisrekinn	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	22	amod	_	tag=lo_et_þgf_kk_sb
+22	fjölmiðli	fjölmiðill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
+23	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	22	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
+24	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00144,.3
 # text = Ég fór því rólega af stað en þegar ég var að taka sprett á æfingu nokkru síðar fann ég sting neðst við ökklann.
@@ -130,28 +140,31 @@
 
 # sent_id = GREYNIR_CORPUS_00144,.6
 # text = Ástæðan er fyrst og fremst afar stórir árgangar fólks á aldrinum 65 til 79 ára þar sem hlutfallslega fleri lifa lengur en áður.
-1	Ástæðan	ástæða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-3	fyrst og fremst	fyrst og fremst	ADV	eo	_	6	advmod	_	tag=eo
-4	afar	afar	ADV	eo	_	6	advmod	_	tag=eo
-5	stórir	stór	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_nf_kk_sb
-6	árgangar	árgangur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
-7	fólks	fólk	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk
-8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	aldrinum	aldur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk_gr
-10	65	65	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	13	nummod	_	tag=tala_ft_ef_hk
-11	til	til	ADV	eo	_	13	advmod	_	tag=eo
-12	79	79	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	13	nummod	_	tag=tala_ft_ef_hk
-13	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	9	nmod:poss	_	tag=no_ft_ef_hk
-14	þar	þar	ADV	ao	_	18	mark	_	tag=ao
-15	sem	sem	SCONJ	st	_	14	cc	_	tag=st
-16	hlutfallslega	hlutfallslegur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	17	amod	_	tag=lo_et_þgf_hk_vb
-17	fleri	fleri	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	nsubj	_	tag=no_et_þgf_hk
-18	lifa	lifa	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	advcl	_	tag=so_1_þgf_fh_p3_ft_nt_gm
-19	lengur	lengi	ADV	ao_mst	Degree=Cmp	18	advmod	_	tag=ao_mst
-20	en	en	CCONJ	st	_	19	advcl	_	tag=st
-21	áður	áður	ADV	ao	_	20	advmod	_	SpaceAfter=No|tag=ao
-22	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+1	Ástæðan	ástæða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk_gr
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3-5	fyrst og fremst	_	_	_	_	_	_	_	_
+3	fyrst	fyrst	ADV	eo	_	8	advmod	_	tag=eo
+4	og	og	ADV	eo	_	3	fixed	_	tag=eo
+5	fremst	fremst	ADV	eo	_	3	fixed	_	tag=eo
+6	afar	afar	ADV	eo	_	8	advmod	_	tag=eo
+7	stórir	stór	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	8	amod	_	tag=lo_ft_nf_kk_sb
+8	árgangar	árgangur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
+9	fólks	fólk	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod:poss	_	tag=no_et_ef_hk
+10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	aldrinum	aldur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þgf_kk_gr
+12	65	65	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	15	nummod	_	tag=tala_ft_ef_hk
+13	til	til	ADV	eo	_	15	advmod	_	tag=eo
+14	79	79	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	15	nummod	_	tag=tala_ft_ef_hk
+15	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	nmod:poss	_	tag=no_ft_ef_hk
+16	þar	þar	ADV	ao	_	20	mark	_	tag=ao
+17	sem	sem	SCONJ	st	_	16	cc	_	tag=st
+18	hlutfallslega	hlutfallslegur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	19	amod	_	tag=lo_et_þgf_hk_vb
+19	fleri	fleri	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	nsubj	_	tag=no_et_þgf_hk
+20	lifa	lifa	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	advcl	_	tag=so_1_þgf_fh_p3_ft_nt_gm
+21	lengur	lengi	ADV	ao_mst	Degree=Cmp	20	advmod	_	tag=ao_mst
+22	en	en	CCONJ	st	_	21	advcl	_	tag=st
+23	áður	áður	ADV	ao	_	22	advmod	_	SpaceAfter=No|tag=ao
+24	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00144,.7
 # text = Um 3.500 mótmælendur voru á svæðinu, sumir grímuklæddir og köstuðu margir hverjir öllu lauslegu í átt að lögreglu sem fjölmennti vegna mótmælanna.
@@ -209,28 +222,32 @@
 
 # sent_id = GREYNIR_CORPUS_00144,.9
 # text = Sveinn Hjörtur sagðist í samtali við Vísi í gær ekki ætla að kæra kosninguna, en að hann vilji fá afsökunarbeiðni frá flokknum.
-1	Sveinn Hjörtur	Sveinn Hjörtur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	sagðist	sagðist	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
-3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
-4	samtali	samtali	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
-5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	Vísi	Vísi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
-7	í gær	í gær	ADV	ao	_	2	advmod	_	tag=ao
-8	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
-9	ætla	ætla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	csubj	_	tag=so_0_nh_gm
-10	að	að	PART	nhm	_	11	mark	_	tag=nhm
-11	kæra	kæra	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þf_nh_gm
-12	kosninguna	kosninguna	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
-13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
-14	en	en	CCONJ	st	_	2	cc	_	tag=st
-15	að	að	SCONJ	st	_	17	mark	_	tag=st
-16	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kk_p3
-17	vilji	vilji	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_0_vh_p3_et_nt_gm
-18	fá	fá	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	xcomp	_	tag=so_1_þf_fh_p3_ft_nt_gm
-19	afsökunarbeiðni	afsökunarbeiðni	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	tag=no_et_nf_kvk
-20	frá	frá	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-21	flokknum	flokknum	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
-22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Sveinn Hjörtur	_	_	_	_	_	_	_	_
+1	Sveinn	Sveinn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
+2	Hjörtur	Hjörtur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	sagðist	sagðist	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
+4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+5	samtali	samtali	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
+6	við	við	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+7	Vísi	Vísi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þf_kk
+8-9	í gær	_	_	_	_	_	_	_	_
+8	í	í	ADV	ao	_	3	advmod	_	tag=ao
+9	gær	gær	ADV	ao	_	8	fixed	_	tag=ao
+10	ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
+11	ætla	ætla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	csubj	_	tag=so_0_nh_gm
+12	að	að	PART	nhm	_	13	mark	_	tag=nhm
+13	kæra	kæra	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	xcomp	_	tag=so_1_þf_nh_gm
+14	kosninguna	kosninguna	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
+15	,	_	PUNCT	grm	_	14	punct	_	tag=grm
+16	en	en	CCONJ	st	_	3	cc	_	tag=st
+17	að	að	SCONJ	st	_	19	mark	_	tag=st
+18	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kk_p3
+19	vilji	vilji	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	tag=so_0_vh_p3_et_nt_gm
+20	fá	fá	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	xcomp	_	tag=so_1_þf_fh_p3_ft_nt_gm
+21	afsökunarbeiðni	afsökunarbeiðni	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	20	obj	_	tag=no_et_nf_kvk
+22	frá	frá	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
+23	flokknum	flokknum	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
+24	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00144,.10
 # text = Fallbaráttan er galopin núna og við ætlum að gera allt sem í okkar valdi stendur til þess að halda sæti okkar í deildinni.

@@ -164,7 +164,17 @@ def main():
                 output_path, "w"
             ) if output_path else stdout as outfile:
                 lines = infile.readlines()
-                lines.append("\n")
+                if not lines[-1].endswith("\n"):
+                    # lines[-1] = lines[-1] + "\n"
+                    lines.append("\n")
+                #    print(lines)
+                # print(infile.readlines().split("', '"))
+                # lines = infile.readlines()
+                # print(len(infile.readlines()))
+                #    if not infile.readlines()[-1].endswith("\n"):
+                #        infile.readlines()[-1] = infile.readlines()[-1] + "\n"
+                #    else:
+                #        print("hallóhalló")
                 for line in lines:
                     psd += line
                     if len(line.strip()) == 0 and len(psd.strip()) > 0:
@@ -219,7 +229,7 @@ def main():
                 continue
 
         try:
-            print(TREE)
+            # print(TREE)
             print()
             if args.auto_tag:
                 c = depender.Converter(auto_tags="single_sentence")

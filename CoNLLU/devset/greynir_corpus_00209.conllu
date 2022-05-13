@@ -4,20 +4,24 @@
 2	sá	sjá	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_þt_gm
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
 4	stjörnur	stjarna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	tag=no_ft_þf_kvk
-5	einu sinni	einu sinni	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
-6	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+5-6	einu sinni	_	_	_	_	_	_	_	_
+5	einu	einu	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
+6	sinni	sinni	ADV	ao	_	5	fixed	_	SpaceAfter=No|tag=ao
+7	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00209,.2
 # text = Mánudaginn 22. mars svaraði ég fyrirspurninni.
 1	Mánudaginn	mánudagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk_gr
-2	22. mars	22. mars	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
-3	svaraði	svara	VERB	so_1_þgf_fh_p1_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p1_et_þt_gm
-4	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
-5	fyrirspurninni	fyrirspurn	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
-6	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+2-3	22. mars	_	_	_	_	_	_	_	_
+2	22.	22.	ADV	dagsafs	_	4	advmod	_	tag=dagsafs
+3	mars	mars	NUM?	dagsafs	_	2	flat	_	tag=dagsafs
+4	svaraði	svara	VERB	so_1_þgf_fh_p1_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p1_et_þt_gm
+5	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
+6	fyrirspurninni	fyrirspurn	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
+7	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00209,.3
-# text = Eigið þið minningar um gömul tískuslys ?
+# text = Eigið þið minningar um gömul tískuslys?
 1	Eigið	eiga	VERB	so_1_þf_fh_p2_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p2_ft_nt_gm
 2	þið	þú	PRON	pfn_ft_nf_p2	Case=Nom|Number=Plur|Person=2|PronType=Prs	1	nsubj	_	tag=pfn_ft_nf_p2
 3	minningar	minning	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	tag=no_ft_þf_kvk
@@ -85,8 +89,6 @@
 6	sjúkrahús	sjúkrahús	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 7	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00209,.10
-# text = Almannatengill segir Benedikt hafa brugðist rétt við
 1	Almannatengill	almannatengill	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	Benedikt	Benedikt	PROPN	person_þf_kk	Case=Acc|Gender=Masc	2	obj	_	tag=person_þf_kk

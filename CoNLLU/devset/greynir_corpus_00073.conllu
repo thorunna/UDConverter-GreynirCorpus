@@ -36,17 +36,20 @@
 
 # sent_id = GREYNIR_CORPUS_00073,.3
 # text = Landsliðskonan Sandra María Jessen kom Þór/KA yfir gegn KR á 59. mínútu.
-1	Landsliðskonan	landsliðskona	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-2	Sandra María Jessen	Sandra María Jessen	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	tag=person_nf_kvk
-3	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
-4	Þór/KA	Þór/KA	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	3	obj	_	tag=sérnafn_þgf_kk
-5	yfir	yfir	ADV	ao	_	3	compound:prt	_	tag=ao
-6	gegn	gegn	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	KR	KR	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_hk
-8	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-9	59.	59.	ADJ	raðnr_þgf_kvk	Case=Dat|Gender=Fem|NumType=Ord	10	amod	_	tag=raðnr_þgf_kvk
-10	mínútu	mínúta	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1	Landsliðskonan	landsliðskona	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
+2-4	Sandra María Jessen	_	_	_	_	_	_	_	_
+2	Sandra	Sandra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	tag=person_nf_kvk
+3	María	María	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	flat	_	tag=person_nf_kvk
+4	Jessen	Jessen	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	flat	_	tag=person_nf_kvk
+5	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
+6	Þór/KA	Þór/KA	PROPN	sérnafn_þgf_kk	Case=Dat|Gender=Masc	5	obj	_	tag=sérnafn_þgf_kk
+7	yfir	yfir	ADV	ao	_	5	compound:prt	_	tag=ao
+8	gegn	gegn	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+9	KR	KR	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_hk
+10	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+11	59.	59.	ADJ	raðnr_þgf_kvk	Case=Dat|Gender=Fem|NumType=Ord	12	amod	_	tag=raðnr_þgf_kvk
+12	mínútu	mínúta	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+13	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00073,.4
 # text = Hann segist ekki hafa miklar áhyggjur af því að niðurstaðan rýri traust til Landsréttar.
@@ -161,10 +164,15 @@
 1	Platan	plata	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
 2	ber	bera	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	heitið	heiti	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk_gr
-4	A Seat At The Table	A Seat At The Table	X	foreign	_	3	flat:foreign	_	tag=foreign
-5	eða	eða	CCONJ	st	_	3	cc	_	tag=st
-6	Sæti	sæti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_þf_hk
-7	við	við	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	borðið	borð	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
-9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+4-8	A Seat At The Table	_	_	_	_	_	_	_	_
+4	A	A	X	foreign	_	3	flat:foreign	_	tag=foreign
+5	Seat	Seat	X	foreign	_	4	flat:foreign	_	tag=foreign
+6	At	At	X	foreign	_	5	flat:foreign	_	tag=foreign
+7	The	The	X	foreign	_	6	flat:foreign	_	tag=foreign
+8	Table	Table	X	foreign	_	7	flat:foreign	_	tag=foreign
+9	eða	eða	CCONJ	st	_	3	cc	_	tag=st
+10	Sæti	sæti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_þf_hk
+11	við	við	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	borðið	borð	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
+13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

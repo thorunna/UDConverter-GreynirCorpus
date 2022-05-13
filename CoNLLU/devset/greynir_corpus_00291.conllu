@@ -16,8 +16,10 @@
 14	að	að	PART	nhm	_	15	mark	_	tag=nhm
 15	kaupa	kaupa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_1_þf_nh_gm
 16	vopn	vopn	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	tag=no_et_þf_hk
-17	að undanförnu	að undanförnu	ADV	ao	_	13	advmod	_	SpaceAfter=No|tag=ao
-18	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+17-18	að undanförnu	_	_	_	_	_	_	_	_
+17	að	að	ADV	ao	_	13	advmod	_	SpaceAfter=No|tag=ao
+18	undanförnu	undanförnu	ADV	ao	_	17	fixed	_	SpaceAfter=No|tag=ao
+19	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00291,.2
 # text = Herferðin Þekktu rauðu ljósin er svar Kvennaathvarfsins og Bjarkarhlíðar við síaukinni eftirspurn ungs fólk eftir aðstoð vegna ofbeldis í nánum samböndum.
@@ -57,16 +59,18 @@
 9	hætt	hættur	VERB	so_0_sagnb	VerbForm=Sup	4	ccomp	_	tag=so_0_sagnb
 10	á	á	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	Twitter	Twitter	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þf_hk
-12	til frambúðar	til frambúðar	ADV	ao	_	11	advmod	_	tag=ao
-13	eða	eða	CCONJ	st	_	4	cc	_	tag=st
-14	hvort	hvor	CCONJ	st	_	17	mark	_	tag=st
-15	að	að	SCONJ	st	_	14	cc	_	tag=st
-16	ráðstöfunin	ráðstöfun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	tag=no_et_nf_kvk_gr
-17	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_0_vh_p3_et_nt_gm
-18	til	til	ADP	fs_ef	Case=Gen	20	case	_	tag=fs_ef
-19	skemmri	skammur	ADJ	lo_et_ef_kk_mst	Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	20	amod	_	tag=lo_et_ef_kk_mst
-20	tíma	tími	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_ef_kk
-21	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+12-13	til frambúðar	_	_	_	_	_	_	_	_
+12	til	til	ADV	ao	_	11	advmod	_	tag=ao
+13	frambúðar	frambúðar	ADV	ao	_	12	fixed	_	tag=ao
+14	eða	eða	CCONJ	st	_	4	cc	_	tag=st
+15	hvort	hvor	CCONJ	st	_	18	mark	_	tag=st
+16	að	að	SCONJ	st	_	15	cc	_	tag=st
+17	ráðstöfunin	ráðstöfun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	tag=no_et_nf_kvk_gr
+18	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_0_vh_p3_et_nt_gm
+19	til	til	ADP	fs_ef	Case=Gen	21	case	_	tag=fs_ef
+20	skemmri	skammur	ADJ	lo_et_ef_kk_mst	Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	21	amod	_	tag=lo_et_ef_kk_mst
+21	tíma	tími	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_ef_kk
+22	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00291,.4
 # text = Þetta er tækifæri fyrir okkur öll til að horfa í eigin barm, íhuga og skoða okkar eigin orð og hegðun.
@@ -137,11 +141,13 @@
 15	reglum	regla	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 17	bætir	bæta	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-18	að sjálfsögðu	að sjálfsögðu	ADV	ao	_	17	advmod	_	tag=ao
-19	ekki	ekki	ADV	ao	_	17	advmod	_	tag=ao
-20	úr	úr	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-21	skák	skák	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-22	.	_	PUNCT	grm	_	17	punct	_	tag=grm
+18-19	að sjálfsögðu	_	_	_	_	_	_	_	_
+18	að	að	ADV	ao	_	17	advmod	_	tag=ao
+19	sjálfsögðu	sjálfsögðu	ADV	ao	_	18	fixed	_	tag=ao
+20	ekki	ekki	ADV	ao	_	17	advmod	_	tag=ao
+21	úr	úr	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+22	skák	skák	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
+23	.	_	PUNCT	grm	_	17	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00291,.7
 # text = Við umferðareftirlit á Bústaðavegi í nótt veitti lögreglan athygli bifreið sem stöðvaði skyndilega og breytti um akstursstefnu þegar hún nálgaðist eftirlitspóst lögreglunnar.
@@ -197,47 +203,58 @@
 
 # sent_id = GREYNIR_CORPUS_00291,.9
 # text = Jim White er á því að þetta sýni hversu frábæran liðsanda og samkennd Jürgen Klopp hefur tekist að búa til á Anfield.
-1	Jim White	JimWhite	PROPN	sérnafn	_	2	nsubj	_	tag=sérnafn
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
-4	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
-5	að	að	SCONJ	st	_	7	mark	_	tag=st
-6	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	tag=fn_et_nf_hk
-7	sýni	sýna	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_1_þf_vh_p3_ft_nt_gm
-8	hversu	hversu	ADV	ao	_	12	advmod	_	tag=ao
-9	frábæran	frábær	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_þf_kk_sb
-10	liðsanda	liðsandi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	conj	_	tag=no_et_þf_kk
-11	og	og	CCONJ	st	_	12	cc	_	tag=st
-12	samkennd	samkennd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_nf_kvk
-13	Jürgen Klopp	Jürgen Klopp	PROPN	person_ef_kk	Case=Gen|Gender=Masc	15	nsubj	_	tag=person_ef_kk
-14	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_fh_p3_et_nt_gm
-15	tekist	taka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	7	obj	_	tag=so_0_sagnb_mm
-16	að	að	PART	nhm	_	17	mark	_	tag=nhm
-17	búa	búa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_0_nh_gm
-18	til	til	ADV	ao	_	17	advmod	_	tag=ao
-19	á	á	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20	Anfield	Anfield	PROPN	entity	_	17	obl	_	SpaceAfter=No|tag=entity
-21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Jim White	_	_	_	_	_	_	_	_
+1	Jim	JimWhite	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
+2	White	JimWhite	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
+6	að	að	SCONJ	st	_	8	mark	_	tag=st
+7	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=fn_et_nf_hk
+8	sýni	sýna	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	tag=so_1_þf_vh_p3_ft_nt_gm
+9	hversu	hversu	ADV	ao	_	13	advmod	_	tag=ao
+10	frábæran	frábær	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_þf_kk_sb
+11	liðsanda	liðsandi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	conj	_	tag=no_et_þf_kk
+12	og	og	CCONJ	st	_	13	cc	_	tag=st
+13	samkennd	samkennd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_nf_kvk
+14-15	Jürgen Klopp	_	_	_	_	_	_	_	_
+14	Jürgen	Jürgen	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	nsubj	_	tag=person_ef_kk
+15	Klopp	Klopp	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	flat	_	tag=person_ef_kk
+16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_fh_p3_et_nt_gm
+17	tekist	taka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	8	obj	_	tag=so_0_sagnb_mm
+18	að	að	PART	nhm	_	19	mark	_	tag=nhm
+19	búa	búa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_0_nh_gm
+20	til	til	ADV	ao	_	19	advmod	_	tag=ao
+21	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+22	Anfield	Anfield	PROPN	entity	_	19	obl	_	SpaceAfter=No|tag=entity
+23	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00291,.10
 # text = Bjarni Benediktsson fjármálaráðherra skýtur föstum skotum á Twitter í kvöld á gagnrýni Ólafs Ragnars Grímssonar forseta Íslands varðandi fátækt í íslensku samfélagi.
-1	Bjarni Benediktsson	Bjarni Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	fjármálaráðherra	fjármálaráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_ef_kk
-3	skýtur	skjóta	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
-4	föstum	fastur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	5	amod	_	tag=lo_ft_þgf_hk_sb
-5	skotum	skot	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obj	_	tag=no_ft_þgf_hk
-6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	Twitter	Twitter	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
-8	í kvöld	í kvöld	ADV	ao	_	7	obl	_	tag=ao
-9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	gagnrýni	gagnrýni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk
-11	Ólafs Ragnars Grímssonar	Ólafur Ragnar Grímsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	nmod:poss	_	tag=person_ef_kk
-12	forseta	forseti	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	11	nmod:poss	_	tag=no_et_ef_kk
-13	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	nmod:poss	_	tag=no_et_ef_hk
-14	varðandi	varða	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	fátækt	fátækt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
-16	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-17	íslensku	íslenskur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_þgf_hk_sb
-18	samfélagi	samfélag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1-2	Bjarni Benediktsson	_	_	_	_	_	_	_	_
+1	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
+2	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	fjármálaráðherra	fjármálaráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_ef_kk
+4	skýtur	skjóta	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
+5	föstum	fastur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	6	amod	_	tag=lo_ft_þgf_hk_sb
+6	skotum	skot	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	obj	_	tag=no_ft_þgf_hk
+7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	Twitter	Twitter	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
+9-10	í kvöld	_	_	_	_	_	_	_	_
+9	í	í	ADV	ao	_	8	obl	_	tag=ao
+10	kvöld	kvöld	ADV	ao	_	9	fixed	_	tag=ao
+11	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	gagnrýni	gagnrýni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk
+13-15	Ólafs Ragnars Grímssonar	_	_	_	_	_	_	_	_
+13	Ólafs	Ólafur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	nmod:poss	_	tag=person_ef_kk
+14	Ragnars	Ragnar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	flat	_	tag=person_ef_kk
+15	Grímssonar	Grímsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	flat	_	tag=person_ef_kk
+16	forseta	forseti	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	nmod:poss	_	tag=no_et_ef_kk
+17	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	nmod:poss	_	tag=no_et_ef_hk
+18	varðandi	varða	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+19	fátækt	fátækt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk
+20	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+21	íslensku	íslenskur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	22	amod	_	tag=lo_et_þgf_hk_sb
+22	samfélagi	samfélag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+23	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

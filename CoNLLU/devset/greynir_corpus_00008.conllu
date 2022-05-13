@@ -25,8 +25,10 @@
 # text = Útsendingin hefst klukkan 14:00.
 1	Útsendingin	útsending	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
 2	hefst	hefjast	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
-3	klukkan 14:00	klukkan 14:00	ADV	tími	_	2	advmod	_	SpaceAfter=No|tag=tími
-4	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	klukkan 14:00	_	_	_	_	_	_	_	_
+3	klukkan	klukkan	ADV	tími	_	2	advmod	_	SpaceAfter=No|tag=tími
+4	14:00	14:00	NUM	tími	_	3	flat	_	SpaceAfter=No|tag=tími
+5	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00008,.5
 # text = Rooney tekur landsliðsskóna af hillunni
@@ -53,7 +55,7 @@
 5	Origo	Origo	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fyrirtæki_et_þgf_hk
 
 # sent_id = GREYNIR_CORPUS_00008,.8
-# text = Láttu vini þína vita :
+# text = Láttu vini þína vita:
 1	Láttu	láta	VERB	so_1_þf_bh_et_gm	Case=Acc|Mood=Imp|Number=Sing|Voice=Act	0	root	_	tag=so_1_þf_bh_et_gm
 2	vini	vinur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	tag=no_ft_þf_kk
 3	þína	þinn	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	tag=fn_ft_þf_kk
@@ -70,7 +72,10 @@
 
 # sent_id = GREYNIR_CORPUS_00008,.10
 # text = Guðmundur Atli Steinþórsson í Breiðablik
-1	Guðmundur Atli Steinþórsson	Guðmundur Atli Steinþórsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-2	í	í	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
-3	Breiðablik	Breiðablik	PROPN	entity_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	0	root	_	tag=entity_et_þf_hk
+1-3	Guðmundur Atli Steinþórsson	_	_	_	_	_	_	_	_
+1	Guðmundur	Guðmundur	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_et_nf_kk
+2	Atli	Atli	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+3	Steinþórsson	Steinþórsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
+5	Breiðablik	Breiðablik	PROPN	entity_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	0	root	_	tag=entity_et_þf_hk
 

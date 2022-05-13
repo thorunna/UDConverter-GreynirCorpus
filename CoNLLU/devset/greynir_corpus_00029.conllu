@@ -43,18 +43,20 @@
 
 # sent_id = GREYNIR_CORPUS_00029,.5
 # text = Kolbrún Halldórsdóttir var sem dæmi fyrsti framkvæmdastjórinn minn.
-1	Kolbrún Halldórsdóttir	Kolbrún Halldórsdóttir	PROPN	person_kvk_nf_et	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=person_kvk_nf_et
-2	var	vera	VERB	so_1_nf_et_fh_gm_p3_þt	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_et_fh_gm_p3_þt
-3	sem	sem	ADP	fs_nf	Case=Nom	4	case	_	tag=fs_nf
-4	dæmi	dæmi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_nf_hk
-5	fyrsti	fyrstur	ADJ	lo_et_kk_nf_vb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_kk_nf_vb
-6	framkvæmdastjórinn	framkvæmdastjóri	NOUN	no_et_gr_kk_nf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_gr_kk_nf
-7	minn	minn	PRON	fn_et_kk_nf	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|tag=fn_et_kk_nf
-8	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+1-2	Kolbrún Halldórsdóttir	_	_	_	_	_	_	_	_
+1	Kolbrún	Kolbrún	PROPN	person_kvk_nf_et	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	tag=person_kvk_nf_et
+2	Halldórsdóttir	Halldórsdóttir	PROPN	person_kvk_nf_et	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	tag=person_kvk_nf_et
+3	var	vera	VERB	so_1_nf_et_fh_gm_p3_þt	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_1_nf_et_fh_gm_p3_þt
+4	sem	sem	ADP	fs_nf	Case=Nom	5	case	_	tag=fs_nf
+5	dæmi	dæmi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_nf_hk
+6	fyrsti	fyrstur	ADJ	lo_et_kk_nf_vb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_kk_nf_vb
+7	framkvæmdastjórinn	framkvæmdastjóri	NOUN	no_et_gr_kk_nf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_gr_kk_nf
+8	minn	minn	PRON	fn_et_kk_nf	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|tag=fn_et_kk_nf
+9	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00029,.6
 # text = 20.30 að bandarískum tíma — 01.30 að íslenskum tíma
-1	20.30	20.30	?	tími	_	0	root	_	tag=tími
+1	20.30	20.30	NUM	tími	_	0	root	_	tag=tími
 2	að	að	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 3	bandarískum	bandarískur	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_þgf_kk_sb
 4	tíma	tími	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
@@ -100,8 +102,6 @@
 8	hæst	hár	ADJ	lo_esb_et_kvk_nf	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_esb_et_kvk_nf
 9	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00029,.10
-# text = Skjálftinn varð um 8,1 kílómetra norður af Álftavatni.
 1	Skjálftinn	skjálfti	NOUN	no_et_gr_kk_nf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_gr_kk_nf
 2	varð	verða	VERB	so_0_et_fh_gm_p3_þt	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_et_fh_gm_p3_þt
 3	um	um	ADV	eo	_	5	advmod	_	tag=eo
@@ -109,6 +109,6 @@
 5	kílómetra	kílómetri	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
 6	norður	norður	ADV	ao	_	8	advmod	_	tag=ao
 7	af	af	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	Álftavatni	Álftavatn	PROPN	sérnafn_þgf_et_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=sérnafn_þgf_et_hk
+8	Álftavatni	Álftavatn	PROPN	sérnafn_þgf_et_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=sérnafn_þgf_et_hk
 9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

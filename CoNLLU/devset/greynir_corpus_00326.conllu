@@ -68,69 +68,74 @@
 
 # sent_id = GREYNIR_CORPUS_00326,.3
 # text = Haraldur Dean Nelson framkvæmdastjóri Mjölnis segir félagið mjög stolt af samstarfinu við Háskólann í Reykjavík og vonast til að þetta verði aðeins fyrstu skrefin að mörgum í samstarfi Mjölnis við háskólann.
-1	Haraldur Dean Nelson	Haraldur Dean Nelson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-3	Mjölnis	Mjölnir	PROPN	fyrirtæki_ef_kk	Case=Gen|Gender=Masc	2	nmod:poss	_	tag=fyrirtæki_ef_kk
-4	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-5	félagið	félag	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þf_hk_gr
-6	mjög	mjög	ADV	eo	_	4	iobj	_	tag=eo
-7	stolt	stoltur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þf_hk_sb
-8	af	af	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	samstarfinu	samstarf	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk_gr
-10	við	við	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-11	Háskólann	háskóli	PROPN	fyrirtæki_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	tag=fyrirtæki_et_þf_kk_gr
-12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	Reykjavík	Reykjavík	PROPN	sérnafn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	tag=sérnafn_et_þf_kvk
-14	og	og	CCONJ	st	_	4	cc	_	tag=st
-15	vonast	vona	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	4	cop	_	tag=so_0_fh_p3_et_nt_mm
-16	til	til	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
-17	að	að	SCONJ	st	_	4	obl	_	tag=st
-18	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	tag=fn_et_nf_hk
-19	verði	verða	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
-20	aðeins	aðeins	ADV	ao	_	22	advmod	_	tag=ao
-21	fyrstu	fyrstur	ADJ	lo_ft_nf_hk_vb	Case=Nom|Gender=Neut|Number=Plur	22	amod	_	tag=lo_ft_nf_hk_vb
-22	skrefin	skref	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	17	obl	_	tag=no_ft_nf_hk_gr
-23	að	af	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	mörgum	margur	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	22	obl	_	tag=lo_ft_þgf_kk_sb
-25	í	í	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
-26	samstarfi	samstarf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	tag=no_et_þgf_hk
-27	Mjölnis	Mjölnir	PROPN	fyrirtæki_ef_kk	Case=Gen|Gender=Masc	26	nmod:poss	_	tag=fyrirtæki_ef_kk
-28	við	við	ADP	fs_þf	Case=Acc	29	case	_	tag=fs_þf
-29	háskólann	háskóli	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-30	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+1-3	Haraldur Dean Nelson	_	_	_	_	_	_	_	_
+1	Haraldur	Haraldur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
+2	Dean	Dean	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Nelson	Nelson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+4	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+5	Mjölnis	Mjölnir	PROPN	fyrirtæki_ef_kk	Case=Gen|Gender=Masc	4	nmod:poss	_	tag=fyrirtæki_ef_kk
+6	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+7	félagið	félag	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	obj	_	tag=no_et_þf_hk_gr
+8	mjög	mjög	ADV	eo	_	6	iobj	_	tag=eo
+9	stolt	stoltur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	8	amod	_	tag=lo_et_þf_hk_sb
+10	af	af	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	samstarfinu	samstarf	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk_gr
+12	við	við	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+13	Háskólann	háskóli	PROPN	fyrirtæki_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	tag=fyrirtæki_et_þf_kk_gr
+14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+15	Reykjavík	Reykjavík	PROPN	sérnafn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	tag=sérnafn_et_þf_kvk
+16	og	og	CCONJ	st	_	6	cc	_	tag=st
+17	vonast	vona	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	6	cop	_	tag=so_0_fh_p3_et_nt_mm
+18	til	til	ADP	fs_ef	Case=Gen	19	case	_	tag=fs_ef
+19	að	að	SCONJ	st	_	6	obl	_	tag=st
+20	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	tag=fn_et_nf_hk
+21	verði	verða	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	24	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
+22	aðeins	aðeins	ADV	ao	_	24	advmod	_	tag=ao
+23	fyrstu	fyrstur	ADJ	lo_ft_nf_hk_vb	Case=Nom|Gender=Neut|Number=Plur	24	amod	_	tag=lo_ft_nf_hk_vb
+24	skrefin	skref	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	19	obl	_	tag=no_ft_nf_hk_gr
+25	að	af	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
+26	mörgum	margur	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	24	obl	_	tag=lo_ft_þgf_kk_sb
+27	í	í	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
+28	samstarfi	samstarf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	tag=no_et_þgf_hk
+29	Mjölnis	Mjölnir	PROPN	fyrirtæki_ef_kk	Case=Gen|Gender=Masc	28	nmod:poss	_	tag=fyrirtæki_ef_kk
+30	við	við	ADP	fs_þf	Case=Acc	31	case	_	tag=fs_þf
+31	háskólann	háskóli	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
+32	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00326,.4
-# text = Þórhildur Stefánsdóttir, sem hefur tekið fram skóna eftir nokkurra ára hlé, skoraði tvö mörk fyrir HK Víking sem vann Hvíta riddarann 5 : 0 á Tungubökkum í Mosfellsbæ.
-1	Þórhildur Stefánsdóttir	Þórhildur Stefánsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	13	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
-4	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-5	tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	4	acl:relcl	_	tag=so_1_þf_sagnb_gm
-6	fram	fram	ADV	ao	_	5	advmod	_	tag=ao
-7	skóna	skór	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	5	obj	_	tag=no_ft_þf_kk_gr
-8	eftir	eftir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-9	nokkurra	nokkur	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	tag=fn_ft_ef_hk
-10	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_ef_hk
-11	hlé	hlé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_hk
-12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-13	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-14	tvö	tveir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	nummod	_	tag=to_ft_þf_hk
-15	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	tag=no_ft_þf_hk
-16	fyrir	fyrir	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	HK	HK	PROPN	fyrirtæki	_	13	obl	_	tag=fyrirtæki
-18	Víking	Víkingur	PROPN	fyrirtæki_þf_kk	Case=Acc|Gender=Masc	17	flat:name	_	tag=fyrirtæki_þf_kk
-19	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
-20	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-21	Hvíta	hvítur	PROPN	fyrirtæki_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	tag=fyrirtæki_et_þf_kk
-22	riddarann	riddari	PROPN	fyrirtæki_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	21	flat:name	_	tag=fyrirtæki_et_þf_kk_gr
-23	5	5	NUM	tala	NumType=Card	20	obl	_	SpaceAfter=No|tag=tala
-24	:	_	PUNCT	grm	_	23	punct	_	tag=grm
-25	0	0	NUM	tala	NumType=Card	23	nummod	_	tag=tala
-26	á	á	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
-27	Tungubökkum	Tungubakkar	PROPN	sérnafn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	20	obl	_	tag=sérnafn_ft_þgf_kk
-28	í	í	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
-29	Mosfellsbæ	Mosfellsbær	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk
-30	.	_	PUNCT	grm	_	13	punct	_	tag=grm
+# text = Þórhildur Stefánsdóttir, sem hefur tekið fram skóna eftir nokkurra ára hlé, skoraði tvö mörk fyrir HK Víking sem vann Hvíta riddarann 5: 0 á Tungubökkum í Mosfellsbæ.
+1-2	Þórhildur Stefánsdóttir	_	_	_	_	_	_	_	_
+1	Þórhildur	Þórhildur	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	14	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+2	Stefánsdóttir	Stefánsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
+3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
+4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
+5	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+6	tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	5	acl:relcl	_	tag=so_1_þf_sagnb_gm
+7	fram	fram	ADV	ao	_	6	advmod	_	tag=ao
+8	skóna	skór	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	6	obj	_	tag=no_ft_þf_kk_gr
+9	eftir	eftir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+10	nokkurra	nokkur	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	tag=fn_ft_ef_hk
+11	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_ef_hk
+12	hlé	hlé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þf_hk
+13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
+14	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+15	tvö	tveir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	16	nummod	_	tag=to_ft_þf_hk
+16	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	tag=no_ft_þf_hk
+17	fyrir	fyrir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
+18	HK	HK	PROPN	fyrirtæki	_	14	obl	_	tag=fyrirtæki
+19	Víking	Víkingur	PROPN	fyrirtæki_þf_kk	Case=Acc|Gender=Masc	18	flat:name	_	tag=fyrirtæki_þf_kk
+20	sem	sem	SCONJ	stt	_	21	mark	_	tag=stt
+21	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
+22	Hvíta	hvítur	PROPN	fyrirtæki_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	21	obj	_	tag=fyrirtæki_et_þf_kk
+23	riddarann	riddari	PROPN	fyrirtæki_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	flat:name	_	tag=fyrirtæki_et_þf_kk_gr
+24	5	5	NUM	tala	NumType=Card	21	obl	_	SpaceAfter=No|tag=tala
+25	:	_	PUNCT	grm	_	24	punct	_	tag=grm
+26	0	0	NUM	tala	NumType=Card	24	nummod	_	tag=tala
+27	á	á	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
+28	Tungubökkum	Tungubakkar	PROPN	sérnafn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	21	obl	_	tag=sérnafn_ft_þgf_kk
+29	í	í	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
+30	Mosfellsbæ	Mosfellsbær	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk
+31	.	_	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00326,.5
 # text = Þvo hárið vel og ekki nota rakasjampóið og næringuna þína, það notar þú hina dagana eða þá sem þú ætlar ekki að vera með allt volume-ið.
@@ -182,52 +187,63 @@
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	Póllandi	Pólland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=sérnafn_et_þgf_hk
 17	en	en	CCONJ	st	_	8	cc	_	tag=st
-18	í kjölfarið	í kjölfarið	ADV	ao	_	19	advmod	_	tag=ao
-19	fluttu	flytja	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_0_fh_p3_ft_þt_gm
-20	400	400	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	21	nummod	_	tag=tala_ft_nf_kk
-21	manns	maður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	19	nsubj	_	tag=no_et_ef_kk
-22	frá	frá	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-23	þeim	sá	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	24	nmod	_	tag=fn_et_þgf_kk
-24	bæ	bær	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_þgf_kk
-25	til	til	ADP	fs_ef	Case=Gen	26	case	_	tag=fs_ef
-26	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	obl	_	tag=sérnafn_et_ef_hk
-27	og	og	CCONJ	st	_	8	cc	_	tag=st
-28	enginn	enginn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	tag=fn_et_nf_kk
-29	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	aux	_	tag=so_0_fh_p3_et_nt_gm
-30	snúið	snúa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	conj	_	tag=so_0_sagnb_gm
-31	aftur	aftur	ADV	ao	_	30	advmod	_	SpaceAfter=No|tag=ao
-32	.	_	PUNCT	grm	_	8	punct	_	tag=grm
+18-19	í kjölfarið	_	_	_	_	_	_	_	_
+18	í	í	ADV	ao	_	20	advmod	_	tag=ao
+19	kjölfarið	kjölfarið	ADV	ao	_	18	fixed	_	tag=ao
+20	fluttu	flytja	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	tag=so_0_fh_p3_ft_þt_gm
+21	400	400	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	22	nummod	_	tag=tala_ft_nf_kk
+22	manns	maður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	20	nsubj	_	tag=no_et_ef_kk
+23	frá	frá	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
+24	þeim	sá	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	tag=fn_et_þgf_kk
+25	bæ	bær	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	tag=no_et_þgf_kk
+26	til	til	ADP	fs_ef	Case=Gen	27	case	_	tag=fs_ef
+27	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	20	obl	_	tag=sérnafn_et_ef_hk
+28	og	og	CCONJ	st	_	8	cc	_	tag=st
+29	enginn	enginn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	tag=fn_et_nf_kk
+30	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	31	aux	_	tag=so_0_fh_p3_et_nt_gm
+31	snúið	snúa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	conj	_	tag=so_0_sagnb_gm
+32	aftur	aftur	ADV	ao	_	31	advmod	_	SpaceAfter=No|tag=ao
+33	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00326,.7
 # text = Tammy Abraham kom Aston Villa yfir undir lok fyrri hálfleiks en Ahmed El Mohamady, leikmaður Aston Villa varð fyrir því óláni að skora sjálfsmark þegar um klukkutími var liðinn af leiknum.
-1	Tammy Abraham	Tammy Abraham	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-2	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
-3	Aston Villa	Aston Villa	PROPN	fyrirtæki	_	2	obj	_	tag=fyrirtæki
-4	yfir	yfir	ADV	ao	_	2	advmod	_	tag=ao
-5	undir	undir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6	lok	lok	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þf_hk
-7	fyrri	fyrri	ADJ	lo_et_ef_kk_vb	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_ef_kk_vb
-8	hálfleiks	hálfleikur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	tag=no_et_ef_kk
-9	en	en	CCONJ	st	_	2	cc	_	tag=st
-10	Ahmed El Mohamady	Ahmed El Mohamady	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
-12	leikmaður	leikmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_nf_kk
-13	Aston Villa	Aston Villa	PROPN	fyrirtæki	_	12	nmod:poss	_	tag=fyrirtæki
-14	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
-15	fyrir	fyrir	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-16	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	tag=fn_et_þgf_hk
-17	óláni	ólán	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þgf_hk
-18	að	að	PART	nhm	_	19	mark	_	tag=nhm
-19	skora	skora	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_1_þf_nh_gm
-20	sjálfsmark	sjálfsmark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	tag=no_et_þf_hk
-21	þegar	þegar	SCONJ	st	_	25	mark	_	tag=st
-22	um	um	ADV	eo	_	23	advmod	_	tag=eo
-23	klukkutími	klukkutími	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	tag=no_et_nf_kk
-24	var	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_0_fh_p3_et_nt_gm
-25	liðinn	liðinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	19	advcl	_	tag=lo_et_nf_kk_sb
-26	af	af	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
-27	leiknum	leikur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
-28	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-2	Tammy Abraham	_	_	_	_	_	_	_	_
+1	Tammy	Tammy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
+2	Abraham	Abraham	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
+4-5	Aston Villa	_	_	_	_	_	_	_	_
+4	Aston	Aston	PROPN	fyrirtæki	_	3	obj	_	tag=fyrirtæki
+5	Villa	Villa	PROPN	fyrirtæki	_	4	flat	_	tag=fyrirtæki
+6	yfir	yfir	ADV	ao	_	3	advmod	_	tag=ao
+7	undir	undir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
+8	lok	lok	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þf_hk
+9	fyrri	fyrri	ADJ	lo_et_ef_kk_vb	Case=Gen|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_ef_kk_vb
+10	hálfleiks	hálfleikur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	8	nmod:poss	_	tag=no_et_ef_kk
+11	en	en	CCONJ	st	_	3	cc	_	tag=st
+12-14	Ahmed El Mohamady	_	_	_	_	_	_	_	_
+12	Ahmed	Ahmed	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+13	El	El	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	SpaceAfter=No|tag=person_nf_kk
+14	Mohamady	Mohamady	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	SpaceAfter=No|tag=person_nf_kk
+15	,	,	PUNCT	grm	_	14	punct	_	tag=grm
+16	leikmaður	leikmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_nf_kk
+17-18	Aston Villa	_	_	_	_	_	_	_	_
+17	Aston	Aston	PROPN	fyrirtæki	_	16	nmod:poss	_	tag=fyrirtæki
+18	Villa	Villa	PROPN	fyrirtæki	_	17	flat	_	tag=fyrirtæki
+19	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
+20	fyrir	fyrir	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
+21	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	22	nmod	_	tag=fn_et_þgf_hk
+22	óláni	ólán	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_þgf_hk
+23	að	að	PART	nhm	_	24	mark	_	tag=nhm
+24	skora	skora	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	22	xcomp	_	tag=so_1_þf_nh_gm
+25	sjálfsmark	sjálfsmark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	tag=no_et_þf_hk
+26	þegar	þegar	SCONJ	st	_	30	mark	_	tag=st
+27	um	um	ADV	eo	_	28	advmod	_	tag=eo
+28	klukkutími	klukkutími	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	tag=no_et_nf_kk
+29	var	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	cop	_	tag=so_0_fh_p3_et_nt_gm
+30	liðinn	liðinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	24	advcl	_	tag=lo_et_nf_kk_sb
+31	af	af	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
+32	leiknum	leikur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
+33	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00326,.8
 # text = Bayern mætir Dortmund í fyrsta leik tímabilsins, leiknum um þýska meistarabikarinn 14. ágúst, og leikur gegn Werder Bremen, liði Arons Jóhannssonar, í fyrstu umferð 1. deildarinnar 26. ágúst.
@@ -243,23 +259,31 @@
 10	um	um	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 11	þýska	þýskur	ADJ	lo_et_þf_kk_vb	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_þf_kk_vb
 12	meistarabikarinn	meistarabikar	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þf_kk_gr
-13	14. ágúst	14. ágúst	ADV	dagsafs	_	2	advmod	_	SpaceAfter=No|tag=dagsafs
-14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-15	og	og	CCONJ	st	_	2	cc	_	tag=st
-16	leikur	leika	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
-17	gegn	gegn	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18	Werder Bremen	Werder Bremen	PROPN	fyrirtæki	_	16	obl	_	SpaceAfter=No|tag=fyrirtæki
-19	,	_	PUNCT	grm	_	18	punct	_	tag=grm
-20	liði	lið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	tag=no_et_þgf_hk
-21	Arons Jóhannssonar	Aron Jóhannsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	20	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-22	,	_	PUNCT	grm	_	21	punct	_	tag=grm
-23	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
-24	fyrstu	fyrstur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	25	amod	_	tag=lo_et_þgf_kvk_vb
-25	umferð	umferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þgf_kvk
-26	1.	1.	ADJ	raðnr_ef_kvk	Case=Gen|Gender=Fem|NumType=Ord	27	amod	_	tag=raðnr_ef_kvk
-27	deildarinnar	deild	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod:poss	_	tag=no_et_ef_kvk_gr
-28	26. ágúst	26. ágúst	ADV	dagsafs	_	16	advmod	_	SpaceAfter=No|tag=dagsafs
-29	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+13-14	14. ágúst	_	_	_	_	_	_	_	_
+13	14.	14.	ADV	dagsafs	_	2	advmod	_	SpaceAfter=No|tag=dagsafs
+14	ágúst	ágúst	NUM?	dagsafs	_	13	flat	_	SpaceAfter=No|tag=dagsafs
+15	,	_	PUNCT	grm	_	2	punct	_	tag=grm
+16	og	og	CCONJ	st	_	2	cc	_	tag=st
+17	leikur	leika	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
+18	gegn	gegn	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+19-20	Werder Bremen	_	_	_	_	_	_	_	_
+19	Werder	Werder	PROPN	fyrirtæki	_	17	obl	_	SpaceAfter=No|tag=fyrirtæki
+20	Bremen	Bremen	PROPN	fyrirtæki	_	19	flat	_	SpaceAfter=No|tag=fyrirtæki
+21	,	_	PUNCT	grm	_	19	punct	_	tag=grm
+22	liði	lið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_þgf_hk
+23-24	Arons Jóhannssonar	_	_	_	_	_	_	_	_
+23	Arons	Aron	PROPN	person_ef_kk	Case=Gen|Gender=Masc	22	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
+24	Jóhannssonar	Jóhannsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	23	flat	_	SpaceAfter=No|tag=person_ef_kk
+25	,	_	PUNCT	grm	_	19	punct	_	tag=grm
+26	í	í	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
+27	fyrstu	fyrstur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	28	amod	_	tag=lo_et_þgf_kvk_vb
+28	umferð	umferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_þgf_kvk
+29	1.	1.	ADJ	raðnr_ef_kvk	Case=Gen|Gender=Fem|NumType=Ord	30	amod	_	tag=raðnr_ef_kvk
+30	deildarinnar	deild	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod:poss	_	tag=no_et_ef_kvk_gr
+31-32	26. ágúst	_	_	_	_	_	_	_	_
+31	26.	26.	ADV	dagsafs	_	17	advmod	_	SpaceAfter=No|tag=dagsafs
+32	ágúst	ágúst	NUM?	dagsafs	_	31	flat	_	SpaceAfter=No|tag=dagsafs
+33	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00326,.9
 # text = Thurman segir í bandaríska dagblaðinu New York Times í dag frá tveimur atvikum sem áttu sér stað í London, höfuðborg Bretlands, eftir að kvikmyndin Pulp Fiction var frumsýnd árið 1994.
@@ -268,33 +292,38 @@
 3	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 4	bandaríska	bandarískur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þgf_hk_vb
 5	dagblaðinu	dagblað	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk_gr
-6	New York Times	New York Times	PROPN	fyrirtæki	_	5	VANTAR_LIÐ-obl?	_	tag=fyrirtæki
-7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-8	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
-9	frá	frá	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-10	tveimur	tveir	NUM	to_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	nummod	_	tag=to_ft_þgf_hk
-11	atvikum	atvik	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
-12	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
-13	áttu	eiga	VERB	so_2_þgf_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	tag=so_2_þgf_þf_fh_p3_ft_þt_gm
-14	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	13	iobj	_	tag=abfn_þgf
-15	stað	staður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	tag=no_et_þf_kk
-16	í	í	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	London	London	PROPN	sérnafn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|tag=sérnafn_et_þf_kvk
-18	,	_	PUNCT	grm	_	17	punct	_	tag=grm
-19	höfuðborg	höfuðborg	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_þf_kvk
-20	Bretlands	Bretland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
-21	,	_	PUNCT	grm	_	20	punct	_	tag=grm
-22	eftir	eftir	ADV	ao	_	27	mark	_	tag=ao
-23	að	að	SCONJ	st	_	22	cc	_	tag=st
-24	kvikmyndin	kvikmynd	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	tag=no_et_nf_kvk_gr
-25	Pulp Fiction	Pulp Fiction	PROPN	entity	_	27	nsubj	_	tag=entity
-26	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	27	cop	_	tag=so_0_fh_p3_et_þt_gm
-27	frumsýnd	frumsýna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	advcl	_	tag=so_0_lhþt_et
-28	árið 1994	árið 1994	ADV	ártal	_	27	advmod	_	SpaceAfter=No|tag=ártal
-29	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+6-8	New York Times	_	_	_	_	_	_	_	_
+6	New	New	PROPN	fyrirtæki	_	5	VANTAR_LIÐ-obl?	_	tag=fyrirtæki
+7	York	York	PROPN	fyrirtæki	_	6	flat	_	tag=fyrirtæki
+8	Times	Times	PROPN	fyrirtæki	_	6	flat	_	tag=fyrirtæki
+9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+10	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
+11	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+12	tveimur	tveir	NUM	to_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	nummod	_	tag=to_ft_þgf_hk
+13	atvikum	atvik	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
+14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
+15	áttu	eiga	VERB	so_2_þgf_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	13	acl:relcl	_	tag=so_2_þgf_þf_fh_p3_ft_þt_gm
+16	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	15	iobj	_	tag=abfn_þgf
+17	stað	staður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	tag=no_et_þf_kk
+18	í	í	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
+19	London	London	PROPN	sérnafn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|tag=sérnafn_et_þf_kvk
+20	,	_	PUNCT	grm	_	19	punct	_	tag=grm
+21	höfuðborg	höfuðborg	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þf_kvk
+22	Bretlands	Bretland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	21	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
+23	,	_	PUNCT	grm	_	22	punct	_	tag=grm
+24	eftir	eftir	ADV	ao	_	30	mark	_	tag=ao
+25	að	að	SCONJ	st	_	24	cc	_	tag=st
+26	kvikmyndin	kvikmynd	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	27	obl	_	tag=no_et_nf_kvk_gr
+27-28	Pulp Fiction	_	_	_	_	_	_	_	_
+27	Pulp	Pulp	PROPN	entity	_	30	nsubj	_	tag=entity
+28	Fiction	Fiction	PROPN	entity	_	27	flat	_	tag=entity
+29	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	30	cop	_	tag=so_0_fh_p3_et_þt_gm
+30	frumsýnd	frumsýna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	15	advcl	_	tag=so_0_lhþt_et
+31-32	árið 1994	_	_	_	_	_	_	_	_
+31	árið	árið	ADV	ártal	_	30	advmod	_	SpaceAfter=No|tag=ártal
+32	1994	1994	NUM	ártal	_	31	flat	_	SpaceAfter=No|tag=ártal
+33	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00326,.10
-# text = Yfir áramótin undirbúa hestamenn sig og hafa kveikt í húsunum og setja á tónlist til að friða hestana frá þessum hljóðum en nú eru menn ekki jafn varir um sig.
 1	Yfir	yfir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	áramótin	áramót	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	3	advmod	_	tag=no_ft_þf_hk_gr
 3	undirbúa	undirbúa	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
@@ -324,6 +353,6 @@
 27	jafn	jafn	ADV	eo	_	28	advmod	_	tag=eo
 28	varir	var	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	tag=lo_ft_nf_kk_sb
 29	um	um	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
-30	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	28	obl	_	SpaceAfter=No|tag=abfn_þf
+30	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	28	obl	_	tag=abfn_þf
 31	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

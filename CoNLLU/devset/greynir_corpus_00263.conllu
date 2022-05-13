@@ -14,8 +14,10 @@
 12	miðakaup	miðakaup	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
 13	á	á	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	jólatónleika	jólatónleikar	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	tag=no_ft_þf_kk
-15	í ár	í ár	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-16	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+15-16	í ár	_	_	_	_	_	_	_	_
+15	í	í	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
+16	ár	ár	ADV	ao	_	15	fixed	_	SpaceAfter=No|tag=ao
+17	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00263,.2
 # text = Að þurfa að flögra um sviðið með tognaðan kálfa var ekki mjög glæsilegt, segir Greta.
@@ -60,18 +62,25 @@
 # sent_id = GREYNIR_CORPUS_00263,.4
 # text = Þann 22. nóvember árið 1963 var John Fitzgerald Kennedy, þáverandi forseti Bandaríkjanna, skotinn til bana.
 1	Þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_þf_kk
-2	22. nóvember árið 1963	22. nóvember árið 1963	ADV	dagsföst	_	10	advmod	_	tag=dagsföst
-3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_þt_gm
-4	John Fitzgerald Kennedy	John Fitzgerald Kennedy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
-6	þáverandi	þáverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_sb
-7	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
-8	Bandaríkjanna	Bandaríkin	PROPN	sérnafn_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	7	nmod:poss	_	SpaceAfter=No|tag=sérnafn_ft_ef_hk_gr
-9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
-10	skotinn	skjóta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-11	til	til	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
-12	bana	bani	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_ef_kk
-13	.	_	PUNCT	grm	_	10	punct	_	tag=grm
+2-5	22. nóvember árið 1963	_	_	_	_	_	_	_	_
+2	22.	22.	ADV	dagsföst	_	15	advmod	_	tag=dagsföst
+3	nóvember	nóvember	?	dagsföst	_	2	flat	_	tag=dagsföst
+4	árið	árið	?	dagsföst	_	2	flat	_	tag=dagsföst
+5	1963	1963	?	dagsföst	_	2	flat	_	tag=dagsföst
+6	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	aux	_	tag=so_0_fh_p3_et_þt_gm
+7-9	John Fitzgerald Kennedy	_	_	_	_	_	_	_	_
+7	John	John	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+8	Fitzgerald	Fitzgerald	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	SpaceAfter=No|tag=person_nf_kk
+9	Kennedy	Kennedy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	SpaceAfter=No|tag=person_nf_kk
+10	,	_	PUNCT	grm	_	12	punct	_	tag=grm
+11	þáverandi	þáverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_nf_kk_sb
+12	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_nf_kk
+13	Bandaríkjanna	Bandaríkin	PROPN	sérnafn_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	12	nmod:poss	_	SpaceAfter=No|tag=sérnafn_ft_ef_hk_gr
+14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
+15	skotinn	skjóta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+16	til	til	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
+17	bana	bani	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_ef_kk
+18	.	_	PUNCT	grm	_	15	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00263,.5
 # text = Ég fór í myndatöku og það er engin tognun eða neitt slíkt, segir Jón Daði.
@@ -89,8 +98,10 @@
 12	slíkt	slíkur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|tag=fn_et_nf_hk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-15	Jón Daði	Jón Daði	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-16	.	_	PUNCT	grm	_	14	punct	_	tag=grm
+15-16	Jón Daði	_	_	_	_	_	_	_	_
+15	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+16	Daði	Daði	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	SpaceAfter=No|tag=person_nf_kk
+17	.	_	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00263,.6
 # text = Þarna er ekki mikið af ferðamönnum því aðeins tilteknum fjölda ferðamanna er hleypt á eyjarnar í einu.
@@ -130,13 +141,15 @@
 13	við	við	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	mynni	mynni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þf_hk
 15	Eyjafjarðar	Eyjafjörður	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	nmod:poss	_	tag=sérnafn_et_ef_kk
-16	í morgun	í morgun	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
-17	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+16-17	í morgun	_	_	_	_	_	_	_	_
+16	í	í	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
+17	morgun	morgun	ADV	ao	_	16	fixed	_	SpaceAfter=No|tag=ao
+18	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00263,.8
 # text = Var verkefnisstjóri og blaðamaður við Viðskiptablaðið 1993 – 94 og framkvæmdastjóri ISS-þjónustunnar 1994 – 96.
-1	Var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_þt_gm
-2	verkefnisstjóri	verkefnisstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	tag=no_et_nf_kk
+1	Var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	verkefnisstjóri	verkefnisstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 3	og	og	CCONJ	st	_	4	cc	_	tag=st
 4	blaðamaður	blaðamaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk
 5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -150,7 +163,7 @@
 13	1994	1994	ADV	ártal	_	11	advmod	_	SpaceAfter=No|tag=ártal
 14	–	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	96	96	NUM	ártal	_	13	nummod	_	SpaceAfter=No|tag=ártal
-16	.	_	PUNCT	grm	_	1	punct	_	tag=grm
+16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00263,.9
 # text = Sumir upplifðu þó mildar aukaverkanir, eins og roða og viðkvæmni í húðinni undir plástrinum og kláða.
@@ -175,21 +188,23 @@
 
 # sent_id = GREYNIR_CORPUS_00263,.10
 # text = Andrean Sigurgeirsson, dansari og meðlimur Hatara, hefur hlotið mikið lof fyrir frammistöðu sína í Eurovision.
-1	Andrean Sigurgeirsson	Andrean Sigurgeirsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	dansari	dansari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-4	og	og	CCONJ	st	_	5	cc	_	tag=st
-5	meðlimur	meðlimur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_nf_kk
-6	Hatara	Hatari	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk
-7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
-8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
-9	hlotið	hljóta	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
-10	mikið	mikill	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	11	amod	_	tag=lo_et_þf_hk_sb
-11	lof	lof	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	tag=no_et_þf_hk
-12	fyrir	fyrir	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	frammistöðu	frammistaða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þf_kvk
-14	sína	sinn	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	tag=fn_et_þf_kvk
-15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	Eurovision	Eurovision	PROPN	fyrirtæki	_	13	obl	_	SpaceAfter=No|tag=fyrirtæki
-17	.	_	PUNCT	grm	_	9	punct	_	tag=grm
+1-2	Andrean Sigurgeirsson	_	_	_	_	_	_	_	_
+1	Andrean	Andrean	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
+2	Sigurgeirsson	Sigurgeirsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|tag=person_et_nf_kk
+3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
+4	dansari	dansari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
+5	og	og	CCONJ	st	_	6	cc	_	tag=st
+6	meðlimur	meðlimur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	tag=no_et_nf_kk
+7	Hatara	Hatari	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk
+8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
+9	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
+10	hlotið	hljóta	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
+11	mikið	mikill	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_þf_hk_sb
+12	lof	lof	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	tag=no_et_þf_hk
+13	fyrir	fyrir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
+14	frammistöðu	frammistaða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk
+15	sína	sinn	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	tag=fn_et_þf_kvk
+16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	Eurovision	Eurovision	PROPN	fyrirtæki	_	14	obl	_	SpaceAfter=No|tag=fyrirtæki
+18	.	_	PUNCT	grm	_	10	punct	_	tag=grm
 

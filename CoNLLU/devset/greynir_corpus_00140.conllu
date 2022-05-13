@@ -24,7 +24,7 @@
 22	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00140,.2
-# text = Það er mikill heiður að vera í hópi hönnuða sem unnið hafa með H&M ;, segir Erdem Moralioglu.
+# text = Það er mikill heiður að vera í hópi hönnuða sem unnið hafa með H&M;, segir Erdem Moralioglu.
 1	Það	Það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
 2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	mikill	mikill	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_fst_sb
@@ -42,8 +42,10 @@
 15	;	;	PUNCT	grm	_	17	punct	_	SpaceAfter=No|tag=grm
 16	,	,	PUNCT	grm	_	15	punct	_	tag=grm
 17	segir	segir	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-18	Erdem Moralioglu	Erdem Moralioglu	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-19	.	.	PUNCT	grm	_	17	punct	_	tag=grm
+18-19	Erdem Moralioglu	_	_	_	_	_	_	_	_
+18	Erdem	Erdem	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+19	Moralioglu	Moralioglu	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	SpaceAfter=No|tag=person_nf_kk
+20	.	.	PUNCT	grm	_	17	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00140,.3
 # text = Móðir var dæmd í tveggja ára fangelsi í Héraðsdómi Reykjavíkur í gær fyrir endurtekið ofbeldi gegn börnum sínum þremur yfir margra ára tímabil.
@@ -57,19 +59,21 @@
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	Héraðsdómi	héraðsdómur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
 10	Reykjavíkur	Reykjavík	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	tag=sérnafn_et_ef_kvk
-11	í gær	í gær	ADV	ao	_	3	advmod	_	tag=ao
-12	fyrir	fyrir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-13	endurtekið	endurtekinn	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_þf_hk_sb
-14	ofbeldi	ofbeldi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
-15	gegn	gegn	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	börnum	barn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_þgf_hk
-17	sínum	sinn	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	16	nmod	_	tag=fn_ft_þgf_hk
-18	þremur	þrír	NUM	to_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	16	nummod	_	tag=to_ft_þgf_hk
-19	yfir	yfir	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
-20	margra	margur	ADJ	lo_ft_ef_hk_sb	Case=Gen|Gender=Neut|Number=Plur	21	amod	_	tag=lo_ft_ef_hk_sb
-21	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	22	obl	_	tag=no_ft_ef_hk
-22	tímabil	tímabil	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
-23	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+11-12	í gær	_	_	_	_	_	_	_	_
+11	í	í	ADV	ao	_	3	advmod	_	tag=ao
+12	gær	gær	ADV	ao	_	11	fixed	_	tag=ao
+13	fyrir	fyrir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+14	endurtekið	endurtekinn	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_þf_hk_sb
+15	ofbeldi	ofbeldi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
+16	gegn	gegn	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	börnum	barn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	15	obl	_	tag=no_ft_þgf_hk
+18	sínum	sinn	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	17	nmod	_	tag=fn_ft_þgf_hk
+19	þremur	þrír	NUM	to_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	17	nummod	_	tag=to_ft_þgf_hk
+20	yfir	yfir	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+21	margra	margur	ADJ	lo_ft_ef_hk_sb	Case=Gen|Gender=Neut|Number=Plur	22	amod	_	tag=lo_ft_ef_hk_sb
+22	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	23	obl	_	tag=no_ft_ef_hk
+23	tímabil	tímabil	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
+24	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00140,.4
 # text = Þegar það tekst ekki sem skyldi, sbr. fyrstu kynslóð af X3-jeppanum, þá hleypa hreintrúarmenn og -konur brúnum.
@@ -106,9 +110,9 @@
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	advmod	_	tag=no_et_þf_kk
 10	og	og	CCONJ	st	_	2	cc	_	tag=st
-11	vorum	vera	VERB	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p1_ft_þt_gm
+11	vorum	vera	AUX	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	13	aux	_	tag=so_0_fh_p1_ft_þt_gm
 12	að	að	PART	nhm	_	13	mark	_	tag=nhm
-13	ræða	ræða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	conj	_	tag=so_1_þf_nh_gm
+13	ræða	ræða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	conj	_	tag=so_1_þf_nh_gm
 14	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	tag=fn_et_þf_hk
 15	eftir	eftir	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	leik	leikur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	advmod	_	tag=no_et_þf_kk
@@ -195,37 +199,41 @@
 16	hófst	hefja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	6	acl:relcl	_	tag=so_0_fh_p3_et_þt_mm
 17	með	með	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 18	Gullregni	gullregn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	tag=no_et_þgf_hk
-19	árið 2012	árið 2012	ADV	ártal	_	18	advmod	_	tag=ártal
-20	og	og	CCONJ	st	_	18	cc	_	tag=st
-21	Óskasteinum	óskasteinn	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	18	conj	_	tag=no_ft_þgf_kk
-22	2014	2014	ADV	ártal	_	18	advmod	_	SpaceAfter=No|tag=ártal
-23	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+19-20	árið 2012	_	_	_	_	_	_	_	_
+19	árið	árið	ADV	ártal	_	18	advmod	_	tag=ártal
+20	2012	2012	NUM	ártal	_	19	flat	_	tag=ártal
+21	og	og	CCONJ	st	_	18	cc	_	tag=st
+22	Óskasteinum	óskasteinn	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	18	conj	_	tag=no_ft_þgf_kk
+23	2014	2014	ADV	ártal	_	18	advmod	_	SpaceAfter=No|tag=ártal
+24	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00140,.9
 # text = Þá greinir Die Welt einnig frá því að einn mannanna hafi verið með tvo hnífa sem hann hugðist nota í árásinni í dag.
 1	Þá	sá	ADV	ao	_	2	advmod	_	tag=ao
 2	greinir	greina	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
-3	Die Welt	Die Welt	X	foreign	_	2	nsubj	_	tag=foreign
-4	einnig	einnig	ADV	ao	_	2	advmod	_	tag=ao
-5	frá	frá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
-7	að	að	SCONJ	st	_	11	mark	_	tag=st
-8	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	tag=fn_et_nf_kk
-9	mannanna	maður	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	8	nmod:poss	_	tag=no_ft_ef_kk_gr
-10	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_vh_p3_et_nt_gm
-11	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	ccomp	_	tag=so_0_sagnb_gm
-12	með	með	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-13	tvo	tveir	NUM	to_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	14	nummod	_	tag=to_ft_þf_kk
-14	hnífa	hnífur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	tag=no_ft_þf_kk
-15	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
-16	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kk_p3
-17	hugðist	hyggja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	14	acl:relcl	_	tag=so_0_fh_p3_et_þt_mm
-18	nota	nota	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_0_nh_gm
-19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20	árásinni	árás	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_þgf_kvk_gr
-21	í	í	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
-22	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	Die Welt	_	_	_	_	_	_	_	_
+3	Die	Die	X	foreign	_	2	nsubj	_	tag=foreign
+4	Welt	Welt	X	foreign	_	3	flat:foreign	_	tag=foreign
+5	einnig	einnig	ADV	ao	_	2	advmod	_	tag=ao
+6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
+8	að	að	SCONJ	st	_	12	mark	_	tag=st
+9	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=fn_et_nf_kk
+10	mannanna	maður	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	9	nmod:poss	_	tag=no_ft_ef_kk_gr
+11	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_nt_gm
+12	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	ccomp	_	tag=so_0_sagnb_gm
+13	með	með	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
+14	tvo	tveir	NUM	to_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	15	nummod	_	tag=to_ft_þf_kk
+15	hnífa	hnífur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	tag=no_ft_þf_kk
+16	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
+17	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_et_nf_kk_p3
+18	hugðist	hyggja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	15	acl:relcl	_	tag=so_0_fh_p3_et_þt_mm
+19	nota	nota	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	18	xcomp	_	tag=so_0_nh_gm
+20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+21	árásinni	árás	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þgf_kvk_gr
+22	í	í	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+23	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	21	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+24	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00140,.10
 # text = Hann segir að það sjáist hvernig slys eru að verða og hvar á hafnarsvæðunum og er það eitthvað sem verður nú farið yfir.
@@ -244,9 +252,9 @@
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	hafnarsvæðunum	hafnarsvæði	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	tag=no_ft_þgf_hk
 15	og	og	CCONJ	st	_	2	cc	_	tag=st
-16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 17	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_et_nf_hk_p3
-18	eitthvað	einhver	PRON	fn_et_nf	Case=Nom|Number=Sing	16	xcomp	_	tag=fn_et_nf
+18	eitthvað	einhver	PRON	fn_et_nf	Case=Nom|Number=Sing	2	conj	_	tag=fn_et_nf
 19	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
 20	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 21	nú	nú	ADV	ao	_	22	advmod	_	tag=ao

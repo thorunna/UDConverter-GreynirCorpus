@@ -43,8 +43,10 @@ GC_UD_map = {
     "lén": "SYM",
     "dagsafs": "NUM?",  # TODO
     "dagsföst": "?",  # TODO
-    "tími": "?",  # TODO
     "tímapunktur": "?",  # TODO
+    "tímapunkturafs": "?",  # TODO
+    "mælieining": "?",  # TODO
+    "prósenta": "?",  # TODO
     "raðnr": "ADJ",
     "grm": "PUNCT",
     "foreign": "X",
@@ -204,7 +206,7 @@ head_rules = {
     "NP-POSS": {
         "dir": "r",
         "rules": [
-            ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*"),
+            ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*|abbrev"),
             "prósenta.*",
             "NP",
             ("fn.*|pfn.*"),

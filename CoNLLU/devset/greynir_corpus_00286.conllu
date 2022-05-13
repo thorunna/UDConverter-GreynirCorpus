@@ -47,8 +47,8 @@
 
 # sent_id = GREYNIR_CORPUS_00286,.3
 # text = Um hversu frábær við erum í íþróttum, hvað við eigum frjótt listafólk, erum harðger, vinnusöm og rosalega töff.
-1	Um	um	ADP	fs_þf	Case=Acc	0	root	_	tag=fs_þf
-2	hversu	hversu	ADV	ao	_	3	advmod	_	tag=ao
+1	Um	um	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
+2	hversu	hversu	ADV	ao	_	0	root	_	tag=ao
 3	frábær	frábær	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	5	obl	_	tag=lo_ft_nf_hk_sb
 4	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_ft_nf_p1
 5	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	2	obl	_	tag=so_0_fh_p1_ft_nt_gm
@@ -68,7 +68,7 @@
 19	og	og	CCONJ	st	_	11	cc	_	tag=st
 20	rosalega	rosalega	ADV	eo	_	11	advmod	_	tag=eo
 21	töff	töff	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	11	amod	_	SpaceAfter=No|tag=lo_ft_nf_hk_sb
-22	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+22	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00286,.4
 # text = Markmiðið að valdefla fjölskyldur og börn og styrkja foreldra í hlutverki sínu, ekki síst í upphafi og á erfiðum tímum.
@@ -85,14 +85,16 @@
 11	hlutverki	hlutverk	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
 12	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|tag=fn_et_þgf_hk
 13	,	,	PUNCT	grm	_	12	punct	_	tag=grm
-14	ekki síst	ekki síst	ADV	ao	_	3	advmod	_	tag=ao
-15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	upphafi	upphaf	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	advmod	_	tag=no_et_þgf_hk
-17	og	og	CCONJ	st	_	16	cc	_	tag=st
-18	á	á	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-19	erfiðum	erfiður	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	20	amod	_	tag=lo_ft_þgf_kk_sb
-20	tímum	tími	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
-21	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+14-15	ekki síst	_	_	_	_	_	_	_	_
+14	ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
+15	síst	síst	ADV	ao	_	14	fixed	_	tag=ao
+16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	upphafi	upphaf	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	advmod	_	tag=no_et_þgf_hk
+18	og	og	CCONJ	st	_	17	cc	_	tag=st
+19	á	á	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+20	erfiðum	erfiður	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	21	amod	_	tag=lo_ft_þgf_kk_sb
+21	tímum	tími	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
+22	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00286,.5
 # text = Vettel ók hringinn á 1,14, 650 mínútum en Hamilton á 1,14, 668 og Rosberg á 1,14, 772 mín.
@@ -115,8 +117,10 @@
 17	á	á	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 18	1,14	1,14	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	20	nummod	_	SpaceAfter=No|tag=tala_ft_þgf_kvk
 19	,	_	PUNCT	grm	_	18	punct	_	tag=grm
-20	772 mín	772 mín	ADV	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	advmod	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+20-21	772 mín	_	_	_	_	_	_	_	_
+20	772	772	ADV	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	16	advmod	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+21	mín	mín	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	20	flat	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00286,.6
 # text = Samkvæmt tölum frá Hagstofunni voru hér um 26.500 erlendir ríkisborgarar í byrjun síðasta árs en tæplega 30.300 í byrjun þessa árs.
@@ -196,26 +200,28 @@
 # sent_id = GREYNIR_CORPUS_00286,.9
 # text = Varðandi leikinn gegn Finnum á morgun þá telur Craig að Ísland eigi fína möguleika en leikstíll Finnlands hentar íslenska liðinu ágætlega.
 1	Varðandi	varðandi	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
-2	leikinn	leikur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þf_kk_gr
+2	leikinn	leikur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þf_kk_gr
 3	gegn	gegn	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	Finnum	Finni	PROPN	sérnafn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	tag=sérnafn_ft_þgf_kk
-5	á morgun	á morgun	ADV	ao	_	7	advmod	_	tag=ao
-6	þá	þá	ADV	ao	_	7	advmod	_	tag=ao
-7	telur	telja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-8	Craig	Craig	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=person_et_nf_kk
-9	að	að	SCONJ	st	_	11	mark	_	tag=st
-10	Ísland	Ísland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=sérnafn_et_nf_hk
-11	eigi	eiga	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	obj	_	tag=so_1_þf_vh_p3_et_nt_gm
-12	fína	fínn	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	13	amod	_	tag=lo_ft_þf_kk_sb
-13	möguleika	möguleiki	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	tag=no_ft_þf_kk
-14	en	en	CCONJ	st	_	7	cc	_	tag=st
-15	leikstíll	leikstíll	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	tag=no_et_nf_kk
-16	Finnlands	Finnland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	15	nmod:poss	_	tag=sérnafn_et_ef_hk
-17	hentar	henta	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
-18	íslenska	íslenskur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	19	amod	_	tag=lo_et_þgf_hk_vb
-19	liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	17	obj	_	tag=no_et_þgf_hk_gr
-20	ágætlega	ágætlega	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
-21	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+5-6	á morgun	_	_	_	_	_	_	_	_
+5	á	á	ADV	ao	_	8	advmod	_	tag=ao
+6	morgun	morgun	ADV	ao	_	5	fixed	_	tag=ao
+7	þá	þá	ADV	ao	_	8	advmod	_	tag=ao
+8	telur	telja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+9	Craig	Craig	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=person_et_nf_kk
+10	að	að	SCONJ	st	_	12	mark	_	tag=st
+11	Ísland	Ísland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=sérnafn_et_nf_hk
+12	eigi	eiga	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	obj	_	tag=so_1_þf_vh_p3_et_nt_gm
+13	fína	fínn	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	14	amod	_	tag=lo_ft_þf_kk_sb
+14	möguleika	möguleiki	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	tag=no_ft_þf_kk
+15	en	en	CCONJ	st	_	8	cc	_	tag=st
+16	leikstíll	leikstíll	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	tag=no_et_nf_kk
+17	Finnlands	Finnland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	nmod:poss	_	tag=sérnafn_et_ef_hk
+18	hentar	henta	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
+19	íslenska	íslenskur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	20	amod	_	tag=lo_et_þgf_hk_vb
+20	liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	18	obj	_	tag=no_et_þgf_hk_gr
+21	ágætlega	ágætlega	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
+22	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00286,.10
 # text = Ég hitti hann bara um daginn hér á Akureyri þegar hann var að árita bókina sína í Eymundsson núna fyrir jólin.

@@ -24,7 +24,7 @@
 22	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00131,.2
-# text = Fréttamynd ársins : Tveir ungir hælisleitendur frá Íran voru dregnir út úr Laugarneskirkju í sumar með lögregluvaldi og sendir til Noregs.
+# text = Fréttamynd ársins: Tveir ungir hælisleitendur frá Íran voru dregnir út úr Laugarneskirkju í sumar með lögregluvaldi og sendir til Noregs.
 1	Fréttamynd	fréttamynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	tag=no_et_nf_kvk
 2	ársins	ár	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 3	:	_	PUNCT	grm	_	10	punct	_	tag=grm
@@ -54,23 +54,25 @@
 2	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	kveðinn	kveða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	upp	upp	ADV	ao	_	3	compound:prt	_	tag=ao
-5	í	í	X	x		7	dep	_	tag=x
+5	í	í	X	x		7	case	_	tag=x
 6	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 7	undirrétti	undirréttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	Bretlandi	Bretland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=sérnafn_et_þgf_hk
 10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	tag=no_et_þf_kk
-12	um	um	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-13	hvort	hvort	CCONJ	st	_	20	cc	_	tag=st
-14	vopnasala	vopnasala	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	tag=no_et_nf_kvk
+12	um	um	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
+13	hvort	hvort	CCONJ	st	_	21	cc	_	tag=st
+14	vopnasala	vopnasala	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	tag=no_et_nf_kvk
 15	breskra	breskur	ADJ	lo_ft_ef_hk_sb	Case=Gen|Gender=Neut|Number=Plur	16	amod	_	tag=lo_ft_ef_hk_sb
 16	stjórnvalda	stjórnvald	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	nmod:poss	_	tag=no_ft_ef_hk
 17	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
-18	Sádí Arabíu	Sádí Arabía	PROPN	sérnafn_ef_kvk	Case=Gen|Gender=Fem	14	obl	_	tag=sérnafn_ef_kvk
-19	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
-20	lögleg	löglegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
-21	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+18-19	Sádí Arabíu	_	_	_	_	_	_	_	_
+18	Sádí	Sádí	PROPN	sérnafn_ef_kvk	Case=Gen|Gender=Fem	14	obl	_	tag=sérnafn_ef_kvk
+19	Arabíu	Arabía	PROPN	sérnafn_ef_kvk	Case=Gen|Gender=Fem	18	flat	_	tag=sérnafn_ef_kvk
+20	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+21	lögleg	löglegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
+22	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00131,.4
 # text = Félagið þakkar farþegum fyrir stuðninginn og biðst velvirðingar á þeim óþægindum sem þetta veldur, segir í lok tilkynningarinnar.
@@ -171,7 +173,7 @@
 22	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00131,.8
-# text = Kári, hví læturðu ekki umskera sjálfan þig, svona til prufu og að gamni, og sleppir svo messuvíninu næst ?
+# text = Kári, hví læturðu ekki umskera sjálfan þig, svona til prufu og að gamni, og sleppir svo messuvíninu næst?
 1	Kári	Kári	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=person_nf_kk
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	hví	hví	ADV	ao	_	4	advmod	_	tag=ao
@@ -200,24 +202,26 @@
 1	Thornton	Thornton	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 2	segir	segja	VERB	so_2_þf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þf_þf_fh_p3_et_nt_gm
 3	ásakanirnar	ásökun	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	tag=no_ft_þf_kvk_gr
-4	á hendur	á hendur	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þgf_kk_p3
-6	algeran	alger	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
-7	uppspuna	uppspuni	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|tag=no_et_þf_kk
-8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-9	og	og	CCONJ	st	_	2	cc	_	tag=st
-10	neitar	neita	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
-11	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obj	_	tag=fn_et_þgf_hk
-12	alfarið	alfarið	ADV	eo	_	11	advmod	_	tag=eo
-13	að	að	SCONJ	st	_	16	mark	_	tag=st
-14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
-15	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_vh_p3_et_nt_gm
-16	átt	eiga	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	11	ccomp	_	tag=so_0_sagnb_gm
-17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18	sambandi	samband	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	tag=no_et_þgf_hk
-19	við	við	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	leikkonuna	leikkona	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
-21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+4-5	á hendur	_	_	_	_	_	_	_	_
+4	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
+5	hendur	hendur	ADP	fs_þf	Case=Acc	4	fixed	_	tag=fs_þf
+6	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þgf_kk_p3
+7	algeran	alger	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
+8	uppspuna	uppspuni	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|tag=no_et_þf_kk
+9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
+10	og	og	CCONJ	st	_	2	cc	_	tag=st
+11	neitar	neita	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
+12	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obj	_	tag=fn_et_þgf_hk
+13	alfarið	alfarið	ADV	eo	_	12	advmod	_	tag=eo
+14	að	að	SCONJ	st	_	17	mark	_	tag=st
+15	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kk_p3
+16	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_vh_p3_et_nt_gm
+17	átt	eiga	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	12	ccomp	_	tag=so_0_sagnb_gm
+18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+19	sambandi	samband	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	tag=no_et_þgf_hk
+20	við	við	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
+21	leikkonuna	leikkona	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
+22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00131,.10
 # text = Það sem skildi liðin að í þessu sinni var að vörn og markvarsla Akureyrar var betri en vörn og markvarsla Aftureldingar.

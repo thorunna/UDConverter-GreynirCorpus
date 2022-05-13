@@ -15,18 +15,24 @@
 
 # sent_id = GREYNIR_CORPUS_00371,.2
 # text = Loforð frambjóðenda um grunnlaun voru á bilinu 480 þúsund á mánuði til 650 þúsund.
-1	Loforð	loforð	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	tag=no_ft_nf_hk
+1	Loforð	loforð	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	tag=no_ft_nf_hk
 2	frambjóðenda	frambjóðandi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk
 3	um	um	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	grunnlaun	grunnlaun	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	1	obl	_	tag=no_ft_þf_hk
-5	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
-6	á bilinu	á bilinu	ADV	eo	_	7	advmod	_	tag=eo
-7	480 þúsund	480 þúsund	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=töl_ft_nf_hk
-8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	mánuði	mánuður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
-10	til	til	ADP	fs_ef	Case=Gen	11	case	_	tag=fs_ef
-11	650 þúsund	650 þúsund	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No|tag=töl_ft_ef_hk
-12	.	.	PUNCT	grm	_	7	punct	_	tag=grm
+5	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
+6-7	á bilinu	_	_	_	_	_	_	_	_
+6	á	á	ADV	eo	_	8	advmod	_	tag=eo
+7	bilinu	bilinu	ADV	eo	_	6	fixed	_	tag=eo
+8-9	480 þúsund	_	_	_	_	_	_	_	_
+8	480	480	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=töl_ft_nf_hk
+9	þúsund	þúsund	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	8	_	_	tag=töl_ft_nf_hk
+10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
+11	mánuði	mánuður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk
+12	til	til	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
+13-14	650 þúsund	_	_	_	_	_	_	_	_
+13	650	650	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No|tag=töl_ft_ef_hk
+14	þúsund	þúsund	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	13	_	_	SpaceAfter=No|tag=töl_ft_ef_hk
+15	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00371,.3
 # text = Aðspurður að því hvort að keppninni verði sjónvarpað svarar hann játandi.
@@ -55,8 +61,10 @@
 8	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	conj	_	tag=so_0_nh_gm
 9	yfir	yfir	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk_gr
-11	á morgun	á morgun	ADV	ao	_	8	advmod	_	SpaceAfter=No|tag=ao
-12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+11-12	á morgun	_	_	_	_	_	_	_	_
+11	á	á	ADV	ao	_	8	advmod	_	SpaceAfter=No|tag=ao
+12	morgun	morgun	ADV	ao	_	11	fixed	_	SpaceAfter=No|tag=ao
+13	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00371,.5
 # text = Og Hörfræolían og hörfræin eru svo alveg dúndur góð fyrir meltinguna.
@@ -94,15 +102,17 @@
 2	Ísraels	Ísrael	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=sérnafn_et_ef_hk
 3	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 4	að	að	SCONJ	st	_	3	obj	_	tag=st
-5	um	um	ADV	eo	_	7	advmod	_	tag=eo
-6	120 þúsund	120 þúsund	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	nummod	_	tag=töl_ft_nf_kk
-7	ferðamenn	ferðamaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	tag=no_ft_nf_kk
-8	heimsæki	heimsækja	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	VANTAR_LIÐ_IP_None	_	tag=so_1_þf_vh_p3_ft_nt_gm
-9	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þf_hk_gr
-10	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-11	þessum	þessi	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	tag=fn_et_þgf_kk
-12	mánuði	mánuður	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	advmod	_	SpaceAfter=No|tag=no_et_þgf_kk
-13	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+5	um	um	ADV	eo	_	8	advmod	_	tag=eo
+6-7	120 þúsund	_	_	_	_	_	_	_	_
+6	120	120	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nummod	_	tag=töl_ft_nf_kk
+7	þúsund	þúsund	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	_	_	tag=töl_ft_nf_kk
+8	ferðamenn	ferðamaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	tag=no_ft_nf_kk
+9	heimsæki	heimsækja	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	VANTAR_LIÐ_IP_None	_	tag=so_1_þf_vh_p3_ft_nt_gm
+10	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	9	obj	_	tag=no_et_þf_hk_gr
+11	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+12	þessum	þessi	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	tag=fn_et_þgf_kk
+13	mánuði	mánuður	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	advmod	_	SpaceAfter=No|tag=no_et_þgf_kk
+14	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00371,.8
 # text = Meðal margvíslegra hæfileika sem formaður Miðflokksins er búinn er ótvíræð skáldgáfa.
@@ -134,19 +144,21 @@
 11	liðsheild	liðsheild	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No|tag=no_et_þf_kvk
 12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00371,.10
-# text = Hægra megin við plaggið hangir annað til viðbótar, um orðuveitingu frá Ólafi Noregskonungi.
-1	Hægra megin	hægra megin	ADV	ao	_	3	advmod	_	tag=ao
-2	við	við	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
-3	plaggið	plagg	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þf_hk_gr
-4	hangir	hanga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-5	annað	annar	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-6	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-7	viðbótar	viðbót	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_ef_kvk
-8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	orðuveitingu	orðuveiting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þf_kvk
-11	frá	frá	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	Ólafi Noregskonungi	Ólafur Noregskonungur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	10	obl	_	SpaceAfter=No|tag=person_þgf_kk
-13	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+1-2	Hægra megin	_	_	_	_	_	_	_	_
+1	Hægra	hægra	ADV	ao	_	4	advmod	_	tag=ao
+2	megin	megin	ADV	ao	_	1	fixed	_	tag=ao
+3	við	við	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
+4	plaggið	plagg	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk_gr
+5	hangir	hanga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+6	annað	annar	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
+7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
+8	viðbótar	viðbót	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_ef_kvk
+9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
+10	um	um	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+11	orðuveitingu	orðuveiting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk
+12	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13-14	Ólafi Noregskonungi	_	_	_	_	_	_	_	_
+13	Ólafi	Ólafur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	11	obl	_	tag=person_þgf_kk
+14	Noregskonungi	Noregskonungur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	13	flat	_	tag=person_þgf_kk
+15	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

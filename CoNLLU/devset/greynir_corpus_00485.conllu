@@ -56,25 +56,27 @@
 18	þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	16	advcl	_	tag=fn_ft_nf_hk
 19	og	og	CCONJ	st	_	7	cc	_	tag=st
 20	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_nt_gm
-21	auk þess	auk þess	ADV	ao	_	7	advmod	_	tag=ao
-22	haft	hafa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	cop	_	tag=so_0_sagnb_gm
-23	yfir	yfir	ADV	ao	_	7	advmod	_	tag=ao
-24	að	að	PART	nhm	_	25	mark	_	tag=nhm
-25	ráða	ráða	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þgf_nh_gm
-26	fjölmennu	fjölmennur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	27	amod	_	tag=lo_et_þgf_hk_sb
-27	starfsliði	starfslið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	25	obl	_	tag=no_et_þgf_hk
-28	sem	sem	SCONJ	stt	_	31	mark	_	tag=stt
-29	einkum	einkum	ADV	ao	_	31	advmod	_	tag=ao
-30	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	31	cop	_	tag=so_0_fh_p3_et_þt_gm
-31	skipað	skipaður	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	27	acl:relcl	_	tag=lo_et_nf_hk_sb_sþgf
-32	sérfræðingum	sérfræðingur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
-33	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+21-22	auk þess	_	_	_	_	_	_	_	_
+21	auk	auk	ADV	ao	_	7	advmod	_	tag=ao
+22	þess	þess	ADV	ao	_	21	fixed	_	tag=ao
+23	haft	hafa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	cop	_	tag=so_0_sagnb_gm
+24	yfir	yfir	ADV	ao	_	7	advmod	_	tag=ao
+25	að	að	PART	nhm	_	26	mark	_	tag=nhm
+26	ráða	ráða	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þgf_nh_gm
+27	fjölmennu	fjölmennur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	28	amod	_	tag=lo_et_þgf_hk_sb
+28	starfsliði	starfslið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	tag=no_et_þgf_hk
+29	sem	sem	SCONJ	stt	_	32	mark	_	tag=stt
+30	einkum	einkum	ADV	ao	_	32	advmod	_	tag=ao
+31	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	32	cop	_	tag=so_0_fh_p3_et_þt_gm
+32	skipað	skipaður	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	28	acl:relcl	_	tag=lo_et_nf_hk_sb_sþgf
+33	sérfræðingum	sérfræðingur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
+34	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00485,.3
-# text = Í bókinni Kaupthinking : Bankinn sem átti sig sjálfur, sem kom út í nóvember 2018, er aðdragandinn að veitingu neyðarlánsins rakinn ítarlega og ýmsar áður óbirtar upplýsingar birtar um þann aðdraganda.
+# text = Í bókinni Kaupthinking: Bankinn sem átti sig sjálfur, sem kom út í nóvember 2018, er aðdragandinn að veitingu neyðarlánsins rakinn ítarlega og ýmsar áður óbirtar upplýsingar birtar um þann aðdraganda.
 1	Í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 2	bókinni	bók	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk_gr
-3	Kaupthinking	Kaupthinking	PROPN	entity	_	22	obl	_	SpaceAfter=No|tag=entity
+3	Kaupthinking	Kaupthinking	PROPN	entity	_	23	obl	_	SpaceAfter=No|tag=entity
 4	:	:	PUNCT	grm	_	5	punct	_	tag=grm
 5	Bankinn	banki	PROPN	entity	_	3	conj	_	tag=entity
 6	sem	sem	PROPN	entity	_	3	conj	_	tag=entity
@@ -86,25 +88,27 @@
 12	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 13	út	út	ADV	ao	_	12	advmod	_	tag=ao
 14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	nóvember 2018	nóvember 2018	ADV	dagsafs	_	12	advmod	_	SpaceAfter=No|tag=dagsafs
-16	,	,	PUNCT	grm	_	15	punct	_	tag=grm
-17	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-18	aðdragandinn	aðdragandi	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	tag=no_et_nf_kk_gr
-19	að	að	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20	veitingu	veiting	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	tag=no_et_þgf_kvk
-21	neyðarlánsins	neyðarlán	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	20	nmod:poss	_	tag=no_et_ef_hk_gr
-22	rakinn	rekja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-23	ítarlega	ítarlega	ADV	ao	_	22	advmod	_	tag=ao
-24	og	og	CCONJ	st	_	22	cc	_	tag=st
-25	ýmsar	ýmis	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	28	nmod	_	tag=fn_ft_nf_kvk
-26	áður	áður	ADV	eo	_	28	advmod	_	tag=eo
-27	óbirtar	óbirtur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	28	amod	_	tag=lo_ft_nf_kvk_sb
-28	upplýsingar	upplýsing	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	32	nsubj	_	tag=no_ft_nf_kvk
-29	birtar	birta	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	32	xcomp	_	tag=so_0_lhþt_ft
-30	um	um	ADP	fs_þf	Case=Acc	32	case	_	tag=fs_þf
-31	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	32	nmod	_	tag=fn_et_þf_kk
-32	aðdraganda	aðdragandi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No|tag=no_et_þf_kk
-33	.	.	PUNCT	grm	_	22	punct	_	tag=grm
+15-16	nóvember 2018	_	_	_	_	_	_	_	_
+15	nóvember	nóvember	ADV	dagsafs	_	12	advmod	_	SpaceAfter=No|tag=dagsafs
+16	2018	2018	NUM?	dagsafs	_	15	flat	_	SpaceAfter=No|tag=dagsafs
+17	,	,	PUNCT	grm	_	3	punct	_	tag=grm
+18	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+19	aðdragandinn	aðdragandi	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	tag=no_et_nf_kk_gr
+20	að	að	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
+21	veitingu	veiting	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	tag=no_et_þgf_kvk
+22	neyðarlánsins	neyðarlán	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	21	nmod:poss	_	tag=no_et_ef_hk_gr
+23	rakinn	rekja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
+24	ítarlega	ítarlega	ADV	ao	_	23	advmod	_	tag=ao
+25	og	og	CCONJ	st	_	23	cc	_	tag=st
+26	ýmsar	ýmis	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	29	nmod	_	tag=fn_ft_nf_kvk
+27	áður	áður	ADV	eo	_	29	advmod	_	tag=eo
+28	óbirtar	óbirtur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	29	amod	_	tag=lo_ft_nf_kvk_sb
+29	upplýsingar	upplýsing	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	33	nsubj	_	tag=no_ft_nf_kvk
+30	birtar	birta	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	33	xcomp	_	tag=so_0_lhþt_ft
+31	um	um	ADP	fs_þf	Case=Acc	33	case	_	tag=fs_þf
+32	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	33	nmod	_	tag=fn_et_þf_kk
+33	aðdraganda	aðdragandi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No|tag=no_et_þf_kk
+34	.	.	PUNCT	grm	_	23	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00485,.4
 # text = May lét þessi orð falla í ræðu sem hún hélt fyrir utan Downing-stræti 10 í gær en forsætisráðherrann sagði jafnframt að embættismenn í Brussel vildu helst láta komandi samningaviðræður mistakast.
@@ -118,25 +122,29 @@
 8	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 9	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_kvk_p3
 10	hélt	halda	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-11	fyrir utan	fyrir utan	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-12	Downing-stræti	Downing-stræti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þf_hk
-13	10	10	NUM	tala_þf_hk	Case=Acc|Gender=Neut|NumType=Card	12	nummod	_	tag=tala_þf_hk
-14	í gær	í gær	ADV	ao	_	10	advmod	_	tag=ao
-15	en	en	CCONJ	st	_	2	cc	_	tag=st
-16	forsætisráðherrann	forsætisráðherra	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	tag=no_et_nf_kk_gr
-17	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-18	jafnframt	jafnframt	ADV	ao	_	17	advmod	_	tag=ao
-19	að	að	SCONJ	st	_	23	mark	_	tag=st
-20	embættismenn	embættismaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	tag=no_ft_nf_kk
-21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-22	Brussel	Brussel	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	20	obl	_	tag=sérnafn_þgf_hk
-23	vildu	vilja	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	17	obj	_	tag=so_0_fh_p3_ft_þt_gm
-24	helst	gjarna	ADV	ao_est	Degree=Sup	23	advmod	_	tag=ao_est
-25	láta	láta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	23	conj	_	tag=so_0_nh_gm
-26	komandi	komandi	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	27	amod	_	tag=lo_ft_þf_kvk_sb
-27	samningaviðræður	samningaviðræður	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	28	nsubj	_	tag=no_ft_þf_kvk
-28	mistakast	mistaka	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	25	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
-29	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+11-12	fyrir utan	_	_	_	_	_	_	_	_
+11	fyrir	fyrir	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+12	utan	utan	ADP	fs_þf	Case=Acc	11	fixed	_	tag=fs_þf
+13	Downing-stræti	Downing-stræti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þf_hk
+14	10	10	NUM	tala_þf_hk	Case=Acc|Gender=Neut|NumType=Card	13	nummod	_	tag=tala_þf_hk
+15-16	í gær	_	_	_	_	_	_	_	_
+15	í	í	ADV	ao	_	10	advmod	_	tag=ao
+16	gær	gær	ADV	ao	_	15	fixed	_	tag=ao
+17	en	en	CCONJ	st	_	2	cc	_	tag=st
+18	forsætisráðherrann	forsætisráðherra	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	tag=no_et_nf_kk_gr
+19	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+20	jafnframt	jafnframt	ADV	ao	_	19	advmod	_	tag=ao
+21	að	að	SCONJ	st	_	25	mark	_	tag=st
+22	embættismenn	embættismaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	tag=no_ft_nf_kk
+23	í	í	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
+24	Brussel	Brussel	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	22	obl	_	tag=sérnafn_þgf_hk
+25	vildu	vilja	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	19	obj	_	tag=so_0_fh_p3_ft_þt_gm
+26	helst	gjarna	ADV	ao_est	Degree=Sup	25	advmod	_	tag=ao_est
+27	láta	láta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	25	conj	_	tag=so_0_nh_gm
+28	komandi	komandi	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	29	amod	_	tag=lo_ft_þf_kvk_sb
+29	samningaviðræður	samningaviðræður	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	30	nsubj	_	tag=no_ft_þf_kvk
+30	mistakast	mistaka	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	27	xcomp	_	SpaceAfter=No|tag=so_0_nh_mm
+31	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00485,.5
 # text = Ef leiðtogar heimsins, sem sátu G 20 fundinn, bregðast frjálsum félagasamtökum og mannréttindafrömuðum Tyrklands núna er hætta á að engvir verði eftir þegar næsti G 20 fundurinn fer fram.
@@ -209,37 +217,39 @@
 
 # sent_id = GREYNIR_CORPUS_00485,.7
 # text = Jenny McDough, 39 ára enskur gamall borgarráðsstarfsmaður, hefur játað að hafa dregið fé úr sjóði sem var hugsaður fyrir þá sem misstu allt sitt í Grenfell-brunanum á síðasta ári.
-1	Jenny McDough	Jenny McDough	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-3	39	39	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	4	nummod	_	tag=tala_ft_ef_hk
-4	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_ef_hk
-5	enskur	enskur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_sb
-6	gamall	gamall	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_sb
-7	borgarráðsstarfsmaður	borgarráðs-starfsmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
-8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
-10	játað	játa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-11	að	að	PART	nhm	_	13	mark	_	tag=nhm
-12	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	aux	_	tag=so_0_nh_gm
-13	dregið	draga	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	10	xcomp	_	tag=so_1_þf_sagnb_gm
-14	fé	fé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	tag=no_et_þf_hk
-15	úr	úr	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	sjóði	sjóður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þgf_kk
-17	sem	sem	SCONJ	stt	_	18	mark	_	tag=stt
-18	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-19	hugsaður	hugsa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	18	acl:relcl	_	tag=so_0_lhþt_et
-20	fyrir	fyrir	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	þá	hann	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	obl	_	tag=fn_ft_þf_kk
-22	sem	sem	SCONJ	stt	_	23	mark	_	tag=stt
-23	misstu	missa	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	21	acl:relcl	_	tag=so_1_þf_fh_p3_ft_þt_gm
-24	allt	allur	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	tag=fn_et_þf_hk
-25	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	24	nmod	_	tag=fn_et_þf_hk
-26	í	í	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
-27	Grenfell-brunanum	Grenfell-bruni	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	24	obl	_	tag=no_et_þgf_kk_gr
-28	á	á	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
-29	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	30	amod	_	tag=lo_et_þgf_hk_evb
-30	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk
-31	.	.	PUNCT	grm	_	10	punct	_	tag=grm
+1-2	Jenny McDough	_	_	_	_	_	_	_	_
+1	Jenny	Jenny	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	11	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
+2	McDough	McDough	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
+3	,	,	PUNCT	grm	_	1	punct	_	tag=grm
+4	39	39	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_ef_hk
+5	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	obl	_	tag=no_ft_ef_hk
+6	enskur	enskur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_nf_kk_sb
+7	gamall	gamall	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_nf_kk_sb
+8	borgarráðsstarfsmaður	borgarráðs-starfsmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
+9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
+10	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
+11	játað	játa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
+12	að	að	PART	nhm	_	14	mark	_	tag=nhm
+13	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	14	aux	_	tag=so_0_nh_gm
+14	dregið	draga	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	11	xcomp	_	tag=so_1_þf_sagnb_gm
+15	fé	fé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	tag=no_et_þf_hk
+16	úr	úr	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	sjóði	sjóður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þgf_kk
+18	sem	sem	SCONJ	stt	_	19	mark	_	tag=stt
+19	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
+20	hugsaður	hugsa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	19	acl:relcl	_	tag=so_0_lhþt_et
+21	fyrir	fyrir	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+22	þá	hann	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	20	obl	_	tag=fn_ft_þf_kk
+23	sem	sem	SCONJ	stt	_	24	mark	_	tag=stt
+24	misstu	missa	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	22	acl:relcl	_	tag=so_1_þf_fh_p3_ft_þt_gm
+25	allt	allur	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	tag=fn_et_þf_hk
+26	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	25	nmod	_	tag=fn_et_þf_hk
+27	í	í	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
+28	Grenfell-brunanum	Grenfell-bruni	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	25	obl	_	tag=no_et_þgf_kk_gr
+29	á	á	ADP	fs_þgf	Case=Dat	31	case	_	tag=fs_þgf
+30	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	31	amod	_	tag=lo_et_þgf_hk_evb
+31	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk
+32	.	.	PUNCT	grm	_	11	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00485,.8
 # text = Það er þó ekki eina keppnin sem Anya hefur tekið þátt í síðustu daga en hún vann sér sæti í lokahátíð Nótunnar á héraðshátíð Austur- og Norðurlands sem haldin var í Egilsstaðakirkju fyrir viku.
@@ -267,15 +277,18 @@
 22	Nótunnar	nóta	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
 23	á	á	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24	héraðshátíð	héraðshátíð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	tag=no_et_þgf_kvk
-25	Austur- og Norðurlands	Austur- og Norðurland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	24	nmod:poss	_	tag=sérnafn_et_ef_hk
-26	sem	sem	SCONJ	stt	_	28	mark	_	tag=stt
-27	haldin	halda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	28	xcomp	_	tag=so_0_lhþt_et
-28	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-29	í	í	ADP	fs_þgf	Case=Dat	30	case	_	tag=fs_þgf
-30	Egilsstaðakirkju	Egilsstaðakirkja	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	28	obl	_	tag=sérnafn_et_þgf_kvk
-31	fyrir	fyrir	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
-32	viku	vika	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	28	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk
-33	.	.	PUNCT	grm	_	6	punct	_	tag=grm
+25-27	Austur- og Norðurlands	_	_	_	_	_	_	_	_
+25	Austur-	Austur-	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	24	nmod:poss	_	tag=sérnafn_et_ef_hk
+26	og	og	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	25	flat	_	tag=sérnafn_et_ef_hk
+27	Norðurlands	Norðurland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	25	flat	_	tag=sérnafn_et_ef_hk
+28	sem	sem	SCONJ	stt	_	30	mark	_	tag=stt
+29	haldin	halda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	30	xcomp	_	tag=so_0_lhþt_et
+30	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
+31	í	í	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
+32	Egilsstaðakirkju	Egilsstaðakirkja	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	30	obl	_	tag=sérnafn_et_þgf_kvk
+33	fyrir	fyrir	ADP	fs_þgf	Case=Dat	34	case	_	tag=fs_þgf
+34	viku	vika	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	30	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk
+35	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00485,.9
 # text = Talsmaður forsetans segir að N-Kórea sé reiðbúin að eiga fund með bandarískum yfirvöldum og að N-Kórea sé því sammála að mikilvægt sé að ríkin eigi í samtölum sín á milli.
@@ -306,8 +319,11 @@
 25	eigi	eiga	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	nsubj	_	tag=so_0_vh_p3_ft_nt_gm
 26	í	í	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27	samtölum	samtal	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	25	obl	_	tag=no_ft_þgf_hk
-28	sín á milli	sín á milli	ADV	ao	_	25	advmod	_	SpaceAfter=No|tag=ao
-29	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+28-30	sín á milli	_	_	_	_	_	_	_	_
+28	sín	sín	ADV	ao	_	25	advmod	_	SpaceAfter=No|tag=ao
+29	á	á	ADV	ao	_	28	fixed	_	SpaceAfter=No|tag=ao
+30	milli	milli	ADV	ao	_	28	fixed	_	SpaceAfter=No|tag=ao
+31	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00485,.10
 # text = Þar kemur einnig fram að COWI hafi í febrúar sent Skipulagsstofnun bréf þar sem bent er á að útreikningarnir séu ekki unnir af fyrirtækinu og séu ekki í samræmi við gæðavottunarkerfi stofunnar.

@@ -5,18 +5,20 @@
 3	íbúðina	íbúð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk_gr
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	leigu	leiga	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
-6	í gegnum	í gegnum	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	Airbnb	Airbnb	PROPN	fyrirtæki	_	5	obl	_	tag=fyrirtæki
-8	og	og	CCONJ	st	_	2	cc	_	tag=st
-9	sáu	sjá	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_0_fh_p3_ft_þt_gm
-10	því	því	ADV	ao	_	2	advmod	_	tag=ao
-11	fram	fram	ADV	ao	_	14	advmod	_	tag=ao
-12	á	á	ADP	fs_nh	VerbForm=Inf	14	case	_	tag=fs_nh
-13	að	að	PART	nhm	_	14	mark	_	tag=nhm
-14	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	obl	_	tag=so_0_nh_gm
-15	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	vergangi	vergangur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
-17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+6-7	í gegnum	_	_	_	_	_	_	_	_
+6	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
+7	gegnum	gegnum	ADP	fs_þf	Case=Acc	6	fixed	_	tag=fs_þf
+8	Airbnb	Airbnb	PROPN	fyrirtæki	_	5	obl	_	tag=fyrirtæki
+9	og	og	CCONJ	st	_	2	cc	_	tag=st
+10	sáu	sjá	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_0_fh_p3_ft_þt_gm
+11	því	því	ADV	ao	_	2	advmod	_	tag=ao
+12	fram	fram	ADV	ao	_	15	advmod	_	tag=ao
+13	á	á	ADP	fs_nh	VerbForm=Inf	15	case	_	tag=fs_nh
+14	að	að	PART	nhm	_	15	mark	_	tag=nhm
+15	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	obl	_	tag=so_0_nh_gm
+16	á	á	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+17	vergangi	vergangur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
+18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00266,.2
 # text = Lögreglan á höfuðborgarsvæðinu segir að tafir á rannsókn málsins séu eðlilegar, meðal annars vegna umfangs málsins.
@@ -32,11 +34,13 @@
 10	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_vh_p3_ft_nt_gm
 11	eðlilegar	eðlilegur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No|tag=lo_ft_nf_kvk_sb
 12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-13	meðal annars	meðal annars	ADV	ao	_	11	advmod	_	tag=ao
-14	vegna	vegna	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
-15	umfangs	umfang	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_ef_hk
-16	málsins	mál	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	15	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
-17	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+13-14	meðal annars	_	_	_	_	_	_	_	_
+13	meðal	meðal	ADV	ao	_	11	advmod	_	tag=ao
+14	annars	annars	ADV	ao	_	13	fixed	_	tag=ao
+15	vegna	vegna	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
+16	umfangs	umfang	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_ef_hk
+17	málsins	mál	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
+18	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00266,.3
 # text = Yfirvöld í sænsku borginni Lidköping hafa ákveðið að bregða út af vananum og sleppa flugeldasýningunni á gamlárskvöldi.
@@ -173,17 +177,17 @@
 7	munar	muna	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
 8	meiru	mikill	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	7	obj	_	tag=lo_et_þgf_hk_vb
 9	en	en	CCONJ	st	_	10	cc	_	tag=st
-10	einu prósentustigi	eitt prósentustig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	advcl	_	tag=no_et_þgf_hk
-11	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12	fylgi	fylgi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
-13	keppinautanna	keppinautur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	12	nmod:poss	_	tag=no_ft_ef_kk
-14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	neinni	neinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	tag=fn_et_þgf_kvk
-16	þeirra	hún	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	15	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kvk
-17	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+10-11	einu prósentustigi	_	_	_	_	_	_	_	_
+10	einu	eitt	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	advcl	_	tag=no_et_þgf_hk
+11	prósentustigi	prósentustig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	flat	_	tag=no_et_þgf_hk
+12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+13	fylgi	fylgi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
+14	keppinautanna	keppinautur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	13	nmod:poss	_	tag=no_ft_ef_kk
+15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+16	neinni	neinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	tag=fn_et_þgf_kvk
+17	þeirra	hún	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	16	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kvk
+18	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00266,.10
-# text = Marin er 86 ára og fékk fjögurra ára dóm en aðeins stærri sekt, 1,2 milljónir dollara.
 1	Marin	Marin	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	86	86	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	0	root	_	tag=tala_ft_ef_hk
@@ -196,8 +200,11 @@
 10	en	en	CCONJ	st	_	9	cc	_	tag=st
 11	aðeins	aðeins	ADV	eo	_	13	advmod	_	tag=eo
 12	stærri	stór	ADJ	lo_et_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	13	amod	_	tag=lo_et_þf_kvk_mst
-13	sekt	sekt	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
+13	sekt	sekt	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	tag=no_et_þf_kvk
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-15	1,2 milljónir dollara	1,2 milljónir dollara	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
-16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+15-17	1,2 milljónir dollara	_	_	_	_	_	_	_	_
+15	1,2	1,2	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	tag=no_ft_þf_kvk
+16	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	15	flat	_	tag=no_ft_þf_kvk
+17	dollara	dollara	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	15	flat	_	tag=no_ft_þf_kvk
+18	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

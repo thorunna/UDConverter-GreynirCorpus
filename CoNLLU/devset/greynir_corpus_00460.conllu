@@ -28,8 +28,8 @@
 
 # sent_id = GREYNIR_CORPUS_00460,.2
 # text = Vegna þess að okkur finnst svo margir hlutir sem skólinn getur gert áður en við myndum grípa til þess, segir Eydís.
-1	Vegna	vega	ADP	fs_ef	Case=Gen	0	root	_	tag=fs_ef
-2	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_ef_hk
+1	Vegna	vega	ADP	fs_ef	Case=Gen	2	case	_	tag=fs_ef
+2	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_ef_hk
 3	að	að	SCONJ	st	_	5	mark	_	tag=st
 4	okkur	okkur	PRON	pfn_ft_þgf_p1	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_ft_þgf_p1
 5	finnst	finna	VERB	so_1_nf_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	2	ccomp	_	tag=so_1_nf_op_subj_þgf_fh_p3_et_nt_mm
@@ -48,9 +48,9 @@
 18	til	til	ADP	fs_ef	Case=Gen	19	case	_	tag=fs_ef
 19	þess	sá	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No|tag=pfn_et_ef_hk_p3
 20	,	,	PUNCT	grm	_	21	punct	_	tag=grm
-21	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
+21	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 22	Eydís	Eydís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	21	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-23	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+23	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00460,.3
 # text = Ég vil þó leggja á það áherslu að höfundar skýrslunnar töluðu ekki við mig þannig að við komumst að sömu niðurstöðum óháð hvert öðru.
@@ -199,26 +199,30 @@
 3	grunnskólakennara	grunnskólakennari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	nmod:poss	_	tag=no_et_ef_kk
 4	vísaði	vísa	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 5	deilunni	deila	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	tag=no_et_þgf_kvk_gr
-6	í gærkvöldi	í gærkvöldi	ADV	ao	_	4	advmod	_	tag=ao
-7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
-8	ríkissáttasemjara	ríkissáttasemjari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_ef_kk
-9	og	og	CCONJ	st	_	4	cc	_	tag=st
-10	sagði	sagður	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-11	Bryndís Hlöðversdóttir	Bryndís Hlöðversdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	10	nsubj	_	tag=person_nf_kvk
-12	ríkissáttasemjari	ríkissáttasemjari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_nf_kk
-13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
-15	við	við	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	mbl.is	mbl.is	SYM	lén_þf	Case=Acc	14	obl	_	tag=lén_þf
-17	að	að	SCONJ	st	_	20	mark	_	tag=st
-18	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	tag=pfn_et_nf_kvk_p3
-19	mundi	muna	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	20	aux	_	tag=so_0_vh_p3_et_þt_gm
-20	boða	boð	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	obj	_	tag=so_0_nh_gm
-21	til	til	ADP	fs_ef	Case=Gen	22	case	_	tag=fs_ef
-22	fundar	funda	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	20	obl	_	tag=no_et_ef_kk
-23	í	í	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
-24	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
-25	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+6-7	í gærkvöldi	_	_	_	_	_	_	_	_
+6	í	í	ADV	ao	_	4	advmod	_	tag=ao
+7	gærkvöldi	gærkvöldi	ADV	ao	_	6	fixed	_	tag=ao
+8	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
+9	ríkissáttasemjara	ríkissáttasemjari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_ef_kk
+10	og	og	CCONJ	st	_	4	cc	_	tag=st
+11	sagði	sagður	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+12-13	Bryndís Hlöðversdóttir	_	_	_	_	_	_	_	_
+12	Bryndís	Bryndís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	11	nsubj	_	tag=person_nf_kvk
+13	Hlöðversdóttir	Hlöðversdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	flat	_	tag=person_nf_kvk
+14	ríkissáttasemjari	ríkissáttasemjari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_nf_kk
+15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+16	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
+17	við	við	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
+18	mbl.is	mbl.is	SYM	lén_þf	Case=Acc	16	obl	_	tag=lén_þf
+19	að	að	SCONJ	st	_	22	mark	_	tag=st
+20	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	tag=pfn_et_nf_kvk_p3
+21	mundi	muna	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	22	aux	_	tag=so_0_vh_p3_et_þt_gm
+22	boða	boð	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	obj	_	tag=so_0_nh_gm
+23	til	til	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
+24	fundar	funda	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	22	obl	_	tag=no_et_ef_kk
+25	í	í	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
+26	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	22	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
+27	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00460,.9
 # text = Harris var lýst sem frumkvöðli á sínu sviði og var þekkt fyrir að hvetja konur og svarta í Bandaríkjunum til að keppa í mótorhjólaakstri.
@@ -248,8 +252,6 @@
 24	mótorhjólaakstri	mótorhjóla-akstur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 25	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00460,.10
-# text = Samtökin Grái herinn hefur sent kveðju á sinni síðu og þar undir tjá sig fjölmargir : Blessuð sé minning þessa mikla baráttumanns okkar.
 1	Samtökin	samtak	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk_gr
 2	Grái	grár	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	tag=lo_et_nf_kk_vb
 3	herinn	her	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk_gr
@@ -264,7 +266,7 @@
 12	undir	undir	ADV	ao	_	5	advmod	_	tag=ao
 13	tjá	tjá	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	VANTAR_LIÐ_VP_None	_	tag=so_1_þf_fh_p3_ft_nt_gm
 14	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	13	obj	_	tag=abfn_þf
-15	fjölmargir	fjölmargur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
+15	fjölmargir	fjölmargur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	tag=lo_ft_nf_kk_sb
 16	:	:	PUNCT	grm	_	15	punct	_	tag=grm
 17	Blessuð	blessa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_et
 18	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	conj	_	tag=so_0_vh_p3_et_nt_gm
@@ -272,6 +274,6 @@
 20	þessa	þessi	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	tag=fn_et_ef_kk
 21	mikla	mikill	ADJ	lo_et_ef_kk_vb	Case=Gen|Gender=Masc|Number=Sing	22	amod	_	tag=lo_et_ef_kk_vb
 22	baráttumanns	baráttumaður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	19	nmod:poss	_	tag=no_et_ef_kk
-23	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	22	nmod:poss	_	SpaceAfter=No|tag=pfn_ft_ef_p1
+23	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	22	nmod:poss	_	tag=pfn_ft_ef_p1
 24	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

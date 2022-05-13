@@ -34,17 +34,20 @@
 
 # sent_id = GREYNIR_CORPUS_00243,.3
 # text = Engu að síður mikil skemmtun og hrífandi kvöldstund, segir í leikdómnum.
-1	Engu að síður	engu að síður	ADV	eo	_	3	advmod	_	tag=eo
-2	mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	tag=lo_et_nf_kvk_sb
-3	skemmtun	skemmtun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
-4	og	og	CCONJ	st	_	3	cc	_	tag=st
-5	hrífandi	hrífa	VERB	so_0_lhnt	_	6	amod	_	tag=so_0_lhnt
-6	kvöldstund	kvöldstund	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_nf_kvk
-7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
-8	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	xcomp	_	tag=so_0_fh_p3_et_nt_gm
-9	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	leikdómnum	leikdómur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
-11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+1-3	Engu að síður	_	_	_	_	_	_	_	_
+1	Engu	engu	ADV	eo	_	5	advmod	_	tag=eo
+2	að	að	ADV	eo	_	1	fixed	_	tag=eo
+3	síður	síður	ADV	eo	_	1	fixed	_	tag=eo
+4	mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_sb
+5	skemmtun	skemmtun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
+6	og	og	CCONJ	st	_	5	cc	_	tag=st
+7	hrífandi	hrífa	VERB	so_0_lhnt	_	8	amod	_	tag=so_0_lhnt
+8	kvöldstund	kvöldstund	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_nf_kvk
+9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
+10	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	xcomp	_	tag=so_0_fh_p3_et_nt_gm
+11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+12	leikdómnum	leikdómur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
+13	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00243,.4
 # text = Við Goðanes 12 á Akureyri varð stórbruni fyrir viku þegar bátasmiðjan Seigur brann.
@@ -70,12 +73,18 @@
 3	arðsemi	arðsemi	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk
 4	eiginfjár	eiginfé	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk
 5	Landsbankans	landsbanki	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kk_gr
-6	8,2 prósent	8,2 prósent	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	cop	_	tag=no_et_nf_hk
-7	árið 2017	árið 2017	NUM	ártal	_	2	nummod	_	tag=ártal
-8	en	en	CCONJ	st	_	2	cc	_	tag=st
-9	6,6 prósent	6,6 prósent	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	tag=no_et_nf_hk
-10	2016	2016	NUM	ártal	_	2	nummod	_	SpaceAfter=No|tag=ártal
-11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+6-7	8,2 prósent	_	_	_	_	_	_	_	_
+6	8,2	8,2	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	cop	_	tag=no_et_nf_hk
+7	prósent	prósent	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	flat	_	tag=no_et_nf_hk
+8-9	árið 2017	_	_	_	_	_	_	_	_
+8	árið	árið	NUM	ártal	_	2	nummod	_	tag=ártal
+9	2017	2017	NUM	ártal	_	8	flat	_	tag=ártal
+10	en	en	CCONJ	st	_	2	cc	_	tag=st
+11-12	6,6 prósent	_	_	_	_	_	_	_	_
+11	6,6	6,6	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	tag=no_et_nf_hk
+12	prósent	prósent	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	tag=no_et_nf_hk
+13	2016	2016	NUM	ártal	_	2	nummod	_	SpaceAfter=No|tag=ártal
+14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00243,.6
 # text = Hún segir að íslenska liðið stefni á að ná í verðlaun á föstudaginn.
@@ -143,8 +152,6 @@
 11	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 12	England	England	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	tag=no_et_þf_hk
 
-# sent_id = GREYNIR_CORPUS_00243,.10
-# text = Ég skil alveg hennar stefnu en mér finnst það svolítið of mikið.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	skil	skilja	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	alveg	alveg	ADV	eo	_	5	advmod	_	tag=eo
@@ -156,6 +163,6 @@
 9	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	tag=pfn_et_nf_hk_p3
 10	svolítið	svolítið	ADV	eo	_	8	iobj	_	tag=eo
 11	of	of	ADV	eo	_	10	advmod	_	tag=eo
-12	mikið	mikill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	10	amod	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
+12	mikið	mikill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_nf_hk_sb
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

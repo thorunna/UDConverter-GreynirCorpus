@@ -16,7 +16,6 @@
 
 # sent_id = GREYNIR_CORPUS_00238,.2
 # text = Einn þeirra fyrir líkamsárás en hann sló tennur úr manni í nótt.
--5	None	_	None	None	_	_	None	_	_
 1	Einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	tag=fn_et_nf_kk
 2	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_ft_ef_kk_p3
 3	fyrir	fyrir	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
@@ -42,23 +41,27 @@
 7	lögunum	lag	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk_gr
 8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 9	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
-10	Halldór Þormar	Halldór Þormar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-11	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+10-11	Halldór Þormar	_	_	_	_	_	_	_	_
+10	Halldór	Halldór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
+11	Þormar	Þormar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	flat	_	SpaceAfter=No|tag=person_nf_kk
+12	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00238,.4
 # text = Skattbyrði allra hópanna fyrir utan tekjuhæstu 10% hefur aukist á undanförnum árum.
-1	Skattbyrði	skattbyrði	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk
+1	Skattbyrði	skattbyrði	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk
 2	allra	allur	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	tag=fn_ft_ef_kk
 3	hópanna	hópur	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk_gr
-4	fyrir utan	fyrir utan	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-5	tekjuhæstu	tekjuhár	ADJ	lo_ft_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur	6	amod	_	tag=lo_ft_þf_hk_evb
-6	10%	10%	X	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	tag=prósenta_ft_þf_hk
-7	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
-8	aukist	auka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	0	root	_	tag=so_0_sagnb_mm
-9	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-10	undanförnum	undanfarinn	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	11	amod	_	tag=lo_ft_þgf_hk_sb
-11	árum	ár	ADV	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	8	advmod	_	SpaceAfter=No|tag=no_ft_þgf_hk
-12	.	_	PUNCT	grm	_	8	punct	_	tag=grm
+4-5	fyrir utan	_	_	_	_	_	_	_	_
+4	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+5	utan	utan	ADP	fs_þf	Case=Acc	4	fixed	_	tag=fs_þf
+6	tekjuhæstu	tekjuhár	ADJ	lo_ft_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur	7	amod	_	tag=lo_ft_þf_hk_evb
+7	10%	10%	?	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	tag=prósenta_ft_þf_hk
+8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
+9	aukist	auka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	0	root	_	tag=so_0_sagnb_mm
+10	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+11	undanförnum	undanfarinn	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	12	amod	_	tag=lo_ft_þgf_hk_sb
+12	árum	ár	ADV	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	advmod	_	SpaceAfter=No|tag=no_ft_þgf_hk
+13	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00238,.5
 # text = Mín fyrstu viðbrögð eru þau að mér finnst dómurinn of þungur.
@@ -111,16 +114,18 @@
 # text = Þetta segir Trausti Jónsson veðurfræðingur í yfirför sinni um veðrið í sumar.
 1	Þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=fn_et_þf_hk
 2	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3	Trausti Jónsson	Trausti Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-4	veðurfræðingur	veðurfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk
-5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	yfirför	yfirför	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
-7	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	tag=fn_et_þgf_kvk
-8	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	veðrið	veður	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk_gr
-10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-11	sumar	sumar	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
-12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+3-4	Trausti Jónsson	_	_	_	_	_	_	_	_
+3	Trausti	Trausti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
+4	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
+5	veðurfræðingur	veðurfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk
+6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+7	yfirför	yfirför	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
+8	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	tag=fn_et_þgf_kvk
+9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+10	veðrið	veður	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk_gr
+11	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
+12	sumar	sumar	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
+13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00238,.9
 # text = Við erum alltaf að hleypa liðum inn í leikina aftur og aftur.
@@ -133,17 +138,26 @@
 7	inn	inn	ADV	ao	_	9	advmod	_	tag=ao
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	leikina	leikur	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	5	obl	_	tag=no_ft_þf_kk_gr
-10	aftur og aftur	aftur og aftur	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
-11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+10-12	aftur og aftur	_	_	_	_	_	_	_	_
+10	aftur	aftur	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
+11	og	og	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
+12	aftur	aftur	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
+13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-# sent_id = GREYNIR_CORPUS_00238,.10
-# text = Chairman Fred Ridley announces the establishment of the Augusta National Women's Amateur Championship.
-1	Chairman Fred Ridley	Chairman Fred Ridley	PROPN	sérnafn	_	2	VANTAR_LIÐ	_	tag=sérnafn
-2	announces	announces	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
-3	the	the	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	nmod:poss	_	tag=no_et_ef_hk
-4	establishment	establishment	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk
-5	of	of	ADV	eo	_	6	advmod	_	tag=eo
-6	the	the	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk
-7	Augusta National Women's Amateur Championship	Augusta National Women's Amateur Championship	PROPN	sérnafn	_	6	nmod:poss	_	SpaceAfter=No|tag=sérnafn
-8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+1-3	Chairman Fred Ridley	_	_	_	_	_	_	_	_
+1	Chairman	Chairman	PROPN	sérnafn	_	4	VANTAR_LIÐ	_	tag=sérnafn
+2	Fred	Fred	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
+3	Ridley	Ridley	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
+4	announces	announces	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
+5	the	the	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk
+6	establishment	establishment	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=no_et_ef_hk
+7	of	of	ADV	eo	_	8	advmod	_	tag=eo
+8	the	the	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk
+9-13	Augusta National Women's Amateur Championship	_	_	_	_	_	_	_	_
+9	Augusta	Augusta	PROPN	sérnafn	_	8	nmod:poss	_	tag=sérnafn
+10	National	National	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
+11	Women's	Women's	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
+12	Amateur	Amateur	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
+13	Championship	Championship	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
+14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
