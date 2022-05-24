@@ -137,7 +137,7 @@ def main():
 
             input_path = path
             output_file = (
-                re.sub(r"\.gld", ".conllu", os.path.basename(input_path))
+                re.sub(r"\.(gld|psd)", ".conllu", os.path.basename(input_path))
                 if args.output
                 else None
             )

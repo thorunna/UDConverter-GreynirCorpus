@@ -2002,8 +2002,10 @@ class Converter:
                         )
                     if len(tag_list) > 0:
                         try:
+                            print(t[i])
                             tag = tag_list[nr]
                         except KeyError:
+                            print(t[i])
                             form = t[i].split("+lemma+")[0]
                             nr -= len(FORM.split(" "))
                             tag = tag_list[nr]
