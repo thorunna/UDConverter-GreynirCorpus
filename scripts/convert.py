@@ -149,7 +149,7 @@ def main():
                 )
             elif "devset" in input_path:
                 output_path = (
-                    os.path.join("../CoNLLU/devset", output_file)
+                    os.path.join("../CoNLLU/devset_p1", output_file)
                     if output_file
                     else None
                 )
@@ -165,16 +165,7 @@ def main():
             ) if output_path else stdout as outfile:
                 lines = infile.readlines()
                 if not lines[-1].endswith("\n"):
-                    # lines[-1] = lines[-1] + "\n"
                     lines.append("\n")
-                #    print(lines)
-                # print(infile.readlines().split("', '"))
-                # lines = infile.readlines()
-                # print(len(infile.readlines()))
-                #    if not infile.readlines()[-1].endswith("\n"):
-                #        infile.readlines()[-1] = infile.readlines()[-1] + "\n"
-                #    else:
-                #        print("hallóhalló")
                 for line in lines:
                     psd += line
                     if len(line.strip()) == 0 and len(psd.strip()) > 0:
@@ -189,7 +180,8 @@ def main():
 
                         outfile.write(sent_id_line)
                         # outfile.write(str(dep.original_ID_plain_text()) + "\n")
-                        outfile.write(str(dep.plain_text()) + "\n")
+                        outfile.write(str(c.add_space_after(dep).plain_text()) + "\n")
+                        # outfile.write(str(dep.plain_text()) + "\n")
                         outfile.write(c.add_space_after(dep).to_conllU())
 
                         if not output_path:
@@ -221,8 +213,6 @@ def main():
         tree_num = INPUT_ID.split(",")[1]
 
         for tree in CORPUS.parsed_sents(file_id):
-            # Catch error in corpus where ? token is missing
-            tree = fix_IcePaHC_tree_errors(tree)
             if tree.corpus_id_num == tree_num:
                 TREE = tree.remove_nodes(tags=["CODE"], trace=True)
             else:
@@ -230,13 +220,7 @@ def main():
 
         try:
             # print(TREE)
-            print()
-            if args.auto_tag:
-                c = depender.Converter(auto_tags="single_sentence")
-            elif args.faroese:
-                c = depender.Converter(faroese=True)
-            else:
-                c = depender.Converter()
+            c = depender.Converter()
             dep = c.create_dependency_graph(TREE)
             dep = c.add_space_after(dep)
             print(dep.original_ID)
@@ -250,36 +234,28 @@ def main():
             print(f"Error! No tree found for ID {INPUT_ID}\n")
 
     if args.file:
-        # iterates over each sentence in a file, using corpus fileid NLTK feature
-        if args.auto_tag:
-            # gets automatic tags via ABLTagger API for UD features
-            c = depender.Converter(auto_tags="corpus")
-            tag_dict = tagged_corpus(CORPUS.parsed_sents(file_id))
-            c.set_tag_dict(tag_dict)
-        elif args.faroese:
-            c = depender.Converter(faroese=True)
-        else:
-            # uses treebank PoS tags for UD features
-            c = depender.Converter()
+        # uses treebank PoS tags for UD features
+        c = depender.Converter()
 
         to_join = []  # list for use in joining d.graphs into whole sentences
         file_sents = 0  # no. of sentence from current file
 
         # path to output saved if indicated, else saved as None
-        output_file = re.sub(r"\.psd", ".conllu", file_id) if args.output else None
-        if args.faroese:
+        output_file = (
+            re.sub(r"(\.psd|\.gld)", ".conllu", file_id) if args.output else None
+        )
+
+        if "testset" in input_path:
             output_path = (
-                os.path.join("../CoNLLU/farpahc/", output_file) if output_file else None
+                os.path.join("../CoNLLU/testset", output_file) if output_file else None
             )
-        elif args.additions:
+        elif "devset" in input_path:
             output_path = (
-                os.path.join("../CoNLLU/additions2019/", output_file)
-                if output_file
-                else None
+                os.path.join("../CoNLLU/devset", output_file) if output_file else None
             )
         else:
             output_path = (
-                os.path.join("../CoNLLU/icepahc/", output_file) if output_file else None
+                os.path.join("../CoNLLU", output_file) if output_file else None
             )
 
         with open(output_path, "w") if args.output else stdout as outfile:
@@ -292,8 +268,6 @@ def main():
             for tree in CORPUS.parsed_sents(file_id):
                 # counter for missing IDs incremented for every tree in corpus
                 missing_id_counter += 1
-                # Catch error in corpus where ? token is missing (IcePaHC specific)
-                tree = fix_IcePaHC_tree_errors(tree)
                 # Tree static variable defined, code nodes and some traces removed
                 TREE = tree.remove_nodes(tags=["CODE"], trace=True)
 
@@ -339,7 +313,9 @@ def main():
                             # sent ID from original treebank
                             outfile.write(str(dep.original_ID_plain_text()) + "\n")
                             # sentence text
-                            outfile.write(str(dep.plain_text()) + "\n")
+                            outfile.write(
+                                str(c.add_space_after(dep).plain_text()) + "\n"
+                            )
                             # sentence CoNLLU
                             outfile.write(dep.to_conllU())
 
@@ -371,7 +347,9 @@ def main():
                             # sent ID from original treebank
                             outfile.write(str(dep.original_ID_plain_text()) + "\n")
                             # sentence text
-                            outfile.write(str(dep.plain_text()) + "\n")
+                            outfile.write(
+                                str(c.add_space_after(dep).plain_text()) + "\n"
+                            )
                             # sentence CoNLLU
                             outfile.write(dep.to_conllU())
 
@@ -383,10 +361,7 @@ def main():
                     except Exception as ex:
                         # catches any exception
                         raise
-                        if args.faroese:
-                            print("\n\n", dep.original_ID_plain_text(CORPUS="FarPaHC"))
-                        else:
-                            print("\n\n", dep.original_ID_plain_text(CORPUS="IcePaHC"))
+                        print("\n\n", dep.original_ID_plain_text(CORPUS="IcePaHC"))
                         print(f"{type(ex).__name__} for sentence: {ex.args}\n\n")
                     to_join = []
 
@@ -397,46 +372,36 @@ def main():
 
     if args.corpus:
 
-        if args.auto_tag:
-            c = depender.Converter(auto_tags="corpus")
-        elif args.faroese:
-            c = depender.Converter(faroese=True)
-        else:
-            c = depender.Converter()
+        c = depender.Converter()
 
         fileids = CORPUS.fileids()
 
         for file_id in fileids:
-            if file_id == "1823.ntmatt.rel-bib.psd":
-                continue
 
             print(f"> Converting {file_id} ...", end="\r")
 
-            tag_dict = tagged_corpus(CORPUS.parsed_sents(file_id))
-            c.set_tag_dict(tag_dict)
-
             to_join = []
-            to_tag = ""
             file_sents = 0  # no. of sentence from current file
 
-            output_file = re.sub(r"\.psd", ".conllu", file_id) if args.output else None
-            if args.faroese:
+            output_file = (
+                re.sub(r"(\.psd|\.gld)", ".conllu", file_id) if args.output else None
+            )
+
+            if "testset" in input_path:
                 output_path = (
-                    os.path.join("../CoNLLU/farpahc/", output_file)
+                    os.path.join("../CoNLLU/testset", output_file)
                     if output_file
                     else None
                 )
-            elif args.additions:
+            elif "devset" in input_path:
                 output_path = (
-                    os.path.join("../CoNLLU/additions2019/", output_file)
+                    os.path.join("../CoNLLU/devset", output_file)
                     if output_file
                     else None
                 )
             else:
                 output_path = (
-                    os.path.join("../CoNLLU/icepahc/", output_file)
-                    if output_file
-                    else None
+                    os.path.join("../CoNLLU", output_file) if output_file else None
                 )
 
             with open(output_path, "w") if args.output else stdout as outfile:
@@ -448,9 +413,6 @@ def main():
 
                     # counter for missing IDs incremented for every tree in corpus
                     missing_id_counter += 1
-
-                    # Catch error in corpus where ? token is missing
-                    tree = fix_IcePaHC_tree_errors(tree)
 
                     TREE = tree.remove_nodes(tags=["CODE"], trace=True)
 
@@ -472,7 +434,7 @@ def main():
 
                                 # sentence ID saved as string using file_sent runner
                                 sent_id = (
-                                    re.sub(r"\.psd", "", file_id).upper()
+                                    re.sub(r"(\.psd\.gld)", "", file_id).upper()
                                     + ",."
                                     + str(file_sents + 1)
                                 )
@@ -488,7 +450,9 @@ def main():
                                 # sent ID from original treebank
                                 outfile.write(str(dep.original_ID_plain_text()) + "\n")
                                 # sentence text
-                                outfile.write(str(dep.plain_text()) + "\n")
+                                outfile.write(
+                                    str(c.add_space_after(dep).plain_text()) + "\n"
+                                )
                                 # sentence CoNLLU
                                 outfile.write(dep.to_conllU())
 
@@ -521,7 +485,9 @@ def main():
                                 # sent ID from original treebank
                                 outfile.write(str(dep.original_ID_plain_text()) + "\n")
                                 # sentence text
-                                outfile.write(str(dep.plain_text()) + "\n")
+                                outfile.write(
+                                    str(c.add_space_after(dep).plain_text()) + "\n"
+                                )
                                 # sentence CoNLLU
                                 outfile.write(dep.to_conllU())
 

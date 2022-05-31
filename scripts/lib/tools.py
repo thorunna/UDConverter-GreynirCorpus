@@ -8,18 +8,18 @@ from lib.reader import IndexedCorpusTree
 
 
 def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
-
+    # return mod_tag, mod_func, head_tag, head_func
     if mod_tag == "S":
-        if (
+        if mod_func == "PREFIX":
+            if "(st " in str(node):
+                return "cc"
+            return "dep"  # TODO
+        elif (
             mod_func in {"MAIN", "QUE", "HEADING", "QUOTE"}
             and head_tag == "S0"
             or (head_tag == "CP" and head_func == "QUOTE")
         ):
             return "conj"
-        elif mod_func == "PREFIX":
-            if "(st " in str(node):
-                return "cc"
-            return "VANTAR_LIÐ_S_PREFIX"  # TODO
         elif mod_func == "HEADING":
             return "VANTAR_LIÐ_S_HEADING"  # TODO
         elif mod_func == "EXPLAIN" and head_tag == "NP" and head_func == "OBJ":
@@ -94,21 +94,33 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
             return "aux"
         elif mod_func is None:
             if (
-                "+lemma+vera" in str(node)
-                or "+lemma+er" in str(node)
-                or "+lemma+verða" in str(node)
-                or "+lemma+mæla" in str(node)
-                or "+lemma+þykja" in str(node)
-                and head_tag == "VP"
-                and head_func is None
-            ):
-                return "cop"  # copula, the phrase's head is a predicate
-            elif (
                 mod_func is None
                 and head_tag in {"IP"}
                 and head_func in {None, "INF", "INF-OBJ"}
             ):
                 return "conj"
+            elif (
+                "+lemma+vera" in str(node)
+                or "+lemma+er" in str(node)
+                or "+lemma+verða" in str(node)
+                or "+lemma+mæla" in str(node)
+                or "+lemma+fá" in str(node)
+                or "+lemma+nefna" in str(node)
+                or "+lemma+ráða" in str(node)
+                and head_tag == "VP"
+                and head_func is None
+            ):
+                return "cop"  # copula, the phrase's head is a predicate
+            elif (
+                (
+                    "+lemma+láta" in str(node)
+                    or "+lemma+þykja" in str(node)
+                    or "+lemma+reyna" in str(node)
+                )
+                and head_tag == "VP"
+                and head_func is None
+            ):
+                return "aux"
             elif head_tag == "VP" and head_func is None:
                 # and "so_0 " in str(node)
                 # or "_sagnb_" in str(node):
@@ -118,8 +130,8 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
             elif "lhþt" in str(node) and head_tag == "VP" and head_func is None:
                 return "ccomp/xcomp"
             elif head_tag == "PP":
-                return "case??"  # TODO
-        return "VANTAR_LIÐ_VP_None"
+                return "case"  # TODO
+        return "dep"
     elif mod_tag == "so":
         if head_tag == "CP":
             return "ccomp"
@@ -151,7 +163,7 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         if head_func and "=" in head_func:  # TODO: ??
             return "conj"
         else:
-            return "VANTAR_LIÐ_" + mod_tag + mod_func
+            return "dep"  # TODO
     elif head_tag == "VP" and head_func == "AUX":  # TODO: ??
         return "aux"
     # elif (
@@ -169,25 +181,21 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
         return relation_CP.get(mod_func, "VANTAR_LIÐ")
     elif mod_tag == "st":
         return "cc"
-    elif mod_tag in {
-        "C",
-        "CP",
-        "TO",
-    }:  # infinitival marker with marker relation
-        if (
-            "st og+lemma+og" in str(node)
-            or "st eða+lemma+eða" in str(node)
-            or "st en+lemma+en" in str(node)
-            or "st heldur+lemma+heldur" in str(node)
-            or "st enda+lemma+enda" in str(node)
-            or "st ellegar+lemma+ellegar" in str(node)
-            or "st bæði+lemma+bæði" in str(node)
-            or "st hvorki+lemma+hvorki" in str(node)
-            or "st annaðhvort+lemma+annaðhvort" in str(node)
-            or "st hvort+lemma+hvort" in str(node)
-            or "st ýmist+lemma+ýmist" in str(node)
-        ):  # coordinating conjunction
-            return "cc"
+    elif mod_tag in {"C", "CP", "TO",} and (
+        "st og+lemma+og" in str(node)
+        or "st eða+lemma+eða" in str(node)
+        or "st en+lemma+en" in str(node)
+        or "st heldur+lemma+heldur" in str(node)
+        or "st enda+lemma+enda" in str(node)
+        or "st ellegar+lemma+ellegar" in str(node)
+        or "st bæði+lemma+bæði" in str(node)
+        or "st hvorki+lemma+hvorki" in str(node)
+        or "st annaðhvort+lemma+annaðhvort" in str(node)
+        or "st hvort+lemma+hvort" in str(node)
+        or "st ýmist+lemma+ýmist" in str(node)
+    ):  # coordinating conjunction
+        return "cc"
+    elif mod_tag in {"C", "CP", "TO"}:
         return "mark"
     elif mod_tag in {"stt", "nhm"}:
         return "mark"

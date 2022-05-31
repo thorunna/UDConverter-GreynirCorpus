@@ -97,12 +97,13 @@ Greynir_map = {
 }
 
 head_rules = {
-    "S0": {"dir": "r", "rules": [("S0|S-MAIN|S-QUOTE|S-QUE")]},
+    "S0": {"dir": "r", "rules": [("S0|S-MAIN|S-QUOTE|S-QUE|S-HEADING")]},
     "S0-X": {"dir": "r", "rules": [("S-MAIN|S-QUOTE|S-QUE")]},
     "S-MAIN": {"dir": "r", "rules": ["IP"]},
     "S-HEADING": {"dir": "r", "rules": ["IP", "VP", "NP", "NP-OBJ", "NP-SUBJ", "NP.*"]},
     "S-PREFIX": {"dir": "r", "rules": ["IP", "NP.*"]},
     "S-QUE": {"dir": "r", "rules": ["IP"]},
+    "S-EXPLAIN": {"dir": "r", "rules": ["VP"]},
     "CP-ADV": {
         "dir": "r",
         "rules": ["IP-SUB.*"],
@@ -144,9 +145,10 @@ head_rules = {
         "rules": [
             # "CP-FRL",
             (
-                "no(_(et|ft))?_nf.*|person(_(et|ft))?_nf.*|entity(_(et|ft))?_nf.*|fyrirtæki(_(et|ft))?_nf.*|gata(_(et|ft))?_nf.*|dagsafs"
+                "no(_(et|ft))?_(nf|ef|þgf).*|person(_(et|ft))?_nf.*|person.*|entity(_(et|ft))?_nf.*|fyrirtæki(_(et|ft))?_nf.*|gata(_(et|ft))?_nf.*|dagsafs|sérnafn"
             ),
             ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*|prósenta.*"),
+            "IP-INF",
             ("fn(_(et|ft))?_nf.*|pfn(_(et|ft))?_nf.*|abfn(_(et|ft))?_nf.*"),
             ("fn.*|pfn.*|abfn.*"),
             "RRC",
@@ -161,7 +163,7 @@ head_rules = {
         "dir": "r",
         "rules": [
             (
-                "no(_\w\w)?_nf.*|person(_\w\w)?_nf.*|entity(_\w\w)?_nf.*|fyrirtæki(_\w\w)?_nf.*|gata(_\w\w)?_nf.*|prósenta(_\w\w)?_nf.*"
+                "no(_\w\w)?_nf.*|person|person(_\w\w)?_nf.*|entity(_\w\w)?_nf.*|fyrirtæki|fyrirtæki(_\w\w)?_nf.*|gata(_\w\w)?_nf.*|prósenta(_\w\w)?_nf.*|sérnafn(_\w\w)?_nf.*"
             ),
             ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*"),
             ("fn(_\w\w)?_nf.*|pfn(_\w\w)?_nf.*|abfn(_\w\w)?_nf.*"),
@@ -185,6 +187,7 @@ head_rules = {
             "NP",
             "NP-.+",
             ("fn.*|pfn.*|abfn.*"),
+            "CP-QUOTE",
         ],
     },
     "NP-PRD": {
@@ -224,7 +227,7 @@ head_rules = {
         "dir": "r",
         "rules": ["fyrirtæki.*", "entity.*", "sérnafn.*", "lo.*"],
     },
-    "NP-TITLE": {"dir": "r", "rules": ["no.*", "fn.*"]},
+    "NP-TITLE": {"dir": "r", "rules": ["no.*", "fn.*", "PP"]},
     "ADJP": {"dir": "r", "rules": ["lo.*"]},
     "VP": {"dir": "r", "rules": ["so.*", "NP-PRD", "VP", "IP-INF"]},
     "VP-AUX": {"dir": "r", "rules": ["so.*"]},
@@ -287,6 +290,8 @@ head_rules = {
     },
     "ADVP-TMP-SET": {"dir": "r", "rules": ["ao.*"]},
     "ADVP-PCL": {"dir": "r", "rules": ["ao.*"]},
+    "C": {"dir": "r", "rules": ["st|stt"]},
+    # "P": {"dir": "r", "rules": ["fs.*"]},
 }
 
 relation_NP = {
@@ -309,7 +314,7 @@ relation_NP = {
 }
 
 relation_IP = {
-    None: "VANTAR_LIÐ_IP_None",  # TODO: dep í IcePaHC
+    None: "dep",  # TODO: dep í IcePaHC
     "INF": "xcomp",
     "INF-SUBJ": "xcomp",
     "INF-OBJ": "xcomp",
@@ -317,7 +322,7 @@ relation_IP = {
 }
 
 relation_CP = {
-    None: "VANTAR_LIÐ_CP_None",  # TODO: dep í IcePaHC
+    None: "dep",  # TODO: dep í IcePaHC
     "ADV": "advcl",
     "ADV-ACK": "advcl",
     "ADV-CAUSE": "advcl",

@@ -31,13 +31,18 @@ class G_Features:
 
     def get_features(self):
         if self.tag is None:
-            return None
+            return "_"
         tag_sp = self.tag.split("_")
 
         for feature in tag_sp:
             if feature in Greynir_map:
                 value = Greynir_map[feature]
+                if value[1] is None:
+                    return "_"
                 self.features[value[0]] = value[1]
+
+        if len(self.features) == 0:
+            return "_"
 
         return self.features
 

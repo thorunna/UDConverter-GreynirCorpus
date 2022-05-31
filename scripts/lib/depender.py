@@ -356,6 +356,7 @@ class UniversalDependencyGraph(DependencyGraph):
         text = []
         for address, node in self.nodes.items():
             if type(address) != str:
+                # print(address, node)
                 if node["word"] == None:
                     continue
                 elif "SpaceAfter" in node["misc"] or address == len(self.nodes):
@@ -378,6 +379,7 @@ class UniversalDependencyGraph(DependencyGraph):
         text = re.sub(r" :", ":", text)
         text = re.sub(r"„ ", "„", text)
         text = re.sub(r" “", "“", text)
+        text = re.sub(r" – ", "–", text)
 
         return "# text = " + text
 
@@ -805,8 +807,13 @@ class Converter:
         Fixes UPOS tag for verbs that have relation 'aux' but not UPOS tag AUX.
         """
 
-        for address, node in self.dg.nodes.items():
-            if node["rel"] == "aux" and node["tag"] != "AUX" and node["ctag"] != "RD":
+        for address, node in list(self.dg.nodes.items()):
+            if (
+                node["rel"] == "aux"
+                and node["tag"] != "AUX"
+                and node["ctag"] != "AUX"
+                and node["ctag"] != "RD"
+            ):
                 self.dg.get_by_address(address).update({"ctag": "AUX"})
             if (
                 node["rel"] in {"aux", "dep"}
@@ -815,6 +822,34 @@ class Converter:
                 self.dg.get_by_address(address).update(
                     {"head": self.dg.get_by_address(node["head"])["head"]}
                 )
+            if (
+                node["rel"] == "aux"
+                and self.dg.get_by_address(address + 1)["head"] == address
+            ):
+                if (
+                    self.dg.get_by_address(address - 2)["rel"] == "cc"
+                    and node["head"] < address
+                ):
+                    self.dg.get_by_address(address).update(
+                        {"rel": "conj", "ctag": "VERB"}
+                    )
+                elif self.dg.get_by_address(address + 1)["rel"] == "aux":
+                    self.dg.get_by_address(address + 1).update({"head": node["head"]})
+                elif self.dg.get_by_address(address + 1)["rel"] == "advmod":
+                    self.dg.get_by_address(address + 1).update({"head": node["head"]})
+                    if (
+                        self.dg.get_by_address(address + 2)["head"] == address
+                        and self.dg.get_by_address(address + 2)["rel"] == "advmod"
+                    ):
+                        self.dg.get_by_address(address + 2).update(
+                            {"head": node["head"]}
+                        )
+            elif (
+                node["rel"] == "aux"
+                and self.dg.get_by_address(address + 2)["head"] == address
+                and self.dg.get_by_address(address + 2)["rel"] == "advmod"
+            ):
+                self.dg.get_by_address(address + 2).update({"head": node["head"]})
 
     def _fix_acl_advcl(self):
         """
@@ -1117,6 +1152,23 @@ class Converter:
             #    and self.dg.get_by_address(address + 1)["rel"] == "conj"
             # ):
             #    self.dg.get_by_address(address).update({"head": address + 1})
+
+    def _fix_cc_head(self):
+
+        for address, node in self.dg.nodes.items():
+
+            if (
+                node["rel"] == "cc"
+                and self.dg.get_by_address(address - 1)["head"] == address
+                and self.dg.get_by_address(address - 1)["rel"] == "advmod"
+            ):
+                self.dg.get_by_address(address).update({"rel": "mark"})
+            elif (
+                node["rel"] == "cc"
+                and self.dg.get_by_address(address + 1)["head"] == address
+                and self.dg.get_by_address(address + 1)["rel"] == "cc"
+            ):
+                self.dg.get_by_address(address + 1).update({"rel": "fixed"})
 
     def _fix_conj_rel(self):
         """
@@ -1461,6 +1513,7 @@ class Converter:
             ):
                 self.dg.get_by_address(address).update({"head": address - 1})
                 self.dg.get_by_address(address).update({"rel": "fixed"})
+            # elif node["rel"] == "mark" and self.dg.get_by_address(address+1)["head"] == address
 
     def _fix_dep(self):
         """
@@ -1766,6 +1819,15 @@ class Converter:
             #          {"head": self.dg.get_by_address(address - 1)["head"]}
             #      )
 
+    def _fix_cop_ctag(self):
+        """
+        A copula has to be tagged as "AUX", "PRON" or "DET"
+        """
+
+        for address, node in self.dg.nodes.items():
+            if node["rel"] == "cop" and node["ctag"] == "VERB":
+                self.dg.get_by_address(address).update({"ctag": "AUX"})
+
     def _fix_zero_dep(self):
         """
         Fixes root nodes which don't have the deprel 'root'
@@ -1835,6 +1897,12 @@ class Converter:
                 ):
                     self.dg.get_by_address(address + 1).update({"rel": "fixed"})
                     self.dg.get_by_address(address + 2).update({"rel": "fixed"})
+            elif (
+                node["rel"] == "case"
+                and self.dg.get_by_address(address + 1)["head"] == address
+                and self.dg.get_by_address(address + 1)["rel"] == "case"
+            ):
+                self.dg.get_by_address(address + 1).update({"rel": "fixed"})
 
     def _fix_mwe(self):
         """
@@ -1901,12 +1969,25 @@ class Converter:
                     "fyrirtæki",
                     "gata",
                     "no",
+                    "prósenta",
+                    "tala",
+                    "töl",
+                    "mælieining",
                 }:
                     self.dg.get_by_address(address).update({"rel": "flat"})
                 elif orig_tag == "foreign":
                     self.dg.get_by_address(address).update({"rel": "flat:foreign"})
-                elif orig_tag in {"ao", "eo", "fs", "fn", "pfn", "abfn"}:
+                elif orig_tag in {"ao", "eo", "fs", "fn", "pfn", "abfn", "st"}:
                     self.dg.get_by_address(address).update({"rel": "fixed"})
+
+    def _fix_sym_feats(self):
+        """
+        Fixes features of nodes with the ctag 'SYM'
+        """
+
+        for address, node in self.dg.nodes.items():
+            if node["ctag"] == "SYM":
+                self.dg.get_by_address(address).update({"feats": None})
 
     def create_dependency_graph(self, tree):
         """Create a dependency graph from a phrase structure tree.
@@ -2002,10 +2083,12 @@ class Converter:
                         )
                     if len(tag_list) > 0:
                         try:
-                            print(t[i])
+                            ## DEBUG:
+                            # print(t[i])
                             tag = tag_list[nr]
                         except KeyError:
-                            print(t[i])
+                            ## DEBUG:
+                            # print(t[i])
                             form = t[i].split("+lemma+")[0]
                             nr -= len(FORM.split(" "))
                             tag = tag_list[nr]
@@ -2056,6 +2139,7 @@ class Converter:
                     new_nr = 0
                     # if " " in FORM:
                     if " " in FORM:
+                        # The token is a multiword token, and needs to be divided
                         FORMS = FORM.split(" ")
                         if LEMMA is not None:
                             LEMMAS = LEMMA.split(" ")
@@ -2063,26 +2147,16 @@ class Converter:
                             LEMMAS = []
                         XPOS = tag
                         UPOS = G_Features(tag, FORM).get_UD_tag()
-                        FEATS = G_Features(tag).get_features()
+                        FEATS = G_Features(tag, FORM).get_features()
                         MISC = defaultdict(lambda: None, {"tag": tag})
-                        mwe_end = nr + len(FORMS) - 1
-                        mwe_nr = str(nr) + "-" + str(mwe_end)
-                        self.dg.add_node(
-                            {
-                                "address": mwe_nr,
-                                "word": FORM,
-                                "lemma": "_",
-                                "ctag": "_",  # upostag
-                                "tag": "_",  # xpostag
-                                "feats": "_",
-                                "deps": "_",
-                                "rel": "_",
-                                "misc": "_",
-                            }
-                        )
                         for FORM in FORMS:
                             if len(LEMMAS) > 1:
                                 LEMMA = LEMMAS[count]
+                            if FORM == FORMS[-1]:
+                                MISC = defaultdict(
+                                    lambda: None,
+                                    {"tag": tag, "MWEEnd": "Yes"},
+                                )
                             self.dg.add_node(
                                 {
                                     "address": nr,
@@ -2105,10 +2179,18 @@ class Converter:
                         if new_nr != 0:
                             XPOS = tag
                             MISC = defaultdict(lambda: None)
+                            if LEMMA is not None and " " in LEMMA:
+                                # The lemma is a multiword token, which is not allowed
+                                MISC = defaultdict(
+                                    lambda: None,
+                                    {"tag": tag, "OriginalLemma": LEMMA},
+                                )
+                                LEMMA = re.sub(" ", "", LEMMA)
+                            else:
+                                MISC = defaultdict(lambda: None, {"tag": tag})
                             # Feature Classes called here
                             UPOS = G_Features(tag, FORM).get_UD_tag()
-                            FEATS = G_Features(tag).get_features()
-                            MISC = defaultdict(lambda: None, {"tag": tag})
+                            FEATS = G_Features(tag, FORM).get_features()
                             if FORM not in {"None", None}:
                                 self.dg.add_node(
                                     {
@@ -2128,10 +2210,18 @@ class Converter:
                         else:
                             XPOS = tag
                             MISC = defaultdict(lambda: None)
+                            if LEMMA is not None and " " in LEMMA:
+                                # The lemma is a multiword token, which is not allowed
+                                MISC = defaultdict(
+                                    lambda: None,
+                                    {"tag": tag, "OriginalLemma": LEMMA},
+                                )
+                                LEMMA = re.sub(" ", "", LEMMA)
+                            else:
+                                MISC = defaultdict(lambda: None, {"tag": tag})
                             # Feature Classes called here
                             UPOS = G_Features(tag, FORM).get_UD_tag()
-                            FEATS = G_Features(tag).get_features()
-                            MISC = defaultdict(lambda: None, {"tag": tag})
+                            FEATS = G_Features(tag, FORM).get_features()
                             if FORM not in {"None", None}:
                                 self.dg.add_node(
                                     {
@@ -2337,10 +2427,10 @@ class Converter:
             ##     self._fix_aux_tag()
             if rel_counts["acl/advcl"] > 0:
                 self._fix_acl_advcl()
-            if rel_counts["aux"] > 0:
-                self._fix_aux_tag_rel()
             if rel_counts["advmod"] > 0:
                 self._fix_advmod_tag()
+            if rel_counts["aux"] > 0:
+                self._fix_aux_tag_rel()
             if rel_counts["nummod"] > 0:
                 self._fix_nummod_tag()
             if ctag_counts["PROPN"] > 0:
@@ -2358,11 +2448,13 @@ class Converter:
                 self._fix_cconj_rel()
             if rel_counts["cop"] > 0:
                 self._fix_cop_head()
+                self._fix_cop_ctag()
             if rel_counts["appos"] > 0:
                 self._fix_appos_lr()
             if rel_counts["cc"] > 0:
                 self._fix_cc_tag()
                 self._fix_cc_rel()
+                self._fix_cc_head()
                 self._fix_zero_dep()
             if rel_counts["conj"] > 0:
                 self._fix_conj_rel()
@@ -2376,8 +2468,10 @@ class Converter:
                 self._fix_dep_rel()
             if rel_counts["_"] > 0:
                 self._fix_mwe()
-            # if rel_counts["case"] > 0:
-            #    self._fix_case_rel()
+            if ctag_counts["SYM"] > 0:
+                self._fix_sym_feats()
+            if rel_counts["case"] > 0:
+                self._fix_case_rel()
             self._fix_cc_rel()
             self._fix_head_id_same()
             if self.dg.num_roots() != 1:
@@ -2423,33 +2517,6 @@ class Converter:
                     )
                     print(testmessage)
 
-    # TODO: the same function as above repeated?
-    @staticmethod
-    def check_left_to_right(dgraph):
-        """
-        Certain UD relations must always go left-to-right.
-        """
-        for address in dgraph.addresses():
-            cols = dgraph.get_by_address(address)
-            if re.match(r"^[1-9][0-9]*-[1-9][0-9]*$", str(cols["address"])):
-                continue
-            # if DEPREL >= len(cols):
-            #     return # this has been already reported in trees()
-            # According to the v2 guidelines, apposition should also be left-headed, although the definition of apposition may need to be improved.
-            if re.match(r"^(conj|fixed|flat|goeswith|appos)", cols["rel"]):
-                ichild = int(cols["address"])
-                iparent = int(cols["head"])
-                if ichild < iparent:
-                    # We must recognize the relation type in the test id so we can manage exceptions for legacy treebanks.
-                    # For conj, flat, and fixed the requirement was introduced already before UD 2.2, and all treebanks in UD 2.3 passed it.
-                    # For appos and goeswith the requirement was introduced before UD 2.4 and legacy treebanks are allowed to fail it.
-                    # testid = "right-to-left-%s" % lspec2ud(cols['rel'])
-                    testmessage = (
-                        "Line %s: Relation %s must go left-to-right.\nWord form: %s"
-                        % (address, cols["rel"], cols["word"])
-                    )
-                    print(testmessage)
-
     @staticmethod
     def add_space_after(dgraph):
         """10.03.20
@@ -2465,22 +2532,50 @@ class Converter:
                         continue
                     elif dgraph.get_by_address(address)["ctag"] == "„":
                         dgraph.get_by_address(address)["misc"]["SpaceAfter"] = "No"
+                    elif dgraph.get_by_address(address)["word"] in {"„", "("}:
+                        dgraph.get_by_address(address)["misc"]["SpaceAfter"] = "No"
+                    elif dgraph.get_by_address(address)["word"] in {"–", "-"}:
+                        # print("fix 1: ", dgraph.get_by_address(address))
+                        if dgraph.get_by_address(address + 1)[
+                            "ctag"
+                        ] == "NUM" or re.match(
+                            r"\d+", dgraph.get_by_address(address + 1)["word"]
+                        ):
+                            dgraph.get_by_address(address)["misc"]["SpaceAfter"] = "No"
+                        if dgraph.get_by_address(address - 1)[
+                            "ctag"
+                        ] == "NUM" or re.match(
+                            r"\d+", dgraph.get_by_address(address - 1)["word"]
+                        ):
+                            dgraph.get_by_address(address - 1)["misc"][
+                                "SpaceAfter"
+                            ] = "No"
                     elif (
                         dgraph.get_by_address(id_to_fix)["lemma"] in {"„", ":", "|"}
                         or address == "1"
                     ):
                         continue
+                    elif dgraph.get_by_address(id_to_fix)["misc"]["MWEEnd"] == "Yes":
+                        if dgraph.get_by_address(id_to_fix + 1)["word"] in {
+                            ".",
+                            ",",
+                            "?",
+                            "!",
+                            "“",
+                            ":",
+                        }:
+                            dgraph.get_by_address(id_to_fix)["misc"][
+                                "SpaceAfter"
+                            ] = "No"
+                        continue
+                    elif (
+                        dgraph.get_by_address(id_to_fix)["ctag"] != "NUM"
+                        and dgraph.get_by_address(id_to_fix + 1)["word"] == "—"
+                    ):
+                        continue
                     else:
+                        # print("fix 2: ", dgraph.get_by_address(id_to_fix))
                         dgraph.get_by_address(id_to_fix)["misc"]["SpaceAfter"] = "No"
-            # adding space after word ending in $. Needs better fix
-            elif dgraph.get_by_address(address)["word"].endswith(
-                "$"
-            ) and dgraph.get_by_address(address)["ctag"] not in {
-                "VERB",
-                "AUX",
-                "SCONJ",
-            }:
-                dgraph.get_by_address(address)["misc"]["SpaceAfter"] = "No"
 
         return dgraph
 
