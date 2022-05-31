@@ -1,18 +1,18 @@
 # sent_id = GREYNIR_CORPUS_00482,.1
 # text = Það er mikill munur á því að velja harðan stein sem þú mátt leggja heita potta ofan á eða viðarplötu sem þarf að hugsa vel um varðandi rispur og annað eins.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_sb
 4	munur	munur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
-5	á	eiga	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
+5	á	eiga	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	tag=fn_et_þgf_hk
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	velja	velja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_1_þf_nh_gm
+8	velja	velja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	obl	_	tag=so_1_þf_nh_gm
 9	harðan	harður	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_þf_kk_sb
 10	stein	steinn	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	tag=no_et_þf_kk
 11	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
 12	þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_p2
-13	mátt	máttur	AUX	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p2_et_nt_gm
+13	mátt	mega	AUX	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p2_et_nt_gm
 14	leggja	leggur	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	10	acl:relcl	_	tag=so_1_þf_nh_gm
 15	heita	heita	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	16	amod	_	tag=lo_ft_þf_kk_sb
 16	potta	pottur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	tag=no_ft_þf_kk
@@ -35,20 +35,20 @@
 
 # sent_id = GREYNIR_CORPUS_00482,.2
 # text = „Eins og ég er sýnd í fjölmiðlum er spegilmynd þess hvernig horft er á konur í okkar samfélagi, þær eru settar í samanburð við fegurðarskala,“ sagði Aniston.
-1	„	„	PUNCT	grm	_	9	punct	_	tag=grm
-2	Eins	einn	ADV	ao	_	6	cc	_	tag=ao
-3	og	og	CCONJ	st	_	2	cc	_	tag=st
+1	„	„	PUNCT	grm	_	9	punct	_	SpaceAfter=No|tag=grm
+2	Eins	einn	ADV	ao	_	3	advmod	_	tag=ao
+3	og	og	CCONJ	st	_	6	mark	_	tag=st
 4	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_p1
-5	er	er	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p1_et_nt_gm
+5	er	vera	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p1_et_nt_gm
 6	sýnd	sýna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	advcl	_	tag=so_0_lhþt_et
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	fjölmiðlum	fjölmiðill	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	tag=no_ft_þgf_kk
-9	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	ccomp	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 10	spegilmynd	spegilmynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk
 11	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=fn_et_ef_hk
 12	hvernig	hvernig	ADV	ao	_	13	advmod	_	tag=ao
 13	horft	horfa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	11	xcomp	_	tag=so_0_sagnb_gm
-14	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_nt_gm
+14	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_nt_gm
 15	á	eiga	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	konur	kona	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	tag=no_ft_þf_kvk
 17	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
@@ -70,9 +70,8 @@
 
 # sent_id = GREYNIR_CORPUS_00482,.3
 # text = Icelandair Group hefur sent flugvélaframleiðendunum Boeing og Airbus erindi þar sem kallað er eftir formlegum viðræðum um möguleg kaup félagsins á nýjum þotum sem ætlað er að bætast við flota þess á komandi árum.
-1-2	Icelandair Group	_	_	_	_	_	_	_	_
 1	Icelandair	Icelandair	PROPN	fyrirtæki	_	4	nsubj	_	tag=fyrirtæki
-2	Group	Group	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
+2	Group	Group	PROPN	fyrirtæki	_	1	flat	_	MWEEnd=Yes|tag=fyrirtæki
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	sent	senda	VERB	so_2_þgf_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_2_þgf_þf_sagnb_gm
 5	flugvélaframleiðendunum	flugvélaframleiðandi	NOUN	no_ft_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	4	iobj	_	tag=no_ft_þgf_kk_gr
@@ -83,7 +82,7 @@
 10	þar	þar	ADV	ao	_	4	advmod	_	tag=ao
 11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 12	kallað	kalla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	advcl	_	tag=so_0_lhþt_et
-13	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_et_nt_gm
+13	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_et_nt_gm
 14	eftir	eftir	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 15	formlegum	formlegur	ADJ	lo_ft_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Plur	16	amod	_	tag=lo_ft_þgf_kvk_sb
 16	viðræðum	viðræða	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þgf_kvk
@@ -96,16 +95,15 @@
 23	þotum	þot	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	tag=no_ft_þgf_kvk
 24	sem	sem	SCONJ	stt	_	25	mark	_	tag=stt
 25	ætlað	ætla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	23	acl:relcl	_	tag=so_0_lhþt_et
-26	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	tag=so_0_fh_p3_et_nt_gm
+26	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	aux	_	tag=so_0_fh_p3_et_nt_gm
 27	að	að	PART	nhm	_	28	mark	_	tag=nhm
 28	bætast	bæta	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	25	xcomp	_	tag=so_0_nh_mm
 29	við	við	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
 30	flota	flota	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	28	obl	_	tag=no_et_þf_kk
 31	þess	sá	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nmod:poss	_	tag=pfn_et_ef_hk_p3
-32-34	á komandi árum	_	_	_	_	_	_	_	_
-32	á	á	ADV	ao	_	28	advmod	_	SpaceAfter=No|tag=ao
-33	komandi	komandi	ADV	ao	_	32	fixed	_	SpaceAfter=No|tag=ao
-34	árum	árum	ADV	ao	_	32	fixed	_	SpaceAfter=No|tag=ao
+32	á	á	ADV	ao	_	28	advmod	_	tag=ao
+33	komandi	komandi	ADV	ao	_	32	fixed	_	tag=ao
+34	árum	árum	ADV	ao	_	32	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 35	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00482,.4
@@ -168,13 +166,13 @@
 21	en	en	CCONJ	st	_	2	cc	_	tag=st
 22	svo	svo	ADV	ao	_	23	advmod	_	tag=ao
 23	dró	draga	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
-24	úr	úr	X	x		23	dep	_	tag=x
+24	úr	úr	X	x	_	23	dep	_	tag=x
 25	svo	svo	ADV	ao	_	23	advmod	_	tag=ao
 26	úr	úr	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27	henni	hún	PRON	pfn_et_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obl	_	tag=pfn_et_þgf_kvk_p3
 28	enda	enda	CCONJ	st	_	29	cc	_	tag=st
 29	lélegar	lélegur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	23	advcl	_	tag=lo_ft_nf_kvk_sb
-30	heimtur	heimt	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	29	VANTAR_LIÐ_IP_None	_	tag=no_ft_nf_kvk
+30	heimtur	heimt	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	29	dep	_	tag=no_ft_nf_kvk
 31	á	á	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
 32	smálaxi	smálax	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	30	obl	_	tag=no_et_þgf_kk
 
@@ -207,17 +205,16 @@
 25	og	og	CCONJ	st	_	2	cc	_	tag=st
 26	trúði	trúa	VERB	so_1_þgf_fh_p1_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þgf_fh_p1_et_þt_gm
 27	því	sá	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	_	tag=pfn_et_þgf_hk_p3
-28	eins	eins	ADV	ao	_	31	cc	_	tag=ao
-29	og	og	CCONJ	st	_	28	cc	_	tag=st
+28	eins	eins	ADV	ao	_	29	advmod	_	tag=ao
+29	og	og	CCONJ	st	_	31	mark	_	tag=st
 30	nýju	nýr	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	31	amod	_	tag=lo_et_þgf_hk_sb
 31	neti	net	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	26	advcl	_	SpaceAfter=No|tag=no_et_þgf_hk
 32	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00482,.7
-# text = Marco Veratti setti boltann í eigið net á 60. mínútu og kom Arsenal yfir en Alex Iwobi gerði svo slíkt hið sama sautján mínútum síðar og lokatölur á Emirates því 2 - 2.
-1-2	Marco Veratti	_	_	_	_	_	_	_	_
+# text = Marco Veratti setti boltann í eigið net á 60. mínútu og kom Arsenal yfir en Alex Iwobi gerði svo slíkt hið sama sautján mínútum síðar og lokatölur á Emirates því 2-2.
 1	Marco	Marco	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Veratti	Veratti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Veratti	Veratti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	setti	setja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	boltann	bolti	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þf_kk_gr
 5	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
@@ -231,9 +228,8 @@
 13	Arsenal	Arsenal	PROPN	fyrirtæki_þgf	Case=Dat	12	obj	_	tag=fyrirtæki_þgf
 14	yfir	yfir	ADV	ao	_	12	compound:prt	_	tag=ao
 15	en	en	CCONJ	st	_	3	cc	_	tag=st
-16-17	Alex Iwobi	_	_	_	_	_	_	_	_
 16	Alex	Alex	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	nsubj	_	tag=person_nf_kk
-17	Iwobi	Iwobi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	flat	_	tag=person_nf_kk
+17	Iwobi	Iwobi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	flat	_	MWEEnd=Yes|tag=person_nf_kk
 18	gerði	gera	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 19	svo	svo	ADV	eo	_	20	advmod	_	tag=eo
 20	slíkt	slíkur	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	tag=fn_et_þf_hk
@@ -248,13 +244,13 @@
 29	Emirates	Emirates	PROPN	fyrirtæki	_	27	obl	_	tag=fyrirtæki
 30	því	sá	ADV	ao	_	27	advmod	_	tag=ao
 31	2	2	NUM	tala	NumType=Card	27	xcomp	_	SpaceAfter=No|tag=tala
-32	-	-	PUNCT	grm	_	31	punct	_	tag=grm
+32	-	-	PUNCT	grm	_	31	punct	_	SpaceAfter=No|tag=grm
 33	2	2	NUM	tala	NumType=Card	31	nummod	_	SpaceAfter=No|tag=tala
 34	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00482,.8
 # text = „Við megum samt ekki gleyma því í gagnrýni okkar á Tyrki að þeir hafa tekið á móti þremur milljónum flóttamanna en Evrópusambandið og aðildarríki þess hafa tekið á móti broti af þeim fjölda.
-1	„	„	PUNCT	grm	_	6	punct	_	tag=grm
+1	„	„	PUNCT	grm	_	6	punct	_	SpaceAfter=No|tag=grm
 2	Við	við	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_ft_nf_p1
 3	megum	mega	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p1_ft_nt_gm
 4	samt	samt	ADV	ao	_	6	advmod	_	tag=ao
@@ -272,9 +268,8 @@
 16	tekið	taka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	ccomp	_	tag=so_0_sagnb_gm
 17	á	á	ADV	ao	_	21	advmod	_	tag=ao
 18	móti	móti	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-19-20	þremur milljónum	_	_	_	_	_	_	_	_
 19	þremur	þremur	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	21	nummod	_	tag=töl_ft_þgf_kvk
-20	milljónum	milljónum	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	19	_	_	tag=töl_ft_þgf_kvk
+20	milljónum	milljónum	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	19	flat	_	MWEEnd=Yes|tag=töl_ft_þgf_kvk
 21	flóttamanna	flóttamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	16	obl	_	tag=no_ft_ef_kk
 22	en	en	CCONJ	st	_	6	cc	_	tag=st
 23	Evrópusambandið	Evrópusamband	PROPN	fyrirtæki_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	28	nsubj	_	tag=fyrirtæki_et_nf_hk_gr
@@ -284,7 +279,7 @@
 27	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	28	aux	_	tag=so_0_fh_p3_ft_nt_gm
 28	tekið	taka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	conj	_	tag=so_0_sagnb_gm
 29	á	á	ADV	ao	_	31	case	_	tag=ao
-30	móti	móti	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
+30	móti	móti	ADP	fs_þgf	Case=Dat	29	fixed	_	tag=fs_þgf
 31	broti	brot	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	tag=no_et_þgf_hk
 32	af	af	ADP	fs_þgf	Case=Dat	34	case	_	tag=fs_þgf
 33	þeim	hann	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	34	nmod	_	tag=fn_et_þgf_kk
@@ -295,10 +290,9 @@
 # text = Marokkóski varnarmaðurinn Medhi Benatia er að ganga til liðs við katarska meistaraliðið Al-Duhail frá ítalska stórveldinu Juventus og það þrátt fyrir áhuga enska úrvalsdeildarliða á borð við Arsenal og Manchester United.
 1	Marokkóski	marokkóskur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_vb
 2	varnarmaðurinn	varnarmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk_gr
-3-4	Medhi Benatia	_	_	_	_	_	_	_	_
 3	Medhi	Medhi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
-4	Benatia	Benatia	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
-5	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
+4	Benatia	Benatia	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	MWEEnd=Yes|tag=person_nf_kk
+5	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	ganga	ganga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
 8	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
@@ -313,9 +307,8 @@
 17	Juventus	Juventus	PROPN	fyrirtæki	_	16	obl	_	tag=fyrirtæki
 18	og	og	CCONJ	st	_	7	cc	_	tag=st
 19	það	sá	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	tag=pfn_et_þf_hk_p3
-20-21	þrátt fyrir	_	_	_	_	_	_	_	_
 20	þrátt	þrátt	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
-21	fyrir	fyrir	ADP	fs_þf	Case=Acc	20	fixed	_	tag=fs_þf
+21	fyrir	fyrir	ADP	fs_þf	Case=Acc	20	fixed	_	MWEEnd=Yes|tag=fs_þf
 22	áhuga	áhugi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_þf_kk
 23	enska	enska	ADJ	lo_ft_ef_kk_vb	Case=Gen|Gender=Masc|Number=Plur	24	amod	_	tag=lo_ft_ef_kk_vb
 24	úrvalsdeildarliða	úrvals-deildarlið	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	22	nmod:poss	_	tag=no_ft_ef_hk
@@ -324,9 +317,8 @@
 27	við	við	ADP	fs_þf	Case=Acc	28	case	_	tag=fs_þf
 28	Arsenal	Arsenal	PROPN	fyrirtæki_þf	Case=Acc	26	obl	_	tag=fyrirtæki_þf
 29	og	og	CCONJ	st	_	30	cc	_	tag=st
-30-31	Manchester United	_	_	_	_	_	_	_	_
-30	Manchester	Manchester	PROPN	fyrirtæki	_	28	conj	_	SpaceAfter=No|tag=fyrirtæki
-31	United	United	PROPN	fyrirtæki	_	30	flat	_	SpaceAfter=No|tag=fyrirtæki
+30	Manchester	Manchester	PROPN	fyrirtæki	_	28	conj	_	tag=fyrirtæki
+31	United	United	PROPN	fyrirtæki	_	30	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=fyrirtæki
 32	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00482,.10
@@ -337,7 +329,7 @@
 4	fundist	finna	AUX	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	6	aux	_	tag=so_0_sagnb_mm
 5	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	obj	_	tag=pfn_et_nf_p1
 6	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_nf_nh_gm
-7	á	eiga	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+7	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 8	svipuðum	svipa	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_þgf_kk_sb
 9	aldri	aldur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
 10	og	og	CCONJ	st	_	11	cc	_	tag=st
@@ -345,9 +337,8 @@
 12	þeir	hann	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	11	nmod	_	tag=fn_ft_nf_kk
 13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
 14	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
-15-16	í kringum	_	_	_	_	_	_	_	_
 15	í	í	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-16	kringum	kringum	ADP	fs_þf	Case=Acc	15	fixed	_	tag=fs_þf
+16	kringum	kringum	ADP	fs_þf	Case=Acc	15	fixed	_	MWEEnd=Yes|tag=fs_þf
 17	mig	ég	PRON	pfn_et_þf_p1	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	tag=pfn_et_þf_p1
 18	og	og	CCONJ	st	_	19	cc	_	tag=st
 19	hverja	hver	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	17	conj	_	tag=fn_ft_þf_kk
@@ -358,10 +349,10 @@
 24	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
 25	samskiptum	samskipti	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	23	obl	_	tag=no_ft_þgf_hk
 26	við	við	ADV	ao	_	23	compound:prt	_	tag=ao
-27	án	án	ADP	fs_ef	Case=Gen	28	case	_	tag=fs_ef
-28	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_ef_hk
+27	án	án	ADP	fs_ef	Case=Gen	30	case	_	tag=fs_ef
+28	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	tag=fn_et_ef_hk
 29	að	að	PART	nhm	_	30	mark	_	tag=nhm
-30	skilgreina	skilgrein	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	28	xcomp	_	tag=so_1_þf_nh_gm
+30	skilgreina	skilgrein	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	obl	_	tag=so_1_þf_nh_gm
 31	það	sá	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	obj	_	tag=pfn_et_þf_hk_p3
 32	nánar	náinn	ADV	ao	_	30	advmod	_	SpaceAfter=No|tag=ao
 33	.	.	PUNCT	grm	_	6	punct	_	tag=grm

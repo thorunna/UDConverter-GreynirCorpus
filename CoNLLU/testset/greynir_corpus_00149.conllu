@@ -15,9 +15,8 @@
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	500	500	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	8	nummod	_	tag=tala_ft_þf_kvk
 15	eða	eða	CCONJ	st	_	8	cc	_	tag=st
-16-17	1.000 kr.	_	_	_	_	_	_	_	_
 16	1.000	1.000	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	conj	_	tag=no_ft_þf_hk
-17	kr.	kr.	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	16	flat	_	tag=no_ft_þf_hk
+17	kr.	kr.	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	16	flat	_	MWEEnd=Yes|tag=no_ft_þf_hk
 18	sem	sem	SCONJ	stt	_	19	mark	_	tag=stt
 19	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 20	lögð	leggja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	19	acl:relcl	_	tag=so_0_lhþt_et
@@ -28,7 +27,7 @@
 25	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00149,.2
-# text = Hvað aðrar tekjur sveitarfélagsins af mögulegri virkjun áhrærir gætu fasteignatekjur numið 20 - 30 milljónum króna árlega en það mat er háð talsverðri óvissu.
+# text = Hvað aðrar tekjur sveitarfélagsins af mögulegri virkjun áhrærir gætu fasteignatekjur numið 20-30 milljónum króna árlega en það mat er háð talsverðri óvissu.
 1	Hvað	hver	PRON	fn	_	8	obl	_	tag=fn
 2	aðrar	annar	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	tag=fn_ft_þf_kvk
 3	tekjur	tekja	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	tag=no_ft_þf_kvk
@@ -41,11 +40,10 @@
 10	fasteignatekjur	fasteignatekja	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	tag=no_ft_nf_kvk
 11	numið	nema	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
 12	20	20	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	14	nummod	_	SpaceAfter=No|tag=tala_ft_þgf_kvk
-13	-	_	PUNCT	grm	_	12	punct	_	tag=grm
-14-16	30 milljónum króna	_	_	_	_	_	_	_	_
+13	-	_	PUNCT	grm	_	12	punct	_	SpaceAfter=No|tag=grm
 14	30	30	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	obj	_	tag=no_ft_þgf_kvk
 15	milljónum	milljónir	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	flat	_	tag=no_ft_þgf_kvk
-16	króna	króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	flat	_	tag=no_ft_þgf_kvk
+16	króna	króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	flat	_	MWEEnd=Yes|tag=no_ft_þgf_kvk
 17	árlega	árlega	ADV	ao	_	11	advmod	_	tag=ao
 18	en	en	CCONJ	st	_	11	cc	_	tag=st
 19	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	20	nmod	_	tag=fn_et_nf_hk
@@ -69,16 +67,16 @@
 9	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_þgf_hk_evb
 10	tímabili	tímabil	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 11	en	en	CCONJ	st	_	2	cc	_	tag=st
-12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-13	nú	nú	ADV	ao	_	2	advmod	_	tag=ao
+12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+13	nú	nú	ADV	ao	_	12	advmod	_	tag=ao
 14	með	með	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 15	öruggt	öruggur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þf_hk_sb
-16	sæti	sæti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk
+16	sæti	sæti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þf_hk
 17	fyrir	fyrir	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
 18	næsta	næstur	ADJ	lo_et_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	19	amod	_	tag=lo_et_þf_hk_evb
-19	keppnistímabil	keppnistímabil	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk
+19	keppnistímabil	keppnistímabil	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þf_hk
 20	eftir	eftir	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	árangur	árangur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
+21	árangur	árangur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þf_kk
 22	helgarinnar	helgi	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -86,9 +84,8 @@
 # text = Sabadell-bankinn tilkynnti í gær um flutning höfuðstöðva frá Katalóníu en hlutabréf í bankanum höfðu lækkað um 10% í verði í kjölfar kosninganna.
 1	Sabadell-bankinn	Sabadell-banki	PROPN	fyrirtæki	_	2	nsubj	_	tag=fyrirtæki
 2	tilkynnti	tilkynna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-3-4	í gær	_	_	_	_	_	_	_	_
 3	í	í	ADV	ao	_	2	advmod	_	tag=ao
-4	gær	gær	ADV	ao	_	3	fixed	_	tag=ao
+4	gær	gær	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	flutning	flutningur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
 7	höfuðstöðva	höfuðstöðvar	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	6	nmod:poss	_	tag=no_ft_ef_kvk
@@ -112,7 +109,7 @@
 # sent_id = GREYNIR_CORPUS_00149,.5
 # text = Hún var meðlimur í hljómsveitinni sem flutti tónlistina í Ronju ræningjadóttur í Þjóðleikhúsinu og hefur komið fram með hljómsveit sem flytur hennar eigið efni.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kvk_p3
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	meðlimur	meðlimur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	hljómsveitinni	hljómsveit	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk_gr
@@ -146,9 +143,8 @@
 5	geti	geta	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_nt_gm
 6	kannski	kannski	ADV	ao	_	7	advmod	_	tag=ao
 7	flutt	flytja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	ccomp	_	tag=so_0_sagnb_gm
-8-9	til baka	_	_	_	_	_	_	_	_
-8	til	til	ADV	ao	_	7	compound:prt	_	SpaceAfter=No|tag=ao
-9	baka	baka	ADV	ao	_	8	fixed	_	SpaceAfter=No|tag=ao
+8	til	til	ADV	ao	_	7	compound:prt	_	tag=ao
+9	baka	baka	ADV	ao	_	8	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 10	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 11	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_p1
 12	veit	vita	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p1_et_nt_gm
@@ -158,9 +154,8 @@
 16	kannski	kannski	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
 17	,	_	PUNCT	grm	_	16	punct	_	tag=grm
 18	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-19-20	Justus Paulsen	_	_	_	_	_	_	_	_
 19	Justus	Justus	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	nsubj	_	tag=person_nf_kk
-20	Paulsen	Paulsen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	flat	_	tag=person_nf_kk
+20	Paulsen	Paulsen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	flat	_	MWEEnd=Yes|tag=person_nf_kk
 21	að	að	ADP	fs	_	22	case	_	tag=fs
 22	lokum	lokum	NOUN	no	_	18	obl	_	SpaceAfter=No|tag=no
 23	.	_	PUNCT	grm	_	18	punct	_	tag=grm
@@ -178,14 +173,13 @@
 9	þunglyndi	þunglyndi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
 10	Íslendinga	Íslendingur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	9	nmod:poss	_	tag=no_ft_ef_kk
 11	en	en	CCONJ	st	_	2	cc	_	tag=st
-12-13	meðal annars	_	_	_	_	_	_	_	_
 12	meðal	meðal	ADV	ao	_	15	advmod	_	tag=ao
-13	annars	annars	ADV	ao	_	12	fixed	_	tag=ao
+13	annars	annars	ADV	ao	_	12	fixed	_	MWEEnd=Yes|tag=ao
 14	má	mega	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_fh_p3_et_nt_gm
 15	nefna	nefna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	conj	_	tag=so_1_þf_nh_gm
 16	að	að	SCONJ	st	_	15	ccomp	_	tag=st
 17	hvergi	hvergi	ADV	ao	_	21	advmod	_	tag=ao
-18	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+18	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 19	neysla	neysla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	tag=no_et_nf_kvk
 20	þunglyndislyfja	þunglyndislyf	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	19	nmod:poss	_	tag=no_ft_ef_hk
 21	meiri	mikill	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	16	xcomp	_	tag=lo_et_nf_kvk_mst
@@ -211,73 +205,66 @@
 13	kaupverð	kaupverð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_þf_hk
 14	numið	nema	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	3	conj	_	tag=so_0_sagnb_gm
 15	allt	allur	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	case	_	tag=fn_et_þf_hk
-16	að	að	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-17-19	60 milljörðum dala	_	_	_	_	_	_	_	_
-17	60	60	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
-18	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	flat	_	SpaceAfter=No|tag=no_ft_þgf_kk
-19	dala	dala	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	flat	_	SpaceAfter=No|tag=no_ft_þgf_kk
+16	að	að	ADP	fs_þgf	Case=Dat	15	fixed	_	tag=fs_þgf
+17	60	60	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	tag=no_ft_þgf_kk
+18	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	flat	_	tag=no_ft_þgf_kk
+19	dala	dala	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	flat	_	MWEEnd=Yes|tag=no_ft_þgf_kk
 20	—	_	PUNCT	grm	_	17	punct	_	tag=grm
-21-24	6.280 milljarðar íslenskra króna	_	_	_	_	_	_	_	_
-21	6.280	6.280	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No|tag=no_ft_nf_kk
-22	milljarðar	milljarðar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	21	flat	_	SpaceAfter=No|tag=no_ft_nf_kk
-23	íslenskra	íslenskra	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	21	flat	_	SpaceAfter=No|tag=no_ft_nf_kk
-24	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	21	flat	_	SpaceAfter=No|tag=no_ft_nf_kk
+21	6.280	6.280	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	17	obl	_	tag=no_ft_nf_kk
+22	milljarðar	milljarðar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	21	flat	_	tag=no_ft_nf_kk
+23	íslenskra	íslenskra	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	21	flat	_	tag=no_ft_nf_kk
+24	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	21	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_ft_nf_kk
 25	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00149,.9
 # text = Badminton-konan Pusarla Venkata Sindhu frá Indlandi vann sér nefnilega inn 8,5 milljónir dollara á síðasta ári eða 921 milljón í íslenskum krónum.
 1	Badminton-konan	badminton-kona	NOUN	no_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	tag=no_nf_kvk
-2-4	Pusarla Venkata Sindhu	_	_	_	_	_	_	_	_
 2	Pusarla	Pusarla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
 3	Venkata	Venkata	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	flat	_	tag=person_nf_kvk
-4	Sindhu	Sindhu	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	flat	_	tag=person_nf_kvk
+4	Sindhu	Sindhu	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 5	frá	frá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Indlandi	Indland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=sérnafn_et_þgf_hk
 7	vann	vinna	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
 8	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	7	iobj	_	tag=abfn_þgf
 9	nefnilega	nefnilega	ADV	ao	_	7	advmod	_	tag=ao
 10	inn	inn	ADV	ao	_	7	compound:prt	_	tag=ao
-11-13	8,5 milljónir dollara	_	_	_	_	_	_	_	_
 11	8,5	8,5	NUM	tala	NumType=Card	7	obj	_	tag=tala
-12	milljónir	milljónir	NUM	tala	NumType=Card	11	_	_	tag=tala
-13	dollara	dollara	NUM	tala	NumType=Card	12	_	_	tag=tala
+12	milljónir	milljónir	NUM	tala	NumType=Card	11	flat	_	tag=tala
+13	dollara	dollara	NUM	tala	NumType=Card	11	flat	_	MWEEnd=Yes|tag=tala
 14	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 15	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þgf_hk_evb
 16	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	advmod	_	tag=no_et_þgf_hk
 17	eða	eða	CCONJ	st	_	11	cc	_	tag=st
-18-19	921 milljón	_	_	_	_	_	_	_	_
 18	921	921	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	nummod	_	tag=töl_ft_þf_kvk
-19	milljón	milljón	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	18	_	_	tag=töl_ft_þf_kvk
+19	milljón	milljón	NUM	töl_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	18	flat	_	MWEEnd=Yes|tag=töl_ft_þf_kvk
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-21-22	íslenskum krónum	_	_	_	_	_	_	_	_
-21	íslenskum	íslenskur	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-22	krónum	króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	21	flat	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+21	íslenskum	íslenskur	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	tag=no_ft_þgf_kvk
+22	krónum	króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	21	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_ft_þgf_kvk
 23	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00149,.10
 # text = Quincy Jones er 84 ra ára og hefur á ferli sínum verið tilnefndur 79 sinnum til Grammy-verðlauna og unnið þau 28 sinnum.
-1-2	Quincy Jones	_	_	_	_	_	_	_	_
 1	Quincy	Quincy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	Jones	Jones	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	Jones	Jones	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	84	84	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_ef_hk
 5	ra	ra	PROPN	entity	_	0	root	_	tag=entity
 6	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	conj	_	tag=no_ft_ef_hk
 7	og	og	CCONJ	st	_	5	cc	_	tag=st
-8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
+8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_nt_gm
 9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	ferli	ferill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
+10	ferli	ferill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þgf_kk
 11	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	tag=fn_et_þgf_kk
-12	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	aux	_	tag=so_1_nf_sagnb_gm
-13	tilnefndur	tilnefna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	cop	_	tag=so_0_lhþt_et
-14	79	79	ADV	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	5	advmod	_	tag=tala_ft_þgf_hk
+12	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	13	aux	_	tag=so_1_nf_sagnb_gm
+13	tilnefndur	tilnefna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	conj	_	tag=so_0_lhþt_et
+14	79	79	ADV	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	13	advmod	_	tag=tala_ft_þgf_hk
 15	sinnum	sinn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_þgf_hk
 16	til	til	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
-17	Grammy-verðlauna	Grammy-verðlaun	PROPN	entity	_	5	obl	_	tag=entity
-18	og	og	CCONJ	st	_	5	cc	_	tag=st
-19	unnið	vinna	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	5	conj	_	tag=so_1_þf_sagnb_gm
-20	þau	það	PRON	pfn_ft_þf_hk_p3	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	5	obj	_	tag=pfn_ft_þf_hk_p3
-21	28	28	ADV	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	5	advmod	_	tag=tala_ft_þgf_hk
+17	Grammy-verðlauna	Grammy-verðlaun	PROPN	entity	_	13	obl	_	tag=entity
+18	og	og	CCONJ	st	_	13	cc	_	tag=st
+19	unnið	vinna	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	13	conj	_	tag=so_1_þf_sagnb_gm
+20	þau	það	PRON	pfn_ft_þf_hk_p3	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Prs	13	obj	_	tag=pfn_ft_þf_hk_p3
+21	28	28	ADV	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	13	advmod	_	tag=tala_ft_þgf_hk
 22	sinnum	sinn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	21	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 23	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

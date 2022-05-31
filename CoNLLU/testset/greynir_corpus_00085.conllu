@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00085,.1
 # text = Hann er jafnframt stærsti einstaki hluthafi þess með ríflega 80 prósenta hlut í árslok 2016.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_kk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	jafnframt	jafnframt	ADV	eo	_	6	advmod	_	tag=eo
 4	stærsti	stór	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_evb
 5	einstaki	einstakur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_vb
@@ -9,9 +9,8 @@
 7	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	tag=pfn_et_ef_hk_p3
 8	með	með	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 9	ríflega	ríflega	ADV	eo	_	10	advmod	_	tag=eo
-10-11	80 prósenta	_	_	_	_	_	_	_	_
 10	80	80	NUM	prósenta	_	12	nmod:poss	_	tag=prósenta
-11	prósenta	prósent	NUM	prósenta	_	10	_	_	tag=prósenta
+11	prósenta	prósent	NUM	prósenta	_	10	flat	_	MWEEnd=Yes|tag=prósenta
 12	hlut	hlutur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þf_kk
 13	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	árslok	árslok	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_þf_hk
@@ -32,7 +31,7 @@
 10	eftirlitið	eftirlit	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	tag=no_et_nf_hk_gr
 11	með	með	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	ölvunarakstri	ölvunarakstur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þgf_kk
-13	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
+13	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
 14	mjög	mjög	ADV	eo	_	15	advmod	_	tag=eo
 15	strangt	strangur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -81,7 +80,7 @@
 2	komuna	koma	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk_gr
 3	til	til	ADP	fs	_	4	case	_	tag=fs
 4	Kenía	Kenía	PROPN	sérnafn	_	2	obl	_	tag=sérnafn
-5	var	var	AUX	so_0	_	7	aux	_	tag=so_0
+5	var	vera	AUX	so_0	_	7	aux	_	tag=so_0
 6	nashyrninganna	nashyrningur	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	tag=no_ft_ef_kk_gr
 7	gætt	gæta	VERB	so_0	_	0	root	_	tag=so_0
 8	af	af	ADP	fs	_	10	case	_	tag=fs
@@ -96,18 +95,17 @@
 
 # sent_id = GREYNIR_CORPUS_00085,.6
 # text = Skömmu eftir að hann var látinn laus bauðst honum að verða félagi í glæpagenginu Bandidos.
-1-2	Skömmu eftir	_	_	_	_	_	_	_	_
-1	Skömmu	skömmu	ADV	ao	_	7	mark	_	tag=ao
-2	eftir	eftir	ADV	ao	_	1	fixed	_	tag=ao
-3	að	að	SCONJ	st	_	1	cc	_	tag=st
+1	Skömmu	skömmu	ADV	ao	_	3	advmod	_	tag=ao
+2	eftir	eftir	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
+3	að	að	SCONJ	st	_	7	mark	_	tag=st
 4	hann	hann	PRON	pfn	PronType=Prs	7	nsubj	_	tag=pfn
-5	var	var	AUX	so_0	_	7	aux	_	tag=so_0
-6	látinn	láta	VERB	so_0	_	7	conj	_	tag=so_0
+5	var	vera	AUX	so_0	_	7	aux	_	tag=so_0
+6	látinn	láta	AUX	so_0	_	7	aux	_	tag=so_0
 7	laus	laus	ADJ	lo	_	8	advcl	_	tag=lo
 8	bauðst	bjóða	VERB	so_0	_	0	root	_	tag=so_0
 9	honum	hann	PRON	pfn	PronType=Prs	8	nsubj	_	tag=pfn
 10	að	að	PART	nhm	_	12	mark	_	tag=nhm
-11	verða	verða	VERB	so_0	_	12	cop	_	tag=so_0
+11	verða	verða	AUX	so_0	_	12	cop	_	tag=so_0
 12	félagi	félagi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	xcomp	_	tag=no_et_nf_kk
 13	í	í	ADP	fs	_	15	case	_	tag=fs
 14	glæpagenginu	glæpagengi	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þgf_hk_gr
@@ -121,7 +119,7 @@
 3	hef	hafa	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p1_et_nt_gm
 4	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_p1
 5	alltaf	alltaf	ADV	ao	_	7	advmod	_	tag=ao
-6	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	cop	_	tag=so_1_nf_sagnb_gm
+6	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	cop	_	tag=so_1_nf_sagnb_gm
 7	bílstjóri	bílstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 8	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	þessum	þessi	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	tag=fn_ft_þgf_kvk
@@ -158,12 +156,11 @@
 3	við	við	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=fn_et_þgf_hk
 5	að	að	SCONJ	st	_	13	mark	_	tag=st
-6-7	Ron DeSantis	_	_	_	_	_	_	_	_
-6	Ron	Ron	PROPN	person	_	9	conj	_	SpaceAfter=No|tag=person
-7	DeSantis	DeSantis	PROPN	person	_	6	flat	_	SpaceAfter=No|tag=person
+6	Ron	Ron	PROPN	person	_	13	nsubj	_	tag=person
+7	DeSantis	DeSantis	PROPN	person	_	6	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person
 8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-9	ríkisstjóri	ríkisstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=no_et_nf_kk
-10	Flórída	Flórída	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
+9	ríkisstjóri	ríkisstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	tag=no_et_nf_kk
+10	Flórída	Flórída	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12	muni	munu	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_vh_p3_ft_nt_gm
 13	skrifa	skrifa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	ccomp	_	tag=so_0_nh_gm
@@ -179,9 +176,8 @@
 4	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_ft_nf_hk_p3
 5	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_vh_p3_ft_nt_gm
 6	sameinast	sameina	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	2	advcl	_	tag=so_0_sagnb_mm
-7-8	á ný	_	_	_	_	_	_	_	_
 7	á	á	ADV	ao	_	6	advmod	_	tag=ao
-8	ný	ný	ADV	ao	_	7	fixed	_	tag=ao
+8	ný	ný	ADV	ao	_	7	fixed	_	MWEEnd=Yes|tag=ao
 9	og	og	CCONJ	st	_	6	cc	_	tag=st
 10	farið	fara	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	conj	_	tag=so_0_sagnb_gm
 11	aftur	aftur	ADV	ao	_	6	advmod	_	tag=ao

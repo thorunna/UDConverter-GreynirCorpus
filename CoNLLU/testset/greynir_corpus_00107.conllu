@@ -5,16 +5,15 @@
 3	hreiminn	hreimur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk_gr
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	skín	skína	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-6-7	í gegn	_	_	_	_	_	_	_	_
 6	í	í	ADV	ao	_	5	compound:prt	_	tag=ao
-7	gegn	gegn	ADV	ao	_	6	fixed	_	tag=ao
+7	gegn	gegn	ADV	ao	_	6	fixed	_	MWEEnd=Yes|tag=ao
 8	þegar	þegar	SCONJ	st	_	10	mark	_	tag=st
 9	þið	þú	PRON	pfn_ft_nf_p2	Case=Nom|Number=Plur|Person=2|PronType=Prs	10	nsubj	_	tag=pfn_ft_nf_p2
 10	talið	tala	VERB	so_1_þf_fh_p2_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Voice=Act	5	advcl	_	tag=so_1_þf_fh_p2_ft_nt_gm
 11	ensku	enska	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	tag=no_et_þf_kvk
 12	og	og	CCONJ	st	_	2	cc	_	tag=st
 13	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_p1
-14	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_nf_fh_p1_et_nt_gm
+14	er	vera	AUX	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_nf_fh_p1_et_nt_gm
 15	gríðarlegur	gríðarlegur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_nf_kk_sb
 16	áðdáandi	aðdáandi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	tag=no_et_nf_hk
 17	Bjarkar	Björk	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	16	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
@@ -46,7 +45,7 @@
 # text = Ég hef líka látið plata mig í WOW Cyclothon og farið 2 eða 3 hringi með góðu fólki.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_p1
 2	hef	hafa	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p1_et_nt_gm
-3	líka	líka	ADV	ao	_	2	advmod	_	tag=ao
+3	líka	líka	ADV	ao	_	5	advmod	_	tag=ao
 4	látið	láta	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	aux	_	tag=so_0_sagnb_gm
 5	plata	plata	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 6	mig	ég	PRON	pfn_et_þf_p1	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	tag=pfn_et_þf_p1
@@ -75,10 +74,10 @@
 7	heimsálfum	heimsálfa	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_þgf_kvk
 8	unnu	vinna	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_ft_þt_gm
 9	saman	saman	ADV	ao	_	8	compound:prt	_	tag=ao
-10	að	að	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=fn_et_þgf_hk
+10	að	að	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
+11	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	tag=fn_et_þgf_hk
 12	að	að	PART	nhm	_	13	mark	_	tag=nhm
-13	afhjúpa	afhjúpa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	xcomp	_	tag=so_1_þf_nh_gm
+13	afhjúpa	afhjúpa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	obl	_	tag=so_1_þf_nh_gm
 14	skattaskjól	skattaskjól	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	tag=no_et_þf_hk
 15	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	eyjum	eyja	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	tag=no_ft_þgf_kvk
@@ -145,8 +144,8 @@
 12	við	við	ADV	ao	_	11	advmod	_	tag=ao
 13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	málum	mál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þgf_hk
-15	eins	eins	ADV	ao	_	17	cc	_	tag=ao
-16	og	og	CCONJ	st	_	15	cc	_	tag=st
+15	eins	eins	ADV	ao	_	16	advmod	_	tag=ao
+16	og	og	CCONJ	st	_	17	mark	_	tag=st
 17	þessum	þessi	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	14	advcl	_	SpaceAfter=No|tag=fn_ft_þgf_hk
 18	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
@@ -167,10 +166,9 @@
 13	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 14	með	með	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	nálastungumeðferðum	nálastungumeðferð	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	tag=no_ft_þgf_kvk
-16-18	hér á landi	_	_	_	_	_	_	_	_
-16	hér	hér	ADV	ao	_	13	advmod	_	SpaceAfter=No|tag=ao
-17	á	á	ADV	ao	_	16	fixed	_	SpaceAfter=No|tag=ao
-18	landi	landi	ADV	ao	_	16	fixed	_	SpaceAfter=No|tag=ao
+16	hér	hér	ADV	ao	_	13	advmod	_	tag=ao
+17	á	á	ADV	ao	_	16	fixed	_	tag=ao
+18	landi	landi	ADV	ao	_	16	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00107,.9

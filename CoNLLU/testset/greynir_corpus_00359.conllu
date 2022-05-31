@@ -1,6 +1,6 @@
 # sent_id = GREYNIR_CORPUS_00359,.1
 # text = „Hann talar um Repúblikana á þingi í þriðju persónu.
-1	„	„	PUNCT	grm	_	3	punct	_	tag=grm
+1	„	„	PUNCT	grm	_	3	punct	_	SpaceAfter=No|tag=grm
 2	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
 3	talar	tala	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	um	um	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
@@ -50,20 +50,19 @@
 6	áratugina	áratugur	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_þf_kk_gr
 7	svo	svo	ADV	eo	_	8	advmod	_	tag=eo
 8	mikið	mikill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=lo_et_nf_hk_sb
-9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	víst	vís	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_fst_sb
 11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00359,.5
 # text = Þetta voru yfir 60 símtöl í gærkvöldi,“ segir Júlíus.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
-2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
+2	voru	vera	AUX	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 3	yfir	yfir	ADV	eo	_	5	advmod	_	tag=eo
 4	60	60	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_nf_hk
 5	símtöl	símtal	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	1	xcomp	_	tag=no_ft_nf_hk
-6-7	í gærkvöldi	_	_	_	_	_	_	_	_
-6	í	í	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
-7	gærkvöldi	gærkvöldi	ADV	ao	_	6	fixed	_	SpaceAfter=No|tag=ao
+6	í	í	ADV	ao	_	5	advmod	_	tag=ao
+7	gærkvöldi	gærkvöldi	ADV	ao	_	6	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 8	,	,	PUNCT	grm	_	10	punct	_	SpaceAfter=No|tag=grm
 9	“	“	PUNCT	grm	_	8	punct	_	tag=grm
 10	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
@@ -78,7 +77,7 @@
 4	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk
 5	virðast	virða	AUX	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	8	aux	_	tag=so_0_fh_p3_ft_nt_mm
 6	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	aux	_	tag=so_0_nh_gm
-7	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	cop	_	tag=so_1_nf_sagnb_gm
+7	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	cop	_	tag=so_1_nf_sagnb_gm
 8	viðstödd	viðstaddur	ADJ	lo_ft_nf_hk_sb_sþf	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb_sþf
 9	setningu	setning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þf_kvk
 10	hennar	hún	PRON	pfn_et_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	SpaceAfter=No|tag=pfn_et_ef_kvk_p3
@@ -101,9 +100,8 @@
 # sent_id = GREYNIR_CORPUS_00359,.8
 # text = Í janúar 2015 hlaut hún sjö mánaða dóm fyrir sama brot.
 1	Í	í	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
-2-3	janúar 2015	_	_	_	_	_	_	_	_
 2	janúar	janúar	ADV	dagsafs	_	4	advmod	_	tag=dagsafs
-3	2015	2015	NOUN	dagsafs	_	2	flat	_	tag=dagsafs
+3	2015	2015	NOUN	dagsafs	_	2	flat	_	MWEEnd=Yes|tag=dagsafs
 4	hlaut	hljóta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 5	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kvk_p3
 6	sjö	sjö	NUM	töl_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	8	obl	_	tag=töl_ft_ef_kk
@@ -133,10 +131,10 @@
 1	Möguleiki	möguleiki	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 2	Fram	Fram	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_hk
 3	felst	fela	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
-4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
+4	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	tag=fn_et_þgf_hk
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
-7	skora	skora	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
+7	skora	skora	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	obl	_	tag=so_1_þf_nh_gm
 8	yfir	yfir	ADV	eo	_	10	advmod	_	tag=eo
 9	30	30	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	10	nummod	_	tag=tala_ft_þf_hk
 10	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No|tag=no_ft_þf_hk

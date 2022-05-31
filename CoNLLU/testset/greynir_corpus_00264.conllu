@@ -5,9 +5,8 @@
 3	tjón	tjón	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
 4	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 5	rúmlega	rúmlega	ADV	eo	_	8	advmod	_	tag=eo
-6-7	fjögur þúsund	_	_	_	_	_	_	_	_
 6	fjögur	fjögur	NUM	tala_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	8	nummod	_	tag=tala_ft_þgf_kk
-7	þúsund	þúsund	NUM	tala_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	6	_	_	tag=tala_ft_þgf_kk
+7	þúsund	þúsund	NUM	tala_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	6	flat	_	MWEEnd=Yes|tag=tala_ft_þgf_kk
 8	húsum	húsi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	tag=no_ft_þgf_kk
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
 10	nam	nema	VERB	so_2_þf_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_2_þf_þgf_fh_p3_et_þt_gm
@@ -15,17 +14,15 @@
 12	tjón	tjón	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	nsubj	_	tag=no_et_þf_hk
 13	að	að	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	meðaltali	meðaltal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
-15-17	2,7 milljónum króna	_	_	_	_	_	_	_	_
-15	2,7	2,7	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-16	milljónum	milljónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	flat	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-17	króna	króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	flat	_	SpaceAfter=No|tag=no_ft_þgf_kvk
+15	2,7	2,7	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	obj	_	tag=no_ft_þgf_kvk
+16	milljónum	milljónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	flat	_	tag=no_ft_þgf_kvk
+17	króna	króna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_ft_þgf_kvk
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00264,.2
 # text = Stefán Rafn er að koma til en það var ákveðið að hann kæmi ekki með út.
-1-2	Stefán Rafn	_	_	_	_	_	_	_	_
 1	Stefán	Stefán	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	Rafn	Rafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Rafn	Rafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
@@ -158,8 +155,8 @@
 7	hámarkshraðann	hámarkshraði	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_nf_hk
-10	væri	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_vh_p3_et_nt_gm
-11	eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_nf_hk
+10	væri	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_vh_p3_et_nt_gm
+11	eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	obl	_	tag=fn_et_nf_hk
 12	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
 13	hægt	hægt	ADJ	lo	_	14	nsubj	_	tag=lo
 14	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	tag=so_0_vh_p3_et_þt_gm
@@ -195,9 +192,8 @@
 2	Sameinuðu	sameinaður	ADJ	lo_ft_ef_kvk_vb	Case=Gen|Gender=Fem|Number=Plur	3	amod	_	tag=lo_ft_ef_kvk_vb
 3	þjóðanna	þjóð	NOUN	no_ft_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk_gr
 4	fundaði	funda	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-5-6	í gær	_	_	_	_	_	_	_	_
 5	í	í	ADV	ao	_	4	advmod	_	tag=ao
-6	gær	gær	ADV	ao	_	5	fixed	_	tag=ao
+6	gær	gær	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 7	og	og	CCONJ	st	_	4	cc	_	tag=st
 8	ræddi	ræða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 9	drög	drag	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	tag=no_ft_þf_hk

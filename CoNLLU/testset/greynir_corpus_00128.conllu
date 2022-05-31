@@ -25,7 +25,7 @@
 # sent_id = GREYNIR_CORPUS_00128,.2
 # text = Kerfið er gagnvirkt og hugsað á þann hátt að fólk læri að skilja og sigrast á þeim aðferðum sem tölvuglæpamenn beita.
 1	Kerfið	kerfi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	gagnvirkt	gagnvirkur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	hugsað	hugsa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
@@ -48,7 +48,7 @@
 22	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00128,.3
-# text = Argentína náði að lauma inn einu marki til viðbótar áður en flautað var til leikhlés, staðan þá 9 – 2.
+# text = Argentína náði að lauma inn einu marki til viðbótar áður en flautað var til leikhlés, staðan þá 9–2.
 1	Argentína	Argentína	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=sérnafn_et_nf_kvk
 2	náði	ná	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
@@ -58,8 +58,8 @@
 7	marki	mark	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þgf_hk
 8	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
 9	viðbótar	viðbót	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_ef_kvk
-10	áður	áður	ADV	ao	_	12	cc	_	tag=ao
-11	en	en	CCONJ	st	_	10	cc	_	tag=st
+10	áður	áður	ADV	ao	_	11	advmod	_	tag=ao
+11	en	en	CCONJ	st	_	12	mark	_	tag=st
 12	flautað	flauta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	advcl	_	tag=so_0_lhþt_et
 13	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	aux	_	tag=so_0_fh_p3_et_þt_gm
 14	til	til	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
@@ -68,7 +68,7 @@
 17	staðan	staða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	tag=no_et_nf_kvk_gr
 18	þá	þá	ADV	ao	_	17	advmod	_	tag=ao
 19	9	9	NUM	tala	NumType=Card	17	xcomp	_	SpaceAfter=No|tag=tala
-20	–	_	PUNCT	grm	_	19	punct	_	tag=grm
+20	–	_	PUNCT	grm	_	19	punct	_	SpaceAfter=No|tag=grm
 21	2	2	NUM	tala	NumType=Card	19	nummod	_	SpaceAfter=No|tag=tala
 22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -79,7 +79,7 @@
 3	líka	líka	ADV	ao	_	4	advmod	_	tag=ao
 4	gott	góður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=lo_et_nf_hk_sb
 5	að	að	PART	nhm	_	7	mark	_	tag=nhm
-6	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	7	cop	_	tag=so_1_nf_nh_gm
+6	vera	vera	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	7	cop	_	tag=so_1_nf_nh_gm
 7	meðvitaður	meðvitaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	csubj	_	tag=lo_et_nf_kk_sb
 8	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 9	hvenær	hvenær	ADV	ao	_	13	advmod	_	tag=ao
@@ -113,8 +113,8 @@
 12	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 13	heitum	heitur	ADJ	lo_et_þgf_kk_fst_sb	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_þgf_kk_fst_sb
 14	hafragraut	hafragrautur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þgf_kk
-15	áður	áður	ADV	ao	_	21	cc	_	tag=ao
-16	en	en	CCONJ	st	_	15	cc	_	tag=st
+15	áður	áður	ADV	ao	_	16	advmod	_	tag=ao
+16	en	en	CCONJ	st	_	21	mark	_	tag=st
 17	verkefni	verkefni	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	21	nsubj	_	tag=no_ft_nf_hk
 18	dagsins	dagur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod:poss	_	tag=no_et_ef_kk_gr
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
@@ -141,7 +141,7 @@
 15	ætti	eiga	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	tag=so_0_vh_p3_et_þt_gm
 16	ekki	ekki	ADV	ao	_	15	advmod	_	tag=ao
 17	að	að	PART	nhm	_	19	mark	_	tag=nhm
-18	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	19	cop	_	tag=so_1_nf_nh_gm
+18	vera	vera	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	19	cop	_	tag=so_1_nf_nh_gm
 19	öðruvísi	öðruvísi	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	15	xcomp	_	tag=lo_et_nf_hk_sb
 20	með	með	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 21	lýtaaðgerðir	lýtaaðgerð	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
@@ -157,16 +157,14 @@
 6	selt	selja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 7	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 8	um	um	ADV	eo	_	9	advmod	_	tag=eo
-9-11	157 milljónir króna	_	_	_	_	_	_	_	_
 9	157	157	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_þf_kvk
 10	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	flat	_	tag=no_ft_þf_kvk
-11	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	flat	_	tag=no_ft_þf_kvk
+11	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	flat	_	MWEEnd=Yes|tag=no_ft_þf_kvk
 12	hjá	hjá	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 13	sænska	sænskur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_þgf_hk_vb
 14	uppboðshúsinu	uppboðshús	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þgf_hk_gr
-15-16	Postiljonen AB	_	_	_	_	_	_	_	_
 15	Postiljonen	Postiljonen	PROPN	fyrirtæki	_	6	obl	_	tag=fyrirtæki
-16	AB	AB	PROPN	fyrirtæki	_	15	flat	_	tag=fyrirtæki
+16	AB	AB	PROPN	fyrirtæki	_	15	flat	_	MWEEnd=Yes|tag=fyrirtæki
 17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 18	Malmö	Malmö	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	tag=sérnafn_et_þgf_hk
 19	á	á	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
@@ -207,13 +205,12 @@
 4	slíkur	slíkur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	tag=fn_et_nf_kk
 5	dýralæknir	dýralæknir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 6	að	að	PART	nhm	_	8	mark	_	tag=nhm
-7	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	cop	_	tag=so_0_nh_gm
+7	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	cop	_	tag=so_0_nh_gm
 8	viðstaddur	viðstaddur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	tag=lo_et_nf_kk_sb
 9	fyrir	fyrir	SCONJ	st	_	16	mark	_	SpaceAfter=No|tag=st
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-11-12	á meðan	_	_	_	_	_	_	_	_
 11	á	á	SCONJ	st	_	16	mark	_	tag=st
-12	meðan	meðan	SCONJ	st	_	11	_	_	tag=st
+12	meðan	meðan	SCONJ	st	_	11	fixed	_	MWEEnd=Yes|tag=st
 13	og	og	CCONJ	st	_	16	cc	_	tag=st
 14	eftir	eftir	SCONJ	st	_	16	mark	_	tag=st
 15	slátrun	slátrun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	tag=no_et_nf_kvk
@@ -227,17 +224,16 @@
 
 # sent_id = GREYNIR_CORPUS_00128,.10
 # text = Já, já, þetta er flest meira og minna samtvinnað úr trúarpælingum og Biblíunni, sem er afar merkileg þjóðfræðiheimild.
-1	Já	já	INTJ	uh	_	11	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=uh
+1	Já	já	INTJ	uh	_	11	dep	_	SpaceAfter=No|tag=uh
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	já	já	INTJ	uh	_	1	discourse	_	SpaceAfter=No|tag=uh
 4	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 5	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=fn_et_nf_hk
 6	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
 7	flest	margur	ADJ	lo_et_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	11	obl	_	tag=lo_et_nf_hk_esb
-8-10	meira og minna	_	_	_	_	_	_	_	_
 8	meira	meira	ADV	ao_mst	Degree=Cmp	11	advmod	_	tag=ao_mst
 9	og	og	ADV	ao_mst	Degree=Cmp	8	fixed	_	tag=ao_mst
-10	minna	minna	ADV	ao_mst	Degree=Cmp	8	fixed	_	tag=ao_mst
+10	minna	minna	ADV	ao_mst	Degree=Cmp	8	fixed	_	MWEEnd=Yes|tag=ao_mst
 11	samtvinnað	samtvinna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 12	úr	úr	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	trúarpælingum	trúarpæling	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	tag=no_ft_þgf_kvk

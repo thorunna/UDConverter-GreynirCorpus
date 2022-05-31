@@ -24,9 +24,8 @@
 22	félög	félag	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	tag=no_ft_þf_hk
 23	með	með	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24	milligöngu	milliganga	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þgf_kvk
-25-26	Mossack Fonseca	_	_	_	_	_	_	_	_
-25	Mossack	Mossack	PROPN	fyrirtæki_ef	Case=Gen	24	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ef
-26	Fonseca	Fonseca	PROPN	fyrirtæki_ef	Case=Gen	25	flat	_	SpaceAfter=No|tag=fyrirtæki_ef
+25	Mossack	Mossack	PROPN	fyrirtæki_ef	Case=Gen	24	nmod:poss	_	tag=fyrirtæki_ef
+26	Fonseca	Fonseca	PROPN	fyrirtæki_ef	Case=Gen	25	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=fyrirtæki_ef
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00163,.2
@@ -34,16 +33,15 @@
 1	Þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	tag=fn_et_nf_kk
 2	22	22	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	3	nummod	_	tag=tala_ft_ef_hk
 3	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_ef_hk
-4	ára	ár	X	x		3	dep	_	tag=x
+4	ára	ár	X	x	_	3	dep	_	tag=x
 5	Kanadamaður	Kanadamaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk
 6	lenti	lenda	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	Reykjavíkurflugvelli	Reykjavíkurflugvöllur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=sérnafn_et_þgf_kk
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	hádegisbilið	hádegisbil	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk_gr
-11-12	í gær	_	_	_	_	_	_	_	_
 11	í	í	ADV	ao	_	10	advmod	_	tag=ao
-12	gær	gær	ADV	ao	_	11	fixed	_	tag=ao
+12	gær	gær	ADV	ao	_	11	fixed	_	MWEEnd=Yes|tag=ao
 13	og	og	CCONJ	st	_	6	cc	_	tag=st
 14	mættu	mæta	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_þt_gm
 15	yfir	yfir	ADV	eo	_	17	advmod	_	tag=eo
@@ -78,14 +76,13 @@
 14	netinu	net	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk_gr
 15	og	og	CCONJ	st	_	3	cc	_	tag=st
 16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-17	YouTube	YouTube	PROPN	fyrirtæki	_	18	conj	_	tag=fyrirtæki
-18	síða	síða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	tag=no_et_nf_kvk
-19	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	tag=pfn_et_ef_kk_p3
+17	YouTube	YouTube	PROPN	fyrirtæki	_	16	nsubj	_	tag=fyrirtæki
+18	síða	síða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	tag=no_et_nf_kvk
+19	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nmod:poss	_	tag=pfn_et_ef_kk_p3
 20	með	með	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
 21	rúmlega	rúmlega	ADV	eo	_	24	advmod	_	tag=eo
-22-23	550 þúsund	_	_	_	_	_	_	_	_
 22	550	550	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	24	nummod	_	tag=töl_ft_þf_kk
-23	þúsund	þúsund	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	22	_	_	tag=töl_ft_þf_kk
+23	þúsund	þúsund	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	22	flat	_	MWEEnd=Yes|tag=töl_ft_þf_kk
 24	fylgjendur	fylgjandi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
 25	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
@@ -96,7 +93,7 @@
 3	ljóst	ljós	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	obj	_	tag=lo_et_þf_hk_fst_sb
 4	að	að	SCONJ	st	_	16	mark	_	tag=st
 5	miðað	miðað	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-6	við	við	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
+6	við	við	ADP	fs_þf	Case=Acc	5	fixed	_	tag=fs_þf
 7	umfjöllun	umfjöllun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þf_kvk
 8	Stundarinnar	Stundin	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
@@ -104,9 +101,8 @@
 11	Braga	Bragi	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	nmod:poss	_	tag=person_ef_kk
 12	hjá	hjá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Barnaverndarstofu	Barnaverndarstofa	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=fyrirtæki_et_þgf_kvk
-14-15	í morgun	_	_	_	_	_	_	_	_
 14	í	í	ADV	ao	_	7	advmod	_	tag=ao
-15	morgun	morgun	ADV	ao	_	14	fixed	_	tag=ao
+15	morgun	morgun	ADV	ao	_	14	fixed	_	MWEEnd=Yes|tag=ao
 16	sé	vera	VERB	so_2_nf_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_2_nf_nf_vh_p3_et_nt_gm
 17	ljóst	ljós	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	nsubj	_	tag=lo_et_nf_hk_fst_sb
 18	að	að	SCONJ	st	_	22	mark	_	tag=st
@@ -151,7 +147,7 @@
 27	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00163,.6
-# text = Krasnodar tryggði sér sæti í forkeppni Meistaradeildar Evrópu á næsta tímabili með 0 – 3 útisigri á Arsenal Tula í næstsíðustu umferð rússnesku úrvalsdeildarinnar í dag.
+# text = Krasnodar tryggði sér sæti í forkeppni Meistaradeildar Evrópu á næsta tímabili með 0–3 útisigri á Arsenal Tula í næstsíðustu umferð rússnesku úrvalsdeildarinnar í dag.
 1	Krasnodar	Krasnodar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
 2	tryggði	tryggja	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
 3	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	2	iobj	_	tag=abfn_þgf
@@ -165,13 +161,12 @@
 11	tímabili	tímabil	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
 12	með	með	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 13	0	0	NUM	tala	NumType=Card	16	nummod	_	SpaceAfter=No|tag=tala
-14	–	_	PUNCT	grm	_	13	punct	_	tag=grm
+14	–	_	PUNCT	grm	_	13	punct	_	SpaceAfter=No|tag=grm
 15	3	3	NUM	tala	NumType=Card	16	nummod	_	tag=tala
 16	útisigri	útisigur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
 17	á	á	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18-19	Arsenal Tula	_	_	_	_	_	_	_	_
 18	Arsenal	Arsenal	PROPN	fyrirtæki_þgf	Case=Dat	16	obl	_	tag=fyrirtæki_þgf
-19	Tula	Tula	PROPN	fyrirtæki_þgf	Case=Dat	18	flat	_	tag=fyrirtæki_þgf
+19	Tula	Tula	PROPN	fyrirtæki_þgf	Case=Dat	18	flat	_	MWEEnd=Yes|tag=fyrirtæki_þgf
 20	í	í	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
 21	næstsíðustu	næstsíðastur	ADJ	lo_et_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	22	amod	_	tag=lo_et_þf_kvk_evb
 22	umferð	umferð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þf_kvk
@@ -213,7 +208,7 @@
 
 # sent_id = GREYNIR_CORPUS_00163,.8
 # text = Var þetta fyrsti sigur liðsins í tvo mánuði í deild og bikar en liðið var búið að gera þrjú jafntefli og tapa fjórum á þessum tíma.
-1	Var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+1	Var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 2	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
 3	fyrsti	fyrstur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_vb
 4	sigur	sigur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -236,10 +231,9 @@
 21	og	og	CCONJ	st	_	18	cc	_	tag=st
 22	tapa	tapa	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	18	conj	_	tag=so_1_þgf_nh_gm
 23	fjórum	fjórir	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	22	obj	_	tag=to_ft_þgf_kk
-24-26	á þessum tíma	_	_	_	_	_	_	_	_
-24	á	á	ADV	ao	_	22	advmod	_	SpaceAfter=No|tag=ao
-25	þessum	þessum	ADV	ao	_	24	fixed	_	SpaceAfter=No|tag=ao
-26	tíma	tíma	ADV	ao	_	24	fixed	_	SpaceAfter=No|tag=ao
+24	á	á	ADV	ao	_	22	advmod	_	tag=ao
+25	þessum	þessum	ADV	ao	_	24	fixed	_	tag=ao
+26	tíma	tíma	ADV	ao	_	24	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 27	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00163,.9
@@ -247,7 +241,7 @@
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	held	halda	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_hk_p3
-4	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
+4	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
 5	nokkuð	nokkuð	ADV	eo	_	6	advmod	_	tag=eo
 6	augljóst	augljós	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	ccomp	_	tag=lo_et_nf_hk_fst_sb
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -280,9 +274,8 @@
 4	enn	enn	ADV	ao	_	2	advmod	_	tag=ao
 5	fremur	harla	ADV	ao_mst	Degree=Cmp	4	advmod	_	tag=ao_mst
 6	að	að	SCONJ	st	_	14	mark	_	tag=st
-7-8	Bjarni Benediktsson	_	_	_	_	_	_	_	_
-7	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-8	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	SpaceAfter=No|tag=person_nf_kk
+7	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	tag=person_nf_kk
+8	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 9	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 10	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_nf_kk
 11	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk_gr
@@ -291,14 +284,13 @@
 14	hafnað	hafna	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	2	ccomp	_	tag=so_1_þgf_sagnb_gm
 15	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obj	_	tag=fn_et_þgf_hk
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
-17	mæta	mæta	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	VANTAR_LIÐ_IP_None	_	tag=so_1_þgf_fh_p3_ft_nt_gm
+17	mæta	mæta	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	dep	_	tag=so_1_þgf_fh_p3_ft_nt_gm
 18	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	tag=pfn_et_þgf_kk_p3
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	þætti	þáttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þgf_kk
 21	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-22-23	Stöð 2	_	_	_	_	_	_	_	_
 22	Stöð	Stöð	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	tag=fyrirtæki_et_þgf_kvk
-23	2	2	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	flat	_	tag=fyrirtæki_et_þgf_kvk
+23	2	2	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	flat	_	MWEEnd=Yes|tag=fyrirtæki_et_þgf_kvk
 24	til	til	ADP	fs_nh	VerbForm=Inf	26	case	_	tag=fs_nh
 25	að	að	PART	nhm	_	26	mark	_	tag=nhm
 26	ræða	ræða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	17	obl	_	tag=so_1_þf_nh_gm

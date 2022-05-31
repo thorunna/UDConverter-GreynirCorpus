@@ -1,8 +1,8 @@
 # sent_id = GREYNIR_CORPUS_00468,.1
 # text = „Jói var að skora en við vissum að við þyrftum að setja hann undir meiri pressu í skotunum og gerðum það betur í seinni hálfleik.
-1	„	„	PUNCT	grm	_	5	punct	_	tag=grm
+1	„	„	PUNCT	grm	_	5	punct	_	SpaceAfter=No|tag=grm
 2	Jói	Jói	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-3	var	var	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_þt_gm
+3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_þt_gm
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	skora	skora	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
 6	en	en	CCONJ	st	_	5	cc	_	tag=st
@@ -30,9 +30,8 @@
 
 # sent_id = GREYNIR_CORPUS_00468,.2
 # text = Antonio Conte, knattspyrnustjóri Chelsea, hrósaði starfi hollenska knattspyrnustjórans Ronald Koeman á félagsskiptamarkaðnum í sumar en Everton hefur bætt við sig íslenskum landsliðsmanni og fleiri öflugum leikmönnum.
-1-2	Antonio Conte	_	_	_	_	_	_	_	_
-1	Antonio	Antonio	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Conte	Conte	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Antonio	Antonio	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
+2	Conte	Conte	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 4	knattspyrnustjóri	knattspyrnu-stjóra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
 5	Chelsea	Chelsea	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
@@ -41,9 +40,8 @@
 8	starfi	starf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obj	_	tag=no_et_þgf_hk
 9	hollenska	hollenska	ADJ	lo_et_ef_kk_vb	Case=Gen|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_ef_kk_vb
 10	knattspyrnustjórans	knattspyrnu-stjóri	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod:poss	_	tag=no_et_ef_kk_gr
-11-12	Ronald Koeman	_	_	_	_	_	_	_	_
 11	Ronald	Ronald	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	conj	_	tag=person_ef_kk
-12	Koeman	Koeman	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	flat	_	tag=person_ef_kk
+12	Koeman	Koeman	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	flat	_	MWEEnd=Yes|tag=person_ef_kk
 13	á	eiga	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	félagsskiptamarkaðnum	félags-skipta-markaður	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk_gr
 15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
@@ -64,9 +62,8 @@
 
 # sent_id = GREYNIR_CORPUS_00468,.3
 # text = Arsené Wenger, knattspyrnustjóri Arsenal, segir að stuðningsmenn Stoke ættu að skammast sín fyrir að baula á Aaron Ramsey í dag og gera lítið úr fótbroti hans.
-1-2	Arsené Wenger	_	_	_	_	_	_	_	_
-1	Arsené	Arsené	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Wenger	Wenger	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Arsené	Arsené	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
+2	Wenger	Wenger	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 4	knattspyrnustjóri	knattspyrnu-stjóra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
 5	Arsenal	Arsenal	PROPN	fyrirtæki_ef_hk	Case=Gen|Gender=Neut	1	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_ef_hk
@@ -83,9 +80,8 @@
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
 17	baula	baula	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	obl	_	tag=so_0_nh_gm
 18	á	eiga	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19-20	Aaron Ramsey	_	_	_	_	_	_	_	_
 19	Aaron	Aaron	PROPN	person_þf_kk	Case=Acc|Gender=Masc	17	obl	_	tag=person_þf_kk
-20	Ramsey	Ramsey	PROPN	person_þf_kk	Case=Acc|Gender=Masc	19	flat	_	tag=person_þf_kk
+20	Ramsey	Ramsey	PROPN	person_þf_kk	Case=Acc|Gender=Masc	19	flat	_	MWEEnd=Yes|tag=person_þf_kk
 21	í	í	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
 22	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	advmod	_	tag=no_et_þf_kk
 23	og	og	CCONJ	st	_	17	cc	_	tag=st
@@ -100,9 +96,8 @@
 # text = Rússneska söngkonan Yuliya Samoilova má nú taka þátt í Eurovision en aðeins með því að syngja frá Rússlandi í beinni útsendingu þar sem stuðst er við gervihnött.
 1	Rússneska	rússneska	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_vb
 2	söngkonan	söngkona	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk_gr
-3-4	Yuliya Samoilova	_	_	_	_	_	_	_	_
 3	Yuliya	Yuliya	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	conj	_	tag=person_nf_kvk
-4	Samoilova	Samoilova	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	flat	_	tag=person_nf_kvk
+4	Samoilova	Samoilova	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 5	má	mega	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
 6	nú	nú	ADV	ao	_	7	advmod	_	tag=ao
 7	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
@@ -111,10 +106,10 @@
 10	Eurovision	Eurovision	PROPN	fyrirtæki	_	7	obl	_	tag=fyrirtæki
 11	en	en	CCONJ	st	_	7	cc	_	tag=st
 12	aðeins	aðeins	ADV	ao	_	7	advmod	_	tag=ao
-13	með	með	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=fn_et_þgf_hk
+13	með	með	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+14	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	tag=fn_et_þgf_hk
 15	að	að	PART	nhm	_	16	mark	_	tag=nhm
-16	syngja	syngja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	14	xcomp	_	tag=so_0_nh_gm
+16	syngja	syngja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	obl	_	tag=so_0_nh_gm
 17	frá	frá	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 18	Rússlandi	Rússland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	tag=sérnafn_et_þgf_hk
 19	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
@@ -123,16 +118,15 @@
 22	þar	þar	ADV	ao	_	16	advmod	_	tag=ao
 23	sem	sem	SCONJ	stt	_	24	mark	_	tag=stt
 24	stuðst	styðja	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	22	advcl	_	tag=so_0_sagnb_mm
-25	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	tag=so_0_fh_p3_et_nt_gm
+25	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	aux	_	tag=so_0_fh_p3_et_nt_gm
 26	við	við	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
 27	gervihnött	gervihnöttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 28	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00468,.5
 # text = Að auki voru nokkur útköll vegna ástands fólks sökum áfengis- eða vímuefnaneyslu, en þröngt er á þingi á tjaldsvæðum og margir sem hafa lagt leið sína yfir heiði.
-1-2	Að auki	_	_	_	_	_	_	_	_
 1	Að	að	ADV	ao	_	3	advmod	_	tag=ao
-2	auki	auki	ADV	ao	_	1	fixed	_	tag=ao
+2	auki	auki	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
 4	nokkur	nokkur	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nmod	_	tag=fn_ft_nf_hk
 5	útköll	útkall	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk
@@ -140,14 +134,13 @@
 7	ástands	ástand	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_ef_hk
 8	fólks	fólk	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk
 9	sökum	saka	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
-10-12	áfengis- eða vímuefnaneyslu	_	_	_	_	_	_	_	_
-10	áfengis-	áfengis-	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_ef_kvk
-11	eða	eða	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	flat	_	SpaceAfter=No|tag=no_et_ef_kvk
-12	vímuefnaneyslu	vímuefnaneysla	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	flat	_	SpaceAfter=No|tag=no_et_ef_kvk
+10	áfengis-	áfengis-	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_ef_kvk
+11	eða	eða	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	flat	_	tag=no_et_ef_kvk
+12	vímuefnaneyslu	vímuefnaneysla	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_et_ef_kvk
 13	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 14	en	en	CCONJ	st	_	3	cc	_	tag=st
 15	þröngt	þröngt	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	16	xcomp	_	tag=lo_et_nf_hk_sb
-16	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
+16	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 17	á	eiga	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 18	þingi	þing	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	tag=no_et_þgf_hk
 19	á	eiga	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
@@ -187,10 +180,10 @@
 20	ekki	ekki	ADV	eo	_	22	advmod	_	tag=eo
 21	17	17	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	22	nummod	_	tag=tala_ft_ef_hk
 22	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	19	acl:relcl	_	tag=no_ft_ef_hk
-23	fyrr	fyrr	ADV	ao_mst	Degree=Cmp	22	advcl	_	tag=ao_mst
-24	en	en	CCONJ	st	_	23	cc	_	tag=st
+23	fyrr	fyrr	ADV	ao_mst	Degree=Cmp	24	advmod	_	tag=ao_mst
+24	en	en	CCONJ	st	_	22	advcl	_	tag=st
 25	á	á	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
-26	aðfangadag	aðfangadagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No|tag=no_et_þf_kk
+26	aðfangadag	aðfangadagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 27	.	.	PUNCT	grm	_	16	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00468,.7
@@ -215,24 +208,21 @@
 18	opnast	opinn	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	3	conj	_	tag=so_0_fh_p3_et_nt_mm
 19	næsti	næstur	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	20	amod	_	tag=lo_et_nf_kk_evb
 20	miðasölugluggi	miða-sölugluggi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	tag=no_et_nf_kk
-21-22	13. mars	_	_	_	_	_	_	_	_
 21	13.	13.	ADV	dagsafs	_	18	advmod	_	tag=dagsafs
-22	mars	mars	NOUN	dagsafs	_	21	flat	_	tag=dagsafs
+22	mars	mars	NOUN	dagsafs	_	21	flat	_	MWEEnd=Yes|tag=dagsafs
 23	og	og	CCONJ	st	_	18	cc	_	tag=st
-24	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-25	opin	op	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	18	cop	_	tag=lo_et_nf_kvk_sb
-26	til	til	ADV	fs_ef	Case=Gen	18	advmod	_	tag=fs_ef
-27-28	3. apríl	_	_	_	_	_	_	_	_
-27	3.	3.	NOUN	dagsafs	_	26	obl	_	SpaceAfter=No|tag=dagsafs
-28	apríl	apríl	NOUN	dagsafs	_	27	flat	_	SpaceAfter=No|tag=dagsafs
+24	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+25	opin	op	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	18	conj	_	tag=lo_et_nf_kvk_sb
+26	til	til	ADV	fs_ef	Case=Gen	25	advmod	_	tag=fs_ef
+27	3.	3.	NOUN	dagsafs	_	26	obl	_	tag=dagsafs
+28	apríl	apríl	NOUN	dagsafs	_	27	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 29	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00468,.8
 # text = Sveinn S. Kjartansson, formaður Félags leikskólabarna í Reykjavík, segir marga foreldra áhyggjufulla yfir snjalltækjanotkun og vilji fá viðmið til að nota bæði heima og í skóla.
-1-3	Sveinn S. Kjartansson	_	_	_	_	_	_	_	_
-1	Sveinn	Sveinn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	obl	_	SpaceAfter=No|tag=person_nf_kk
-2	S.	S.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
-3	Kjartansson	Kjartansson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Sveinn	Sveinn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	obl	_	tag=person_nf_kk
+2	S.	S.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Kjartansson	Kjartansson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 4	,	,	PUNCT	grm	_	5	punct	_	tag=grm
 5	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
 6	Félags	Félags	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk
@@ -247,7 +237,7 @@
 15	yfir	yfir	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	snjalltækjanotkun	snjalltækjanotkun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þgf_kvk
 17	og	og	CCONJ	st	_	11	cc	_	tag=st
-18	vilji	vilji	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_vh_p3_et_nt_gm
+18	vilji	vilja	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_vh_p3_et_nt_gm
 19	fá	fá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	conj	_	tag=so_1_þf_nh_gm
 20	viðmið	viðmið	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	tag=no_et_þf_hk
 21	til	til	ADP	fs_nh	VerbForm=Inf	23	case	_	tag=fs_nh
@@ -269,20 +259,17 @@
 5	karlaflokki	karlaflokkur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
 7	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	tag=pfn_ft_nf_kk_p3
-8-10	Gunnar Þór Ásgeirsson	_	_	_	_	_	_	_	_
-8	Gunnar	Gunnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	SpaceAfter=No|tag=person_nf_kk
-9	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	flat	_	SpaceAfter=No|tag=person_nf_kk
-10	Ásgeirsson	Ásgeirsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	flat	_	SpaceAfter=No|tag=person_nf_kk
+8	Gunnar	Gunnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
+9	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	flat	_	tag=person_nf_kk
+10	Ásgeirsson	Ásgeirsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 11	,	,	PUNCT	grm	_	12	punct	_	tag=grm
-12-14	Gústaf Smári Björnsson	_	_	_	_	_	_	_	_
 12	Gústaf	Gústaf	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
 13	Smári	Smári	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	tag=person_nf_kk
-14	Björnsson	Björnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	tag=person_nf_kk
+14	Björnsson	Björnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	MWEEnd=Yes|tag=person_nf_kk
 15	og	og	CCONJ	st	_	1	cc	_	tag=st
-16-18	Skúli Freyr Sigurðsson	_	_	_	_	_	_	_	_
 16	Skúli	Skúli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
 17	Freyr	Freyr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	flat	_	tag=person_nf_kk
-18	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	flat	_	tag=person_nf_kk
+18	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	flat	_	MWEEnd=Yes|tag=person_nf_kk
 19	spiluðu	spila	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
 20	mjög	mjög	ADV	ao	_	19	advmod	_	tag=ao
 21	fel	fela	ADV	ao_fst	Degree=Pos	20	advmod	_	SpaceAfter=No|tag=ao_fst

@@ -53,13 +53,12 @@
 # text = Dómurinn taldi hins vegar fullsannað að hann hafi tekið þátt í aðgerðum hryðjuverkasamtakanna ISIS.
 1	Dómurinn	Dómurinn	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk_gr
 2	taldi	telja	VERB	so_2_þf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þf_þf_fh_p3_et_þt_gm
-3-4	hins vegar	_	_	_	_	_	_	_	_
 3	hins	hins	ADV	ao	_	2	advmod	_	tag=ao
-4	vegar	vegar	ADV	ao	_	3	fixed	_	tag=ao
+4	vegar	vegar	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	fullsannað	fullsannað	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=lo_et_þf_hk_sb
 6	að	að	SCONJ	st	_	9	mark	_	tag=st
 7	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_kk_p3
-8	hafi	hafi	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_vh_p3_et_nt_gm
+8	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_vh_p3_et_nt_gm
 9	tekið	tekið	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	ccomp	_	tag=so_1_þf_sagnb_gm
 10	þátt	þátt	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	tag=no_et_þf_kk
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
@@ -112,10 +111,9 @@
 6	svara	svara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
 7	en	en	CCONJ	st	_	2	cc	_	tag=st
 8	hóf	hefja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-9-11	þess í stað	_	_	_	_	_	_	_	_
 9	þess	þess	ADV	eo	_	8	advmod	_	tag=eo
 10	í	í	ADV	eo	_	9	fixed	_	tag=eo
-11	stað	stað	ADV	eo	_	9	fixed	_	tag=eo
+11	stað	stað	ADV	eo	_	9	fixed	_	MWEEnd=Yes|tag=eo
 12	mikinn	mikill	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_þf_kk_sb
 13	reiðilestur	reiðilestur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	tag=no_et_þf_kk
 14	yfir	yfir	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
@@ -141,8 +139,8 @@
 
 # sent_id = GREYNIR_CORPUS_00380,.9
 # text = AFP fréttastofan hefur eftir embættismanni í héraðinu að líklega hafi mun fleiri dáið.
-1	AFP	AFP	PROPN	fyrirtæki	_	2	conj	_	tag=fyrirtæki
-2	fréttastofan	fréttastofa	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
+1	AFP	AFP	PROPN	fyrirtæki	_	3	nsubj	_	tag=fyrirtæki
+2	fréttastofan	fréttastofa	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	conj	_	tag=no_et_nf_kvk_gr
 3	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 4	eftir	eftir	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	embættismanni	embættismaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
@@ -156,19 +154,21 @@
 13	dáið	deyja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	3	ccomp	_	SpaceAfter=No|tag=so_0_sagnb_gm
 14	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00380,.10
+# text = Við verðum að brjóta niður þessi síló á milli kerfa — með tækninni!“
 1	Við	við	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_ft_nf_p1
-2	verðum	verja	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p1_ft_nt_gm
+2	verðum	verða	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p1_ft_nt_gm
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
 4	brjóta	brjóta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 5	niður	niður	ADV	ao	_	4	advmod	_	tag=ao
 6	þessi	þessi	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	nmod	_	tag=fn_ft_þf_hk
 7	síló	síló	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	tag=no_ft_þf_hk
 8	á	á	ADV	ao	_	10	case	_	tag=ao
-9	milli	milli	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
+9	milli	milli	ADP	fs_ef	Case=Gen	8	fixed	_	tag=fs_ef
 10	kerfa	kerfa	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_ef_hk
 11	—	—	PUNCT	grm	_	10	punct	_	tag=grm
 12	með	með	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	tækninni	tækni	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk_gr
-14	!	!	PUNCT	grm	_	13	punct	_	tag=grm
+13	tækninni	tækni	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
+14	!	!	PUNCT	grm	_	13	punct	_	SpaceAfter=No|tag=grm
 15	“	“	PUNCT	grm	_	4	punct	_	tag=grm
 

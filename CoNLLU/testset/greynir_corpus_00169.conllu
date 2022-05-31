@@ -16,16 +16,16 @@
 14	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	15	nmod	_	tag=pfn_ft_ef_p1
 15	loforð	loforð	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	tag=no_ft_þf_hk
 16	og	og	CCONJ	st	_	11	cc	_	tag=st
-17	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p1_ft_nt_gm
+17	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p1_ft_nt_gm
 18	með	með	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19	fjárhagsáætlanir	fjárhagsáætlun	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	tag=no_ft_þf_kvk
-20	þannig	þannig	ADV	ao	_	23	mark	_	tag=ao
-21	að	að	SCONJ	st	_	20	cc	_	tag=st
+19	fjárhagsáætlanir	fjárhagsáætlun	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	17	obl	_	tag=no_ft_þf_kvk
+20	þannig	þannig	ADV	ao	_	21	advmod	_	tag=ao
+21	að	að	SCONJ	st	_	23	mark	_	tag=st
 22	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	expl	_	tag=pfn_et_nf_hk_p3
-23	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	tag=so_0_fh_p3_et_nt_gm
+23	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advcl	_	tag=so_0_fh_p3_et_nt_gm
 24	skírt	skýr	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	23	nsubj	_	tag=lo_et_nf_hk_fst_sb
 25	hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	tag=fn_et_þf_hk
-26	hvað	hvað	X	x		25	dep	_	tag=x
+26	hvað	hvað	X	x	_	25	dep	_	tag=x
 27	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	tag=pfn_ft_nf_p1
 28	viljum	vilja	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	23	ccomp	_	SpaceAfter=No|tag=so_1_þf_fh_p1_ft_nt_gm
 29	.	_	PUNCT	grm	_	5	punct	_	tag=grm
@@ -46,10 +46,9 @@
 12	með	með	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	jafntefli	jafntefli	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
 14	en	en	CCONJ	st	_	7	cc	_	tag=st
-15-17	oftar en ekki	_	_	_	_	_	_	_	_
 15	oftar	oft	ADV	ao_mst	Degree=Cmp	22	advmod	_	tag=ao_mst
 16	en	en	ADV	ao_mst	Degree=Cmp	15	fixed	_	tag=ao_mst
-17	ekki	ekki	ADV	ao_mst	Degree=Cmp	15	fixed	_	tag=ao_mst
+17	ekki	ekki	ADV	ao_mst	Degree=Cmp	15	fixed	_	MWEEnd=Yes|tag=ao_mst
 18	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_fh_p3_et_nt_gm
 19	íslenska	íslenskur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	20	amod	_	tag=lo_et_nf_hk_vb
 20	liðið	lið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	22	nsubj	_	tag=no_et_nf_hk_gr
@@ -73,10 +72,9 @@
 6	einnig	einnig	ADV	ao	_	7	advmod	_	tag=ao
 7	unnið	vinna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 8	svonefnt	svonefndur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	9	amod	_	tag=lo_et_nf_hk_sb
-9-11	Regional Potential Index	_	_	_	_	_	_	_	_
 9	Regional	Regional	PROPN	entity_nf	Case=Nom	7	nsubj	_	tag=entity_nf
 10	Potential	Potential	PROPN	entity_nf	Case=Nom	9	flat	_	tag=entity_nf
-11	Index	Index	PROPN	entity_nf	Case=Nom	9	flat	_	tag=entity_nf
+11	Index	Index	PROPN	entity_nf	Case=Nom	9	flat	_	MWEEnd=Yes|tag=entity_nf
 12	en	en	CCONJ	st	_	7	cc	_	tag=st
 13	sú	sá	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	14	nmod	_	tag=fn_et_nf_kvk
 14	vísitala	vísitala	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	tag=no_et_nf_kvk
@@ -98,9 +96,8 @@
 
 # sent_id = GREYNIR_CORPUS_00169,.4
 # text = Bernard Lagat gekk illa á fyrstu Ólympíuleikum sínum sem Bandaríkjamaður í Peking 2008 en hann varð hinsvegar fjórði í 5000 metra hlaupi á síðustu leikum í London 2012.
-1-2	Bernard Lagat	_	_	_	_	_	_	_	_
 1	Bernard	Bernard	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Lagat	Lagat	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Lagat	Lagat	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	gekk	ganga	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	illa	illa	ADV	ao	_	3	advmod	_	tag=ao
 5	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -114,7 +111,7 @@
 13	2008	2008	ADV	ártal	_	12	advmod	_	tag=ártal
 14	en	en	CCONJ	st	_	3	cc	_	tag=st
 15	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	tag=pfn_et_nf_kk_p3
-16	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+16	varð	verða	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 17	hinsvegar	hinsvegar	ADV	ao	_	18	advmod	_	tag=ao
 18	fjórði	fjórði	ADJ	lo_et_nf_kk_fst	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	tag=lo_et_nf_kk_fst
 19	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
@@ -131,7 +128,7 @@
 
 # sent_id = GREYNIR_CORPUS_00169,.5
 # text = „Við erum búnar að vera að tala við aðra ferðamenn sem hafa farið nær fjallinu og myndirnar eru svo ótrulega flottar að okkur dauðlangar að fara líka.
-1	„	_	PUNCT	grm	_	4	punct	_	tag=grm
+1	„	_	PUNCT	grm	_	4	punct	_	SpaceAfter=No|tag=grm
 2	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_ft_nf_p1
 3	erum	vera	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p1_ft_nt_gm
 4	búnar	búa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
@@ -149,7 +146,7 @@
 16	fjallinu	fjall	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þgf_kk_gr
 17	og	og	CCONJ	st	_	4	cc	_	tag=st
 18	myndirnar	mynd	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	22	nsubj	_	tag=no_ft_nf_kvk_gr
-19	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+19	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 20	svo	svo	ADV	eo	_	22	advmod	_	tag=eo
 21	ótrulega	ótrúlega	ADV	ao_fst	Degree=Pos	22	advmod	_	tag=ao_fst
 22	flottar	flottur	ADJ	lo_ft_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	conj	_	tag=lo_ft_nf_kvk_fst_sb
@@ -199,9 +196,8 @@
 2	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	eftir	eftir	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	mannfræðingnum	mannfræðingur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk_gr
-5-6	Gitte Engholm	_	_	_	_	_	_	_	_
-5	Gitte	Gitte	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	4	conj	_	SpaceAfter=No|tag=person_þgf_kvk
-6	Engholm	Engholm	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	5	flat	_	SpaceAfter=No|tag=person_þgf_kvk
+5	Gitte	Gitte	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	4	conj	_	tag=person_þgf_kvk
+6	Engholm	Engholm	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	5	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þgf_kvk
 7	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 8	starfsmanni	starfsmaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	conj	_	tag=no_et_þgf_kk
 9	safnsins	safn	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
@@ -209,7 +205,7 @@
 11	að	að	SCONJ	st	_	15	mark	_	tag=st
 12	þessir	þessi	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	13	nmod	_	tag=fn_ft_nf_kk
 13	þjóðflutningar	þjóðflutningur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	tag=no_ft_nf_kk
-14	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
+14	séu	vera	AUX	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 15	mikilvægir	mikilvægur	ADJ	lo_ft_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	ccomp	_	tag=lo_ft_nf_kk_fst_sb
 16	bæði	bæði	CCONJ	st	_	15	cc	_	tag=st
 17	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
@@ -229,7 +225,7 @@
 # sent_id = GREYNIR_CORPUS_00169,.8
 # text = Drengurinn er auðvitað landsþekktur fyrir að kynda upp í partíum og hér er auðvitað engin breyting á og hann skellir hér í tíu laga veislu fyrir lesendur Lífsins.
 1	Drengurinn	drengur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	auðvitað	auðvitað	ADV	eo	_	4	advmod	_	tag=eo
 4	landsþekktur	landsþekktur	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_fst_sb
 5	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	7	case	_	tag=fs_nh
@@ -267,14 +263,12 @@
 5	ráð	ráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 6	fyrir	fyrir	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 7	að	að	SCONJ	st	_	15	mark	_	tag=st
-8	öldungardeildarþingmennirnir	öldungadeildarþingmaður	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	conj	_	tag=no_et_þgf_hk
-9-10	Kirsten Gillibrand	_	_	_	_	_	_	_	_
-9	Kirsten	Kirsten	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	15	nsubj	_	tag=person_nf_kvk
-10	Gillibrand	Gillibrand	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	tag=person_nf_kvk
-11	og	og	CCONJ	st	_	9	cc	_	tag=st
-12-13	Elizabeth Warren	_	_	_	_	_	_	_	_
-12	Elizabeth	Elizabeth	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	conj	_	tag=person_nf_kvk
-13	Warren	Warren	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	flat	_	tag=person_nf_kvk
+8	öldungardeildarþingmennirnir	öldungadeildarþingmaður	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	tag=no_ft_nf_hk
+9	Kirsten	Kirsten	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	conj	_	tag=person_nf_kvk
+10	Gillibrand	Gillibrand	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	MWEEnd=Yes|tag=person_nf_kvk
+11	og	og	CCONJ	st	_	8	cc	_	tag=st
+12	Elizabeth	Elizabeth	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	8	conj	_	tag=person_nf_kvk
+13	Warren	Warren	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 14	muni	munu	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_vh_p3_et_nt_gm
 15	bjóða	bjóða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	obl	_	tag=so_1_þf_nh_gm
 16	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	15	obj	_	tag=abfn_þf
@@ -305,12 +299,10 @@
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	ána	á	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þf_kvk_gr
 11	um	um	ADV	eo	_	12	advmod	_	tag=eo
-12-13	klukkan 22	_	_	_	_	_	_	_	_
 12	klukkan	klukkan	ADV	ao	_	5	advmod	_	tag=ao
-13	22	22	ADV	ao	_	12	fixed	_	tag=ao
-14-15	í gærkvöldi	_	_	_	_	_	_	_	_
+13	22	22	ADV	ao	_	12	fixed	_	MWEEnd=Yes|tag=ao
 14	í	í	ADV	ao	_	12	advmod	_	tag=ao
-15	gærkvöldi	gærkvöldi	ADV	ao	_	14	fixed	_	tag=ao
+15	gærkvöldi	gærkvöldi	ADV	ao	_	14	fixed	_	MWEEnd=Yes|tag=ao
 16	en	en	CCONJ	st	_	3	cc	_	tag=st
 17	fjölmennt	fjölmennur	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_nf_hk_fst_sb
 18	lið	lið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	tag=no_et_nf_hk

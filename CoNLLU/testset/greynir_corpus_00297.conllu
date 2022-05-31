@@ -1,12 +1,11 @@
 # sent_id = GREYNIR_CORPUS_00297,.1
 # text = Skömmu eftir að fjöldi bíla sem festust í Þrengslunum og björgunarsveitarmenn fóru til aðstoðar lentu margir ökumenn í vandræðum milli Hveragerðis og Selfoss.
-1-2	Skömmu eftir	_	_	_	_	_	_	_	_
 1	Skömmu	skammur	SCONJ	st	_	7	mark	_	tag=st
-2	eftir	eftir	SCONJ	st	_	1	_	_	tag=st
+2	eftir	eftir	SCONJ	st	_	1	fixed	_	MWEEnd=Yes|tag=st
 3	að	að	SCONJ	st	_	1	cc	_	tag=st
 4	fjöldi	fjöldi	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk
 5	bíla	bíll	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	7	obl	_	tag=no_ft_ef_kk
-6	sem	sem	X	x		5	dep	_	tag=x
+6	sem	sem	X	x	_	5	dep	_	tag=x
 7	festust	festa	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	15	advcl	_	tag=so_0_fh_p3_ft_þt_mm
 8	í	í	ADP	fs	_	9	case	_	tag=fs
 9	Þrengslunum	þrengsli	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þgf_kvk_gr
@@ -38,9 +37,8 @@
 8	eggvopn	eggvopn	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk
 9	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	Heimahverfinu	Heimahverfi	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk_gr
-11-12	í gær	_	_	_	_	_	_	_	_
 11	í	í	ADV	ao	_	4	advmod	_	tag=ao
-12	gær	gær	ADV	ao	_	11	fixed	_	tag=ao
+12	gær	gær	ADV	ao	_	11	fixed	_	MWEEnd=Yes|tag=ao
 13	en	en	CCONJ	st	_	4	cc	_	tag=st
 14	tilkynningar	tilkynning	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	tag=no_ft_nf_kvk
 15	bárust	berast	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	4	conj	_	tag=so_0_fh_p3_ft_þt_mm
@@ -64,9 +62,8 @@
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	mögulega	mögulega	ADV	ao	_	2	advmod	_	tag=ao
 8	að	að	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9-10	Bernie Sanders	_	_	_	_	_	_	_	_
 9	Bernie	Bernie	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	2	obl	_	tag=person_þgf_kk
-10	Sanders	Sanders	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	flat	_	tag=person_þgf_kk
+10	Sanders	Sanders	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	9	flat	_	MWEEnd=Yes|tag=person_þgf_kk
 11	undanskildum	undanskilinn	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No|tag=lo_et_þgf_kk_sb
 12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 13	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -76,19 +73,17 @@
 17	stuðningsmenn	stuðningsmaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	obj	_	tag=no_ft_þf_kk
 18	sína	sinn	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	17	nmod	_	tag=fn_ft_þf_kk
 19	upp	upp	ADV	ao	_	16	compound:prt	_	tag=ao
-20	líkt	líkt	ADV	ao	_	22	cc	_	tag=ao
-21	og	og	CCONJ	st	_	20	cc	_	tag=st
-22-23	Donald Trump	_	_	_	_	_	_	_	_
-22	Donald	Donald	PROPN	person_þf_kk	Case=Acc|Gender=Masc	16	advcl	_	SpaceAfter=No|tag=person_þf_kk
-23	Trump	Trump	PROPN	person_þf_kk	Case=Acc|Gender=Masc	22	flat	_	SpaceAfter=No|tag=person_þf_kk
+20	líkt	líkt	ADV	ao	_	21	advmod	_	tag=ao
+21	og	og	CCONJ	st	_	22	mark	_	tag=st
+22	Donald	Donald	PROPN	person_þf_kk	Case=Acc|Gender=Masc	16	advcl	_	tag=person_þf_kk
+23	Trump	Trump	PROPN	person_þf_kk	Case=Acc|Gender=Masc	22	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kk
 24	.	_	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00297,.4
 # text = Sigurður Ingi Jóhannsson, fyrrverandi forsætisráðherra og formaður Framsóknarflokksins tekur ekki vel í hugmyndir um veggjöld og segir komugjöld á ferðamenn vænlegri leið.
-1-3	Sigurður Ingi Jóhannsson	_	_	_	_	_	_	_	_
-1	Sigurður	Sigurður	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-2	Ingi	Ingi	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|tag=person_et_nf_kk
-3	Jóhannsson	Jóhannsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|tag=person_et_nf_kk
+1	Sigurður	Sigurður	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	tag=person_et_nf_kk
+2	Ingi	Ingi	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+3	Jóhannsson	Jóhannsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_et_nf_kk
 4	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 5	fyrrverandi	fyrrverandi	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	tag=lo_et_nf_kk_vb
 6	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
@@ -113,9 +108,8 @@
 
 # sent_id = GREYNIR_CORPUS_00297,.5
 # text = Hreinn Ásgeir hefur starfað sem rafvirki öll sín ár í Noregi, meðal annas við báta, bæði skútur og annars konar báta.
-1-2	Hreinn Ásgeir	_	_	_	_	_	_	_	_
 1	Hreinn	Hreinn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Ásgeir	Ásgeir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Ásgeir	Ásgeir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	starfað	starfa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 5	sem	sem	SCONJ	st	_	6	mark	_	tag=st
@@ -170,10 +164,10 @@
 # text = Síðasti leikmaðurinn til þess að gera þrefalda tvennu, það er að ná tveggja stafa tölu í þremur tölfræðiþáttum, var Michael Jordan.
 1	Síðasti	síðari	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_evb
 2	leikmaðurinn	leikmaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	tag=no_et_nf_kk_gr
-3	til	til	ADP	fs_ef	Case=Gen	4	case	_	tag=fs_ef
-4	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_ef_hk
+3	til	til	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
+4	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	tag=fn_et_ef_hk
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
-6	gera	gera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_1_þf_nh_gm
+6	gera	gera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	obl	_	tag=so_1_þf_nh_gm
 7	þrefalda	þrefaldur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	tag=lo_et_þf_kvk_sb
 8	tvennu	tvenna	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
@@ -188,22 +182,20 @@
 18	þremur	þrír	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	19	nummod	_	tag=to_ft_þgf_kk
 19	tölfræðiþáttum	tölfræðiþáttur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 20	,	_	PUNCT	grm	_	22	punct	_	tag=grm
-21	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
-22-23	Michael Jordan	_	_	_	_	_	_	_	_
-22	Michael	Michael	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No|tag=person_nf_kk
-23	Jordan	Jordan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	flat	_	SpaceAfter=No|tag=person_nf_kk
+21	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+22	Michael	Michael	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	tag=person_nf_kk
+23	Jordan	Jordan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 24	.	_	PUNCT	grm	_	22	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00297,.8
 # text = Það var Jóhanna sem skipaði Oddnýju Harðardóttur fjármálaráðherra áramótin 2011 2012 og fól þar með fyrstu konunni að gegna því veigamikla embætti.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	Jóhanna	Jóhanna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	0	root	_	tag=person_nf_kvk
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	skipaði	skipa	VERB	so_2_þf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	tag=so_2_þf_þf_fh_p3_et_þt_gm
-6-7	Oddnýju Harðardóttur	_	_	_	_	_	_	_	_
 6	Oddnýju	Oddný	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	5	iobj	_	tag=person_þf_kvk
-7	Harðardóttur	Harðardóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	6	flat	_	tag=person_þf_kvk
+7	Harðardóttur	Harðardóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	6	flat	_	MWEEnd=Yes|tag=person_þf_kvk
 8	fjármálaráðherra	fjármálaráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	5	obj	_	tag=no_et_ef_kk
 9	áramótin	áramót	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	5	advmod	_	tag=no_ft_þf_hk_gr
 10	2011	2011	NUM	ártal	_	9	nummod	_	tag=ártal
@@ -226,9 +218,8 @@
 1	Húsnæði	Húsnæði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_nf_hk
 2	meðferðarmiðstöðvarinnar	meðferðarmiðstöð	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
-4-5	Fort Lauderdale	_	_	_	_	_	_	_	_
 4	Fort	Fort	PROPN	entity_et_þgf	Case=Dat|Number=Sing	1	obl	_	tag=entity_et_þgf
-5	Lauderdale	Lauderdale	PROPN	entity_et_þgf	Case=Dat|Number=Sing	4	flat	_	tag=entity_et_þgf
+5	Lauderdale	Lauderdale	PROPN	entity_et_þgf	Case=Dat|Number=Sing	4	flat	_	MWEEnd=Yes|tag=entity_et_þgf
 6	skemmdist	skemmast	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 7	töluvert	töluvert	ADV	ao	_	6	advmod	_	tag=ao
 8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf

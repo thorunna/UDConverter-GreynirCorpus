@@ -21,7 +21,7 @@
 1	Neðarlega	neðarlega	ADV	ao	_	5	advmod	_	tag=ao
 2	í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	ánni	á	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk_gr
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
+4	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	töluvert	töluverður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6	af	af	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	fiski	fiskur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
@@ -55,7 +55,7 @@
 # sent_id = GREYNIR_CORPUS_00079,.4
 # text = Hann er hagfræðingur að mennt og með MBA-gráðu frá London Business School.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	hagfræðingur	hagfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	mennt	mennt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
@@ -63,19 +63,17 @@
 7	með	með	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	MBA-gráðu	MBA-gráða	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
 9	frá	frá	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10-12	London Business School	_	_	_	_	_	_	_	_
-10	London	London	PROPN	entity_et_þgf	Case=Dat|Number=Sing	8	obl	_	SpaceAfter=No|tag=entity_et_þgf
-11	Business	Business	PROPN	entity_et_þgf	Case=Dat|Number=Sing	10	flat	_	SpaceAfter=No|tag=entity_et_þgf
-12	School	School	PROPN	entity_et_þgf	Case=Dat|Number=Sing	10	flat	_	SpaceAfter=No|tag=entity_et_þgf
+10	London	London	PROPN	entity_et_þgf	Case=Dat|Number=Sing	8	obl	_	tag=entity_et_þgf
+11	Business	Business	PROPN	entity_et_þgf	Case=Dat|Number=Sing	10	flat	_	tag=entity_et_þgf
+12	School	School	PROPN	entity_et_þgf	Case=Dat|Number=Sing	10	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=entity_et_þgf
 13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00079,.5
 # text = Hagsveiflan hér á landi hefur lítil sem engin tengsl við hagsveifluna í kjarnaríkjum evrusvæðisins.
 1	Hagsveiflan	hagsveifla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
-2-4	hér á landi	_	_	_	_	_	_	_	_
 2	hér	hér	ADV	eo	_	5	advmod	_	tag=eo
 3	á	á	ADV	eo	_	2	fixed	_	tag=eo
-4	landi	landi	ADV	eo	_	2	fixed	_	tag=eo
+4	landi	landi	ADV	eo	_	2	fixed	_	MWEEnd=Yes|tag=eo
 5	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 6	lítil	lítill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	tag=lo_et_nf_kvk_sb
 7	sem	sem	SCONJ	st	_	9	mark	_	tag=st
@@ -150,10 +148,9 @@
 4	snatri	snatur	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 5	að	að	SCONJ	st	_	11	mark	_	tag=st
 6	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kvk_p3
-7	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_vh_p3_et_þt_gm
-8-9	alls ekki	_	_	_	_	_	_	_	_
+7	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_vh_p3_et_þt_gm
 8	alls	alls	ADV	eo	_	11	advmod	_	tag=eo
-9	ekki	ekki	ADV	eo	_	8	fixed	_	tag=eo
+9	ekki	ekki	ADV	eo	_	8	fixed	_	MWEEnd=Yes|tag=eo
 10	mjög	mjög	ADV	eo	_	11	advmod	_	tag=eo
 11	svöng	svangur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	tag=lo_et_nf_kvk_sb
 12	eftir	eftir	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
@@ -165,9 +162,8 @@
 # text = Þá hefur Halldór Gústafsson, hinn skipverjinn, einnig fengið fjöldann allan af níðpóstum.
 1	Þá	þá	ADV	ao	_	10	advmod	_	tag=ao
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
-3-4	Halldór Gústafsson	_	_	_	_	_	_	_	_
-3	Halldór	Halldór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-4	Gústafsson	Gústafsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	SpaceAfter=No|tag=person_nf_kk
+3	Halldór	Halldór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	tag=person_nf_kk
+4	Gústafsson	Gústafsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 5	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 6	hinn	hinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_nf_kk
 7	skipverjinn	skipverji	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|tag=no_et_nf_kk_gr

@@ -1,14 +1,13 @@
 # sent_id = GREYNIR_CORPUS_00113,.1
-# text = Einar Ágúst úr Skítamóral spilar frá 21 – 00 og það verður rjúkandi happy hour frá 21 – 23.
-1-2	Einar Ágúst	_	_	_	_	_	_	_	_
+# text = Einar Ágúst úr Skítamóral spilar frá 21–00 og það verður rjúkandi happy hour frá 21–23.
 1	Einar	Einar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	Ágúst	Ágúst	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Ágúst	Ágúst	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	úr	úr	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	Skítamóral	Skítamórall	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	tag=sérnafn_et_þgf_kk
 5	spilar	spila	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	21	21	NUM	tala	NumType=Card	5	obl	_	SpaceAfter=No|tag=tala
-8	–	_	PUNCT	grm	_	7	punct	_	tag=grm
+8	–	_	PUNCT	grm	_	7	punct	_	SpaceAfter=No|tag=grm
 9	00	00	NUM	tala	NumType=Card	7	nummod	_	tag=tala
 10	og	og	CCONJ	st	_	5	cc	_	tag=st
 11	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	tag=pfn_et_nf_hk_p3
@@ -18,7 +17,7 @@
 15	hour	hour	X	foreign	_	13	flat:foreign	_	tag=foreign
 16	frá	frá	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	21	21	ADV	tala	NumType=Card	13	advmod	_	SpaceAfter=No|tag=tala
-18	–	_	PUNCT	grm	_	17	punct	_	tag=grm
+18	–	_	PUNCT	grm	_	17	punct	_	SpaceAfter=No|tag=grm
 19	23	23	NUM	tala	NumType=Card	17	nummod	_	SpaceAfter=No|tag=tala
 20	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
@@ -71,7 +70,7 @@
 # sent_id = GREYNIR_CORPUS_00113,.4
 # text = Fyrirtækið nefnist Neuralink og mun þróa efni sem á að gera fólki kleift að stjórna tækjum með huganum einum.
 1	Fyrirtækið	fyrirtæki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	nefnist	nefna	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	3	conj	_	tag=so_1_nf_fh_p3_et_nt_mm
+2	nefnist	nefna	AUX	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	3	cop	_	tag=so_1_nf_fh_p3_et_nt_mm
 3	Neuralink	Neuralink	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fyrirtæki_et_nf_hk
 4	og	og	CCONJ	st	_	3	cc	_	tag=st
 5	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -101,9 +100,8 @@
 6	sjarmatröllið	sjarmatröll	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	tag=no_et_nf_hk_gr
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
 8	ólíkindatólið	ólíkindatól	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	conj	_	tag=no_et_nf_hk_gr
-9-10	Emmanuel Macron	_	_	_	_	_	_	_	_
 9	Emmanuel	Emmanuel	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	conj	_	tag=person_nf_kk
-10	Macron	Macron	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	flat	_	tag=person_nf_kk
+10	Macron	Macron	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	flat	_	MWEEnd=Yes|tag=person_nf_kk
 11	mæti	mæta	VERB	so_1_þgf_vh_p3_et_nt_gm	Case=Dat|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_1_þgf_vh_p3_et_nt_gm
 12	henni	hún	PRON	pfn_et_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	tag=pfn_et_þgf_kvk_p3
 13	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
@@ -123,9 +121,8 @@
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 6	hlaut	hljóta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-7-8	á dögunum	_	_	_	_	_	_	_	_
 7	á	á	ADV	ao	_	6	advmod	_	tag=ao
-8	dögunum	dögunum	ADV	ao	_	7	fixed	_	tag=ao
+8	dögunum	dögunum	ADV	ao	_	7	fixed	_	MWEEnd=Yes|tag=ao
 9	hönnunarverðlaun	hönnunarverðlaun	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	tag=no_ft_þf_hk
 10	iF	iF	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
@@ -146,7 +143,7 @@
 3	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_ft_nf_p1
 4	gistum	gista	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p1_ft_nt_gm
 5	á	á	ADV	ao	_	4	advmod	_	tag=ao
-6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+6	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 7	hluti	hluti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 8	af	af	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 9	sömu	sami	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	tag=fn_et_þgf_kvk
@@ -163,9 +160,9 @@
 
 # sent_id = GREYNIR_CORPUS_00113,.8
 # text = S: „Hvað ert þú búin að vera að gera í öll þessi sex-ish ár?“
-1	S	S	ADV	abbrev	_	7	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=abbrev
-2	:	_	PUNCT	grm	_	1	punct	_	SpaceAfter=No|tag=grm
-3	„	_	PUNCT	grm	_	7	punct	_	tag=grm
+1	S	S	ADV	abbrev	_	7	dep	_	SpaceAfter=No|tag=abbrev
+2	:	_	PUNCT	grm	_	1	punct	_	tag=grm
+3	„	_	PUNCT	grm	_	7	punct	_	SpaceAfter=No|tag=grm
 4	Hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	tag=fn_et_þf_hk
 5	ert	vera	AUX	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p2_et_nt_gm
 6	þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_p2
@@ -185,10 +182,9 @@
 # sent_id = GREYNIR_CORPUS_00113,.9
 # text = Vísir mun að sjálfsögðu gera mótinu góð skil, en fluttar verða daglegir fréttir af mótinu á öllum miðlum.
 1	Vísir	Vísir	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=fyrirtæki_et_nf_kk
-2	mun	mun	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3-4	að sjálfsögðu	_	_	_	_	_	_	_	_
+2	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	að	að	ADV	ao	_	5	advmod	_	tag=ao
-4	sjálfsögðu	sjálfsögðu	ADV	ao	_	3	fixed	_	tag=ao
+4	sjálfsögðu	sjálfsögðu	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	gera	gera	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_2_þgf_þf_nh_gm
 6	mótinu	mót	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	iobj	_	tag=no_et_þgf_hk_gr
 7	góð	góð	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	8	amod	_	tag=lo_ft_þf_hk_sb
@@ -214,9 +210,8 @@
 4	flutt	flytja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	csubj	_	tag=so_1_þf_sagnb_gm
 5	skilaboð	skilaboð	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	tag=no_ft_þf_hk
 6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7-8	Donald Trump	_	_	_	_	_	_	_	_
 7	Donald	DonaldTrump	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	4	obl	_	tag=person_þgf_kk
-8	Trump	DonaldTrump	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	7	flat	_	tag=person_þgf_kk
+8	Trump	DonaldTrump	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	7	flat	_	MWEEnd=Yes|tag=person_þgf_kk
 9	til	til	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
 10	Kim	Kim	PROPN	person_ef_kk	Case=Gen|Gender=Masc	4	obl	_	tag=person_ef_kk
 11	og	og	CCONJ	st	_	2	cc	_	tag=st

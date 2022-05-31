@@ -9,7 +9,7 @@
 7	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 8	fólk	fólk	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk
 9	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	advcl	_	tag=so_0_fh_p3_et_þt_gm
-10	látið	láta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	conj	_	tag=so_0_lhþt_et
+10	látið	láta	AUX	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	aux	_	tag=so_0_lhþt_et
 11	spila	spila	VERB	so_0	_	9	xcomp	_	tag=so_0
 12	nýju	nýr	ADJ	lo_ft_þf_kk_vb	Case=Acc|Gender=Masc|Number=Plur	13	amod	_	tag=lo_ft_þf_kk_vb
 13	leikina	leikur	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
@@ -24,8 +24,8 @@
 5	fólki	fólk	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 6	geta	geta	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_ft_nt_gm
 7	virkað	virka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-8	eins	eins	ADV	ao	_	11	cc	_	tag=ao
-9	og	og	CCONJ	st	_	8	cc	_	tag=st
+8	eins	eins	ADV	ao	_	9	advmod	_	tag=ao
+9	og	og	CCONJ	st	_	11	mark	_	tag=st
 10	bestu	góður	ADJ	lo_ft_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	11	amod	_	tag=lo_ft_nf_kvk_evb
 11	vítamínsprautur	vítamínsprauta	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	7	advcl	_	tag=no_ft_nf_kvk
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
@@ -108,10 +108,10 @@
 3	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 4	aftur	aftur	ADV	ao	_	2	advmod	_	tag=ao
 5	og	og	CCONJ	st	_	2	cc	_	tag=st
-6	bauð	bjóða	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_þgf_fh_p3_et_þt_gm
-7	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	tag=pfn_et_þgf_p1
+6	bauð	bjóða	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þgf_fh_p3_et_þt_gm
+7	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	tag=pfn_et_þgf_p1
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
+9	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
 10	með	með	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	9	obl	_	tag=abfn_þgf
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
@@ -128,14 +128,12 @@
 6	tvo	tveir	NUM	to_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	nummod	_	tag=to_ft_þf_kk
 7	keppendur	keppandi	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No|tag=no_ft_þf_kk
 8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-9-10	Oddnýju Þórarinsdóttur	_	_	_	_	_	_	_	_
 9	Oddnýju	Oddný	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	conj	_	tag=person_þf_kvk
-10	Þórarinsdóttur	Þórarinsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	9	flat	_	tag=person_þf_kvk
+10	Þórarinsdóttur	Þórarinsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	9	flat	_	MWEEnd=Yes|tag=person_þf_kvk
 11	og	og	CCONJ	st	_	7	cc	_	tag=st
-12-14	Eydísi Magneu Friðriksdóttur	_	_	_	_	_	_	_	_
-12	Eydísi	Eydís	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	conj	_	SpaceAfter=No|tag=person_þf_kvk
-13	Magneu	Magnea	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	12	flat	_	SpaceAfter=No|tag=person_þf_kvk
-14	Friðriksdóttur	Friðriksdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	12	flat	_	SpaceAfter=No|tag=person_þf_kvk
+12	Eydísi	Eydís	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	conj	_	tag=person_þf_kvk
+13	Magneu	Magnea	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	12	flat	_	tag=person_þf_kvk
+14	Friðriksdóttur	Friðriksdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	12	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kvk
 15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00072,.9

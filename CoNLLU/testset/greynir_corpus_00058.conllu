@@ -31,15 +31,13 @@
 
 # sent_id = GREYNIR_CORPUS_00058,.3
 # text = Ágústa Eva Erlendsdóttir, leik- og söngkona, prýddi forsíðu tímarits Smartlands.
-1-3	Ágústa Eva Erlendsdóttir	_	_	_	_	_	_	_	_
-1	Ágústa	Ágústa	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	Eva	Eva	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
-3	Erlendsdóttir	Erlendsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
+1	Ágústa	Ágústa	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	nsubj	_	tag=person_nf_kvk
+2	Eva	Eva	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+3	Erlendsdóttir	Erlendsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kvk
 4	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-5-7	leik- og söngkona	_	_	_	_	_	_	_	_
-5	leik-	leik-	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|tag=no_et_nf_kvk
-6	og	og	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	SpaceAfter=No|tag=no_et_nf_kvk
-7	söngkona	söngkona	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	SpaceAfter=No|tag=no_et_nf_kvk
+5	leik-	leik-	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	tag=no_et_nf_kvk
+6	og	og	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	tag=no_et_nf_kvk
+7	söngkona	söngkona	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_et_nf_kvk
 8	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 9	prýddi	prýða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 10	forsíðu	forsíða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	tag=no_et_þf_kvk
@@ -52,9 +50,8 @@
 1	Almenningssalerni	Almenningssalerni	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk
 2	voru	vera	AUX	so_0	_	3	aux	_	tag=so_0
 3	opnuð	opna	VERB	so_0_lhþt	VerbForm=Part	0	root	_	tag=so_0_lhþt
-4-5	á ný	_	_	_	_	_	_	_	_
 4	á	á	ADV	ao	_	3	advmod	_	tag=ao
-5	ný	ný	ADV	ao	_	4	fixed	_	tag=ao
+5	ný	ný	ADV	ao	_	4	fixed	_	MWEEnd=Yes|tag=ao
 6	við	við	ADP	fs	_	7	case	_	tag=fs
 7	skiptistöð	skiptistöð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk
 8	Strætó	Strætó	PROPN	fyrirtæki	_	7	nmod:poss	_	tag=fyrirtæki
@@ -89,8 +86,8 @@
 5	Meðallandsveg	Meðallandsvegur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	tag=no_et_þf_kk
 6	en	en	CCONJ	st	_	2	cc	_	tag=st
 7	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
-8	fyrr	snemma	ADV	ao_mst	Degree=Cmp	10	cc	_	tag=ao_mst
-9	en	en	CCONJ	st	_	8	cc	_	tag=st
+8	fyrr	snemma	ADV	ao_mst	Degree=Cmp	9	advmod	_	tag=ao_mst
+9	en	en	CCONJ	st	_	10	mark	_	tag=st
 10	í	í	ADP	fs_þgf	Case=Dat	2	advcl	_	tag=fs_þgf
 11	næstu	næstur	ADJ	lo_et_þgf_hk_esb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_þgf_hk_esb
 12	viku	vika	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	advcl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
@@ -99,9 +96,8 @@
 # sent_id = GREYNIR_CORPUS_00058,.7
 # text = Þar fyrir utan eru keyptir nokkur þúsund dagskammtar af svefnlyfjum fyrir vistmenn.
 1	Þar	þar	ADV	ao	_	5	advmod	_	tag=ao
-2-3	fyrir utan	_	_	_	_	_	_	_	_
 2	fyrir	þar	ADV	ao	_	1	advmod	_	tag=ao
-3	utan	fyrir	ADV	ao	_	2	fixed	_	tag=ao
+3	utan	fyrir	ADV	ao	_	2	fixed	_	MWEEnd=Yes|tag=ao
 4	eru	vera	AUX	so_0	_	5	aux	_	tag=so_0
 5	keyptir	kaupa	VERB	so_0	_	0	root	_	tag=so_0
 6	nokkur	nokkur	PRON	fn	_	8	nmod	_	tag=fn

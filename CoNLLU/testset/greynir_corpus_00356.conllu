@@ -19,20 +19,18 @@
 4	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_vh_p3_et_nt_gm
 5	gildistími	gildistími	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
 6	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nmod	_	tag=pfn_ft_ef_kk_p3
-7-9	1. september 2017	_	_	_	_	_	_	_	_
 7	1.	1.	ADV	dagsföst	_	4	advmod	_	tag=dagsföst
 8	september	september	NOUN	dagsföst	_	7	flat	_	tag=dagsföst
-9	2017	2017	NOUN	dagsföst	_	7	flat	_	tag=dagsföst
+9	2017	2017	NOUN	dagsföst	_	7	flat	_	MWEEnd=Yes|tag=dagsföst
 10	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-11-13	31. mars 2019	_	_	_	_	_	_	_	_
-11	31.	31.	NOUN	dagsföst	_	7	obl	_	SpaceAfter=No|tag=dagsföst
-12	mars	mars	NOUN	dagsföst	_	11	flat	_	SpaceAfter=No|tag=dagsföst
-13	2019	2019	NOUN	dagsföst	_	11	flat	_	SpaceAfter=No|tag=dagsföst
+11	31.	31.	NOUN	dagsföst	_	7	obl	_	tag=dagsföst
+12	mars	mars	NOUN	dagsföst	_	11	flat	_	tag=dagsföst
+13	2019	2019	NOUN	dagsföst	_	11	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsföst
 14	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00356,.3
 # text = „Þetta er vonum framar að vera í toppbaráttunni.
-1	„	„	PUNCT	grm	_	3	punct	_	tag=grm
+1	„	„	PUNCT	grm	_	3	punct	_	SpaceAfter=No|tag=grm
 2	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fn_et_nf_hk
 3	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	vonum	von	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_þgf_kvk
@@ -51,9 +49,8 @@
 4	Steingrímur	Steingrímur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
 5	ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
 6	við	við	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7-8	Önnu Kolbrúnu	_	_	_	_	_	_	_	_
 7	Önnu	Önnu	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	3	obl	_	tag=person_þf_kvk
-8	Kolbrúnu	Kolbrúnu	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	flat	_	tag=person_þf_kvk
+8	Kolbrúnu	Kolbrúnu	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	7	flat	_	MWEEnd=Yes|tag=person_þf_kvk
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
 10	sakast	saka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	ccomp	_	SpaceAfter=No|tag=so_0_nh_gm
 11	.	.	PUNCT	grm	_	3	punct	_	tag=grm
@@ -82,11 +79,10 @@
 7	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_ef_hk
 8	að	að	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	fjárhæð	fjárhæð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk
-10-13	1.000 milljónir sænskra króna	_	_	_	_	_	_	_	_
 10	1.000	1.000	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	tag=no_ft_þf_kvk
 11	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	flat	_	tag=no_ft_þf_kvk
 12	sænskra	sænskra	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	flat	_	tag=no_ft_þf_kvk
-13	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	flat	_	tag=no_ft_þf_kvk
+13	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	flat	_	MWEEnd=Yes|tag=no_ft_þf_kvk
 
 # sent_id = GREYNIR_CORPUS_00356,.7
 # text = Það var því skrifað undir í Reykjavík í dag.
@@ -129,7 +125,7 @@
 
 # sent_id = GREYNIR_CORPUS_00356,.10
 # text = „Ég reiknaði ekki með að ná þessum landsleikjum.
-1	„	„	PUNCT	grm	_	3	punct	_	tag=grm
+1	„	„	PUNCT	grm	_	3	punct	_	SpaceAfter=No|tag=grm
 2	Ég	ég	PRON	pfn_et_nf_kk_p1	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p1
 3	reiknaði	reikna	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p1_et_þt_gm
 4	ekki	ekki	ADV	ao_fst	Degree=Pos	3	advmod	_	tag=ao_fst

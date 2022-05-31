@@ -7,9 +7,8 @@
 5	þessari	þessi	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	tag=fn_et_þgf_kvk
 6	niðurstöðu	niðurstaða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
 7	nú	nú	ADV	ao	_	3	advmod	_	tag=ao
-8-9	klukkan 9	_	_	_	_	_	_	_	_
-8	klukkan	klukkan	ADV	tími	_	3	advmod	_	SpaceAfter=No|tag=tími
-9	9	9	NUM	tími	_	8	flat	_	SpaceAfter=No|tag=tími
+8	klukkan	klukkan	ADV	tími	_	3	advmod	_	tag=tími
+9	9	9	NUM	tími	_	8	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=tími
 10	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 11	eða	eða	CCONJ	st	_	8	cc	_	tag=st
 12	10	10	NUM	tími	_	8	nummod	_	tag=tími
@@ -41,25 +40,23 @@
 2	launa	laun	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_hk
 3	jókst	auka	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 4	um	um	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5-6	0,3 prósent	_	_	_	_	_	_	_	_
 5	0,3	0,3	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	tag=prósenta_ft_þf_hk
-6	prósent	prósent	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	_	_	tag=prósenta_ft_þf_hk
+6	prósent	prósent	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	flat	_	MWEEnd=Yes|tag=prósenta_ft_þf_hk
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	marsmánuði	marsmánuður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 10	og	og	CCONJ	st	_	3	cc	_	tag=st
-11	mældist	mæla	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	13	cop	_	tag=so_1_nf_fh_p3_et_þt_mm
+11	mældist	mæla	AUX	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	13	cop	_	tag=so_1_nf_fh_p3_et_þt_mm
 12	hækkunartakturinn	hækkunartaktur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	tag=no_et_nf_kk_gr
-13-14	3,3 prósent	_	_	_	_	_	_	_	_
-13	3,3	3,3	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	conj	_	SpaceAfter=No|tag=prósenta_ft_nf_hk
-14	prósent	prósent	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	13	_	_	SpaceAfter=No|tag=prósenta_ft_nf_hk
+13	3,3	3,3	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	conj	_	tag=prósenta_ft_nf_hk
+14	prósent	prósent	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	13	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=prósenta_ft_nf_hk
 15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00251,.4
 # text = Fjárlagafrumvarpið nú er hið fyrsta sem Alþingi tekur til afgreiðslu samkvæmt hinum nýju lögum.
 1	Fjárlagafrumvarpið	fjárlagafrumvarp	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
 2	nú	nú	ADV	ao	_	4	advmod	_	tag=ao
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	hið	hinn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
 5	fyrsta	fyrstur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_nf_hk_vb
 6	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
@@ -77,7 +74,7 @@
 # text = Og ástæðan er náttúrlega sú að við neitum að horfast í augu við vandann.
 1	Og	og	SCONJ	st	_	5	cc	_	tag=st
 2	ástæðan	ástæða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	náttúrlega	náttúrlega	ADV	ao	_	5	advmod	_	tag=ao
 5	sú	sá	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=fn_et_nf_kvk
 6	að	að	SCONJ	st	_	8	mark	_	tag=st
@@ -94,7 +91,7 @@
 # sent_id = GREYNIR_CORPUS_00251,.6
 # text = Plássið er einnig gott fyrir fjóra fullorðna og jafnvel þann fimmta líka í miðjusætinu.
 1	Plássið	pláss	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	einnig	einnig	ADV	ao	_	4	advmod	_	tag=ao
 4	gott	góður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
@@ -120,9 +117,8 @@
 7	mælinga	mæling	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_ef_kvk
 8	en	en	CCONJ	st	_	4	cc	_	tag=st
 9	rúmlega	rúmlega	ADV	eo	_	10	advmod	_	tag=eo
-10-11	37 prósent	_	_	_	_	_	_	_	_
 10	37	37	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	tag=prósenta_ft_nf_hk
-11	prósent	prósent	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	10	_	_	tag=prósenta_ft_nf_hk
+11	prósent	prósent	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	10	flat	_	MWEEnd=Yes|tag=prósenta_ft_nf_hk
 12	segjast	segja	VERB	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	4	conj	_	tag=so_0_fh_p3_ft_nt_mm
 13	styðja	styðja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	12	conj	_	tag=so_1_þf_nh_gm
 14	ríkisstjórnina	ríkisstjórn	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
@@ -131,11 +127,10 @@
 # sent_id = GREYNIR_CORPUS_00251,.8
 # text = Það verður því Valdís Þóra sem heldur áfram leik en Ólafía er á heimleið.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	því	því	ADV	ao	_	4	advmod	_	tag=ao
-4-5	Valdís Þóra	_	_	_	_	_	_	_	_
 4	Valdís	Valdís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	0	root	_	tag=person_nf_kvk
-5	Þóra	Þóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	flat	_	tag=person_nf_kvk
+5	Þóra	Þóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
 7	heldur	halda	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	acl:relcl	_	tag=so_1_þgf_fh_p3_et_nt_gm
 8	áfram	áfram	ADV	eo	_	7	compound:prt	_	tag=eo

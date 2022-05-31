@@ -21,16 +21,15 @@
 # sent_id = GREYNIR_CORPUS_00261,.2
 # text = Á meðal þeirra sem biðu eftir úthlutun á sama tíma og Palli voru tvær ungar konur.
 1	Á	á	ADP	fs_ef	Case=Gen	3	case	_	tag=fs_ef
-2	meðal	meðal	ADP	fs_ef	Case=Gen	1	case	_	tag=fs_ef
+2	meðal	meðal	ADP	fs_ef	Case=Gen	1	fixed	_	tag=fs_ef
 3	þeirra	sá	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	13	obl	_	tag=fn_ft_ef_kvk
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	biðu	bíða	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	tag=so_0_fh_p3_ft_þt_gm
 6	eftir	eftir	ADP	fs	_	7	obl	_	tag=fs
 7	úthlutun	úthlutun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_nf_kvk
-8-10	á sama tíma	_	_	_	_	_	_	_	_
 8	á	á	ADV	ao	_	5	advmod	_	tag=ao
 9	sama	sama	ADV	ao	_	8	fixed	_	tag=ao
-10	tíma	tíma	ADV	ao	_	8	fixed	_	tag=ao
+10	tíma	tíma	ADV	ao	_	8	fixed	_	MWEEnd=Yes|tag=ao
 11	og	og	CCONJ	st	_	5	advcl	_	tag=st
 12	Palli	Palli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	obl	_	tag=person_nf_kk
 13	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
@@ -45,7 +44,7 @@
 2	að	að	ADV	ao	_	5	advmod	_	tag=ao
 3	mynda	mynda	ADV	ao	_	5	advmod	_	tag=ao
 4	þessir	þessi	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nmod	_	tag=fn_ft_nf_kk
-5	Sýrlendingar	Sýrlendingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	11	VANTAR_LIÐ_S_PREFIX	_	tag=no_ft_nf_kk
+5	Sýrlendingar	Sýrlendingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	11	dep	_	tag=no_ft_nf_kk
 6	en	en	CCONJ	st	_	11	cc	_	tag=st
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	heimalandi	heimaland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
@@ -64,12 +63,11 @@
 1	Leikstjóri	leikstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	tag=no_et_nf_kk
 2	myndarinnar	mynd	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk_gr
 3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
-4-5	Christopher Nolan	_	_	_	_	_	_	_	_
 4	Christopher	Christopher	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
-5	Nolan	Nolan	PROPN	sérnafn	_	4	flat	_	tag=sérnafn
+5	Nolan	Nolan	PROPN	sérnafn	_	4	flat	_	MWEEnd=Yes|tag=sérnafn
 6	en	en	CCONJ	st	_	3	cc	_	tag=st
 7	þetta	þetta	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=fn_et_nf_hk
-8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 9	þriðja	þriðji	ADJ	lo_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_nf_kvk
 10	Nolan-myndin	Nolan-mynd	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	conj	_	tag=no_et_nf_kvk_gr
 11	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
@@ -84,13 +82,12 @@
 2	efldu	efla	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 3	varnir	vörn	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	tag=no_ft_þf_kvk
 4	sínar	sinn	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	tag=fn_ft_þf_kvk
-5-6	í morgun	_	_	_	_	_	_	_	_
 5	í	í	ADV	ao	_	2	advmod	_	tag=ao
-6	morgun	morgun	ADV	ao	_	5	fixed	_	tag=ao
-7	með	með	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
+6	morgun	morgun	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
+7	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
+8	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	tag=fn_et_þgf_hk
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
-10	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
+10	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	obl	_	tag=so_0_nh_gm
 11	fyrir	fyrir	ADV	ao	_	10	compound:prt	_	tag=ao
 12	fjórum	fjórir	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	14	nummod	_	tag=to_ft_þgf_kk
 13	nýjum	nýr	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	14	amod	_	tag=lo_ft_þgf_kk_sb
@@ -124,7 +121,7 @@
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
 4	spila	spila	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þgf_nh_gm
 5	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-6	móti	móti	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+6	móti	móti	ADP	fs_þgf	Case=Dat	5	fixed	_	tag=fs_þgf
 7	betra	góður	ADJ	lo_et_þgf_hk_mst	Case=Dat|Degree=Cmp|Gender=Neut|Number=Sing	8	amod	_	tag=lo_et_þgf_hk_mst
 8	liði	lið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
@@ -141,24 +138,20 @@
 # text = Miðjumenn: Fanndís Friðriksdóttir, Sigríður Lára Garðarsdóttir, Guðmunda Brynja Óladóttir, Málfríður Erna Sigurðardóttir.
 1	Miðjumenn	Miðjumenn	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
 2	:	:	PUNCT	grm	_	1	punct	_	tag=grm
-3-4	Fanndís Friðriksdóttir	_	_	_	_	_	_	_	_
-3	Fanndís	Fanndís	PROPN	person	_	1	obl	_	SpaceAfter=No|tag=person
-4	Friðriksdóttir	Friðriksdóttir	PROPN	person	_	3	flat	_	SpaceAfter=No|tag=person
+3	Fanndís	Fanndís	PROPN	person	_	1	obl	_	tag=person
+4	Friðriksdóttir	Friðriksdóttir	PROPN	person	_	3	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person
 5	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-6-8	Sigríður Lára Garðarsdóttir	_	_	_	_	_	_	_	_
-6	Sigríður	Sigríður	PROPN	person	_	1	obl	_	SpaceAfter=No|tag=person
-7	Lára	Lára	PROPN	person	_	6	flat	_	SpaceAfter=No|tag=person
-8	Garðarsdóttir	Garðarsdóttir	PROPN	person	_	6	flat	_	SpaceAfter=No|tag=person
+6	Sigríður	Sigríður	PROPN	person	_	1	obl	_	tag=person
+7	Lára	Lára	PROPN	person	_	6	flat	_	tag=person
+8	Garðarsdóttir	Garðarsdóttir	PROPN	person	_	6	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person
 9	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-10-12	Guðmunda Brynja Óladóttir	_	_	_	_	_	_	_	_
-10	Guðmunda	Guðmunda	PROPN	person	_	1	obl	_	SpaceAfter=No|tag=person
-11	Brynja	Brynja	PROPN	person	_	10	flat	_	SpaceAfter=No|tag=person
-12	Óladóttir	Óladóttir	PROPN	person	_	10	flat	_	SpaceAfter=No|tag=person
+10	Guðmunda	Guðmunda	PROPN	person	_	1	obl	_	tag=person
+11	Brynja	Brynja	PROPN	person	_	10	flat	_	tag=person
+12	Óladóttir	Óladóttir	PROPN	person	_	10	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person
 13	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-14-16	Málfríður Erna Sigurðardóttir	_	_	_	_	_	_	_	_
-14	Málfríður	Málfríður	PROPN	person	_	1	obl	_	SpaceAfter=No|tag=person
-15	Erna	Erna	PROPN	person	_	14	flat	_	SpaceAfter=No|tag=person
-16	Sigurðardóttir	Sigurðardóttir	PROPN	person	_	14	flat	_	SpaceAfter=No|tag=person
+14	Málfríður	Málfríður	PROPN	person	_	1	obl	_	tag=person
+15	Erna	Erna	PROPN	person	_	14	flat	_	tag=person
+16	Sigurðardóttir	Sigurðardóttir	PROPN	person	_	14	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person
 17	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00261,.9
@@ -174,9 +167,8 @@
 9	við	við	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	almenning	almenningur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þf_kk
 11	en	en	CCONJ	st	_	7	cc	_	tag=st
-12-13	alls ekki	_	_	_	_	_	_	_	_
 12	alls	alls	ADV	ao	_	7	advmod	_	tag=ao
-13	ekki	ekki	ADV	ao	_	12	fixed	_	tag=ao
+13	ekki	ekki	ADV	ao	_	12	fixed	_	MWEEnd=Yes|tag=ao
 14	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 15	öllum	allur	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	16	nmod	_	tag=fn_ft_þgf_hk
 16	tilvikum	tilvik	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
@@ -185,7 +177,7 @@
 # sent_id = GREYNIR_CORPUS_00261,.10
 # text = Þá sé óvíst hvenær lánið verði greitt niður að fullu og félagið fari að greiða tekjuskatt.
 1	Þá	þá	ADV	ao	_	3	advmod	_	tag=ao
-2	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_vh_p3_et_nt_gm
+2	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_vh_p3_et_nt_gm
 3	óvíst	óvís	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	hvenær	hvenær	ADV	ao	_	7	advmod	_	tag=ao
 5	lánið	lán	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk_gr

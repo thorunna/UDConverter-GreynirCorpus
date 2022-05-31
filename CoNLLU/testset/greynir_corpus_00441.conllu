@@ -27,9 +27,8 @@
 # text = Ég tilkynnti Þorsteini Má í símtali þá niðurstöðu en við höfðum verið í símasambandi um stöðu málsins á fyrstu mánuðum ársins 2013.“
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	tilkynnti	tilkynna	VERB	so_2_þgf_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p1_et_þt_gm
-3-4	Þorsteini Má	_	_	_	_	_	_	_	_
 3	Þorsteini	Þorsteinn	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	2	iobj	_	tag=person_þgf_kk
-4	Má	Már	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	3	flat	_	tag=person_þgf_kk
+4	Má	Már	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	3	flat	_	MWEEnd=Yes|tag=person_þgf_kk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	símtali	símtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 7	þá	sá	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	tag=fn_et_þf_kvk
@@ -46,9 +45,8 @@
 18	á	á	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	fyrstu	fyrstur	ADJ	lo_ft_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Plur	20	amod	_	tag=lo_ft_þgf_kk_vb
 20	mánuðum	mánuður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	tag=no_ft_þgf_kk
-21-22	ársins 2013	_	_	_	_	_	_	_	_
-21	ársins	ársins	NUM	ártal	_	20	nmod:poss	_	SpaceAfter=No|tag=ártal
-22	2013	2013	NUM	ártal	_	21	flat	_	SpaceAfter=No|tag=ártal
+21	ársins	ársins	NUM	ártal	_	20	nmod:poss	_	tag=ártal
+22	2013	2013	NUM	ártal	_	21	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=ártal
 23	.	.	PUNCT	grm	_	2	punct	_	SpaceAfter=No|tag=grm
 24	“	“	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -63,16 +61,16 @@
 7	deildinni	deild	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk_gr
 8	en	en	CCONJ	st	_	2	cc	_	tag=st
 9	lokatölur	lokatala	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	tag=no_ft_nf_kvk
-10	urðu	verða	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_ft_þt_gm
+10	urðu	verða	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_ft_þt_gm
 11	0	0	NUM	tala	NumType=Card	2	conj	_	SpaceAfter=No|tag=tala
 12	:	:	PUNCT	grm	_	11	punct	_	tag=grm
 13	3	3	NUM	tala	NumType=Card	11	nummod	_	tag=tala
-14	eftir	eftir	ADV	ao	_	20	mark	_	tag=ao
-15	að	að	SCONJ	st	_	14	cc	_	tag=st
+14	eftir	eftir	ADV	ao	_	15	advmod	_	tag=ao
+15	að	að	SCONJ	st	_	20	mark	_	tag=st
 16	staðan	staða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nsubj	_	tag=no_et_nf_kvk_gr
 17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 18	hálfleik	hálfleikur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þgf_kk
-19	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_þt_gm
+19	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_þt_gm
 20	0	0	NUM	tala	NumType=Card	11	advcl	_	SpaceAfter=No|tag=tala
 21	:	:	PUNCT	grm	_	20	punct	_	tag=grm
 22	0	0	NUM	tala	NumType=Card	20	nummod	_	tag=tala
@@ -86,9 +84,8 @@
 5	mistök	mistak	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
 6	sem	sem	SCONJ	st	_	7	mark	_	tag=st
 7	þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	advcl	_	tag=fn_ft_nf_hk
-8-9	að endingu	_	_	_	_	_	_	_	_
 8	að	að	ADV	ao	_	4	advmod	_	tag=ao
-9	endingu	endingu	ADV	ao	_	8	fixed	_	tag=ao
+9	endingu	endingu	ADV	ao	_	8	fixed	_	MWEEnd=Yes|tag=ao
 10	fyrir	fyrir	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	dómstólum	dómstóll	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_þgf_kk
 12	ef	ef	SCONJ	st	_	17	mark	_	tag=st
@@ -131,7 +128,7 @@
 
 # sent_id = GREYNIR_CORPUS_00441,.6
 # text = „Við ætlum ekkert að blekkja sjálfa okkur með því að halda að við séum komnir í baráttu um einhverja titla.
-1	„	„	PUNCT	grm	_	3	punct	_	tag=grm
+1	„	„	PUNCT	grm	_	3	punct	_	SpaceAfter=No|tag=grm
 2	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
 3	ætlum	ætla	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_nt_gm
 4	ekkert	ekkert	ADV	ao	_	6	advmod	_	tag=ao
@@ -139,10 +136,10 @@
 6	blekkja	blekkja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
 7	sjálfa	sjálfur	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	tag=fn_et_þf_kk
 8	okkur	ég	PRON	pfn_ft_þf_kk_p1	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	7	nmod	_	tag=pfn_ft_þf_kk_p1
-9	með	með	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_þgf_hk
+9	með	með	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+10	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	tag=fn_et_þgf_hk
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
-12	halda	halda	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	10	xcomp	_	tag=so_1_þf_nh_gm
+12	halda	halda	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	obl	_	tag=so_1_þf_nh_gm
 13	að	að	SCONJ	st	_	16	mark	_	tag=st
 14	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	tag=pfn_ft_nf_p1
 15	séum	vera	AUX	so_0_vh_p1_ft_nt_gm	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_vh_p1_ft_nt_gm
@@ -187,16 +184,16 @@
 4	hratt	hratt	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 6	atvinnuleysi	atvinnuleysi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
-7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	lítið	lítill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	tag=lo_et_nf_hk_sb
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
 10	atvinnuþátttaka	atvinnuþátttaka	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	tag=no_et_nf_kvk
 11	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_nt_gm
-12	orðin	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	cop	_	tag=so_0_lhþt_et
+12	orðin	verða	AUX	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	cop	_	tag=so_0_lhþt_et
 13	meiri	mikill	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	2	conj	_	tag=lo_et_nf_kvk_mst
 14	en	en	CCONJ	st	_	17	cc	_	tag=st
 15	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kvk_p3
-16	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_0_fh_p3_et_þt_gm
+16	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_0_fh_p3_et_þt_gm
 17	mest	mikill	ADJ	lo_et_nf_kvk_esb_sb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	13	advcl	_	tag=lo_et_nf_kvk_esb_sb
 18	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19	þenslutímanum	þenslutími	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þgf_kk_gr
@@ -218,8 +215,8 @@
 10	Landsbankinn	landsbanki	PROPN	fyrirtæki_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	tag=fyrirtæki_et_nf_kk_gr
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
 12	fjárfesta	fjárfesta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þf_nh_gm
-13	þannig	þannig	ADV	ao	_	16	mark	_	tag=ao
-14	að	að	SCONJ	st	_	13	cc	_	tag=st
+13	þannig	þannig	ADV	ao	_	14	advmod	_	tag=ao
+14	að	að	SCONJ	st	_	16	mark	_	tag=st
 15	fólkið	fólk	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	16	nsubj	_	tag=no_et_nf_hk_gr
 16	þyrfti	þurfa	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	advcl	_	tag=so_0_vh_p3_et_þt_gm
 17	ekki	ekki	ADV	ao	_	16	advmod	_	tag=ao
@@ -234,11 +231,10 @@
 1	Langafi	langafi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
 2	minn	minn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No|tag=fn_et_nf_kk
 3	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-4-5	Þórður Sveinsson	_	_	_	_	_	_	_	_
-4	Þórður	Þórður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	SpaceAfter=No|tag=person_nf_kk
-5	Sveinsson	Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	SpaceAfter=No|tag=person_nf_kk
+4	Þórður	Þórður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
+5	Sveinsson	Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 6	,	,	PUNCT	grm	_	1	punct	_	tag=grm
-7	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+7	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 8	geðlæknir	geðlæknir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	Kleppi	Kleppur	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_hk
