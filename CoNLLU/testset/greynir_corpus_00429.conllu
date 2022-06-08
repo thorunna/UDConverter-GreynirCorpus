@@ -3,7 +3,7 @@
 1	Mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_þgf_p1
 2	finnst	finna	VERB	so_0_op_subj_þgf_fh_p1_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Mid	19	ccomp	_	tag=so_0_op_subj_þgf_fh_p1_et_nt_mm
 3	bara	bara	ADV	ao	_	2	advmod	_	tag=ao
-4	ríkja	ríkja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	csubj	_	tag=so_0_nh_gm
+4	ríkja	ríkja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	obl	_	tag=so_0_nh_gm
 5	mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_sb
 6	ábyrgð	ábyrgð	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -31,7 +31,7 @@
 6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
 7	að	að	SCONJ	st	_	10	mark	_	tag=st
 8	öllum	allur	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	nsubj	_	tag=fn_ft_þgf_hk
-9	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_þt_gm
+9	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_þt_gm
 10	sagt	segja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	ccomp	_	tag=so_0_sagnb_gm
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
 12	fara	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	xcomp	_	tag=so_0_nh_gm
@@ -41,14 +41,14 @@
 16	og	og	CCONJ	st	_	2	cc	_	tag=st
 17	farangursrými	farangursrými	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	tag=no_et_nf_hk
 18	vélarinnar	vél	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod:poss	_	tag=no_et_ef_kvk_gr
-19	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	aux	_	tag=so_0_fh_p3_et_þt_gm
+19	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_þt_gm
 20	tæmt	tæma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	SpaceAfter=No|tag=so_0_lhþt_et
 21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00429,.3
 # text = „En eins og forsetinn segir þá eigum við að ýta því frá okkur og máta okkur við málefnin.
 1	„	„	PUNCT	grm	_	2	punct	_	SpaceAfter=No|tag=grm
-2	En	en	SCONJ	st	_	8	cc	_	tag=st
+2	En	en	SCONJ	st	_	8	dep	_	tag=st
 3	eins	eins	ADV	ao	_	4	advmod	_	tag=ao
 4	og	og	CCONJ	st	_	6	mark	_	tag=st
 5	forsetinn	forseti	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk_gr
@@ -163,7 +163,7 @@
 18	hryðjuverksins	hryðjuverk	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_ef_hk_gr
 19	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
 20	framið	fremja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	18	acl:relcl	_	tag=so_0_lhþt_et
-21	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	aux	_	tag=so_0_fh_p3_et_þt_gm
+21	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_þt_gm
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	Barcelona	Barcelona	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	20	obl	_	tag=sérnafn_þgf_hk
 24	í	í	ADV	ao	_	20	advmod	_	tag=ao

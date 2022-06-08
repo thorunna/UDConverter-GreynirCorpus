@@ -46,7 +46,7 @@
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_p1
 2	hef	hafa	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p1_et_nt_gm
 3	líka	líka	ADV	ao	_	5	advmod	_	tag=ao
-4	látið	láta	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	aux	_	tag=so_0_sagnb_gm
+4	látið	láta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	dep	_	tag=so_0_sagnb_gm
 5	plata	plata	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 6	mig	ég	PRON	pfn_et_þf_p1	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	tag=pfn_et_þf_p1
 7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
@@ -91,7 +91,7 @@
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	gott	góður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=lo_et_nf_hk_sb
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
-5	minna	minna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	csubj	_	tag=so_1_þf_nh_gm
+5	minna	minna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	obl	_	tag=so_1_þf_nh_gm
 6	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	5	obj	_	tag=abfn_þf
 7	frekar	frekar	ADV	ao_mst	Degree=Cmp	5	advmod	_	tag=ao_mst
 8	á	á	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
@@ -110,7 +110,7 @@
 # sent_id = GREYNIR_CORPUS_00107,.6
 # text = Nú er komin rúmlega fimm ára reynsla á samninginn og ljóst er að það hefur ekki tekist.
 1	Nú	nú	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	komin	koma	VERB	so_0	_	0	root	_	tag=so_0
 4	rúmlega	rúmlegur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_vb
 5	fimm	fimm	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	6	nummod	_	tag=töl_ft_ef_hk
@@ -126,7 +126,7 @@
 15	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_fh_p3_et_nt_gm
 16	ekki	ekki	ADV	ao	_	17	advmod	_	tag=ao
 17	tekist	taka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	12	ccomp	_	SpaceAfter=No|tag=so_0_sagnb_mm
-18	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+18	.	_	PUNCT	grm	_	17	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00107,.7
 # text = Þá skulum við taka afstöðu til þess hvernig forseti skuli bregðast við í málum eins og þessum.
@@ -152,7 +152,7 @@
 # sent_id = GREYNIR_CORPUS_00107,.8
 # text = Málið er litið alvarlegum augum hjá embætti Landlæknis, en ekkert eftirlit er með nálastungumeðferðum hér á landi.
 1	Málið	mál	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	litið	líta	VERB	so_2_þf_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	0	root	_	tag=so_2_þf_þgf_lhþt_et
 4	alvarlegum	alvarlegur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	5	amod	_	tag=lo_ft_þgf_hk_sb
 5	augum	auga	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk
@@ -176,7 +176,7 @@
 1	Einnig	einnig	ADV	ao	_	5	advmod	_	tag=ao
 2	hafi	hafa	AUX	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_1_þf_vh_p3_et_nt_gm
 3	verði	verð	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_þgf_hk
-4	verið	vera	AUX	so_0	_	5	aux	_	tag=so_0
+4	verið	vera	AUX	so_0	_	5	cop	_	tag=so_0
 5	breytt	breyta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	oft	oft	ADV	ao	_	5	advmod	_	tag=ao
 7	á	á	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf

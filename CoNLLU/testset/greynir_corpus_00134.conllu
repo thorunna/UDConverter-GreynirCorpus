@@ -47,13 +47,13 @@
 
 # sent_id = GREYNIR_CORPUS_00134,.3
 # text = Og hann er hreinskilinn þegar hann er spurður hvort fjarvera íslenskra ráðamanna á HM í sumar muni setja mark sitt á leikmennina.
-1	Og	og	SCONJ	st	_	4	cc	_	tag=st
+1	Og	og	SCONJ	st	_	4	dep	_	tag=st
 2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kk_p3
 3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	hreinskilinn	hreinskilinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 5	þegar	þegar	SCONJ	st	_	8	mark	_	tag=st
 6	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kk_p3
-7	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	spurður	spyrja	VERB	so_2_þf_ef_lhþt_et	Case=Gen|Number=Sing|VerbForm=Part	4	advcl	_	tag=so_2_þf_ef_lhþt_et
 9	hvort	hvort	CCONJ	st	_	18	cc	_	tag=st
 10	fjarvera	fjarvera	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	tag=no_et_nf_kvk
@@ -74,7 +74,7 @@
 # sent_id = GREYNIR_CORPUS_00134,.4
 # text = Verðlaun voru veitt fyrir uppgjafartak mótsins og hlaut þau Jóhann Ingi Bjarnason eftir að hann náði fljúgandi armlás á Friðjón Inga Sigurjónsson.
 1	Verðlaun	verðlaun	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk
-2	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_fh_p3_ft_þt_gm
+2	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_þt_gm
 3	veitt	veita	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	fyrir	fyrir	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	uppgjafartak	uppgjafartak	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
@@ -133,7 +133,7 @@
 6	hefðu	hafa	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	10	aux	_	tag=so_0_vh_p3_ft_þt_gm
 7	ekki	ekki	ADV	ao	_	10	advmod	_	tag=ao
 8	alltaf	alltaf	ADV	ao	_	10	advmod	_	tag=ao
-9	getað	geta	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	aux	_	tag=so_0_sagnb_gm
+9	getað	geta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	dep	_	tag=so_0_sagnb_gm
 10	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	ccomp	_	tag=so_0_sagnb_gm
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	húsunum	hús	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	tag=no_ft_þgf_hk
@@ -144,7 +144,7 @@
 17	að	að	SCONJ	st	_	22	mark	_	tag=st
 18	sumt	sumur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	tag=fn_et_nf_hk
 19	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	22	aux	_	tag=so_0_vh_p3_et_þt_gm
-20	mátt	mega	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	22	aux	_	tag=so_0_sagnb_gm
+20	mátt	mega	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	22	dep	_	tag=so_0_sagnb_gm
 21	betur	vel	ADV	ao_mst	Degree=Cmp	22	advmod	_	tag=ao_mst
 22	fara	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	ccomp	_	SpaceAfter=No|tag=so_0_nh_gm
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -185,13 +185,13 @@
 8	málsins	mál	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 10	annar	annar	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=fn_et_nf_kk
-11	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_et_nt_gm
+11	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_nt_gm
 12	grunaður	gruna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
 13	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	morð	morð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þf_hk
 15	og	og	CCONJ	st	_	2	cc	_	tag=st
 16	hinn	hinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	tag=fn_et_nf_kk
-17	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	tag=so_0_fh_p3_et_nt_gm
+17	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_0_fh_p3_et_nt_gm
 18	grunaður	gruna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
 19	um	um	ADP	fs_nh	VerbForm=Inf	22	case	_	tag=fs_nh
 20	að	að	PART	nhm	_	22	mark	_	tag=nhm
