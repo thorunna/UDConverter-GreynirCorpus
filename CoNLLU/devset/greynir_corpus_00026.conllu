@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00026,.1
 # text = Hún er tögguð í einu tístinu.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kvk_p3
-2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	tögguð	tagga	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	einu	einn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	tag=fn_et_þgf_hk
@@ -10,11 +10,11 @@
 
 # sent_id = GREYNIR_CORPUS_00026,.2
 # text = Frétt mbl.is: Þyrlan send að sækja franskan sjómann
-1	Frétt	frétt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
-2	mbl.is	mbl.is	SYM	lén_ef	Case=Gen	1	nmod:poss	_	SpaceAfter=No|tag=lén_ef
+1	Frétt	frétt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	dep	_	tag=no_et_nf_kvk
+2	mbl.is	mbl.is	SYM	lén_ef	_	1	nmod:poss	_	SpaceAfter=No|tag=lén_ef
 3	:	:	PUNCT	grm	_	2	punct	_	tag=grm
 4	Þyrlan	þyrla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
-5	send	senda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	conj	_	tag=so_0_lhþt_et
+5	send	senda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	sækja	sækja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
 8	franskan	franskur	ADJ	lo_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_þf_kk
@@ -59,7 +59,7 @@
 # text = Nýliðanámskeiðið hafi verið gagnlegt og þingflokkurinn fundað stíft.
 1	Nýliðanámskeiðið	nýliðanámskeið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
 2	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_vh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
 4	gagnlegt	gagnlegur	ADJ	lo_et_nf_hk_fst	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_fst
 5	og	og	CCONJ	st	_	6	cc	_	tag=st
 6	þingflokkurinn	þingflokkur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	conj	_	tag=no_et_nf_kk_gr
@@ -95,7 +95,7 @@
 # text = Af hverju er ég ekki frjáls fyrir honum?
 1	Af	af	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	hverju	hver	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_þgf_hk
-3	er	vera	VERB	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p1_et_nt_gm
+3	er	vera	AUX	so_1_nf_fh_p1_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p1_et_nt_gm
 4	ég	ég	PRON	pfn_et_nf_kvk_p1	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_kvk_p1
 5	ekki	ekki	ADV	eo	_	6	advmod	_	tag=eo
 6	frjáls	frjáls	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb

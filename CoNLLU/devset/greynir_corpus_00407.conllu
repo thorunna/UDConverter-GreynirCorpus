@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00407,.1
 # text = Samfylkingin er stærsti flokkurinn í borgarstjórn Reykjavíkur en meirihlutinn er fallinn samkvæmt úrslitum borgarstjórnarkosninga í Reykjavík.
 1	Samfylkingin	Samfylking	PROPN	fyrirtæki_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=fyrirtæki_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	stærsti	stór	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_evb
 4	flokkurinn	flokkur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk_gr
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -9,7 +9,7 @@
 7	Reykjavíkur	Reykjavík	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=sérnafn_et_ef_kvk
 8	en	en	CCONJ	st	_	4	cc	_	tag=st
 9	meirihlutinn	meirihluti	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	tag=no_et_nf_kk_gr
-10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
+10	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 11	fallinn	falla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	conj	_	tag=so_0_lhþt_et
 12	samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	úrslitum	úrslit	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þgf_hk
@@ -22,9 +22,8 @@
 # text = Landssambandið hefur hins vegar ekki enn rætt málið við Isavia, en það verður gert í vikunni.
 1	Landssambandið	landssamband	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk_gr
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
-3-4	hins vegar	_	_	_	_	_	_	_	_
 3	hins	hins	ADV	ao	_	7	advmod	_	tag=ao
-4	vegar	vegar	ADV	ao	_	3	fixed	_	tag=ao
+4	vegar	vegar	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	ekki	ekki	ADV	ao	_	7	advmod	_	tag=ao
 6	enn	enn	ADV	ao	_	5	advmod	_	tag=ao
 7	rætt	ræða	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
@@ -34,7 +33,7 @@
 11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
 12	en	en	CCONJ	st	_	7	cc	_	tag=st
 13	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_hk_p3
-14	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
+14	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
 15	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	conj	_	tag=so_0_lhþt_et
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	vikunni	vika	ADV	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	15	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
@@ -43,7 +42,7 @@
 # sent_id = GREYNIR_CORPUS_00407,.3
 # text = Mataxas var klæddur í skothelt vesti þegar hann gekk inn í dómhúsið í morgun í fylgd lögreglu.
 1	Mataxas	Mataxas	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	klæddur	klæða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 5	skothelt	skotheldur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þf_hk_sb
@@ -54,9 +53,8 @@
 10	inn	inn	ADV	ao	_	12	advmod	_	tag=ao
 11	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	dómhúsið	dómhús	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þf_hk_gr
-13-14	í morgun	_	_	_	_	_	_	_	_
 13	í	í	ADV	ao	_	9	advmod	_	tag=ao
-14	morgun	morgun	ADV	ao	_	13	fixed	_	tag=ao
+14	morgun	morgun	ADV	ao	_	13	fixed	_	MWEEnd=Yes|tag=ao
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	fylgd	fylgd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk
 17	lögreglu	lögregla	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
@@ -92,15 +90,14 @@
 6	hundalógik	hundalógik	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk
 7	en	en	CCONJ	st	_	2	cc	_	tag=st
 8	vil	vilja	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p1_et_nt_gm
-9	eins	eins	ADV	ao	_	11	cc	_	tag=ao
-10	og	og	CCONJ	st	_	9	cc	_	tag=st
+9	eins	eins	ADV	ao	_	10	advmod	_	tag=ao
+10	og	og	CCONJ	st	_	11	mark	_	tag=st
 11	þeir	hann	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	advcl	_	tag=fn_ft_nf_kk
 12	að	að	SCONJ	st	_	14	mark	_	tag=st
 13	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_kvk_p3
 14	eigi	eiga	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	obj	_	tag=so_0_vh_p3_et_nt_gm
-15-16	alls ekki	_	_	_	_	_	_	_	_
 15	alls	alls	ADV	ao	_	14	advmod	_	tag=ao
-16	ekki	ekki	ADV	ao	_	15	fixed	_	tag=ao
+16	ekki	ekki	ADV	ao	_	15	fixed	_	MWEEnd=Yes|tag=ao
 17	neitt	neinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No|tag=fn_et_þf_hk
 18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -108,7 +105,7 @@
 # text = Á Vogi er starfrækt unglingadeild, sem ætluð er ungmennum á aldrinum 16 til 20 ára.
 1	Á	á	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	Vogi	Vogur	PROPN	fyrirtæki_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=fyrirtæki_et_þgf_kk
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	starfrækt	starfrækja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	unglingadeild	unglingadeild	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No|tag=no_et_nf_kvk
 6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
@@ -160,7 +157,7 @@
 12	koma	koma	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	7	obl	_	tag=so_1_þgf_nh_gm
 13	á	á	ADV	ao	_	12	compound:prt	_	tag=ao
 14	framtíðarfyrirkomulagi	framtíðarfyrirkomulag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk
-15	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+15	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 16	þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|tag=fn_ft_nf_hk
 17	.	.	PUNCT	grm	_	16	punct	_	tag=grm
 
@@ -168,7 +165,7 @@
 # text = Ítalskir kjósendur verða öskureiðir yfir að kerfið sé að koma í veg fyrir nýja ráðherra.
 1	Ítalskir	ítalskur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	tag=lo_ft_nf_kk_sb
 2	kjósendur	kjósandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_nf_kk
-3	verða	verða	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+3	verða	verða	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4	öskureiðir	öskureiður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
 5	yfir	yfir	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	að	að	SCONJ	st	_	4	obl	_	tag=st
@@ -183,6 +180,8 @@
 15	ráðherra	ráðherra	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
 16	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00407,.10
+# text = Hann er á því að Gylfi sé á leið með að verða sá besti frá upphafi.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
@@ -194,10 +193,10 @@
 9	leið	leið	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þgf_kvk
 10	með	með	ADP	fs_nh	VerbForm=Inf	13	case	_	tag=fs_nh
 11	að	að	PART	nhm	_	13	mark	_	tag=nhm
-12	verða	verða	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	13	cop	_	tag=so_1_nf_nh_gm
+12	verða	verða	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	13	cop	_	tag=so_1_nf_nh_gm
 13	sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	tag=fn_et_nf_kk
 14	besti	góður	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_nf_kk_evb
 15	frá	frá	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	upphafi	upphaf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þgf_hk
+16	upphafi	upphaf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 17	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

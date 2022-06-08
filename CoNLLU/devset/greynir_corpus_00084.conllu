@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00084,.1
 # text = Lögreglan er enn engu nær um þær ástæður sem kunna að liggja að baki árásinni.
 1	Lögreglan	lögregla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_þgf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_þgf_fh_p3_et_nt_gm
 3	enn	enn	ADV	ao	_	4	advmod	_	tag=ao
 4	engu	enginn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_þgf_hk
 5	nær	nær	ADV	ao_mst	Degree=Cmp	4	advmod	_	tag=ao_mst
@@ -26,7 +26,7 @@
 5	að	að	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	krýningunni	krýning	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk_gr
 7	miðað	miðað	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-8	við	við	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+8	við	við	ADP	fs_þf	Case=Acc	7	fixed	_	tag=fs_þf
 9	þau	sá	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	nmod	_	tag=fn_ft_þf_hk
 10	viðbrögð	viðbragð	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þf_hk
 11	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
@@ -51,7 +51,7 @@
 11	Karachi	Karachi	PROPN	sérnafn_et_ef	Case=Gen|Number=Sing	9	obl	_	tag=sérnafn_et_ef
 12	ók	aka	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	2	advcl	_	tag=so_1_þf_fh_p1_et_þt_gm
 13	framan	framan	ADV	ao	_	15	case	_	tag=ao
-14	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+14	á	á	ADP	fs_þf	Case=Acc	13	fixed	_	tag=fs_þf
 15	flutningalest	flutningalest	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -127,15 +127,14 @@
 11	keppinautum	keppinautur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	10	obj	_	tag=no_ft_þgf_kk
 12	sínum	sinn	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	tag=fn_ft_þgf_kk
 13	langt	langt	ADV	ao	_	10	advmod	_	tag=ao
-14	að	að	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-15	baki	bak	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+14	að	að	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
+15	baki	bak	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00084,.8
 # text = Alex Iwobi kemur Arsenal yfir með góðu skoti úr teignum eftir hálfgert skot Theo Walcott.
-1-2	Alex Iwobi	_	_	_	_	_	_	_	_
 1	Alex	Alex	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-2	Iwobi	Iwobi	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+2	Iwobi	Iwobi	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	MWEEnd=Yes|tag=person_et_nf_kk
 3	kemur	koma	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 4	Arsenal	Arsenal	PROPN	fyrirtæki	_	3	obj	_	tag=fyrirtæki
 5	yfir	yfir	ADV	ao	_	3	advmod	_	tag=ao
@@ -147,9 +146,8 @@
 11	eftir	eftir	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 12	hálfgert	hálfgerður	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	tag=lo_et_þf_hk_sb
 13	skot	skot	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
-14-15	Theo Walcott	_	_	_	_	_	_	_	_
-14	Theo	Theo	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	nmod:poss	_	SpaceAfter=No|tag=person_et_ef_kk
-15	Walcott	Walcott	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	flat	_	SpaceAfter=No|tag=person_et_ef_kk
+14	Theo	Theo	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	nmod:poss	_	tag=person_et_ef_kk
+15	Walcott	Walcott	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_et_ef_kk
 16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00084,.9
@@ -160,21 +158,20 @@
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	svo	svo	SCONJ	st	_	9	mark	_	tag=st
 6	ekki	ekki	ADV	ao	_	9	advmod	_	tag=ao
-7	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
+7	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	um	um	ADV	ao	_	9	advmod	_	tag=ao
 9	villst	villa	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	3	advcl	_	tag=so_0_sagnb_mm
 10	að	að	SCONJ	st	_	14	mark	_	tag=st
 11	mikilvægi	mikilvægi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=no_et_þgf_hk
 12	NATO	NATO	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	11	nmod:poss	_	tag=fyrirtæki_et_ef
-13	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
+13	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
 14	ótvírætt	ótvíræður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	ccomp	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00084,.10
 # text = Í kjölfarið af því ferðaðist Skripal víða um og ræddi við leyniþjónustur ríkja innan Atlantshafsbandalagsins.
-1-2	Í kjölfarið	_	_	_	_	_	_	_	_
 1	Í	í	ADV	ao	_	5	advmod	_	tag=ao
-2	kjölfarið	kjölfarið	ADV	ao	_	1	fixed	_	tag=ao
+2	kjölfarið	kjölfarið	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	af	af	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	tag=pfn_et_þgf_hk_p3
 5	ferðaðist	ferðast	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm

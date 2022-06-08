@@ -9,9 +9,8 @@
 7	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	borð	borð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þf_hk
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10-11	Polar Nanoq	_	_	_	_	_	_	_	_
 10	Polar	Polar	PROPN	entity	_	8	obl	_	tag=entity
-11	Nanoq	Nanoq	PROPN	entity	_	10	flat	_	tag=entity
+11	Nanoq	Nanoq	PROPN	entity	_	10	flat	_	MWEEnd=Yes|tag=entity
 12	en	en	CCONJ	st	_	4	cc	_	tag=st
 13	hinn	hinn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=fn_et_nf_kk
 14	ekur	aka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_nt_gm
@@ -25,7 +24,7 @@
 
 # sent_id = GREYNIR_CORPUS_00432,.2
 # text = Er gert ráð fyrir að rekstrarkostnaður félagsins hækki um 5,2 prósent á árinu og verði áfram mikill áhættuþáttur í rekstrinum.
-1	Er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+1	Er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 2	gert	ger	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	nsubj	_	tag=so_0_lhþt_et
 3	ráð	ráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_nf_hk
 4	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
@@ -34,13 +33,12 @@
 7	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk_gr
 8	hækki	hækka	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	obl	_	tag=so_0_vh_p3_et_nt_gm
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10-11	5,2 prósent	_	_	_	_	_	_	_	_
 10	5,2	5,2	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	tag=prósenta_ft_þf_hk
-11	prósent	prósent	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	_	_	tag=prósenta_ft_þf_hk
+11	prósent	prósent	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	flat	_	MWEEnd=Yes|tag=prósenta_ft_þf_hk
 12	á	eiga	ADV	fs_þgf	Case=Dat	8	advmod	_	tag=fs_þgf
 13	árinu	ár	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk_gr
 14	og	og	CCONJ	st	_	8	cc	_	tag=st
-15	verði	verja	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+15	verði	verða	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 16	áfram	áfram	ADV	ao	_	18	advmod	_	tag=ao
 17	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	tag=lo_et_nf_kk_sb
 18	áhættuþáttur	áhættuþáttur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	tag=no_et_nf_kk
@@ -73,14 +71,14 @@
 
 # sent_id = GREYNIR_CORPUS_00432,.4
 # text = Talið er að minnst 250 þeirra hafi tekist að smygla sér til Evrópu frá árslokum 2014 til miðs 2016.
-1	Talið	telja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	3	conj	_	tag=so_0_sagnb_gm
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	að	að	SCONJ	st	_	0	root	_	tag=st
+1	Talið	telja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
+3	að	að	SCONJ	st	_	8	mark	_	tag=st
 4	minnst	lítið	ADV	eo_est	Degree=Sup	6	advmod	_	tag=eo_est
 5	250	250	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_nf_hk
 6	þeirra	sá	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_ft_ef_hk_p3
 7	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_vh_p3_ft_nt_gm
-8	tekist	taka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	3	VANTAR_LIÐ_IP_None	_	tag=so_0_sagnb_mm
+8	tekist	taka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	1	ccomp	_	tag=so_0_sagnb_mm
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
 10	smygla	smygla	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_1_þgf_nh_gm
 11	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	10	obl	_	tag=abfn_þgf
@@ -92,7 +90,7 @@
 17	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
 18	miðs	mið	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_ef_kk
 19	2016	2016	NUM	ártal	_	18	nmod:poss	_	SpaceAfter=No|tag=ártal
-20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+20	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00432,.5
 # text = Ég veit ekki hve oft slík spurningaflóð hafa hrunið yfir mig, sérstaklega á meðan ég var enn í námi.
@@ -103,15 +101,14 @@
 5	oft	oft	ADV	ao	_	4	advmod	_	tag=ao
 6	slík	slíkur	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	7	nmod	_	tag=fn_ft_nf_hk
 7	spurningaflóð	spurningaflóð	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	tag=no_ft_nf_hk
-8	hafa	haf	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_ft_nt_gm
+8	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_ft_nt_gm
 9	hrunið	hrun	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	obj	_	tag=so_0_sagnb_gm
 10	yfir	yfir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	mig	ég	PRON	pfn_et_þf_p1	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No|tag=pfn_et_þf_p1
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
 13	sérstaklega	sérstaklega	ADV	ao	_	9	advmod	_	tag=ao
-14-15	á meðan	_	_	_	_	_	_	_	_
 14	á	á	SCONJ	st	_	17	mark	_	tag=st
-15	meðan	meðan	SCONJ	st	_	14	_	_	tag=st
+15	meðan	meðan	SCONJ	st	_	14	fixed	_	MWEEnd=Yes|tag=st
 16	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_p1
 17	var	var	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	9	advcl	_	tag=so_1_nf_fh_p1_et_þt_gm
 18	enn	enn	ADV	ao	_	17	advmod	_	tag=ao
@@ -137,9 +134,9 @@
 14	íslenskan	íslenskur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	15	amod	_	tag=lo_et_þf_kk_sb
 15	markað	markaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þf_kk
 16	og	og	CCONJ	st	_	10	cc	_	tag=st
-17	fengið	fá	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	10	conj	_	tag=so_1_þf_sagnb_gm
+17	fengið	fá	AUX	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	10	cop	_	tag=so_1_þf_sagnb_gm
 18	frábærar	frábær	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	19	amod	_	tag=lo_ft_þf_kvk_sb
-19	viðtökur	viðtaka	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
+19	viðtökur	viðtaka	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
 20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00432,.7
@@ -152,17 +149,16 @@
 6	framkvæmdastjórnar	framkvæmdastjórn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kvk
 7	Ólympíunefndarinnar	ólympíunefnd	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=no_et_ef_kvk_gr
 8	og	og	CCONJ	st	_	3	cc	_	tag=st
-9	mun	muna	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
-10	heita	heit	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	11	conj	_	tag=so_1_nf_nh_gm
-11	Ólympíulið	ólympíulið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_nf_hk
-12	flóttamanna	flóttamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	11	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
-13	(	_	PUNCT	grm	_	12	punct	_	tag=grm
-14-18	Team of Refugee Olympic Athletes	_	_	_	_	_	_	_	_
-14	Team	Team	X	foreign	_	11	obl	_	SpaceAfter=No|tag=foreign
-15	of	of	X	foreign	_	14	flat:foreign	_	SpaceAfter=No|tag=foreign
-16	Refugee	Refugee	X	foreign	_	15	flat:foreign	_	SpaceAfter=No|tag=foreign
-17	Olympic	Olympic	X	foreign	_	16	flat:foreign	_	SpaceAfter=No|tag=foreign
-18	Athletes	Athletes	X	foreign	_	17	flat:foreign	_	SpaceAfter=No|tag=foreign
+9	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
+10	heita	heita	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	3	conj	_	tag=so_1_nf_nh_gm
+11	Ólympíulið	ólympíulið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	xcomp	_	tag=no_et_nf_hk
+12	flóttamanna	flóttamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	11	nmod:poss	_	tag=no_ft_ef_kk
+13	(	_	PUNCT	grm	_	12	punct	_	SpaceAfter=No|tag=grm
+14	Team	Team	X	foreign	_	11	obl	_	tag=foreign
+15	of	of	X	foreign	_	14	flat:foreign	_	tag=foreign
+16	Refugee	Refugee	X	foreign	_	15	flat:foreign	_	tag=foreign
+17	Olympic	Olympic	X	foreign	_	16	flat:foreign	_	tag=foreign
+18	Athletes	Athletes	X	foreign	_	17	flat:foreign	_	MWEEnd=Yes|tag=foreign
 19	-	-	PUNCT	grm	_	14	punct	_	tag=grm
 20	ROA	ROA	ADV	abbrev	_	14	advmod	_	SpaceAfter=No|tag=abbrev
 21	)	_	PUNCT	grm	_	20	punct	_	SpaceAfter=No|tag=grm
@@ -178,17 +174,16 @@
 6	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 7	sögulega	sögulega	ADV	ao	_	10	advmod	_	tag=ao
 8	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_ft_nt_gm
-9	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	10	cop	_	tag=so_1_nf_sagnb_gm
+9	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	10	cop	_	tag=so_1_nf_sagnb_gm
 10	turnarnir	turn	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	acl:relcl	_	tag=no_ft_nf_kk_gr
 11	tveir	tveir	NUM	to_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	10	nummod	_	tag=to_ft_nf_kk
 12	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 13	norskum	norskur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	14	amod	_	tag=lo_ft_þgf_hk_sb
 14	stjórnmálum	stjórnmál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 15	,	,	PUNCT	grm	_	14	punct	_	tag=grm
-16	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-17-18	hins vegar	_	_	_	_	_	_	_	_
+16	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 17	hins	hins	ADV	ao	_	16	advmod	_	tag=ao
-18	vegar	vegar	ADV	ao	_	17	fixed	_	tag=ao
+18	vegar	vegar	ADV	ao	_	17	fixed	_	MWEEnd=Yes|tag=ao
 19	innan	inna	ADP	fs_ef	Case=Gen	20	case	_	tag=fs_ef
 20	skekkjumarka	skekkjumörk	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
 21	.	.	PUNCT	grm	_	16	punct	_	tag=grm
@@ -198,27 +193,24 @@
 1	Sérfræðingar	sérfræðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_nf_kk
 2	áætla	áætla	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
 3	að	að	SCONJ	st	_	7	mark	_	tag=st
-4-5	British Airways	_	_	_	_	_	_	_	_
 4	British	British	PROPN	fyrirtæki	_	7	nsubj	_	tag=fyrirtæki
-5	Airways	Airways	PROPN	fyrirtæki	_	4	flat	_	tag=fyrirtæki
+5	Airways	Airways	PROPN	fyrirtæki	_	4	flat	_	MWEEnd=Yes|tag=fyrirtæki
 6	gæti	geta	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_þt_gm
 7	þurft	þurfa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	obj	_	tag=so_0_sagnb_gm
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	greiða	greiða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þf_nh_gm
 10	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nmod	_	tag=fn_et_nf_hk
 11	að	að	ADV	ao	_	12	advmod	_	tag=ao
-12-14	150 milljónir punda	_	_	_	_	_	_	_	_
 12	150	150	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	tag=no_ft_þf_kvk
 13	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	flat	_	tag=no_ft_þf_kvk
-14	punda	punda	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	flat	_	tag=no_ft_þf_kvk
+14	punda	punda	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	flat	_	MWEEnd=Yes|tag=no_ft_þf_kvk
 15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	bætur	bót	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 18	um	um	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19-21	19 milljarða króna	_	_	_	_	_	_	_	_
-19	19	19	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
-20	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
-21	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
+19	19	19	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	tag=no_ft_þf_kk
+20	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	flat	_	tag=no_ft_þf_kk
+21	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	19	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_ft_þf_kk
 22	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 23	vegna	vega	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
 24	tölvubilunarinnar	tölvubilun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
@@ -234,7 +226,7 @@
 6	yfir	yfir	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 7	þrjátíu	þrjátíu	NUM	töl_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	nummod	_	tag=töl_ft_þgf_kvk
 8	gráðum	gráða	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_þgf_kvk
-9	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	10	cop	_	tag=so_1_nf_sagnb_gm
+9	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	10	cop	_	tag=so_1_nf_sagnb_gm
 10	viðvarandi	viðvarandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 11	undanfarnar	undanfarinn	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	12	amod	_	tag=lo_ft_þf_kvk_sb
 12	vikur	vika	ADV	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	advmod	_	tag=no_ft_þf_kvk

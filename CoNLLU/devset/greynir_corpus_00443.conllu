@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00443,.1
 # text = Guðjón Valur er nú á sínu tuttugasta stórmóti og hefur leikið fleiri stórmótaleiki og skorað fleiri stórmótamörk en nokkur annar íslenskur leikmaður.
-1-2	Guðjón Valur	_	_	_	_	_	_	_	_
 1	Guðjón	Guðjón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Valur	Valur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Valur	Valur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	nú	nú	ADV	ao	_	3	advmod	_	tag=ao
 5	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -43,7 +42,7 @@
 14	sjónvarpsútsendingu	sjónvarpsútsending	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk
 15	sem	sem	SCONJ	stt	_	21	mark	_	tag=stt
 16	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	tag=pfn_et_nf_kvk_p3
-17	myndi	muna	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	21	aux	_	tag=so_0_vh_p3_et_þt_gm
+17	myndi	munu	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	21	aux	_	tag=so_0_vh_p3_et_þt_gm
 18	sennilega	sennilega	ADV	ao	_	21	advmod	_	tag=ao
 19	helst	gjarna	ADV	ao_est	Degree=Sup	21	advmod	_	tag=ao_est
 20	vilja	vilja	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	21	aux	_	tag=so_0_nh_gm
@@ -75,18 +74,17 @@
 21	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00443,.4
-# text = Með banni við auglýsingum léttöls er þeim meira að segja gert enn erfiðara fyrir en í dag að koma vörumerkjum sínum á framfæri !
+# text = Með banni við auglýsingum léttöls er þeim meira að segja gert enn erfiðara fyrir en í dag að koma vörumerkjum sínum á framfæri!
 1	Með	með	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	banni	bann	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
 3	við	við	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	auglýsingum	auglýsing	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_þgf_kvk
 5	léttöls	léttöl	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk
-6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
+6	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	þeim	hann	PRON	pfn_ft_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Plur|Person=3|PronType=Prs	11	iobj	_	tag=pfn_ft_þgf_hk_p3
-8-10	meira að segja	_	_	_	_	_	_	_	_
 8	meira	meira	ADV	ao	_	11	advmod	_	tag=ao
 9	að	að	ADV	ao	_	8	fixed	_	tag=ao
-10	segja	segja	ADV	ao	_	8	fixed	_	tag=ao
+10	segja	segja	ADV	ao	_	8	fixed	_	MWEEnd=Yes|tag=ao
 11	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 12	enn	enn	ADV	eo	_	13	advmod	_	tag=eo
 13	erfiðara	erfiður	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	11	nsubj	_	tag=lo_et_nf_hk_mst
@@ -155,7 +153,7 @@
 # sent_id = GREYNIR_CORPUS_00443,.7
 # text = Áður voru Fjarðabyggð, Ölfus, Akranes, Kópavogur, Vestmannaeyjar, Hafnarfjörður og Grindavík búin að komast áfram í úrslit.
 1	Áður	áður	ADV	ao	_	16	advmod	_	tag=ao
-2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
+2	voru	vera	AUX	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 3	Fjarðabyggð	Fjarðabyggð	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No|tag=sérnafn_et_nf_kvk
 4	,	,	PUNCT	grm	_	5	punct	_	tag=grm
 5	Ölfus	Ölfus	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|tag=sérnafn_et_nf_hk
@@ -219,21 +217,20 @@
 13	París	París	PROPN	sérnafn_þgf_kvk	Case=Dat|Gender=Fem	6	obl	_	tag=sérnafn_þgf_kvk
 14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	Frakklandi	Frakkland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	tag=sérnafn_et_þgf_hk
-16-17	árið 2024	_	_	_	_	_	_	_	_
 16	árið	árið	ADV	ártal	_	13	advmod	_	tag=ártal
-17	2024	2024	NUM	ártal	_	16	flat	_	tag=ártal
+17	2024	2024	NUM	ártal	_	16	flat	_	MWEEnd=Yes|tag=ártal
 18	og	og	CCONJ	st	_	13	cc	_	tag=st
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20-21	Los Angeles	_	_	_	_	_	_	_	_
 20	Los	Los	PROPN	sérnafn	_	13	obl	_	tag=sérnafn
-21	Angeles	Angeles	PROPN	sérnafn	_	20	flat	_	tag=sérnafn
+21	Angeles	Angeles	PROPN	sérnafn	_	20	flat	_	MWEEnd=Yes|tag=sérnafn
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	Bandaríkjunum	Bandaríkin	PROPN	sérnafn_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	20	obl	_	tag=sérnafn_ft_þgf_hk_gr
-24-25	árið 2028	_	_	_	_	_	_	_	_
-24	árið	árið	ADV	ártal	_	20	advmod	_	SpaceAfter=No|tag=ártal
-25	2028	2028	NUM	ártal	_	24	flat	_	SpaceAfter=No|tag=ártal
+24	árið	árið	ADV	ártal	_	20	advmod	_	tag=ártal
+25	2028	2028	NUM	ártal	_	24	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=ártal
 26	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00443,.10
+# text = Þingflokkar Pírata og Samfylkingarinnar samþykktu að hefja formlegar viðræður en þingflokkur Vinstrihreyfingarinnar — græns framboðs ætlar að funda áfram í fyrramálið.
 1	Þingflokkar	þingflokkur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=no_ft_nf_kk
 2	Pírata	Pírati	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_kk
 3	og	og	CCONJ	st	_	4	cc	_	tag=st
@@ -254,6 +251,6 @@
 18	funda	funda	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_0_nh_gm
 19	áfram	áfram	ADV	ao	_	18	advmod	_	tag=ao
 20	í	í	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21	fyrramálið	fyrramál	ADV	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	18	advmod	_	tag=no_et_þf_hk_gr
+21	fyrramálið	fyrramál	ADV	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	18	advmod	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 22	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

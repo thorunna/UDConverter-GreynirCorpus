@@ -20,7 +20,7 @@
 5	18	18	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_þf_kk
 6	menn	maður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	9	nsubj	_	tag=no_ft_þf_kk
 7	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	aux	_	tag=so_0_nh_gm
-8	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	aux	_	tag=so_0_sagnb_gm
+8	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	cop	_	tag=so_0_sagnb_gm
 9	handtekna	handtaka	VERB	so_0_lhþt_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur|VerbForm=Part	4	xcomp	_	tag=so_0_lhþt_ft_þf_kk_sb
 10	vegna	vegna	ADP	fs_ef	Case=Gen	11	case	_	tag=fs_ef
 11	málsins	mál	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_ef_hk_gr
@@ -59,10 +59,9 @@
 1	Opinn	opinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_sb
 2	fundur	fundur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
-4-6	stjórnskipunar- og eftirlitsnefnd	_	_	_	_	_	_	_	_
 4	stjórnskipunar-	stjórnskipunar-	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 5	og	og	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	flat	_	tag=no_et_þgf_kvk
-6	eftirlitsnefnd	eftirlitsnefnd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	flat	_	tag=no_et_þgf_kvk
+6	eftirlitsnefnd	eftirlitsnefnd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	flat	_	MWEEnd=Yes|tag=no_et_þgf_kvk
 7	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	skýrslu	skýrsla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk
 9	rannsóknarnefndar	rannsóknarnefnd	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	_	tag=no_et_ef_kvk
@@ -90,13 +89,11 @@
 1	Sáttasemjari	sáttasemjari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	boðað	boða	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
-4-6	Primera Air Nordic	_	_	_	_	_	_	_	_
 4	Primera	Primera	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	3	obj	_	tag=fyrirtæki_þf_hk
 5	Air	Air	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	4	flat	_	tag=fyrirtæki_þf_hk
-6	Nordic	Nordic	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	4	flat	_	tag=fyrirtæki_þf_hk
-7-8	fjórum sinnum	_	_	_	_	_	_	_	_
+6	Nordic	Nordic	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	4	flat	_	MWEEnd=Yes|tag=fyrirtæki_þf_hk
 7	fjórum	fjórum	ADV	ao	_	3	advmod	_	tag=ao
-8	sinnum	sinnum	ADV	ao	_	7	fixed	_	tag=ao
+8	sinnum	sinnum	ADV	ao	_	7	fixed	_	MWEEnd=Yes|tag=ao
 9	á	á	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	sáttafund	sáttafundur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
@@ -118,23 +115,24 @@
 
 # sent_id = GREYNIR_CORPUS_00232,.9
 # text = Magnús Geir Þórðarson útvarpsstjóri sagði RÚV að vissu leyti vera spegil.
-1-3	Magnús Geir Þórðarson	_	_	_	_	_	_	_	_
 1	Magnús	Magnús	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
 2	Geir	Geir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
-3	Þórðarson	Þórðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Þórðarson	Þórðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 4	útvarpsstjóri	útvarpsstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 6	RÚV	RÚV	PROPN	fyrirtæki_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	nsubj	_	tag=fyrirtæki_et_þf_hk
 7	að	að	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 8	vissu	viss	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	9	amod	_	tag=lo_et_þgf_hk_sb
 9	leyti	leyti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
-10	vera	vera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	cop	_	tag=so_1_þf_nh_gm
+10	vera	vera	AUX	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	cop	_	tag=so_1_þf_nh_gm
 11	spegil	spegill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No|tag=no_et_þf_kk
 12	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00232,.10
+# text = Eftir það var ekki aftur rætt um skýrsluna á vettvangi Sjálfstæðisflokksins.
 1	Eftir	eftir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	það	það	ADV	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	advmod	_	tag=pfn_et_þf_hk_p3
-3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_þt_gm
+3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 4	ekki	ekki	ADV	eo	_	6	advmod	_	tag=eo
 5	aftur	aftur	ADV	eo	_	4	advmod	_	tag=eo
 6	rætt	ræða	VERB	so_0_lhþt_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_hk_sb
@@ -142,6 +140,6 @@
 8	skýrsluna	skýrsla	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk_gr
 9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	vettvangi	vettvangur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
-11	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod:poss	_	tag=sérnafn_et_ef_kk_gr
+11	Sjálfstæðisflokksins	Sjálfstæðisflokkur	PROPN	sérnafn_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk_gr
 12	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

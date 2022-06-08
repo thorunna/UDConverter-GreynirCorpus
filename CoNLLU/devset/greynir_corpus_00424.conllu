@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00424,.1
 # text = Öldungaráð verður skipað þremur bæjarfulltrúum, tveimur frá meirihluta og einum frá minnihluta, og einum til vara.
 1	Öldungaráð	öldungaráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
-2	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	skipað	skipa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	þremur	þrír	NUM	to_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	nummod	_	tag=to_ft_þgf_kk
 5	bæjarfulltrúum	bæjarfulltrúi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
@@ -38,9 +38,8 @@
 14	sé	sjá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	obj	_	tag=so_0_vh_p3_et_nt_gm
 15	miðað	miðað	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	14	conj	_	tag=so_0_lhþt_et
 16	við	við	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17-18	220 þúsund	_	_	_	_	_	_	_	_
 17	220	220	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	tag=töl_ft_þf_hk
-18	þúsund	þúsund	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	17	_	_	tag=töl_ft_þf_hk
+18	þúsund	þúsund	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	17	flat	_	MWEEnd=Yes|tag=töl_ft_þf_hk
 19	á	eiga	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	fermetra	fermetri	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -80,8 +79,8 @@
 9	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	jörðina	jörð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þf_kvk_gr
-12	eftir	eftir	ADV	ao	_	15	mark	_	tag=ao
-13	að	að	SCONJ	st	_	12	cc	_	tag=st
+12	eftir	eftir	ADV	ao	_	13	advmod	_	tag=ao
+13	að	að	SCONJ	st	_	15	mark	_	tag=st
 14	Steinunn	Steinunn	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	15	nsubj	_	tag=person_nf_kvk
 15	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	advcl	_	tag=so_0_fh_p3_et_þt_gm
 16	hraustlega	hraustlega	ADV	ao	_	15	advmod	_	tag=ao
@@ -91,10 +90,10 @@
 
 # sent_id = GREYNIR_CORPUS_00424,.5
 # text = Mér finnst nokkuð ljóst að núverandi forseti hefur byggt vörumerki sitt á fortíðarþrá og gærdeginum.
-1	Mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_þgf_p1
-2	finnst	finna	VERB	so_0_op_subj_þgf_fh_p1_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Mid	4	conj	_	tag=so_0_op_subj_þgf_fh_p1_et_nt_mm
+1	Mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_þgf_p1
+2	finnst	finna	VERB	so_0_op_subj_þgf_fh_p1_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_op_subj_þgf_fh_p1_et_nt_mm
 3	nokkuð	nokkur	ADV	ao	_	4	advmod	_	tag=ao
-4	ljóst	ljós	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
+4	ljóst	ljós	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	xcomp	_	tag=lo_et_nf_hk_sb
 5	að	að	SCONJ	st	_	9	mark	_	tag=st
 6	núverandi	núverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_sb
 7	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	tag=no_et_nf_kk
@@ -106,7 +105,7 @@
 13	fortíðarþrá	fortíðarþrá	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk
 14	og	og	CCONJ	st	_	15	cc	_	tag=st
 15	gærdeginum	gærdagur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
-16	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00424,.6
 # text = Viðskiptavinir okkar geta ekki einfaldlega flett á næstu síðu ef auglýsing fer fyrir brjóstið á þeim.
@@ -134,7 +133,7 @@
 2	þeir	sá	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	tag=pfn_ft_nf_kk_p3
 3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
 4	kvartað	kvarta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	acl:relcl	_	tag=so_0_sagnb_gm
-5	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+5	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 6	yfir	yfir	ADV	ao	_	4	advmod	_	tag=ao
 7	eiga	eiga	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 8	rétt	rétt	ADV	ao	_	7	obj	_	tag=ao
@@ -152,9 +151,8 @@
 
 # sent_id = GREYNIR_CORPUS_00424,.8
 # text = Nadiya Apolonova sem starfar með dýraverndunarsamtökum í Úkraínu segir að lífslíkur hundanna á svæðinu séu aðeins um fimm ár.
-1-2	Nadiya Apolonova	_	_	_	_	_	_	_	_
 1	Nadiya	Nadiya	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
-2	Apolonova	Apolonova	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Apolonova	Apolonova	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
 4	starfar	starfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 5	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -167,7 +165,7 @@
 12	hundanna	hundur	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	11	nmod:poss	_	tag=no_ft_ef_kk_gr
 13	á	eiga	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	svæðinu	svæði	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk_gr
-15	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
+15	séu	vera	AUX	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 16	aðeins	aðeins	ADV	ao	_	19	advmod	_	tag=ao
 17	um	um	ADV	eo	_	19	advmod	_	tag=eo
 18	fimm	fimm	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	19	nummod	_	tag=töl_ft_nf_hk
@@ -196,25 +194,26 @@
 18	Kúrda	Kúrdi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00424,.10
+# text = Þegar Mótettukórinn var stofnaður var mun minni samkeppni um athygli kórfélaganna, og ekki einu sinni sjónvarp á fimmtudögum.
 1	Þegar	þegar	SCONJ	st	_	4	mark	_	tag=st
 2	Mótettukórinn	mótettu-kór	PROPN	sérnafn_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=sérnafn_et_nf_kk_gr
-3	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
+3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 4	stofnaður	stofna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	advcl	_	tag=so_0_lhþt_et
 5	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-6	mun	muna	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	conj	_	tag=no_et_þgf_kk
+6	mun	mun	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	tag=no_et_þgf_kk
 7	minni	lítill	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	8	amod	_	tag=lo_et_nf_kvk_mst
 8	samkeppni	samkeppni	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	athygli	athygli	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þf_kvk
-11	kórfélaganna	kór-félag	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	nmod:poss	_	tag=no_ft_ef_kk_gr
+11	kórfélaganna	kór-félag	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	10	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk_gr
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
 13	og	og	CCONJ	st	_	5	cc	_	tag=st
 14	ekki	ekki	ADV	eo	_	5	conj	_	tag=eo
-15-16	einu sinni	_	_	_	_	_	_	_	_
 15	einu	einu	ADV	eo	_	14	advmod	_	tag=eo
-16	sinni	sinni	ADV	eo	_	15	fixed	_	tag=eo
+16	sinni	sinni	ADV	eo	_	15	fixed	_	MWEEnd=Yes|tag=eo
 17	sjónvarp	sjónvarp	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
 18	á	eiga	ADV	fs_þgf	Case=Dat	14	advmod	_	tag=fs_þgf
-19	fimmtudögum	fimmtidagur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	tag=no_ft_þgf_kk
+19	fimmtudögum	fimmtidagur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 20	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

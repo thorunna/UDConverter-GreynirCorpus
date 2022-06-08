@@ -2,7 +2,7 @@
 # text = Flugmönnum hefur verið varaðir við að fljúga í grennd við gossvæðið.
 1	Flugmönnum	flugmaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_þgf_kk
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
+3	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	varaðir	vara	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 5	við	við	ADP	fs_nh	VerbForm=Inf	7	case	_	tag=fs_nh
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
@@ -19,19 +19,16 @@
 2	frambjóðenda	frambjóðandi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk
 3	um	um	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	grunnlaun	grunnlaun	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	1	obl	_	tag=no_ft_þf_hk
-5	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
-6-7	á bilinu	_	_	_	_	_	_	_	_
+5	voru	vera	AUX	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 6	á	á	ADV	eo	_	8	advmod	_	tag=eo
-7	bilinu	bilinu	ADV	eo	_	6	fixed	_	tag=eo
-8-9	480 þúsund	_	_	_	_	_	_	_	_
+7	bilinu	bilinu	ADV	eo	_	6	fixed	_	MWEEnd=Yes|tag=eo
 8	480	480	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=töl_ft_nf_hk
-9	þúsund	þúsund	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	8	_	_	tag=töl_ft_nf_hk
+9	þúsund	þúsund	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	8	flat	_	MWEEnd=Yes|tag=töl_ft_nf_hk
 10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	mánuði	mánuður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk
 12	til	til	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
-13-14	650 þúsund	_	_	_	_	_	_	_	_
-13	650	650	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No|tag=töl_ft_ef_hk
-14	þúsund	þúsund	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	13	_	_	SpaceAfter=No|tag=töl_ft_ef_hk
+13	650	650	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	8	obl	_	tag=töl_ft_ef_hk
+14	þúsund	þúsund	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	13	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=töl_ft_ef_hk
 15	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00371,.3
@@ -40,9 +37,9 @@
 2	að	að	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=fn_et_þgf_hk
 4	hvort	hvort	CCONJ	st	_	8	cc	_	tag=st
-5	að	að	SCONJ	st	_	4	cc	_	tag=st
+5	að	að	SCONJ	st	_	4	fixed	_	tag=st
 6	keppninni	keppni	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_þgf_kvk_gr
-7	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
+7	verði	verða	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
 8	sjónvarpað	sjónvarpa	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	3	ccomp	_	tag=so_1_þgf_lhþt_et
 9	svarar	svara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 10	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_kk_p3
@@ -57,22 +54,21 @@
 4	þó	þó	ADV	ao	_	3	advmod	_	tag=ao
 5	átekta	átekt	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	3	obj	_	tag=no_ft_ef_kvk
 6	og	og	CCONJ	st	_	3	cc	_	tag=st
-7	mun	muna	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
+7	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
 8	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	conj	_	tag=so_0_nh_gm
 9	yfir	yfir	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk_gr
-11-12	á morgun	_	_	_	_	_	_	_	_
-11	á	á	ADV	ao	_	8	advmod	_	SpaceAfter=No|tag=ao
-12	morgun	morgun	ADV	ao	_	11	fixed	_	SpaceAfter=No|tag=ao
+11	á	á	ADV	ao	_	8	advmod	_	tag=ao
+12	morgun	morgun	ADV	ao	_	11	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 13	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00371,.5
 # text = Og Hörfræolían og hörfræin eru svo alveg dúndur góð fyrir meltinguna.
-1	Og	og	SCONJ	st	_	9	cc	_	tag=st
+1	Og	og	SCONJ	st	_	9	dep	_	tag=st
 2	Hörfræolían	hörfræ-olía	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk_gr
 3	og	og	CCONJ	st	_	4	cc	_	tag=st
 4	hörfræin	hörfræ	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	2	conj	_	tag=no_ft_nf_hk_gr
-5	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+5	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 6	svo	svo	ADV	eo	_	9	advmod	_	tag=eo
 7	alveg	alveg	ADV	eo	_	9	advmod	_	tag=eo
 8	dúndur	dúndur	ADV	eo	_	9	advmod	_	tag=eo
@@ -103,11 +99,10 @@
 3	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 4	að	að	SCONJ	st	_	3	obj	_	tag=st
 5	um	um	ADV	eo	_	8	advmod	_	tag=eo
-6-7	120 þúsund	_	_	_	_	_	_	_	_
 6	120	120	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nummod	_	tag=töl_ft_nf_kk
-7	þúsund	þúsund	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	_	_	tag=töl_ft_nf_kk
+7	þúsund	þúsund	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	flat	_	MWEEnd=Yes|tag=töl_ft_nf_kk
 8	ferðamenn	ferðamaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	tag=no_ft_nf_kk
-9	heimsæki	heimsækja	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	VANTAR_LIÐ_IP_None	_	tag=so_1_þf_vh_p3_ft_nt_gm
+9	heimsæki	heimsækja	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	dep	_	tag=so_1_þf_vh_p3_ft_nt_gm
 10	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	9	obj	_	tag=no_et_þf_hk_gr
 11	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	þessum	þessi	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	tag=fn_et_þgf_kk
@@ -122,7 +117,7 @@
 4	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
 5	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
 6	Miðflokksins	Miðflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=fyrirtæki_et_ef_kk_gr
-7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	búinn	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	acl:relcl	_	tag=so_0_lhþt_et
 9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 10	ótvíræð	ótvíræður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	11	amod	_	tag=lo_et_nf_kvk_sb
@@ -144,21 +139,21 @@
 11	liðsheild	liðsheild	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No|tag=no_et_þf_kvk
 12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
-1-2	Hægra megin	_	_	_	_	_	_	_	_
+# sent_id = GREYNIR_CORPUS_00371,.10
+# text = Hægra megin við plaggið hangir annað til viðbótar, um orðuveitingu frá Ólafi Noregskonungi.
 1	Hægra	hægra	ADV	ao	_	4	advmod	_	tag=ao
-2	megin	megin	ADV	ao	_	1	fixed	_	tag=ao
+2	megin	megin	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	við	við	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	plaggið	plagg	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk_gr
 5	hangir	hanga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 6	annað	annar	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
 7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
-8	viðbótar	viðbót	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_ef_kvk
+8	viðbótar	viðbót	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_ef_kvk
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 10	um	um	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	orðuveitingu	orðuveiting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk
 12	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13-14	Ólafi Noregskonungi	_	_	_	_	_	_	_	_
 13	Ólafi	Ólafur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	11	obl	_	tag=person_þgf_kk
-14	Noregskonungi	Noregskonungur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	13	flat	_	tag=person_þgf_kk
+14	Noregskonungi	Noregskonungur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	13	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þgf_kk
 15	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

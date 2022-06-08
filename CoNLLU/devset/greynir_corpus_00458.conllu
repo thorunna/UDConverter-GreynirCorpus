@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00458,.1
 # text = Önnur eru slæm út frá samfélagslegum ábata, en hugsanlega góð út frá hagsmunum endanlegs eigenda - og enn önnur hafa engin sérstök áhrif.
 1	Önnur	annar	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	tag=fn_ft_nf_hk
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	slæm	slæma	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb
 4	út	út	ADV	ao	_	7	advmod	_	tag=ao
 5	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -15,7 +15,7 @@
 13	frá	frá	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	hagsmunum	hagsmunir	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	tag=no_ft_þgf_kk
 15	endanlegs	endanlegur	ADJ	lo_et_ef_kk_sb	Case=Gen|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_ef_kk_sb
-16	eigenda	eigandi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	14	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
+16	eigenda	eigandi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	14	nmod:poss	_	tag=no_ft_ef_kk
 17	-	-	PUNCT	grm	_	16	punct	_	tag=grm
 18	og	og	CCONJ	st	_	3	cc	_	tag=st
 19	enn	enn	ADV	eo	_	20	advmod	_	tag=eo
@@ -49,74 +49,72 @@
 19	19:10	19:10	PROPN	entity	_	2	obl	_	tag=entity
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	fréttatíma	fréttatími	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
-22-23	Stöðvar 2	_	_	_	_	_	_	_	_
 22	Stöðvar	Stöðvar	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	21	nmod:poss	_	tag=fyrirtæki_et_ef
-23	2	2	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	22	flat	_	tag=fyrirtæki_et_ef
+23	2	2	PROPN	fyrirtæki_et_ef	Case=Gen|Number=Sing	22	flat	_	MWEEnd=Yes|tag=fyrirtæki_et_ef
 24	fyrr	fyrr	ADV	ao_mst	Degree=Cmp	2	advmod	_	tag=ao_mst
-25-26	í kvöld	_	_	_	_	_	_	_	_
-25	í	í	ADV	ao	_	24	advmod	_	SpaceAfter=No|tag=ao
-26	kvöld	kvöld	ADV	ao	_	25	fixed	_	SpaceAfter=No|tag=ao
+25	í	í	ADV	ao	_	24	advmod	_	tag=ao
+26	kvöld	kvöld	ADV	ao	_	25	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 27	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00458,.3
 # text = En það sem mér finnst gaman að sjá núna er líkamstjáningin í myndunum og svipbrigðin eru að verða sjálfsöruggari, opnari og sterkari.
-1	En	en	SCONJ	st	_	11	mark	_	tag=st
-2	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=fn_et_nf_hk
-3	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
-4	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_et_þgf_p1
-5	finnst	finna	VERB	so_0_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	6	conj	_	tag=so_0_op_subj_þgf_fh_p3_et_nt_mm
+1	En	en	SCONJ	st	_	5	cc	_	tag=st
+2	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
+3	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
+4	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_þgf_p1
+5	finnst	finna	VERB	so_0_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_op_subj_þgf_fh_p3_et_nt_mm
 6	gaman	gaman	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	acl:relcl	_	tag=no_et_nf_hk
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
 8	sjá	sjá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_0_nh_gm
 9	núna	núna	ADV	ao	_	8	advmod	_	tag=ao
-10	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-11	líkamstjáningin	líkams-tjáning	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk_gr
+10	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+11	líkamstjáningin	líkams-tjáning	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	ccomp	_	tag=no_et_nf_kvk_gr
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	myndunum	mynd	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	11	obl	_	tag=no_ft_þgf_kvk_gr
 14	og	og	CCONJ	st	_	11	cc	_	tag=st
 15	svipbrigðin	svipbrigði	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	16	nsubj	_	tag=no_ft_nf_hk_gr
 16	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_0_fh_p3_ft_nt_gm
 17	að	að	PART	nhm	_	19	mark	_	tag=nhm
-18	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	19	cop	_	tag=so_0_nh_gm
+18	verða	verða	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	19	cop	_	tag=so_0_nh_gm
 19	sjálfsöruggari	sjálfsöruggur	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	16	xcomp	_	SpaceAfter=No|tag=lo_ft_nf_hk_mst
 20	,	,	PUNCT	grm	_	19	punct	_	tag=grm
 21	opnari	opinn	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	19	amod	_	tag=lo_ft_nf_hk_mst
 22	og	og	CCONJ	st	_	19	cc	_	tag=st
 23	sterkari	sterkur	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	19	amod	_	SpaceAfter=No|tag=lo_ft_nf_hk_mst
-24	.	.	PUNCT	grm	_	11	punct	_	tag=grm
+24	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00458,.4
 # text = Samkvæmt vegabréfum hans, falsaða og ófalsaða, heitir hann Alexander og á afmæli sama dag hvort sem hann ber eftirnafnið Mishkin eða Petrov.
 1	Samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	vegabréfum	vegabréf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þgf_hk
+2	vegabréfum	vegabréf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_þgf_hk
 3	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	SpaceAfter=No|tag=pfn_et_ef_kk_p3
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 5	falsaða	falsaður	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	tag=lo_ft_þf_hk_sb
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
 7	ófalsaða	ófalsaður	ADJ	lo_ft_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Plur	5	conj	_	SpaceAfter=No|tag=lo_ft_þgf_hk_vb
 8	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-9	heitir	heita	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-10	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kk_p3
-11	Alexander	Alexander	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	tag=person_nf_kk
+9	heitir	heita	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_kk_p3
+11	Alexander	Alexander	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	xcomp	_	tag=person_nf_kk
 12	og	og	CCONJ	st	_	13	cc	_	tag=st
-13	á	eiga	VERB	so_2_þgf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_2_þgf_þf_fh_p3_et_nt_gm
-14	afmæli	afmæli	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obj	_	tag=no_et_þgf_hk
+13	á	eiga	VERB	so_2_þgf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_2_þgf_þf_fh_p3_et_nt_gm
+14	afmæli	afmæli	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obj	_	tag=no_et_þgf_hk
 15	sama	sami	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	tag=fn_et_þf_kk
-16	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	advmod	_	tag=no_et_þf_kk
+16	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	advmod	_	tag=no_et_þf_kk
 17	hvort	hvort	CCONJ	st	_	20	cc	_	tag=st
-18	sem	sem	SCONJ	st	_	17	cc	_	tag=st
+18	sem	sem	SCONJ	st	_	17	fixed	_	tag=st
 19	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	tag=pfn_et_nf_kk_p3
-20	ber	bera	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	ccomp	_	tag=so_1_þf_fh_p3_et_nt_gm
+20	ber	bera	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	ccomp	_	tag=so_1_þf_fh_p3_et_nt_gm
 21	eftirnafnið	eftirnafn	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	20	obj	_	tag=no_et_þf_hk_gr
 22	Mishkin	Mishkin	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	21	conj	_	tag=person_et_þf_kk
 23	eða	eða	CCONJ	st	_	21	cc	_	tag=st
 24	Petrov	Petrov	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No|tag=person_et_þf_kk
-25	.	.	PUNCT	grm	_	11	punct	_	tag=grm
+25	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00458,.5
 # text = Vakinn er athygli á að útgjaldarammi spítalans sé ekki í takt við fjölgun landsmanna og breyttan aldur þjóðarinnar, né heldur við aukningu ferðmanna.
 1	Vakinn	vekja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	athygli	athygli	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	tag=no_et_nf_kvk
 4	á	á	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
 5	að	að	SCONJ	st	_	8	mark	_	tag=st
@@ -144,7 +142,7 @@
 # sent_id = GREYNIR_CORPUS_00458,.6
 # text = Karlmaður er í haldi lögreglunnar á Suðurlandi sem grunaður er um alvarlega líkamsárás gegn öðrum manni í heimahúsi á Höfn í Hornafirði fyrr í kvöld.
 1	Karlmaður	karlmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
-2	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 4	haldi	hald	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 5	lögreglunnar	lögregla	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kvk_gr
@@ -152,7 +150,7 @@
 7	Suðurlandi	Suðurland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_hk
 8	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 9	grunaður	gruna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	xcomp	_	tag=so_0_lhþt_et
-10	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 11	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 12	alvarlega	alvarlega	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	tag=lo_et_þf_kvk_sb
 13	líkamsárás	líkamsárás	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk
@@ -166,16 +164,15 @@
 21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	Hornafirði	Hornafjörður	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	tag=sérnafn_et_þgf_kk
 23	fyrr	fyrr	ADV	ao_mst	Degree=Cmp	13	advmod	_	tag=ao_mst
-24-25	í kvöld	_	_	_	_	_	_	_	_
-24	í	í	ADV	ao	_	23	advmod	_	SpaceAfter=No|tag=ao
-25	kvöld	kvöld	ADV	ao	_	24	fixed	_	SpaceAfter=No|tag=ao
+24	í	í	ADV	ao	_	23	advmod	_	tag=ao
+25	kvöld	kvöld	ADV	ao	_	24	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 26	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00458,.7
 # text = Í skýrslunni er greint frá því að á fyrstu átta mánuðum þessa árs sé veitt magn orðið tæplega 7% meira en á síðasta ári.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	skýrslunni	skýrsla	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk_gr
-3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	greint	greina	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	frá	frá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
@@ -186,14 +183,14 @@
 11	mánuðum	mánuður	ADV	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	15	advmod	_	tag=no_ft_þgf_kk
 12	þessa	þessi	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	tag=fn_et_ef_hk
 13	árs	ár	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	nmod:poss	_	tag=no_et_ef_hk
-14	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_vh_p3_et_nt_gm
+14	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_vh_p3_et_nt_gm
 15	veitt	veiða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	ccomp	_	tag=so_0_lhþt_et
 16	magn	magn	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	tag=no_et_nf_hk
-17	orðið	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	15	cop	_	tag=so_0_lhþt_et
-18	tæplega	tæplegur	ADV	eo	_	15	advmod	_	tag=eo
-19	7%	7%	NUM	prósenta_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	15	nummod	_	tag=prósenta_ft_þgf_hk
-20	meira	mikið	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	15	cop	_	tag=lo_et_nf_hk_mst
-21	en	en	CCONJ	st	_	15	advcl	_	tag=st
+17	orðið	verða	AUX	so_0_lhþt_et	Number=Sing|VerbForm=Part	20	cop	_	tag=so_0_lhþt_et
+18	tæplega	tæplegur	ADV	eo	_	20	advmod	_	tag=eo
+19	7%	7%	NUM	prósenta_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	20	nummod	_	tag=prósenta_ft_þgf_hk
+20	meira	mikið	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	15	conj	_	tag=lo_et_nf_hk_mst
+21	en	en	CCONJ	st	_	20	advcl	_	tag=st
 22	á	á	ADV	fs_þgf	Case=Dat	21	advmod	_	tag=fs_þgf
 23	síðasta	síðari	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	24	amod	_	tag=lo_et_þgf_hk_evb
 24	ári	ár	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
@@ -204,9 +201,8 @@
 1	Umhverfisráðherra	umhverfisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
 2	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
-4-5	Barbara Hendricks	_	_	_	_	_	_	_	_
-4	Barbara	Barbara	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	SpaceAfter=No|tag=person_nf_kvk
-5	Hendricks	Hendricks	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	flat	_	SpaceAfter=No|tag=person_nf_kvk
+4	Barbara	Barbara	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	obl	_	tag=person_nf_kvk
+5	Hendricks	Hendricks	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kvk
 6	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 7	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
 8	bannað	banna	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
@@ -218,12 +214,12 @@
 14	viðburðum	viðburður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	tag=no_ft_þgf_kk
 15	ráðuneytisins	ráðuneyti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=no_et_ef_hk_gr
 16	og	og	CCONJ	st	_	8	cc	_	tag=st
-17	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-18	því	því	ADV	ao	_	8	advmod	_	tag=ao
-19	eingöngu	eingöngu	ADV	eo	_	8	advmod	_	tag=eo
-20	leyfilegt	leyfilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	8	cop	_	tag=lo_et_nf_hk_sb
+17	verður	verða	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+18	því	því	ADV	ao	_	20	advmod	_	tag=ao
+19	eingöngu	eingöngu	ADV	eo	_	20	advmod	_	tag=eo
+20	leyfilegt	leyfilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	8	conj	_	tag=lo_et_nf_hk_sb
 21	að	að	PART	nhm	_	22	mark	_	tag=nhm
-22	bjóða	bjóða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_0_nh_gm
+22	bjóða	bjóða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_0_nh_gm
 23	upp	upp	ADV	ao	_	25	advmod	_	tag=ao
 24	á	á	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
 25	grænmetisfæði	grænmetis-fæða	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No|tag=no_et_þf_hk
@@ -255,6 +251,8 @@
 22	Síta	Síta	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	21	nmod:poss	_	SpaceAfter=No|tag=person_et_ef_kk
 23	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00458,.10
+# text = Nokkur spurningamerki hafa verið vegna meiðsla lykilmanna í landsliðinu, en við settumst niður með þeim í dag og spurðum þá út í ástandið.
 1	Nokkur	nokkur	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	nmod	_	tag=fn_ft_nf_hk
 2	spurningamerki	spurninga-merki	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
 3	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_ft_nt_gm
@@ -263,7 +261,7 @@
 6	meiðsla	meiðsl	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_ef_hk
 7	lykilmanna	lykilmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	6	nmod:poss	_	tag=no_ft_ef_kk
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	landsliðinu	landslið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk_gr
+9	landsliðinu	landslið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 11	en	en	CCONJ	st	_	4	cc	_	tag=st
 12	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	tag=pfn_ft_nf_p1
@@ -278,6 +276,6 @@
 21	þá	þá	ADV	ao	_	20	advmod	_	tag=ao
 22	út	út	ADV	ao	_	24	advmod	_	tag=ao
 23	í	í	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
-24	ástandið	ástand	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	20	obl	_	tag=no_et_þf_hk_gr
+24	ástandið	ástand	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 25	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 

@@ -48,21 +48,18 @@
 6	grínþáttum	grín-þátta	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_þgf_kk
 7	fara	fara	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 8	þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	9	nmod	_	tag=pfn_ft_nf_hk_p3
-9-10	Saga Garðarsdóttir	_	_	_	_	_	_	_	_
-9	Saga	Saga	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-10	Garðarsdóttir	Garðarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	SpaceAfter=No|tag=person_nf_kvk
+9	Saga	Saga	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	tag=person_nf_kvk
+10	Garðarsdóttir	Garðarsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kvk
 11	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 12	Steindi	steindur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	tag=person_nf_kk
 13	Jr.	Jr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat:name	_	SpaceAfter=No|tag=person_nf_kk
 14	,	,	PUNCT	grm	_	15	punct	_	tag=grm
-15-16	Auðunn Blöndal	_	_	_	_	_	_	_	_
 15	Auðunn	Auðunn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	conj	_	tag=person_nf_kk
-16	Blöndal	Blöndal	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	tag=person_nf_kk
+16	Blöndal	Blöndal	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	MWEEnd=Yes|tag=person_nf_kk
 17	og	og	CCONJ	st	_	9	cc	_	tag=st
-18-20	Sverrir Þór Sverrisson	_	_	_	_	_	_	_	_
-18	Sverrir	Sverrir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	SpaceAfter=No|tag=person_nf_kk
-19	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	SpaceAfter=No|tag=person_nf_kk
-20	Sverrisson	Sverrisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	SpaceAfter=No|tag=person_nf_kk
+18	Sverrir	Sverrir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	tag=person_nf_kk
+19	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	tag=person_nf_kk
+20	Sverrisson	Sverrisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 21	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00408,.4
@@ -138,9 +135,8 @@
 9	tæp	tæpa	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	12	amod	_	tag=lo_ft_þf_hk_sb
 10	tuttugu	tuttugu	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	nummod	_	tag=töl_ft_þf_hk
 11	og	og	CCONJ	st	_	12	cc	_	tag=st
-12-13	þrjú prósent	_	_	_	_	_	_	_	_
 12	þrjú	þrjú	ADV	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	advmod	_	tag=prósenta_ft_þf_hk
-13	prósent	prósent	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	_	_	tag=prósenta_ft_þf_hk
+13	prósent	prósent	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	flat	_	MWEEnd=Yes|tag=prósenta_ft_þf_hk
 14	á	eiga	ADV	fs_þgf	Case=Dat	12	advmod	_	tag=fs_þgf
 15	síðustu	síðari	ADJ	lo_ft_þgf_kk_evb	Case=Dat|Degree=Sup|Gender=Masc|Number=Plur	17	amod	_	tag=lo_ft_þgf_kk_evb
 16	tólf	tólf	NUM	töl_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	nummod	_	tag=töl_ft_þgf_kk
@@ -153,14 +149,14 @@
 2	hótaði	hóta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 3	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obj	_	tag=fn_et_þgf_hk
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
-5	halda	halda	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	3	VANTAR_LIÐ_IP_None	_	tag=so_1_þgf_nh_gm
+5	halda	halda	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	3	dep	_	tag=so_1_þgf_nh_gm
 6	stofnununum	stofnun	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	5	obj	_	tag=no_ft_þgf_kvk_gr
 7	lokuðum	loka	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	5	iobj	_	tag=so_0_lhþt_ft
 8	í	í	ADV	fs_þf	Case=Acc	7	advmod	_	tag=fs_þf
 9	mánuði	mánuður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	tag=no_ft_þf_kk
 10	eða	eða	CCONJ	st	_	11	cc	_	tag=st
 11	ár	ár	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
-12	fái	fá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	conj	_	tag=so_0_vh_p3_et_nt_gm
+12	fái	fá	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_0_vh_p3_et_nt_gm
 13	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
 14	ekki	ekki	ADV	ao	_	16	advmod	_	tag=ao
 15	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obj	_	tag=fn_et_þgf_hk
@@ -169,9 +165,8 @@
 
 # sent_id = GREYNIR_CORPUS_00408,.9
 # text = Hins vegar verður safnað fyrir barkaspeglunartæki sem auðveldar barkaþræðingu hjá mikið slösuðum og veikum sjúklingum á bráðamóttöku.
-1-2	Hins vegar	_	_	_	_	_	_	_	_
 1	Hins	hins	ADV	ao	_	4	advmod	_	tag=ao
-2	vegar	vegar	ADV	ao	_	1	fixed	_	tag=ao
+2	vegar	vegar	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	safnað	safna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -198,13 +193,13 @@
 5	Veðurstofunnar	Veðurstofan	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kvk_gr
 6	að	að	SCONJ	st	_	2	nsubj	_	tag=st
 7	stofnunin	stofnun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk_gr
-8	haldi	halda	VERB	so_1_þgf_vh_p3_et_nt_gm	Case=Dat|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	VANTAR_LIÐ_IP_None	_	tag=so_1_þgf_vh_p3_et_nt_gm
+8	haldi	halda	VERB	so_1_þgf_vh_p3_et_nt_gm	Case=Dat|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	dep	_	tag=so_1_þgf_vh_p3_et_nt_gm
 9	úti	úti	ADV	ao	_	8	advmod	_	tag=ao
 10	sólarhringsvakt	sólarhringsvakt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obj	_	tag=no_et_þgf_kvk
 11	þar	þar	ADV	ao	_	8	advmod	_	tag=ao
 12	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
 13	fylgst	fylgja	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	11	advcl	_	tag=so_0_sagnb_mm
-14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
+14	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
 15	með	með	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	jarðskjálftamælum	jarðskjálftamælir	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 17	.	.	PUNCT	grm	_	2	punct	_	tag=grm

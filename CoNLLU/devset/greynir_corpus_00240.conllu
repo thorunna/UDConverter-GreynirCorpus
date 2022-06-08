@@ -19,7 +19,7 @@
 1	Landeldi	Landeldi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk
 2	með	með	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	geldfiski	geldfiski	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk
-4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
+4	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	nú	nú	ADV	ao	_	6	advmod	_	tag=ao
 6	byrjað	byrjaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 7	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
@@ -39,29 +39,26 @@
 4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	skiptingu	skipting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk
 6	lífvarða	lífvörður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nmod:poss	_	tag=no_ft_ef_kk
-7-8	fyrir utan	_	_	_	_	_	_	_	_
 7	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-8	utan	utan	ADP	fs_þf	Case=Acc	7	fixed	_	tag=fs_þf
+8	utan	utan	ADP	fs_þf	Case=Acc	7	fixed	_	MWEEnd=Yes|tag=fs_þf
 9	höllina	höll	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk_gr
 10	á	á	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	mánudag	mánudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
-12-13	klukkan 11	_	_	_	_	_	_	_	_
-12	klukkan	klukkan	ADV	tími	_	2	advmod	_	SpaceAfter=No|tag=tími
-13	11	11	NUM	tími	_	12	flat	_	SpaceAfter=No|tag=tími
+12	klukkan	klukkan	ADV	tími	_	2	advmod	_	tag=tími
+13	11	11	NUM	tími	_	12	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=tími
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00240,.4
 # text = Arnar Freyr er línumaður, uppalinn Framari og er samningsbundinn liðinu til 2018.
-1-2	Arnar Freyr	_	_	_	_	_	_	_	_
 1	Arnar	Arnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Freyr	Freyr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	Freyr	Freyr	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	línumaður	línumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
 5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	uppalinn	uppalinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_sb
 7	Framari	Framari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 8	og	og	CCONJ	st	_	4	cc	_	tag=st
-9	er	vera	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_þgf_fh_p3_et_nt_gm
+9	er	vera	AUX	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_þgf_fh_p3_et_nt_gm
 10	samningsbundinn	samningsbundinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	xcomp	_	tag=lo_et_nf_kk_sb
 11	liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk_gr
 12	til	til	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
@@ -89,7 +86,7 @@
 # text = Þjálfarinn hefði viljað sjá sína menn ná fleiri hraðaupphlaupum í leiknum í kvöld.
 1	Þjálfarinn	þjálfari	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk_gr
 2	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	4	aux	_	tag=so_0_vh_p3_et_þt_gm
-3	viljað	vilja	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	aux	_	tag=so_0_sagnb_gm
+3	viljað	vilja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	dep	_	tag=so_0_sagnb_gm
 4	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 5	sína	sinn	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	tag=fn_ft_þf_kk
 6	menn	maður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	nsubj	_	tag=no_ft_þf_kk
@@ -98,9 +95,8 @@
 9	hraðaupphlaupum	hraðaupphlaup	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	7	obj	_	tag=no_ft_þgf_hk
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	leiknum	leikur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk_gr
-12-13	í kvöld	_	_	_	_	_	_	_	_
-12	í	í	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-13	kvöld	kvöld	ADV	ao	_	12	fixed	_	SpaceAfter=No|tag=ao
+12	í	í	ADV	ao	_	7	advmod	_	tag=ao
+13	kvöld	kvöld	ADV	ao	_	12	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00240,.7
@@ -122,9 +118,8 @@
 
 # sent_id = GREYNIR_CORPUS_00240,.8
 # text = Jón Gunnarsson tók undir það í ávarpi sínu og sagði verkið einstaklega mikilvægt.
-1-2	Jón Gunnarsson	_	_	_	_	_	_	_	_
 1	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Gunnarsson	Gunnarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Gunnarsson	Gunnarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	undir	undir	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þf_hk_p3
@@ -134,14 +129,14 @@
 9	og	og	CCONJ	st	_	3	cc	_	tag=st
 10	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 11	verkið	verk	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obj	_	tag=no_et_þf_hk_gr
-12	einstaklega	einstaklega	ADV	eo	_	11	advmod	_	tag=eo
-13	mikilvægt	mikilvægur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	11	amod	_	SpaceAfter=No|tag=lo_et_þf_hk_sb
+12	einstaklega	einstaklega	ADV	eo	_	13	advmod	_	tag=eo
+13	mikilvægt	mikilvægur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	10	xcomp	_	SpaceAfter=No|tag=lo_et_þf_hk_sb
 14	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00240,.9
 # text = En snúm okkur að spurningunni um 7. daginn og af hverju ekki sunnudagur.
 1	En	en	SCONJ	st	_	0	root	_	tag=st
-2	snúm	snúm	VERB	so_0	_	1	VANTAR_LIÐ_VP_None	_	tag=so_0
+2	snúm	snúm	VERB	so_0	_	1	dep	_	tag=so_0
 3	okkur	við	PRON	fn_ft_þgf	Case=Dat|Number=Plur	2	obj	_	tag=fn_ft_þgf
 4	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	spurningunni	spurning	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk_gr
@@ -155,19 +150,20 @@
 13	sunnudagur	sunnudagur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 14	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00240,.10
+# text = Ákvörðun um stofnun þjóðhagsráðs var tekin árið 2015, m.a. að frumkvæði ASÍ.
 1	Ákvörðun	ákvörðun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
 2	um	um	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
 3	stofnun	stofnun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þf_kvk
 4	þjóðhagsráðs	þjóðhagsráð	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk
-5	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
+5	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 6	tekin	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-7-8	árið 2015	_	_	_	_	_	_	_	_
 7	árið	árið	ADV	ártal	_	6	advmod	_	tag=ártal
-8	2015	2015	NUM	ártal	_	7	flat	_	tag=ártal
+8	2015	2015	NUM	ártal	_	7	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=ártal
 9	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 10	m.a.	m.a.	ADV	abbrev	_	6	obl	_	tag=abbrev
 11	að	að	ADP	fs	_	12	case	_	tag=fs
 12	frumkvæði	frumkvæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
-13	ASÍ	ASÍ	PROPN	sérnafn	_	12	conj	_	tag=sérnafn
+13	ASÍ	ASÍ	PROPN	sérnafn	_	12	conj	_	SpaceAfter=No|tag=sérnafn
 14	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 

@@ -11,17 +11,16 @@
 9	um	um	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 10	fyrirhugaðar	fyrirhugaður	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	11	amod	_	tag=lo_ft_þf_kvk_sb
 11	breytingar	breyting	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þf_kvk
-12	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+12	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 13	að	að	SCONJ	st	_	0	root	_	tag=st
 14	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_p1
 15	væri	vera	VERB	so_1_nf_vh_p1_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=1|Tense=Past|Voice=Act	13	xcomp	_	tag=so_1_nf_vh_p1_et_þt_gm
 16	með	með	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-17-18	allt of	_	_	_	_	_	_	_	_
 17	allt	allt	ADV	eo	_	20	advmod	_	tag=eo
-18	of	of	ADV	eo	_	17	fixed	_	tag=eo
+18	of	of	ADV	eo	_	17	fixed	_	MWEEnd=Yes|tag=eo
 19	há	hár	ADJ	lo_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	20	amod	_	tag=lo_ft_þf_hk
-20	laun	laun	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
-21	(	_	PUNCT	grm	_	23	punct	_	tag=grm
+20	laun	laun	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	tag=no_ft_þf_hk
+21	(	_	PUNCT	grm	_	23	punct	_	SpaceAfter=No|tag=grm
 22	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	tag=pfn_et_nf_p1
 23	veit	vita	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	13	conj	_	tag=so_1_þf_fh_p1_et_nt_gm
 24	fyrir	fyrir	ADV	ao	_	23	advmod	_	tag=ao
@@ -53,13 +52,13 @@
 10	tölvupósta	tölvupóstur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	tag=no_ft_þf_kk
 11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 12	virðast	virða	VERB	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	10	acl:relcl	_	tag=so_0_fh_p3_ft_nt_mm
-13	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	conj	_	tag=so_0_nh_gm
+13	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_0_nh_gm
 14	frá	frá	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	WADA	WADA	PROPN	fyrirtæki	_	13	obl	_	tag=fyrirtæki
+15	WADA	WADA	PROPN	fyrirtæki	_	12	obl	_	tag=fyrirtæki
 16	þar	þar	ADV	ao	_	10	advmod	_	tag=ao
 17	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
 18	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	tag=pfn_ft_nf_kk_p3
-19	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_0_fh_p3_ft_nt_gm
+19	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_0_fh_p3_ft_nt_gm
 20	beðnir	biðja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	16	advcl	_	tag=so_0_lhþt_ft
 21	um	um	ADP	fs_nh	VerbForm=Inf	23	case	_	tag=fs_nh
 22	að	að	PART	nhm	_	23	mark	_	tag=nhm
@@ -99,7 +98,7 @@
 18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	mörgum	margur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	20	amod	_	tag=lo_ft_þgf_hk_sb
 20	tilvikum	tilvik	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	22	obl	_	tag=no_ft_þgf_hk
-21	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	cop	_	tag=so_0_fh_p3_et_þt_gm
+21	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	22	cop	_	tag=so_0_fh_p3_et_þt_gm
 22	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	16	advcl	_	tag=so_0_sagnb_gm
 23	að	að	PART	nhm	_	24	mark	_	tag=nhm
 24	bjóða	bjóða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	22	xcomp	_	tag=so_1_þf_nh_gm
@@ -109,23 +108,21 @@
 28	Kirkland	Kirkland	PROPN	fyrirtæki	_	26	obl	_	SpaceAfter=No|tag=fyrirtæki
 29	,	_	PUNCT	grm	_	28	punct	_	tag=grm
 30	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-31-32	Jón Gerald	_	_	_	_	_	_	_	_
 31	Jón	Jón	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	tag=person_et_nf_kk
-32	Gerald	Gerald	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	31	flat	_	tag=person_et_nf_kk
+32	Gerald	Gerald	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	31	flat	_	MWEEnd=Yes|tag=person_et_nf_kk
 33	í	í	ADP	fs_þgf	Case=Dat	34	case	_	tag=fs_þgf
 34	tilkynningunni	tilkynning	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
 35	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00192,.4
 # text = Mauricio Pochettino, knattspyrnustjóri Tottenham, var í dag dæmdur í tveggja leikja bann af enska knattspyrnusambandinu eftir að hafa misst stjórn á skapinu og hraunað yfir dómara leiksins eftir leik Spurs og Burnley á dögunum.
-1-2	Mauricio Pochettino	_	_	_	_	_	_	_	_
-1	Mauricio	Mauricio	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-2	Pochettino	Pochettino	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|tag=person_et_nf_kk
+1	Mauricio	Mauricio	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	tag=person_et_nf_kk
+2	Pochettino	Pochettino	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_et_nf_kk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	knattspyrnustjóri	knattspyrnustjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Tottenham	Tottenham	PROPN	fyrirtæki	_	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-7	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+7	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	advmod	_	tag=no_et_þf_kk
 10	dæmdur	dæmdur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
@@ -153,9 +150,8 @@
 32	Spurs	Spurs	PROPN	fyrirtæki	_	31	nmod:poss	_	tag=fyrirtæki
 33	og	og	CCONJ	st	_	34	cc	_	tag=st
 34	Burnley	Burnley	PROPN	fyrirtæki	_	32	conj	_	tag=fyrirtæki
-35-36	á dögunum	_	_	_	_	_	_	_	_
-35	á	á	ADV	ao	_	26	advmod	_	SpaceAfter=No|tag=ao
-36	dögunum	dögunum	ADV	ao	_	35	fixed	_	SpaceAfter=No|tag=ao
+35	á	á	ADV	ao	_	26	advmod	_	tag=ao
+36	dögunum	dögunum	ADV	ao	_	35	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 37	.	_	PUNCT	grm	_	10	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00192,.5
@@ -189,7 +185,7 @@
 27	,	_	PUNCT	grm	_	26	punct	_	tag=grm
 28	fyrir	fyrir	ADP	fs_þf	Case=Acc	29	case	_	tag=fs_þf
 29	vikið	vik	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	35	obl	_	tag=no_et_þf_hk_gr
-30	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	35	cop	_	tag=so_0_fh_p3_ft_þt_gm
+30	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	35	cop	_	tag=so_0_fh_p3_ft_þt_gm
 31	sjálfir	sjálfur	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	32	nmod	_	tag=fn_ft_nf_kk
 32	Þrífætlingarnir	þrífætlingur	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	35	nsubj	_	tag=no_ft_nf_kk_gr
 33	fremur	harla	ADV	eo_mst	Degree=Cmp	35	advmod	_	tag=eo_mst
@@ -202,17 +198,16 @@
 # sent_id = GREYNIR_CORPUS_00192,.6
 # text = Á frummálinu kallast bókin: The Story of the Vivian Girls, in What is Known as the Realms of the Unreal, of the Glandeco-Angelinian War Storm, Caused by the Child Slave Rebellion.
 1	Á	á	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	frummálinu	frummál	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk_gr
-3	kallast	kalla	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	6	conj	_	tag=so_0_fh_p3_et_nt_mm
-4	bókin	bók	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No|tag=no_et_nf_kvk_gr
+2	frummálinu	frummál	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk_gr
+3	kallast	kalla	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
+4	bókin	bók	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No|tag=no_et_nf_kvk_gr
 5	:	_	PUNCT	grm	_	4	punct	_	tag=grm
-6-11	The Story of the Vivian Girls	_	_	_	_	_	_	_	_
-6	The	The	X	foreign	_	0	root	_	SpaceAfter=No|tag=foreign
-7	Story	Story	X	foreign	_	6	flat:foreign	_	SpaceAfter=No|tag=foreign
-8	of	of	X	foreign	_	7	flat:foreign	_	SpaceAfter=No|tag=foreign
-9	the	the	X	foreign	_	8	flat:foreign	_	SpaceAfter=No|tag=foreign
-10	Vivian	Vivian	X	foreign	_	9	flat:foreign	_	SpaceAfter=No|tag=foreign
-11	Girls	Girls	X	foreign	_	10	flat:foreign	_	SpaceAfter=No|tag=foreign
+6	The	The	X	foreign	_	3	obl	_	tag=foreign
+7	Story	Story	X	foreign	_	6	flat:foreign	_	tag=foreign
+8	of	of	X	foreign	_	7	flat:foreign	_	tag=foreign
+9	the	the	X	foreign	_	8	flat:foreign	_	tag=foreign
+10	Vivian	Vivian	X	foreign	_	9	flat:foreign	_	tag=foreign
+11	Girls	Girls	X	foreign	_	10	flat:foreign	_	MWEEnd=Yes|SpaceAfter=No|tag=foreign
 12	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 13	in	in	X	foreign	_	6	flat:foreign	_	tag=foreign
 14	What	What	X	foreign	_	6	flat:foreign	_	tag=foreign
@@ -220,27 +215,24 @@
 16	Known	Known	X	foreign	_	6	flat:foreign	_	tag=foreign
 17	as	as	X	foreign	_	6	flat:foreign	_	tag=foreign
 18	the	the	X	foreign	_	6	flat:foreign	_	tag=foreign
-19-22	Realms of the Unreal	_	_	_	_	_	_	_	_
-19	Realms	Realms	X	foreign	_	6	flat:foreign	_	SpaceAfter=No|tag=foreign
-20	of	of	X	foreign	_	19	flat:foreign	_	SpaceAfter=No|tag=foreign
-21	the	the	X	foreign	_	20	flat:foreign	_	SpaceAfter=No|tag=foreign
-22	Unreal	Unreal	X	foreign	_	21	flat:foreign	_	SpaceAfter=No|tag=foreign
+19	Realms	Realms	X	foreign	_	6	flat:foreign	_	tag=foreign
+20	of	of	X	foreign	_	19	flat:foreign	_	tag=foreign
+21	the	the	X	foreign	_	20	flat:foreign	_	tag=foreign
+22	Unreal	Unreal	X	foreign	_	21	flat:foreign	_	MWEEnd=Yes|SpaceAfter=No|tag=foreign
 23	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 24	of	of	X	foreign	_	6	flat:foreign	_	tag=foreign
 25	the	the	X	foreign	_	6	flat:foreign	_	tag=foreign
-26-28	Glandeco-Angelinian War Storm	_	_	_	_	_	_	_	_
-26	Glandeco-Angelinian	Glandeco-Angelinian	X	foreign	_	6	flat:foreign	_	SpaceAfter=No|tag=foreign
-27	War	War	X	foreign	_	26	flat:foreign	_	SpaceAfter=No|tag=foreign
-28	Storm	Storm	X	foreign	_	27	flat:foreign	_	SpaceAfter=No|tag=foreign
+26	Glandeco-Angelinian	Glandeco-Angelinian	X	foreign	_	6	flat:foreign	_	tag=foreign
+27	War	War	X	foreign	_	26	flat:foreign	_	tag=foreign
+28	Storm	Storm	X	foreign	_	27	flat:foreign	_	MWEEnd=Yes|SpaceAfter=No|tag=foreign
 29	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 30	Caused	Caused	X	foreign	_	6	flat:foreign	_	tag=foreign
 31	by	by	X	foreign	_	6	flat:foreign	_	tag=foreign
 32	the	the	X	foreign	_	6	flat:foreign	_	tag=foreign
-33-35	Child Slave Rebellion	_	_	_	_	_	_	_	_
-33	Child	Child	X	foreign	_	6	flat:foreign	_	SpaceAfter=No|tag=foreign
-34	Slave	Slave	X	foreign	_	33	flat:foreign	_	SpaceAfter=No|tag=foreign
-35	Rebellion	Rebellion	X	foreign	_	34	flat:foreign	_	SpaceAfter=No|tag=foreign
-36	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+33	Child	Child	X	foreign	_	6	flat:foreign	_	tag=foreign
+34	Slave	Slave	X	foreign	_	33	flat:foreign	_	tag=foreign
+35	Rebellion	Rebellion	X	foreign	_	34	flat:foreign	_	MWEEnd=Yes|SpaceAfter=No|tag=foreign
+36	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00192,.7
 # text = Hettinger sótti um einkaleyfi á vörunni, og seldi nokkur þúsund eintök hér og þar á mörkuðum en er þriðji stærsti leikfanga framleiðandi heims, Hasbro, hafnaði framleiðslu snældanna, fór þróun vörunnar niður á við.
@@ -304,19 +296,17 @@
 17	átti	eiga	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
 18	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	17	iobj	_	tag=abfn_þgf
 19	stað	staður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	tag=no_et_þf_kk
-20-21	í gær	_	_	_	_	_	_	_	_
 20	í	í	ADV	ao	_	17	advmod	_	tag=ao
-21	gær	gær	ADV	ao	_	20	fixed	_	tag=ao
+21	gær	gær	ADV	ao	_	20	fixed	_	MWEEnd=Yes|tag=ao
 22	en	en	CCONJ	st	_	3	cc	_	tag=st
 23	mönnunum	maður	NOUN	no_ft_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	25	nsubj	_	tag=no_ft_þgf_kk_gr
-24	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	25	cop	_	tag=so_0_fh_p3_et_þt_gm
+24	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	25	cop	_	tag=so_0_fh_p3_et_þt_gm
 25	meinuð	meina	VERB	so_1_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	3	conj	_	tag=so_1_þf_lhþt_et
 26	innganga	innganga	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	25	obj	_	tag=no_et_nf_kvk
 27	í	í	ADP	fs_þf	Case=Acc	28	case	_	tag=fs_þf
 28	landið	land	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	26	obl	_	tag=no_et_þf_hk_gr
-29-30	í gær	_	_	_	_	_	_	_	_
 29	í	í	ADV	ao	_	25	advmod	_	tag=ao
-30	gær	gær	ADV	ao	_	29	fixed	_	tag=ao
+30	gær	gær	ADV	ao	_	29	fixed	_	MWEEnd=Yes|tag=ao
 31	og	og	CCONJ	st	_	3	cc	_	tag=st
 32	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	conj	_	tag=pfn_ft_nf_kk_p3
 33	látnir	láta	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	32	xcomp	_	tag=so_0_lhþt_ft
@@ -343,15 +333,14 @@
 13	að	að	SCONJ	st	_	18	mark	_	tag=st
 14	stjórnarformaður	stjórnarformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	tag=no_et_nf_kk
 15	Fréttablaðsins	Fréttablaðið	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=fyrirtæki_et_ef_hk_gr
-16	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+16	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 17	einnig	einnig	ADV	ao	_	18	advmod	_	tag=ao
 18	lögmaður	lögmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	ccomp	_	tag=no_et_nf_kk
 19	meirihlutaeigenda	meirihlutaeigandi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	18	nmod:poss	_	tag=no_ft_ef_kk
 20	Vinnslustöðvarinnar	Vinnslustöðin	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
 21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-22-23	Vestmannaeyjum hf.	_	_	_	_	_	_	_	_
 22	Vestmannaeyjum	Vestmannaeyjar	PROPN	fyrirtæki_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	20	obl	_	tag=fyrirtæki_ft_þgf_hk
-23	hf.	hf.	PROPN	fyrirtæki_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	22	flat	_	tag=fyrirtæki_ft_þgf_hk
+23	hf.	hf.	PROPN	fyrirtæki_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	22	flat	_	MWEEnd=Yes|tag=fyrirtæki_ft_þgf_hk
 24	og	og	CCONJ	st	_	18	cc	_	tag=st
 25	varaformaður	varaformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	tag=no_et_nf_kk
 26	stjórnar	stjórn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	18	nmod:poss	_	tag=no_et_ef_kvk
@@ -362,11 +351,10 @@
 31	sem	sem	SCONJ	stt	_	33	mark	_	tag=stt
 32	um	um	ADV	ao	_	33	advmod	_	tag=ao
 33	ræðir	ræða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-34	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-35-37	Einar Þór Sverrisson	_	_	_	_	_	_	_	_
-35	Einar	Einar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|tag=person_et_nf_kk
-36	Þór	Þór	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	35	flat	_	SpaceAfter=No|tag=person_et_nf_kk
-37	Sverrisson	Sverrisson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	35	flat	_	SpaceAfter=No|tag=person_et_nf_kk
+34	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	35	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+35	Einar	Einar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	tag=person_et_nf_kk
+36	Þór	Þór	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	35	flat	_	tag=person_et_nf_kk
+37	Sverrisson	Sverrisson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	35	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_et_nf_kk
 38	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00192,.10
@@ -384,18 +372,18 @@
 11	með	með	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	Ariönu	Ariana	PROPN	person_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=person_et_þgf_kvk
 13	og	og	CCONJ	st	_	4	cc	_	tag=st
-14	sagt	segja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
+14	sagt	segja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	conj	_	tag=so_0_sagnb_gm
 15	að	að	SCONJ	st	_	19	mark	_	tag=st
 16	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kvk_p3
-17	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_0_vh_p3_et_nt_gm
+17	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_0_vh_p3_et_nt_gm
 18	fáránlega	fáránlega	ADV	eo	_	19	advmod	_	tag=eo
-19	kynæsandi	kynæsandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	ccomp	_	tag=lo_et_nf_kvk_sb
+19	kynæsandi	kynæsandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	14	ccomp	_	tag=lo_et_nf_kvk_sb
 20	og	og	CCONJ	st	_	4	cc	_	tag=st
-21	sagt	segja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
+21	sagt	segja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	conj	_	tag=so_0_sagnb_gm
 22	að	að	SCONJ	st	_	25	mark	_	tag=st
 23	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	tag=pfn_et_nf_kk_p3
-24	væri	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_0_vh_p3_et_nt_gm
-25	ánægður	ánægður	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	ccomp	_	tag=lo_et_nf_kk_fst_sb
+24	væri	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_0_vh_p3_et_nt_gm
+25	ánægður	ánægður	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	ccomp	_	tag=lo_et_nf_kk_fst_sb
 26	með	með	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
 27	Mac	Mac	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	25	obl	_	tag=person_et_þf_kk
 28	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	30	case	_	tag=fs_nh

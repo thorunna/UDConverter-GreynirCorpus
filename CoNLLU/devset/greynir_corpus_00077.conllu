@@ -55,10 +55,9 @@
 # sent_id = GREYNIR_CORPUS_00077,.4
 # text = Á árinu 2008 var fjöldi skilgreindra dagskammta á hver 1000 börn á dag 2,3.
 1	Á	á	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2-3	árinu 2008	_	_	_	_	_	_	_	_
 2	árinu	árinu	NUM	ártal	_	14	obl	_	tag=ártal
-3	2008	2008	NUM	ártal	_	2	flat	_	tag=ártal
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_þt_gm
+3	2008	2008	NUM	ártal	_	2	flat	_	MWEEnd=Yes|tag=ártal
+4	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	fjöldi	fjöldi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk
 6	skilgreindra	skilgreindur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	7	amod	_	tag=lo_ft_ef_kk_sb
 7	dagskammta	dagskammtur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nmod:poss	_	tag=no_ft_ef_kk
@@ -81,7 +80,7 @@
 6	labba	labba	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
 7	hérna	hérna	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
 8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=fn_et_nf_hk
 11	ekki	ekki	ADV	ao	_	12	advmod	_	tag=ao
 12	þjóðgarður	þjóðgarður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|tag=no_et_nf_kk
@@ -128,10 +127,9 @@
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_p1
 2	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_nt_gm
 3	með	með	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
-4-6	snyrti- og hárvörur	_	_	_	_	_	_	_	_
 4	snyrti-	hárvara	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_þf_kvk
 5	og	hárvara	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	4	flat	_	tag=no_ft_þf_kvk
-6	hárvörur	hárvara	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	4	flat	_	tag=no_ft_þf_kvk
+6	hárvörur	hárvara	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	4	flat	_	MWEEnd=Yes|tag=no_ft_þf_kvk
 7	og	og	CCONJ	st	_	4	cc	_	tag=st
 8	ýmis	ýmis	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	tag=fn_ft_þf_hk
 9	hreinsandi	hreinsandi	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	4	amod	_	tag=lo_ft_þf_hk_sb
@@ -145,7 +143,7 @@
 # sent_id = GREYNIR_CORPUS_00077,.9
 # text = Fátækt er ekki eingöngu skortur á efnahagslegum gæðum, eignum, sparifé og atvinnuleysi.
 1	Fátækt	fátækt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
 4	eingöngu	eingöngu	ADV	ao	_	5	advmod	_	tag=ao
 5	skortur	skortur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -164,7 +162,7 @@
 # text = Í skýrslunni er farið yfir kosti og galla þess að aðskilja fjárfestingabankastarfsemi frá viðskiptabankastarfsemi.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	skýrslunni	skýrsla	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk_gr
-3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	farið	fara	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	yfir	yfir	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	kosti	kostur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk

@@ -17,9 +17,8 @@
 15	til	til	ADP	fs_nh	VerbForm=Inf	17	case	_	tag=fs_nh
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
 17	minnast	minna	VERB	so_1_ef_nh_mm	Case=Gen|VerbForm=Inf|Voice=Mid	4	obl	_	tag=so_1_ef_nh_mm
-18-19	Birnu Brjánsdóttur	_	_	_	_	_	_	_	_
-18	Birnu	Birna	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	17	obj	_	SpaceAfter=No|tag=person_ef_kvk
-19	Brjánsdóttur	Brjánsdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	18	flat	_	SpaceAfter=No|tag=person_ef_kvk
+18	Birnu	Birna	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	17	obj	_	tag=person_ef_kvk
+19	Brjánsdóttur	Brjánsdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	18	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_ef_kvk
 20	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00115,.2
@@ -37,8 +36,8 @@
 11	af	af	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	þessum	þessi	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	nmod	_	tag=fn_ft_þgf_hk
 13	atriðum	atriði	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	tag=no_ft_þgf_hk
-14	fyrr	snemma	ADV	ao_mst	Degree=Cmp	17	cc	_	tag=ao_mst
-15	en	en	CCONJ	st	_	14	cc	_	tag=st
+14	fyrr	snemma	ADV	ao_mst	Degree=Cmp	15	advmod	_	tag=ao_mst
+15	en	en	CCONJ	st	_	17	mark	_	tag=st
 16	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_p1
 17	sá	sjá	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	7	advcl	_	tag=so_1_þf_fh_p1_et_þt_gm
 18	gagnrýnina	gagnrýni	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
@@ -47,13 +46,12 @@
 # sent_id = GREYNIR_CORPUS_00115,.3
 # text = Þetta eru ekki formlegar málefna- og samningaviðræður, heldur nákvæmari kortlagning en samtöl hingað til hafa náð fram.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
 4	formlegar	formlegur	ADJ	lo_ft_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	tag=lo_ft_nf_kvk_fst_sb
-5-7	málefna- og samningaviðræður	_	_	_	_	_	_	_	_
-5	málefna-	málefna-	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|tag=no_ft_nf_kvk
-6	og	og	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	flat	_	SpaceAfter=No|tag=no_ft_nf_kvk
-7	samningaviðræður	samningaviðræður	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	flat	_	SpaceAfter=No|tag=no_ft_nf_kvk
+5	málefna-	málefna-	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk
+6	og	og	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	flat	_	tag=no_ft_nf_kvk
+7	samningaviðræður	samningaviðræður	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_ft_nf_kvk
 8	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 9	heldur	heldur	CCONJ	st	_	5	cc	_	tag=st
 10	nákvæmari	nákvæmur	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_mst
@@ -65,7 +63,7 @@
 16	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_fh_p3_ft_nt_gm
 17	náð	ná	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	advcl	_	tag=so_0_sagnb_gm
 18	fram	fram	ADV	ao	_	17	compound:prt	_	SpaceAfter=No|tag=ao
-19	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+19	.	_	PUNCT	grm	_	18	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00115,.4
 # text = Mest munar um greiðslu til verktaka og fyrirtækja vegna svokallaðra annarra vörukaupa sem nema ríflega 93 milljónum.
@@ -84,22 +82,21 @@
 13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
 14	nema	nema	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	acl:relcl	_	tag=so_1_þgf_fh_p3_ft_nt_gm
 15	ríflega	ríflega	ADV	eo	_	14	obj	_	tag=eo
-16-17	93 milljónum	_	_	_	_	_	_	_	_
-16	93	93	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	15	nummod	_	SpaceAfter=No|tag=tala_ft_þgf_kvk
-17	milljónum	milljónum	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	16	_	_	SpaceAfter=No|tag=tala_ft_þgf_kvk
+16	93	93	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	15	nummod	_	tag=tala_ft_þgf_kvk
+17	milljónum	milljónum	NUM	tala_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	16	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=tala_ft_þgf_kvk
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00115,.5
 # text = Húsið er klætt með granít flísum, þakkanturinn er klæddur með granít flísum og að neðan klætt með mahóní.
 1	Húsið	hús	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	klætt	klæða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	granít	granít	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk
 6	flísum	flís	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	þakkanturinn	þakkantur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	tag=no_et_nf_kk_gr
-9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	klæddur	klæða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
 11	með	með	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	granít	granít	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	13	nmod:poss	_	tag=no_et_ef_hk
@@ -114,9 +111,8 @@
 
 # sent_id = GREYNIR_CORPUS_00115,.6
 # text = Til dæmis hverfamiðstöðvar, eða þjónustumiðstöð, utangarðsteymið eða jafnvel lögreglu líka, segir Margrét að lokum.
-1-2	Til dæmis	_	_	_	_	_	_	_	_
 1	Til	til	ADV	eo	_	3	advmod	_	tag=eo
-2	dæmis	dæmis	ADV	eo	_	1	fixed	_	tag=eo
+2	dæmis	dæmis	ADV	eo	_	1	fixed	_	MWEEnd=Yes|tag=eo
 3	hverfamiðstöðvar	hverfamiðstöð	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	ccomp	_	SpaceAfter=No|tag=no_ft_þf_kvk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	eða	eða	CCONJ	st	_	3	cc	_	tag=st
@@ -194,17 +190,17 @@
 10	æfa	æfa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þf_nh_gm
 11	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	10	obj	_	SpaceAfter=No|tag=abfn_þf
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
-13	þar	þar	ADV	ao	_	17	mark	_	tag=ao
-14	sem	sem	SCONJ	st	_	13	cc	_	tag=st
+13	þar	þar	ADV	ao	_	14	advmod	_	tag=ao
+14	sem	sem	SCONJ	st	_	17	mark	_	tag=st
 15	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_hk_p3
-16	gæti	getur	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	17	aux	_	tag=so_0_vh_p3_et_þt_gm
+16	gæti	geta	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	17	aux	_	tag=so_0_vh_p3_et_þt_gm
 17	spillt	spilla	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	5	advcl	_	tag=so_1_þgf_sagnb_gm
 18	niðurstöðum	niðurstöður	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	obj	_	tag=no_ft_þgf_kvk
 19	tilraunarinnar	tilraun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 20	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00115,.10
-# text = Hann meiddist aftan í læri í 1 – 0 sigri liðsins á West Ham í enska deildabikarnum í gær.
+# text = Hann meiddist aftan í læri í 1–0 sigri liðsins á West Ham í enska deildabikarnum í gær.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	meiddist	meiða	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 3	aftan	aftan	ADV	ao	_	5	advmod	_	tag=ao
@@ -212,19 +208,17 @@
 5	læri	læri	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 6	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 7	1	1	NUM	tala	NumType=Card	10	nmod:poss	_	SpaceAfter=No|tag=tala
-8	–	_	PUNCT	grm	_	7	punct	_	tag=grm
+8	–	_	PUNCT	grm	_	7	punct	_	SpaceAfter=No|tag=grm
 9	0	0	NUM	tala	NumType=Card	7	nummod	_	tag=tala
 10	sigri	sigur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
 11	liðsins	lið	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=no_et_ef_hk_gr
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13-14	West Ham	_	_	_	_	_	_	_	_
 13	West	West	PROPN	fyrirtæki	_	10	obl	_	tag=fyrirtæki
-14	Ham	Ham	PROPN	fyrirtæki	_	13	flat	_	tag=fyrirtæki
+14	Ham	Ham	PROPN	fyrirtæki	_	13	flat	_	MWEEnd=Yes|tag=fyrirtæki
 15	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 16	enska	enskur	ADJ	lo_et_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Sing	17	amod	_	tag=lo_et_þgf_kk_vb
 17	deildabikarnum	deildabikar	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þgf_kk_gr
-18-19	í gær	_	_	_	_	_	_	_	_
-18	í	í	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
-19	gær	gær	ADV	ao	_	18	fixed	_	SpaceAfter=No|tag=ao
+18	í	í	ADV	ao	_	2	advmod	_	tag=ao
+19	gær	gær	ADV	ao	_	18	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 20	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

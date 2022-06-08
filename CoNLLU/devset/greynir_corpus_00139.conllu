@@ -8,7 +8,7 @@
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	fyrstu	fyrsta	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	advmod	_	tag=no_et_þf_kvk
 8	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_vh_p3_et_nt_gm
-9	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	aux	_	tag=so_0_sagnb_gm
+9	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	cop	_	tag=so_0_sagnb_gm
 10	greint	greina	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	xcomp	_	tag=so_0_lhþt_et
 11	frá	frá	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	_	tag=pfn_et_þgf_hk_p3
@@ -19,9 +19,9 @@
 17	en	en	CCONJ	st	_	4	cc	_	tag=st
 18	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	tag=pfn_et_nf_hk_p3
 19	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	tag=so_0_fh_p3_et_nt_gm
-20	verið	vera	X	x		23	dep	_	tag=x
+20	verið	vera	X	x	_	23	dep	_	tag=x
 21	nú	nú	ADV	ao	_	23	advmod	_	tag=ao
-22	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	23	aux	_	tag=so_0_sagnb_gm
+22	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	23	cop	_	tag=so_0_sagnb_gm
 23	leiðrétt	leiðrétta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	conj	_	SpaceAfter=No|tag=so_0_lhþt_et
 24	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
@@ -41,9 +41,9 @@
 12	leið	líða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	löngu	langur	ADJ	lo_et_þgf_hk_fst_sb	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	12	obl	_	tag=lo_et_þgf_hk_fst_sb
-15	þar	þar	ADV	ao	_	19	mark	_	tag=ao
-16	til	til	SCONJ	st	_	15	cc	_	tag=st
-17	Hollywood	Hollywood	PROPN	sérnafn	_	18	conj	_	tag=sérnafn
+15	þar	þar	ADV	ao	_	16	advmod	_	tag=ao
+16	til	til	SCONJ	st	_	19	mark	_	tag=st
+17	Hollywood	Hollywood	PROPN	sérnafn	_	18	nmod	_	tag=sérnafn
 18	stjörnurnar	stjarna	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	19	nsubj	_	tag=no_ft_nf_kvk_gr
 19	hófu	hefja	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	12	advcl	_	tag=so_0_fh_p3_ft_þt_gm
 20	að	að	PART	nhm	_	21	mark	_	tag=nhm
@@ -62,13 +62,13 @@
 6	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	tag=pfn_et_þgf_p1
 7	tölvupósta	tölvupóstur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	tag=no_ft_þf_kk
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
-9	tóku	taka	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_þt_gm
-10	eindregið	eindregið	ADV	ao	_	5	advmod	_	tag=ao
+9	tóku	taka	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_ft_þt_gm
+10	eindregið	eindregið	ADV	ao	_	9	advmod	_	tag=ao
 11	undir	undir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-12	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	tag=pfn_et_þf_hk_p3
+12	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obl	_	tag=pfn_et_þf_hk_p3
 13	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
 14	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	xcomp	_	tag=pfn_et_nf_p1
-15	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	aux	_	tag=so_1_nf_fh_p3_et_þt_gm
+15	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
 17	segja	segja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	acl:relcl	_	tag=so_0_nh_gm
 18	en	en	CCONJ	st	_	5	cc	_	tag=st
@@ -82,7 +82,7 @@
 # sent_id = GREYNIR_CORPUS_00139,.4
 # text = Það er þekkt fyrirbæri að þegar flugfélag kemur með nýjan áfangastað á markaðinn verður aukning í farþegafjölda um kannski 10 til 15 prósent.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	þekkt	þekkur	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_nf_hk_fst_sb
 4	fyrirbæri	fyrirbæri	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 5	að	að	SCONJ	st	_	14	mark	_	tag=st
@@ -102,9 +102,8 @@
 19	kannski	kannski	ADV	eo	_	22	advmod	_	tag=eo
 20	10	10	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	22	nummod	_	tag=tala_ft_þf_hk
 21	til	til	ADV	eo	_	22	advmod	_	tag=eo
-22-23	15 prósent	_	_	_	_	_	_	_	_
-22	15	15	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	SpaceAfter=No|tag=prósenta_ft_þf_hk
-23	prósent	prósent	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	22	_	_	SpaceAfter=No|tag=prósenta_ft_þf_hk
+22	15	15	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	tag=prósenta_ft_þf_hk
+23	prósent	prósent	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	22	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=prósenta_ft_þf_hk
 24	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00139,.5
@@ -136,13 +135,11 @@
 
 # sent_id = GREYNIR_CORPUS_00139,.6
 # text = LeBron James og Savannah Brinson eiga þrjú börn saman, tvo eldri stráka og svo litla stelpu sem er augljóslega augasteinn pabba síns.
-1-2	LeBron James	_	_	_	_	_	_	_	_
 1	LeBron	LeBron	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-2	James	James	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	James	James	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
-4-5	Savannah Brinson	_	_	_	_	_	_	_	_
 4	Savannah	Savannah	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
-5	Brinson	Brinson	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	flat	_	tag=person_nf_kvk
+5	Brinson	Brinson	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 6	eiga	eiga	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
 7	þrjú	þrír	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	nummod	_	tag=to_ft_þf_hk
 8	börn	börn	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	tag=no_ft_þf_hk
@@ -167,7 +164,7 @@
 # text = Niðurstaða skýrslunnar er sú að notkun jarðefnaeldneytis í samgöngum á landi í Bretlandi sé að nálgast sögulegt hámark og muni síðan dvína hratt.
 1	Niðurstaða	niðurstaða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 2	skýrslunnar	skýrsla	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk_gr
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	sú	sá	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=fn_et_nf_kvk
 5	að	að	SCONJ	st	_	16	mark	_	tag=st
 6	notkun	notkun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	tag=no_et_nf_kvk
@@ -178,13 +175,13 @@
 11	landi	land	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Bretlandi	Bretland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
-14	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_vh_p3_et_nt_gm
+14	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_0_vh_p3_et_nt_gm
 15	að	að	PART	nhm	_	16	mark	_	tag=nhm
 16	nálgast	nálgast	VERB	so_1_þf_nh_mm	Case=Acc|VerbForm=Inf|Voice=Mid	4	ccomp	_	tag=so_1_þf_nh_mm
 17	sögulegt	sögulegur	ADJ	lo_et_þf_hk_fst_sb	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_þf_hk_fst_sb
 18	hámark	hámark	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=no_et_þf_hk
 19	og	og	CCONJ	st	_	16	cc	_	tag=st
-20	muni	muna	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_vh_p3_et_nt_gm
+20	muni	munu	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_vh_p3_et_nt_gm
 21	síðan	síðan	ADV	ao	_	22	advmod	_	tag=ao
 22	dvína	dvína	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	16	conj	_	tag=so_0_nh_gm
 23	hratt	hratt	ADV	ao_fst	Degree=Pos	22	advmod	_	SpaceAfter=No|tag=ao_fst
@@ -193,7 +190,7 @@
 # sent_id = GREYNIR_CORPUS_00139,.8
 # text = Búist er við því að Mkhitaryan verði frá í 10 daga sem útilokar hann frá þátttöku í Manchester-slagnum um næstu helgi.
 1	Búist	búa	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	0	root	_	tag=so_0_sagnb_mm
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	við	við	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	tag=pfn_et_þgf_hk_p3
 5	að	að	SCONJ	st	_	7	mark	_	tag=st
@@ -232,7 +229,7 @@
 13	þeim	hún	PRON	pfn_ft_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Plur|Person=3|PronType=Prs	11	obl	_	tag=pfn_ft_þgf_kvk_p3
 14	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
 15	að	að	PART	nhm	_	16	mark	_	tag=nhm
-16	láta	láta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	csubj	_	tag=so_1_þf_nh_gm
+16	láta	láta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	obl	_	tag=so_1_þf_nh_gm
 17	heiti	heiti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	tag=no_et_þf_hk
 18	mannauðsdeildarinnar	mannauðsdeild	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod:poss	_	tag=no_et_ef_kvk_gr
 19	endurspegla	endurspegla	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_1_þf_nh_gm
@@ -247,16 +244,14 @@
 1	Hollywood-stjarnan	Hollywood-stjarna	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk_gr
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	Íslandsvinurinn	Íslandsvinur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk_gr
-4-5	Ben Stiller	_	_	_	_	_	_	_	_
 4	Ben	Ben	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	obl	_	tag=person_nf_kk
-5	Stiller	Stiller	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
-6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+5	Stiller	Stiller	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	MWEEnd=Yes|tag=person_nf_kk
+6	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 7	greinilega	greinilega	ADV	ao_fst	Degree=Pos	9	advmod	_	tag=ao_fst
 8	mikill	mikill	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_nf_kk_fst_sb
 9	aðdáandi	aðdáandi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
-10-11	Ben Stiller	_	_	_	_	_	_	_	_
 10	Ben	Ben	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	tag=person_ef_kk
-11	Stiller	Stiller	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	flat	_	tag=person_ef_kk
+11	Stiller	Stiller	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	flat	_	MWEEnd=Yes|tag=person_ef_kk
 12	ef	ef	SCONJ	st	_	13	mark	_	tag=st
 13	marka	marka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	advcl	_	tag=so_1_þf_nh_gm
 14	má	mega	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_nt_gm

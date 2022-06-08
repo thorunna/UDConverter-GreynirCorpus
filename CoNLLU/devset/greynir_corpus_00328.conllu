@@ -9,26 +9,24 @@
 7	frá	frá	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	2016	2016	NUM	ártal	_	5	obl	_	tag=ártal
 9	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_nt_gm
-10-11	nokkurn veginn	_	_	_	_	_	_	_	_
 10	nokkurn	nokkurn	ADV	ao	_	12	advmod	_	tag=ao
-11	veginn	veginn	ADV	ao	_	10	fixed	_	tag=ao
+11	veginn	veginn	ADV	ao	_	10	fixed	_	MWEEnd=Yes|tag=ao
 12	staðist	standa	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	4	obl	_	SpaceAfter=No|tag=so_0_sagnb_mm
 13	:	:	PUNCT	grm	_	12	punct	_	tag=grm
 14	Brexit-óvissan	Brexit-óvissa	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	tag=no_et_nf_kvk_gr
 15	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_vh_p3_et_nt_gm
-16	virkað	virka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	12	VANTAR_LIÐ_IP_None	_	tag=so_0_sagnb_gm
-17	eins	eins	ADV	ao	_	19	cc	_	tag=ao
-18	og	og	CCONJ	st	_	17	cc	_	tag=st
+16	virkað	virka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	12	dep	_	tag=so_0_sagnb_gm
+17	eins	eins	ADV	ao	_	18	advmod	_	tag=ao
+18	og	og	CCONJ	st	_	19	mark	_	tag=st
 19	hemill	hemill	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	advcl	_	tag=no_et_nf_kk
 20	á	á	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 21	hagkerfið	hagkerfi	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	16	obl	_	tag=no_et_þf_hk_gr
 22	og	og	CCONJ	st	_	12	cc	_	tag=st
 23	vöxtur	vöxtur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	tag=no_et_nf_kk
-24	orðið	verða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	25	cop	_	tag=so_0_sagnb_gm
-25	minni	lítill	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	12	VANTAR_LIÐ_IP_None	_	tag=lo_et_nf_kk_mst
-26-27	en ella	_	_	_	_	_	_	_	_
-26	en	en	SCONJ	st	_	28	mark	_	tag=st
-27	ella	ella	SCONJ	st	_	26	_	_	tag=st
+24	orðið	verða	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	25	cop	_	tag=so_0_sagnb_gm
+25	minni	lítill	ADJ	lo_et_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	12	dep	_	tag=lo_et_nf_kk_mst
+26	en	en	SCONJ	st	_	28	cc	_	tag=st
+27	ella	ella	SCONJ	st	_	26	fixed	_	MWEEnd=Yes|tag=st
 28	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	25	advcl	_	tag=so_0_fh_p3_ft_þt_gm
 29	horfur	horfur	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	tag=no_ft_nf_kvk
 30	á	á	ADV	ao	_	28	advmod	_	SpaceAfter=No|tag=ao
@@ -36,10 +34,10 @@
 
 # sent_id = GREYNIR_CORPUS_00328,.2
 # text = En þegar hann varð hundrað ára og ríkisstjórnir þeirra landa sem mynduðu fylkingu Bandamanna í heimsstyrjöldinni tóku að keppast við að heiðra hann fyrir framlag sitt ákvað hann að leysa frá skjóðunni.
-1	En	en	SCONJ	st	_	27	cc	_	tag=st
+1	En	en	SCONJ	st	_	27	dep	_	tag=st
 2	þegar	þegar	SCONJ	st	_	5	mark	_	tag=st
 3	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_kk_p3
-4	varð	verða	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
+4	varð	verða	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	hundrað	hundrað	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	27	advcl	_	tag=töl_ft_ef_hk
 6	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	xcomp	_	tag=no_ft_ef_hk
 7	og	og	CCONJ	st	_	5	cc	_	tag=st
@@ -109,34 +107,29 @@
 
 # sent_id = GREYNIR_CORPUS_00328,.4
 # text = Róbert Wessman og Árni Harðarson voru í dag sýknaðir af kröfu Björgólfs Thors Björgólfssonar vegna millifærslu fjögurra milljóna evra af reikningi Actavis Group inn á reikning Salt Investmens, félags í eigu Róberts.
-1-2	Róbert Wessman	_	_	_	_	_	_	_	_
 1	Róbert	Róbert	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
-2	Wessman	Wessman	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Wessman	Wessman	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
-4-5	Árni Harðarson	_	_	_	_	_	_	_	_
 4	Árni	Árni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-5	Harðarson	Harðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
-6	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_0_fh_p3_ft_þt_gm
+5	Harðarson	Harðarson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	MWEEnd=Yes|tag=person_nf_kk
+6	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_0_fh_p3_ft_þt_gm
 7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	advmod	_	tag=no_et_þf_kk
 9	sýknaðir	sýknaður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
 10	af	af	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	kröfu	krafa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk
-12-14	Björgólfs Thors Björgólfssonar	_	_	_	_	_	_	_	_
 12	Björgólfs	Björgólfur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	11	nmod:poss	_	tag=person_ef_kk
 13	Thors	Thor	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	flat	_	tag=person_ef_kk
-14	Björgólfssonar	Björgólfsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	flat	_	tag=person_ef_kk
+14	Björgólfssonar	Björgólfsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	12	flat	_	MWEEnd=Yes|tag=person_ef_kk
 15	vegna	vegna	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
 16	millifærslu	millifærsla	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_ef_kvk
-17-19	fjögurra milljóna evra	_	_	_	_	_	_	_	_
 17	fjögurra	fjögurra	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	16	nmod:poss	_	tag=no_ft_ef_kvk
 18	milljóna	milljóna	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	17	flat	_	tag=no_ft_ef_kvk
-19	evra	evra	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	17	flat	_	tag=no_ft_ef_kvk
+19	evra	evra	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	17	flat	_	MWEEnd=Yes|tag=no_ft_ef_kvk
 20	af	af	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	reikningi	reikningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þgf_kk
-22-23	Actavis Group	_	_	_	_	_	_	_	_
 22	Actavis	Actavis	PROPN	fyrirtæki	_	21	nmod:poss	_	tag=fyrirtæki
-23	Group	Group	PROPN	fyrirtæki	_	22	flat	_	tag=fyrirtæki
+23	Group	Group	PROPN	fyrirtæki	_	22	flat	_	MWEEnd=Yes|tag=fyrirtæki
 24	inn	inn	ADV	ao	_	26	advmod	_	tag=ao
 25	á	á	ADP	fs_þf	Case=Acc	26	case	_	tag=fs_þf
 26	reikning	reikningur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_þf_kk
@@ -188,11 +181,10 @@
 
 # sent_id = GREYNIR_CORPUS_00328,.6
 # text = Á þeim tíma sem Alexis átti að mæta í lyfjapróf þá var hann í Manchester að ljúka skiptum sínum frá Arsenal til Manchester United og gleymdist að koma þeim upplýsingum til enska knattspyrnusambandsins.
-1-3	Á þeim tíma	_	_	_	_	_	_	_	_
-1	Á	á	ADV	ao	_	6	mark	_	tag=ao
+1	Á	á	ADV	ao	_	4	advmod	_	tag=ao
 2	þeim	þeim	ADV	ao	_	1	fixed	_	tag=ao
-3	tíma	tíma	ADV	ao	_	1	fixed	_	tag=ao
-4	sem	sem	SCONJ	st	_	1	cc	_	tag=st
+3	tíma	tíma	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
+4	sem	sem	SCONJ	st	_	6	mark	_	tag=st
 5	Alexis	Alexis	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
 6	átti	eiga	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	advcl	_	tag=so_0_fh_p3_et_þt_gm
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
@@ -211,9 +203,8 @@
 20	frá	frá	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	Arsenal	Arsenal	PROPN	fyrirtæki	_	18	obl	_	tag=fyrirtæki
 22	til	til	ADP	fs_ef	Case=Gen	23	case	_	tag=fs_ef
-23-24	Manchester United	_	_	_	_	_	_	_	_
 23	Manchester	Manchester	PROPN	fyrirtæki	_	18	obl	_	tag=fyrirtæki
-24	United	United	PROPN	fyrirtæki	_	23	flat	_	tag=fyrirtæki
+24	United	United	PROPN	fyrirtæki	_	23	flat	_	MWEEnd=Yes|tag=fyrirtæki
 25	og	og	CCONJ	st	_	12	cc	_	tag=st
 26	gleymdist	gleyma	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	conj	_	tag=so_0_fh_p3_et_þt_mm
 27	að	að	PART	nhm	_	28	mark	_	tag=nhm
@@ -229,9 +220,8 @@
 # text = Þau tóku hins vegar fram að ágreiningur sem komin var upp varðandi inntak yfirlýsingarinnar breytti engu um kaupin sem slík, enda töldu þau að mætti leysa úr þessum ágreiningi með farsælum hætti.
 1	Þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_hk_p3
 2	tóku	taka	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
-3-4	hins vegar	_	_	_	_	_	_	_	_
 3	hins	hins	ADV	ao	_	2	advmod	_	tag=ao
-4	vegar	vegar	ADV	ao	_	3	fixed	_	tag=ao
+4	vegar	vegar	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	fram	fram	ADV	ao	_	2	advmod	_	tag=ao
 6	að	að	SCONJ	st	_	15	mark	_	tag=st
 7	ágreiningur	ágreiningur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	tag=no_et_nf_kk
@@ -266,16 +256,15 @@
 # sent_id = GREYNIR_CORPUS_00328,.8
 # text = Lögum var breytt í Þýskalandi árið 2007 og þar var fylgt ráðgjöf frá bönkunum, segir Frey og líkir því við að bóndi fái ráðgjöf frá refnum um hvernig eigi að verja hænsnahúsið.
 1	Lögum	lög	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_þgf_hk
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	breytt	breyta	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	0	root	_	tag=so_1_þgf_lhþt_et
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Þýskalandi	Þýskaland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_hk
-6-7	árið 2007	_	_	_	_	_	_	_	_
 6	árið	árið	ADV	ártal	_	3	advmod	_	tag=ártal
-7	2007	2007	NUM	ártal	_	6	flat	_	tag=ártal
+7	2007	2007	NUM	ártal	_	6	flat	_	MWEEnd=Yes|tag=ártal
 8	og	og	CCONJ	st	_	3	cc	_	tag=st
 9	þar	þar	ADV	ao	_	11	advmod	_	tag=ao
-10	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+10	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 11	fylgt	fylgja	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	3	conj	_	tag=so_1_þgf_lhþt_et
 12	ráðgjöf	ráðgjöf	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_þgf_kvk
 13	frá	frá	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
@@ -325,13 +314,12 @@
 20	ýmsan	ýmis	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	21	nmod	_	tag=fn_et_þf_kk
 21	hátt	háttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 22	,	_	PUNCT	grm	_	21	punct	_	tag=grm
-23-24	meðal annars	_	_	_	_	_	_	_	_
 23	meðal	meðal	ADV	ao	_	18	advmod	_	tag=ao
-24	annars	annars	ADV	ao	_	23	fixed	_	tag=ao
-25	með	með	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
-26	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	tag=fn_et_þgf_hk
+24	annars	annars	ADV	ao	_	23	fixed	_	MWEEnd=Yes|tag=ao
+25	með	með	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
+26	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	28	nmod	_	tag=fn_et_þgf_hk
 27	að	að	PART	nhm	_	28	mark	_	tag=nhm
-28	afhenda	afhenda	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	26	xcomp	_	tag=so_2_þgf_þf_nh_gm
+28	afhenda	afhenda	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	18	obl	_	tag=so_2_þgf_þf_nh_gm
 29	henni	hún	PRON	pfn_et_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	iobj	_	tag=pfn_et_þgf_kvk_p3
 30	lykil	lykill	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	28	obj	_	tag=no_et_þf_kk
 31	að	að	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
@@ -347,9 +335,8 @@
 4	nýju	nýr	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þgf_hk_sb
 5	ári	ár	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 6	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-7-8	23. febrúar	_	_	_	_	_	_	_	_
 7	23.	23.	ADV	dagsafs	_	6	advmod	_	tag=dagsafs
-8	febrúar	febrúar	NOUN	dagsafs	_	7	flat	_	tag=dagsafs
+8	febrúar	febrúar	NOUN	dagsafs	_	7	flat	_	MWEEnd=Yes|tag=dagsafs
 9	og	og	CCONJ	st	_	6	cc	_	tag=st
 10	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
 11	það	þar	ADV	ao	_	10	advmod	_	tag=ao
@@ -361,22 +348,19 @@
 17	afa	afi	PROPN	entity	_	16	flat:name	_	tag=entity
 18	Gissa	Gissi	PROPN	entity	_	16	conj	_	tag=entity
 19	eftir	eftir	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20-22	Kristínu Helgu Gunnarsdóttur	_	_	_	_	_	_	_	_
 20	Kristínu	Kristín	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	16	obl	_	tag=person_þf_kvk
 21	Helgu	Helga	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	20	flat	_	tag=person_þf_kvk
-22	Gunnarsdóttur	Gunnarsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	20	flat	_	tag=person_þf_kvk
+22	Gunnarsdóttur	Gunnarsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	20	flat	_	MWEEnd=Yes|tag=person_þf_kvk
 23	í	í	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24	leikstjórn	leikstjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þgf_kvk
-25-26	Ágústu Skúladóttur	_	_	_	_	_	_	_	_
 25	Ágústu	Ágústa	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	24	nmod:poss	_	tag=person_ef_kvk
-26	Skúladóttur	Skúladóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	25	flat	_	tag=person_ef_kvk
+26	Skúladóttur	Skúladóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	25	flat	_	MWEEnd=Yes|tag=person_ef_kvk
 27	með	með	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
 28	nýrri	nýr	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	29	amod	_	tag=lo_et_þgf_kvk_sb
 29	tónlist	tónlist	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þgf_kvk
 30	eftir	eftir	ADP	fs_þf	Case=Acc	31	case	_	tag=fs_þf
-31-33	Þorvald Bjarna Þorvaldsson	_	_	_	_	_	_	_	_
-31	Þorvald	Þorvaldur	PROPN	person_þf_kk	Case=Acc|Gender=Masc	29	obl	_	SpaceAfter=No|tag=person_þf_kk
-32	Bjarna	Bjarni	PROPN	person_þf_kk	Case=Acc|Gender=Masc	31	flat	_	SpaceAfter=No|tag=person_þf_kk
-33	Þorvaldsson	Þorvaldsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	31	flat	_	SpaceAfter=No|tag=person_þf_kk
+31	Þorvald	Þorvaldur	PROPN	person_þf_kk	Case=Acc|Gender=Masc	29	obl	_	tag=person_þf_kk
+32	Bjarna	Bjarni	PROPN	person_þf_kk	Case=Acc|Gender=Masc	31	flat	_	tag=person_þf_kk
+33	Þorvaldsson	Þorvaldsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	31	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kk
 34	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

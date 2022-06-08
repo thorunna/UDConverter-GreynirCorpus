@@ -51,9 +51,8 @@
 2	dapra	dapur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	tag=lo_et_nf_kvk_vb
 3	sviðsmynd	sviðsmynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 4	þarf	þurfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-5-6	hins vegar	_	_	_	_	_	_	_	_
 5	hins	hins	ADV	ao	_	4	advmod	_	tag=ao
-6	vegar	vegar	ADV	ao	_	5	fixed	_	tag=ao
+6	vegar	vegar	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 7	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_0_nh_gm
@@ -65,7 +64,7 @@
 # sent_id = GREYNIR_CORPUS_00063,.5
 # text = Ég meina, hvaða skynsemi er í að halda öðru fram?
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
-2	meina	meina	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=so_0_fh_p1_et_nt_gm
+2	meina	meina	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	dep	_	SpaceAfter=No|tag=so_0_fh_p1_et_nt_gm
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	hvaða	hvaða	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	tag=fn_et_nf_kvk
 5	skynsemi	skynsemi	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
@@ -89,9 +88,8 @@
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	Úkraínu	Úkraína	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	tag=sérnafn_et_þgf_kvk
 10	fimmtudagskvöldið	fimmtudagskvöld	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þf_hk_gr
-11-12	24. maí	_	_	_	_	_	_	_	_
-11	24.	24.	ADV	dagsafs	_	5	advmod	_	SpaceAfter=No|tag=dagsafs
-12	maí	maí	NOUN	dagsafs	_	11	flat	_	SpaceAfter=No|tag=dagsafs
+11	24.	24.	ADV	dagsafs	_	5	advmod	_	tag=dagsafs
+12	maí	maí	NOUN	dagsafs	_	11	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 13	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00063,.7
@@ -112,9 +110,8 @@
 
 # sent_id = GREYNIR_CORPUS_00063,.8
 # text = Að lokum skaltu muna að slaka á, allt mun fara vel.
-1-2	Að lokum	_	_	_	_	_	_	_	_
 1	Að	Að	ADV	ao	_	4	advmod	_	tag=ao
-2	lokum	lokum	ADV	ao	_	1	fixed	_	tag=ao
+2	lokum	lokum	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	skaltu	skulu	AUX	so_0_fh_p2_et_nt_gm_sn	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p2_et_nt_gm_sn
 4	muna	muna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
@@ -125,7 +122,7 @@
 10	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
 11	fara	fara	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	conj	_	tag=so_0_nh_gm
 12	vel	vel	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
-13	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+13	.	.	PUNCT	grm	_	12	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00063,.9
 # text = Rannsóknin greinir þjóðernishyggju á Norðurlöndum og uppgang þjóðernispopúlískra flokka í löndunum fimm.

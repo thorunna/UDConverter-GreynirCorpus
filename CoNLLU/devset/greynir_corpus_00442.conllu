@@ -15,7 +15,7 @@
 13	Time	Time	PROPN	fyrirtæki	_	9	obl	_	tag=fyrirtæki
 14	að	að	SCONJ	st	_	19	mark	_	tag=st
 15	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kk_p3
-16	sé	sé	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+16	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 17	líklega	líklega	ADV	ao	_	19	advmod	_	tag=ao
 18	helsti	helsti	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	19	amod	_	tag=lo_et_nf_kk_evb
 19	hernaðarspekingur	hernaðarspekingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	tag=no_et_nf_kk
@@ -26,16 +26,15 @@
 # sent_id = GREYNIR_CORPUS_00442,.2
 # text = Skjálftahrinur eru algengar á þessum slóðum en að þessu sinni fannst hann í Keflavík, að sögn Bryndísar Ýrar Gísladóttur, náttúruvársérfræðings hjá Veðurstofu Íslands.
 1	Skjálftahrinur	skjálfta-hrina	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	algengar	algengur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=lo_ft_nf_kvk_sb
 4	á	eiga	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	þessum	þessi	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	tag=fn_ft_þgf_kvk
 6	slóðum	slóð	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þgf_kvk
 7	en	en	CCONJ	st	_	3	cc	_	tag=st
-8-10	að þessu sinni	_	_	_	_	_	_	_	_
 8	að	að	ADV	ao	_	11	advmod	_	tag=ao
 9	þessu	þessu	ADV	ao	_	8	fixed	_	tag=ao
-10	sinni	sinni	ADV	ao	_	8	fixed	_	tag=ao
+10	sinni	sinni	ADV	ao	_	8	fixed	_	MWEEnd=Yes|tag=ao
 11	fannst	finna	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	conj	_	tag=so_0_fh_p3_et_þt_mm
 12	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kk_p3
 13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
@@ -43,10 +42,9 @@
 15	,	,	PUNCT	grm	_	14	punct	_	tag=grm
 16	að	að	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	sögn	sögn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
-18-20	Bryndísar Ýrar Gísladóttur	_	_	_	_	_	_	_	_
-18	Bryndísar	Bryndísar	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	17	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
-19	Ýrar	Ýrar	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	18	flat	_	SpaceAfter=No|tag=person_ef_kvk
-20	Gísladóttur	Gísladóttur	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	18	flat	_	SpaceAfter=No|tag=person_ef_kvk
+18	Bryndísar	Bryndísar	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	17	nmod:poss	_	tag=person_ef_kvk
+19	Ýrar	Ýrar	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	18	flat	_	tag=person_ef_kvk
+20	Gísladóttur	Gísladóttur	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	18	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_ef_kvk
 21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
 22	náttúruvársérfræðings	náttúruvár-sérfræðingur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	18	obl	_	tag=no_et_ef_kk
 23	hjá	hjá	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
@@ -56,9 +54,8 @@
 
 # sent_id = GREYNIR_CORPUS_00442,.3
 # text = Þrátt fyrir að vera með yfirtölu á miðjunni réðu Eyjamenn ekki neitt við neitt í fyrri hálfleik þar sem ÍA réð ferðinni.
-1-2	Þrátt fyrir	_	_	_	_	_	_	_	_
 1	Þrátt	Þrátt	ADV	ao	_	4	mark	_	tag=ao
-2	fyrir	fyrir	ADV	ao	_	1	fixed	_	tag=ao
+2	fyrir	fyrir	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
 4	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	advcl	_	tag=so_0_nh_gm
 5	með	með	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -74,8 +71,8 @@
 15	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 16	fyrri	fyrri	ADJ	lo_et_þf_kk_mst	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	17	amod	_	tag=lo_et_þf_kk_mst
 17	hálfleik	hálfleik	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þgf_kk
-18	þar	þar	ADV	ao	_	21	mark	_	tag=ao
-19	sem	sem	SCONJ	st	_	18	cc	_	tag=st
+18	þar	þar	ADV	ao	_	19	advmod	_	tag=ao
+19	sem	sem	SCONJ	st	_	21	mark	_	tag=st
 20	ÍA	ÍA	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	tag=fyrirtæki_et_nf_hk
 21	réð	réð	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	tag=so_1_þgf_fh_p3_et_þt_gm
 22	ferðinni	ferðinni	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
@@ -93,18 +90,18 @@
 8	ríkisstjórn	ríkisstjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk
 9	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
 10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
-11	þannig	þannig	ADV	ao	_	15	mark	_	tag=ao
-12	að	að	SCONJ	st	_	11	cc	_	tag=st
+11	þannig	þannig	ADV	ao	_	12	advmod	_	tag=ao
+12	að	að	SCONJ	st	_	15	mark	_	tag=st
 13	þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_ft_nf_hk_p3
-14	verði	verja	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_1_nf_vh_p3_ft_nt_gm
+14	verði	verða	AUX	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 15	níu	nía	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	advcl	_	tag=töl_ft_nf_hk
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	stað	staður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_þgf_kk
 18	átta	átta	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	17	nmod:poss	_	tag=töl_ft_ef_hk
-19	eins	eins	ADV	ao	_	22	cc	_	tag=ao
-20	og	og	CCONJ	st	_	19	cc	_	tag=st
+19	eins	eins	ADV	ao	_	20	advmod	_	tag=ao
+20	og	og	CCONJ	st	_	22	mark	_	tag=st
 21	nú	nú	ADV	ao	_	22	advmod	_	tag=ao
-22	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	advcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
+22	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	advcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
 23	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00442,.5
@@ -135,7 +132,7 @@
 # sent_id = GREYNIR_CORPUS_00442,.6
 # text = Það er von bæjarstjórnar Akraness að starfsmenn og stjórnendur OR leggi rannsókninni lið með það að markmiði að bæta vinnustaðamenningu fyrirtækisins.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	von	von	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	bæjarstjórnar	bæjarstjórn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk
 5	Akraness	Akranes	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=sérnafn_et_ef_hk
@@ -147,21 +144,20 @@
 11	leggi	leggja	VERB	so_2_þgf_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	tag=so_2_þgf_þf_vh_p3_ft_nt_gm
 12	rannsókninni	rannsókn	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk_gr
 13	lið	liður	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	tag=no_et_þf_hk
-14	með	með	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	tag=pfn_et_þf_hk_p3
+14	með	með	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
+15	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nmod	_	tag=pfn_et_þf_hk_p3
 16	að	að	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	markmiði	markmið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þgf_hk
+17	markmiði	markmið	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_þgf_hk
 18	að	að	PART	nhm	_	19	mark	_	tag=nhm
-19	bæta	bæta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_1_þf_nh_gm
+19	bæta	bæta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	obl	_	tag=so_1_þf_nh_gm
 20	vinnustaðamenningu	vinnustaða-menning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	tag=no_et_þf_kvk
 21	fyrirtækisins	fyrirtæki	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	20	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 22	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00442,.7
 # text = Ademir Guedes, sem var á leið þar um sagði við O Globo dagblaðið: Ég hélt þeir væru að grínast.
-1-2	Ademir Guedes	_	_	_	_	_	_	_	_
-1	Ademir	Ademir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Guedes	Guedes	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Ademir	Ademir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	nsubj	_	tag=person_nf_kk
+2	Guedes	Guedes	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
@@ -171,9 +167,8 @@
 9	um	um	ADV	ao	_	7	advmod	_	tag=ao
 10	sagði	sagði	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 11	við	við	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-12-13	O Globo	_	_	_	_	_	_	_	_
 12	O	O	PROPN	entity	_	10	obl	_	tag=entity
-13	Globo	Globo	PROPN	entity	_	12	flat	_	tag=entity
+13	Globo	Globo	PROPN	entity	_	12	flat	_	MWEEnd=Yes|tag=entity
 14	dagblaðið	dagblaðið	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 15	:	:	PUNCT	grm	_	14	punct	_	tag=grm
 16	Ég	Ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_p1
@@ -214,13 +209,12 @@
 1	Almenn	almennur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_sb
 2	miðasala	miðasala	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
 3	hefst	hafa	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
-4-7	15. desember kl. 10	_	_	_	_	_	_	_	_
 4	15.	15.	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
 5	desember	desember	NOUN	dagsafs	_	4	flat	_	tag=dagsafs
 6	kl.	kl.	NOUN	dagsafs	_	4	flat	_	tag=dagsafs
-7	10	10	NOUN	dagsafs	_	4	flat	_	tag=dagsafs
+7	10	10	NOUN	dagsafs	_	4	flat	_	MWEEnd=Yes|tag=dagsafs
 8	á	eiga	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-9	Miði.is	Miði.is	SYM	lén_þgf	Case=Dat	3	obl	_	SpaceAfter=No|tag=lén_þgf
+9	Miði.is	Miði.is	SYM	lén_þgf	_	3	obl	_	SpaceAfter=No|tag=lén_þgf
 10	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00442,.10
@@ -233,9 +227,8 @@
 6	starfað	starfa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	acl:relcl	_	tag=so_0_sagnb_gm
 7	fyrir	fyrir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	þjóðvarðlið	þjóðvarðlið	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk_gr
-9-10	Puerto Rico	_	_	_	_	_	_	_	_
 9	Puerto	Puerto	PROPN	sérnafn	_	8	nmod:poss	_	tag=sérnafn
-10	Rico	Rico	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
+10	Rico	Rico	PROPN	sérnafn	_	9	flat	_	MWEEnd=Yes|tag=sérnafn
 11	og	og	CCONJ	st	_	9	cc	_	tag=st
 12	Alaska	Alaska	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
 13	,	,	PUNCT	grm	_	12	punct	_	tag=grm
@@ -244,13 +237,11 @@
 16	í	í	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
 17	Írak	Írak	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	tag=sérnafn_et_þf_hk
 18	frá	frá	ADV	fs_þgf	Case=Dat	14	advmod	_	tag=fs_þgf
-19-20	apríl 2010	_	_	_	_	_	_	_	_
 19	apríl	apríl	NOUN	dagsafs	_	18	obl	_	tag=dagsafs
-20	2010	2010	NOUN	dagsafs	_	19	flat	_	tag=dagsafs
+20	2010	2010	NOUN	dagsafs	_	19	flat	_	MWEEnd=Yes|tag=dagsafs
 21	fram	fram	ADV	ao	_	23	case	_	tag=ao
-22	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-23-24	febrúar 2011	_	_	_	_	_	_	_	_
-23	febrúar	febrúar	NOUN	dagsafs	_	18	obl	_	SpaceAfter=No|tag=dagsafs
-24	2011	2011	NOUN	dagsafs	_	23	flat	_	SpaceAfter=No|tag=dagsafs
+22	í	í	ADP	fs_þgf	Case=Dat	21	fixed	_	tag=fs_þgf
+23	febrúar	febrúar	NOUN	dagsafs	_	18	obl	_	tag=dagsafs
+24	2011	2011	NOUN	dagsafs	_	23	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 25	.	.	PUNCT	grm	_	14	punct	_	tag=grm
 

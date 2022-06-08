@@ -2,22 +2,22 @@
 # text = Kvennamegin voru HK, Stjarnan, KA Þór, ÍBV, Fjölnir, Haukar, Fram og ÍR í pottinum.
 1	Kvennamegin	kvennamegin	ADV	ao	_	2	advmod	_	tag=ao
 2	voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_ft_þt_gm
-3	HK	HK	PROPN	fyrirtæki	_	16	conj	_	SpaceAfter=No|tag=fyrirtæki
+3	HK	HK	PROPN	fyrirtæki	_	2	nsubj	_	SpaceAfter=No|tag=fyrirtæki
 4	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-5	Stjarnan	Stjarnan	PROPN	fyrirtæki	_	16	conj	_	SpaceAfter=No|tag=fyrirtæki
+5	Stjarnan	Stjarnan	PROPN	fyrirtæki	_	3	conj	_	SpaceAfter=No|tag=fyrirtæki
 6	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-7	KA	KA	PROPN	fyrirtæki	_	16	conj	_	tag=fyrirtæki
-8	Þór	Þór	PROPN	fyrirtæki	_	16	conj	_	SpaceAfter=No|tag=fyrirtæki
+7	KA	KA	PROPN	fyrirtæki	_	3	conj	_	tag=fyrirtæki
+8	Þór	Þór	PROPN	fyrirtæki	_	3	conj	_	SpaceAfter=No|tag=fyrirtæki
 9	,	_	PUNCT	grm	_	10	punct	_	tag=grm
-10	ÍBV	ÍBV	PROPN	fyrirtæki	_	16	conj	_	SpaceAfter=No|tag=fyrirtæki
+10	ÍBV	ÍBV	PROPN	fyrirtæki	_	3	conj	_	SpaceAfter=No|tag=fyrirtæki
 11	,	_	PUNCT	grm	_	12	punct	_	tag=grm
-12	Fjölnir	Fjölnir	PROPN	fyrirtæki	_	16	conj	_	SpaceAfter=No|tag=fyrirtæki
+12	Fjölnir	Fjölnir	PROPN	fyrirtæki	_	3	conj	_	SpaceAfter=No|tag=fyrirtæki
 13	,	_	PUNCT	grm	_	14	punct	_	tag=grm
-14	Haukar	Haukar	PROPN	fyrirtæki	_	16	conj	_	SpaceAfter=No|tag=fyrirtæki
-15	,	_	PUNCT	grm	_	14	punct	_	tag=grm
-16	Fram	Fram	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=fyrirtæki_et_nf_hk
-17	og	og	CCONJ	st	_	18	cc	_	tag=st
-18	ÍR	ÍR	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	16	conj	_	tag=fyrirtæki_et_nf_hk
+14	Haukar	Haukar	PROPN	fyrirtæki	_	3	conj	_	SpaceAfter=No|tag=fyrirtæki
+15	,	_	PUNCT	grm	_	16	punct	_	tag=grm
+16	Fram	Fram	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=fyrirtæki_et_nf_hk
+17	og	og	CCONJ	st	_	3	cc	_	tag=st
+18	ÍR	ÍR	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=fyrirtæki_et_nf_hk
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	pottinum	pottur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 21	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -30,7 +30,7 @@
 4	hugsaði	hugsa	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p1_et_þt_gm
 5	þegar	þegar	SCONJ	st	_	8	mark	_	tag=st
 6	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_p1
-7	var	vera	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p1_et_þt_gm
+7	var	vera	AUX	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p1_et_þt_gm
 8	yngri	ungur	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	4	advcl	_	tag=lo_ft_nf_kk_mst
 9	var	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 10	að	að	SCONJ	st	_	12	mark	_	tag=st
@@ -57,15 +57,15 @@
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	þreyta	þreyta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
 8	tjónþola	tjónþoli	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	tag=no_ft_þf_kk
-9	eins	eins	ADV	ao	_	8	advcl	_	tag=ao
-10	og	og	CCONJ	st	_	11	cc	_	tag=st
-11	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	conj	_	tag=pfn_et_þf_kk_p3
+9	eins	eins	ADV	ao	_	10	advmod	_	tag=ao
+10	og	og	CCONJ	st	_	8	advcl	_	tag=st
+11	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	tag=pfn_et_þf_kk_p3
 12	til	til	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
 13	uppgjafar	uppgjöf	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_ef_kvk
-14	með	með	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=fn_et_þgf_hk
+14	með	með	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+15	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	tag=fn_et_þgf_hk
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
-17	draga	draga	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_1_þf_nh_gm
+17	draga	draga	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	obl	_	tag=so_1_þf_nh_gm
 18	málin	mál	NOUN	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	17	obj	_	tag=no_ft_þf_hk_gr
 19	endalaust	endalaust	ADV	ao	_	17	advmod	_	tag=ao
 20	á	á	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
@@ -104,14 +104,14 @@
 3	sýn	sýn	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
 4	virðist	virða	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 5	greinin	grein	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
-6	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	7	cop	_	tag=so_1_nf_nh_gm
-7	skrifuð	skrifaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	ccomp	_	tag=lo_et_nf_hk_sb
-8	með	með	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
-9	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	tag=pfn_et_þf_hk_p3
+6	vera	vera	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	7	cop	_	tag=so_1_nf_nh_gm
+7	skrifuð	skrifaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	dep	_	tag=lo_et_nf_hk_sb
+8	með	með	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
+9	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nmod	_	tag=pfn_et_þf_hk_p3
 10	í	í	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	huga	hugi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þf_kk
+11	huga	hugi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þf_kk
 12	að	að	PART	nhm	_	13	mark	_	tag=nhm
-13	réttlæta	réttlæta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þf_nh_gm
+13	réttlæta	réttlæta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	obl	_	tag=so_1_þf_nh_gm
 14	tilveru	tilvera	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	tag=no_et_þf_kvk
 15	Minter	Minter	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	14	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
 16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
@@ -124,7 +124,7 @@
 
 # sent_id = GREYNIR_CORPUS_00129,.6
 # text = En það sem Frankl lagði áherslu á í þessari aðferð var að ekki er æskilegt að bera saman tilgang ólíkra aðila.
-1	En	en	SCONJ	st	_	11	cc	_	tag=st
+1	En	en	SCONJ	st	_	11	dep	_	tag=st
 2	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_hk_p3
 3	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 4	Frankl	Frankl	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_et_nf_kk
@@ -140,7 +140,7 @@
 14	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	ccomp	_	tag=so_1_nf_fh_p3_et_nt_gm
 15	æskilegt	æskilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=lo_et_nf_hk_sb
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
-17	bera	bera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	csubj	_	tag=so_1_þf_nh_gm
+17	bera	bera	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	obl	_	tag=so_1_þf_nh_gm
 18	saman	saman	ADV	ao	_	17	compound:prt	_	tag=ao
 19	tilgang	tilgangur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	tag=no_et_þf_kk
 20	ólíkra	ólíkur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	21	amod	_	tag=lo_ft_ef_kk_sb
@@ -149,13 +149,11 @@
 
 # sent_id = GREYNIR_CORPUS_00129,.7
 # text = Carl Vinson-flotadeildin muni hins vegar snúa norður til Kóreuskagans innan sólarhrings og heimsókn hennar til Ástralíu hefði verið aflýst.
-1-2	Carl Vinson-flotadeildin	_	_	_	_	_	_	_	_
 1	Carl	Carl	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk_gr
-2	Vinson-flotadeildin	Vinson-flotadeild	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	tag=no_et_nf_kvk_gr
+2	Vinson-flotadeildin	Vinson-flotadeild	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	flat	_	MWEEnd=Yes|tag=no_et_nf_kvk_gr
 3	muni	munu	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_vh_p3_et_nt_gm
-4-5	hins vegar	_	_	_	_	_	_	_	_
 4	hins	hins	ADV	ao	_	6	advmod	_	tag=ao
-5	vegar	vegar	ADV	ao	_	4	fixed	_	tag=ao
+5	vegar	vegar	ADV	ao	_	4	fixed	_	MWEEnd=Yes|tag=ao
 6	snúa	snúa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
 7	norður	norður	ADV	ao	_	9	advmod	_	tag=ao
 8	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
@@ -168,9 +166,9 @@
 15	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
 16	Ástralíu	Ástralía	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	tag=sérnafn_et_ef_kvk
 17	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	aux	_	tag=so_0_vh_p3_et_þt_gm
-18	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	19	aux	_	tag=so_0_sagnb_gm
+18	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	19	cop	_	tag=so_0_sagnb_gm
 19	aflýst	aflýsa	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	6	conj	_	SpaceAfter=No|tag=so_1_þgf_lhþt_et
-20	.	_	PUNCT	grm	_	6	punct	_	tag=grm
+20	.	_	PUNCT	grm	_	19	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00129,.8
 # text = Það kom þó ekki til greina og segist Jón ætla að fara 10 kílómetrana, jafnvel þótt hann þurfi að labba.
@@ -183,14 +181,14 @@
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
 8	segist	segja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	2	conj	_	tag=so_0_fh_p3_et_nt_mm
 9	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
-10	ætla	ætla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	csubj	_	tag=so_0_nh_gm
+10	ætla	ætla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	obl	_	tag=so_0_nh_gm
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
 12	fara	fara	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	10	xcomp	_	tag=so_1_þf_nh_gm
 13	10	10	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	14	nummod	_	tag=tala_ft_þf_kk
 14	kílómetrana	kílómetri	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|tag=no_ft_þf_kk_gr
 15	,	_	PUNCT	grm	_	14	punct	_	tag=grm
-16	jafnvel	jafnvel	ADV	ao	_	19	mark	_	tag=ao
-17	þótt	þótt	SCONJ	st	_	16	cc	_	tag=st
+16	jafnvel	jafnvel	ADV	ao	_	17	advmod	_	tag=ao
+17	þótt	þótt	SCONJ	st	_	19	mark	_	tag=st
 18	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kk_p3
 19	þurfi	þurfa	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	advcl	_	tag=so_0_vh_p3_et_nt_gm
 20	að	að	PART	nhm	_	21	mark	_	tag=nhm
@@ -215,9 +213,8 @@
 14	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	nmod:poss	_	SpaceAfter=No|tag=pfn_ft_ef_kk_p3
 15	,	_	PUNCT	grm	_	14	punct	_	tag=grm
 16	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-17-18	Hreinn Haraldsson	_	_	_	_	_	_	_	_
 17	Hreinn	Hreinn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	nsubj	_	tag=person_nf_kk
-18	Haraldsson	Haraldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	flat	_	tag=person_nf_kk
+18	Haraldsson	Haraldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	flat	_	MWEEnd=Yes|tag=person_nf_kk
 19	vegamálastjóri	vegamálastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 20	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -225,15 +222,13 @@
 # text = Meðal dótturfyrirtækja 21st Century Fox eru 20th Century Fox kvikmyndaverið og sjónvarpsstöðin Sky og Star í Evrópu og Asíu.
 1	Meðal	meðal	ADP	fs_ef	Case=Gen	2	case	_	tag=fs_ef
 2	dótturfyrirtækja	dótturfyrirtæki	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_ef_hk
-3-5	21st Century Fox	_	_	_	_	_	_	_	_
 3	21st	21st	PROPN	fyrirtæki	_	2	nmod:poss	_	tag=fyrirtæki
 4	Century	Century	PROPN	fyrirtæki	_	3	flat	_	tag=fyrirtæki
-5	Fox	Fox	PROPN	fyrirtæki	_	3	flat	_	tag=fyrirtæki
+5	Fox	Fox	PROPN	fyrirtæki	_	3	flat	_	MWEEnd=Yes|tag=fyrirtæki
 6	eru	vera	VERB	so_2_þgf_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þgf_nf_fh_p3_ft_nt_gm
-7-9	20th Century Fox	_	_	_	_	_	_	_	_
 7	20th	20th	PROPN	fyrirtæki	_	6	nsubj	_	tag=fyrirtæki
 8	Century	Century	PROPN	fyrirtæki	_	7	flat	_	tag=fyrirtæki
-9	Fox	Fox	PROPN	fyrirtæki	_	7	flat	_	tag=fyrirtæki
+9	Fox	Fox	PROPN	fyrirtæki	_	7	flat	_	MWEEnd=Yes|tag=fyrirtæki
 10	kvikmyndaverið	kvikmyndaver	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_nf_hk_gr
 11	og	og	CCONJ	st	_	7	cc	_	tag=st
 12	sjónvarpsstöðin	sjónvarpsstöð	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_nf_kvk_gr

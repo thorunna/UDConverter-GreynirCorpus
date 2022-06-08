@@ -1,12 +1,11 @@
 # sent_id = GREYNIR_CORPUS_00374,.1
 # text = Ég vil bara þakka Dana White fyrir að færa mér Conor.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
-2	vil	vil	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p1_et_nt_gm
+2	vil	vilja	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p1_et_nt_gm
 3	bara	bara	ADV	ao	_	4	advmod	_	tag=ao
 4	þakka	þakka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
-5-6	Dana White	_	_	_	_	_	_	_	_
 5	Dana	Dana	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	obj	_	tag=person_nf_kvk
-6	White	White	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	flat	_	tag=person_nf_kvk
+6	White	White	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 7	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	9	case	_	tag=fs_nh
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	færa	færa	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	obl	_	tag=so_2_þgf_þf_nh_gm
@@ -32,7 +31,7 @@
 # sent_id = GREYNIR_CORPUS_00374,.3
 # text = Enn er verið að skipuleggja hátíðina og liggur dagskrá því ekki fyrir.
 1	Enn	enn	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	skipuleggja	skipuleggja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
@@ -57,14 +56,14 @@
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	málefnum	málefni	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þgf_hk
 10	Sýrlands	Sýrland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=sérnafn_et_ef_hk
-11	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+11	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 12	diplómatísk	diplómatískur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00374,.5
 # text = Annars var það sterkur varnarleikur sem var stærsta ástæðan fyrir sigri Vals.
 1	Annars	annars	ADV	ao	_	5	advmod	_	tag=ao
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_hk_p3
 4	sterkur	sterkur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_sb
 5	varnarleikur	varnarleikur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -80,12 +79,12 @@
 # sent_id = GREYNIR_CORPUS_00374,.6
 # text = Einungis sé unnið að því að reyna að hefta frekari útbreiðslu eldanna.
 1	Einungis	einungis	ADV	ao	_	3	advmod	_	tag=ao
-2	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_vh_p3_et_nt_gm
+2	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_vh_p3_et_nt_gm
 3	unnið	vinna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 4	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
-7	reyna	reyna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	VANTAR_LIÐ_IP_None	_	tag=so_0_nh_gm
+7	reyna	reyna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	dep	_	tag=so_0_nh_gm
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	hefta	hefta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þf_nh_gm
 10	frekari	frekur	ADJ	lo_et_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	11	amod	_	tag=lo_et_þf_kvk_mst
@@ -100,12 +99,11 @@
 3	svipti	svipta	VERB	so_2_þf_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þf_þgf_fh_p3_et_þt_gm
 4	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	3	iobj	_	tag=abfn_þf
 5	lífi	líf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þgf_hk
-6-7	árið 2001	_	_	_	_	_	_	_	_
 6	árið	árið	ADV	ártal	_	3	advmod	_	tag=ártal
-7	2001	2001	NUM	ártal	_	6	flat	_	tag=ártal
+7	2001	2001	NUM	ártal	_	6	flat	_	MWEEnd=Yes|tag=ártal
 8	þegar	þegar	SCONJ	st	_	13	mark	_	tag=st
 9	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	tag=pfn_et_nf_kvk_p3
-10	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	conj	_	tag=so_0_fh_p3_et_þt_gm
+10	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_þt_gm
 11	16	16	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	12	nummod	_	tag=tala_ft_ef_hk
 12	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	13	obl	_	tag=no_ft_ef_hk
 13	gömul	gamall	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	3	advcl	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
@@ -117,10 +115,9 @@
 2	í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	Evrópu	Evrópa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
 4	eykst	auka	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
-5-7	jafnt og þétt	_	_	_	_	_	_	_	_
 5	jafnt	jafnt	ADV	ao	_	4	advmod	_	tag=ao
 6	og	og	ADV	ao	_	5	fixed	_	tag=ao
-7	þétt	þétt	ADV	ao	_	5	fixed	_	tag=ao
+7	þétt	þétt	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 8	og	og	CCONJ	st	_	4	cc	_	tag=st
 9	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=fn_et_nf_hk
 10	sama	sama	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nmod	_	tag=fn_et_nf_hk
@@ -154,7 +151,7 @@
 5	skoðunar	skoðun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_ef_kvk
 6	að	að	SCONJ	st	_	12	mark	_	tag=st
 7	samgönguráðherra	samgönguráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=no_et_nf_kk
-8	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_nt_gm
+8	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_nt_gm
 9	ekki	ekki	ADV	ao	_	12	advmod	_	tag=ao
 10	starfi	starf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk
 11	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	tag=fn_et_þgf_hk

@@ -2,12 +2,11 @@
 # text = Spurs hefur verið í fantaformi að undanförnu og fengið 19 af 21 stigi mögulegu í síðustu sjö leikjum sínum.
 1	Spurs	Spurs	PROPN	fyrirtæki_et_nf	Case=Nom|Number=Sing	5	nsubj	_	tag=fyrirtæki_et_nf
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	fantaformi	fanta-form	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	0	root	_	tag=no_et_þgf_hk
-6-7	að undanförnu	_	_	_	_	_	_	_	_
 6	að	að	ADV	ao	_	5	advmod	_	tag=ao
-7	undanförnu	undanförnu	ADV	ao	_	6	fixed	_	tag=ao
+7	undanförnu	undanförnu	ADV	ao	_	6	fixed	_	MWEEnd=Yes|tag=ao
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
 9	fengið	fenginn	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	5	conj	_	tag=so_1_þf_sagnb_gm
 10	19	19	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	9	obj	_	tag=tala_ft_þf_hk
@@ -59,8 +58,8 @@
 11	og	og	CCONJ	st	_	2	cc	_	tag=st
 12	söng	syngja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 13	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	tag=pfn_et_þf_hk_p3
-14	eins	eins	ADV	ao	_	17	cc	_	tag=ao
-15	og	og	CCONJ	st	_	14	cc	_	tag=st
+14	eins	eins	ADV	ao	_	15	advmod	_	tag=ao
+15	og	og	CCONJ	st	_	17	mark	_	tag=st
 16	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_kvk_p3
 17	gerir	gera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	advcl	_	tag=so_0_fh_p3_et_nt_gm
 18	alltaf	alltaf	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
@@ -71,9 +70,8 @@
 1	Frá	Frá	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
 3	greindi	greina	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-4-5	Bruno Geddo	_	_	_	_	_	_	_	_
-4	Bruno	Bruno	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-5	Geddo	Geddo	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	SpaceAfter=No|tag=person_nf_kk
+4	Bruno	Bruno	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
+5	Geddo	Geddo	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 6	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 7	yfirmaður	yfirmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 8	Flóttamannastofnunar	flóttamanna-stofnun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	nmod:poss	_	tag=no_et_ef_kvk
@@ -95,21 +93,21 @@
 1	Hinar	hinn	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	tag=fn_ft_þf_kvk
 2	tvær	tveir	NUM	to_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	nummod	_	tag=to_ft_þf_kvk
 3	íbúðirnar	íbúð	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	tag=no_ft_þf_kvk_gr
-4	missti	missa	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	1	conj	_	tag=so_1_þf_fh_p1_et_þt_gm
+4	missti	missa	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_þt_gm
 5	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
 6	þegar	þegar	SCONJ	st	_	9	mark	_	tag=st
 7	eigendurnir	eigandi	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	tag=no_ft_nf_kk_gr
-8	vildu	vildur	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	aux	_	tag=so_0_fh_p3_ft_þt_gm
+8	vildu	vilja	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	aux	_	tag=so_0_fh_p3_ft_þt_gm
 9	setja	setja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	advcl	_	tag=so_1_þf_nh_gm
 10	þær	hún	PRON	pfn_ft_þf_kvk_p3	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	obj	_	tag=pfn_ft_þf_kvk_p3
 11	á	eiga	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	airbnb	airbnb	PROPN	fyrirtæki_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	tag=fyrirtæki_et_þf_hk
 13	þar	þar	ADV	ao	_	9	advmod	_	tag=ao
 14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
-15	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	advcl	_	tag=so_1_nf_fh_p3_et_nt_gm
+15	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	advcl	_	tag=so_1_nf_fh_p3_et_nt_gm
 16	meiri	mikill	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	17	amod	_	tag=lo_et_nf_kvk_mst
 17	tekjuvon	tekjuvon	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	15	acl:relcl	_	SpaceAfter=No|tag=no_et_nf_kvk
-18	.	.	PUNCT	grm	_	15	punct	_	tag=grm
+18	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00420,.6
 # text = Stigakerfi sem byggir á úrslitum móta er notað til að ákvarða hverjir vinna sér inn þátttökurétt á úrslitamótinu.
@@ -119,7 +117,7 @@
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	úrslitum	úrslit	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk
 6	móta	mót	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	nmod:poss	_	tag=no_ft_ef_hk
-7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	notað	nota	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 9	til	til	ADP	fs_nh	VerbForm=Inf	10	case	_	tag=fs_nh
 10	að	að	PART	nhm	_	8	obl	_	tag=nhm
@@ -137,12 +135,11 @@
 # text = Þau segjast hafa eignast vini í gegnum Kailash-búðirnar sínar, enda leggja þau mikið upp úr persónulegri þjónustu.
 1	Þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_hk_p3
 2	segjast	segja	VERB	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_ft_nt_mm
-3	hafa	haf	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	aux	_	tag=so_0_nh_gm
+3	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	aux	_	tag=so_0_nh_gm
 4	eignast	eigna	VERB	so_1_þf_sagnb_mm	Case=Acc|VerbForm=Sup|Voice=Mid	2	xcomp	_	tag=so_1_þf_sagnb_mm
 5	vini	vina	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	tag=no_ft_þf_kk
-6-7	í gegnum	_	_	_	_	_	_	_	_
 6	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
-7	gegnum	gegnum	ADP	fs_þf	Case=Acc	6	fixed	_	tag=fs_þf
+7	gegnum	gegnum	ADP	fs_þf	Case=Acc	6	fixed	_	MWEEnd=Yes|tag=fs_þf
 8	Kailash-búðirnar	Kailash-búð	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_þf_kvk_gr
 9	sínar	sinn	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No|tag=fn_ft_þf_kvk
 10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
@@ -150,9 +147,8 @@
 12	leggja	legg	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
 13	þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_ft_nf_hk_p3
 14	mikið	mikill	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	tag=lo_et_þf_hk_sb
-15-16	upp úr	_	_	_	_	_	_	_	_
 15	upp	upp	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-16	úr	úr	ADP	fs_þgf	Case=Dat	15	fixed	_	tag=fs_þgf
+16	úr	úr	ADP	fs_þgf	Case=Dat	15	fixed	_	MWEEnd=Yes|tag=fs_þgf
 17	persónulegri	persónulegur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	18	amod	_	tag=lo_et_þgf_kvk_sb
 18	þjónustu	þjónusta	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -172,13 +168,12 @@
 11	ýmissa	eigandi	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	tag=fn_ft_ef_hk
 12	flugfélaga	ýmis	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	10	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
 13	,	flugfélag	PUNCT	grm	_	12	punct	_	tag=grm
-14	eins	,	ADV	ao	_	17	mark	_	tag=ao
-15	og	einn	CCONJ	st	_	14	cc	_	tag=st
+14	eins	,	ADV	ao	_	15	advmod	_	tag=ao
+15	og	einn	CCONJ	st	_	17	mark	_	tag=st
 16	þeir	og	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_ft_nf_kk_p3
 17	birtast	hann	VERB	so_1_þgf_fh_p3_ft_nt_mm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	8	advcl	_	tag=so_1_þgf_fh_p3_ft_nt_mm
-18-19	Gunnari Smára	_	_	_	_	_	_	_	_
-18	Gunnari	Gunnari	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	17	obj	_	SpaceAfter=No|tag=person_þgf_kk
-19	Smára	Smára	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	18	flat	_	SpaceAfter=No|tag=person_þgf_kk
+18	Gunnari	Gunnari	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	17	obj	_	tag=person_þgf_kk
+19	Smára	Smára	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	18	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þgf_kk
 20	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00420,.9
@@ -203,6 +198,8 @@
 18	minna	lítið	ADV	ao_mst	Degree=Cmp	16	advmod	_	SpaceAfter=No|tag=ao_mst
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00420,.10
+# text = Sagði Sigríður að hún hefði ákveðið að stíga til hliðar svo það myndi skapast vinnufriður um málefni Landsréttar.
 1	Sagði	sagður	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 2	Sigríður	Sigríður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	nsubj	_	tag=person_nf_kvk
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
@@ -215,11 +212,11 @@
 10	hliðar	hlið	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_ef_kvk
 11	svo	svo	SCONJ	st	_	14	mark	_	tag=st
 12	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	tag=pfn_et_nf_hk_p3
-13	myndi	muna	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	14	aux	_	tag=so_0_vh_p3_et_þt_gm
+13	myndi	munu	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	14	aux	_	tag=so_0_vh_p3_et_þt_gm
 14	skapast	skapa	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	6	advcl	_	tag=so_0_nh_mm
 15	vinnufriður	vinnufriður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk
 16	um	um	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
 17	málefni	málefni	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	tag=no_ft_þf_hk
-18	Landsréttar	Landsréttur	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	17	nmod:poss	_	tag=sérnafn_et_ef_kk
+18	Landsréttar	Landsréttur	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	17	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk
 19	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 

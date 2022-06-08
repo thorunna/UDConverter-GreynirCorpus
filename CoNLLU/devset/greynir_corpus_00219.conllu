@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00219,.1
 # text = Þannig verður framsetningin á fyrirbærinu strax gáskafull og forvitnileg.
 1	Þannig	þannig	ADV	ao	_	7	advmod	_	tag=ao
-2	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	framsetningin	framsetning	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk_gr
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	fyrirbærinu	fyrirbæri	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk_gr
@@ -14,7 +14,7 @@
 # sent_id = GREYNIR_CORPUS_00219,.2
 # text = Áætlað er að þingstörfum ljúki á Alþingi í dag.
 1	Áætlað	áætla	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	5	mark	_	tag=st
 4	þingstörfum	þingstarf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_þgf_hk
 5	ljúki	ljúka	VERB	so_0_op_subj_þgf_vh_et_nt_gm	Case=Dat|Mood=Sub|Number=Sing|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_op_subj_þgf_vh_et_nt_gm
@@ -28,8 +28,8 @@
 # text = Harðar loftárásir hafa verið gerðar á svæðið undanfarna sólarhringa.
 1	Harðar	harður	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_nf_kvk_sb
 2	loftárásir	loftárás	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	tag=no_ft_nf_kvk
-3	hafa	hafa	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_nt_gm
-4	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
+3	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_ft_nt_gm
+4	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
 5	gerðar	gera	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 6	á	á	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	svæðið	svæði	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk_gr
@@ -52,14 +52,14 @@
 
 # sent_id = GREYNIR_CORPUS_00219,.5
 # text = En það er ekki sama hvernig það er gert.
-1	En	en	SCONJ	st	_	5	cc	_	tag=st
+1	En	en	SCONJ	st	_	5	dep	_	tag=st
 2	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_hk_p3
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	ekki	ekki	ADV	eo	_	5	advmod	_	tag=eo
 5	sama	sama	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6	hvernig	hvernig	ADV	ao	_	9	advmod	_	tag=ao
 7	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_hk_p3
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
+8	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 9	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	ccomp	_	SpaceAfter=No|tag=so_0_lhþt_et
 10	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
@@ -84,7 +84,7 @@
 4	slökkva	slökkva	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
 5	og	og	CCONJ	st	_	2	cc	_	tag=st
 6	unnið	vinna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
-7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	að	að	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	reykræstingu	reykræsting	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 10	.	_	PUNCT	grm	_	2	punct	_	tag=grm

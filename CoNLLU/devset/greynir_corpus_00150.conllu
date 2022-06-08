@@ -21,29 +21,27 @@
 19	lausn	lausn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	tag=no_et_nf_kvk
 20	og	og	CCONJ	st	_	17	cc	_	tag=st
 21	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obl	_	tag=pfn_et_nf_hk_p3
-22	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	VANTAR_LIÐ_IP_None	_	tag=so_1_nf_fh_p3_et_nt_gm
+22	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	dep	_	tag=so_1_nf_fh_p3_et_nt_gm
 23	til	til	ADV	ao	_	22	compound:prt	_	tag=ao
 24	leið	leið	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No|tag=no_et_nf_kvk
 25	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00150,.2
-# text = Kristófer Konráðsson kom Stjörnunni í 1 – 0 á 61. mínútu en Ivan Bubalo jafnaði fyrir Fram á 73. mínútu með marki úr vítaspyrnu.
-1-2	Kristófer Konráðsson	_	_	_	_	_	_	_	_
+# text = Kristófer Konráðsson kom Stjörnunni í 1–0 á 61. mínútu en Ivan Bubalo jafnaði fyrir Fram á 73. mínútu með marki úr vítaspyrnu.
 1	Kristófer	Kristófer	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Konráðsson	Konráðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Konráðsson	Konráðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	kom	koma	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 4	Stjörnunni	stjarna	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þgf_kvk_gr
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	1	1	NUM	tala	NumType=Card	3	obl	_	SpaceAfter=No|tag=tala
-7	–	_	PUNCT	grm	_	6	punct	_	tag=grm
+7	–	_	PUNCT	grm	_	6	punct	_	SpaceAfter=No|tag=grm
 8	0	0	NUM	tala	NumType=Card	6	nummod	_	tag=tala
 9	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 10	61.	61.	NUM	raðnr_þgf_kvk	Case=Dat|Gender=Fem|NumType=Ord	11	amod	_	tag=raðnr_þgf_kvk
 11	mínútu	mínúta	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	advmod	_	tag=no_et_þgf_kvk
 12	en	en	CCONJ	st	_	3	cc	_	tag=st
-13-14	Ivan Bubalo	_	_	_	_	_	_	_	_
 13	Ivan	Ivan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	tag=person_nf_kk
-14	Bubalo	Bubalo	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	flat	_	tag=person_nf_kk
+14	Bubalo	Bubalo	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	flat	_	MWEEnd=Yes|tag=person_nf_kk
 15	jafnaði	jafna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 16	fyrir	fyrir	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
 17	Fram	Fram	PROPN	fyrirtæki_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	tag=fyrirtæki_et_þf_hk
@@ -58,10 +56,10 @@
 
 # sent_id = GREYNIR_CORPUS_00150,.3
 # text = Með því að greina bakteríur í þörmum músanna sem ollu bólgusvari og framleiðslu mótefna í líkamanum var bakterían Enterococcus gallinarum greind sem helsti sökudólgurinn.
-1	Með	með	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	tag=fn_et_þgf_hk
+1	Með	með	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
+2	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	tag=fn_et_þgf_hk
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
-4	greina	greina	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
+4	greina	greina	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	21	obl	_	tag=so_1_þf_nh_gm
 5	bakteríur	baktería	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	tag=no_ft_þf_kvk
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	þörmum	þarmur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	tag=no_ft_þgf_kk
@@ -74,7 +72,7 @@
 14	mótefna	mótefni	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	nmod:poss	_	tag=no_ft_ef_hk
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	líkamanum	líkami	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þgf_kk_gr
-17	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	21	aux	_	tag=so_0_fh_p3_et_þt_gm
+17	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	21	cop	_	tag=so_0_fh_p3_et_þt_gm
 18	bakterían	baktería	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	tag=no_et_nf_kvk_gr
 19	Enterococcus	Enterococcus	PROPN	sérnafn_nf_hk	Case=Nom|Gender=Neut	18	obl	_	tag=sérnafn_nf_hk
 20	gallinarum	gallinarum	PROPN	sérnafn_nf_hk	Case=Nom|Gender=Neut	19	flat:name	_	tag=sérnafn_nf_hk
@@ -87,12 +85,11 @@
 # sent_id = GREYNIR_CORPUS_00150,.4
 # text = Sniglarnir eru 35 ára í ár og munu samtöiin því tilefni brydda upp á ýmsum nýjungum, að því er kemur fram á síðunni.
 1	Sniglarnir	snigill	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	tag=no_ft_nf_kk_gr
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	35	35	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	0	root	_	tag=tala_ft_ef_hk
 4	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	xcomp	_	tag=no_ft_ef_hk
-5-6	í ár	_	_	_	_	_	_	_	_
 5	í	í	ADV	ao	_	3	advmod	_	tag=ao
-6	ár	ár	ADV	ao	_	5	fixed	_	tag=ao
+6	ár	ár	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 7	og	og	CCONJ	st	_	3	cc	_	tag=st
 8	munu	munu	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_ft_nt_gm
 9	samtöiin	samtal	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	tag=no_ft_nf_hk
@@ -115,20 +112,19 @@
 
 # sent_id = GREYNIR_CORPUS_00150,.5
 # text = Innan við sólarhring frá því að sjómannaverkfall var blásið af á sunnudagskvöld var stór hluti loðnuflotans á landleið með smekkaðar lestar af góðri loðnu.
-1-2	Innan við	_	_	_	_	_	_	_	_
 1	Innan	innan	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
-2	við	við	ADP	fs_þgf	Case=Dat	1	fixed	_	tag=fs_þgf
+2	við	við	ADP	fs_þgf	Case=Dat	1	fixed	_	MWEEnd=Yes|tag=fs_þgf
 3	sólarhring	sólarhringur	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	advmod	_	tag=no_et_þgf_kk
 4	frá	frá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	því	það	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
 6	að	að	SCONJ	st	_	9	mark	_	tag=st
 7	sjómannaverkfall	sjómannaverkfall	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk
-8	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_þt_gm
+8	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_þt_gm
 9	blásið	blása	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	ccomp	_	tag=so_0_lhþt_et
 10	af	af	ADV	ao	_	9	compound:prt	_	tag=ao
 11	á	á	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	sunnudagskvöld	sunnudagskvöld	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	advmod	_	tag=no_et_þf_hk
-13	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_0_fh_p3_et_þt_gm
+13	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_0_fh_p3_et_þt_gm
 14	stór	stór	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	tag=lo_et_nf_kk_sb
 15	hluti	hluti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	tag=no_et_nf_kk
 16	loðnuflotans	loðnufloti	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod:poss	_	tag=no_et_ef_kk_gr
@@ -145,7 +141,7 @@
 # sent_id = GREYNIR_CORPUS_00150,.6
 # text = Kirkjan er á Jolo eyjunni og talsmaður hersins þar sagði fréttamanni AFP fréttaveitunnar að þarna hafi íslamskir öfgamenn að öllum líkindum verið að verki.
 1	Kirkjan	kirkja	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	Jolo	Jolo	PROPN	sérnafn	_	0	root	_	tag=sérnafn
 5	eyjunni	ey	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	conj	_	tag=no_et_þgf_kvk_gr
@@ -165,7 +161,7 @@
 19	að	að	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 20	öllum	allur	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	21	nmod	_	tag=fn_ft_þgf_hk
 21	líkindum	líkindi	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	24	obl	_	tag=no_ft_þgf_hk
-22	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	24	cop	_	tag=so_1_nf_sagnb_gm
+22	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	24	cop	_	tag=so_1_nf_sagnb_gm
 23	að	að	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24	verki	verk	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|tag=no_et_þgf_hk
 25	.	_	PUNCT	grm	_	4	punct	_	tag=grm
@@ -181,12 +177,11 @@
 7	papriku	paprika	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	tag=no_et_þf_kvk
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
 9	tómata	tómatur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	tag=no_ft_þf_kk
-10	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	aux	_	tag=so_0_fh_p3_ft_þt_gm
-11	felldir	fella	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	VANTAR_LIÐ_IP_None	_	tag=so_0_lhþt_ft
+10	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_ft_þt_gm
+11	felldir	fella	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	dep	_	tag=so_0_lhþt_ft
 12	niður	niður	ADV	ao	_	11	compound:prt	_	tag=ao
-13-14	árið 2002	_	_	_	_	_	_	_	_
 13	árið	árið	ADV	ártal	_	11	advmod	_	tag=ártal
-14	2002	2002	NUM	ártal	_	13	flat	_	tag=ártal
+14	2002	2002	NUM	ártal	_	13	flat	_	MWEEnd=Yes|tag=ártal
 15	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_vh_p3_et_nt_gm
 16	verð	verð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	tag=no_et_nf_hk
 17	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
@@ -195,9 +190,8 @@
 20	um	um	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
 21	40	40	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	23	nummod	_	tag=tala_ft_þf_hk
 22	til	til	ADV	eo	_	23	advmod	_	tag=eo
-23-24	60 prósent	_	_	_	_	_	_	_	_
-23	60	60	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	19	obl	_	SpaceAfter=No|tag=prósenta_ft_þf_hk
-24	prósent	prósent	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	23	_	_	SpaceAfter=No|tag=prósenta_ft_þf_hk
+23	60	60	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	19	obl	_	tag=prósenta_ft_þf_hk
+24	prósent	prósent	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	23	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=prósenta_ft_þf_hk
 25	.	_	PUNCT	grm	_	19	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00150,.8
@@ -208,11 +202,11 @@
 4	13	13	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_þf_kvk
 5	stoðsendingar	stoðsending	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	tag=no_ft_þf_kvk
 6	en	en	CCONJ	st	_	2	cc	_	tag=st
-7	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_0_fh_p3_et_þt_gm
-8	með	með	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
-9	11	11	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	2	nummod	_	tag=tala_ft_þf_kk
-10	tapaða	tapaður	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	2	amod	_	tag=lo_ft_þf_kk_sb
-11	bolta	bolti	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	2	cop	_	tag=no_ft_þf_kk
+7	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_þt_gm
+8	með	með	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
+9	11	11	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	11	nummod	_	tag=tala_ft_þf_kk
+10	tapaða	tapaður	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	11	amod	_	tag=lo_ft_þf_kk_sb
+11	bolta	bolti	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	2	conj	_	tag=no_ft_þf_kk
 12	og	og	CCONJ	st	_	2	cc	_	tag=st
 13	klikkaði	klikka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
 14	á	á	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
@@ -246,8 +240,8 @@
 14	taka	taka	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
 15	að	að	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	14	obl	_	tag=abfn_þgf
-17	eftir	eftir	ADV	ao	_	20	mark	_	tag=ao
-18	að	að	SCONJ	st	_	17	cc	_	tag=st
+17	eftir	eftir	ADV	ao	_	18	advmod	_	tag=ao
+18	að	að	SCONJ	st	_	20	mark	_	tag=st
 19	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	tag=pfn_ft_nf_kk_p3
 20	ljúka	ljúka	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	advcl	_	tag=so_1_þgf_fh_p3_ft_nt_gm
 21	störfum	starf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	20	obj	_	tag=no_ft_þgf_hk
@@ -256,9 +250,11 @@
 24	opinbera	opinber	ADJ	lo_ft_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Plur	23	amod	_	SpaceAfter=No|tag=lo_ft_þgf_hk_vb
 25	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00150,.10
+# text = Engu síður var það ákall þeirra sem komu fyrir nefndina að það þyrfti meira til, sagði Sigurður Ingi í kvöldfréttum í sjónvarpi.
 1	Engu	enginn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
 2	síður	síður	ADV	ao	_	11	advmod	_	tag=ao
-3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_þt_gm
+3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_þt_gm
 4	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	tag=pfn_et_nf_hk_p3
 5	ákall	ákall	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=no_et_nf_hk
 6	þeirra	sá	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nmod:poss	_	tag=fn_ft_ef_kk
@@ -270,15 +266,14 @@
 12	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	tag=pfn_et_nf_hk_p3
 13	þyrfti	þurfa	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	11	xcomp	_	tag=so_0_vh_p3_et_þt_gm
 14	meira	mikill	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	13	nsubj	_	tag=lo_et_nf_hk_mst
-15	til	til	ADV	ao	_	13	compound:prt	_	tag=ao
+15	til	til	ADV	ao	_	13	compound:prt	_	SpaceAfter=No|tag=ao
 16	,	,	PUNCT	grm	_	17	punct	_	tag=grm
 17	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	conj	_	tag=so_0_fh_p3_et_þt_gm
-18-19	Sigurður Ingi	_	_	_	_	_	_	_	_
 18	Sigurður	Sigurður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	17	nsubj	_	tag=person_nf_kk
-19	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	tag=person_nf_kk
+19	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	MWEEnd=Yes|tag=person_nf_kk
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	kvöldfréttum	kvöldfrétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	tag=no_ft_þgf_kvk
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	sjónvarpi	sjónvarp	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	tag=no_et_þgf_hk
+23	sjónvarpi	sjónvarp	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 24	.	.	PUNCT	grm	_	11	punct	_	tag=grm
 

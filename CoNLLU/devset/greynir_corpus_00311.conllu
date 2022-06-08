@@ -7,8 +7,8 @@
 5	ef	ef	SCONJ	st	_	4	fixed	_	tag=st
 6	fólk	fólk	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk
 7	setur	setja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	24	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
-8	stöðuuppfærslu	stöðuuppfærsla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
-9	(	_	PUNCT	grm	_	8	punct	_	tag=grm
+8	stöðuuppfærslu	stöðuuppfærsla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	tag=no_et_þf_kvk
+9	(	_	PUNCT	grm	_	8	punct	_	SpaceAfter=No|tag=grm
 10	status	status	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 11	)	_	PUNCT	grm	_	10	punct	_	tag=grm
 12	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
@@ -40,21 +40,20 @@
 8	mjög	mjög	ADV	eo	_	10	advmod	_	tag=eo
 9	alvarleg	alvarlegur	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	10	amod	_	tag=lo_ft_þf_hk_sb
 10	brunasár	brunasár	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þf_hk
-11	eftir	eftir	ADV	ao	_	14	mark	_	tag=ao
-12	að	að	SCONJ	st	_	11	cc	_	tag=st
+11	eftir	eftir	ADV	ao	_	12	advmod	_	tag=ao
+12	að	að	SCONJ	st	_	14	mark	_	tag=st
 13	sprengja	sprengja	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	tag=no_et_nf_kvk
 14	sprakk	springa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	advcl	_	tag=so_0_fh_p3_et_þt_gm
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	lestarvagni	lestarvagn	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þgf_kk
 17	við	við	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-18	Parsons	Parsons	PROPN	sérnafn	_	19	VANTAR_LIÐ	_	tag=sérnafn
+18	Parsons	Parsons	PROPN	sérnafn	_	19	obl	_	tag=sérnafn
 19	Green-lestarstöðina	Green-lestarstöð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þf_kvk_gr
 20	í	í	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 21	vesturhluta	vesturhluti	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_þf_kk
 22	London	London	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	21	nmod:poss	_	tag=sérnafn_et_ef_kvk
-23-24	í morgun	_	_	_	_	_	_	_	_
-23	í	í	ADV	ao	_	14	advmod	_	SpaceAfter=No|tag=ao
-24	morgun	morgun	ADV	ao	_	23	fixed	_	SpaceAfter=No|tag=ao
+23	í	í	ADV	ao	_	14	advmod	_	tag=ao
+24	morgun	morgun	ADV	ao	_	23	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 25	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00311,.3
@@ -89,13 +88,13 @@
 
 # sent_id = GREYNIR_CORPUS_00311,.4
 # text = Mér finnst alveg sjálfsagt að fólk sé gagnrýnið, alveg um að gera, en það er náttúrulega þannig að Háskóli Íslands er ekki fílabeinsturn.
-1	Mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_þgf_p1
-2	finnst	finna	VERB	so_1_nf_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	4	conj	_	tag=so_1_nf_op_subj_þgf_fh_p3_et_nt_mm
+1	Mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_þgf_p1
+2	finnst	finna	VERB	so_1_nf_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_nf_op_subj_þgf_fh_p3_et_nt_mm
 3	alveg	alveg	ADV	eo	_	4	advmod	_	tag=eo
-4	sjálfsagt	sjálfsagður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
+4	sjálfsagt	sjálfsagður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	xcomp	_	tag=lo_et_nf_hk_sb
 5	að	að	SCONJ	st	_	8	mark	_	tag=st
 6	fólk	fólk	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
-7	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
+7	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
 8	gagnrýnið	gagnrýninn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 10	alveg	alveg	ADV	ao	_	13	advmod	_	tag=ao
@@ -105,16 +104,16 @@
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	en	en	CCONJ	st	_	4	cc	_	tag=st
 16	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_hk_p3
-17	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_0_fh_p3_et_nt_gm
+17	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_0_fh_p3_et_nt_gm
 18	náttúrulega	náttúrulega	ADV	eo	_	19	advmod	_	tag=eo
 19	þannig	þannig	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	tag=lo_et_nf_hk_sb
 20	að	að	SCONJ	st	_	25	mark	_	tag=st
 21	Háskóli	háskóli	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	tag=fyrirtæki_et_nf_kk
 22	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	21	nmod:poss	_	tag=no_et_ef_hk
-23	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+23	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 24	ekki	ekki	ADV	ao	_	25	advmod	_	tag=ao
 25	fílabeinsturn	fílabeinsturn	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	19	ccomp	_	SpaceAfter=No|tag=no_et_nf_kk
-26	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00311,.5
 # text = Því var ekki að heilsa í tilfellum hinna tveggja sem slógu því á fast á Facebook-síðum sínum að Helga hafi gert frændum sínum viðvart.
@@ -181,7 +180,7 @@
 3	fyrir	fyrir	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	Evrópukeppnina	evrópukeppni	PROPN	fyrirtæki_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	tag=fyrirtæki_et_þf_kvk_gr
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	Frakklandi	Frakkland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
+6	Frakklandi	Frakkland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_hk
 7	—	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 9	birt	birta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	xcomp	_	tag=so_0_lhþt_et
@@ -190,13 +189,12 @@
 12	vef	vefur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þgf_kk
 13	KSÍ	KSÍ	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	12	nmod:poss	_	tag=fyrirtæki_et_ef_hk
 14	fyrir	fyrir	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	helgi	helgi	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk
+15	helgi	helgi	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	advmod	_	tag=no_et_þgf_kvk
 16	—	_	PUNCT	grm	_	15	punct	_	tag=grm
 17	fékk	fá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 18	sambandið	samband	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	tag=no_et_nf_hk_gr
-19-20	1,1 milljarð	_	_	_	_	_	_	_	_
 19	1,1	1,1	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	tag=töl_ft_þf_hk
-20	milljarð	milljarð	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	19	_	_	tag=töl_ft_þf_hk
+20	milljarð	milljarð	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	19	flat	_	MWEEnd=Yes|tag=töl_ft_þf_hk
 21	frá	frá	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	UEFA	UEFA	PROPN	fyrirtæki	_	17	obl	_	tag=fyrirtæki
 23	vegna	vegna	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
@@ -207,21 +205,18 @@
 
 # sent_id = GREYNIR_CORPUS_00311,.8
 # text = Björgólfur Jóhannsson, forstjóri Icelandair Group, sagði íkvöldfréttum RÚV í gær að hann hefði áhyggjur af stöðunni og þess vegna hefði afkomuviðvörunin verið send út.
-1-2	Björgólfur Jóhannsson	_	_	_	_	_	_	_	_
-1	Björgólfur	Björgólfur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Jóhannsson	Jóhannsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Björgólfur	Björgólfur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
+2	Jóhannsson	Jóhannsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	forstjóri	forstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-5-6	Icelandair Group	_	_	_	_	_	_	_	_
-5	Icelandair	Icelandair	PROPN	fyrirtæki	_	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki
-6	Group	Group	PROPN	fyrirtæki	_	5	flat	_	SpaceAfter=No|tag=fyrirtæki
+5	Icelandair	Icelandair	PROPN	fyrirtæki	_	4	nmod:poss	_	tag=fyrirtæki
+6	Group	Group	PROPN	fyrirtæki	_	5	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=fyrirtæki
 7	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 8	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 9	íkvöldfréttum	íkvöldfrétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	tag=no_ft_þgf_kvk
 10	RÚV	RÚV	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=no_et_ef_hk
-11-12	í gær	_	_	_	_	_	_	_	_
 11	í	í	ADV	ao	_	8	advmod	_	tag=ao
-12	gær	gær	ADV	ao	_	11	fixed	_	tag=ao
+12	gær	gær	ADV	ao	_	11	fixed	_	MWEEnd=Yes|tag=ao
 13	að	að	SCONJ	st	_	15	mark	_	tag=st
 14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_kk_p3
 15	hefði	hafa	VERB	so_1_þf_vh_p3_et_þt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	8	obj	_	tag=so_1_þf_vh_p3_et_þt_gm
@@ -233,7 +228,7 @@
 21	vegna	vegna	ADP	fs_ef	Case=Gen	20	case	_	tag=fs_ef
 22	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	25	aux	_	tag=so_0_vh_p3_et_þt_gm
 23	afkomuviðvörunin	afkomuviðvörun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nsubj	_	tag=no_et_nf_kvk_gr
-24	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	25	cop	_	tag=so_0_sagnb_gm
+24	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	25	cop	_	tag=so_0_sagnb_gm
 25	send	senda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	conj	_	tag=so_0_lhþt_et
 26	út	út	ADV	ao	_	25	advmod	_	SpaceAfter=No|tag=ao
 27	.	_	PUNCT	grm	_	8	punct	_	tag=grm
@@ -272,9 +267,8 @@
 # text = Það sé hins vegar utan verksviðs hans að fjalla um störf Alþingis — hann eigi að hafa eftirlit með stjórnsýslu ríkisins og sveitarfélaga í umboði þingsins.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_hk_p3
 2	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_vh_p3_et_nt_gm
-3-4	hins vegar	_	_	_	_	_	_	_	_
 3	hins	hins	ADV	ao	_	2	advmod	_	tag=ao
-4	vegar	vegar	ADV	ao	_	3	fixed	_	tag=ao
+4	vegar	vegar	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	utan	utan	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
 6	verksviðs	verksvið	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_ef_hk
 7	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	tag=pfn_et_ef_kk_p3
@@ -282,7 +276,7 @@
 9	fjalla	fjalla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
 10	um	um	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	störf	starf	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_þf_hk
-12	Alþingis	Alþingi	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
+12	Alþingis	Alþingi	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	11	nmod:poss	_	tag=fyrirtæki_et_ef_hk
 13	—	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_kk_p3
 15	eigi	eiga	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_vh_p3_et_nt_gm

@@ -21,7 +21,7 @@
 1	Jafnvægið	jafnvægi	NOUN	no_et_gr_hk_nf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_gr_hk_nf
 2	í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	liðinu	lið	NOUN	no_et_gr_hk_þgf	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_gr_hk_þgf
-4	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
+4	er	vera	AUX	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
 5	gott	góður	ADJ	lo_et_hk_nf_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_hk_nf_sb
 6	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
@@ -30,25 +30,23 @@
 1	Áætluð	Áætlaður	ADJ	lo_nf_et_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_nf_et_kvk_sb
 2	brottför	brottför	NOUN	no_nf_et_kvk	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	tag=no_nf_et_kvk
 3	er	vera	VERB	so_0_fh_gm_p3_et_nt	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_gm_p3_et_nt
-4-5	klukkan 15:40	_	_	_	_	_	_	_	_
-4	klukkan	klukkan	ADV	tími	_	3	advmod	_	SpaceAfter=No|tag=tími
-5	15:40	15:40	NUM	tími	_	4	flat	_	SpaceAfter=No|tag=tími
+4	klukkan	klukkan	ADV	tími	_	3	advmod	_	tag=tími
+5	15:40	15:40	NUM	tími	_	4	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=tími
 6	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00012,.5
 # text = Fáum lendingar- og þjónustugjöld auk eyðslu
 1	Fáum	fá	VERB	so_1_þf_fh_ft_gm_nt_p1	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_ft_gm_nt_p1
-2-4	lendingar- og þjónustugjöld	_	_	_	_	_	_	_	_
 2	lendingar-	þjónustugjald	NOUN	no_ft_hk_þf	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	tag=no_ft_hk_þf
 3	og	þjónustugjald	NOUN	no_ft_hk_þf	Case=Acc|Gender=Neut|Number=Plur	2	flat	_	tag=no_ft_hk_þf
-4	þjónustugjöld	þjónustugjald	NOUN	no_ft_hk_þf	Case=Acc|Gender=Neut|Number=Plur	2	flat	_	tag=no_ft_hk_þf
+4	þjónustugjöld	þjónustugjald	NOUN	no_ft_hk_þf	Case=Acc|Gender=Neut|Number=Plur	2	flat	_	MWEEnd=Yes|tag=no_ft_hk_þf
 5	auk	auk	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
 6	eyðslu	eyðsla	NOUN	no_ef_et_kvk	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	tag=no_ef_et_kvk
 
 # sent_id = GREYNIR_CORPUS_00012,.6
 # text = Sviðsetning er reyndar mikil ábyrgð.
 1	Sviðsetning	sviðsetning	NOUN	no_et_kvk_nf	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_kvk_nf
-2	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
+2	er	vera	AUX	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
 3	reyndar	reyndar	ADV	eo	_	5	advmod	_	tag=eo
 4	mikil	mikill	ADJ	lo_et_kvk_nf_sb	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_kvk_nf_sb
 5	ábyrgð	ábyrgð	NOUN	no_et_kvk_nf	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_kvk_nf
@@ -56,10 +54,9 @@
 
 # sent_id = GREYNIR_CORPUS_00012,.7
 # text = Hervör L. Þorvaldsdóttir kjörin forseti Landsréttar
-1-3	Hervör L. Þorvaldsdóttir	_	_	_	_	_	_	_	_
 1	Hervör	Hervör	PROPN	person_nf_et_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=person_nf_et_kvk
 2	L.	L.	PROPN	person_nf_et_kvk	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	tag=person_nf_et_kvk
-3	Þorvaldsdóttir	Þorvaldsdóttir	PROPN	person_nf_et_kvk	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	tag=person_nf_et_kvk
+3	Þorvaldsdóttir	Þorvaldsdóttir	PROPN	person_nf_et_kvk	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	MWEEnd=Yes|tag=person_nf_et_kvk
 4	kjörin	kjörin	ADJ	lo_et_nf_kvk_snf	Case=Nom|Gender=Fem|Number=Sing	1	xcomp	_	tag=lo_et_nf_kvk_snf
 5	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 6	Landsréttar	Landsréttar	PROPN	sérnafn_ef_et_kk	Case=Gen|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=sérnafn_ef_et_kk
@@ -67,7 +64,7 @@
 # sent_id = GREYNIR_CORPUS_00012,.8
 # text = Það er bara þannig.
 1	Það	það	PRON	pfn_et_hk_nf_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_hk_nf_p3
-2	er	vera	VERB	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
+2	er	vera	AUX	so_1_nf_et_fh_gm_nt_p3	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_et_fh_gm_nt_p3
 3	bara	bara	ADV	eo	_	4	advmod	_	tag=eo
 4	þannig	þannig	ADJ	lo_et_hk_nf_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_hk_nf_sb
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
@@ -81,10 +78,12 @@
 5	daglega	daglega	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
 6	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00012,.10
+# text = Grímsey liggur rétt við Tjörnesbrotabeltið.
 1	Grímsey	Grímsey	PROPN	sérnafn_nf_et_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=sérnafn_nf_et_kvk
 2	liggur	liggja	VERB	so_0_et_fh_gm_nt_p3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_et_fh_gm_nt_p3
 3	rétt	rétt	ADV	ao	_	2	advmod	_	tag=ao
 4	við	við	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-5	Tjörnesbrotabeltið	Tjörnesbrotabelti	PROPN	sérnafn_þf_et_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=sérnafn_þf_et_hk
+5	Tjörnesbrotabeltið	Tjörnesbrotabelti	PROPN	sérnafn_þf_et_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=sérnafn_þf_et_hk
 6	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

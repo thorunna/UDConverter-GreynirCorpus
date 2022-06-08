@@ -2,7 +2,7 @@
 # text = Þessi mál verða rædd og hugsanlega fleiri í sex manna hópnum.
 1	Þessi	þessi	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	nmod	_	tag=fn_ft_nf_hk
 2	mál	mál	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
-3	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
+3	verða	verða	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
 4	rædd	ræða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 5	og	og	CCONJ	st	_	4	cc	_	tag=st
 6	hugsanlega	hugsanlega	ADV	eo	_	7	advmod	_	tag=eo
@@ -19,7 +19,7 @@
 2	held	halda	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
 4	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=fn_et_nf_hk
-5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
+5	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
 6	ósanngjarnt	ósanngjarn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	ccomp	_	tag=lo_et_nf_hk_sb
 7	ef	ef	SCONJ	st	_	9	mark	_	tag=st
 8	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_ft_nf_kk_p3
@@ -31,14 +31,13 @@
 # sent_id = GREYNIR_CORPUS_00053,.3
 # text = Þar var meðal rætt um afstöðu Sigmundar Davíðs og ráðherra Sjálfstæðisflokksins.
 1	Þar	þar	ADV	ao	_	4	advmod	_	tag=ao
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	meðal	meðal	ADV	eo	_	4	advmod	_	tag=eo
 4	rætt	ræða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	afstöðu	afstaða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
-7-8	Sigmundar Davíðs	_	_	_	_	_	_	_	_
 7	Sigmundar	Sigmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	nmod:poss	_	tag=person_ef_kk
-8	Davíðs	Davíð	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	flat	_	tag=person_ef_kk
+8	Davíðs	Davíð	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	flat	_	MWEEnd=Yes|tag=person_ef_kk
 9	og	og	CCONJ	st	_	7	cc	_	tag=st
 10	ráðherra	ráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_ef_kk
 11	Sjálfstæðisflokksins	Sjálfstæðisflokkur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk_gr
@@ -53,7 +52,7 @@
 5	eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	tag=fn_et_nf_hk
 6	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_nt_gm
 7	aukist	auka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	10	advcl	_	tag=so_0_sagnb_mm
-8	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+8	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 9	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_hk_p3
 10	neysla	neysla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	tag=no_et_nf_kvk
 11	fíkniefna	fíkniefni	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	10	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
@@ -79,14 +78,12 @@
 1	MS	MS	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk
 2	greiddi	greiða	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 3	bændum	bóndi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obj	_	tag=no_ft_þgf_kk
-4-5	hins vegar	_	_	_	_	_	_	_	_
 4	hins	hins	ADV	ao	_	7	advmod	_	tag=ao
-5	vegar	vegar	ADV	ao	_	4	fixed	_	tag=ao
+5	vegar	vegar	ADV	ao	_	4	fixed	_	MWEEnd=Yes|tag=ao
 6	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7-9	193 milljónir króna	_	_	_	_	_	_	_	_
 7	193	193	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þf_kvk
 8	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	flat	_	tag=no_ft_þf_kvk
-9	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	flat	_	tag=no_ft_þf_kvk
+9	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	flat	_	MWEEnd=Yes|tag=no_ft_þf_kvk
 10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	mjólkina	mjólk	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -95,9 +92,8 @@
 # text = Uppskriftina gaf Svavar Örn hárgreiðslumaður og hefur hann mikla þökk fyrir.
 1	Uppskriftina	uppskrift	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk_gr
 2	gaf	gefa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3-4	Svavar Örn	_	_	_	_	_	_	_	_
 3	Svavar	Svavar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-4	Örn	Örn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
+4	Örn	Örn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	MWEEnd=Yes|tag=person_nf_kk
 5	hárgreiðslumaður	hárgreiðslumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk
 6	og	og	CCONJ	st	_	2	cc	_	tag=st
 7	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -115,9 +111,9 @@
 4	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	tag=pfn_et_þgf_p1
 5	að	að	SCONJ	st	_	8	mark	_	tag=st
 6	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=fn_et_nf_hk
-7	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
+7	verði	verða	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_vh_p3_et_nt_gm
 8	bara	bara	ADV	eo	_	2	ccomp	_	tag=eo
-9	tekið	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_et
+9	tekið	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	dep	_	tag=so_0_lhþt_et
 10	af	af	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No|tag=pfn_et_þgf_p1
 12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -126,16 +122,16 @@
 # text = Ef a er ambátt og b er drottning þurrkast titlarnir út.
 1	Ef	ef	SCONJ	st	_	4	mark	_	tag=st
 2	a	a	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_ef_hk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-4	ambátt	ambátt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	advcl	_	tag=no_et_nf_kvk
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	ambátt	ambátt	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	advcl	_	tag=no_et_nf_kvk
 5	og	og	CCONJ	st	_	4	cc	_	tag=st
 6	b	b	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
-7	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-8	drottning	drottning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	VANTAR_LIÐ_IP_None	_	tag=no_et_nf_kvk
-9	þurrkast	þurrka	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	10	conj	_	tag=so_1_nf_fh_p3_et_nt_mm
-10	titlarnir	titill	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk_gr
-11	út	út	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
-12	.	_	PUNCT	grm	_	10	punct	_	tag=grm
+7	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	drottning	drottning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	tag=no_et_nf_kvk
+9	þurrkast	þurrka	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_nf_fh_p3_et_nt_mm
+10	titlarnir	titill	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	tag=no_ft_nf_kk_gr
+11	út	út	ADV	ao	_	9	advmod	_	SpaceAfter=No|tag=ao
+12	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00053,.10
 # text = Hann segir að lögregla hafi fengið upplýsingar um sprengjuhótunina klukkan 21:33.
@@ -143,13 +139,12 @@
 2	segir	segir	VERB	so_0_fh_p3_nt_gm	Mood=Ind|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_nt_gm
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
 4	lögregla	lögregla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
-5	hafi	hafi	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_vh_p3_et_nt_gm
+5	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_vh_p3_et_nt_gm
 6	fengið	fengið	VERB	so_0_sagnb	VerbForm=Sup	2	ccomp	_	tag=so_0_sagnb
 7	upplýsingar	upplýsingar	NOUN	no_þf_kvk	Case=Acc|Gender=Fem	6	obj	_	tag=no_þf_kvk
 8	um	um	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	sprengjuhótunina	sprengjuhótunina	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk_gr
-10-11	klukkan 21:33	_	_	_	_	_	_	_	_
-10	klukkan	klukkan	ADV	tímapunkturafs	_	9	advmod	_	SpaceAfter=No|tag=tímapunkturafs
-11	21:33	21:33	NOUN	tímapunkturafs	_	10	flat	_	SpaceAfter=No|tag=tímapunkturafs
+10	klukkan	klukkan	ADV	tímapunkturafs	_	9	advmod	_	tag=tímapunkturafs
+11	21:33	21:33	NOUN	tímapunkturafs	_	10	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=tímapunkturafs
 12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

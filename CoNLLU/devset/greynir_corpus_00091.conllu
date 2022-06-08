@@ -22,9 +22,8 @@
 # text = Á vef Wow air segir að flugfélagið styðjist við þær reglur að farþegar framvísi alltaf vegabréfi.
 1	Á	á	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	vef	vefur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
-3-4	Wow air	_	_	_	_	_	_	_	_
 3	Wow	Wow	PROPN	fyrirtæki	_	2	nmod:poss	_	tag=fyrirtæki
-4	air	air	PROPN	fyrirtæki	_	3	flat	_	tag=fyrirtæki
+4	air	air	PROPN	fyrirtæki	_	3	flat	_	MWEEnd=Yes|tag=fyrirtæki
 5	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 6	að	að	SCONJ	st	_	8	mark	_	tag=st
 7	flugfélagið	flugfélag	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk_gr
@@ -47,17 +46,16 @@
 4	eigið	eiginn	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þf_hk_sb
 5	fé	fé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|tag=no_et_þf_hk
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-7-9	200 milljarða króna	_	_	_	_	_	_	_	_
-7	200	200	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
-8	milljarða	milljarður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
-9	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
+7	200	200	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	tag=no_ft_þf_kk
+8	milljarða	milljarður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	flat	_	tag=no_ft_þf_kk
+9	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_ft_þf_kk
 10	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 11	og	og	CCONJ	st	_	2	cc	_	tag=st
-12	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
-13	þannig	þannig	ADV	eo	_	2	advmod	_	tag=eo
+12	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+13	þannig	þannig	ADV	eo	_	16	advmod	_	tag=eo
 14	séð	sjá	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	dep	_	tag=so_0_lhþt_et
-15	jafnmikils	jafnmikill	ADJ	lo_et_ef_hk_sb	Case=Gen|Gender=Neut|Number=Sing	2	amod	_	tag=lo_et_ef_hk_sb
-16	virði	virði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	cop	_	SpaceAfter=No|tag=no_et_nf_hk
+15	jafnmikils	jafnmikill	ADJ	lo_et_ef_hk_sb	Case=Gen|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_ef_hk_sb
+16	virði	virði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|tag=no_et_nf_hk
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00091,.4
@@ -85,11 +83,11 @@
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	kvaðst	kveða	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 3	enda	enda	ADV	ao	_	2	advmod	_	tag=ao
-4	mæla	mæla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	csubj	_	tag=so_0_nh_gm
+4	mæla	mæla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	obl	_	tag=so_0_nh_gm
 5	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	chhaupadi	chhaupadi	X	foreign	_	4	obl	_	tag=foreign
 7	við	við	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-8	að	að	X	x		10	dep	_	tag=x
+8	að	að	X	x	_	10	dep	_	tag=x
 9	þær	sá	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	10	nmod	_	tag=fn_ft_nf_kvk
 10	konur	kona	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_nf_kvk
 11	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
@@ -113,10 +111,9 @@
 9	hið	hinn	DET	gr_et_þf_hk	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	11	det	_	tag=gr_et_þf_hk
 10	virta	virtur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	11	amod	_	tag=lo_et_þf_hk_vb
 11	bardagasamband	bardagasamband	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
-12-14	Invicta Fighting Championships	_	_	_	_	_	_	_	_
 12	Invicta	Invicta	X	foreign	_	11	flat:foreign	_	tag=foreign
 13	Fighting	Fighting	X	foreign	_	12	flat:foreign	_	tag=foreign
-14	Championships	Championships	X	foreign	_	13	flat:foreign	_	tag=foreign
+14	Championships	Championships	X	foreign	_	13	flat:foreign	_	MWEEnd=Yes|tag=foreign
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	Bandaríkjunum	Bandaríkin	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk_gr
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
@@ -144,20 +141,19 @@
 # sent_id = GREYNIR_CORPUS_00091,.8
 # text = Leikstjórn Oriol Tomas var lifandi; hvergi var dauður punktur (nema í tilviki Hrólfs).
 1	Leikstjórn	leikstjórn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
-2-3	Oriol Tomas	_	_	_	_	_	_	_	_
 2	Oriol	Oriol	PROPN	person_ef_kk	Case=Gen|Gender=Masc	1	nmod:poss	_	tag=person_ef_kk
-3	Tomas	Tomas	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	flat	_	tag=person_ef_kk
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
+3	Tomas	Tomas	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	flat	_	MWEEnd=Yes|tag=person_ef_kk
+4	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	lifandi	lifandi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 6	;	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	hvergi	hvergi	ADV	ao	_	8	advmod	_	tag=ao
 8	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_þt_gm
 9	dauður	dauður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_nf_kk_sb
-10	punktur	punktur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|tag=no_et_nf_kk
-11	(	_	PUNCT	grm	_	13	punct	_	tag=grm
+10	punktur	punktur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
+11	(	_	PUNCT	grm	_	13	punct	_	SpaceAfter=No|tag=grm
 12	nema	nema	SCONJ	st	_	13	mark	_	tag=st
 13	í	í	ADP	fs_þgf	Case=Dat	8	advcl	_	tag=fs_þgf
-14	tilviki	tilvik	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	VANTAR_LIÐ_IP_None	_	tag=no_et_þgf_hk
+14	tilviki	tilvik	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	conj	_	tag=no_et_þgf_hk
 15	Hrólfs	Hrólfur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
 16	)	_	PUNCT	grm	_	15	punct	_	SpaceAfter=No|tag=grm
 17	.	_	PUNCT	grm	_	5	punct	_	tag=grm
@@ -168,9 +164,9 @@
 2	greinilega	greinilega	ADV	ao	_	1	advmod	_	tag=ao
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	botni	botn	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_þgf_kk
-5	eftir	eftir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-6	frábæra	frábær	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	tag=lo_et_þf_kvk_sb
-7	spilamennsku	spilamennska	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	tag=no_et_þf_kvk
+5	eftir	eftir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
+6	frábæra	frábær	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	tag=lo_et_þf_kvk_sb
+7	spilamennsku	spilamennska	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þf_kvk
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	vikunni	vika	ADV	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	11	advmod	_	tag=no_et_þgf_kvk_gr
 10	og	og	CCONJ	st	_	11	cc	_	tag=st
@@ -178,20 +174,17 @@
 12	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 13	blönduðu	blandaður	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_þgf_kvk_vb
 14	liðakeppninni	liðakeppni	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk_gr
-15-16	í gær	_	_	_	_	_	_	_	_
-15	í	í	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
-16	gær	gær	ADV	ao	_	15	fixed	_	SpaceAfter=No|tag=ao
+15	í	í	ADV	ao	_	11	advmod	_	tag=ao
+16	gær	gær	ADV	ao	_	15	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 17	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00091,.10
 # text = Jonathan Franks og Jonathan Glenn tryggðu ÍBV farseðilinn í næstu umferð en þeir gerðu mörk liðsins.
-1-2	Jonathan Franks	_	_	_	_	_	_	_	_
 1	Jonathan	Jonathan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
-2	Franks	Franks	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Franks	Franks	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
-4-5	Jonathan Glenn	_	_	_	_	_	_	_	_
 4	Jonathan	Jonathan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-5	Glenn	Glenn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
+5	Glenn	Glenn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	MWEEnd=Yes|tag=person_nf_kk
 6	tryggðu	tryggja	VERB	so_2_þgf_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p3_ft_þt_gm
 7	ÍBV	ÍBV	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	6	iobj	_	tag=sérnafn_þgf_hk
 8	farseðilinn	farseðill	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	obj	_	tag=no_et_þf_kk_gr

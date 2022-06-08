@@ -9,19 +9,17 @@
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	fundi	fundur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
 9	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	tag=fn_et_þgf_kk
-10-11	í gær	_	_	_	_	_	_	_	_
-10	í	í	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
-11	gær	gær	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
+10	í	í	ADV	ao	_	3	advmod	_	tag=ao
+11	gær	gær	ADV	ao	_	10	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00050,.2
 # text = Lággróður þolir aftur á móti lítið öskufall heldur kafnar og deyr.
 1	Lággróður	lággróður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=no_et_nf_kk
 2	þolir	þola	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-3-5	aftur á móti	_	_	_	_	_	_	_	_
 3	aftur	aftur	ADV	eo	_	7	advmod	_	tag=eo
 4	á	á	ADV	eo	_	3	fixed	_	tag=eo
-5	móti	móti	ADV	eo	_	3	fixed	_	tag=eo
+5	móti	móti	ADV	eo	_	3	fixed	_	MWEEnd=Yes|tag=eo
 6	lítið	lítill	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þf_hk_sb
 7	öskufall	öskufall	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
 8	heldur	heldur	CCONJ	st	_	2	cc	_	tag=st
@@ -51,9 +49,8 @@
 2	í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	prenti	prent	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk
 4	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
-5-6	að óbreyttu	_	_	_	_	_	_	_	_
 5	að	að	ADV	ao	_	7	advmod	_	tag=ao
-6	óbreyttu	óbreyttu	ADV	ao	_	5	fixed	_	tag=ao
+6	óbreyttu	óbreyttu	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 7	leiða	leiða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
 8	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
 9	samruna	samruni	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_ef_kk
@@ -70,7 +67,7 @@
 5	Ísafjarðar	Ísafjörður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_ef_kk
 6	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
 7	þó	þó	ADV	ao	_	9	advmod	_	tag=ao
-8	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	cop	_	tag=so_0_sagnb_gm
+8	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	cop	_	tag=so_0_sagnb_gm
 9	aflýst	aflýsa	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þgf_sagnb_gm
 10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
@@ -82,10 +79,9 @@
 2	Íslands	Ísland	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk
 3	tjáði	tjá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	3	obj	_	tag=abfn_þf
-5-7	á liðnu ári	_	_	_	_	_	_	_	_
 5	á	á	ADV	ao	_	3	advmod	_	tag=ao
 6	liðnu	liðnu	ADV	ao	_	5	fixed	_	tag=ao
-7	ári	ári	ADV	ao	_	5	fixed	_	tag=ao
+7	ári	ári	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 8	um	um	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 9	ýmis	ýmis	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	tag=fn_ft_þf_hk
 10	brýn	brýnn	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	11	amod	_	tag=lo_ft_þf_hk_sb
@@ -99,13 +95,12 @@
 3	eflingu	efling	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þf_kvk
 4	stafrænnar	stafrænn	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_ef_kvk_sb
 5	þjónustu	þjónusta	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	nmod:poss	_	tag=no_et_ef_kvk
-6	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
+6	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
 7	samþykkt	samþykkja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	ríkisstjórnarfundi	ríkisstjórnarfundur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
-10-11	í morgun	_	_	_	_	_	_	_	_
-10	í	í	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-11	morgun	morgun	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
+10	í	í	ADV	ao	_	7	advmod	_	tag=ao
+11	morgun	morgun	ADV	ao	_	10	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 12	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00050,.8
@@ -118,22 +113,21 @@
 6	Clearsprings	Clearsprings	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_ef_hk
 7	en	en	CCONJ	st	_	2	cc	_	tag=st
 8	ekkert	enginn	PRON	fn	_	10	nsubj	_	tag=fn
-9	var	vera	AUX	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	10	aux	_	tag=so_0_fh_p1_et_þt_gm
+9	var	vera	AUX	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p1_et_þt_gm
 10	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	SpaceAfter=No|tag=so_0_lhþt_et
 11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00050,.9
 # text = Tilkynnt var um eld í íþróttahúsi Þorlákshafnar klukkan 15:24 í dag.
 1	Tilkynnt	tilkynna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-2	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	VANTAR_LIÐ_VP_None	_	tag=so_0_fh_p3_et_þt_gm
+2	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	dep	_	tag=so_0_fh_p3_et_þt_gm
 3	um	um	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	eld	eldur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_þf_kk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	íþróttahúsi	íþróttahús	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 7	Þorlákshafnar	Þorlákshöfn	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=no_et_ef_kvk
-8-9	klukkan 15:24	_	_	_	_	_	_	_	_
 8	klukkan	klukkan	ADV	tími	_	1	advmod	_	tag=tími
-9	15:24	15:24	NUM	tími	_	8	flat	_	tag=tími
+9	15:24	15:24	NUM	tími	_	8	flat	_	MWEEnd=Yes|tag=tími
 10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 12	.	_	PUNCT	grm	_	1	punct	_	tag=grm
@@ -143,9 +137,8 @@
 1	Erdogan	Erdogan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 2	krefst	krefja	VERB	so_1_ef_fh_p3_et_nt_mm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_ef_fh_p3_et_nt_mm
 3	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obj	_	tag=fn_et_ef_hk
-4-5	hins vegar	_	_	_	_	_	_	_	_
 4	hins	hins	ADV	ao	_	3	advmod	_	tag=ao
-5	vegar	vegar	ADV	ao	_	4	fixed	_	tag=ao
+5	vegar	vegar	ADV	ao	_	4	fixed	_	MWEEnd=Yes|tag=ao
 6	að	að	SCONJ	st	_	8	mark	_	tag=st
 7	Bandaríkin	Bandaríkin	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	tag=no_ft_nf_hk_gr
 8	framselji	framselja	VERB	so_2_þgf_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	tag=so_2_þgf_þf_vh_p3_ft_nt_gm

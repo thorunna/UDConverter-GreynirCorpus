@@ -8,13 +8,11 @@
 6	afsökunar	afsökun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	2	iobj	_	tag=no_et_ef_kvk
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	spjallþætti	spjallþáttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
-9-10	Oprah Winfrey	_	_	_	_	_	_	_	_
 9	Oprah	Oprah	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	8	nmod:poss	_	tag=person_ef_kvk
-10	Winfrey	Winfrey	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	9	flat	_	tag=person_ef_kvk
+10	Winfrey	Winfrey	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	9	flat	_	MWEEnd=Yes|tag=person_ef_kvk
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12-13	október 2009	_	_	_	_	_	_	_	_
-12	október	október	ADV	dagsafs	_	2	advmod	_	SpaceAfter=No|tag=dagsafs
-13	2009	2009	NOUN	dagsafs	_	12	flat	_	SpaceAfter=No|tag=dagsafs
+12	október	október	ADV	dagsafs	_	2	advmod	_	tag=dagsafs
+13	2009	2009	NOUN	dagsafs	_	12	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00241,.2
@@ -26,7 +24,7 @@
 5	Neytendastofu	neytendastofa	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_kvk
 6	:	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=fn_et_nf_hk
-8	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+8	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 9	reglurnar	regla	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	conj	_	tag=no_ft_nf_kvk_gr
 10	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 11	áhrifavaldar	áhrifavaldur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	tag=no_ft_nf_kk
@@ -36,9 +34,8 @@
 
 # sent_id = GREYNIR_CORPUS_00241,.3
 # text = Sigríður Vilhjálmsdóttir, ritari ferðakostnaðarnefndarinnar svarar fyrirspurnum í síma: 528-1054 eða Sigridur.Vilhjalmsdottir@hagstofa.is.
-1-2	Sigríður Vilhjálmsdóttir	_	_	_	_	_	_	_	_
-1	Sigríður	Sigríður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	Vilhjálmsdóttir	Vilhjálmsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
+1	Sigríður	Sigríður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	nsubj	_	tag=person_nf_kvk
+2	Vilhjálmsdóttir	Vilhjálmsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kvk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	ritari	ritari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	ferðakostnaðarnefndarinnar	ferðakostnaðarnefnd	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kvk_gr
@@ -54,7 +51,7 @@
 
 # sent_id = GREYNIR_CORPUS_00241,.4
 # text = Var Bretinn barinn í höfuð með járnstöng og skilinn eftir í lífshættulegu ástandi.
-1	Var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_1_nf_fh_p3_et_þt_gm
+1	Var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 2	Bretinn	Breti	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
 3	barinn	berja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
@@ -71,20 +68,20 @@
 
 # sent_id = GREYNIR_CORPUS_00241,.5
 # text = Segist hann ekki sjá að langtímasamningur vegna sölu um sæstreng verði eitthvað öðruvísi.
-1	Segist	segja	AUX	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	4	aux	_	tag=so_0_fh_p3_et_nt_mm
-2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kk_p3
+1	Segist	segja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
+2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	tag=pfn_et_nf_kk_p3
 3	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
-4	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
+4	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	xcomp	_	tag=so_1_þf_nh_gm
 5	að	að	SCONJ	st	_	13	mark	_	tag=st
 6	langtímasamningur	langtímasamningur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=no_et_nf_kk
 7	vegna	vegna	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
 8	sölu	sala	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_ef_kvk
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	sæstreng	sæstrengur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þf_kk
-11	verði	verða	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+11	verði	verða	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 12	eitthvað	eitthvað	ADV	eo	_	13	advmod	_	tag=eo
 13	öðruvísi	öðruvísi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
-14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+14	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00241,.6
 # text = Framburður flugstjórans fyrir dómi var eilítið á skjön við framburð hans hjá lögreglu.
@@ -92,7 +89,7 @@
 2	flugstjórans	flugstjóri	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kk_gr
 3	fyrir	fyrir	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	dómi	dómur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_þgf_kk
-5	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_þt_gm
+5	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_þt_gm
 6	eilítið	eilítið	ADV	eo	_	8	advmod	_	tag=eo
 7	á	á	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	skjön	skjön	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	0	root	_	tag=no_et_þf_hk
@@ -154,6 +151,8 @@
 13	2014	2014	NUM	ártal	_	11	obl	_	SpaceAfter=No|tag=ártal
 14	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00241,.10
+# text = Ég geng daglega með hund og ég finn ekki fyrir þessu sjálfur.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	geng	ganga	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_et_nt_gm
 3	daglega	daglega	ADV	ao	_	2	advmod	_	tag=ao
@@ -165,6 +164,6 @@
 9	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
 10	fyrir	fyrir	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=fn_et_þgf_hk
-12	sjálfur	sjálfur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	tag=fn_et_nf_kk
+12	sjálfur	sjálfur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=fn_et_nf_kk
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -30,11 +30,10 @@
 
 # sent_id = GREYNIR_CORPUS_00019,.4
 # text = Hólmar Örn - Líður vel í Búlgaríu
-1-2	Hólmar Örn	_	_	_	_	_	_	_	_
-1	Hólmar	Hólmar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
-2	Örn	Örn	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|tag=person_et_nf_kk
-3	-	-	PUNCT	grm	_	4	punct	_	tag=grm
-4	Líður	Líða	VERB	so_0_op_subj_þgf_fh_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_op_subj_þgf_fh_et_nt_gm
+1	Hólmar	Hólmar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	tag=person_et_nf_kk
+2	Örn	Örn	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	MWEEnd=Yes|tag=person_et_nf_kk
+3	-	-	PUNCT	grm	_	1	punct	_	tag=grm
+4	Líður	Líða	VERB	so_0_op_subj_þgf_fh_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Tense=Pres|Voice=Act	0	root	_	tag=so_0_op_subj_þgf_fh_et_nt_gm
 5	vel	vel	ADV	ao	_	4	advmod	_	tag=ao
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	Búlgaríu	Búlgaría	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_kvk
@@ -42,7 +41,7 @@
 # sent_id = GREYNIR_CORPUS_00019,.5
 # text = Ekki er vitað um ástæður árásarinnar.
 1	Ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	vitað	vita	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 4	um	um	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	ástæður	ástæða	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þf_kvk
@@ -64,7 +63,7 @@
 3	slasast	slasa	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	0	root	_	tag=so_0_sagnb_mm
 4	og	og	CCONJ	st	_	3	cc	_	tag=st
 5	nokkurra	nokkur	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	7	nsubj	_	tag=fn_ft_ef_hk
-6	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
+6	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	saknað	sakna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	3	conj	_	SpaceAfter=No|tag=so_0_sagnb_gm
 8	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
@@ -92,11 +91,11 @@
 
 # sent_id = GREYNIR_CORPUS_00019,.10
 # text = Já, þetta hefur reynt á.
-1	Já	já	INTJ	uh	_	5	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=uh
+1	Já	já	INTJ	uh	_	5	dep	_	SpaceAfter=No|tag=uh
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
 4	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
 5	reynt	reyna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 6	á	á	ADV	ao	_	5	advmod	_	SpaceAfter=No|tag=ao
-7	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+7	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

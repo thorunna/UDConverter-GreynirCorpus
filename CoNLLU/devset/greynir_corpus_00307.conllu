@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00307,.1
 # text = Stríðsherbergið er vettvangur þar sem aðstoðarmenn Trumps og ráðgjafar koma saman til að leggja á ráðin um aðgerðir í einstöku, brýnum málum.
 1	Stríðsherbergið	stríðsherbergi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	vettvangur	vettvangur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 4	þar	þar	ADV	ao	_	3	advmod	_	tag=ao
 5	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
@@ -27,9 +27,8 @@
 
 # sent_id = GREYNIR_CORPUS_00307,.2
 # text = Sindri Viborg, sem var kjörinn formaður framkvæmdaráðs Pírata á aðalfundi flokksins fyrir rúmum tveimur vikum, hefur sagt sig úr ráðinu sem og flokknum.
-1-2	Sindri Viborg	_	_	_	_	_	_	_	_
-1	Sindri	Sindri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Viborg	Viborg	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Sindri	Sindri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	19	nsubj	_	tag=person_nf_kk
+2	Viborg	Viborg	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_1_nf_fh_p3_et_þt_gm
@@ -50,7 +49,7 @@
 20	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	19	obj	_	tag=abfn_þf
 21	úr	úr	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	ráðinu	ráð	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	19	obl	_	tag=no_et_þgf_hk_gr
-23	sem	sem	SCONJ	st	_	22	cc	_	tag=st
+23	sem	sem	SCONJ	st	_	22	mark	_	tag=st
 24	og	og	CCONJ	st	_	23	cc	_	tag=st
 25	flokknum	flokkur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 26	.	_	PUNCT	grm	_	19	punct	_	tag=grm
@@ -59,30 +58,27 @@
 # text = Þar af verða 3,5 milljarðar íslenskra króna greiddar út og 5,9 milljarða fær Norvik í formi hlutafjár í Bergs Timber sé miðað við gengið 2,71.
 1	Þar	þar	ADV	ao	_	8	advmod	_	tag=ao
 2	af	af	ADV	ao	_	1	advmod	_	tag=ao
-3	verða	verða	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
-4-7	3,5 milljarðar íslenskra króna	_	_	_	_	_	_	_	_
+3	verða	verða	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4	3,5	3,5	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	tag=no_ft_nf_kk
 5	milljarðar	milljarðar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	flat	_	tag=no_ft_nf_kk
 6	íslenskra	íslenskra	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	flat	_	tag=no_ft_nf_kk
-7	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	flat	_	tag=no_ft_nf_kk
+7	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	flat	_	MWEEnd=Yes|tag=no_ft_nf_kk
 8	greiddar	greiddur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=lo_ft_nf_kvk_sb
 9	út	út	ADV	eo	_	8	advmod	_	tag=eo
 10	og	og	CCONJ	st	_	8	cc	_	tag=st
-11-12	5,9 milljarða	_	_	_	_	_	_	_	_
 11	5,9	5,9	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	13	obj	_	tag=töl_ft_ef_kvk
-12	milljarða	milljarða	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	11	_	_	tag=töl_ft_ef_kvk
+12	milljarða	milljarða	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	11	flat	_	MWEEnd=Yes|tag=töl_ft_ef_kvk
 13	fær	fá	VERB	so_0	_	8	conj	_	tag=so_0
 14	Norvik	Norvik	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	tag=no_et_nf_hk
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	formi	formur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þgf_kk
 17	hlutafjár	hlutafé	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	nmod:poss	_	tag=no_et_ef_hk
 18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
-19-20	Bergs Timber	_	_	_	_	_	_	_	_
 19	Bergs	Berg	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	obl	_	tag=person_ef_kk
-20	Timber	Timber	PROPN	person_ef_kk	Case=Gen|Gender=Masc	19	flat	_	tag=person_ef_kk
+20	Timber	Timber	PROPN	person_ef_kk	Case=Gen|Gender=Masc	19	flat	_	MWEEnd=Yes|tag=person_ef_kk
 21	sé	sé	VERB	so_0	_	13	advcl	_	tag=so_0
 22	miðað	miðað	ADP	fs_þf	Case=Acc	24	case	_	tag=fs_þf
-23	við	við	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
+23	við	við	ADP	fs_þf	Case=Acc	22	fixed	_	tag=fs_þf
 24	gengið	gengi	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	21	obl	_	tag=no_et_þf_hk_gr
 25	2,71	2,71	NUM	tala_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur|NumType=Card	24	nmod:poss	_	SpaceAfter=No|tag=tala_ft_ef_kvk
 26	.	_	PUNCT	grm	_	8	punct	_	tag=grm
@@ -176,17 +172,15 @@
 # text = Dómstóll í New York í Bandaríkjunum hefur ákært kvikmyndaframleiðandann Harvey Weinstein fyrir kynferðisbrot gegn þriðju konunni í máli sem nær allt aftur til ársins 2006.
 1	Dómstóll	dómstóll	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
 2	í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
-3-4	New York	_	_	_	_	_	_	_	_
 3	New	New	PROPN	entity	_	1	obl	_	tag=entity
-4	York	York	PROPN	entity	_	3	flat	_	tag=entity
+4	York	York	PROPN	entity	_	3	flat	_	MWEEnd=Yes|tag=entity
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Bandaríkjunum	Bandaríkin	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	3	obl	_	tag=no_ft_þgf_hk_gr
 7	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
 8	ákært	ákæra	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 9	kvikmyndaframleiðandann	kvikmyndaframleiðandi	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	tag=no_et_þf_kk_gr
-10-11	Harvey Weinstein	_	_	_	_	_	_	_	_
 10	Harvey	Harvey	PROPN	sérnafn	_	9	conj	_	tag=sérnafn
-11	Weinstein	Weinstein	PROPN	sérnafn	_	10	flat	_	tag=sérnafn
+11	Weinstein	Weinstein	PROPN	sérnafn	_	10	flat	_	MWEEnd=Yes|tag=sérnafn
 12	fyrir	fyrir	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 13	kynferðisbrot	kynferðisbrot	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
 14	gegn	gegn	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
@@ -199,9 +193,8 @@
 21	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	20	xcomp	_	tag=fn_et_nf_hk
 22	aftur	aftur	ADV	ao	_	20	advmod	_	tag=ao
 23	til	til	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
-24-25	ársins 2006	_	_	_	_	_	_	_	_
-24	ársins	ársins	ADV	ártal	_	20	advmod	_	SpaceAfter=No|tag=ártal
-25	2006	2006	NUM	ártal	_	24	flat	_	SpaceAfter=No|tag=ártal
+24	ársins	ársins	ADV	ártal	_	20	advmod	_	tag=ártal
+25	2006	2006	NUM	ártal	_	24	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=ártal
 26	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00307,.8
@@ -240,9 +233,8 @@
 3	um	um	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 4	helstu	heldri	ADJ	lo_ft_ef_kk_evb	Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	5	amod	_	tag=lo_ft_ef_kk_evb
 5	stuðningshópa	stuðningshópur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_ef_kk
-6-7	Jeremy Corbyn	_	_	_	_	_	_	_	_
 6	Jeremy	Jeremy	PROPN	sérnafn	_	5	nmod:poss	_	tag=sérnafn
-7	Corbyn	Corbyn	PROPN	sérnafn	_	6	flat	_	tag=sérnafn
+7	Corbyn	Corbyn	PROPN	sérnafn	_	6	flat	_	MWEEnd=Yes|tag=sérnafn
 8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	Facebook	Facebook	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
 10	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -267,9 +259,8 @@
 # text = Sagði hann meðal annars að hún hefði grátbeðið sig um fjárframlög og að hún myndi gera hvað sem er fyrir þau.
 1	Sagði	segja	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
 2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	tag=pfn_et_nf_kk_p3
-3-4	meðal annars	_	_	_	_	_	_	_	_
 3	meðal	meðal	ADV	eo	_	1	obj	_	tag=eo
-4	annars	annars	ADV	eo	_	3	fixed	_	tag=eo
+4	annars	annars	ADV	eo	_	3	fixed	_	MWEEnd=Yes|tag=eo
 5	að	að	SCONJ	st	_	8	mark	_	tag=st
 6	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kvk_p3
 7	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	8	aux	_	tag=so_0_vh_p3_et_þt_gm

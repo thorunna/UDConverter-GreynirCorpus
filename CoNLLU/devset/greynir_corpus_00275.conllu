@@ -12,8 +12,8 @@
 10	af	af	ADV	ao	_	8	advmod	_	tag=ao
 11	og	og	CCONJ	st	_	2	cc	_	tag=st
 12	flóttaleiðirnar	flóttaleið	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	nsubj	_	tag=no_ft_nf_kvk_gr
-13	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_fh_p3_ft_nt_gm
-14	orðnar	verða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	15	cop	_	tag=so_0_lhþt_ft
+13	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_ft_nt_gm
+14	orðnar	verða	AUX	so_0_lhþt_ft	Number=Plur|VerbForm=Part	15	cop	_	tag=so_0_lhþt_ft
 15	fleiri	margur	ADJ	lo_ft_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_nf_kvk_mst
 16	og	og	CCONJ	st	_	17	cc	_	tag=st
 17	auðveldari	auðveldur	ADJ	lo_ft_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No|tag=lo_ft_nf_kvk_mst
@@ -29,11 +29,11 @@
 6	nýja	nýr	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	tag=lo_et_þf_kvk_sb
 7	tækni	tækni	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	tag=no_et_þf_kvk
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
-9	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_fh_p3_ft_nt_gm
-10	mjög	mjög	ADV	eo	_	2	advmod	_	tag=eo
-11	stoltir	stoltur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	cop	_	tag=lo_ft_nf_kk_sb
+9	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_ft_nt_gm
+10	mjög	mjög	ADV	eo	_	11	advmod	_	tag=eo
+11	stoltir	stoltur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	tag=lo_ft_nf_kk_sb
 12	af	af	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=fn_et_þgf_hk
+13	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=fn_et_þgf_hk
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 16	Skapti	Skapti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	SpaceAfter=No|tag=person_nf_kk
@@ -42,17 +42,17 @@
 # sent_id = GREYNIR_CORPUS_00275,.3
 # text = Þar varð hún Evrópumeistari í 100 metra spretthlaupi ásamt því að næla í brons í 200 metra spretthlaupi.
 1	Þar	þar	ADV	ao	_	4	advmod	_	tag=ao
-2	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	varð	verða	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kvk_p3
 4	Evrópumeistari	Evrópumeistari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 6	100	100	NUM	tala_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur|NumType=Card	7	nummod	_	tag=tala_ft_ef_kk
 7	metra	metri	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	8	obl	_	tag=no_ft_ef_kk
 8	spretthlaupi	spretthlaup	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
-9	ásamt	ásamt	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-10	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
+9	ásamt	ásamt	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
+10	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	tag=fn_et_þgf_hk
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
-12	næla	næla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	xcomp	_	tag=so_0_nh_gm
+12	næla	næla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	obl	_	tag=so_0_nh_gm
 13	í	í	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	brons	brons	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þf_hk
 15	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
@@ -69,19 +69,18 @@
 4	hæst	hár	ADJ	lo_et_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	2	obl	_	tag=lo_et_nf_hk_esb
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	dreifbýli	dreifbýli	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
-7-8	árið 2006	_	_	_	_	_	_	_	_
 7	árið	árið	ADV	ártal	_	2	advmod	_	tag=ártal
-8	2006	2006	NUM	ártal	_	7	flat	_	tag=ártal
+8	2006	2006	NUM	ártal	_	7	flat	_	MWEEnd=Yes|tag=ártal
 9	en	en	CCONJ	st	_	2	cc	_	tag=st
-10	hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	aux	_	tag=so_0_fh_p3_et_þt_gm
-11	lækkað	lækka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	cop	_	tag=so_0_sagnb_gm
+10	hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_þt_gm
+11	lækkað	lækka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	conj	_	tag=so_0_sagnb_gm
 12	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 13	35	35	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	14	nummod	_	tag=tala_ft_þf_hk
-14	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þf_hk
-15	og	og	CCONJ	st	_	2	cc	_	tag=st
-16	mælist	mæla	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	2	cop	_	tag=so_1_nf_fh_p3_et_nt_mm
-17	nú	nú	ADV	ao	_	2	advmod	_	tag=ao
-18	466	466	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	2	obl	_	SpaceAfter=No|tag=tala_ft_nf_hk
+14	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þf_hk
+15	og	og	CCONJ	st	_	11	cc	_	tag=st
+16	mælist	mæla	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	11	conj	_	tag=so_1_nf_fh_p3_et_nt_mm
+17	nú	nú	ADV	ao	_	16	advmod	_	tag=ao
+18	466	466	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	16	obl	_	SpaceAfter=No|tag=tala_ft_nf_hk
 19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00275,.5
@@ -112,9 +111,8 @@
 2	aukist	auka	VERB	so_0_vh_p3_ft_nt_mm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_vh_p3_ft_nt_mm
 3	um	um	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	16%	16%	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	tag=prósenta_ft_þf_hk
-5-6	í ár	_	_	_	_	_	_	_	_
 5	í	í	ADV	ao	_	4	advmod	_	tag=ao
-6	ár	ár	ADV	ao	_	5	fixed	_	tag=ao
+6	ár	ár	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 7	og	og	CCONJ	st	_	4	cc	_	tag=st
 8	6,4%	6,4%	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	nummod	_	tag=prósenta_ft_þf_hk
 9	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
@@ -134,7 +132,7 @@
 1	Handgerðar	handgerður	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_þf_kvk_sb
 2	púður	púður	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk
 3	perlurnar	perla	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	conj	_	tag=no_ft_þf_kvk_gr
-4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
+4	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	nota	nota	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
@@ -153,7 +151,7 @@
 
 # sent_id = GREYNIR_CORPUS_00275,.8
 # text = En hann á langan veg eftir, var haft eftir Sabine Kehm umboðsmanni hans í september 2014.
-1	En	en	SCONJ	st	_	2	cc	_	tag=st
+1	En	en	SCONJ	st	_	2	dep	_	tag=st
 2	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	tag=pfn_et_nf_kk_p3
 3	á	eiga	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	xcomp	_	tag=so_1_þf_fh_p3_et_nt_gm
 4	langan	langur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_þf_kk_sb
@@ -163,15 +161,13 @@
 8	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	xcomp	_	tag=so_0_fh_p3_et_þt_gm
 9	haft	hafa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	conj	_	tag=so_0_sagnb_gm
 10	eftir	eftir	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11-12	Sabine Kehm	_	_	_	_	_	_	_	_
 11	Sabine	Sabine	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	8	obl	_	tag=sérnafn_nf_kvk
-12	Kehm	Kehm	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	11	flat	_	tag=sérnafn_nf_kvk
+12	Kehm	Kehm	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	11	flat	_	MWEEnd=Yes|tag=sérnafn_nf_kvk
 13	umboðsmanni	umboðsmaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þgf_kk
 14	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	tag=pfn_et_ef_kk_p3
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16-17	september 2014	_	_	_	_	_	_	_	_
-16	september	september	ADV	dagsafs	_	8	advmod	_	SpaceAfter=No|tag=dagsafs
-17	2014	2014	NOUN	dagsafs	_	16	flat	_	SpaceAfter=No|tag=dagsafs
+16	september	september	ADV	dagsafs	_	8	advmod	_	tag=dagsafs
+17	2014	2014	NOUN	dagsafs	_	16	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00275,.9
@@ -185,7 +181,7 @@
 7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_nt_gm
 8	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=fn_et_nf_hk
 9	bara	bara	ADV	eo	_	10	advmod	_	tag=eo
-10	orð	orð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	VANTAR_LIÐ_IP_None	_	tag=no_et_nf_hk
+10	orð	orð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	dep	_	tag=no_et_nf_hk
 11	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
 12	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	tag=pfn_ft_nf_p1
 13	notum	nota	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	10	acl:relcl	_	tag=so_0_fh_p1_ft_nt_gm
@@ -196,8 +192,10 @@
 18	betur	vel	ADV	ao_mst	Degree=Cmp	16	advmod	_	SpaceAfter=No|tag=ao_mst
 19	?	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00275,.10
+# text = Ríkin eru flokkuð í fjóra flokka og er Ísland nú í 2. flokki, annað árið í röð.
 1	Ríkin	ríki	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk_gr
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	flokkuð	flokka	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 5	fjóra	fjórir	NUM	to_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	6	nummod	_	tag=to_ft_þf_kk
@@ -208,11 +206,11 @@
 10	nú	nú	ADV	ao	_	8	advmod	_	tag=ao
 11	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	2.	2.	NUM	raðnr_þgf_kk	Case=Dat|Gender=Masc|NumType=Ord	13	amod	_	tag=raðnr_þgf_kk
-13	flokki	flokkur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk
+13	flokki	flokkur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	annað	annar	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	tag=fn_et_þf_hk
 16	árið	ár	ADV	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	8	advmod	_	tag=no_et_þf_hk_gr
 17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	röð	röð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þf_kvk
+18	röð	röð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

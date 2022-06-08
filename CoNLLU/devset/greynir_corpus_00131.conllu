@@ -7,7 +7,7 @@
 5	og	og	CCONJ	st	_	1	cc	_	tag=st
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	landi	land	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk
-8	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+8	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 9	fordæmalaus	fordæmalaus	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_fst_sb
 10	og	og	CCONJ	st	_	9	cc	_	tag=st
 11	20	20	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	13	nummod	_	tag=tala_ft_nf_hk
@@ -25,16 +25,16 @@
 
 # sent_id = GREYNIR_CORPUS_00131,.2
 # text = Fréttamynd ársins: Tveir ungir hælisleitendur frá Íran voru dregnir út úr Laugarneskirkju í sumar með lögregluvaldi og sendir til Noregs.
-1	Fréttamynd	fréttamynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	tag=no_et_nf_kvk
+1	Fréttamynd	fréttamynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 2	ársins	ár	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
-3	:	_	PUNCT	grm	_	10	punct	_	tag=grm
+3	:	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	Tveir	tveir	NUM	to_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nummod	_	tag=to_ft_nf_kk
 5	ungir	ungur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_nf_kk_sb
 6	hælisleitendur	hælisleitandi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	tag=no_ft_nf_kk
 7	frá	frá	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	Íran	Íran	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=sérnafn_et_þgf_hk
-9	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	aux	_	tag=so_0_fh_p3_ft_þt_gm
-10	dregnir	draga	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
+9	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p3_ft_þt_gm
+10	dregnir	draga	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	1	conj	_	tag=so_0_lhþt_ft
 11	út	út	ADV	ao	_	13	advmod	_	tag=ao
 12	úr	úr	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Laugarneskirkju	Laugarneskirkja	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=sérnafn_et_þgf_kvk
@@ -46,7 +46,7 @@
 19	sendir	senda	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	10	conj	_	tag=so_0_lhþt_ft
 20	til	til	ADP	fs_ef	Case=Gen	21	case	_	tag=fs_ef
 21	Noregs	Noregur	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|tag=sérnafn_et_ef_kk
-22	.	_	PUNCT	grm	_	10	punct	_	tag=grm
+22	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00131,.3
 # text = Úrskurður verður kveðinn upp í í undirrétti í Bretlandi í dag um hvort vopnasala breskra stjórnvalda til Sádí Arabíu sé lögleg.
@@ -54,8 +54,8 @@
 2	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	kveðinn	kveða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	upp	upp	ADV	ao	_	3	compound:prt	_	tag=ao
-5	í	í	X	x		7	case	_	tag=x
-6	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+5	í	í	X	x	_	7	case	_	tag=x
+6	í	í	ADP	fs_þgf	Case=Dat	5	fixed	_	tag=fs_þgf
 7	undirrétti	undirréttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	Bretlandi	Bretland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=sérnafn_et_þgf_hk
@@ -67,10 +67,9 @@
 15	breskra	breskur	ADJ	lo_ft_ef_hk_sb	Case=Gen|Gender=Neut|Number=Plur	16	amod	_	tag=lo_ft_ef_hk_sb
 16	stjórnvalda	stjórnvald	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	nmod:poss	_	tag=no_ft_ef_hk
 17	til	til	ADP	fs_ef	Case=Gen	18	case	_	tag=fs_ef
-18-19	Sádí Arabíu	_	_	_	_	_	_	_	_
 18	Sádí	Sádí	PROPN	sérnafn_ef_kvk	Case=Gen|Gender=Fem	14	obl	_	tag=sérnafn_ef_kvk
-19	Arabíu	Arabía	PROPN	sérnafn_ef_kvk	Case=Gen|Gender=Fem	18	flat	_	tag=sérnafn_ef_kvk
-20	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+19	Arabíu	Arabía	PROPN	sérnafn_ef_kvk	Case=Gen|Gender=Fem	18	flat	_	MWEEnd=Yes|tag=sérnafn_ef_kvk
+20	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 21	lögleg	löglegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 22	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
@@ -107,7 +106,7 @@
 6	Bandaríkjaher	bandaríkjaher	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_kk
 7	um	um	ADP	fs_nh	VerbForm=Inf	10	case	_	tag=fs_nh
 8	að	að	PART	nhm	_	10	mark	_	tag=nhm
-9	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	10	cop	_	tag=so_1_nf_nh_gm
+9	vera	vera	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	10	cop	_	tag=so_1_nf_nh_gm
 10	hluti	hluti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 11	af	af	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	sérstöku	sérstakur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	13	amod	_	tag=lo_et_þgf_hk_sb
@@ -127,7 +126,7 @@
 1	Karen	Karen	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	nsubj	_	tag=person_nf_kvk
 2	segist	segja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 3	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	aux	_	tag=so_0_nh_gm
-4	gætt	gæta	VERB	so_1_ef_sagnb_gm	Case=Gen|VerbForm=Sup|Voice=Act	2	csubj	_	tag=so_1_ef_sagnb_gm
+4	gætt	gæta	VERB	so_1_ef_sagnb_gm	Case=Gen|VerbForm=Sup|Voice=Act	2	obl	_	tag=so_1_ef_sagnb_gm
 5	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	obj	_	tag=fn_et_ef_hk
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	halda	halda	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þgf_nh_gm
@@ -152,7 +151,7 @@
 1	Öryggisráð	öryggisráð	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=sérnafn_et_nf_hk
 2	Sameinuðu	sameinaður	ADJ	lo_ft_ef_kvk_fst_vb	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	tag=lo_ft_ef_kvk_fst_vb
 3	þjóðanna	þjóð	NOUN	no_ft_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk_gr
-4	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_þt_gm
+4	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	kallað	kalla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	saman	saman	ADV	ao	_	5	advmod	_	tag=ao
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -174,7 +173,7 @@
 
 # sent_id = GREYNIR_CORPUS_00131,.8
 # text = Kári, hví læturðu ekki umskera sjálfan þig, svona til prufu og að gamni, og sleppir svo messuvíninu næst?
-1	Kári	Kári	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=person_nf_kk
+1	Kári	Kári	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	dep	_	SpaceAfter=No|tag=person_nf_kk
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	hví	hví	ADV	ao	_	4	advmod	_	tag=ao
 4	læturðu	láta	VERB	so_0_fh_p2_et_nt_gm_sn	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p2_et_nt_gm_sn
@@ -191,7 +190,7 @@
 15	gamni	gaman	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 17	og	og	CCONJ	st	_	4	cc	_	tag=st
-18	sleppir	sleppa	VERB	so_1_þgf_fh_p2_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	4	VANTAR_LIÐ_IP_None	_	tag=so_1_þgf_fh_p2_et_nt_gm
+18	sleppir	sleppa	VERB	so_1_þgf_fh_p2_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	4	dep	_	tag=so_1_þgf_fh_p2_et_nt_gm
 19	svo	svo	ADV	ao	_	18	advmod	_	tag=ao
 20	messuvíninu	messuvín	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	18	obj	_	tag=no_et_þgf_hk_gr
 21	næst	næst	ADV	ao_est	Degree=Sup	18	advmod	_	SpaceAfter=No|tag=ao_est
@@ -202,9 +201,8 @@
 1	Thornton	Thornton	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 2	segir	segja	VERB	so_2_þf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þf_þf_fh_p3_et_nt_gm
 3	ásakanirnar	ásökun	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	tag=no_ft_þf_kvk_gr
-4-5	á hendur	_	_	_	_	_	_	_	_
 4	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-5	hendur	hendur	ADP	fs_þf	Case=Acc	4	fixed	_	tag=fs_þf
+5	hendur	hendur	ADP	fs_þf	Case=Acc	4	fixed	_	MWEEnd=Yes|tag=fs_þf
 6	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	tag=pfn_et_þgf_kk_p3
 7	algeran	alger	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
 8	uppspuna	uppspuni	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|tag=no_et_þf_kk
@@ -239,7 +237,7 @@
 12	og	og	CCONJ	st	_	13	cc	_	tag=st
 13	markvarsla	markvarsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	tag=no_et_nf_kvk
 14	Akureyrar	Akureyri	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	11	nmod:poss	_	tag=sérnafn_et_ef_kvk
-15	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+15	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 16	betri	góður	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	9	ccomp	_	tag=lo_et_nf_kvk_mst
 17	en	en	CCONJ	st	_	18	cc	_	tag=st
 18	vörn	vörn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	16	advcl	_	tag=no_et_nf_kvk

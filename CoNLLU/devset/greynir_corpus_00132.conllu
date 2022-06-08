@@ -1,31 +1,30 @@
 # sent_id = GREYNIR_CORPUS_00132,.1
 # text = Sjá einnig: Bónorðið kom Hönnu Rún í opna skjöldu - Giftist átrúnaðargoðinu sínu: Ótrúlegt hvernig lífið er.
-1	Sjá	sjá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	conj	_	tag=so_0_nh_gm
+1	Sjá	sjá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
 2	einnig	einnig	ADV	ao	_	1	advmod	_	SpaceAfter=No|tag=ao
 3	:	:	PUNCT	grm	_	2	punct	_	tag=grm
 4	Bónorðið	bónorð	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk_gr
-5	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
-6-7	Hönnu Rún	_	_	_	_	_	_	_	_
+5	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_þt_gm
 6	Hönnu	Hanna	PROPN	person_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=person_et_þgf_kvk
-7	Rún	Rún	PROPN	person_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	flat	_	tag=person_et_þgf_kvk
+7	Rún	Rún	PROPN	person_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	flat	_	MWEEnd=Yes|tag=person_et_þgf_kvk
 8	í	í	ADP	fs	_	10	case	_	tag=fs
 9	opna	opinn	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	10	amod	_	tag=lo_ft_þf_kk_sb
-10	skjöldu	skjöldur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
+10	skjöldu	skjöldur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	tag=no_ft_þf_kk
 11	-	-	PUNCT	grm	_	12	punct	_	tag=grm
-12	Giftist	gifta	VERB	so_1_þgf_fh_p3_et_þt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	5	conj	_	tag=so_1_þgf_fh_p3_et_þt_mm
+12	Giftist	gifta	VERB	so_1_þgf_fh_p3_et_þt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	1	conj	_	tag=so_1_þgf_fh_p3_et_þt_mm
 13	átrúnaðargoðinu	átrúnaðargoð	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obj	_	tag=no_et_þgf_hk
 14	sínu	sinn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No|tag=fn_et_þgf_hk
 15	:	:	PUNCT	grm	_	14	punct	_	tag=grm
-16	Ótrúlegt	ótrúlegur	ADJ	lo_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	ccomp	_	tag=lo_et_nf_hk
-17	hvernig	hvernig	ADV	ao	_	16	VANTAR_LIÐ	_	tag=ao
+16	Ótrúlegt	ótrúlegur	ADJ	lo_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	xcomp	_	tag=lo_et_nf_hk
+17	hvernig	hvernig	ADV	ao	_	16	xcomp	_	tag=ao
 18	lífið	líf	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	tag=no_et_nf_hk
-19	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	VANTAR_LIÐ_IP_None	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
-20	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+19	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	dep	_	SpaceAfter=No|tag=so_0_fh_p3_et_nt_gm
+20	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00132,.2
 # text = Árásir voru gerðar á húsið, bæði úr orrustuþotum og með drónum, en leifar Hellfire flugskeytis fundust á vettvangi árásarinnar.
 1	Árásir	árás	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk
-2	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_fh_p3_ft_þt_gm
+2	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_þt_gm
 3	gerðar	gera	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	á	á	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	húsið	hús	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
@@ -64,13 +63,12 @@
 13	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obl	_	tag=pfn_et_þgf_hk_p3
 14	slík	slíkur	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	tag=fn_et_nf_kvk
 15	athugun	athugun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	tag=no_et_nf_kvk
-16	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	aux	_	tag=so_0_fh_p3_et_þt_gm
+16	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_0_fh_p3_et_þt_gm
 17	síðast	síðar	ADV	ao_est	Degree=Sup	18	advmod	_	tag=ao_est
 18	gerð	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	advcl	_	SpaceAfter=No|tag=so_0_lhþt_et
 19	,	_	PUNCT	grm	_	18	punct	_	tag=grm
-20-21	árið 2009	_	_	_	_	_	_	_	_
-20	árið	árið	ADV	ártal	_	18	advmod	_	SpaceAfter=No|tag=ártal
-21	2009	2009	NUM	ártal	_	20	flat	_	SpaceAfter=No|tag=ártal
+20	árið	árið	ADV	ártal	_	18	advmod	_	tag=ártal
+21	2009	2009	NUM	ártal	_	20	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=ártal
 22	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00132,.4
@@ -83,9 +81,8 @@
 6	á	á	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	Rosberg	Rosberg	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	tag=person_et_nf_kk
-9-10	hins vegar	_	_	_	_	_	_	_	_
 9	hins	hins	ADV	ao	_	11	advmod	_	tag=ao
-10	vegar	vegar	ADV	ao	_	9	fixed	_	tag=ao
+10	vegar	vegar	ADV	ao	_	9	fixed	_	MWEEnd=Yes|tag=ao
 11	missti	missa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 12	Ricciardo	Ricciardo	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	tag=person_et_þf_kk
 13	fram	fram	ADV	ao	_	15	advmod	_	tag=ao
@@ -108,19 +105,17 @@
 5	báðir	báðir	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	obl	_	tag=fn_ft_nf_kk
 6	snemma	snemma	ADV	ao	_	2	advmod	_	tag=ao
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
-8-10	nóvember árið 2017	_	_	_	_	_	_	_	_
 8	nóvember	nóvember	NOUN	dagsafs	_	6	obl	_	tag=dagsafs
 9	árið	árið	NOUN	dagsafs	_	8	flat	_	tag=dagsafs
-10	2017	2017	NOUN	dagsafs	_	8	flat	_	tag=dagsafs
+10	2017	2017	NOUN	dagsafs	_	8	flat	_	MWEEnd=Yes|tag=dagsafs
 11	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	þingflokksfundi	þingflokksfundur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
-14-15	skömmu eftir	_	_	_	_	_	_	_	_
-14	skömmu	skömmu	ADP	fs	_	19	mark	_	tag=fs
-15	eftir	eftir	ADP	fs	_	14	fixed	_	tag=fs
-16	að	að	SCONJ	st	_	14	cc	_	tag=st
+14	skömmu	skömmu	ADP	fs	_	19	case	_	tag=fs
+15	eftir	eftir	ADP	fs	_	14	fixed	_	MWEEnd=Yes|tag=fs
+16	að	að	SCONJ	st	_	14	fixed	_	tag=st
 17	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	tag=pfn_ft_nf_p1
-18	vorum	vera	VERB	so_1_nf_fh_p1_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	19	cop	_	tag=so_1_nf_fh_p1_ft_þt_gm
+18	vorum	vera	AUX	so_1_nf_fh_p1_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	19	cop	_	tag=so_1_nf_fh_p1_ft_þt_gm
 19	kjörin	kjörinn	ADJ	lo_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	advcl	_	tag=lo_ft_nf_hk
 20	á	á	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 21	þing	þing	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þf_hk
@@ -129,30 +124,26 @@
 # sent_id = GREYNIR_CORPUS_00132,.6
 # text = Frá 1. júlí 2017 til 1. apríl 2018 hafa laun bankastjóra Landsbankans hækkað úr 2.089 þúsund krónum í 3.800 þúsund krónur.
 1	Frá	frá	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2-4	1. júlí 2017	_	_	_	_	_	_	_	_
 2	1.	1.	ADV	dagsföst	_	13	advmod	_	tag=dagsföst
 3	júlí	júlí	NOUN	dagsföst	_	2	flat	_	tag=dagsföst
-4	2017	2017	NOUN	dagsföst	_	2	flat	_	tag=dagsföst
+4	2017	2017	NOUN	dagsföst	_	2	flat	_	MWEEnd=Yes|tag=dagsföst
 5	til	til	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
-6-8	1. apríl 2018	_	_	_	_	_	_	_	_
 6	1.	1.	NOUN	dagsföst	_	2	obl	_	tag=dagsföst
 7	apríl	apríl	NOUN	dagsföst	_	6	flat	_	tag=dagsföst
-8	2018	2018	NOUN	dagsföst	_	6	flat	_	tag=dagsföst
+8	2018	2018	NOUN	dagsföst	_	6	flat	_	MWEEnd=Yes|tag=dagsföst
 9	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_fh_p3_ft_nt_gm
 10	laun	laun	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	tag=no_ft_nf_hk
 11	bankastjóra	bankastjóri	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	10	nmod:poss	_	tag=no_et_ef_kk
 12	Landsbankans	landsbanki	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod:poss	_	tag=fyrirtæki_et_ef_kk_gr
 13	hækkað	hækka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 14	úr	úr	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15-17	2.089 þúsund krónum	_	_	_	_	_	_	_	_
 15	2.089	2.089	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	tag=no_ft_þgf_kvk
 16	þúsund	þúsund	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	flat	_	tag=no_ft_þgf_kvk
-17	krónum	krónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	flat	_	tag=no_ft_þgf_kvk
+17	krónum	krónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	15	flat	_	MWEEnd=Yes|tag=no_ft_þgf_kvk
 18	í	í	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-19-21	3.800 þúsund krónur	_	_	_	_	_	_	_	_
-19	3.800	3.800	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
-20	þúsund	þúsund	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	19	flat	_	SpaceAfter=No|tag=no_ft_þf_kvk
-21	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	19	flat	_	SpaceAfter=No|tag=no_ft_þf_kvk
+19	3.800	3.800	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	tag=no_ft_þf_kvk
+20	þúsund	þúsund	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	19	flat	_	tag=no_ft_þf_kvk
+21	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	19	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_ft_þf_kvk
 22	.	_	PUNCT	grm	_	13	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00132,.7
@@ -166,7 +157,7 @@
 7	sérstaklega	sérstaklega	ADV	ao	_	4	advmod	_	tag=ao
 8	en	en	CCONJ	st	_	4	cc	_	tag=st
 9	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_hk_p3
-10	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 11	markmið	markmið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	tag=no_et_nf_hk
 12	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	11	nmod:poss	_	tag=pfn_ft_ef_p1
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
@@ -183,15 +174,14 @@
 # text = Markið gerði Jón Gísli Ström úr vítaspyrnu þegar komið var framyfir leiktímann en hann kom inná sem varamaður seint í leiknum.
 1	Markið	mark	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk_gr
 2	gerði	gera	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3-5	Jón Gísli Ström	_	_	_	_	_	_	_	_
 3	Jón	Jón	PROPN	person_þf_kk	Case=Acc|Gender=Masc	2	nsubj	_	tag=person_þf_kk
 4	Gísli	Gísli	PROPN	person_þf_kk	Case=Acc|Gender=Masc	3	flat	_	tag=person_þf_kk
-5	Ström	Ström	PROPN	person_þf_kk	Case=Acc|Gender=Masc	3	flat	_	tag=person_þf_kk
+5	Ström	Ström	PROPN	person_þf_kk	Case=Acc|Gender=Masc	3	flat	_	MWEEnd=Yes|tag=person_þf_kk
 6	úr	úr	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	vítaspyrnu	vítaspyrna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 8	þegar	þegar	SCONJ	st	_	9	mark	_	tag=st
 9	komið	koma	VERB	so_1_þf_lhþt_et	Case=Acc|Number=Sing|VerbForm=Part	2	advcl	_	tag=so_1_þf_lhþt_et
-10	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_þt_gm
+10	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_þt_gm
 11	framyfir	framyfir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	leiktímann	leiktími	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þf_hk
 13	en	en	CCONJ	st	_	2	cc	_	tag=st
@@ -208,7 +198,7 @@
 # sent_id = GREYNIR_CORPUS_00132,.9
 # text = Líklega eru þeir þó of seinir til því skoðanakannanir sýna að Trump leiðir slaginn í flestum fylkjum ofurþriðjudagsins og fleiri til.
 1	Líklega	líklega	ADV	ao	_	6	advmod	_	tag=ao
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_ft_nf_kk_p3
 4	þó	þó	ADV	ao	_	6	advmod	_	tag=ao
 5	of	of	ADV	eo	_	6	advmod	_	tag=eo
@@ -234,12 +224,12 @@
 # text = Sú áhersla er liður í því að tryggja aðgengi að öruggri og góðri heilbrigðisþjónustu óháð efnahag, búsetu og þjóðfélagsstöðu.
 1	Sú	sá	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	tag=fn_et_nf_kvk
 2	áhersla	áhersla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	liður	liður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
-5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
+5	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	tag=fn_et_þgf_hk
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	tryggja	tryggja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_1_þf_nh_gm
+8	tryggja	tryggja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	obl	_	tag=so_1_þf_nh_gm
 9	aðgengi	aðgengi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	tag=no_et_þf_hk
 10	að	að	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 11	öruggri	öruggur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_þgf_kvk_sb

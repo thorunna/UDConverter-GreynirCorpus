@@ -36,15 +36,14 @@
 13	skýrslu	skýrsla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obj	_	tag=no_et_þgf_kvk
 14	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	tag=fn_et_þgf_kvk
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16-17	apríl 2010	_	_	_	_	_	_	_	_
-16	apríl	apríl	ADV	dagsafs	_	12	advmod	_	SpaceAfter=No|tag=dagsafs
-17	2010	2010	NOUN	dagsafs	_	16	flat	_	SpaceAfter=No|tag=dagsafs
+16	apríl	apríl	ADV	dagsafs	_	12	advmod	_	tag=dagsafs
+17	2010	2010	NOUN	dagsafs	_	16	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00268,.3
 # text = Það er akkúrat það sem ég var að fjalla um í greininni minni frá því í morgun.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	akkúrat	akkúrat	ADV	ao	_	4	advmod	_	tag=ao
 4	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
 5	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
@@ -58,9 +57,8 @@
 13	minni	minn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	tag=fn_et_þgf_kvk
 14	frá	frá	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	því	það	ADV	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	advmod	_	tag=pfn_et_þgf_hk_p3
-16-17	í morgun	_	_	_	_	_	_	_	_
-16	í	í	ADV	eo	_	15	advmod	_	SpaceAfter=No|tag=eo
-17	morgun	morgun	ADV	eo	_	16	fixed	_	SpaceAfter=No|tag=eo
+16	í	í	ADV	eo	_	15	advmod	_	tag=eo
+17	morgun	morgun	ADV	eo	_	16	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=eo
 18	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00268,.4
@@ -87,18 +85,18 @@
 # sent_id = GREYNIR_CORPUS_00268,.5
 # text = Aðgerðin sé lögleg og gerð á viðurkenndan hátt þannig að heilsu barnsins sé ekki stefnt í hættu.
 1	Aðgerðin	aðgerð	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-2	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_vh_p3_et_nt_gm
+2	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_vh_p3_et_nt_gm
 3	lögleg	löglegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	gerð	gerður	ADJ	lo_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	tag=lo_et_nf_kvk
 6	á	á	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 7	viðurkenndan	viðurkenndur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_þf_kk_sb
 8	hátt	háttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
-9	þannig	þannig	ADV	ao	_	15	mark	_	tag=ao
-10	að	að	SCONJ	st	_	9	cc	_	tag=st
+9	þannig	þannig	ADV	ao	_	10	advmod	_	tag=ao
+10	að	að	SCONJ	st	_	15	mark	_	tag=st
 11	heilsu	heilsa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	nsubj	_	tag=no_et_þgf_kvk
 12	barnsins	barn	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	11	nmod:poss	_	tag=no_et_ef_hk_gr
-13	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_vh_p3_et_nt_gm
+13	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_vh_p3_et_nt_gm
 14	ekki	ekki	ADV	ao	_	15	advmod	_	tag=ao
 15	stefnt	stefna	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	3	advcl	_	tag=so_1_þgf_sagnb_gm
 16	í	í	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
@@ -129,18 +127,17 @@
 # sent_id = GREYNIR_CORPUS_00268,.7
 # text = Það var erfitt fyrst að sjálfsögðu, en síðan var eins og þetta vendist sagði Birgir.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	erfitt	erfiður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	fyrst	fyrst	ADV	ao	_	3	advmod	_	tag=ao
-5-6	að sjálfsögðu	_	_	_	_	_	_	_	_
-5	að	að	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
-6	sjálfsögðu	sjálfsögðu	ADV	ao	_	5	fixed	_	SpaceAfter=No|tag=ao
+5	að	að	ADV	ao	_	3	advmod	_	tag=ao
+6	sjálfsögðu	sjálfsögðu	ADV	ao	_	5	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 7	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 8	en	en	CCONJ	st	_	3	cc	_	tag=st
 9	síðan	síðan	ADV	ao	_	10	advmod	_	tag=ao
 10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_þt_gm
-11	eins	eins	ADV	ao	_	14	cc	_	tag=ao
-12	og	og	CCONJ	st	_	11	cc	_	tag=st
+11	eins	eins	ADV	ao	_	12	advmod	_	tag=ao
+12	og	og	CCONJ	st	_	14	mark	_	tag=st
 13	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=fn_et_nf_hk
 14	vendist	venja	VERB	so_0_vh_p3_et_þt_mm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Mid	10	advcl	_	tag=so_0_vh_p3_et_þt_mm
 15	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	ccomp	_	tag=so_0_fh_p3_et_þt_gm
@@ -180,7 +177,7 @@
 8	hátíðin	hátíð	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk_gr
 9	fái	fá	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	obl	_	tag=so_0_vh_p3_et_nt_gm
 10	að	að	PART	nhm	_	13	mark	_	tag=nhm
-11	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	cop	_	tag=so_0_nh_gm
+11	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	cop	_	tag=so_0_nh_gm
 12	áfram	áfram	ADV	ao	_	13	advmod	_	tag=ao
 13	hluti	hluti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	xcomp	_	tag=no_et_nf_kk
 14	af	af	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
@@ -204,7 +201,7 @@
 12	þar	þar	ADV	ao	_	9	advmod	_	tag=ao
 13	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
 14	ekkert	enginn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	tag=fn_et_nf_hk
-15	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_0_fh_p3_et_nt_gm
+15	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_0_fh_p3_et_nt_gm
 16	undan	undan	ADV	ao	_	17	advmod	_	tag=ao
 17	dregið	draga	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	advcl	_	SpaceAfter=No|tag=so_0_lhþt_et
 18	.	_	PUNCT	grm	_	7	punct	_	tag=grm

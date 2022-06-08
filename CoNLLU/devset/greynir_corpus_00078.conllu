@@ -2,20 +2,18 @@
 # text = Þeir fremja 90 prósent allra manndrápa í Bandaríkjunum og eru 77 prósent fórnarlamba manndrápa.
 1	Þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_kk_p3
 2	fremja	fremja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
-3-4	90 prósent	_	_	_	_	_	_	_	_
 3	90	90	NUM	prósenta_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	nummod	_	tag=prósenta_ft_þf_kvk
-4	prósent	prósent	NUM	prósenta_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	_	_	tag=prósenta_ft_þf_kvk
+4	prósent	prósent	NUM	prósenta_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	flat	_	MWEEnd=Yes|tag=prósenta_ft_þf_kvk
 5	allra	allur	PRON	fn_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	tag=fn_ft_ef_hk
 6	manndrápa	manndráp	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	obj	_	tag=no_ft_ef_hk
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	Bandaríkjunum	Bandaríkin	PROPN	sérnafn_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	6	obl	_	tag=sérnafn_ft_þgf_hk_gr
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
-10	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
-11-12	77 prósent	_	_	_	_	_	_	_	_
-11	77	77	NUM	prósenta_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	nummod	_	tag=prósenta_ft_nf_kvk
-12	prósent	prósent	NUM	prósenta_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	11	_	_	tag=prósenta_ft_nf_kvk
-13	fórnarlamba	fórnarlamb	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	cop	_	tag=no_ft_ef_hk
-14	manndrápa	manndráp	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
+10	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+11	77	77	NUM	prósenta_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	13	nummod	_	tag=prósenta_ft_nf_kvk
+12	prósent	prósent	NUM	prósenta_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	11	flat	_	MWEEnd=Yes|tag=prósenta_ft_nf_kvk
+13	fórnarlamba	fórnarlamb	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	conj	_	tag=no_ft_ef_hk
+14	manndrápa	manndráp	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	13	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00078,.2
@@ -23,12 +21,12 @@
 1	Að	að	PART	nhm	_	2	mark	_	tag=nhm
 2	eiga	eiga	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	xcomp	_	tag=so_1_þf_nh_gm
 3	mann	maður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk
-4	eins	eins	ADV	ao	_	6	cc	_	tag=ao
-5	og	og	CCONJ	st	_	4	cc	_	tag=st
+4	eins	eins	ADV	ao	_	5	advmod	_	tag=ao
+5	og	og	CCONJ	st	_	6	mark	_	tag=st
 6	Þórð	Þórður	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	advcl	_	tag=person_et_nf_kk
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	Skógum	Skógar	PROPN	sérnafn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	tag=sérnafn_ft_þgf_kk
-9	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+9	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 10	ómetanleg	ómetanlegur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	11	amod	_	tag=lo_ft_nf_hk_sb
 11	verðmæti	verðmæti	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_nf_hk
 12	fyrir	fyrir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
@@ -41,14 +39,14 @@
 1	Næstur	næstur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=lo_et_nf_kk_sb
 2	inn	inn	ADV	ao	_	5	advmod	_	tag=ao
 3	þar	þar	ADV	ao	_	5	advmod	_	tag=ao
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	repúblikani	repúblikani	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
 7	þýðir	þýða	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 8	að	að	SCONJ	st	_	12	mark	_	tag=st
 9	staða	staða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_nf_kvk
 10	demókrataflokksins	demókrataflokkur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kk_gr
-11	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_þt_gm
+11	yrði	verða	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_þt_gm
 12	veikari	veikur	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	7	ccomp	_	tag=lo_et_nf_kvk_mst
 13	fyrir	fyrir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	vikið	vik	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þf_hk_gr
@@ -78,7 +76,7 @@
 2	gamli	gamall	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	tag=lo_et_nf_kk_vb
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	trúlega	trúlega	ADV	ao	_	6	advmod	_	tag=ao
-5	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	cop	_	tag=so_0_sagnb_gm
+5	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	cop	_	tag=so_0_sagnb_gm
 6	ánægður	ánægður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 7	með	með	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 8	nokkrar	nokkur	PRON	fn_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	tag=fn_ft_þf_kvk
@@ -98,14 +96,14 @@
 4	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	nýrri	nýr	ADJ	lo_et_þgf_kvk_fst	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_þgf_kvk_fst
 6	heilabilunardeild	heilabilunardeild	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
-7	á	á	ADP	fs	_	8	case	_	tag=fs
-8	Hraunbúðum	Hraunbúðir	PROPN	sérnafn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_kvk
-9	,	_	PUNCT	grm	_	10	punct	_	tag=grm
-10	dvalarheimili	dvalarheimili	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	conj	_	tag=no_et_þgf_hk
-11	aldraðra	aldraður	ADJ	lo_et_ef_kk_fst_sb	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=lo_et_ef_kk_fst_sb
+7	á	á	ADP	fs	_	10	case	_	tag=fs
+8	Hraunbúðum	Hraunbúðir	PROPN	sérnafn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No|tag=sérnafn_ft_þgf_kvk
+9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
+10	dvalarheimili	dvalarheimili	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
+11	aldraðra	aldraður	ADJ	lo_et_ef_kk_fst_sb	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	nmod:poss	_	SpaceAfter=No|tag=lo_et_ef_kk_fst_sb
 12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	Vestmannaeyjum	Vestmannaeyjar	PROPN	sérnafn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_kvk
+14	Vestmannaeyjum	Vestmannaeyjar	PROPN	sérnafn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_kvk
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00078,.7
@@ -132,9 +130,8 @@
 2	fylgdi	fylgja	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 3	rannsókn	rannsókn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk
 4	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
-5-6	meðal annars	_	_	_	_	_	_	_	_
 5	meðal	meðal	ADV	ao	_	7	advmod	_	tag=ao
-6	annars	annars	ADV	ao	_	5	fixed	_	tag=ao
+6	annars	annars	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 7	notaðist	nota	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	acl:relcl	_	tag=so_0_fh_p3_et_þt_mm
 8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	húsleitir	húsleit	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þf_kvk
@@ -148,16 +145,14 @@
 # sent_id = GREYNIR_CORPUS_00078,.9
 # text = Hönnuðurinn Adrian Newey sem starfar hjá Red Bull er talinn sá færasti í faginu.
 1	Hönnuðurinn	hönnuður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
-2-3	Adrian Newey	_	_	_	_	_	_	_	_
 2	Adrian	Adrian	PROPN	person	_	10	nsubj	_	tag=person
-3	Newey	Newey	PROPN	person	_	2	flat	_	tag=person
+3	Newey	Newey	PROPN	person	_	2	flat	_	MWEEnd=Yes|tag=person
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	starfar	starfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 6	hjá	hjá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7-8	Red Bull	_	_	_	_	_	_	_	_
 7	Red	Red	PROPN	fyrirtæki	_	5	obl	_	tag=fyrirtæki
-8	Bull	Bull	PROPN	fyrirtæki	_	7	flat	_	tag=fyrirtæki
-9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
+8	Bull	Bull	PROPN	fyrirtæki	_	7	flat	_	MWEEnd=Yes|tag=fyrirtæki
+9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	talinn	telja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 11	sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	iobj	_	tag=fn_et_nf_kk
 12	færasti	fær	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_nf_kk_evb
@@ -179,8 +174,7 @@
 10	fækkun	fækkun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þf_kvk
 11	starfa	starf	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	10	nmod:poss	_	tag=no_ft_ef_hk
 12	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13-14	250 þúsund	_	_	_	_	_	_	_	_
-13	250	250	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No|tag=töl_ft_þf_hk
-14	þúsund	þúsund	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	13	_	_	SpaceAfter=No|tag=töl_ft_þf_hk
+13	250	250	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	tag=töl_ft_þf_hk
+14	þúsund	þúsund	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	13	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=töl_ft_þf_hk
 15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

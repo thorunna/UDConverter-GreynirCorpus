@@ -5,11 +5,10 @@
 3	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 4	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_kk_p3
 5	sendi	senda	VERB	so_2_þf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	tag=so_2_þf_þf_fh_p3_et_þt_gm
-6-9	The New York Times	_	_	_	_	_	_	_	_
 6	The	The	PROPN	fyrirtæki	_	5	obj	_	tag=fyrirtæki
 7	New	New	PROPN	fyrirtæki	_	6	flat	_	tag=fyrirtæki
 8	York	York	PROPN	fyrirtæki	_	6	flat	_	tag=fyrirtæki
-9	Times	Times	PROPN	fyrirtæki	_	6	flat	_	tag=fyrirtæki
+9	Times	Times	PROPN	fyrirtæki	_	6	flat	_	MWEEnd=Yes|tag=fyrirtæki
 10	biðst	biðja	VERB	so_1_ef_fh_p3_et_nt_mm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_ef_fh_p3_et_nt_mm
 11	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_kk_p3
 12	afsökunar	afsökun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	obj	_	tag=no_et_ef_kvk
@@ -17,17 +16,17 @@
 14	þessari	þessi	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	tag=fn_et_þgf_kvk
 15	hegðun	hegðun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk
 16	og	og	CCONJ	st	_	10	cc	_	tag=st
-17	segist	segja	AUX	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	19	aux	_	tag=so_0_fh_p3_et_nt_mm
-18	hafa	haf	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	19	aux	_	tag=so_0_nh_gm
-19	reynt	reyna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	conj	_	tag=so_0_sagnb_gm
+17	segist	segja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	10	conj	_	tag=so_0_fh_p3_et_nt_mm
+18	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	19	aux	_	tag=so_0_nh_gm
+19	reynt	reyna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	17	xcomp	_	tag=so_0_sagnb_gm
 20	að	að	PART	nhm	_	21	mark	_	tag=nhm
 21	bæta	bæta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	19	xcomp	_	tag=so_1_þf_nh_gm
 22	ráð	ráð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	tag=no_et_þf_hk
 23	sitt	sinn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No|tag=fn_et_þf_hk
 24	,	,	PUNCT	grm	_	23	punct	_	tag=grm
 25	þó	þó	ADV	ao	_	29	mark	_	tag=ao
-26	svo	svo	ADV	ao	_	25	advmod	_	tag=ao
-27	að	að	SCONJ	st	_	25	cc	_	tag=st
+26	svo	svo	ADV	ao	_	25	fixed	_	tag=ao
+27	að	að	SCONJ	st	_	25	fixed	_	tag=st
 28	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	tag=pfn_et_þf_kk_p3
 29	eigi	eiga	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	advcl	_	tag=so_0_vh_p3_et_nt_gm
 30	langt	langt	ADV	ao	_	29	advmod	_	tag=ao
@@ -38,7 +37,7 @@
 # sent_id = GREYNIR_CORPUS_00476,.2
 # text = Það sé vísvitandi tilgangur ísraelskra stjórnvalda að viðhalda landtökubyggðunum í trássi við alþjóðalög til að koma í veg fyrir tveggja ríkja lausn sem fælist í stofnun sjálfstæðs ríkis Palestínu.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+2	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 3	vísvitandi	vísvitandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_sb
 4	tilgangur	tilgangur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	ísraelskra	ísraelskur	ADJ	lo_ft_ef_hk_sb	Case=Gen|Gender=Neut|Number=Plur	6	amod	_	tag=lo_ft_ef_hk_sb
@@ -72,7 +71,7 @@
 # text = Samkvæmt lögunum er veitt leyfi til að frelsissvipta og lögræðissvipta fólk á grundvelli geðsjúkdóms en það er ekki takmarkað við það ef fólk er hættulegt sjálfu sér eða öðrum.
 1	Samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	lögunum	lög	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þgf_hk_gr
-3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	veitt	veiddur	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	leyfi	leyfi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 6	til	til	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
@@ -82,18 +81,18 @@
 10	lögræðissvipta	lögræðis-svipta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	conj	_	tag=so_1_þf_nh_gm
 11	fólk	fólk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	tag=no_et_þf_hk
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	grundvelli	grundvöllur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	VANTAR_LIÐ_IP_None	_	tag=no_et_þgf_kk
+13	grundvelli	grundvöllur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	dep	_	tag=no_et_þgf_kk
 14	geðsjúkdóms	geðsjúkdómur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	13	nmod:poss	_	tag=no_et_ef_kk
 15	en	en	CCONJ	st	_	4	cc	_	tag=st
 16	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_hk_p3
-17	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_0_fh_p3_et_nt_gm
+17	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_0_fh_p3_et_nt_gm
 18	ekki	ekki	ADV	eo	_	19	advmod	_	tag=eo
 19	takmarkað	takmarkaður	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	conj	_	tag=so_0_lhþt_et
 20	við	við	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 21	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obl	_	tag=pfn_et_þf_hk_p3
 22	ef	ef	SCONJ	st	_	25	mark	_	tag=st
 23	fólk	fólk	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	tag=no_et_nf_hk
-24	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+24	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 25	hættulegt	hættulegur	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	19	advcl	_	tag=lo_et_nf_hk_sb_sþgf
 26	sjálfu	sjálfur	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	27	nmod	_	tag=fn_et_þgf_hk
 27	sér	sig	PRON	abfn_þgf_hk	Case=Dat|Gender=Neut|PronType=Prs	25	obl	_	tag=abfn_þgf_hk
@@ -104,7 +103,7 @@
 # sent_id = GREYNIR_CORPUS_00476,.4
 # text = Það eru engar sérstakar eignir sem hafa fundist í búinu og óvíst hvort það komi eitthvað upp í úthlutun til þeirra krafna sem var lýst, segir Haukur Örn.
 1	Það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	eru	vera	VERB	so_1_nf_op_es_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_op_es_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_1_nf_op_es_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_op_es_fh_p3_ft_nt_gm
 3	engar	enginn	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	nmod	_	tag=fn_ft_nf_kvk
 4	sérstakar	sérstakur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	5	amod	_	tag=lo_ft_nf_kvk_sb
 5	eignir	eign	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_nf_kvk
@@ -130,9 +129,8 @@
 25	lýst	ljósta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	24	acl:relcl	_	SpaceAfter=No|tag=so_0_lhþt_et
 26	,	,	PUNCT	grm	_	27	punct	_	tag=grm
 27	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
-28-29	Haukur Örn	_	_	_	_	_	_	_	_
-28	Haukur	Haukur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	27	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-29	Örn	Örn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	28	flat	_	SpaceAfter=No|tag=person_nf_kk
+28	Haukur	Haukur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	27	nsubj	_	tag=person_nf_kk
+29	Örn	Örn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	28	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 30	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00476,.5
@@ -143,10 +141,10 @@
 4	eins	einn	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_þf_kvk_sb
 5	sterka	sterkur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_þf_kvk_sb
 6	rödd	rödd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
-7	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
-8	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_ef_hk
+7	til	til	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
+8	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	tag=fn_et_ef_hk
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
-10	berjast	berja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	8	xcomp	_	tag=so_0_nh_mm
+10	berjast	berja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	6	obl	_	tag=so_0_nh_mm
 11	fyrir	fyrir	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	eigin	eigin	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	13	amod	_	tag=lo_ft_þgf_hk_sb
 13	réttindum	réttindi	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	tag=no_ft_þgf_hk
@@ -188,7 +186,7 @@
 18	15	15	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	19	nummod	_	tag=tala_ft_þf_kvk
 19	mínútur	mínúta	ADV	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	23	advmod	_	tag=no_ft_þf_kvk
 20	þá	hann	ADV	ao	_	23	advmod	_	tag=ao
-21	vorum	vera	AUX	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	23	aux	_	tag=so_0_fh_p1_ft_þt_gm
+21	vorum	vera	AUX	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	23	cop	_	tag=so_0_fh_p1_ft_þt_gm
 22	við	við	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	tag=pfn_ft_nf_p1
 23	búnir	búa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	conj	_	tag=so_0_lhþt_ft
 24	að	að	PART	nhm	_	25	mark	_	tag=nhm
@@ -201,7 +199,7 @@
 # sent_id = GREYNIR_CORPUS_00476,.7
 # text = Bröndby er með 60 stig á toppi deildarinnar, jafn mörg stig og FC Midtjylland sem er í öðru sætinu vegna lakari markahlutfalls, Hobro er í sjöunda sæti deildarinnar.
 1	Bröndby	Bröndby	PROPN	fyrirtæki_nf	Case=Nom	2	nsubj	_	tag=fyrirtæki_nf
-2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	með	með	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 4	60	60	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_þf_hk
 5	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þf_hk
@@ -213,11 +211,10 @@
 11	mörg	margur	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	12	amod	_	tag=lo_ft_þf_hk_sb
 12	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þf_hk
 13	og	og	CCONJ	st	_	14	cc	_	tag=st
-14-15	FC Midtjylland	_	_	_	_	_	_	_	_
 14	FC	FC	PROPN	fyrirtæki	_	12	advcl	_	tag=fyrirtæki
-15	Midtjylland	Midtjylland	PROPN	fyrirtæki	_	14	flat	_	tag=fyrirtæki
+15	Midtjylland	Midtjylland	PROPN	fyrirtæki	_	14	flat	_	MWEEnd=Yes|tag=fyrirtæki
 16	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
-17	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_gm
+17	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	acl:relcl	_	tag=so_1_nf_fh_p3_et_nt_gm
 18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	öðru	annar	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	20	amod	_	tag=lo_et_þgf_hk_sb
 20	sætinu	sæti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	17	obl	_	tag=no_et_þgf_hk_gr
@@ -226,7 +223,7 @@
 23	markahlutfalls	marka-hlutfall	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_ef_hk
 24	,	,	PUNCT	grm	_	23	punct	_	tag=grm
 25	Hobro	Hobro	PROPN	fyrirtæki	_	26	nsubj	_	tag=fyrirtæki
-26	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
+26	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 27	í	í	ADP	fs_þgf	Case=Dat	29	case	_	tag=fs_þgf
 28	sjöunda	sjöund	ADJ	lo_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	29	amod	_	tag=lo_et_þgf_hk
 29	sæti	sitja	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	tag=no_et_þgf_hk
@@ -235,9 +232,9 @@
 
 # sent_id = GREYNIR_CORPUS_00476,.8
 # text = Þar sem að skuldabréfin, sem við í Kaupþingi ásamt viðskiptafélögum okkur höfðum keypt, voru skuldsett og höfðu nú lækkað í verði var aðeins um tvennt að ræða.
-1	Þar	þar	ADV	ao	_	17	mark	_	tag=ao
-2	sem	sem	SCONJ	st	_	3	cc	_	tag=st
-3	að	að	SCONJ	st	_	1	conj	_	tag=st
+1	Þar	þar	ADV	ao	_	2	advmod	_	tag=ao
+2	sem	sem	SCONJ	st	_	17	mark	_	tag=st
+3	að	að	SCONJ	st	_	2	cc	_	tag=st
 4	skuldabréfin	skuldabréf	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	17	nsubj	_	SpaceAfter=No|tag=no_ft_nf_hk_gr
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 6	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
@@ -250,7 +247,7 @@
 13	höfðum	hafa	AUX	so_0_fh_p1_ft_þt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Past|Voice=Act	14	aux	_	tag=so_0_fh_p1_ft_þt_gm
 14	keypt	kaupa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	acl:relcl	_	SpaceAfter=No|tag=so_0_sagnb_gm
 15	,	,	PUNCT	grm	_	14	punct	_	tag=grm
-16	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_0_fh_p3_ft_þt_gm
+16	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_0_fh_p3_ft_þt_gm
 17	skuldsett	skuldsetja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	24	advcl	_	tag=so_0_lhþt_ft
 18	og	og	CCONJ	st	_	17	cc	_	tag=st
 19	höfðu	hafa	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	21	aux	_	tag=so_0_fh_p3_ft_þt_gm
@@ -276,8 +273,8 @@
 6	fæddur	fæða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	acl:relcl	_	tag=so_0_lhþt_et
 7	utan	utan	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
 8	lands	land	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_ef_hk
-9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
-10	orðinn	verða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	cop	_	tag=so_0_lhþt_et
+9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
+10	orðinn	verða	AUX	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	cop	_	tag=so_0_lhþt_et
 11	svipaður	svipaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 12	og	og	CCONJ	st	_	11	advcl	_	tag=st
 13	vestra	vestra	ADV	eo	_	12	advmod	_	SpaceAfter=No|tag=eo
@@ -306,7 +303,7 @@
 3	um	um	ADP	fs_nh	VerbForm=Inf	4	case	_	tag=fs_nh
 4	að	að	SCONJ	st	_	2	obl	_	tag=st
 5	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_hk_p3
-6	er	er	AUX	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_op_es_fh_p3_et_nt_gm
+6	er	vera	AUX	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_op_es_fh_p3_et_nt_gm
 7	verið	ver	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	obl	_	tag=so_0_sagnb_gm
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	bregðast	bregða	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	7	ccomp	_	tag=so_0_nh_mm
@@ -320,12 +317,11 @@
 17	markmiðum	markmið	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	16	obj	_	tag=no_ft_þgf_hk
 18	ESB	Evrópusambandið	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	17	nmod:poss	_	tag=fyrirtæki_et_ef_hk
 19	að	að	PART	nhm	_	20	mark	_	tag=nhm
-20	auka	auka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	VANTAR_LIÐ_IP_None	_	SpaceAfter=No|tag=so_0_nh_gm
+20	auka	auka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	dep	_	SpaceAfter=No|tag=so_0_nh_gm
 21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
 22	og	og	CCONJ	st	_	20	cc	_	tag=st
-23-24	á endanum	_	_	_	_	_	_	_	_
 23	á	á	ADV	ao	_	20	advmod	_	tag=ao
-24	endanum	endanum	ADV	ao	_	23	fixed	_	tag=ao
+24	endanum	endanum	ADV	ao	_	23	fixed	_	MWEEnd=Yes|tag=ao
 25	nýta	nýta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	conj	_	tag=so_0_nh_gm
 26	eingöngu	eingöngu	ADV	ao	_	29	advmod	_	SpaceAfter=No|tag=ao
 27	,	,	PUNCT	grm	_	26	punct	_	tag=grm

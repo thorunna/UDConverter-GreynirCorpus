@@ -7,8 +7,8 @@
 5	og	og	CCONJ	st	_	1	cc	_	tag=st
 6	hrærið	hræri	VERB	so_0_bh_ft_gm	Mood=Imp|Number=Plur|Voice=Act	1	conj	_	tag=so_0_bh_ft_gm
 7	þangað	þangað	ADV	ao	_	11	mark	_	tag=ao
-8	til	til	ADP	fs_nh	VerbForm=Inf	7	case	_	tag=fs_nh
-9	að	að	SCONJ	st	_	7	cc	_	tag=st
+8	til	til	ADP	fs_nh	VerbForm=Inf	7	fixed	_	tag=fs_nh
+9	að	að	SCONJ	st	_	7	fixed	_	tag=st
 10	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kk_p3
 11	leysist	leysa	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	6	advcl	_	tag=so_0_fh_p3_et_nt_mm
 12	upp	upp	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
@@ -17,14 +17,14 @@
 # sent_id = GREYNIR_CORPUS_00234,.2
 # text = Við erum búin að æfa vel og laugin er rosalega fín.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
-2	erum	vera	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p1_ft_nt_gm
+2	erum	vera	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p1_ft_nt_gm
 3	búin	búinn	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	æfa	æfa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
 6	vel	vel	ADV	ao	_	5	advmod	_	tag=ao
 7	og	og	CCONJ	st	_	3	cc	_	tag=st
 8	laugin	laug	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_nf_kvk_gr
-9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	rosalega	rosalega	ADV	eo	_	11	advmod	_	tag=eo
 11	fín	fínn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
@@ -68,7 +68,7 @@
 3	bara	bara	ADV	eo	_	2	iobj	_	tag=eo
 4	að	að	SCONJ	st	_	7	mark	_	tag=st
 5	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	tag=fn_et_nf_hk
-6	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_vh_p3_et_þt_gm
+6	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_vh_p3_et_þt_gm
 7	óraunhæft	óraunhæfur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	ccomp	_	tag=lo_et_nf_hk_sb
 8	fyrir	fyrir	ADP	fs	_	11	case	_	tag=fs
 9	venjulega	venjulega	ADJ	lo_et_þf_kvk_vb	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	tag=lo_et_þf_kvk_vb
@@ -110,9 +110,8 @@
 
 # sent_id = GREYNIR_CORPUS_00234,.8
 # text = Kristín Eysteinsdóttir, leikstjóri Borgarleikhússins, sagði uppsögnina hafa verið vel ígrundaða.
-1-2	Kristín Eysteinsdóttir	_	_	_	_	_	_	_	_
-1	Kristín	Kristín	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No|tag=person_et_nf_kvk
-2	Eysteinsdóttir	Eysteinsdóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	SpaceAfter=No|tag=person_et_nf_kvk
+1	Kristín	Kristín	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	tag=person_et_nf_kvk
+2	Eysteinsdóttir	Eysteinsdóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_et_nf_kvk
 3	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 4	leikstjóri	leikstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Borgarleikhússins	Borgarleikhússins	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk_gr
@@ -120,7 +119,7 @@
 7	sagði	sagði	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 8	uppsögnina	uppsögnina	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	tag=no_et_þf_kvk_gr
 9	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	aux	_	tag=so_0_nh_gm
-10	verið	verið	VERB	so_0_sagnb	VerbForm=Sup	12	conj	_	tag=so_0_sagnb
+10	verið	vera	AUX	so_0_sagnb	VerbForm=Sup	12	cop	_	tag=so_0_sagnb
 11	vel	vel	ADV	ao	_	12	advmod	_	tag=ao
 12	ígrundaða	ígrundaða	ADJ	lo_et	Number=Sing	7	xcomp	_	SpaceAfter=No|tag=lo_et
 13	.	.	PUNCT	grm	_	7	punct	_	tag=grm
@@ -128,7 +127,7 @@
 # sent_id = GREYNIR_CORPUS_00234,.9
 # text = Tufegdzic var óánægður með fyrri hálfleikinn en talsvert ánægðari með þann seinni.
 1	Tufegdzic	Tufegdzic	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	óánægður	óánægður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 4	með	með	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 5	fyrri	fyrri	ADJ	lo_et_þf_kk_mst	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_þf_kk_mst

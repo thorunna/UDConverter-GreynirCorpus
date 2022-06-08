@@ -3,10 +3,9 @@
 1	Þá	Þá	ADV	ao	_	2	advmod	_	tag=ao
 2	sá	sá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p3
-4-6	svart á hvítu	_	_	_	_	_	_	_	_
 4	svart	svart	ADV	ao	_	2	advmod	_	tag=ao
 5	á	á	ADV	ao	_	4	fixed	_	tag=ao
-6	hvítu	hvítu	ADV	ao	_	4	fixed	_	tag=ao
+6	hvítu	hvítu	ADV	ao	_	4	fixed	_	MWEEnd=Yes|tag=ao
 7	að	að	SCONJ	st	_	9	mark	_	tag=st
 8	þarna	þarna	ADV	ao	_	9	advmod	_	tag=ao
 9	virtist	virtist	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	obj	_	tag=so_1_nf_fh_p3_et_þt_mm
@@ -22,9 +21,8 @@
 19	staðnum	staðnum	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 20	,	,	PUNCT	grm	_	21	punct	_	tag=grm
 21	segir	segir	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
-22-23	Páll Ágúst	_	_	_	_	_	_	_	_
 22	Páll	Páll	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	nsubj	_	tag=person_nf_kk
-23	Ágúst	Ágúst	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	flat	_	tag=person_nf_kk
+23	Ágúst	Ágúst	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	flat	_	MWEEnd=Yes|tag=person_nf_kk
 24	sem	sem	SCONJ	stt	_	26	mark	_	tag=stt
 25	enn	enn	ADV	ao	_	26	advmod	_	tag=ao
 26	á	á	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	acl:relcl	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -45,7 +43,7 @@
 # text = Jakob hefur verið meðal lykilmanna í liði Borås í vetur og átti hann stóran þátt í því að koma í veg fyrir að liðið tapaði í síðasta leik þegar Borås náði í sigur á útivelli.
 1	Jakob	Jakob	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 4	meðal	meðal	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5	lykilmanna	lykilmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_ef_kk
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -58,10 +56,10 @@
 13	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_kk_p3
 14	stóran	stór	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	15	amod	_	tag=lo_et_þf_kk_sb
 15	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	tag=no_et_þf_kk
-16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	tag=fn_et_þgf_hk
+16	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
+17	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	tag=fn_et_þgf_hk
 18	að	að	PART	nhm	_	19	mark	_	tag=nhm
-19	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_0_nh_gm
+19	koma	koma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	obl	_	tag=so_0_nh_gm
 20	í	í	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 21	veg	vegur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	tag=no_et_þf_kk
 22	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	23	case	_	tag=fs_nh
@@ -82,7 +80,7 @@
 
 # sent_id = GREYNIR_CORPUS_00490,.3
 # text = En núna hef ég bara hugsað, þegar öllu er á botninn hvolft þá hefur það sýnt sig að þetta fólk ber ekki snefil af virðingu fyrir mér eða mínu lífi og framtíðarvonum eftir afplánun.
-1	En	en	SCONJ	st	_	6	cc	_	tag=st
+1	En	en	SCONJ	st	_	6	dep	_	tag=st
 2	núna	núna	ADV	ao	_	6	advmod	_	tag=ao
 3	hef	hafa	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p1_et_nt_gm
 4	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_p1
@@ -122,7 +120,7 @@
 # sent_id = GREYNIR_CORPUS_00490,.4
 # text = Greint er frá málinu á vef RÚV og vísað í umræðu í Facebook-hópnum Mæðratips þar sem móðir fimm ára barns segir frá því að barnið hafi smitast af sjúkdómnum af starfsmanni á leikskólanum.
 1	Greint	greina	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	frá	frá	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	málinu	mál	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk_gr
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -158,10 +156,9 @@
 
 # sent_id = GREYNIR_CORPUS_00490,.5
 # text = Gunnar Ólafur Schram, yfirlögregluþjónn hjá lögreglunni á Suðurnesjum, sagði í samtali við mbl.is í kvöld fullvíst er að Sindri hafi haft vitorðsmann, eða menn, sem aðstoðuðu hann að komast frá Sogni og að flugstöðinni.
-1-3	Gunnar Ólafur Schram	_	_	_	_	_	_	_	_
-1	Gunnar	Gunnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
-3	Schram	Schram	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Gunnar	Gunnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
+2	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Schram	Schram	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 4	,	,	PUNCT	grm	_	1	punct	_	tag=grm
 5	yfirlögregluþjónn	yfir-lögregluþjónn	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 6	hjá	hjá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -173,12 +170,11 @@
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
 14	við	við	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	mbl.is	mbl.is	SYM	lén_þf	Case=Acc	13	obl	_	tag=lén_þf
-16-17	í kvöld	_	_	_	_	_	_	_	_
+15	mbl.is	mbl.is	SYM	lén_þf	_	13	obl	_	tag=lén_þf
 16	í	í	ADV	ao	_	11	advmod	_	tag=ao
-17	kvöld	kvöld	ADV	ao	_	16	fixed	_	tag=ao
+17	kvöld	kvöld	ADV	ao	_	16	fixed	_	MWEEnd=Yes|tag=ao
 18	fullvíst	fullvís	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	tag=lo_et_þf_hk_sb
-19	er	er	X	x		18	dep	_	tag=x
+19	er	er	X	x	_	18	dep	_	tag=x
 20	að	að	SCONJ	st	_	23	mark	_	tag=st
 21	Sindri	Sindri	PROPN	person_nf_kk	Case=Nom|Gender=Masc	23	nsubj	_	tag=person_nf_kk
 22	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	tag=so_0_vh_p3_et_nt_gm
@@ -213,7 +209,7 @@
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
 10	að	að	SCONJ	st	_	13	mark	_	tag=st
 11	félögin	félag	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	13	nsubj	_	tag=no_ft_nf_hk_gr
-12	geti	get	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_vh_p3_ft_nt_gm
+12	geti	geta	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_vh_p3_ft_nt_gm
 13	sameinað	sameina	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	obj	_	tag=so_1_þf_sagnb_gm
 14	krafta	krafti	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	tag=no_et_þf_kvk
 15	sína	sinn	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|tag=fn_et_þf_kvk
@@ -230,9 +226,8 @@
 26	verkefni	verkefni	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	22	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
 27	,	,	PUNCT	grm	_	26	punct	_	tag=grm
 28	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-29-30	Edvard Björkenheim	_	_	_	_	_	_	_	_
-29	Edvard	Edvard	PROPN	person_nf_kk	Case=Nom|Gender=Masc	28	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-30	Björkenheim	Björkenheim	PROPN	person_nf_kk	Case=Nom|Gender=Masc	29	flat	_	SpaceAfter=No|tag=person_nf_kk
+29	Edvard	Edvard	PROPN	person_nf_kk	Case=Nom|Gender=Masc	28	nsubj	_	tag=person_nf_kk
+30	Björkenheim	Björkenheim	PROPN	person_nf_kk	Case=Nom|Gender=Masc	29	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 31	,	,	PUNCT	grm	_	29	punct	_	tag=grm
 32	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	29	obl	_	tag=no_et_nf_kk
 33	Capacent	Capacent	PROPN	fyrirtæki	_	32	nmod:poss	_	tag=fyrirtæki
@@ -258,16 +253,16 @@
 14	aukið	auka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	9	obj	_	tag=so_1_þf_sagnb_gm
 15	staðfestu	staðfesta	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	tag=no_et_þf_kvk
 16	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	15	nmod:poss	_	tag=pfn_ft_ef_p1
-17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	tag=fn_et_þgf_hk
+17	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
+18	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	tag=fn_et_þgf_hk
 19	að	að	PART	nhm	_	20	mark	_	tag=nhm
-20	ganga	ganga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	18	xcomp	_	tag=so_0_nh_gm
+20	ganga	ganga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	obl	_	tag=so_0_nh_gm
 21	úr	úr	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	skugga	skugga	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	tag=no_et_þgf_kk
 23	um	um	ADP	fs_þf	Case=Acc	27	case	_	tag=fs_þf
 24	að	að	SCONJ	st	_	27	mark	_	tag=st
 25	skattar	skatta	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	tag=no_ft_nf_kk
-26	séu	vera	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	aux	_	tag=so_0_vh_p3_ft_nt_gm
+26	séu	vera	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	cop	_	tag=so_0_vh_p3_ft_nt_gm
 27	greiddir	greiddur	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	22	obl	_	tag=so_0_lhþt_ft
 28	þar	þar	ADV	ao	_	27	advmod	_	tag=ao
 29	sem	sem	SCONJ	stt	_	31	mark	_	tag=stt
@@ -295,10 +290,10 @@
 16	á	eiga	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 17	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	tag=fn_et_þgf_kk
 18	vettvangi	vettvangur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_þgf_kk
-19	til	til	ADP	fs_ef	Case=Gen	20	case	_	tag=fs_ef
-20	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	15	obl	_	tag=fn_et_ef_hk
+19	til	til	ADP	fs_ef	Case=Gen	22	case	_	tag=fs_ef
+20	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	tag=fn_et_ef_hk
 21	að	að	PART	nhm	_	22	mark	_	tag=nhm
-22	tryggja	tryggja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_1_þf_nh_gm
+22	tryggja	tryggja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	obl	_	tag=so_1_þf_nh_gm
 23	að	að	SCONJ	st	_	27	mark	_	tag=st
 24	önnur	annar	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	25	nmod	_	tag=fn_ft_nf_hk
 25	þjóðþing	þjóðþing	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	27	nsubj	_	tag=no_ft_nf_hk
@@ -309,17 +304,15 @@
 30	árangri	árangur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 31	,	,	PUNCT	grm	_	30	punct	_	tag=grm
 32	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-33-34	Hanna Birna	_	_	_	_	_	_	_	_
 33	Hanna	Hanna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	32	nsubj	_	tag=person_nf_kvk
-34	Birna	Birna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	33	flat	_	tag=person_nf_kvk
+34	Birna	Birna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	33	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 35	einnig	einnig	ADV	ao	_	32	advmod	_	SpaceAfter=No|tag=ao
 36	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00490,.9
 # text = Katrín Jakobsdóttir, formaður Vinstri-grænna, furðaði sig á því að þingsalurinn væri þunnt skipað og hvernig dagskráin væri, þar væri ekki einu sinni að finna atkvæðagreiðslurnar sem frestað var í gær vegna fjarveru þingmanna.
-1-2	Katrín Jakobsdóttir	_	_	_	_	_	_	_	_
-1	Katrín	Katrín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	Jakobsdóttir	Jakobsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
+1	Katrín	Katrín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	tag=person_nf_kvk
+2	Jakobsdóttir	Jakobsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kvk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Vinstri-grænna	Vinstri-grænn	ADJ	lo_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	nmod:poss	_	SpaceAfter=No|tag=lo_ft_ef_hk
@@ -330,7 +323,7 @@
 10	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=fn_et_þgf_hk
 11	að	að	SCONJ	st	_	14	mark	_	tag=st
 12	þingsalurinn	þingsalur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk_gr
-13	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
+13	væri	vera	AUX	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 14	þunnt	þunnur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	10	ccomp	_	tag=lo_et_nf_hk_sb
 15	skipað	skipa	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_nf_hk_sb
 16	og	og	CCONJ	st	_	10	cc	_	tag=st
@@ -341,18 +334,16 @@
 21	þar	þar	ADV	ao	_	22	advmod	_	tag=ao
 22	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_vh_p3_et_þt_gm
 23	ekki	ekki	ADV	ao	_	22	advmod	_	tag=ao
-24-25	einu sinni	_	_	_	_	_	_	_	_
 24	einu	einu	ADV	ao	_	22	advmod	_	tag=ao
-25	sinni	sinni	ADV	ao	_	24	fixed	_	tag=ao
+25	sinni	sinni	ADV	ao	_	24	fixed	_	MWEEnd=Yes|tag=ao
 26	að	að	PART	nhm	_	27	mark	_	tag=nhm
 27	finna	finna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	22	xcomp	_	tag=so_1_þf_nh_gm
 28	atkvæðagreiðslurnar	atkvæðagreiðsla	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	27	obj	_	tag=no_ft_þf_kvk_gr
 29	sem	sem	SCONJ	stt	_	30	mark	_	tag=stt
 30	frestað	fresta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	28	acl:relcl	_	tag=so_0_sagnb_gm
 31	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	30	conj	_	tag=so_0_fh_p3_et_þt_gm
-32-33	í gær	_	_	_	_	_	_	_	_
 32	í	í	ADV	ao	_	31	advmod	_	tag=ao
-33	gær	gær	ADV	ao	_	32	fixed	_	tag=ao
+33	gær	gær	ADV	ao	_	32	fixed	_	MWEEnd=Yes|tag=ao
 34	vegna	vega	ADP	fs_ef	Case=Gen	35	case	_	tag=fs_ef
 35	fjarveru	fjarvera	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	31	obl	_	tag=no_et_ef_kvk
 36	þingmanna	þingmaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	35	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
@@ -362,7 +353,7 @@
 # text = Barnamenningarsjóður Íslands var stofnaður í tilefni af 100 ára afmæli fullveldisins en hlutverk hans er að styðja við fjölbreytta starfsemi á sviði barnamenningar með áherslu á sköpun, listir og virka þátttöku barna og ungmenna.
 1	Barnamenningarsjóður	barna-menningarsjóður	PROPN	sérnafn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=sérnafn_et_nf_kk
 2	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	flat:name	_	tag=sérnafn_et_ef_hk
-3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
+3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 4	stofnaður	stofna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	tilefni	tilefni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þf_hk

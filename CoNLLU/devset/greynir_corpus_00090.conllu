@@ -7,14 +7,14 @@
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Slóveníu	Slóvenía	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_kvk
 7	en	en	CCONJ	st	_	2	cc	_	tag=st
-8	sá	sjá	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	2	cop	_	tag=so_1_þf_fh_p1_et_þt_gm
+8	sá	sjá	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p1_et_þt_gm
 9	að	að	SCONJ	st	_	15	mark	_	tag=st
 10	deildin	deild	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	tag=no_et_nf_kvk_gr
 11	hér	hér	ADV	ao	_	13	advmod	_	tag=ao
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Íslandi	Ísland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
-14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
-15	betri	góður	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	2	ccomp	_	SpaceAfter=No|tag=lo_et_nf_kvk_mst
+14	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
+15	betri	góður	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	8	ccomp	_	SpaceAfter=No|tag=lo_et_nf_kvk_mst
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00090,.2
@@ -40,7 +40,7 @@
 # sent_id = GREYNIR_CORPUS_00090,.3
 # text = Alltaf er gaman að kynnast nýju fólki og það er mikill eldmóður í þessum hópi.
 1	Alltaf	alltaf	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	gaman	gaman	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	kynnast	kynna	VERB	so_1_þgf_nh_mm	Case=Dat|VerbForm=Inf|Voice=Mid	3	xcomp	_	tag=so_1_þgf_nh_mm
@@ -48,7 +48,7 @@
 7	fólki	fólk	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obj	_	tag=no_et_þgf_hk
 8	og	og	CCONJ	st	_	3	cc	_	tag=st
 9	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	tag=pfn_et_nf_hk_p3
-10	er	vera	VERB	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
+10	er	vera	AUX	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
 11	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_nf_kk_sb
 12	eldmóður	eldmóður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_nf_kk
 13	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
@@ -108,9 +108,8 @@
 8	Haukar	Haukar	PROPN	sérnafn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	tag=sérnafn_ft_nf_kk
 9	sjö	sjö	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	nummod	_	tag=töl_ft_þf_hk
 10	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	tag=no_ft_þf_hk
-11-12	á meðan	_	_	_	_	_	_	_	_
 11	á	á	SCONJ	st	_	14	mark	_	tag=st
-12	meðan	meðan	SCONJ	st	_	11	_	_	tag=st
+12	meðan	meðan	SCONJ	st	_	11	fixed	_	MWEEnd=Yes|tag=st
 13	Grótta	Grótta	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	tag=sérnafn_et_nf_kvk
 14	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 15	aðeins	aðeins	ADV	eo	_	14	obj	_	tag=eo
@@ -144,9 +143,8 @@
 3	slökktu	slökkva	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
 4	kristnir	kristinn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	tag=lo_ft_nf_kk_sb
 5	bæjarbúar	bæjarbúi	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	tag=no_ft_nf_kk
-6-7	í gærkvöld	_	_	_	_	_	_	_	_
 6	í	í	ADV	ao	_	3	advmod	_	tag=ao
-7	gærkvöld	gærkvöld	ADV	ao	_	6	fixed	_	tag=ao
+7	gærkvöld	gærkvöld	ADV	ao	_	6	fixed	_	MWEEnd=Yes|tag=ao
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	mótmælaskyni	mótmælaskyn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
 10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
@@ -164,14 +162,13 @@
 2	leyfi	leyfa	VERB	so_2_þgf_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	8	ccomp	_	tag=so_2_þgf_þf_fh_p1_et_nt_gm
 3	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	tag=pfn_et_þgf_p1
 4	að	að	PART	nhm	_	6	mark	_	tag=nhm
-5	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	cop	_	tag=so_0_nh_gm
+5	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	cop	_	tag=so_0_nh_gm
 6	vongóður	vongóður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-9-11	Haraldur L. Haraldsson	_	_	_	_	_	_	_	_
-9	Haraldur	Haraldur	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-10	L.	L.	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No|tag=person_et_nf_kk
-11	Haraldsson	Haraldsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No|tag=person_et_nf_kk
+9	Haraldur	Haraldur	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=person_et_nf_kk
+10	L.	L.	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	tag=person_et_nf_kk
+11	Haraldsson	Haraldsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_et_nf_kk
 12	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 13	bæjarstjóri	bæjarstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	tag=no_et_nf_kk
 14	Hafnarfjarðarbæjar	Hafnarfjarðarbær	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kk
@@ -180,14 +177,14 @@
 # sent_id = GREYNIR_CORPUS_00090,.10
 # text = Fyrir leik: Þessi ljómandi hamborgarailmur tekur á móti gestum við innkomuna í FH-húsið.
 1	Fyrir	fyrir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
-2	leik	leikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=no_et_þf_kk
+2	leik	leikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	dep	_	SpaceAfter=No|tag=no_et_þf_kk
 3	:	:	PUNCT	grm	_	2	punct	_	tag=grm
 4	Þessi	Þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	tag=fn_et_nf_kk
 5	ljómandi	ljómandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_sb
 6	hamborgarailmur	hamborgarailmur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_nf_kk
 7	tekur	taka	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 8	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
-9	móti	móti	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+9	móti	móti	ADP	fs_þgf	Case=Dat	8	fixed	_	tag=fs_þgf
 10	gestum	gestur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	tag=no_ft_þgf_kk
 11	við	við	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	innkomuna	innkoma	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk_gr

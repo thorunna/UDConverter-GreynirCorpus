@@ -28,9 +28,8 @@
 4	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	nýrri	nýr	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_þgf_kvk_sb
 6	stuttmynd	stuttmynd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
-7-8	Ísoldar Braga	_	_	_	_	_	_	_	_
 7	Ísoldar	Ísold	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	6	nmod:poss	_	tag=person_et_ef_kvk
-8	Braga	Braga	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	flat	_	tag=person_et_ef_kvk
+8	Braga	Braga	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	7	flat	_	MWEEnd=Yes|tag=person_et_ef_kvk
 
 # sent_id = GREYNIR_CORPUS_00022,.4
 # text = Steinunn lýsir hrottalegu ofbeldi af hendi barnsföður síns
@@ -46,7 +45,7 @@
 # sent_id = GREYNIR_CORPUS_00022,.5
 # text = Starfið er mjög fjölbreytt og skemmtilegt.
 1	Starfið	starf	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	mjög	mjög	ADV	eo	_	4	advmod	_	tag=eo
 4	fjölbreytt	fjölbreyttur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	og	og	CCONJ	st	_	6	cc	_	tag=st
@@ -68,7 +67,7 @@
 1	Undanfarnar	undanfarinn	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_nf_kvk_sb
 2	vikur	vika	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	tag=no_ft_nf_kvk
 3	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_ft_nt_gm
-4	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	aux	_	tag=so_1_nf_sagnb_gm
+4	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 5	góðar	góður	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	0	root	_	tag=lo_ft_nf_kvk_sb
 6	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	Andra	Andri	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=person_et_þf_kk
@@ -76,29 +75,29 @@
 
 # sent_id = GREYNIR_CORPUS_00022,.8
 # text = Bítið — Járnofhleðsla í líkamanum getur verið varasöm
-1	Bítið	Bítið	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=sérnafn_et_nf_hk
+1	Bítið	Bítið	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	dep	_	tag=sérnafn_et_nf_hk
 2	—	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	Járnofhleðsla	járnofhleðsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	líkamanum	líkami	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk_gr
 6	getur	geta	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
-7	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	aux	_	tag=so_1_nf_sagnb_gm
+7	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	cop	_	tag=so_1_nf_sagnb_gm
 8	varasöm	varasamur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 
 # sent_id = GREYNIR_CORPUS_00022,.9
 # text = Heimir: Við viljum enda eins og Leicester
-1	Heimir	Heimir	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=person_et_nf_kk
+1	Heimir	Heimir	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	dep	_	SpaceAfter=No|tag=person_et_nf_kk
 2	:	_	PUNCT	grm	_	1	punct	_	tag=grm
-3	Við	við	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
-4	viljum	vilja	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_0_fh_p3_ft_nt_gm
-5	enda	enda	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	conj	_	tag=so_1_nf_nh_gm
-6	eins	eins	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	xcomp	_	tag=lo_et_nf_hk_sb
+3	Við	við	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk
+4	viljum	vilja	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_ft_nt_gm
+5	enda	enda	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_nf_nh_gm
+6	eins	eins	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	xcomp	_	tag=lo_et_nf_hk_sb
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
 8	Leicester	Leicester	PROPN	entity_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	advcl	_	tag=entity_et_nf_hk
 
 # sent_id = GREYNIR_CORPUS_00022,.10
 # text = Og hvert neyslan leitar þegar verð hækka.
-1	Og	og	SCONJ	st	_	4	cc	_	tag=st
+1	Og	og	SCONJ	st	_	4	dep	_	tag=st
 2	hvert	hver	ADV	ao	_	4	advmod	_	tag=ao
 3	neyslan	neysla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
 4	leitar	leita	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm

@@ -1,10 +1,10 @@
 # sent_id = GREYNIR_CORPUS_00273,.1
 # text = Frá því að samið var í kjaradeilunni og verkfalli sjómanna lauk segir Jón veiðar hafa gengið ákaflega vel.
 1	Frá	frá	ADP	fs_þgf	Case=Dat	4	mark	_	tag=fs_þgf
-2	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nmod	_	tag=pfn_et_þgf_hk_p3
-3	að	að	SCONJ	st	_	1	cc	_	tag=st
+2	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	fixed	_	tag=pfn_et_þgf_hk_p3
+3	að	að	SCONJ	st	_	1	fixed	_	tag=st
 4	samið	semja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	advcl	_	tag=so_0_lhþt_et
-5	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
+5	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	kjaradeilunni	kjaradeila	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þgf_kvk_gr
 8	og	og	CCONJ	st	_	4	cc	_	tag=st
@@ -25,20 +25,19 @@
 1	Í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 2	einhverjum	einhver	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	3	nmod	_	tag=fn_ft_þgf_hk
 3	tilfellum	tilfelli	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þgf_hk
-4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_ft_nt_gm
+4	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_ft_nt_gm
 5	börnin	barn	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	tag=no_ft_nf_hk_gr
 6	þó	þó	ADV	eo	_	7	advmod	_	tag=eo
 7	eldri	gamall	ADJ	lo_ft_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_mst
-8	þar	þar	ADV	ao	_	11	mark	_	tag=ao
-9	sem	sem	SCONJ	st	_	8	cc	_	tag=st
+8	þar	þar	ADV	ao	_	9	advmod	_	tag=ao
+9	sem	sem	SCONJ	st	_	11	mark	_	tag=st
 10	innritun	innritun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_nf_kvk
 11	á	eiga	VERB	so_2_þgf_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	advcl	_	tag=so_2_þgf_þf_fh_p3_et_nt_gm
 12	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	11	iobj	_	tag=abfn_þgf
 13	stað	staður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	tag=no_et_þf_kk
 14	einungis	einungis	ADV	ao	_	11	advmod	_	tag=ao
-15-16	tvisvar sinnum	_	_	_	_	_	_	_	_
 15	tvisvar	tvisvar	ADV	ao	_	11	advmod	_	tag=ao
-16	sinnum	sinnum	ADV	ao	_	15	fixed	_	tag=ao
+16	sinnum	sinnum	ADV	ao	_	15	fixed	_	MWEEnd=Yes|tag=ao
 17	yfir	yfir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 18	árið	ár	ADV	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	11	advmod	_	SpaceAfter=No|tag=no_et_þf_hk_gr
 19	.	_	PUNCT	grm	_	7	punct	_	tag=grm
@@ -49,9 +48,8 @@
 2	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
 3	greindi	greina	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-5-6	í gær	_	_	_	_	_	_	_	_
 5	í	í	ADV	ao	_	3	advmod	_	tag=ao
-6	gær	gær	ADV	ao	_	5	fixed	_	tag=ao
+6	gær	gær	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 7	en	en	CCONJ	st	_	3	cc	_	tag=st
 8	áformin	áform	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	9	nsubj	_	tag=no_ft_nf_hk_gr
 9	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_nt_gm
@@ -81,7 +79,7 @@
 11	mættu	mæta	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_ft_þt_gm
 12	heimamönnum	heimamaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	obj	_	tag=no_ft_þgf_kk
 13	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-14	Pepsi	Pepsi	PROPN	entity	_	15	VANTAR_LIÐ	_	tag=entity
+14	Pepsi	Pepsi	PROPN	entity	_	15	obl	_	tag=entity
 15	deild	deild	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þf_kvk
 16	karla	karl	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	15	nmod:poss	_	tag=no_ft_ef_kk
 17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
@@ -101,9 +99,8 @@
 9	Fendi	Fendi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	conj	_	tag=no_et_þgf_hk
 10	hönnuðurinn	hönnuður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|tag=no_et_nf_kk_gr
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
-12-13	Karl Lagerfeld	_	_	_	_	_	_	_	_
-12	Karl	Karl	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-13	Lagerfeld	Lagerfeld	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	SpaceAfter=No|tag=person_nf_kk
+12	Karl	Karl	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
+13	Lagerfeld	Lagerfeld	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 14	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 15	um	um	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 16	rúmlega	rúmlega	ADV	eo	_	18	advmod	_	tag=eo
@@ -113,10 +110,9 @@
 
 # sent_id = GREYNIR_CORPUS_00273,.6
 # text = Guðmundur Oddur Magnússon, Goddur, felldi svo sinn stóra dóm í Síðdegisútvarpinu á Rás 2 í dag.
-1-3	Guðmundur Oddur Magnússon	_	_	_	_	_	_	_	_
-1	Guðmundur	Guðmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Oddur	Oddur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
-3	Magnússon	Magnússon	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Guðmundur	Guðmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
+2	Oddur	Oddur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Magnússon	Magnússon	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	Goddur	Goddur	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_hk
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
@@ -128,9 +124,8 @@
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Síðdegisútvarpinu	síðdegisútvarp	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk_gr
 14	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15-16	Rás 2	_	_	_	_	_	_	_	_
 15	Rás	Rás	PROPN	entity	_	13	obl	_	tag=entity
-16	2	2	PROPN	entity	_	15	flat	_	tag=entity
+16	2	2	PROPN	entity	_	15	flat	_	MWEEnd=Yes|tag=entity
 17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 18	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 19	.	_	PUNCT	grm	_	7	punct	_	tag=grm
@@ -138,16 +133,15 @@
 # sent_id = GREYNIR_CORPUS_00273,.7
 # text = Ekkert hefur verið hægt að fljúga það sem af er degi og útlitið ekki gott fram eftir degi.
 1	Ekkert	enginn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
+2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
+3	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	fljúga	fljúga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_0_nh_gm
-7-10	það sem af er	_	_	_	_	_	_	_	_
 7	það	það	ADV	ao	_	11	advmod	_	tag=ao
 8	sem	sem	ADV	ao	_	7	fixed	_	tag=ao
 9	af	af	ADV	ao	_	7	fixed	_	tag=ao
-10	er	er	ADV	ao	_	7	fixed	_	tag=ao
+10	er	er	ADV	ao	_	7	fixed	_	MWEEnd=Yes|tag=ao
 11	degi	dagur	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	advmod	_	tag=no_et_þgf_kk
 12	og	og	CCONJ	st	_	4	cc	_	tag=st
 13	útlitið	útlit	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	conj	_	tag=no_et_nf_hk_gr
@@ -160,9 +154,8 @@
 
 # sent_id = GREYNIR_CORPUS_00273,.8
 # text = René Toft náði aðeins að spila í tæpar tíu mínútur í leiknum og skoraði úr eina skotinu sínu.
-1-2	René Toft	_	_	_	_	_	_	_	_
 1	René	René	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
-2	Toft	Toft	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
+2	Toft	Toft	PROPN	sérnafn	_	1	flat	_	MWEEnd=Yes|tag=sérnafn
 3	náði	ná	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	aðeins	aðeins	ADV	ao	_	3	advmod	_	tag=ao
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
@@ -185,7 +178,7 @@
 # text = Næstu skref séu síðan íbúafundir í hverju sveitarfélagi fyrir sig þar sem íbúarnir sjálfir kæmu að frekari hugmyndavinnu.
 1	Næstu	næstur	ADJ	lo_ft_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Plur	2	amod	_	tag=lo_ft_nf_hk_evb
 2	skref	skref	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk
-3	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
+3	séu	vera	AUX	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 4	síðan	síðan	ADV	eo	_	5	advmod	_	tag=eo
 5	íbúafundir	íbúafundur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
 6	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -203,6 +196,8 @@
 18	hugmyndavinnu	hugmyndavinna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 19	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00273,.10
+# text = Þess vegna skiptir svo miklu máli að við séum að þróa lifandi, áhugaverða og fjölbreytta borg.
 1	Þess	þess	ADV	ao	_	3	advmod	_	tag=ao
 2	vegna	vegna	ADV	ao	_	1	advmod	_	tag=ao
 3	skiptir	skipta	VERB	so_2_þgf_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þgf_þgf_fh_p3_et_nt_gm
@@ -214,11 +209,11 @@
 9	séum	vera	VERB	so_0_vh_p1_ft_nt_gm	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	obj	_	tag=so_0_vh_p1_ft_nt_gm
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
 11	þróa	þróa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þf_nh_gm
-12	lifandi	lifa	VERB	so_0_lhnt	_	17	dep	_	tag=so_0_lhnt
+12	lifandi	lifa	VERB	so_0_lhnt	_	17	dep	_	SpaceAfter=No|tag=so_0_lhnt
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	áhugaverða	áhugaverður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	tag=lo_et_þf_kvk_sb
 15	og	og	CCONJ	st	_	17	cc	_	tag=st
 16	fjölbreytta	fjölbreyttur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	tag=lo_et_þf_kvk_sb
-17	borg	borg	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	tag=no_et_þf_kvk
+17	borg	borg	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 18	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

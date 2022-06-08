@@ -1,5 +1,5 @@
 # sent_id = GREYNIR_CORPUS_00322,.1
-# text = Grótta sem leikur í næstefstu deild komst yfir á 63. mínútu með marki Ingólfs Sigurðssonar en Tryggi Hrafn Haraldsson jafnaði á 83. mínútu fyrir ÍA í 1 – 1.
+# text = Grótta sem leikur í næstefstu deild komst yfir á 63. mínútu með marki Ingólfs Sigurðssonar en Tryggi Hrafn Haraldsson jafnaði á 83. mínútu fyrir ÍA í 1–1.
 1	Grótta	Grótta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk
 2	sem	sem	SCONJ	stt	_	3	mark	_	tag=stt
 3	leikur	leika	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -13,14 +13,12 @@
 11	mínútu	mínúta	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk
 12	með	með	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	marki	mark	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
-14-15	Ingólfs Sigurðssonar	_	_	_	_	_	_	_	_
 14	Ingólfs	Ingólfur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	13	nmod:poss	_	tag=person_ef_kk
-15	Sigurðssonar	Sigurðsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	flat	_	tag=person_ef_kk
+15	Sigurðssonar	Sigurðsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	14	flat	_	MWEEnd=Yes|tag=person_ef_kk
 16	en	en	CCONJ	st	_	7	cc	_	tag=st
 17	Tryggi	tryggur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	tag=lo_et_nf_kk_vb
-18-19	Hrafn Haraldsson	_	_	_	_	_	_	_	_
 18	Hrafn	Hrafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	nsubj	_	tag=person_nf_kk
-19	Haraldsson	Haraldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	tag=person_nf_kk
+19	Haraldsson	Haraldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	MWEEnd=Yes|tag=person_nf_kk
 20	jafnaði	jafna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_þt_gm
 21	á	á	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 22	83.	83.	NUM	raðnr_þgf_kvk	Case=Dat|Gender=Fem|NumType=Ord	23	amod	_	tag=raðnr_þgf_kvk
@@ -29,15 +27,15 @@
 25	ÍA	ÍA	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	tag=no_et_þgf_hk
 26	í	í	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27	1	1	NUM	tala	NumType=Card	25	obl	_	SpaceAfter=No|tag=tala
-28	–	_	PUNCT	grm	_	27	punct	_	tag=grm
+28	–	_	PUNCT	grm	_	27	punct	_	SpaceAfter=No|tag=grm
 29	1	1	NUM	tala	NumType=Card	27	nummod	_	SpaceAfter=No|tag=tala
 30	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00322,.2
 # text = Hann var gripinn glóðvolgur við þjófnað á herbergi íbúðar sem er í útleigu til ferðamanna og hljóp út beint í flasið á lögreglumönnum, segir Jóhann Karl Þórison aðstoðaryfirlögregluþjónn.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
-3	gripinn	grípa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	1	ccomp	_	tag=so_0_lhþt_et
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
+3	gripinn	grípa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	glóðvolgur	glóðvolgur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=lo_et_nf_kk_sb
 5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	þjófnað	þjófnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
@@ -60,10 +58,9 @@
 23	lögreglumönnum	lögreglumaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 24	,	_	PUNCT	grm	_	23	punct	_	tag=grm
 25	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-26-28	Jóhann Karl Þórison	_	_	_	_	_	_	_	_
 26	Jóhann	Jóhann	PROPN	person_nf_kk	Case=Nom|Gender=Masc	25	nsubj	_	tag=person_nf_kk
 27	Karl	Karl	PROPN	person_nf_kk	Case=Nom|Gender=Masc	26	flat	_	tag=person_nf_kk
-28	Þórison	Þórison	PROPN	person_nf_kk	Case=Nom|Gender=Masc	26	flat	_	tag=person_nf_kk
+28	Þórison	Þórison	PROPN	person_nf_kk	Case=Nom|Gender=Masc	26	flat	_	MWEEnd=Yes|tag=person_nf_kk
 29	aðstoðaryfirlögregluþjónn	aðstoðaryfirlögregluþjónn	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 30	.	_	PUNCT	grm	_	26	punct	_	tag=grm
 
@@ -92,7 +89,7 @@
 21	frekari	frekur	ADJ	lo_ft_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	22	amod	_	tag=lo_ft_þf_kvk_mst
 22	kostnaðarhækkanir	kostnaðarhækkun	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	tag=no_ft_þf_kvk
 23	gæti	geta	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	25	aux	_	tag=so_0_vh_p3_et_þt_gm
-24	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	25	cop	_	tag=so_0_sagnb_gm
+24	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	25	cop	_	tag=so_0_sagnb_gm
 25	komin	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	ccomp	_	tag=so_0_lhþt_et
 26	að	að	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
 27	endamörkum	endamark	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	25	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
@@ -100,22 +97,22 @@
 
 # sent_id = GREYNIR_CORPUS_00322,.4
 # text = Hann sagðist þar sammála yfirlýsingum bresku leyniþjónustunnar um að það væri algerlega fáránlegt og tóm della að leyniþjónustan hefði tekið þátt í að hlera Trump.
-1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_kk_p3
-2	sagðist	segja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	5	conj	_	tag=so_0_fh_p3_et_þt_mm
-3	þar	þar	ADV	ao	_	5	advmod	_	tag=ao
+1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
+2	sagðist	segja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
+3	þar	þar	ADV	ao	_	2	advmod	_	tag=ao
 4	sammála	sammála	ADJ	lo	_	5	amod	_	tag=lo
-5	yfirlýsingum	yfirlýsing	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	0	root	_	tag=no_ft_þgf_kvk
+5	yfirlýsingum	yfirlýsing	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	2	xcomp	_	tag=no_ft_þgf_kvk
 6	bresku	breskur	ADJ	lo_et_ef_kvk_vb	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	tag=lo_et_ef_kvk_vb
 7	leyniþjónustunnar	leyniþjónusta	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kvk_gr
 8	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 9	að	að	SCONJ	st	_	16	mark	_	tag=st
 10	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_hk_p3
-11	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_0_vh_p3_et_þt_gm
-12	algerlega	algerlega	ADV	eo	_	16	advmod	_	tag=eo
-13	fáránlegt	fáránlegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_nf_hk_sb
+11	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_0_vh_p3_et_þt_gm
+12	algerlega	algerlega	ADV	eo	_	13	advmod	_	tag=eo
+13	fáránlegt	fáránlegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	obl	_	tag=lo_et_nf_hk_sb
 14	og	og	CCONJ	st	_	16	cc	_	tag=st
 15	tóm	tómur	ADJ	lo_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	tag=lo_et_nf_kvk
-16	della	della	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_nf_kvk
+16	della	della	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	tag=no_et_nf_kvk
 17	að	að	SCONJ	st	_	20	mark	_	tag=st
 18	leyniþjónustan	leyniþjónusta	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	20	nsubj	_	tag=no_et_nf_kvk_gr
 19	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	20	aux	_	tag=so_0_vh_p3_et_þt_gm
@@ -125,14 +122,14 @@
 23	að	að	PART	nhm	_	24	mark	_	tag=nhm
 24	hlera	hlera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	obl	_	tag=so_0_nh_gm
 25	Trump	Trump	PROPN	person_nf_kk	Case=Nom|Gender=Masc	24	obj	_	SpaceAfter=No|tag=person_nf_kk
-26	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00322,.5
 # text = Eystri Rangá hefur verið þekkt fyrir gott stórlaxahlutfall en dæmi eru um að í heildina sé um og yfir helmingur allra laxa sem veiðist í ánni tveggja ára lax.
 1	Eystri	eystri	ADJ	lo_et_nf_kvk_mst	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_mst
 2	Rangá	Rangá	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-4	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
+4	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
 5	þekkt	þekkja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	fyrir	fyrir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 7	gott	góður	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	8	amod	_	tag=lo_et_þf_hk_sb
@@ -144,7 +141,7 @@
 13	að	að	SCONJ	st	_	29	mark	_	tag=st
 14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	heildina	heild	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	29	obl	_	tag=no_et_þf_kvk_gr
-16	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	cop	_	tag=so_0_vh_p3_et_nt_gm
+16	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	cop	_	tag=so_0_vh_p3_et_nt_gm
 17	um	um	ADV	ao	_	29	advmod	_	tag=ao
 18	og	og	CCONJ	st	_	29	cc	_	tag=st
 19	yfir	yfir	ADV	ao	_	29	advmod	_	tag=ao
@@ -189,9 +186,8 @@
 
 # sent_id = GREYNIR_CORPUS_00322,.7
 # text = Anthony Martial sneri aftur í lið United eftir langa fjarveru, lagði upp fyrra markið sem Juan Mata skoraði á 32 mínútu og skoraði það síðara á 60. mínútu.
-1-2	Anthony Martial	_	_	_	_	_	_	_	_
 1	Anthony	Anthony	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Martial	Martial	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Martial	Martial	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	sneri	snúa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	aftur	aftur	ADV	ao	_	3	advmod	_	tag=ao
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -206,9 +202,8 @@
 14	fyrra	fyrri	ADJ	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_þf_hk_mst
 15	markið	mark	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	12	obj	_	tag=no_et_þf_hk_gr
 16	sem	sem	SCONJ	stt	_	19	mark	_	tag=stt
-17-18	Juan Mata	_	_	_	_	_	_	_	_
 17	Juan	Juan	PROPN	sérnafn	_	19	nsubj	_	tag=sérnafn
-18	Mata	Mata	PROPN	sérnafn	_	17	flat	_	tag=sérnafn
+18	Mata	Mata	PROPN	sérnafn	_	17	flat	_	MWEEnd=Yes|tag=sérnafn
 19	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 20	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 21	32	32	NUM	tala_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	22	nummod	_	tag=tala_ft_þgf_kk
@@ -225,16 +220,15 @@
 # sent_id = GREYNIR_CORPUS_00322,.8
 # text = Það er mjög gaman að vera þjálfari Breiðabliks þessar vikurnar, en allur heiðurinn fer á leikmenn og stuðningsmenn, sem hafa stutt dyggilega við bakið á okkur.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	mjög	mjög	ADV	eo	_	4	advmod	_	tag=eo
 4	gaman	gaman	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_1_nf_nh_gm
 7	þjálfari	þjálfari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	tag=no_et_nf_kk
 8	Breiðabliks	Breiðablik	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk
-9-10	þessar vikurnar	_	_	_	_	_	_	_	_
-9	þessar	þessar	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
-10	vikurnar	vikurnar	ADV	ao	_	9	fixed	_	SpaceAfter=No|tag=ao
+9	þessar	þessar	ADV	ao	_	4	advmod	_	tag=ao
+10	vikurnar	vikurnar	ADV	ao	_	9	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 11	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 12	en	en	CCONJ	st	_	4	cc	_	tag=st
 13	allur	allur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nmod	_	tag=fn_et_nf_kk
@@ -257,9 +251,8 @@
 
 # sent_id = GREYNIR_CORPUS_00322,.9
 # text = Bjarni Benediktsson forsætisráðherra segir að hann leggist ekki gegn því að einkafyrirtæki sem sinna heilbrigðisþjónustu á grundvelli samnings við ríkið greiði arð til hluthafa sinna ef þau skila hagnaði.
-1-2	Bjarni Benediktsson	_	_	_	_	_	_	_	_
 1	Bjarni	Bjarni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Benediktsson	Benediktsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	forsætisráðherra	forsætisráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_ef_kk
 4	segir	segja	VERB	so_2_þf_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_2_þf_þgf_fh_p3_et_nt_gm
 5	að	að	SCONJ	st	_	7	mark	_	tag=st
@@ -289,15 +282,16 @@
 29	hagnaði	hagnaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No|tag=no_et_þgf_kk
 30	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00322,.10
+# text = Í bréfi Keith L. Seitter, framkvæmdastjóra AMS, til Perry segir hann að það sé lykilatriði að ráðherrann skilji að koltvísýringur og aðrar gróðurhúsalofttegundir séu aðalorsakavaldar hnattrænnar hlýnunar.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	bréfi	bréf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þgf_hk
-3-5	Keith L. Seitter	_	_	_	_	_	_	_	_
 3	Keith	Keith	PROPN	sérnafn	_	2	nmod:poss	_	tag=sérnafn
 4	L.	L.	PROPN	sérnafn	_	3	flat	_	tag=sérnafn
-5	Seitter	Seitter	PROPN	sérnafn	_	3	flat	_	tag=sérnafn
+5	Seitter	Seitter	PROPN	sérnafn	_	3	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=sérnafn
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	framkvæmdastjóra	framkvæmdastjóri	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_ef_kk
-8	AMS	AMS	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	tag=no_et_ef_hk
+8	AMS	AMS	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 10	til	til	ADP	fs_ef	Case=Gen	11	case	_	tag=fs_ef
 11	Perry	Perry	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_ef_hk
@@ -305,7 +299,7 @@
 13	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_kk_p3
 14	að	að	SCONJ	st	_	17	mark	_	tag=st
 15	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_et_nf_hk_p3
-16	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+16	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 17	lykilatriði	lykilatriði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	obj	_	tag=no_et_nf_hk
 18	að	að	SCONJ	st	_	20	mark	_	tag=st
 19	ráðherrann	ráðherra	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	nsubj	_	tag=no_et_nf_kk_gr
@@ -315,9 +309,9 @@
 23	og	og	CCONJ	st	_	24	cc	_	tag=st
 24	aðrar	annar	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	22	conj	_	tag=fn_ft_nf_kvk
 25	gróðurhúsalofttegundir	gróðurhúsalofttegund	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	22	conj	_	tag=no_ft_nf_kvk
-26	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
+26	séu	vera	AUX	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	27	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 27	aðalorsakavaldar	aðalorsakavaldur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	20	obj	_	tag=no_ft_nf_kk
 28	hnattrænnar	hnattrænn	ADJ	lo_et_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Sing	29	amod	_	tag=lo_et_ef_kvk_sb
-29	hlýnunar	hlýnun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	27	nmod:poss	_	tag=no_et_ef_kvk
+29	hlýnunar	hlýnun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	27	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
 30	.	_	PUNCT	grm	_	12	punct	_	tag=grm
 

@@ -8,7 +8,7 @@
 6	líklegt	líklegur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	4	iobj	_	tag=lo_et_þf_hk_sb
 7	að	að	SCONJ	st	_	10	mark	_	tag=st
 8	þeim	það	PRON	pfn_ft_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_ft_þgf_hk_p3
-9	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_vh_p3_et_nt_gm
+9	verði	verða	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_vh_p3_et_nt_gm
 10	vísað	vísa	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	4	obl	_	tag=so_1_þgf_lhþt_et
 11	úr	úr	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	keppni	keppni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
@@ -22,11 +22,11 @@
 
 # sent_id = GREYNIR_CORPUS_00271,.2
 # text = Eins og fyrr segir eru þrír fjórðu hlutar raforku í Kína framleiddir með hjálp jarðefnaeldsneytis, einkum kola.
-1	Eins	eins	ADV	ao	_	4	cc	_	tag=ao
-2	og	og	CCONJ	st	_	1	cc	_	tag=st
+1	Eins	eins	ADV	ao	_	2	advmod	_	tag=ao
+2	og	og	CCONJ	st	_	4	mark	_	tag=st
 3	fyrr	snemma	ADV	ao_mst	Degree=Cmp	4	advmod	_	tag=ao_mst
 4	segir	segja	VERB	so_0_op_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	advcl	_	tag=so_0_op_fh_p3_et_nt_gm
-5	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_ft_nt_gm
+5	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_ft_nt_gm
 6	þrír	þrír	NUM	to_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nummod	_	tag=to_ft_nf_kk
 7	fjórðu	fjórði	ADJ	lo_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	amod	_	tag=lo_ft_nf_kk
 8	hlutar	hluti	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	tag=no_ft_nf_kk
@@ -53,16 +53,14 @@
 7	birtist	birta	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	5	acl:relcl	_	tag=so_0_fh_p3_et_þt_mm
 8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	vef	vefur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
-10-11	S P	_	_	_	_	_	_	_	_
 10	S	S	PROPN	sérnafn	_	9	nmod:poss	_	tag=sérnafn
-11	P	P	PROPN	sérnafn	_	10	flat	_	tag=sérnafn
+11	P	P	PROPN	sérnafn	_	10	flat	_	MWEEnd=Yes|tag=sérnafn
 12	við	við	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 13	lokun	lokun	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	advmod	_	tag=no_et_þf_kvk
 14	markaða	markaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	13	nmod:poss	_	tag=no_ft_ef_kk
 15	síðdegis	síðdegis	ADV	ao	_	7	advmod	_	tag=ao
-16-17	í gær	_	_	_	_	_	_	_	_
-16	í	í	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-17	gær	gær	ADV	ao	_	16	fixed	_	SpaceAfter=No|tag=ao
+16	í	í	ADV	ao	_	7	advmod	_	tag=ao
+17	gær	gær	ADV	ao	_	16	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00271,.4
@@ -77,8 +75,8 @@
 8	reyndar	reyndar	ADV	eo	_	4	advmod	_	tag=eo
 9	líka	líka	ADV	eo	_	4	advmod	_	tag=eo
 10	burðarpoka	burðarpoki	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	tag=no_et_þf_kk
-11	eins	eins	ADV	ao	_	14	cc	_	tag=ao
-12	og	og	CCONJ	st	_	11	cc	_	tag=st
+11	eins	eins	ADV	ao	_	12	advmod	_	tag=ao
+12	og	og	CCONJ	st	_	14	mark	_	tag=st
 13	notaðir	notaður	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	14	xcomp	_	tag=lo_ft_nf_kk_sb
 14	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	advcl	_	tag=so_0_fh_p3_ft_nt_gm
 15	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
@@ -90,7 +88,7 @@
 # sent_id = GREYNIR_CORPUS_00271,.5
 # text = Fjölmiðlar eru orðnir að upplýsingaþvottavél, segir Stewart að því er kemur fram í frétt Quartz.
 1	Fjölmiðlar	fjölmiðill	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	orðnir	verða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	1	xcomp	_	tag=so_0_lhþt_ft
 4	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	upplýsingaþvottavél	upplýsingaþvottavél	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
@@ -114,16 +112,14 @@
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
 4	greiða	greiða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
 5	rúmlega	rúmlega	ADV	eo	_	6	advmod	_	tag=eo
-6-8	fjórar milljónir króna	_	_	_	_	_	_	_	_
 6	fjórar	fjórar	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	tag=no_ft_þf_kvk
 7	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	flat	_	tag=no_ft_þf_kvk
-8	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	flat	_	tag=no_ft_þf_kvk
+8	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	flat	_	MWEEnd=Yes|tag=no_ft_þf_kvk
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	stimpilgjald	stimpilgjald	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk
-11-12	þrátt fyrir	_	_	_	_	_	_	_	_
-11	þrátt	þrátt	ADV	ao	_	16	mark	_	tag=ao
-12	fyrir	fyrir	ADV	ao	_	11	fixed	_	tag=ao
-13	að	að	SCONJ	st	_	11	cc	_	tag=st
+11	þrátt	þrátt	ADV	ao	_	13	advmod	_	tag=ao
+12	fyrir	fyrir	ADV	ao	_	11	fixed	_	MWEEnd=Yes|tag=ao
+13	að	að	SCONJ	st	_	16	mark	_	tag=st
 14	ekki	ekki	ADV	ao	_	16	advmod	_	tag=ao
 15	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_vh_p3_et_nt_gm
 16	orðið	verða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	advcl	_	tag=so_0_sagnb_gm
@@ -136,19 +132,18 @@
 1	Leikari	leikari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk
 2	að	að	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	nafni	nafn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
-4-5	Anthony Trapp	_	_	_	_	_	_	_	_
 4	Anthony	Anthony	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	obl	_	tag=person_nf_kk
-5	Trapp	Trapp	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
+5	Trapp	Trapp	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	MWEEnd=Yes|tag=person_nf_kk
 6	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 7	Spacey	Spacey	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	nsubj	_	tag=person_et_þf_kk
 8	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	aux	_	tag=so_0_nh_gm
-9	reynt	reyna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	ccomp	_	tag=so_0_sagnb_gm
+9	reynt	reyna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	dep	_	tag=so_0_sagnb_gm
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
 11	tæla	tæla	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þf_nh_gm
 12	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	11	obj	_	tag=abfn_þf
 13	þegar	þegar	SCONJ	st	_	16	mark	_	tag=st
 14	Trapp	Trapp	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	tag=person_et_nf_kk
-15	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_0_fh_p3_et_þt_gm
+15	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_0_fh_p3_et_þt_gm
 16	aðeins	aðeins	ADV	eo	_	11	advcl	_	tag=eo
 17	fjórtán	fjórtán	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	18	nummod	_	tag=töl_ft_ef_hk
 18	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	16	xcomp	_	SpaceAfter=No|tag=no_ft_ef_hk
@@ -163,9 +158,8 @@
 5	áhöfn	áhöfn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 6	grænlenska	grænlenskur	ADJ	lo_et_ef_kk_vb	Case=Gen|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_ef_kk_vb
 7	togarans	togari	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kk_gr
-8-9	Polar Nanoq	_	_	_	_	_	_	_	_
 8	Polar	Polar	PROPN	entity	_	7	conj	_	tag=entity
-9	Nanoq	Nanoq	PROPN	entity	_	8	flat	_	tag=entity
+9	Nanoq	Nanoq	PROPN	entity	_	8	flat	_	MWEEnd=Yes|tag=entity
 10	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 11	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
@@ -173,9 +167,8 @@
 14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	Hafnarfirði	Hafnarfjörður	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	tag=sérnafn_et_þgf_kk
 16	seint	seint	ADV	ao	_	11	advmod	_	tag=ao
-17-18	í gærkvöld	_	_	_	_	_	_	_	_
-17	í	í	ADV	ao	_	16	advmod	_	SpaceAfter=No|tag=ao
-18	gærkvöld	gærkvöld	ADV	ao	_	17	fixed	_	SpaceAfter=No|tag=ao
+17	í	í	ADV	ao	_	16	advmod	_	tag=ao
+18	gærkvöld	gærkvöld	ADV	ao	_	17	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00271,.9
@@ -185,18 +178,16 @@
 3	velferðarráðuneytisins	velferðarráðuneyti	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_ef_hk_gr
 4	leggur	leggja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 5	til	til	ADV	ao	_	4	advmod	_	tag=ao
-6-7	árið 2012	_	_	_	_	_	_	_	_
 6	árið	árið	ADV	ártal	_	4	advmod	_	tag=ártal
-7	2012	2012	NUM	ártal	_	6	flat	_	tag=ártal
+7	2012	2012	NUM	ártal	_	6	flat	_	MWEEnd=Yes|tag=ártal
 8	að	að	SCONJ	st	_	13	mark	_	tag=st
 9	rekstur	rekstur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=no_et_nf_kk
 10	heimilisins	heimili	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_ef_hk_gr
 11	Bjargs	Bjargs	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=fyrirtæki_et_ef_hk
-12	verði	verður	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_0_vh_p3_et_nt_gm
+12	verði	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_et_nt_gm
 13	færður	færa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	obj	_	tag=so_0_lhþt_et
-14-15	á hendur	_	_	_	_	_	_	_	_
 14	á	á	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
-15	hendur	hendur	ADP	fs_ef	Case=Gen	14	fixed	_	tag=fs_ef
+15	hendur	hendur	ADP	fs_ef	Case=Gen	14	fixed	_	MWEEnd=Yes|tag=fs_ef
 16	Reykjavíkurborgar	Reykjavíkurborg	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	tag=sérnafn_et_ef_kvk
 17	og	og	CCONJ	st	_	18	cc	_	tag=st
 18	Seltjarnarness	Seltjarnarnes	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
@@ -213,7 +204,7 @@
 7	alþjóðlegum	alþjóðlegur	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	8	amod	_	tag=lo_ft_þgf_kk_sb
 8	stöðlum	staðall	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
-10	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 11	fjöldi	fjöldi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 12	lifandi	lifandi	ADJ	lo_ft_ef_hk_sb	Case=Gen|Gender=Neut|Number=Plur	14	amod	_	tag=lo_ft_ef_hk_sb
 13	fæddra	fæddur	ADJ	lo_ft_ef_hk_sb	Case=Gen|Gender=Neut|Number=Plur	14	amod	_	tag=lo_ft_ef_hk_sb

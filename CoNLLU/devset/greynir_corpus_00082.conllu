@@ -28,8 +28,8 @@
 8	trónir	tróna	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
 9	yfir	yfir	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	öllu	allur	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=fn_et_þgf_hk
-11	eins	eins	ADV	ao	_	15	cc	_	tag=ao
-12	og	og	CCONJ	st	_	11	cc	_	tag=st
+11	eins	eins	ADV	ao	_	12	advmod	_	tag=ao
+12	og	og	CCONJ	st	_	15	mark	_	tag=st
 13	sannri	sannur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_þgf_kvk_sb
 14	eldlilju	eldlilja	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	nsubj	_	tag=no_et_þgf_kvk
 15	sæmir	sæma	VERB	so_0_op_subj_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl	_	SpaceAfter=No|tag=so_0_op_subj_þgf_fh_p3_et_nt_gm
@@ -69,7 +69,7 @@
 11	um	um	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 12	hvar	hvar	ADV	ao	_	15	advmod	_	tag=ao
 13	steinninn	steinn	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	tag=no_et_nf_kk_gr
-14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
+14	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
 15	niðurkominn	niðurkominn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 16	?	_	PUNCT	grm	_	3	punct	_	tag=grm
 
@@ -81,10 +81,9 @@
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Fróðárheiði	Fróðárheiði	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kvk
 6	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-7-9	Dynjandis- og Hrafnseyrarheiði	_	_	_	_	_	_	_	_
 7	Dynjandis-	Dynjandis-	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	tag=sérnafn_et_þgf_kvk
 8	og	og	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	flat	_	tag=sérnafn_et_þgf_kvk
-9	Hrafnseyrarheiði	Hrafnseyrarheiði	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	flat	_	tag=sérnafn_et_þgf_kvk
+9	Hrafnseyrarheiði	Hrafnseyrarheiði	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	flat	_	MWEEnd=Yes|tag=sérnafn_et_þgf_kvk
 10	en	en	CCONJ	st	_	2	cc	_	tag=st
 11	hálkublettir	hálkublettur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	tag=no_ft_nf_kk
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
@@ -115,7 +114,7 @@
 # sent_id = GREYNIR_CORPUS_00082,.7
 # text = Flökkusjálf er hugtak sem lýsir ákveðnum veruhætti eða lífstíl sem einkennist og mótast af millibilsástandi.
 1	Flökkusjálf	flökkusjálf	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	hugtak	hugtak	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	lýsir	lýsa	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	acl:relcl	_	tag=so_1_þgf_fh_p3_et_nt_gm
@@ -135,19 +134,18 @@
 # text = Í yfirlýsingunni er hins vegar ítrekað að enn sé ekki samkomulag komið á milli aðila.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	yfirlýsingunni	yfirlýsing	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk_gr
-3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
-4-5	hins vegar	_	_	_	_	_	_	_	_
+3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	hins	hins	ADV	ao	_	6	advmod	_	tag=ao
-5	vegar	vegar	ADV	ao	_	4	fixed	_	tag=ao
+5	vegar	vegar	ADV	ao	_	4	fixed	_	MWEEnd=Yes|tag=ao
 6	ítrekað	ítreka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 7	að	að	SCONJ	st	_	12	mark	_	tag=st
 8	enn	enn	ADV	ao	_	12	advmod	_	tag=ao
-9	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_vh_p3_et_nt_gm
+9	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_nt_gm
 10	ekki	ekki	ADV	ao	_	12	advmod	_	tag=ao
 11	samkomulag	samkomulag	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=no_et_nf_hk
 12	komið	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	ccomp	_	tag=so_0_lhþt_et
 13	á	á	ADV	ao	_	15	case	_	tag=ao
-14	milli	milli	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
+14	milli	milli	ADP	fs_ef	Case=Gen	13	fixed	_	tag=fs_ef
 15	aðila	aðili	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_ef_kk
 16	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
@@ -185,7 +183,7 @@
 11	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
 12	hægt	hægt	ADV	ao_fst	Degree=Pos	11	nsubj	_	tag=ao_fst
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
-14	útskrifa	útskrifa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	csubj	_	tag=so_0_nh_gm
+14	útskrifa	útskrifa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	obl	_	tag=so_0_nh_gm
 15	strax	strax	ADV	ao	_	14	advmod	_	SpaceAfter=No|tag=ao
 16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

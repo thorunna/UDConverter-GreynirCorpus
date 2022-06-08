@@ -40,14 +40,12 @@
 9	hljómsveitum	hljómsveit	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_þgf_kvk
 10	heims	heimur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
-12-13	til dæmis	_	_	_	_	_	_	_	_
 12	til	til	ADV	eo	_	14	advmod	_	tag=eo
-13	dæmis	dæmis	ADV	eo	_	12	fixed	_	tag=eo
+13	dæmis	dæmis	ADV	eo	_	12	fixed	_	MWEEnd=Yes|tag=eo
 14	Fílharmóníuhljómsveitinni	fílharmóníuhljómsveit	PROPN	fyrirtæki_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	tag=fyrirtæki_et_þgf_kvk_gr
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16-17	Los Angeles	_	_	_	_	_	_	_	_
-16	Los	Los	PROPN	sérnafn	_	14	obl	_	SpaceAfter=No|tag=sérnafn
-17	Angeles	Angeles	PROPN	sérnafn	_	16	flat	_	SpaceAfter=No|tag=sérnafn
+16	Los	Los	PROPN	sérnafn	_	14	obl	_	tag=sérnafn
+17	Angeles	Angeles	PROPN	sérnafn	_	16	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=sérnafn
 18	,	_	PUNCT	grm	_	14	punct	_	tag=grm
 19	Sinfóníuhljómsveitinni	sinfóníuhljómsveit	PROPN	fyrirtæki_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	14	obl	_	tag=fyrirtæki_et_þgf_kvk_gr
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
@@ -63,9 +61,8 @@
 1	Samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	Birgittu	Birgitta	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	22	obl	_	tag=person_þgf_kvk
 3	mun	munu	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_fh_p3_et_nt_gm
-4-5	Naomi Colvin	_	_	_	_	_	_	_	_
-4	Naomi	Naomi	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No|tag=sérnafn_et_nf_kvk
-5	Colvin	Colvin	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	flat	_	SpaceAfter=No|tag=sérnafn_et_nf_kvk
+4	Naomi	Naomi	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	tag=sérnafn_et_nf_kvk
+5	Colvin	Colvin	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=sérnafn_et_nf_kvk
 6	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 7	fyrrverandi	fyrrverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_nf_kk_sb
 8	leiðtogi	leiðtogi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
@@ -74,9 +71,8 @@
 11	áður	áður	ADV	ao	_	12	advmod	_	tag=ao
 12	aðstoðaði	aðstoða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 13	lekamanninn	lekamaður	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	12	obj	_	tag=no_et_þf_kk_gr
-14-15	Lauri Love	_	_	_	_	_	_	_	_
 14	Lauri	Lauri	PROPN	sérnafn_þf_kk	Case=Acc|Gender=Masc	13	obl	_	tag=sérnafn_þf_kk
-15	Love	Love	PROPN	sérnafn_þf_kk	Case=Acc|Gender=Masc	14	flat	_	tag=sérnafn_þf_kk
+15	Love	Love	PROPN	sérnafn_þf_kk	Case=Acc|Gender=Masc	14	flat	_	MWEEnd=Yes|tag=sérnafn_þf_kk
 16	við	við	ADP	fs_nh	VerbForm=Inf	18	case	_	tag=fs_nh
 17	að	að	PART	nhm	_	18	mark	_	tag=nhm
 18	komast	koma	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	12	obl	_	tag=so_0_nh_mm
@@ -143,9 +139,8 @@
 21	af	af	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 22	öllum	allur	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	23	nmod	_	tag=fn_ft_þgf_kvk
 23	stærðum	stærð	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	20	obl	_	tag=no_ft_þgf_kvk
-24-25	fyrir innan	_	_	_	_	_	_	_	_
-24	fyrir	fyrir	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
-25	innan	innan	ADV	ao	_	24	fixed	_	SpaceAfter=No|tag=ao
+24	fyrir	fyrir	ADV	ao	_	18	advmod	_	tag=ao
+25	innan	innan	ADV	ao	_	24	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 26	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00156,.6
@@ -180,10 +175,9 @@
 # sent_id = GREYNIR_CORPUS_00156,.7
 # text = Miðflokkur Sigmundar Davíðs Gunnlaugssonar er síðan með vind í seglinn en flokkurinn mælist með 11,0 prósenta fylgi á meðan Framsóknarflokkurinn mælist með 5,9 prósenta fylgi.
 1	Miðflokkur	miðflokkur	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=fyrirtæki_et_nf_kk
-2-4	Sigmundar Davíðs Gunnlaugssonar	_	_	_	_	_	_	_	_
 2	Sigmundar	Sigmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	1	flat:name	_	tag=person_ef_kk
 3	Davíðs	Davíð	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	flat	_	tag=person_ef_kk
-4	Gunnlaugssonar	Gunnlaugsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	flat	_	tag=person_ef_kk
+4	Gunnlaugssonar	Gunnlaugsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	flat	_	MWEEnd=Yes|tag=person_ef_kk
 5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 6	síðan	síðan	ADV	ao	_	5	advmod	_	tag=ao
 7	með	með	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
@@ -194,19 +188,16 @@
 12	flokkurinn	flokkur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	tag=no_et_nf_kk_gr
 13	mælist	mæla	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	5	conj	_	tag=so_1_nf_fh_p3_et_nt_mm
 14	með	með	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-15-16	11,0 prósenta	_	_	_	_	_	_	_	_
 15	11,0	11,0	NUM	prósenta	_	17	obl	_	tag=prósenta
-16	prósenta	prósenta	NUM	prósenta	_	15	_	_	tag=prósenta
+16	prósenta	prósenta	NUM	prósenta	_	15	flat	_	MWEEnd=Yes|tag=prósenta
 17	fylgi	fylgi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þf_hk
-18-19	á meðan	_	_	_	_	_	_	_	_
 18	á	á	SCONJ	st	_	21	mark	_	tag=st
-19	meðan	meðan	SCONJ	st	_	18	_	_	tag=st
+19	meðan	meðan	SCONJ	st	_	18	fixed	_	MWEEnd=Yes|tag=st
 20	Framsóknarflokkurinn	Framsóknarflokkur	PROPN	fyrirtæki_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	tag=fyrirtæki_et_nf_kk_gr
 21	mælist	mæla	VERB	so_1_nf_fh_p2_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Mid	13	advcl	_	tag=so_1_nf_fh_p2_et_nt_mm
 22	með	með	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
-23-24	5,9 prósenta	_	_	_	_	_	_	_	_
 23	5,9	5,9	NUM	prósenta	_	25	obl	_	tag=prósenta
-24	prósenta	prósenta	NUM	prósenta	_	23	_	_	tag=prósenta
+24	prósenta	prósenta	NUM	prósenta	_	23	flat	_	MWEEnd=Yes|tag=prósenta
 25	fylgi	fylgi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 26	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
@@ -246,7 +237,7 @@
 3	starfsafmæli	starfsafmæli	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_þgf_hk
 4	Íslenska	íslenskur	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	_	tag=fyrirtæki_et_ef_kk
 5	dansflokksins	dansflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	flat:name	_	tag=fyrirtæki_et_ef_kk_gr
-6	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
+6	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
 7	fagnað	fagna	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	0	root	_	tag=so_1_þgf_lhþt_et
 8	með	með	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	pompi	pomp	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
@@ -255,7 +246,7 @@
 12	á	á	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 13	mánudaginn	mánudagur	ADV	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	advmod	_	tag=no_et_þf_kk_gr
 14	og	og	CCONJ	st	_	7	cc	_	tag=st
-15	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_ft_þt_gm
+15	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_ft_þt_gm
 16	rúmlega	rúmlega	ADV	eo	_	18	advmod	_	tag=eo
 17	100	100	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	18	nummod	_	tag=tala_ft_nf_kk
 18	velunnarar	velunnari	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	tag=no_ft_nf_kk
@@ -268,6 +259,8 @@
 25	áfanga	áfangi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No|tag=no_et_þgf_kk
 26	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00156,.10
+# text = Ég fæ reyndar ekki einn sveittan í bréfi — en ég fæ hráefnin sem ég get svo eldað sjálfur og leyft strákunum að smakka.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	fæ	fá	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 3	reyndar	reyndar	ADV	ao	_	2	advmod	_	tag=ao
@@ -291,6 +284,6 @@
 21	leyft	leyfa	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	18	conj	_	tag=so_1_þgf_sagnb_gm
 22	strákunum	strákur	NOUN	no_ft_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	21	obj	_	tag=no_ft_þgf_kk_gr
 23	að	að	PART	nhm	_	24	mark	_	tag=nhm
-24	smakka	smakka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	21	xcomp	_	tag=so_0_nh_gm
+24	smakka	smakka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	21	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
 25	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

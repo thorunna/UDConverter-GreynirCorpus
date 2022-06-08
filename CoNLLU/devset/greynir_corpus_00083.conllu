@@ -2,9 +2,8 @@
 # text = Þarna kemur til dæmis inn í líka lýsing sem er algerlega miðuð við bílaumferð.
 1	Þarna	þarna	ADV	ao	_	2	advmod	_	tag=ao
 2	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3-4	til dæmis	_	_	_	_	_	_	_	_
 3	til	til	ADV	ao	_	2	advmod	_	tag=ao
-4	dæmis	dæmis	ADV	ao	_	3	fixed	_	tag=ao
+4	dæmis	dæmis	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	inn	inn	ADV	ao	_	2	advmod	_	tag=ao
 6	í	í	ADV	ao	_	5	advmod	_	tag=ao
 7	líka	líka	ADV	ao	_	2	advmod	_	tag=ao
@@ -21,15 +20,15 @@
 # text = Ég talaði við líka við leikmenn í dag áður en að þessi fundur byrjaði.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	talaði	tala	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p1_et_þt_gm
-3	við	við	X	x		2	dep	_	tag=x
+3	við	við	X	x	_	2	dep	_	tag=x
 4	líka	líka	ADV	ao	_	2	advmod	_	tag=ao
 5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	leikmenn	leikmaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_þf_kk
 7	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
-9	áður	áður	ADV	ao	_	14	cc	_	tag=ao
-10	en	en	CCONJ	st	_	11	cc	_	tag=st
-11	að	að	SCONJ	st	_	9	conj	_	tag=st
+9	áður	áður	ADV	ao	_	10	advmod	_	tag=ao
+10	en	en	CCONJ	st	_	14	mark	_	tag=st
+11	að	að	SCONJ	st	_	10	cc	_	tag=st
 12	þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	tag=fn_et_nf_kk
 13	fundur	fundur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk
 14	byrjaði	byrja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
@@ -37,8 +36,8 @@
 
 # sent_id = GREYNIR_CORPUS_00083,.3
 # text = Eins og eitt skiptið þegar ég fékk skilaboð frá henni þá kvaddi hún mig.
-1	Eins	Eins	ADV	ao	_	12	cc	_	tag=ao
-2	og	og	CCONJ	st	_	1	cc	_	tag=st
+1	Eins	Eins	ADV	ao	_	2	advmod	_	tag=ao
+2	og	og	CCONJ	st	_	12	dep	_	tag=st
 3	eitt	einn	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	tag=fn_et_þf_hk
 4	skiptið	skipti	ADV	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	12	advmod	_	tag=no_et_þf_hk_gr
 5	þegar	þegar	SCONJ	st	_	7	mark	_	tag=st
@@ -56,13 +55,13 @@
 # sent_id = GREYNIR_CORPUS_00083,.4
 # text = Nýnæmið er oft fólgið í því að nota þekkta tækni eða hugmyndir á nýjan hátt.
 1	Nýnæmið	nýnæmi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	oft	oft	ADV	ao	_	4	advmod	_	tag=ao
 4	fólgið	fólginn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
-5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
+5	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	tag=fn_et_þgf_hk
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	nota	nota	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_1_þf_nh_gm
+8	nota	nota	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	obl	_	tag=so_1_þf_nh_gm
 9	þekkta	þekktur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_þf_kvk_sb
 10	tækni	tækni	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	tag=no_et_þf_kvk
 11	eða	eða	CCONJ	st	_	12	cc	_	tag=st
@@ -76,10 +75,9 @@
 # text = Að sögn Juan Agustin Ramirez, forstjóra sjúkrahússins, hefur sjúklingum frá Venesúela fjölgað gríðarlega.
 1	Að	að	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	sögn	sögn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þgf_kvk
-3-5	Juan Agustin Ramirez	_	_	_	_	_	_	_	_
-3	Juan	Juan	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	nmod:poss	_	SpaceAfter=No|tag=person_et_ef_kk
-4	Agustin	Agustin	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No|tag=person_et_ef_kk
-5	Ramirez	Ramirez	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No|tag=person_et_ef_kk
+3	Juan	Juan	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	nmod:poss	_	tag=person_et_ef_kk
+4	Agustin	Agustin	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	flat	_	tag=person_et_ef_kk
+5	Ramirez	Ramirez	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_et_ef_kk
 6	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 7	forstjóra	forstjóri	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_þgf_kk
 8	sjúkrahússins	sjúkrahús	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
@@ -94,7 +92,7 @@
 
 # sent_id = GREYNIR_CORPUS_00083,.6
 # text = Það sem meira er, þá smellpassar hann fyrir þá sem eru á ketó mataræði.
-1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	VANTAR_LIÐ_S_PREFIX	_	tag=pfn_et_nf_hk_p3
+1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	dep	_	tag=pfn_et_nf_hk_p3
 2	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
 3	meira	mikill	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	4	xcomp	_	tag=lo_et_nf_hk_mst
 4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	SpaceAfter=No|tag=so_1_nf_fh_p3_et_nt_gm
@@ -112,7 +110,7 @@
 16	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00083,.7
-# text = Fylkir vann 0 — 3 útisigur á HK á 50 ára afmælisdegi félagsins í dag.
+# text = Fylkir vann 0— 3 útisigur á HK á 50 ára afmælisdegi félagsins í dag.
 1	Fylkir	Fylkir	PROPN	fyrirtæki_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=fyrirtæki_et_nf_kk
 2	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	0	0	NUM	tala	NumType=Card	6	nummod	_	SpaceAfter=No|tag=tala
@@ -138,9 +136,8 @@
 4	starfað	starfa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 5	hjá	hjá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	fjárfestingabankanum	fjárfestingabanki	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk_gr
-7-8	Goldman Sachs	_	_	_	_	_	_	_	_
 7	Goldman	Goldman	PROPN	fyrirtæki	_	6	conj	_	tag=fyrirtæki
-8	Sachs	Sachs	PROPN	fyrirtæki	_	7	flat	_	tag=fyrirtæki
+8	Sachs	Sachs	PROPN	fyrirtæki	_	7	flat	_	MWEEnd=Yes|tag=fyrirtæki
 9	og	og	CCONJ	st	_	4	cc	_	tag=st
 10	gegnt	gegna	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	4	conj	_	tag=so_1_þgf_sagnb_gm
 11	embætti	embætti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obj	_	tag=no_et_þgf_hk
@@ -155,9 +152,8 @@
 1	Einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_nf_kk
 2	fjölskylduvinur	fjölskylduvinur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 3	uppgötvaði	uppgötva	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-4-5	til dæmis	_	_	_	_	_	_	_	_
 4	til	til	ADV	ao	_	3	advmod	_	tag=ao
-5	dæmis	dæmis	ADV	ao	_	4	fixed	_	tag=ao
+5	dæmis	dæmis	ADV	ao	_	4	fixed	_	MWEEnd=Yes|tag=ao
 6	að	að	SCONJ	st	_	9	mark	_	tag=st
 7	nafn	nafn	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk
 8	Romands	Romand	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=person_et_ef_kk

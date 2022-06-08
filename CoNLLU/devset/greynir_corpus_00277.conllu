@@ -15,7 +15,7 @@
 13	ár	ár	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	advmod	_	tag=no_ft_þf_hk
 14	og	og	CCONJ	st	_	6	cc	_	tag=st
 15	þar	þar	ADV	ao	_	19	advmod	_	tag=ao
-16	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_0_fh_p3_et_nt_gm
+16	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_0_fh_p3_et_nt_gm
 17	Bretland	Bretland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	tag=sérnafn_et_nf_hk
 18	engin	enginn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	19	nmod	_	tag=fn_et_nf_kvk
 19	undantekning	undantekning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|tag=no_et_nf_kvk
@@ -25,14 +25,13 @@
 # text = Ég tel fyrst og fremst að þetta mál sé rekið í hæstarétti á grundvelli áfrýjunar í þessu máli.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	tel	telja	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
-3-5	fyrst og fremst	_	_	_	_	_	_	_	_
 3	fyrst	fyrst	ADV	ao	_	2	advmod	_	tag=ao
 4	og	og	ADV	ao	_	3	fixed	_	tag=ao
-5	fremst	fremst	ADV	ao	_	3	fixed	_	tag=ao
+5	fremst	fremst	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 6	að	að	SCONJ	st	_	10	mark	_	tag=st
 7	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nmod	_	tag=fn_et_nf_hk
 8	mál	mál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=no_et_nf_hk
-9	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_vh_p3_et_nt_gm
+9	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_vh_p3_et_nt_gm
 10	rekið	reka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	obj	_	tag=so_0_lhþt_et
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	hæstarétti	hæstiréttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_þgf_kk
@@ -46,13 +45,11 @@
 
 # sent_id = GREYNIR_CORPUS_00277,.3
 # text = Davíð Snær sendi í kjölfarið frá sér yfirlýsingu þar sem hann lýsti áhyggjum af öfgafullum viðbrögðum stjórnarinnar.
-1-2	Davíð Snær	_	_	_	_	_	_	_	_
 1	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Snær	Snær	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Snær	Snær	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	sendi	senda	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-4-5	í kjölfarið	_	_	_	_	_	_	_	_
 4	í	í	ADV	ao	_	3	advmod	_	tag=ao
-5	kjölfarið	kjölfarið	ADV	ao	_	4	fixed	_	tag=ao
+5	kjölfarið	kjölfarið	ADV	ao	_	4	fixed	_	MWEEnd=Yes|tag=ao
 6	frá	frá	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	3	obl	_	tag=abfn_þgf
 8	yfirlýsingu	yfirlýsing	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þf_kvk
@@ -79,7 +76,7 @@
 8	nefnda	nefnd	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	7	nmod:poss	_	tag=no_ft_ef_kvk
 9	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 10	annars	annars	ADV	ao	_	12	advmod	_	tag=ao
-11	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_ft_nt_gm
+11	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_ft_nt_gm
 12	sjálfstæðar	sjálfstæður	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	8	acl:relcl	_	tag=lo_ft_nf_kvk_sb
 13	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	veitingu	veiting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þf_kvk
@@ -92,19 +89,18 @@
 
 # sent_id = GREYNIR_CORPUS_00277,.5
 # text = Eftir að fluttar voru fréttir af nýjasta ársreikningi Alcoa á dögunum var fjármálaráðherra aftur spurður um málið á Alþingi.
-1	Eftir	eftir	ADV	ao	_	3	mark	_	tag=ao
-2	að	að	SCONJ	st	_	1	cc	_	tag=st
+1	Eftir	eftir	ADV	ao	_	2	advmod	_	tag=ao
+2	að	að	SCONJ	st	_	3	mark	_	tag=st
 3	fluttar	flytja	VERB	so_0	_	15	advcl	_	tag=so_0
-4	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_þt_gm
+4	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_þt_gm
 5	fréttir	frétt	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk
 6	af	af	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 7	nýjasta	nýr	ADJ	lo_et_þgf_kk_evb	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_þgf_kk_evb
 8	ársreikningi	ársreikningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
 9	Alcoa	Alcoa	PROPN	fyrirtæki	_	8	nmod:poss	_	tag=fyrirtæki
-10-11	á dögunum	_	_	_	_	_	_	_	_
 10	á	á	ADV	ao	_	3	advmod	_	tag=ao
-11	dögunum	dögunum	ADV	ao	_	10	fixed	_	tag=ao
-12	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_þt_gm
+11	dögunum	dögunum	ADV	ao	_	10	fixed	_	MWEEnd=Yes|tag=ao
+12	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_þt_gm
 13	fjármálaráðherra	fjármálaráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	tag=no_et_nf_kk
 14	aftur	aftur	ADV	eo	_	15	advmod	_	tag=eo
 15	spurður	spyrja	VERB	so_0	_	0	root	_	tag=so_0
@@ -119,14 +115,14 @@
 1	Umræðan	umræða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	alltaf	alltaf	ADV	eo	_	2	advmod	_	tag=eo
-4	eins	eins	ADV	ao	_	7	cc	_	tag=ao
-5	og	og	CCONJ	st	_	4	cc	_	tag=st
+4	eins	eins	ADV	ao	_	5	advmod	_	tag=ao
+5	og	og	CCONJ	st	_	7	mark	_	tag=st
 6	ferðaþjónustan	ferðaþjónusta	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk_gr
 7	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	tag=so_0_vh_p3_et_nt_gm
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
 9	hrynja	hrynja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_0_nh_gm
 10	af	af	ADP	fs_þgf	Case=Dat	13	mark	_	tag=fs_þgf
-11	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nmod	_	tag=pfn_et_þgf_hk_p3
+11	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	fixed	_	tag=pfn_et_þgf_hk_p3
 12	fjölgunin	fjölgun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	tag=no_et_nf_kvk_gr
 13	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	_	tag=so_1_nf_vh_p3_et_nt_gm
 14	ekki	ekki	ADV	eo	_	16	advmod	_	tag=eo
@@ -138,13 +134,11 @@
 
 # sent_id = GREYNIR_CORPUS_00277,.7
 # text = Sums staðar sé til dæmis greiðara aðgengi að reyndu aðstoðarfólki sem hefur aflað sér þekkingar, annars staðar ekki.
-1-2	Sums staðar	_	_	_	_	_	_	_	_
 1	Sums	sums	ADV	ao	_	3	advmod	_	tag=ao
-2	staðar	staðar	ADV	ao	_	1	fixed	_	tag=ao
+2	staðar	staðar	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_vh_p3_et_nt_gm
-4-5	til dæmis	_	_	_	_	_	_	_	_
 4	til	til	ADV	ao	_	3	advmod	_	tag=ao
-5	dæmis	dæmis	ADV	ao	_	4	fixed	_	tag=ao
+5	dæmis	dæmis	ADV	ao	_	4	fixed	_	MWEEnd=Yes|tag=ao
 6	greiðara	greiður	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_nf_hk_mst
 7	aðgengi	aðgengi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
 8	að	að	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
@@ -156,9 +150,8 @@
 14	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	13	iobj	_	tag=abfn_þgf
 15	þekkingar	þekking	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No|tag=no_et_ef_kvk
 16	,	_	PUNCT	grm	_	17	punct	_	tag=grm
-17-18	annars staðar	_	_	_	_	_	_	_	_
 17	annars	annars	ADV	ao	_	3	conj	_	tag=ao
-18	staðar	staðar	ADV	ao	_	17	fixed	_	tag=ao
+18	staðar	staðar	ADV	ao	_	17	fixed	_	MWEEnd=Yes|tag=ao
 19	ekki	ekki	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
 20	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
@@ -207,23 +200,24 @@
 19	Reykjanesi	Reykjanes	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 20	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00277,.10
+# text = Þar segir Jón Þór að þrír aðilar geti aftengt sprengjuna, eins og hann kallar úrskurð kjararáðs.
 1	Þar	þar	ADV	ao	_	2	advmod	_	tag=ao
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-3-4	Jón Þór	_	_	_	_	_	_	_	_
 3	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-4	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
+4	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	MWEEnd=Yes|tag=person_nf_kk
 5	að	að	SCONJ	st	_	9	mark	_	tag=st
 6	þrír	þrír	NUM	to_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	nummod	_	tag=to_ft_nf_kk
 7	aðilar	aðili	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	tag=no_ft_nf_kk
 8	geti	geta	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_vh_p3_ft_nt_gm
 9	aftengt	aftengja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	obj	_	tag=so_1_þf_sagnb_gm
-10	sprengjuna	sprengja	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	tag=no_et_þf_kvk_gr
+10	sprengjuna	sprengja	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
-12	eins	eins	ADV	ao	_	15	cc	_	tag=ao
-13	og	og	CCONJ	st	_	12	cc	_	tag=st
+12	eins	eins	ADV	ao	_	13	advmod	_	tag=ao
+13	og	og	CCONJ	st	_	15	mark	_	tag=st
 14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_kk_p3
 15	kallar	kalla	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
 16	úrskurð	úrskurður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	tag=no_et_þf_kk
-17	kjararáðs	kjararáð	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	nmod:poss	_	tag=no_et_ef_hk
+17	kjararáðs	kjararáð	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
 18	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

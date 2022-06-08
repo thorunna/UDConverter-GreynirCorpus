@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00105,.1
 # text = Hannes er búinn að ganga frá þriggja ára samningi en hann kemur þangað frá hollenska liðinu NEC Nijmegen.
 1	Hannes	Hannes	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	búinn	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	ganga	ganga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
@@ -16,9 +16,8 @@
 14	frá	frá	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 15	hollenska	hollenskur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þgf_hk_vb
 16	liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	17	obl	_	tag=no_et_þgf_hk_gr
-17-18	NEC Nijmegen	_	_	_	_	_	_	_	_
-17	NEC	NEC	PROPN	fyrirtæki_et_nf	Case=Nom|Number=Sing	12	obl	_	SpaceAfter=No|tag=fyrirtæki_et_nf
-18	Nijmegen	Nijmegen	PROPN	fyrirtæki_et_nf	Case=Nom|Number=Sing	17	flat	_	SpaceAfter=No|tag=fyrirtæki_et_nf
+17	NEC	NEC	PROPN	fyrirtæki_et_nf	Case=Nom|Number=Sing	12	obl	_	tag=fyrirtæki_et_nf
+18	Nijmegen	Nijmegen	PROPN	fyrirtæki_et_nf	Case=Nom|Number=Sing	17	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=fyrirtæki_et_nf
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00105,.2
@@ -30,14 +29,13 @@
 5	Lögbirtingablaðinu	lögbirtingablað	PROPN	sérnafn_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=sérnafn_et_þgf_hk_gr
 6	en	en	CCONJ	st	_	2	cc	_	tag=st
 7	búið	bú	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_nf_hk_gr
-8	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_þt_gm
+8	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_þt_gm
 9	tekið	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
 10	til	til	ADP	fs_ef	Case=Gen	11	case	_	tag=fs_ef
 11	gjaldþrotaskipta	gjaldþrotaskipti	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_ef_hk
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13-14	júní 2010	_	_	_	_	_	_	_	_
 13	júní	júní	ADV	dagsafs	_	9	advmod	_	tag=dagsafs
-14	2010	2010	NOUN	dagsafs	_	13	flat	_	tag=dagsafs
+14	2010	2010	NOUN	dagsafs	_	13	flat	_	MWEEnd=Yes|tag=dagsafs
 15	með	með	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	úrskurði	úrskurður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þgf_kk
 17	Héraðsdóms	héraðsdómur	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	16	nmod:poss	_	tag=sérnafn_et_ef_kk
@@ -81,7 +79,7 @@
 11	og	og	CCONJ	st	_	3	cc	_	tag=st
 12	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 13	þarlend	þarlendur	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	14	amod	_	tag=lo_ft_þf_hk_sb
-14	yfirvöld	yfirvald	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	tag=no_ft_þf_hk
+14	yfirvöld	yfirvald	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	tag=no_ft_þf_hk
 15	reiðubúin	reiðubúinn	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	14	amod	_	tag=lo_ft_þf_hk_sb
 16	til	til	ADP	fs	_	18	case	_	tag=fs
 17	að	að	PART	nhm	_	18	mark	_	tag=nhm
@@ -134,12 +132,11 @@
 
 # sent_id = GREYNIR_CORPUS_00105,.7
 # text = En á þessum tíma var íslenskan ekki svona þekkt og maður vissi ekki hvernig íslenskur hreimur hljómaði.
-1	En	en	SCONJ	st	_	9	mark	_	tag=st
-2-4	á þessum tíma	_	_	_	_	_	_	_	_
+1	En	en	SCONJ	st	_	9	cc	_	tag=st
 2	á	á	ADV	ao	_	9	advmod	_	tag=ao
 3	þessum	þessum	ADV	ao	_	2	fixed	_	tag=ao
-4	tíma	tíma	ADV	ao	_	2	fixed	_	tag=ao
-5	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+4	tíma	tíma	ADV	ao	_	2	fixed	_	MWEEnd=Yes|tag=ao
+5	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 6	íslenskan	íslenska	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk_gr
 7	ekki	ekki	ADV	eo	_	9	advmod	_	tag=eo
 8	svona	svona	ADV	eo	_	9	advmod	_	tag=eo
@@ -157,7 +154,7 @@
 # sent_id = GREYNIR_CORPUS_00105,.8
 # text = Það er glæpsamlegt að tala um það, sagði Mnangagwa á kosningafundi í Harere í dag.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	glæpsamlegt	glæpsamlegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	xcomp	_	tag=lo_et_nf_hk_sb
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	tala	tala	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
@@ -179,10 +176,10 @@
 1	Litlar	lítill	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_nf_kvk_sb
 2	skaðabætur	skaðabót	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	tag=no_ft_nf_kvk
 3	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_ft_nt_gm
-4	verið	vera	AUX	so_0_gm	Voice=Act	5	aux	_	tag=so_0_gm
+4	verið	vera	AUX	so_0_gm	Voice=Act	5	cop	_	tag=so_0_gm
 5	greiddar	greiða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 6	og	og	CCONJ	st	_	5	cc	_	tag=st
-7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+7	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 8	þær	hún	PRON	pfn_ft_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_ft_nf_kvk_p3
 9	aðeins	aðeins	ADV	eo	_	10	advmod	_	tag=eo
 10	brot	brot	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	tag=no_et_nf_hk
@@ -194,7 +191,7 @@
 16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_fh_p3_et_nt_gm
 17	lagt	leggja	VERB	so_0_gm	Voice=Act	13	acl:relcl	_	tag=so_0_gm
 18	út	út	ADV	ao	_	17	compound:prt	_	SpaceAfter=No|tag=ao
-19	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+19	.	_	PUNCT	grm	_	18	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00105,.10
 # text = Þeir kennarar sem skliluðu inn uppsagnarbréfi í dag, fannst þér á þeim að þessi samningur væri vonbrigði?
@@ -214,7 +211,7 @@
 14	að	að	SCONJ	st	_	18	mark	_	tag=st
 15	þessi	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	tag=fn_et_nf_kk
 16	samningur	samningur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	tag=no_et_nf_kk
-17	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
+17	væri	vera	AUX	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 18	vonbrigði	vonbrigði	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	10	ccomp	_	SpaceAfter=No|tag=no_ft_nf_hk
 19	?	_	PUNCT	grm	_	10	punct	_	tag=grm
 

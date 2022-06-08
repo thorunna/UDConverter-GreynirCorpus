@@ -42,16 +42,15 @@
 2	Norðuráls	Norðurál	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_hk
 3	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_vh_p3_ft_nt_gm
 4	hinsvegar	hinsvegar	ADV	ao	_	6	advmod	_	tag=ao
-5	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	cop	_	tag=so_0_sagnb_gm
+5	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	cop	_	tag=so_0_sagnb_gm
 6	óbreyttir	óbreyttur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
 7	um	um	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	árabil	árabil	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk
 9	og	og	CCONJ	st	_	6	cc	_	tag=st
 10	gilda	gilda	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_nt_gm
 11	til	til	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
-12-13	ársins 2028	_	_	_	_	_	_	_	_
 12	ársins	ársins	ADV	ártal	_	10	advmod	_	tag=ártal
-13	2028	2028	NUM	ártal	_	12	flat	_	tag=ártal
+13	2028	2028	NUM	ártal	_	12	flat	_	MWEEnd=Yes|tag=ártal
 14	og	og	CCONJ	st	_	12	cc	_	tag=st
 15	2035	2035	NUM	ártal	_	12	nummod	_	SpaceAfter=No|tag=ártal
 16	.	_	PUNCT	grm	_	6	punct	_	tag=grm
@@ -68,10 +67,9 @@
 8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	Ameríku	Ameríka	PROPN	sérnafn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|tag=sérnafn_et_þf_kvk
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-11-13	í það minnsta	_	_	_	_	_	_	_	_
 11	í	í	ADV	ao	_	6	advmod	_	tag=ao
 12	það	það	ADV	ao	_	11	fixed	_	tag=ao
-13	minnsta	minnsta	ADV	ao	_	11	fixed	_	tag=ao
+13	minnsta	minnsta	ADV	ao	_	11	fixed	_	MWEEnd=Yes|tag=ao
 14	í	í	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	huganum	hugi	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 16	.	_	PUNCT	grm	_	6	punct	_	tag=grm
@@ -84,11 +82,11 @@
 4	Yasar	Yasar	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
 5	út	út	ADV	ao	_	3	compound:prt	_	tag=ao
 6	bók	bók	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þf_kvk
-7	sem	sem	X	x		3	dep	_	tag=x
+7	sem	sem	X	x	_	3	dep	_	tag=x
 8	þar	þar	ADV	ao	_	3	advmod	_	tag=ao
 9	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 10	greint	greina	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	advcl	_	tag=so_0_lhþt_et
-11	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
+11	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
 12	frá	frá	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 13	vafasamri	vafasamur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_þgf_kvk_sb
 14	fortíð	fortíð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
@@ -97,18 +95,18 @@
 
 # sent_id = GREYNIR_CORPUS_00086,.6
 # text = Sjá einnig: Kerfið gæti hafa brugðist mér, en þetta er ekki endirinn
-1	Sjá	sjá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	VANTAR_LIÐ_S_PREFIX	_	tag=so_0_nh_gm
+1	Sjá	sjá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	dep	_	tag=so_0_nh_gm
 2	einnig	einnig	ADV	ao	_	1	advmod	_	SpaceAfter=No|tag=ao
 3	:	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	Kerfið	kerfi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	tag=no_et_nf_hk_gr
 5	gæti	geta	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_þt_gm
-6	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	aux	_	tag=so_0_nh_gm
+6	hafa	hafa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	dep	_	tag=so_0_nh_gm
 7	brugðist	bregða	VERB	so_1_þgf_sagnb_mm	Case=Dat|VerbForm=Sup|Voice=Mid	0	root	_	tag=so_1_þgf_sagnb_mm
 8	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No|tag=pfn_et_þgf_p1
 9	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 10	en	en	CCONJ	st	_	7	cc	_	tag=st
 11	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=fn_et_nf_hk
-12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+12	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 13	ekki	ekki	ADV	ao	_	14	advmod	_	tag=ao
 14	endirinn	endir	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	tag=no_et_nf_kk_gr
 
@@ -119,28 +117,23 @@
 3	nam	nema	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 4	erlend	erlendur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_sb
 5	greiðslukortavelta	greiðslukortavelta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
-6-8	14,9 milljörðum króna	_	_	_	_	_	_	_	_
 6	14,9	14,9	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obj	_	tag=no_ft_þgf_kk
 7	milljörðum	milljörðum	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	flat	_	tag=no_ft_þgf_kk
-8	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	flat	_	tag=no_ft_þgf_kk
-9-10	samanborið við	_	_	_	_	_	_	_	_
+8	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	flat	_	MWEEnd=Yes|tag=no_ft_þgf_kk
 9	samanborið	samanborið	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-10	við	við	ADP	fs_þf	Case=Acc	9	fixed	_	tag=fs_þf
-11-12	9,4 milljarða	_	_	_	_	_	_	_	_
+10	við	við	ADP	fs_þf	Case=Acc	9	fixed	_	MWEEnd=Yes|tag=fs_þf
 11	9,4	9,4	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	tag=töl_ft_þf_kk
-12	milljarða	milljarða	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	_	_	tag=töl_ft_þf_kk
+12	milljarða	milljarða	NUM	töl_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	flat	_	MWEEnd=Yes|tag=töl_ft_þf_kk
 13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14-15	desember 2015	_	_	_	_	_	_	_	_
-14	desember	desember	ADV	dagsafs	_	11	advmod	_	SpaceAfter=No|tag=dagsafs
-15	2015	2015	NOUN	dagsafs	_	14	flat	_	SpaceAfter=No|tag=dagsafs
+14	desember	desember	ADV	dagsafs	_	11	advmod	_	tag=dagsafs
+15	2015	2015	NOUN	dagsafs	_	14	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00086,.8
 # text = Hlynur Bæringsson var enn ekki kominn með körfu utan af velli og munaði um minna.
-1-2	Hlynur Bæringsson	_	_	_	_	_	_	_	_
 1	Hlynur	Hlynur	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=person_et_nf_kk
-2	Bæringsson	Bæringsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
-3	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	Bæringsson	Bæringsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	MWEEnd=Yes|tag=person_et_nf_kk
+3	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 4	enn	enn	ADV	ao	_	6	advmod	_	tag=ao
 5	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
 6	kominn	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
@@ -166,12 +159,10 @@
 7	og	og	CCONJ	st	_	1	cc	_	tag=st
 8	dálítil	dálítill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_nf_kvk_sb
 9	væta	væta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	tag=no_et_nf_kvk
-10-11	öðru hvoru	_	_	_	_	_	_	_	_
 10	öðru	öðru	ADV	ao	_	9	advmod	_	tag=ao
-11	hvoru	hvoru	ADV	ao	_	10	fixed	_	tag=ao
-12-13	fyrir norðan	_	_	_	_	_	_	_	_
-12	fyrir	fyrir	ADV	ao	_	9	advmod	_	SpaceAfter=No|tag=ao
-13	norðan	norðan	ADV	ao	_	12	fixed	_	SpaceAfter=No|tag=ao
+11	hvoru	hvoru	ADV	ao	_	10	fixed	_	MWEEnd=Yes|tag=ao
+12	fyrir	fyrir	ADV	ao	_	9	advmod	_	tag=ao
+13	norðan	norðan	ADV	ao	_	12	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 14	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00086,.10
@@ -179,7 +170,7 @@
 1	Helga	Helga	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=person_et_nf_kvk
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	með	með	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-4	BSc	Bachelor of Science	ADV	abbrev	_	6	advmod	_	SpaceAfter=No|tag=abbrev
+4	BSc	BachelorofScience	ADV	abbrev	_	6	advmod	_	OriginalLemma=Bachelor of Science|SpaceAfter=No|tag=abbrev
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	gráðu	gráða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf

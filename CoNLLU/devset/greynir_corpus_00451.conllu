@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00451,.1
 # text = Þá voru bornir saman tveir hópar háskólanema, annar hópurinn bjó í húsi með loftkælingu og hinn hópurinn bjó í húsi án loftkælingar.
 1	Þá	þá	ADV	ao	_	3	advmod	_	tag=ao
-2	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_þt_gm
+2	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_þt_gm
 3	bornir	borinn	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	saman	saman	ADV	ao	_	3	advmod	_	tag=ao
 5	tveir	tveir	NUM	to_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nummod	_	tag=to_ft_nf_kk
@@ -28,15 +28,13 @@
 # sent_id = GREYNIR_CORPUS_00451,.2
 # text = Fréttamennirnir Stefán Árni Pálsson og Benedikt Bóas Hinriksson verða með umfjöllun hér á Vísi, Stöð 2, Fréttablaðinu og á Bylgjunni á hverjum degi í gegnum alla keppnina.
 1	Fréttamennirnir	fréttamaður	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_nf_kk_gr
-2-4	Stefán Árni Pálsson	_	_	_	_	_	_	_	_
 2	Stefán	Stefán	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
 3	Árni	Árni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	flat	_	tag=person_nf_kk
-4	Pálsson	Pálsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	flat	_	tag=person_nf_kk
+4	Pálsson	Pálsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	flat	_	MWEEnd=Yes|tag=person_nf_kk
 5	og	og	CCONJ	st	_	2	cc	_	tag=st
-6-8	Benedikt Bóas Hinriksson	_	_	_	_	_	_	_	_
 6	Benedikt	Benedikt	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	conj	_	tag=person_nf_kk
 7	Bóas	Bóas	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	flat	_	tag=person_nf_kk
-8	Hinriksson	Hinriksson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	flat	_	tag=person_nf_kk
+8	Hinriksson	Hinriksson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	flat	_	MWEEnd=Yes|tag=person_nf_kk
 9	verða	verða	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_ft_nt_gm
 10	með	með	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 11	umfjöllun	umfjöllun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þgf_kvk
@@ -44,9 +42,8 @@
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	Vísi	Vísir	PROPN	fyrirtæki_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_kk
 15	,	,	PUNCT	grm	_	16	punct	_	tag=grm
-16-17	Stöð 2	_	_	_	_	_	_	_	_
-16	Stöð	Stöð	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_kvk
-17	2	2	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	flat	_	SpaceAfter=No|tag=fyrirtæki_et_þgf_kvk
+16	Stöð	Stöð	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	conj	_	tag=fyrirtæki_et_þgf_kvk
+17	2	2	PROPN	fyrirtæki_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=fyrirtæki_et_þgf_kvk
 18	,	,	PUNCT	grm	_	19	punct	_	tag=grm
 19	Fréttablaðinu	Fréttablaðið	PROPN	fyrirtæki_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	14	conj	_	tag=fyrirtæki_et_þgf_hk_gr
 20	og	og	CCONJ	st	_	14	cc	_	tag=st
@@ -55,9 +52,8 @@
 23	á	á	ADV	fs_þgf	Case=Dat	9	advmod	_	tag=fs_þgf
 24	hverjum	hver	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	tag=fn_et_þgf_kk
 25	degi	dagur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	tag=no_et_þgf_kk
-26-27	í gegnum	_	_	_	_	_	_	_	_
 26	í	í	ADP	fs_þf	Case=Acc	29	case	_	tag=fs_þf
-27	gegnum	gegnum	ADP	fs_þf	Case=Acc	26	fixed	_	tag=fs_þf
+27	gegnum	gegnum	ADP	fs_þf	Case=Acc	26	fixed	_	MWEEnd=Yes|tag=fs_þf
 28	alla	allur	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	29	nmod	_	tag=fn_et_þf_kvk
 29	keppnina	keppni	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 30	.	.	PUNCT	grm	_	9	punct	_	tag=grm
@@ -65,14 +61,14 @@
 # sent_id = GREYNIR_CORPUS_00451,.3
 # text = Ökumaðurinn var fluttur með sjúkrabíl og eftir skoðun var hann handtekinn og vistaður í fangageymslu, segir í tilkynningu frá Lögreglunni á höfuðborgarsvæðinu.
 1	Ökumaðurinn	ökumaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	fluttur	flytja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	með	með	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	sjúkrabíl	sjúkrabíll	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
 6	og	og	CCONJ	st	_	3	cc	_	tag=st
 7	eftir	eftir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	skoðun	skoðun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þf_kvk
-9	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_þt_gm
+9	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_þt_gm
 10	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kk_p3
 11	handtekinn	handtaka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
 12	og	og	CCONJ	st	_	13	cc	_	tag=st
@@ -111,9 +107,8 @@
 18	lúxusíbúðum	lúxusíbúð	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þgf_kvk
 19	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	18	nmod:poss	_	tag=pfn_ft_ef_hk_p3
 20	í	í	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-21-22	Kúala Lúmpúr	_	_	_	_	_	_	_	_
 21	Kúala	Kúala	PROPN	sérnafn_et_þgf	Case=Dat|Number=Sing	18	obl	_	tag=sérnafn_et_þgf
-22	Lúmpúr	Lúmpúr	PROPN	sérnafn_et_þgf	Case=Dat|Number=Sing	21	flat	_	tag=sérnafn_et_þgf
+22	Lúmpúr	Lúmpúr	PROPN	sérnafn_et_þgf	Case=Dat|Number=Sing	21	flat	_	MWEEnd=Yes|tag=sérnafn_et_þgf
 23	í	í	ADV	ao	_	2	advmod	_	tag=ao
 24	fyrra	fyrra	ADV	ao	_	23	advmod	_	SpaceAfter=No|tag=ao
 25	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -121,7 +116,7 @@
 # sent_id = GREYNIR_CORPUS_00451,.5
 # text = Það er allt klárt, þú ert í góðu stuði með nýja markmiðið þitt og skothelda áætlun um það sem fram undan er.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
 3	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
 4	klárt	klár	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
@@ -147,9 +142,8 @@
 
 # sent_id = GREYNIR_CORPUS_00451,.6
 # text = Geir Sveinsson landsliðsþjálfari sagði við RÚV að smávægileg meiðsli hafi tekið sig upp hjá Bjarka Má og því hafi verið ákveðið að hvíla hann í kvöld.
-1-2	Geir Sveinsson	_	_	_	_	_	_	_	_
 1	Geir	Geir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	nsubj	_	tag=person_nf_kk
-2	Sveinsson	Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Sveinsson	Sveinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	landsliðsþjálfari	landsliðsþjálfari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 4	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -162,20 +156,18 @@
 12	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	11	obj	_	tag=abfn_þf
 13	upp	upp	ADV	ao	_	11	advmod	_	tag=ao
 14	hjá	hjá	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15-16	Bjarka Má	_	_	_	_	_	_	_	_
 15	Bjarka	Bjarki	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	11	obl	_	tag=person_þgf_kk
-16	Má	Már	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	15	flat	_	tag=person_þgf_kk
+16	Má	Már	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	15	flat	_	MWEEnd=Yes|tag=person_þgf_kk
 17	og	og	CCONJ	st	_	11	cc	_	tag=st
 18	því	því	ADV	ao	_	21	advmod	_	tag=ao
 19	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	21	aux	_	tag=so_0_vh_p3_ft_nt_gm
-20	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	21	cop	_	tag=so_0_sagnb_gm
-21	ákveðið	ákveða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	VANTAR_LIÐ_IP_None	_	tag=so_0_lhþt_et
+20	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	21	cop	_	tag=so_0_sagnb_gm
+21	ákveðið	ákveða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	dep	_	tag=so_0_lhþt_et
 22	að	að	PART	nhm	_	23	mark	_	tag=nhm
 23	hvíla	hvíla	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	21	xcomp	_	tag=so_1_þf_nh_gm
 24	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	tag=pfn_et_þf_kk_p3
-25-26	í kvöld	_	_	_	_	_	_	_	_
-25	í	í	ADV	ao	_	23	advmod	_	SpaceAfter=No|tag=ao
-26	kvöld	kvöld	ADV	ao	_	25	fixed	_	SpaceAfter=No|tag=ao
+25	í	í	ADV	ao	_	23	advmod	_	tag=ao
+26	kvöld	kvöld	ADV	ao	_	25	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 27	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00451,.7
@@ -193,38 +185,34 @@
 11	umsóknum	umsókn	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	tag=no_ft_þgf_kvk
 12	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_vh_p3_et_nt_gm
 13	borist	bera	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	3	conj	_	tag=so_0_sagnb_mm
-14-15	að undanförnu	_	_	_	_	_	_	_	_
-14	að	að	ADV	ao	_	13	advmod	_	SpaceAfter=No|tag=ao
-15	undanförnu	undanförnu	ADV	ao	_	14	fixed	_	SpaceAfter=No|tag=ao
+14	að	að	ADV	ao	_	13	advmod	_	tag=ao
+15	undanförnu	undanförnu	ADV	ao	_	14	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 16	,	,	PUNCT	grm	_	3	punct	_	tag=grm
-17-19	þar að auki	_	_	_	_	_	_	_	_
-17	þar	þar	ADV	ao	_	26	advmod	_	tag=ao
+17	þar	þar	ADV	ao	_	20	advmod	_	tag=ao
 18	að	að	ADV	ao	_	17	fixed	_	tag=ao
-19	auki	auki	ADV	ao	_	17	fixed	_	tag=ao
-20	fari	fara	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	aux	_	tag=so_0_vh_p3_ft_nt_gm
-21	gæði	gæða	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	26	nsubj	_	tag=no_ft_nf_hk
+19	auki	auki	ADV	ao	_	17	fixed	_	MWEEnd=Yes|tag=ao
+20	fari	fara	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_vh_p3_ft_nt_gm
+21	gæði	gæða	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	20	nsubj	_	tag=no_ft_nf_hk
 22	gagna	gagn	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	21	nmod:poss	_	tag=no_ft_ef_hk
 23	sem	sem	SCONJ	stt	_	25	mark	_	tag=stt
 24	embættinu	embætti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	25	iobj	_	tag=no_et_þgf_hk_gr
 25	berist	bera	VERB	so_0_vh_p3_ft_nt_mm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Mid	22	acl:relcl	_	tag=so_0_vh_p3_ft_nt_mm
-26	minnkandi	minnka	VERB	so_0_lhnt	_	3	conj	_	SpaceAfter=No|tag=so_0_lhnt
+26	minnkandi	minnka	VERB	so_0_lhnt	_	20	xcomp	_	SpaceAfter=No|tag=so_0_lhnt
 27	:	:	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00451,.8
 # text = Jafnlaunavottun er viðbragð við því að þrátt fyrir að árið 1961 hafi Alþingi lögfest launajafnrétti kynjanna, hefur kynbundinn launamunur tíðkast hér á landi og gerir enn.
 1	Jafnlaunavottun	jafn-launa-vottun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	viðbragð	viðbragð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 4	við	við	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
 6	að	að	SCONJ	st	_	21	mark	_	tag=st
-7-8	þrátt fyrir	_	_	_	_	_	_	_	_
-7	þrátt	þrátt	ADV	ao	_	14	mark	_	tag=ao
-8	fyrir	fyrir	ADV	ao	_	7	fixed	_	tag=ao
-9	að	að	SCONJ	st	_	7	cc	_	tag=st
-10-11	árið 1961	_	_	_	_	_	_	_	_
+7	þrátt	þrátt	ADV	ao	_	9	advmod	_	tag=ao
+8	fyrir	fyrir	ADV	ao	_	7	fixed	_	MWEEnd=Yes|tag=ao
+9	að	að	SCONJ	st	_	14	mark	_	tag=st
 10	árið	árið	ADV	ártal	_	14	advmod	_	tag=ártal
-11	1961	1961	NUM	ártal	_	10	flat	_	tag=ártal
+11	1961	1961	NUM	ártal	_	10	flat	_	MWEEnd=Yes|tag=ártal
 12	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_vh_p3_et_nt_gm
 13	Alþingi	Alþingi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
 14	lögfest	lögfesta	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	21	advcl	_	tag=so_1_þf_sagnb_gm
@@ -235,10 +223,9 @@
 19	kynbundinn	kynbinda	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	20	amod	_	tag=lo_et_nf_kk_sb
 20	launamunur	launamunur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	tag=no_et_nf_kk
 21	tíðkast	tíðka	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	5	ccomp	_	tag=so_0_sagnb_mm
-22-24	hér á landi	_	_	_	_	_	_	_	_
 22	hér	hér	ADV	ao	_	21	advmod	_	tag=ao
 23	á	á	ADV	ao	_	22	fixed	_	tag=ao
-24	landi	landi	ADV	ao	_	22	fixed	_	tag=ao
+24	landi	landi	ADV	ao	_	22	fixed	_	MWEEnd=Yes|tag=ao
 25	og	og	CCONJ	st	_	21	cc	_	tag=st
 26	gerir	gera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	conj	_	tag=so_0_fh_p3_et_nt_gm
 27	enn	enn	ADV	ao	_	26	advmod	_	SpaceAfter=No|tag=ao
@@ -274,9 +261,8 @@
 # text = ÍBV vann í kvöld öruggan sigur á Fylki í Árbæ, 3:1, í 2. umferð Pepsi-deildar kvenna í knattspyrnu.
 1	ÍBV	ÍBV	PROPN	fyrirtæki_nf_hk	Case=Nom|Gender=Neut	2	nsubj	_	tag=fyrirtæki_nf_hk
 2	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3-4	í kvöld	_	_	_	_	_	_	_	_
 3	í	í	ADV	ao	_	2	advmod	_	tag=ao
-4	kvöld	kvöld	ADV	ao	_	3	fixed	_	tag=ao
+4	kvöld	kvöld	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	öruggan	öruggur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_þf_kk_sb
 6	sigur	sigur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf

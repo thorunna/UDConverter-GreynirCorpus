@@ -4,7 +4,7 @@
 2	hrópaði	hrópa	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p1_et_þt_gm
 3	Yo-chan	Yo-chan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	ccomp	_	SpaceAfter=No|tag=person_et_nf_kk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
-5	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	ccomp	_	tag=so_0_fh_p3_et_þt_gm
+5	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	tag=so_0_fh_p3_et_þt_gm
 6	Obata	Obata	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_et_nf_kk
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
@@ -34,13 +34,13 @@
 # sent_id = GREYNIR_CORPUS_00257,.3
 # text = Myndin er sögð allt öðruvísi en þær myndir sem verða í sýningu vestanhafs þessa helgi.
 1	Myndin	mynd	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	sögð	segja	VERB	so_0_lhþt_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_kvk
 4	allt	allt	ADV	eo	_	3	iobj	_	tag=eo
 5	öðruvísi	öðruvísi	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_nf_kvk_sb
 6	en	en	CCONJ	st	_	7	cc	_	tag=st
 7	þær	sá	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	advcl	_	tag=fn_ft_nf_kvk
-8	myndir	mynd	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	7	VANTAR_LIÐ_IP_None	_	tag=no_ft_nf_kvk
+8	myndir	mynd	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	7	dep	_	tag=no_ft_nf_kvk
 9	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 10	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	acl:relcl	_	tag=so_0_fh_p3_ft_nt_gm
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
@@ -61,7 +61,7 @@
 7	fleiri	margur	ADJ	lo_ft_þf_kk_mst	Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	5	obj	_	tag=lo_ft_þf_kk_mst
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
 9	þar	þar	ADV	ao	_	13	advmod	_	tag=ao
-10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_þt_gm
+10	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_þt_gm
 11	Þórhallur	Þórhallur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	tag=person_nf_kk
 12	náttúrlega	náttúrlega	ADV	eo	_	13	advmod	_	tag=eo
 13	efstur	efri	ADJ	lo_et_nf_kk_esb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	2	conj	_	tag=lo_et_nf_kk_esb
@@ -75,19 +75,17 @@
 2	Festar	Festar	PROPN	fyrirtæki	_	1	nmod:poss	_	tag=fyrirtæki
 3	námu	nema	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_ft_þt_gm
 4	rúmum	rúmur	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	5	amod	_	tag=lo_ft_þgf_kk_sb
-5-7	80,1 milljarði króna	_	_	_	_	_	_	_	_
 5	80,1	80,1	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	3	obj	_	tag=no_ft_þgf_kk
 6	milljarði	milljarði	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	flat	_	tag=no_ft_þgf_kk
-7	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	flat	_	tag=no_ft_þgf_kk
+7	króna	króna	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	flat	_	MWEEnd=Yes|tag=no_ft_þgf_kk
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	lok	lok	ADV	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	advmod	_	tag=no_ft_þf_hk
 10	septembermánaðar	septembermánuður	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kk
 11	og	og	CCONJ	st	_	3	cc	_	tag=st
 12	skuldirnar	skuld	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	tag=no_ft_nf_kvk_gr
 13	nema	nema	VERB	so_1_þgf_fh_p3_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þgf_fh_p3_ft_nt_gm
-14-15	54,7 milljörðum	_	_	_	_	_	_	_	_
-14	54,7	54,7	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	13	obj	_	SpaceAfter=No|tag=tala_ft_þgf_hk
-15	milljörðum	milljörðum	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	14	_	_	SpaceAfter=No|tag=tala_ft_þgf_hk
+14	54,7	54,7	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	13	obj	_	tag=tala_ft_þgf_hk
+15	milljörðum	milljörðum	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	14	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=tala_ft_þgf_hk
 16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00257,.6
@@ -128,7 +126,7 @@
 
 # sent_id = GREYNIR_CORPUS_00257,.8
 # text = Er þá einkum átt við úrslit forsetakjörs í Bandaríkjunum og væntanlega úrsögn Bretlands úr Evrópusambandinu.
-1	Er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+1	Er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 2	þá	þá	ADV	ao	_	4	advmod	_	tag=ao
 3	einkum	einkum	ADV	ao	_	4	advmod	_	tag=ao
 4	átt	eiga	VERB	so_0_lhþt_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_hk
@@ -152,11 +150,10 @@
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
 4	kaupauka	kaupauki	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk
 5	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6-7	árið 2018	_	_	_	_	_	_	_	_
 6	árið	árið	NUM	ártal	_	2	obl	_	tag=ártal
-7	2018	2018	NUM	ártal	_	6	flat	_	tag=ártal
-8	þar	þar	ADV	ao	_	12	mark	_	tag=ao
-9	sem	sem	SCONJ	st	_	8	cc	_	tag=st
+7	2018	2018	NUM	ártal	_	6	flat	_	MWEEnd=Yes|tag=ártal
+8	þar	þar	ADV	ao	_	9	advmod	_	tag=ao
+9	sem	sem	SCONJ	st	_	12	mark	_	tag=st
 10	hagnaður	hagnaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	tag=no_et_nf_kk
 11	bankans	banki	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod:poss	_	tag=no_et_ef_kk_gr
 12	dróst	draga	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	advcl	_	tag=so_0_fh_p3_et_þt_mm
@@ -166,20 +163,21 @@
 16	helming	helmingur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00257,.10
+# text = Namíb-eyðimörkin er talin elsta eyðimörk í heimi, allt að 80 milljón ára gömul.
 1	Namíb-eyðimörkin	Namíb-eyðimörk	PROPN	sérnafn_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=sérnafn_et_nf_kvk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	talin	telja	VERB	so_0_lhþt_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_kvk
 4	elsta	gamall	ADJ	lo_et_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_evb
 5	eyðimörk	eyðimörk	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	iobj	_	tag=no_et_nf_kvk
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7	heimi	heimi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þf_hk
+7	heimi	heimi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	allt	allt	ADV	ao	_	13	advmod	_	tag=ao
 10	að	að	ADV	ao	_	13	advmod	_	tag=ao
-11-12	80 milljón	_	_	_	_	_	_	_	_
 11	80	80	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	13	nummod	_	tag=töl_ft_ef_hk
-12	milljón	milljón	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	_	_	tag=töl_ft_ef_hk
+12	milljón	milljón	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	flat	_	MWEEnd=Yes|tag=töl_ft_ef_hk
 13	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_ef_hk
-14	gömul	gamall	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	tag=lo_et_nf_kvk_sb
+14	gömul	gamall	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

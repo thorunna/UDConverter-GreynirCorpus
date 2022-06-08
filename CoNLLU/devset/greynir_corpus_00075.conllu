@@ -19,7 +19,7 @@
 # sent_id = GREYNIR_CORPUS_00075,.2
 # text = Lögregla var kölluð á vettvang og taldist strax ljóst að maðurinn hafði verið myrtur.
 1	Lögregla	lögregla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
-2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	kölluð	kalla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	á	á	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	vettvang	vettvangur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
@@ -30,9 +30,9 @@
 10	að	að	SCONJ	st	_	14	mark	_	tag=st
 11	maðurinn	maður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk_gr
 12	hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	aux	_	tag=so_0_fh_p3_et_þt_gm
-13	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	aux	_	tag=so_0_sagnb_gm
+13	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	cop	_	tag=so_0_sagnb_gm
 14	myrtur	myrða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	ccomp	_	SpaceAfter=No|tag=so_0_lhþt_et
-15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+15	.	_	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00075,.3
 # text = Þaðan koma eingöngu karlmenn sem eru á leiðinni yfir í leit að betri lífsgæðum.
@@ -66,9 +66,8 @@
 10	sem	sem	SCONJ	stt	_	12	mark	_	tag=stt
 11	fram	fram	ADV	ao	_	12	compound:prt	_	tag=ao
 12	fóru	fara	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	acl:relcl	_	tag=so_0_fh_p3_ft_þt_gm
-13-14	12. maí	_	_	_	_	_	_	_	_
-13	12.	12.	ADV	dagsafs	_	12	advmod	_	SpaceAfter=No|tag=dagsafs
-14	maí	maí	NOUN	dagsafs	_	13	flat	_	SpaceAfter=No|tag=dagsafs
+13	12.	12.	ADV	dagsafs	_	12	advmod	_	tag=dagsafs
+14	maí	maí	NOUN	dagsafs	_	13	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00075,.5
@@ -109,11 +108,10 @@
 
 # sent_id = GREYNIR_CORPUS_00075,.7
 # text = Skömmu fyrir miðnætti var svo óskað liðsinnis lögreglu vegna heimilisofbeldis í Hlíðahverfi í Reykjavík.
-1-2	Skömmu fyrir	_	_	_	_	_	_	_	_
 1	Skömmu	skömmu	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
-2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	fixed	_	tag=fs_þf
+2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	fixed	_	MWEEnd=Yes|tag=fs_þf
 3	miðnætti	miðnætti	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þf_hk
-4	var	vera	AUX	so_1_ef_fh_p3_et_þt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_1_ef_fh_p3_et_þt_gm
+4	var	vera	AUX	so_1_ef_fh_p3_et_þt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_ef_fh_p3_et_þt_gm
 5	svo	svo	ADV	ao	_	6	advmod	_	tag=ao
 6	óskað	óska	VERB	so_1_ef_sagnb_gm	Case=Gen|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_ef_sagnb_gm
 7	liðsinnis	liðsinni	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_ef_hk
@@ -132,12 +130,11 @@
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	enn	enn	ADV	ao	_	4	advmod	_	tag=ao
 4	soðið	sjóða	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-5-6	upp úr	_	_	_	_	_	_	_	_
 5	upp	upp	ADV	ao	_	4	advmod	_	tag=ao
-6	úr	úr	ADV	ao	_	5	fixed	_	tag=ao
+6	úr	úr	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 7	en	en	CCONJ	st	_	4	cc	_	tag=st
 8	lögreglan	lögregla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	tag=no_et_nf_kvk_gr
-9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	þungvopnuð	þungvopnaður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	tag=lo_et_nf_kvk_sb
 11	og	og	CCONJ	st	_	10	cc	_	tag=st
 12	með	með	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
@@ -149,16 +146,15 @@
 # text = Hraði þess er 25,5 kílómetrar á sekúndu, eða 918 þúsund kílómetrar á klukkustund.
 1	Hraði	hraði	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
 2	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_et_ef_hk_p3
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	25,5	25,5	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	5	nummod	_	tag=tala_ft_nf_kk
 5	kílómetrar	kílómetri	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	sekúndu	sekúnda	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	eða	eða	CCONJ	st	_	5	cc	_	tag=st
-10-11	918 þúsund	_	_	_	_	_	_	_	_
 10	918	918	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nummod	_	tag=töl_ft_nf_kk
-11	þúsund	þúsund	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	10	_	_	tag=töl_ft_nf_kk
+11	þúsund	þúsund	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	10	flat	_	MWEEnd=Yes|tag=töl_ft_nf_kk
 12	kílómetrar	kílómetri	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	tag=no_ft_nf_kk
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	klukkustund	klukkustund	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	advmod	_	SpaceAfter=No|tag=no_et_þgf_kvk
@@ -173,7 +169,7 @@
 5	miklum	mikill	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_þgf_kk_sb
 6	mat	matur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_þgf_kk
 7	þá	þá	ADV	ao	_	12	advmod	_	tag=ao
-8	erum	vera	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p1_ft_nt_gm
+8	erum	vera	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p1_ft_nt_gm
 9	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	tag=pfn_ft_nf_p1
 10	bara	bara	ADV	ao	_	12	advmod	_	tag=ao
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm

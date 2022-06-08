@@ -15,7 +15,7 @@
 13	landi	land	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
 14	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
 15	ekki	ekki	ADV	ao	_	17	advmod	_	tag=ao
-16	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_vh_p3_et_nt_gm
+16	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_0_vh_p3_et_nt_gm
 17	notuð	nota	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	acl:relcl	_	tag=so_0_lhþt_et
 18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	öðrum	annar	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	20	nmod	_	tag=fn_ft_þgf_hk
@@ -71,11 +71,11 @@
 
 # sent_id = GREYNIR_CORPUS_00119,.4
 # text = Með því að hafa tryggt sér stöðu í öldungadeildinni geta Repúblikanar haldið áfram að tilnefna alríkisdómara og aðra háttsetta embættismenn.
-1	Með	með	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=fn_et_þgf_hk
+1	Með	með	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+2	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	tag=fn_et_þgf_hk
 3	að	að	PART	nhm	_	5	mark	_	tag=nhm
 4	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	aux	_	tag=so_0_nh_gm
-5	tryggt	tryggja	VERB	so_2_þgf_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	xcomp	_	tag=so_2_þgf_þf_sagnb_gm
+5	tryggt	tryggja	VERB	so_2_þgf_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	12	obl	_	tag=so_2_þgf_þf_sagnb_gm
 6	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	5	iobj	_	tag=abfn_þgf
 7	stöðu	staða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	tag=no_et_þf_kvk
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
@@ -99,10 +99,10 @@
 2	sér	sjá	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	málnefndin	málnefnd	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
 4	ástæðu	ástæða	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
-5	til	til	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
-6	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_ef_hk
+5	til	til	ADP	fs_ef	Case=Gen	8	case	_	tag=fs_ef
+6	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	tag=fn_et_ef_hk
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_1_þf_nh_gm
+8	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	obl	_	tag=so_1_þf_nh_gm
 9	fram	fram	ADV	ao	_	8	compound:prt	_	tag=ao
 10	að	að	SCONJ	st	_	17	mark	_	tag=st
 11	skrif	skrif	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	tag=no_ft_nf_hk
@@ -143,9 +143,8 @@
 
 # sent_id = GREYNIR_CORPUS_00119,.7
 # text = Guðjón Brjánsson frá Akranesi felldi Ólínu í prófkjöri Samfylkingarinnar í Norðvesturkjördæmi sem fram fór í aðdraganda þingkosninganna á síðasta ári.
-1-2	Guðjón Brjánsson	_	_	_	_	_	_	_	_
 1	Guðjón	Guðjón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	Brjánsson	Brjánsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Brjánsson	Brjánsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	frá	frá	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	Akranesi	Akranes	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=sérnafn_et_þgf_hk
 5	felldi	fella	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
@@ -194,7 +193,7 @@
 # text = Það hefur verið merkilegt að fylgjast með Pírötum grafa markvisst undan eigin trúverðugleika með óheppilegum uppákomum og stöðugum innbyrðis deilum.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
 4	merkilegt	merkilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
 6	fylgjast	fylgja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	4	xcomp	_	tag=so_0_nh_mm
@@ -228,12 +227,11 @@
 10	íslenskra	íslenskur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	11	amod	_	tag=lo_ft_ef_kk_sb
 11	teiknara	teiknari	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	9	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
 12	,	_	PUNCT	grm	_	14	punct	_	tag=grm
-13	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	14	aux	_	tag=so_0_fh_p3_ft_þt_gm
+13	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_0_fh_p3_ft_þt_gm
 14	afhent	afhenda	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	advcl	_	tag=so_0_lhþt_ft
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	Tjarnarbíói	Tjarnarbíó	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	tag=sérnafn_et_þgf_hk
-17-18	á dögunum	_	_	_	_	_	_	_	_
-17	á	á	ADV	ao	_	14	advmod	_	SpaceAfter=No|tag=ao
-18	dögunum	dögunum	ADV	ao	_	17	fixed	_	SpaceAfter=No|tag=ao
+17	á	á	ADV	ao	_	14	advmod	_	tag=ao
+18	dögunum	dögunum	ADV	ao	_	17	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

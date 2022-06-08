@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00104,.1
 # text = Það var gríðarlega erfið vinna að opna klæðningu og annað slíkt, það tók gríðarlega langan tíma.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	tag=pfn_et_nf_hk_p3
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	gríðarlega	gríðarlega	ADV	eo	_	5	advmod	_	tag=eo
 4	erfið	erfiður	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_fst_sb
 5	vinna	vinna	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
@@ -26,9 +26,9 @@
 3	breska	breskur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_nf_kvk_vb
 4	skartgripavefverslunin	skartgripavefverslun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_nf_kvk_gr
 5	JewelStreet	JewelStreet	PROPN	fyrirtæki_nf	Case=Nom	2	nsubj	_	tag=fyrirtæki_nf
-6	eftir	eftir	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	asa	asa	PROPN	fyrirtæki_et_þgf	Case=Dat|Number=Sing	2	obl	_	tag=fyrirtæki_et_þgf
-8	iceland-skartgripum	iceland-skartgripur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	7	conj	_	tag=no_ft_þgf_kk
+6	eftir	eftir	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+7	asa	asa	PROPN	fyrirtæki_et_þgf	Case=Dat|Number=Sing	8	nmod	_	tag=fyrirtæki_et_þgf
+8	iceland-skartgripum	iceland-skartgripur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	tag=no_ft_þgf_kk
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
 10	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
 11	hafið	hefja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	2	conj	_	tag=so_1_þf_sagnb_gm
@@ -73,7 +73,7 @@
 8	síðunni	síða	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk_gr
 9	en	en	CCONJ	st	_	2	cc	_	tag=st
 10	lestin	lest	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_nf_kvk_gr
-11	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+11	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 12	hálffull	hálffullur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=lo_et_nf_kvk_sb
 13	og	og	CCONJ	st	_	2	cc	_	tag=st
 14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_kk_p3
@@ -87,17 +87,16 @@
 # text = FH skoraði hins vegar tvívegis í síðari hálfleik og var nálægt því að stela mikilvægu stigi í botnbaráttunni.
 1	FH	FH	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=fyrirtæki_et_nf_hk
 2	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3-4	hins vegar	_	_	_	_	_	_	_	_
 3	hins	hins	ADV	ao	_	2	advmod	_	tag=ao
-4	vegar	vegar	ADV	ao	_	3	fixed	_	tag=ao
+4	vegar	vegar	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	tvívegis	tvívegis	ADV	ao	_	2	advmod	_	tag=ao
 6	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 7	síðari	síðari	ADJ	lo_et_þf_kk_mst	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_þf_kk_mst
 8	hálfleik	hálfleikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
-10	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
-11	nálægt	nálægur	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	2	cop	_	tag=lo_et_nf_hk_sb_sþgf
-12	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
+10	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+11	nálægt	nálægur	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	tag=lo_et_nf_hk_sb_sþgf
+12	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=fn_et_þgf_hk
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
 14	stela	stela	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_1_þgf_nh_gm
 15	mikilvægu	mikilvægur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	16	amod	_	tag=lo_et_þgf_hk_sb
@@ -107,33 +106,30 @@
 19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00104,.6
-# text = Þetta var ljóst eftir 4 — 0 sigur Crystal Palace á Hull City á Selhurst Park í dag.
+# text = Þetta var ljóst eftir 4— 0 sigur Crystal Palace á Hull City á Selhurst Park í dag.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=fn_et_nf_hk
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	ljóst	ljós	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	eftir	eftir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 5	4	4	NUM	tala	NumType=Card	8	nummod	_	SpaceAfter=No|tag=tala
 6	—	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	0	0	NUM	tala	NumType=Card	8	nummod	_	tag=tala
 8	sigur	sigur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
-9-10	Crystal Palace	_	_	_	_	_	_	_	_
 9	Crystal	Crystal	PROPN	fyrirtæki_ef	Case=Gen	8	nmod:poss	_	tag=fyrirtæki_ef
-10	Palace	Palace	PROPN	fyrirtæki_ef	Case=Gen	9	flat	_	tag=fyrirtæki_ef
+10	Palace	Palace	PROPN	fyrirtæki_ef	Case=Gen	9	flat	_	MWEEnd=Yes|tag=fyrirtæki_ef
 11	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12-13	Hull City	_	_	_	_	_	_	_	_
 12	Hull	Hull	PROPN	fyrirtæki_þgf	Case=Dat	8	obl	_	tag=fyrirtæki_þgf
-13	City	City	PROPN	fyrirtæki_þgf	Case=Dat	12	flat	_	tag=fyrirtæki_þgf
+13	City	City	PROPN	fyrirtæki_þgf	Case=Dat	12	flat	_	MWEEnd=Yes|tag=fyrirtæki_þgf
 14	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15-16	Selhurst Park	_	_	_	_	_	_	_	_
 15	Selhurst	Park	PROPN	sérnafn	_	8	obl	_	tag=sérnafn
-16	Park	Selhurst	PROPN	sérnafn	_	15	flat	_	tag=sérnafn
+16	Park	Selhurst	PROPN	sérnafn	_	15	flat	_	MWEEnd=Yes|tag=sérnafn
 17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 18	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 19	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00104,.7
 # text = En taktkjaftur, eða bítbox, hefur verið mun lengur við lýði og átt sína upp- og niðurtúra.
-1	En	en	SCONJ	st	_	8	cc	_	tag=st
+1	En	en	SCONJ	st	_	8	dep	_	tag=st
 2	taktkjaftur	taktkjaftur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|tag=no_et_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	eða	eð	CCONJ	st	_	2	mark	_	tag=st
@@ -148,23 +144,21 @@
 13	og	og	CCONJ	st	_	8	cc	_	tag=st
 14	átt	eiga	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	8	conj	_	tag=so_1_þf_sagnb_gm
 15	sína	sinn	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	nmod	_	tag=fn_ft_þf_kk
-16-18	upp- og niðurtúra	_	_	_	_	_	_	_	_
-16	upp-	upp-	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No|tag=no_ft_þf_kk
-17	og	og	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
-18	niðurtúra	niðurtúr	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	flat	_	SpaceAfter=No|tag=no_ft_þf_kk
+16	upp-	upp-	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	tag=no_ft_þf_kk
+17	og	og	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	flat	_	tag=no_ft_þf_kk
+18	niðurtúra	niðurtúr	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_ft_þf_kk
 19	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00104,.8
-# text = Gert er ráð fyrir 30 – 35 m/s á Kjalarnesi, undir Hafnarfjalli og undir Eyjafjöllum.
+# text = Gert er ráð fyrir 30–35 m/s á Kjalarnesi, undir Hafnarfjalli og undir Eyjafjöllum.
 1	Gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	ráð	ráð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	tag=no_et_nf_hk
 4	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 5	30	30	NUM	tala	NumType=Card	7	nummod	_	SpaceAfter=No|tag=tala
-6	–	_	PUNCT	grm	_	5	punct	_	tag=grm
-7-8	35 m/s	_	_	_	_	_	_	_	_
+6	–	_	PUNCT	grm	_	5	punct	_	SpaceAfter=No|tag=grm
 7	35	35	NUM	mælieining	_	1	obl	_	tag=mælieining
-8	m/s	m/ms	NUM	mælieining	_	7	_	_	tag=mælieining
+8	m/s	m/ms	NUM	mælieining	_	7	flat	_	MWEEnd=Yes|tag=mælieining
 9	á	á	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	Kjalarnesi	Kjalarnes	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
@@ -199,18 +193,18 @@
 # sent_id = GREYNIR_CORPUS_00104,.10
 # text = Ekki er vitað hvað drengurinn var gamall en af myndum af dæma var hann vart kominn á unglingsár.
 1	Ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	AUX	so_1_ef_fh_p3_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_1_ef_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_ef_fh_p3_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_ef_fh_p3_et_nt_gm
 3	vitað	vita	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	hvað	hvað	ADV	ao	_	7	advmod	_	tag=ao
 5	drengurinn	drengur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk_gr
-6	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+6	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 7	gamall	gamall	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	tag=lo_et_nf_kk_sb
 8	en	en	CCONJ	st	_	3	cc	_	tag=st
 9	af	af	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	myndum	mynd	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þgf_kvk
 11	af	að	PART	nhm	_	12	mark	_	tag=nhm
 12	dæma	dæma	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_0_nh_gm
-13	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	aux	_	tag=so_1_nf_fh_p3_et_þt_gm
+13	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 14	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
 15	vart	vart	ADV	ao	_	16	advmod	_	tag=ao
 16	kominn	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et

@@ -30,9 +30,8 @@
 
 # sent_id = GREYNIR_CORPUS_00017,.4
 # text = Stefán Rafn og félagar töpuðu gegn PSG
-1-2	Stefán Rafn	_	_	_	_	_	_	_	_
 1	Stefán	Stefán	PROPN	person_kk_nf_et	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_kk_nf_et
-2	Rafn	Rafn	PROPN	person_kk_nf_et	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_kk_nf_et
+2	Rafn	Rafn	PROPN	person_kk_nf_et	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	MWEEnd=Yes|tag=person_kk_nf_et
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
 4	félagar	félagi	NOUN	no_ft_kk_nf	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	tag=no_ft_kk_nf
 5	töpuðu	tapa	VERB	so_0_fh_ft_gm_p3_þt	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_ft_gm_p3_þt
@@ -42,7 +41,7 @@
 # sent_id = GREYNIR_CORPUS_00017,.5
 # text = Því er undirbúningur við dómsmál hafinn.
 1	Því	því	ADV	ao	_	6	advmod	_	tag=ao
-2	er	vera	AUX	so_0_et_fh_gm_nt_p3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_et_fh_gm_nt_p3
+2	er	vera	AUX	so_0_et_fh_gm_nt_p3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_et_fh_gm_nt_p3
 3	undirbúningur	undirbúningur	NOUN	no_et_kk_nf	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_kk_nf
 4	við	við	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	dómsmál	dómsmál	NOUN	no_et_hk_þf	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_hk_þf
@@ -52,16 +51,16 @@
 # sent_id = GREYNIR_CORPUS_00017,.6
 # text = Samkvæmt veðurspánni fer kólnandi næstu daga.
 1	Samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	veðurspánni	veðurspá	NOUN	no_et_gr_kvk_þgf	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_gr_kvk_þgf
-3	fer	fara	AUX	so_0_et_fh_gm_nt_p3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_et_fh_gm_nt_p3
-4	kólnandi	kólna	VERB	so_0_lh_nt_hk_et_nf_sb	Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part	0	root	_	tag=so_0_lh_nt_hk_et_nf_sb
+2	veðurspánni	veðurspá	NOUN	no_et_gr_kvk_þgf	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_gr_kvk_þgf
+3	fer	fara	VERB	so_0_et_fh_gm_nt_p3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_et_fh_gm_nt_p3
+4	kólnandi	kólna	VERB	so_0_lh_nt_hk_et_nf_sb	Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part	3	amod	_	tag=so_0_lh_nt_hk_et_nf_sb
 5	næstu	næstur	ADJ	lo_evb_ft_kk_þf	Case=Acc|Degree=Sup|Gender=Masc|Number=Plur	6	amod	_	tag=lo_evb_ft_kk_þf
-6	daga	dagur	ADV	no_ft_kk_þf	Case=Acc|Gender=Masc|Number=Plur	4	advmod	_	SpaceAfter=No|tag=no_ft_kk_þf
-7	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+6	daga	dagur	ADV	no_ft_kk_þf	Case=Acc|Gender=Masc|Number=Plur	3	advmod	_	SpaceAfter=No|tag=no_ft_kk_þf
+7	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00017,.7
 # text = Var það samþykkt með 11 atkvæðum.
-1	Var	vera	AUX	so_0_et_fh_gm_p3_þt	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_et_fh_gm_p3_þt
+1	Var	vera	AUX	so_0_et_fh_gm_p3_þt	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_et_fh_gm_p3_þt
 2	það	það	PRON	pfn_et_hk_nf_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_hk_nf_p3
 3	samþykkt	samþykkja	VERB	so_0_et_hk_lhþt_nf_sb	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_et_hk_lhþt_nf_sb
 4	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -71,9 +70,9 @@
 
 # sent_id = GREYNIR_CORPUS_00017,.8
 # text = Vivaldi: Fara nýstárlega leið með vafrasögu
-1	Vivaldi	Vivaldi	PROPN	sérnafn_nf_et_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=sérnafn_nf_et_kk
-2	:	_	PUNCT	grm	_	3	punct	_	tag=grm
-3	Fara	fara	VERB	so_1_þf_ft_fh_gm_p3_nt	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_þf_ft_fh_gm_p3_nt
+1	Vivaldi	Vivaldi	PROPN	sérnafn_nf_et_kk	Case=Nom|Gender=Masc|Number=Sing	3	dep	_	SpaceAfter=No|tag=sérnafn_nf_et_kk
+2	:	_	PUNCT	grm	_	1	punct	_	tag=grm
+3	Fara	fara	VERB	so_1_þf_ft_fh_gm_p3_nt	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_ft_fh_gm_p3_nt
 4	nýstárlega	nýstárlegur	ADJ	lo_ft_þf_kvk_fsb	Case=Acc|Gender=Fem|Number=Plur	5	amod	_	tag=lo_ft_þf_kvk_fsb
 5	leið	leið	NOUN	no_et_kvk_þf	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_kvk_þf
 6	með	með	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
@@ -83,12 +82,14 @@
 # text = Hinn handtekni er búsettur á Spáni.
 1	Hinn	hinn	PRON	fn_et_kk_nf	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=fn_et_kk_nf
 2	handtekni	handtekinn	ADJ	lo_et_kk_nf_fvb	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	tag=lo_et_kk_nf_fvb
-3	er	vera	AUX	so_0_et_fh_gm_nt_p3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_et_fh_gm_nt_p3
+3	er	vera	AUX	so_0_et_fh_gm_nt_p3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_et_fh_gm_nt_p3
 4	búsettur	búsetja	VERB	so_et_kk_lhþt_nf_sb	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	tag=so_et_kk_lhþt_nf_sb
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	Spáni	Spánn	PROPN	sérnafn_et_kk_þgf	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|tag=sérnafn_et_kk_þgf
 7	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00017,.10
+# text = Þú ert að njóta okkar bestu kjara
 1	Þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p2
 2	ert	vera	VERB	so_0_et_fh_gm_nt_p2	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_et_fh_gm_nt_p2
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm

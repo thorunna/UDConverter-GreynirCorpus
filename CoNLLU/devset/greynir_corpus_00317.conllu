@@ -1,40 +1,34 @@
 # sent_id = GREYNIR_CORPUS_00317,.1
 # text = Nýi diskurinn nefnist South of the Circle en þar flytur kvartettinn verk eftir Daníel Bjarnason, Unu Sveinbjarnardóttur, Valgeir Sigurðsson, Mamíkó Dís Ragnarsdóttur og Hauk Tómasson.
 1	Nýi	nýr	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_vb
-2	diskurinn	diskur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk_gr
-3	nefnist	nefna	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	4	conj	_	tag=so_1_nf_fh_p3_et_nt_mm
-4-7	South of the Circle	_	_	_	_	_	_	_	_
-4	South	South	X	foreign	_	0	root	_	tag=foreign
+2	diskurinn	diskur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
+3	nefnist	nefna	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_nf_fh_p3_et_nt_mm
+4	South	South	X	foreign	_	3	xcomp	_	tag=foreign
 5	of	of	X	foreign	_	4	flat:foreign	_	tag=foreign
 6	the	the	X	foreign	_	5	flat:foreign	_	tag=foreign
-7	Circle	Circle	X	foreign	_	6	flat:foreign	_	tag=foreign
-8	en	en	CCONJ	st	_	4	cc	_	tag=st
+7	Circle	Circle	X	foreign	_	6	flat:foreign	_	MWEEnd=Yes|tag=foreign
+8	en	en	CCONJ	st	_	3	cc	_	tag=st
 9	þar	þar	ADV	ao	_	10	advmod	_	tag=ao
-10	flytur	flytja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
+10	flytur	flytja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
 11	kvartettinn	kvartett	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	tag=no_et_nf_kk_gr
 12	verk	verkur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	tag=no_ft_þf_kk
 13	eftir	eftir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14-15	Daníel Bjarnason	_	_	_	_	_	_	_	_
-14	Daníel	Daníel	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	obl	_	SpaceAfter=No|tag=person_þf_kk
-15	Bjarnason	Bjarnason	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	flat	_	SpaceAfter=No|tag=person_þf_kk
+14	Daníel	Daníel	PROPN	person_þf_kk	Case=Acc|Gender=Masc	12	obl	_	tag=person_þf_kk
+15	Bjarnason	Bjarnason	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kk
 16	,	_	PUNCT	grm	_	17	punct	_	tag=grm
-17-18	Unu Sveinbjarnardóttur	_	_	_	_	_	_	_	_
-17	Unu	Una	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	14	conj	_	SpaceAfter=No|tag=person_þf_kvk
-18	Sveinbjarnardóttur	Sveinbjarnardóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	17	flat	_	SpaceAfter=No|tag=person_þf_kvk
+17	Unu	Una	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	14	conj	_	tag=person_þf_kvk
+18	Sveinbjarnardóttur	Sveinbjarnardóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	17	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kvk
 19	,	_	PUNCT	grm	_	20	punct	_	tag=grm
-20-21	Valgeir Sigurðsson	_	_	_	_	_	_	_	_
-20	Valgeir	Valgeir	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	conj	_	SpaceAfter=No|tag=person_þf_kk
-21	Sigurðsson	Sigurðsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	20	flat	_	SpaceAfter=No|tag=person_þf_kk
+20	Valgeir	Valgeir	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	conj	_	tag=person_þf_kk
+21	Sigurðsson	Sigurðsson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	20	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kk
 22	,	_	PUNCT	grm	_	23	punct	_	tag=grm
-23-25	Mamíkó Dís Ragnarsdóttur	_	_	_	_	_	_	_	_
 23	Mamíkó	Mamíkó	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	14	conj	_	tag=person_þf_kvk
 24	Dís	Dís	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	23	flat	_	tag=person_þf_kvk
-25	Ragnarsdóttur	Ragnarsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	23	flat	_	tag=person_þf_kvk
+25	Ragnarsdóttur	Ragnarsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	23	flat	_	MWEEnd=Yes|tag=person_þf_kvk
 26	og	og	CCONJ	st	_	14	cc	_	tag=st
-27-28	Hauk Tómasson	_	_	_	_	_	_	_	_
-27	Hauk	Haukur	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	conj	_	SpaceAfter=No|tag=person_þf_kk
-28	Tómasson	Tómasson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	27	flat	_	SpaceAfter=No|tag=person_þf_kk
-29	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+27	Hauk	Haukur	PROPN	person_þf_kk	Case=Acc|Gender=Masc	14	conj	_	tag=person_þf_kk
+28	Tómasson	Tómasson	PROPN	person_þf_kk	Case=Acc|Gender=Masc	27	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kk
+29	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00317,.2
 # text = Í skýrslu sem Forbes skrifaði fyrir starfshópinn er meðal annars tekið fram að innflæðishöftin geti verið túlkuð á þann veg að erlendir fjárfestar séu ekki velkomnir til landsins.
@@ -45,16 +39,15 @@
 5	skrifaði	skrifa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 6	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	starfshópinn	starfshópur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þf_kk_gr
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
-9-10	meðal annars	_	_	_	_	_	_	_	_
+8	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 9	meðal	meðal	ADV	eo	_	11	advmod	_	tag=eo
-10	annars	annars	ADV	eo	_	9	fixed	_	tag=eo
+10	annars	annars	ADV	eo	_	9	fixed	_	MWEEnd=Yes|tag=eo
 11	tekið	tekinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 12	fram	fram	ADV	ao	_	11	advmod	_	tag=ao
 13	að	að	SCONJ	st	_	17	mark	_	tag=st
 14	innflæðishöftin	innflæðishaft	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	17	nsubj	_	tag=no_ft_nf_hk_gr
 15	geti	geta	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_vh_p3_ft_nt_gm
-16	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	17	cop	_	tag=so_0_sagnb_gm
+16	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	17	cop	_	tag=so_0_sagnb_gm
 17	túlkuð	túlka	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	11	nsubj	_	tag=so_0_lhþt_ft
 18	á	á	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 19	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	tag=fn_et_þf_kk
@@ -62,7 +55,7 @@
 21	að	að	SCONJ	st	_	26	mark	_	tag=st
 22	erlendir	erlendur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	23	amod	_	tag=lo_ft_nf_kk_sb
 23	fjárfestar	fjárfestir	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	tag=no_ft_nf_kk
-24	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	cop	_	tag=so_0_vh_p3_ft_nt_gm
+24	séu	vera	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	26	cop	_	tag=so_0_vh_p3_ft_nt_gm
 25	ekki	ekki	ADV	ao	_	26	advmod	_	tag=ao
 26	velkomnir	velkominn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	20	ccomp	_	tag=lo_ft_nf_kk_sb
 27	til	til	ADP	fs_ef	Case=Gen	28	case	_	tag=fs_ef
@@ -103,9 +96,8 @@
 
 # sent_id = GREYNIR_CORPUS_00317,.4
 # text = Peter Dutton, innanríkisráðherra Ástralíu, segist vilja veita vegabréfsáritunum suður-afrískra bænda forgang svo þeir geti flúið hryllilegar aðstæður í heimalandinu og komið til siðmenntaðs lands.
-1-2	Peter Dutton	_	_	_	_	_	_	_	_
-1	Peter	Peter	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Dutton	Dutton	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Peter	Peter	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
+2	Dutton	Dutton	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	innanríkisráðherra	innanríkisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Ástralíu	Ástralía	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=sérnafn_et_ef_kvk
@@ -136,7 +128,7 @@
 # text = Spænska blaðið Marca hefur það eftir útvarpsviðali á Spáni að Messi hafi valið þá Kylian Mbappe, Neymar, Eden Hazard, Luis Suarez og Sergio Aguero besta.
 1	Spænska	spænskur	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	tag=lo_et_nf_hk_vb
 2	blaðið	blað	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
-3	Marca	Marca	PROPN	fyrirtæki	_	2	VANTAR_LIÐ-obl?	_	tag=fyrirtæki
+3	Marca	Marca	PROPN	fyrirtæki	_	2	obl	_	tag=fyrirtæki
 4	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 5	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	tag=fn_et_þf_hk
 6	eftir	eftir	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -148,23 +140,19 @@
 12	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_vh_p3_et_nt_gm
 13	valið	velja	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	5	ccomp	_	tag=so_1_þf_sagnb_gm
 14	þá	sá	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	15	nmod	_	tag=fn_ft_þf_kk
-15-16	Kylian Mbappe	_	_	_	_	_	_	_	_
-15	Kylian	Kylian	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	obj	_	SpaceAfter=No|tag=person_þf_kk
-16	Mbappe	Mbappe	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	flat	_	SpaceAfter=No|tag=person_þf_kk
+15	Kylian	Kylian	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	obj	_	tag=person_þf_kk
+16	Mbappe	Mbappe	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kk
 17	,	_	PUNCT	grm	_	18	punct	_	tag=grm
 18	Neymar	Neymar	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	conj	_	SpaceAfter=No|tag=person_þf_kk
 19	,	_	PUNCT	grm	_	20	punct	_	tag=grm
-20-21	Eden Hazard	_	_	_	_	_	_	_	_
-20	Eden	Eden	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No|tag=person_et_þf_kk
-21	Hazard	Hazard	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	flat	_	SpaceAfter=No|tag=person_et_þf_kk
+20	Eden	Eden	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	conj	_	tag=person_et_þf_kk
+21	Hazard	Hazard	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	20	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_et_þf_kk
 22	,	_	PUNCT	grm	_	23	punct	_	tag=grm
-23-24	Luis Suarez	_	_	_	_	_	_	_	_
 23	Luis	Luis	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	conj	_	tag=person_þf_kk
-24	Suarez	Suarez	PROPN	person_þf_kk	Case=Acc|Gender=Masc	23	flat	_	tag=person_þf_kk
+24	Suarez	Suarez	PROPN	person_þf_kk	Case=Acc|Gender=Masc	23	flat	_	MWEEnd=Yes|tag=person_þf_kk
 25	og	og	CCONJ	st	_	15	cc	_	tag=st
-26-27	Sergio Aguero	_	_	_	_	_	_	_	_
 26	Sergio	Sergio	PROPN	person_þf_kk	Case=Acc|Gender=Masc	15	conj	_	tag=person_þf_kk
-27	Aguero	Aguero	PROPN	person_þf_kk	Case=Acc|Gender=Masc	26	flat	_	tag=person_þf_kk
+27	Aguero	Aguero	PROPN	person_þf_kk	Case=Acc|Gender=Masc	26	flat	_	MWEEnd=Yes|tag=person_þf_kk
 28	besta	bestur	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|tag=lo_ft_þf_kk_sb
 29	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
@@ -182,13 +170,13 @@
 10	en	en	CCONJ	st	_	2	cc	_	tag=st
 11	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	advmod	_	tag=no_et_þf_kk
-13	er	vera	VERB	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_op_es_fh_p3_et_nt_gm
+13	er	vera	AUX	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_op_es_fh_p3_et_nt_gm
 14	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	tag=pfn_et_þgf_hk_p3
 15	fagnað	fagna	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	2	conj	_	tag=so_1_þgf_sagnb_gm
 16	að	að	SCONJ	st	_	20	mark	_	tag=st
 17	25	25	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	18	nummod	_	tag=tala_ft_ef_hk
 18	ár	ár	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	nsubj	_	tag=no_et_þgf_kvk
-19	séu	vera	VERB	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
+19	séu	vera	AUX	so_1_nf_vh_p3_ft_nt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	cop	_	tag=so_1_nf_vh_p3_ft_nt_gm
 20	liðin	líða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	15	nsubj	_	tag=so_0_lhþt_ft
 21	frá	frá	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	tag=fn_et_þgf_hk
@@ -205,14 +193,14 @@
 3	bankinn	banki	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk_gr
 4	ráðið	ráða	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 5	ráðgjafa	ráðgjafi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	tag=no_et_þf_kk
-6	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-7	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_ef_hk
+6	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
+7	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	tag=fn_et_ef_hk
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	meta	meta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þf_nh_gm
+9	meta	meta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	obl	_	tag=so_1_þf_nh_gm
 10	framtíðareignarhald	framtíðareignarhald	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	tag=no_et_þf_hk
 11	á	á	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	dótturfélaginu	dótturfélag	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk_gr
-13	Valitor	Valitor	PROPN	fyrirtæki	_	12	VANTAR_LIÐ-obl?	_	SpaceAfter=No|tag=fyrirtæki
+13	Valitor	Valitor	PROPN	fyrirtæki	_	12	obl	_	SpaceAfter=No|tag=fyrirtæki
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	að	að	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
@@ -241,8 +229,8 @@
 7	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 8	mörgum	margur	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	9	amod	_	tag=lo_ft_þgf_hk_sb
 9	málum	mál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_þgf_hk
-10	eins	eins	ADV	ao	_	13	cc	_	tag=ao
-11	og	og	CCONJ	st	_	10	cc	_	tag=st
+10	eins	eins	ADV	ao	_	11	advmod	_	tag=ao
+11	og	og	CCONJ	st	_	13	mark	_	tag=st
 12	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	13	xcomp	_	tag=so_0_lhþt_et
 13	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	tag=so_0_fh_p3_et_þt_gm
 14	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
@@ -258,8 +246,8 @@
 24	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
 25	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	23	obl	_	tag=abfn_þgf
 26	og	og	CCONJ	st	_	23	cc	_	tag=st
-27	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	23	cop	_	tag=so_0_nh_gm
-28	staðfastir	staðfastur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	23	cop	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
+27	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	28	cop	_	tag=so_0_nh_gm
+28	staðfastir	staðfastur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No|tag=lo_ft_nf_kk_sb
 29	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00317,.9
@@ -294,11 +282,13 @@
 28	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 29	.	_	PUNCT	grm	_	13	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00317,.10
+# text = Hún lést af því að hún var ekki með bjöllu til að láta vita af sér, þó það sé skýrt að vistmenn eigi að vera með hana.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p3
 2	lést	láta	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 3	af	af	ADP	fs_þgf	Case=Dat	7	mark	_	tag=fs_þgf
-4	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	tag=fn_et_þgf_hk
-5	að	að	SCONJ	st	_	3	cc	_	tag=st
+4	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	fixed	_	tag=fn_et_þgf_hk
+5	að	að	SCONJ	st	_	3	fixed	_	tag=st
 6	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_kvk_p3
 7	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	tag=so_0_fh_p3_et_þt_gm
 8	ekki	ekki	ADV	ao	_	7	advmod	_	tag=ao
@@ -309,11 +299,11 @@
 13	láta	láta	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	obl	_	tag=so_0_nh_gm
 14	vita	vita	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	13	xcomp	_	tag=so_0_nh_gm
 15	af	af	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	14	obl	_	tag=abfn_þgf
+16	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	14	obl	_	SpaceAfter=No|tag=abfn_þgf
 17	,	_	PUNCT	grm	_	16	punct	_	tag=grm
 18	þó	þó	SCONJ	st	_	21	mark	_	tag=st
 19	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	_	tag=pfn_et_nf_hk_p3
-20	sé	vera	VERB	so_0_op_es_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	cop	_	tag=so_0_op_es_vh_p3_et_nt_gm
+20	sé	vera	AUX	so_0_op_es_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	cop	_	tag=so_0_op_es_vh_p3_et_nt_gm
 21	skýrt	skýra	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	advcl	_	tag=so_0_lhþt_et
 22	að	að	SCONJ	st	_	24	mark	_	tag=st
 23	vistmenn	vistmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	tag=no_ft_nf_kk
@@ -321,6 +311,6 @@
 25	að	að	PART	nhm	_	26	mark	_	tag=nhm
 26	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	24	xcomp	_	tag=so_0_nh_gm
 27	með	með	ADP	fs_þf	Case=Acc	28	case	_	tag=fs_þf
-28	hana	hún	PRON	pfn_et_þf_kvk_p3	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obl	_	tag=pfn_et_þf_kvk_p3
+28	hana	hún	PRON	pfn_et_þf_kvk_p3	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No|tag=pfn_et_þf_kvk_p3
 29	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

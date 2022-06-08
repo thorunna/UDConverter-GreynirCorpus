@@ -79,11 +79,11 @@
 # sent_id = GREYNIR_CORPUS_00378,.6
 # text = Við munum hittast og við munum sjá hvort eitthvað jákvætt gerist.
 1	Við	við	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
-2	munum	muna	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p1_ft_nt_gm
+2	munum	munu	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p1_ft_nt_gm
 3	hittast	hitta	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	0	root	_	tag=so_0_nh_mm
 4	og	og	CCONJ	st	_	3	cc	_	tag=st
 5	við	við	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	tag=pfn_ft_nf_p1
-6	munum	muna	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p1_ft_nt_gm
+6	munum	munu	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p1_ft_nt_gm
 7	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	conj	_	tag=so_1_þf_nh_gm
 8	hvort	hvor	CCONJ	st	_	11	mark	_	tag=st
 9	eitthvað	einhver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=fn_et_nf_hk
@@ -94,9 +94,9 @@
 # sent_id = GREYNIR_CORPUS_00378,.7
 # text = Slík langtíma geymsla var trúlega algeng af nokkrum ástæðum viðhorfa þeirra tíma.
 1	Slík	slíkur	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	tag=fn_et_nf_kvk
-2	langtíma	langtími	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_ef_kk
+2	langtíma	langtími	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	tag=no_et_ef_kk
 3	geymsla	geymsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
-4	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_þt_gm
+4	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	trúlega	trúlega	ADV	eo	_	6	advmod	_	tag=eo
 6	algeng	algengur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 7	af	af	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
@@ -139,8 +139,10 @@
 12	viku	vika	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk
 13	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00378,.10
+# text = Skuldir lækka, hagræðingarmarkmið okkar hafa náðst og fjárhagsstaða borgarinnar er sterk.
 1	Skuldir	skuld	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	tag=no_ft_nf_kvk
-2	lækka	lækka	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
+2	lækka	lækka	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	SpaceAfter=No|tag=so_0_fh_p3_ft_nt_gm
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	hagræðingarmarkmið	hagræðingar-markmið	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	tag=no_ft_nf_hk
 5	okkar	ég	PRON	pfn_ft_ef_p1	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	tag=pfn_ft_ef_p1
@@ -149,7 +151,7 @@
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
 9	fjárhagsstaða	fjárhagsstaða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_nf_kvk
 10	borgarinnar	borg	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod:poss	_	tag=no_et_ef_kvk_gr
-11	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_nt_gm
-12	sterk	sterkur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=lo_et_nf_kvk_sb
+11	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_nt_gm
+12	sterk	sterkur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

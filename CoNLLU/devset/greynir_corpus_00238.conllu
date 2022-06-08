@@ -16,24 +16,24 @@
 
 # sent_id = GREYNIR_CORPUS_00238,.2
 # text = Einn þeirra fyrir líkamsárás en hann sló tennur úr manni í nótt.
-1	Einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	tag=fn_et_nf_kk
+1	Einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=fn_et_nf_kk
 2	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_ft_ef_kk_p3
 3	fyrir	fyrir	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	líkamsárás	líkamsárás	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þf_kvk
-5	en	en	CCONJ	st	_	7	cc	_	tag=st
+5	en	en	CCONJ	st	_	1	cc	_	tag=st
 6	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_kk_p3
-7	sló	slá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
+7	sló	slá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 8	tennur	tönn	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	tag=no_ft_þf_kvk
 9	úr	úr	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	manni	maður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
 11	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	nótt	nótt	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	advmod	_	SpaceAfter=No|tag=no_et_þf_kvk
-13	.	_	PUNCT	grm	_	7	punct	_	tag=grm
+13	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00238,.3
 # text = Þetta er auðvitað mikill galli á lögunum, segir Halldór Þormar.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	auðvitað	auðvitað	ADV	ao	_	5	advmod	_	tag=ao
 4	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_sb
 5	galli	galli	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -41,9 +41,8 @@
 7	lögunum	lag	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk_gr
 8	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 9	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
-10-11	Halldór Þormar	_	_	_	_	_	_	_	_
-10	Halldór	Halldór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-11	Þormar	Þormar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	flat	_	SpaceAfter=No|tag=person_nf_kk
+10	Halldór	Halldór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
+11	Þormar	Þormar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 12	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00238,.4
@@ -51,9 +50,8 @@
 1	Skattbyrði	skattbyrði	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk
 2	allra	allur	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	tag=fn_ft_ef_kk
 3	hópanna	hópur	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk_gr
-4-5	fyrir utan	_	_	_	_	_	_	_	_
 4	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-5	utan	utan	ADP	fs_þf	Case=Acc	4	fixed	_	tag=fs_þf
+5	utan	utan	ADP	fs_þf	Case=Acc	4	fixed	_	MWEEnd=Yes|tag=fs_þf
 6	tekjuhæstu	tekjuhár	ADJ	lo_ft_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur	7	amod	_	tag=lo_ft_þf_hk_evb
 7	10%	10%	NUM	prósenta_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	tag=prósenta_ft_þf_hk
 8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -68,7 +66,7 @@
 1	Mín	minn	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nmod	_	tag=fn_ft_nf_hk
 2	fyrstu	fyrstur	ADJ	lo_ft_nf_hk_vb	Case=Nom|Gender=Neut|Number=Plur	3	amod	_	tag=lo_ft_nf_hk_vb
 3	viðbrögð	viðbragð	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk
-4	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+4	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 5	þau	sá	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=fn_ft_nf_hk
 6	að	að	SCONJ	st	_	8	mark	_	tag=st
 7	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	tag=pfn_et_þgf_p1
@@ -101,7 +99,7 @@
 3	fólk	fólk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
 4	við	við	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
 5	að	að	PART	nhm	_	8	mark	_	tag=nhm
-6	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	8	cop	_	tag=so_1_nf_nh_gm
+6	vera	vera	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	8	cop	_	tag=so_1_nf_nh_gm
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	ferli	ferill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
@@ -114,9 +112,8 @@
 # text = Þetta segir Trausti Jónsson veðurfræðingur í yfirför sinni um veðrið í sumar.
 1	Þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=fn_et_þf_hk
 2	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3-4	Trausti Jónsson	_	_	_	_	_	_	_	_
 3	Trausti	Trausti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-4	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
+4	Jónsson	Jónsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	MWEEnd=Yes|tag=person_nf_kk
 5	veðurfræðingur	veðurfræðingur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	yfirför	yfirför	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
@@ -138,26 +135,25 @@
 7	inn	inn	ADV	ao	_	9	advmod	_	tag=ao
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	leikina	leikur	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	5	obl	_	tag=no_ft_þf_kk_gr
-10-12	aftur og aftur	_	_	_	_	_	_	_	_
-10	aftur	aftur	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
-11	og	og	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
-12	aftur	aftur	ADV	ao	_	10	fixed	_	SpaceAfter=No|tag=ao
+10	aftur	aftur	ADV	ao	_	2	advmod	_	MWEEnd=Yes|tag=ao
+11	og	og	ADV	ao	_	10	fixed	_	MWEEnd=Yes|tag=ao
+12	aftur	aftur	ADV	ao	_	10	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 13	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
-1-3	Chairman Fred Ridley	_	_	_	_	_	_	_	_
-1	Chairman	Chairman	PROPN	sérnafn	_	4	VANTAR_LIÐ	_	tag=sérnafn
+# sent_id = GREYNIR_CORPUS_00238,.10
+# text = Chairman Fred Ridley announces the establishment of the Augusta National Women's Amateur Championship.
+1	Chairman	Chairman	PROPN	sérnafn	_	4	obl	_	tag=sérnafn
 2	Fred	Fred	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
-3	Ridley	Ridley	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
+3	Ridley	Ridley	PROPN	sérnafn	_	1	flat	_	MWEEnd=Yes|tag=sérnafn
 4	announces	announces	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 5	the	the	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk
 6	establishment	establishment	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=no_et_ef_hk
 7	of	of	ADV	eo	_	8	advmod	_	tag=eo
 8	the	the	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk
-9-13	Augusta National Women's Amateur Championship	_	_	_	_	_	_	_	_
 9	Augusta	Augusta	PROPN	sérnafn	_	8	nmod:poss	_	tag=sérnafn
 10	National	National	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
 11	Women's	Women's	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
 12	Amateur	Amateur	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
-13	Championship	Championship	PROPN	sérnafn	_	9	flat	_	tag=sérnafn
+13	Championship	Championship	PROPN	sérnafn	_	9	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=sérnafn
 14	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

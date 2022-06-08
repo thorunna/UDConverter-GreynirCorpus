@@ -4,7 +4,7 @@
 2	framleiðum	framleiða	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	ccomp	_	tag=so_0_fh_p1_ft_nt_gm
 3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	Íslandi	Ísland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=sérnafn_et_þgf_hk
-5	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+5	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 6	yfirskrift	yfirskrift	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 7	fyrsta	fyrstur	ADJ	lo_et_ef_hk_vb	Case=Gen|Gender=Neut|Number=Sing	8	amod	_	tag=lo_et_ef_hk_vb
 8	Framleiðsluþings	Framleiðsluþing	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=no_et_ef_hk
@@ -13,7 +13,7 @@
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
 13	haldið	halda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	acl:relcl	_	tag=so_0_lhþt_et
-14	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_1_nf_fh_p3_et_nt_gm
+14	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	Hörpu	Harpa	PROPN	sérnafn_þgf_kvk	Case=Dat|Gender=Fem	13	obl	_	tag=sérnafn_þgf_kvk
 17	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
@@ -48,7 +48,7 @@
 2	maí	maí	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	advmod	_	tag=no_et_þgf_kk
 3	síðastliðnum	síðastliðinn	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_þgf_kk_sb
 4	tilkynnti	tilkynna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-5	net	net	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No|tag=no_et_nf_hk
+5	net	net	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 6	-	_	PUNCT	grm	_	7	punct	_	tag=grm
 7	tónlistarveitan	tónlistarveita	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	conj	_	tag=no_et_nf_kvk_gr
 8	Spotify	Spotify	PROPN	fyrirtæki	_	5	obl	_	tag=fyrirtæki
@@ -76,30 +76,28 @@
 8	CTRL	CTRL	ADV	abbrev	_	6	obj	_	tag=abbrev
 9	og	og	CCONJ	st	_	6	cc	_	tag=st
 10	ýttu	ýta	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_ft_þt_gm
-11	á	á	ADP	fs_þf	Case=Acc	10	case	_	SpaceAfter=No|tag=fs_þf
-12	(	_	PUNCT	grm	_	10	punct	_	tag=grm
-13	CMD	CMD	ADV	abbrev	_	12	obl	_	tag=abbrev
-14	og	og	CCONJ	st	_	12	cc	_	tag=st
+11	á	á	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+12	(	_	PUNCT	grm	_	13	punct	_	SpaceAfter=No|tag=grm
+13	CMD	CMD	ADV	abbrev	_	10	obl	_	tag=abbrev
+14	og	og	CCONJ	st	_	16	cc	_	tag=st
 15	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
-16	Mac	Mac	ADV	abbrev	_	12	obl	_	SpaceAfter=No|tag=abbrev
+16	Mac	Mac	ADV	abbrev	_	13	obl	_	SpaceAfter=No|tag=abbrev
 17	)	_	PUNCT	grm	_	16	punct	_	SpaceAfter=No|tag=grm
 18	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00111,.5
 # text = Þvert á móti virðist liðið nú orðið eftirbátur Red Bull liðsins í viðbót við að reyna að elta Mercedes.
-1-2	Þvert á	_	_	_	_	_	_	_	_
-1	Þvert	þvert	ADV	ao	_	8	advmod	_	tag=ao
-2	á	á	ADV	ao	_	1	fixed	_	tag=ao
-3	móti	móti	ADV	ao	_	8	advmod	_	tag=ao
-4	virðist	virða	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	8	conj	_	tag=so_1_nf_fh_p3_et_nt_mm
-5	liðið	liðinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=lo_et_nf_hk_sb
+1	Þvert	þvert	ADV	ao	_	4	advmod	_	tag=ao
+2	á	á	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
+3	móti	móti	ADV	ao	_	4	advmod	_	tag=ao
+4	virðist	virða	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_nf_fh_p3_et_nt_mm
+5	liðið	liðinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=lo_et_nf_hk_sb
 6	nú	nú	ADV	ao	_	8	advmod	_	tag=ao
-7	orðið	verða	VERB	so_1_nf_lhþt_et	Case=Nom|Number=Sing|VerbForm=Part	8	cop	_	tag=so_1_nf_lhþt_et
-8	eftirbátur	eftirbátur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
-9-10	Red Bull	_	_	_	_	_	_	_	_
+7	orðið	verða	AUX	so_1_nf_lhþt_et	Case=Nom|Number=Sing|VerbForm=Part	8	cop	_	tag=so_1_nf_lhþt_et
+8	eftirbátur	eftirbátur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	xcomp	_	tag=no_et_nf_kk
 9	Red	Red	PROPN	fyrirtæki	_	8	nmod:poss	_	tag=fyrirtæki
-10	Bull	Bull	PROPN	fyrirtæki	_	9	flat	_	tag=fyrirtæki
-11	liðsins	liður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	conj	_	tag=no_et_ef_kk_gr
+10	Bull	Bull	PROPN	fyrirtæki	_	9	flat	_	MWEEnd=Yes|tag=fyrirtæki
+11	liðsins	liður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	tag=no_et_ef_kk_gr
 12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 13	viðbót	viðbót	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þf_kvk
 14	við	við	ADP	fs_nh	VerbForm=Inf	16	case	_	tag=fs_nh
@@ -108,13 +106,12 @@
 17	að	að	PART	nhm	_	18	mark	_	tag=nhm
 18	elta	elta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	16	xcomp	_	tag=so_1_þf_nh_gm
 19	Mercedes	Mercedes	PROPN	fyrirtæki_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No|tag=fyrirtæki_et_þf_hk
-20	.	_	PUNCT	grm	_	8	punct	_	tag=grm
+20	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00111,.6
 # text = Í morgun fór fram kynning á uppbyggingu á atvinnu og þjónustuhúsnæði sem framundan er í Reykjavík á næstu árum.
-1-2	Í morgun	_	_	_	_	_	_	_	_
 1	Í	í	ADV	ao	_	3	advmod	_	tag=ao
-2	morgun	morgun	ADV	ao	_	1	fixed	_	tag=ao
+2	morgun	morgun	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	fram	fram	ADV	ao	_	3	compound:prt	_	tag=ao
 5	kynning	kynning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
@@ -136,19 +133,18 @@
 
 # sent_id = GREYNIR_CORPUS_00111,.7
 # text = Teigsskógarleiðin hefur verið talin langódýrust en hún hefur í för með sér meiri áhrif á umhverfið en hinar leiðirnar.
-1	Teigsskógarleiðin	Teigsskógarleið	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk_gr
-2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	AUX	so_0_gm	Voice=Act	5	aux	_	tag=so_0_gm
-4	talin	telja	VERB	so_1_nf_lhþt_et	Case=Nom|Number=Sing|VerbForm=Part	5	conj	_	tag=so_1_nf_lhþt_et
-5	langódýrust	langódýr	ADJ	lo_et_nf_kvk_esb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_esb
+1	Teigsskógarleiðin	Teigsskógarleið	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
+2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
+3	verið	vera	AUX	so_0_gm	Voice=Act	4	cop	_	tag=so_0_gm
+4	talin	telja	VERB	so_1_nf_lhþt_et	Case=Nom|Number=Sing|VerbForm=Part	0	root	_	tag=so_1_nf_lhþt_et
+5	langódýrust	langódýr	ADJ	lo_et_nf_kvk_esb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	4	xcomp	_	tag=lo_et_nf_kvk_esb
 6	en	en	CCONJ	st	_	5	cc	_	tag=st
 7	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_kvk_p3
 8	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-9-12	í för með sér	_	_	_	_	_	_	_	_
 9	í	í	ADV	ao	_	8	advmod	_	tag=ao
 10	för	för	ADV	ao	_	9	fixed	_	tag=ao
 11	með	með	ADV	ao	_	9	fixed	_	tag=ao
-12	sér	sér	ADV	ao	_	9	fixed	_	tag=ao
+12	sér	sér	ADV	ao	_	9	fixed	_	MWEEnd=Yes|tag=ao
 13	meiri	mikill	ADJ	lo_ft_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	14	amod	_	tag=lo_ft_þf_hk_mst
 14	áhrif	áhrif	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	tag=no_ft_þf_hk
 15	á	á	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
@@ -156,14 +152,13 @@
 17	en	en	CCONJ	st	_	19	cc	_	tag=st
 18	hinar	hinn	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	19	nmod	_	tag=fn_ft_nf_kvk
 19	leiðirnar	leið	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	advcl	_	SpaceAfter=No|tag=no_ft_nf_kvk_gr
-20	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+20	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00111,.8
 # text = Frá árinu 1949 til ársloka 2017 hefur 191 íslensk leikin kvikmynd í fullri lengd verið frumsýnd hér á landi.
 1	Frá	frá	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2-3	árinu 1949	_	_	_	_	_	_	_	_
 2	árinu	árinu	ADV	ártal	_	16	advmod	_	tag=ártal
-3	1949	1949	NUM	ártal	_	2	flat	_	tag=ártal
+3	1949	1949	NUM	ártal	_	2	flat	_	MWEEnd=Yes|tag=ártal
 4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5	ársloka	árslok	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_ef_hk
 6	2017	2017	NUM	ártal	_	5	nmod:poss	_	tag=ártal
@@ -175,12 +170,11 @@
 12	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 13	fullri	fullur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_þgf_kvk_sb
 14	lengd	lengd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
-15	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	16	aux	_	tag=so_0_sagnb_gm
+15	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	16	cop	_	tag=so_0_sagnb_gm
 16	frumsýnd	frumsýna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-17-19	hér á landi	_	_	_	_	_	_	_	_
-17	hér	hér	ADV	ao	_	16	advmod	_	SpaceAfter=No|tag=ao
-18	á	á	ADV	ao	_	17	fixed	_	SpaceAfter=No|tag=ao
-19	landi	landi	ADV	ao	_	17	fixed	_	SpaceAfter=No|tag=ao
+17	hér	hér	ADV	ao	_	16	advmod	_	tag=ao
+18	á	á	ADV	ao	_	17	fixed	_	tag=ao
+19	landi	landi	ADV	ao	_	17	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 20	.	_	PUNCT	grm	_	16	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00111,.9
@@ -195,14 +189,14 @@
 8	CTRL	CTRL	ADV	abbrev	_	6	obj	_	tag=abbrev
 9	og	og	CCONJ	st	_	6	cc	_	tag=st
 10	ýttu	ýta	VERB	so_0_bh_et_gm	Mood=Imp|Number=Sing|Voice=Act	6	conj	_	tag=so_0_bh_et_gm
-11	á	á	ADP	fs_þf	Case=Acc	10	case	_	SpaceAfter=No|tag=fs_þf
-12	-	-	PUNCT	grm	_	10	punct	_	SpaceAfter=No|tag=grm
-13	(	(	PUNCT	grm	_	12	punct	_	tag=grm
-14	CMD	CMD	ADV	abbrev	_	13	obl	_	tag=abbrev
-15	og	og	CCONJ	st	_	13	cc	_	SpaceAfter=No|tag=st
-16	-	-	PUNCT	grm	_	15	punct	_	tag=grm
+11	á	á	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
+12	-	-	PUNCT	grm	_	10	punct	_	tag=grm
+13	(	(	PUNCT	grm	_	14	punct	_	SpaceAfter=No|tag=grm
+14	CMD	CMD	ADV	abbrev	_	10	obl	_	tag=abbrev
+15	og	og	CCONJ	st	_	18	cc	_	tag=st
+16	-	-	PUNCT	grm	_	18	punct	_	tag=grm
 17	fyrir	fyrir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-18	Mac	Mac	ADV	abbrev	_	13	obl	_	SpaceAfter=No|tag=abbrev
+18	Mac	Mac	ADV	abbrev	_	14	obl	_	SpaceAfter=No|tag=abbrev
 19	)	)	PUNCT	grm	_	18	punct	_	SpaceAfter=No|tag=grm
 20	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
@@ -221,9 +215,8 @@
 11	árásinni	árás	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk_gr
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Nice	Nice	PROPN	sérnafn_þgf_hk	Case=Dat|Gender=Neut	11	obl	_	tag=sérnafn_þgf_hk
-14-15	í gær	_	_	_	_	_	_	_	_
-14	í	í	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
-15	gær	gær	ADV	ao	_	14	fixed	_	SpaceAfter=No|tag=ao
+14	í	í	ADV	ao	_	11	advmod	_	tag=ao
+15	gær	gær	ADV	ao	_	14	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 17	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 18	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	tag=no_et_nf_kk

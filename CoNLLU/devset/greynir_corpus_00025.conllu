@@ -11,21 +11,20 @@
 
 # sent_id = GREYNIR_CORPUS_00025,.2
 # text = Valsmenn mættu mun grimmari í síðari hálfleikinn.
-1	Valsmenn	Valsmaður	PROPN	sérnafn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	tag=sérnafn_ft_nf_kk
-2	mættu	mæta	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_ft_þt_gm
+1	Valsmenn	Valsmaður	PROPN	sérnafn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	tag=sérnafn_ft_nf_kk
+2	mættu	mæta	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_ft_þt_gm
 3	mun	munur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
-4	grimmari	grimmur	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_mst
+4	grimmari	grimmur	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	2	amod	_	tag=lo_ft_nf_kk_mst
 5	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 6	síðari	síðari	ADJ	lo_et_þf_kk_mst	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_þf_kk_mst
-7	hálfleikinn	hálfleikur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-8	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+7	hálfleikinn	hálfleikur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
+8	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00025,.3
 # text = Einhverra hluta vegna fermdist ég um haust.
-1-3	Einhverra hluta vegna	_	_	_	_	_	_	_	_
 1	Einhverra	einhverra	ADV	ao	_	4	advmod	_	tag=ao
 2	hluta	hluta	ADV	ao	_	1	fixed	_	tag=ao
-3	vegna	vegna	ADV	ao	_	1	fixed	_	tag=ao
+3	vegna	vegna	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 4	fermdist	ferma	VERB	so_0_fh_p1_et_þt_mm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p1_et_þt_mm
 5	ég	ég	PRON	pfn_et_nf_hk_p1	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p1
 6	um	um	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf

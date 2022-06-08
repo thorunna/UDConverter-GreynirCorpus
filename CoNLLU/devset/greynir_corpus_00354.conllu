@@ -2,12 +2,11 @@
 # text = Það hafi verið hinsta óska Max Brod, vinar Kafka.
 1	Það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_hk_p3
 2	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_vh_p3_et_nt_gm
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 4	hinsta	hinstur	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_nf_hk_evb
 5	óska	ósk	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
-6-7	Max Brod	_	_	_	_	_	_	_	_
-6	Max	Max	PROPN	person_ef_kk	Case=Gen|Gender=Masc	5	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-7	Brod	Brod	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	flat	_	SpaceAfter=No|tag=person_ef_kk
+6	Max	Max	PROPN	person_ef_kk	Case=Gen|Gender=Masc	5	nmod:poss	_	tag=person_ef_kk
+7	Brod	Brod	PROPN	person_ef_kk	Case=Gen|Gender=Masc	6	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_ef_kk
 8	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 9	vinar	vina	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	conj	_	tag=no_et_ef_kk
 10	Kafka	Kafka	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	6	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk
@@ -30,7 +29,7 @@
 # text = Í Írak eru átta látnir og nokkur hundruð slösuðust.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	Írak	Írak	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_hk
-3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_nt_gm
+3	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_nt_gm
 4	átta	átta	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	tag=töl_ft_nf_kk
 5	látnir	láta	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 6	og	og	CCONJ	st	_	5	cc	_	tag=st
@@ -57,9 +56,8 @@
 1	Undir	undir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þf_hk
 3	tekur	taka	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-4-5	Jónas Haraldsson	_	_	_	_	_	_	_	_
 4	Jónas	Jónas	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-5	Haraldsson	Haraldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
+5	Haraldsson	Haraldsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	MWEEnd=Yes|tag=person_nf_kk
 6	hæstaréttarlögmaður	hæstaréttarlögmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
 8	lögmaður	lögmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	tag=no_et_nf_kk
@@ -89,16 +87,15 @@
 5	ákvörðunin	ákvörðun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk_gr
 6	ætti	eiga	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	2	obj	_	tag=so_0_vh_p3_et_þt_gm
 7	að	að	PART	nhm	_	9	mark	_	tag=nhm
-8	vera	vera	VERB	so_1_ef_nh_gm	Case=Gen|VerbForm=Inf|Voice=Act	9	cop	_	tag=so_1_ef_nh_gm
-9	þingsins	þing	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	ccomp	_	SpaceAfter=No|tag=no_et_ef_hk_gr
+8	vera	vera	AUX	so_1_ef_nh_gm	Case=Gen|VerbForm=Inf|Voice=Act	9	cop	_	tag=so_1_ef_nh_gm
+9	þingsins	þing	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	dep	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 10	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00354,.8
 # text = Þar fyrir utan slær hún ekki slöku við í ræktinni.
 1	Þar	þar	ADV	ao	_	4	advmod	_	tag=ao
-2-3	fyrir utan	_	_	_	_	_	_	_	_
 2	fyrir	fyrir	ADV	ao	_	1	advmod	_	tag=ao
-3	utan	utan	ADV	ao	_	2	fixed	_	tag=ao
+3	utan	utan	ADV	ao	_	2	fixed	_	MWEEnd=Yes|tag=ao
 4	slær	slá	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 5	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kvk_p3
 6	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
@@ -112,7 +109,7 @@
 # text = Helstu niðurstöður eru að mikill skortur er á iðnfólki.
 1	Helstu	heldri	ADJ	lo_ft_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_nf_kvk_evb
 2	niðurstöður	niðurstaða	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	tag=no_ft_nf_kvk
-3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+3	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4	að	að	SCONJ	st	_	0	root	_	tag=st
 5	mikill	mikill	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_sb
 6	skortur	skortur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk
@@ -127,12 +124,11 @@
 2	af	af	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 3	fyrirhuguðum	fyrirhuga	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	4	amod	_	tag=lo_ft_þgf_hk_sb
 4	mannvirkjum	mannvirki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	1	obl	_	tag=no_ft_þgf_hk
-5	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_þt_gm
+5	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 6	sýnt	sýna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	fréttum	frétt	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_þgf_kvk
-9-10	Stöðvar 2	_	_	_	_	_	_	_	_
-9	Stöðvar	Stöðvar	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
-10	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	flat	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
+9	Stöðvar	Stöðvar	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	8	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
+10	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
 11	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 

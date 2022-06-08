@@ -2,7 +2,7 @@
 # text = Unnið hefur verið að gerð löggæsluáætlunarinnar í samræmi við ályktun Alþingis frá árinu 2012 um grundvallarskilgreiningar löggæslu á Íslandi og gerð löggæsluáætlunar fyrir Ísland.
 1	Unnið	vinna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	aux	_	tag=so_0_sagnb_gm
+3	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	1	cop	_	tag=so_0_sagnb_gm
 4	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	gerð	gerð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
 6	löggæsluáætlunarinnar	löggæsluáætlun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kvk_gr
@@ -12,9 +12,8 @@
 10	ályktun	ályktun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þf_kvk
 11	Alþingis	Alþingi	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	nmod:poss	_	tag=sérnafn_et_ef_hk
 12	frá	frá	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13-14	árinu 2012	_	_	_	_	_	_	_	_
 13	árinu	árinu	ADV	ártal	_	10	advmod	_	tag=ártal
-14	2012	2012	NUM	ártal	_	13	flat	_	tag=ártal
+14	2012	2012	NUM	ártal	_	13	flat	_	MWEEnd=Yes|tag=ártal
 15	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 16	grundvallarskilgreiningar	grundvallarskilgreining	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	tag=no_ft_þf_kvk
 17	löggæslu	löggæsla	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	tag=no_et_ef_kvk
@@ -42,9 +41,8 @@
 11	og	og	CCONJ	st	_	2	cc	_	tag=st
 12	starfaði	starfa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
 13	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_kk_p3
-14-15	meðal annars	_	_	_	_	_	_	_	_
 14	meðal	meðal	ADV	ao	_	12	advmod	_	tag=ao
-15	annars	annars	ADV	ao	_	14	fixed	_	tag=ao
+15	annars	annars	ADV	ao	_	14	fixed	_	MWEEnd=Yes|tag=ao
 16	um	um	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
 17	árabil	árabil	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	advmod	_	tag=no_et_þf_hk
 18	í	í	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
@@ -72,7 +70,7 @@
 13	og	og	CCONJ	st	_	3	cc	_	tag=st
 14	fyrra	fyrri	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_nf_hk_mst
 15	markið	mark	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	tag=no_et_nf_hk_gr
-16	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+16	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 17	mikilvægt	mikilvægur	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	tag=lo_et_nf_hk_fst_sb
 18	því	því	SCONJ	st	_	20	mark	_	tag=st
 19	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	tag=pfn_ft_nf_p1
@@ -97,9 +95,8 @@
 10	um	um	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 11	æskilegasta	æskilegur	ADJ	lo_et_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_þf_hk_evb
 12	jafnvægið	jafnvægi	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þf_hk_gr
-13-14	á milli	_	_	_	_	_	_	_	_
 13	á	á	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
-14	milli	milli	ADP	fs_ef	Case=Gen	13	fixed	_	tag=fs_ef
+14	milli	milli	ADP	fs_ef	Case=Gen	13	fixed	_	MWEEnd=Yes|tag=fs_ef
 15	jákvæðra	jákvæður	ADJ	lo_ft_ef_hk_fst_sb	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	tag=lo_ft_ef_hk_fst_sb
 16	áhrifa	áhrif	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	tag=no_ft_ef_hk
 17	ferðaþjónustu	ferðaþjónusta	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	tag=no_et_ef_kvk
@@ -145,7 +142,7 @@
 # sent_id = GREYNIR_CORPUS_00151,.6
 # text = Hrund er því sérstaklega hrifin af ferlinu sem hver manneskja gengur í gegnum til að verða sá listamaður sem hún sá fyrir sér í byrjun.
 1	Hrund	Hrund	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	nsubj	_	tag=person_nf_kvk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	því	því	ADV	ao	_	5	advmod	_	tag=ao
 4	sérstaklega	sérstaklega	ADV	eo	_	5	advmod	_	tag=eo
 5	hrifin	hrifinn	ADJ	lo_et_nf_kvk_fst_sb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_fst_sb
@@ -155,12 +152,11 @@
 9	hver	hver	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	tag=fn_et_nf_kvk
 10	manneskja	manneskja	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_nf_kvk
 11	gengur	ganga	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
-12-13	í gegnum	_	_	_	_	_	_	_	_
 12	í	í	ADP	fs_þf	Case=Acc	11	obl	_	tag=fs_þf
-13	gegnum	gegnum	ADP	fs_þf	Case=Acc	12	fixed	_	tag=fs_þf
+13	gegnum	gegnum	ADP	fs_þf	Case=Acc	12	fixed	_	MWEEnd=Yes|tag=fs_þf
 14	til	til	ADP	fs_nh	VerbForm=Inf	18	case	_	tag=fs_nh
 15	að	að	PART	nhm	_	18	mark	_	tag=nhm
-16	verða	verða	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	18	cop	_	tag=so_1_nf_nh_gm
+16	verða	verða	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	18	cop	_	tag=so_1_nf_nh_gm
 17	sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	18	nmod	_	tag=fn_et_nf_kk
 18	listamaður	listamaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_nf_kk
 19	sem	sem	SCONJ	stt	_	21	mark	_	tag=stt
@@ -209,27 +205,25 @@
 4	mælist	mæla	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 5	Framsókn	Framsókn	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=sérnafn_et_nf_kvk
 6	með	með	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7-8	11,7 prósent	_	_	_	_	_	_	_	_
 7	11,7	11,7	NUM	prósenta	_	4	obl	_	tag=prósenta
-8	prósent	prósent	NUM	prósenta	_	7	_	_	tag=prósenta
+8	prósent	prósent	NUM	prósenta	_	7	flat	_	MWEEnd=Yes|tag=prósenta
 9	fylgi	fylgi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	tag=no_et_þf_hk
 10	og	og	CCONJ	st	_	4	cc	_	tag=st
-11	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-12	bætt	bæta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
-13	töluvert	töluvert	ADV	ao	_	4	advmod	_	tag=ao
+11	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_et_nt_gm
+12	bætt	bæta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	conj	_	tag=so_0_sagnb_gm
+13	töluvert	töluvert	ADV	ao	_	12	advmod	_	tag=ao
 14	við	við	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	4	obl	_	tag=abfn_þf
+15	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	12	obl	_	tag=abfn_þf
 16	frá	frá	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 17	síðustu	síðari	ADJ	lo_et_þgf_kvk_evb	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	18	amod	_	tag=lo_et_þgf_kvk_evb
-18	könnun	könnun	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	advmod	_	tag=no_et_þgf_kvk
+18	könnun	könnun	ADV	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	advmod	_	tag=no_et_þgf_kvk
 19	þegar	þegar	SCONJ	st	_	21	mark	_	tag=st
 20	flokkurinn	flokkur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	tag=no_et_nf_kk_gr
 21	mældist	mæla	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	18	advcl	_	tag=so_0_fh_p3_et_þt_mm
-22	með	með	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23-24	8,6 prósent	_	_	_	_	_	_	_	_
-23	8,6	8,6	NUM	prósenta	_	21	obl	_	tag=prósenta
-24	prósent	prósent	NUM	prósenta	_	23	_	_	tag=prósenta
-25	fylgi	fylgi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	23	conj	_	SpaceAfter=No|tag=no_et_þgf_hk
+22	með	með	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
+23	8,6	8,6	NUM	prósenta	_	25	nummod	_	tag=prósenta
+24	prósent	prósent	NUM	prósenta	_	23	flat	_	MWEEnd=Yes|tag=prósenta
+25	fylgi	fylgi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 26	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00151,.9
@@ -255,12 +249,14 @@
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	landinu	land	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	18	obl	_	tag=no_et_þgf_hk_gr
 21	m.a.	m.a.	ADV	abbrev	_	17	advmod	_	tag=abbrev
-22	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	21	aux	_	tag=so_0_sagnb_gm
-23	sökuð	saka	VERB	so_0_lhþt_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Part	21	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_ft_nf_hk_sb
+22	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	21	cop	_	tag=so_0_sagnb_gm
+23	sökuð	saka	VERB	so_0_lhþt_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Part	21	dep	_	tag=so_0_lhþt_ft_nf_hk_sb
 24	um	um	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
 25	stríðsglæpi	stríðsglæpur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No|tag=no_ft_þf_kk
 26	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00151,.10
+# text = Hún hefur leikið á psalterium með hljómsveitum og listamönnum á borð við L’Arpeggiata, Christinu Pluhar, Chano Dominguez, Pepe Habichuela og La Folata.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kvk_p3
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	leikið	leika	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
@@ -273,22 +269,18 @@
 10	á	á	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	borð	borð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
 12	við	við	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13	L’Arpeggiata	L’Arpeggiata	PROPN	fyrirtæki_þf	Case=Acc	11	obl	_	tag=fyrirtæki_þf
+13	L’Arpeggiata	L’Arpeggiata	PROPN	fyrirtæki_þf	Case=Acc	11	obl	_	SpaceAfter=No|tag=fyrirtæki_þf
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-15-16	Christinu Pluhar	_	_	_	_	_	_	_	_
 15	Christinu	Christina	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	13	obl	_	tag=person_þf_kvk
-16	Pluhar	Pluhar	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	flat	_	tag=person_þf_kvk
+16	Pluhar	Pluhar	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kvk
 17	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-18-19	Chano Dominguez	_	_	_	_	_	_	_	_
 18	Chano	Chano	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	obl	_	tag=person_þf_kk
-19	Dominguez	Dominguez	PROPN	person_þf_kk	Case=Acc|Gender=Masc	18	flat	_	tag=person_þf_kk
+19	Dominguez	Dominguez	PROPN	person_þf_kk	Case=Acc|Gender=Masc	18	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kk
 20	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-21-22	Pepe Habichuela	_	_	_	_	_	_	_	_
 21	Pepe	Pepe	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	obl	_	tag=person_þf_kk
-22	Habichuela	Habichuela	PROPN	person_þf_kk	Case=Acc|Gender=Masc	21	flat	_	tag=person_þf_kk
+22	Habichuela	Habichuela	PROPN	person_þf_kk	Case=Acc|Gender=Masc	21	flat	_	MWEEnd=Yes|tag=person_þf_kk
 23	og	og	CCONJ	st	_	13	cc	_	tag=st
-24-25	La Folata	_	_	_	_	_	_	_	_
-24	La	La	PROPN	fyrirtæki_þf	Case=Acc	13	VANTAR_LIÐ-obl?	_	tag=fyrirtæki_þf
-25	Folata	Folata	PROPN	fyrirtæki_þf	Case=Acc	24	flat	_	tag=fyrirtæki_þf
+24	La	La	PROPN	fyrirtæki_þf	Case=Acc	13	obl	_	tag=fyrirtæki_þf
+25	Folata	Folata	PROPN	fyrirtæki_þf	Case=Acc	24	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=fyrirtæki_þf
 26	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00041,.1
 # text = Þá er hann einnig sagður jafnan ganga með svört gleraugu.
 1	Þá	þá	ADV	ao	_	5	advmod	_	tag=ao
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_kk_p3
 4	einnig	einnig	ADV	ao_fst	Degree=Pos	5	advmod	_	tag=ao_fst
 5	sagður	segja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
@@ -31,7 +31,7 @@
 1	Skýrsla	skýrsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 2	þess	sá	PRON	fn	_	3	nmod	_	tag=fn
 3	efnis	efni	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk
-4	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
+4	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	birt	birta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	í	í	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 7	nýjasta	nýr	ADJ	lo_et_þgf_kk_evb	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_þgf_kk_evb
@@ -57,21 +57,19 @@
 # sent_id = GREYNIR_CORPUS_00041,.5
 # text = Tilnefningar til viðurkenningarinnar borgarbíll ársins 2019 eru þessar:
 1	Tilnefningar	tilnefning	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	tag=no_ft_nf_kvk
-2	til	til	ADP	fs_ef	Case=Gen	4	case	_	tag=fs_ef
-3	viðurkenningarinnar	viðurkenning	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	nummod	_	tag=no_et_ef_kvk_gr
-4	borgarbíll	borgarbíll	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
-5-6	ársins 2019	_	_	_	_	_	_	_	_
-5	ársins	ársins	NUM	ártal	_	4	nmod:poss	_	tag=ártal
-6	2019	2019	NUM	ártal	_	5	flat	_	tag=ártal
-7	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	til	til	ADP	fs_ef	Case=Gen	3	case	_	tag=fs_ef
+3	viðurkenningarinnar	viðurkenning	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_ef_kvk_gr
+4	borgarbíll	borgarbíll	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_nf_kk
+5	ársins	ársins	NUM	ártal	_	3	nmod:poss	_	tag=ártal
+6	2019	2019	NUM	ártal	_	5	flat	_	MWEEnd=Yes|tag=ártal
+7	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 8	þessar	þessi	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|tag=fn_ft_nf_kvk
 9	:	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00041,.6
 # text = Árið 1994 náðu þríburafæðingar á Íslandi hámarki með sex þríburafæðingum.
-1-2	Árið 1994	_	_	_	_	_	_	_	_
 1	Árið	Árið	ADV	ártal	_	3	advmod	_	tag=ártal
-2	1994	1994	NUM	ártal	_	1	flat	_	tag=ártal
+2	1994	1994	NUM	ártal	_	1	flat	_	MWEEnd=Yes|tag=ártal
 3	náðu	ná	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_ft_þt_gm
 4	þríburafæðingar	þríburafæðing	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -88,7 +86,7 @@
 2	aðstæðum	aðstæður	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	tag=no_ft_þgf_kvk
 3	sem	sem	SCONJ	st	_	4	mark	_	tag=st
 4	þessum	þessi	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	2	advcl	_	tag=fn_ft_þgf_kvk
-5	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_1_nf_vh_p3_et_nt_gm
+5	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 6	sjálfsásökun	sjálfsásökun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	tag=no_et_nf_kvk
 7	svo	svo	ADV	eo	_	8	advmod	_	tag=eo
 8	niðurbrjótandi	niðurbrjóta	ADJ	lo_et_nf_kk_fst	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_fst
@@ -99,7 +97,7 @@
 # sent_id = GREYNIR_CORPUS_00041,.8
 # text = Einn var handtekinn fyrr í dag í tengslum við málið.
 1	Einn	einn	NUM	to_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=to_et_nf_kk
-2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	handtekinn	handtaka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	fyrr	snemma	ADV	ao	_	3	advmod	_	tag=ao
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -113,7 +111,7 @@
 # sent_id = GREYNIR_CORPUS_00041,.9
 # text = Það er rétta aðferðin ef það skapast eitthvað hættuástand.
 1	Það	Það	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_nt_gm	Case=Nom|Mood=Ind|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_nt_gm	Case=Nom|Mood=Ind|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_nt_gm
 3	rétta	réttur	ADJ	lo_et_nf_kvk_fst_vb	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_nf_kvk_fst_vb
 4	aðferðin	aðferð	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk_gr
 5	ef	ef	SCONJ	st	_	7	mark	_	tag=st

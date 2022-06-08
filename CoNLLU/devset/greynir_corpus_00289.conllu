@@ -42,7 +42,7 @@
 15	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	ccomp	_	tag=so_0_sagnb_gm
 16	og	og	CCONJ	st	_	17	cc	_	tag=st
 17	munu	munu	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	conj	_	tag=so_0_fh_p3_ft_nt_gm
-18	verða	verða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	cop	_	tag=so_0_nh_gm
+18	verða	verða	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	cop	_	tag=so_0_nh_gm
 19	á	á	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 20	líf	líf	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þf_hk
 21	Íraka	Íraki	PROPN	sérnafn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	20	nmod:poss	_	SpaceAfter=No|tag=sérnafn_ft_ef_kk
@@ -50,9 +50,8 @@
 
 # sent_id = GREYNIR_CORPUS_00289,.3
 # text = Páll Erlingsson, formaður Kennarafélags Reykjaness, segir í samtali við Morgunblaðið í morgun að kennarar séu farnir að íhuga aðgerðir.
-1-2	Páll Erlingsson	_	_	_	_	_	_	_	_
-1	Páll	Páll	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Erlingsson	Erlingsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Páll	Páll	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
+2	Erlingsson	Erlingsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Kennarafélags	kennarafélag	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_hk
@@ -63,12 +62,11 @@
 10	samtali	samtal	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
 11	við	við	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	Morgunblaðið	morgunblað	PROPN	fyrirtæki_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obl	_	tag=fyrirtæki_et_þf_hk_gr
-13-14	í morgun	_	_	_	_	_	_	_	_
 13	í	í	ADV	ao	_	8	advmod	_	tag=ao
-14	morgun	morgun	ADV	ao	_	13	fixed	_	tag=ao
+14	morgun	morgun	ADV	ao	_	13	fixed	_	MWEEnd=Yes|tag=ao
 15	að	að	SCONJ	st	_	18	mark	_	tag=st
 16	kennarar	kennari	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	tag=no_ft_nf_kk
-17	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_0_vh_p3_ft_nt_gm
+17	séu	vera	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_0_vh_p3_ft_nt_gm
 18	farnir	fara	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	8	obj	_	tag=so_0_lhþt_ft
 19	að	að	PART	nhm	_	20	mark	_	tag=nhm
 20	íhuga	íhuga	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	18	xcomp	_	tag=so_1_þf_nh_gm
@@ -85,7 +83,7 @@
 6	einstaklinga	einstaklingur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nmod:poss	_	tag=no_ft_ef_kk
 7	með	með	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 8	íbúðaskuldir	íbúðaskuld	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	obl	_	tag=no_ft_þf_kvk
-9	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+9	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 10	rúmlega	rúmlega	ADV	eo	_	2	nsubj	_	tag=eo
 11	42%	42%	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	10	nummod	_	tag=prósenta_ft_nf_hk
 12	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
@@ -96,9 +94,8 @@
 17	nánast	náið	ADV	ao_esb	Degree=Sup	18	advmod	_	tag=ao_esb
 18	helmingast	helminga	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	10	conj	_	tag=so_0_sagnb_mm
 19	frá	frá	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-20-21	árinu 2010	_	_	_	_	_	_	_	_
-20	árinu	árinu	ADV	ártal	_	18	advmod	_	SpaceAfter=No|tag=ártal
-21	2010	2010	NUM	ártal	_	20	flat	_	SpaceAfter=No|tag=ártal
+20	árinu	árinu	ADV	ártal	_	18	advmod	_	tag=ártal
+21	2010	2010	NUM	ártal	_	20	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=ártal
 22	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00289,.5
@@ -110,7 +107,7 @@
 5	svarað	svara	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	1	xcomp	_	tag=so_1_þgf_sagnb_gm
 6	hvernig	hvernig	ADV	ao	_	7	advmod	_	tag=ao
 7	taka	taka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	obj	_	tag=so_0_nh_gm
-8	eigi	eiga	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_nt_gm
+8	eigi	eiga	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	dep	_	tag=so_0_vh_p3_et_nt_gm
 9	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 10	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	tag=fn_et_þgf_hk
 11	broti	brot	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
@@ -118,9 +115,8 @@
 13	póstþjónustulögunum	póstþjónustulög	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk_gr
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
 15	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-16-17	Ólafur Stephensen	_	_	_	_	_	_	_	_
-16	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-17	Stephensen	Stephensen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	flat	_	SpaceAfter=No|tag=person_nf_kk
+16	Ólafur	Ólafur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	tag=person_nf_kk
+17	Stephensen	Stephensen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 18	,	_	PUNCT	grm	_	17	punct	_	tag=grm
 19	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	tag=no_et_nf_kk
 20	FA	FA	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
@@ -131,11 +127,11 @@
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	vildi	vilja	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p1_et_þt_gm
 3	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
-4	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	5	cop	_	tag=so_1_nf_nh_gm
+4	vera	vera	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	5	cop	_	tag=so_1_nf_nh_gm
 5	sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	tag=fn_et_nf_kk
 6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
 7	hefði	hafa	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	5	acl:relcl	_	tag=so_0_vh_p3_et_þt_gm
-8	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	cop	_	tag=so_0_sagnb_gm
+8	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	cop	_	tag=so_0_sagnb_gm
 9	minnst	minna	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	7	acl:relcl	_	tag=so_0_sagnb_mm
 10	um	um	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	aldir	öld	ADV	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	advmod	_	tag=no_ft_þf_kvk
@@ -143,7 +139,7 @@
 13	ævi	ævi	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	tag=no_et_þf_kvk
 14	fyrir	fyrir	ADP	fs_nh	VerbForm=Inf	17	case	_	tag=fs_nh
 15	að	að	PART	nhm	_	17	mark	_	tag=nhm
-16	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	17	cop	_	tag=so_1_nf_nh_gm
+16	vera	vera	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	17	cop	_	tag=so_1_nf_nh_gm
 17	maðurinn	maður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_nf_kk_gr
 18	sem	sem	SCONJ	stt	_	19	mark	_	tag=stt
 19	skemmdi	skemma	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
@@ -166,9 +162,8 @@
 12	hluti	hlutur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No|tag=no_ft_þf_kk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-15-16	Marzelíus Sveinbjörnsson	_	_	_	_	_	_	_	_
 15	Marzelíus	Marzelíus	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	tag=person_nf_kk
-16	Sveinbjörnsson	Sveinbjörnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	tag=person_nf_kk
+16	Sveinbjörnsson	Sveinbjörnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	MWEEnd=Yes|tag=person_nf_kk
 17	oddviti	oddviti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_nf_kk
 18	Framsóknarflokks	Framsóknarflokkur	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	17	nmod:poss	_	tag=fyrirtæki_et_ef_kk
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
@@ -179,9 +174,8 @@
 # text = Hafði maðurinn meðal annars bókað flug frá landi daginn eftir að móðir barnsins fór til lögreglunnar í mars á þessu ári.
 1	Hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_þt_gm
 2	maðurinn	maður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk_gr
-3-4	meðal annars	_	_	_	_	_	_	_	_
 3	meðal	meðal	ADV	ao	_	5	advmod	_	tag=ao
-4	annars	annars	ADV	ao	_	3	fixed	_	tag=ao
+4	annars	annars	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	bókað	bóka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 6	flug	flug	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	tag=no_et_þf_hk
 7	frá	frá	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -207,10 +201,9 @@
 2	borgaði	borga	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_þt_gm
 3	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 4	yfir	yfir	ADV	eo	_	5	advmod	_	tag=eo
-5-7	100 milljarða króna	_	_	_	_	_	_	_	_
 5	100	100	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	tag=no_ft_þf_kk
 6	milljarða	milljarða	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	flat	_	tag=no_ft_þf_kk
-7	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	flat	_	tag=no_ft_þf_kk
+7	króna	króna	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	flat	_	MWEEnd=Yes|tag=no_ft_þf_kk
 8	til	til	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
 9	íslenskra	íslenskur	ADJ	lo_ft_ef_kk_sb	Case=Gen|Gender=Masc|Number=Plur	10	amod	_	tag=lo_ft_ef_kk_sb
 10	banka	banki	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	obl	_	tag=no_ft_ef_kk
@@ -218,10 +211,9 @@
 12	beinhörðum	beinharður	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	13	amod	_	tag=lo_ft_þgf_kk_sb
 13	peningum	peningur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-15-17	meira að segja	_	_	_	_	_	_	_	_
 15	meira	meira	ADV	ao	_	20	advmod	_	tag=ao
 16	að	að	ADV	ao	_	15	fixed	_	tag=ao
-17	segja	segja	ADV	ao	_	15	fixed	_	tag=ao
+17	segja	segja	ADV	ao	_	15	fixed	_	MWEEnd=Yes|tag=ao
 18	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 19	erlendri	erlendur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	20	amod	_	tag=lo_et_þgf_kvk_sb
 20	mynt	mynt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
@@ -230,9 +222,8 @@
 # sent_id = GREYNIR_CORPUS_00289,.10
 # text = Skýrsla Copenhagen Economics sem gerð er fyrir Landsvirkjun bendir m.a. á þann möguleika að greiða niður stofnkostnað virkjana í þessu ljósi.
 1	Skýrsla	skýrsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk
-2-3	Copenhagen Economics	_	_	_	_	_	_	_	_
 2	Copenhagen	Copenhagen	PROPN	fyrirtæki	_	1	nmod:poss	_	tag=fyrirtæki
-3	Economics	Economics	PROPN	fyrirtæki	_	2	flat	_	tag=fyrirtæki
+3	Economics	Economics	PROPN	fyrirtæki	_	2	flat	_	MWEEnd=Yes|tag=fyrirtæki
 4	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 5	gerð	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	6	xcomp	_	tag=so_0_lhþt_et
 6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm

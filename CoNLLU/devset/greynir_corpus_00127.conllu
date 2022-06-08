@@ -5,7 +5,7 @@
 3	greinilegt	greinilegur	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	nsubj	_	tag=lo_et_nf_hk_fst_sb
 4	að	að	SCONJ	st	_	8	mark	_	tag=st
 5	Guðmundur	Guðmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
-6	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
+6	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
 8	ná	ná	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	2	ccomp	_	tag=so_1_þgf_nh_gm
 9	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obj	_	tag=fn_et_þgf_hk
@@ -18,15 +18,14 @@
 16	Stefán	Stefán	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	tag=person_nf_kk
 17	um	um	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 18	leikinn	leikur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_þf_kk_gr
-19-20	í gær	_	_	_	_	_	_	_	_
-19	í	í	ADV	ao	_	18	advmod	_	SpaceAfter=No|tag=ao
-20	gær	gær	ADV	ao	_	19	fixed	_	SpaceAfter=No|tag=ao
+19	í	í	ADV	ao	_	18	advmod	_	tag=ao
+20	gær	gær	ADV	ao	_	19	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 21	.	_	PUNCT	grm	_	15	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00127,.2
 # text = Þannig eru sigurvegararnir hvattir til að sleppa því að lesa upp langa lista og segja eitthvað sem mun hreyfa við áhorfendum.
 1	Þannig	þannig	ADV	ao	_	4	advmod	_	tag=ao
-2	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	sigurvegararnir	sigurvegari	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_nf_kk_gr
 4	hvattir	hvetja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 5	til	til	ADP	fs_nh	VerbForm=Inf	7	case	_	tag=fs_nh
@@ -67,17 +66,16 @@
 15	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	13	acl:relcl	_	tag=so_0_sagnb_gm
 16	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_fh_p3_et_nt_gm
 17	á	á	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
-18-20	sunnan- og vestanverðu	_	_	_	_	_	_	_	_
 18	sunnan-	sunnan-	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	21	amod	_	tag=lo_et_þgf_hk_sb
-19	og	og	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	18	_	_	tag=lo_et_þgf_hk_sb
-20	vestanverðu	vestanverður	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	19	_	_	tag=lo_et_þgf_hk_sb
+19	og	og	CCONJ	st	_	20	cc	_	tag=lo_et_þgf_hk_sb
+20	vestanverðu	vestanverður	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	21	amod	_	MWEEnd=Yes|tag=lo_et_þgf_hk_sb
 21	Íslandi	Ísland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 22	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00127,.4
 # text = Þetta er harður dómur yfir framferði íslensku fjármálastofnanna og fjármálamannanna sem voru mestir og bestir í heimi — fyrir hrun.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	harður	harður	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_fst_sb
 4	dómur	dómur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	yfir	yfir	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -92,7 +90,7 @@
 14	og	og	CCONJ	st	_	15	cc	_	tag=st
 15	bestir	góður	ADJ	lo_ft_nf_kk_esb_sb	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur	13	conj	_	tag=lo_ft_nf_kk_esb_sb
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17	heimi	heimur	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
+17	heimi	heimur	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	tag=no_et_þgf_hk
 18	—	_	PUNCT	grm	_	17	punct	_	tag=grm
 19	fyrir	fyrir	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 20	hrun	hrun	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
@@ -100,7 +98,7 @@
 
 # sent_id = GREYNIR_CORPUS_00127,.5
 # text = Og það sést reyndar vel á Facebook-síðum Páls og Ásmundar Friðrikssonar, sem skipaði annað sætið á lista flokksins.
-1	Og	og	SCONJ	st	_	3	cc	_	tag=st
+1	Og	og	SCONJ	st	_	3	dep	_	tag=st
 2	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
 3	sést	sjá	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 4	reyndar	reyndar	ADV	ao	_	3	advmod	_	tag=ao
@@ -109,9 +107,8 @@
 7	Facebook-síðum	Facebook-síða	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þgf_kvk
 8	Páls	Páll	PROPN	person_ef_kk	Case=Gen|Gender=Masc	7	nmod:poss	_	tag=person_ef_kk
 9	og	og	CCONJ	st	_	10	cc	_	tag=st
-10-11	Ásmundar Friðrikssonar	_	_	_	_	_	_	_	_
-10	Ásmundar	Ásmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	conj	_	SpaceAfter=No|tag=person_ef_kk
-11	Friðrikssonar	Friðriksson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	flat	_	SpaceAfter=No|tag=person_ef_kk
+10	Ásmundar	Ásmundur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	8	conj	_	tag=person_ef_kk
+11	Friðrikssonar	Friðriksson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_ef_kk
 12	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
 14	skipaði	skipa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
@@ -125,7 +122,7 @@
 # sent_id = GREYNIR_CORPUS_00127,.6
 # text = Ástæðan var ósætti í samningi vegna ímyndarréttar þeirra og launa vegna vinnu á vegum sambandsins í auglýsingum og fleiru þess háttar.
 1	Ástæðan	ástæða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	ósætti	ósætti	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 4	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	samningi	samningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
@@ -160,7 +157,7 @@
 9	því	því	SCONJ	st	_	17	mark	_	tag=st
 10	mikill	mikill	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_nf_kk_fst_sb
 11	hugur	hugur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	tag=no_et_nf_kk
-12	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_1_nf_fh_p3_et_nt_gm
+12	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	forsvarsmönnum	forsvarsmaður	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	obl	_	tag=no_ft_þgf_kk
 15	Showtime	Showtime	PROPN	fyrirtæki	_	14	nmod:poss	_	tag=fyrirtæki
@@ -176,7 +173,7 @@
 1	Mattis	Mattis	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	tag=person_et_nf_kk
 2	sagðist	segja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 3	jafnframt	jafnframt	ADV	ao	_	2	advmod	_	tag=ao
-4	hafa	hafa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	csubj	_	tag=so_1_þf_nh_gm
+4	hafa	hafa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	obl	_	tag=so_1_þf_nh_gm
 5	áhyggjur	áhyggja	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	tag=no_ft_þf_kvk
 6	af	af	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	framgangi	framgangur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk
@@ -185,9 +182,8 @@
 10	nokkrum	nokkur	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	11	nmod	_	tag=fn_ft_þgf_kvk
 11	vígstöðvum	vígstöð	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk
 12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-13-14	meðal annars	_	_	_	_	_	_	_	_
 13	meðal	meðal	ADV	ao	_	11	advmod	_	tag=ao
-14	annars	annars	ADV	ao	_	13	fixed	_	tag=ao
+14	annars	annars	ADV	ao	_	13	fixed	_	MWEEnd=Yes|tag=ao
 15	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 16	sýrlensku	sýrlenskur	ADJ	lo_et_þgf_kvk_vb	Case=Dat|Gender=Fem|Number=Sing	17	amod	_	tag=lo_et_þgf_kvk_vb
 17	borginni	borg	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk_gr
@@ -228,15 +224,14 @@
 2	sex	sex	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	tag=töl_ft_nf_hk
 3	létu	láta	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 4	lífið	líf	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þf_hk_gr
-5-6	í morgun	_	_	_	_	_	_	_	_
 5	í	í	ADV	ao	_	3	advmod	_	tag=ao
-6	morgun	morgun	ADV	ao	_	5	fixed	_	tag=ao
+6	morgun	morgun	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 7	og	og	CCONJ	st	_	3	cc	_	tag=st
 8	30	30	NUM	tala_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	9	nsubj	_	tag=tala_ft_nf_hk
 9	særðust	særa	VERB	so_0_fh_p3_ft_þt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	3	conj	_	tag=so_0_fh_p3_ft_þt_mm
 10	þegar	þegar	SCONJ	st	_	13	mark	_	tag=st
 11	loftárásir	loftárás	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	tag=no_ft_nf_kvk
-12	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	13	aux	_	tag=so_0_fh_p3_ft_þt_gm
+12	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	13	cop	_	tag=so_0_fh_p3_ft_þt_gm
 13	gerðar	gera	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	9	advcl	_	tag=so_0_lhþt_ft
 14	á	á	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	skrifstofubyggingu	skrifstofubygging	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þf_kvk

@@ -2,11 +2,10 @@
 # text = Hann hafi hins vegar ekki viljað segja nákvæmlega til um það hvenær umræddra tekna var aflað.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_et_nf_kk_p3
 2	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_nt_gm
-3-4	hins vegar	_	_	_	_	_	_	_	_
-3	hins	hins	ADV	ao	_	2	advmod	_	tag=ao
-4	vegar	vegar	ADV	ao	_	3	fixed	_	tag=ao
-5	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
-6	viljað	vilja	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	aux	_	tag=so_0_sagnb_gm
+3	hins	hins	ADV	ao	_	7	advmod	_	tag=ao
+4	vegar	vegar	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
+5	ekki	ekki	ADV	ao	_	6	advmod	_	tag=ao
+6	viljað	vilja	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	dep	_	tag=so_0_sagnb_gm
 7	segja	segja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	0	root	_	tag=so_0_nh_gm
 8	nákvæmlega	nákvæmlega	ADV	ao	_	7	advmod	_	tag=ao
 9	til	til	ADV	ao	_	7	advmod	_	tag=ao
@@ -15,14 +14,14 @@
 12	hvenær	hvenær	ADV	ao	_	16	advmod	_	tag=ao
 13	umræddra	umræddur	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	14	amod	_	tag=lo_ft_ef_kvk_sb
 14	tekna	tekja	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	16	obj	_	tag=no_ft_ef_kvk
-15	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	aux	_	tag=so_1_nf_fh_p3_et_þt_gm
+15	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 16	aflað	afla	VERB	so_1_ef_lhþt_et	Case=Gen|Number=Sing|VerbForm=Part	11	ccomp	_	SpaceAfter=No|tag=so_1_ef_lhþt_et
 17	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00092,.2
 # text = Heimsmarkmiðin eru víðfeðm og ná yfir flest svið stjórnsýslunnar, bæði á ríkis- og sveitarstjórnarstigi.
 1	Heimsmarkmiðin	heimsmarkmið	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	nsubj	_	tag=no_ft_nf_hk_gr
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	víðfeðm	víðfeðmur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	ná	ná	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_ft_nt_gm
@@ -33,10 +32,9 @@
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 11	bæði	bæði	CCONJ	st	_	13	cc	_	tag=st
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13-15	ríkis- og sveitarstjórnarstigi	_	_	_	_	_	_	_	_
-13	ríkis-	sveitarstjórnar-stig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
-14	og	sveitarstjórnar-stig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	flat	_	SpaceAfter=No|tag=no_et_þgf_hk
-15	sveitarstjórnarstigi	sveitarstjórnar-stig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	flat	_	SpaceAfter=No|tag=no_et_þgf_hk
+13	ríkis-	sveitarstjórnar-stig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
+14	og	sveitarstjórnar-stig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	flat	_	tag=no_et_þgf_hk
+15	sveitarstjórnarstigi	sveitarstjórnar-stig	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_et_þgf_hk
 16	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00092,.3
@@ -52,7 +50,7 @@
 9	Íslendingi	Íslendingur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
 10	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 11	grunaður	gruna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	acl:relcl	_	tag=so_0_lhþt_et
-12	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	aux	_	tag=so_0_fh_p3_et_nt_gm
+12	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 13	um	um	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	aðild	aðild	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þf_kvk
 15	að	að	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
@@ -90,9 +88,9 @@
 7	Manafort	Manafort	PROPN	person_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=person_et_þgf_kk
 8	réttmætt	réttmætur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	3	iobj	_	tag=lo_et_þf_hk_sb
 9	og	og	CCONJ	st	_	3	cc	_	tag=st
-10	er	vera	VERB	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
-11	andsnúið	andsnúinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	cop	_	tag=lo_et_nf_hk_sb
-12	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
+10	er	vera	AUX	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
+11	andsnúið	andsnúinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=lo_et_nf_hk_sb
+12	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=fn_et_þgf_hk
 13	að	að	SCONJ	st	_	15	mark	_	tag=st
 14	Trump	Trump	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	tag=person_et_nf_kk
 15	náði	náða	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	ccomp	_	tag=so_1_þf_vh_p3_et_nt_gm
@@ -101,10 +99,9 @@
 
 # sent_id = GREYNIR_CORPUS_00092,.6
 # text = Auk þess var ég einn af 28 meðhöfundum greinar um ígræðsluna sem birtist í læknatímaritinu Lancet.
-1-2	Auk þess	_	_	_	_	_	_	_	_
 1	Auk	auk	ADV	ao	_	5	advmod	_	tag=ao
-2	þess	þess	ADV	ao	_	1	fixed	_	tag=ao
-3	var	vera	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p1_et_þt_gm
+2	þess	þess	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
+3	var	vera	AUX	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p1_et_þt_gm
 4	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_p1
 5	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=fn_et_nf_kk
 6	af	af	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -123,13 +120,13 @@
 # sent_id = GREYNIR_CORPUS_00092,.7
 # text = Maður er glaður að eðlisfari, þannig að smá spor í andlitið það drepur engan.
 1	Maður	maður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	glaður	glaður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 4	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	eðlisfari	eðlisfar	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-7	þannig	þannig	ADV	ao	_	14	mark	_	tag=ao
-8	að	að	SCONJ	st	_	7	cc	_	tag=st
+7	þannig	þannig	ADV	ao	_	8	advmod	_	tag=ao
+8	að	að	SCONJ	st	_	14	mark	_	tag=st
 9	smá	smá	ADV	eo	_	10	advmod	_	tag=eo
 10	spor	spor	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
 11	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
@@ -141,11 +138,11 @@
 
 # sent_id = GREYNIR_CORPUS_00092,.8
 # text = Sum barnanna eru látin sofa á köldu steinsteypu-gólfi vegna skorts á rúmum og dýnum.
-1	Sum	sumir	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	tag=fn_ft_nf_hk
+1	Sum	sumir	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=fn_ft_nf_hk
 2	barnanna	barn	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_hk_gr
-3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_ft_nt_gm
-4	látin	láta	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	3	conj	_	tag=so_0_lhþt_ft
-5	sofa	sofa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
+3	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+4	látin	láta	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
+5	sofa	sofa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	xcomp	_	tag=so_0_nh_gm
 6	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 7	köldu	kaldur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	8	amod	_	tag=lo_et_þgf_hk_sb
 8	steinsteypu-gólfi	steinsteypu-gólf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
@@ -155,7 +152,7 @@
 12	rúmum	rúm	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	tag=no_ft_þgf_hk
 13	og	og	CCONJ	st	_	14	cc	_	tag=st
 14	dýnum	dýna	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No|tag=no_ft_þgf_kvk
-15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+15	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00092,.9
 # text = Alls kyns getgátur og vangaveltur eru þarna hraktar — ásakanir sem mér hafa verið þungbærar.
@@ -164,35 +161,35 @@
 3	getgátur	getgáta	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	tag=no_ft_nf_kvk
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	vangaveltur	vangavelta	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	tag=no_ft_nf_kvk
-6	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_1_nf_fh_p3_ft_nt_gm
+6	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 7	þarna	þarna	ADV	ao	_	8	advmod	_	tag=ao
-8	hraktar	hrekja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_0_lhþt_ft
+8	hraktar	hrekja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 9	—	_	PUNCT	grm	_	8	punct	_	tag=grm
 10	ásakanir	ásökun	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	8	obl	_	tag=no_ft_nf_kvk
 11	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
 12	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	15	obl	_	tag=pfn_et_þgf_p1
 13	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_fh_p3_ft_nt_gm
-14	verið	vera	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	15	cop	_	tag=so_1_þgf_sagnb_gm
+14	verið	vera	AUX	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	15	cop	_	tag=so_1_þgf_sagnb_gm
 15	þungbærar	þungbær	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	10	acl:relcl	_	SpaceAfter=No|tag=lo_ft_nf_kvk_sb
-16	.	_	PUNCT	grm	_	8	punct	_	tag=grm
+16	.	_	PUNCT	grm	_	15	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00092,.10
 # text = Enn þann dag í dag finnst mér sömu húsögn falleg og ég heillaðist af sem barn.
 1	Enn	enn	ADV	ao	_	3	advmod	_	tag=ao
 2	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_þf_kk
-3	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	advmod	_	tag=no_et_þf_kk
+3	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	advmod	_	tag=no_et_þf_kk
 4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þf_kk
-6	finnst	finna	VERB	so_1_nf_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	10	conj	_	tag=so_1_nf_op_subj_þgf_fh_p3_et_nt_mm
+6	finnst	finna	VERB	so_1_nf_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_nf_op_subj_þgf_fh_p3_et_nt_mm
 7	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	tag=pfn_et_þgf_p1
 8	sömu	sami	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	9	nmod	_	tag=fn_ft_nf_hk
 9	húsögn	húsagn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	10	obj	_	tag=no_ft_nf_hk
-10	falleg	fallegur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb
+10	falleg	fallegur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	6	ccomp	_	tag=lo_ft_nf_hk_sb
 11	og	og	CCONJ	st	_	13	cc	_	tag=st
 12	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	tag=pfn_et_nf_p1
 13	heillaðist	heilla	VERB	so_0_fh_p1_et_þt_mm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Mid	10	advcl	_	tag=so_0_fh_p1_et_þt_mm
 14	af	af	ADV	ao	_	13	advmod	_	tag=ao
 15	sem	sem	ADP	fs_nf	Case=Nom	16	case	_	tag=fs_nf
 16	barn	barn	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|tag=no_et_nf_hk
-17	.	_	PUNCT	grm	_	10	punct	_	tag=grm
+17	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

@@ -16,10 +16,9 @@
 # text = Hann lést 9. febrúar 2016 á líknardeild Landspítalans í Kópavogi.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	lést	láta	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
-3-5	9. febrúar 2016	_	_	_	_	_	_	_	_
 3	9.	9.	ADV	dagsföst	_	2	advmod	_	tag=dagsföst
 4	febrúar	febrúar	NOUN	dagsföst	_	3	flat	_	tag=dagsföst
-5	2016	2016	NOUN	dagsföst	_	3	flat	_	tag=dagsföst
+5	2016	2016	NOUN	dagsföst	_	3	flat	_	MWEEnd=Yes|tag=dagsföst
 6	á	á	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	líknardeild	líknardeild	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 8	Landspítalans	Landspítali	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	tag=fyrirtæki_et_ef_kk_gr
@@ -30,7 +29,7 @@
 # sent_id = GREYNIR_CORPUS_00224,.3
 # text = Það er greinilega mikil eftirspurn eftir tónleikum akkúrat hérna.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	greinilega	greinilega	ADV	ao	_	5	advmod	_	tag=ao
 4	mikil	mikill	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_sb
 5	eftirspurn	eftirspurn	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
@@ -45,14 +44,13 @@
 1	Myndskeið	myndskeið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk
 2	af	af	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	atvikinu	atvik	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk_gr
-4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
+4	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	sjá	sjá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_0_nh_gm
-8-10	hér að neðan	_	_	_	_	_	_	_	_
-8	hér	hér	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-9	að	að	ADV	ao	_	8	fixed	_	SpaceAfter=No|tag=ao
-10	neðan	neðan	ADV	ao	_	8	fixed	_	SpaceAfter=No|tag=ao
+8	hér	hér	ADV	ao	_	7	advmod	_	tag=ao
+9	að	að	ADV	ao	_	8	fixed	_	tag=ao
+10	neðan	neðan	ADV	ao	_	8	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 11	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00224,.5
@@ -62,7 +60,7 @@
 3	Isavia	Isavia	PROPN	fyrirtæki	_	2	nmod:poss	_	tag=fyrirtæki
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	verkfræðistofunnar	verkfræðistofa	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	conj	_	tag=no_et_ef_kvk_gr
-6	Eflu	Efla	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	VANTAR_LIÐ-obl?	_	tag=fyrirtæki_et_ef_kvk
+6	Eflu	Efla	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	tag=fyrirtæki_et_ef_kvk
 7	breyttu	breyta	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_ft_þt_gm
 8	þar	þar	ADV	ao	_	7	advmod	_	tag=ao
 9	engu	enginn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obj	_	tag=fn_et_þgf_hk
@@ -125,14 +123,16 @@
 10	þjónustu	þjónusta	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 11	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00224,.10
+# text = Það verður rannsakað hvort þarna eru seiði næsta sumar.
 1	Það	Það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	tag=pfn_et_nf_hk_p3
-2	verður	verða	VERB	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_op_es_fh_p3_et_nt_gm
+2	verður	verða	AUX	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_op_es_fh_p3_et_nt_gm
 3	rannsakað	rannsaka	VERB	so_0_lhþt_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_hk
 4	hvort	hvort	CCONJ	st	_	6	cc	_	tag=st
 5	þarna	þarna	ADV	ao	_	6	advmod	_	tag=ao
 6	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	nsubj	_	tag=so_0_fh_p3_ft_nt_gm
 7	seiði	seiði	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	tag=no_ft_nf_hk
 8	næsta	næstur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	tag=lo_et_þf_hk_sb
-9	sumar	sumar	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	advmod	_	tag=no_et_þf_hk
+9	sumar	sumar	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
 10	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

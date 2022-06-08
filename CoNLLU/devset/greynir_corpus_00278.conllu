@@ -33,7 +33,7 @@
 8	fjarða	fjörður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	7	nmod:poss	_	tag=no_ft_ef_kk
 9	þegar	þegar	SCONJ	st	_	12	mark	_	tag=st
 10	ákvörðun	ákvörðun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_nf_kvk
-11	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_nt_gm
+11	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_nt_gm
 12	tekin	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	advcl	_	tag=so_0_lhþt_et
 13	um	um	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 14	hversu	hversu	ADV	ao	_	15	advmod	_	tag=ao
@@ -53,7 +53,7 @@
 5	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
 6	AGC	AGC	PROPN	fyrirtæki	_	7	nsubj	_	tag=fyrirtæki
 7	taldi	telja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
-8	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	cop	_	tag=so_0_nh_gm
+8	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	cop	_	tag=so_0_nh_gm
 9	skuldbindandi	skuldbindandi	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	10	amod	_	tag=lo_et_þf_hk_sb
 10	loforð	loforð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	xcomp	_	tag=no_et_þf_hk
 11	um	um	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
@@ -62,19 +62,17 @@
 14	lóðinni	lóð	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk_gr
 15	með	með	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	bréfi	bréf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
-17-19	30. ágúst 2011	_	_	_	_	_	_	_	_
-17	30.	30.	ADV	dagsföst	_	10	advmod	_	SpaceAfter=No|tag=dagsföst
-18	ágúst	ágúst	NOUN	dagsföst	_	17	flat	_	SpaceAfter=No|tag=dagsföst
-19	2011	2011	NOUN	dagsföst	_	17	flat	_	SpaceAfter=No|tag=dagsföst
+17	30.	30.	ADV	dagsföst	_	10	advmod	_	tag=dagsföst
+18	ágúst	ágúst	NOUN	dagsföst	_	17	flat	_	tag=dagsföst
+19	2011	2011	NOUN	dagsföst	_	17	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsföst
 20	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00278,.4
 # text = Síðdegis í gær var ökumaður sem er grunaður um akstur undir áhrifum fíkniefna og vörslu fíkniefna stöðvaður í Borgartúni.
 1	Síðdegis	síðdegis	ADV	ao	_	17	advmod	_	tag=ao
-2-3	í gær	_	_	_	_	_	_	_	_
 2	í	í	ADV	ao	_	17	advmod	_	tag=ao
-3	gær	gær	ADV	ao	_	2	fixed	_	tag=ao
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_0_fh_p3_et_þt_gm
+3	gær	gær	ADV	ao	_	2	fixed	_	MWEEnd=Yes|tag=ao
+4	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_0_fh_p3_et_þt_gm
 5	ökumaður	ökumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	tag=no_et_nf_kk
 6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
 7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -125,36 +123,33 @@
 6	viðvörun	viðvörun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þf_kvk
 7	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	svæðinu	svæði	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk_gr
-9-10	í kringum	_	_	_	_	_	_	_	_
 9	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
-10	kringum	kringum	ADP	fs_þf	Case=Acc	9	fixed	_	tag=fs_þf
+10	kringum	kringum	ADP	fs_þf	Case=Acc	9	fixed	_	MWEEnd=Yes|tag=fs_þf
 11	Breiðafjörð	Breiðafjörður	PROPN	sérnafn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	tag=sérnafn_et_þf_kk
 12	þar	þar	ADV	ao	_	8	advmod	_	tag=ao
 13	sem	sem	SCONJ	stt	_	14	mark	_	tag=stt
 14	mun	munu	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	advcl	_	tag=so_0_fh_p3_et_nt_gm
 15	hvessa	hvessa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	14	acl:relcl	_	tag=so_0_nh_gm
-16-17	í kvöld	_	_	_	_	_	_	_	_
 16	í	í	ADV	ao	_	15	advmod	_	tag=ao
-17	kvöld	kvöld	ADV	ao	_	16	fixed	_	tag=ao
+17	kvöld	kvöld	ADV	ao	_	16	fixed	_	MWEEnd=Yes|tag=ao
 18	og	og	CCONJ	st	_	15	cc	_	tag=st
 19	hlána	hlána	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	conj	_	SpaceAfter=No|tag=so_0_nh_gm
 20	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00278,.7
 # text = Ebba Katrín Finnsdóttir er nýliðinn í hópnum og kemur skemmtilega á óvart með leik sínum í hlutverki dótturinnar Emmu.
-1-3	Ebba Katrín Finnsdóttir	_	_	_	_	_	_	_	_
 1	Ebba	Ebba	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	5	nsubj	_	tag=person_nf_kvk
 2	Katrín	Katrín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
-3	Finnsdóttir	Finnsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	Finnsdóttir	Finnsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	MWEEnd=Yes|tag=person_nf_kvk
+4	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	nýliðinn	nýliði	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk_gr
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	hópnum	hópur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	tag=no_et_þgf_kk_gr
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
 9	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
 10	skemmtilega	skemmtilega	ADV	ao	_	9	advmod	_	tag=ao
-11	á	á	ADV	ao	_	9	advmod	_	tag=ao
-12	óvart	óvart	ADV	ao	_	11	advmod	_	tag=ao
+11	á	á	ADV	ao	_	12	case	_	tag=ao
+12	óvart	óvart	ADV	ao	_	10	advmod	_	tag=ao
 13	með	með	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	leik	leikur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=no_et_þgf_kk
 15	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	tag=fn_et_þgf_kk
@@ -177,8 +172,8 @@
 9	við	við	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	banka	banki	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þf_kk
 11	hraðbanka	hraðbanki	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	tag=no_et_þf_kk
-12	þangað	þangað	ADV	ao	_	15	mark	_	tag=ao
-13	til	til	SCONJ	st	_	12	cc	_	tag=st
+12	þangað	þangað	ADV	ao	_	13	advmod	_	tag=ao
+13	til	til	SCONJ	st	_	15	mark	_	tag=st
 14	röðin	röð	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	tag=no_et_nf_kvk_gr
 15	kemur	koma	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	advcl	_	tag=so_0_fh_p3_et_nt_gm
 16	að	að	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
@@ -189,14 +184,12 @@
 # text = Þetta er þvert á frétt Fréttablaðsins í gær þar sem var haldið fram að þjóðaratkvæðagreiðsla verði haldin á kjörtímabilinu.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=fn_et_nf_hk
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3-4	þvert á	_	_	_	_	_	_	_	_
 3	þvert	þvert	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
-4	á	á	ADP	fs_þf	Case=Acc	3	fixed	_	tag=fs_þf
+4	á	á	ADP	fs_þf	Case=Acc	3	fixed	_	MWEEnd=Yes|tag=fs_þf
 5	frétt	frétt	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk
 6	Fréttablaðsins	Fréttablaðið	PROPN	fyrirtæki_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=fyrirtæki_et_ef_hk_gr
-7-8	í gær	_	_	_	_	_	_	_	_
 7	í	í	ADV	ao	_	5	advmod	_	tag=ao
-8	gær	gær	ADV	ao	_	7	fixed	_	tag=ao
+8	gær	gær	ADV	ao	_	7	fixed	_	MWEEnd=Yes|tag=ao
 9	þar	þar	ADV	ao	_	5	advmod	_	tag=ao
 10	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 11	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	advcl	_	tag=so_0_fh_p3_et_þt_gm
@@ -204,16 +197,18 @@
 13	fram	fram	ADV	ao	_	12	advmod	_	tag=ao
 14	að	að	SCONJ	st	_	17	mark	_	tag=st
 15	þjóðaratkvæðagreiðsla	þjóðaratkvæðagreiðsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	tag=no_et_nf_kvk
-16	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_0_vh_p3_et_nt_gm
+16	verði	verða	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_0_vh_p3_et_nt_gm
 17	haldin	halda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	ccomp	_	tag=so_0_lhþt_et
 18	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19	kjörtímabilinu	kjörtímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	17	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 20	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00278,.10
+# text = Í þessari fréttaskýringu er fyrst og síðast horft á hann út frá því hvernig krónur skiptast á milli hópa.
 1	Í	Í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 2	þessari	þessi	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	tag=fn_et_þgf_kvk
 3	fréttaskýringu	fréttaskýring	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
-4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
+4	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	fyrst	fyrst	ADV	ao	_	8	advmod	_	tag=ao
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
 7	síðast	síðast	ADV	ao	_	5	conj	_	tag=ao
@@ -226,9 +221,8 @@
 14	hvernig	hvernig	ADV	ao	_	16	advmod	_	tag=ao
 15	krónur	króna	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	tag=no_ft_nf_kvk
 16	skiptast	skipta	VERB	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	13	ccomp	_	tag=so_0_fh_p3_ft_nt_mm
-17-18	á milli	_	_	_	_	_	_	_	_
 17	á	á	ADP	fs_ef	Case=Gen	19	case	_	tag=fs_ef
-18	milli	milli	ADP	fs_ef	Case=Gen	17	fixed	_	tag=fs_ef
-19	hópa	hópur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	16	obl	_	tag=no_ft_ef_kk
+18	milli	milli	ADP	fs_ef	Case=Gen	17	fixed	_	MWEEnd=Yes|tag=fs_ef
+19	hópa	hópur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|tag=no_ft_ef_kk
 20	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 

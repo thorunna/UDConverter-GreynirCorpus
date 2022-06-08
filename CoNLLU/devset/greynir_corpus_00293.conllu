@@ -2,9 +2,8 @@
 # text = Allur ferill Billy Joel hefur litast af baráttu hans við þunglyndi og alkahólisma, með þeim lægðum og hæðum sem því fylgir.
 1	Allur	allur	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_nf_kk
 2	ferill	ferill	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk
-3-4	Billy Joel	_	_	_	_	_	_	_	_
 3	Billy	Billy	PROPN	person_ef_kk	Case=Gen|Gender=Masc	2	nmod:poss	_	tag=person_ef_kk
-4	Joel	Joel	PROPN	person_ef_kk	Case=Gen|Gender=Masc	3	flat	_	tag=person_ef_kk
+4	Joel	Joel	PROPN	person_ef_kk	Case=Gen|Gender=Masc	3	flat	_	MWEEnd=Yes|tag=person_ef_kk
 5	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
 6	litast	lita	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	0	root	_	tag=so_0_sagnb_mm
 7	af	af	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
@@ -57,10 +56,9 @@
 2	Reykjavíkur	Reykjavík	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	flat:name	_	tag=sérnafn_et_ef_kvk
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
 4	dæmt	dæma	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
-5-7	Ingibjörgu Evu Löve	_	_	_	_	_	_	_	_
 5	Ingibjörgu	Ingibjörg	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	4	obj	_	tag=person_þf_kvk
 6	Evu	Eva	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	5	flat	_	tag=person_þf_kvk
-7	Löve	Löve	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	5	flat	_	tag=person_þf_kvk
+7	Löve	Löve	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	5	flat	_	MWEEnd=Yes|tag=person_þf_kvk
 8	til	til	ADP	fs_ef	Case=Gen	11	case	_	tag=fs_ef
 9	fimm	fimm	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	11	obl	_	tag=töl_ft_ef_hk
 10	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	9	conj	_	tag=no_ft_ef_hk
@@ -107,7 +105,7 @@
 # sent_id = GREYNIR_CORPUS_00293,.5
 # text = Ekki væri verið að stíga skref til fulls afnáms hafta, en þetta væri mjög stórt og mikilvægt skref engu að síður.
 1	Ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
-2	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_vh_p3_et_þt_gm
+2	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_vh_p3_et_þt_gm
 3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	stíga	stíga	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
@@ -119,22 +117,21 @@
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12	en	en	CCONJ	st	_	3	cc	_	tag=st
 13	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	tag=fn_et_nf_hk
-14	væri	vera	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	cop	_	tag=so_0_vh_p3_et_þt_gm
+14	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	19	cop	_	tag=so_0_vh_p3_et_þt_gm
 15	mjög	mjög	ADV	eo	_	19	advmod	_	tag=eo
 16	stórt	stór	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	19	amod	_	tag=lo_et_nf_hk_sb
 17	og	og	CCONJ	st	_	19	cc	_	tag=st
 18	mikilvægt	mikilvægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	19	amod	_	tag=lo_et_nf_hk_sb
 19	skref	skref	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	tag=no_et_nf_hk
-20-22	engu að síður	_	_	_	_	_	_	_	_
-20	engu	engu	ADV	ao	_	19	advmod	_	SpaceAfter=No|tag=ao
-21	að	að	ADV	ao	_	20	fixed	_	SpaceAfter=No|tag=ao
-22	síður	síður	ADV	ao	_	20	fixed	_	SpaceAfter=No|tag=ao
+20	engu	engu	ADV	ao	_	19	advmod	_	tag=ao
+21	að	að	ADV	ao	_	20	fixed	_	tag=ao
+22	síður	síður	ADV	ao	_	20	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 23	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00293,.6
 # text = Ég er búin að sýna fólki heima í stofu staði sem það á kannski annars ekki kost á að fara á.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
-2	er	vera	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p1_et_nt_gm
+2	er	vera	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p1_et_nt_gm
 3	búin	búinn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=lo_et_nf_kvk_sb
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	sýna	sýna	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_2_þgf_þf_nh_gm
@@ -160,14 +157,12 @@
 # text = Þetta er í fyrsta sinn síðan árið 1979 sem oddaleik þarf til að knýja fram sigurvegara bæði Vesturdeildar og Austurdeildar NBA deildarinnar.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=fn_et_nf_hk
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3-5	í fyrsta sinn	_	_	_	_	_	_	_	_
 3	í	í	ADV	ao	_	2	advmod	_	tag=ao
 4	fyrsta	fyrsta	ADV	ao	_	3	fixed	_	tag=ao
-5	sinn	sinn	ADV	ao	_	3	fixed	_	tag=ao
+5	sinn	sinn	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 6	síðan	síðan	SCONJ	st	_	3	advcl	_	tag=st
-7-8	árið 1979	_	_	_	_	_	_	_	_
 7	árið	árið	NUM	ártal	_	6	nsubj	_	tag=ártal
-8	1979	1979	NUM	ártal	_	7	flat	_	tag=ártal
+8	1979	1979	NUM	ártal	_	7	flat	_	MWEEnd=Yes|tag=ártal
 9	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 10	oddaleik	oddaleikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	tag=no_et_þf_kk
 11	þarf	þurfa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	tag=so_1_þf_fh_p3_et_nt_gm
@@ -180,7 +175,7 @@
 18	Vesturdeildar	vesturdeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	tag=no_et_ef_kvk
 19	og	og	CCONJ	st	_	20	cc	_	tag=st
 20	Austurdeildar	austurdeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	18	conj	_	tag=no_et_ef_kvk
-21	NBA	NBA	PROPN	fyrirtæki	_	22	VANTAR_LIÐ	_	tag=fyrirtæki
+21	NBA	NBA	PROPN	fyrirtæki	_	22	obl	_	tag=fyrirtæki
 22	deildarinnar	deild	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -202,13 +197,12 @@
 14	en	en	CCONJ	st	_	2	cc	_	tag=st
 15	13%	13%	NUM	prósenta	_	16	obl	_	tag=prósenta
 16	viðbótarverð	viðbótarverð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	tag=no_et_nf_hk
-17	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_0_fh_p3_et_nt_gm
+17	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_0_fh_p3_et_nt_gm
 18	greitt	greiða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
 19	til	til	ADP	fs_ef	Case=Gen	20	case	_	tag=fs_ef
 20	sauðfjárbænda	sauðfjárbóndi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	18	obl	_	tag=no_ft_ef_kk
-21-22	20. nóvember	_	_	_	_	_	_	_	_
-21	20.	20.	ADV	dagsafs	_	18	advmod	_	SpaceAfter=No|tag=dagsafs
-22	nóvember	nóvember	NOUN	dagsafs	_	21	flat	_	SpaceAfter=No|tag=dagsafs
+21	20.	20.	ADV	dagsafs	_	18	advmod	_	tag=dagsafs
+22	nóvember	nóvember	NOUN	dagsafs	_	21	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00293,.9
@@ -237,27 +231,29 @@
 22	frí	frí	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 23	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00293,.10
+# text = Þeir segja að félögin sækist eftir því að ráða fólk með fjölbreytta menntun og reynslu, hjúkrunarfræðingar verði ekki sérstaklega fyrir valinu.
 1	Þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_kk_p3
 2	segja	segja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
 3	að	að	SCONJ	st	_	5	mark	_	tag=st
 4	félögin	félag	NOUN	no_ft_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk_gr
 5	sækist	sækja	VERB	so_0_vh_p3_ft_nt_mm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Mid	2	obj	_	tag=so_0_vh_p3_ft_nt_mm
-6	eftir	eftir	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
-7	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=fn_et_þgf_hk
+6	eftir	eftir	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+7	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	tag=fn_et_þgf_hk
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	ráða	ráða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þf_nh_gm
+9	ráða	ráða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	obl	_	tag=so_1_þf_nh_gm
 10	fólk	fólk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	tag=no_et_þf_hk
 11	með	með	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 12	fjölbreytta	fjölbreyttur	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	tag=lo_et_þf_kvk_sb
 13	menntun	menntun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk
 14	og	og	CCONJ	st	_	15	cc	_	tag=st
-15	reynslu	reynsla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	tag=no_et_þf_kvk
+15	reynslu	reynsla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No|tag=no_et_þf_kvk
 16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 17	hjúkrunarfræðingar	hjúkrunarfræðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	tag=no_ft_nf_kk
 18	verði	verða	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_vh_p3_ft_nt_gm
 19	ekki	ekki	ADV	ao	_	18	advmod	_	tag=ao
 20	sérstaklega	sérstaklega	ADV	ao	_	18	advmod	_	tag=ao
 21	fyrir	fyrir	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-22	valinu	val	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	18	obl	_	tag=no_et_þgf_hk_gr
+22	valinu	val	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 23	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

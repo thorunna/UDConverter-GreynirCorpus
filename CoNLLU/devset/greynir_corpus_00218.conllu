@@ -12,10 +12,9 @@
 
 # sent_id = GREYNIR_CORPUS_00218,.2
 # text = Þóra Sigga var 68 ára þegar hún lést.
-1-2	Þóra Sigga	_	_	_	_	_	_	_	_
 1	Þóra	Þóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
-2	Sigga	Sigga	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
-3	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
+2	Sigga	Sigga	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	MWEEnd=Yes|tag=person_nf_kvk
+3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 4	68	68	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	0	root	_	tag=tala_ft_ef_hk
 5	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	xcomp	_	tag=no_ft_ef_hk
 6	þegar	þegar	SCONJ	st	_	8	mark	_	tag=st
@@ -30,10 +29,9 @@
 3	við	við	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	braggann	braggi	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk_gr
 5	kostuðu	kosta	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
-6-8	757 þúsund krónur	_	_	_	_	_	_	_	_
 6	757	757	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	tag=no_ft_þf_kvk
 7	þúsund	þúsund	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	flat	_	tag=no_ft_þf_kvk
-8	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	flat	_	tag=no_ft_þf_kvk
+8	krónur	krónur	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	6	flat	_	MWEEnd=Yes|tag=no_ft_þf_kvk
 
 # sent_id = GREYNIR_CORPUS_00218,.4
 # text = Svipaður fjöldi búa starfi áfram og framleiðslan verði svipuð?
@@ -44,7 +42,7 @@
 5	áfram	áfram	ADV	ao	_	4	advmod	_	tag=ao
 6	og	og	CCONJ	st	_	4	cc	_	tag=st
 7	framleiðslan	framleiðsla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	tag=no_et_nf_kvk_gr
-8	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_vh_p3_et_nt_gm
+8	verði	verða	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_vh_p3_et_nt_gm
 9	svipuð	svipaður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 10	?	_	PUNCT	grm	_	4	punct	_	tag=grm
 
@@ -70,7 +68,7 @@
 5	fram	fram	ADV	ao	_	2	advmod	_	tag=ao
 6	og	og	CCONJ	st	_	2	cc	_	tag=st
 7	enginn	enginn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	tag=fn_et_nf_kk
-8	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_þt_gm
+8	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_þt_gm
 9	handtekinn	handtaka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	SpaceAfter=No|tag=so_0_lhþt_et
 10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -90,10 +88,9 @@
 # sent_id = GREYNIR_CORPUS_00218,.8
 # text = Náttúran er auk þess stærsta aðdráttarafl Íslands fyrir ferðamenn.
 1	Náttúran	náttúra	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-3-4	auk þess	_	_	_	_	_	_	_	_
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	auk	auk	ADV	ao	_	6	advmod	_	tag=ao
-4	þess	þess	ADV	ao	_	3	fixed	_	tag=ao
+4	þess	þess	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	stærsta	stór	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_nf_hk_evb
 6	aðdráttarafl	aðdráttarafl	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 7	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	_	tag=sérnafn_et_ef_hk
@@ -114,6 +111,8 @@
 9	deiliskipulag	deiliskipulag	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|tag=no_et_þf_hk
 10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00218,.10
+# text = Hann kom aldrei út úr sendiráðinu eftir þann dag.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	aldrei	aldrei	ADV	ao	_	2	advmod	_	tag=ao
@@ -122,6 +121,6 @@
 6	sendiráðinu	sendiráð	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk_gr
 7	eftir	eftir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 8	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	tag=fn_et_þf_kk
-9	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	tag=no_et_þf_kk
+9	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 10	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

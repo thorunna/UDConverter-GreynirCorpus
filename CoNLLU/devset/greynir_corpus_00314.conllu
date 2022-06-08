@@ -1,9 +1,8 @@
 # sent_id = GREYNIR_CORPUS_00314,.1
 # text = Elín Sóley Hrafnkelsdóttir er í 4. sætinu með 11,3 fráköst í leik en hún er síðan í 16. sæti yfir skoruð stig með 13,3 stig í leik.
-1-3	Elín Sóley Hrafnkelsdóttir	_	_	_	_	_	_	_	_
 1	Elín	Elín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
 2	Sóley	Sóley	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
-3	Hrafnkelsdóttir	Hrafnkelsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+3	Hrafnkelsdóttir	Hrafnkelsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 6	4.	4.	NUM	raðnr_þgf_hk	Case=Dat|Gender=Neut|NumType=Ord	7	amod	_	tag=raðnr_þgf_hk
@@ -39,11 +38,11 @@
 5	hér	hér	ADV	ao	_	2	advmod	_	tag=ao
 6	áður	áður	ADV	ao	_	2	advmod	_	tag=ao
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
-8	hafði	hafa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_þf_fh_p3_et_þt_gm
-9	ekki	ekki	ADV	ao	_	2	advmod	_	tag=ao
-10	hugmynd	hugmynd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
+8	hafði	hafa	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
+9	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
+10	hugmynd	hugmynd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	tag=no_et_þf_kvk
 11	um	um	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-12	hvað	hver	X	x		10	obl	_	tag=x
+12	hvað	hver	X	x	_	10	obl	_	tag=x
 13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	hverju	hver	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	tag=fn_et_þgf_hk
 15	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_p1
@@ -66,9 +65,8 @@
 1	Leikstjóri	leikstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	tag=no_et_nf_kk
 2	þáttanna	þáttur	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk_gr
 3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
-4-5	Mike Flanagan	_	_	_	_	_	_	_	_
 4	Mike	Mike	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-5	Flanagan	Flanagan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
+5	Flanagan	Flanagan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	MWEEnd=Yes|tag=person_nf_kk
 6	en	en	CCONJ	st	_	3	cc	_	tag=st
 7	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_kk_p3
 8	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_fh_p3_et_nt_gm
@@ -89,9 +87,8 @@
 23	,	_	PUNCT	grm	_	22	punct	_	tag=grm
 24	Hush	Hush	X	foreign	_	22	flat:foreign	_	tag=foreign
 25	og	og	CCONJ	st	_	22	cc	_	tag=st
-26-27	Gerald's Game	_	_	_	_	_	_	_	_
-26	Gerald's	Gerald's	X	foreign	_	22	flat:foreign	_	SpaceAfter=No|tag=foreign
-27	Game	Game	X	foreign	_	26	flat:foreign	_	SpaceAfter=No|tag=foreign
+26	Gerald's	Gerald's	X	foreign	_	22	flat:foreign	_	tag=foreign
+27	Game	Game	X	foreign	_	26	flat:foreign	_	MWEEnd=Yes|SpaceAfter=No|tag=foreign
 28	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00314,.4
@@ -114,10 +111,10 @@
 16	heiminn	heimur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 17	,	_	PUNCT	grm	_	16	punct	_	tag=grm
 18	en	en	CCONJ	st	_	7	cc	_	tag=st
-19	flýði	flýja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
+19	flýði	flýja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_þt_gm
 20	þegar	þegar	SCONJ	st	_	22	mark	_	tag=st
 21	búið	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	22	xcomp	_	tag=so_0_lhþt_et
-22	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	tag=so_0_fh_p3_et_þt_gm
+22	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	19	advcl	_	tag=so_0_fh_p3_et_þt_gm
 23	að	að	PART	nhm	_	24	mark	_	tag=nhm
 24	klæða	klæða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	22	xcomp	_	tag=so_1_þf_nh_gm
 25	hann	hann	PRON	pfn_et_þf_kk_p3	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	tag=pfn_et_þf_kk_p3
@@ -127,36 +124,31 @@
 
 # sent_id = GREYNIR_CORPUS_00314,.5
 # text = Guðmundur Guðmundsson stýrir íslenska landsliðinu, Patrekur Jóhannesson þjálfar Austurríki, Dagur Sigurðsson er með Japan, Aron Kristjánsson er þjálfari Barein og Kristján Andrésson stýrir Svíum.
-1-2	Guðmundur Guðmundsson	_	_	_	_	_	_	_	_
 1	Guðmundur	Guðmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	stýrir	stýra	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 4	íslenska	íslenskur	ADJ	lo_et_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þgf_hk_vb
 5	landsliðinu	landslið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-7-8	Patrekur Jóhannesson	_	_	_	_	_	_	_	_
 7	Patrekur	Patrekur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
-8	Jóhannesson	Jóhannesson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	tag=person_nf_kk
+8	Jóhannesson	Jóhannesson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	MWEEnd=Yes|tag=person_nf_kk
 9	þjálfar	þjálfa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
 10	Austurríki	Austurríki	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
-12-13	Dagur Sigurðsson	_	_	_	_	_	_	_	_
 12	Dagur	Dagur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	tag=person_nf_kk
-13	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	tag=person_nf_kk
+13	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	MWEEnd=Yes|tag=person_nf_kk
 14	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 15	með	með	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	Japan	Japan	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 17	,	_	PUNCT	grm	_	16	punct	_	tag=grm
-18-19	Aron Kristjánsson	_	_	_	_	_	_	_	_
 18	Aron	Aron	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	nsubj	_	tag=person_nf_kk
-19	Kristjánsson	Kristjánsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	tag=person_nf_kk
-20	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+19	Kristjánsson	Kristjánsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	flat	_	MWEEnd=Yes|tag=person_nf_kk
+20	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	21	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 21	þjálfari	þjálfari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_nf_kk
 22	Barein	Barein	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	21	nmod:poss	_	tag=sérnafn_et_ef_hk
 23	og	og	CCONJ	st	_	3	cc	_	tag=st
-24-25	Kristján Andrésson	_	_	_	_	_	_	_	_
 24	Kristján	Kristján	PROPN	person_nf_kk	Case=Nom|Gender=Masc	26	nsubj	_	tag=person_nf_kk
-25	Andrésson	Andrésson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	24	flat	_	tag=person_nf_kk
+25	Andrésson	Andrésson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	24	flat	_	MWEEnd=Yes|tag=person_nf_kk
 26	stýrir	stýra	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þgf_fh_p3_et_nt_gm
 27	Svíum	Svíi	PROPN	sérnafn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No|tag=sérnafn_ft_þgf_kk
 28	.	_	PUNCT	grm	_	3	punct	_	tag=grm
@@ -181,14 +173,14 @@
 16	tyrkneska	tyrkneskur	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	17	amod	_	tag=lo_et_þf_hk_vb
 17	liðið	lið	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	20	obj	_	tag=no_et_þf_hk_gr
 18	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	20	aux	_	tag=so_0_vh_p3_et_þt_gm
-19	mátt	mega	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	20	aux	_	tag=so_0_sagnb_gm
+19	mátt	mega	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	20	dep	_	tag=so_0_sagnb_gm
 20	þola	þola	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	acl:relcl	_	tag=so_1_þf_nh_gm
 21	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	Keflavíkurflugvelli	Keflavíkurflugvöllur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	tag=sérnafn_et_þgf_kk
 23	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	25	aux	_	tag=so_0_vh_p3_et_þt_gm
-24	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	25	cop	_	tag=so_0_sagnb_gm
+24	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	25	cop	_	tag=so_0_sagnb_gm
 25	óásættanleg	óásættanlegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
-26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+26	.	_	PUNCT	grm	_	25	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00314,.7
 # text = Conor mætti svo pollrólegur í hringinn kvöldið eftir en Brimage virtist bálreiður og svo fór að Conor rotaði hann eftir um það bil mínútu í fyrstu lotu.
@@ -202,8 +194,8 @@
 8	eftir	eftir	ADV	ao	_	7	advmod	_	tag=ao
 9	en	en	CCONJ	st	_	2	cc	_	tag=st
 10	Brimage	Brimage	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
-11	virtist	virða	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	conj	_	tag=so_0_fh_p3_et_þt_mm
-12	bálreiður	bálreiður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=lo_et_nf_kk_sb
+11	virtist	virða	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	conj	_	tag=so_0_fh_p3_et_þt_mm
+12	bálreiður	bálreiður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	11	xcomp	_	tag=lo_et_nf_kk_sb
 13	og	og	CCONJ	st	_	2	cc	_	tag=st
 14	svo	svo	ADV	ao	_	15	advmod	_	tag=ao
 15	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_þt_gm
@@ -234,7 +226,7 @@
 9	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 10	austanverðu	austanverður	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	11	amod	_	tag=lo_et_þgf_hk_sb
 11	landinu	land	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk_gr
-12	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
+12	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_nt_gm
 13	mun	munur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þgf_kk
 14	þungbúnara	þungbúinn	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_mst
 15	um	um	ADP	fs_nh	VerbForm=Inf	17	case	_	tag=fs_nh
@@ -248,16 +240,15 @@
 23	fram	fram	ADV	ao	_	25	advmod	_	tag=ao
 24	eftir	eftir	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
 25	degi	dagur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	tag=no_et_þgf_kk
-26-27	á morgun	_	_	_	_	_	_	_	_
-26	á	á	ADV	ao	_	25	advmod	_	SpaceAfter=No|tag=ao
-27	morgun	morgun	ADV	ao	_	26	fixed	_	SpaceAfter=No|tag=ao
+26	á	á	ADV	ao	_	25	advmod	_	tag=ao
+27	morgun	morgun	ADV	ao	_	26	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 28	.	_	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00314,.9
-# text = Gæti ekki verið ánægðari &#40; augljóslega &#41; með umfjöllunina á FIRE AND FURY, skrifaði hann meðal annars á Twitter-síðu sinni í dag.
+# text = Gæti ekki verið ánægðari&#40; augljóslega&#41; með umfjöllunina á FIRE AND FURY, skrifaði hann meðal annars á Twitter-síðu sinni í dag.
 1	Gæti	geta	AUX	so_0_vh_p1_et_þt_gm	Mood=Sub|Number=Sing|Person=1|Tense=Past|Voice=Act	4	aux	_	tag=so_0_vh_p1_et_þt_gm
 2	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
-3	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
+3	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	4	cop	_	tag=so_1_nf_sagnb_gm
 4	ánægðari	ánægður	ADJ	lo_ft_nf_kk_mst	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|tag=lo_ft_nf_kk_mst
 5	&#40;	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	augljóslega	augljóslega	ADV	ao	_	4	advmod	_	SpaceAfter=No|tag=ao
@@ -265,16 +256,14 @@
 8	með	með	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	umfjöllunina	umfjöllun	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk_gr
 10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11-13	FIRE AND FURY	_	_	_	_	_	_	_	_
-11	FIRE	FIRE	X	foreign	_	9	obl	_	SpaceAfter=No|tag=foreign
-12	AND	AND	X	foreign	_	11	flat:foreign	_	SpaceAfter=No|tag=foreign
-13	FURY	FURY	X	foreign	_	12	flat:foreign	_	SpaceAfter=No|tag=foreign
+11	FIRE	FIRE	X	foreign	_	9	obl	_	tag=foreign
+12	AND	AND	X	foreign	_	11	flat:foreign	_	tag=foreign
+13	FURY	FURY	X	foreign	_	12	flat:foreign	_	MWEEnd=Yes|SpaceAfter=No|tag=foreign
 14	,	_	PUNCT	grm	_	15	punct	_	tag=grm
 15	skrifaði	skrifa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	tag=so_0_fh_p3_et_þt_gm
 16	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_kk_p3
-17-18	meðal annars	_	_	_	_	_	_	_	_
 17	meðal	meðal	ADV	ao	_	15	advmod	_	tag=ao
-18	annars	annars	ADV	ao	_	17	fixed	_	tag=ao
+18	annars	annars	ADV	ao	_	17	fixed	_	MWEEnd=Yes|tag=ao
 19	á	á	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	Twitter-síðu	Twitter-síða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	tag=no_et_þgf_kvk
 21	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	tag=fn_et_þgf_kvk
@@ -282,13 +271,15 @@
 23	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 24	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00314,.10
+# text = Ég bý í sveit og það er svo þægilegt að nota það til að safna upplýsingum fyrir það sem þarf að gera í næstu Selfoss- eða Reykjavíkurferð.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_p1
 2	bý	búa	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_et_nt_gm
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	sveit	sveit	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 5	og	og	CCONJ	st	_	2	cc	_	tag=st
 6	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_hk_p3
-7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	svo	svo	ADV	eo	_	9	advmod	_	tag=eo
 9	þægilegt	þægilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	tag=lo_et_nf_hk_sb
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
@@ -306,9 +297,8 @@
 22	gera	gera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_0_nh_gm
 23	í	í	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
 24	næstu	næstur	ADJ	lo_et_þgf_kvk_evb	Case=Dat|Degree=Sup|Gender=Fem|Number=Sing	25	amod	_	tag=lo_et_þgf_kvk_evb
-25-27	Selfoss- eða Reykjavíkurferð	_	_	_	_	_	_	_	_
 25	Selfoss-	Selfoss-	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	tag=no_et_þgf_kvk
 26	eða	eða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	25	flat	_	tag=no_et_þgf_kvk
-27	Reykjavíkurferð	Reykjavíkur-ferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	25	flat	_	tag=no_et_þgf_kvk
+27	Reykjavíkurferð	Reykjavíkur-ferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	25	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_et_þgf_kvk
 28	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

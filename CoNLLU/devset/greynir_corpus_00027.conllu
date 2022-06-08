@@ -1,6 +1,6 @@
 # sent_id = GREYNIR_CORPUS_00027,.1
 # text = Eru þá skuldir vegna lífeyrisskuldbindinga ekki taldar með.
-1	Eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_1_nf_fh_p3_ft_nt_gm
+1	Eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 2	þá	þá	ADV	ao	_	7	advmod	_	tag=ao
 3	skuldir	skuld	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	tag=no_ft_nf_kvk
 4	vegna	vegna	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
@@ -13,9 +13,9 @@
 # sent_id = GREYNIR_CORPUS_00027,.2
 # text = Hvað er besta jólagjöf sem þú hefur fengið?
 1	Hvað	hver	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	besta	góður	ADJ	lo_et_nf_kvk_evb	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_nf_kvk_evb
-4	jólagjöf	jólagjöf	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	VANTAR_LIÐ_IP_None	_	tag=no_et_nf_kvk
+4	jólagjöf	jólagjöf	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 5	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
 6	þú	þú	PRON	pfn_et_nf_hk_p2	Case=Nom|Gender=Neut|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_hk_p2
 7	hefur	hafa	AUX	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p2_et_nt_gm
@@ -46,11 +46,11 @@
 
 # sent_id = GREYNIR_CORPUS_00027,.5
 # text = En í praxis þá er staðan þessi.
-1	En	en	SCONJ	st	_	7	mark	_	tag=st
+1	En	en	SCONJ	st	_	7	cc	_	tag=st
 2	í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	praxis	praxis	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
 4	þá	þá	ADV	ao	_	7	advmod	_	tag=ao
-5	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+5	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 6	staðan	staða	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk_gr
 7	þessi	þessi	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=fn_et_nf_kvk
 8	.	_	PUNCT	grm	_	7	punct	_	tag=grm
@@ -69,15 +69,15 @@
 
 # sent_id = GREYNIR_CORPUS_00027,.7
 # text = Við þurfum að vita hverjir sækja okkur heim.
-1	Við	ég	PRON	pfn_ft_nf_hk_p1	Case=Nom|Gender=Neut|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_ft_nf_hk_p1
-2	þurfum	þurfa	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p1_ft_nt_gm
+1	Við	ég	PRON	pfn_ft_nf_hk_p1	Case=Nom|Gender=Neut|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_hk_p1
+2	þurfum	þurfa	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_ft_nt_gm
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
-4	vita	vita	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
+4	vita	vita	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
 5	hverjir	hver	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	tag=fn_ft_nf_kk
 6	sækja	sækja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_1_þf_fh_p3_ft_nt_gm
 7	okkur	ég	PRON	pfn_ft_þf_hk_p1	Case=Acc|Gender=Neut|Number=Plur|Person=1|PronType=Prs	6	obj	_	tag=pfn_ft_þf_hk_p1
 8	heim	heim	ADV	ao	_	6	compound:prt	_	SpaceAfter=No|tag=ao
-9	.	_	PUNCT	grm	_	4	punct	_	tag=grm
+9	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00027,.8
 # text = Þessi mynd er úr ferð Fjallaleiðsögumanna yfir Vatnajökul.
@@ -95,7 +95,7 @@
 # text = Uppljóstranir Snowdens eru stórflóð frekar en leki.
 1	Uppljóstranir	uppljóstrun	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	tag=no_ft_nf_kvk
 2	Snowdens	Snowden	PROPN	person_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=person_et_ef_kk
-3	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+3	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 4	stórflóð	stórflóð	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 5	frekar	frekar	ADV	ao_mst	Degree=Cmp	4	advmod	_	tag=ao_mst
 6	en	en	CCONJ	st	_	7	cc	_	tag=st
@@ -105,7 +105,7 @@
 # sent_id = GREYNIR_CORPUS_00027,.10
 # text = Það er það sem við gagnrýnum mjög.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	tag=pfn_et_nf_hk_p3
 4	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 5	við	ég	PRON	pfn_ft_nf_hk_p1	Case=Nom|Gender=Neut|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	tag=pfn_ft_nf_hk_p1

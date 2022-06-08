@@ -3,7 +3,7 @@
 1	Prikið	Prikið	PROPN	sérnafn_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	tag=sérnafn_et_nf_hk_gr
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
 3	lengi	lengi	ADV	ao	_	7	advmod	_	tag=ao
-4	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	cop	_	tag=so_1_nf_sagnb_gm
+4	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	cop	_	tag=so_1_nf_sagnb_gm
 5	einn	einn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	tag=fn_et_nf_kk
 6	helsti	heldri	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_evb
 7	viðkomustaður	viðkomustaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -15,11 +15,11 @@
 13	Reykjavík	Reykjavík	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk
 14	en	en	CCONJ	st	_	7	cc	_	tag=st
 15	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	tag=pfn_et_nf_hk_p3
-16	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+16	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 17	greinilegt	greinilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	tag=lo_et_nf_hk_sb
 18	að	að	SCONJ	st	_	22	mark	_	tag=st
 19	Geoffrey	Geoffrey	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	tag=person_et_nf_kk
-20	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+20	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 21	með	með	ADP	fs_þf	Case=Acc	22	case	_	tag=fs_þf
 22	hjartað	hjarta	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	tag=no_et_þf_hk_gr
 23	á	á	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
@@ -50,7 +50,7 @@
 19	Queensland	Queensland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	18	nmod:poss	_	tag=sérnafn_et_ef_hk
 20	en	en	CCONJ	st	_	6	cc	_	tag=st
 21	ferðinni	ferð	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	tag=no_et_þgf_kvk_gr
-22	var	vera	AUX	so_0_op_subj_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	aux	_	tag=so_0_op_subj_þgf_fh_p3_et_þt_gm
+22	var	vera	AUX	so_0_op_subj_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	cop	_	tag=so_0_op_subj_þgf_fh_p3_et_þt_gm
 23	heitið	heita	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	6	conj	_	tag=so_0_sagnb_gm
 24	til	til	ADP	fs_ef	Case=Gen	25	case	_	tag=fs_ef
 25	Brisbane	Brisbane	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No|tag=sérnafn_et_ef_hk
@@ -71,10 +71,10 @@
 11	bréfanna	bréf	NOUN	no_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	10	nmod:poss	_	tag=no_ft_ef_hk_gr
 12	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
 13	miðaði	miða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	tag=so_0_vh_p3_et_þt_gm
-14	að	að	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
-15	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	tag=fn_et_þgf_hk
+14	að	að	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
+15	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	tag=fn_et_þgf_hk
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
-17	ná	ná	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_1_þgf_nh_gm
+17	ná	ná	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	13	obl	_	tag=so_1_þgf_nh_gm
 18	fram	fram	ADV	ao	_	17	compound:prt	_	tag=ao
 19	langtímalausn	langtímalausn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	17	obj	_	tag=no_et_þgf_hk
 20	fyrir	fyrir	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
@@ -86,26 +86,26 @@
 # sent_id = GREYNIR_CORPUS_00152,.4
 # text = Upphaflega var stefnt að því að fá hana flutta heim til Íslands og var hafin söfnun fyrir hana til að standa undir kostnaðinum við sjúkraflugið.
 1	Upphaflega	upphaflega	ADV	ao	_	3	advmod	_	tag=ao
-2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	stefnt	stefna	VERB	so_0_lhþt_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_hk_sb
-4	að	að	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_þgf_hk
+4	að	að	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
+5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	tag=fn_et_þgf_hk
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
-7	fá	fá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_0_nh_gm
+7	fá	fá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	obl	_	tag=so_0_nh_gm
 8	hana	hún	PRON	pfn_et_þf_kvk_p3	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_þf_kvk_p3
 9	flutta	flytja	VERB	so_0_lhþt_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing|VerbForm=Part	7	xcomp	_	tag=so_0_lhþt_et_þf_kvk_sb
 10	heim	heim	ADV	ao	_	9	advmod	_	tag=ao
 11	til	til	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
 12	Íslands	Ísland	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	10	obl	_	tag=sérnafn_et_ef_hk
 13	og	og	CCONJ	st	_	3	cc	_	tag=st
-14	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_1_nf_fh_p3_et_þt_gm
-15	hafin	hefja	VERB	so_0_lhþt_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part	3	cop	_	tag=so_0_lhþt_et_nf_kvk_sb
-16	söfnun	söfnun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
+14	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+15	hafin	hefja	VERB	so_0_lhþt_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et_nf_kvk_sb
+16	söfnun	söfnun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	tag=no_et_nf_kvk
 17	fyrir	fyrir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 18	hana	hún	PRON	pfn_et_þf_kvk_p3	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	tag=pfn_et_þf_kvk_p3
 19	til	til	ADP	fs_nh	VerbForm=Inf	21	case	_	tag=fs_nh
 20	að	að	PART	nhm	_	21	mark	_	tag=nhm
-21	standa	standa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	obl	_	tag=so_0_nh_gm
+21	standa	standa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	obl	_	tag=so_0_nh_gm
 22	undir	undir	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	kostnaðinum	kostnaður	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	21	obl	_	tag=no_et_þgf_kk_gr
 24	við	við	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
@@ -134,12 +134,11 @@
 18	að	að	PART	nhm	_	19	mark	_	tag=nhm
 19	horfa	horfa	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	xcomp	_	tag=so_0_nh_gm
 20	á	á	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
-21-25	The Bill Cosby Christmas Special	_	_	_	_	_	_	_	_
-21	The	The	X	foreign	_	19	obl	_	SpaceAfter=No|tag=foreign
-22	Bill	Bill	X	foreign	_	21	flat:foreign	_	SpaceAfter=No|tag=foreign
-23	Cosby	Cosby	X	foreign	_	22	flat:foreign	_	SpaceAfter=No|tag=foreign
-24	Christmas	Christmas	X	foreign	_	23	flat:foreign	_	SpaceAfter=No|tag=foreign
-25	Special	Special	X	foreign	_	24	flat:foreign	_	SpaceAfter=No|tag=foreign
+21	The	The	X	foreign	_	19	obl	_	tag=foreign
+22	Bill	Bill	X	foreign	_	21	flat:foreign	_	tag=foreign
+23	Cosby	Cosby	X	foreign	_	22	flat:foreign	_	tag=foreign
+24	Christmas	Christmas	X	foreign	_	23	flat:foreign	_	tag=foreign
+25	Special	Special	X	foreign	_	24	flat:foreign	_	MWEEnd=Yes|SpaceAfter=No|tag=foreign
 26	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00152,.6
@@ -165,9 +164,8 @@
 19	sjómenn	sjómaður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No|tag=no_ft_þf_kk
 20	,	_	PUNCT	grm	_	21	punct	_	tag=grm
 21	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
-22-23	Björn Leví	_	_	_	_	_	_	_	_
-22	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-23	Leví	Leví	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	flat	_	SpaceAfter=No|tag=person_nf_kk
+22	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	nsubj	_	tag=person_nf_kk
+23	Leví	Leví	PROPN	person_nf_kk	Case=Nom|Gender=Masc	22	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 24	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00152,.7
@@ -175,42 +173,36 @@
 1	Fjölmargar	fjölmargur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	2	amod	_	tag=lo_ft_nf_kvk_sb
 2	stórstjörnur	stórstjarna	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	tag=no_ft_nf_kvk
 3	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_ft_nt_gm
-4	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
+4	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 5	andlit	andlit	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 6	fyrirtækisins	fyrirtæki	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	nmod:poss	_	tag=no_et_ef_hk_gr
 7	og	og	CCONJ	st	_	5	cc	_	tag=st
 8	nægir	nægja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
 10	nefna	nefna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_1_þf_nh_gm
-11-12	Nicole Kidman	_	_	_	_	_	_	_	_
-11	Nicole	Nicole	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	10	obj	_	SpaceAfter=No|tag=person_þf_kvk
-12	Kidman	Kidman	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	flat	_	SpaceAfter=No|tag=person_þf_kvk
+11	Nicole	Nicole	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	10	obj	_	tag=person_þf_kvk
+12	Kidman	Kidman	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kvk
 13	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-14-15	Keira Knightley	_	_	_	_	_	_	_	_
-14	Keira	Keira	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	obl	_	SpaceAfter=No|tag=person_þf_kvk
-15	Knightley	Knightley	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	14	flat	_	SpaceAfter=No|tag=person_þf_kvk
+14	Keira	Keira	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	obl	_	tag=person_þf_kvk
+15	Knightley	Knightley	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	14	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kvk
 16	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-17-18	Kristen Stewart	_	_	_	_	_	_	_	_
-17	Kristen	Kristen	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	obl	_	SpaceAfter=No|tag=person_þf_kvk
-18	Stewart	Stewart	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	17	flat	_	SpaceAfter=No|tag=person_þf_kvk
+17	Kristen	Kristen	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	obl	_	tag=person_þf_kvk
+18	Stewart	Stewart	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	17	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kvk
 19	,	_	PUNCT	grm	_	11	punct	_	tag=grm
-20-21	Cara Delevigne	_	_	_	_	_	_	_	_
 20	Cara	Cara	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	obl	_	tag=person_þf_kvk
-21	Delevigne	Delevigne	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	20	flat	_	tag=person_þf_kvk
+21	Delevigne	Delevigne	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	20	flat	_	MWEEnd=Yes|tag=person_þf_kvk
 22	og	og	CCONJ	st	_	11	cc	_	tag=st
-23	sjálfa	sjálfur	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	tag=fn_et_þf_kvk
-24-25	Marilyn Monroe	_	_	_	_	_	_	_	_
-24	Marilyn	Marilyn	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	23	conj	_	SpaceAfter=No|tag=person_þf_kvk
-25	Monroe	Monroe	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	24	flat	_	SpaceAfter=No|tag=person_þf_kvk
+23	sjálfa	sjálfur	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	24	nmod	_	tag=fn_et_þf_kvk
+24	Marilyn	Marilyn	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	obl	_	tag=person_þf_kvk
+25	Monroe	Monroe	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	24	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kvk
 26	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00152,.8
 # text = Tími Elínar Eddu er níundi besti tími sem náðst hefur í hálfu marþoni kvenna í Reykjavíkurmaraþoni Íslandsbanka og annar besti tími íslenskra kvenna í hlaupinu.
 1	Tími	tími	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk
-2-3	Elínar Eddu	_	_	_	_	_	_	_	_
 2	Elínar	Elín	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	1	nmod:poss	_	tag=person_ef_kvk
-3	Eddu	Edda	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	flat	_	tag=person_ef_kvk
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	Eddu	Edda	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	flat	_	MWEEnd=Yes|tag=person_ef_kvk
+4	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	níundi	níundi	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk
 6	besti	góður	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_evb
 7	tími	tími	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -252,7 +244,7 @@
 14	dísilmengunarinnar	dísilmengun	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod:poss	_	tag=no_et_ef_kvk_gr
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	borginni	borg	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þgf_kvk_gr
-17	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	tag=so_0_fh_p3_et_nt_gm
+17	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_0_fh_p3_et_nt_gm
 18	rakinn	rekja	VERB	so_0_lhþt_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et_nf_kk_sb
 19	til	til	ADP	fs_ef	Case=Gen	21	case	_	tag=fs_ef
 20	mikilla	mikill	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	21	amod	_	tag=lo_ft_ef_kvk_sb
@@ -263,6 +255,8 @@
 25	borg	borg	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_þf_kvk
 26	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00152,.10
+# text = Flugvélum hafði fækkað frá fyrra ári en góða afkomu mátti annars vegar rekja til hagræðingar í leigukostnaði og hins vegar til betri nýtingar á vélunum.
 1	Flugvélum	flugvél	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_þgf_kvk
 2	hafði	hafa	AUX	so_0_op_subj_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	aux	_	tag=so_0_op_subj_þgf_fh_p3_et_þt_gm
 3	fækkað	fækka	VERB	so_0_op_subj_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_op_subj_þgf_sagnb_gm
@@ -273,22 +267,20 @@
 8	góða	góður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_þf_kvk_sb
 9	afkomu	afkoma	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	iobj	_	tag=no_et_þf_kvk
 10	mátti	mega	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_þt_gm
-11-12	annars vegar	_	_	_	_	_	_	_	_
 11	annars	annars	ADV	ao	_	13	advmod	_	tag=ao
-12	vegar	vegar	ADV	ao	_	11	fixed	_	tag=ao
+12	vegar	vegar	ADV	ao	_	11	fixed	_	MWEEnd=Yes|tag=ao
 13	rekja	rekja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	conj	_	tag=so_0_nh_gm
 14	til	til	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
 15	hagræðingar	hagræðing	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_ef_kvk
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	leigukostnaði	leigukostnaður	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_þgf_kk
 18	og	og	CCONJ	st	_	15	cc	_	tag=st
-19-20	hins vegar	_	_	_	_	_	_	_	_
 19	hins	hins	ADV	ao	_	15	advmod	_	tag=ao
-20	vegar	vegar	ADV	ao	_	19	fixed	_	tag=ao
+20	vegar	vegar	ADV	ao	_	19	fixed	_	MWEEnd=Yes|tag=ao
 21	til	til	ADP	fs_ef	Case=Gen	23	case	_	tag=fs_ef
 22	betri	góður	ADJ	lo_ft_ef_kk_mst	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	23	amod	_	tag=lo_ft_ef_kk_mst
 23	nýtingar	nýting	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	15	obl	_	tag=no_ft_nf_kvk
 24	á	á	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
-25	vélunum	vél	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	23	obl	_	tag=no_ft_þgf_kvk_gr
+25	vélunum	vél	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No|tag=no_ft_þgf_kvk_gr
 26	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

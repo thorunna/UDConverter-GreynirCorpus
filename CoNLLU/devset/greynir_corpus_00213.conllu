@@ -3,7 +3,7 @@
 1	Dómgæslan	Dómgæslan	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk_gr
 2	þessum	þessum	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	tag=fn_et_þgf_kk
 3	leik	leik	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_þgf_kk
-4	var	var	VERB	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p1_et_þt_gm
+4	var	vera	AUX	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p1_et_þt_gm
 5	mjög	mjög	ADV	ao	_	6	advmod	_	tag=ao
 6	léleg	léleg	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 7	.	.	PUNCT	grm	_	6	punct	_	tag=grm
@@ -11,7 +11,7 @@
 # sent_id = GREYNIR_CORPUS_00213,.2
 # text = Allen var ógiftur og eignaðist engin börn.
 1	Allen	Allen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	ógiftur	ógiftur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	eignaðist	eigna	VERB	so_1_þf_fh_p3_et_þt_mm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	conj	_	tag=so_1_þf_fh_p3_et_þt_mm
@@ -31,11 +31,11 @@
 
 # sent_id = GREYNIR_CORPUS_00213,.4
 # text = En ert þú ekki sterk og öflug?
-1	En	en	SCONJ	st	_	2	cc	_	tag=st
+1	En	en	SCONJ	st	_	2	dep	_	tag=st
 2	ert	vera	VERB	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p2_et_nt_gm
 3	þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_p2
 4	ekki	ekki	ADV	eo	_	5	advmod	_	tag=eo
-5	sterk	sterkur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	VANTAR_LIÐ_IP_None	_	tag=lo_et_nf_kvk_sb
+5	sterk	sterkur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	tag=lo_et_nf_kvk_sb
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
 7	öflug	öflugur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 8	?	_	PUNCT	grm	_	2	punct	_	tag=grm

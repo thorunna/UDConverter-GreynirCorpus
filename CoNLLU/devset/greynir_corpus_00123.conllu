@@ -6,7 +6,7 @@
 4	áfengis	áfengi	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk
 5	eða	eða	CCONJ	st	_	6	cc	_	tag=st
 6	fíkniefna	fíkniefni	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	conj	_	tag=no_ft_ef_hk
-7	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_þt_gm
+7	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_þt_gm
 8	umtalsverður	umtalsverður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	nótt	nótt	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	advmod	_	tag=no_et_þf_kvk
@@ -31,7 +31,7 @@
 5	líka	líka	ADV	ao	_	4	advmod	_	tag=ao
 6	að	að	SCONJ	st	_	12	mark	_	tag=st
 7	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_hk_p3
-8	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+8	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 9	engin	enginn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	tag=fn_et_nf_kvk
 10	ein	einn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nmod	_	tag=fn_et_nf_kvk
 11	rétt	réttur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	tag=lo_et_nf_kvk_sb
@@ -52,10 +52,10 @@
 4	sína	sinn	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	tag=fn_et_þf_kvk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	átt	átt	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
-7	að	að	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
-8	titli	titill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	nummod	_	tag=no_et_þgf_kk
-9	númer	númer	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_nf_hk
-10	12	12	NUM	tala_nf_hk	Case=Nom|Gender=Neut|NumType=Card	9	nummod	_	tag=tala_nf_hk
+7	að	að	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+8	titli	titill	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
+9	númer	númer	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	conj	_	tag=no_et_nf_hk
+10	12	12	NUM	tala_nf_hk	Case=Nom|Gender=Neut|NumType=Card	8	nummod	_	tag=tala_nf_hk
 11	en	en	CCONJ	st	_	2	cc	_	tag=st
 12	Selfoss	Selfoss	PROPN	fyrirtæki_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	nsubj	_	tag=fyrirtæki_et_þf_kk
 13	dreymir	dreyma	VERB	so_1_þf_op_subj_þf_fh_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_op_subj_þf_fh_et_nt_gm
@@ -118,18 +118,17 @@
 # sent_id = GREYNIR_CORPUS_00123,.6
 # text = Um leið og þeir voru teknir úr sambandi losuðu þeir hins vegar 40 sinnum meira af gróðurhúsalofttegundum en leyfilegt er.
 1	Um	um	ADP	fs_þf	Case=Acc	6	cc	_	tag=fs_þf
-2	leið	leið	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þf_kvk
-3	og	og	CCONJ	st	_	1	cc	_	tag=st
+2	leið	leið	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	1	fixed	_	tag=no_et_þf_kvk
+3	og	og	CCONJ	st	_	1	fixed	_	tag=st
 4	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_ft_nf_kk_p3
-5	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_0_fh_p3_ft_þt_gm
+5	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_ft_þt_gm
 6	teknir	taka	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	9	advcl	_	tag=so_0_lhþt_ft
 7	úr	úr	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	sambandi	samband	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
 9	losuðu	losa	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 10	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_ft_nf_kk_p3
-11-12	hins vegar	_	_	_	_	_	_	_	_
 11	hins	hins	ADV	ao	_	9	advmod	_	tag=ao
-12	vegar	vegar	ADV	ao	_	11	fixed	_	tag=ao
+12	vegar	vegar	ADV	ao	_	11	fixed	_	MWEEnd=Yes|tag=ao
 13	40	40	NUM	tala_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur|NumType=Card	14	nummod	_	tag=tala_ft_þgf_hk
 14	sinnum	sinn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	obj	_	tag=no_ft_þgf_hk
 15	meira	mikill	ADJ	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	14	amod	_	tag=lo_et_þf_hk_mst
@@ -178,9 +177,9 @@
 10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	9	obl	_	tag=abfn_þf
 12	og	og	CCONJ	st	_	2	cc	_	tag=st
-13	fékk	fá	VERB	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
-14	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	tag=pfn_et_þgf_kk_p3
-15	umboð	umboð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	tag=no_et_þf_hk
+13	fékk	fá	AUX	so_2_þgf_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_2_þgf_þf_fh_p3_et_þt_gm
+14	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	tag=pfn_et_þgf_kk_p3
+15	umboð	umboð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
 16	til	til	ADP	fs_nh	VerbForm=Inf	18	case	_	tag=fs_nh
 17	að	að	PART	nhm	_	18	mark	_	tag=nhm
 18	ganga	ganga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	15	obl	_	tag=so_0_nh_gm
@@ -216,23 +215,22 @@
 # text = Umfram allt er þetta áfall fyrir Musk, sem en þetta var annað misheppnaða geimskotið á innan við fjórtán mánuðum.
 1	Umfram	umfram	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	allt	allur	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	tag=fn_et_þf_hk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=fn_et_nf_hk
 5	áfall	áfall	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
 6	fyrir	fyrir	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	Musk	Musk	PROPN	person_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=person_et_þf_kk
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
-9	sem	sem	X	x		5	dep	_	tag=x
+9	sem	sem	X	x	_	5	dep	_	tag=x
 10	en	en	CCONJ	st	_	5	cc	_	tag=st
 11	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	tag=fn_et_nf_hk
-12	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_þt_gm
+12	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_þt_gm
 13	annað	annar	ADJ	lo_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_nf_hk
 14	misheppnaða	misheppnaður	ADJ	lo_et_nf_hk_vb	Case=Nom|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_nf_hk_vb
 15	geimskotið	geimskot	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	conj	_	tag=no_et_nf_hk_gr
 16	á	á	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
-17-18	innan við	_	_	_	_	_	_	_	_
 17	innan	innan	ADV	eo	_	20	advmod	_	tag=eo
-18	við	við	ADV	eo	_	17	fixed	_	tag=eo
+18	við	við	ADV	eo	_	17	fixed	_	MWEEnd=Yes|tag=eo
 19	fjórtán	fjórtán	NUM	töl_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	20	nummod	_	tag=töl_ft_þgf_kk
 20	mánuðum	mánuður	ADV	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	15	advmod	_	SpaceAfter=No|tag=no_ft_þgf_kk
 21	.	_	PUNCT	grm	_	5	punct	_	tag=grm

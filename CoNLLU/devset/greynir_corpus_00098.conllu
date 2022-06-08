@@ -21,7 +21,7 @@
 # text = Fjöldi þeirra er skelfingu lostinn og fimmta hvert barn líður alvarlegan næringarskort að sögn Lækna án landamæra.
 1	Fjöldi	fjöldi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
 2	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod:poss	_	tag=pfn_ft_ef_kk_p3
-3	er	vera	VERB	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
+3	er	vera	AUX	so_2_þgf_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_2_þgf_nf_fh_p3_et_nt_gm
 4	skelfingu	skelfing	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk
 5	lostinn	losti	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	og	og	CCONJ	st	_	5	cc	_	tag=st
@@ -41,12 +41,12 @@
 # sent_id = GREYNIR_CORPUS_00098,.3
 # text = Í niðurstöðu dómara var tekið fram að aldrei hefði komið í ljós hver orsök hegðunar hestsins var.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
-2	niðurstöðu	niðurstaða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk
+2	niðurstöðu	niðurstaða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þgf_kvk
 3	dómara	dómari	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	nmod:poss	_	tag=no_et_ef_kk
-4	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
-5	tekið	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-6	fram	fram	ADV	ao	_	5	advmod	_	tag=ao
-7	að	að	SCONJ	st	_	5	xcomp	_	tag=st
+4	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
+5	tekið	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	dep	_	tag=so_0_lhþt_et
+6	fram	fram	ADV	ao	_	7	advmod	_	tag=ao
+7	að	að	SCONJ	st	_	0	root	_	tag=st
 8	aldrei	aldrei	ADV	ao	_	10	advmod	_	tag=ao
 9	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	10	aux	_	tag=so_0_vh_p3_et_þt_gm
 10	komið	koma	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	7	xcomp	_	tag=so_1_þgf_sagnb_gm
@@ -57,7 +57,7 @@
 15	hegðunar	hegðun	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	14	nmod:poss	_	tag=no_et_ef_kvk
 16	hestsins	hestur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod:poss	_	tag=no_et_ef_kk_gr
 17	var	vera	VERB	so_0	_	10	xcomp	_	SpaceAfter=No|tag=so_0
-18	.	_	PUNCT	grm	_	5	punct	_	tag=grm
+18	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00098,.4
 # text = Orsakir eyðingarinnar liggja ekki fyrir en skammlíf ósoneyðandi efni og loftslagsbreytingar hafa verið nefndar sem mögulegar skýringar.
@@ -69,15 +69,15 @@
 6	en	en	CCONJ	st	_	3	cc	_	tag=st
 7	skammlíf	skammlífur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	9	amod	_	tag=lo_ft_nf_hk_sb
 8	ósoneyðandi	ósoneyðandi	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	9	amod	_	tag=lo_ft_nf_hk_sb
-9	efni	efni	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	tag=no_ft_nf_hk
+9	efni	efni	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	tag=no_ft_nf_hk
 10	og	og	CCONJ	st	_	11	cc	_	tag=st
 11	loftslagsbreytingar	loftslagsbreyting	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	9	conj	_	tag=no_ft_nf_kvk
-12	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_fh_p3_ft_nt_gm
-13	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	17	aux	_	tag=so_0_sagnb_gm
-14	nefndar	nefna	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	17	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_ft
+12	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_ft_nt_gm
+13	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	cop	_	tag=so_0_sagnb_gm
+14	nefndar	nefna	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	3	conj	_	tag=so_0_lhþt_ft
 15	sem	sem	ADV	ao	_	17	advmod	_	tag=ao
 16	mögulegar	mögulegur	ADJ	lo_ft_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Plur	17	amod	_	tag=lo_ft_nf_kvk_sb
-17	skýringar	skýring	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No|tag=no_ft_nf_kvk
+17	skýringar	skýring	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	14	ccomp	_	SpaceAfter=No|tag=no_ft_nf_kvk
 18	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00098,.5
@@ -104,11 +104,10 @@
 # text = Garðar hefur verið funheitur að undanförnu og skorað sjö mörk í síðustu fjórum leikjum sem unnust allir.
 1	Garðar	Garðar	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
+3	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	funheitur	funheitur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
-5-6	að undanförnu	_	_	_	_	_	_	_	_
 5	að	að	ADV	ao	_	4	advmod	_	tag=ao
-6	undanförnu	undanförnu	ADV	ao	_	5	fixed	_	tag=ao
+6	undanförnu	undanförnu	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 7	og	og	CCONJ	st	_	4	cc	_	tag=st
 8	skorað	skora	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	4	conj	_	tag=so_1_þf_sagnb_gm
 9	sjö	sjö	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	nummod	_	tag=töl_ft_þf_hk
@@ -128,7 +127,7 @@
 2	langaði	langa	VERB	so_0_op_subj_þf_fh_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Tense=Past|Voice=Act	1	xcomp	_	tag=so_0_op_subj_þf_fh_et_þt_gm
 3	einnig	einnig	ADV	ao	_	2	advmod	_	tag=ao
 4	að	að	PART	nhm	_	7	mark	_	tag=nhm
-5	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	cop	_	tag=so_0_nh_gm
+5	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	cop	_	tag=so_0_nh_gm
 6	góð	góður	ADJ	lo_ft_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Plur	7	amod	_	tag=lo_ft_nf_hk_sb_sþgf
 7	fyrirmynd	fyrirmynd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	xcomp	_	tag=no_et_þgf_kvk
 8	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
@@ -147,7 +146,7 @@
 2	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	4	mark	_	tag=st
 4	víða	víða	ADV	ao	_	2	ccomp	_	tag=ao
-5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_vh_p3_et_nt_gm
+5	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_vh_p3_et_nt_gm
 6	pottur	pottur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=no_et_nf_kk
 7	brotinn	brjóta	ADJ	lo_et	Number=Sing	4	ccomp	_	tag=lo_et
 8	þegar	þegar	SCONJ	st	_	9	mark	_	tag=st

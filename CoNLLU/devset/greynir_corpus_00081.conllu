@@ -2,7 +2,7 @@
 # text = Fólk hefur getað notað kerfið til að villa á sér heimildir og svíkja út peninga.
 1	Fólk	fólk	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	getað	geta	AUX	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	4	aux	_	tag=so_1_þf_sagnb_gm
+3	getað	geta	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	4	dep	_	tag=so_1_þf_sagnb_gm
 4	notað	nota	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 5	kerfið	kerfi	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þf_hk_gr
 6	til	til	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
@@ -23,13 +23,12 @@
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	13	mark	_	tag=st
 4	fyrirtæki	fyrirtæki	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	tag=no_ft_nf_hk
-5-7	hér á landi	_	_	_	_	_	_	_	_
 5	hér	hér	ADV	ao	_	13	advmod	_	tag=ao
 6	á	á	ADV	ao	_	5	fixed	_	tag=ao
-7	landi	landi	ADV	ao	_	5	fixed	_	tag=ao
+7	landi	landi	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
 9	víðar	víða	ADV	ao_mst	Degree=Cmp	5	advmod	_	tag=ao_mst
-10	séu	vera	VERB	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_ft_nt_gm
+10	séu	vera	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_ft_nt_gm
 11	ekki	ekki	ADV	ao	_	13	advmod	_	tag=ao
 12	nægilega	nægilega	ADV	eo	_	13	advmod	_	tag=eo
 13	meðvituð	meðvitaður	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	2	ccomp	_	tag=lo_ft_nf_hk_sb
@@ -69,18 +68,16 @@
 11	um	um	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	atvikið	atvik	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þf_hk_gr
 13	mánudaginn	mánudagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	tag=no_et_þf_kk_gr
-14-15	12. febrúar	_	_	_	_	_	_	_	_
-14	12.	12.	ADV	dagsafs	_	8	advmod	_	SpaceAfter=No|tag=dagsafs
-15	febrúar	febrúar	NOUN	dagsafs	_	14	flat	_	SpaceAfter=No|tag=dagsafs
+14	12.	12.	ADV	dagsafs	_	8	advmod	_	tag=dagsafs
+15	febrúar	febrúar	NOUN	dagsafs	_	14	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 16	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00081,.5
 # text = Þvert á tímann er heimildarmynd en tekin eftir handriti og Matthías leikur sjálfan sig.
-1-2	Þvert á	_	_	_	_	_	_	_	_
 1	Þvert	þvert	PROPN	sérnafn	_	5	nsubj	_	tag=sérnafn
-2	á	á	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
+2	á	á	PROPN	sérnafn	_	1	flat	_	MWEEnd=Yes|tag=sérnafn
 3	tímann	tími	PROPN	sérnafn_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	tag=sérnafn_et_þf_kk_gr
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+4	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 5	heimildarmynd	heimildarmynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 6	en	en	CCONJ	st	_	7	cc	_	tag=st
 7	tekin	tekinn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	tag=lo_et_nf_kvk_sb
@@ -95,9 +92,8 @@
 
 # sent_id = GREYNIR_CORPUS_00081,.6
 # text = Því miður þekki ég mörg dæmi um fólk með geðsjúkdóma sem hefur tekið eigið líf.
-1-2	Því miður	_	_	_	_	_	_	_	_
 1	Því	því	ADV	ao	_	3	advmod	_	tag=ao
-2	miður	miður	ADV	ao	_	1	fixed	_	tag=ao
+2	miður	miður	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	þekki	þekkja	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 4	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
 5	mörg	margur	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	6	amod	_	tag=lo_ft_þf_hk_sb
@@ -117,9 +113,8 @@
 # text = Hann sagði hins vegar að gífurlega stór hópur fólks hefði tekið honum fagnandi.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-3-4	hins vegar	_	_	_	_	_	_	_	_
 3	hins	hins	ADV	ao	_	2	advmod	_	tag=ao
-4	vegar	vegar	ADV	ao	_	3	fixed	_	tag=ao
+4	vegar	vegar	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	að	að	SCONJ	st	_	11	mark	_	tag=st
 6	gífurlega	gífurlega	ADV	eo	_	8	advmod	_	tag=eo
 7	stór	stór	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_nf_kk_sb
@@ -134,7 +129,7 @@
 # sent_id = GREYNIR_CORPUS_00081,.8
 # text = Haukar eru ódrepandi og með seiglu og skynsemi náðu þeir að saxa niður forskot Akureyringa.
 1	Haukar	Haukar	PROPN	fyrirtæki_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	tag=fyrirtæki_ft_nf_kk
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	ódrepandi	ódrepandi	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb
 4	og	og	CCONJ	st	_	3	cc	_	tag=st
 5	með	með	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -160,9 +155,8 @@
 6	síns	sinn	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	tag=fn_et_ef_kk
 7	fyrsta	fyrstur	ADJ	lo_et_ef_kk_vb	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_ef_kk_vb
 8	fundar	fundur	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_ef_kk
-9-10	klukkan 14.00	_	_	_	_	_	_	_	_
 9	klukkan	klukkan	ADV	tími	_	3	advmod	_	tag=tími
-10	14.00	14.00	NUM	tími	_	9	flat	_	tag=tími
+10	14.00	14.00	NUM	tími	_	9	flat	_	MWEEnd=Yes|tag=tími
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	Ráðhúsi	Ráðhús	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_hk
 13	Reykjavíkur	Reykjavík	PROPN	sérnafn_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	12	flat:name	_	tag=sérnafn_et_ef_kvk
@@ -176,7 +170,7 @@
 2	segist	segja	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 3	engin	enginn	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	tag=fn_ft_þf_hk
 4	tengsl	tengsl	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	tag=no_ft_þf_hk
-5	hafa	hafa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	csubj	_	tag=so_1_þf_nh_gm
+5	hafa	hafa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	obl	_	tag=so_1_þf_nh_gm
 6	við	við	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	fjölskyldu	fjölskylda	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þf_kvk
 8	sína	sinn	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	tag=fn_et_þf_kvk

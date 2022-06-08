@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00008,.1
 # text = Minnið er mjög slæmt.
 1	Minnið	minni	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	mjög	mjög	ADV	eo	_	4	advmod	_	tag=eo
 4	slæmt	slæmur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
@@ -17,7 +17,7 @@
 # sent_id = GREYNIR_CORPUS_00008,.3
 # text = Hann er tilbúinn.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	tilbúinn	tilbúa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_0_lhþt_et
 4	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
@@ -25,9 +25,8 @@
 # text = Útsendingin hefst klukkan 14:00.
 1	Útsendingin	útsending	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
 2	hefst	hefjast	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
-3-4	klukkan 14:00	_	_	_	_	_	_	_	_
-3	klukkan	klukkan	ADV	tími	_	2	advmod	_	SpaceAfter=No|tag=tími
-4	14:00	14:00	NUM	tími	_	3	flat	_	SpaceAfter=No|tag=tími
+3	klukkan	klukkan	ADV	tími	_	2	advmod	_	tag=tími
+4	14:00	14:00	NUM	tími	_	3	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=tími
 5	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00008,.5
@@ -41,7 +40,7 @@
 # sent_id = GREYNIR_CORPUS_00008,.6
 # text = Unnið er að viðgerð.
 1	Unnið	vinna	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	að	að	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	viðgerð	viðgerð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 5	.	_	PUNCT	grm	_	1	punct	_	tag=grm
@@ -68,14 +67,13 @@
 2	skulum	skulu	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p1_ft_nt_gm
 3	segja	segja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	0	root	_	tag=so_1_þf_nh_gm
 4	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No|tag=pfn_et_þf_hk_p3
-5	.	_	PUNCT	grm	_	3	punct	_	tag=grm
+5	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00008,.10
 # text = Guðmundur Atli Steinþórsson í Breiðablik
-1-3	Guðmundur Atli Steinþórsson	_	_	_	_	_	_	_	_
 1	Guðmundur	Guðmundur	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=person_et_nf_kk
 2	Atli	Atli	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
-3	Steinþórsson	Steinþórsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+3	Steinþórsson	Steinþórsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	MWEEnd=Yes|tag=person_et_nf_kk
 4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	Breiðablik	Breiðablik	PROPN	entity_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	0	root	_	tag=entity_et_þf_hk
 

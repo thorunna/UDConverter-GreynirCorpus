@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00206,.1
 # text = Ekki er vitað um mannfall.
 1	Ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	vitað	vitaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	um	um	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	mannfall	mannfall	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þf_hk
@@ -28,7 +28,7 @@
 # sent_id = GREYNIR_CORPUS_00206,.4
 # text = Ronaldinho var átta ára gamall.
 1	Ronaldinho	Ronaldinho	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	átta	átta	NUM	töl_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	4	nummod	_	tag=töl_ft_ef_hk
 4	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_ef_hk
 5	gamall	gamall	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
@@ -55,7 +55,7 @@
 # sent_id = GREYNIR_CORPUS_00206,.7
 # text = Lyngdalsheiði verður lokuð til morguns.
 1	Lyngdalsheiði	Lyngdalsheiði	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=sérnafn_et_nf_kvk
-2	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	lokuð	loka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5	morguns	morgunn	ADV	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	3	advmod	_	SpaceAfter=No|tag=no_et_ef_kk
@@ -66,24 +66,25 @@
 1	Sögulegur	sögulegur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_sb
 2	viðburður	viðburður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk
 3	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-4-5	19. júlí	_	_	_	_	_	_	_	_
-4	19.	19.	ADV	dagsafs	_	3	advmod	_	SpaceAfter=No|tag=dagsafs
-5	júlí	júlí	NOUN	dagsafs	_	4	flat	_	SpaceAfter=No|tag=dagsafs
+4	19.	19.	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
+5	júlí	júlí	NOUN	dagsafs	_	4	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 6	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00206,.9
 # text = En utar er brimgarðurinn hvítbrosandi.
-1	En	en	SCONJ	st	_	5	cc	_	tag=st
+1	En	en	SCONJ	st	_	5	dep	_	tag=st
 2	utar	úti	ADV	ao_mst	Degree=Cmp	5	advmod	_	tag=ao_mst
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	brimgarðurinn	brimgarður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk_gr
 5	hvítbrosandi	hvítbrosandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 6	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00206,.10
+# text = Börn og barneignir er annað.
 1	Börn	barn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	barneignir	barneign	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	tag=no_ft_nf_kvk
-4	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-5	annað	annar	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=fn_et_nf_hk
+4	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+5	annað	annar	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=fn_et_nf_hk
 6	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 

@@ -2,7 +2,7 @@
 # text = Þá hefur verið bætt við greinargerð frumvarpsins stuttri málsgrein sem kemur inn á stöðu RÚV.
 1	Þá	þá	ADV	ao	_	4	advmod	_	tag=ao
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
+3	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	bætt	bæta	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	0	root	_	tag=so_1_þgf_lhþt_et
 5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	greinargerð	greinargerð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
@@ -19,7 +19,7 @@
 
 # sent_id = GREYNIR_CORPUS_00401,.2
 # text = Ertu sammála rökum þeirra sem telja kynjakvóta nauðsynlegan til að viðhalda jöfnum kynjahlutföllum á þingi?
-1	Ertu	vera	VERB	so_0_fh_p2_et_nt_gm_sn	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_fh_p2_et_nt_gm_sn
+1	Ertu	vera	AUX	so_0_fh_p2_et_nt_gm_sn	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_fh_p2_et_nt_gm_sn
 2	sammála	sammála	ADJ	lo_et_nf_sb_sþgf	Case=Nom|Number=Sing	0	root	_	tag=lo_et_nf_sb_sþgf
 3	rökum	rök	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_þgf_hk
 4	þeirra	sá	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nmod:poss	_	tag=fn_ft_ef_kk
@@ -38,18 +38,16 @@
 
 # sent_id = GREYNIR_CORPUS_00401,.3
 # text = Á sama tíma í fyrra var atvinnuleysi um 4,6 prósent og hefur því minnkað um rúmt hálft prósent.
-1-3	Á sama tíma	_	_	_	_	_	_	_	_
 1	Á	á	ADV	ao	_	8	advmod	_	tag=ao
 2	sama	sama	ADV	ao	_	1	fixed	_	tag=ao
-3	tíma	tíma	ADV	ao	_	1	fixed	_	tag=ao
+3	tíma	tíma	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	8	advmod	_	tag=lo_et_þf_hk_mst
-6	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_þt_gm
+6	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_þt_gm
 7	atvinnuleysi	atvinnuleysi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
 8	um	um	ADV	eo	_	0	root	_	tag=eo
-9-10	4,6 prósent	_	_	_	_	_	_	_	_
 9	4,6	4,6	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	8	nummod	_	tag=prósenta_ft_nf_hk
-10	prósent	prósent	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	9	_	_	tag=prósenta_ft_nf_hk
+10	prósent	prósent	NUM	prósenta_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	9	flat	_	MWEEnd=Yes|tag=prósenta_ft_nf_hk
 11	og	og	CCONJ	st	_	8	cc	_	tag=st
 12	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_et_nt_gm
 13	því	því	ADV	ao	_	14	advmod	_	tag=ao
@@ -61,7 +59,7 @@
 19	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00401,.4
-# text = Þá vann Bólivía 2 — 0 sigur á Perú í þunna loftinu í La Paz.
+# text = Þá vann Bólivía 2— 0 sigur á Perú í þunna loftinu í La Paz.
 1	Þá	þá	ADV	ao	_	2	advmod	_	tag=ao
 2	vann	vinna	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	Bólivía	Bólivía	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=sérnafn_et_nf_kvk
@@ -84,13 +82,11 @@
 1	Þar	þar	ADV	ao	_	12	advmod	_	tag=ao
 2	munu	munu	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	_	tag=so_0_fh_p3_ft_nt_gm
 3	vinkonurnar	vinkona	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obl	_	tag=no_ft_nf_kvk_gr
-4-5	Solla Eiríks	_	_	_	_	_	_	_	_
-4	Solla	Solla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-5	Eiríks	Eiríks	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	flat	_	SpaceAfter=No|tag=person_nf_kvk
+4	Solla	Solla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	nsubj	_	tag=person_nf_kvk
+5	Eiríks	Eiríks	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kvk
 6	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-7-8	Vala Matt	_	_	_	_	_	_	_	_
 7	Vala	Vala	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	tag=person_nf_kvk
-8	Matt	Matt	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	flat	_	tag=person_nf_kvk
+8	Matt	Matt	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 9	og	og	CCONJ	st	_	4	cc	_	tag=st
 10	Ásdís	Ásdís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	tag=person_nf_kvk
 11	grasalæknir	grasalæknir	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
@@ -105,7 +101,7 @@
 # sent_id = GREYNIR_CORPUS_00401,.6
 # text = Hún var sunddrottning á Akranesi á unglingsárunum en nýtur sín nú betur í heita pottinum.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kvk_p3
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	sunddrottning	sunddrottning	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Akranesi	Akranes	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=sérnafn_et_þgf_hk
@@ -126,10 +122,9 @@
 1	Þrír	þrír	NUM	to_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	nummod	_	tag=to_ft_nf_kk
 2	meðlimir	meðlimur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	tag=no_ft_nf_kk
 3	myndbandablogghópsins	myndbanda-blogg-hópur	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_ef_kk_gr
-4-6	High on Life	_	_	_	_	_	_	_	_
 4	High	High	PROPN	entity	_	2	nmod:poss	_	tag=entity
 5	on	on	PROPN	entity	_	4	flat	_	tag=entity
-6	Life	Life	PROPN	entity	_	4	flat	_	tag=entity
+6	Life	Life	PROPN	entity	_	4	flat	_	MWEEnd=Yes|tag=entity
 7	hröpuðu	hrapa	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 8	30	30	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	9	nummod	_	tag=tala_ft_þf_kk
 9	metra	metri	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	obl	_	tag=no_ft_þf_kk
@@ -144,26 +139,22 @@
 # sent_id = GREYNIR_CORPUS_00401,.8
 # text = Leikkonurnar Aldís Amah Hamilton, Ragnheiður Steindórsdóttir og Esther Talía Casey fluttu örverk eftir Yrsu Þöll Gylfadóttur á samstöðufundi kvenna á Arnarhóli.
 1	Leikkonurnar	leikkona	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	tag=no_ft_nf_kvk_gr
-2-4	Aldís Amah Hamilton	_	_	_	_	_	_	_	_
-2	Aldís	Aldís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-3	Amah	Amah	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	flat	_	SpaceAfter=No|tag=person_nf_kvk
-4	Hamilton	Hamilton	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	flat	_	SpaceAfter=No|tag=person_nf_kvk
+2	Aldís	Aldís	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	12	nsubj	_	tag=person_nf_kvk
+3	Amah	Amah	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	flat	_	tag=person_nf_kvk
+4	Hamilton	Hamilton	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kvk
 5	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-6-7	Ragnheiður Steindórsdóttir	_	_	_	_	_	_	_	_
 6	Ragnheiður	Ragnheiður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	conj	_	tag=person_nf_kvk
-7	Steindórsdóttir	Steindórsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	flat	_	tag=person_nf_kvk
+7	Steindórsdóttir	Steindórsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	6	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 8	og	og	CCONJ	st	_	2	cc	_	tag=st
-9-11	Esther Talía Casey	_	_	_	_	_	_	_	_
 9	Esther	Esther	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	2	conj	_	tag=person_nf_kvk
 10	Talía	Talía	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	tag=person_nf_kvk
-11	Casey	Casey	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	tag=person_nf_kvk
+11	Casey	Casey	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 12	fluttu	flytja	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 13	örverk	ör-verk	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	tag=no_et_þf_hk
 14	eftir	eftir	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-15-17	Yrsu Þöll Gylfadóttur	_	_	_	_	_	_	_	_
 15	Yrsu	Yrsa	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	13	obl	_	tag=person_þf_kvk
 16	Þöll	Þöll	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	flat	_	tag=person_þf_kvk
-17	Gylfadóttur	Gylfadóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	flat	_	tag=person_þf_kvk
+17	Gylfadóttur	Gylfadóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	15	flat	_	MWEEnd=Yes|tag=person_þf_kvk
 18	á	á	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
 19	samstöðufundi	samstöðu-fundur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þgf_kk
 20	kvenna	kona	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	19	nmod:poss	_	tag=no_ft_ef_kvk
@@ -181,21 +172,22 @@
 6	á	á	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	mánudag	mánudagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-9-10	þrátt fyrir	_	_	_	_	_	_	_	_
 9	þrátt	þrátt	SCONJ	st	_	15	mark	_	tag=st
-10	fyrir	fyrir	SCONJ	st	_	9	_	_	tag=st
+10	fyrir	fyrir	SCONJ	st	_	9	fixed	_	MWEEnd=Yes|tag=st
 11	að	að	SCONJ	st	_	9	cc	_	tag=st
 12	stjórnarskrárréttur	stjórnarskrár-réttur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	tag=no_et_nf_kk
 13	Spánar	Spánn	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	nmod:poss	_	tag=sérnafn_et_ef_kk
 14	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	aux	_	tag=so_0_vh_p3_et_nt_gm
 15	bannað	banna	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	4	advcl	_	tag=so_1_þf_sagnb_gm
 16	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No|tag=pfn_et_þf_hk_p3
-17	.	.	PUNCT	grm	_	3	punct	_	tag=grm
+17	.	.	PUNCT	grm	_	16	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00401,.10
+# text = Við innheimtum rétt laun, þau greiða þau jafnvel og halda áfram á sömu braut.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_ft_nf_p1
 2	innheimtum	innheimta	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_ft_nt_gm
 3	rétt	réttur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_þf_hk_sb
-4	laun	laun	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
+4	laun	laun	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|tag=no_et_þf_hk
 5	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 6	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	tag=pfn_ft_nf_hk_p3
 7	greiða	greiða	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
@@ -206,6 +198,6 @@
 12	áfram	áfram	ADV	ao	_	15	advmod	_	tag=ao
 13	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 14	sömu	sami	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	tag=fn_et_þgf_kvk
-15	braut	braut	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
+15	braut	braut	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

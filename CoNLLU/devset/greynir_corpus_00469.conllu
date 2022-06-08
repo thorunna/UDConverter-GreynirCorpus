@@ -11,21 +11,21 @@
 9	að	að	SCONJ	st	_	7	obl	_	tag=st
 10	MU	MU	PROPN	entity	_	16	nsubj	_	tag=entity
 11	69	69	PROPN	entity	_	10	flat:name	_	tag=entity
-12	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+12	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 13	í	í	ADV	fs_þgf	Case=Dat	16	advmod	_	tag=fs_þgf
 14	raun	raun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þgf_kvk
 15	tvö	tveir	NUM	to_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	16	nummod	_	tag=to_ft_nf_hk
 16	fyrirbæri	fyrirbæri	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_nf_hk
 17	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
 18	annað	annað	SCONJ	st	_	20	cc	_	tag=st
-19	hvort	hvort	CCONJ	st	_	18	cc	_	tag=st
+19	hvort	hvort	CCONJ	st	_	18	fixed	_	tag=st
 20	snertast	snerta	VERB	so_0_fh_p3_ft_nt_mm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Mid	16	acl:relcl	_	tag=so_0_fh_p3_ft_nt_mm
 21	eða	eða	CCONJ	st	_	22	cc	_	tag=st
-22	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	20	conj	_	tag=so_1_nf_fh_p3_ft_nt_gm
-23	afar	afar	ADV	ao	_	20	advmod	_	tag=ao
-24	nálægt	nálægt	ADV	ao	_	23	advmod	_	tag=ao
-25	hvor	hvor	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	20	nsubj	_	tag=fn_ft_nf_hk
-26	öðru	annar	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|tag=fn_et_þgf_hk
+22	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	24	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+23	afar	afar	ADV	ao	_	24	advmod	_	tag=ao
+24	nálægt	nálægt	ADV	ao	_	20	conj	_	tag=ao
+25	hvor	hvor	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	24	nsubj	_	tag=fn_ft_nf_hk
+26	öðru	annar	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|tag=fn_et_þgf_hk
 27	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00469,.2
@@ -50,9 +50,8 @@
 18	fara	fara	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	nsubj	_	tag=so_0_fh_p3_ft_nt_gm
 19	að	að	PART	nhm	_	20	mark	_	tag=nhm
 20	byggja	byggja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	18	xcomp	_	tag=so_0_nh_gm
-21-22	fyrir neðan	_	_	_	_	_	_	_	_
 21	fyrir	fyrir	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
-22	neðan	neðan	ADP	fs_þf	Case=Acc	21	fixed	_	tag=fs_þf
+22	neðan	neðan	ADP	fs_þf	Case=Acc	21	fixed	_	MWEEnd=Yes|tag=fs_þf
 23	línuna	lína	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	20	obl	_	tag=no_et_þf_kvk_gr
 24	sem	sem	SCONJ	stt	_	27	mark	_	tag=stt
 25	síðasta	síðari	ADJ	lo_et_nf_hk_evb	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	26	amod	_	tag=lo_et_nf_hk_evb
@@ -61,12 +60,12 @@
 28	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00469,.3
-# text = Í bréfi til Landspítala var m.a. óskað eftir öllum gögnum um málefni einstakra barna sem vistuð voru á Kópavogshæli á starfstíma þess &#40; 1952 ‒ 1993 &#41;.
+# text = Í bréfi til Landspítala var m.a. óskað eftir öllum gögnum um málefni einstakra barna sem vistuð voru á Kópavogshæli á starfstíma þess&#40; 1952‒ 1993&#41;.
 1	Í	í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	bréfi	bréf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þgf_hk
 3	til	til	ADP	fs_ef	Case=Gen	4	case	_	tag=fs_ef
 4	Landspítala	Landspítali	PROPN	fyrirtæki_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	tag=fyrirtæki_et_ef_kk
-5	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
+5	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_þt_gm
 6	m.a.	m.a.	ADV	ao	_	7	advmod	_	tag=ao
 7	óskað	óska	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 8	eftir	eftir	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
@@ -84,10 +83,10 @@
 20	á	á	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	starfstíma	starfstíma	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	17	advmod	_	tag=no_et_þgf_kk
 22	þess	þess	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nmod:poss	_	SpaceAfter=No|tag=pfn_et_ef_hk_p3
-23	&#40;	&#40;	PUNCT	grm	_	22	punct	_	tag=grm
-24	1952	1952	NUM	ártal	_	23	nummod	_	SpaceAfter=No|tag=ártal
+23	&#40;	&#40;	PUNCT	grm	_	24	punct	_	tag=grm
+24	1952	1952	NUM	ártal	_	22	nummod	_	SpaceAfter=No|tag=ártal
 25	‒	‒	PUNCT	grm	_	24	punct	_	tag=grm
-26	1993	1993	NUM	ártal	_	23	nummod	_	SpaceAfter=No|tag=ártal
+26	1993	1993	NUM	ártal	_	24	nummod	_	SpaceAfter=No|tag=ártal
 27	&#41;	&#41;	PUNCT	grm	_	26	punct	_	SpaceAfter=No|tag=grm
 28	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
@@ -99,7 +98,7 @@
 4	hagkvæmnisjónarmið	hagkvæmnisjónarmið	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	SpaceAfter=No|tag=no_ft_nf_hk
 5	:	:	PUNCT	grm	_	4	punct	_	tag=grm
 6	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	tag=pfn_et_nf_hk_p3
-7	er	vera	VERB	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
+7	er	vera	AUX	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
 8	nefnilega	nefnilega	ADV	eo	_	9	advmod	_	tag=eo
 9	ódýrara	ódýr	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	3	conj	_	tag=lo_et_nf_hk_mst
 10	fyrir	fyrir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
@@ -113,8 +112,8 @@
 18	ræstingu	ræsting	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	tag=no_et_þf_kvk
 19	húsnæðis	húsnæði	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	18	nmod:poss	_	tag=no_et_ef_hk
 20	borgarinnar	borg	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod:poss	_	tag=no_et_ef_kvk_gr
-21	heldur	gjarna	ADV	ao	_	23	cc	_	tag=ao
-22	en	en	CCONJ	st	_	21	cc	_	tag=st
+21	heldur	gjarna	ADV	ao	_	22	advmod	_	tag=ao
+22	en	en	CCONJ	st	_	23	mark	_	tag=st
 23	að	að	SCONJ	st	_	9	advcl	_	tag=st
 24	borgin	borg	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	25	nsubj	_	tag=no_et_nf_kvk_gr
 25	reki	reka	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	obl	_	tag=so_1_þf_vh_p3_et_nt_gm
@@ -154,7 +153,7 @@
 28	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00469,.6
-# text = Þeir sem hafa einhverjar upplýsingar um mannaferðir við húsnæði sveitarinnar í Austurgarði 4 - 6 í Sandgerði er bent á að hafa samband við Lögregluna á Suðurnesjum.
+# text = Þeir sem hafa einhverjar upplýsingar um mannaferðir við húsnæði sveitarinnar í Austurgarði 4-6 í Sandgerði er bent á að hafa samband við Lögregluna á Suðurnesjum.
 1	Þeir	sá	PRON	fn_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	tag=fn_ft_nf_kk
 2	sem	sem	SCONJ	stt	_	3	mark	_	tag=stt
 3	hafa	hafa	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	1	acl:relcl	_	tag=so_1_þf_fh_p3_ft_nt_gm
@@ -168,11 +167,11 @@
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	Austurgarði	austur-garður	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	tag=sérnafn_et_þgf_kk
 13	4	4	NUM	tala	NumType=Card	12	nummod	_	SpaceAfter=No|tag=tala
-14	-	–	PUNCT	grm	_	13	punct	_	tag=grm
+14	-	–	PUNCT	grm	_	13	punct	_	SpaceAfter=No|tag=grm
 15	6	6	NUM	tala	NumType=Card	12	nummod	_	tag=tala
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 17	Sandgerði	Sandgerði	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=sérnafn_et_þgf_hk
-18	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_0_fh_p3_et_nt_gm
+18	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	cop	_	tag=so_0_fh_p3_et_nt_gm
 19	bent	benda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 20	á	á	ADP	fs_nh	VerbForm=Inf	22	case	_	tag=fs_nh
 21	að	að	PART	nhm	_	22	mark	_	tag=nhm
@@ -224,13 +223,13 @@
 5	setningu	setning	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
 6	:	:	PUNCT	grm	_	5	punct	_	tag=grm
 7	Skáldskapurinn	skáldskapur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	tag=no_et_nf_kk_gr
-8	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
+8	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 9	sannur	sannur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	ccomp	_	SpaceAfter=No|tag=lo_et_nf_kk_sb
 10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 11	en	en	CCONJ	st	_	9	cc	_	tag=st
 12	svonefndur	svonefndur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	tag=lo_et_nf_kk_sb
 13	sannleikur	sannleikur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	tag=no_et_nf_kk
-14	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+14	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 15	helber	helber	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_nf_kk_sb
 16	uppspuni	uppspuni	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|tag=no_et_nf_kk
 17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
@@ -255,13 +254,11 @@
 7	athugasemd	athugasemd	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	tag=no_et_þf_kvk
 8	við	við	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	stöðuuppfærslu	stöðu-uppfærsla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	tag=no_et_þf_kvk
-10-11	Ólafs Rúnars	_	_	_	_	_	_	_	_
 10	Ólafs	Ólafur	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	tag=person_ef_kk
-11	Rúnars	Rúnar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	flat	_	tag=person_ef_kk
+11	Rúnars	Rúnar	PROPN	person_ef_kk	Case=Gen|Gender=Masc	10	flat	_	MWEEnd=Yes|tag=person_ef_kk
 12	sagðist	segja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
-13-14	í gegnum	_	_	_	_	_	_	_	_
 13	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-14	gegnum	gegnum	ADP	fs_þf	Case=Acc	13	fixed	_	tag=fs_þf
+14	gegnum	gegnum	ADP	fs_þf	Case=Acc	13	fixed	_	MWEEnd=Yes|tag=fs_þf
 15	tíðina	tíð	ADV	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	17	advmod	_	tag=no_et_þf_kvk_gr
 16	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	17	aux	_	tag=so_0_nh_gm
 17	fengið	fá	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	12	xcomp	_	tag=so_1_þf_sagnb_gm
@@ -275,24 +272,24 @@
 25	en	en	CCONJ	st	_	12	cc	_	tag=st
 26	að	að	SCONJ	st	_	29	mark	_	tag=st
 27	áhafnarhvíld	áhafnar-hvíla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	29	nsubj	_	tag=no_et_þgf_kvk
-28	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	29	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
+28	væri	vera	AUX	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	29	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 29	nýlunda	nýlunda	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No|tag=no_et_nf_kvk
 30	.	.	PUNCT	grm	_	12	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00469,.10
+# text = Fjölmargir stuðningsmenn Manchester United og sparkfræðingar vilja að fyrirliðinn Wayne Rooney verði settur á bekkinn en hann hefur þótt vera afar slakur með Manchester-liðinu á tímabilinu.
 1	Fjölmargir	fjölmargur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	tag=lo_ft_nf_kk_sb
 2	stuðningsmenn	stuðningsmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	tag=no_ft_nf_kk
-3-4	Manchester United	_	_	_	_	_	_	_	_
 3	Manchester	Manchester	PROPN	fyrirtæki	_	2	nmod:poss	_	tag=fyrirtæki
-4	United	United	PROPN	fyrirtæki	_	3	flat	_	tag=fyrirtæki
+4	United	United	PROPN	fyrirtæki	_	3	flat	_	MWEEnd=Yes|tag=fyrirtæki
 5	og	og	CCONJ	st	_	2	cc	_	tag=st
 6	sparkfræðingar	sparkfræðingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	tag=no_ft_nf_kk
 7	vilja	vilja	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
 8	að	að	SCONJ	st	_	13	mark	_	tag=st
 9	fyrirliðinn	fyrirliði	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	tag=no_et_nf_kk_gr
-10-11	Wayne Rooney	_	_	_	_	_	_	_	_
 10	Wayne	Wayne	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	nsubj	_	tag=person_nf_kk
-11	Rooney	Rooney	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	flat	_	tag=person_nf_kk
-12	verði	verða	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_et_nt_gm
+11	Rooney	Rooney	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	flat	_	MWEEnd=Yes|tag=person_nf_kk
+12	verði	verða	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_et_nt_gm
 13	settur	setja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	obj	_	tag=so_0_lhþt_et
 14	á	á	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	bekkinn	bekkur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þf_kk_gr
@@ -300,12 +297,12 @@
 17	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_nf_kk_p3
 18	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	19	aux	_	tag=so_0_fh_p3_et_nt_gm
 19	þótt	þykja	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	conj	_	tag=so_1_nf_sagnb_gm
-20	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	22	cop	_	tag=so_0_nh_gm
+20	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	22	cop	_	tag=so_0_nh_gm
 21	afar	afar	ADV	eo	_	22	advmod	_	tag=eo
 22	slakur	slakur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	19	xcomp	_	tag=lo_et_nf_kk_sb
 23	með	með	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
 24	Manchester-liðinu	Manchester-lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	22	obl	_	tag=no_et_þgf_hk_gr
 25	á	á	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
-26	tímabilinu	tímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	22	advmod	_	tag=no_et_þgf_hk_gr
+26	tímabilinu	tímabil	ADV	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	22	advmod	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 27	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 

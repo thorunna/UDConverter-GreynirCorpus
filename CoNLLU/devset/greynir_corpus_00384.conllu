@@ -22,8 +22,8 @@
 3	myndirnar	mynd	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	2	obj	_	tag=no_ft_þf_kvk_gr
 4	betur	vel	ADV	ao_mst	Degree=Cmp	2	advmod	_	tag=ao_mst
 5	og	og	CCONJ	st	_	2	cc	_	tag=st
-6	fann	finna	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	2	cop	_	tag=so_1_þf_fh_p1_et_þt_gm
-7	fleiri	margur	ADJ	lo_ft_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	2	obj	_	tag=lo_ft_þf_kvk_mst
+6	fann	finna	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p1_et_þt_gm
+7	fleiri	margur	ADJ	lo_ft_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	6	obj	_	tag=lo_ft_þf_kvk_mst
 8	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 9	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	tag=so_0_fh_p3_ft_þt_gm
 10	teknar	taka	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	9	acl:relcl	_	tag=so_0_lhþt_ft
@@ -39,11 +39,11 @@
 3	sem	sem	SCONJ	stt	_	4	mark	_	tag=stt
 4	mætti	mega	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	tag=so_0_vh_p3_et_þt_gm
 5	skoða	skoða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	acl:relcl	_	tag=so_0_nh_gm
-6	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_fh_p3_ft_nt_gm
+6	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_fh_p3_ft_nt_gm
 7	ofnarnir	ofn	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_nf_kk_gr
 8	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 9	oftast	oft	ADV	ao_est	Degree=Sup	11	advmod	_	tag=ao_est
-10	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_ft_nt_gm
+10	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_ft_nt_gm
 11	geymdir	geyma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	7	acl:relcl	_	tag=so_0_lhþt_ft
 12	undir	undir	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	gluggakistum	gluggakista	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
@@ -69,7 +69,7 @@
 # sent_id = GREYNIR_CORPUS_00384,.5
 # text = Ekki er ljóst hversu mörgum uppreisnarmönnum verði leyft að yfirgefa svæðið í friði.
 1	Ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	VERB	so_1_ef_fh_p3_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_ef_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_ef_fh_p3_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_ef_fh_p3_et_nt_gm
 3	ljóst	ljós	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	hversu	hversu	ADV	ao	_	8	advmod	_	tag=ao
 5	mörgum	margur	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	4	amod	_	tag=lo_ft_þgf_kk_sb
@@ -87,7 +87,7 @@
 # text = Ummæli dómarans eru algjörlega óásættanleg og ekki í neinum tengslum við veruleikann.
 1	Ummæli	ummæli	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	tag=no_ft_nf_hk
 2	dómarans	dómari	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kk_gr
-3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_nt_gm
+3	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_nt_gm
 4	algjörlega	algjörlega	ADV	eo	_	5	advmod	_	tag=eo
 5	óásættanleg	óásættanlegur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
@@ -103,13 +103,12 @@
 # text = Samstarfsmenn Ratcliffes eru tengdir dótturfélögum Dylan Holding ehf. að því er fram kemur í Morgunblaðinu.
 1	Samstarfsmenn	samstarfsmaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	tag=no_ft_nf_kk
 2	Ratcliffes	Ratcliffes	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_hk
-3	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
+3	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_ft_nt_gm
 4	tengdir	tengdir	ADJ	lo_ft_nf_kk_sb_sþgf	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=lo_ft_nf_kk_sb_sþgf
 5	dótturfélögum	dótturfélag	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þgf_hk
-6-8	Dylan Holding ehf.	_	_	_	_	_	_	_	_
 6	Dylan	Dylan	PROPN	fyrirtæki_ef	Case=Gen	5	nmod:poss	_	tag=fyrirtæki_ef
 7	Holding	Holding	PROPN	fyrirtæki_ef	Case=Gen	6	flat	_	tag=fyrirtæki_ef
-8	ehf.	ehf.	PROPN	fyrirtæki_ef	Case=Gen	6	flat	_	tag=fyrirtæki_ef
+8	ehf.	ehf.	PROPN	fyrirtæki_ef	Case=Gen	6	flat	_	MWEEnd=Yes|tag=fyrirtæki_ef
 9	að	að	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 10	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
 11	er	er	SCONJ	stt	_	13	mark	_	tag=stt
@@ -159,15 +158,14 @@
 2	að	að	SCONJ	st	_	1	cc	_	tag=st
 3	þessi	þessi	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	tag=fn_et_nf_kk
 4	fundur	fundur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk
-5	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_þt_gm
+5	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 6	haldinn	halda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	14	advcl	_	tag=so_0_lhþt_et
 7	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_et_nt_gm
 8	markaðurinn	markaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk_gr
 9	sem	sem	SCONJ	stt	_	8	acl:relcl	_	tag=stt
-10-11	Fáfnir Offshore	_	_	_	_	_	_	_	_
 10	Fáfnir	Fáfnir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	obl	_	tag=person_nf_kk
-11	Offshore	Offshore	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	flat	_	tag=person_nf_kk
-12	starfar	starfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	VANTAR_LIÐ_VP_None	_	tag=so_0_fh_p3_et_nt_gm
+11	Offshore	Offshore	PROPN	person_nf_kk	Case=Nom|Gender=Masc	10	flat	_	MWEEnd=Yes|tag=person_nf_kk
+12	starfar	starfa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	dep	_	tag=so_0_fh_p3_et_nt_gm
 13	á	eiga	ADV	ao	_	14	advmod	_	tag=ao
 14	hrunið	hrun	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	SpaceAfter=No|tag=so_0_sagnb_gm
 15	.	.	PUNCT	grm	_	14	punct	_	tag=grm

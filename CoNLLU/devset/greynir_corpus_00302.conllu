@@ -1,14 +1,12 @@
 # sent_id = GREYNIR_CORPUS_00302,.1
 # text = Úrskurðarnefnd umhverfis- og auðlindamála felldi 19. ágúst tvo úrskurði um stöðvun framkvæmda vegna framkvæmdaleyfa sem veitt höfðu verið fyrir Þeistareykjalínu 1 og Kröflulínu 4.
 1	Úrskurðarnefnd	úrskurðarnefnd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
-2-4	umhverfis- og auðlindamála	_	_	_	_	_	_	_	_
 2	umhverfis-	umhverfis-	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_hk
 3	og	og	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	flat	_	tag=no_ft_ef_hk
-4	auðlindamála	auðlinda-mál	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	flat	_	tag=no_ft_ef_hk
+4	auðlindamála	auðlinda-mál	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	flat	_	MWEEnd=Yes|tag=no_ft_ef_hk
 5	felldi	fella	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
-6-7	19. ágúst	_	_	_	_	_	_	_	_
 6	19.	19.	ADV	dagsafs	_	5	advmod	_	tag=dagsafs
-7	ágúst	ágúst	NOUN	dagsafs	_	6	flat	_	tag=dagsafs
+7	ágúst	ágúst	NOUN	dagsafs	_	6	flat	_	MWEEnd=Yes|tag=dagsafs
 8	tvo	tveir	NUM	to_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	9	nummod	_	tag=to_ft_þf_kk
 9	úrskurði	úrskurður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	tag=no_ft_þf_kk
 10	um	um	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
@@ -32,10 +30,9 @@
 # text = Þetta segir Júlíus Vífill Ingvarsson, fyrrverandi borgarfulltrúi Sjálfstæðisflokksins, í samtali við Morgunblaðið og vísar þar til umfjöllunar Kastljóss á RÚV í gærkvöldi.
 1	Þetta	þessi	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=fn_et_þf_hk
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-3-5	Júlíus Vífill Ingvarsson	_	_	_	_	_	_	_	_
-3	Júlíus	Júlíus	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-4	Vífill	Vífill	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	SpaceAfter=No|tag=person_nf_kk
-5	Ingvarsson	Ingvarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	SpaceAfter=No|tag=person_nf_kk
+3	Júlíus	Júlíus	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
+4	Vífill	Vífill	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
+5	Ingvarsson	Ingvarsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 6	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 7	fyrrverandi	fyrrverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_nf_kk_sb
 8	borgarfulltrúi	borgarfulltrúi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk
@@ -53,16 +50,15 @@
 20	Kastljóss	Kastljós	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	19	nmod:poss	_	tag=fyrirtæki_et_ef_hk
 21	á	á	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	RÚV	RÚV	PROPN	fyrirtæki_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	tag=fyrirtæki_et_þgf_hk
-23-24	í gærkvöldi	_	_	_	_	_	_	_	_
-23	í	í	ADV	ao	_	19	advmod	_	SpaceAfter=No|tag=ao
-24	gærkvöldi	gærkvöldi	ADV	ao	_	23	fixed	_	SpaceAfter=No|tag=ao
+23	í	í	ADV	ao	_	19	advmod	_	tag=ao
+24	gærkvöldi	gærkvöldi	ADV	ao	_	23	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 25	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00302,.3
 # text = Skilaboðunum hefur verið komið á framfæri til bandarískra og kanadískra yfirvalda, segir í yfirlýsingunni, og þau hvött til þess að leiðrétta aðgerðina.
 1	Skilaboðunum	skilaboð	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	0	root	_	tag=no_ft_þgf_hk_gr
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
+3	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	komið	koma	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	1	xcomp	_	tag=so_1_þgf_sagnb_gm
 5	á	á	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	framfæri	framfæri	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þf_hk
@@ -79,10 +75,10 @@
 17	og	og	CCONJ	st	_	1	cc	_	tag=st
 18	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	1	xcomp	_	tag=pfn_ft_nf_hk_p3
 19	hvött	hvetja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	18	xcomp	_	tag=so_0_lhþt_ft
-20	til	til	ADP	fs_ef	Case=Gen	21	case	_	tag=fs_ef
-21	þess	sá	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	19	obl	_	tag=fn_et_ef_kk
+20	til	til	ADP	fs_ef	Case=Gen	23	case	_	tag=fs_ef
+21	þess	sá	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	tag=fn_et_ef_kk
 22	að	að	PART	nhm	_	23	mark	_	tag=nhm
-23	leiðrétta	leiðrétta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	21	xcomp	_	tag=so_1_þf_nh_gm
+23	leiðrétta	leiðrétta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	19	obl	_	tag=so_1_þf_nh_gm
 24	aðgerðina	aðgerð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 25	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
@@ -91,10 +87,9 @@
 1	Samkvæmt	samkvæmt	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	heimildum	heimild	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	tag=no_ft_þgf_kvk
 3	mbl.is	mbl.is	SYM	lén	_	2	nmod:poss	_	tag=lén
-4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
-5-6	Karl Gauti	_	_	_	_	_	_	_	_
+4	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	Karl	Karl	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
-6	Gauti	Gauti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	flat	_	tag=person_nf_kk
+6	Gauti	Gauti	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	flat	_	MWEEnd=Yes|tag=person_nf_kk
 7	eini	einn	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	tag=lo_et_nf_kk_vb
 8	nefndarmaður	nefndarmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 9	stjórnarandstöðunnar	stjórnarandstaða	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod:poss	_	tag=no_et_ef_kvk_gr
@@ -107,7 +102,7 @@
 16	því	því	ADV	ao	_	20	advmod	_	tag=ao
 17	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	20	aux	_	tag=so_0_vh_p3_et_nt_gm
 18	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	tag=pfn_et_nf_kk_p3
-19	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	20	cop	_	tag=so_0_sagnb_gm
+19	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	20	cop	_	tag=so_0_sagnb_gm
 20	látinn	láta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	conj	_	tag=so_0_lhþt_et
 21	vita	vita	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_0_nh_gm
 22	af	af	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
@@ -126,15 +121,14 @@
 7	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=fn_et_þgf_hk
 8	,	_	PUNCT	grm	_	7	punct	_	tag=grm
 9	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=fn_et_nf_hk
-10	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 11	bara	bara	ADV	eo	_	12	advmod	_	tag=eo
 12	vitleysa	vitleysa	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No|tag=no_et_nf_kvk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
-15-17	Emil Sigurður Magnússon	_	_	_	_	_	_	_	_
-15	Emil	Emil	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-16	Sigurður	Sigurður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	SpaceAfter=No|tag=person_nf_kk
-17	Magnússon	Magnússon	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	SpaceAfter=No|tag=person_nf_kk
+15	Emil	Emil	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	tag=person_nf_kk
+16	Sigurður	Sigurður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	tag=person_nf_kk
+17	Magnússon	Magnússon	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 18	,	_	PUNCT	grm	_	20	punct	_	tag=grm
 19	fyrsti	fyrstur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	20	amod	_	tag=lo_et_nf_kk_vb
 20	stýrimaður	stýrimaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	tag=no_et_nf_kk
@@ -146,7 +140,7 @@
 # sent_id = GREYNIR_CORPUS_00302,.6
 # text = Lawrie var stöðvaður af lögreglu í franska landamærabænum Calais í október með stúlkuna, hina fjögurra ára gömlu Bahar Ahmadi, í bíl sínum.
 1	Lawrie	Lawrie	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	stöðvaður	stöðva	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	af	af	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	lögreglu	lögregla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
@@ -159,14 +153,13 @@
 12	með	með	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 13	stúlkuna	stúlka	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 14	,	_	PUNCT	grm	_	13	punct	_	tag=grm
-15	hina	hinn	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	tag=fn_et_þf_kvk
+15	hina	hinn	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	tag=fn_et_þf_kvk
 16	fjögurra	fjórir	NUM	to_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	17	nummod	_	tag=to_ft_ef_hk
-17	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	18	obl	_	tag=no_ft_ef_hk
-18	gömlu	gamla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	tag=no_et_þf_kvk
-19-20	Bahar Ahmadi	_	_	_	_	_	_	_	_
-19	Bahar	Bahar	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	18	conj	_	SpaceAfter=No|tag=person_þf_kvk
-20	Ahmadi	Ahmadi	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	19	flat	_	SpaceAfter=No|tag=person_þf_kvk
-21	,	_	PUNCT	grm	_	18	punct	_	tag=grm
+17	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	19	obl	_	tag=no_ft_ef_hk
+18	gömlu	gamla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	19	nummod	_	tag=no_et_þf_kvk
+19	Bahar	Bahar	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	13	obl	_	tag=person_þf_kvk
+20	Ahmadi	Ahmadi	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	19	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kvk
+21	,	_	PUNCT	grm	_	19	punct	_	tag=grm
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	bíl	bíll	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	tag=no_et_þgf_kk
 24	sínum	sinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kk
@@ -178,11 +171,10 @@
 2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 3	af	af	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 4	tegundinni	tegund	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk_gr
-5-6	Bombardier Q-400	_	_	_	_	_	_	_	_
 5	Bombardier	Bombardier	PROPN	entity	_	2	obl	_	tag=entity
-6	Q-400	Q-400	PROPN	entity	_	5	flat	_	tag=entity
+6	Q-400	Q-400	PROPN	entity	_	5	flat	_	MWEEnd=Yes|tag=entity
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
-8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 9	vélin	vél	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	tag=no_et_nf_kvk_gr
 10	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 11	lenti	lenda	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
@@ -216,9 +208,8 @@
 13	fimm	fimm	NUM	töl_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	14	nummod	_	tag=töl_ft_nf_kvk
 14	hraðhleðslustöðvar	hraðhleðslustöð	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	tag=no_ft_nf_kvk
 15	við	við	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
-16-17	til dæmis	_	_	_	_	_	_	_	_
 16	til	til	ADV	eo	_	18	advmod	_	tag=eo
-17	dæmis	dæmis	ADV	eo	_	16	fixed	_	tag=eo
+17	dæmis	dæmis	ADV	eo	_	16	fixed	_	MWEEnd=Yes|tag=eo
 18	Staðarskála	Staðarskáli	PROPN	sérnafn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	tag=sérnafn_et_þf_kk
 19	þá	þá	ADV	ao	_	20	advmod	_	tag=ao
 20	þurfi	þurfa	VERB	so_0_op_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	tag=so_0_op_vh_p3_et_nt_gm
@@ -258,9 +249,8 @@
 
 # sent_id = GREYNIR_CORPUS_00302,.10
 # text = Jón Jacobsen, sem afplánaði fangelsisdóm í þrjú ár, sagði í fréttum RÚV á sunnudag að ekki vægi nóg meðferðarstarf inni í fangelsunum.
-1-2	Jón Jacobsen	_	_	_	_	_	_	_	_
-1	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Jacobsen	Jacobsen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
+2	Jacobsen	Jacobsen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	sem	sem	SCONJ	stt	_	5	mark	_	tag=stt
 5	afplánaði	afplána	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm

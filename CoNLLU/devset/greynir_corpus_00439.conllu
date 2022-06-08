@@ -12,9 +12,8 @@
 10	Tennessee	Tennessee	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	tag=sérnafn_et_þgf_hk
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	Bandaríkjunum	Bandaríkin	PROPN	sérnafn_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	10	obl	_	tag=sérnafn_ft_þgf_hk_gr
-13-14	í gær	_	_	_	_	_	_	_	_
 13	í	í	ADV	ao	_	7	advmod	_	tag=ao
-14	gær	gær	ADV	ao	_	13	fixed	_	tag=ao
+14	gær	gær	ADV	ao	_	13	fixed	_	MWEEnd=Yes|tag=ao
 15	til	til	ADP	fs_nh	VerbForm=Inf	17	case	_	tag=fs_nh
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
 17	mótmæla	mótmæla	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	7	obl	_	tag=so_1_þgf_nh_gm
@@ -38,9 +37,9 @@
 10	glæsilegu	glæsilegur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	11	amod	_	tag=lo_et_þgf_hk_sb
 11	útsýni	útsýni	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
 12	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-13	norður	norður	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	conj	_	SpaceAfter=No|tag=no_et_þf_hk
+13	norður	norður	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
-15	vestur	vestur	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_nf_hk
+15	vestur	vestur	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	tag=no_et_nf_hk
 16	og	og	CCONJ	st	_	17	cc	_	tag=st
 17	suðuráttir	suður-átt	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	15	conj	_	tag=no_ft_nf_kvk
 18	yfir	yfir	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
@@ -57,10 +56,10 @@
 5	á	á	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 6	eðlilegan	eðlilegur	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_þf_kk_sb
 7	hátt	háttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þf_kk
-8	án	án	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
-9	þess	sá	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	tag=fn_et_ef_kk
+8	án	án	ADP	fs_ef	Case=Gen	11	case	_	tag=fs_ef
+9	þess	sá	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	tag=fn_et_ef_kk
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
-11	vita	vita	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	9	xcomp	_	tag=so_1_þf_nh_gm
+11	vita	vita	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	obl	_	tag=so_1_þf_nh_gm
 12	að	að	SCONJ	st	_	15	mark	_	tag=st
 13	krabbameinið	krabbamein	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	tag=no_et_nf_hk_gr
 14	hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	aux	_	tag=so_0_fh_p3_et_þt_gm
@@ -92,7 +91,7 @@
 16	á	á	ADV	ao	_	13	advmod	_	tag=ao
 17	þegar	þegar	SCONJ	st	_	20	mark	_	tag=st
 18	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	tag=pfn_et_nf_p1
-19	var	vera	VERB	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	20	cop	_	tag=so_1_nf_fh_p1_et_þt_gm
+19	var	vera	AUX	so_1_nf_fh_p1_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	20	cop	_	tag=so_1_nf_fh_p1_et_þt_gm
 20	pjakkur	pjakkur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	advcl	_	SpaceAfter=No|tag=no_et_nf_kk
 21	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -101,10 +100,9 @@
 1	Lögmaður	lögmaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 2	fjórmenninganna	fjórmenningur	NOUN	no_ft_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	1	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_kk_gr
 3	,	,	PUNCT	grm	_	4	punct	_	tag=grm
-4-6	Reimar Snæfells Pétursson	_	_	_	_	_	_	_	_
-4	Reimar	Reimar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-5	Snæfells	Snæfells	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	SpaceAfter=No|tag=person_nf_kk
-6	Pétursson	Pétursson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	SpaceAfter=No|tag=person_nf_kk
+4	Reimar	Reimar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
+5	Snæfells	Snæfells	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
+6	Pétursson	Pétursson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 7	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 8	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 9	fram	fram	ADV	ao	_	8	advmod	_	tag=ao
@@ -113,7 +111,7 @@
 12	myndefni	myndefni	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	tag=no_et_nf_hk
 13	úr	úr	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	eftirlitsmyndavélum	eftirlits-myndavél	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þgf_kvk
-15	yrði	verða	VERB	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_0_vh_p3_et_þt_gm
+15	yrði	verða	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	16	cop	_	tag=so_0_vh_p3_et_þt_gm
 16	rannsakað	rannsaka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	obl	_	tag=so_0_lhþt_et
 17	til	til	ADP	fs_nh	VerbForm=Inf	19	case	_	tag=fs_nh
 18	að	að	PART	nhm	_	19	mark	_	tag=nhm
@@ -161,8 +159,8 @@
 10	fái	fá	VERB	so_2_þgf_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_2_þgf_þf_vh_p3_ft_nt_gm
 11	sér	sig	PRON	abfn_þgf	Case=Dat|PronType=Prs	10	iobj	_	tag=abfn_þgf
 12	pössun	pössun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	tag=no_et_þf_kvk
-13	þannig	þannig	ADV	ao	_	17	mark	_	tag=ao
-14	að	að	SCONJ	st	_	13	cc	_	tag=st
+13	þannig	þannig	ADV	ao	_	14	advmod	_	tag=ao
+14	að	að	SCONJ	st	_	17	mark	_	tag=st
 15	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	tag=pfn_ft_nf_hk_p3
 16	geti	geta	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_vh_p3_ft_nt_gm
 17	eytt	eyða	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	10	advcl	_	tag=so_1_þgf_sagnb_gm
@@ -188,7 +186,7 @@
 12	Braggamálið	bragga-mál	PROPN	sérnafn_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|tag=sérnafn_et_þf_hk_gr
 13	:	:	PUNCT	grm	_	12	punct	_	tag=grm
 14	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_et_nf_kvk_p3
-15	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
+15	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
 17	setja	setja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_1_þf_nh_gm
 18	upp	upp	ADV	ao	_	17	compound:prt	_	tag=ao
@@ -212,7 +210,7 @@
 13	breska	breskur	ADJ	lo_et_þf_kk_vb	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_þf_kk_vb
 14	forsætisráðherrann	forsætisráðherra	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	tag=no_et_þf_kk_gr
 15	og	og	CCONJ	st	_	11	cc	_	tag=st
-16	sagt	segja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_et
+16	sagt	segja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	dep	_	tag=so_0_lhþt_et
 17	að	að	SCONJ	st	_	19	mark	_	tag=st
 18	henni	hún	PRON	pfn_et_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	tag=pfn_et_þgf_kvk_p3
 19	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	ccomp	_	tag=so_0_vh_p3_et_nt_gm
@@ -220,32 +218,31 @@
 21	treystandi	treystandi	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 22	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00439,.10
+# text = Fjárfestirinn Hallbjörn Karlsson, sem hafði verið stjórnarformaður um skeið, hætti í stjórn félagsins í mars 2015 og við formennsku tók Guðrún Þorgeirsdóttir.
 1	Fjárfestirinn	fjárfestir	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
-2-3	Hallbjörn Karlsson	_	_	_	_	_	_	_	_
 2	Hallbjörn	Hallbjörn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
-3	Karlsson	Karlsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	flat	_	tag=person_nf_kk
+3	Karlsson	Karlsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 4	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
 6	hafði	hafa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-7	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	cop	_	tag=so_1_nf_sagnb_gm
+7	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	8	cop	_	tag=so_1_nf_sagnb_gm
 8	stjórnarformaður	stjórnarformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	acl:relcl	_	tag=no_et_nf_kk
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
-10	skeið	skeið	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	advmod	_	tag=no_et_þf_hk
+10	skeið	skeið	ADV	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	advmod	_	SpaceAfter=No|tag=no_et_þf_hk
 11	,	,	PUNCT	grm	_	10	punct	_	tag=grm
 12	hætti	hætta	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 13	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 14	stjórn	stjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	tag=no_et_þgf_kvk
 15	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=no_et_ef_hk_gr
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17-18	mars 2015	_	_	_	_	_	_	_	_
 17	mars	mars	ADV	dagsafs	_	12	advmod	_	tag=dagsafs
-18	2015	2015	NOUN	dagsafs	_	17	flat	_	tag=dagsafs
+18	2015	2015	NOUN	dagsafs	_	17	flat	_	MWEEnd=Yes|tag=dagsafs
 19	og	og	CCONJ	st	_	12	cc	_	tag=st
 20	við	við	ADP	fs_þf	Case=Acc	21	case	_	tag=fs_þf
 21	formennsku	formennska	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	tag=no_et_þf_kvk
 22	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	tag=so_0_fh_p3_et_þt_gm
-23-24	Guðrún Þorgeirsdóttir	_	_	_	_	_	_	_	_
 23	Guðrún	Guðrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	22	nsubj	_	tag=person_nf_kvk
-24	Þorgeirsdóttir	Þorgeirsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	23	flat	_	tag=person_nf_kvk
+24	Þorgeirsdóttir	Þorgeirsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	23	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kvk
 25	.	.	PUNCT	grm	_	12	punct	_	tag=grm
 

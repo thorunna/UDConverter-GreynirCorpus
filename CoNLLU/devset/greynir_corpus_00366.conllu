@@ -7,10 +7,9 @@
 5	til	til	ADP	fs_ef	Case=Gen	6	case	_	tag=fs_ef
 6	þess	sá	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	tag=pfn_et_ef_hk_p3
 7	en	en	CCONJ	st	_	4	cc	_	tag=st
-8-10	að sama skapi	_	_	_	_	_	_	_	_
 8	að	að	ADV	ao	_	4	advmod	_	tag=ao
 9	sama	sama	ADV	ao	_	8	fixed	_	tag=ao
-10	skapi	skapi	ADV	ao	_	8	fixed	_	tag=ao
+10	skapi	skapi	ADV	ao	_	8	fixed	_	MWEEnd=Yes|tag=ao
 11	uppfræða	uppfræða	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	conj	_	tag=so_0_nh_gm
 12	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 13	hætturnar	hætta	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk_gr
@@ -32,13 +31,13 @@
 # sent_id = GREYNIR_CORPUS_00366,.3
 # text = Það er ákveðin hugmynd hjá mér að fjalla um það.
 1	Það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	ákveðin	ákveðinn	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_nf_kvk_sb
 4	hugmynd	hugmynd	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 5	hjá	hjá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	_	tag=pfn_et_þgf_p1
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	fjalla	fjall	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	VANTAR_LIÐ_IP_None	_	tag=so_0_nh_gm
+8	fjalla	fjall	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	4	dep	_	tag=so_0_nh_gm
 9	um	um	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	það	sá	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No|tag=pfn_et_þf_hk_p3
 11	.	.	PUNCT	grm	_	4	punct	_	tag=grm
@@ -50,13 +49,11 @@
 3	fyrsta	fyrsta	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_þf_hk_vb
 4	markið	mark	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk_gr
 5	en	en	CCONJ	st	_	2	cc	_	tag=st
-6-7	í kjölfarið	_	_	_	_	_	_	_	_
 6	í	í	ADV	ao	_	8	advmod	_	tag=ao
-7	kjölfarið	kjölfarið	ADV	ao	_	6	fixed	_	tag=ao
+7	kjölfarið	kjölfarið	ADV	ao	_	6	fixed	_	MWEEnd=Yes|tag=ao
 8	fékk	fá	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
-9-10	Ramune Pekarskyte	_	_	_	_	_	_	_	_
 9	Ramune	Ramune	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	8	nsubj	_	tag=sérnafn_nf_kvk
-10	Pekarskyte	Pekarskyte	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	tag=sérnafn_nf_kvk
+10	Pekarskyte	Pekarskyte	PROPN	sérnafn_nf_kvk	Case=Nom|Gender=Fem	9	flat	_	MWEEnd=Yes|tag=sérnafn_nf_kvk
 11	tveggja	tveir	NUM	to_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	12	nummod	_	tag=to_ft_ef_kvk
 12	mínútna	mínúta	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	13	nmod:poss	_	tag=no_ft_ef_kvk
 13	brottvísun	brottvísun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|tag=no_et_þf_kvk
@@ -79,10 +76,9 @@
 
 # sent_id = GREYNIR_CORPUS_00366,.6
 # text = Þar að auki koma um 20 Íslendingar að verkefninu og nokkrir vestfirskir aukaleikarar.
-1-3	Þar að auki	_	_	_	_	_	_	_	_
 1	Þar	þar	ADV	ao	_	4	advmod	_	tag=ao
 2	að	að	ADV	ao	_	1	fixed	_	tag=ao
-3	auki	auki	ADV	ao	_	1	fixed	_	tag=ao
+3	auki	auki	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 4	koma	koma	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 5	um	um	ADV	eo	_	7	advmod	_	tag=eo
 6	20	20	NUM	tala_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	7	nummod	_	tag=tala_ft_nf_kk
@@ -98,10 +94,9 @@
 # sent_id = GREYNIR_CORPUS_00366,.7
 # text = Frjósemin er hins vegar enn með því mesta sem þekkist í Evrópu.
 1	Frjósemin	frjósemi	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-3-4	hins vegar	_	_	_	_	_	_	_	_
+2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	hins	hins	ADV	ao	_	2	advmod	_	tag=ao
-4	vegar	vegar	ADV	ao	_	3	fixed	_	tag=ao
+4	vegar	vegar	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	enn	enn	ADV	ao	_	2	advmod	_	tag=ao
 6	með	með	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
@@ -142,18 +137,19 @@
 11	Bandaríkjunum	Bandaríkin	PROPN	sérnafn_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_hk_gr
 12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00366,.10
+# text = Fjórði maðurinn á listanum er Lars Christiansen frá Danmörku með 1503 mörk.
 1	Fjórði	fjórði	ADJ	lo_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk
 2	maðurinn	maður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	tag=no_et_nf_kk_gr
 3	á	eiga	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	listanum	listi	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_þgf_kk_gr
-5	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
-6-7	Lars Christiansen	_	_	_	_	_	_	_	_
+5	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 6	Lars	Lars	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	tag=person_nf_kk
-7	Christiansen	Christiansen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	flat	_	tag=person_nf_kk
+7	Christiansen	Christiansen	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	flat	_	MWEEnd=Yes|tag=person_nf_kk
 8	frá	frá	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	Danmörku	Danmörk	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=sérnafn_et_þgf_kvk
 10	með	með	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 11	1503	1503	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	12	nummod	_	tag=tala_ft_þf_hk
-12	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	tag=no_ft_þf_hk
+12	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
 13	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 

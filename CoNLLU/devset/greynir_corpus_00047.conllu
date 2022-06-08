@@ -2,7 +2,7 @@
 # text = Það náttúrlega yrði okkur mjög mikilvægt ef vextir lækkuðu.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_hk_p3
 2	náttúrlega	náttúrlega	ADV	ao	_	6	advmod	_	tag=ao
-3	yrði	verða	VERB	so_1_þf_vh_p3_et_þt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_þf_vh_p3_et_þt_gm
+3	yrði	verða	AUX	so_1_þf_vh_p3_et_þt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_þf_vh_p3_et_þt_gm
 4	okkur	ég	PRON	pfn_ft_þgf_p1	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	obl	_	tag=pfn_ft_þgf_p1
 5	mjög	mjög	ADV	eo	_	6	advmod	_	tag=eo
 6	mikilvægt	mikilvægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
@@ -28,16 +28,15 @@
 # sent_id = GREYNIR_CORPUS_00047,.3
 # text = Ekki er vitað um frekari skemmdir að svo komnu máli.
 1	Ekki	ekki	ADV	ao	_	3	advmod	_	tag=ao
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	vitað	vitaður	VERB	so_0	_	0	root	_	tag=so_0
 4	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 5	frekari	frekur	ADJ	lo_ft_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	6	amod	_	tag=lo_ft_þf_kvk_mst
 6	skemmdir	skemmd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þf_kvk
-7-10	að svo komnu máli	_	_	_	_	_	_	_	_
-7	að	að	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
-8	svo	svo	ADV	ao	_	7	fixed	_	SpaceAfter=No|tag=ao
-9	komnu	komnu	ADV	ao	_	7	fixed	_	SpaceAfter=No|tag=ao
-10	máli	máli	ADV	ao	_	7	fixed	_	SpaceAfter=No|tag=ao
+7	að	að	ADV	ao	_	3	advmod	_	tag=ao
+8	svo	svo	ADV	ao	_	7	fixed	_	tag=ao
+9	komnu	komnu	ADV	ao	_	7	fixed	_	tag=ao
+10	máli	máli	ADV	ao	_	7	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 11	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00047,.4
@@ -60,12 +59,12 @@
 2	alþjóðsamfélagsins	alþjóðsamfélag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk_gr
 3	á	á	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	málinu	mál	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk_gr
-5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_vh_p3_et_nt_gm
+5	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_vh_p3_et_nt_gm
 6	líklega	líklega	ADV	eo	_	7	advmod	_	tag=eo
 7	tímabundinn	tímabundinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
-8	eins	eins	ADV	ao	_	7	advcl	_	tag=ao
-9	og	og	CCONJ	st	_	10	cc	_	tag=st
-10	áður	áður	ADV	ao	_	8	conj	_	SpaceAfter=No|tag=ao
+8	eins	eins	ADV	ao	_	9	advmod	_	tag=ao
+9	og	og	CCONJ	st	_	7	advcl	_	tag=st
+10	áður	áður	ADV	ao	_	9	advmod	_	SpaceAfter=No|tag=ao
 11	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00047,.6
@@ -106,9 +105,8 @@
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	eiga	eiga	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
 8	barn	barn	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	tag=no_et_þf_hk
-9-10	á morgun	_	_	_	_	_	_	_	_
-9	á	á	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-10	morgun	morgun	ADV	ao	_	9	fixed	_	SpaceAfter=No|tag=ao
+9	á	á	ADV	ao	_	7	advmod	_	tag=ao
+10	morgun	morgun	ADV	ao	_	9	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00047,.9
@@ -117,8 +115,8 @@
 2	hófu	hefja	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 3	seinni	seinn	ADJ	lo_et_þf_kk_mst	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_þf_kk_mst
 4	hálfleikinn	hálfleikur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk_gr
-5	eins	eins	ADV	ao	_	8	cc	_	tag=ao
-6	og	og	CCONJ	st	_	5	cc	_	tag=st
+5	eins	eins	ADV	ao	_	6	advmod	_	tag=ao
+6	og	og	CCONJ	st	_	8	mark	_	tag=st
 7	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	tag=pfn_ft_nf_kk_p3
 8	enduðu	enda	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	2	advcl	_	tag=so_1_þf_fh_p3_ft_þt_gm
 9	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	tag=fn_et_þf_kk

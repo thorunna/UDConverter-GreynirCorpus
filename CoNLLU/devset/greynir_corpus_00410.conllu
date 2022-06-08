@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00410,.1
 # text = Skattheimta er forsenda þess að ríki geti byggt upp nauðsynlega innviði og veitt íbúum mikilvæga þjónustu.
 1	Skattheimta	skattheimta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	forsenda	forsenda	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 4	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=fn_et_ef_hk
 5	að	að	SCONJ	st	_	8	mark	_	tag=st
@@ -24,7 +24,7 @@
 2	þá	hann	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	tag=fn_et_þf_kvk
 3	niðurfærslu	niðurfærsla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þf_kvk
 4	útlána	útlán	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	3	nmod:poss	_	tag=no_ft_ef_hk
-5	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_0_fh_p3_et_þt_gm
+5	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 6	miðað	miðað	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 7	við	við	ADP	fs_nh	VerbForm=Inf	11	case	_	tag=fs_nh
 8	að	að	SCONJ	st	_	11	mark	_	tag=st
@@ -32,9 +32,8 @@
 10	útlán	útlán	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	tag=no_ft_nf_hk
 11	væru	vera	VERB	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	6	obl	_	tag=so_1_nf_vh_p3_ft_þt_gm
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13-14	íslenskum krónum	_	_	_	_	_	_	_	_
 13	íslenskum	íslenskum	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
-14	krónum	krónum	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	flat	_	tag=no_et_þgf_kvk
+14	krónum	krónum	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	flat	_	MWEEnd=Yes|tag=no_et_þgf_kvk
 15	miðað	miðað	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	11	obl	_	tag=so_0_lhþt_et
 16	við	við	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
 17	gengi	ganga	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þf_hk
@@ -68,7 +67,7 @@
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
 3	fyrrverandi	fyrrverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=lo_et_nf_kk_sb
 4	lögreglumaður	lögreglumaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk
-5	var	var	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+5	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 6	myrtur	myrta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 7	eftir	eftir	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 8	níu	nía	NUM	töl_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	9	nummod	_	tag=töl_ft_ef_kvk
@@ -79,16 +78,15 @@
 13	nágrenni	nágrenni	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
 14	höfuðborgar	höfuðborg	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	13	nmod:poss	_	tag=no_et_ef_kvk
 15	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=no_et_ef_hk_gr
-16-17	í gær	_	_	_	_	_	_	_	_
-16	í	í	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
-17	gær	gær	ADV	ao	_	16	fixed	_	SpaceAfter=No|tag=ao
+16	í	í	ADV	ao	_	6	advmod	_	tag=ao
+17	gær	gær	ADV	ao	_	16	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 18	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00410,.5
 # text = Manninum hafði verið veitt eftirför af lögreglu sem lauk með fyrrnefndum afleiðingum, komusalsmegin á flugstöðvarbyggingunni.
 1	Manninum	maður	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_þgf_kk_gr
 2	hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_þt_gm
-3	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	aux	_	tag=so_0_sagnb_gm
+3	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	veitt	veita	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	eftirför	eftirför	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	tag=no_et_nf_kvk
 6	af	af	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -115,7 +113,7 @@
 7	þá	sá	PRON	fn_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	tag=fn_et_þf_kvk
 8	leið	leið	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þf_kvk
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
-10	setja	setja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	VANTAR_LIÐ_IP_None	_	tag=so_1_þf_nh_gm
+10	setja	setja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	dep	_	tag=so_1_þf_nh_gm
 11	landslög	landslög	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	tag=no_ft_þf_hk
 12	sem	sem	SCONJ	stt	_	13	mark	_	tag=stt
 13	banni	banna	VERB	so_1_þf_vh_p3_ft_nt_gm	Case=Acc|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	acl:relcl	_	tag=so_1_þf_vh_p3_ft_nt_gm
@@ -146,22 +144,21 @@
 18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00410,.8
-# text = Ísland vann Kósóvó úti 1 – 2, en sá leikur var alls ekki auðveldur fyrir íslenska liðið.
+# text = Ísland vann Kósóvó úti 1–2, en sá leikur var alls ekki auðveldur fyrir íslenska liðið.
 1	Ísland	Ísland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=sérnafn_et_nf_hk
 2	vann	vann	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	Kósóvó	Kósóvó	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	tag=no_et_þf_hk
 4	úti	úti	ADV	ao	_	2	advmod	_	tag=ao
 5	1	1	NUM	tala	NumType=Card	2	obl	_	SpaceAfter=No|tag=tala
-6	–	–	PUNCT	grm	_	5	punct	_	tag=grm
+6	–	–	PUNCT	grm	_	5	punct	_	SpaceAfter=No|tag=grm
 7	2	2	NUM	tala	NumType=Card	5	nummod	_	SpaceAfter=No|tag=tala
 8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 9	en	en	CCONJ	st	_	2	cc	_	tag=st
 10	sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	tag=fn_et_nf_kk
 11	leikur	leikur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	tag=no_et_nf_kk
-12	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	conj	_	tag=so_0_fh_p3_et_þt_gm
-13-14	alls ekki	_	_	_	_	_	_	_	_
+12	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_þt_gm
 13	alls	alls	ADV	eo	_	15	advmod	_	tag=eo
-14	ekki	ekki	ADV	eo	_	13	fixed	_	tag=eo
+14	ekki	ekki	ADV	eo	_	13	fixed	_	MWEEnd=Yes|tag=eo
 15	auðveldur	auðveldur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=lo_et_nf_kk_sb
 16	fyrir	fyrir	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 17	íslenska	íslenska	ADJ	lo_et_þf_hk_vb	Case=Acc|Gender=Neut|Number=Sing	18	amod	_	tag=lo_et_þf_hk_vb
@@ -177,7 +174,7 @@
 5	þrotlausa	þrotlaus	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_þf_kvk_sb
 6	baráttu	barátta	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þf_kvk
 7	kvenna	kona	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	6	nmod:poss	_	tag=no_ft_ef_kvk
-8	væru	væra	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	17	conj	_	tag=so_0_vh_p3_ft_þt_gm
+8	væru	vera	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	17	cop	_	tag=so_0_vh_p3_ft_þt_gm
 9	sem	sem	ADP	fs_nf	Case=Nom	10	case	_	tag=fs_nf
 10	dæmi	dæma	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	17	obl	_	tag=no_et_nf_hk
 11	almennir	almennur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	12	amod	_	tag=lo_ft_nf_kk_sb
@@ -191,9 +188,8 @@
 
 # sent_id = GREYNIR_CORPUS_00410,.10
 # text = Elín Elísabet sleit sambandinu en hann reyndi mikið að sannfæra hana um að hún væri að gera mistök.
-1-2	Elín Elísabet	_	_	_	_	_	_	_	_
 1	Elín	Elín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
-2	Elísabet	Elísabet	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+2	Elísabet	Elísabet	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 3	sleit	slíta	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_þt_gm
 4	sambandinu	samband	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þgf_hk_gr
 5	en	en	CCONJ	st	_	3	cc	_	tag=st

@@ -1,17 +1,15 @@
 # sent_id = GREYNIR_CORPUS_00381,.1
 # text = Sturla Snær Snorrason varð Hermannsmeistari og Hólmfríður Dóra Friðgeirsdóttir varð Helgumeistari, bæði koma þau frá Reykjavík.
-1-3	Sturla Snær Snorrason	_	_	_	_	_	_	_	_
 1	Sturla	Sturla	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
 2	Snær	Snær	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
-3	Snorrason	Snorrason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
-4	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+3	Snorrason	Snorrason	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
+4	varð	verða	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	Hermannsmeistari	Hermanns-meistari	PROPN	sérnafn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=sérnafn_et_nf_kk
 6	og	og	CCONJ	st	_	5	cc	_	tag=st
-7-9	Hólmfríður Dóra Friðgeirsdóttir	_	_	_	_	_	_	_	_
 7	Hólmfríður	Hólmfríður	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	11	nsubj	_	tag=person_nf_kvk
 8	Dóra	Dóra	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	flat	_	tag=person_nf_kvk
-9	Friðgeirsdóttir	Friðgeirsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	flat	_	tag=person_nf_kvk
-10	varð	verða	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+9	Friðgeirsdóttir	Friðgeirsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	flat	_	MWEEnd=Yes|tag=person_nf_kvk
+10	varð	verða	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 11	Helgumeistari	Helgu-meistari	PROPN	sérnafn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|tag=sérnafn_et_nf_kk
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
 13	bæði	báðir	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	14	obl	_	tag=fn_ft_nf_hk
@@ -38,28 +36,24 @@
 13	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00381,.3
-# text = Er ætlunin að árið 2025 muni fyrirtækið selja að jafnaði 2 – 3 milljónir rafmagnsbíla ár hvert.
+# text = Er ætlunin að árið 2025 muni fyrirtækið selja að jafnaði 2–3 milljónir rafmagnsbíla ár hvert.
 1	Er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 2	ætlunin	ætlun	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nsubj	_	tag=no_et_nf_kvk_gr
 3	að	að	SCONJ	st	_	8	mark	_	tag=st
-4-5	árið 2025	_	_	_	_	_	_	_	_
 4	árið	árið	ADV	ártal	_	8	advmod	_	tag=ártal
-5	2025	2025	NUM	ártal	_	4	flat	_	tag=ártal
-6	muni	muna	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_vh_p3_et_nt_gm
+5	2025	2025	NUM	ártal	_	4	flat	_	MWEEnd=Yes|tag=ártal
+6	muni	munu	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_vh_p3_et_nt_gm
 7	fyrirtækið	fyrirtæki	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk_gr
 8	selja	selja	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	obj	_	tag=so_1_þf_nh_gm
-9-10	að jafnaði	_	_	_	_	_	_	_	_
 9	að	að	ADV	ao	_	8	advmod	_	tag=ao
-10	jafnaði	jafnaði	ADV	ao	_	9	fixed	_	tag=ao
+10	jafnaði	jafnaði	ADV	ao	_	9	fixed	_	MWEEnd=Yes|tag=ao
 11	2	2	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	15	nummod	_	SpaceAfter=No|tag=tala_ft_þf_kvk
-12	–	–	PUNCT	grm	_	11	punct	_	tag=grm
-13-14	3 milljónir	_	_	_	_	_	_	_	_
+12	–	–	PUNCT	grm	_	11	punct	_	SpaceAfter=No|tag=grm
 13	3	3	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	15	nummod	_	tag=tala_ft_þf_kvk
-14	milljónir	milljónir	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	13	_	_	tag=tala_ft_þf_kvk
+14	milljónir	milljónir	NUM	tala_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	13	flat	_	MWEEnd=Yes|tag=tala_ft_þf_kvk
 15	rafmagnsbíla	rafmagnsbíll	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	8	obj	_	tag=no_ft_ef_kk
-16-17	ár hvert	_	_	_	_	_	_	_	_
-16	ár	ár	ADV	ao	_	8	advmod	_	SpaceAfter=No|tag=ao
-17	hvert	hvert	ADV	ao	_	16	fixed	_	SpaceAfter=No|tag=ao
+16	ár	ár	ADV	ao	_	8	advmod	_	tag=ao
+17	hvert	hvert	ADV	ao	_	16	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 18	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00381,.4
@@ -68,7 +62,7 @@
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
 4	ekki	ekki	ADV	ao	_	6	advmod	_	tag=ao
-5	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
+5	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
 6	ákveðið	ákveða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	obj	_	tag=so_0_lhþt_et
 7	hvort	hvort	CCONJ	st	_	9	cc	_	tag=st
 8	haldin	halda	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	xcomp	_	tag=so_0_lhþt_et
@@ -84,10 +78,9 @@
 1	Á	á	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 2	þessum	þessi	PRON	fn_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	tag=fn_ft_þgf_kvk
 3	slóðum	slóð	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	tag=no_ft_þgf_kvk
-4-6	á þessum tíma	_	_	_	_	_	_	_	_
 4	á	á	ADV	ao	_	7	advmod	_	tag=ao
 5	þessum	þessum	ADV	ao	_	4	fixed	_	tag=ao
-6	tíma	tíma	ADV	ao	_	4	fixed	_	tag=ao
+6	tíma	tíma	ADV	ao	_	4	fixed	_	MWEEnd=Yes|tag=ao
 7	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
 8	svona	svona	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	9	amod	_	tag=lo_ft_þf_hk_sb
 9	skírteini	skírteini	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þf_hk
@@ -102,10 +95,9 @@
 # sent_id = GREYNIR_CORPUS_00381,.6
 # text = Liðinu var alls staðar spáð þriðja Íslandsmeistaratitlinum röð en tímabilið hefur verið martröð líkast.
 1	Liðinu	lið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	iobj	_	tag=no_et_þgf_hk_gr
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
-3-4	alls staðar	_	_	_	_	_	_	_	_
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	alls	alls	ADV	ao	_	5	advmod	_	tag=ao
-4	staðar	staðar	ADV	ao	_	3	fixed	_	tag=ao
+4	staðar	staðar	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	spáð	spá	VERB	so_2_þgf_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	tag=so_2_þgf_þgf_sagnb_gm
 6	þriðja	þriðji	ADJ	lo_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_þgf_kk
 7	Íslandsmeistaratitlinum	Íslandsmeistaratitill	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_þgf_kk_gr
@@ -113,7 +105,7 @@
 9	en	en	CCONJ	st	_	5	cc	_	tag=st
 10	tímabilið	tímabil	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk_gr
 11	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	aux	_	tag=so_0_fh_p3_et_nt_gm
-12	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	14	cop	_	tag=so_1_nf_sagnb_gm
+12	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	14	cop	_	tag=so_1_nf_sagnb_gm
 13	martröð	martröð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þgf_kvk
 14	líkast	líkt	ADJ	lo_et_nf_hk_est_sþgf	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_est_sþgf
 15	.	.	PUNCT	grm	_	5	punct	_	tag=grm
@@ -127,10 +119,10 @@
 5	Ísraels	Ísrael	PROPN	sérnafn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=sérnafn_et_ef_hk
 6	tvisvar	tvisvar	ADV	ao	_	2	advmod	_	tag=ao
 7	og	og	CCONJ	st	_	2	cc	_	tag=st
-8	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
-9	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	cop	_	tag=no_et_nf_kk
+8	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+9	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk
 10	frá	frá	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	2007	2007	ADV	ártal	_	2	advmod	_	tag=ártal
+11	2007	2007	ADV	ártal	_	9	advmod	_	tag=ártal
 12	til	til	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
 13	2014	2014	NUM	ártal	_	11	obl	_	SpaceAfter=No|tag=ártal
 14	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -138,7 +130,7 @@
 # sent_id = GREYNIR_CORPUS_00381,.8
 # text = Kynningin var þó ekki alveg hefðbundin því í henni var ansi skemmtileg saga.
 1	Kynningin	kynning	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk_gr
-2	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
+2	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 3	þó	þó	ADV	ao	_	6	advmod	_	tag=ao
 4	ekki	ekki	ADV	ao	_	6	advmod	_	tag=ao
 5	alveg	alveg	ADV	eo	_	6	advmod	_	tag=eo
@@ -163,11 +155,13 @@
 7	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_ef_hk
 8	að	að	SCONJ	st	_	12	mark	_	tag=st
 9	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_hk_p3
-10	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 11	ríflegur	ríflegur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_nf_kk_sb
 12	afgangur	afgangur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	ccomp	_	SpaceAfter=No|tag=no_et_nf_kk
 13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00381,.10
+# text = Grunnurinn að vinnu starfshópsins voru tillögur frá embætti ríkisskattstjóra, skattrannsóknarstjóra og tollstjóra.
 1	Grunnurinn	grunnur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	xcomp	_	tag=no_et_nf_kk_gr
 2	að	að	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 3	vinnu	vinna	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	tag=no_et_þgf_kvk
@@ -176,10 +170,10 @@
 6	tillögur	tillaga	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	tag=no_ft_nf_kvk
 7	frá	frá	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	embætti	embætta	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
-9	ríkisskattstjóra	ríkisskattstjóri	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	8	nmod:poss	_	tag=no_et_ef_kk
+9	ríkisskattstjóra	ríkisskattstjóri	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kk
 10	,	,	PUNCT	grm	_	11	punct	_	tag=grm
 11	skattrannsóknarstjóra	skatt-rannsóknar-stjóri	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	tag=no_et_ef_kk
 12	og	og	CCONJ	st	_	9	cc	_	tag=st
-13	tollstjóra	tollstjóri	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	tag=no_et_ef_kk
+13	tollstjóra	tollstjóri	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|tag=no_et_ef_kk
 14	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

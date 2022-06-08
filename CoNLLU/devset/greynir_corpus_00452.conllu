@@ -2,7 +2,7 @@
 # text = Það virðist vera sem hófleg neysla á bjór, ekki meira en einn á dag, geti dregið úr líkum á sykursýki 2.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	tag=pfn_et_nf_hk_p3
 2	virðist	virða	VERB	so_0_vh_p3_et_nt_mm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_vh_p3_et_nt_mm
-3	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	cop	_	tag=so_0_nh_gm
+3	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	cop	_	tag=so_0_nh_gm
 4	sem	sem	SCONJ	st	_	18	mark	_	tag=st
 5	hófleg	hóflegur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_sb
 6	neysla	neysla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	tag=no_et_nf_kvk
@@ -27,9 +27,8 @@
 
 # sent_id = GREYNIR_CORPUS_00452,.2
 # text = Ragnar Guðgeirsson ráðgjafi, sem leiddi stefnumótunarverkefni á vegum velferðarráðuneytisins í málefnum barna, kynnti í vor niðurstöður rannsóknar á líðan ungmenna á Íslandi.
-1-2	Ragnar Guðgeirsson	_	_	_	_	_	_	_	_
 1	Ragnar	Ragnar	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	tag=person_nf_kk
-2	Guðgeirsson	Guðgeirsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Guðgeirsson	Guðgeirsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	ráðgjafi	ráðgjafi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 4	,	,	PUNCT	grm	_	3	punct	_	tag=grm
 5	sem	sem	SCONJ	stt	_	6	mark	_	tag=stt
@@ -66,15 +65,14 @@
 8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 9	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 10	birt	birta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	7	acl:relcl	_	tag=so_0_lhþt_et
-11	var	var	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_þt_gm
-12-13	í morgun	_	_	_	_	_	_	_	_
+11	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_þt_gm
 12	í	í	ADV	ao	_	10	advmod	_	tag=ao
-13	morgun	morgun	ADV	ao	_	12	fixed	_	tag=ao
+13	morgun	morgun	ADV	ao	_	12	fixed	_	MWEEnd=Yes|tag=ao
 14	og	og	CCONJ	st	_	10	cc	_	tag=st
-15	unnin	unninn	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	cop	_	tag=so_0_lhþt_et
-16	er	er	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_fh_p3_et_nt_gm
+15	unnin	unninn	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	conj	_	tag=so_0_lhþt_et
+16	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_nt_gm
 17	í	í	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
-18	samstarfi	samstarf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	tag=no_et_þgf_hk
+18	samstarfi	samstarf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þgf_hk
 19	við	við	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
 20	Correctiv	Correctiv	PROPN	fyrirtæki_þf_hk	Case=Acc|Gender=Neut	18	obl	_	SpaceAfter=No|tag=fyrirtæki_þf_hk
 21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
@@ -87,18 +85,15 @@
 # text = Bílaumboðið hefði meðal annars fengið rapparann Gauta Þeyr, Emmsjé Gauta, til að auglýsa Audi Q5 en engin af færslunum væri merkt sem auglýsing.
 1	Bílaumboðið	Bílaumboðið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk_gr
 2	hefði	hafa	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	5	aux	_	tag=so_0_vh_p3_et_þt_gm
-3-4	meðal annars	_	_	_	_	_	_	_	_
 3	meðal	meðal	ADV	ao	_	5	advmod	_	tag=ao
-4	annars	annars	ADV	ao	_	3	fixed	_	tag=ao
+4	annars	annars	ADV	ao	_	3	fixed	_	MWEEnd=Yes|tag=ao
 5	fengið	fenginn	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 6	rapparann	rappari	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	tag=no_et_þf_kk_gr
-7-8	Gauta Þeyr	_	_	_	_	_	_	_	_
-7	Gauta	Gauta	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	obl	_	SpaceAfter=No|tag=person_þf_kk
-8	Þeyr	Þeyr	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	flat	_	SpaceAfter=No|tag=person_þf_kk
+7	Gauta	Gauta	PROPN	person_þf_kk	Case=Acc|Gender=Masc	6	obl	_	tag=person_þf_kk
+8	Þeyr	Þeyr	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kk
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
-10-11	Emmsjé Gauta	_	_	_	_	_	_	_	_
-10	Emmsjé	Emmsjé	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	obl	_	SpaceAfter=No|tag=person_þf_kk
-11	Gauta	Gauta	PROPN	person_þf_kk	Case=Acc|Gender=Masc	10	flat	_	SpaceAfter=No|tag=person_þf_kk
+10	Emmsjé	Emmsjé	PROPN	person_þf_kk	Case=Acc|Gender=Masc	7	obl	_	tag=person_þf_kk
+11	Gauta	Gauta	PROPN	person_þf_kk	Case=Acc|Gender=Masc	10	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kk
 12	,	,	PUNCT	grm	_	10	punct	_	tag=grm
 13	til	til	ADP	fs_nh	VerbForm=Inf	15	case	_	tag=fs_nh
 14	að	að	PART	nhm	_	15	mark	_	tag=nhm
@@ -109,7 +104,7 @@
 19	engin	enginn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	tag=fn_et_nf_kvk
 20	af	af	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	færslunum	færsla	NOUN	no_ft_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	19	obl	_	tag=no_ft_þgf_kvk_gr
-22	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	23	aux	_	tag=so_0_vh_p3_et_þt_gm
+22	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	23	cop	_	tag=so_0_vh_p3_et_þt_gm
 23	merkt	merkja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	conj	_	tag=so_0_lhþt_et
 24	sem	sem	SCONJ	st	_	25	mark	_	tag=st
 25	auglýsing	auglýsing	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	23	advcl	_	SpaceAfter=No|tag=no_et_nf_kvk
@@ -120,15 +115,15 @@
 1	Börn	barn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	tag=no_ft_nf_hk
 2	hafa	hafa	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
 3	eiginleika	eiginleiki	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk
-4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
-5	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_ef_hk
+4	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
+5	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	tag=fn_et_ef_hk
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
-7	lifa	lifa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
+7	lifa	lifa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	obl	_	tag=so_1_þf_nh_gm
 8	af	af	ADV	ao	_	7	advmod	_	tag=ao
 9	hörmungar	hörmung	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	tag=no_ft_þf_kvk
 10	en	en	CCONJ	st	_	2	cc	_	tag=st
 11	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=fn_et_nf_hk
-12	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+12	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 13	einhverskonar	einhverskonar	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	tag=lo_et_nf_kvk_sb
 14	áfallastreyturöskun	áfallastreyturöskun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=no_et_nf_kvk
 15	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
@@ -185,15 +180,15 @@
 12	fá	fá	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	10	xcomp	_	tag=so_0_nh_gm
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
 14	taka	taka	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_0_nh_gm
-15	í	í	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
+15	í	í	ADP	fs_þf	Case=Acc	18	case	_	tag=fs_þf
 16	flaggskipsjeppann	flaggskips-jeppi	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|tag=no_et_þf_kk_gr
-17	,	,	PUNCT	grm	_	18	punct	_	tag=grm
+17	,	,	PUNCT	grm	_	16	punct	_	tag=grm
 18	GLS	GLS	PROPN	entity_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No|tag=entity_et_þf_kk
 19	,	,	PUNCT	grm	_	18	punct	_	tag=grm
 20	sem	sem	SCONJ	stt	_	23	mark	_	tag=stt
 21	áður	áður	ADV	ao	_	23	advmod	_	tag=ao
-22	hét	heita	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	23	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
-23	GL	GL	PROPN	entity	_	16	acl:relcl	_	SpaceAfter=No|tag=entity
+22	hét	heita	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	acl:relcl	_	tag=so_1_nf_fh_p3_et_þt_gm
+23	GL	GL	PROPN	entity	_	22	xcomp	_	SpaceAfter=No|tag=entity
 24	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00452,.8
@@ -201,13 +196,13 @@
 1	Hér	hér	ADV	ao	_	0	root	_	tag=ao
 2	um	um	ADP	fs_þf	Case=Acc	3	case	_	tag=fs_þf
 3	borð	borð	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þf_hk
-4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_ft_nt_gm
+4	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_ft_nt_gm
 5	menn	maður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	tag=no_ft_nf_kk
 6	býsna	býsn	ADV	eo	_	7	advmod	_	tag=eo
 7	kátir	kátur	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	tag=lo_ft_nf_kk_sb
 8	og	og	CCONJ	st	_	1	cc	_	tag=st
 9	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	tag=pfn_et_nf_hk_p3
-10	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_nt_gm
+10	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_fh_p3_et_nt_gm
 11	miklu	mikill	ADV	eo	_	12	advmod	_	tag=eo
 12	bjartara	bjartur	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	1	conj	_	tag=lo_et_nf_hk_mst
 13	yfir	yfir	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
@@ -218,9 +213,8 @@
 18	með	með	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
 19	,	,	PUNCT	grm	_	18	punct	_	tag=grm
 20	sagði	sagður	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	xcomp	_	tag=so_0_fh_p3_et_þt_gm
-21-22	Gísli Runólfsson	_	_	_	_	_	_	_	_
 21	Gísli	Gísli	PROPN	person_nf_kk	Case=Nom|Gender=Masc	20	obl	_	tag=person_nf_kk
-22	Runólfsson	Runólfsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	flat	_	tag=person_nf_kk
+22	Runólfsson	Runólfsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	21	flat	_	MWEEnd=Yes|tag=person_nf_kk
 23	skipstjóri	skipstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No|tag=no_et_nf_kk
 24	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
@@ -251,8 +245,10 @@
 23	HM	HM	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	22	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_hk
 24	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00452,.10
+# text = Hvid er sagður hafa tekið myndir af sjálfum sér og konu við að stunda kynferðismök ofan á einum af pýramídunum frægu í Egyptalandi.
 1	Hvid	Hvid	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	sagður	segja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 4	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	5	aux	_	tag=so_0_nh_gm
 5	tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	3	xcomp	_	tag=so_1_þf_sagnb_gm
@@ -273,6 +269,6 @@
 20	pýramídunum	pýramídi	NOUN	no_ft_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	18	obl	_	tag=no_ft_þgf_kk_gr
 21	frægu	frægur	ADJ	lo_ft_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Plur	20	amod	_	tag=lo_ft_þgf_kk_vb
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	Egyptalandi	Egyptaland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	tag=sérnafn_et_þgf_hk
+23	Egyptalandi	Egyptaland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 24	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

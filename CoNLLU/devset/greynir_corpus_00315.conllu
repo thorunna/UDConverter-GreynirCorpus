@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00315,.1
 # text = Þrennt er venjulega talið dragbítur á hverju hagkerfi: háar ríkisskuldir, dræmur hagvöxtur og illa statt bankakerfi- og allt er þetta fyrir hendi á Ítalíu.
 1	Þrennt	þrennur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=lo_et_nf_hk_sb
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	venjulega	venjulegur	ADV	ao	_	5	advmod	_	tag=ao
 4	talið	telja	VERB	so_0_sagnb	VerbForm=Sup	5	dep	_	tag=so_0_sagnb
 5	dragbítur	dragbítur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -17,10 +17,9 @@
 15	og	og	CCONJ	st	_	11	cc	_	tag=st
 16	illa	illa	ADV	eo	_	11	advmod	_	tag=eo
 17	statt	statt	ADV	eo	_	11	advmod	_	tag=eo
-18-20	bankakerfi- og allt	_	_	_	_	_	_	_	_
 18	bankakerfi-	bankakerfi-	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	conj	_	tag=no_et_nf_hk
 19	og	og	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	flat	_	tag=no_et_nf_hk
-20	allt	allur	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	flat	_	tag=no_et_nf_hk
+20	allt	allur	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	flat	_	MWEEnd=Yes|tag=no_et_nf_hk
 21	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_0_fh_p3_et_nt_gm
 22	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	tag=fn_et_nf_hk
 23	fyrir	fyrir	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
@@ -35,11 +34,11 @@
 2	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
 3	tel	telja	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_nt_gm
 4	svo	svo	ADV	ao	_	3	advmod	_	tag=ao
-5	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	3	cop	_	SpaceAfter=No|tag=so_1_nf_nh_gm
+5	vera	vera	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	3	cop	_	SpaceAfter=No|tag=so_1_nf_nh_gm
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	að	að	SCONJ	st	_	11	mark	_	tag=st
 8	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_hk_p3
-9	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+9	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 10	töluverður	töluverður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_nf_kk_sb
 11	munur	munur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	tag=no_et_nf_kk
 12	þar	þar	ADV	ao	_	11	advmod	_	tag=ao
@@ -76,7 +75,7 @@
 14	um	um	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	að	að	SCONJ	st	_	13	obl	_	tag=st
 16	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	tag=pfn_et_nf_hk_p3
-17	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_0_vh_p3_et_nt_gm
+17	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	cop	_	tag=so_0_vh_p3_et_nt_gm
 18	hægt	hægur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	15	obl	_	tag=lo_et_nf_hk_sb
 19	að	að	PART	nhm	_	20	mark	_	tag=nhm
 20	opna	opna	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	18	nsubj	_	tag=so_0_nh_gm
@@ -90,22 +89,21 @@
 
 # sent_id = GREYNIR_CORPUS_00315,.4
 # text = Hins vegar hefur verið varað við því að slíkt markmið sé nánast ómögulegt þar sem vígamennirnir fela sig víða um eyðimörkina sem þeir þekkja betur en aðrir.
-1-2	Hins vegar	_	_	_	_	_	_	_	_
 1	Hins	hins	ADV	ao	_	5	advmod	_	tag=ao
-2	vegar	vegar	ADV	ao	_	1	fixed	_	tag=ao
+2	vegar	vegar	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-4	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
+4	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
 5	varað	vara	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	við	við	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=fn_et_þgf_hk
 8	að	að	SCONJ	st	_	13	mark	_	tag=st
 9	slíkt	slíkur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nmod	_	tag=fn_et_nf_hk
 10	markmið	markmið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	tag=no_et_nf_hk
-11	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_et_nt_gm
+11	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_vh_p3_et_nt_gm
 12	nánast	náið	ADV	eo_est	Degree=Sup	13	advmod	_	tag=eo_est
 13	ómögulegt	ómögulegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	7	ccomp	_	tag=lo_et_nf_hk_sb
-14	þar	þar	ADV	ao	_	17	mark	_	tag=ao
-15	sem	sem	SCONJ	st	_	14	cc	_	tag=st
+14	þar	þar	ADV	ao	_	15	advmod	_	tag=ao
+15	sem	sem	SCONJ	st	_	17	mark	_	tag=st
 16	vígamennirnir	vígamaður	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	17	nsubj	_	tag=no_ft_nf_kk_gr
 17	fela	fela	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	advcl	_	tag=so_1_þf_fh_p3_ft_nt_gm
 18	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	17	obj	_	tag=abfn_þf
@@ -131,7 +129,7 @@
 7	smá	smá	ADV	eo	_	8	advmod	_	tag=eo
 8	vandræðum	vandræði	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_þgf_hk
 9	inn	inn	ADP	fs	_	11	case	_	tag=fs
-10	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
+10	í	í	ADP	fs_þgf	Case=Dat	9	fixed	_	tag=fs_þgf
 11	teignum	teigur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þgf_kk_gr
 12	ef	ef	SCONJ	st	_	15	mark	_	tag=st
 13	þeir	hann	PRON	pfn_ft_nf_kk_p3	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_ft_nf_kk_p3
@@ -151,29 +149,26 @@
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00315,.6
-# text = Davis Bertans skoraði úrslitakörfuna í 105 - 101 sigri San Antonio Spurs á Dallas Mavericks þar sem Dallas liðið komst mest 19 stigum yfir í fyrri hálfleik.
-1-2	Davis Bertans	_	_	_	_	_	_	_	_
+# text = Davis Bertans skoraði úrslitakörfuna í 105-101 sigri San Antonio Spurs á Dallas Mavericks þar sem Dallas liðið komst mest 19 stigum yfir í fyrri hálfleik.
 1	Davis	Davis	PROPN	sérnafn	_	3	nsubj	_	tag=sérnafn
-2	Bertans	Bertans	PROPN	sérnafn	_	1	flat	_	tag=sérnafn
+2	Bertans	Bertans	PROPN	sérnafn	_	1	flat	_	MWEEnd=Yes|tag=sérnafn
 3	skoraði	skora	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	úrslitakörfuna	úrslitakarfa	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þf_kvk_gr
 5	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 6	105	105	NUM	tala	NumType=Card	9	nummod	_	SpaceAfter=No|tag=tala
-7	-	-	PUNCT	grm	_	6	punct	_	tag=grm
+7	-	-	PUNCT	grm	_	6	punct	_	SpaceAfter=No|tag=grm
 8	101	101	NUM	tala	NumType=Card	9	nummod	_	tag=tala
 9	sigri	sigri	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_þgf_kk
-10-12	San Antonio Spurs	_	_	_	_	_	_	_	_
 10	San	San	PROPN	entity_et_ef	Case=Gen|Number=Sing	9	nmod:poss	_	tag=entity_et_ef
 11	Antonio	Antonio	PROPN	entity_et_ef	Case=Gen|Number=Sing	10	flat	_	tag=entity_et_ef
-12	Spurs	Spurs	PROPN	entity_et_ef	Case=Gen|Number=Sing	10	flat	_	tag=entity_et_ef
+12	Spurs	Spurs	PROPN	entity_et_ef	Case=Gen|Number=Sing	10	flat	_	MWEEnd=Yes|tag=entity_et_ef
 13	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14-15	Dallas Mavericks	_	_	_	_	_	_	_	_
 14	Dallas	Dallas	PROPN	entity_et_þgf	Case=Dat|Number=Sing	9	obl	_	tag=entity_et_þgf
-15	Mavericks	Mavericks	PROPN	entity_et_þgf	Case=Dat|Number=Sing	14	flat	_	tag=entity_et_þgf
+15	Mavericks	Mavericks	PROPN	entity_et_þgf	Case=Dat|Number=Sing	14	flat	_	MWEEnd=Yes|tag=entity_et_þgf
 16	þar	þar	ADV	ao	_	9	advmod	_	tag=ao
 17	sem	sem	SCONJ	stt	_	20	mark	_	tag=stt
-18	Dallas	Dallas	PROPN	entity	_	19	conj	_	tag=entity
-19	liðið	liðið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	nsubj	_	tag=no_et_nf_hk_gr
+18	Dallas	Dallas	PROPN	entity	_	20	nsubj	_	tag=entity
+19	liðið	liðið	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	flat	_	tag=no_et_nf_hk_gr
 20	komst	komst	VERB	so_0	_	16	advcl	_	tag=so_0
 21	mest	mest	ADV	eo	_	23	advmod	_	tag=eo
 22	19	19	NUM	tala	NumType=Card	23	nummod	_	tag=tala
@@ -277,7 +272,7 @@
 27	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00315,.10
-# text = Þá hefðu þau leitað álits vísindasiðanefndar HÍ sem hefði gefið rannsókninni jákvæða umsögn og að hún væri í samræmi við skilyrði vísindasiðareglur [ sic ].
+# text = Þá hefðu þau leitað álits vísindasiðanefndar HÍ sem hefði gefið rannsókninni jákvæða umsögn og að hún væri í samræmi við skilyrði vísindasiðareglur[ sic].
 1	Þá	þá	ADV	ao	_	4	advmod	_	tag=ao
 2	hefðu	hafa	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	4	aux	_	tag=so_0_vh_p3_ft_þt_gm
 3	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_ft_nf_hk_p3

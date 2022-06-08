@@ -8,10 +8,10 @@
 6	tilvikum	tilvik	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þgf_hk
 7	tekið	taka	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 8	orlofsdaga	orlofsdagur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	tag=no_ft_þf_kk
-9	án	án	ADP	fs_ef	Case=Gen	10	case	_	tag=fs_ef
-10	þess	sá	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	tag=fn_et_ef_kk
+9	án	án	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
+10	þess	sá	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	tag=fn_et_ef_kk
 11	að	að	PART	nhm	_	12	mark	_	tag=nhm
-12	skrá	skrá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	10	xcomp	_	tag=so_1_þf_nh_gm
+12	skrá	skrá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	7	obl	_	tag=so_1_þf_nh_gm
 13	þá	hann	PRON	pfn_ft_þf_kk_p3	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No|tag=pfn_ft_þf_kk_p3
 14	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
@@ -23,14 +23,13 @@
 4	húsið	hús	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk_gr
 5	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
 6	nú	nú	ADV	ao	_	8	advmod	_	tag=ao
-7	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
+7	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	byggt	byggja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	acl:relcl	_	tag=so_0_lhþt_et
 9	kosti	kosta	VERB	so_1_þf_vh_p3_et_nt_gm	Case=Acc|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	nsubj	_	tag=so_1_þf_vh_p3_et_nt_gm
 10	um	um	ADV	eo	_	11	advmod	_	tag=eo
-11-13	150 milljónir króna	_	_	_	_	_	_	_	_
-11	150	150	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
-12	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	flat	_	SpaceAfter=No|tag=no_ft_þf_kvk
-13	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	flat	_	SpaceAfter=No|tag=no_ft_þf_kvk
+11	150	150	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	tag=no_ft_þf_kvk
+12	milljónir	milljónir	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	flat	_	tag=no_ft_þf_kvk
+13	króna	króna	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	11	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_ft_þf_kvk
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00239,.3
@@ -38,13 +37,12 @@
 1	Frítekjumark	frítekjumark	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk
 2	atvinnutekna	atvinnutekjur	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk
 3	aldraðra	aldraður	ADJ	lo_ft_ef_hk_sb	Case=Gen|Gender=Neut|Number=Plur	2	nmod:poss	_	tag=lo_ft_ef_hk_sb
-4	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
+4	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 5	hækkað	hækkaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
-7-9	hundrað þúsund krónur	_	_	_	_	_	_	_	_
 7	hundrað	hundrað	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_þf_hk
 8	þúsund	þúsund	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	flat	_	tag=no_ft_þf_hk
-9	krónur	krónur	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	flat	_	tag=no_ft_þf_hk
+9	krónur	krónur	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	flat	_	MWEEnd=Yes|tag=no_ft_þf_hk
 10	strax	strax	ADV	ao	_	13	advmod	_	tag=ao
 11	um	um	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
 12	næstu	næstur	ADJ	lo_ft_þf_hk_evb	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur	13	amod	_	tag=lo_ft_þf_hk_evb
@@ -54,7 +52,7 @@
 # sent_id = GREYNIR_CORPUS_00239,.4
 # text = Slíkt er tölfræðilega þunnt í besta falli og nánast útilokað í versta falli.
 1	Slíkt	slíkur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	tölfræðilega	tölfræðilega	ADV	eo	_	4	advmod	_	tag=eo
 4	þunnt	þunnur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -62,7 +60,7 @@
 7	falli	fall	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 8	og	og	CCONJ	st	_	4	cc	_	tag=st
 9	nánast	náið	ADV	eo_est	Degree=Sup	4	xcomp	_	tag=eo_est
-10	útilokað	útiloka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_et
+10	útilokað	útiloka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	dep	_	tag=so_0_lhþt_et
 11	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 12	versta	illur	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	13	amod	_	tag=lo_et_þgf_hk_evb
 13	falli	fall	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
@@ -151,6 +149,8 @@
 13	hendur	hönd	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No|tag=no_ft_þf_kvk
 14	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00239,.10
+# text = Við höfum verið að lækka skuldir og búa í haginn fyrir framtíðina.
 1	Við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
 2	höfum	hafa	AUX	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p1_ft_nt_gm
 3	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
@@ -162,6 +162,6 @@
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	haginn	hagur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_þf_kk_gr
 11	fyrir	fyrir	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
-12	framtíðina	framtíð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk_gr
+12	framtíðina	framtíð	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þf_kvk_gr
 13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

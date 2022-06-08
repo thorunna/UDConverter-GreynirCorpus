@@ -5,12 +5,11 @@
 3	Eiðistorgi	Eiðistorg	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=no_et_þgf_hk
 4	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Seltjarnarnesi	Seltjarnarnes	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
-6	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
+6	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	stækkuð	stækka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 8	umtalsvert	umtalsvert	ADV	ao	_	7	advmod	_	tag=ao
-9-10	á næstunni	_	_	_	_	_	_	_	_
-9	á	á	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-10	næstunni	næstunni	ADV	ao	_	9	fixed	_	SpaceAfter=No|tag=ao
+9	á	á	ADV	ao	_	7	advmod	_	tag=ao
+10	næstunni	næstunni	ADV	ao	_	9	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 11	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00225,.2
@@ -43,7 +42,7 @@
 # sent_id = GREYNIR_CORPUS_00225,.4
 # text = Útkoman er gervimælska, ámóta spennandi og kjötlokur frá Borgarnesi.
 1	Útkoman	útkoma	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	gervimælska	gervimælska	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kvk
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	ámóta	ámóta	ADV	ao	_	3	advmod	_	tag=ao
@@ -64,9 +63,8 @@
 6	sumarmánaðarins	sumarmánuður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_ef_kk_gr
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-9-10	19. apríl	_	_	_	_	_	_	_	_
-9	19.	19.	ADV	dagsafs	_	8	advmod	_	SpaceAfter=No|tag=dagsafs
-10	apríl	apríl	NOUN	dagsafs	_	9	flat	_	SpaceAfter=No|tag=dagsafs
+9	19.	19.	ADV	dagsafs	_	8	advmod	_	tag=dagsafs
+10	apríl	apríl	NOUN	dagsafs	_	9	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 11	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00225,.6
@@ -79,9 +77,8 @@
 6	tekið	taka	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	SpaceAfter=No|tag=so_0_sagnb_gm
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm
 8	m.a.	_	ADV	abbrev	_	9	advmod	_	tag=abbrev
-9-10	Amnesty International	_	_	_	_	_	_	_	_
-9	Amnesty	Amnesty	PROPN	entity	_	6	obl	_	SpaceAfter=No|tag=entity
-10	International	International	PROPN	entity	_	9	flat	_	SpaceAfter=No|tag=entity
+9	Amnesty	Amnesty	PROPN	entity	_	6	obl	_	tag=entity
+10	International	International	PROPN	entity	_	9	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=entity
 11	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00225,.7
@@ -101,7 +98,7 @@
 # sent_id = GREYNIR_CORPUS_00225,.8
 # text = Kvísker eru austasti bærinn í Öræfum og kúra undir Bæjarskeri.
 1	Kvísker	Kvísker	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
-2	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_ft_nt_gm
 3	austasti	austari	ADJ	lo_et_nf_kk_evb	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_evb
 4	bærinn	bær	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk_gr
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -126,6 +123,8 @@
 10	tíma	tími	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|tag=no_et_þf_kk
 11	?	_	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00225,.10
+# text = Hún deilir hvaða máltíðir það eru í nýrri Instagram færslu.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p3
 2	deilir	deila	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 3	hvaða	hvaða	PRON	fn_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	obl	_	tag=fn_ft_nf_hk
@@ -134,7 +133,7 @@
 6	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	2	ccomp	_	tag=so_0_fh_p3_ft_nt_gm
 7	í	í	ADP	fs_þgf	Case=Dat	10	case	_	tag=fs_þgf
 8	nýrri	nýr	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	10	amod	_	tag=lo_et_þgf_kvk_sb
-9	Instagram	Instagram	PROPN	entity	_	10	VANTAR_LIÐ	_	tag=entity
-10	færslu	færsla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk
+9	Instagram	Instagram	PROPN	entity	_	10	obl	_	tag=entity
+10	færslu	færsla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 

@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00045,.1
 # text = Árni Þorsteinsson segir yfir 30 pantanir hafa borist fyrsta mánuðinn.
-1-2	Árni Þorsteinsson	_	_	_	_	_	_	_	_
 1	Árni	Árni	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Þorsteinsson	Þorsteinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Þorsteinsson	Þorsteinsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 4	yfir	yfir	ADV	ao	_	6	advmod	_	tag=ao
 5	30	30	NUM	tala	NumType=Card	6	nummod	_	tag=tala
@@ -16,7 +15,7 @@
 # sent_id = GREYNIR_CORPUS_00045,.2
 # text = Núna er enginn snjór, allt iðagrænt og gott veður.
 1	Núna	núna	ADV	ao	_	4	advmod	_	tag=ao
-2	er	vera	VERB	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_op_es_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_op_es_fh_p3_et_nt_gm
 3	enginn	enginn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	tag=fn_et_nf_kk
 4	snjór	snjór	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
 5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
@@ -44,7 +43,7 @@
 # sent_id = GREYNIR_CORPUS_00045,.4
 # text = Það er bara lokað og sett í lás.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	tag=pfn_et_nf_hk_p3
-2	er	vera	AUX	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_op_es_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_op_es_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_op_es_fh_p3_et_nt_gm
 3	bara	bara	ADV	ao	_	4	advmod	_	tag=ao
 4	lokað	loka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	og	og	CCONJ	st	_	6	cc	_	tag=st
@@ -76,15 +75,15 @@
 5	alla	allur	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No|tag=fn_ft_þf_kk
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
 7	konur	kona	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_þf_kvk
-8	jafnt	jafnt	ADV	ao	_	7	mark	_	tag=ao
-9	sem	sem	SCONJ	st	_	8	cc	_	tag=st
+8	jafnt	jafnt	ADV	ao	_	9	advmod	_	tag=ao
+9	sem	sem	SCONJ	st	_	7	mark	_	tag=st
 10	karla	karl	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No|tag=no_ft_þf_kk
 11	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00045,.7
 # text = Ég er ekki búin að fá svar við því.
 1	Ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
-2	er	vera	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p1_et_nt_gm
+2	er	vera	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p1_et_nt_gm
 3	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
 4	búin	búa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm
@@ -116,17 +115,17 @@
 4	ákveðið	ákveða	VERB	so_0_gm	Voice=Act	0	root	_	tag=so_0_gm
 5	hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	tag=fn_et_þf_hk
 6	skuli	skulu	VERB	so_0_vh_p1_et_nt_gm	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	4	ccomp	_	tag=so_0_vh_p1_et_nt_gm
-7	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	VANTAR_LIÐ_IP_None	_	tag=so_1_þf_nh_gm
+7	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	dep	_	tag=so_1_þf_nh_gm
 8	til	til	ADP	fs	_	9	case	_	tag=fs
 9	bragð	bragð	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_ef_hk
 10	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00045,.10
 # text = Þannig að það væri alveg tilvalið, segir Kristján.
-1	Þannig	þannig	ADV	ao	_	6	conj	_	tag=ao
-2	að	að	SCONJ	st	_	1	cc	_	tag=st
+1	Þannig	þannig	ADV	ao	_	2	advmod	_	tag=ao
+2	að	að	SCONJ	st	_	6	dep	_	tag=st
 3	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_hk_p3
-4	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
+4	væri	vera	AUX	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 5	alveg	alveg	ADV	eo	_	6	advmod	_	tag=eo
 6	tilvalið	tilvalinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	8	ccomp	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 7	,	_	PUNCT	grm	_	6	punct	_	tag=grm

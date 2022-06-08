@@ -43,7 +43,7 @@
 15	ekki	ekki	ADV	eo	_	13	iobj	_	tag=eo
 16	líklegt	líklegur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	15	amod	_	tag=lo_et_þf_hk_sb
 17	og	og	CCONJ	st	_	2	cc	_	tag=st
-18	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_þt_gm
+18	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	cop	_	tag=so_0_fh_p3_et_þt_gm
 19	því	því	ADV	ao	_	20	advmod	_	tag=ao
 20	óskað	óska	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	2	conj	_	tag=so_0_sagnb_gm
 21	eftir	eftir	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
@@ -62,9 +62,8 @@
 8	afa	afi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	tag=no_et_þf_kk
 9	og	og	CCONJ	st	_	10	cc	_	tag=st
 10	ömmu	amma	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	tag=no_et_þf_kvk
-11-12	Ingó Veðurguðs	_	_	_	_	_	_	_	_
 11	Ingó	Ingó	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	8	nmod:poss	_	tag=person_þf_kvk
-12	Veðurguðs	Veðurguðs	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	flat	_	tag=person_þf_kvk
+12	Veðurguðs	Veðurguðs	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	flat	_	MWEEnd=Yes|tag=person_þf_kvk
 13	en	en	CCONJ	st	_	7	cc	_	tag=st
 14	þau	sá	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	tag=pfn_ft_nf_hk_p3
 15	mæta	mæta	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	conj	_	tag=so_0_fh_p3_ft_nt_gm
@@ -79,7 +78,7 @@
 24	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00450,.4
-# text = Afturelding byrjaði leikinn ágætlega en Eyjamenn komu svo með gott áhlaup og leiddu með tveimur mörkum í hálfleik, 15 – 17.
+# text = Afturelding byrjaði leikinn ágætlega en Eyjamenn komu svo með gott áhlaup og leiddu með tveimur mörkum í hálfleik, 15–17.
 1	Afturelding	afturelding	PROPN	fyrirtæki_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	tag=fyrirtæki_et_nf_kvk
 2	byrjaði	byrja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	leikinn	leikur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	tag=no_et_þf_kk_gr
@@ -100,7 +99,7 @@
 18	hálfleik	hálfleikur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	13	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 19	,	,	PUNCT	grm	_	18	punct	_	tag=grm
 20	15	15	NUM	tala	NumType=Card	13	obl	_	SpaceAfter=No|tag=tala
-21	–	–	PUNCT	grm	_	20	punct	_	tag=grm
+21	–	–	PUNCT	grm	_	20	punct	_	SpaceAfter=No|tag=grm
 22	17	17	NUM	tala	NumType=Card	20	nummod	_	SpaceAfter=No|tag=tala
 23	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -120,7 +119,7 @@
 12	aðallega	aðalleg	ADV	ao	_	10	advmod	_	tag=ao
 13	til	til	ADV	ao	_	10	advmod	_	tag=ao
 14	af	af	ADP	fs_þgf	Case=Dat	18	mark	_	tag=fs_þgf
-15	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nmod	_	tag=pfn_et_þgf_hk_p3
+15	því	það	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	fixed	_	tag=pfn_et_þgf_hk_p3
 16	frönsk	franskur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	17	amod	_	tag=lo_ft_nf_hk_sb
 17	börn	barn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	tag=no_ft_nf_hk
 18	eru	vera	VERB	so_1_nf_fh_p3_ft_nt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	10	advcl	_	tag=so_1_nf_fh_p3_ft_nt_gm
@@ -132,39 +131,36 @@
 
 # sent_id = GREYNIR_CORPUS_00450,.6
 # text = Á dögunum var greint frá því að tískuhönnuðir væru ekki sérlega hrifnir af því að útvega tilvonandi forsetafrú Bandaríkjanna, Melaniu Trump, fatnað.
-1-2	Á dögunum	_	_	_	_	_	_	_	_
 1	Á	á	ADV	ao	_	4	advmod	_	tag=ao
-2	dögunum	dögunum	ADV	ao	_	1	fixed	_	tag=ao
-3	var	var	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_þt_gm
+2	dögunum	dögunum	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
+3	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_þt_gm
 4	greint	greina	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	frá	frá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
 7	að	að	SCONJ	st	_	12	mark	_	tag=st
 8	tískuhönnuðir	tískuhönnuður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	tag=no_ft_nf_kk
-9	væru	vera	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_0_vh_p3_ft_þt_gm
+9	væru	vera	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_0_vh_p3_ft_þt_gm
 10	ekki	ekki	ADV	eo	_	12	advmod	_	tag=eo
 11	sérlega	sérlega	ADV	eo	_	12	advmod	_	tag=eo
 12	hrifnir	hrifinn	ADJ	lo_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur	6	ccomp	_	tag=lo_ft_nf_kk_sb
-13	af	af	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
-14	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	tag=fn_et_þgf_hk
+13	af	af	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
+14	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	tag=fn_et_þgf_hk
 15	að	að	PART	nhm	_	16	mark	_	tag=nhm
-16	útvega	útvega	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	14	xcomp	_	tag=so_2_þgf_þf_nh_gm
+16	útvega	útvega	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	12	obl	_	tag=so_2_þgf_þf_nh_gm
 17	tilvonandi	tilvonandi	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	18	amod	_	tag=lo_et_þf_kvk_sb
 18	forsetafrú	forsetafrú	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	iobj	_	tag=no_et_þf_kvk
 19	Bandaríkjanna	Bandaríkin	PROPN	sérnafn_ft_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	18	nmod:poss	_	SpaceAfter=No|tag=sérnafn_ft_ef_hk_gr
 20	,	,	PUNCT	grm	_	19	punct	_	tag=grm
-21-22	Melaniu Trump	_	_	_	_	_	_	_	_
-21	Melaniu	Melaniu	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	18	obl	_	SpaceAfter=No|tag=person_þf_kvk
-22	Trump	Trump	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	21	flat	_	SpaceAfter=No|tag=person_þf_kvk
+21	Melaniu	Melaniu	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	18	obl	_	tag=person_þf_kvk
+22	Trump	Trump	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	21	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kvk
 23	,	,	PUNCT	grm	_	21	punct	_	tag=grm
 24	fatnað	fatnaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No|tag=no_et_þf_kk
 25	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00450,.7
 # text = Guðrún Gylfadóttir, formaður Lyfjagreiðslunefndar, segir það rétt að fjármagn sé uppurið og meira til en vill horfa jákvæðum augum á árið.
-1-2	Guðrún Gylfadóttir	_	_	_	_	_	_	_	_
-1	Guðrún	Guðrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	SpaceAfter=No|tag=person_nf_kvk
-2	Gylfadóttir	Gylfadóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	SpaceAfter=No|tag=person_nf_kvk
+1	Guðrún	Guðrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	nsubj	_	tag=person_nf_kvk
+2	Gylfadóttir	Gylfadóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kvk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	formaður	forma	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Lyfjagreiðslunefndar	Lyfjagreiðslunefnd	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kvk
@@ -174,7 +170,7 @@
 9	rétt	rétt	ADV	ao	_	7	iobj	_	tag=ao
 10	að	að	SCONJ	st	_	13	mark	_	tag=st
 11	fjármagn	fjármagn	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	tag=no_et_nf_hk
-12	sé	sjá	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	conj	_	tag=so_1_nf_vh_p3_et_nt_gm
+12	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 13	uppurið	uppurinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	9	ccomp	_	tag=lo_et_nf_hk_sb
 14	og	og	CCONJ	st	_	15	cc	_	tag=st
 15	meira	meira	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	13	conj	_	tag=lo_et_nf_hk_mst
@@ -202,9 +198,9 @@
 10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	Íslandi	Ísland	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	tag=no_et_þgf_hk
 12	og	og	CCONJ	st	_	4	cc	_	tag=st
-13	gera	gera	VERB	so_2_þf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	cop	_	tag=so_2_þf_þf_nh_gm
-14	útflutningsgreinar	útflutningsgrein	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	tag=no_ft_þf_kvk
-15	samkeppnishæfari	samkeppnishæfur	ADJ	lo_ft_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	4	iobj	_	tag=lo_ft_þf_kvk_mst
+13	gera	gera	VERB	so_2_þf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	conj	_	tag=so_2_þf_þf_nh_gm
+14	útflutningsgreinar	útflutningsgrein	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	tag=no_ft_þf_kvk
+15	samkeppnishæfari	samkeppnishæfur	ADJ	lo_ft_þf_kvk_mst	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	13	iobj	_	tag=lo_ft_þf_kvk_mst
 16	á	eiga	ADP	fs_þgf	Case=Dat	18	case	_	tag=fs_þgf
 17	erlendum	erlendur	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	18	amod	_	tag=lo_ft_þgf_kk_sb
 18	mörkuðum	marka	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
@@ -222,7 +218,7 @@
 4	ásakanirnar	ásökun	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	nsubj	_	tag=no_ft_nf_kvk_gr
 5	gegn	gegn	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	lögreglufulltrúanum	lögreglufulltrúi	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk_gr
-7	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	cop	_	tag=so_0_sagnb_gm
+7	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	cop	_	tag=so_0_sagnb_gm
 8	komnar	koma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 9	á	á	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	prent	prent	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
@@ -232,7 +228,7 @@
 14	frekari	frekur	ADJ	lo_ft_ef_hk_mst	Case=Gen|Degree=Cmp|Gender=Neut|Number=Plur	15	amod	_	tag=lo_ft_ef_hk_mst
 15	gagna	gögn	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	18	nsubj	_	tag=no_ft_ef_hk
 16	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	18	aux	_	tag=so_0_vh_p3_et_nt_gm
-17	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	18	cop	_	tag=so_0_sagnb_gm
+17	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	18	cop	_	tag=so_0_sagnb_gm
 18	aflað	afla	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	12	ccomp	_	tag=so_0_lhþt_et
 19	en	en	CCONJ	st	_	20	cc	_	tag=st
 20	höfðu	hafa	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	18	conj	_	tag=so_0_fh_p3_ft_þt_gm
@@ -241,7 +237,9 @@
 23	fyrir	fyrir	ADV	ao	_	22	advmod	_	SpaceAfter=No|tag=ao
 24	.	.	PUNCT	grm	_	8	punct	_	tag=grm
 
-1	En	en	SCONJ	st	_	5	mark	_	tag=st
+# sent_id = GREYNIR_CORPUS_00450,.10
+# text = En héðan í frá verður fólki með til að mynda hjartsláttartruflanir og -óreglu, mæði, brjóstverki og annað slíkt sinnt í Fossvogi.
+1	En	en	SCONJ	st	_	5	cc	_	tag=st
 2	héðan	héðan	ADV	ao	_	5	advmod	_	tag=ao
 3	í	í	ADV	ao	_	2	advmod	_	tag=ao
 4	frá	frá	ADV	ao	_	2	advmod	_	tag=ao
@@ -253,9 +251,9 @@
 10	mynda	mynda	ADV	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	11	advmod	_	tag=so_1_þf_nh_gm
 11	hjartsláttartruflanir	hjartsláttar-truflun	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	tag=no_ft_þf_kvk
 12	og	og	CCONJ	st	_	13	cc	_	tag=st
-13	-óreglu	óregla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	tag=no_et_þf_kvk
+13	-óreglu	óregla	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No|tag=no_et_þf_kvk
 14	,	,	PUNCT	grm	_	13	punct	_	tag=grm
-15	mæði	mæði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_nf_hk
+15	mæði	mæði	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_nf_hk
 16	,	,	PUNCT	grm	_	17	punct	_	tag=grm
 17	brjóstverki	brjóstverkur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	15	conj	_	tag=no_ft_nf_kk
 18	og	og	CCONJ	st	_	11	cc	_	tag=st
@@ -263,6 +261,6 @@
 20	slíkt	slíkur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	19	nmod	_	tag=fn_et_nf_hk
 21	sinnt	sinna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	conj	_	tag=so_0_lhþt_et
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
-23	Fossvogi	Fossvogur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	tag=sérnafn_et_þgf_kk
+23	Fossvogi	Fossvogur	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_kk
 24	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

@@ -5,16 +5,15 @@
 3	40	40	NUM	tala_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	4	nummod	_	tag=tala_ft_þf_hk
 4	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	tag=no_ft_þf_hk
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6-7	60 prósentum	_	_	_	_	_	_	_	_
-6	60	60	NUM	prósenta_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|tag=prósenta_et_þgf_hk
-7	prósentum	prósentum	NUM	prósenta_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	_	_	SpaceAfter=No|tag=prósenta_et_þgf_hk
+6	60	60	NUM	prósenta_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=prósenta_et_þgf_hk
+7	prósentum	prósentum	NUM	prósenta_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=prósenta_et_þgf_hk
 8	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 9	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=fn_et_nf_hk
 10	heldur	halda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
 11	bara	bara	ADV	ao	_	10	advmod	_	tag=ao
 12	áfram	áfram	ADV	ao	_	10	compound:prt	_	tag=ao
 13	að	að	PART	nhm	_	15	mark	_	tag=nhm
-14	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	15	cop	_	tag=so_1_nf_nh_gm
+14	vera	vera	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	15	cop	_	tag=so_1_nf_nh_gm
 15	satt	sannur	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	xcomp	_	tag=lo_et_nf_hk_fst_sb
 16	ef	ef	SCONJ	st	_	18	mark	_	tag=st
 17	Brittanny	Brittanny	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	tag=person_et_nf_kvk
@@ -36,21 +35,21 @@
 # sent_id = GREYNIR_CORPUS_00181,.2
 # text = Hann er hjá sama plötufyrirtæki og ég en það heitir Key Records þannig að þetta var svona fjölskyldutúr. bætir hann við en hann segir túrinn hafa gengið mjög vel.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_kk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 4	sama	sami	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	tag=fn_et_þgf_hk
 5	plötufyrirtæki	plötufyrirtæki	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	0	root	_	tag=no_et_þgf_hk
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
 7	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	advcl	_	tag=pfn_et_nf_p1
 8	en	en	CCONJ	st	_	5	cc	_	tag=st
-9	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_hk_p3
-10	heitir	heita	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
-11	Key	Key	PROPN	fyrirtæki_nf	Case=Nom	5	conj	_	tag=fyrirtæki_nf
+9	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	tag=pfn_et_nf_hk_p3
+10	heitir	heita	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
+11	Key	Key	PROPN	fyrirtæki_nf	Case=Nom	10	xcomp	_	tag=fyrirtæki_nf
 12	Records	Records	PROPN	fyrirtæki_nf	Case=Nom	11	flat:name	_	tag=fyrirtæki_nf
-13	þannig	þannig	ADV	ao	_	18	mark	_	tag=ao
-14	að	að	SCONJ	st	_	13	cc	_	tag=st
+13	þannig	þannig	ADV	ao	_	14	advmod	_	tag=ao
+14	að	að	SCONJ	st	_	18	mark	_	tag=st
 15	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	tag=fn_et_nf_hk
-16	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+16	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 17	svona	svona	ADV	eo	_	18	advmod	_	tag=eo
 18	fjölskyldutúr	fjölskyldutúr	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	advcl	_	SpaceAfter=No|tag=no_et_nf_kk
 19	.	_	PUNCT	grm	_	20	punct	_	tag=grm
@@ -80,76 +79,66 @@
 9	frjálslyndis	frjálslyndi	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod:poss	_	tag=no_et_ef_hk
 10	og	og	CCONJ	st	_	11	cc	_	tag=st
 11	samvinnu	samvinna	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	conj	_	tag=no_et_ef_kvk
-12-13	annars vegar	_	_	_	_	_	_	_	_
 12	annars	annars	ADV	eo	_	9	advmod	_	tag=eo
-13	vegar	vegar	ADV	eo	_	12	fixed	_	tag=eo
+13	vegar	vegar	ADV	eo	_	12	fixed	_	MWEEnd=Yes|tag=eo
 14	og	og	CCONJ	st	_	9	cc	_	tag=st
 15	einangrunarhyggju	einangrunarhyggja	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_ef_kvk
-16-17	hins vegar	_	_	_	_	_	_	_	_
-16	hins	hins	ADV	eo	_	15	advmod	_	SpaceAfter=No|tag=eo
-17	vegar	vegar	ADV	eo	_	16	fixed	_	SpaceAfter=No|tag=eo
+16	hins	hins	ADV	eo	_	15	advmod	_	tag=eo
+17	vegar	vegar	ADV	eo	_	16	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=eo
 18	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 19	merki	merki	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	tag=no_ft_nf_hk
 20	þess	það	PRON	pfn_et_ef_hk_p3	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nmod:poss	_	tag=pfn_et_ef_hk_p3
-21	séu	vera	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_vh_p3_ft_nt_gm
+21	séu	vera	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	22	cop	_	tag=so_0_vh_p3_ft_nt_gm
 22	farin	fara	VERB	so_0_lhþt_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Part	2	conj	_	tag=so_0_lhþt_ft_nf_hk_sb
 23	að	að	PART	nhm	_	24	mark	_	tag=nhm
 24	sjást	sjá	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	22	xcomp	_	tag=so_0_nh_mm
-25-27	hér á landi	_	_	_	_	_	_	_	_
 25	hér	hér	ADV	ao	_	24	advmod	_	tag=ao
 26	á	á	ADV	ao	_	25	fixed	_	tag=ao
-27	landi	landi	ADV	ao	_	25	fixed	_	tag=ao
-28-29	í kringum	_	_	_	_	_	_	_	_
+27	landi	landi	ADV	ao	_	25	fixed	_	MWEEnd=Yes|tag=ao
 28	í	í	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
-29	kringum	kringum	ADP	fs_þf	Case=Acc	28	fixed	_	tag=fs_þf
+29	kringum	kringum	ADP	fs_þf	Case=Acc	28	fixed	_	MWEEnd=Yes|tag=fs_þf
 30	EES	EES	PROPN	entity	_	24	obl	_	tag=entity
 31	samninginn	samningur	NOUN	no_et_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No|tag=no_et_þf_kk_gr
 32	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00181,.4
 # text = Már Guðmundsson, Gylfi Zoëga og Katrín Ólafsdóttir studdu tillöguna en Arnór Sighvatsson og Þórarinn G. Pétursson greiddu atkvæði gegn henni og kusu heldur að vextir yrðu lækkaðir um 0,25 prósentur.
-1-2	Már Guðmundsson	_	_	_	_	_	_	_	_
-1	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Már	Már	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
+2	Guðmundsson	Guðmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	4	punct	_	tag=grm
-4-5	Gylfi Zoëga	_	_	_	_	_	_	_	_
 4	Gylfi	Gylfi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	conj	_	tag=person_nf_kk
-5	Zoëga	Zoëga	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
+5	Zoëga	Zoëga	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	MWEEnd=Yes|tag=person_nf_kk
 6	og	og	CCONJ	st	_	1	cc	_	tag=st
-7-8	Katrín Ólafsdóttir	_	_	_	_	_	_	_	_
 7	Katrín	Katrín	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	conj	_	tag=person_nf_kvk
-8	Ólafsdóttir	Ólafsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	flat	_	tag=person_nf_kvk
+8	Ólafsdóttir	Ólafsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	7	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 9	studdu	styðja	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 10	tillöguna	tillaga	NOUN	no_et_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obj	_	tag=no_et_þf_kvk_gr
 11	en	en	CCONJ	st	_	9	cc	_	tag=st
-12-13	Arnór Sighvatsson	_	_	_	_	_	_	_	_
 12	Arnór	Arnór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	18	nsubj	_	tag=person_nf_kk
-13	Sighvatsson	Sighvatsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	tag=person_nf_kk
+13	Sighvatsson	Sighvatsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	MWEEnd=Yes|tag=person_nf_kk
 14	og	og	CCONJ	st	_	12	cc	_	tag=st
-15-17	Þórarinn G. Pétursson	_	_	_	_	_	_	_	_
 15	Þórarinn	Þórarinn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	conj	_	tag=person_nf_kk
 16	G.	G.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	tag=person_nf_kk
-17	Pétursson	Pétursson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	tag=person_nf_kk
+17	Pétursson	Pétursson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	MWEEnd=Yes|tag=person_nf_kk
 18	greiddu	greiða	VERB	so_1_þgf_fh_p3_ft_þt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	conj	_	tag=so_1_þgf_fh_p3_ft_þt_gm
 19	atkvæði	atkvæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obj	_	tag=no_et_þgf_hk
 20	gegn	gegn	ADP	fs_þgf	Case=Dat	21	case	_	tag=fs_þgf
 21	henni	hún	PRON	pfn_et_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	tag=pfn_et_þgf_kvk_p3
 22	og	og	CCONJ	st	_	18	cc	_	tag=st
-23	kusu	kjósa	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	18	cop	_	tag=so_1_þf_fh_p3_ft_þt_gm
-24	heldur	gjarnan	ADV	ao_mst	Degree=Cmp	18	advmod	_	tag=ao_mst
+23	kusu	kjósa	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	18	conj	_	tag=so_1_þf_fh_p3_ft_þt_gm
+24	heldur	gjarnan	ADV	ao_mst	Degree=Cmp	23	advmod	_	tag=ao_mst
 25	að	að	SCONJ	st	_	28	mark	_	tag=st
 26	vextir	vöxtur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	tag=no_et_nf_kk
 27	yrðu	verða	AUX	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	28	aux	_	tag=so_0_vh_p3_ft_þt_gm
-28	lækkaðir	lækka	VERB	so_0_lhþt_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part	18	obj	_	tag=so_0_lhþt_ft_nf_kk_sb
+28	lækkaðir	lækka	VERB	so_0_lhþt_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part	23	obj	_	tag=so_0_lhþt_ft_nf_kk_sb
 29	um	um	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
-30-31	0,25 prósentur	_	_	_	_	_	_	_	_
-30	0,25	0,25	NUM	prósenta_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No|tag=prósenta_et_þf_kvk
-31	prósentur	prósentur	NUM	prósenta_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	30	_	_	SpaceAfter=No|tag=prósenta_et_þf_kvk
+30	0,25	0,25	NUM	prósenta_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	tag=prósenta_et_þf_kvk
+31	prósentur	prósentur	NUM	prósenta_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	30	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=prósenta_et_þf_kvk
 32	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00181,.5
 # text = Og það fór drjúgur tími í gerð þessara búninga sem voru ansi margir og þá má ekki við neinum mistökum sem gætu orðið sýningunni og leikhúsinu dýrkeypt, segir hún.
-1	Og	og	SCONJ	st	_	3	cc	_	tag=st
+1	Og	og	SCONJ	st	_	3	dep	_	tag=st
 2	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
 3	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	drjúgur	drjúgur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	tag=lo_et_nf_kk_sb
@@ -171,7 +160,7 @@
 20	mistökum	mistak	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	16	obl	_	tag=no_ft_þgf_hk
 21	sem	sem	SCONJ	stt	_	22	mark	_	tag=stt
 22	gætu	geta	VERB	so_0_vh_p3_ft_þt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	20	acl:relcl	_	tag=so_0_vh_p3_ft_þt_gm
-23	orðið	verða	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	27	cop	_	tag=so_1_nf_sagnb_gm
+23	orðið	verða	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	27	cop	_	tag=so_1_nf_sagnb_gm
 24	sýningunni	sýning	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	27	obl	_	tag=no_et_þgf_kvk_gr
 25	og	og	CCONJ	st	_	26	cc	_	tag=st
 26	leikhúsinu	leikhús	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	24	conj	_	tag=no_et_þgf_hk_gr
@@ -188,12 +177,12 @@
 3	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 4	þessu	þessi	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	tag=fn_et_þgf_hk
 5	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	advmod	_	tag=no_et_þgf_hk
-6	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+6	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 7	svo	svo	ADV	ao	_	8	advmod	_	tag=ao
 8	skjalfest	skjalfestur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 9	að	að	SCONJ	st	_	12	mark	_	tag=st
 10	framhaldsskólum	framhaldsskóli	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	tag=no_ft_þgf_kk
-11	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_nt_gm
+11	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_nt_gm
 12	heimilt	heimill	ADJ	lo_et_nf_hk_sb_sþgf	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=lo_et_nf_hk_sb_sþgf
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
 14	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	12	nsubj	_	tag=so_1_þf_nh_gm
@@ -205,8 +194,8 @@
 20	lokaeinkunnum	lokaeinkunn	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	18	advcl	_	tag=no_ft_þgf_kvk
 21	úr	úr	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
 22	grunnskóla	grunnskóli	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	tag=no_et_þgf_kk
-23	eins	eins	ADV	ao	_	25	cc	_	tag=ao
-24	og	og	CCONJ	st	_	23	cc	_	tag=st
+23	eins	eins	ADV	ao	_	24	advmod	_	tag=ao
+24	og	og	CCONJ	st	_	25	mark	_	tag=st
 25	niðurstöður	niðurstaða	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	20	advcl	_	tag=no_ft_nf_kvk
 26	samræmdra	samræmdur	ADJ	lo_ft_ef_hk_sb	Case=Gen|Gender=Neut|Number=Plur	27	amod	_	tag=lo_ft_ef_hk_sb
 27	prófa	próf	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	25	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
@@ -240,10 +229,10 @@
 24	sem	sem	SCONJ	stt	_	26	mark	_	tag=stt
 25	flestir	margur	ADJ	lo_ft_nf_kk_esb	Case=Nom|Degree=Sup|Gender=Masc|Number=Plur	26	obl	_	tag=lo_ft_nf_kk_esb
 26	nýta	nýta	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	17	acl:relcl	_	tag=so_1_þf_nh_gm
-27	til	til	ADP	fs_ef	Case=Gen	28	case	_	tag=fs_ef
-28	þess	sá	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	26	obl	_	tag=fn_et_ef_kk
+27	til	til	ADP	fs_ef	Case=Gen	30	case	_	tag=fs_ef
+28	þess	sá	PRON	fn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	tag=fn_et_ef_kk
 29	að	að	PART	nhm	_	30	mark	_	tag=nhm
-30	hvíla	hvíla	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	28	xcomp	_	tag=so_1_þf_nh_gm
+30	hvíla	hvíla	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	26	obl	_	tag=so_1_þf_nh_gm
 31	sig	sig	PRON	abfn_þf	Case=Acc|PronType=Prs	30	obj	_	SpaceAfter=No|tag=abfn_þf
 32	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -257,7 +246,7 @@
 6	þar	þar	ADV	ao	_	5	advmod	_	tag=ao
 7	sem	sem	SCONJ	stt	_	8	mark	_	tag=stt
 8	haft	hafa	VERB	so_0_lhþt_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	6	advcl	_	tag=so_0_lhþt_et_nf_hk_sb
-9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	eftir	eftir	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	henni	hún	PRON	pfn_et_þgf_kvk_p3	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	tag=pfn_et_þgf_kvk_p3
 12	að	að	SCONJ	st	_	17	mark	_	tag=st
@@ -273,7 +262,7 @@
 22	endurgreiddir	endurgreiða	VERB	so_0_lhþt_ft_nf_kk_sb	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part	18	ccomp	_	SpaceAfter=No|tag=so_0_lhþt_ft_nf_kk_sb
 23	,	_	PUNCT	grm	_	22	punct	_	tag=grm
 24	enda	enda	CCONJ	st	_	2	cc	_	tag=st
-25	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+25	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	29	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 26	Kári	Kári	PROPN	person_nf_kk	Case=Nom|Gender=Masc	29	nsubj	_	tag=person_nf_kk
 27	ekki	ekki	ADV	ao	_	29	advmod	_	tag=ao
 28	lengur	lengi	ADV	ao_mst	Degree=Cmp	27	advmod	_	tag=ao_mst
@@ -283,13 +272,13 @@
 32	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00181,.9
-# text = Síðast þegar ég vissi þá var allt í standi og maðurinn sem þú vitnar í &#40; Richard &#41;, þá fannst honum þetta bara í lagi, segir Kristófer.
+# text = Síðast þegar ég vissi þá var allt í standi og maðurinn sem þú vitnar í&#40; Richard&#41;, þá fannst honum þetta bara í lagi, segir Kristófer.
 1	Síðast	síðar	ADV	ao_esb	Degree=Sup	9	advmod	_	tag=ao_esb
 2	þegar	þegar	SCONJ	st	_	4	mark	_	tag=st
 3	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
 4	vissi	vita	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	1	advcl	_	tag=so_1_þf_fh_p1_et_þt_gm
 5	þá	þá	ADV	ao	_	9	advmod	_	tag=ao
-6	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+6	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 7	allt	allur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=fn_et_nf_hk
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	standi	stand	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	0	root	_	tag=no_et_þgf_hk
@@ -299,24 +288,26 @@
 13	þú	þú	PRON	pfn_et_nf_p2	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	tag=pfn_et_nf_p2
 14	vitnar	vitna	VERB	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	11	acl:relcl	_	tag=so_0_fh_p2_et_nt_gm
 15	í	í	ADP	fs_þf	Case=Acc	14	case	_	SpaceAfter=No|tag=fs_þf
-16	&#40;	_	PUNCT	grm	_	17	punct	_	tag=grm
-17	Richard	Richard	PROPN	person_nf_kk	Case=Nom|Gender=Masc	16	conj	_	SpaceAfter=No|tag=person_nf_kk
+16	&#40;	_	PUNCT	grm	_	15	punct	_	tag=grm
+17	Richard	Richard	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	obl	_	SpaceAfter=No|tag=person_nf_kk
 18	&#41;	_	PUNCT	grm	_	17	punct	_	SpaceAfter=No|tag=grm
-19	,	_	PUNCT	grm	_	26	punct	_	tag=grm
-20	þá	þá	ADV	ao	_	26	advmod	_	tag=ao
-21	fannst	finna	VERB	so_2_þgf_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	26	conj	_	tag=so_2_þgf_nf_fh_p3_et_þt_mm
-22	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	iobj	_	tag=pfn_et_þgf_kk_p3
+19	,	_	PUNCT	grm	_	21	punct	_	tag=grm
+20	þá	þá	ADV	ao	_	21	advmod	_	tag=ao
+21	fannst	finna	VERB	so_2_þgf_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	9	conj	_	tag=so_2_þgf_nf_fh_p3_et_þt_mm
+22	honum	hann	PRON	pfn_et_þgf_kk_p3	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	iobj	_	tag=pfn_et_þgf_kk_p3
 23	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	26	obl	_	tag=fn_et_nf_hk
 24	bara	bara	ADV	ao	_	26	advmod	_	tag=ao
 25	í	í	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
-26	lagi	lag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No|tag=no_et_þgf_hk
+26	lagi	lag	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	22	xcomp	_	SpaceAfter=No|tag=no_et_þgf_hk
 27	,	_	PUNCT	grm	_	28	punct	_	tag=grm
 28	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	conj	_	tag=so_0_fh_p3_et_nt_gm
 29	Kristófer	Kristófer	PROPN	person_nf_kk	Case=Nom|Gender=Masc	28	nsubj	_	SpaceAfter=No|tag=person_nf_kk
 30	.	_	PUNCT	grm	_	9	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00181,.10
+# text = Hnausastrengur er einn af alræmdustu stórlaxastöðum landsins og ef að líkum lætur þá er þetta ellefti laxinn sem kemur á land þar í sumar sem er um og yfir 20 pund.
 1	Hnausastrengur	Hnausastrengur	PROPN	sérnafn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=sérnafn_et_nf_kk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	einn	einn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 4	af	af	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	alræmdustu	alræmdur	ADJ	lo_ft_þgf_kk_evb	Case=Dat|Degree=Sup|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_þgf_kk_evb
@@ -328,7 +319,7 @@
 11	líkum	líkur	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þgf_kvk
 12	lætur	láta	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	advcl	_	tag=so_0_fh_p3_et_nt_gm
 13	þá	þá	ADV	ao	_	17	advmod	_	tag=ao
-14	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+14	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 15	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	tag=fn_et_nf_hk
 16	ellefti	ellefti	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	17	amod	_	tag=lo_et_nf_kk_vb
 17	laxinn	lax	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	tag=no_et_nf_kk_gr
@@ -344,8 +335,7 @@
 27	um	um	ADV	eo	_	26	acl:relcl	_	tag=eo
 28	og	og	CCONJ	st	_	29	cc	_	tag=st
 29	yfir	yfir	ADV	eo	_	27	conj	_	tag=eo
-30-31	20 pund	_	_	_	_	_	_	_	_
 30	20	20	NUM	mælieining	_	27	nummod	_	tag=mælieining
-31	pund	pund	NUM	mælieining	_	30	_	_	tag=mælieining
+31	pund	pund	NUM	mælieining	_	30	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=mælieining
 32	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 

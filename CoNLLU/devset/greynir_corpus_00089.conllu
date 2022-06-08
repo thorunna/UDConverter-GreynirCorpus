@@ -22,9 +22,8 @@
 # text = Guðríður og Hrafnhildur Skúladóttir fengu báðar fleiri atkvæði en Karen og voru því báðar í úrvalsliðinu.
 1	Guðríður	Guðríður	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=person_et_nf_kvk
 2	og	og	CCONJ	st	_	3	cc	_	tag=st
-3-4	Hrafnhildur Skúladóttir	_	_	_	_	_	_	_	_
 3	Hrafnhildur	Hrafnhildur	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	tag=person_et_nf_kvk
-4	Skúladóttir	Skúladóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	tag=person_et_nf_kvk
+4	Skúladóttir	Skúladóttir	PROPN	person_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	MWEEnd=Yes|tag=person_et_nf_kvk
 5	fengu	fá	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 6	báðar	báðir	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	obl	_	tag=fn_ft_nf_kvk
 7	fleiri	margur	ADJ	lo_ft_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur	8	amod	_	tag=lo_ft_þf_hk_mst
@@ -32,11 +31,11 @@
 9	en	en	CCONJ	st	_	10	cc	_	tag=st
 10	Karen	Karen	PROPN	person_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	8	advcl	_	tag=person_et_þf_kvk
 11	og	og	CCONJ	st	_	5	cc	_	tag=st
-12	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	cop	_	tag=so_0_fh_p3_ft_þt_gm
-13	því	því	ADV	ao	_	5	advmod	_	tag=ao
-14	báðar	báðir	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	5	obl	_	tag=fn_ft_nf_kvk
+12	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	tag=so_0_fh_p3_ft_þt_gm
+13	því	því	ADV	ao	_	12	advmod	_	tag=ao
+14	báðar	báðir	PRON	fn_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	12	obl	_	tag=fn_ft_nf_kvk
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
-16	úrvalsliðinu	úrvalslið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
+16	úrvalsliðinu	úrvalslið	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 17	.	_	PUNCT	grm	_	5	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00089,.3
@@ -65,7 +64,7 @@
 3	fé	fé	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=no_et_nf_hk
 4	þessara	þessi	PRON	fn_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	tag=fn_ft_ef_kk
 5	banka	banki	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	3	nmod:poss	_	tag=no_ft_ef_kk
-6	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+6	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 7	m.v.	m.v.	ADP	fs	_	9	case	_	tag=fs
 8	síðustu	síðari	ADJ	lo_ft_þf_kvk_evb	Case=Acc|Degree=Sup|Gender=Fem|Number=Plur	9	amod	_	tag=lo_ft_þf_kvk_evb
 9	tölur	tala	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	tag=no_ft_þf_kvk
@@ -73,10 +72,9 @@
 11	Seðlabankanum	Seðlabanki	PROPN	fyrirtæki_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	tag=fyrirtæki_et_þgf_kk_gr
 12	rétt	rétt	ADV	eo	_	14	advmod	_	tag=eo
 13	um	um	ADV	eo	_	14	advmod	_	tag=eo
-14-16	630 milljarðar króna	_	_	_	_	_	_	_	_
-14	630	630	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|tag=no_ft_nf_kk
-15	milljarðar	milljarðar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	flat	_	SpaceAfter=No|tag=no_ft_nf_kk
-16	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	flat	_	SpaceAfter=No|tag=no_ft_nf_kk
+14	630	630	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=no_ft_nf_kk
+15	milljarðar	milljarðar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	flat	_	tag=no_ft_nf_kk
+16	króna	króna	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	14	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_ft_nf_kk
 17	.	_	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00089,.5
@@ -101,26 +99,25 @@
 
 # sent_id = GREYNIR_CORPUS_00089,.6
 # text = Man City endar í 2. sæti C-riðils en liðið er komið með átta stig.
-1-2	Man City	_	_	_	_	_	_	_	_
 1	Man	Man	PROPN	fyrirtæki	_	3	nsubj	_	tag=fyrirtæki
-2	City	City	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
+2	City	City	PROPN	fyrirtæki	_	1	flat	_	MWEEnd=Yes|tag=fyrirtæki
 3	endar	enda	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	2.	2.	NUM	raðnr_þgf_hk	Case=Dat|Gender=Neut|NumType=Ord	6	amod	_	tag=raðnr_þgf_hk
 6	sæti	sæti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
 7	C-riðils	C-riðill	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	6	nmod:poss	_	tag=no_et_ef_kk
 8	en	en	CCONJ	st	_	3	cc	_	tag=st
-9	liðið	lið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	tag=no_et_nf_hk
-10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
-11	komið	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	conj	_	tag=so_0_lhþt_et
+9	liðið	lið	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=no_et_nf_hk
+10	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
+11	komið	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	conj	_	tag=so_0_lhþt_et
 12	með	með	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 13	átta	átta	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	14	nummod	_	tag=töl_ft_þf_hk
-14	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
+14	stig	stig	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
 15	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00089,.7
 # text = Voru þau trúlofuð en söngkonan sleit trúlofuninni nokkrum mánuðum eftir að sonur þeirra kom í heiminn.
-1	Voru	vera	VERB	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
+1	Voru	vera	AUX	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 2	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_hk_p3
 3	trúlofuð	trúlofa	ADJ	lo_ft	Number=Plur	0	root	_	tag=lo_ft
 4	en	en	CCONJ	st	_	3	cc	_	tag=st
@@ -129,8 +126,8 @@
 7	trúlofuninni	trúlofun	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	obj	_	tag=no_et_þgf_kvk_gr
 8	nokkrum	nokkur	PRON	fn_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	tag=fn_ft_þgf_kk
 9	mánuðum	mánuður	ADV	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	6	advmod	_	tag=no_ft_þgf_kk
-10	eftir	eftir	ADV	ao	_	14	mark	_	tag=ao
-11	að	að	SCONJ	st	_	10	cc	_	tag=st
+10	eftir	eftir	ADV	ao	_	11	advmod	_	tag=ao
+11	að	að	SCONJ	st	_	14	mark	_	tag=st
 12	sonur	sonur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk
 13	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	12	nmod:poss	_	tag=pfn_ft_ef_hk_p3
 14	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	9	advcl	_	tag=so_0_fh_p3_et_þt_gm
@@ -142,7 +139,7 @@
 # text = Fyrirhugað bann er m.a. liður í að framfylgja aðgerðaáætlun ríkisstjórnarinnar í loftslagsmálum, sem og stjórnarsáttmála.
 1	Fyrirhugað	fyrirhugaður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	tag=lo_et_nf_hk_sb
 2	bann	bann	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	tag=no_et_nf_hk
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	m.a.	m.a.	ADV	eo	_	5	advmod	_	tag=eo
 5	liður	liður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 6	í	í	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
@@ -153,7 +150,7 @@
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	loftslagsmálum	loftslagsmál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
-14	sem	sem	SCONJ	st	_	9	cc	_	tag=st
+14	sem	sem	SCONJ	st	_	9	mark	_	tag=st
 15	og	og	CCONJ	st	_	14	cc	_	tag=st
 16	stjórnarsáttmála	stjórnarsáttmáli	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|tag=no_et_þgf_kk
 17	.	_	PUNCT	grm	_	5	punct	_	tag=grm
@@ -192,9 +189,8 @@
 10	flug	flug	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þf_hk
 11	með	með	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	útgáfu	útgáfa	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	tag=no_et_þgf_kvk
-13-14	Harry Potter	_	_	_	_	_	_	_	_
 13	Harry	Harry	PROPN	sérnafn_ef_kk	Case=Gen|Gender=Masc	12	nmod:poss	_	tag=sérnafn_ef_kk
-14	Potter	Potter	PROPN	sérnafn_ef_kk	Case=Gen|Gender=Masc	13	flat	_	tag=sérnafn_ef_kk
+14	Potter	Potter	PROPN	sérnafn_ef_kk	Case=Gen|Gender=Masc	13	flat	_	MWEEnd=Yes|tag=sérnafn_ef_kk
 15	á	á	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	Íslandi	Ísland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm

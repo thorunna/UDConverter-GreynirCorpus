@@ -1,10 +1,10 @@
 # sent_id = GREYNIR_CORPUS_00108,.1
 # text = Vesturlandi er ætlað að verða fréttablað fyrir þessi svæði og státar af einstakri dreifingu í samvinnu við Íslandspóst.
 1	Vesturlandi	vesturland	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	nsubj	_	tag=sérnafn_et_þgf_hk
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	ætlað	ætla	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
 4	að	að	PART	nhm	_	6	mark	_	tag=nhm
-5	verða	verða	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	cop	_	tag=so_1_nf_nh_gm
+5	verða	verða	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	6	cop	_	tag=so_1_nf_nh_gm
 6	fréttablað	fréttablað	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	xcomp	_	tag=no_et_nf_hk
 7	fyrir	fyrir	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 8	þessi	þessi	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	nmod	_	tag=fn_ft_þf_hk
@@ -30,8 +30,8 @@
 6	heima	heima	ADV	ao	_	5	advmod	_	tag=ao
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	utanríkisráðuneytinu	utanríkisráðuneyti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk_gr
-9	þar	þar	ADV	ao	_	17	mark	_	tag=ao
-10	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
+9	þar	þar	ADV	ao	_	10	advmod	_	tag=ao
+10	sem	sem	SCONJ	stt	_	17	mark	_	tag=stt
 11	mat	mat	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	tag=no_et_nf_hk
 12	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 13	pólitískri	pólitískur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	15	amod	_	tag=lo_et_þgf_kvk_sb
@@ -40,7 +40,7 @@
 16	getur	geta	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	aux	_	tag=so_0_fh_p3_et_nt_gm
 17	farið	fara	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	advcl	_	tag=so_0_sagnb_gm
 18	fram	fram	ADV	ao	_	17	advmod	_	SpaceAfter=No|tag=ao
-19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
+19	.	_	PUNCT	grm	_	18	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00108,.3
 # text = Þannig vill stjórnin koma til móts við gagnrýni meðal þeirra um kjarabreytingar í tengslum við rekstrarhagræðingu í Hörpu.
@@ -87,9 +87,8 @@
 
 # sent_id = GREYNIR_CORPUS_00108,.5
 # text = Bill Shorten, leiðtogi Verkamannaflokksins, fullyrti í dag að ríkisstjórn Turnbulls hefði misst umboð sitt í kosningunum.
-1-2	Bill Shorten	_	_	_	_	_	_	_	_
-1	Bill	Bill	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-2	Shorten	Shorten	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|tag=person_et_nf_kk
+1	Bill	Bill	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	tag=person_et_nf_kk
+2	Shorten	Shorten	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_et_nf_kk
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	leiðtogi	leiðtogi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Verkamannaflokksins	verkamannaflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk_gr
@@ -146,9 +145,8 @@
 14	undankeppni	undankeppni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 15	HM	HM	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	14	nmod:poss	_	tag=fyrirtæki_et_ef_hk
 16	2018	2018	NUM	ártal	_	15	nummod	_	tag=ártal
-17-18	í kvöld	_	_	_	_	_	_	_	_
-17	í	í	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
-18	kvöld	kvöld	ADV	ao	_	17	fixed	_	SpaceAfter=No|tag=ao
+17	í	í	ADV	ao	_	2	advmod	_	tag=ao
+18	kvöld	kvöld	ADV	ao	_	17	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 19	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00108,.8
@@ -160,9 +158,9 @@
 5	sæti	sæti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þgf_hk
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	Pepsi-deildinni	Pepsi-deild	PROPN	fyrirtæki_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	tag=fyrirtæki_et_þgf_kvk_gr
-8	ár	ár	X	x		2	dep	_	tag=x
+8	ár	ár	X	x	_	2	dep	_	tag=x
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
-10	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_0_fh_p3_et_þt_gm
+10	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_0_fh_p3_et_þt_gm
 11	aldrei	aldrei	ADV	ao	_	2	advmod	_	tag=ao
 12	í	í	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 13	alvöru	alvara	ADV	eo	_	14	advmod	_	tag=eo
@@ -174,7 +172,7 @@
 # sent_id = GREYNIR_CORPUS_00108,.9
 # text = Það er galið að ætla ekki að laga veginn um Dynjandisheiði fyrr en eftir þrjú til fimm ár.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	galið	galinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	ætla	ætla	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
@@ -197,9 +195,9 @@
 # text = Aldursbil félaga er breitt sem og reynsla þeirra en það gerir samstarfið þeim mun meira gefandi og áhugavert.
 1	Aldursbil	aldursbil	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
 2	félaga	félagi	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kk
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	breitt	breiður	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_fst_sb
-5	sem	sem	SCONJ	st	_	4	cc	_	tag=st
+5	sem	sem	SCONJ	st	_	4	mark	_	tag=st
 6	og	og	CCONJ	st	_	5	cc	_	tag=st
 7	reynsla	reynsla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_nf_kvk
 8	þeirra	hún	PRON	pfn_ft_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	nmod:poss	_	tag=pfn_ft_ef_kvk_p3

@@ -1,14 +1,14 @@
 # sent_id = GREYNIR_CORPUS_00389,.1
 # text = Frasinn er nefnilega beinþýðing úr dönsku, líkt og prófessor í íslensku bendir á.
 1	Frasinn	frasi	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	nefnilega	nefnilega	ADV	ao	_	4	advmod	_	tag=ao
 4	beinþýðing	bein-þýðing	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 5	úr	úr	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	dönsku	danska	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 7	,	,	PUNCT	grm	_	6	punct	_	tag=grm
-8	líkt	líkt	ADV	ao	_	13	cc	_	tag=ao
-9	og	og	CCONJ	st	_	8	cc	_	tag=st
+8	líkt	líkt	ADV	ao	_	9	advmod	_	tag=ao
+9	og	og	CCONJ	st	_	13	mark	_	tag=st
 10	prófessor	prófessor	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	tag=no_et_nf_kk
 11	í	í	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	íslensku	íslenska	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	tag=no_et_þf_kvk
@@ -18,7 +18,7 @@
 
 # sent_id = GREYNIR_CORPUS_00389,.2
 # text = En ég vissi að pabbi hans átti í vandræðum með áfengi eða eitthvað.
-1	En	en	SCONJ	st	_	3	cc	_	tag=st
+1	En	en	SCONJ	st	_	3	dep	_	tag=st
 2	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_p1
 3	vissi	vita	VERB	so_1_þf_fh_p1_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p1_et_þt_gm
 4	að	að	SCONJ	st	_	7	mark	_	tag=st
@@ -48,9 +48,8 @@
 11	geri	gera	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	conj	_	tag=so_1_þf_fh_p1_et_nt_gm
 12	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	tag=pfn_et_þf_hk_p3
 13	enn	enn	ADV	ao	_	11	advmod	_	tag=ao
-14-15	á ný	_	_	_	_	_	_	_	_
-14	á	á	ADV	ao	_	11	advmod	_	SpaceAfter=No|tag=ao
-15	ný	ný	ADV	ao	_	14	fixed	_	SpaceAfter=No|tag=ao
+14	á	á	ADV	ao	_	11	advmod	_	tag=ao
+15	ný	ný	ADV	ao	_	14	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00389,.4
@@ -73,11 +72,11 @@
 
 # sent_id = GREYNIR_CORPUS_00389,.5
 # text = Svo finnst mér líka gaman að sjá flíkurnar ōðlast nýtt líf hjá nýjum eigendum.
-1	Svo	svo	ADV	ao	_	5	advmod	_	tag=ao
-2	finnst	finna	VERB	so_0_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	5	conj	_	tag=so_0_op_subj_þgf_fh_p3_et_nt_mm
-3	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_þgf_p1
-4	líka	líka	ADV	ao	_	5	advmod	_	tag=ao
-5	gaman	gaman	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
+1	Svo	svo	ADV	ao	_	2	advmod	_	tag=ao
+2	finnst	finna	VERB	so_0_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_op_subj_þgf_fh_p3_et_nt_mm
+3	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_þgf_p1
+4	líka	líka	ADV	ao	_	2	advmod	_	tag=ao
+5	gaman	gaman	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	xcomp	_	tag=no_et_nf_hk
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
 7	sjá	sjá	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	xcomp	_	tag=so_1_þf_nh_gm
 8	flíkurnar	flík	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	tag=no_ft_þf_kvk_gr
@@ -87,18 +86,17 @@
 12	hjá	hjá	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
 13	nýjum	nýr	ADJ	lo_ft_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Plur	14	amod	_	tag=lo_ft_þgf_kk_sb
 14	eigendum	eigandi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þgf_kk
-15	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+15	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00389,.6
 # text = Veður fer heldur kólnandi og á morgun verður víða él en þurrt norðaustantil á landinu.
-1	Veður	veður	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
-2	fer	fara	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
+1	Veður	veður	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=no_et_nf_hk
+2	fer	fara	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	heldur	gjarna	ADV	eo_mst	Degree=Cmp	4	advmod	_	tag=eo_mst
-4	kólnandi	kólna	VERB	so_0_lhnt	_	0	root	_	tag=so_0_lhnt
+4	kólnandi	kólna	VERB	so_0_lhnt	_	2	xcomp	_	tag=so_0_lhnt
 5	og	og	CCONJ	st	_	4	cc	_	tag=st
-6-7	á morgun	_	_	_	_	_	_	_	_
 6	á	á	ADV	ao	_	8	advmod	_	tag=ao
-7	morgun	morgun	ADV	ao	_	6	fixed	_	tag=ao
+7	morgun	morgun	ADV	ao	_	6	fixed	_	MWEEnd=Yes|tag=ao
 8	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_nt_gm
 9	víða	víða	ADV	ao	_	8	advmod	_	tag=ao
 10	él	él	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
@@ -107,7 +105,7 @@
 13	norðaustantil	norðaustantil	ADV	ao	_	15	advmod	_	tag=ao
 14	á	á	ADP	fs_þgf	Case=Dat	15	case	_	tag=fs_þgf
 15	landinu	land	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
-16	.	.	PUNCT	grm	_	4	punct	_	tag=grm
+16	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00389,.7
 # text = Allir hafa reynt að leggja sitt að mörkum segir starfsmaður rækjuvinnslunnar Hólmadrangs á Hólmavík.
@@ -130,7 +128,7 @@
 # sent_id = GREYNIR_CORPUS_00389,.8
 # text = Fátt er meira rætt um á kaffistofum landsmanna en áhrif okkar á hlýnun jarðar.
 1	Fátt	fár	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=lo_et_nf_hk_sb
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	meira	mikið	ADV	eo_mst	Degree=Cmp	4	advmod	_	tag=eo_mst
 4	rætt	ræða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	um	um	ADV	ao	_	4	advmod	_	tag=ao
@@ -147,9 +145,8 @@
 
 # sent_id = GREYNIR_CORPUS_00389,.9
 # text = Smám saman ýtist ísinn fram af landinu og út í sjó þegar jökullinn stækkar innar.
-1-2	Smám saman	_	_	_	_	_	_	_	_
 1	Smám	smám	ADV	ao	_	3	advmod	_	tag=ao
-2	saman	saman	ADV	ao	_	1	fixed	_	tag=ao
+2	saman	saman	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	ýtist	ýta	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 4	ísinn	ís	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
 5	fram	fram	ADV	ao	_	7	advmod	_	tag=ao
@@ -165,18 +162,20 @@
 15	innar	inni	ADV	ao_mst	Degree=Cmp	14	advmod	_	SpaceAfter=No|tag=ao_mst
 16	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
-1	En	en	SCONJ	st	_	3	cc	_	tag=st
+# sent_id = GREYNIR_CORPUS_00389,.10
+# text = En við fögnum veðrinu og vökvum bara, teljum það ekki eftir okkur.
+1	En	en	SCONJ	st	_	3	dep	_	tag=st
 2	við	ég	PRON	pfn_ft_nf_p1	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_ft_nf_p1
 3	fögnum	fagna	VERB	so_1_þgf_fh_p1_ft_nt_gm	Case=Dat|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p1_ft_nt_gm
 4	veðrinu	veður	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obj	_	tag=no_et_þgf_hk_gr
 5	og	og	CCONJ	st	_	3	cc	_	tag=st
 6	vökvum	vökva	VERB	so_0_fh_p1_ft_nt_gm	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p1_ft_nt_gm
-7	bara	bara	ADV	ao	_	6	advmod	_	tag=ao
+7	bara	bara	ADV	ao	_	6	advmod	_	SpaceAfter=No|tag=ao
 8	,	,	PUNCT	grm	_	9	punct	_	tag=grm
 9	teljum	telja	VERB	so_1_þf_fh_p1_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þf_fh_p1_ft_nt_gm
 10	það	það	PRON	pfn_et_þf_hk_p3	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	tag=pfn_et_þf_hk_p3
 11	ekki	ekki	ADV	ao	_	9	advmod	_	tag=ao
 12	eftir	eftir	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	okkur	ég	PRON	pfn_ft_þgf_p1	Case=Dat|Number=Plur|Person=1|PronType=Prs	9	obl	_	tag=pfn_ft_þgf_p1
+13	okkur	ég	PRON	pfn_ft_þgf_p1	Case=Dat|Number=Plur|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No|tag=pfn_ft_þgf_p1
 14	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

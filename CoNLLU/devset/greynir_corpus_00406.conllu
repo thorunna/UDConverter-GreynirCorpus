@@ -1,12 +1,12 @@
 # sent_id = GREYNIR_CORPUS_00406,.1
 # text = Sósan er algjör dúndur en upprunalega er notaður mexíkóskur ostur í hana sem ekki fæst hérlendis.
 1	Sósan	sósa	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk_gr
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	algjör	algjör	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	tag=lo_et_nf_kk_sb
 4	dúndur	dúndur	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
 5	en	en	CCONJ	st	_	4	cc	_	tag=st
 6	upprunalega	upprunalega	ADV	ao	_	8	advmod	_	tag=ao
-7	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
+7	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	notaður	notaður	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	conj	_	tag=so_0_lhþt_et
 9	mexíkóskur	mexíkóskur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_nf_kk_sb
 10	ostur	ostur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
@@ -22,8 +22,8 @@
 # text = Hún hefur einnig verið beðin um að fróa einstaklingi sem hún var að hjálpa í bað.
 1	Hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_kvk_p3
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	einnig	einnig	ADV	ao	_	2	advmod	_	tag=ao
-4	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	aux	_	tag=so_1_nf_sagnb_gm
+3	einnig	einnig	ADV	ao	_	5	advmod	_	tag=ao
+4	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 5	beðin	biðja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 6	um	um	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
@@ -45,7 +45,7 @@
 3	og	og	CCONJ	st	_	4	cc	_	tag=st
 4	kanadísku	kanadískur	ADJ	lo_ft_þgf_hk_vb	Case=Dat|Gender=Neut|Number=Plur	2	conj	_	tag=lo_ft_þgf_hk_vb
 5	barnalæknasamtökunum	barna-læknasamtök	NOUN	no_ft_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	7	obl	_	tag=no_ft_þgf_hk_gr
-6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
+6	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	ráðlagt	ráðleggja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 8	að	að	SCONJ	st	_	14	mark	_	tag=st
 9	börn	barn	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	tag=no_ft_nf_hk
@@ -59,9 +59,9 @@
 17	.	.	PUNCT	grm	_	7	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00406,.4
-# text = Leikurinn var hörkuspennandi allt frá upphafi til enda, Snæfell leiddi 41 – 42 í hálfleik.
+# text = Leikurinn var hörkuspennandi allt frá upphafi til enda, Snæfell leiddi 41–42 í hálfleik.
 1	Leikurinn	leikur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	tag=no_et_nf_kk_gr
-2	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+2	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 3	hörkuspennandi	hörku-spenna	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 4	allt	allur	ADV	ao	_	3	advmod	_	tag=ao
 5	frá	frá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -72,7 +72,7 @@
 10	Snæfell	Snæfell	PROPN	fyrirtæki_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=fyrirtæki_et_nf_hk
 11	leiddi	leiða	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_þt_gm
 12	41	41	NUM	tala	NumType=Card	11	obj	_	SpaceAfter=No|tag=tala
-13	–	–	PUNCT	grm	_	12	punct	_	tag=grm
+13	–	–	PUNCT	grm	_	12	punct	_	SpaceAfter=No|tag=grm
 14	42	42	NUM	tala	NumType=Card	12	nummod	_	tag=tala
 15	í	í	ADV	fs_þf	Case=Acc	11	advmod	_	tag=fs_þf
 16	hálfleik	hálfleikur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þf_kk
@@ -80,7 +80,7 @@
 
 # sent_id = GREYNIR_CORPUS_00406,.5
 # text = Var það kannski tregða við að upplýsa hvernig stærsta kosningamál síðustu ríkisstjórnar kom út?
-1	Var	var	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_1_nf_fh_p3_et_þt_gm
+1	Var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 2	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
 3	kannski	kannski	ADV	ao	_	4	advmod	_	tag=ao
 4	tregða	tregða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
@@ -98,9 +98,8 @@
 
 # sent_id = GREYNIR_CORPUS_00406,.6
 # text = British Airways átti að fara í 143 ferðir frá Heathrow og Gatwick milli klukkan 6 og 11 í morgun.
-1-2	British Airways	_	_	_	_	_	_	_	_
 1	British	British	PROPN	fyrirtæki	_	3	nsubj	_	tag=fyrirtæki
-2	Airways	Airways	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
+2	Airways	Airways	PROPN	fyrirtæki	_	1	flat	_	MWEEnd=Yes|tag=fyrirtæki
 3	átti	eiga	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	fara	far	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
@@ -112,22 +111,19 @@
 11	og	og	CCONJ	st	_	12	cc	_	tag=st
 12	Gatwick	Gatwick	PROPN	fyrirtæki_þgf_hk	Case=Dat|Gender=Neut	10	conj	_	tag=fyrirtæki_þgf_hk
 13	milli	mill	ADP	fs_ef	Case=Gen	14	case	_	tag=fs_ef
-14-15	klukkan 6	_	_	_	_	_	_	_	_
 14	klukkan	klukkan	ADV	tími	_	5	advmod	_	tag=tími
-15	6	6	NUM	tími	_	14	flat	_	tag=tími
+15	6	6	NUM	tími	_	14	flat	_	MWEEnd=Yes|tag=tími
 16	og	og	CCONJ	st	_	14	cc	_	tag=st
 17	11	11	NUM	tala_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	14	nummod	_	tag=tala_ft_nf_kvk
-18-19	í morgun	_	_	_	_	_	_	_	_
-18	í	í	ADV	ao	_	14	advmod	_	SpaceAfter=No|tag=ao
-19	morgun	morgun	ADV	ao	_	18	fixed	_	SpaceAfter=No|tag=ao
+18	í	í	ADV	ao	_	14	advmod	_	tag=ao
+19	morgun	morgun	ADV	ao	_	18	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 20	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00406,.7
 # text = Sóley Guðmundsdóttir er fyrirliði kvennaliðsins og hún segir að draumurinn sé að koma heim með báða bikarana.
-1-2	Sóley Guðmundsdóttir	_	_	_	_	_	_	_	_
 1	Sóley	Sóley	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	nsubj	_	tag=person_nf_kvk
-2	Guðmundsdóttir	Guðmundsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
-3	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	Guðmundsdóttir	Guðmundsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	MWEEnd=Yes|tag=person_nf_kvk
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	fyrirliði	fyrirliði	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	kvennaliðsins	kvennalið	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=no_et_ef_hk_gr
 6	og	og	CCONJ	st	_	4	cc	_	tag=st
@@ -148,16 +144,15 @@
 # text = Ekki hefur verið greint frá nafni byssumannsins enn sem komið er og lítið vitað um hvatirnar að baki íllvirkinu.
 1	Ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	ver	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	aux	_	tag=so_0_sagnb_gm
+3	verið	ver	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	dep	_	tag=so_0_sagnb_gm
 4	greint	greina	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	frá	frá	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	nafni	nafn	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk
 7	byssumannsins	byssumaður	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod:poss	_	tag=no_et_ef_kk_gr
-8-11	enn sem komið er	_	_	_	_	_	_	_	_
 8	enn	enn	ADV	ao	_	4	advmod	_	tag=ao
 9	sem	sem	ADV	ao	_	8	fixed	_	tag=ao
 10	komið	komið	ADV	ao	_	8	fixed	_	tag=ao
-11	er	er	ADV	ao	_	8	fixed	_	tag=ao
+11	er	er	ADV	ao	_	8	fixed	_	MWEEnd=Yes|tag=ao
 12	og	og	CCONJ	st	_	4	cc	_	tag=st
 13	lítið	líta	ADV	eo	_	14	advmod	_	tag=eo
 14	vitað	vita	VERB	so_0_sagnb	VerbForm=Sup	4	conj	_	tag=so_0_sagnb
@@ -200,7 +195,7 @@
 8	því	það	ADV	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	advmod	_	tag=pfn_et_þgf_hk_p3
 9	að	að	SCONJ	st	_	10	mark	_	tag=st
 10	kosið	kjósa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	8	advcl	_	tag=so_0_lhþt_et
-11	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_þt_gm
+11	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	10	cop	_	tag=so_0_fh_p3_et_þt_gm
 12	vorið	vor	ADV	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	advmod	_	tag=no_et_þf_hk_gr
 13	2013	2013	NUM	ártal	_	12	nummod	_	tag=ártal
 14	eða	eða	CCONJ	st	_	1	cc	_	tag=st

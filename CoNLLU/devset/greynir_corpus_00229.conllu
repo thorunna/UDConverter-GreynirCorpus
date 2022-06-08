@@ -36,7 +36,7 @@
 6	hana	hún	PRON	pfn_et_þf_kvk_p3	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	tag=pfn_et_þf_kvk_p3
 7	að	að	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	sumarhöfn	sumarhöfn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	tag=no_et_þgf_kvk
-9	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+9	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 10	annað	annar	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nmod	_	tag=fn_et_nf_hk
 11	mál	mál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_hk
 12	.	_	PUNCT	grm	_	11	punct	_	tag=grm
@@ -80,20 +80,20 @@
 5	föður	faðir	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	tag=no_et_þf_kk
 6	sinn	sinn	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	tag=fn_et_þf_kk
 7	misserin	misseri	ADV	no_ft_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	4	advmod	_	tag=no_ft_þf_hk_gr
-8	áður	áður	ADV	ao	_	11	cc	_	tag=ao
-9	en	en	CCONJ	st	_	8	cc	_	tag=st
+8	áður	áður	ADV	ao	_	9	advmod	_	tag=ao
+9	en	en	CCONJ	st	_	11	mark	_	tag=st
 10	dómur	dómur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	tag=no_et_nf_kk
 11	féll	falla	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	advcl	_	SpaceAfter=No|tag=so_0_fh_p3_et_þt_gm
 12	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00229,.7
 # text = Selfossþrenna, tvenna eða hvað gerir hann með ungu strákana hans Patta
-1	Selfossþrenna	Selfossþrennur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
+1	Selfossþrenna	Selfossþrennur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	tvenna	tvennur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	1	amod	_	tag=lo_et_nf_kvk_sb
-4	eða	eða	CCONJ	st	_	6	cc	_	tag=st
+4	eða	eða	CCONJ	st	_	1	cc	_	tag=st
 5	hvað	hver	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	tag=fn_et_þf_hk
-6	gerir	gera	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+6	gerir	gera	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
 7	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_et_nf_kk_p3
 8	með	með	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 9	ungu	ungur	ADJ	lo_ft_þf_kk_vb	Case=Acc|Gender=Masc|Number=Plur	10	amod	_	tag=lo_ft_þf_kk_vb
@@ -119,7 +119,7 @@
 # sent_id = GREYNIR_CORPUS_00229,.9
 # text = Talið er að þau hafi komið að athöfninni með einhverjum hætti.
 1	Talið	telja	VERB	so_0_lhþt_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et_nf_hk_sb
-2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	aux	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	að	að	SCONJ	st	_	6	mark	_	tag=st
 4	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	tag=pfn_ft_nf_hk_p3
 5	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_vh_p3_ft_nt_gm
@@ -131,9 +131,11 @@
 11	hætti	háttur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þgf_kk
 12	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00229,.10
+# text = Geimfarið Juno er sá mannbyggði hlutur sem hefur náð mestum hraða.
 1	Geimfarið	geimfar	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk_gr
 2	Juno	Juno	PROPN	sérnafn	_	1	obl	_	tag=sérnafn
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	sá	sá	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	tag=fn_et_nf_kk
 5	mannbyggði	mannbyggður	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_vb
 6	hlutur	hlutur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
@@ -141,6 +143,6 @@
 8	hefur	hafa	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 9	náð	ná	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	8	acl:relcl	_	tag=so_1_þgf_sagnb_gm
 10	mestum	mikill	ADJ	lo_et_þgf_kk_esb	Case=Dat|Degree=Sup|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_þgf_kk_esb
-11	hraða	hraði	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obj	_	tag=no_et_þgf_kk
+11	hraða	hraði	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|tag=no_et_þgf_kk
 12	.	_	PUNCT	grm	_	6	punct	_	tag=grm
 

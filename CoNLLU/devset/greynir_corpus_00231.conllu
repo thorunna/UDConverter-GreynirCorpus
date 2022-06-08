@@ -2,7 +2,7 @@
 # text = Hérna hefur verið gengið lengra en það sem Svanurinn setur okkur.
 1	Hérna	hérna	ADV	ao	_	4	advmod	_	tag=ao
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	aux	_	tag=so_0_fh_p3_et_nt_gm
-3	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	aux	_	tag=so_0_sagnb_gm
+3	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	4	cop	_	tag=so_0_sagnb_gm
 4	gengið	ganga	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	lengra	langur	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	4	amod	_	tag=lo_et_nf_hk_mst
 6	en	en	CCONJ	st	_	7	cc	_	tag=st
@@ -22,7 +22,7 @@
 5	upplýsingatækni	upplýsingatækni	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kvk
 6	í	í	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 7	skólastarfi	skólastarf	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	tag=no_et_þgf_hk
-8	voru	vera	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_0_fh_p3_ft_þt_gm
+8	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_0_fh_p3_ft_þt_gm
 9	rædd	ræða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 11	ráðstefnunni	ráðstefna	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
@@ -33,7 +33,7 @@
 1	Héraðsdómur	héraðsdómur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	tag=no_et_nf_kk
 2	Reykjavíkur	Reykjavík	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk
 3	og	og	CCONJ	st	_	1	cc	_	tag=st
-4	EFTA	EFTA	ADV	abbrev	_	1	VANTAR_LIÐ	_	tag=abbrev
+4	EFTA	EFTA	ADV	abbrev	_	1	obl	_	tag=abbrev
 5	dómstóllinn	dómstóll	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	tag=no_et_nf_kk_gr
 6	höfðu	hafa	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	8	aux	_	tag=so_0_fh_p3_ft_þt_gm
 7	áður	áður	ADV	ao	_	8	advmod	_	tag=ao
@@ -81,11 +81,10 @@
 4	Datous	Datous	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	3	nmod:poss	_	tag=no_et_ef_hk
 5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	vef	vefur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þgf_kk
-7-10	South China Morning Post	_	_	_	_	_	_	_	_
 7	South	South	PROPN	entity	_	6	nmod:poss	_	tag=entity
 8	China	China	PROPN	entity	_	7	flat	_	tag=entity
 9	Morning	Morning	PROPN	entity	_	7	flat	_	tag=entity
-10	Post	Post	PROPN	entity	_	7	flat	_	tag=entity
+10	Post	Post	PROPN	entity	_	7	flat	_	MWEEnd=Yes|tag=entity
 11	hér	hér	ADV	ao	_	1	advmod	_	SpaceAfter=No|tag=ao
 12	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
@@ -120,22 +119,22 @@
 
 # sent_id = GREYNIR_CORPUS_00231,.9
 # text = Erla Kolbrún reyndi að taka eigið líf þann 11. ágúst síðastliðinn.
-1-2	Erla Kolbrún	_	_	_	_	_	_	_	_
 1	Erla	Erla	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	3	nsubj	_	tag=person_nf_kvk
-2	Kolbrún	Kolbrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	tag=person_nf_kvk
+2	Kolbrún	Kolbrún	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	1	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 3	reyndi	reyna	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	taka	taka	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
 6	eigið	eigin	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þf_hk_sb
 7	líf	líf	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	tag=no_et_þf_hk
 8	þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	tag=fn_et_þf_kk
-9-10	11. ágúst	_	_	_	_	_	_	_	_
 9	11.	11.	ADV	dagsafs	_	3	advmod	_	tag=dagsafs
-10	ágúst	ágúst	NOUN	dagsafs	_	9	flat	_	tag=dagsafs
+10	ágúst	ágúst	NOUN	dagsafs	_	9	flat	_	MWEEnd=Yes|tag=dagsafs
 11	síðastliðinn	síðastliðinn	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No|tag=lo_et_þf_kk_sb
 12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
-1	Og	og	SCONJ	st	_	8	cc	_	tag=st
+# sent_id = GREYNIR_CORPUS_00231,.10
+# text = Og þegar ég segi ráða öllu þá meina ég bókstaflega öllu.
+1	Og	og	SCONJ	st	_	8	dep	_	tag=st
 2	þegar	þegar	SCONJ	st	_	4	mark	_	tag=st
 3	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_p1
 4	segi	segja	VERB	so_1_þf_fh_p1_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	8	advcl	_	tag=so_1_þf_fh_p1_et_nt_gm
@@ -145,6 +144,6 @@
 8	meina	meina	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p1_et_nt_gm
 9	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	tag=pfn_et_nf_p1
 10	bókstaflega	bókstaflega	ADV	ao	_	8	iobj	_	tag=ao
-11	öllu	öllu	ADV	ao	_	10	advmod	_	tag=ao
+11	öllu	öllu	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
 12	.	_	PUNCT	grm	_	8	punct	_	tag=grm
 

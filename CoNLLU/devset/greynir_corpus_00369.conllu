@@ -35,7 +35,7 @@
 3	ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
 4	vita	vita	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_1_þf_nh_gm
 5	hvort	hvort	CCONJ	st	_	11	cc	_	tag=st
-6	að	að	SCONJ	st	_	5	cc	_	tag=st
+6	að	að	SCONJ	st	_	5	fixed	_	tag=st
 7	sú	sá	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	8	nmod	_	tag=fn_et_nf_kvk
 8	afstaða	afstaða	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	tag=no_et_nf_kvk
 9	hennar	hún	PRON	pfn_et_ef_kvk_p3	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	tag=pfn_et_ef_kvk_p3
@@ -48,14 +48,13 @@
 1	Þá	þá	ADV	ao	_	2	advmod	_	tag=ao
 2	sagði	segja	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 3	Sigmundur	Sigmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
-4-5	Lilju Alfreðsdóttur	_	_	_	_	_	_	_	_
-4	Lilju	Lilja	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	nsubj	_	SpaceAfter=No|tag=person_þf_kvk
-5	Alfreðsdóttur	Alfreðsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	4	flat	_	SpaceAfter=No|tag=person_þf_kvk
+4	Lilju	Lilja	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	11	nsubj	_	tag=person_þf_kvk
+5	Alfreðsdóttur	Alfreðsdóttir	PROPN	person_þf_kvk	Case=Acc|Gender=Fem	4	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_þf_kvk
 6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
 7	varaformann	varaformaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
 8	Framsóknarflokksins	Framsóknarflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk_gr
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
-10	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	cop	_	tag=so_0_nh_gm
+10	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	cop	_	tag=so_0_nh_gm
 11	bandamann	bandamaður	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	xcomp	_	tag=no_et_þf_kk
 12	Miðflokksins	Miðflokkur	PROPN	fyrirtæki_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod:poss	_	SpaceAfter=No|tag=fyrirtæki_et_ef_kk_gr
 13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
@@ -70,7 +69,7 @@
 6	dómstóla	dómstóll	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_ef_kk
 7	því	því	SCONJ	st	_	11	mark	_	tag=st
 8	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_hk_p3
-9	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
+9	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 10	svo	svo	ADV	eo	_	11	advmod	_	tag=eo
 11	dýrt	dýr	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	4	advcl	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
 12	.	.	PUNCT	grm	_	4	punct	_	tag=grm
@@ -107,17 +106,17 @@
 
 # sent_id = GREYNIR_CORPUS_00369,.8
 # text = Mér finnst þetta frábær kynslóð sem er að alast upp.
-1	Mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_þgf_p1
-2	finnst	finna	VERB	so_1_nf_op_subj_þgf_fh_p1_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Mid	5	conj	_	tag=so_1_nf_op_subj_þgf_fh_p1_et_nt_mm
+1	Mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	tag=pfn_et_þgf_p1
+2	finnst	finna	VERB	so_1_nf_op_subj_þgf_fh_p1_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_nf_op_subj_þgf_fh_p1_et_nt_mm
 3	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	5	obj	_	tag=fn_et_nf_hk
 4	frábær	frábær	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	tag=lo_et_nf_kvk_sb
-5	kynslóð	kynslóð	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk
-6	sem	sem	SCONJ	stt	_	7	mark	_	tag=stt
-7	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
+5	kynslóð	kynslóð	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	xcomp	_	tag=no_et_nf_kvk
+6	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
+7	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	alast	ala	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	7	xcomp	_	tag=so_0_nh_mm
+9	alast	ala	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	5	xcomp	_	tag=so_0_nh_mm
 10	upp	upp	ADV	ao	_	9	advmod	_	SpaceAfter=No|tag=ao
-11	.	.	PUNCT	grm	_	5	punct	_	tag=grm
+11	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00369,.9
 # text = Um 75.000 þjóðvarðliðar, lögreglumenn, slökkviliðs- og strandgæslumenn taka þátt í hjálpar- og leitarstörfum.
@@ -127,20 +126,20 @@
 4	,	,	PUNCT	grm	_	5	punct	_	tag=grm
 5	lögreglumenn	lögreglumaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No|tag=no_ft_nf_kk
 6	,	,	PUNCT	grm	_	7	punct	_	tag=grm
-7-9	slökkviliðs- og strandgæslumenn	_	_	_	_	_	_	_	_
 7	slökkviliðs-	slökkviliðs-	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	tag=no_ft_nf_kk
 8	og	og	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	flat	_	tag=no_ft_nf_kk
-9	strandgæslumenn	strand-gæslumaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	flat	_	tag=no_ft_nf_kk
+9	strandgæslumenn	strand-gæslumaður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	7	flat	_	MWEEnd=Yes|tag=no_ft_nf_kk
 10	taka	tak	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
 11	þátt	þáttur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	tag=no_et_þf_kk
 12	í	í	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13-15	hjálpar- og leitarstörfum	_	_	_	_	_	_	_	_
-13	hjálpar-	hjálpar-	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
-14	og	og	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	flat	_	SpaceAfter=No|tag=no_ft_þgf_hk
-15	leitarstörfum	leitarstarf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	flat	_	SpaceAfter=No|tag=no_ft_þgf_hk
+13	hjálpar-	hjálpar-	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	tag=no_ft_þgf_hk
+14	og	og	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	flat	_	tag=no_ft_þgf_hk
+15	leitarstörfum	leitarstarf	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	13	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=no_ft_þgf_hk
 16	.	.	PUNCT	grm	_	10	punct	_	tag=grm
 
-1	Því	því	SCONJ	st	_	5	cc	_	tag=st
+# sent_id = GREYNIR_CORPUS_00369,.10
+# text = Því ég má ekki segja hvað sá sem nauðgaði mér heitir.
+1	Því	því	SCONJ	st	_	5	dep	_	tag=st
 2	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_p1
 3	má	mega	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p1_et_nt_gm
 4	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
@@ -150,6 +149,6 @@
 8	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 9	nauðgaði	nauðga	VERB	so_1_þgf_fh_p3_et_þt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	tag=so_1_þgf_fh_p3_et_þt_gm
 10	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	obj	_	tag=pfn_et_þgf_p1
-11	heitir	heita	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	obj	_	tag=so_1_þf_fh_p3_et_nt_gm
+11	heitir	heita	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	obj	_	SpaceAfter=No|tag=so_1_þf_fh_p3_et_nt_gm
 12	.	.	PUNCT	grm	_	5	punct	_	tag=grm
 

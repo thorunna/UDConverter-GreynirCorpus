@@ -18,7 +18,7 @@
 16	þýða	þýða	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	advcl	_	tag=so_1_þf_nh_gm
 17	að	að	SCONJ	st	_	21	mark	_	tag=st
 18	Seðlabankinn	Seðlabanki	PROPN	fyrirtæki_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	tag=fyrirtæki_et_nf_kk_gr
-19	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	21	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
+19	væri	vera	AUX	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	21	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 20	ekki	ekki	ADV	eo	_	21	advmod	_	tag=eo
 21	einn	einn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	tag=lo_et_nf_kk_sb
 22	í	í	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
@@ -45,16 +45,16 @@
 8	líkamlegri	líkamlegur	ADJ	lo_et_þgf_kvk_sb	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	tag=lo_et_þgf_kvk_sb
 9	tjáningu	tjáning	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
-11	svo	svo	ADV	ao	_	9	dep	_	tag=ao
-12	sem	sem	SCONJ	st	_	11	cc	_	tag=st
+11	svo	svo	ADV	ao	_	12	advmod	_	tag=ao
+12	sem	sem	SCONJ	st	_	9	dep	_	tag=st
 13	að	að	PART	nhm	_	14	mark	_	tag=nhm
-14	ganga	ganga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	11	xcomp	_	tag=so_0_nh_gm
+14	ganga	ganga	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	12	xcomp	_	tag=so_0_nh_gm
 15	með	með	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	hárkollu	hárkolla	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	tag=no_et_þgf_kvk
 17	og	og	CCONJ	st	_	6	cc	_	tag=st
 18	að	að	SCONJ	st	_	6	mark	_	tag=st
 19	Smith	Smith	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	tag=person_et_nf_kk
-20	eigi	eiga	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	VANTAR_LIÐ_IP_None	_	tag=so_0_vh_p3_et_nt_gm
+20	eigi	eiga	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	dep	_	tag=so_0_vh_p3_et_nt_gm
 21	ekki	ekki	ADV	ao	_	20	advmod	_	tag=ao
 22	að	að	PART	nhm	_	23	mark	_	tag=nhm
 23	glata	glata	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_1_þgf_nh_gm
@@ -62,7 +62,7 @@
 25	sínum	sinn	PRON	fn_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	24	nmod	_	tag=fn_ft_þgf_hk
 26	við	við	ADP	fs_nh	VerbForm=Inf	29	case	_	tag=fs_nh
 27	að	að	PART	nhm	_	29	mark	_	tag=nhm
-28	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	29	aux	_	tag=so_0_nh_gm
+28	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	29	cop	_	tag=so_0_nh_gm
 29	dæmdur	dæma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	23	obl	_	tag=so_0_lhþt_et
 30	í	í	ADP	fs_þf	Case=Acc	31	case	_	tag=fs_þf
 31	fangelsi	fangelsi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	29	obl	_	SpaceAfter=No|tag=no_et_þf_hk
@@ -73,7 +73,7 @@
 1	Þá	þá	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 2	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_vh_p3_et_nt_gm
 3	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
-4	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
+4	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	5	cop	_	tag=so_1_nf_sagnb_gm
 5	ljóst	ljós	ADJ	lo_et_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_fst_sb
 6	hversu	hversu	ADV	ao	_	7	advmod	_	tag=ao
 7	opið	opinn	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	9	xcomp	_	tag=lo_et_nf_hk_sb
@@ -101,18 +101,16 @@
 
 # sent_id = GREYNIR_CORPUS_00182,.4
 # text = Í gær kom í ljós að leikarinn Þórir Sæmundsson væri á bak við nafnlausa Twitter-aðganginn BoringGylfiSig en umræða um aðganginn hefur farið hátt á meðal Íslendinga á samskiptaforritinu.
-1-2	Í gær	_	_	_	_	_	_	_	_
 1	Í	í	ADV	ao	_	3	advmod	_	tag=ao
-2	gær	gær	ADV	ao	_	1	fixed	_	tag=ao
+2	gær	gær	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 3	kom	koma	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	í	í	ADP	fs_þf	Case=Acc	5	case	_	tag=fs_þf
 5	ljós	ljós	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
 6	að	að	SCONJ	st	_	12	mark	_	tag=st
 7	leikarinn	leikari	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	tag=no_et_nf_kk_gr
-8-9	Þórir Sæmundsson	_	_	_	_	_	_	_	_
 8	Þórir	Þórir	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
-9	Sæmundsson	Sæmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	flat	_	tag=person_nf_kk
-10	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
+9	Sæmundsson	Sæmundsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	flat	_	MWEEnd=Yes|tag=person_nf_kk
+10	væri	vera	AUX	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	12	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 11	á	á	ADP	fs_þf	Case=Acc	12	case	_	tag=fs_þf
 12	bak	bak	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_þf_hk
 13	við	við	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
@@ -127,7 +125,7 @@
 22	farið	fara	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	3	conj	_	tag=so_0_sagnb_gm
 23	hátt	hátt	ADV	ao	_	22	advmod	_	tag=ao
 24	á	á	ADP	fs_ef	Case=Gen	26	case	_	tag=fs_ef
-25	meðal	meðal	ADP	fs_ef	Case=Gen	24	case	_	tag=fs_ef
+25	meðal	meðal	ADP	fs_ef	Case=Gen	24	fixed	_	tag=fs_ef
 26	Íslendinga	Íslendingur	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	22	obl	_	tag=no_ft_ef_kk
 27	á	á	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
 28	samskiptaforritinu	samskiptaforrit	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	26	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
@@ -135,10 +133,9 @@
 
 # sent_id = GREYNIR_CORPUS_00182,.5
 # text = Juan Manuel Santos Kólumbíuforseti hefur kallað formann samninganefndar sinnar heim frá samningaborðinu í Kító í Ekvador, þar sem friðarviðræður áttu að hefjast á ný í gær við fulltrúa Frelsishers Kólumbíu.
-1-3	Juan Manuel Santos	_	_	_	_	_	_	_	_
 1	Juan	Juan	PROPN	person_nf_kk	Case=Nom|Gender=Masc	6	nsubj	_	tag=person_nf_kk
 2	Manuel	Manuel	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
-3	Santos	Santos	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+3	Santos	Santos	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 4	Kólumbíuforseti	Kólumbíuforseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_fh_p3_et_nt_gm
 6	kallað	kalla	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
@@ -153,18 +150,16 @@
 15	í	í	ADP	fs_þgf	Case=Dat	16	case	_	tag=fs_þgf
 16	Ekvador	Ekvador	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 17	,	_	PUNCT	grm	_	16	punct	_	tag=grm
-18	þar	þar	ADV	ao	_	21	mark	_	tag=ao
-19	sem	sem	SCONJ	st	_	18	cc	_	tag=st
+18	þar	þar	ADV	ao	_	19	advmod	_	tag=ao
+19	sem	sem	SCONJ	st	_	21	mark	_	tag=st
 20	friðarviðræður	friðarviðræða	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	tag=no_ft_nf_kvk
 21	áttu	eiga	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	advcl	_	tag=so_0_fh_p3_ft_þt_gm
 22	að	að	PART	nhm	_	23	mark	_	tag=nhm
 23	hefjast	hefja	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	21	xcomp	_	tag=so_0_nh_mm
-24-25	á ný	_	_	_	_	_	_	_	_
 24	á	á	ADV	ao	_	23	advmod	_	tag=ao
-25	ný	ný	ADV	ao	_	24	fixed	_	tag=ao
-26-27	í gær	_	_	_	_	_	_	_	_
+25	ný	ný	ADV	ao	_	24	fixed	_	MWEEnd=Yes|tag=ao
 26	í	í	ADV	ao	_	23	advmod	_	tag=ao
-27	gær	gær	ADV	ao	_	26	fixed	_	tag=ao
+27	gær	gær	ADV	ao	_	26	fixed	_	MWEEnd=Yes|tag=ao
 28	við	við	ADP	fs_þf	Case=Acc	29	case	_	tag=fs_þf
 29	fulltrúa	fulltrúi	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	23	obl	_	tag=no_et_þf_kk
 30	Frelsishers	frelsisher	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	29	nmod:poss	_	tag=no_et_ef_kk
@@ -173,9 +168,8 @@
 
 # sent_id = GREYNIR_CORPUS_00182,.6
 # text = Árið 1972, á blóðuga sunnudeginum þegar breskir hermenn skutu 14 manns til bana sem voru í mótmælagöngu í Derry, var McGuinness 21 árs og orðinn næstráðandi í Írska lýðveldishernum.
-1-2	Árið 1972	_	_	_	_	_	_	_	_
-1	Árið	Árið	ADV	ártal	_	24	advmod	_	SpaceAfter=No|tag=ártal
-2	1972	1972	NUM	ártal	_	1	flat	_	SpaceAfter=No|tag=ártal
+1	Árið	Árið	ADV	ártal	_	24	advmod	_	tag=ártal
+2	1972	1972	NUM	ártal	_	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=ártal
 3	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 4	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 5	blóðuga	blóðugur	ADJ	lo_et_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_þgf_kk_vb
@@ -195,16 +189,16 @@
 19	í	í	ADP	fs_þgf	Case=Dat	20	case	_	tag=fs_þgf
 20	Derry	Derry	PROPN	sérnafn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk
 21	,	_	PUNCT	grm	_	24	punct	_	tag=grm
-22	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+22	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	24	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 23	McGuinness	McGuinness	PROPN	person_nf_kk	Case=Nom|Gender=Masc	24	nsubj	_	tag=person_nf_kk
 24	21	21	NUM	tala	NumType=Card	0	root	_	tag=tala
 25	árs	ár	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	24	xcomp	_	tag=no_et_ef_kk
 26	og	og	CCONJ	st	_	24	cc	_	tag=st
-27	orðinn	verða	VERB	so_1_nf_lhþt_et	Case=Nom|Number=Sing|VerbForm=Part	24	cop	_	tag=so_1_nf_lhþt_et
-28	næstráðandi	næstráðandi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	24	cop	_	tag=no_et_nf_kk
+27	orðinn	verða	AUX	so_1_nf_lhþt_et	Case=Nom|Number=Sing|VerbForm=Part	28	cop	_	tag=so_1_nf_lhþt_et
+28	næstráðandi	næstráðandi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	24	conj	_	tag=no_et_nf_kk
 29	í	í	ADP	fs_þgf	Case=Dat	31	case	_	tag=fs_þgf
 30	Írska	írskur	ADJ	lo_et_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Sing	31	amod	_	tag=lo_et_þgf_kk_vb
-31	lýðveldishernum	lýðveldisher	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
+31	lýðveldishernum	lýðveldisher	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 32	.	_	PUNCT	grm	_	24	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00182,.7
@@ -223,7 +217,7 @@
 12	að	að	SCONJ	st	_	16	mark	_	tag=st
 13	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	tag=pfn_et_nf_kk_p3
 14	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_vh_p3_et_nt_gm
-15	getað	geta	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	16	aux	_	tag=so_0_sagnb_gm
+15	getað	geta	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	16	dep	_	tag=so_0_sagnb_gm
 16	notað	nota	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	11	ccomp	_	tag=so_1_þf_sagnb_gm
 17	skattaívilnun	skattaívilnun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	tag=no_et_þf_kvk
 18	sem	sem	SCONJ	stt	_	19	mark	_	tag=stt
@@ -244,9 +238,8 @@
 
 # sent_id = GREYNIR_CORPUS_00182,.8
 # text = Þórður Sverrisson, stjórnarformaður Hörpu, staðfestir að stjórnin hafi hækkað laun Svanhildar í fyrra, eftir að hún tók við starfinu, en það hafi verið fyrir hans tíð í stjórn.
-1-2	Þórður Sverrisson	_	_	_	_	_	_	_	_
-1	Þórður	Þórður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Sverrisson	Sverrisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Þórður	Þórður	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	nsubj	_	tag=person_nf_kk
+2	Sverrisson	Sverrisson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	stjórnarformaður	stjórnarformaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Hörpu	Harpa	PROPN	sérnafn_ef_kvk	Case=Gen|Gender=Fem	4	nmod:poss	_	SpaceAfter=No|tag=sérnafn_ef_kvk
@@ -261,8 +254,8 @@
 14	í	í	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	fyrra	fyrri	ADV	lo_et_þf_hk_mst	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	11	advmod	_	SpaceAfter=No|tag=lo_et_þf_hk_mst
 16	,	_	PUNCT	grm	_	15	punct	_	tag=grm
-17	eftir	eftir	ADV	ao	_	20	mark	_	tag=ao
-18	að	að	SCONJ	st	_	17	cc	_	tag=st
+17	eftir	eftir	ADV	ao	_	18	advmod	_	tag=ao
+18	að	að	SCONJ	st	_	20	mark	_	tag=st
 19	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	tag=pfn_et_nf_kvk_p3
 20	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	advcl	_	tag=so_0_fh_p3_et_þt_gm
 21	við	við	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
@@ -271,7 +264,7 @@
 24	en	en	CCONJ	st	_	7	cc	_	tag=st
 25	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	tag=pfn_et_nf_hk_p3
 26	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	30	aux	_	tag=so_0_vh_p3_et_nt_gm
-27	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	30	cop	_	tag=so_1_nf_sagnb_gm
+27	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	30	cop	_	tag=so_1_nf_sagnb_gm
 28	fyrir	fyrir	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
 29	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nmod:poss	_	tag=pfn_et_ef_kk_p3
 30	tíð	tíð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	tag=no_et_þf_kvk
@@ -283,46 +276,43 @@
 # text = Krafa bankans á hendur Einari Val byggðist á endurútreikningi lánsins frá árinu 2012 en áður en það hafði verði endurreiknað fór það úr því að vera 18 milljónir króna í 40 milljónir.
 1	Krafa	krafa	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	tag=no_et_nf_kvk
 2	bankans	banki	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kk_gr
-3-4	á hendur	_	_	_	_	_	_	_	_
 3	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-4	hendur	hendur	ADP	fs_þgf	Case=Dat	3	fixed	_	tag=fs_þgf
-5-6	Einari Val	_	_	_	_	_	_	_	_
+4	hendur	hendur	ADP	fs_þgf	Case=Dat	3	fixed	_	MWEEnd=Yes|tag=fs_þgf
 5	Einari	Einar	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	1	obl	_	tag=person_þgf_kk
-6	Val	Valur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	5	flat	_	tag=person_þgf_kk
+6	Val	Valur	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	5	flat	_	MWEEnd=Yes|tag=person_þgf_kk
 7	byggðist	byggja	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
 8	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	endurútreikningi	endurútreikningur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_þgf_kk
 10	lánsins	lán	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	nmod:poss	_	tag=no_et_ef_hk_gr
 11	frá	frá	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
-12-13	árinu 2012	_	_	_	_	_	_	_	_
 12	árinu	árinu	ADV	ártal	_	9	advmod	_	tag=ártal
-13	2012	2012	NUM	ártal	_	12	flat	_	tag=ártal
+13	2012	2012	NUM	ártal	_	12	flat	_	MWEEnd=Yes|tag=ártal
 14	en	en	CCONJ	st	_	7	cc	_	tag=st
-15	áður	áður	ADV	ao	_	20	cc	_	tag=ao
-16	en	en	CCONJ	st	_	15	cc	_	tag=st
+15	áður	áður	ADV	ao	_	16	advmod	_	tag=ao
+16	en	en	CCONJ	st	_	20	mark	_	tag=st
 17	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	tag=pfn_et_nf_hk_p3
 18	hafði	hafa	AUX	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	aux	_	tag=so_1_þf_fh_p3_et_þt_gm
-19	verði	verða	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	20	aux	_	tag=so_0_sagnb_gm
+19	verði	verða	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	20	cop	_	tag=so_0_sagnb_gm
 20	endurreiknað	endurreikna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	21	advcl	_	tag=so_0_lhþt_et
 21	fór	fara	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	tag=so_0_fh_p3_et_þt_gm
 22	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	tag=pfn_et_nf_hk_p3
-23	úr	úr	ADP	fs_þgf	Case=Dat	24	case	_	tag=fs_þgf
-24	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	tag=fn_et_þgf_hk
+23	úr	úr	ADP	fs_þgf	Case=Dat	27	case	_	tag=fs_þgf
+24	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	27	nmod	_	tag=fn_et_þgf_hk
 25	að	að	PART	nhm	_	27	mark	_	tag=nhm
-26	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	27	cop	_	tag=so_1_nf_nh_gm
-27-29	18 milljónir króna	_	_	_	_	_	_	_	_
-27	18	18	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	24	xcomp	_	tag=no_ft_nf_kvk
+26	vera	vera	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	27	cop	_	tag=so_1_nf_nh_gm
+27	18	18	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	21	obl	_	tag=no_ft_nf_kvk
 28	milljónir	milljónir	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	27	flat	_	tag=no_ft_nf_kvk
-29	króna	króna	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	27	flat	_	tag=no_ft_nf_kvk
+29	króna	króna	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	27	flat	_	MWEEnd=Yes|tag=no_ft_nf_kvk
 30	í	í	ADP	fs_þf	Case=Acc	31	case	_	tag=fs_þf
-31-32	40 milljónir	_	_	_	_	_	_	_	_
-31	40	40	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	21	obl	_	SpaceAfter=No|tag=töl_ft_þf_hk
-32	milljónir	milljónir	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	31	_	_	SpaceAfter=No|tag=töl_ft_þf_hk
+31	40	40	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	21	obl	_	tag=töl_ft_þf_hk
+32	milljónir	milljónir	NUM	töl_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	31	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=töl_ft_þf_hk
 33	.	_	PUNCT	grm	_	7	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00182,.10
+# text = Rússnesk stjórnvöld væru meðvituð um það að þau gætu ekki keppt við Bandaríkin þegar kæmi að flugmóðurskipu og öðrum ofansjávarskipum og hefðu því lagt aukna áherslu á fjárfestingu í þróun á kafbátaflotanum.
 1	Rússnesk	rússneskur	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	2	amod	_	tag=lo_ft_nf_hk_sb
 2	stjórnvöld	stjórnvald	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	tag=no_ft_nf_hk
-3	væru	vera	VERB	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_vh_p3_ft_þt_gm
+3	væru	vera	AUX	so_1_nf_vh_p3_ft_þt_gm	Case=Nom|Mood=Sub|Number=Plur|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_vh_p3_ft_þt_gm
 4	meðvituð	meðvitaður	ADJ	lo_ft_nf_hk_sb	Case=Nom|Gender=Neut|Number=Plur	0	root	_	tag=lo_ft_nf_hk_sb
 5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þf_hk
@@ -351,6 +341,6 @@
 29	í	í	ADP	fs_þf	Case=Acc	30	case	_	tag=fs_þf
 30	þróun	þróun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	tag=no_et_þf_kvk
 31	á	á	ADP	fs_þgf	Case=Dat	32	case	_	tag=fs_þgf
-32	kafbátaflotanum	kafbátafloti	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	30	obl	_	tag=no_et_þgf_kk_gr
+32	kafbátaflotanum	kafbátafloti	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No|tag=no_et_þgf_kk_gr
 33	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

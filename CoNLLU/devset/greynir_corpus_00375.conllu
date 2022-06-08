@@ -9,13 +9,13 @@
 7	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	tag=pfn_et_ef_kk_p3
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	leiknum	leikur	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk_gr
-10	verður	verða	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+10	verður	verða	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 11	ekkert	enginn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nmod	_	tag=fn_et_nf_hk
 12	vandamál	vandamál	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|tag=no_et_nf_hk
 13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00375,.2
-# text = Á næsta ári munu flestar stofnanir vinna ársáætlanir sínar í nýja kerf …
+# text = Á næsta ári munu flestar stofnanir vinna ársáætlanir sínar í nýja kerf…
 1	Á	á	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 2	næsta	næstur	ADJ	lo_et_þgf_hk_evb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	3	amod	_	tag=lo_et_þgf_hk_evb
 3	ári	ár	ADV	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	7	advmod	_	tag=no_et_þgf_hk
@@ -54,9 +54,8 @@
 4	lengst	langt	ADV	ao_est	Degree=Sup	3	advmod	_	tag=ao_est
 5	7,14	7,14	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_þf_kk
 6	metra	metra	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	tag=no_ft_þf_kk
-7-8	í ár	_	_	_	_	_	_	_	_
 7	í	í	ADV	ao	_	3	advmod	_	tag=ao
-8	ár	ár	ADV	ao	_	7	fixed	_	tag=ao
+8	ár	ár	ADV	ao	_	7	fixed	_	MWEEnd=Yes|tag=ao
 9	en	en	CCONJ	st	_	3	cc	_	tag=st
 10	á	eiga	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
 11	best	vel	ADV	ao_est	Degree=Sup	10	advmod	_	tag=ao_est
@@ -83,7 +82,7 @@
 # sent_id = GREYNIR_CORPUS_00375,.6
 # text = Ekki er enn vitað hvort um viljaverk var að ræða eða slys.
 1	Ekki	ekki	ADV	ao	_	4	advmod	_	tag=ao
-2	er	vera	VERB	so_1_ef_fh_p3_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_ef_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_ef_fh_p3_et_nt_gm	Case=Gen|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_ef_fh_p3_et_nt_gm
 3	enn	enn	ADV	eo	_	4	advmod	_	tag=eo
 4	vitað	vita	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	hvort	hvort	CCONJ	st	_	8	cc	_	tag=st
@@ -110,9 +109,8 @@
 10	og	og	CCONJ	st	_	4	cc	_	tag=st
 11	hringdi	hringja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	tag=so_0_fh_p3_et_þt_gm
 12	í	í	ADP	fs_þf	Case=Acc	13	case	_	tag=fs_þf
-13-14	Heimi Hallgríms	_	_	_	_	_	_	_	_
 13	Heimi	Heimir	PROPN	person_þf_kk	Case=Acc|Gender=Masc	11	obl	_	tag=person_þf_kk
-14	Hallgríms	Hallgríms	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	flat	_	tag=person_þf_kk
+14	Hallgríms	Hallgríms	PROPN	person_þf_kk	Case=Acc|Gender=Masc	13	flat	_	MWEEnd=Yes|tag=person_þf_kk
 
 # sent_id = GREYNIR_CORPUS_00375,.8
 # text = Hún segist hafa rætt við nokkra þeirra sem líta framboðið hýru auga.
@@ -136,7 +134,7 @@
 2	akrein	akrein	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	tag=no_et_nf_kvk
 3	í	í	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
 4	suður	suður	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_þf_hk
-5	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
+5	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_nt_gm
 6	lokuð	loka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 7	og	og	CCONJ	st	_	6	cc	_	tag=st
 8	umferð	umferð	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	12	nsubj	_	tag=no_et_þgf_kvk
@@ -146,19 +144,20 @@
 12	akrein	akrein	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|tag=no_et_þf_kvk
 13	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00375,.10
+# text = Blóðbergið er bragðmikið og hentar einkar vel til dæmis í maríneringar á lambakjöti.
 1	Blóðbergið	blóðberg	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	bragðmikið	bragðmikill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 4	og	og	CCONJ	st	_	5	cc	_	tag=st
 5	hentar	henta	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_0_fh_p3_et_nt_gm
 6	einkar	einkar	ADV	ao	_	5	advmod	_	tag=ao
 7	vel	vel	ADV	ao	_	6	advmod	_	tag=ao
-8-9	til dæmis	_	_	_	_	_	_	_	_
 8	til	til	ADV	ao	_	5	advmod	_	tag=ao
-9	dæmis	dæmis	ADV	ao	_	8	fixed	_	tag=ao
+9	dæmis	dæmis	ADV	ao	_	8	fixed	_	MWEEnd=Yes|tag=ao
 10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	maríneringar	maríneringar	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	tag=no_ft_þf_hk
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	lambakjöti	lambakjöt	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	tag=no_et_þgf_hk
+13	lambakjöti	lambakjöt	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|tag=no_et_þgf_hk
 14	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

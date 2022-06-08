@@ -1,5 +1,5 @@
 # sent_id = GREYNIR_CORPUS_00095,.1
-# text = Glamour ætlar að fylgjast með rauða dreglinum, sem hefst milli 23 – 23.30 í kvöld.
+# text = Glamour ætlar að fylgjast með rauða dreglinum, sem hefst milli 23–23.30 í kvöld.
 1	Glamour	Glamour	PROPN	entity	_	2	nsubj	_	tag=entity
 2	ætlar	ætla	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
@@ -12,11 +12,10 @@
 10	hefst	hafa	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	7	acl:relcl	_	tag=so_0_fh_p3_et_nt_mm
 11	milli	milli	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
 12	23	23	ADV	tími	_	10	advmod	_	SpaceAfter=No|tag=tími
-13	–	_	PUNCT	grm	_	12	punct	_	tag=grm
+13	–	_	PUNCT	grm	_	12	punct	_	SpaceAfter=No|tag=grm
 14	23.30	23.0	NUM	tími	_	12	nummod	_	tag=tími
-15-16	í kvöld	_	_	_	_	_	_	_	_
-15	í	í	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
-16	kvöld	kvöld	ADV	ao	_	15	fixed	_	SpaceAfter=No|tag=ao
+15	í	í	ADV	ao	_	12	advmod	_	tag=ao
+16	kvöld	kvöld	ADV	ao	_	15	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 17	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00095,.2
@@ -28,7 +27,7 @@
 5	mest	mikið	ADV	ao_est	Degree=Sup	4	obl	_	tag=ao_est
 6	með	með	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	Virgil	Virgill	PROPN	person_þf_kk	Case=Acc|Gender=Masc	5	obl	_	tag=person_þf_kk
-8	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+8	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 9	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	tag=pfn_et_ef_kk_p3
 10	stöðugleiki	stöðugleiki	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|tag=no_et_nf_kk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
@@ -60,11 +59,10 @@
 
 # sent_id = GREYNIR_CORPUS_00095,.4
 # text = Sigmundur Davíð Gunnlaugsson var þá forsætisráðherra og hafði um það að segja, skrifar Halldór.
-1-3	Sigmundur Davíð Gunnlaugsson	_	_	_	_	_	_	_	_
 1	Sigmundur	Sigmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	0	root	_	tag=person_nf_kk
 2	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
-3	Gunnlaugsson	Gunnlaugsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
-4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+3	Gunnlaugsson	Gunnlaugsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
+4	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	þá	þá	ADV	ao	_	6	advmod	_	tag=ao
 6	forsætisráðherra	forsætisráðherra	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	tag=no_et_nf_kk
 7	og	og	CCONJ	st	_	8	cc	_	tag=st
@@ -83,18 +81,17 @@
 1	Þyrla	þyrla	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
 2	Landhelgisgæslunnar	landhelgisgæsla	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kvk_gr
 3	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_fh_p3_et_nt_gm
-4	verið	vera	AUX	so_0_gm	Voice=Act	5	aux	_	tag=so_0_gm
+4	verið	vera	AUX	so_0_gm	Voice=Act	5	cop	_	tag=so_0_gm
 5	fengin	fá	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
-6	til	til	ADP	fs_ef	Case=Gen	7	case	_	tag=fs_ef
-7	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	tag=fn_et_ef_hk
+6	til	til	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
+7	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	tag=fn_et_ef_hk
 8	að	að	PART	nhm	_	9	mark	_	tag=nhm
-9	fljúga	fljúga	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	7	xcomp	_	tag=so_1_þgf_nh_gm
+9	fljúga	fljúga	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	5	obl	_	tag=so_1_þgf_nh_gm
 10	atkvæðaseðlum	atkvæðaseðill	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obj	_	tag=no_ft_þgf_kk
 11	vegna	vegna	ADP	fs_ef	Case=Gen	12	case	_	tag=fs_ef
 12	alþingiskosninganna	alþingiskosning	NOUN	no_ft_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	obl	_	tag=no_ft_ef_kvk_gr
-13-14	á morgun	_	_	_	_	_	_	_	_
 13	á	á	ADV	ao	_	16	advmod	_	tag=ao
-14	morgun	morgun	ADV	ao	_	13	fixed	_	tag=ao
+14	morgun	morgun	ADV	ao	_	13	fixed	_	MWEEnd=Yes|tag=ao
 15	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
 16	íbúa	íbúi	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_ef_kk
 17	Grímseyjar	Grímsey	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk
@@ -102,10 +99,9 @@
 
 # sent_id = GREYNIR_CORPUS_00095,.6
 # text = Den Norske Bank spáir háu verði á laxi næstu mánuði og misseri, allt til ársins 2020.
-1-3	Den Norske Bank	_	_	_	_	_	_	_	_
 1	Den	Den	PROPN	fyrirtæki	_	4	nsubj	_	tag=fyrirtæki
 2	Norske	Norske	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
-3	Bank	Bank	PROPN	fyrirtæki	_	1	flat	_	tag=fyrirtæki
+3	Bank	Bank	PROPN	fyrirtæki	_	1	flat	_	MWEEnd=Yes|tag=fyrirtæki
 4	spáir	spá	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 5	háu	hár	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þgf_hk_sb
 6	verði	verð	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obj	_	tag=no_et_þgf_hk
@@ -118,9 +114,8 @@
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	allt	allur	ADV	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	advmod	_	tag=fn_et_nf_hk
 15	til	til	ADP	fs_ef	Case=Gen	16	case	_	tag=fs_ef
-16-17	ársins 2020	_	_	_	_	_	_	_	_
-16	ársins	ársins	NUM	ártal	_	14	obl	_	SpaceAfter=No|tag=ártal
-17	2020	2020	NUM	ártal	_	16	flat	_	SpaceAfter=No|tag=ártal
+16	ársins	ársins	NUM	ártal	_	14	obl	_	tag=ártal
+17	2020	2020	NUM	ártal	_	16	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=ártal
 18	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00095,.7
@@ -158,7 +153,7 @@
 10	sóknarleik	sóknarleik	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|tag=no_et_þf_kk
 11	,	_	PUNCT	grm	_	10	punct	_	tag=grm
 12	varnarleikurinn	varnarleikurinn	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	tag=no_et_nf_kk_gr
-13	var	var	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	tag=so_0_fh_p3_et_þt_gm
+13	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_þt_gm
 14	kaflaskiptur	kaflaskiptur	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
 15	en	en	CCONJ	st	_	16	cc	_	tag=st
 16	markvarslan	markvarslan	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	conj	_	tag=no_et_nf_kvk_gr
@@ -190,10 +185,9 @@
 # text = EBITDA félagsins var 1,2 milljarðar eftir 6 mánuði en tæpur milljarður fyrir fyrstu 6 mánuði ársins 2017.
 1	EBITDA	EBITDA	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
 2	félagsins	félag	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	1	nmod:poss	_	tag=no_et_ef_hk_gr
-3	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
-4-5	1,2 milljarðar	_	_	_	_	_	_	_	_
+3	var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 4	1,2	1,2	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	0	root	_	tag=töl_ft_nf_kk
-5	milljarðar	milljarðar	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	_	_	tag=töl_ft_nf_kk
+5	milljarðar	milljarðar	NUM	töl_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	4	flat	_	MWEEnd=Yes|tag=töl_ft_nf_kk
 6	eftir	eftir	ADP	fs_þf	Case=Acc	8	case	_	tag=fs_þf
 7	6	6	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	8	nummod	_	tag=tala_ft_þf_kk
 8	mánuði	mánuður	ADV	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	advmod	_	tag=no_ft_þf_kk
@@ -204,8 +198,7 @@
 13	fyrstu	fyrstur	ADJ	lo_ft_þf_kk_vb	Case=Acc|Gender=Masc|Number=Plur	15	amod	_	tag=lo_ft_þf_kk_vb
 14	6	6	NUM	tala_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	15	nummod	_	tag=tala_ft_þf_kk
 15	mánuði	mánuður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	11	obl	_	tag=no_ft_þf_kk
-16-17	ársins 2017	_	_	_	_	_	_	_	_
-16	ársins	ársins	ADV	ártal	_	4	advmod	_	SpaceAfter=No|tag=ártal
-17	2017	2017	NUM	ártal	_	16	flat	_	SpaceAfter=No|tag=ártal
+16	ársins	ársins	ADV	ártal	_	4	advmod	_	tag=ártal
+17	2017	2017	NUM	ártal	_	16	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=ártal
 18	.	_	PUNCT	grm	_	4	punct	_	tag=grm
 

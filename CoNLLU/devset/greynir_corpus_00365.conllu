@@ -8,22 +8,20 @@
 6	fyrsti	fyrstur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	tag=lo_et_nf_kk_vb
 7	hamborgarinn	hamborgari	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	tag=no_et_nf_kk_gr
 8	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_vh_p3_et_nt_gm
-9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	cop	_	tag=so_0_sagnb_gm
+9	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	cop	_	tag=so_0_sagnb_gm
 10	snæddur	snæða	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	obj	_	tag=so_0_lhþt_et
 11	þar	þar	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
 12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00365,.2
 # text = Árið 1999 giftist Phillippe leikkonunni Reese Witherspon og eiga þau saman tvö börn.
-1-2	Árið 1999	_	_	_	_	_	_	_	_
 1	Árið	árið	ADV	ártal	_	3	advmod	_	tag=ártal
-2	1999	1999	NUM	ártal	_	1	flat	_	tag=ártal
+2	1999	1999	NUM	ártal	_	1	flat	_	MWEEnd=Yes|tag=ártal
 3	giftist	gifta	VERB	so_1_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_þgf_fh_p3_et_nt_mm
 4	Phillippe	Phillippe	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
 5	leikkonunni	leikkona	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	tag=no_et_þgf_kvk_gr
-6-7	Reese Witherspon	_	_	_	_	_	_	_	_
 6	Reese	Reese	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	3	obj	_	tag=person_þgf_kvk
-7	Witherspon	Witherspoon	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	6	flat	_	tag=person_þgf_kvk
+7	Witherspon	Witherspoon	PROPN	person_þgf_kvk	Case=Dat|Gender=Fem	6	flat	_	MWEEnd=Yes|tag=person_þgf_kvk
 8	og	og	CCONJ	st	_	3	cc	_	tag=st
 9	eiga	eiga	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_ft_nt_gm
 10	þau	það	PRON	pfn_ft_nf_hk_p3	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_ft_nf_hk_p3
@@ -40,9 +38,8 @@
 4	með	með	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	Þeysurunum	Þeysari	PROPN	sérnafn_ft_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No|tag=sérnafn_ft_þgf_kk_gr
 6	,	,	PUNCT	grm	_	5	punct	_	tag=grm
-7-8	meðal annars	_	_	_	_	_	_	_	_
 7	meðal	meðal	ADV	ao	_	2	advmod	_	tag=ao
-8	annars	annars	ADV	ao	_	7	fixed	_	tag=ao
+8	annars	annars	ADV	ao	_	7	fixed	_	MWEEnd=Yes|tag=ao
 9	að	að	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
 10	breiðskífunni	breiðskífa	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk_gr
 11	Mjötviður	mjötviður	PROPN	sérnafn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	tag=sérnafn_et_nf_kk
@@ -59,7 +56,7 @@
 6	kvikmyndagerð	kvikmyndagerð	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
 7	að	að	SCONJ	st	_	11	mark	_	tag=st
 8	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	tag=pfn_et_nf_kvk_p3
-9	sé	vera	VERB	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
+9	sé	vera	AUX	so_1_nf_vh_p3_et_nt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_1_nf_vh_p3_et_nt_gm
 10	ennþá	ennþá	ADV	ao	_	11	advmod	_	tag=ao
 11	karlaheimur	karla-heimur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No|tag=no_et_nf_kk
 12	?	?	PUNCT	grm	_	1	punct	_	tag=grm
@@ -76,9 +73,8 @@
 8	þjóðarbúið	þjóðarbú	NOUN	no_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	iobj	_	tag=no_et_þf_hk_gr
 9	orðið	orðið	ADV	ao	_	2	advmod	_	tag=ao
 10	milljarða	milljarður	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	tag=no_ft_þf_kk
-11-12	ár hvert	_	_	_	_	_	_	_	_
-11	ár	ár	ADV	ao	_	2	advmod	_	SpaceAfter=No|tag=ao
-12	hvert	hvert	ADV	ao	_	11	fixed	_	SpaceAfter=No|tag=ao
+11	ár	ár	ADV	ao	_	2	advmod	_	tag=ao
+12	hvert	hvert	ADV	ao	_	11	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 13	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00365,.6
@@ -115,7 +111,7 @@
 # text = Nýtt viðvörunarkerfi verður tekið í notkun í dag á Veðurstofu Íslands.
 1	Nýtt	nýr	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	tag=lo_et_nf_hk_sb
 2	viðvörunarkerfi	viðvörunarkerfi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	tag=no_et_nf_hk
-3	verður	verða	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+3	verður	verða	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	tekið	taka	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	notkun	notkun	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_þf_kvk
@@ -141,6 +137,8 @@
 11	lengja	lengja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No|tag=so_0_nh_gm
 12	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00365,.10
+# text = Foreldrar greiða töluverða upphæð á hverju hausti vegna kaupa á námsgögnum.
 1	Foreldrar	foreldrar	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	tag=no_ft_nf_kk
 2	greiða	greiða	VERB	so_1_þf_fh_p3_ft_nt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_nt_gm
 3	töluverða	töluverður	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	tag=lo_et_þf_kvk_sb
@@ -151,6 +149,6 @@
 8	vegna	vegna	ADP	fs_ef	Case=Gen	9	case	_	tag=fs_ef
 9	kaupa	kaup	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	obl	_	tag=no_ft_ef_hk
 10	á	á	ADP	fs_þgf	Case=Dat	11	case	_	tag=fs_þgf
-11	námsgögnum	námsgögn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	tag=no_ft_þgf_hk
+11	námsgögnum	námsgögn	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|tag=no_ft_þgf_hk
 12	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 

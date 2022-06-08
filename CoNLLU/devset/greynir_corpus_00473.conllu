@@ -1,6 +1,6 @@
 # sent_id = GREYNIR_CORPUS_00473,.1
 # text = Sé litið til fjögurra af stærstu útgerðarfyrirtækjum landsins, HB Granda, Brim, Samherja og Ísfélags Vestmannaeyja, hefur HB Grandi greitt út mestan arð síðastliðin tvö ár.
-1	Sé	vera	AUX	so_0_op_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	aux	_	tag=so_0_op_vh_p3_et_nt_gm
+1	Sé	vera	AUX	so_0_op_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	cop	_	tag=so_0_op_vh_p3_et_nt_gm
 2	litið	lita	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	23	advcl	_	tag=so_0_lhþt_et
 3	til	til	ADP	fs_ef	Case=Gen	4	case	_	tag=fs_ef
 4	fjögurra	fjórir	NUM	to_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	obl	_	tag=to_ft_ef_hk
@@ -9,9 +9,8 @@
 7	útgerðarfyrirtækjum	útgerðarfyrirtæki	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þgf_hk
 8	landsins	land	NOUN	no_et_ef_hk_gr	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk_gr
 9	,	,	PUNCT	grm	_	8	punct	_	tag=grm
-10-11	HB Granda	_	_	_	_	_	_	_	_
-10	HB	HB	PROPN	fyrirtæki	_	7	obl	_	SpaceAfter=No|tag=fyrirtæki
-11	Granda	Grandi	PROPN	fyrirtæki	_	10	flat	_	SpaceAfter=No|tag=fyrirtæki
+10	HB	HB	PROPN	fyrirtæki	_	7	obl	_	tag=fyrirtæki
+11	Granda	Grandi	PROPN	fyrirtæki	_	10	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=fyrirtæki
 12	,	,	PUNCT	grm	_	13	punct	_	tag=grm
 13	Brim	Brim	PROPN	fyrirtæki	_	10	conj	_	SpaceAfter=No|tag=fyrirtæki
 14	,	,	PUNCT	grm	_	15	punct	_	tag=grm
@@ -21,9 +20,8 @@
 18	Vestmannaeyja	Vestmannaeyjar	PROPN	sérnafn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	10	nmod:poss	_	SpaceAfter=No|tag=sérnafn_ft_ef_kvk
 19	,	,	PUNCT	grm	_	23	punct	_	tag=grm
 20	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	aux	_	tag=so_0_fh_p3_et_nt_gm
-21-22	HB Grandi	_	_	_	_	_	_	_	_
 21	HB	HB	PROPN	fyrirtæki	_	23	nsubj	_	tag=fyrirtæki
-22	Grandi	Grandi	PROPN	fyrirtæki	_	21	flat	_	tag=fyrirtæki
+22	Grandi	Grandi	PROPN	fyrirtæki	_	21	flat	_	MWEEnd=Yes|tag=fyrirtæki
 23	greitt	greiða	VERB	so_1_þf_sagnb_gm	Case=Acc|VerbForm=Sup|Voice=Act	0	root	_	tag=so_1_þf_sagnb_gm
 24	út	út	ADV	ao	_	23	compound:prt	_	tag=ao
 25	mestan	mikill	ADJ	lo_et_þf_kk_esb	Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	26	amod	_	tag=lo_et_þf_kk_esb
@@ -65,9 +63,8 @@
 
 # sent_id = GREYNIR_CORPUS_00473,.3
 # text = Gylfi Arnbjörnsson, forseti Alþýðusambands Íslands, tilkynnti á miðstjórnarfundi sambandsins í dag að hann hygðist ekki bjóða sig fram til endurkjörs á 43. þingi ASÍ í október.
-1-2	Gylfi Arnbjörnsson	_	_	_	_	_	_	_	_
-1	Gylfi	Gylfi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-2	Arnbjörnsson	Arnbjörnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	SpaceAfter=No|tag=person_nf_kk
+1	Gylfi	Gylfi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	8	nsubj	_	tag=person_nf_kk
+2	Arnbjörnsson	Arnbjörnsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 3	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 4	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	Alþýðusambands	Alþýðusamband	PROPN	fyrirtæki_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	4	nmod:poss	_	tag=fyrirtæki_et_ef_hk
@@ -98,9 +95,8 @@
 
 # sent_id = GREYNIR_CORPUS_00473,.4
 # text = Þrátt fyrir svekkjandi lokamínútur í leik Íslands og Ungverjalands í dag hefur Gylfi Þór Sigurðsson enn fulla trú á að Ísland komist áfram upp úr riðlinum og í sextán liða úrslit.
-1-2	Þrátt fyrir	_	_	_	_	_	_	_	_
 1	Þrátt	þrátt	ADP	fs_þf	Case=Acc	4	case	_	tag=fs_þf
-2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	fixed	_	tag=fs_þf
+2	fyrir	fyrir	ADP	fs_þf	Case=Acc	1	fixed	_	MWEEnd=Yes|tag=fs_þf
 3	svekkjandi	svekkjandi	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	4	amod	_	tag=lo_ft_þf_kvk_sb
 4	lokamínútur	loka-mínúta	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	12	obl	_	tag=no_ft_þf_kvk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -111,10 +107,9 @@
 10	í	í	ADP	fs_þf	Case=Acc	11	case	_	tag=fs_þf
 11	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	6	advmod	_	tag=no_et_þf_kk
 12	hefur	hafa	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-13-15	Gylfi Þór Sigurðsson	_	_	_	_	_	_	_	_
 13	Gylfi	Gylfi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	nsubj	_	tag=person_nf_kk
 14	Þór	Þór	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	flat	_	tag=person_nf_kk
-15	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	flat	_	tag=person_nf_kk
+15	Sigurðsson	Sigurðsson	PROPN	person_nf_kk	Case=Nom|Gender=Masc	13	flat	_	MWEEnd=Yes|tag=person_nf_kk
 16	enn	enn	ADV	ao	_	12	advmod	_	tag=ao
 17	fulla	full	ADJ	lo_et_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Sing	18	amod	_	tag=lo_et_þf_kvk_sb
 18	trú	trú	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	tag=no_et_þf_kvk
@@ -123,9 +118,8 @@
 21	Ísland	Ísland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	tag=sérnafn_et_nf_hk
 22	komist	koma	VERB	so_0_vh_p3_et_nt_mm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Mid	20	obl	_	tag=so_0_vh_p3_et_nt_mm
 23	áfram	áfram	ADV	ao	_	22	advmod	_	tag=ao
-24-25	upp úr	_	_	_	_	_	_	_	_
 24	upp	upp	ADP	fs_þgf	Case=Dat	26	case	_	tag=fs_þgf
-25	úr	úr	ADP	fs_þgf	Case=Dat	24	fixed	_	tag=fs_þgf
+25	úr	úr	ADP	fs_þgf	Case=Dat	24	fixed	_	MWEEnd=Yes|tag=fs_þgf
 26	riðlinum	riðill	NOUN	no_et_þgf_kk_gr	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	tag=no_et_þgf_kk_gr
 27	og	og	CCONJ	st	_	26	cc	_	tag=st
 28	í	í	ADP	fs_þf	Case=Acc	31	case	_	tag=fs_þf
@@ -138,10 +132,9 @@
 # text = Veski með 40 þúsund krónum í reiðufé komst aftur í hendur eiganda síns á Húsavík í dag, að því er fram kemur í tilkynningu frá lögreglunni á Norðurlandi eystra.
 1	Veski	veski	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
 2	með	með	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
-3-5	40 þúsund krónum	_	_	_	_	_	_	_	_
 3	40	40	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	tag=no_ft_þgf_kvk
 4	þúsund	þúsund	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	flat	_	tag=no_ft_þgf_kvk
-5	krónum	krónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	flat	_	tag=no_ft_þgf_kvk
+5	krónum	krónum	NOUN	no_ft_þgf_kvk	Case=Dat|Gender=Fem|Number=Plur	3	flat	_	MWEEnd=Yes|tag=no_ft_þgf_kvk
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	reiðufé	reiðufé	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
 8	komst	koma	VERB	so_0_fh_p3_et_þt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_þt_mm
@@ -174,20 +167,18 @@
 1	Í	Í	ADP	fs_þgf	Case=Dat	2	case	_	tag=fs_þgf
 2	dómnefnd	dómnefnd	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_þgf_kvk
 3	sátu	sitja	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
-4-6	S. Björn Blöndal	_	_	_	_	_	_	_	_
-4	S.	S.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-5	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	SpaceAfter=No|tag=person_nf_kk
-6	Blöndal	Blöndal	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	SpaceAfter=No|tag=person_nf_kk
+4	S.	S.	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
+5	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	tag=person_nf_kk
+6	Blöndal	Blöndal	PROPN	person_nf_kk	Case=Nom|Gender=Masc	4	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 7	,	,	PUNCT	grm	_	4	punct	_	tag=grm
 8	borgarfulltrúi	borgarfulltrúi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 9	og	og	CCONJ	st	_	10	cc	_	tag=st
 10	formaður	formaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	tag=no_et_nf_kk
 11	borgarráðs	borgarráð	NOUN	no_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_hk
 12	,	,	PUNCT	grm	_	13	punct	_	tag=grm
-13-15	Jóhanna Harpa Árnadóttir	_	_	_	_	_	_	_	_
 13	Jóhanna	Jóhanna	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	tag=person_nf_kvk
 14	Harpa	Harpa	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	13	flat	_	tag=person_nf_kvk
-15	Árnadóttir	Árnadóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	13	flat	_	tag=person_nf_kvk
+15	Árnadóttir	Árnadóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	13	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 16	verkefnisstjóri	verkefnisstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
 17	samfélagsábyrgðar	samfélagsábyrgð	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	16	nmod:poss	_	tag=no_et_ef_kvk
 18	hjá	hjá	ADP	fs_þgf	Case=Dat	19	case	_	tag=fs_þgf
@@ -197,9 +188,8 @@
 22	í	í	ADP	fs_þgf	Case=Dat	23	case	_	tag=fs_þgf
 23	stjórn	stjórn	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	tag=no_et_þgf_kvk
 24	Festuog	Festuog	SCONJ	st	_	4	mark	_	tag=st
-25-26	Lára Jóhannsdóttir	_	_	_	_	_	_	_	_
 25	Lára	Lára	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	4	conj	_	tag=person_nf_kvk
-26	Jóhannsdóttir	Jóhannsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	25	flat	_	tag=person_nf_kvk
+26	Jóhannsdóttir	Jóhannsdóttir	PROPN	person_nf_kvk	Case=Nom|Gender=Fem	25	flat	_	MWEEnd=Yes|tag=person_nf_kvk
 27	PhD	PhD	ADV	abbrev	_	29	advmod	_	tag=abbrev
 28	og	og	CCONJ	st	_	29	cc	_	tag=st
 29	dósent	dósent	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_nf_kk
@@ -210,36 +200,36 @@
 34	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00473,.7
-# text = Allt frá bráðamóttöku til göngudeildar geðdeildar eru sjúklingar fordæmdir, niðurlægðir og jafnvel útskúfaðir [ 1 ], fyrir það eitt að segja í hreinskilni frá sinni lyfjanotkun.
+# text = Allt frá bráðamóttöku til göngudeildar geðdeildar eru sjúklingar fordæmdir, niðurlægðir og jafnvel útskúfaðir[ 1], fyrir það eitt að segja í hreinskilni frá sinni lyfjanotkun.
 1	Allt	allt	ADV	ao	_	3	advmod	_	tag=ao
 2	frá	frá	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
-3	bráðamóttöku	bráðamóttaka	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	tag=no_et_þgf_kvk
+3	bráðamóttöku	bráðamóttaka	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk
 4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
 5	göngudeildar	göngudeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	tag=no_et_ef_kvk
 6	geðdeildar	geðdeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	5	nmod:poss	_	tag=no_et_ef_kvk
-7	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_ft_nt_gm
-8	sjúklingar	sjúklingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	tag=no_ft_nf_kk
-9	fordæmdir	fordæma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	VANTAR_LIÐ_VP_None	_	SpaceAfter=No|tag=so_0_lhþt_ft
-10	,	,	PUNCT	grm	_	11	punct	_	tag=grm
-11	niðurlægðir	niðurlægja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	7	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_ft
-12	og	og	CCONJ	st	_	13	cc	_	tag=st
-13	jafnvel	jafnvel	ADV	eo	_	11	conj	_	tag=eo
-14	útskúfaðir	útskúfa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	11	VANTAR_LIÐ_VP_None	_	SpaceAfter=No|tag=so_0_lhþt_ft
-15	[	[	PUNCT	grm	_	14	punct	_	tag=grm
-16	1	1	NUM	tala_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	15	nummod	_	SpaceAfter=No|tag=tala_et_nf_hk
+7	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_ft_nt_gm
+8	sjúklingar	sjúklingur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	tag=no_ft_nf_kk
+9	fordæmdir	fordæma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|tag=so_0_lhþt_ft
+10	,	,	PUNCT	grm	_	9	punct	_	tag=grm
+11	niðurlægðir	niðurlægja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	9	dep	_	tag=so_0_lhþt_ft
+12	og	og	CCONJ	st	_	9	cc	_	tag=st
+13	jafnvel	jafnvel	ADV	eo	_	9	advmod	_	tag=eo
+14	útskúfaðir	útskúfa	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	9	dep	_	SpaceAfter=No|tag=so_0_lhþt_ft
+15	[	[	PUNCT	grm	_	16	punct	_	tag=grm
+16	1	1	NUM	tala_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	14	nummod	_	SpaceAfter=No|tag=tala_et_nf_hk
 17	]	]	PUNCT	grm	_	16	punct	_	SpaceAfter=No|tag=grm
 18	,	,	PUNCT	grm	_	17	punct	_	tag=grm
-19	fyrir	fyrir	ADP	fs_þf	Case=Acc	20	case	_	tag=fs_þf
-20	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	tag=fn_et_þf_hk
-21	eitt	einn	NUM	to_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	20	nummod	_	tag=to_et_þf_hk
+19	fyrir	fyrir	ADP	fs_þf	Case=Acc	23	case	_	tag=fs_þf
+20	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	23	nmod	_	tag=fn_et_þf_hk
+21	eitt	einn	NUM	to_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	23	nummod	_	tag=to_et_þf_hk
 22	að	að	PART	nhm	_	23	mark	_	tag=nhm
-23	segja	segja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	20	xcomp	_	tag=so_0_nh_gm
+23	segja	segja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	9	obl	_	tag=so_0_nh_gm
 24	í	í	ADP	fs_þgf	Case=Dat	25	case	_	tag=fs_þgf
 25	hreinskilni	hreinskilni	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	tag=no_et_þgf_kvk
 26	frá	frá	ADP	fs_þgf	Case=Dat	28	case	_	tag=fs_þgf
 27	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	28	nmod	_	tag=fn_et_þgf_kvk
 28	lyfjanotkun	lyfjanotkun	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk
-29	.	.	PUNCT	grm	_	23	punct	_	tag=grm
+29	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00473,.8
 # text = Ábendingar Láru eru í takt við tillögur að íslenskri krabbameinsáætlun sem nú liggja fyrir með áherslu á aukinn stuðning og ráðgjöf til einstaklinga með krabbamein og aðstandenda.
@@ -295,7 +285,7 @@
 19	þá	þá	ADV	ao	_	22	advmod	_	tag=ao
 20	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	22	aux	_	tag=so_0_vh_p3_et_nt_gm
 21	veiðigjaldið	veiðigjald	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	22	nsubj	_	tag=no_et_nf_hk_gr
-22	tvöfaldast	tvöfalda	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	6	VANTAR_LIÐ_IP_None	_	tag=so_0_sagnb_mm
+22	tvöfaldast	tvöfalda	VERB	so_0_sagnb_mm	VerbForm=Sup|Voice=Mid	6	dep	_	tag=so_0_sagnb_mm
 23	á	á	ADP	fs_þf	Case=Acc	25	case	_	tag=fs_þf
 24	margar	margur	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	25	amod	_	tag=lo_ft_þf_kvk_sb
 25	tegundir	tegund	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	22	obl	_	tag=no_ft_þf_kvk
@@ -307,9 +297,8 @@
 # sent_id = GREYNIR_CORPUS_00473,.10
 # text = Lík Courtney Herron, 25 ára, fannst í garði í Melbourne á laugardag og að sögn yfirmanns rannsóknardeildar lögreglunnar, Andrew Stamper, hafði hún verið beitt hrottalegu ofbeldi.
 1	Lík	lík	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
-2-3	Courtney Herron	_	_	_	_	_	_	_	_
-2	Courtney	Courtney	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	1	nmod:poss	_	SpaceAfter=No|tag=person_ef_kvk
-3	Herron	Herron	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	flat	_	SpaceAfter=No|tag=person_ef_kvk
+2	Courtney	Courtney	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	1	nmod:poss	_	tag=person_ef_kvk
+3	Herron	Herron	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	2	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_ef_kvk
 4	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 5	25	25	NUM	tala_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur|NumType=Card	6	nummod	_	tag=tala_ft_ef_hk
 6	ára	ár	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|tag=no_ft_ef_hk
@@ -328,13 +317,12 @@
 19	rannsóknardeildar	rannsóknardeild	NOUN	no_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	18	nmod:poss	_	tag=no_et_ef_kvk
 20	lögreglunnar	lögregla	NOUN	no_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod:poss	_	SpaceAfter=No|tag=no_et_ef_kvk_gr
 21	,	,	PUNCT	grm	_	20	punct	_	tag=grm
-22-23	Andrew Stamper	_	_	_	_	_	_	_	_
-22	Andrew	Andrew	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	nmod:poss	_	SpaceAfter=No|tag=person_ef_kk
-23	Stamper	Stamper	PROPN	person_ef_kk	Case=Gen|Gender=Masc	22	flat	_	SpaceAfter=No|tag=person_ef_kk
+22	Andrew	Andrew	PROPN	person_ef_kk	Case=Gen|Gender=Masc	17	nmod:poss	_	tag=person_ef_kk
+23	Stamper	Stamper	PROPN	person_ef_kk	Case=Gen|Gender=Masc	22	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_ef_kk
 24	,	,	PUNCT	grm	_	22	punct	_	tag=grm
 25	hafði	hafa	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	28	aux	_	tag=so_0_fh_p3_et_þt_gm
 26	hún	hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	tag=pfn_et_nf_kvk_p3
-27	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	28	cop	_	tag=so_0_sagnb_gm
+27	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	28	cop	_	tag=so_0_sagnb_gm
 28	beitt	beita	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	8	conj	_	tag=so_1_þgf_lhþt_et
 29	hrottalegu	hrottalegur	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	30	amod	_	tag=lo_et_þgf_hk_sb
 30	ofbeldi	ofbeldi	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	28	iobj	_	SpaceAfter=No|tag=no_et_þgf_hk

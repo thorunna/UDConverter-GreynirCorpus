@@ -1,8 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00087,.1
-# text = Kolbeinn Sigþórsson skoraði svo annað markið sem skaut íslenska liðinu í 8 — liða úrslit.
-1-2	Kolbeinn Sigþórsson	_	_	_	_	_	_	_	_
+# text = Kolbeinn Sigþórsson skoraði svo annað markið sem skaut íslenska liðinu í 8— liða úrslit.
 1	Kolbeinn	Kolbeinn	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-2	Sigþórsson	Sigþórsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+2	Sigþórsson	Sigþórsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	MWEEnd=Yes|tag=person_et_nf_kk
 3	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 4	svo	svo	ADV	ao	_	3	advmod	_	tag=ao
 5	annað	annar	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	tag=fn_et_þf_hk
@@ -22,9 +21,8 @@
 # text = Bandaríski hagfræðingurinn Richard Thaler hlaut í dag Nóbelsverðlaunin í hagfræði fyrir framlag sitt til atferlishagfræði.
 1	Bandaríski	bandarískur	ADJ	lo_et_nf_kk_vb	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	tag=lo_et_nf_kk_vb
 2	hagfræðingurinn	hagfræðingur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	tag=no_et_nf_kk_gr
-3-4	Richard Thaler	_	_	_	_	_	_	_	_
 3	Richard	Richard	PROPN	person_nf_kk	Case=Nom|Gender=Masc	5	nsubj	_	tag=person_nf_kk
-4	Thaler	Thaler	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	tag=person_nf_kk
+4	Thaler	Thaler	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	flat	_	MWEEnd=Yes|tag=person_nf_kk
 5	hlaut	hljóta	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_þt_gm
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	advmod	_	tag=no_et_þf_kk
@@ -42,7 +40,7 @@
 # text = Eftir helgi er útlit fyrir skúri eða rigningu á sunnanverðu landinu eftir langvarandi þurrka þar.
 1	Eftir	eftir	ADP	fs_þf	Case=Acc	2	case	_	tag=fs_þf
 2	helgi	helgi	ADV	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	3	advmod	_	tag=no_et_þf_kvk
-3	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	útlit	útlit	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	tag=no_et_nf_hk
 5	fyrir	fyrir	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	skúri	skúr	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	tag=no_ft_þf_kk
@@ -65,10 +63,9 @@
 4	unnu	vinna	VERB	so_1_þf_fh_p3_ft_þt_gm	Case=Acc|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_ft_þt_gm
 5	langa	langur	ADJ	lo_ft_þf_kk_sb	Case=Acc|Gender=Masc|Number=Plur	6	amod	_	tag=lo_ft_þf_kk_sb
 6	vinnudaga	vinnudagur	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	tag=no_ft_þf_kk
-7-9	á þessum tíma	_	_	_	_	_	_	_	_
 7	á	á	ADV	ao	_	6	advmod	_	tag=ao
 8	þessum	þessum	ADV	ao	_	7	fixed	_	tag=ao
-9	tíma	tíma	ADV	ao	_	7	fixed	_	tag=ao
+9	tíma	tíma	ADV	ao	_	7	fixed	_	MWEEnd=Yes|tag=ao
 10	sem	sem	SCONJ	stt	_	11	mark	_	tag=stt
 11	fóru	fara	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_ft_þt_gm
 12	ekki	ekki	ADV	ao	_	11	advmod	_	tag=ao
@@ -81,7 +78,7 @@
 # text = Hann segir að dóttir sína og son hafa verið í verslunarmiðstöðinni þegar skotárásin var gerð.
 1	Hann	Hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kk_p3
 2	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
-3	að	að	X	x		2	dep	_	tag=x
+3	að	að	X	x	_	2	dep	_	tag=x
 4	dóttir	dóttir	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	tag=no_et_þf_kvk
 5	sína	sinn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	tag=fn_et_nf_kvk
 6	og	og	CCONJ	st	_	4	cc	_	tag=st
@@ -92,14 +89,14 @@
 11	verslunarmiðstöðinni	verslunarmiðstöð	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk_gr
 12	þegar	þegar	SCONJ	st	_	15	mark	_	tag=st
 13	skotárásin	skotárás	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	tag=no_et_nf_kvk_gr
-14	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_þt_gm
+14	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_þt_gm
 15	gerð	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	advcl	_	SpaceAfter=No|tag=so_0_lhþt_et
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00087,.6
 # text = Nýliðarnir eru komnir í áttunda sæti deildarinnar með níu stig en ÍR er í veseni.
 1	Nýliðarnir	nýliði	NOUN	no_ft_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	tag=no_ft_nf_kk_gr
-2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
+2	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	komnir	koma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	í	í	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 5	áttunda	áttundi	ADJ	lo_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	tag=lo_et_þf_hk
@@ -119,11 +116,10 @@
 # text = Byssan hefur meira og minna verið miðpunkturinn í þjóðargoðsögninni, sagði A. J. Somerset.
 1	Byssan	byssa	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	tag=no_et_nf_kvk_gr
 2	hefur	hafa	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_fh_p3_et_nt_gm
-3-5	meira og minna	_	_	_	_	_	_	_	_
 3	meira	mikið	ADV	ao_mst	Degree=Cmp	7	advmod	_	tag=ao_mst
 4	og	og	ADV	ao_mst	Degree=Cmp	3	fixed	_	tag=ao_mst
-5	minna	lítið	ADV	ao_mst	Degree=Cmp	3	fixed	_	tag=ao_mst
-6	verið	vera	VERB	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	cop	_	tag=so_1_nf_sagnb_gm
+5	minna	lítið	ADV	ao_mst	Degree=Cmp	3	fixed	_	MWEEnd=Yes|tag=ao_mst
+6	verið	vera	AUX	so_1_nf_sagnb_gm	Case=Nom|VerbForm=Sup|Voice=Act	7	cop	_	tag=so_1_nf_sagnb_gm
 7	miðpunkturinn	miðpunktur	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	xcomp	_	tag=no_et_nf_kk_gr
 8	í	í	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	þjóðargoðsögninni	þjóðargoðsögn	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|tag=no_et_þgf_kvk_gr
@@ -144,7 +140,7 @@
 6	Stöðvarfirði	Stöðvarfjörður	PROPN	sérnafn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=sérnafn_et_þgf_kk
 7	sem	sem	SCONJ	stt	_	10	mark	_	tag=stt
 8	nú	nú	ADV	ao	_	10	advmod	_	tag=ao
-9	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+9	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 10	Sköpunarmiðstöð	sköpunarmiðstöð	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	acl:relcl	_	tag=sérnafn_et_nf_kvk
 11	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 12	mikið	mikill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	tag=lo_et_nf_hk_sb
@@ -166,15 +162,15 @@
 9	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
 10	skemmtilega	skemmtilega	ADV	ao	_	9	advmod	_	tag=ao
 11	frá	frá	ADV	ao	_	9	advmod	_	tag=ao
-12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
-13	Facebook	Facebook	PROPN	fyrirtæki	_	9	obl	_	tag=fyrirtæki
-14	síðu	síða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	conj	_	tag=no_et_þgf_kvk
-15	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kvk
+12	á	á	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf
+13	Facebook	Facebook	PROPN	fyrirtæki	_	14	nmod	_	tag=fyrirtæki
+14	síðu	síða	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	tag=no_et_þgf_kvk
+15	sinni	sinn	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|tag=fn_et_þgf_kvk
 16	:	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00087,.10
 # text = En hvaða starfsemi átti þá að fara fram í æskulýðshöllinni sem gegndi þessu mikilvæga mannbótarhlutverki?
-1	En	en	SCONJ	st	_	4	cc	_	tag=st
+1	En	en	SCONJ	st	_	4	dep	_	tag=st
 2	hvaða	hvaða	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	tag=fn_et_nf_kvk
 3	starfsemi	starfsemi	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	obl	_	tag=no_et_nf_kvk
 4	átti	eiga	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm

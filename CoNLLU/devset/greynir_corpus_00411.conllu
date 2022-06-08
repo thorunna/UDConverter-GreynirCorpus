@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00411,.1
 # text = Þetta er þó ekki fyrsta hátíðarfæðing foreldranna því stóra systir nýjársdrenginsins fæddist á páskunum fyrir fjórum árum.
 1	Þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	tag=fn_et_nf_hk
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	þó	þó	ADV	ao	_	6	advmod	_	tag=ao
 4	ekki	ekki	ADV	ao	_	6	advmod	_	tag=ao
 5	fyrsta	fyrstur	ADJ	lo_et_nf_kvk_vb	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	tag=lo_et_nf_kvk_vb
@@ -49,31 +49,29 @@
 6	sem	sem	SCONJ	st	_	10	mark	_	tag=st
 7	færslan	færsla	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	tag=no_et_nf_kvk_gr
 8	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	aux	_	tag=so_0_vh_p3_et_nt_gm
-9	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	cop	_	tag=so_0_sagnb_gm
+9	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	10	cop	_	tag=so_0_sagnb_gm
 10	undirbúin	undirbúa	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	5	advcl	_	tag=so_0_lhþt_et
 11	af	af	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
 12	hinum	hinn	PRON	fn_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	tag=fn_et_þgf_kk
 13	grunaða	grunaður	ADJ	lo_et_þgf_kk_vb	Case=Dat|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_þgf_kk_vb
 14	og	og	CCONJ	st	_	10	cc	_	tag=st
 15	svo	svo	ADV	eo	_	10	advmod	_	tag=eo
-16	sett	setja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	VANTAR_LIÐ_VP_None	_	tag=so_0_lhþt_et
+16	sett	setja	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	10	dep	_	tag=so_0_lhþt_et
 17	inn	inn	ADV	ao	_	10	advmod	_	SpaceAfter=No|tag=ao
 18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00411,.4
 # text = Bæturnar verða greiddar til Snorra Páls Jónssonar og Steinunnar Gunnlaugsdóttur vegna viðkvæmra persónuupplýsinga sem skráðar voru um þau í skýrsluna.
 1	Bæturnar	bót	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	tag=no_ft_nf_kvk_gr
-2	verða	verða	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
+2	verða	verða	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_0_fh_p3_ft_nt_gm
 3	greiddar	greiða	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 4	til	til	ADP	fs_ef	Case=Gen	5	case	_	tag=fs_ef
-5-7	Snorra Páls Jónssonar	_	_	_	_	_	_	_	_
 5	Snorra	Snorri	PROPN	person_ef_kk	Case=Gen|Gender=Masc	3	obl	_	tag=person_ef_kk
 6	Páls	Páll	PROPN	person_ef_kk	Case=Gen|Gender=Masc	5	flat	_	tag=person_ef_kk
-7	Jónssonar	Jónsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	5	flat	_	tag=person_ef_kk
+7	Jónssonar	Jónsson	PROPN	person_ef_kk	Case=Gen|Gender=Masc	5	flat	_	MWEEnd=Yes|tag=person_ef_kk
 8	og	og	CCONJ	st	_	5	cc	_	tag=st
-9-10	Steinunnar Gunnlaugsdóttur	_	_	_	_	_	_	_	_
 9	Steinunnar	Steinunn	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	5	conj	_	tag=person_ef_kvk
-10	Gunnlaugsdóttur	Gunnlaugsdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	9	flat	_	tag=person_ef_kvk
+10	Gunnlaugsdóttur	Gunnlaugsdóttir	PROPN	person_ef_kvk	Case=Gen|Gender=Fem	9	flat	_	MWEEnd=Yes|tag=person_ef_kvk
 11	vegna	vegna	ADP	fs_ef	Case=Gen	13	case	_	tag=fs_ef
 12	viðkvæmra	viðkvæmur	ADJ	lo_ft_ef_kvk_sb	Case=Gen|Gender=Fem|Number=Plur	13	amod	_	tag=lo_ft_ef_kvk_sb
 13	persónuupplýsinga	persónuupplýsingar	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	3	obl	_	tag=no_ft_ef_kvk
@@ -94,7 +92,7 @@
 4	að	að	SCONJ	st	_	8	mark	_	tag=st
 5	framkvæmdirnar	framkvæmd	NOUN	no_ft_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	8	nsubj	_	tag=no_ft_nf_kvk_gr
 6	hafi	hafa	AUX	so_0_vh_p3_ft_nt_gm	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	_	tag=so_0_vh_p3_ft_nt_gm
-7	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	cop	_	tag=so_0_sagnb_gm
+7	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	8	cop	_	tag=so_0_sagnb_gm
 8	skipulagðar	skipuleggja	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	obj	_	tag=so_0_lhþt_ft
 9	mun	munur	ADV	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	8	advmod	_	tag=no_et_þgf_kk
 10	lengur	lengi	ADV	ao_mst	Degree=Cmp	9	advmod	_	tag=ao_mst
@@ -105,7 +103,7 @@
 15	hafa	hafa	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	16	aux	_	tag=so_0_fh_p3_ft_nt_gm
 16	gefið	gefa	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	9	advcl	_	tag=so_0_sagnb_gm
 17	út	út	ADV	ao	_	16	compound:prt	_	SpaceAfter=No|tag=ao
-18	.	.	PUNCT	grm	_	2	punct	_	tag=grm
+18	.	.	PUNCT	grm	_	17	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00411,.6
 # text = Síðan þá hefur ekkert gengið hjá vængmanninum en Cole telur enn að hann geti staðið undir verðmiðanum.
@@ -151,10 +149,9 @@
 
 # sent_id = GREYNIR_CORPUS_00411,.8
 # text = Á þessum tíma var talsverður fjöldi flugvéla á flugi yfir landinu sem tilkynntu að þær hefðu heyrt í neyðarsendi.
-1-3	Á þessum tíma	_	_	_	_	_	_	_	_
 1	Á	á	ADV	ao	_	4	advmod	_	tag=ao
 2	þessum	þessum	ADV	ao	_	1	fixed	_	tag=ao
-3	tíma	tíma	ADV	ao	_	1	fixed	_	tag=ao
+3	tíma	tíma	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 4	var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_þt_gm
 5	talsverður	talsverður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	tag=lo_et_nf_kk_sb
 6	fjöldi	fjöldi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
@@ -188,12 +185,10 @@
 11	44	44	NUM	tala_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	12	nummod	_	tag=tala_ft_þgf_kk
 12	leikjum	leikur	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	tag=no_ft_þgf_kk
 13	fyrir	fyrir	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
-14-15	West Ham	_	_	_	_	_	_	_	_
 14	West	West	PROPN	fyrirtæki	_	9	obl	_	tag=fyrirtæki
-15	Ham	Ham	PROPN	fyrirtæki	_	14	flat	_	tag=fyrirtæki
-16-17	þrátt fyrir	_	_	_	_	_	_	_	_
+15	Ham	Ham	PROPN	fyrirtæki	_	14	flat	_	MWEEnd=Yes|tag=fyrirtæki
 16	þrátt	þrátt	ADP	fs_þf	Case=Acc	19	case	_	tag=fs_þf
-17	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	fixed	_	tag=fs_þf
+17	fyrir	fyrir	ADP	fs_þf	Case=Acc	16	fixed	_	MWEEnd=Yes|tag=fs_þf
 18	mikil	mikill	ADJ	lo_ft_þf_hk_sb	Case=Acc|Gender=Neut|Number=Plur	19	amod	_	tag=lo_ft_þf_hk_sb
 19	meiðsli	meiðsla	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
 20	.	.	PUNCT	grm	_	7	punct	_	tag=grm
@@ -201,7 +196,7 @@
 # sent_id = GREYNIR_CORPUS_00411,.10
 # text = Ed er sérstaklega spenntur að koma til Íslands enda mikill aðdáandi Íslands og íslenska karlalandsliðsins í fótbolta.
 1	Ed	Ed	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	sérstaklega	sérstaklega	ADV	eo	_	11	advmod	_	tag=eo
 4	spenntur	spenntur	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	tag=lo_et_nf_kk_sb
 5	að	að	PART	nhm	_	6	mark	_	tag=nhm

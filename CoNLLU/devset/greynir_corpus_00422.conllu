@@ -1,13 +1,13 @@
 # sent_id = GREYNIR_CORPUS_00422,.1
 # text = Og það þýðir þá það að menn þurfa að fresta því um einhvern tíma að ná Norðurlandameðaltalinu.
-1	Og	og	SCONJ	st	_	0	root	_	tag=st
-2	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_hk_p3
-3	þýðir	þýða	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
-4	þá	hann	ADV	ao	_	5	advmod	_	tag=ao
-5	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	tag=fn_et_nf_hk
+1	Og	og	SCONJ	st	_	3	cc	_	tag=st
+2	það	sá	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_hk_p3
+3	þýðir	þýða	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
+4	þá	hann	ADV	ao	_	3	advmod	_	tag=ao
+5	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	3	obl	_	tag=fn_et_nf_hk
 6	að	að	SCONJ	st	_	8	mark	_	tag=st
 7	menn	maður	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	tag=no_ft_nf_kk
-8	þurfa	þurfa	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	ccomp	_	tag=so_0_fh_p3_ft_nt_gm
+8	þurfa	þurfa	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	ccomp	_	tag=so_0_fh_p3_ft_nt_gm
 9	að	að	PART	nhm	_	10	mark	_	tag=nhm
 10	fresta	fresta	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	8	xcomp	_	tag=so_1_þgf_nh_gm
 11	því	sá	PRON	pfn_et_þgf_hk_p3	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	tag=pfn_et_þgf_hk_p3
@@ -17,14 +17,13 @@
 15	að	að	PART	nhm	_	16	mark	_	tag=nhm
 16	ná	ná	VERB	so_1_þgf_nh_gm	Case=Dat|VerbForm=Inf|Voice=Act	14	xcomp	_	tag=so_1_þgf_nh_gm
 17	Norðurlandameðaltalinu	Norðurlanda-meðaltal	PROPN	sérnafn_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	16	obj	_	SpaceAfter=No|tag=sérnafn_et_þgf_hk_gr
-18	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00422,.2
 # text = Útsending Rásar 2 liggur niðri á Ólafsvík og í nágrenni vegna bilunar sem upp kom í sendi á svæðinu.
 1	Útsending	útsending	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	tag=no_et_nf_kvk
-2-3	Rásar 2	_	_	_	_	_	_	_	_
 2	Rásar	Rásar	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	1	nmod:poss	_	tag=fyrirtæki_et_ef_kvk
-3	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	2	flat	_	tag=fyrirtæki_et_ef_kvk
+3	2	2	PROPN	fyrirtæki_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	2	flat	_	MWEEnd=Yes|tag=fyrirtæki_et_ef_kvk
 4	liggur	liggja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 5	niðri	niðra	ADV	ao	_	7	advmod	_	tag=ao
 6	á	eiga	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
@@ -46,10 +45,10 @@
 # sent_id = GREYNIR_CORPUS_00422,.3
 # text = Byrjið á því að saxa lauk, sveppi og skinku smátt og steikið vel í smjöri ásamt steinselju.
 1	Byrjið	byrja	VERB	so_0_bh_ft_gm	Mood=Imp|Number=Plur|Voice=Act	0	root	_	tag=so_0_bh_ft_gm
-2	á	á	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
-3	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	tag=fn_et_þgf_hk
+2	á	á	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
+3	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	tag=fn_et_þgf_hk
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
-5	saxa	saxa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_1_þf_nh_gm
+5	saxa	saxa	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	1	obl	_	tag=so_1_þf_nh_gm
 6	lauk	laukur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No|tag=no_et_þf_kk
 7	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 8	sveppi	sveppi	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	tag=no_et_þf_hk
@@ -73,7 +72,7 @@
 4	dagskrá	dagskrá	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk
 5	forsætisráðherra	forsætisráðherra	NOUN	no_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	4	nmod:poss	_	tag=no_et_ef_kk
 6	tvær	tveir	NUM	to_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	7	nummod	_	tag=to_ft_nf_kvk
-7	skýrslur	skýrsla	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|tag=no_ft_nf_kvk
+7	skýrslur	skýrsla	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	tag=no_ft_nf_kvk
 8	—	—	PUNCT	grm	_	7	punct	_	tag=grm
 9	önnur	annar	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	tag=fn_et_nf_kvk
 10	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	conj	_	tag=so_0_fh_p3_et_nt_gm
@@ -132,15 +131,14 @@
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00422,.7
-# text = Tryggvi starfaði áður hjá Videntifier Technologies ehf., fyrst sem yfirmaður viðskiptaþróunar og síðar sem yfirmaður viðskipta &#40; CCO &#41;.
+# text = Tryggvi starfaði áður hjá Videntifier Technologies ehf., fyrst sem yfirmaður viðskiptaþróunar og síðar sem yfirmaður viðskipta&#40; CCO&#41;.
 1	Tryggvi	Tryggvi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	2	nsubj	_	tag=person_nf_kk
 2	starfaði	starfa	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 3	áður	áður	ADV	ao	_	2	advmod	_	tag=ao
 4	hjá	hjá	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
-5-7	Videntifier Technologies ehf.	_	_	_	_	_	_	_	_
-5	Videntifier	Videntifier	PROPN	fyrirtæki_þgf	Case=Dat	2	obl	_	SpaceAfter=No|tag=fyrirtæki_þgf
-6	Technologies	Technologies	PROPN	fyrirtæki_þgf	Case=Dat	5	flat	_	SpaceAfter=No|tag=fyrirtæki_þgf
-7	ehf.	ehf.	PROPN	fyrirtæki_þgf	Case=Dat	5	flat	_	SpaceAfter=No|tag=fyrirtæki_þgf
+5	Videntifier	Videntifier	PROPN	fyrirtæki_þgf	Case=Dat	2	obl	_	tag=fyrirtæki_þgf
+6	Technologies	Technologies	PROPN	fyrirtæki_þgf	Case=Dat	5	flat	_	tag=fyrirtæki_þgf
+7	ehf.	ehf.	PROPN	fyrirtæki_þgf	Case=Dat	5	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=fyrirtæki_þgf
 8	,	,	PUNCT	grm	_	2	punct	_	tag=grm
 9	fyrst	fyrst	ADV	ao_est	Degree=Sup	2	advmod	_	tag=ao_est
 10	sem	sem	ADP	fs_nf	Case=Nom	11	case	_	tag=fs_nf
@@ -168,15 +166,14 @@
 8	meira	meira	ADV	ao_mst	Degree=Cmp	7	advmod	_	tag=ao_mst
 9	og	og	CCONJ	st	_	2	cc	_	tag=st
 10	ég	ég	PRON	pfn_et_nf_p1	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	tag=pfn_et_nf_p1
-11	er	er	VERB	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p1_et_nt_gm
+11	er	vera	AUX	so_0_fh_p1_et_nt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p1_et_nt_gm
 12	mjög	mjög	ADV	eo	_	13	advmod	_	tag=eo
 13	ánægður	ánægður	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=lo_et_nf_kk_sb
 14	með	með	ADP	fs_þf	Case=Acc	16	case	_	tag=fs_þf
 15	alla	allur	PRON	fn_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	16	nmod	_	tag=fn_ft_þf_kk
 16	strákana	strákur	NOUN	no_ft_þf_kk_gr	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	13	obl	_	tag=no_ft_þf_kk_gr
-17-18	í kvöld	_	_	_	_	_	_	_	_
-17	í	í	ADV	ao	_	13	advmod	_	SpaceAfter=No|tag=ao
-18	kvöld	kvöld	ADV	ao	_	17	fixed	_	SpaceAfter=No|tag=ao
+17	í	í	ADV	ao	_	13	advmod	_	tag=ao
+18	kvöld	kvöld	ADV	ao	_	17	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 19	.	.	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00422,.9
@@ -184,35 +181,33 @@
 1	Í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 2	nýliðnum	nýliðinn	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	tag=lo_et_þgf_kk_sb
 3	janúar	janúar	ADV	dagsafs	_	6	advmod	_	tag=dagsafs
-4	hafi	haf	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_vh_p3_et_nt_gm
-5	síðan	síða	ADV	ao	_	6	advmod	_	tag=ao
+4	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	aux	_	tag=so_0_vh_p3_et_nt_gm
+5	síðan	síðan	ADV	ao	_	6	advmod	_	tag=ao
 6	orðið	orð	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	0	root	_	tag=so_0_sagnb_gm
-7-9	að minnsta kosti	_	_	_	_	_	_	_	_
 7	að	að	ADV	ao	_	11	advmod	_	tag=ao
 8	minnsta	minnsta	ADV	ao	_	7	fixed	_	tag=ao
-9	kosti	kosti	ADV	ao	_	7	fixed	_	tag=ao
+9	kosti	kosti	ADV	ao	_	7	fixed	_	MWEEnd=Yes|tag=ao
 10	fimm	fimm	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	11	nummod	_	tag=töl_ft_nf_hk
 11	trampólínslys	trampólín-slys	NOUN	no_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	SpaceAfter=No|tag=no_ft_nf_hk
 12	,	,	PUNCT	grm	_	11	punct	_	tag=grm
-13-14	samanborið við	_	_	_	_	_	_	_	_
 13	samanborið	samanborið	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
-14	við	við	ADP	fs_þf	Case=Acc	13	fixed	_	tag=fs_þf
+14	við	við	ADP	fs_þf	Case=Acc	13	fixed	_	MWEEnd=Yes|tag=fs_þf
 15	tvö	tveir	NUM	to_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	tag=to_ft_þf_hk
 16	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
-17-18	janúar 2017	_	_	_	_	_	_	_	_
 17	janúar	janúar	ADV	dagsafs	_	15	advmod	_	tag=dagsafs
-18	2017	2017	NOUN	dagsafs	_	17	flat	_	tag=dagsafs
+18	2017	2017	NOUN	dagsafs	_	17	flat	_	MWEEnd=Yes|tag=dagsafs
 19	og	og	CCONJ	st	_	15	cc	_	tag=st
 20	eitt	einn	NUM	to_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	nsubj	_	tag=to_et_þf_hk
 21	í	í	ADP	fs_þgf	Case=Dat	22	case	_	tag=fs_þgf
-22-23	janúar 2016	_	_	_	_	_	_	_	_
-22	janúar	janúar	ADV	dagsafs	_	20	advmod	_	SpaceAfter=No|tag=dagsafs
-23	2016	2016	NOUN	dagsafs	_	22	flat	_	SpaceAfter=No|tag=dagsafs
+22	janúar	janúar	ADV	dagsafs	_	20	advmod	_	tag=dagsafs
+23	2016	2016	NOUN	dagsafs	_	22	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=dagsafs
 24	.	.	PUNCT	grm	_	6	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00422,.10
+# text = Aukin hætta er á heilablóðfalli og elliglöpum ef einstaklingur neytir einnar dósar sykurskertum eða sykurlausum gosdrykk á dag.
 1	Aukin	auka	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	tag=lo_et_nf_kvk_sb
 2	hætta	hætta	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	tag=no_et_nf_kvk
-3	er	er	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
 4	á	eiga	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 5	heilablóðfalli	heilablóðfall	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þgf_hk
 6	og	og	CCONJ	st	_	7	cc	_	tag=st
@@ -227,6 +222,6 @@
 15	sykurlausum	sykurlaus	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	16	amod	_	tag=lo_et_þgf_kk_sb
 16	gosdrykk	gosdrykkur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	tag=no_et_þgf_kk
 17	á	eiga	ADV	fs_þf	Case=Acc	10	advmod	_	tag=fs_þf
-18	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	tag=no_et_þf_kk
+18	dag	dagur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 19	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

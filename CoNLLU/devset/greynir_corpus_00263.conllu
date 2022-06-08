@@ -14,9 +14,8 @@
 12	miðakaup	miðakaup	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	tag=no_et_þf_hk
 13	á	á	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	jólatónleika	jólatónleikar	NOUN	no_ft_þf_kk	Case=Acc|Gender=Masc|Number=Plur	12	obl	_	tag=no_ft_þf_kk
-15-16	í ár	_	_	_	_	_	_	_	_
-15	í	í	ADV	ao	_	7	advmod	_	SpaceAfter=No|tag=ao
-16	ár	ár	ADV	ao	_	15	fixed	_	SpaceAfter=No|tag=ao
+15	í	í	ADV	ao	_	7	advmod	_	tag=ao
+16	ár	ár	ADV	ao	_	15	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 17	.	_	PUNCT	grm	_	1	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00263,.2
@@ -30,7 +29,7 @@
 7	með	með	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 8	tognaðan	tognaður	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_þf_kk_sb
 9	kálfa	kálfur	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	tag=no_et_þf_kk
-10	var	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
+10	var	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
 11	ekki	ekki	ADV	ao	_	13	advmod	_	tag=ao
 12	mjög	mjög	ADV	eo	_	13	advmod	_	tag=eo
 13	glæsilegt	glæsilegur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	1	xcomp	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
@@ -43,7 +42,7 @@
 # text = Þessi saga er ansi áhugaverð, holl og góð fyrir þá sem eru litlir í sér.
 1	Þessi	þessi	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	nmod	_	tag=fn_et_nf_kvk
 2	saga	saga	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	tag=no_et_nf_kvk
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	ansi	ansi	ADV	eo	_	5	advmod	_	tag=eo
 5	áhugaverð	áhugaverður	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|tag=lo_et_nf_kvk_sb
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
@@ -62,16 +61,14 @@
 # sent_id = GREYNIR_CORPUS_00263,.4
 # text = Þann 22. nóvember árið 1963 var John Fitzgerald Kennedy, þáverandi forseti Bandaríkjanna, skotinn til bana.
 1	Þann	sá	PRON	fn_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	tag=fn_et_þf_kk
-2-5	22. nóvember árið 1963	_	_	_	_	_	_	_	_
 2	22.	22.	ADV	dagsföst	_	15	advmod	_	tag=dagsföst
 3	nóvember	nóvember	NOUN	dagsföst	_	2	flat	_	tag=dagsföst
 4	árið	árið	NOUN	dagsföst	_	2	flat	_	tag=dagsföst
-5	1963	1963	NOUN	dagsföst	_	2	flat	_	tag=dagsföst
-6	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	aux	_	tag=so_0_fh_p3_et_þt_gm
-7-9	John Fitzgerald Kennedy	_	_	_	_	_	_	_	_
-7	John	John	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-8	Fitzgerald	Fitzgerald	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	SpaceAfter=No|tag=person_nf_kk
-9	Kennedy	Kennedy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	SpaceAfter=No|tag=person_nf_kk
+5	1963	1963	NOUN	dagsföst	_	2	flat	_	MWEEnd=Yes|tag=dagsföst
+6	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_fh_p3_et_þt_gm
+7	John	John	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	nsubj	_	tag=person_nf_kk
+8	Fitzgerald	Fitzgerald	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	tag=person_nf_kk
+9	Kennedy	Kennedy	PROPN	person_nf_kk	Case=Nom|Gender=Masc	7	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 10	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 11	þáverandi	þáverandi	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	tag=lo_et_nf_kk_sb
 12	forseti	forseti	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	tag=no_et_nf_kk
@@ -90,7 +87,7 @@
 4	myndatöku	myndataka	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þf_kvk
 5	og	og	CCONJ	st	_	2	cc	_	tag=st
 6	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_hk_p3
-7	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+7	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 8	engin	enginn	PRON	fn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	tag=fn_et_nf_kvk
 9	tognun	tognun	NOUN	no_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	tag=no_et_nf_kvk
 10	eða	eða	CCONJ	st	_	11	cc	_	tag=st
@@ -98,15 +95,14 @@
 12	slíkt	slíkur	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|tag=fn_et_nf_hk
 13	,	_	PUNCT	grm	_	12	punct	_	tag=grm
 14	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
-15-16	Jón Daði	_	_	_	_	_	_	_	_
-15	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	SpaceAfter=No|tag=person_nf_kk
-16	Daði	Daði	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	SpaceAfter=No|tag=person_nf_kk
+15	Jón	Jón	PROPN	person_nf_kk	Case=Nom|Gender=Masc	14	nsubj	_	tag=person_nf_kk
+16	Daði	Daði	PROPN	person_nf_kk	Case=Nom|Gender=Masc	15	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_nf_kk
 17	.	_	PUNCT	grm	_	14	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00263,.6
 # text = Þarna er ekki mikið af ferðamönnum því aðeins tilteknum fjölda ferðamanna er hleypt á eyjarnar í einu.
 1	Þarna	þarna	ADV	ao	_	4	advmod	_	tag=ao
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	ekki	ekki	ADV	eo	_	4	advmod	_	tag=eo
 4	mikið	mikill	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_sb
 5	af	af	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -116,7 +112,7 @@
 9	tilteknum	tiltekinn	ADJ	lo_et_þgf_kk_sb	Case=Dat|Gender=Masc|Number=Sing	10	amod	_	tag=lo_et_þgf_kk_sb
 10	fjölda	fjöldi	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	13	nsubj	_	tag=no_et_þgf_kk
 11	ferðamanna	ferðamaður	NOUN	no_ft_ef_kk	Case=Gen|Gender=Masc|Number=Plur	10	nmod:poss	_	tag=no_ft_ef_kk
-12	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	aux	_	tag=so_0_fh_p3_et_nt_gm
+12	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	cop	_	tag=so_0_fh_p3_et_nt_gm
 13	hleypt	hleypa	VERB	so_1_þgf_lhþt_et	Case=Dat|Number=Sing|VerbForm=Part	4	advcl	_	tag=so_1_þgf_lhþt_et
 14	á	á	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	eyjarnar	ey	NOUN	no_ft_þf_kvk_gr	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	obl	_	tag=no_ft_þf_kvk_gr
@@ -141,27 +137,26 @@
 13	við	við	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 14	mynni	mynni	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þf_hk
 15	Eyjafjarðar	Eyjafjörður	PROPN	sérnafn_et_ef_kk	Case=Gen|Gender=Masc|Number=Sing	14	nmod:poss	_	tag=sérnafn_et_ef_kk
-16-17	í morgun	_	_	_	_	_	_	_	_
-16	í	í	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
-17	morgun	morgun	ADV	ao	_	16	fixed	_	SpaceAfter=No|tag=ao
+16	í	í	ADV	ao	_	12	advmod	_	tag=ao
+17	morgun	morgun	ADV	ao	_	16	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 18	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00263,.8
-# text = Var verkefnisstjóri og blaðamaður við Viðskiptablaðið 1993 – 94 og framkvæmdastjóri ISS-þjónustunnar 1994 – 96.
-1	Var	vera	VERB	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
+# text = Var verkefnisstjóri og blaðamaður við Viðskiptablaðið 1993–94 og framkvæmdastjóri ISS-þjónustunnar 1994–96.
+1	Var	vera	AUX	so_1_nf_fh_p3_et_þt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	cop	_	tag=so_1_nf_fh_p3_et_þt_gm
 2	verkefnisstjóri	verkefnisstjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 3	og	og	CCONJ	st	_	4	cc	_	tag=st
 4	blaðamaður	blaðamaður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	tag=no_et_nf_kk
 5	við	við	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
 6	Viðskiptablaðið	viðskiptablað	PROPN	fyrirtæki_et_þf_hk_gr	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=fyrirtæki_et_þf_hk_gr
 7	1993	1993	ADV	ártal	_	2	advmod	_	SpaceAfter=No|tag=ártal
-8	–	_	PUNCT	grm	_	7	punct	_	tag=grm
+8	–	_	PUNCT	grm	_	7	punct	_	SpaceAfter=No|tag=grm
 9	94	94	NUM	ártal	_	7	nummod	_	tag=ártal
 10	og	og	CCONJ	st	_	2	cc	_	tag=st
 11	framkvæmdastjóri	framkvæmdastjóri	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	tag=no_et_nf_kk
 12	ISS-þjónustunnar	ISS-þjónusta	PROPN	fyrirtæki_et_ef_kvk_gr	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod:poss	_	tag=fyrirtæki_et_ef_kvk_gr
 13	1994	1994	ADV	ártal	_	11	advmod	_	SpaceAfter=No|tag=ártal
-14	–	_	PUNCT	grm	_	13	punct	_	tag=grm
+14	–	_	PUNCT	grm	_	13	punct	_	SpaceAfter=No|tag=grm
 15	96	96	NUM	ártal	_	13	nummod	_	SpaceAfter=No|tag=ártal
 16	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
@@ -173,8 +168,8 @@
 4	mildar	mildur	ADJ	lo_ft_þf_kvk_sb	Case=Acc|Gender=Fem|Number=Plur	5	amod	_	tag=lo_ft_þf_kvk_sb
 5	aukaverkanir	aukaverkun	NOUN	no_ft_þf_kvk	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|tag=no_ft_þf_kvk
 6	,	_	PUNCT	grm	_	5	punct	_	tag=grm
-7	eins	eins	ADV	ao	_	9	cc	_	tag=ao
-8	og	og	CCONJ	st	_	7	cc	_	tag=st
+7	eins	eins	ADV	ao	_	8	advmod	_	tag=ao
+8	og	og	CCONJ	st	_	9	mark	_	tag=st
 9	roða	roði	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	5	advcl	_	tag=no_et_þf_kk
 10	og	og	CCONJ	st	_	11	cc	_	tag=st
 11	viðkvæmni	viðkvæmni	NOUN	no_et_þf_kvk	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	tag=no_et_þf_kvk
@@ -188,9 +183,8 @@
 
 # sent_id = GREYNIR_CORPUS_00263,.10
 # text = Andrean Sigurgeirsson, dansari og meðlimur Hatara, hefur hlotið mikið lof fyrir frammistöðu sína í Eurovision.
-1-2	Andrean Sigurgeirsson	_	_	_	_	_	_	_	_
-1	Andrean	Andrean	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|tag=person_et_nf_kk
-2	Sigurgeirsson	Sigurgeirsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No|tag=person_et_nf_kk
+1	Andrean	Andrean	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	tag=person_et_nf_kk
+2	Sigurgeirsson	Sigurgeirsson	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=person_et_nf_kk
 3	,	_	PUNCT	grm	_	2	punct	_	tag=grm
 4	dansari	dansari	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	tag=no_et_nf_kk
 5	og	og	CCONJ	st	_	6	cc	_	tag=st

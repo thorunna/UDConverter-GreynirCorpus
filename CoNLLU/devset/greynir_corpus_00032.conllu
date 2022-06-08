@@ -1,7 +1,7 @@
 # sent_id = GREYNIR_CORPUS_00032,.1
 # text = Ég var orðinn heldur svartsýnn á þetta.
 1	Ég	ég	PRON	pfn_et_nf_kk_p1	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	tag=pfn_et_nf_kk_p1
-2	var	vera	AUX	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	3	aux	_	tag=so_0_fh_p1_et_þt_gm
+2	var	vera	AUX	so_0_fh_p1_et_þt_gm	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	3	cop	_	tag=so_0_fh_p1_et_þt_gm
 3	orðinn	verða	VERB	so_1_nf_lhþt_et	Case=Nom|Number=Sing|VerbForm=Part	0	root	_	tag=so_1_nf_lhþt_et
 4	heldur	gjarna	ADV	ao_mst	Degree=Cmp	5	advmod	_	tag=ao_mst
 5	svartsýnn	svartsýnn	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	tag=lo_et_nf_kk_fst_sb
@@ -11,7 +11,7 @@
 
 # sent_id = GREYNIR_CORPUS_00032,.2
 # text = Já, maður er alltaf með áhyggjur.
-1	Já	já	INTJ	uh	_	4	VANTAR_LIÐ_S_PREFIX	_	SpaceAfter=No|tag=uh
+1	Já	já	INTJ	uh	_	4	dep	_	SpaceAfter=No|tag=uh
 2	,	_	PUNCT	grm	_	1	punct	_	tag=grm
 3	maður	maður	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
 4	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -47,7 +47,7 @@
 # text = Jaðar hríðarbakkans er skarpur, segir í tilkynningunni.
 1	Jaðar	jaðar	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk
 2	hríðarbakkans	hríðarbakki	NOUN	no_et_ef_kk_gr	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod:poss	_	tag=no_et_ef_kk_gr
-3	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+3	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 4	skarpur	skarpur	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	ccomp	_	SpaceAfter=No|tag=lo_et_nf_kk_fst_sb
 5	,	_	PUNCT	grm	_	4	punct	_	tag=grm
 6	segir	segja	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_et_nt_gm
@@ -58,7 +58,7 @@
 # sent_id = GREYNIR_CORPUS_00032,.6
 # text = Hann er hávaxinn, heilbrigður og mjög ljúfur strákur.
 1	Hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_kk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	hávaxinn	hávaxinn	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No|tag=lo_et_nf_kk_fst_sb
 4	,	_	PUNCT	grm	_	3	punct	_	tag=grm
 5	heilbrigður	heilbrigður	ADJ	lo_et_nf_kk_fst_sb	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	tag=lo_et_nf_kk_fst_sb
@@ -75,9 +75,8 @@
 3	Twitter	Twitter	PROPN	entity_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	2	nmod:poss	_	tag=entity_et_ef_hk
 4	hrundi	hrynja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
-6-7	20 prósent	_	_	_	_	_	_	_	_
 6	20	20	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	tag=no_ft_þf_hk
-7	prósent	prósent	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	flat	_	tag=no_ft_þf_hk
+7	prósent	prósent	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	flat	_	MWEEnd=Yes|tag=no_ft_þf_hk
 8	í	í	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 9	dag	dagur	ADV	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	4	advmod	_	SpaceAfter=No|tag=no_et_þf_kk
 10	.	_	PUNCT	grm	_	4	punct	_	tag=grm
@@ -117,7 +116,7 @@
 5	að	að	SCONJ	st	_	9	mark	_	tag=st
 6	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	tag=pfn_et_nf_hk_p3
 7	skuli	skulu	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	aux	_	tag=so_0_vh_p3_et_nt_gm
-8	vera	vera	VERB	so_1_nf_nh	Case=Nom|VerbForm=Inf	9	cop	_	tag=so_1_nf_nh
+8	vera	vera	AUX	so_1_nf_nh	Case=Nom|VerbForm=Inf	9	cop	_	tag=so_1_nf_nh
 9	annar	annar	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	advcl	_	SpaceAfter=No|tag=fn_et_nf_kk
-10	.	.	PUNCT	grm	_	1	punct	_	tag=grm
+10	.	.	PUNCT	grm	_	9	punct	_	tag=grm
 

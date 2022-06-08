@@ -11,7 +11,7 @@
 9	mér	ég	PRON	pfn_et_þgf_p1	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	tag=pfn_et_þgf_p1
 10	finnst	finna	VERB	so_1_nf_op_subj_þgf_fh_p3_et_nt_mm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	2	conj	_	tag=so_1_nf_op_subj_þgf_fh_p3_et_nt_mm
 11	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	tag=pfn_et_nf_hk_p3
-12	vera	vera	VERB	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	13	cop	_	tag=so_1_nf_nh_gm
+12	vera	vera	AUX	so_1_nf_nh_gm	Case=Nom|VerbForm=Inf|Voice=Act	13	cop	_	tag=so_1_nf_nh_gm
 13	raddir	rödd	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	10	xcomp	_	tag=no_ft_nf_kvk
 14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
 15	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	13	acl:relcl	_	tag=so_0_fh_p3_et_nt_gm
@@ -49,20 +49,19 @@
 2	mitt	minn	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	1	nmod	_	tag=fn_et_nf_hk
 3	virðist	virða	VERB	so_0_fh_p3_et_nt_mm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_0_fh_p3_et_nt_mm
 4	nefnilega	nefnilega	ADV	ao	_	3	advmod	_	tag=ao
-5-7	fyrst og fremst	_	_	_	_	_	_	_	_
 5	fyrst	fyrst	ADV	ao	_	3	advmod	_	tag=ao
 6	og	og	ADV	ao	_	5	fixed	_	tag=ao
-7	fremst	fremst	ADV	ao	_	5	fixed	_	tag=ao
+7	fremst	fremst	ADV	ao	_	5	fixed	_	MWEEnd=Yes|tag=ao
 8	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	3	xcomp	_	tag=so_0_nh_gm
 9	til	til	ADP	fs_nh	VerbForm=Inf	11	case	_	tag=fs_nh
 10	að	að	PART	nhm	_	11	mark	_	tag=nhm
 11	sýnast	sýna	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	8	obl	_	SpaceAfter=No|tag=so_0_nh_mm
 12	,	_	PUNCT	grm	_	11	punct	_	tag=grm
 13	ekki	ekki	ADV	ao	_	8	advmod	_	tag=ao
-14	til	til	ADP	fs_ef	Case=Gen	15	case	_	tag=fs_ef
-15	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	tag=fn_et_ef_hk
+14	til	til	ADP	fs_ef	Case=Gen	17	case	_	tag=fs_ef
+15	þess	sá	PRON	fn_et_ef_hk	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	tag=fn_et_ef_hk
 16	að	að	PART	nhm	_	17	mark	_	tag=nhm
-17	gefa	gefa	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	15	xcomp	_	tag=so_2_þgf_þf_nh_gm
+17	gefa	gefa	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	8	obl	_	tag=so_2_þgf_þf_nh_gm
 18	borgarbúum	borgarbúi	NOUN	no_ft_þgf_kk	Case=Dat|Gender=Masc|Number=Plur	17	iobj	_	tag=no_ft_þgf_kk
 19	raunverulegt	raunverulegur	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	20	amod	_	tag=lo_et_þf_hk_sb
 20	val	val	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	SpaceAfter=No|tag=no_et_þf_hk
@@ -95,17 +94,16 @@
 # sent_id = GREYNIR_CORPUS_00126,.5
 # text = Kanelkonfekt eins og það gerist best hér úr smiðju Maríu Gomez á Paz.is sem er heldur betur að poppa upp bolludaginn.
 1	Kanelkonfekt	kanelkonfekt	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk
-2	eins	eins	ADV	ao	_	5	cc	_	tag=ao
-3	og	og	CCONJ	st	_	2	cc	_	tag=st
+2	eins	eins	ADV	ao	_	3	advmod	_	tag=ao
+3	og	og	CCONJ	st	_	5	mark	_	tag=st
 4	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	tag=pfn_et_nf_hk_p3
 5	gerist	gera	VERB	so_1_nf_fh_p3_et_nt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	1	advcl	_	tag=so_1_nf_fh_p3_et_nt_mm
 6	best	vel	ADV	ao_est	Degree=Sup	5	advmod	_	tag=ao_est
 7	hér	hér	ADV	ao	_	9	advmod	_	tag=ao
 8	úr	úr	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
 9	smiðju	smiðja	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	0	root	_	tag=no_et_þgf_kvk
-10-11	Maríu Gomez	_	_	_	_	_	_	_	_
 10	Maríu	María	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	tag=person_et_ef_kvk
-11	Gomez	Gomez	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	flat	_	tag=person_et_ef_kvk
+11	Gomez	Gomez	PROPN	person_et_ef_kvk	Case=Gen|Gender=Fem|Number=Sing	10	flat	_	MWEEnd=Yes|tag=person_et_ef_kvk
 12	á	á	ADP	fs_þgf	Case=Dat	13	case	_	tag=fs_þgf
 13	Paz.is	Paz.is	SYM	lén	_	10	obl	_	tag=lén
 14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
@@ -148,7 +146,7 @@
 1	Vægi	vægi	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	tag=no_et_nf_hk
 2	þessara	þessi	PRON	fn_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	tag=fn_ft_ef_kvk
 3	minninga	minning	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk
-4	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_ft_nt_gm
+4	eru	vera	AUX	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	cop	_	tag=so_0_fh_p3_ft_nt_gm
 5	að	að	ADP	fs_þgf	Case=Dat	7	case	_	tag=fs_þgf
 6	mestu	mikill	ADJ	lo_et_þgf_hk_esb_sb	Case=Dat|Degree=Sup|Gender=Neut|Number=Sing	7	amod	_	tag=lo_et_þgf_hk_esb_sb
 7	leiti	leyti	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	tag=no_et_þgf_hk
@@ -178,11 +176,11 @@
 6	að	að	SCONJ	st	_	7	mark	_	tag=st
 7	tilkynnt	tilkynna	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	4	xcomp	_	tag=so_0_lhþt_et
 8	hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	aux	_	tag=so_0_vh_p3_et_nt_gm
-9	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	aux	_	tag=so_0_sagnb_gm
+9	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	7	cop	_	tag=so_0_sagnb_gm
 10	um	um	ADP	fs_nh	VerbForm=Inf	15	case	_	tag=fs_nh
 11	að	að	SCONJ	st	_	15	mark	_	tag=st
 12	konan	kona	NOUN	no_et_nf_kvk_gr	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	tag=no_et_nf_kvk_gr
-13	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	15	aux	_	tag=so_0_vh_p3_et_þt_gm
+13	væri	vera	AUX	so_0_vh_p3_et_þt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	15	cop	_	tag=so_0_vh_p3_et_þt_gm
 14	að	að	PART	nhm	_	15	mark	_	tag=nhm
 15	spreyja	spreyja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	7	obl	_	tag=so_0_nh_gm
 16	og	og	CCONJ	st	_	17	cc	_	tag=st
@@ -199,16 +197,15 @@
 2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_nt_gm
 3	gott	góður	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	tag=lo_et_nf_hk_sb
 4	að	að	PART	nhm	_	6	mark	_	tag=nhm
-5	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	aux	_	tag=so_0_nh_gm
-6	komin	koma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	csubj	_	tag=so_0_lhþt_ft
+5	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	cop	_	tag=so_0_nh_gm
+6	komin	koma	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	obl	_	tag=so_0_lhþt_ft
 7	með	með	ADP	fs_þf	Case=Acc	9	case	_	tag=fs_þf
 8	nokkur	nokkur	PRON	fn_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	9	nmod	_	tag=fn_ft_þf_hk
 9	mörk	mark	NOUN	no_ft_þf_hk	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|tag=no_ft_þf_hk
 10	,	_	PUNCT	grm	_	9	punct	_	tag=grm
 11	sagði	segja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	1	ccomp	_	tag=so_0_fh_p3_et_þt_gm
-12-13	Tryggvi Hrafn	_	_	_	_	_	_	_	_
 12	Tryggvi	Tryggvi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	11	nsubj	_	tag=person_nf_kk
-13	Hrafn	Hrafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	tag=person_nf_kk
+13	Hrafn	Hrafn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	12	flat	_	MWEEnd=Yes|tag=person_nf_kk
 14	sem	sem	SCONJ	stt	_	15	mark	_	tag=stt
 15	skoraði	skora	VERB	so_1_þf_fh_p3_et_þt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	tag=so_1_þf_fh_p3_et_þt_gm
 16	einungis	einungis	ADV	eo	_	18	advmod	_	tag=eo
@@ -221,16 +218,15 @@
 # sent_id = GREYNIR_CORPUS_00126,.10
 # text = Ganamaðurinn Kofi Annan tók við embættinu af Boutros-Ghali eftir að Bandaríkjastjórn lagðist gegn því að hann sæti annað kjörtímabil.
 1	Ganamaðurinn	Ganamaður	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	tag=no_et_nf_kk_gr
-2-3	Kofi Annan	_	_	_	_	_	_	_	_
 2	Kofi	Kofi	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	tag=person_et_nf_kk
-3	Annan	Annan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	tag=person_et_nf_kk
+3	Annan	Annan	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	MWEEnd=Yes|tag=person_et_nf_kk
 4	tók	taka	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 5	við	við	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
 6	embættinu	embætti	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	tag=no_et_þgf_hk_gr
 7	af	af	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	Boutros-Ghali	Boutros-Ghali	PROPN	person_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	tag=person_et_þgf_kk
 9	eftir	eftir	ADP	fs	_	12	mark	_	tag=fs
-10	að	að	SCONJ	st	_	9	cc	_	tag=st
+10	að	að	SCONJ	st	_	9	fixed	_	tag=st
 11	Bandaríkjastjórn	Bandaríkjastjórn	PROPN	sérnafn_et_nf_kvk	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	tag=sérnafn_et_nf_kvk
 12	lagðist	leggja	VERB	so_1_nf_fh_p3_et_þt_mm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	4	advcl	_	tag=so_1_nf_fh_p3_et_þt_mm
 13	gegn	gegn	ADP	fs_þgf	Case=Dat	14	case	_	tag=fs_þgf

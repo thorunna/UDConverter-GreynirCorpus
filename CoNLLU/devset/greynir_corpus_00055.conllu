@@ -7,7 +7,7 @@
 5	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	tag=fn_et_þgf_hk
 6	að	að	SCONJ	st	_	9	mark	_	tag=st
 7	Benedikt	Benedikt	PROPN	person_nf_kk	Case=Nom|Gender=Masc	9	nsubj	_	tag=person_nf_kk
-8	væri	vera	VERB	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
+8	væri	vera	AUX	so_1_nf_vh_p3_et_þt_gm	Case=Nom|Mood=Sub|Number=Sing|Person=3|Tense=Past|Voice=Act	9	cop	_	tag=so_1_nf_vh_p3_et_þt_gm
 9	meðmælandi	meðmælandi	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	ccomp	_	tag=no_et_nf_kk
 10	Hjalta	Hjalti	PROPN	person_ef_kk	Case=Gen|Gender=Masc	9	nmod:poss	_	tag=person_ef_kk
 11	í	í	ADP	fs_þgf	Case=Dat	12	case	_	tag=fs_þgf
@@ -39,16 +39,14 @@
 7	,	_	PUNCT	grm	_	8	punct	_	tag=grm
 8	Palm	Palm	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	conj	_	tag=sérnafn_et_þf_hk
 9	og	og	CCONJ	st	_	4	cc	_	tag=st
-10-11	Windows Mobile	_	_	_	_	_	_	_	_
-10	Windows	Windows	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
-11	Mobile	Mobile	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	flat	_	SpaceAfter=No|tag=sérnafn_et_þf_hk
+10	Windows	Windows	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	4	conj	_	tag=sérnafn_et_þf_hk
+11	Mobile	Mobile	PROPN	sérnafn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	10	flat	_	MWEEnd=Yes|SpaceAfter=No|tag=sérnafn_et_þf_hk
 12	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00055,.4
 # text = Björn Ingi segir ekki komið í ljós hversu margir pistlarnir verða.
-1-2	Björn Ingi	_	_	_	_	_	_	_	_
 1	Björn	Björn	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Ingi	Ingi	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þf_fh_p3_et_nt_gm
 4	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
 5	komið	koma	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	3	xcomp	_	tag=so_0_lhþt_et
@@ -62,9 +60,8 @@
 
 # sent_id = GREYNIR_CORPUS_00055,.5
 # text = Ricky Gervais talaði mikið um þetta í sínu uppistandi, Humanity.
-1-2	Ricky Gervais	_	_	_	_	_	_	_	_
 1	Ricky	Ricky	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	tag=person_et_nf_kk
-2	Gervais	Gervais	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	tag=person_et_nf_kk
+2	Gervais	Gervais	PROPN	person_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	MWEEnd=Yes|tag=person_et_nf_kk
 3	talaði	tala	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 4	mikið	mikið	ADV	ao_fst	Degree=Pos	3	advmod	_	tag=ao_fst
 5	um	um	ADP	fs_þf	Case=Acc	6	case	_	tag=fs_þf
@@ -82,7 +79,7 @@
 2	ætlar	ætla	VERB	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p2_et_nt_gm
 3	þú	þú	PRON	pfn_et_nf_kvk_p2	Case=Nom|Gender=Fem|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p2
 4	að	að	PART	nhm	_	6	mark	_	tag=nhm
-5	vera	vera	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	cop	_	tag=so_0_nh_gm
+5	vera	vera	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	6	cop	_	tag=so_0_nh_gm
 6	stödd	staddur	ADJ	lo_et_nf_kvk_sb	Case=Nom|Gender=Fem|Number=Sing	2	xcomp	_	tag=lo_et_nf_kvk_sb
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
 8	lífinu	líf	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk_gr
@@ -96,9 +93,9 @@
 1	Hafi	hafa	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	aux	_	tag=so_0_vh_p3_et_nt_gm
 2	það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	tag=pfn_et_nf_hk_p3
 3	ekki	ekki	ADV	ao	_	5	advmod	_	tag=ao
-4	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	aux	_	tag=so_0_sagnb_gm
+4	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	5	cop	_	tag=so_0_sagnb_gm
 5	gert	gera	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	9	advcl	_	tag=so_0_lhþt_et
-6	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
+6	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	9	cop	_	tag=so_0_fh_p3_et_nt_gm
 7	það	sá	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=fn_et_nf_hk
 8	klárt	klár	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	9	amod	_	tag=lo_et_nf_hk_sb
 9	brot	brot	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	0	root	_	tag=no_et_nf_hk
@@ -132,13 +129,13 @@
 7	sem	sem	SCONJ	stt	_	9	mark	_	tag=stt
 8	Ísland	Ísland	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	tag=no_et_nf_hk
 9	fékk	fá	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	tag=so_0_fh_p3_et_þt_gm
-10	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	aux	_	tag=so_0_fh_p3_ft_þt_gm
+10	voru	vera	AUX	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	11	cop	_	tag=so_0_fh_p3_ft_þt_gm
 11	tilkynnt	tilkynna	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	2	advcl	_	SpaceAfter=No|tag=so_0_lhþt_ft
 12	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00055,.10
 # text = Verið góð eða haldið kjafti, segir Corden á Twitter.
-1	Verið	vera	VERB	so_1_nf_bh_ft_gm	Case=Nom|Mood=Imp|Number=Plur|Voice=Act	2	cop	_	tag=so_1_nf_bh_ft_gm
+1	Verið	vera	AUX	so_1_nf_bh_ft_gm	Case=Nom|Mood=Imp|Number=Plur|Voice=Act	2	cop	_	tag=so_1_nf_bh_ft_gm
 2	góð	góður	ADJ	lo_ft_nf_hk_fst_sb	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	7	ccomp	_	tag=lo_ft_nf_hk_fst_sb
 3	eða	eða	CCONJ	st	_	4	cc	_	tag=st
 4	haldið	halda	VERB	so_1_þgf_bh_ft_gm	Case=Dat|Mood=Imp|Number=Plur|Voice=Act	2	conj	_	tag=so_1_þgf_bh_ft_gm

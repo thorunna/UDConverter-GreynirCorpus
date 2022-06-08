@@ -21,9 +21,8 @@
 
 # sent_id = GREYNIR_CORPUS_00415,.2
 # text = Sigmundur Davíð fagnar komu þeirra í bréfinu, og segir þá hafa verið samherja í stórum málum stjórnmálanna.
-1-2	Sigmundur Davíð	_	_	_	_	_	_	_	_
 1	Sigmundur	Sigmundur	PROPN	person_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=person_nf_kk
-2	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	tag=person_nf_kk
+2	Davíð	Davíð	PROPN	person_nf_kk	Case=Nom|Gender=Masc	1	flat	_	MWEEnd=Yes|tag=person_nf_kk
 3	fagnar	fagna	VERB	so_1_þgf_fh_p3_et_nt_gm	Case=Dat|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_þgf_fh_p3_et_nt_gm
 4	komu	koma	NOUN	no_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	3	obj	_	tag=no_et_þgf_kvk
 5	þeirra	hann	PRON	pfn_ft_ef_kk_p3	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nmod:poss	_	tag=pfn_ft_ef_kk_p3
@@ -31,11 +30,11 @@
 7	bréfinu	bréf	NOUN	no_et_þgf_hk_gr	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|tag=no_et_þgf_hk_gr
 8	,	,	PUNCT	grm	_	7	punct	_	tag=grm
 9	og	og	CCONJ	st	_	3	cc	_	tag=st
-10	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	cop	_	tag=so_1_þf_fh_p3_et_nt_gm
+10	segir	segja	VERB	so_1_þf_fh_p3_et_nt_gm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	tag=so_1_þf_fh_p3_et_nt_gm
 11	þá	hann	PRON	pfn_ft_þf_kk_p3	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	tag=pfn_ft_þf_kk_p3
 12	hafa	hafa	AUX	so_0_nh_gm	VerbForm=Inf|Voice=Act	14	aux	_	tag=so_0_nh_gm
-13	verið	vera	VERB	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	cop	_	tag=so_0_sagnb_gm
-14	samherja	samherji	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	3	xcomp	_	tag=no_et_þf_kk
+13	verið	vera	AUX	so_0_sagnb_gm	VerbForm=Sup|Voice=Act	14	cop	_	tag=so_0_sagnb_gm
+14	samherja	samherji	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	xcomp	_	tag=no_et_þf_kk
 15	í	í	ADP	fs_þgf	Case=Dat	17	case	_	tag=fs_þgf
 16	stórum	stór	ADJ	lo_ft_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Plur	17	amod	_	tag=lo_ft_þgf_hk_sb
 17	málum	mál	NOUN	no_ft_þgf_hk	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	tag=no_ft_þgf_hk
@@ -45,7 +44,7 @@
 # sent_id = GREYNIR_CORPUS_00415,.3
 # text = Ofninn er núna keyrður á tuttugu og átta megawöttum en fullt afl er þrjátíu og tvö megawött.
 1	Ofninn	ofn	NOUN	no_et_nf_kk_gr	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	tag=no_et_nf_kk_gr
-2	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
+2	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_0_fh_p3_et_nt_gm
 3	núna	núna	ADV	ao	_	4	advmod	_	tag=ao
 4	keyrður	keyra	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	0	root	_	tag=so_0_lhþt_et
 5	á	á	ADP	fs_þgf	Case=Dat	9	case	_	tag=fs_þgf
@@ -56,7 +55,7 @@
 10	en	en	CCONJ	st	_	4	cc	_	tag=st
 11	fullt	fullur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	12	amod	_	tag=lo_et_nf_hk_sb
 12	afl	afl	NOUN	no_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	tag=no_et_nf_hk
-13	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+13	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	17	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 14	þrjátíu	þrjátíu	NUM	töl_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	17	nummod	_	tag=töl_ft_nf_hk
 15	og	og	CCONJ	st	_	17	cc	_	tag=st
 16	tvö	tveir	NUM	to_ft_nf_hk	Case=Nom|Gender=Neut|Number=Plur	17	nummod	_	tag=to_ft_nf_hk
@@ -64,7 +63,7 @@
 18	.	.	PUNCT	grm	_	4	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00415,.4
-# text = KR eru að leggja grunninn hérna og ég spái að þeir brjóti Hauka á bak aftur innan skamms !
+# text = KR eru að leggja grunninn hérna og ég spái að þeir brjóti Hauka á bak aftur innan skamms!
 1	KR	KR	PROPN	fyrirtæki	_	2	nsubj	_	tag=fyrirtæki
 2	eru	vera	VERB	so_0_fh_p3_ft_nt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_nt_gm
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
@@ -81,9 +80,8 @@
 14	á	á	ADP	fs_þf	Case=Acc	15	case	_	tag=fs_þf
 15	bak	bak	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	tag=no_et_þf_hk
 16	aftur	aftur	ADV	ao	_	12	advmod	_	tag=ao
-17-18	innan skamms	_	_	_	_	_	_	_	_
-17	innan	innan	ADV	ao	_	12	advmod	_	SpaceAfter=No|tag=ao
-18	skamms	skamms	ADV	ao	_	17	fixed	_	SpaceAfter=No|tag=ao
+17	innan	innan	ADV	ao	_	12	advmod	_	tag=ao
+18	skamms	skamms	ADV	ao	_	17	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 19	!	!	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00415,.5
@@ -92,10 +90,10 @@
 2	verður	verða	VERB	so_0_fh_p2_et_nt_gm	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	_	tag=so_0_fh_p2_et_nt_gm
 3	að	að	PART	nhm	_	4	mark	_	tag=nhm
 4	byrja	byrja	VERB	so_0_nh_gm	VerbForm=Inf|Voice=Act	2	xcomp	_	tag=so_0_nh_gm
-5	á	á	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
-6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	tag=fn_et_þgf_hk
+5	á	á	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
+6	því	sá	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	tag=fn_et_þgf_hk
 7	að	að	PART	nhm	_	8	mark	_	tag=nhm
-8	gefa	gefa	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	6	xcomp	_	tag=so_2_þgf_þf_nh_gm
+8	gefa	gefa	VERB	so_2_þgf_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	4	obl	_	tag=so_2_þgf_þf_nh_gm
 9	sjálfri	sjálfur	PRON	fn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	8	iobj	_	tag=fn_et_þgf_kvk
 10	þér	þú	PRON	pfn_et_þgf_kvk_p2	Case=Dat|Gender=Fem|Number=Sing|Person=2|PronType=Prs	9	nmod	_	tag=pfn_et_þgf_kvk_p2
 11	það	sá	PRON	fn_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	tag=fn_et_þf_hk
@@ -113,7 +111,7 @@
 2	svæði	svæði	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_þgf_hk
 3	í	í	ADP	fs_þgf	Case=Dat	4	case	_	tag=fs_þgf
 4	miðborginni	miðborg	NOUN	no_et_þgf_kvk_gr	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	tag=no_et_þgf_kvk_gr
-5	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
+5	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_0_fh_p3_et_þt_gm
 6	lokað	lokaður	VERB	so_1_þgf_sagnb_gm	Case=Dat|VerbForm=Sup|Voice=Act	0	root	_	SpaceAfter=No|tag=so_1_þgf_sagnb_gm
 7	,	,	PUNCT	grm	_	8	punct	_	tag=grm
 8	almenningssamgöngur	almenningssamgöngur	NOUN	no_ft_nf_kvk	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	tag=no_ft_nf_kvk
@@ -131,7 +129,7 @@
 # sent_id = GREYNIR_CORPUS_00415,.7
 # text = Það er enginn leikvöllur í borginni sem er á pari við þá sem algengir eru á Norðurlöndum.
 1	Það	það	PRON	pfn_et_nf_hk_p3	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_hk_p3
-2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	AUX	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	enginn	enginn	PRON	fn_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	tag=fn_et_nf_kk
 4	leikvöllur	leikvöllur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=no_et_nf_kk
 5	í	í	ADP	fs_þgf	Case=Dat	6	case	_	tag=fs_þgf
@@ -151,7 +149,7 @@
 
 # sent_id = GREYNIR_CORPUS_00415,.8
 # text = Og að í erfiðu starfi hafi hann sýnt ósérhlífni til að fjölskyldan í landi hefði það betra.
-1	Og	og	SCONJ	st	_	8	cc	_	tag=st
+1	Og	og	SCONJ	st	_	8	dep	_	tag=st
 2	að	að	SCONJ	st	_	1	mark	_	tag=st
 3	í	í	ADP	fs_þgf	Case=Dat	5	case	_	tag=fs_þgf
 4	erfiðu	erfiður	ADJ	lo_et_þgf_hk_sb	Case=Dat|Gender=Neut|Number=Sing	5	amod	_	tag=lo_et_þgf_hk_sb
@@ -191,6 +189,8 @@
 17	félagstengsla	félagstengsl	NOUN	no_ft_ef_hk	Case=Gen|Gender=Neut|Number=Plur	14	nmod:poss	_	SpaceAfter=No|tag=no_ft_ef_hk
 18	.	.	PUNCT	grm	_	1	punct	_	tag=grm
 
+# sent_id = GREYNIR_CORPUS_00415,.10
+# text = Varðskipið Þór nálgast nú skipið en þarna eru margar eldiskvíar sem gerir skipstjórnarmönnum Þórs erfitt um vik.
 1	Varðskipið	varðskip	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	tag=no_et_nf_hk_gr
 2	Þór	Þór	PROPN	sérnafn_nf_kk	Case=Nom|Gender=Masc	3	nsubj	_	tag=sérnafn_nf_kk
 3	nálgast	nálgast	VERB	so_1_þf_fh_p3_et_nt_mm	Case=Acc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Mid	0	root	_	tag=so_1_þf_fh_p3_et_nt_mm
@@ -207,6 +207,6 @@
 14	Þórs	Þór	PROPN	sérnafn_ef_kk	Case=Gen|Gender=Masc	13	nmod:poss	_	tag=sérnafn_ef_kk
 15	erfitt	erfiður	ADJ	lo_et_þf_hk_sb	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	tag=lo_et_þf_hk_sb
 16	um	um	ADP	fs_þf	Case=Acc	17	case	_	tag=fs_þf
-17	vik	vik	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	tag=no_et_þf_hk
+17	vik	vik	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|tag=no_et_þf_hk
 18	.	.	PUNCT	grm	_	3	punct	_	tag=grm
 

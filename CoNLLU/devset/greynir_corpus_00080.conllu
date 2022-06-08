@@ -2,7 +2,7 @@
 # text = Hópur kvenna er nú staðráðinn í að sýna að Finnland sé umburðarlynt og öruggt.
 1	Hópur	hópur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	tag=no_et_nf_kk
 2	kvenna	kona	NOUN	no_ft_ef_kvk	Case=Gen|Gender=Fem|Number=Plur	1	nmod:poss	_	tag=no_ft_ef_kvk
-3	er	vera	VERB	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
+3	er	vera	AUX	so_0_fh_p3_et_nt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	tag=so_0_fh_p3_et_nt_gm
 4	nú	nú	ADV	ao	_	5	advmod	_	tag=ao
 5	staðráðinn	staðráðinn	ADJ	lo_et_nf_kk_sb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	tag=lo_et_nf_kk_sb
 6	í	í	ADP	fs_nh	VerbForm=Inf	8	case	_	tag=fs_nh
@@ -10,7 +10,7 @@
 8	sýna	sýna	VERB	so_1_þf_nh_gm	Case=Acc|VerbForm=Inf|Voice=Act	5	obl	_	tag=so_1_þf_nh_gm
 9	að	að	SCONJ	st	_	12	mark	_	tag=st
 10	Finnland	Finnland	PROPN	sérnafn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	tag=sérnafn_et_nf_hk
-11	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_nt_gm
+11	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	tag=so_0_vh_p3_et_nt_gm
 12	umburðarlynt	umburðarlyndur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	8	ccomp	_	tag=lo_et_nf_hk_sb
 13	og	og	CCONJ	st	_	14	cc	_	tag=st
 14	öruggt	öruggur	ADJ	lo_et_nf_hk_sb	Case=Nom|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No|tag=lo_et_nf_hk_sb
@@ -21,15 +21,14 @@
 1	Flest	margur	ADJ	lo_ft_nf_hk_esb	Case=Nom|Degree=Sup|Gender=Neut|Number=Plur	2	amod	_	tag=lo_ft_nf_hk_esb
 2	þeirra	það	PRON	pfn_ft_ef_hk_p3	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	tag=pfn_ft_ef_hk_p3
 3	féllu	falla	VERB	so_0_fh_p3_ft_þt_gm	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_ft_þt_gm
-4-5	Andra Rúnari	_	_	_	_	_	_	_	_
 4	Andra	Andri	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	3	obl	_	tag=person_þgf_kk
-5	Rúnari	Rúnar	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	4	flat	_	tag=person_þgf_kk
+5	Rúnari	Rúnar	PROPN	person_þgf_kk	Case=Dat|Gender=Masc	4	flat	_	MWEEnd=Yes|tag=person_þgf_kk
 6	í	í	ADP	fs_þf	Case=Acc	7	case	_	tag=fs_þf
 7	skaut	skaut	NOUN	no_et_þf_hk	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	tag=no_et_þf_hk
 8	en	en	CCONJ	st	_	3	cc	_	tag=st
-9	var	vera	X	x		14	dep	_	tag=x
+9	var	vera	X	x	_	14	dep	_	tag=x
 10	þetta	þessi	PRON	fn_et_nf_hk	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	tag=fn_et_nf_hk
-11	var	vera	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_þt_gm
+11	var	vera	AUX	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	14	cop	_	tag=so_0_fh_p3_et_þt_gm
 12	ekki	ekki	ADV	ao	_	14	advmod	_	tag=ao
 13	hans	hann	PRON	pfn_et_ef_kk_p3	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	tag=pfn_et_ef_kk_p3
 14	dagur	dagur	NOUN	no_et_nf_kk	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|tag=no_et_nf_kk
@@ -37,10 +36,9 @@
 
 # sent_id = GREYNIR_CORPUS_00080,.3
 # text = Á sama tíma hóf hann að semja kvikmyndatónlist en helgaði sig því þó aldrei.
-1-3	Á sama tíma	_	_	_	_	_	_	_	_
 1	Á	á	ADV	ao	_	4	advmod	_	tag=ao
 2	sama	sama	ADV	ao	_	1	fixed	_	tag=ao
-3	tíma	tíma	ADV	ao	_	1	fixed	_	tag=ao
+3	tíma	tíma	ADV	ao	_	1	fixed	_	MWEEnd=Yes|tag=ao
 4	hóf	hefja	VERB	so_0_fh_p3_et_þt_gm	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	tag=so_0_fh_p3_et_þt_gm
 5	hann	hann	PRON	pfn_et_nf_kk_p3	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	tag=pfn_et_nf_kk_p3
 6	að	að	PART	nhm	_	7	mark	_	tag=nhm
@@ -66,9 +64,8 @@
 8	Paradís	Paradís	PROPN	sérnafn_et_þgf_kvk	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	tag=sérnafn_et_þgf_kvk
 9	í	í	ADP	fs_þf	Case=Acc	10	case	_	tag=fs_þf
 10	Norður-Kaliforníu	Norður-Kalifornía	PROPN	sérnafn_et_þf	Case=Acc|Number=Sing	7	obl	_	tag=sérnafn_et_þf
-11-12	í gær	_	_	_	_	_	_	_	_
-11	í	í	ADV	ao	_	3	advmod	_	SpaceAfter=No|tag=ao
-12	gær	gær	ADV	ao	_	11	fixed	_	SpaceAfter=No|tag=ao
+11	í	í	ADV	ao	_	3	advmod	_	tag=ao
+12	gær	gær	ADV	ao	_	11	fixed	_	MWEEnd=Yes|SpaceAfter=No|tag=ao
 13	.	_	PUNCT	grm	_	3	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00080,.5
@@ -93,7 +90,7 @@
 # text = Fjárfestingaumhverfið hér sé þó mun tryggara og með öðrum hætti en fyrir áratug síðan.
 1	Fjárfestingaumhverfið	fjárfestingaumhverfi	NOUN	no_et_nf_hk_gr	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	tag=no_et_nf_hk_gr
 2	hér	hér	ADV	ao	_	6	advmod	_	tag=ao
-3	sé	vera	VERB	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
+3	sé	vera	AUX	so_0_vh_p3_et_nt_gm	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	tag=so_0_vh_p3_et_nt_gm
 4	þó	þó	ADV	ao	_	6	advmod	_	tag=ao
 5	mun	munur	NOUN	no_et_þgf_kk	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	tag=no_et_þgf_kk
 6	tryggara	tryggur	ADJ	lo_et_nf_hk_mst	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	tag=lo_et_nf_hk_mst
@@ -110,7 +107,7 @@
 # sent_id = GREYNIR_CORPUS_00080,.7
 # text = Hún er hætt að sjást opinberlega með gleraugu og komin með allt öðruvísi fatastíl.
 1	Hún	Hún	PRON	pfn_et_nf_kvk_p3	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	tag=pfn_et_nf_kvk_p3
-2	er	er	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
+2	er	vera	VERB	so_1_nf_fh_p3_et_nt_gm	Case=Nom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	tag=so_1_nf_fh_p3_et_nt_gm
 3	hætt	hætta	VERB	so_0_lhþt_et	Number=Sing|VerbForm=Part	2	conj	_	tag=so_0_lhþt_et
 4	að	að	PART	nhm	_	5	mark	_	tag=nhm
 5	sjást	sjá	VERB	so_0_nh_mm	VerbForm=Inf|Voice=Mid	2	xcomp	_	tag=so_0_nh_mm
@@ -122,7 +119,7 @@
 11	með	með	ADP	fs_þf	Case=Acc	14	case	_	tag=fs_þf
 12	allt	allt	ADV	eo	_	14	advmod	_	tag=eo
 13	öðruvísi	öðruvísi	ADJ	lo_et_þf_kk_sb	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	tag=lo_et_þf_kk_sb
-14	fatastíl	fatastíll	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|tag=no_et_þf_kk
+14	fatastíl	fatastíll	NOUN	no_et_þf_kk	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|tag=no_et_þf_kk
 15	.	_	PUNCT	grm	_	2	punct	_	tag=grm
 
 # sent_id = GREYNIR_CORPUS_00080,.8
@@ -148,7 +145,7 @@
 1	Í	í	ADP	fs_þgf	Case=Dat	3	case	_	tag=fs_þgf
 2	einu	einn	PRON	fn_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	tag=fn_et_þgf_hk
 3	máli	mál	NOUN	no_et_þgf_hk	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	tag=no_et_þgf_hk
-4	voru	vera	AUX	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	aux	_	tag=so_1_nf_fh_p3_ft_þt_gm
+4	voru	vera	AUX	so_1_nf_fh_p3_ft_þt_gm	Case=Nom|Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	cop	_	tag=so_1_nf_fh_p3_ft_þt_gm
 5	sakborningar	sakborningur	NOUN	no_ft_nf_kk	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	tag=no_ft_nf_kk
 6	sýknaðir	sýkna	VERB	so_0_lhþt_ft	Number=Plur|VerbForm=Part	0	root	_	tag=so_0_lhþt_ft
 7	í	í	ADP	fs_þgf	Case=Dat	8	case	_	tag=fs_þgf
