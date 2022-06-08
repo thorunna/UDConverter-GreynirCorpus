@@ -140,12 +140,13 @@ head_rules = {
     "IP-INF-PRD": {"dir": "r", "rules": ["VP"]},
     "IP-INF-SUBJ": {"dir": "r", "rules": ["VP"]},
     "IP-INF-OBJ": {"dir": "r", "rules": ["VP"]},
+    "IP-INF-IOBJ": {"dir": "r", "rules": ["VP"]},
     "NP": {
         "dir": "r",
         "rules": [
             # "CP-FRL",
             (
-                "no(_(et|ft))?_(nf|ef|þgf).*|person(_(et|ft))?_nf.*|person.*|entity(_(et|ft))?_nf.*|fyrirtæki(_(et|ft))?_nf.*|gata(_(et|ft))?_nf.*|dagsafs|sérnafn"
+                "no(_(et|ft))?_(nf|ef|þgf).*|person(_(et|ft))?_nf.*|person.*|entity(_(et|ft))?_nf.*|entity.*|fyrirtæki(_(et|ft))?_nf.*|gata(_(et|ft))?_nf.*|dagsafs|sérnafn"
             ),
             ("no.*|sérnafn.*|person.*|entity.*|fyrirtæki.*|gata.*|prósenta.*"),
             "IP-INF",
@@ -199,8 +200,9 @@ head_rules = {
             "NP.*",
             ("lo.*|so.*"),
             "tala",
-            "gr.",
+            "gr_.*",
             ("tala.*|to.*|töl.*"),
+            "CP-THT",
         ],
     },  # predicate
     "NP-ADP": {
@@ -227,10 +229,14 @@ head_rules = {
         "dir": "r",
         "rules": ["fyrirtæki.*", "entity.*", "sérnafn.*", "lo.*"],
     },
-    "NP-TITLE": {"dir": "r", "rules": ["no.*", "fn.*", "PP"]},
+    "NP-TITLE": {"dir": "r", "rules": ["no.*", "fn.*", "person.*", "PP"]},
+    "NP-PERSON": {
+        "dir": "r",
+        "rules": ["no(_\w\w)?_nf.*|person.*|person(_\w\w)?_nf.*", "no"],
+    },
     "ADJP": {"dir": "r", "rules": ["lo.*"]},
     "VP": {"dir": "r", "rules": ["so.*", "NP-PRD", "VP", "IP-INF"]},
-    "VP-AUX": {"dir": "r", "rules": ["so.*"]},
+    "VP-AUX": {"dir": "r", "rules": ["so.*", "VP", "VP-AUX"]},
     "PP": {
         "dir": "r",
         "rules": [
@@ -308,9 +314,10 @@ relation_NP = {
     "ADDR": "obl",
     "AGE": "obl",
     "MEASURE": "obl",
-    "COMPANY": "VANTAR_LIÐ-obl?",  # TODO
+    "COMPANY": "obl",  # TODO
     "TITLE": "obl",  # TODO: Ætti title að vera merkt öðruvísi?
     "ES": "expl",
+    "PREFIX": "obl",
 }
 
 relation_IP = {
@@ -318,6 +325,7 @@ relation_IP = {
     "INF": "xcomp",
     "INF-SUBJ": "xcomp",
     "INF-OBJ": "xcomp",
+    "INF-IOBJ": "xcomp",
     "INF-PRD": "csubj",
 }
 
@@ -335,6 +343,7 @@ relation_CP = {
     "QUE": "ccomp/xcomp",
     "QUE-OBJ": "ccomp/xcomp",
     "QUE-SUBJ": "ccomp/xcomp",
+    "QUE-PRD": "ccomp/xcomp",
     "REL": "acl:relcl",
     "SOURCE": "ccomp/xcomp",
     "THT": "ccomp/xcomp",

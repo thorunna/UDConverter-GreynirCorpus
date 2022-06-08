@@ -8,11 +8,11 @@ from lib.reader import IndexedCorpusTree
 
 
 def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
-    # return mod_tag, mod_func, head_tag, head_func
+    # return mod_tag, mod_func, head_tag, head_func  # , str(node)
     if mod_tag == "S":
         if mod_func == "PREFIX":
-            if "(st " in str(node):
-                return "cc"
+            # if "\n" in str(node) and  "(st " in str(node):
+            #    return "cc", str(node)
             return "dep"  # TODO
         elif (
             mod_func in {"MAIN", "QUE", "HEADING", "QUOTE"}
@@ -77,6 +77,7 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
                 "X",
                 "QUOTE",
                 "SOURCE",
+                "ADV-COND",
             }:
                 return "conj"
             elif head_tag == "CP":
@@ -84,38 +85,39 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
                     return "ccomp/xcomp"
                 elif head_func == "ADV-TEMP":
                     return "advcl"
-            elif "_nh_" in str(node) and head_tag == "VP" and head_func is None:
+            elif "_nh_" in node["tag"] and head_tag == "VP" and head_func is None:
                 return "ccomp/xcomp"
         return relation_IP.get(mod_func, "VANTAR_LIÐ")
     if mod_tag == "VP":
-        if head_tag == "VP" and head_func == "AUX":
-            return "aux"
-        elif mod_func == "AUX":
+        if mod_func == "AUX":
+            if node["lemma"] == "vera":
+                return "cop"
             return "aux"
         elif mod_func is None:
-            if (
-                mod_func is None
-                and head_tag in {"IP"}
-                and head_func in {None, "INF", "INF-OBJ"}
-            ):
+            if head_tag in {"IP"} and head_func in {None, "INF", "INF-OBJ"}:
                 return "conj"
             elif (
-                "+lemma+vera" in str(node)
-                or "+lemma+er" in str(node)
-                or "+lemma+verða" in str(node)
-                or "+lemma+mæla" in str(node)
-                or "+lemma+fá" in str(node)
-                or "+lemma+nefna" in str(node)
-                or "+lemma+ráða" in str(node)
+                node["lemma"] == "vera"
+                or node["lemma"] == "er"
+                or node["lemma"] == "verða"
+                or node["lemma"] == "mæla"
+                or node["lemma"] == "fá"
+                or node["lemma"] == "nefna"
+                or node["lemma"] == "ráða"
+                or node["lemma"] == "standa"
+                or node["lemma"] == "mæta"
+                or node["lemma"] == "finna"
+                or node["lemma"] == "enda"
+                or node["lemma"] == "segja"
                 and head_tag == "VP"
                 and head_func is None
             ):
                 return "cop"  # copula, the phrase's head is a predicate
             elif (
                 (
-                    "+lemma+láta" in str(node)
-                    or "+lemma+þykja" in str(node)
-                    or "+lemma+reyna" in str(node)
+                    node["lemma"] == "láta"
+                    or node["lemma"] == "þykja"
+                    or node["lemma"] == "reyna"
                 )
                 and head_tag == "VP"
                 and head_func is None
@@ -124,13 +126,19 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
             elif head_tag == "VP" and head_func is None:
                 # and "so_0 " in str(node)
                 # or "_sagnb_" in str(node):
-                return "conj"
-            elif "_nh_" in str(node) and head_tag == "VP" and head_func is None:
+                # if mod_tag == "VP" and mod_func is None:
+                #    "aux"
+                if node["lemma"] == "koma":
+                    return "aux"
+                return "conj"  # TODO: er þetta rétt?
+            elif "_nh_" in node["tag"] and head_tag == "VP" and head_func is None:
                 return "ccomp/xcomp"
-            elif "lhþt" in str(node) and head_tag == "VP" and head_func is None:
+            elif "lhþt" in node["tag"] and head_tag == "VP" and head_func is None:
                 return "ccomp/xcomp"
             elif head_tag == "PP":
                 return "case"  # TODO
+        elif head_tag == "VP" and head_func == "AUX":
+            return "aux"
         return "dep"
     elif mod_tag == "so":
         if head_tag == "CP":
@@ -182,17 +190,17 @@ def determine_relations(mod_tag, mod_func, head_tag, head_func, node):
     elif mod_tag == "st":
         return "cc"
     elif mod_tag in {"C", "CP", "TO",} and (
-        "st og+lemma+og" in str(node)
-        or "st eða+lemma+eða" in str(node)
-        or "st en+lemma+en" in str(node)
-        or "st heldur+lemma+heldur" in str(node)
-        or "st enda+lemma+enda" in str(node)
-        or "st ellegar+lemma+ellegar" in str(node)
-        or "st bæði+lemma+bæði" in str(node)
-        or "st hvorki+lemma+hvorki" in str(node)
-        or "st annaðhvort+lemma+annaðhvort" in str(node)
-        or "st hvort+lemma+hvort" in str(node)
-        or "st ýmist+lemma+ýmist" in str(node)
+        node["lemma"] == "og"
+        or node["lemma"] == "eða"
+        or node["lemma"] == "en"
+        or node["lemma"] == "heldur"
+        or node["lemma"] == "enda"
+        or node["lemma"] == "ellegar"
+        or node["lemma"] == "bæði"
+        or node["lemma"] == "hvorki"
+        or node["lemma"] == "annaðhvort"
+        or node["lemma"] == "hvort"
+        or node["lemma"] == "ýmist"
     ):  # coordinating conjunction
         return "cc"
     elif mod_tag in {"C", "CP", "TO"}:

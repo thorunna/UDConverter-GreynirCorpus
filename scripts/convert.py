@@ -149,7 +149,7 @@ def main():
                 )
             elif "devset" in input_path:
                 output_path = (
-                    os.path.join("../CoNLLU/devset_p1", output_file)
+                    os.path.join("../CoNLLU/devset", output_file)
                     if output_file
                     else None
                 )
